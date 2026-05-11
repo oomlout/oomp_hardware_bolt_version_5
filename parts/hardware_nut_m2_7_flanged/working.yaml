@@ -1,0 +1,584 @@
+bip_39_2_word_array:
+- foster
+- brand
+bip_39_2_word_no_space: fosterbrand
+bip_39_2_word_space: foster brand
+bip_39_2_word_underscore: foster_brand
+bip_39_3_word_array:
+- foster
+- brand
+- diesel
+bip_39_3_word_no_space: fosterbranddiesel
+bip_39_3_word_space: foster brand diesel
+bip_39_3_word_underscore: foster_brand_diesel
+bip_39_full_array:
+- foster
+- brand
+- diesel
+- weekend
+- assume
+- coach
+- leave
+- crystal
+- below
+- evoke
+- goose
+- measure
+bip_39_full_no_space: fosterbranddieselweekendassumecoachleavecrystalbelowevokegoosemeasure
+bip_39_full_space: foster brand diesel weekend assume coach leave crystal below evoke
+    goose measure
+bip_39_full_underscore: foster_brand_diesel_weekend_assume_coach_leave_crystal_below_evoke_goose_measure
+directory: parts/hardware_nut_m2_7_flanged
+id: hardware_nut_m2_7_flanged
+id_no_class: hardware_nut_m2_7_flanged
+id_no_size: hardware_nut_m2_7_flanged
+id_no_type: hardware_nut_m2_7_flanged
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m2_7_flanged
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m2_7_flanged
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m2_7_flanged
+md5: 5c0360f67c80de595fb9aa14c9c19244
+md5_10: 5c0360f67c
+md5_10_upper: 5C0360F67C
+md5_5: 5c036
+md5_5_upper: 5C036
+md5_6: 5c0360
+md5_6_alpha: 3l8ww
+md5_6_alpha_upper: 3L8WW
+md5_6_upper: 5C0360
+name: Hardware Nut M2 7 Flanged
+name_no_class: Hardware Nut M2 7 Flanged
+name_no_size: Hardware Nut M2 7 Flanged
+name_no_type: Hardware Nut M2 7 Flanged
+name_proper: Hardware Nut M2 7 Flanged
+name_space: hardware nut m2 7 flanged
+name_upper: HARDWARE NUT M2 7 FLANGED
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: new_chat
+        description: step_1_create_icon
+    -   command: ai_query
+        delay: '120'
+        mode_ai_wait: slow
+        text: 'This is a context-loading and exploration step for a laser-cuttable
+            mascot logo. Take your time and think expansively before answering. Explore
+            multiple mascot directions, compare several line-art approaches, stress-test
+            them for charm, readability, manufacturability, and overall polish, and
+            explain everything that would be useful for the next step. The goal here
+            is not brevity. The goal is to surface strong options, useful observations,
+            and a well-reasoned direction for a square, single-colour, black-on-white
+            mascot logo drawing that is charming, original, cute, polished, and instantly
+            readable at small size.
+
+
+            Creative direction:
+
+            - Invent one central mascot concept based on the theme, but push beyond
+            generic clip art. The mascot should feel witty, memorable, and slightly
+            surprising while still being cute and simple.
+
+            - Favor an adorable line-drawing character with a clear face, pose, and
+            identity. Anthropomorphize only as much as needed for charm and readability.
+
+            - Supporting elements and text are allowed and can be important when they
+            help define the identity, dimensions, category, mood, or story of the
+            logo.
+
+            - Favor iconic themed props, symbols, labels, and shape cues over random
+            decoration. Every element should help the logo read faster and feel more
+            complete.
+
+            - Think in stages before writing: concept search, line-language search,
+            simplification, and final refinement. Prefer the idea that stays most
+            legible after simplification.
+
+            - Deliberately look for a concept that feels specific to the theme rather
+            than generic kawaii branding.
+
+            - Keep the cute details genuinely sweet and lovable: soft expressions,
+            appealing proportions, simple cheeks, tiny hands or feet only if they
+            help, and charming gesture choices.
+
+            - Search for a direction that feels like a designed branded icon rather
+            than a loose doodle page.
+
+            - Make all parts of the image feel like they were designed by one illustrator
+            in one visual family, with consistent shape logic, line language, facial
+            styling, spacing, and proportion choices.
+
+            - Favor rounded geometric simplification, clear negative space, gentle
+            symmetry or balance where useful, and a visual hierarchy where the mascot
+            leads and the supporting details and text reinforce.
+
+
+            Format and manufacturing constraints:
+
+            - Pure black artwork on a pure white background only.
+
+            - No grey, no shading, no gradients, no halftones, no texture, no color,
+            no transparency, and no background scene.
+
+            - Prefer line drawing over large filled black areas. Use clean outlines
+            and sparse interior detail instead of heavy solid shapes.
+
+            - Design for laser cutting: lines should be confident and durable rather
+            than hairline-thin; details should be simple; no dense crosshatching;
+            and any islands should be connected if the design depends on physical
+            continuity.
+
+            - Keep the artwork centered in a square composition with comfortable margins
+            and a clean airy overall read.
+
+            - The drawing should feel cute, open, and light rather than dark, chunky,
+            or posterized.
+
+            - If text is used, it should be bold, simple, highly legible, and visually
+            integrated with the illustration.
+
+            - Border-like framing is allowed only if it strengthens the logo as a
+            clean badge or label shape rather than making it feel boxed in.
+
+            - Prioritize readability, cuteness, manufacturability, clarity, cohesion,
+            and polish over detail.
+
+
+            What to include in your response:
+
+            - Several candidate mascot directions for the theme, with notes on why
+            each could work.
+
+            - Observations about line clarity, readability at small size, cuteness,
+            and laser-cut safety.
+
+            - Notes on what details should be simplified, merged, thickened, connected,
+            or removed to keep the drawing light and appealing.
+
+            - Suggestions for supporting motifs and text treatments only where they
+            genuinely improve the idea.
+
+            - Observations about what makes the composition feel polished, cohesive,
+            brandable, and visually unified rather than random or clip-art-like.
+
+            - A recommended direction, with an explanation of why it is strongest.
+
+            - One strong final image-generation prompt at the end, ready for later
+            use.
+
+
+            Response style:
+
+            - Explain your reasoning clearly and include all useful detail.
+
+            - It is fine to use structure, bullets, short sections, and comparisons
+            if that helps clarity.
+
+            - The final prompt should explicitly say the image is square and black
+            on white.
+
+            '
+    -   command: ai_query
+        delay: '120'
+        mode_ai_wait: slow
+        text: 'Now use the exploration work to develop the direction for this theme:
+            an image of hardware nut m2 7 flanged please include the thread size and
+            length in the image as text, add extra icons in the back, one that ryhmes
+            with the diameter and one or two that rhymes with the length, if the length
+            is less than 14 just one if it is greater do two, one rhyming for each
+            part of the number ie for twenty five one that rhymes with twenty and
+            one that rhymes with five. Put some time into searching to find the rhymes
+
+
+            Take your time and search outward before narrowing down. Flesh the theme
+            out beyond its obvious first interpretation. Explore multiple mascot angles,
+            visual metaphors, poses, supporting motifs, text treatments, and line-drawing
+            approaches, and explain what becomes more interesting, more readable,
+            cuter, more cohesive, or more manufacturable as you develop the idea.
+            Make it more creatively specific than the theme name alone while staying
+            laser-cut safe.
+
+
+            What to do:
+
+            - Explore a healthy range of possible directions, not just the first few
+            obvious ones.
+
+            - Search for specific, memorable, and theme-native ideas rather than generic
+            cute branding.
+
+            - Compare different mascot interpretations, poses, prop choices, supporting
+            motifs, and label or badge text treatments where relevant.
+
+            - Compare different outline and interior-line strategies, especially ones
+            that avoid large dark filled areas.
+
+            - Discuss what helps or hurts the drawing at small size.
+
+            - Call out what should be simplified, thickened, connected, merged, or
+            removed for laser cutting.
+
+            - Surface tradeoffs between charm, cuteness, clarity, uniqueness, and
+            manufacturability.
+
+            - Favor directions that feel sweet, lovable, and visually light. Avoid
+            details that make the mascot feel fussy, stern, generic, or overdesigned.
+
+            - Favor directions where the mascot, supporting details, and text feel
+            like one designed system rather than separate assets placed next to each
+            other.
+
+            - Look for ways to make the composition feel more polished, premium, badge-like,
+            and visually intentional without losing warmth.
+
+            - Recommend the strongest direction only after the exploration feels well
+            developed.
+
+            - End with one polished final image-generation prompt paragraph for the
+            recommended direction.
+
+
+            Response style:
+
+            - Explain everything that seems useful for the next step.
+
+            - It is good to be expansive here; do not compress the thinking prematurely.
+
+            - Structured notes, comparisons, bullets, and short sections are welcome
+            if they help clarity.
+
+            - The final prompt should explicitly say the image is square and black
+            on white.
+
+            '
+    -   command: ai_query
+        delay: '120'
+        mode_ai_wait: slow
+        text: Generate the image take all the time you need
+    -   command: save_image_generated
+        file_name: initial_generated_icon.png
+        mode_ai_wait: slow
+    -   command: close_tab
+    file_test: initial_generated_icon.png
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_nut_m2_7_flanged
+            name: hardware_nut_m2_7_flanged
+            name_proper: Hardware Nut M2 7 Flanged
+            name_space: hardware nut m2 7 flanged
+            name_upper: HARDWARE NUT M2 7 FLANGED
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: new_chat
+                    description: step_1_create_icon
+                -   command: ai_query
+                    delay: '120'
+                    mode_ai_wait: slow
+                    text: 'This is a context-loading and exploration step for a laser-cuttable
+                        mascot logo. Take your time and think expansively before answering.
+                        Explore multiple mascot directions, compare several line-art
+                        approaches, stress-test them for charm, readability, manufacturability,
+                        and overall polish, and explain everything that would be useful
+                        for the next step. The goal here is not brevity. The goal
+                        is to surface strong options, useful observations, and a well-reasoned
+                        direction for a square, single-colour, black-on-white mascot
+                        logo drawing that is charming, original, cute, polished, and
+                        instantly readable at small size.
+
+
+                        Creative direction:
+
+                        - Invent one central mascot concept based on the theme, but
+                        push beyond generic clip art. The mascot should feel witty,
+                        memorable, and slightly surprising while still being cute
+                        and simple.
+
+                        - Favor an adorable line-drawing character with a clear face,
+                        pose, and identity. Anthropomorphize only as much as needed
+                        for charm and readability.
+
+                        - Supporting elements and text are allowed and can be important
+                        when they help define the identity, dimensions, category,
+                        mood, or story of the logo.
+
+                        - Favor iconic themed props, symbols, labels, and shape cues
+                        over random decoration. Every element should help the logo
+                        read faster and feel more complete.
+
+                        - Think in stages before writing: concept search, line-language
+                        search, simplification, and final refinement. Prefer the idea
+                        that stays most legible after simplification.
+
+                        - Deliberately look for a concept that feels specific to the
+                        theme rather than generic kawaii branding.
+
+                        - Keep the cute details genuinely sweet and lovable: soft
+                        expressions, appealing proportions, simple cheeks, tiny hands
+                        or feet only if they help, and charming gesture choices.
+
+                        - Search for a direction that feels like a designed branded
+                        icon rather than a loose doodle page.
+
+                        - Make all parts of the image feel like they were designed
+                        by one illustrator in one visual family, with consistent shape
+                        logic, line language, facial styling, spacing, and proportion
+                        choices.
+
+                        - Favor rounded geometric simplification, clear negative space,
+                        gentle symmetry or balance where useful, and a visual hierarchy
+                        where the mascot leads and the supporting details and text
+                        reinforce.
+
+
+                        Format and manufacturing constraints:
+
+                        - Pure black artwork on a pure white background only.
+
+                        - No grey, no shading, no gradients, no halftones, no texture,
+                        no color, no transparency, and no background scene.
+
+                        - Prefer line drawing over large filled black areas. Use clean
+                        outlines and sparse interior detail instead of heavy solid
+                        shapes.
+
+                        - Design for laser cutting: lines should be confident and
+                        durable rather than hairline-thin; details should be simple;
+                        no dense crosshatching; and any islands should be connected
+                        if the design depends on physical continuity.
+
+                        - Keep the artwork centered in a square composition with comfortable
+                        margins and a clean airy overall read.
+
+                        - The drawing should feel cute, open, and light rather than
+                        dark, chunky, or posterized.
+
+                        - If text is used, it should be bold, simple, highly legible,
+                        and visually integrated with the illustration.
+
+                        - Border-like framing is allowed only if it strengthens the
+                        logo as a clean badge or label shape rather than making it
+                        feel boxed in.
+
+                        - Prioritize readability, cuteness, manufacturability, clarity,
+                        cohesion, and polish over detail.
+
+
+                        What to include in your response:
+
+                        - Several candidate mascot directions for the theme, with
+                        notes on why each could work.
+
+                        - Observations about line clarity, readability at small size,
+                        cuteness, and laser-cut safety.
+
+                        - Notes on what details should be simplified, merged, thickened,
+                        connected, or removed to keep the drawing light and appealing.
+
+                        - Suggestions for supporting motifs and text treatments only
+                        where they genuinely improve the idea.
+
+                        - Observations about what makes the composition feel polished,
+                        cohesive, brandable, and visually unified rather than random
+                        or clip-art-like.
+
+                        - A recommended direction, with an explanation of why it is
+                        strongest.
+
+                        - One strong final image-generation prompt at the end, ready
+                        for later use.
+
+
+                        Response style:
+
+                        - Explain your reasoning clearly and include all useful detail.
+
+                        - It is fine to use structure, bullets, short sections, and
+                        comparisons if that helps clarity.
+
+                        - The final prompt should explicitly say the image is square
+                        and black on white.
+
+                        '
+                -   command: ai_query
+                    delay: '120'
+                    mode_ai_wait: slow
+                    text: 'Now use the exploration work to develop the direction for
+                        this theme: an image of hardware nut m2 7 flanged please include
+                        the thread size and length in the image as text, add extra
+                        icons in the back, one that ryhmes with the diameter and one
+                        or two that rhymes with the length, if the length is less
+                        than 14 just one if it is greater do two, one rhyming for
+                        each part of the number ie for twenty five one that rhymes
+                        with twenty and one that rhymes with five. Put some time into
+                        searching to find the rhymes
+
+
+                        Take your time and search outward before narrowing down. Flesh
+                        the theme out beyond its obvious first interpretation. Explore
+                        multiple mascot angles, visual metaphors, poses, supporting
+                        motifs, text treatments, and line-drawing approaches, and
+                        explain what becomes more interesting, more readable, cuter,
+                        more cohesive, or more manufacturable as you develop the idea.
+                        Make it more creatively specific than the theme name alone
+                        while staying laser-cut safe.
+
+
+                        What to do:
+
+                        - Explore a healthy range of possible directions, not just
+                        the first few obvious ones.
+
+                        - Search for specific, memorable, and theme-native ideas rather
+                        than generic cute branding.
+
+                        - Compare different mascot interpretations, poses, prop choices,
+                        supporting motifs, and label or badge text treatments where
+                        relevant.
+
+                        - Compare different outline and interior-line strategies,
+                        especially ones that avoid large dark filled areas.
+
+                        - Discuss what helps or hurts the drawing at small size.
+
+                        - Call out what should be simplified, thickened, connected,
+                        merged, or removed for laser cutting.
+
+                        - Surface tradeoffs between charm, cuteness, clarity, uniqueness,
+                        and manufacturability.
+
+                        - Favor directions that feel sweet, lovable, and visually
+                        light. Avoid details that make the mascot feel fussy, stern,
+                        generic, or overdesigned.
+
+                        - Favor directions where the mascot, supporting details, and
+                        text feel like one designed system rather than separate assets
+                        placed next to each other.
+
+                        - Look for ways to make the composition feel more polished,
+                        premium, badge-like, and visually intentional without losing
+                        warmth.
+
+                        - Recommend the strongest direction only after the exploration
+                        feels well developed.
+
+                        - End with one polished final image-generation prompt paragraph
+                        for the recommended direction.
+
+
+                        Response style:
+
+                        - Explain everything that seems useful for the next step.
+
+                        - It is good to be expansive here; do not compress the thinking
+                        prematurely.
+
+                        - Structured notes, comparisons, bullets, and short sections
+                        are welcome if they help clarity.
+
+                        - The final prompt should explicitly say the image is square
+                        and black on white.
+
+                        '
+                -   command: ai_query
+                    delay: '120'
+                    mode_ai_wait: slow
+                    text: Generate the image take all the time you need
+                -   command: save_image_generated
+                    file_name: initial_generated_icon.png
+                    mode_ai_wait: slow
+                -   command: close_tab
+                file_test: initial_generated_icon.png
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: nut
+            taxonomy_3: m2_7
+            taxonomy_4: flanged
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        file_output: label_oomp.svg
+        file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+oomp_key: oomp_hardware_nut_m2_7_flanged
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: nut
+taxonomy_2_capital: Nut
+taxonomy_2_first_letter: n
+taxonomy_2_first_letter_upper: N
+taxonomy_2_length_1: n
+taxonomy_2_length_2: nu
+taxonomy_2_length_3: nut
+taxonomy_2_length_4: nut
+taxonomy_2_length_5: nut
+taxonomy_2_upper: NUT
+taxonomy_2_upper_length_1: N
+taxonomy_2_upper_length_2: NU
+taxonomy_2_upper_length_3: NUT
+taxonomy_2_upper_length_4: NUT
+taxonomy_2_upper_length_5: NUT
+taxonomy_3: m2_7
+taxonomy_3_capital: M2.7
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m2
+taxonomy_3_length_3: m2_
+taxonomy_3_length_4: m2_7
+taxonomy_3_length_5: m2_7
+taxonomy_3_upper: M2_7
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M2
+taxonomy_3_upper_length_3: M2_
+taxonomy_3_upper_length_4: M2_7
+taxonomy_3_upper_length_5: M2_7
+taxonomy_4: flanged
+taxonomy_4_capital: Flanged
+taxonomy_4_first_letter: f
+taxonomy_4_first_letter_upper: F
+taxonomy_4_length_1: f
+taxonomy_4_length_2: fl
+taxonomy_4_length_3: fla
+taxonomy_4_length_4: flan
+taxonomy_4_length_5: flang
+taxonomy_4_upper: FLANGED
+taxonomy_4_upper_length_1: F
+taxonomy_4_upper_length_2: FL
+taxonomy_4_upper_length_3: FLA
+taxonomy_4_upper_length_4: FLAN
+taxonomy_4_upper_length_5: FLANG
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: ''

@@ -1,8 +1,10 @@
-color_band_project_bolt_1: blue
+color_band_project_bolt_1: red
 color_band_project_bolt_2: red
-color_band_string_project_bolt: colour_band_blue_red
-color_band_taxonomy_2: blue
+color_band_project_bolt_3: blue
+color_band_string_project_bolt: colour_band_blue_red_red
 color_band_taxonomy_3: red
+color_band_taxonomy_6: blue
+color_band_taxonomy_7: red
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
