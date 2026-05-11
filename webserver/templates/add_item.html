@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block title %}Add Item | {{ app_title }}{% endblock %}
+{% block page_title %}Add Item{% endblock %}
+
+{% block content %}
+  <section class="hero-panel hero-panel--simple">
+    <div class="panel__header">
+      <div>
+        <h1 class="page-title">Record Manual Entry</h1>
+      </div>
+    </div>
+
+    <form class="toolbar toolbar--stacked" method="get" action="{{ url_for('manual.add_item') }}">
+      <label class="field">
+        <span class="field__label">Part family</span>
+        <select id="family-select" class="input" name="family">
+          {% for slug, family in families.items() %}
+            <option value="{{ slug }}"{% if slug == family_slug %} selected{% endif %}>{{ family.label }}</option>
+          {% endfor %}
+        </select>
+      </label>
+      <div class="toolbar">
+        <button class="button" type="submit">Load Form</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="panel panel--form">
+    <div class="panel__header">
+      <div>
+        <h2 class="section-title">{{ family_config.label }}</h2>
+        <p class="section-copy">{{ family_config.description }}</p>
+      </div>
+    </div>
+
+    <form method="post" action="{{ url_for('manual.add_item') }}" class="form-grid">
+      <input type="hidden" name="family" value="{{ family_slug }}">
+      {% for field in family_config.fields %}
+        <label class="field">
+          <span class="field__label">{{ field.label }}{% if field.required %} *{% endif %}</span>
+          {% if field.input_type == "number" %}
+            <input
+              class="input"
+              type="number"
+              step="any"
+              name="{{ field.name }}"
+              value="{{ form_values.get(field.name, '') }}"
+              placeholder="{{ field.placeholder or '' }}"
+              {% if field.required %}required{% endif %}
+            >
+          {% else %}
+            <input
+              class="input"
+              type="text"
+              name="{{ field.name }}"
+              value="{{ form_values.get(field.name, '') }}"
+              placeholder="{{ field.placeholder or '' }}"
+              {% if field.required %}required{% endif %}
+            >
+          {% endif %}
+          {% if field.help_text %}
+            <span class="field__help">{{ field.help_text }}</span>
+          {% endif %}
+        </label>
+      {% endfor %}
+      <div class="toolbar">
+        <button class="button button--accent" type="submit">Record Entry</button>
+      </div>
+    </form>
+  </section>
+{% endblock %}
+
+{% block scripts %}
+  <script src="{{ url_for('static', filename='add_item.js') }}"></script>
+{% endblock %}

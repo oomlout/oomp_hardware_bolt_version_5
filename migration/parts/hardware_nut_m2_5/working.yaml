@@ -1,0 +1,88 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: ''
+description_main_capital: ''
+description_main_first_letter: ''
+description_main_first_letter_upper: ''
+description_main_upper: ''
+description_only_numbers: ''
+description_only_numbers_short: ' '
+description_or_color: ' '
+description_or_color_upper: ' '
+directory: parts/hardware_nut_m2_5
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_nut_m2_5
+id_no_class: nut_m2_5
+id_no_size: m2_5
+id_no_type: m2_5
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m2_5
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m2_5
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m2_5
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_nut_m2_5](none)<br>[nu](none)<br>[Hardware Nut M2 5](none)<br><br>'
+markdown_short: '[hardware_nut_m2_5](none)<br><br>'
+md5: 19c4664ed35ff2e1ba65fe53ec1d037c
+md5_10: 19c4664ed3
+md5_10_upper: 19C4664ED3
+md5_5: 19c46
+md5_5_upper: 19C46
+md5_6: 19c466
+md5_6_alpha: 106zq
+md5_6_alpha_upper: 106ZQ
+md5_6_upper: 19C466
+name: Hardware Nut M2 5
+name_no_class: Nut M2 5
+name_no_size: M2 5
+name_no_size_short: M2 5
+name_no_type: M2 5
+oomp_key: oomp_hardware_nut_m2_5
+oomp_word: pray cookie leaves
+oomp_word_emoji: ':pray: :cookie: :leaves:'
+oomp_word_emoji_list:
+- ':pray:'
+- ':cookie:'
+- ':leaves:'
+oomp_word_list:
+- pray
+- cookie
+- leaves
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: nu
+short_code_upper: NU
+size: m2_5
+size_capital: M2.5
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '25'
+size_only_numbers_no_zeros: '25'
+size_upper: M2_5
+type: nut
+type_capital: Nut
+type_first_letter: n
+type_first_letter_upper: N
+type_upper: NUT

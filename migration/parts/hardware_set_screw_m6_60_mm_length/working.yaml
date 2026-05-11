@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: 60_mm_length
+description_main_capital: 60 mm Length
+description_main_first_letter: '6'
+description_main_first_letter_upper: '6'
+description_main_upper: 60_MM_LENGTH
+description_only_numbers: '60'
+description_only_numbers_short: '60'
+description_or_color: '60'
+description_or_color_upper: '60'
+directory: parts/hardware_set_screw_m6_60_mm_length
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_set_screw_m6_60_mm_length
+id_no_class: set_screw_m6_60_mm_length
+id_no_size: 60_mm_length
+id_no_type: m6_60_mm_length
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m6_60_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m6_60_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m6_60_mm_length
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_set_screw_m6_60_mm_length](none)<br>[ss660](none)<br>[Hardware
+    Set Screw M6 60 Mm Length](none)<br><br>'
+markdown_short: '[hardware_set_screw_m6_60_mm_length](none)<br><br>'
+md5: 1dab89e1a664f84946f289824c1f7a21
+md5_10: 1dab89e1a6
+md5_10_upper: 1DAB89E1A6
+md5_5: 1dab8
+md5_5_upper: 1DAB8
+md5_6: 1dab89
+md5_6_alpha: 15ocp
+md5_6_alpha_upper: 15OCP
+md5_6_upper: 1DAB89
+name: Hardware Set Screw M6 60 Mm Length
+name_no_class: Set Screw M6 60 Mm Length
+name_no_size: 60 Mm Length
+name_no_size_short: 60 Mm Length
+name_no_type: M6 60 Mm Length
+oomp_key: oomp_hardware_set_screw_m6_60_mm_length
+oomp_word: baby boot hammer
+oomp_word_emoji: ':baby: :boot: :hammer:'
+oomp_word_emoji_list:
+- ':baby:'
+- ':boot:'
+- ':hammer:'
+oomp_word_list:
+- baby
+- boot
+- hammer
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ss660
+short_code_upper: SS660
+size: m6
+size_capital: M6
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '6'
+size_only_numbers_no_zeros: '6'
+size_upper: M6
+type: set_screw
+type_capital: Set Screw
+type_first_letter: s
+type_first_letter_upper: S
+type_upper: SET_SCREW

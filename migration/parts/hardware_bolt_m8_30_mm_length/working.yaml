@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: 30_mm_length
+description_main_capital: 30 mm Length
+description_main_first_letter: '3'
+description_main_first_letter_upper: '3'
+description_main_upper: 30_MM_LENGTH
+description_only_numbers: '30'
+description_only_numbers_short: '30'
+description_or_color: '30'
+description_or_color_upper: '30'
+directory: parts/hardware_bolt_m8_30_mm_length
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_bolt_m8_30_mm_length
+id_no_class: bolt_m8_30_mm_length
+id_no_size: 30_mm_length
+id_no_type: m8_30_mm_length
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m8_30_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m8_30_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m8_30_mm_length
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_bolt_m8_30_mm_length](none)<br>[b830](none)<br>[Hardware
+    Bolt M8 30 Mm Length](none)<br><br>'
+markdown_short: '[hardware_bolt_m8_30_mm_length](none)<br><br>'
+md5: 337334ee05356ccc465b6357fd37806b
+md5_10: 337334ee05
+md5_10_upper: 337334EE05
+md5_5: '33733'
+md5_5_upper: '33733'
+md5_6: '337334'
+md5_6_alpha: 209pw
+md5_6_alpha_upper: 209PW
+md5_6_upper: '337334'
+name: Hardware Bolt M8 30 Mm Length
+name_no_class: Bolt M8 30 Mm Length
+name_no_size: 30 Mm Length
+name_no_size_short: 30 Mm Length
+name_no_type: M8 30 Mm Length
+oomp_key: oomp_hardware_bolt_m8_30_mm_length
+oomp_word: dog flags mouse
+oomp_word_emoji: ':dog: :flags: :mouse:'
+oomp_word_emoji_list:
+- ':dog:'
+- ':flags:'
+- ':mouse:'
+oomp_word_list:
+- dog
+- flags
+- mouse
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: b830
+short_code_upper: B830
+size: m8
+size_capital: M8
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '8'
+size_only_numbers_no_zeros: '8'
+size_upper: M8
+type: bolt
+type_capital: Bolt
+type_first_letter: b
+type_first_letter_upper: B
+type_upper: BOLT

@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: 90_mm_length
+description_main_capital: 90 mm Length
+description_main_first_letter: '9'
+description_main_first_letter_upper: '9'
+description_main_upper: 90_MM_LENGTH
+description_only_numbers: '90'
+description_only_numbers_short: '90'
+description_or_color: '90'
+description_or_color_upper: '90'
+directory: parts/hardware_set_screw_m8_90_mm_length
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_set_screw_m8_90_mm_length
+id_no_class: set_screw_m8_90_mm_length
+id_no_size: 90_mm_length
+id_no_type: m8_90_mm_length
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_90_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_90_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_90_mm_length
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_set_screw_m8_90_mm_length](none)<br>[ss890](none)<br>[Hardware
+    Set Screw M8 90 Mm Length](none)<br><br>'
+markdown_short: '[hardware_set_screw_m8_90_mm_length](none)<br><br>'
+md5: 1eb0953b12ff6a4fbce364100504e7e1
+md5_10: 1eb0953b12
+md5_10_upper: 1EB0953B12
+md5_5: 1eb09
+md5_5_upper: 1EB09
+md5_6: 1eb095
+md5_6_alpha: 173x1
+md5_6_alpha_upper: 173X1
+md5_6_upper: 1EB095
+name: Hardware Set Screw M8 90 Mm Length
+name_no_class: Set Screw M8 90 Mm Length
+name_no_size: 90 Mm Length
+name_no_size_short: 90 Mm Length
+name_no_type: M8 90 Mm Length
+oomp_key: oomp_hardware_set_screw_m8_90_mm_length
+oomp_word: angel crown telescope
+oomp_word_emoji: ':angel: :crown: :telescope:'
+oomp_word_emoji_list:
+- ':angel:'
+- ':crown:'
+- ':telescope:'
+oomp_word_list:
+- angel
+- crown
+- telescope
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ss890
+short_code_upper: SS890
+size: m8
+size_capital: M8
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '8'
+size_only_numbers_no_zeros: '8'
+size_upper: M8
+type: set_screw
+type_capital: Set Screw
+type_first_letter: s
+type_first_letter_upper: S
+type_upper: SET_SCREW

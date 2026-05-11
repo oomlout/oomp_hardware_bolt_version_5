@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: 35_mm_length
+description_main_capital: 35 mm Length
+description_main_first_letter: '3'
+description_main_first_letter_upper: '3'
+description_main_upper: 35_MM_LENGTH
+description_only_numbers: '35'
+description_only_numbers_short: '35'
+description_or_color: '35'
+description_or_color_upper: '35'
+directory: parts/hardware_bolt_m6_35_mm_length
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_bolt_m6_35_mm_length
+id_no_class: bolt_m6_35_mm_length
+id_no_size: 35_mm_length
+id_no_type: m6_35_mm_length
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m6_35_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m6_35_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m6_35_mm_length
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_bolt_m6_35_mm_length](none)<br>[b635](none)<br>[Hardware
+    Bolt M6 35 Mm Length](none)<br><br>'
+markdown_short: '[hardware_bolt_m6_35_mm_length](none)<br><br>'
+md5: 54545eda91c88a53688d9d3d59adf66e
+md5_10: 54545eda91
+md5_10_upper: 54545EDA91
+md5_5: '54545'
+md5_5_upper: '54545'
+md5_6: 54545e
+md5_6_alpha: 3agda
+md5_6_alpha_upper: 3AGDA
+md5_6_upper: 54545E
+name: Hardware Bolt M6 35 Mm Length
+name_no_class: Bolt M6 35 Mm Length
+name_no_size: 35 Mm Length
+name_no_size_short: 35 Mm Length
+name_no_type: M6 35 Mm Length
+oomp_key: oomp_hardware_bolt_m6_35_mm_length
+oomp_word: whale whale crocodile
+oomp_word_emoji: ':whale: :whale: :crocodile:'
+oomp_word_emoji_list:
+- ':whale:'
+- ':whale:'
+- ':crocodile:'
+oomp_word_list:
+- whale
+- whale
+- crocodile
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: b635
+short_code_upper: B635
+size: m6
+size_capital: M6
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '6'
+size_only_numbers_no_zeros: '6'
+size_upper: M6
+type: bolt
+type_capital: Bolt
+type_first_letter: b
+type_first_letter_upper: B
+type_upper: BOLT

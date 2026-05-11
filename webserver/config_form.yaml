@@ -1,0 +1,30 @@
+default_family: generic
+
+families:
+  generic:
+    label: Hole cover entry
+    description: Record a manual hole cover option.
+    defaults:
+      type_name: hole_cover
+    fields:
+      - name: diameter
+        label: Diameter
+        input_type: number
+        required: true
+        default: 40
+        placeholder: 40
+        help_text: Outer diameter in mm.
+      - name: depth
+        label: Depth
+        input_type: number
+        required: true
+        default: 15
+        placeholder: 15
+        help_text: Depth in mm.
+      - name: hole_top_diameter
+        label: Hole Top Diameter
+        input_type: number
+        required: true
+        default: 30
+        placeholder: 30
+        help_text: Top hole diameter in mm.

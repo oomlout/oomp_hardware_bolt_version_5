@@ -1,0 +1,61 @@
+preview_priority:
+  - initial_generated_chibi.png
+  - initial_generated_icon.png
+  - image.jpg
+  - image.jpeg
+  - image.png
+  - 3dpr.png
+  - 3dpr.jpg
+  - 3dpr.webp
+  - label_oomp.svg
+  - 3dpr.svg
+  - "*.png"
+  - "*.svg"
+  - "*.jpg"
+  - "*.jpeg"
+  - "*.webp"
+  - "*.gif"
+manual_fields:
+  - name: content
+    label: Content
+    help_text: One item per line.
+  - name: taxonomy
+    label: Taxonomy
+    help_text: One item per line.
+search_fields:
+  available:
+    - name: id
+      label: ID
+    - name: taxonomy
+      label: Taxonomy
+    - name: content
+      label: Content
+  default_selected:
+    - id
+image_serving:
+  enabled: true
+  cache_dir: auto
+  max_source_pixels: 40000000
+  max_request_dimension: 4096
+  quality_webp: 82
+  presets:
+    explore_thumb:
+      width: 108
+      height: 108
+      fit: cover
+      quality: 76
+    file_popover:
+      width: 480
+      height: 360
+      fit: contain
+      quality: 82
+    detail_preview:
+      width: 1400
+      height: 1200
+      fit: contain
+      quality: 84
+    modal:
+      width: 1800
+      height: 1400
+      fit: contain
+      quality: 88

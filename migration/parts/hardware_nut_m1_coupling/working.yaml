@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: coupling
+description_main_capital: Coupling
+description_main_first_letter: c
+description_main_first_letter_upper: C
+description_main_upper: COUPLING
+description_only_numbers: ''
+description_only_numbers_short: ' '
+description_or_color: ' '
+description_or_color_upper: ' '
+directory: parts/hardware_nut_m1_coupling
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_nut_m1_coupling
+id_no_class: nut_m1_coupling
+id_no_size: coupling
+id_no_type: m1_coupling
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m1_coupling
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m1_coupling
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m1_coupling
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_nut_m1_coupling](none)<br>[nu1](none)<br>[Hardware Nut M1
+    Coupling](none)<br><br>'
+markdown_short: '[hardware_nut_m1_coupling](none)<br><br>'
+md5: 13eaab69a2924caa968f198d83db563b
+md5_10: 13eaab69a2
+md5_10_upper: 13EAAB69A2
+md5_5: 13eaa
+md5_5_upper: 13EAA
+md5_6: 13eaab
+md5_6_alpha: rz57
+md5_6_alpha_upper: RZ57
+md5_6_upper: 13EAAB
+name: Hardware Nut M1 Coupling
+name_no_class: Nut M1 Coupling
+name_no_size: Coupling
+name_no_size_short: Coupling
+name_no_type: M1 Coupling
+oomp_key: oomp_hardware_nut_m1_coupling
+oomp_word: question tractor boot
+oomp_word_emoji: ':question: :tractor: :boot:'
+oomp_word_emoji_list:
+- ':question:'
+- ':tractor:'
+- ':boot:'
+oomp_word_list:
+- question
+- tractor
+- boot
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: nu1
+short_code_upper: NU1
+size: m1
+size_capital: M1
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '1'
+size_only_numbers_no_zeros: '1'
+size_upper: M1
+type: nut
+type_capital: Nut
+type_first_letter: n
+type_first_letter_upper: N
+type_upper: NUT

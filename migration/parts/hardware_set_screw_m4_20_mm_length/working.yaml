@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: 20_mm_length
+description_main_capital: 20 mm Length
+description_main_first_letter: '2'
+description_main_first_letter_upper: '2'
+description_main_upper: 20_MM_LENGTH
+description_only_numbers: '20'
+description_only_numbers_short: '20'
+description_or_color: '20'
+description_or_color_upper: '20'
+directory: parts/hardware_set_screw_m4_20_mm_length
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_set_screw_m4_20_mm_length
+id_no_class: set_screw_m4_20_mm_length
+id_no_size: 20_mm_length
+id_no_type: m4_20_mm_length
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m4_20_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m4_20_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m4_20_mm_length
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_set_screw_m4_20_mm_length](none)<br>[ss420](none)<br>[Hardware
+    Set Screw M4 20 Mm Length](none)<br><br>'
+markdown_short: '[hardware_set_screw_m4_20_mm_length](none)<br><br>'
+md5: 2df3bfc87f7c4fb9904fc649030a389b
+md5_10: 2df3bfc87f
+md5_10_upper: 2DF3BFC87F
+md5_5: 2df3b
+md5_5_upper: 2DF3B
+md5_6: 2df3bf
+md5_6_alpha: 1sjpb
+md5_6_alpha_upper: 1SJPB
+md5_6_upper: 2DF3BF
+name: Hardware Set Screw M4 20 Mm Length
+name_no_class: Set Screw M4 20 Mm Length
+name_no_size: 20 Mm Length
+name_no_size_short: 20 Mm Length
+name_no_type: M4 20 Mm Length
+oomp_key: oomp_hardware_set_screw_m4_20_mm_length
+oomp_word: snowman two egg
+oomp_word_emoji: ':snowman: :two: :egg:'
+oomp_word_emoji_list:
+- ':snowman:'
+- ':two:'
+- ':egg:'
+oomp_word_list:
+- snowman
+- two
+- egg
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ss420
+short_code_upper: SS420
+size: m4
+size_capital: M4
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '4'
+size_only_numbers_no_zeros: '4'
+size_upper: M4
+type: set_screw
+type_capital: Set Screw
+type_first_letter: s
+type_first_letter_upper: S
+type_upper: SET_SCREW

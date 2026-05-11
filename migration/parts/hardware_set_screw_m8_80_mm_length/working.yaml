@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: 80_mm_length
+description_main_capital: 80 mm Length
+description_main_first_letter: '8'
+description_main_first_letter_upper: '8'
+description_main_upper: 80_MM_LENGTH
+description_only_numbers: '80'
+description_only_numbers_short: '80'
+description_or_color: '80'
+description_or_color_upper: '80'
+directory: parts/hardware_set_screw_m8_80_mm_length
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_set_screw_m8_80_mm_length
+id_no_class: set_screw_m8_80_mm_length
+id_no_size: 80_mm_length
+id_no_type: m8_80_mm_length
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_80_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_80_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_80_mm_length
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_set_screw_m8_80_mm_length](none)<br>[ss880](none)<br>[Hardware
+    Set Screw M8 80 Mm Length](none)<br><br>'
+markdown_short: '[hardware_set_screw_m8_80_mm_length](none)<br><br>'
+md5: f1d2114a6b8261b7311f2d71315cfbc9
+md5_10: f1d2114a6b
+md5_10_upper: F1D2114A6B
+md5_5: f1d21
+md5_5_upper: F1D21
+md5_6: f1d211
+md5_6_alpha: 9focx
+md5_6_alpha_upper: 9FOCX
+md5_6_upper: F1D211
+name: Hardware Set Screw M8 80 Mm Length
+name_no_class: Set Screw M8 80 Mm Length
+name_no_size: 80 Mm Length
+name_no_size_short: 80 Mm Length
+name_no_type: M8 80 Mm Length
+oomp_key: oomp_hardware_set_screw_m8_80_mm_length
+oomp_word: ticket pineapple dizzy
+oomp_word_emoji: ':ticket: :pineapple: :dizzy:'
+oomp_word_emoji_list:
+- ':ticket:'
+- ':pineapple:'
+- ':dizzy:'
+oomp_word_list:
+- ticket
+- pineapple
+- dizzy
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ss880
+short_code_upper: SS880
+size: m8
+size_capital: M8
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '8'
+size_only_numbers_no_zeros: '8'
+size_upper: M8
+type: set_screw
+type_capital: Set Screw
+type_first_letter: s
+type_first_letter_upper: S
+type_upper: SET_SCREW

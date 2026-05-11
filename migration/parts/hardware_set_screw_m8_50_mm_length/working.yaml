@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: 50_mm_length
+description_main_capital: 50 mm Length
+description_main_first_letter: '5'
+description_main_first_letter_upper: '5'
+description_main_upper: 50_MM_LENGTH
+description_only_numbers: '50'
+description_only_numbers_short: '50'
+description_or_color: '50'
+description_or_color_upper: '50'
+directory: parts/hardware_set_screw_m8_50_mm_length
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_set_screw_m8_50_mm_length
+id_no_class: set_screw_m8_50_mm_length
+id_no_size: 50_mm_length
+id_no_type: m8_50_mm_length
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_50_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_50_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_50_mm_length
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_set_screw_m8_50_mm_length](none)<br>[ss850](none)<br>[Hardware
+    Set Screw M8 50 Mm Length](none)<br><br>'
+markdown_short: '[hardware_set_screw_m8_50_mm_length](none)<br><br>'
+md5: 02709264b2e6698486c71cb814d32667
+md5_10: 02709264b2
+md5_10_upper: 02709264B2
+md5_5: 02709
+md5_5_upper: 02709
+md5_6: 027092
+md5_6_alpha: 3fde
+md5_6_alpha_upper: 3FDE
+md5_6_upper: 027092
+name: Hardware Set Screw M8 50 Mm Length
+name_no_class: Set Screw M8 50 Mm Length
+name_no_size: 50 Mm Length
+name_no_size_short: 50 Mm Length
+name_no_type: M8 50 Mm Length
+oomp_key: oomp_hardware_set_screw_m8_50_mm_length
+oomp_word: blush squirrel paperclip
+oomp_word_emoji: ':blush: :squirrel: :paperclip:'
+oomp_word_emoji_list:
+- ':blush:'
+- ':squirrel:'
+- ':paperclip:'
+oomp_word_list:
+- blush
+- squirrel
+- paperclip
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ss850
+short_code_upper: SS850
+size: m8
+size_capital: M8
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '8'
+size_only_numbers_no_zeros: '8'
+size_upper: M8
+type: set_screw
+type_capital: Set Screw
+type_first_letter: s
+type_first_letter_upper: S
+type_upper: SET_SCREW

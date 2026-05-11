@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: 30_mm_length
+description_main_capital: 30 mm Length
+description_main_first_letter: '3'
+description_main_first_letter_upper: '3'
+description_main_upper: 30_MM_LENGTH
+description_only_numbers: '30'
+description_only_numbers_short: '30'
+description_or_color: '30'
+description_or_color_upper: '30'
+directory: parts/hardware_set_screw_m3_30_mm_length
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_set_screw_m3_30_mm_length
+id_no_class: set_screw_m3_30_mm_length
+id_no_size: 30_mm_length
+id_no_type: m3_30_mm_length
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m3_30_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m3_30_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m3_30_mm_length
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_set_screw_m3_30_mm_length](none)<br>[ss330](none)<br>[Hardware
+    Set Screw M3 30 Mm Length](none)<br><br>'
+markdown_short: '[hardware_set_screw_m3_30_mm_length](none)<br><br>'
+md5: eb381e16eeeaf2c9f1ba50780724b897
+md5_10: eb381e16ee
+md5_10_upper: EB381E16EE
+md5_5: eb381
+md5_5_upper: EB381
+md5_6: eb381e
+md5_6_alpha: 96eji
+md5_6_alpha_upper: 96EJI
+md5_6_upper: EB381E
+name: Hardware Set Screw M3 30 Mm Length
+name_no_class: Set Screw M3 30 Mm Length
+name_no_size: 30 Mm Length
+name_no_size_short: 30 Mm Length
+name_no_type: M3 30 Mm Length
+oomp_key: oomp_hardware_set_screw_m3_30_mm_length
+oomp_word: car frog angel
+oomp_word_emoji: ':car: :frog: :angel:'
+oomp_word_emoji_list:
+- ':car:'
+- ':frog:'
+- ':angel:'
+oomp_word_list:
+- car
+- frog
+- angel
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ss330
+short_code_upper: SS330
+size: m3
+size_capital: M3
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '3'
+size_only_numbers_no_zeros: '3'
+size_upper: M3
+type: set_screw
+type_capital: Set Screw
+type_first_letter: s
+type_first_letter_upper: S
+type_upper: SET_SCREW

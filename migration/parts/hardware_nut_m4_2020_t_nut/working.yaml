@@ -1,0 +1,88 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: t_nut
+description_extra_capital: T Nut
+description_extra_first_letter: t
+description_extra_first_letter_upper: T
+description_extra_upper: T_NUT
+description_main: '2020'
+description_main_capital: '2020'
+description_main_first_letter: '2'
+description_main_first_letter_upper: '2'
+description_main_upper: '2020'
+description_only_numbers: '2020'
+description_only_numbers_short: 2k
+description_or_color: 2k
+description_or_color_upper: 2K
+directory: parts/hardware_nut_m4_2020_t_nut
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_nut_m4_2020_t_nut
+id_no_class: nut_m4_2020_t_nut
+id_no_size: 2020_t_nut
+id_no_type: m4_2020_t_nut
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m4_2020_t_nut
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m4_2020_t_nut
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m4_2020_t_nut
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_nut_m4_2020_t_nut](none)<br>[nu4](none)<br>[Hardware Nut
+    M4 2020 T Nut](none)<br><br>'
+markdown_short: '[hardware_nut_m4_2020_t_nut](none)<br><br>'
+md5: 51ab15ad11b67cfdbb43defb489076c6
+md5_10: 51ab15ad11
+md5_10_upper: 51AB15AD11
+md5_5: 51ab1
+md5_5_upper: 51AB1
+md5_6: 51ab15
+md5_6_alpha: 36psl
+md5_6_alpha_upper: 36PSL
+md5_6_upper: 51AB15
+name: Hardware Nut M4 2020 T Nut
+name_no_class: Nut M4 2020 T Nut
+name_no_size: 2020 T Nut
+name_no_size_short: 2k T Nut
+name_no_type: M4 2020 T Nut
+oomp_key: oomp_hardware_nut_m4_2020_t_nut
+oomp_word: snail boot poop
+oomp_word_emoji: ':snail: :boot: :poop:'
+oomp_word_emoji_list:
+- ':snail:'
+- ':boot:'
+- ':poop:'
+oomp_word_list:
+- snail
+- boot
+- poop
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: nu4
+short_code_upper: NU4
+size: m4
+size_capital: M4
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '4'
+size_only_numbers_no_zeros: '4'
+size_upper: M4
+type: nut
+type_capital: Nut
+type_first_letter: n
+type_first_letter_upper: N
+type_upper: NUT

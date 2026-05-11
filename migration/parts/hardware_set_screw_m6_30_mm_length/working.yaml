@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: 30_mm_length
+description_main_capital: 30 mm Length
+description_main_first_letter: '3'
+description_main_first_letter_upper: '3'
+description_main_upper: 30_MM_LENGTH
+description_only_numbers: '30'
+description_only_numbers_short: '30'
+description_or_color: '30'
+description_or_color_upper: '30'
+directory: parts/hardware_set_screw_m6_30_mm_length
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_set_screw_m6_30_mm_length
+id_no_class: set_screw_m6_30_mm_length
+id_no_size: 30_mm_length
+id_no_type: m6_30_mm_length
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m6_30_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m6_30_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m6_30_mm_length
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_set_screw_m6_30_mm_length](none)<br>[ss630](none)<br>[Hardware
+    Set Screw M6 30 Mm Length](none)<br><br>'
+markdown_short: '[hardware_set_screw_m6_30_mm_length](none)<br><br>'
+md5: 8638cf6b5ab50f006501abaec6468032
+md5_10: 8638cf6b5a
+md5_10_upper: 8638CF6B5A
+md5_5: 8638c
+md5_5_upper: 8638C
+md5_6: 8638cf
+md5_6_alpha: 58jbj
+md5_6_alpha_upper: 58JBJ
+md5_6_upper: 8638CF
+name: Hardware Set Screw M6 30 Mm Length
+name_no_class: Set Screw M6 30 Mm Length
+name_no_size: 30 Mm Length
+name_no_size_short: 30 Mm Length
+name_no_type: M6 30 Mm Length
+oomp_key: oomp_hardware_set_screw_m6_30_mm_length
+oomp_word: bath frog melon
+oomp_word_emoji: ':bath: :frog: :melon:'
+oomp_word_emoji_list:
+- ':bath:'
+- ':frog:'
+- ':melon:'
+oomp_word_list:
+- bath
+- frog
+- melon
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ss630
+short_code_upper: SS630
+size: m6
+size_capital: M6
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '6'
+size_only_numbers_no_zeros: '6'
+size_upper: M6
+type: set_screw
+type_capital: Set Screw
+type_first_letter: s
+type_first_letter_upper: S
+type_upper: SET_SCREW

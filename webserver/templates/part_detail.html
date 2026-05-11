@@ -1,0 +1,253 @@
+{% extends "base.html" %}
+
+{% block title %}{{ part.name }} | {{ app_title }}{% endblock %}
+{% block page_title %}Part Detail{% endblock %}
+
+{% block content %}
+  <section class="detail-hero">
+    <div class="detail-hero__identity">
+      <p class="eyebrow">Part</p>
+      <h1 class="page-title">{{ part.name }}</h1>
+      <p class="detail-hero__breadcrumb">{{ part.taxonomy_breadcrumb }}</p>
+      <div class="meta-pill-row detail-hero__meta">
+        <span class="meta-pill meta-pill--images">{{ part.image_count }} images</span>
+        <span class="meta-pill meta-pill--files">{{ part.file_count }} files</span>
+        <span class="meta-pill">{{ part.source_label }}</span>
+      </div>
+      <div class="chip-row chip-row--dense">
+        {% for pair in part.taxonomy_pairs %}
+          <span class="chip chip--depth-{{ pair.index }}">{{ pair.label }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="detail-hero__actions">
+      <a class="button button--ghost" href="{{ url_for('explore.explore') }}">Back to Explore</a>
+      <form method="post" action="{{ url_for('parts.reload_part_detail', part_id=part.id) }}">
+        <button class="button" type="submit">Reload Details</button>
+      </form>
+      <a class="button" href="{{ url_for('parts.part_file', part_id=part.id, relative_path='working.yaml') }}">Open YAML</a>
+      {% if part.working_manual_exists %}
+        <a class="button" href="{{ url_for('parts.part_file', part_id=part.id, relative_path='working_manual.yaml') }}">Open Manual YAML</a>
+      {% endif %}
+      {% if previewable %}
+        <a
+          class="button button--accent"
+          href="{{ url_for('parts.part_file', part_id=part.id, relative_path=previewable) }}"
+          data-image-viewer-trigger="true"
+          data-part-id="{{ part.id }}"
+          data-image-index="{{ part.preview_file_index }}"
+          data-image-viewer-url="{{ url_for('parts.part_image_viewer_data', part_id=part.id) }}"
+        >View Image</a>
+      {% endif %}
+    </div>
+  </section>
+
+  <section class="two-column">
+    <article class="panel panel--dense panel--accent">
+      <h2 class="section-title">Primary Preview</h2>
+      {% if previewable %}
+        {% set preview_image = part.image_files[part.image_index_by_relative_path.get(previewable, 0)] %}
+        <div class="preview-frame preview-frame--bold">
+          <a
+            class="detail-preview-link"
+            href="{{ url_for('parts.part_file', part_id=part.id, relative_path=previewable) }}"
+            data-image-viewer-trigger="true"
+            data-part-id="{{ part.id }}"
+            data-image-index="{{ part.preview_file_index }}"
+            data-image-viewer-url="{{ url_for('parts.part_image_viewer_data', part_id=part.id) }}"
+          >
+            <img
+              class="detail-preview"
+              src="{{ part_image_url(part.id, previewable, preset='detail_preview') }}"
+              srcset="{{ part_image_url(part.id, previewable, width=900, height=900) }} 900w, {{ part_image_url(part.id, previewable, width=1400, height=1200) }} 1400w"
+              sizes="(max-width: 980px) 100vw, 60vw"
+              alt="{{ part.name }}"
+              width="{{ preview_image.width or 1200 }}"
+              height="{{ preview_image.height or 900 }}"
+              loading="eager"
+              decoding="async"
+              fetchpriority="high"
+            >
+          </a>
+        </div>
+      {% else %}
+        <p class="empty-state">No previewable image found in this part folder yet.</p>
+      {% endif %}
+    </article>
+
+    <article class="panel panel--dense">
+      <h2 class="section-title">File Inventory</h2>
+      <p class="section-copy">
+        <strong>Absolute Folder Base:</strong> <code>{{ part.source_base_dir }}</code><br>
+        <strong>Part Folder:</strong> <code>{{ part.part_dir }}</code><br>
+        File actions launch external tools in a separate cmd window. Reload manually to see new outputs.
+      </p>
+      <div class="meta-pill-row">
+        <span class="meta-pill meta-pill--files">{{ part.file_count }} files</span>
+        <span class="meta-pill meta-pill--images">{{ part.image_count }} images</span>
+      </div>
+      <ul class="file-list file-list--dense">
+        {% for file in part.files %}
+          <li class="file-list__item">
+            <div class="file-list__primary">
+              {% if file.is_image %}
+                <a
+                  class="file-list__link file-list__link--image"
+                  href="{{ url_for('parts.part_file', part_id=part.id, relative_path=file.relative_path) }}"
+                  data-image-viewer-trigger="true"
+                  data-part-id="{{ part.id }}"
+                  data-image-index="{{ part.preview_index_by_relative_path.get(file.relative_path, 0) }}"
+                  data-image-viewer-url="{{ url_for('parts.part_image_viewer_data', part_id=part.id) }}"
+                >
+                  <span>{{ file.relative_path }}</span>
+                  <span class="file-preview-popover">
+                    <img
+                      class="file-preview-popover__image"
+                      src="{{ part_image_url(part.id, file.relative_path, preset='file_popover') }}"
+                      alt="{{ file.relative_path }}"
+                      width="{{ file.width or 480 }}"
+                      height="{{ file.height or 360 }}"
+                      loading="lazy"
+                      decoding="async"
+                    >
+                  </span>
+                </a>
+              {% else %}
+                {% if file.is_text_previewable %}
+                  <a
+                    class="file-list__link file-list__link--text"
+                    href="{{ url_for('parts.part_file', part_id=part.id, relative_path=file.relative_path) }}"
+                    data-image-viewer-trigger="true"
+                    data-image-viewer-url="{{ url_for('parts.part_image_viewer_data', part_id=part.id) }}"
+                    data-image-index="{{ part.preview_index_by_relative_path.get(file.relative_path, 0) }}"
+                    data-part-id="{{ part.id }}"
+                  >
+                    <span>{{ file.relative_path }}</span>
+                    <span class="file-preview-popover file-preview-popover--text">
+                      <span class="file-preview-popover__header">{{ file.text_language_label }}</span>
+                      <pre class="file-preview-popover__code"><code>{{ file.text_hover_preview }}</code></pre>
+                    </span>
+                  </a>
+                {% else %}
+                  <a
+                    class="file-list__link"
+                    href="{{ url_for('parts.part_file', part_id=part.id, relative_path=file.relative_path) }}"
+                    download="{{ file.name }}"
+                    target="download-frame"
+                  >{{ file.relative_path }}</a>
+                {% endif %}
+              {% endif %}
+            </div>
+            <div class="file-list__aside">
+              <div class="file-list__actions">
+                <a
+                  class="button button--small button--ghost file-list__action-button file-list__action-button--icon"
+                  href="{{ url_for('parts.part_file', part_id=part.id, relative_path=file.relative_path) }}"
+                  download="{{ file.name }}"
+                  target="download-frame"
+                  title="Download {{ file.relative_path }}"
+                  aria-label="Download"
+                >
+                  <span class="file-action-icon file-action-icon--download" aria-hidden="true"></span>
+                  <span class="sr-only">Download</span>
+                </a>
+              {% if file.actions %}
+                  {% for action in file.actions %}
+                    <form
+                      class="file-list__action-form"
+                      method="post"
+                      action="{{ url_for('parts.run_part_file_action', part_id=part.id, relative_path=file.relative_path, action_id=action.id) }}"
+                      {% if action.confirm_message %}data-confirm-message="{{ action.confirm_message }}"{% endif %}
+                    >
+                      <button
+                        class="button button--small file-list__action-button{% if action.button_variant %} button--{{ action.button_variant }}{% endif %}{% if action.icon %} file-list__action-button--icon{% endif %}"
+                        type="submit"
+                        title="{{ action.label }}{% if action.target_relative_path %}: {{ action.target_relative_path }}{% endif %}"
+                        aria-label="{{ action.label }}"
+                      >
+                        {% if action.icon == 'bin' %}
+                          <span class="file-action-icon file-action-icon--bin" aria-hidden="true"></span>
+                          <span class="sr-only">{{ action.label }}</span>
+                        {% else %}
+                          {{ action.label }}
+                        {% endif %}
+                      </button>
+                    </form>
+                  {% endfor %}
+              {% endif %}
+              </div>
+              <span class="file-list__meta">{{ file.size_label }}</span>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </article>
+  </section>
+
+  <section class="panel panel--form">
+    <div class="panel__header">
+      <div>
+        <h2 class="section-title">Manual Attributes</h2>
+        <p class="section-copy">Each line becomes one list item in <code>working_manual.yaml</code>.</p>
+      </div>
+    </div>
+
+    {% if part.working_manual_error %}
+      <div class="message message--error">{{ part.working_manual_error }}</div>
+    {% endif %}
+
+    <form method="post" action="{{ url_for('parts.update_part_manual', part_id=part.id) }}" class="form-grid">
+      {% for field in manual_fields %}
+        <label class="field">
+          <span class="field__label">{{ field.label }}</span>
+          <textarea
+            class="input input--multiline"
+            name="{{ field.name }}"
+            rows="3"
+            placeholder="One item per line"
+          >{{ manual_form_values.get(field.name, '') }}</textarea>
+          {% if field.help_text %}
+            <span class="field__help">{{ field.help_text }}</span>
+          {% endif %}
+        </label>
+      {% endfor %}
+      <div class="toolbar">
+        <button class="button button--accent" type="submit">Save Manual Details</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="panel panel--dense">
+    <details class="collapsible-panel">
+      <summary class="collapsible-panel__summary">
+        <span class="section-title">Working Manual YAML</span>
+        <span class="collapsible-panel__hint">Collapsed by default</span>
+      </summary>
+      <div class="collapsible-panel__body">
+        {% if working_manual_text %}
+          <pre class="code-block">{{ working_manual_text }}</pre>
+        {% else %}
+          <p class="empty-state">No <code>working_manual.yaml</code> saved for this part yet.</p>
+        {% endif %}
+      </div>
+    </details>
+  </section>
+
+  <section class="panel panel--dense">
+    <details class="collapsible-panel">
+      <summary class="collapsible-panel__summary">
+        <span class="section-title">Working YAML</span>
+        <span class="collapsible-panel__hint">Collapsed by default</span>
+      </summary>
+      <div class="collapsible-panel__body">
+        <pre class="code-block">{{ working_yaml_text }}</pre>
+      </div>
+    </details>
+  </section>
+  <iframe name="download-frame" class="is-hidden" title="background download"></iframe>
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ url_for('static', filename='file_actions.js') }}"></script>
+{% endblock %}

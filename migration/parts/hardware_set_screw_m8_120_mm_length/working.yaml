@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: 120_mm_length
+description_main_capital: 120 mm Length
+description_main_first_letter: '1'
+description_main_first_letter_upper: '1'
+description_main_upper: 120_MM_LENGTH
+description_only_numbers: '120'
+description_only_numbers_short: '120'
+description_or_color: '120'
+description_or_color_upper: '120'
+directory: parts/hardware_set_screw_m8_120_mm_length
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_set_screw_m8_120_mm_length
+id_no_class: set_screw_m8_120_mm_length
+id_no_size: 120_mm_length
+id_no_type: m8_120_mm_length
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_120_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_120_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_120_mm_length
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_set_screw_m8_120_mm_length](none)<br>[ss8](none)<br>[Hardware
+    Set Screw M8 120 Mm Length](none)<br><br>'
+markdown_short: '[hardware_set_screw_m8_120_mm_length](none)<br><br>'
+md5: 0c039221bcc299e059cafddfd3f0331b
+md5_10: 0c039221bc
+md5_10_upper: 0C039221BC
+md5_5: 0c039
+md5_5_upper: 0C039
+md5_6: 0c0392
+md5_6_alpha: gviq
+md5_6_alpha_upper: GVIQ
+md5_6_upper: 0C0392
+name: Hardware Set Screw M8 120 Mm Length
+name_no_class: Set Screw M8 120 Mm Length
+name_no_size: 120 Mm Length
+name_no_size_short: 120 Mm Length
+name_no_type: M8 120 Mm Length
+oomp_key: oomp_hardware_set_screw_m8_120_mm_length
+oomp_word: alien grin paperclip
+oomp_word_emoji: ':alien: :grin: :paperclip:'
+oomp_word_emoji_list:
+- ':alien:'
+- ':grin:'
+- ':paperclip:'
+oomp_word_list:
+- alien
+- grin
+- paperclip
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ss8
+short_code_upper: SS8
+size: m8
+size_capital: M8
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '8'
+size_only_numbers_no_zeros: '8'
+size_upper: M8
+type: set_screw
+type_capital: Set Screw
+type_first_letter: s
+type_first_letter_upper: S
+type_upper: SET_SCREW

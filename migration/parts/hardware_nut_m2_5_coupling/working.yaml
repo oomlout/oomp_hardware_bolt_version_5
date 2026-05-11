@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: coupling
+description_main_capital: Coupling
+description_main_first_letter: c
+description_main_first_letter_upper: C
+description_main_upper: COUPLING
+description_only_numbers: ''
+description_only_numbers_short: ' '
+description_or_color: ' '
+description_or_color_upper: ' '
+directory: parts/hardware_nut_m2_5_coupling
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_nut_m2_5_coupling
+id_no_class: nut_m2_5_coupling
+id_no_size: coupling
+id_no_type: m2_5_coupling
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m2_5_coupling
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m2_5_coupling
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m2_5_coupling
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_nut_m2_5_coupling](none)<br>[nu](none)<br>[Hardware Nut
+    M2 5 Coupling](none)<br><br>'
+markdown_short: '[hardware_nut_m2_5_coupling](none)<br><br>'
+md5: f7f189a769fb793d06565e81fff55bd9
+md5_10: f7f189a769
+md5_10_upper: F7F189A769
+md5_5: f7f18
+md5_5_upper: F7F18
+md5_6: f7f189
+md5_6_alpha: 9o9zd
+md5_6_alpha_upper: 9O9ZD
+md5_6_upper: F7F189
+name: Hardware Nut M2 5 Coupling
+name_no_class: Nut M2 5 Coupling
+name_no_size: Coupling
+name_no_size_short: Coupling
+name_no_type: M2 5 Coupling
+oomp_key: oomp_hardware_nut_m2_5_coupling
+oomp_word: six ticket hammer
+oomp_word_emoji: ':six: :ticket: :hammer:'
+oomp_word_emoji_list:
+- ':six:'
+- ':ticket:'
+- ':hammer:'
+oomp_word_list:
+- six
+- ticket
+- hammer
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: nu
+short_code_upper: NU
+size: m2_5
+size_capital: M2.5
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '25'
+size_only_numbers_no_zeros: '25'
+size_upper: M2_5
+type: nut
+type_capital: Nut
+type_first_letter: n
+type_first_letter_upper: N
+type_upper: NUT

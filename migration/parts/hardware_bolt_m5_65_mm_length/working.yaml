@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: 65_mm_length
+description_main_capital: 65 mm Length
+description_main_first_letter: '6'
+description_main_first_letter_upper: '6'
+description_main_upper: 65_MM_LENGTH
+description_only_numbers: '65'
+description_only_numbers_short: '65'
+description_or_color: '65'
+description_or_color_upper: '65'
+directory: parts/hardware_bolt_m5_65_mm_length
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_bolt_m5_65_mm_length
+id_no_class: bolt_m5_65_mm_length
+id_no_size: 65_mm_length
+id_no_type: m5_65_mm_length
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m5_65_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m5_65_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m5_65_mm_length
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_bolt_m5_65_mm_length](none)<br>[b565](none)<br>[Hardware
+    Bolt M5 65 Mm Length](none)<br><br>'
+markdown_short: '[hardware_bolt_m5_65_mm_length](none)<br><br>'
+md5: f53001ee21b2e7de04a5bd5c1b04edad
+md5_10: f53001ee21
+md5_10_upper: F53001EE21
+md5_5: f5300
+md5_5_upper: F5300
+md5_6: f53001
+md5_6_alpha: 9kem9
+md5_6_alpha_upper: 9KEM9
+md5_6_upper: F53001
+name: Hardware Bolt M5 65 Mm Length
+name_no_class: Bolt M5 65 Mm Length
+name_no_size: 65 Mm Length
+name_no_size_short: 65 Mm Length
+name_no_type: M5 65 Mm Length
+oomp_key: oomp_hardware_bolt_m5_65_mm_length
+oomp_word: four foggy smile
+oomp_word_emoji: ':four: :foggy: :smile:'
+oomp_word_emoji_list:
+- ':four:'
+- ':foggy:'
+- ':smile:'
+oomp_word_list:
+- four
+- foggy
+- smile
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: b565
+short_code_upper: B565
+size: m5
+size_capital: M5
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '5'
+size_only_numbers_no_zeros: '5'
+size_upper: M5
+type: bolt
+type_capital: Bolt
+type_first_letter: b
+type_first_letter_upper: B
+type_upper: BOLT

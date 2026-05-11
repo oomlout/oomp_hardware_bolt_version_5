@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: 150_mm_length
+description_main_capital: 150 mm Length
+description_main_first_letter: '1'
+description_main_first_letter_upper: '1'
+description_main_upper: 150_MM_LENGTH
+description_only_numbers: '150'
+description_only_numbers_short: '150'
+description_or_color: '150'
+description_or_color_upper: '150'
+directory: parts/hardware_bolt_m8_150_mm_length
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_bolt_m8_150_mm_length
+id_no_class: bolt_m8_150_mm_length
+id_no_size: 150_mm_length
+id_no_type: m8_150_mm_length
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m8_150_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m8_150_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m8_150_mm_length
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_bolt_m8_150_mm_length](none)<br>[b8](none)<br>[Hardware
+    Bolt M8 150 Mm Length](none)<br><br>'
+markdown_short: '[hardware_bolt_m8_150_mm_length](none)<br><br>'
+md5: 40a884ccecd7d4546c0b81e993e4a4ef
+md5_10: 40a884ccec
+md5_10_upper: 40A884CCEC
+md5_5: 40a88
+md5_5_upper: 40A88
+md5_6: 40a884
+md5_6_alpha: 2itms
+md5_6_alpha_upper: 2ITMS
+md5_6_upper: 40A884
+name: Hardware Bolt M8 150 Mm Length
+name_no_class: Bolt M8 150 Mm Length
+name_no_size: 150 Mm Length
+name_no_size_short: 150 Mm Length
+name_no_type: M8 150 Mm Length
+oomp_key: oomp_hardware_bolt_m8_150_mm_length
+oomp_word: racehorse shoe key
+oomp_word_emoji: ':racehorse: :shoe: :key:'
+oomp_word_emoji_list:
+- ':racehorse:'
+- ':shoe:'
+- ':key:'
+oomp_word_list:
+- racehorse
+- shoe
+- key
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: b8
+short_code_upper: B8
+size: m8
+size_capital: M8
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '8'
+size_only_numbers_no_zeros: '8'
+size_upper: M8
+type: bolt
+type_capital: Bolt
+type_first_letter: b
+type_first_letter_upper: B
+type_upper: BOLT

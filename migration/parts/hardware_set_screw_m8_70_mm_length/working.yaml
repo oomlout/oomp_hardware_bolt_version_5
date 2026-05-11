@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: 70_mm_length
+description_main_capital: 70 mm Length
+description_main_first_letter: '7'
+description_main_first_letter_upper: '7'
+description_main_upper: 70_MM_LENGTH
+description_only_numbers: '70'
+description_only_numbers_short: '70'
+description_or_color: '70'
+description_or_color_upper: '70'
+directory: parts/hardware_set_screw_m8_70_mm_length
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_set_screw_m8_70_mm_length
+id_no_class: set_screw_m8_70_mm_length
+id_no_size: 70_mm_length
+id_no_type: m8_70_mm_length
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_70_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_70_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_70_mm_length
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_set_screw_m8_70_mm_length](none)<br>[ss870](none)<br>[Hardware
+    Set Screw M8 70 Mm Length](none)<br><br>'
+markdown_short: '[hardware_set_screw_m8_70_mm_length](none)<br><br>'
+md5: 7f4ab696552ed9345e7d9b995cf57fa3
+md5_10: 7f4ab69655
+md5_10_upper: 7F4AB69655
+md5_5: 7f4ab
+md5_5_upper: 7F4AB
+md5_6: 7f4ab6
+md5_6_alpha: 4ysvq
+md5_6_alpha_upper: 4YSVQ
+md5_6_upper: 7F4AB6
+name: Hardware Set Screw M8 70 Mm Length
+name_no_class: Set Screw M8 70 Mm Length
+name_no_size: 70 Mm Length
+name_no_size_short: 70 Mm Length
+name_no_type: M8 70 Mm Length
+oomp_key: oomp_hardware_set_screw_m8_70_mm_length
+oomp_word: speaker chicken beer
+oomp_word_emoji: ':speaker: :chicken: :beer:'
+oomp_word_emoji_list:
+- ':speaker:'
+- ':chicken:'
+- ':beer:'
+oomp_word_list:
+- speaker
+- chicken
+- beer
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ss870
+short_code_upper: SS870
+size: m8
+size_capital: M8
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '8'
+size_only_numbers_no_zeros: '8'
+size_upper: M8
+type: set_screw
+type_capital: Set Screw
+type_first_letter: s
+type_first_letter_upper: S
+type_upper: SET_SCREW

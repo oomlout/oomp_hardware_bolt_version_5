@@ -1,0 +1,88 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ball_spring
+description_extra_capital: Ball Spring
+description_extra_first_letter: b
+description_extra_first_letter_upper: B
+description_extra_upper: BALL_SPRING
+description_main: '2020'
+description_main_capital: '2020'
+description_main_first_letter: '2'
+description_main_first_letter_upper: '2'
+description_main_upper: '2020'
+description_only_numbers: '2020'
+description_only_numbers_short: 2k
+description_or_color: 2k
+description_or_color_upper: 2K
+directory: parts/hardware_nut_m5_2020_ball_spring
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_nut_m5_2020_ball_spring
+id_no_class: nut_m5_2020_ball_spring
+id_no_size: 2020_ball_spring
+id_no_type: m5_2020_ball_spring
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m5_2020_ball_spring
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m5_2020_ball_spring
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m5_2020_ball_spring
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_nut_m5_2020_ball_spring](none)<br>[nu5](none)<br>[Hardware
+    Nut M5 2020 Ball Spring](none)<br><br>'
+markdown_short: '[hardware_nut_m5_2020_ball_spring](none)<br><br>'
+md5: 109e9553587eaca2855a9b290cfc6e90
+md5_10: 109e955358
+md5_10_upper: 109E955358
+md5_5: 109e9
+md5_5_upper: 109E9
+md5_6: 109e95
+md5_6_alpha: ncet
+md5_6_alpha_upper: NCET
+md5_6_upper: 109E95
+name: Hardware Nut M5 2020 Ball Spring
+name_no_class: Nut M5 2020 Ball Spring
+name_no_size: 2020 Ball Spring
+name_no_size_short: 2k Ball Spring
+name_no_type: M5 2020 Ball Spring
+oomp_key: oomp_hardware_nut_m5_2020_ball_spring
+oomp_word: star clubs telescope
+oomp_word_emoji: ':star: :clubs: :telescope:'
+oomp_word_emoji_list:
+- ':star:'
+- ':clubs:'
+- ':telescope:'
+oomp_word_list:
+- star
+- clubs
+- telescope
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: nu5
+short_code_upper: NU5
+size: m5
+size_capital: M5
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '5'
+size_only_numbers_no_zeros: '5'
+size_upper: M5
+type: nut
+type_capital: Nut
+type_first_letter: n
+type_first_letter_upper: N
+type_upper: NUT

@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: locking
+description_main_capital: Locking
+description_main_first_letter: l
+description_main_first_letter_upper: L
+description_main_upper: LOCKING
+description_only_numbers: ''
+description_only_numbers_short: ' '
+description_or_color: ' '
+description_or_color_upper: ' '
+directory: parts/hardware_nut_m5_locking
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_nut_m5_locking
+id_no_class: nut_m5_locking
+id_no_size: locking
+id_no_type: m5_locking
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m5_locking
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m5_locking
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m5_locking
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_nut_m5_locking](none)<br>[nu5](none)<br>[Hardware Nut M5
+    Locking](none)<br><br>'
+markdown_short: '[hardware_nut_m5_locking](none)<br><br>'
+md5: 64cdd0a6e606cd1b21aacbe5337b724b
+md5_10: 64cdd0a6e6
+md5_10_upper: 64CDD0A6E6
+md5_5: 64cdd
+md5_5_upper: 64CDD
+md5_6: 64cdd0
+md5_6_alpha: 3xlg0
+md5_6_alpha_upper: 3XLG0
+md5_6_upper: 64CDD0
+name: Hardware Nut M5 Locking
+name_no_class: Nut M5 Locking
+name_no_size: Locking
+name_no_size_short: Locking
+name_no_type: M5 Locking
+oomp_key: oomp_hardware_nut_m5_locking
+oomp_word: sunflower strawberry banana
+oomp_word_emoji: ':sunflower: :strawberry: :banana:'
+oomp_word_emoji_list:
+- ':sunflower:'
+- ':strawberry:'
+- ':banana:'
+oomp_word_list:
+- sunflower
+- strawberry
+- banana
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: nu5
+short_code_upper: NU5
+size: m5
+size_capital: M5
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '5'
+size_only_numbers_no_zeros: '5'
+size_upper: M5
+type: nut
+type_capital: Nut
+type_first_letter: n
+type_first_letter_upper: N
+type_upper: NUT

@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: coupling
+description_main_capital: Coupling
+description_main_first_letter: c
+description_main_first_letter_upper: C
+description_main_upper: COUPLING
+description_only_numbers: ''
+description_only_numbers_short: ' '
+description_or_color: ' '
+description_or_color_upper: ' '
+directory: parts/hardware_nut_m5_coupling
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_nut_m5_coupling
+id_no_class: nut_m5_coupling
+id_no_size: coupling
+id_no_type: m5_coupling
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m5_coupling
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m5_coupling
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m5_coupling
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_nut_m5_coupling](none)<br>[nu5](none)<br>[Hardware Nut M5
+    Coupling](none)<br><br>'
+markdown_short: '[hardware_nut_m5_coupling](none)<br><br>'
+md5: 02a710a91a267fb0c4ccd5960a49f3ec
+md5_10: 02a710a91a
+md5_10_upper: 02A710A91A
+md5_5: 02a71
+md5_5_upper: 02A71
+md5_6: 02a710
+md5_6_alpha: 3q4w
+md5_6_alpha_upper: 3Q4W
+md5_6_upper: 02A710
+name: Hardware Nut M5 Coupling
+name_no_class: Nut M5 Coupling
+name_no_size: Coupling
+name_no_size_short: Coupling
+name_no_type: M5 Coupling
+oomp_key: oomp_hardware_nut_m5_coupling
+oomp_word: blush guitar star
+oomp_word_emoji: ':blush: :guitar: :star:'
+oomp_word_emoji_list:
+- ':blush:'
+- ':guitar:'
+- ':star:'
+oomp_word_list:
+- blush
+- guitar
+- star
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: nu5
+short_code_upper: NU5
+size: m5
+size_capital: M5
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '5'
+size_only_numbers_no_zeros: '5'
+size_upper: M5
+type: nut
+type_capital: Nut
+type_first_letter: n
+type_first_letter_upper: N
+type_upper: NUT

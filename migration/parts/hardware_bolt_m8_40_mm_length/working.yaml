@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: 40_mm_length
+description_main_capital: 40 mm Length
+description_main_first_letter: '4'
+description_main_first_letter_upper: '4'
+description_main_upper: 40_MM_LENGTH
+description_only_numbers: '40'
+description_only_numbers_short: '40'
+description_or_color: '40'
+description_or_color_upper: '40'
+directory: parts/hardware_bolt_m8_40_mm_length
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_bolt_m8_40_mm_length
+id_no_class: bolt_m8_40_mm_length
+id_no_size: 40_mm_length
+id_no_type: m8_40_mm_length
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m8_40_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m8_40_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m8_40_mm_length
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_bolt_m8_40_mm_length](none)<br>[b840](none)<br>[Hardware
+    Bolt M8 40 Mm Length](none)<br><br>'
+markdown_short: '[hardware_bolt_m8_40_mm_length](none)<br><br>'
+md5: ed49518a9a2d765a7d75301f48ec3ca2
+md5_10: ed49518a9a
+md5_10_upper: ED49518A9A
+md5_5: ed495
+md5_5_upper: ED495
+md5_6: ed4951
+md5_6_alpha: 99b2p
+md5_6_alpha_upper: 99B2P
+md5_6_upper: ED4951
+name: Hardware Bolt M8 40 Mm Length
+name_no_class: Bolt M8 40 Mm Length
+name_no_size: 40 Mm Length
+name_no_size_short: 40 Mm Length
+name_no_type: M8 40 Mm Length
+oomp_key: oomp_hardware_bolt_m8_40_mm_length
+oomp_word: bus hatching_chick snail
+oomp_word_emoji: ':bus: :hatching_chick: :snail:'
+oomp_word_emoji_list:
+- ':bus:'
+- ':hatching_chick:'
+- ':snail:'
+oomp_word_list:
+- bus
+- hatching_chick
+- snail
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: b840
+short_code_upper: B840
+size: m8
+size_capital: M8
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '8'
+size_only_numbers_no_zeros: '8'
+size_upper: M8
+type: bolt
+type_capital: Bolt
+type_first_letter: b
+type_first_letter_upper: B
+type_upper: BOLT

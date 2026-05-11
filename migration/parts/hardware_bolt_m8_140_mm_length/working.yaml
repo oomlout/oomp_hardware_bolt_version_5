@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: 140_mm_length
+description_main_capital: 140 mm Length
+description_main_first_letter: '1'
+description_main_first_letter_upper: '1'
+description_main_upper: 140_MM_LENGTH
+description_only_numbers: '140'
+description_only_numbers_short: '140'
+description_or_color: '140'
+description_or_color_upper: '140'
+directory: parts/hardware_bolt_m8_140_mm_length
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_bolt_m8_140_mm_length
+id_no_class: bolt_m8_140_mm_length
+id_no_size: 140_mm_length
+id_no_type: m8_140_mm_length
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m8_140_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m8_140_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m8_140_mm_length
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_bolt_m8_140_mm_length](none)<br>[b8](none)<br>[Hardware
+    Bolt M8 140 Mm Length](none)<br><br>'
+markdown_short: '[hardware_bolt_m8_140_mm_length](none)<br><br>'
+md5: 7b7e7355b82f9c8be9a0b6eb7cf8be13
+md5_10: 7b7e7355b8
+md5_10_upper: 7B7E7355B8
+md5_5: 7b7e7
+md5_5_upper: 7B7E7
+md5_6: 7b7e73
+md5_6_alpha: 4tgtv
+md5_6_alpha_upper: 4TGTV
+md5_6_upper: 7B7E73
+name: Hardware Bolt M8 140 Mm Length
+name_no_class: Bolt M8 140 Mm Length
+name_no_size: 140 Mm Length
+name_no_size_short: 140 Mm Length
+name_no_type: M8 140 Mm Length
+oomp_key: oomp_hardware_bolt_m8_140_mm_length
+oomp_word: computer fax flags
+oomp_word_emoji: ':computer: :fax: :flags:'
+oomp_word_emoji_list:
+- ':computer:'
+- ':fax:'
+- ':flags:'
+oomp_word_list:
+- computer
+- fax
+- flags
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: b8
+short_code_upper: B8
+size: m8
+size_capital: M8
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '8'
+size_only_numbers_no_zeros: '8'
+size_upper: M8
+type: bolt
+type_capital: Bolt
+type_first_letter: b
+type_first_letter_upper: B
+type_upper: BOLT

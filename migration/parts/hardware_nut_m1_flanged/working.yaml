@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: flanged
+description_main_capital: Flanged
+description_main_first_letter: f
+description_main_first_letter_upper: F
+description_main_upper: FLANGED
+description_only_numbers: ''
+description_only_numbers_short: ' '
+description_or_color: ' '
+description_or_color_upper: ' '
+directory: parts/hardware_nut_m1_flanged
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_nut_m1_flanged
+id_no_class: nut_m1_flanged
+id_no_size: flanged
+id_no_type: m1_flanged
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m1_flanged
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m1_flanged
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m1_flanged
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_nut_m1_flanged](none)<br>[nu1](none)<br>[Hardware Nut M1
+    Flanged](none)<br><br>'
+markdown_short: '[hardware_nut_m1_flanged](none)<br><br>'
+md5: f99661af4974a0a533b9749e9473cc44
+md5_10: f99661af49
+md5_10_upper: F99661AF49
+md5_5: f9966
+md5_5_upper: F9966
+md5_6: f99661
+md5_6_alpha: 9ql41
+md5_6_alpha_upper: 9QL41
+md5_6_upper: F99661
+name: Hardware Nut M1 Flanged
+name_no_class: Nut M1 Flanged
+name_no_size: Flanged
+name_no_size_short: Flanged
+name_no_type: M1 Flanged
+oomp_key: oomp_hardware_nut_m1_flanged
+oomp_word: eight basketball bouquet
+oomp_word_emoji: ':eight: :basketball: :bouquet:'
+oomp_word_emoji_list:
+- ':eight:'
+- ':basketball:'
+- ':bouquet:'
+oomp_word_list:
+- eight
+- basketball
+- bouquet
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: nu1
+short_code_upper: NU1
+size: m1
+size_capital: M1
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '1'
+size_only_numbers_no_zeros: '1'
+size_upper: M1
+type: nut
+type_capital: Nut
+type_first_letter: n
+type_first_letter_upper: N
+type_upper: NUT

@@ -1,0 +1,88 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ball_spring
+description_extra_capital: Ball Spring
+description_extra_first_letter: b
+description_extra_first_letter_upper: B
+description_extra_upper: BALL_SPRING
+description_main: '2020'
+description_main_capital: '2020'
+description_main_first_letter: '2'
+description_main_first_letter_upper: '2'
+description_main_upper: '2020'
+description_only_numbers: '2020'
+description_only_numbers_short: 2k
+description_or_color: 2k
+description_or_color_upper: 2K
+directory: parts/hardware_nut_m6_2020_ball_spring
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_nut_m6_2020_ball_spring
+id_no_class: nut_m6_2020_ball_spring
+id_no_size: 2020_ball_spring
+id_no_type: m6_2020_ball_spring
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m6_2020_ball_spring
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m6_2020_ball_spring
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m6_2020_ball_spring
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_nut_m6_2020_ball_spring](none)<br>[nu6](none)<br>[Hardware
+    Nut M6 2020 Ball Spring](none)<br><br>'
+markdown_short: '[hardware_nut_m6_2020_ball_spring](none)<br><br>'
+md5: b679b0495300de0eac910b69c65c86cc
+md5_10: b679b04953
+md5_10_upper: B679B04953
+md5_5: b679b
+md5_5_upper: B679B
+md5_6: b679b0
+md5_6_alpha: 74be8
+md5_6_alpha_upper: 74BE8
+md5_6_upper: B679B0
+name: Hardware Nut M6 2020 Ball Spring
+name_no_class: Nut M6 2020 Ball Spring
+name_no_size: 2020 Ball Spring
+name_no_size_short: 2k Ball Spring
+name_no_type: M6 2020 Ball Spring
+oomp_key: oomp_hardware_nut_m6_2020_ball_spring
+oomp_word: beer balloon crown
+oomp_word_emoji: ':beer: :balloon: :crown:'
+oomp_word_emoji_list:
+- ':beer:'
+- ':balloon:'
+- ':crown:'
+oomp_word_list:
+- beer
+- balloon
+- crown
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: nu6
+short_code_upper: NU6
+size: m6
+size_capital: M6
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '6'
+size_only_numbers_no_zeros: '6'
+size_upper: M6
+type: nut
+type_capital: Nut
+type_first_letter: n
+type_first_letter_upper: N
+type_upper: NUT

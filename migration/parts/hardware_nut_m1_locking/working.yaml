@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: locking
+description_main_capital: Locking
+description_main_first_letter: l
+description_main_first_letter_upper: L
+description_main_upper: LOCKING
+description_only_numbers: ''
+description_only_numbers_short: ' '
+description_or_color: ' '
+description_or_color_upper: ' '
+directory: parts/hardware_nut_m1_locking
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_nut_m1_locking
+id_no_class: nut_m1_locking
+id_no_size: locking
+id_no_type: m1_locking
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m1_locking
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m1_locking
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m1_locking
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_nut_m1_locking](none)<br>[nu1](none)<br>[Hardware Nut M1
+    Locking](none)<br><br>'
+markdown_short: '[hardware_nut_m1_locking](none)<br><br>'
+md5: 189a861561a449a80ef3fa98798e9394
+md5_10: 189a861561
+md5_10_upper: 189A861561
+md5_5: 189a8
+md5_5_upper: 189A8
+md5_6: 189a86
+md5_6_alpha: yk5i
+md5_6_alpha_upper: YK5I
+md5_6_upper: 189A86
+name: Hardware Nut M1 Locking
+name_no_class: Nut M1 Locking
+name_no_size: Locking
+name_no_size_short: Locking
+name_no_type: M1 Locking
+oomp_key: oomp_hardware_nut_m1_locking
+oomp_word: hand golf bath
+oomp_word_emoji: ':hand: :golf: :bath:'
+oomp_word_emoji_list:
+- ':hand:'
+- ':golf:'
+- ':bath:'
+oomp_word_list:
+- hand
+- golf
+- bath
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: nu1
+short_code_upper: NU1
+size: m1
+size_capital: M1
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '1'
+size_only_numbers_no_zeros: '1'
+size_upper: M1
+type: nut
+type_capital: Nut
+type_first_letter: n
+type_first_letter_upper: N
+type_upper: NUT

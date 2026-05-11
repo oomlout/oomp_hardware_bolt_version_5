@@ -1,0 +1,113 @@
+default_family: generic
+
+families:
+  generic:
+    label: Generic taxonomy entry
+    description: Direct control over taxonomy_1 to taxonomy_15.
+    defaults: {}
+    fields:
+      - name: taxonomy_1
+        label: Taxonomy 1
+        input_type: text
+        required: true
+        default: ""
+        placeholder: taxonomy level 1
+        help_text: Top-level taxonomy value.
+      - name: taxonomy_2
+        label: Taxonomy 2
+        input_type: text
+        required: false
+        default: ""
+        placeholder: taxonomy level 2
+        help_text: Leave blank if not needed.
+      - name: taxonomy_3
+        label: Taxonomy 3
+        input_type: text
+        required: false
+        default: ""
+        placeholder: taxonomy level 3
+        help_text: Leave blank if not needed.
+      - name: taxonomy_4
+        label: Taxonomy 4
+        input_type: text
+        required: false
+        default: ""
+        placeholder: taxonomy level 4
+        help_text: Leave blank if not needed.
+      - name: taxonomy_5
+        label: Taxonomy 5
+        input_type: text
+        required: false
+        default: ""
+        placeholder: taxonomy level 5
+        help_text: Leave blank if not needed.
+      - name: taxonomy_6
+        label: Taxonomy 6
+        input_type: text
+        required: false
+        default: ""
+        placeholder: taxonomy level 6
+        help_text: Leave blank if not needed.
+      - name: taxonomy_7
+        label: Taxonomy 7
+        input_type: text
+        required: false
+        default: ""
+        placeholder: taxonomy level 7
+        help_text: Leave blank if not needed.
+      - name: taxonomy_8
+        label: Taxonomy 8
+        input_type: text
+        required: false
+        default: ""
+        placeholder: taxonomy level 8
+        help_text: Leave blank if not needed.
+      - name: taxonomy_9
+        label: Taxonomy 9
+        input_type: text
+        required: false
+        default: ""
+        placeholder: taxonomy level 9
+        help_text: Leave blank if not needed.
+      - name: taxonomy_10
+        label: Taxonomy 10
+        input_type: text
+        required: false
+        default: ""
+        placeholder: taxonomy level 10
+        help_text: Leave blank if not needed.
+      - name: taxonomy_11
+        label: Taxonomy 11
+        input_type: text
+        required: false
+        default: ""
+        placeholder: taxonomy level 11
+        help_text: Leave blank if not needed.
+      - name: taxonomy_12
+        label: Taxonomy 12
+        input_type: text
+        required: false
+        default: ""
+        placeholder: taxonomy level 12
+        help_text: Leave blank if not needed.
+      - name: taxonomy_13
+        label: Taxonomy 13
+        input_type: text
+        required: false
+        default: ""
+        placeholder: taxonomy level 13
+        help_text: Leave blank if not needed.
+      - name: taxonomy_14
+        label: Taxonomy 14
+        input_type: text
+        required: false
+        default: ""
+        placeholder: taxonomy level 14
+        help_text: Leave blank if not needed.
+      - name: taxonomy_15
+        label: Taxonomy 15
+        input_type: text
+        required: false
+        default: ""
+        placeholder: taxonomy level 15
+        help_text: Leave blank if not needed.

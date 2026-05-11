@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{{ app_title }}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    {% block head_extra %}{% endblock %}
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="sidebar__brand">
+          <a class="site-title" href="{{ url_for('explore.explore') }}">{{ app_title }}</a>
+          <p class="site-subtitle">Parts intelligence</p>
+        </div>
+
+        <nav class="sidebar__nav">
+          <a class="sidebar__link" href="{{ url_for('explore.explore') }}">Explore</a>
+          <a class="sidebar__link" href="{{ url_for('manual.add_item') }}">Add Item</a>
+        </nav>
+
+        <div class="sidebar__section">
+          <p class="sidebar__label">Actions</p>
+          <form method="post" action="{{ url_for('actions.reload_fast') }}">
+            <button class="sidebar__action" type="submit">Reload Fast</button>
+          </form>
+          <form method="post" action="{{ url_for('actions.reload_all') }}">
+            <button class="sidebar__action" type="submit">Reload All</button>
+          </form>
+          <form method="post" action="{{ url_for('actions.run_generation') }}">
+            <button class="sidebar__action sidebar__action--accent" type="submit">Run Generation</button>
+          </form>
+        </div>
+      </aside>
+
+      <main class="content-shell">
+        <header class="site-header">
+          <div class="site-header__inner">
+            <h1 class="site-header__title">{% block page_title %}{{ app_title }}{% endblock %}</h1>
+          </div>
+        </header>
+
+        <div class="page-content">
+          {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+              <section class="message-stack">
+                {% for category, message in messages %}
+                  <div class="message message--{{ category }}">{{ message }}</div>
+                {% endfor %}
+              </section>
+            {% endif %}
+          {% endwith %}
+
+          {% block content %}{% endblock %}
+
+          {% if image_viewer_enabled|default(false) %}
+            <dialog id="image-viewer" class="image-viewer" aria-labelledby="image-viewer-title">
+              <div class="image-viewer__surface">
+                <button
+                  id="image-viewer-close"
+                  class="image-viewer__close"
+                  type="button"
+                  aria-label="Close image viewer"
+                >Close</button>
+                <div class="image-viewer__stage">
+                  <img
+                    id="image-viewer-image"
+                    class="image-viewer__image"
+                    alt=""
+                    decoding="async"
+                  >
+                  <pre id="image-viewer-code-block" class="code-block image-viewer__code-block is-hidden"><code id="image-viewer-code" class="image-viewer__code"></code></pre>
+                </div>
+                <div class="image-viewer__meta">
+                  <div class="image-viewer__caption">
+                    <h2 id="image-viewer-title" class="section-title">Image Viewer</h2>
+                    <p id="image-viewer-path" class="section-copy"></p>
+                  </div>
+                  <div class="image-viewer__actions">
+                    <span id="image-viewer-count" class="meta-pill"></span>
+                    <span id="image-viewer-language" class="meta-pill is-hidden"></span>
+                    <span id="image-viewer-state" class="meta-pill is-hidden"></span>
+                    <button id="image-viewer-prev" class="button button--accent" type="button">Previous</button>
+                    <button id="image-viewer-next" class="button button--accent" type="button">Next</button>
+                    <a
+                      id="image-viewer-original"
+                      class="button button--accent"
+                      href="#"
+                      target="_blank"
+                      rel="noreferrer"
+                    >Open Original</a>
+                  </div>
+                </div>
+              </div>
+            </dialog>
+          {% endif %}
+        </div>
+      </main>
+    </div>
+
+    {% if image_viewer_enabled|default(false) %}
+      <script src="{{ url_for('static', filename='image_viewer.js') }}"></script>
+    {% endif %}
+    {% block scripts %}{% endblock %}
+  </body>
+</html>

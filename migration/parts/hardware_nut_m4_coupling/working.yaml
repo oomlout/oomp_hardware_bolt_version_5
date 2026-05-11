@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: coupling
+description_main_capital: Coupling
+description_main_first_letter: c
+description_main_first_letter_upper: C
+description_main_upper: COUPLING
+description_only_numbers: ''
+description_only_numbers_short: ' '
+description_or_color: ' '
+description_or_color_upper: ' '
+directory: parts/hardware_nut_m4_coupling
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_nut_m4_coupling
+id_no_class: nut_m4_coupling
+id_no_size: coupling
+id_no_type: m4_coupling
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m4_coupling
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m4_coupling
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m4_coupling
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_nut_m4_coupling](none)<br>[nu4](none)<br>[Hardware Nut M4
+    Coupling](none)<br><br>'
+markdown_short: '[hardware_nut_m4_coupling](none)<br><br>'
+md5: 2dba25323eb381ff09e9ffdfb5a8eaa4
+md5_10: 2dba25323e
+md5_10_upper: 2DBA25323E
+md5_5: 2dba2
+md5_5_upper: 2DBA2
+md5_6: 2dba25
+md5_6_alpha: 1s8bp
+md5_6_alpha_upper: 1S8BP
+md5_6_upper: 2DBA25
+name: Hardware Nut M4 Coupling
+name_no_class: Nut M4 Coupling
+name_no_size: Coupling
+name_no_size_short: Coupling
+name_no_type: M4 Coupling
+oomp_key: oomp_hardware_nut_m4_coupling
+oomp_word: snowman spaghetti ear
+oomp_word_emoji: ':snowman: :spaghetti: :ear:'
+oomp_word_emoji_list:
+- ':snowman:'
+- ':spaghetti:'
+- ':ear:'
+oomp_word_list:
+- snowman
+- spaghetti
+- ear
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: nu4
+short_code_upper: NU4
+size: m4
+size_capital: M4
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '4'
+size_only_numbers_no_zeros: '4'
+size_upper: M4
+type: nut
+type_capital: Nut
+type_first_letter: n
+type_first_letter_upper: N
+type_upper: NUT
