@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: penny
+description_main_capital: Penny
+description_main_first_letter: p
+description_main_first_letter_upper: P
+description_main_upper: PENNY
+description_only_numbers: ''
+description_only_numbers_short: ' '
+description_or_color: ' '
+description_or_color_upper: ' '
+directory: parts/hardware_washer_m2_penny
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_washer_m2_penny
+id_no_class: washer_m2_penny
+id_no_size: penny
+id_no_type: m2_penny
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m2_penny
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m2_penny
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m2_penny
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_washer_m2_penny](none)<br>[w2](none)<br>[Hardware Washer
+    M2 Penny](none)<br><br>'
+markdown_short: '[hardware_washer_m2_penny](none)<br><br>'
+md5: 78968654b2be8d0bd64f7817d430eefa
+md5_10: 78968654b2
+md5_10_upper: 78968654B2
+md5_5: '78968'
+md5_5_upper: '78968'
+md5_6: '789686'
+md5_6_alpha: 4pdvq
+md5_6_alpha_upper: 4PDVQ
+md5_6_upper: '789686'
+name: Hardware Washer M2 Penny
+name_no_class: Washer M2 Penny
+name_no_size: Penny
+name_no_size_short: Penny
+name_no_type: M2 Penny
+oomp_key: oomp_hardware_washer_m2_penny
+oomp_word: bell basketball bath
+oomp_word_emoji: ':bell: :basketball: :bath:'
+oomp_word_emoji_list:
+- ':bell:'
+- ':basketball:'
+- ':bath:'
+oomp_word_list:
+- bell
+- basketball
+- bath
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: w2
+short_code_upper: W2
+size: m2
+size_capital: M2
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '2'
+size_only_numbers_no_zeros: '2'
+size_upper: M2
+type: washer
+type_capital: Washer
+type_first_letter: w
+type_first_letter_upper: W
+type_upper: WASHER

@@ -1,0 +1,88 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: ''
+description_main_capital: ''
+description_main_first_letter: ''
+description_main_first_letter_upper: ''
+description_main_upper: ''
+description_only_numbers: ''
+description_only_numbers_short: ' '
+description_or_color: ' '
+description_or_color_upper: ' '
+directory: parts/hardware_washer_m4
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_washer_m4
+id_no_class: washer_m4
+id_no_size: m4
+id_no_type: m4
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m4
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m4
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m4
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_washer_m4](none)<br>[w4](none)<br>[Hardware Washer M4](none)<br><br>'
+markdown_short: '[hardware_washer_m4](none)<br><br>'
+md5: 2023cbd2c32e20d980524f5a498d2fd3
+md5_10: 2023cbd2c3
+md5_10_upper: 2023CBD2C3
+md5_5: 2023c
+md5_5_upper: 2023C
+md5_6: 2023cb
+md5_6_alpha: 1958r
+md5_6_alpha_upper: 1958R
+md5_6_upper: 2023CB
+name: Hardware Washer M4
+name_no_class: Washer M4
+name_no_size: M4
+name_no_size_short: M4
+name_no_type: M4
+oomp_key: oomp_hardware_washer_m4
+oomp_word: skull kiss grapes
+oomp_word_emoji: ':skull: :kiss: :grapes:'
+oomp_word_emoji_list:
+- ':skull:'
+- ':kiss:'
+- ':grapes:'
+oomp_word_list:
+- skull
+- kiss
+- grapes
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: w4
+short_code_upper: W4
+size: m4
+size_capital: M4
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '4'
+size_only_numbers_no_zeros: '4'
+size_upper: M4
+type: washer
+type_capital: Washer
+type_first_letter: w
+type_first_letter_upper: W
+type_upper: WASHER

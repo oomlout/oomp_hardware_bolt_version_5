@@ -1,0 +1,88 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: ''
+description_main_capital: ''
+description_main_first_letter: ''
+description_main_first_letter_upper: ''
+description_main_upper: ''
+description_only_numbers: ''
+description_only_numbers_short: ' '
+description_or_color: ' '
+description_or_color_upper: ' '
+directory: parts/hardware_washer_m5
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_washer_m5
+id_no_class: washer_m5
+id_no_size: m5
+id_no_type: m5
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m5
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m5
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m5
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_washer_m5](none)<br>[w5](none)<br>[Hardware Washer M5](none)<br><br>'
+markdown_short: '[hardware_washer_m5](none)<br><br>'
+md5: 6712b1aaf2d8786fe91b86e167742f5d
+md5_10: 6712b1aaf2
+md5_10_upper: 6712B1AAF2
+md5_5: 6712b
+md5_5_upper: 6712B
+md5_6: 6712b1
+md5_6_alpha: 40s6p
+md5_6_alpha_upper: 40S6P
+md5_6_upper: 6712B1
+name: Hardware Washer M5
+name_no_class: Washer M5
+name_no_size: M5
+name_no_size_short: M5
+name_no_type: M5
+oomp_key: oomp_hardware_washer_m5
+oomp_word: herb anger briefcase
+oomp_word_emoji: ':herb: :anger: :briefcase:'
+oomp_word_emoji_list:
+- ':herb:'
+- ':anger:'
+- ':briefcase:'
+oomp_word_list:
+- herb
+- anger
+- briefcase
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: w5
+short_code_upper: W5
+size: m5
+size_capital: M5
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '5'
+size_only_numbers_no_zeros: '5'
+size_upper: M5
+type: washer
+type_capital: Washer
+type_first_letter: w
+type_first_letter_upper: W
+type_upper: WASHER

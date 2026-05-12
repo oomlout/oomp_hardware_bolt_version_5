@@ -15,6 +15,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 from working_oomp_populate_bolt import generate as gen_bolt
 from working_oomp_populate_set_screw import generate as gen_set_screw
 from working_oomp_populate_nut import generate as gen_nut
+from working_oomp_populate_washer import generate as gen_washer
 
 try:
     from working_oomp_populate_countersunk import generate as gen_countersunk
@@ -226,5 +227,29 @@ class TestNut:
         prefix = f"{TAXONOMY_1}_nut_"
         on_disk = {f for f in self.existing if f.startswith(prefix)}
         generated = {_build_migration_folder_name(o, "nut") for o in self.options}
+        extra = on_disk - generated
+        assert extra == set(), "Folders in migration/parts/ not covered by generate():\n" + "\n".join(sorted(extra))
+
+
+# ── washer ────────────────────────────────────────────────────────────────────
+
+class TestWasher:
+    def setup_method(self):
+        self.options = gen_washer()
+        self.existing = _migration_folders()
+
+    def test_all_generated_folders_exist_on_disk(self):
+        missing = []
+        for opt in self.options:
+            name = _build_migration_folder_name(opt, "washer")
+            if name not in self.existing:
+                missing.append(name)
+        assert missing == [], "Folders expected in migration/parts/ but missing:\n" + "\n".join(missing)
+
+    def test_no_extra_washer_folders_on_disk(self):
+        """Every hardware_washer_* folder in migration/parts/ should be generated."""
+        prefix = f"{TAXONOMY_1}_washer_"
+        on_disk = {f for f in self.existing if f.startswith(prefix)}
+        generated = {_build_migration_folder_name(o, "washer") for o in self.options}
         extra = on_disk - generated
         assert extra == set(), "Folders in migration/parts/ not covered by generate():\n" + "\n".join(sorted(extra))

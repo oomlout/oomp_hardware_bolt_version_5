@@ -4,6 +4,7 @@ from oomp_populate_helper import write_extras, build_oomp_id
 from working_oomp_populate_bolt import generate as generate_bolt
 from working_oomp_populate_set_screw import generate as generate_set_screw
 from working_oomp_populate_nut import generate as generate_nut
+from working_oomp_populate_washer import generate as generate_washer
 
 
 
@@ -13,6 +14,7 @@ def main(**kwargs):
     options.extend(generate_bolt())
     options.extend(generate_set_screw())
     options.extend(generate_nut())
+    options.extend(generate_washer())
 
     extras = []
     for option in options:

@@ -1,0 +1,88 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: ''
+description_main_capital: ''
+description_main_first_letter: ''
+description_main_first_letter_upper: ''
+description_main_upper: ''
+description_only_numbers: ''
+description_only_numbers_short: ' '
+description_or_color: ' '
+description_or_color_upper: ' '
+directory: parts/hardware_washer_m3
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_washer_m3
+id_no_class: washer_m3
+id_no_size: m3
+id_no_type: m3
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m3
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m3
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m3
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_washer_m3](none)<br>[w3](none)<br>[Hardware Washer M3](none)<br><br>'
+markdown_short: '[hardware_washer_m3](none)<br><br>'
+md5: 723ab6c63a09d9a8c4eb81703da86eb6
+md5_10: 723ab6c63a
+md5_10_upper: 723AB6C63A
+md5_5: 723ab
+md5_5_upper: 723AB
+md5_6: 723ab6
+md5_6_alpha: 4ggc6
+md5_6_alpha_upper: 4GGC6
+md5_6_upper: 723AB6
+name: Hardware Washer M3
+name_no_class: Washer M3
+name_no_size: M3
+name_no_size_short: M3
+name_no_type: M3
+oomp_key: oomp_hardware_washer_m3
+oomp_word: dolls koala beer
+oomp_word_emoji: ':dolls: :koala: :beer:'
+oomp_word_emoji_list:
+- ':dolls:'
+- ':koala:'
+- ':beer:'
+oomp_word_list:
+- dolls
+- koala
+- beer
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: w3
+short_code_upper: W3
+size: m3
+size_capital: M3
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '3'
+size_only_numbers_no_zeros: '3'
+size_upper: M3
+type: washer
+type_capital: Washer
+type_first_letter: w
+type_first_letter_upper: W
+type_upper: WASHER

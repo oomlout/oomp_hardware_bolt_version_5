@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: penny
+description_main_capital: Penny
+description_main_first_letter: p
+description_main_first_letter_upper: P
+description_main_upper: PENNY
+description_only_numbers: ''
+description_only_numbers_short: ' '
+description_or_color: ' '
+description_or_color_upper: ' '
+directory: parts/hardware_washer_m1_5_penny
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_washer_m1_5_penny
+id_no_class: washer_m1_5_penny
+id_no_size: penny
+id_no_type: m1_5_penny
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m1_5_penny
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m1_5_penny
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m1_5_penny
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_washer_m1_5_penny](none)<br>[w](none)<br>[Hardware Washer
+    M1 5 Penny](none)<br><br>'
+markdown_short: '[hardware_washer_m1_5_penny](none)<br><br>'
+md5: e1649b15e0a70d68b695892e74447cc4
+md5_10: e1649b15e0
+md5_10_upper: E1649B15E0
+md5_5: e1649
+md5_5_upper: E1649
+md5_6: e1649b
+md5_6_alpha: 8slnf
+md5_6_alpha_upper: 8SLNF
+md5_6_upper: E1649B
+name: Hardware Washer M1 5 Penny
+name_no_class: Washer M1 5 Penny
+name_no_size: Penny
+name_no_size_short: Penny
+name_no_type: M1 5 Penny
+oomp_key: oomp_hardware_washer_m1_5_penny
+oomp_word: boat sunflower ski
+oomp_word_emoji: ':boat: :sunflower: :ski:'
+oomp_word_emoji_list:
+- ':boat:'
+- ':sunflower:'
+- ':ski:'
+oomp_word_list:
+- boat
+- sunflower
+- ski
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: w
+short_code_upper: W
+size: m1_5
+size_capital: M1.5
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '15'
+size_only_numbers_no_zeros: '15'
+size_upper: M1_5
+type: washer
+type_capital: Washer
+type_first_letter: w
+type_first_letter_upper: W
+type_upper: WASHER

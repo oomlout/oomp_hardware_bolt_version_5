@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: penny
+description_main_capital: Penny
+description_main_first_letter: p
+description_main_first_letter_upper: P
+description_main_upper: PENNY
+description_only_numbers: ''
+description_only_numbers_short: ' '
+description_or_color: ' '
+description_or_color_upper: ' '
+directory: parts/hardware_washer_m6_penny
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_washer_m6_penny
+id_no_class: washer_m6_penny
+id_no_size: penny
+id_no_type: m6_penny
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m6_penny
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m6_penny
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m6_penny
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_washer_m6_penny](none)<br>[w6](none)<br>[Hardware Washer
+    M6 Penny](none)<br><br>'
+markdown_short: '[hardware_washer_m6_penny](none)<br><br>'
+md5: c7d2da6941e1027542c3ff54212f2a53
+md5_10: c7d2da6941
+md5_10_upper: C7D2DA6941
+md5_5: c7d2d
+md5_5_upper: C7D2D
+md5_6: c7d2da
+md5_6_alpha: 7sonu
+md5_6_alpha_upper: 7SONU
+md5_6_upper: C7D2DA
+name: Hardware Washer M6 Penny
+name_no_class: Washer M6 Penny
+name_no_size: Penny
+name_no_size_short: Penny
+name_no_type: M6 Penny
+oomp_key: oomp_hardware_washer_m6_penny
+oomp_word: honey_pot pineapple hotel
+oomp_word_emoji: ':honey_pot: :pineapple: :hotel:'
+oomp_word_emoji_list:
+- ':honey_pot:'
+- ':pineapple:'
+- ':hotel:'
+oomp_word_list:
+- honey_pot
+- pineapple
+- hotel
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: w6
+short_code_upper: W6
+size: m6
+size_capital: M6
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '6'
+size_only_numbers_no_zeros: '6'
+size_upper: M6
+type: washer
+type_capital: Washer
+type_first_letter: w
+type_first_letter_upper: W
+type_upper: WASHER

@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: penny
+description_main_capital: Penny
+description_main_first_letter: p
+description_main_first_letter_upper: P
+description_main_upper: PENNY
+description_only_numbers: ''
+description_only_numbers_short: ' '
+description_or_color: ' '
+description_or_color_upper: ' '
+directory: parts/hardware_washer_m2_5_penny
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_washer_m2_5_penny
+id_no_class: washer_m2_5_penny
+id_no_size: penny
+id_no_type: m2_5_penny
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m2_5_penny
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m2_5_penny
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m2_5_penny
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_washer_m2_5_penny](none)<br>[w](none)<br>[Hardware Washer
+    M2 5 Penny](none)<br><br>'
+markdown_short: '[hardware_washer_m2_5_penny](none)<br><br>'
+md5: 2bf6ae4c7cb3542922bbb5974727c5d4
+md5_10: 2bf6ae4c7c
+md5_10_upper: 2BF6AE4C7C
+md5_5: 2bf6a
+md5_5_upper: 2BF6A
+md5_6: 2bf6ae
+md5_6_alpha: 1pr5a
+md5_6_alpha_upper: 1PR5A
+md5_6_upper: 2BF6AE
+name: Hardware Washer M2 5 Penny
+name_no_class: Washer M2 5 Penny
+name_no_size: Penny
+name_no_size_short: Penny
+name_no_type: M2 5 Penny
+oomp_key: oomp_hardware_washer_m2_5_penny
+oomp_word: cloud five jeans
+oomp_word_emoji: ':cloud: :five: :jeans:'
+oomp_word_emoji_list:
+- ':cloud:'
+- ':five:'
+- ':jeans:'
+oomp_word_list:
+- cloud
+- five
+- jeans
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: w
+short_code_upper: W
+size: m2_5
+size_capital: M2.5
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '25'
+size_only_numbers_no_zeros: '25'
+size_upper: M2_5
+type: washer
+type_capital: Washer
+type_first_letter: w
+type_first_letter_upper: W
+type_upper: WASHER

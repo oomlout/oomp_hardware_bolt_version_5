@@ -1,0 +1,88 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: ''
+description_main_capital: ''
+description_main_first_letter: ''
+description_main_first_letter_upper: ''
+description_main_upper: ''
+description_only_numbers: ''
+description_only_numbers_short: ' '
+description_or_color: ' '
+description_or_color_upper: ' '
+directory: parts/hardware_washer_m1
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_washer_m1
+id_no_class: washer_m1
+id_no_size: m1
+id_no_type: m1
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m1
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m1
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m1
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_washer_m1](none)<br>[w1](none)<br>[Hardware Washer M1](none)<br><br>'
+markdown_short: '[hardware_washer_m1](none)<br><br>'
+md5: 45d53dd075f94beb46ea4c4381cebd00
+md5_10: 45d53dd075
+md5_10_upper: 45D53DD075
+md5_5: 45d53
+md5_5_upper: 45D53
+md5_6: 45d53d
+md5_6_alpha: 2q3b1
+md5_6_alpha_upper: 2Q3B1
+md5_6_upper: 45D53D
+name: Hardware Washer M1
+name_no_class: Washer M1
+name_no_size: M1
+name_no_size_short: M1
+name_no_type: M1
+oomp_key: oomp_hardware_washer_m1
+oomp_word: snake house cow
+oomp_word_emoji: ':snake: :house: :cow:'
+oomp_word_emoji_list:
+- ':snake:'
+- ':house:'
+- ':cow:'
+oomp_word_list:
+- snake
+- house
+- cow
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: w1
+short_code_upper: W1
+size: m1
+size_capital: M1
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '1'
+size_only_numbers_no_zeros: '1'
+size_upper: M1
+type: washer
+type_capital: Washer
+type_first_letter: w
+type_first_letter_upper: W
+type_upper: WASHER

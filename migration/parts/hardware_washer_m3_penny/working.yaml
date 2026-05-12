@@ -1,0 +1,89 @@
+classification: hardware
+classification_capital: Hardware
+classification_first_letter: h
+classification_first_letter_upper: H
+classification_upper: HARDWARE
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: penny
+description_main_capital: Penny
+description_main_first_letter: p
+description_main_first_letter_upper: P
+description_main_upper: PENNY
+description_only_numbers: ''
+description_only_numbers_short: ' '
+description_or_color: ' '
+description_or_color_upper: ' '
+directory: parts/hardware_washer_m3_penny
+distributors: []
+filter: ''
+from_yaml: false
+id: hardware_washer_m3_penny
+id_no_class: washer_m3_penny
+id_no_size: penny
+id_no_type: m3_penny
+kicad_reference: ''
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m3_penny
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m3_penny
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m3_penny
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[hardware_washer_m3_penny](none)<br>[w3](none)<br>[Hardware Washer
+    M3 Penny](none)<br><br>'
+markdown_short: '[hardware_washer_m3_penny](none)<br><br>'
+md5: 907fee65ae3dfcfbc74ed8be9e7de117
+md5_10: 907fee65ae
+md5_10_upper: 907FEE65AE
+md5_5: 907fe
+md5_5_upper: 907FE
+md5_6: 907fee
+md5_6_alpha: 5mz1q
+md5_6_alpha_upper: 5MZ1Q
+md5_6_upper: 907FEE
+name: Hardware Washer M3 Penny
+name_no_class: Washer M3 Penny
+name_no_size: Penny
+name_no_size_short: Penny
+name_no_type: M3 Penny
+oomp_key: oomp_hardware_washer_m3_penny
+oomp_word: scissors speaker ambulance
+oomp_word_emoji: ':scissors: :speaker: :ambulance:'
+oomp_word_emoji_list:
+- ':scissors:'
+- ':speaker:'
+- ':ambulance:'
+oomp_word_list:
+- scissors
+- speaker
+- ambulance
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: w3
+short_code_upper: W3
+size: m3
+size_capital: M3
+size_first_letter: m
+size_first_letter_upper: M
+size_only_numbers: '3'
+size_only_numbers_no_zeros: '3'
+size_upper: M3
+type: washer
+type_capital: Washer
+type_first_letter: w
+type_first_letter_upper: W
+type_upper: WASHER

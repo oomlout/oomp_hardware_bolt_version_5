@@ -9,10 +9,11 @@ def main(**kwargs):
 
     ######add colour bands to tray
     styles = {}
-    #nut
+    #nut and washer
     if True:
         style_colors = {}
         style_colors["nut"] = "blue"
+        style_colors["washer"] = "purple"
         if False:
             length_colors = {}
             length_colors["6_mm_length"] = "brown"
@@ -23,8 +24,11 @@ def main(**kwargs):
             length_colors["20_mm_length"] = "blue"
             length_colors["25_mm_length"] = "purple"
         
-        type_colors = {}
-        type_colors[""] = "red"
+        type_colors_nut = {}
+        type_colors_nut[""] = "red"
+
+        type_colors_washer = {}
+        type_colors_washer[""] = "red"
 
         thread_colors = {}
         thread_colors["m2"] = "brown"
@@ -41,7 +45,10 @@ def main(**kwargs):
         if True:
             styles["nut"] = {}
             styles["nut"]["band_2"] = thread_colors
-            styles["nut"]["band_3"] = type_colors        
+            styles["nut"]["band_3"] = type_colors_nut        
+            styles["washer"] = {}
+            styles["washer"]["band_2"] = thread_colors
+            styles["washer"]["band_3"] = type_colors_washer
     
     for style in styles:
         band_1_color = style_colors[style]
