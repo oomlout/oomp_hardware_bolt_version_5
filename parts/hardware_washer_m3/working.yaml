@@ -1,0 +1,163 @@
+bip_39_2_word_array:
+- impulse
+- stick
+bip_39_2_word_no_space: impulsestick
+bip_39_2_word_space: impulse stick
+bip_39_2_word_underscore: impulse_stick
+bip_39_3_word_array:
+- impulse
+- stick
+- ranch
+bip_39_3_word_no_space: impulsestickranch
+bip_39_3_word_space: impulse stick ranch
+bip_39_3_word_underscore: impulse_stick_ranch
+bip_39_full_array:
+- impulse
+- stick
+- ranch
+- inject
+- outside
+- stamp
+- beauty
+- ice
+- ice
+- unhappy
+- brick
+- hospital
+bip_39_full_no_space: impulsestickranchinjectoutsidestampbeautyiceiceunhappybrickhospital
+bip_39_full_space: impulse stick ranch inject outside stamp beauty ice ice unhappy
+    brick hospital
+bip_39_full_underscore: impulse_stick_ranch_inject_outside_stamp_beauty_ice_ice_unhappy_brick_hospital
+color_band_project_bolt_1: red
+color_band_project_bolt_2: yellow
+color_band_project_bolt_3: purple
+color_band_string_project_bolt: colour_band_purple_yellow_red
+color_band_taxonomy_3: red
+color_band_taxonomy_6: purple
+color_band_taxonomy_7: yellow
+directory: parts/hardware_washer_m3
+generate_stl: false
+id: hardware_washer_m3
+id_no_class: hardware_washer_m3
+id_no_size: hardware_washer_m3
+id_no_type: hardware_washer_m3
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m3
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m3
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m3
+md5: 723ab6c63a09d9a8c4eb81703da86eb6
+md5_10: 723ab6c63a
+md5_10_upper: 723AB6C63A
+md5_5: 723ab
+md5_5_upper: 723AB
+md5_6: 723ab6
+md5_6_alpha: 4ggc6
+md5_6_alpha_upper: 4GGC6
+md5_6_upper: 723AB6
+name: Hardware Washer M3
+name_no_class: Hardware Washer M3
+name_no_size: Hardware Washer M3
+name_no_type: Hardware Washer M3
+name_proper: Hardware Washer M3
+name_space: hardware washer m3
+name_upper: HARDWARE WASHER M3
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            color_band_project_bolt_1: red
+            color_band_project_bolt_2: yellow
+            color_band_project_bolt_3: purple
+            color_band_string_project_bolt: colour_band_purple_yellow_red
+            color_band_taxonomy_3: red
+            color_band_taxonomy_6: purple
+            color_band_taxonomy_7: yellow
+            directory: parts\hardware_washer_m3
+            name: hardware_washer_m3
+            name_proper: Hardware Washer M3
+            name_space: hardware washer m3
+            name_upper: HARDWARE WASHER M3
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: washer
+            taxonomy_3: m3
+            taxonomy_4: ''
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        file_output: label_oomp.svg
+        file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+oomp_key: oomp_hardware_washer_m3
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: washer
+taxonomy_2_capital: Washer
+taxonomy_2_first_letter: w
+taxonomy_2_first_letter_upper: W
+taxonomy_2_length_1: w
+taxonomy_2_length_2: wa
+taxonomy_2_length_3: was
+taxonomy_2_length_4: wash
+taxonomy_2_length_5: washe
+taxonomy_2_upper: WASHER
+taxonomy_2_upper_length_1: W
+taxonomy_2_upper_length_2: WA
+taxonomy_2_upper_length_3: WAS
+taxonomy_2_upper_length_4: WASH
+taxonomy_2_upper_length_5: WASHE
+taxonomy_3: m3
+taxonomy_3_capital: M3
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m3
+taxonomy_3_length_3: m3
+taxonomy_3_length_4: m3
+taxonomy_3_length_5: m3
+taxonomy_3_upper: M3
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M3
+taxonomy_3_upper_length_3: M3
+taxonomy_3_upper_length_4: M3
+taxonomy_3_upper_length_5: M3
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: ''

@@ -1,0 +1,163 @@
+bip_39_2_word_array:
+- thumb
+- cave
+bip_39_2_word_no_space: thumbcave
+bip_39_2_word_space: thumb cave
+bip_39_2_word_underscore: thumb_cave
+bip_39_3_word_array:
+- thumb
+- cave
+- shell
+bip_39_3_word_no_space: thumbcaveshell
+bip_39_3_word_space: thumb cave shell
+bip_39_3_word_underscore: thumb_cave_shell
+bip_39_full_array:
+- thumb
+- cave
+- shell
+- scout
+- ignore
+- reform
+- surge
+- raise
+- common
+- peasant
+- busy
+- measure
+bip_39_full_no_space: thumbcaveshellscoutignorereformsurgeraisecommonpeasantbusymeasure
+bip_39_full_space: thumb cave shell scout ignore reform surge raise common peasant
+    busy measure
+bip_39_full_underscore: thumb_cave_shell_scout_ignore_reform_surge_raise_common_peasant_busy_measure
+directory: parts/hardware_washer_m1_5_penny
+generate_stl: false
+id: hardware_washer_m1_5_penny
+id_no_class: hardware_washer_m1_5_penny
+id_no_size: hardware_washer_m1_5_penny
+id_no_type: hardware_washer_m1_5_penny
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m1_5_penny
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m1_5_penny
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m1_5_penny
+md5: e1649b15e0a70d68b695892e74447cc4
+md5_10: e1649b15e0
+md5_10_upper: E1649B15E0
+md5_5: e1649
+md5_5_upper: E1649
+md5_6: e1649b
+md5_6_alpha: 8slnf
+md5_6_alpha_upper: 8SLNF
+md5_6_upper: E1649B
+name: Hardware Washer M1 5 Penny
+name_no_class: Hardware Washer M1 5 Penny
+name_no_size: Hardware Washer M1 5 Penny
+name_no_type: Hardware Washer M1 5 Penny
+name_proper: Hardware Washer M1 5 Penny
+name_space: hardware washer m1 5 penny
+name_upper: HARDWARE WASHER M1 5 PENNY
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_washer_m1_5_penny
+            name: hardware_washer_m1_5_penny
+            name_proper: Hardware Washer M1 5 Penny
+            name_space: hardware washer m1 5 penny
+            name_upper: HARDWARE WASHER M1 5 PENNY
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: washer
+            taxonomy_3: m1_5
+            taxonomy_4: penny
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        file_output: label_oomp.svg
+        file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+oomp_key: oomp_hardware_washer_m1_5_penny
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: washer
+taxonomy_2_capital: Washer
+taxonomy_2_first_letter: w
+taxonomy_2_first_letter_upper: W
+taxonomy_2_length_1: w
+taxonomy_2_length_2: wa
+taxonomy_2_length_3: was
+taxonomy_2_length_4: wash
+taxonomy_2_length_5: washe
+taxonomy_2_upper: WASHER
+taxonomy_2_upper_length_1: W
+taxonomy_2_upper_length_2: WA
+taxonomy_2_upper_length_3: WAS
+taxonomy_2_upper_length_4: WASH
+taxonomy_2_upper_length_5: WASHE
+taxonomy_3: m1_5
+taxonomy_3_capital: M1.5
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m1
+taxonomy_3_length_3: m1_
+taxonomy_3_length_4: m1_5
+taxonomy_3_length_5: m1_5
+taxonomy_3_upper: M1_5
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M1
+taxonomy_3_upper_length_3: M1_
+taxonomy_3_upper_length_4: M1_5
+taxonomy_3_upper_length_5: M1_5
+taxonomy_4: penny
+taxonomy_4_capital: Penny
+taxonomy_4_first_letter: p
+taxonomy_4_first_letter_upper: P
+taxonomy_4_length_1: p
+taxonomy_4_length_2: pe
+taxonomy_4_length_3: pen
+taxonomy_4_length_4: penn
+taxonomy_4_length_5: penny
+taxonomy_4_upper: PENNY
+taxonomy_4_upper_length_1: P
+taxonomy_4_upper_length_2: PE
+taxonomy_4_upper_length_3: PEN
+taxonomy_4_upper_length_4: PENN
+taxonomy_4_upper_length_5: PENNY
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: ''

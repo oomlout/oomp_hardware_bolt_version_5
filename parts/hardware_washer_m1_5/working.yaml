@@ -1,0 +1,149 @@
+bip_39_2_word_array:
+- budget
+- ski
+bip_39_2_word_no_space: budgetski
+bip_39_2_word_space: budget ski
+bip_39_2_word_underscore: budget_ski
+bip_39_3_word_array:
+- budget
+- ski
+- giggle
+bip_39_3_word_no_space: budgetskigiggle
+bip_39_3_word_space: budget ski giggle
+bip_39_3_word_underscore: budget_ski_giggle
+bip_39_full_array:
+- budget
+- ski
+- giggle
+- correct
+- flat
+- merit
+- attack
+- supreme
+- action
+- snake
+- grain
+- pig
+bip_39_full_no_space: budgetskigigglecorrectflatmeritattacksupremeactionsnakegrainpig
+bip_39_full_space: budget ski giggle correct flat merit attack supreme action snake
+    grain pig
+bip_39_full_underscore: budget_ski_giggle_correct_flat_merit_attack_supreme_action_snake_grain_pig
+directory: parts/hardware_washer_m1_5
+generate_stl: false
+id: hardware_washer_m1_5
+id_no_class: hardware_washer_m1_5
+id_no_size: hardware_washer_m1_5
+id_no_type: hardware_washer_m1_5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m1_5
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m1_5
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m1_5
+md5: 1d99498798458917039ecf0299a59652
+md5_10: 1d99498798
+md5_10_upper: 1D99498798
+md5_5: 1d994
+md5_5_upper: 1D994
+md5_6: 1d9949
+md5_6_alpha: 15kqx
+md5_6_alpha_upper: 15KQX
+md5_6_upper: 1D9949
+name: Hardware Washer M1 5
+name_no_class: Hardware Washer M1 5
+name_no_size: Hardware Washer M1 5
+name_no_type: Hardware Washer M1 5
+name_proper: Hardware Washer M1 5
+name_space: hardware washer m1 5
+name_upper: HARDWARE WASHER M1 5
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_washer_m1_5
+            name: hardware_washer_m1_5
+            name_proper: Hardware Washer M1 5
+            name_space: hardware washer m1 5
+            name_upper: HARDWARE WASHER M1 5
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: washer
+            taxonomy_3: m1_5
+            taxonomy_4: ''
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        file_output: label_oomp.svg
+        file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+oomp_key: oomp_hardware_washer_m1_5
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: washer
+taxonomy_2_capital: Washer
+taxonomy_2_first_letter: w
+taxonomy_2_first_letter_upper: W
+taxonomy_2_length_1: w
+taxonomy_2_length_2: wa
+taxonomy_2_length_3: was
+taxonomy_2_length_4: wash
+taxonomy_2_length_5: washe
+taxonomy_2_upper: WASHER
+taxonomy_2_upper_length_1: W
+taxonomy_2_upper_length_2: WA
+taxonomy_2_upper_length_3: WAS
+taxonomy_2_upper_length_4: WASH
+taxonomy_2_upper_length_5: WASHE
+taxonomy_3: m1_5
+taxonomy_3_capital: M1.5
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m1
+taxonomy_3_length_3: m1_
+taxonomy_3_length_4: m1_5
+taxonomy_3_length_5: m1_5
+taxonomy_3_upper: M1_5
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M1
+taxonomy_3_upper_length_3: M1_
+taxonomy_3_upper_length_4: M1_5
+taxonomy_3_upper_length_5: M1_5
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: ''

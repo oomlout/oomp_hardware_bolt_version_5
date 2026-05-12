@@ -1,0 +1,166 @@
+bip_39_2_word_array:
+- gauge
+- organ
+bip_39_2_word_no_space: gaugeorgan
+bip_39_2_word_space: gauge organ
+bip_39_2_word_underscore: gauge_organ
+bip_39_3_word_array:
+- gauge
+- organ
+- noodle
+bip_39_3_word_no_space: gaugeorgannoodle
+bip_39_3_word_space: gauge organ noodle
+bip_39_3_word_underscore: gauge_organ_noodle
+bip_39_full_array:
+- gauge
+- organ
+- noodle
+- cotton
+- join
+- crater
+- health
+- scatter
+- track
+- village
+- tilt
+- father
+bip_39_full_no_space: gaugeorgannoodlecottonjoincraterhealthscattertrackvillagetiltfather
+bip_39_full_space: gauge organ noodle cotton join crater health scatter track village
+    tilt father
+bip_39_full_underscore: gauge_organ_noodle_cotton_join_crater_health_scatter_track_village_tilt_father
+directory: parts/hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+generate_stl: false
+id: hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+id_no_class: hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+id_no_size: hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+id_no_type: hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+md5: 60938e58186782651a8e03e69e838829
+md5_10: 60938e5818
+md5_10_upper: 60938E5818
+md5_5: '60938'
+md5_5_upper: '60938'
+md5_6: 60938e
+md5_6_alpha: 3rnny
+md5_6_alpha_upper: 3RNNY
+md5_6_upper: 60938E
+name: Hardware Washer M6 Nylon White 12 Mm Outer Diameter 1 5 Mm Depth
+name_no_class: Hardware Washer M6 Nylon White 12 Mm Outer Diameter 1 5 Mm Depth
+name_no_size: Hardware Washer M6 Nylon White 12 Mm Outer Diameter 1 5 Mm Depth
+name_no_type: Hardware Washer M6 Nylon White 12 Mm Outer Diameter 1 5 Mm Depth
+name_proper: Hardware Washer M6 Nylon White 12 Mm Outer Diameter 1 5 Mm Depth
+name_space: hardware washer m6 nylon white 12 mm outer diameter 1 5 mm depth
+name_upper: HARDWARE WASHER M6 NYLON WHITE 12 MM OUTER DIAMETER 1 5 MM DEPTH
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+            name: hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+            name_proper: Hardware Washer M6 Nylon White 12 Mm Outer Diameter 1 5 Mm
+                Depth
+            name_space: hardware washer m6 nylon white 12 mm outer diameter 1 5 mm
+                depth
+            name_upper: HARDWARE WASHER M6 NYLON WHITE 12 MM OUTER DIAMETER 1 5 MM
+                DEPTH
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: washer
+            taxonomy_3: m6
+            taxonomy_4: nylon_white_12_mm_outer_diameter_1_5_mm_depth
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        file_output: label_oomp.svg
+        file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+oomp_key: oomp_hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: washer
+taxonomy_2_capital: Washer
+taxonomy_2_first_letter: w
+taxonomy_2_first_letter_upper: W
+taxonomy_2_length_1: w
+taxonomy_2_length_2: wa
+taxonomy_2_length_3: was
+taxonomy_2_length_4: wash
+taxonomy_2_length_5: washe
+taxonomy_2_upper: WASHER
+taxonomy_2_upper_length_1: W
+taxonomy_2_upper_length_2: WA
+taxonomy_2_upper_length_3: WAS
+taxonomy_2_upper_length_4: WASH
+taxonomy_2_upper_length_5: WASHE
+taxonomy_3: m6
+taxonomy_3_capital: M6
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m6
+taxonomy_3_length_3: m6
+taxonomy_3_length_4: m6
+taxonomy_3_length_5: m6
+taxonomy_3_upper: M6
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M6
+taxonomy_3_upper_length_3: M6
+taxonomy_3_upper_length_4: M6
+taxonomy_3_upper_length_5: M6
+taxonomy_4: nylon_white_12_mm_outer_diameter_1_5_mm_depth
+taxonomy_4_capital: Nylon White 12 mm Outer Diameter 1.5 mm Depth
+taxonomy_4_first_letter: n
+taxonomy_4_first_letter_upper: N
+taxonomy_4_length_1: n
+taxonomy_4_length_2: ny
+taxonomy_4_length_3: nyl
+taxonomy_4_length_4: nylo
+taxonomy_4_length_5: nylon
+taxonomy_4_upper: NYLON_WHITE_12_MM_OUTER_DIAMETER_1_5_MM_DEPTH
+taxonomy_4_upper_length_1: N
+taxonomy_4_upper_length_2: NY
+taxonomy_4_upper_length_3: NYL
+taxonomy_4_upper_length_4: NYLO
+taxonomy_4_upper_length_5: NYLON
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: ''
