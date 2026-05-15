@@ -29,9 +29,13 @@ bip_39_full_space: chimney exhaust explain able kitchen above spider arch engage
     accuse yellow
 bip_39_full_underscore: chimney_exhaust_explain_able_kitchen_above_spider_arch_engage_van_accuse_yellow
 color_band_project_bolt_1: red
+color_band_project_bolt_1_string: ''
 color_band_project_bolt_2: grey
+color_band_project_bolt_2_string: m8
 color_band_project_bolt_3: purple
+color_band_project_bolt_3_string: washer
 color_band_string_project_bolt: colour_band_purple_grey_red
+color_band_string_project_bolt_string: colour_band_washer_m8_
 color_band_taxonomy_3: red
 color_band_taxonomy_6: purple
 color_band_taxonomy_7: grey
@@ -67,9 +71,13 @@ oomlout_ai_roboclick_1:
         convert_to_png: false
         dict_data:
             color_band_project_bolt_1: red
+            color_band_project_bolt_1_string: ''
             color_band_project_bolt_2: grey
+            color_band_project_bolt_2_string: m8
             color_band_project_bolt_3: purple
+            color_band_project_bolt_3_string: washer
             color_band_string_project_bolt: colour_band_purple_grey_red
+            color_band_string_project_bolt_string: colour_band_washer_m8_
             color_band_taxonomy_3: red
             color_band_taxonomy_6: purple
             color_band_taxonomy_7: grey
@@ -98,6 +106,90 @@ oomlout_ai_roboclick_1:
         file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
         search_and_replace: []
     file_test: label_oomp.pdf
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            color_band_project_bolt_1: red
+            color_band_project_bolt_1_string: ''
+            color_band_project_bolt_2: grey
+            color_band_project_bolt_2_string: m8
+            color_band_project_bolt_3: purple
+            color_band_project_bolt_3_string: washer
+            color_band_string_project_bolt: colour_band_purple_grey_red
+            color_band_string_project_bolt_string: colour_band_washer_m8_
+            color_band_taxonomy_3: red
+            color_band_taxonomy_6: purple
+            color_band_taxonomy_7: grey
+            directory: parts\hardware_washer_m8
+            name: hardware_washer_m8
+            name_proper: Hardware Washer M8
+            name_space: hardware washer m8
+            name_upper: HARDWARE WASHER M8
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        color_band_project_bolt_1: red
+                        color_band_project_bolt_1_string: ''
+                        color_band_project_bolt_2: grey
+                        color_band_project_bolt_2_string: m8
+                        color_band_project_bolt_3: purple
+                        color_band_project_bolt_3_string: washer
+                        color_band_string_project_bolt: colour_band_purple_grey_red
+                        color_band_string_project_bolt_string: colour_band_washer_m8_
+                        color_band_taxonomy_3: red
+                        color_band_taxonomy_6: purple
+                        color_band_taxonomy_7: grey
+                        directory: parts\hardware_washer_m8
+                        name: hardware_washer_m8
+                        name_proper: Hardware Washer M8
+                        name_space: hardware washer m8
+                        name_upper: HARDWARE WASHER M8
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: washer
+                        taxonomy_3: m8
+                        taxonomy_4: ''
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        url_chat: ''
+                    file_output: label_oomp.svg
+                    file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: washer
+            taxonomy_3: m8
+            taxonomy_4: ''
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        file_output: label_bolt_image.svg
+        file_template: source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
 oomp_key: oomp_hardware_washer_m8
 run_action: true
 run_oomp: true

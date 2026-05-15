@@ -52,22 +52,29 @@ def main(**kwargs):
     
     for style in styles:
         band_1_color = style_colors[style]
+        band_1_string = style.replace("_", " ")
         band_2_list = styles[style]["band_2"]
         for band_2 in band_2_list:
             band_2_color = styles[style]["band_2"][band_2]
+            band_2_string = band_2.replace("_", " ")
             band_3_list = styles[style]["band_3"]
             for band_3 in band_3_list:
                 band_3_color = styles[style]["band_3"][band_3]
+                band_3_string = band_3.replace("_", " ")
                 oomp_id = f"hardware_{style}_{band_2}{band_3}"
                 if oomp_id in extras_dict:
                     extras_dict[oomp_id]["color_band_project_bolt_1"] = band_3_color
+                    extras_dict[oomp_id]["color_band_project_bolt_1_string"] = band_3_string                    
                     extras_dict[oomp_id]["color_band_taxonomy_3"] = band_3_color
                     extras_dict[oomp_id]["color_band_project_bolt_2"] = band_2_color
+                    extras_dict[oomp_id]["color_band_project_bolt_2_string"] = band_2_string
                     extras_dict[oomp_id]["color_band_taxonomy_7"] = band_2_color                    
                     extras_dict[oomp_id]["color_band_project_bolt_3"] = band_1_color
+                    extras_dict[oomp_id]["color_band_project_bolt_3_string"] = band_1_string
                     extras_dict[oomp_id]["color_band_taxonomy_6"] = band_1_color
                     extras_dict[oomp_id]["color_band_string_project_bolt"] = f"colour_band_{band_1_color}_{band_2_color}_{band_3_color}"
-    pass
+                    extras_dict[oomp_id]["color_band_string_project_bolt_string"] = f"colour_band_{band_1_string}_{band_2_string}_{band_3_string}"
+                    pass
                 
         
     

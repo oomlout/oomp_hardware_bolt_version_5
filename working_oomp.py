@@ -83,7 +83,7 @@ def create_generic(**kwargs):
         if True:
             templates = []
             templates.append({"template_folder": "default"})
-            #templates.append({"template_folder": "source_file\\template_jinja\\template_label_15_mm_30_mm", "output_filename": "label_oomp_small.svg"})
+            templates.append({"template_folder": "source_file\\template_jinja\\oomp_hardware_bolt_version_5\\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm", "output_filename": "label_bolt_image.svg"})
             convert_to_pdf = False
             convert_to_png = False
             count = oomp_helper.add_jinja_template(part=part, templates=templates, mode_ai_wait=mode_ai_wait, count=count, convert_to_pdf=convert_to_pdf, convert_to_png=convert_to_png)

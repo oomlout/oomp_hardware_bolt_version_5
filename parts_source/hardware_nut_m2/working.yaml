@@ -1,7 +1,11 @@
 color_band_project_bolt_1: red
+color_band_project_bolt_1_string: ''
 color_band_project_bolt_2: brown
+color_band_project_bolt_2_string: m2
 color_band_project_bolt_3: blue
+color_band_project_bolt_3_string: nut
 color_band_string_project_bolt: colour_band_blue_brown_red
+color_band_string_project_bolt_string: colour_band_nut_m2_
 color_band_taxonomy_3: red
 color_band_taxonomy_6: blue
 color_band_taxonomy_7: brown

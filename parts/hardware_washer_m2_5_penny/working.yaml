@@ -84,6 +84,68 @@ oomlout_ai_roboclick_1:
         file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
         search_and_replace: []
     file_test: label_oomp.pdf
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_washer_m2_5_penny
+            name: hardware_washer_m2_5_penny
+            name_proper: Hardware Washer M2 5 Penny
+            name_space: hardware washer m2 5 penny
+            name_upper: HARDWARE WASHER M2 5 PENNY
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_washer_m2_5_penny
+                        name: hardware_washer_m2_5_penny
+                        name_proper: Hardware Washer M2 5 Penny
+                        name_space: hardware washer m2 5 penny
+                        name_upper: HARDWARE WASHER M2 5 PENNY
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: washer
+                        taxonomy_3: m2_5
+                        taxonomy_4: penny
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        url_chat: ''
+                    file_output: label_oomp.svg
+                    file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: washer
+            taxonomy_3: m2_5
+            taxonomy_4: penny
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        file_output: label_bolt_image.svg
+        file_template: source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
 oomp_key: oomp_hardware_washer_m2_5_penny
 run_action: true
 run_oomp: true

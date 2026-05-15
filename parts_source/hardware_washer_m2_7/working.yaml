@@ -1,7 +1,11 @@
 color_band_project_bolt_1: red
+color_band_project_bolt_1_string: ''
 color_band_project_bolt_2: orange
+color_band_project_bolt_2_string: m2 7
 color_band_project_bolt_3: purple
+color_band_project_bolt_3_string: washer
 color_band_string_project_bolt: colour_band_purple_orange_red
+color_band_string_project_bolt_string: colour_band_washer_m2 7_
 color_band_taxonomy_3: red
 color_band_taxonomy_6: purple
 color_band_taxonomy_7: orange
