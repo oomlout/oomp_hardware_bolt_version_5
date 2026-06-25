@@ -83,6 +83,13 @@ def create_generic(**kwargs):
         if True:
             templates = []
             templates.append({"template_folder": "default"})
+            #nut test
+            if True:
+                typ = current.get("taxonomy_3", "")
+                style = current.get("taxonomy_4", "")
+                if typ == "nut" and (style == "" or style == None):
+                    pass
+                    #templates.append({"template_folder": "source_file\\template_jinja\\oomp_hardware_bolt_version_5\\nut_a4_dimension", "output_filename": "label_nut_image.svg"})
             templates.append({"template_folder": "source_file\\template_jinja\\oomp_hardware_bolt_version_5\\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm", "output_filename": "label_bolt_image.svg"})
             convert_to_pdf = False
             convert_to_png = False

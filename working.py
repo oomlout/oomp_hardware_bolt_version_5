@@ -13,6 +13,10 @@ def main(**kwargs):
     #run_scad = False
     kwargs["run_scad"] = run_scad
 
+    run_svg = kwargs.get("run_svg", True)
+    #run_svg = False
+    kwargs["run_svg"] = run_svg
+
     run_action = kwargs.get("run_action", True)
     #run_action = False
     kwargs["run_action"] = run_action
@@ -39,6 +43,10 @@ def run(**kwargs):
             kwargs2["typ"] = "all"
         import working_scad
         working_scad.main(**kwargs2)
+
+    if kwargs.get("run_svg", False):
+        import working_svg
+        working_svg.main(**kwargs)
 
     if kwargs.get("run_action", True):
         import working_action

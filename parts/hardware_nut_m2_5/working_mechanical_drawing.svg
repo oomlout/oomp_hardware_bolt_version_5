@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="220.0000mm" height="307.0000mm"
+     viewBox="0 0 220.0000 307.0000">
+  <rect x="5.0000" y="5.0000" width="210.0000" height="297.0000"  fill="#ffffff" stroke="none" />
+  <rect x="9.0000" y="9.0000" width="202.0000" height="289.0000" rx="3.5000" ry="3.5000"  fill="none" stroke="#1A1A1A" stroke-width="0.8" />
+  <text x="19.0000" y="19.0000" font-family="sans-serif" font-size="3.2000" text-anchor="start" dominant-baseline="middle" fill="#888888">hardware_nut_m2_5</text>
+  <text x="19.0000" y="42.0000" font-family="sans-serif" font-size="18.0000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1C1C1C">M2.5</text>
+  <text x="19.0000" y="54.0000" font-family="sans-serif" font-size="4.5000" text-anchor="start" dominant-baseline="middle" fill="#888888">HARDWARE / NUT</text>
+  <text x="19.0000" y="72.0000" font-family="sans-serif" font-size="4.0000" text-anchor="start" dominant-baseline="middle" fill="#888888">METRIC HEX NUT</text>
+  <line x1="15.0000" y1="81.0000" x2="205.0000" y2="81.0000"  fill="#333333" stroke="#1A1A1A" stroke-width="0.5" />
+  <text x="19.0000" y="88.0000" font-family="sans-serif" font-size="5.2000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#111111">DIMENSIONS</text>
+  <text x="201.0000" y="88.0000" font-family="sans-serif" font-size="3.2000" text-anchor="end" dominant-baseline="middle" fill="#888888">9:1 RATIO  —  PRINT AT 100%</text>
+  <text x="57.5000" y="102.0000" font-family="sans-serif" font-size="3.2000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#888888">FRONT VIEW</text>
+  <text x="162.5000" y="102.0000" font-family="sans-serif" font-size="3.2000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#888888">SIDE VIEW</text>
+  <polygon points="57.5000,137.5240 35.0000,150.5144 35.0000,176.4952 57.5000,189.4856 80.0000,176.4952 80.0000,150.5144"  fill="#FAFAFA" stroke="#1A1A1A" stroke-width="0.8" />
+  <circle cx="57.5000" cy="163.5048" r="11.2500"  fill="#FFFFFF" stroke="#444444" stroke-width="0.3" />
+  <rect x="136.5192" y="154.5048" width="51.9615" height="18.0000"  fill="#FAFAFA" stroke="#1A1A1A" stroke-width="0.8" />
+  <rect x="151.2500" y="154.5048" width="22.5000" height="18.0000"  fill="#FFFFFF" stroke="#444444" stroke-width="0.3" />
+  <line x1="140.0000" y1="172.5048" x2="140.0000" y2="154.5048"  fill="#333333" stroke="#AAAAAA" stroke-width="0.3" />
+  <line x1="185.0000" y1="172.5048" x2="185.0000" y2="154.5048"  fill="#333333" stroke="#AAAAAA" stroke-width="0.3" />
+  <line x1="35.0000" y1="149.0144" x2="35.0000" y2="128.0240"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+  <line x1="80.0000" y1="149.0144" x2="80.0000" y2="128.0240"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+  <line x1="35.0000" y1="129.5240" x2="80.0000" y2="129.5240"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+  <line x1="35.0000" y1="131.0240" x2="35.0000" y2="128.0240"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+  <line x1="80.0000" y1="131.0240" x2="80.0000" y2="128.0240"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+  <text x="57.5000" y="126.2440" font-family="Arial, Helvetica, sans-serif" font-size="3.8000" text-anchor="middle" dominant-baseline="middle" fill="#1A1A1A">ACROSS FLATS  5 mm</text>
+  <line x1="46.2500" y1="165.0048" x2="46.2500" y2="198.9856"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+  <line x1="68.7500" y1="165.0048" x2="68.7500" y2="198.9856"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+  <line x1="46.2500" y1="197.4856" x2="68.7500" y2="197.4856"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+  <line x1="46.2500" y1="198.9856" x2="46.2500" y2="195.9856"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+  <line x1="68.7500" y1="198.9856" x2="68.7500" y2="195.9856"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+  <text x="57.5000" y="200.7656" font-family="Arial, Helvetica, sans-serif" font-size="3.8000" text-anchor="middle" dominant-baseline="middle" fill="#1A1A1A">THREAD BORE  Ø2 mm</text>
+  <line x1="140.0000" y1="153.0048" x2="140.0000" y2="145.0048"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+  <line x1="185.0000" y1="153.0048" x2="185.0000" y2="145.0048"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+  <line x1="140.0000" y1="146.5048" x2="185.0000" y2="146.5048"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+  <line x1="140.0000" y1="148.0048" x2="140.0000" y2="145.0048"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+  <line x1="185.0000" y1="148.0048" x2="185.0000" y2="145.0048"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+  <text x="162.5000" y="143.2248" font-family="Arial, Helvetica, sans-serif" font-size="3.8000" text-anchor="middle" dominant-baseline="middle" fill="#1A1A1A">ACROSS FLATS  5 mm</text>
+  <line x1="186.5000" y1="172.5048" x2="194.5000" y2="172.5048"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+  <line x1="186.5000" y1="154.5048" x2="194.5000" y2="154.5048"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+  <line x1="193.0000" y1="172.5048" x2="193.0000" y2="154.5048"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+  <line x1="191.5000" y1="172.5048" x2="194.5000" y2="172.5048"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+  <line x1="191.5000" y1="154.5048" x2="194.5000" y2="154.5048"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+  <text x="196.2800" y="163.5048" font-family="Arial, Helvetica, sans-serif" font-size="3.8000" text-anchor="middle" dominant-baseline="middle" fill="#1A1A1A" transform="rotate(-90.000,196.2800,163.5048)">NUT HEIGHT  2.0 mm</text>
+  <line x1="15.0000" y1="230.0000" x2="205.0000" y2="230.0000"  fill="#333333" stroke="#1A1A1A" stroke-width="0.5" />
+  <text x="19.0000" y="241.0000" font-family="sans-serif" font-size="5.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#111111">M2</text>
+  <text x="19.0000" y="248.5000" font-family="sans-serif" font-size="3.0000" text-anchor="start" dominant-baseline="middle" fill="#888888">THREAD</text>
+  <text x="79.6667" y="241.0000" font-family="sans-serif" font-size="5.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#111111">5 mm</text>
+  <text x="79.6667" y="248.5000" font-family="sans-serif" font-size="3.0000" text-anchor="start" dominant-baseline="middle" fill="#888888">ACROSS FLATS</text>
+  <text x="140.3333" y="241.0000" font-family="sans-serif" font-size="5.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#111111">2.0 mm</text>
+  <text x="140.3333" y="248.5000" font-family="sans-serif" font-size="3.0000" text-anchor="start" dominant-baseline="middle" fill="#888888">NUT HEIGHT</text>
+  <line x1="15.0000" y1="256.0000" x2="205.0000" y2="256.0000"  fill="#333333" stroke="#1A1A1A" stroke-width="0.3" />
+  <text x="19.0000" y="264.0000" font-family="sans-serif" font-size="3.2000" text-anchor="start" dominant-baseline="middle" fill="#888888">ISO4032 / DIN934</text>
+  <text x="19.0000" y="273.0000" font-family="sans-serif" font-size="3.0000" text-anchor="start" dominant-baseline="middle" fill="#aaaaaa">M2.5</text>
+  <line x1="15.0000" y1="282.0000" x2="205.0000" y2="282.0000"  fill="#333333" stroke="#1A1A1A" stroke-width="0.3" />
+  <text x="19.0000" y="290.0000" font-family="sans-serif" font-size="2.8000" text-anchor="start" dominant-baseline="middle" fill="#888888">OOMLOUT</text>
+  <text x="201.0000" y="290.0000" font-family="sans-serif" font-size="2.8000" text-anchor="end" dominant-baseline="middle" fill="#888888">oom.lt/19c466</text>
+</svg>

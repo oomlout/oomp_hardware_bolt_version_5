@@ -9,6 +9,43 @@ color_band_string_project_bolt_string: colour_band_nut_m4_
 color_band_taxonomy_3: red
 color_band_taxonomy_6: blue
 color_band_taxonomy_7: green
+spec_iso_c_max_mm: '0.40'
+spec_iso_c_min_mm: '0.15'
+spec_iso_da_max_mm: '4.60'
+spec_iso_da_min_mm: '4.00'
+spec_iso_dw_min_mm: '5.90'
+spec_iso_e_min_mm: '7.66'
+spec_iso_m_max_mm: '3.20'
+spec_iso_m_min_mm: '2.90'
+spec_iso_nominal_diameter: M4
+spec_iso_s_max_mm: '7.00'
+spec_iso_s_min_mm: '6.78'
+spec_iso_thread_pitch_mm: '0.70'
+svg_details:
+- svg_c_max_mm: '0.40'
+  svg_c_min_mm: '0.15'
+  svg_da_max_mm: '4.60'
+  svg_da_min_mm: '4.00'
+  svg_dw_min_mm: '5.90'
+  svg_e_min_mm: '7.66'
+  svg_m_max_mm: '3.20'
+  svg_m_min_mm: '2.90'
+  svg_name: nut
+  svg_nominal_diameter: M4
+  svg_s_max_mm: '7.00'
+  svg_s_min_mm: '6.78'
+  svg_thread_pitch_mm: '0.70'
+- af_mm: 7.0
+  filename: working_mechanical_drawing
+  hardware_type: nut
+  height_mm: 3.2
+  id_mm: 4.0
+  part_category: HARDWARE / NUT
+  part_code: ISO4032 / DIN934
+  part_name: ''
+  part_series: METRIC HEX NUT
+  part_title: M4
+  svg_name: oomp_mech_drawing_hardware
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''

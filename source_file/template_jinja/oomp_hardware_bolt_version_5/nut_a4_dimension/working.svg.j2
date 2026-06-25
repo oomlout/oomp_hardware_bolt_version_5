@@ -1,0 +1,162 @@
+{%- set sc      = 1000 -%}
+{%- set s_max   = p.svg_details.svg_s_max_mm | float -%}
+{%- set m_max   = p.svg_details.svg_m_max_mm | float -%}
+{%- set da_max  = p.svg_details.svg_da_max_mm | float -%}
+{%- set e_min   = p.svg_details.svg_e_min_mm | float -%}
+{%- set pitch   = p.svg_details.svg_thread_pitch_mm | float -%}
+{%- set nom_dia = p.svg_details.svg_nominal_diameter -%}
+
+{# --- SVG units: 100 u = 1 mm; scale = 10x so sc = 1000 u/mm --- #}
+{%- set e_r    = ((e_min  * sc) / 2) | int -%}
+{%- set s_r    = ((s_max  * sc) / 2) | int -%}
+{%- set bore_r = ((da_max * sc) / 2) | int -%}
+{%- set m_hw   = ((m_max  * sc) / 2) | int -%}
+
+{# Flat-top hex trig: e_r500 = e_r*sin(30), e_r866 = e_r*cos(30) #}
+{%- set e_r500 = (e_r // 2) -%}
+{%- set e_r866 = ((e_r * 866) // 1000) -%}
+
+{# Layout #}
+{%- set cx_f       = 5500 -%}
+{%- set cx_s       = 16000 -%}
+{%- set cy         = 13000 -%}
+{%- set dim_gap    = 700 -%}
+{%- set dim_y_top  = cy - s_r - dim_gap -%}
+{%- set dim_x_r_f  = cx_f + e_r + 1200 -%}
+{%- set dim_x_r_s  = cx_s + m_hw + 1200 -%}
+{%- set sw_border  = 210 -%}
+{%- set sw_main    = 72 -%}
+{%- set sw_section = 48 -%}
+{%- set sw_dim     = 30 -%}
+{%- set tick       = 170 -%}
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="210mm" height="297mm" viewBox="0 0 21000 29700" version="1.1"
+     style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+
+  <!-- Quiet A4 engineering sheet: ASCII-only labels avoid encoding problems. -->
+  <rect width="21000" height="29700" fill="#ffffff"/>
+  <rect x="400" y="400" width="20200" height="28900" rx="700" ry="700"
+        fill="none" stroke="#000000" stroke-width="{{ sw_border }}"/>
+
+  <!-- Header -->
+  <text x="1000" y="1550" fill="#000000" fill-opacity="0.55" font-family="Arial, Helvetica, sans-serif"
+        font-size="340" font-weight="bold" letter-spacing="90">OOMLOUT / NUT</text>
+  <text x="1000" y="2840" fill="#000000" font-family="Arial, Helvetica, sans-serif"
+        font-size="1600" font-weight="bold">{{ nom_dia }}</text>
+  <text x="1000" y="3420" fill="#000000" fill-opacity="0.60" font-family="Arial, Helvetica, sans-serif"
+        font-size="470">HEX NUT  ISO 4032</text>
+  <line x1="1000" y1="3850" x2="20000" y2="3850" stroke="#000000" stroke-width="{{ sw_section }}"/>
+
+  <!-- Drawing heading -->
+  <text x="1000" y="4580" fill="#000000" font-family="Arial, Helvetica, sans-serif"
+        font-size="520" font-weight="bold">DIMENSIONS</text>
+  <text x="20000" y="4580" fill="#000000" fill-opacity="0.55" font-family="Arial, Helvetica, sans-serif"
+        font-size="340" text-anchor="end">10:1 RATIO - PRINT AT 100%</text>
+
+  <!-- View labels -->
+  <text x="{{ cx_f }}" y="5350" fill="#000000" fill-opacity="0.65" font-family="Arial, Helvetica, sans-serif"
+        font-size="340" font-weight="bold" text-anchor="middle" letter-spacing="55">END VIEW</text>
+  <text x="{{ cx_s }}" y="5350" fill="#000000" fill-opacity="0.65" font-family="Arial, Helvetica, sans-serif"
+        font-size="340" font-weight="bold" text-anchor="middle" letter-spacing="55">SIDE VIEW</text>
+
+  <!-- ===================================================================
+       END VIEW: flat-top hexagon + bore circle
+       Vertices: Right, LowerRight, LowerLeft, Left, UpperLeft, UpperRight
+       =================================================================== -->
+  <polygon points="
+    {{ cx_f + e_r   }},{{ cy          }}
+    {{ cx_f + e_r500}},{{ cy + e_r866 }}
+    {{ cx_f - e_r500}},{{ cy + e_r866 }}
+    {{ cx_f - e_r   }},{{ cy          }}
+    {{ cx_f - e_r500}},{{ cy - e_r866 }}
+    {{ cx_f + e_r500}},{{ cy - e_r866 }}"
+    fill="#f4f4f2" stroke="#000000" stroke-width="{{ sw_main }}"/>
+  <circle cx="{{ cx_f }}" cy="{{ cy }}" r="{{ bore_r }}"
+          fill="#ffffff" stroke="#000000" stroke-width="{{ sw_main }}"/>
+
+  <!-- ===================================================================
+       SIDE VIEW: rectangle (one flat facing viewer)
+       Width = m_max (thickness), Height = s_max (across flats)
+       Inner rectangle shows the threaded bore hole.
+       =================================================================== -->
+  <rect x="{{ cx_s - m_hw }}" y="{{ cy - s_r }}" width="{{ m_hw * 2 }}" height="{{ s_r * 2 }}"
+        fill="#f4f4f2" stroke="#000000" stroke-width="{{ sw_main }}"/>
+  <rect x="{{ cx_s - m_hw }}" y="{{ cy - bore_r }}" width="{{ m_hw * 2 }}" height="{{ bore_r * 2 }}"
+        fill="#ffffff" stroke="#000000" stroke-width="{{ sw_main }}"/>
+
+  <!-- ===================================================================
+       DIMENSIONS
+       =================================================================== -->
+
+  <!-- e: across corners (horizontal, above end-view hex)
+       Extension lines rise from left/right vertices at (cx_f +/- e_r, cy). -->
+  <g fill="none" stroke="#000000" stroke-width="{{ sw_dim }}">
+    <line x1="{{ cx_f - e_r }}" y1="{{ cy }}"        x2="{{ cx_f - e_r }}" y2="{{ dim_y_top + tick }}"/>
+    <line x1="{{ cx_f + e_r }}" y1="{{ cy }}"        x2="{{ cx_f + e_r }}" y2="{{ dim_y_top + tick }}"/>
+    <line x1="{{ cx_f - e_r }}" y1="{{ dim_y_top }}" x2="{{ cx_f + e_r }}" y2="{{ dim_y_top }}"/>
+    <line x1="{{ cx_f - e_r }}" y1="{{ dim_y_top - tick }}" x2="{{ cx_f - e_r }}" y2="{{ dim_y_top + tick }}"/>
+    <line x1="{{ cx_f + e_r }}" y1="{{ dim_y_top - tick }}" x2="{{ cx_f + e_r }}" y2="{{ dim_y_top + tick }}"/>
+  </g>
+  <text x="{{ cx_f }}" y="{{ dim_y_top - 230 }}" fill="#000000" font-family="Arial, Helvetica, sans-serif"
+        font-size="430" font-weight="bold" text-anchor="middle">e = {{ e_min }} mm</text>
+
+  <!-- s: across flats (vertical, right of end-view hex)
+       Extension lines run from upper-right / lower-right hex vertices outward. -->
+  <g fill="none" stroke="#000000" stroke-width="{{ sw_dim }}">
+    <line x1="{{ cx_f + e_r500 }}" y1="{{ cy - e_r866 }}" x2="{{ dim_x_r_f - tick }}" y2="{{ cy - e_r866 }}"/>
+    <line x1="{{ cx_f + e_r500 }}" y1="{{ cy + e_r866 }}" x2="{{ dim_x_r_f - tick }}" y2="{{ cy + e_r866 }}"/>
+    <line x1="{{ dim_x_r_f }}"     y1="{{ cy - e_r866 }}" x2="{{ dim_x_r_f }}"         y2="{{ cy + e_r866 }}"/>
+    <line x1="{{ dim_x_r_f - tick }}" y1="{{ cy - e_r866 }}" x2="{{ dim_x_r_f + tick }}" y2="{{ cy - e_r866 }}"/>
+    <line x1="{{ dim_x_r_f - tick }}" y1="{{ cy + e_r866 }}" x2="{{ dim_x_r_f + tick }}" y2="{{ cy + e_r866 }}"/>
+  </g>
+  <text x="{{ dim_x_r_f + 330 }}" y="{{ cy }}" fill="#000000" font-family="Arial, Helvetica, sans-serif"
+        font-size="400" font-weight="bold" text-anchor="middle"
+        transform="rotate(-90, {{ dim_x_r_f + 330 }}, {{ cy }})">s = {{ s_max }} mm</text>
+
+  <!-- m: nut height / thickness (horizontal, above side view)
+       Extension lines rise from top corners of the side-view rectangle. -->
+  <g fill="none" stroke="#000000" stroke-width="{{ sw_dim }}">
+    <line x1="{{ cx_s - m_hw }}" y1="{{ cy - s_r }}" x2="{{ cx_s - m_hw }}" y2="{{ dim_y_top + tick }}"/>
+    <line x1="{{ cx_s + m_hw }}" y1="{{ cy - s_r }}" x2="{{ cx_s + m_hw }}" y2="{{ dim_y_top + tick }}"/>
+    <line x1="{{ cx_s - m_hw }}" y1="{{ dim_y_top }}" x2="{{ cx_s + m_hw }}" y2="{{ dim_y_top }}"/>
+    <line x1="{{ cx_s - m_hw }}" y1="{{ dim_y_top - tick }}" x2="{{ cx_s - m_hw }}" y2="{{ dim_y_top + tick }}"/>
+    <line x1="{{ cx_s + m_hw }}" y1="{{ dim_y_top - tick }}" x2="{{ cx_s + m_hw }}" y2="{{ dim_y_top + tick }}"/>
+  </g>
+  <text x="{{ cx_s }}" y="{{ dim_y_top - 230 }}" fill="#000000" font-family="Arial, Helvetica, sans-serif"
+        font-size="430" font-weight="bold" text-anchor="middle">m = {{ m_max }} mm</text>
+
+  <!-- da: bore / thread diameter (vertical, right of side view)
+       Extension lines run from top/bottom edges of the bore rectangle outward. -->
+  <g fill="none" stroke="#000000" stroke-width="{{ sw_dim }}">
+    <line x1="{{ cx_s + m_hw }}" y1="{{ cy - bore_r }}" x2="{{ dim_x_r_s - tick }}" y2="{{ cy - bore_r }}"/>
+    <line x1="{{ cx_s + m_hw }}" y1="{{ cy + bore_r }}" x2="{{ dim_x_r_s - tick }}" y2="{{ cy + bore_r }}"/>
+    <line x1="{{ dim_x_r_s }}"   y1="{{ cy - bore_r }}" x2="{{ dim_x_r_s }}"         y2="{{ cy + bore_r }}"/>
+    <line x1="{{ dim_x_r_s - tick }}" y1="{{ cy - bore_r }}" x2="{{ dim_x_r_s + tick }}" y2="{{ cy - bore_r }}"/>
+    <line x1="{{ dim_x_r_s - tick }}" y1="{{ cy + bore_r }}" x2="{{ dim_x_r_s + tick }}" y2="{{ cy + bore_r }}"/>
+  </g>
+  <text x="{{ dim_x_r_s + 330 }}" y="{{ cy }}" fill="#000000" font-family="Arial, Helvetica, sans-serif"
+        font-size="400" font-weight="bold" text-anchor="middle"
+        transform="rotate(-90, {{ dim_x_r_s + 330 }}, {{ cy }})">da = {{ da_max }} mm</text>
+
+  <!-- ===================================================================
+       SUMMARY
+       =================================================================== -->
+  <line x1="1000" y1="23250" x2="20000" y2="23250" stroke="#000000" stroke-width="{{ sw_section }}"/>
+  <text x="1000"  y="24300" fill="#000000" font-family="Arial, Helvetica, sans-serif"
+        font-size="700" font-weight="bold">{{ nom_dia }}</text>
+  <text x="4000"  y="24300" fill="#000000" font-family="Arial, Helvetica, sans-serif"
+        font-size="700" font-weight="bold">s {{ s_max }} mm</text>
+  <text x="9500"  y="24300" fill="#000000" font-family="Arial, Helvetica, sans-serif"
+        font-size="700" font-weight="bold">m {{ m_max }} mm</text>
+  <text x="14500" y="24300" fill="#000000" font-family="Arial, Helvetica, sans-serif"
+        font-size="700" font-weight="bold">p {{ pitch }} mm</text>
+
+  <line x1="1000" y1="25000" x2="20000" y2="25000" stroke="#000000" stroke-opacity="0.25" stroke-width="{{ sw_dim }}"/>
+  <text x="1000" y="25800" fill="#000000" fill-opacity="0.55" font-family="Arial, Helvetica, sans-serif" font-size="300">PART</text>
+  <text x="1000" y="26310" fill="#000000" fill-opacity="0.80" font-family="Arial, Helvetica, sans-serif" font-size="370">{{ p.id }}</text>
+
+  <line x1="1000" y1="27650" x2="20000" y2="27650" stroke="#000000" stroke-opacity="0.25" stroke-width="{{ sw_dim }}"/>
+  <text x="1000"  y="28350" fill="#000000" fill-opacity="0.55" font-family="Arial, Helvetica, sans-serif" font-size="300">OOMLOUT</text>
+  <text x="20000" y="28350" fill="#000000" fill-opacity="0.65" font-family="Arial, Helvetica, sans-serif" font-size="300" text-anchor="end">{{ p.md5_6_alpha_upper }}</text>
+</svg>

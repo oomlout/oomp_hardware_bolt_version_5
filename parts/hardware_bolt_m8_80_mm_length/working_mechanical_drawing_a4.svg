@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="210.0000mm" height="297.0000mm"
+     viewBox="0 0 210.0000 297.0000">
+
+  <rect x="0" y="0" width="210.0000" height="297.0000" fill="white" stroke="none" />
+  <rect x="8.0000" y="8.0000" width="194.0000" height="281.0000" fill="none" stroke="#1A1A1A" stroke-width="0.35" />
+  <rect x="10.5000" y="10.5000" width="189.0000" height="276.0000" fill="none" stroke="#1A1A1A" stroke-width="0.7" />
+  <line x1="8.0000" y1="261.0000" x2="202.0000" y2="261.0000" stroke="#1A1A1A" stroke-width="0.35" />
+  <line x1="10.5000" y1="263.5000" x2="199.5000" y2="263.5000" stroke="#1A1A1A" stroke-width="0.7" />
+  <line x1="101.5000" y1="261.0000" x2="101.5000" y2="286.5000" stroke="#1A1A1A" stroke-width="0.35" />
+  <line x1="101.5000" y1="263.5000" x2="101.5000" y2="286.5000" stroke="#1A1A1A" stroke-width="0.7" />
+  <line x1="139.5000" y1="261.0000" x2="139.5000" y2="286.5000" stroke="#1A1A1A" stroke-width="0.35" />
+  <line x1="139.5000" y1="263.5000" x2="139.5000" y2="286.5000" stroke="#1A1A1A" stroke-width="0.7" />
+  <line x1="169.5000" y1="261.0000" x2="169.5000" y2="286.5000" stroke="#1A1A1A" stroke-width="0.35" />
+  <line x1="169.5000" y1="263.5000" x2="169.5000" y2="286.5000" stroke="#1A1A1A" stroke-width="0.7" />
+  <text x="13.5000" y="270.5000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="start" dominant-baseline="middle" fill="#555555" textLength="85.0000" lengthAdjust="spacingAndGlyphs">oomp_hardware_bolt_version_5</text>
+  <text x="13.5000" y="276.5000" font-family="Swis721 Blk BT, comic sans ms" font-size="5.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A" textLength="85.0000" lengthAdjust="spacingAndGlyphs">bolt</text>
+  <text x="104.5000" y="271.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">Dimensions</text>
+  <text x="104.5000" y="276.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="3.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">220.0 × 307.0 mm</text>
+  <text x="142.5000" y="271.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">Scale</text>
+  <text x="142.5000" y="276.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="3.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">0.808× (80.8%)</text>
+  <text x="172.5000" y="271.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">Date</text>
+  <text x="172.5000" y="276.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="3.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">2026-06-25</text>
+  <text x="105.0000" y="5.5000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="middle" dominant-baseline="middle" fill="#AA4400">SCALE 80.8%  (220.0×307.0 mm original)</text>
+  <g transform="translate(16.1401,10.5000) scale(0.807818)">
+    <rect x="5.0000" y="5.0000" width="210.0000" height="297.0000"  fill="#ffffff" stroke="none" />
+      <rect x="9.0000" y="9.0000" width="202.0000" height="289.0000" rx="3.5000" ry="3.5000"  fill="none" stroke="#1A1A1A" stroke-width="0.8" />
+      <text x="19.0000" y="19.0000" font-family="sans-serif" font-size="3.2000" text-anchor="start" dominant-baseline="middle" fill="#888888">hardware_bolt_m8_80_mm_length</text>
+      <text x="19.0000" y="42.0000" font-family="sans-serif" font-size="18.0000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1C1C1C">M8×80</text>
+      <text x="19.0000" y="54.0000" font-family="sans-serif" font-size="4.5000" text-anchor="start" dominant-baseline="middle" fill="#888888">HARDWARE / BOLT</text>
+      <text x="19.0000" y="72.0000" font-family="sans-serif" font-size="4.0000" text-anchor="start" dominant-baseline="middle" fill="#888888">HEX HEAD BOLT</text>
+      <line x1="15.0000" y1="81.0000" x2="205.0000" y2="81.0000"  fill="#333333" stroke="#1A1A1A" stroke-width="0.5" />
+      <text x="19.0000" y="88.0000" font-family="sans-serif" font-size="5.2000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#111111">DIMENSIONS</text>
+      <text x="201.0000" y="88.0000" font-family="sans-serif" font-size="3.2000" text-anchor="end" dominant-baseline="middle" fill="#888888">1:1 RATIO  —  PRINT AT 100%</text>
+      <text x="57.5000" y="102.0000" font-family="sans-serif" font-size="3.2000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#888888">FRONT VIEW</text>
+      <text x="162.5000" y="102.0000" font-family="sans-serif" font-size="3.2000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#888888">SIDE VIEW</text>
+      <polygon points="57.5000,162.4944 51.0000,166.2472 51.0000,173.7528 57.5000,177.5056 64.0000,173.7528 64.0000,166.2472"  fill="#FAFAFA" stroke="#1A1A1A" stroke-width="0.8" />
+      <circle cx="57.5000" cy="170.0000" r="4.0000"  fill="#FFFFFF" stroke="#444444" stroke-width="0.3" />
+      <rect x="154.9944" y="127.2750" width="15.0111" height="5.4500"  fill="#FAFAFA" stroke="#1A1A1A" stroke-width="0.8" />
+      <line x1="156.0000" y1="132.7250" x2="156.0000" y2="127.2750"  fill="#333333" stroke="#AAAAAA" stroke-width="0.3" />
+      <line x1="169.0000" y1="132.7250" x2="169.0000" y2="127.2750"  fill="#333333" stroke="#AAAAAA" stroke-width="0.3" />
+      <rect x="158.5000" y="132.7250" width="8.0000" height="58.0000"  fill="#FAFAFA" stroke="#1A1A1A" stroke-width="0.8" />
+      <rect x="158.5000" y="190.7250" width="8.0000" height="22.0000"  fill="#F0F0F0" stroke="#1A1A1A" stroke-width="0.8" />
+      <line x1="51.0000" y1="164.7472" x2="51.0000" y2="152.9944"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="64.0000" y1="164.7472" x2="64.0000" y2="152.9944"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="51.0000" y1="154.4944" x2="64.0000" y2="154.4944"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="51.0000" y1="155.9944" x2="51.0000" y2="152.9944"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="64.0000" y1="155.9944" x2="64.0000" y2="152.9944"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <text x="57.5000" y="151.2144" font-family="Arial, Helvetica, sans-serif" font-size="3.8000" text-anchor="middle" dominant-baseline="middle" fill="#1A1A1A">ACROSS FLATS  13 mm</text>
+      <line x1="53.5000" y1="171.5000" x2="53.5000" y2="187.0056"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="61.5000" y1="171.5000" x2="61.5000" y2="187.0056"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="53.5000" y1="185.5056" x2="61.5000" y2="185.5056"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="53.5000" y1="187.0056" x2="53.5000" y2="184.0056"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="61.5000" y1="187.0056" x2="61.5000" y2="184.0056"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <text x="57.5000" y="188.7856" font-family="Arial, Helvetica, sans-serif" font-size="3.8000" text-anchor="middle" dominant-baseline="middle" fill="#1A1A1A">THREAD BORE  Ø8 mm</text>
+      <line x1="156.0000" y1="125.7750" x2="156.0000" y2="117.7750"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="169.0000" y1="125.7750" x2="169.0000" y2="117.7750"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="156.0000" y1="119.2750" x2="169.0000" y2="119.2750"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="156.0000" y1="120.7750" x2="156.0000" y2="117.7750"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="169.0000" y1="120.7750" x2="169.0000" y2="117.7750"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <text x="162.5000" y="115.9950" font-family="Arial, Helvetica, sans-serif" font-size="3.8000" text-anchor="middle" dominant-baseline="middle" fill="#1A1A1A">ACROSS FLATS  13 mm</text>
+      <line x1="153.4944" y1="132.7250" x2="145.4944" y2="132.7250"  fill="#333333" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="145.4944" y1="132.7250" x2="148.4944" y2="132.7250"  fill="#333333" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="153.4944" y1="127.2750" x2="145.4944" y2="127.2750"  fill="#333333" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="145.4944" y1="127.2750" x2="148.4944" y2="127.2750"  fill="#333333" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="146.9944" y1="132.7250" x2="146.9944" y2="127.2750"  fill="#333333" stroke="#1A1A1A" stroke-width="0.5" />
+      <text x="143.4944" y="130.0000" font-family="sans-serif" font-size="3.8000" text-anchor="end" dominant-baseline="middle" fill="#1A1A1A">HEAD HEIGHT  5.5 mm</text>
+      <line x1="171.5056" y1="212.7250" x2="179.5056" y2="212.7250"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="171.5056" y1="132.7250" x2="179.5056" y2="132.7250"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="178.0056" y1="212.7250" x2="178.0056" y2="132.7250"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="176.5056" y1="212.7250" x2="179.5056" y2="212.7250"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="176.5056" y1="132.7250" x2="179.5056" y2="132.7250"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <text x="181.2856" y="172.7250" font-family="Arial, Helvetica, sans-serif" font-size="3.8000" text-anchor="middle" dominant-baseline="middle" fill="#1A1A1A" transform="rotate(-90.000,181.2856,172.7250)">SHANK LENGTH  80 mm</text>
+      <line x1="157.0000" y1="212.7250" x2="145.4944" y2="212.7250"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="157.0000" y1="190.7250" x2="145.4944" y2="190.7250"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="146.9944" y1="212.7250" x2="146.9944" y2="190.7250"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="145.4944" y1="212.7250" x2="148.4944" y2="212.7250"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="145.4944" y1="190.7250" x2="148.4944" y2="190.7250"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <text x="143.7144" y="201.7250" font-family="Arial, Helvetica, sans-serif" font-size="3.8000" text-anchor="middle" dominant-baseline="middle" fill="#1A1A1A" transform="rotate(-90.000,143.7144,201.7250)">THREAD LENGTH  22 mm</text>
+      <line x1="15.0000" y1="230.0000" x2="205.0000" y2="230.0000"  fill="#333333" stroke="#1A1A1A" stroke-width="0.5" />
+      <text x="19.0000" y="241.0000" font-family="sans-serif" font-size="5.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#111111">M8</text>
+      <text x="19.0000" y="248.5000" font-family="sans-serif" font-size="3.0000" text-anchor="start" dominant-baseline="middle" fill="#888888">THREAD</text>
+      <text x="64.5000" y="241.0000" font-family="sans-serif" font-size="5.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#111111">13 mm</text>
+      <text x="64.5000" y="248.5000" font-family="sans-serif" font-size="3.0000" text-anchor="start" dominant-baseline="middle" fill="#888888">ACROSS FLATS</text>
+      <text x="110.0000" y="241.0000" font-family="sans-serif" font-size="5.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#111111">80 mm</text>
+      <text x="110.0000" y="248.5000" font-family="sans-serif" font-size="3.0000" text-anchor="start" dominant-baseline="middle" fill="#888888">SHANK LENGTH</text>
+      <text x="155.5000" y="241.0000" font-family="sans-serif" font-size="5.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#111111">22 mm</text>
+      <text x="155.5000" y="248.5000" font-family="sans-serif" font-size="3.0000" text-anchor="start" dominant-baseline="middle" fill="#888888">THREAD LENGTH</text>
+      <line x1="15.0000" y1="256.0000" x2="205.0000" y2="256.0000"  fill="#333333" stroke="#1A1A1A" stroke-width="0.3" />
+      <text x="19.0000" y="264.0000" font-family="sans-serif" font-size="3.2000" text-anchor="start" dominant-baseline="middle" fill="#888888">ISO4014 / DIN931</text>
+      <text x="19.0000" y="273.0000" font-family="sans-serif" font-size="3.0000" text-anchor="start" dominant-baseline="middle" fill="#aaaaaa">M8×80</text>
+      <line x1="15.0000" y1="282.0000" x2="205.0000" y2="282.0000"  fill="#333333" stroke="#1A1A1A" stroke-width="0.3" />
+      <text x="19.0000" y="290.0000" font-family="sans-serif" font-size="2.8000" text-anchor="start" dominant-baseline="middle" fill="#888888">OOMLOUT</text>
+      <text x="201.0000" y="290.0000" font-family="sans-serif" font-size="2.8000" text-anchor="end" dominant-baseline="middle" fill="#888888">oom.lt/37b2bd</text>
+  </g>
+</svg>

@@ -1,3 +1,46 @@
+spec_iso_b_125_lt_l_le_200_mm: ''
+spec_iso_b_l_gt_200_mm: ''
+spec_iso_b_l_le_125_mm: '14'
+spec_iso_c_max_mm: '0.40'
+spec_iso_c_min_mm: '0.15'
+spec_iso_da_max_mm: '4.7'
+spec_iso_dw_min_mm: '5.88'
+spec_iso_e_min_mm: '7.66'
+spec_iso_k_max_mm: '2.925'
+spec_iso_k_min_mm: '2.675'
+spec_iso_nominal_diameter: M4
+spec_iso_s_max_mm: '7.00'
+spec_iso_s_min_mm: '6.78'
+spec_iso_thread_pitch_mm: '0.70'
+svg_details:
+- svg_b_125_lt_l_le_200_mm: ''
+  svg_b_l_gt_200_mm: ''
+  svg_b_l_le_125_mm: '14'
+  svg_c_max_mm: '0.40'
+  svg_c_min_mm: '0.15'
+  svg_da_max_mm: '4.7'
+  svg_dw_min_mm: '5.88'
+  svg_e_min_mm: '7.66'
+  svg_k_max_mm: '2.925'
+  svg_k_min_mm: '2.675'
+  svg_name: set_screw
+  svg_nominal_diameter: M4
+  svg_s_max_mm: '7.00'
+  svg_s_min_mm: '6.78'
+  svg_thread_pitch_mm: '0.70'
+- af_mm: 7.0
+  filename: working_mechanical_drawing
+  hardware_type: set_screw
+  head_height_mm: 2.925
+  id_mm: 4.0
+  length_mm: 40.0
+  part_category: HARDWARE / SET SCREW
+  part_code: ISO4017 / DIN933
+  part_name: ''
+  part_series: HEX HEAD FULL THREAD SCREW
+  part_title: M4×40
+  svg_name: oomp_mech_drawing_hardware
+  thread_length_mm: 40.0
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''

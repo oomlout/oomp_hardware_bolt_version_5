@@ -9,6 +9,43 @@ color_band_string_project_bolt_string: colour_band_nut_m8_
 color_band_taxonomy_3: red
 color_band_taxonomy_6: blue
 color_band_taxonomy_7: grey
+spec_iso_c_max_mm: '0.60'
+spec_iso_c_min_mm: '0.15'
+spec_iso_da_max_mm: '8.75'
+spec_iso_da_min_mm: '8.00'
+spec_iso_dw_min_mm: '11.60'
+spec_iso_e_min_mm: '14.38'
+spec_iso_m_max_mm: '6.80'
+spec_iso_m_min_mm: '6.44'
+spec_iso_nominal_diameter: M8
+spec_iso_s_max_mm: '13.00'
+spec_iso_s_min_mm: '12.73'
+spec_iso_thread_pitch_mm: '1.25'
+svg_details:
+- svg_c_max_mm: '0.60'
+  svg_c_min_mm: '0.15'
+  svg_da_max_mm: '8.75'
+  svg_da_min_mm: '8.00'
+  svg_dw_min_mm: '11.60'
+  svg_e_min_mm: '14.38'
+  svg_m_max_mm: '6.80'
+  svg_m_min_mm: '6.44'
+  svg_name: nut
+  svg_nominal_diameter: M8
+  svg_s_max_mm: '13.00'
+  svg_s_min_mm: '12.73'
+  svg_thread_pitch_mm: '1.25'
+- af_mm: 13.0
+  filename: working_mechanical_drawing
+  hardware_type: nut
+  height_mm: 6.8
+  id_mm: 8.0
+  part_category: HARDWARE / NUT
+  part_code: ISO4032 / DIN934
+  part_name: ''
+  part_series: METRIC HEX NUT
+  part_title: M8
+  svg_name: oomp_mech_drawing_hardware
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
