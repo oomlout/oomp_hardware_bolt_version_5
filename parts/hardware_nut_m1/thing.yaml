@@ -2103,7 +2103,7 @@ thing:
     - - 4.999999999999998
       - -2.8867513459481313
     pos:
-    - 0
+    - -6.773502691896257
     - 0
     - 0
     rot:
@@ -2115,7 +2115,7 @@ thing:
     stroke_width: 0.5
   - color: '#FFFFFF'
     pos:
-    - 0
+    - -6.773502691896257
     - 0
     - 0
     r: 3.0
@@ -2125,6 +2125,64 @@ thing:
     - 0
     shape: circle
     stroke: '#444444'
+    stroke_width: 0.3
+  - color: none
+    pos:
+    - 6.773502691896257
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: rect
+    size:
+    - 11.547005383792515
+    - 5.0
+    - 0
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#FFFFFF'
+    pos:
+    - 6.773502691896257
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: rect
+    size:
+    - 6.0
+    - 5.0
+    - 0
+    stroke: '#444444'
+    stroke_width: 0.3
+  - p1:
+    - -5.0
+    - -2.5
+    p2:
+    - -5.0
+    - 2.5
+    pos:
+    - 6.773502691896257
+    - 0
+    - 0
+    shape: line
+    stroke: '#AAAAAA'
+    stroke_width: 0.3
+  - p1:
+    - 5.0
+    - -2.5
+    p2:
+    - 5.0
+    - 2.5
+    pos:
+    - 6.773502691896257
+    - 0
+    - 0
+    shape: line
+    stroke: '#AAAAAA'
     stroke_width: 0.3
   svg_details:
     svg_name: nut

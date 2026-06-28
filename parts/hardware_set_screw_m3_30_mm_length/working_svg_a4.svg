@@ -17,13 +17,17 @@
   <text x="13.5000" y="270.5000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="start" dominant-baseline="middle" fill="#555555" textLength="85.0000" lengthAdjust="spacingAndGlyphs">oomp_hardware_bolt_version_5</text>
   <text x="13.5000" y="276.5000" font-family="Swis721 Blk BT, comic sans ms" font-size="5.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A" textLength="85.0000" lengthAdjust="spacingAndGlyphs">set_screw</text>
   <text x="104.5000" y="271.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">Dimensions</text>
-  <text x="104.5000" y="276.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="3.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">15.5 × 16.4 mm</text>
+  <text x="104.5000" y="276.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="3.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">24.3 × 43.2 mm</text>
   <text x="142.5000" y="271.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">Scale</text>
   <text x="142.5000" y="276.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="3.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">1:1</text>
   <text x="172.5000" y="271.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">Date</text>
-  <text x="172.5000" y="276.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="3.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">2026-06-25</text>
-  <g transform="translate(97.2500,126.3246) scale(1.000000)">
-    <polygon points="10.5000,6.5877 7.7500,5.0000 5.0000,6.5877 5.0000,9.7631 7.7500,11.3509 10.5000,9.7631"  fill="none" stroke="#1A1A1A" stroke-width="0.5" />
-      <circle cx="7.7500" cy="8.1754" r="1.5000"  fill="#FFFFFF" stroke="#444444" stroke-width="0.3" />
+  <text x="172.5000" y="276.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="3.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">2026-06-28</text>
+  <g transform="translate(92.8619,112.9062) scale(1.000000)">
+    <polygon points="10.5000,19.4748 7.7500,17.8871 5.0000,19.4748 5.0000,22.6502 7.7500,24.2379 10.5000,22.6502"  fill="none" stroke="#1A1A1A" stroke-width="0.5" />
+      <rect x="12.9254" y="5.0000" width="6.3509" height="2.1250"  fill="none" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="13.3509" y1="7.1250" x2="13.3509" y2="5.0000"  fill="#333333" stroke="#AAAAAA" stroke-width="0.3" />
+      <line x1="18.8509" y1="7.1250" x2="18.8509" y2="5.0000"  fill="#333333" stroke="#AAAAAA" stroke-width="0.3" />
+      <rect x="14.6009" y="8.1875" width="3.0000" height="18.0000"  fill="none" stroke="#1A1A1A" stroke-width="0.5" />
+      <rect x="14.6009" y="26.1875" width="3.0000" height="12.0000"  fill="#F0F0F0" stroke="#1A1A1A" stroke-width="0.5" />
   </g>
 </svg>

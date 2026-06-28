@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="17.0000mm" height="18.0829mm"
-     viewBox="0 0 17.0000 18.0829">
+     width="27.6244mm" height="18.0829mm"
+     viewBox="0 0 27.6244 18.0829">
   <polygon points="12.0000,7.0207 8.5000,5.0000 5.0000,7.0207 5.0000,11.0622 8.5000,13.0829 12.0000,11.0622"  fill="none" stroke="#1A1A1A" stroke-width="0.5" />
   <circle cx="8.5000" cy="9.0415" r="2.0000"  fill="#FFFFFF" stroke="#444444" stroke-width="0.3" />
+  <rect x="14.5415" y="7.4415" width="8.0829" height="3.2000"  fill="none" stroke="#1A1A1A" stroke-width="0.5" />
+  <rect x="16.5829" y="7.4415" width="4.0000" height="3.2000"  fill="#FFFFFF" stroke="#444444" stroke-width="0.3" />
+  <line x1="15.0829" y1="10.6415" x2="15.0829" y2="7.4415"  fill="#333333" stroke="#AAAAAA" stroke-width="0.3" />
+  <line x1="22.0829" y1="10.6415" x2="22.0829" y2="7.4415"  fill="#333333" stroke="#AAAAAA" stroke-width="0.3" />
 </svg>

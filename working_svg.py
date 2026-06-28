@@ -7,6 +7,11 @@ import svg_help
 import svg_styles
 
 
+def _mm(v):
+    """Format a mm value without spurious rounding: '5.5' not '6', '10' not '10.0'."""
+    return f"{float(v):.0f}" if float(v) == int(float(v)) else f"{float(v):.1f}"
+
+
 def main(**kwargs):
     make_svg(**kwargs)
 
@@ -155,74 +160,59 @@ def get_base(thing, **kwargs):
 
 
 def get_nut(thing, **kwargs):
-    # Spec fields live as top-level keys in `thing` (written by working_oomp.py):
-    #   spec_iso_s_max_mm          — width across flats (wrench size)
-    #   spec_iso_dw_min_mm         — bearing-surface diameter
-    #   spec_iso_nominal_diameter  — e.g. "M6"
-    # svg_* kwargs are the legacy fallback (from parts_source svg_details).
-    import math
+    """Icon: top view (hex + bore) on the left, side view (rect) on the right."""
     import svg_styles
-
-    prepare_print = kwargs.get("prepare_print", False)
-    pos = kwargs.get("pos", [0, 0, 0])
-
-    # ── Stylesheet ────────────────────────────────────────────────────────────
     if not kwargs.get("stylesheet"):
         thing["styles"] = svg_styles.get_stylesheet("project_bolt")
 
-    # ── Specs ─────────────────────────────────────────────────────────────────
+    pos   = kwargs.get("pos", [0, 0, 0])
     s_mm  = float(thing.get("spec_iso_s_max_mm",  kwargs.get("svg_s_max_mm",  10.0)))
-    dw_mm = float(thing.get("spec_iso_dw_min_mm", kwargs.get("svg_dw_min_mm",  8.9)))
+    m_mm  = float(thing.get("spec_iso_m_max_mm",  kwargs.get("svg_m_max_mm",   s_mm * 0.5)))
     nom   = thing.get("spec_iso_nominal_diameter", kwargs.get("svg_nominal_diameter", "M?"))
     try:
-        d_hole = float(str(nom).lstrip("Mm"))          # thread diameter in mm
+        d_hole = float(str(nom).lstrip("Mm"))
     except (ValueError, AttributeError):
         d_hole = s_mm * 0.6
 
-    # ── Derived geometry ──────────────────────────────────────────────────────
-    # Circumradius: R = (s/2) / cos(30°)
-    R = (s_mm / 2) / math.cos(math.radians(30))
+    R   = (s_mm / 2) / math.cos(math.radians(30))
+    gap = 2.0
 
-    # Flat-top hex: first vertex at 30° so flat edges run left-right
     hex_pts = [
         [R * math.cos(math.radians(30 + i * 60)),
          R * math.sin(math.radians(30 + i * 60))]
         for i in range(6)
     ]
 
-    # ── Page background ───────────────────────────────────────────────────────
-    # page = max(40.0, R * 9.0)
+    # TOP VIEW (left): hex with through bore
+    p_top = copy.deepcopy(pos)
+    p_top[0] -= R + gap / 2
+    opsvg.se(thing, shape="polygon", style="outline", points=hex_pts, pos=p_top)
+    opsvg.se(thing, shape="circle", style="hole.cut", r=d_hole / 2, pos=p_top)
 
-    # opsvg.se(thing, shape="rect",
-    #          color="#FFFFFF", stroke="none", stroke_width=0,
-    #          size=[page, page, 0], pos=copy.deepcopy(pos))
-
-    # ── Hex nut body ──────────────────────────────────────────────────────────
-    opsvg.se(thing, shape="polygon", style="outline",
-             points=hex_pts, pos=copy.deepcopy(pos))
-
-    # ── Bearing-surface circle (outline only) ─────────────────────────────────
-    #opsvg.se(thing, shape="circle", style="outline",
-    #         r=dw_mm / 2, pos=copy.deepcopy(pos))
-
-    # ── Thread through-hole ───────────────────────────────────────────────────
-    opsvg.se(thing, shape="circle", style="hole.cut",
-             r=d_hole / 2, pos=copy.deepcopy(pos))
-
-    # ── Nominal diameter label ────────────────────────────────────────────────
-    # label_pos = copy.deepcopy(pos)
-    # label_pos[1] -= (page / 2 - 5)
-    # opsvg.se(thing, shape="text", style="label.title",
-    #          text=nom, size=5.0,
-    #          halign="center", valign="center", pos=label_pos)
-    # if prepare_print:
-    #     svg_help.prepare_base_for_print(thing, pos, **kwargs)
+    # SIDE VIEW (right): outer rect (across corners) + bore rect + flat-face lines
+    p_side = copy.deepcopy(pos)
+    p_side[0] += R + gap / 2
+    opsvg.se(thing, shape="rect", style="outline", size=[2 * R, m_mm, 0], pos=p_side)
+    opsvg.se(thing, shape="rect", style="hole.cut", size=[d_hole, m_mm, 0], pos=p_side)
+    for x_off in (-s_mm / 2, s_mm / 2):
+        opsvg.se(thing, shape="line",
+                 p1=[x_off, -m_mm / 2], p2=[x_off, m_mm / 2],
+                 color="#AAAAAA", stroke_width=0.3, pos=p_side)
 
 
 def get_bolt(thing, **kwargs):
+    """Icon: end view (solid hex) on the left, side profile at 1:1 on the right.
+
+    Side profile mirrors the mechanical drawing: head (full AF width) + grip
+    (unthreaded shank) + threaded section, all at true mm dimensions.
+    """
     import svg_styles
     if not kwargs.get("stylesheet"):
         thing["styles"] = svg_styles.get_stylesheet("project_bolt")
+
+    _st = thing.get("styles", {})
+
+    pos   = kwargs.get("pos", [0, 0, 0])
     s_mm  = float(thing.get("spec_iso_s_max_mm",  kwargs.get("svg_s_max_mm",  10.0)))
     k_mm  = float(thing.get("spec_iso_k_max_mm",  kwargs.get("svg_k_max_mm",   4.0)))
     nom   = thing.get("spec_iso_nominal_diameter", kwargs.get("svg_nominal_diameter", "M?"))
@@ -230,21 +220,72 @@ def get_bolt(thing, **kwargs):
         d_hole = float(str(nom).lstrip("Mm"))
     except (ValueError, AttributeError):
         d_hole = s_mm * 0.6
-    R = (s_mm / 2) / math.cos(math.radians(30))
+
+    # Actual shank length from part id ("hardware_bolt_m6_25_mm_length" → 25.0)
+    import re as _re
+    _m = _re.search(r'_(\d+(?:\.\d+)?)_mm_length', str(thing.get("id", "")))
+    shank_len = float(_m.group(1)) if _m else max(2.5 * k_mm, 0.8 * s_mm)
+
+    # Thread length from spec data; fallback to full shank
+    try:
+        thread_len = float(kwargs.get("svg_b_l_le_125_mm") or
+                           kwargs.get("svg_b_125_lt_l_le_200_mm") or
+                           shank_len)
+        thread_len = min(thread_len, shank_len)
+    except (ValueError, TypeError):
+        thread_len = shank_len
+    grip_len = shank_len - thread_len
+
+    R   = (s_mm / 2) / math.cos(math.radians(30))
+    gap = 2.0
+
     hex_pts = [
         [R * math.cos(math.radians(30 + i * 60)),
          R * math.sin(math.radians(30 + i * 60))]
         for i in range(6)
     ]
-    pos = kwargs.get("pos", [0, 0, 0])
-    opsvg.se(thing, shape="polygon", style="outline",
-             points=hex_pts, pos=copy.deepcopy(pos))
-    opsvg.se(thing, shape="circle", style="hole.cut",
-             r=d_hole / 2, pos=copy.deepcopy(pos))
+
+    # END VIEW (left): solid hex — bolt head has no through bore
+    p_end = copy.deepcopy(pos)
+    p_end[0] -= R + gap / 2
+    opsvg.se(thing, shape="polygon", style="outline", points=hex_pts, pos=p_end)
+
+    # SIDE VIEW (right): head + grip + thread, total centred at pos[1]
+    # With bolt head at top (positive Y-up) and shank hanging down.
+    # Total height = k_mm + shank_len, centred at pos[1]:
+    #   head centre  = pos[1] + shank_len/2
+    #   grip centre  = pos[1] + shank_len/2 - k_mm - grip_len/2  (if grip_len > 0)
+    #   thread centre = pos[1] - k_mm/2 - grip_len - thread_len/2
+    p_side = copy.deepcopy(pos)
+    p_side[0] += R + gap / 2
+
+    # Head
+    p_head = copy.deepcopy(p_side)
+    p_head[1] += shank_len / 2
+    opsvg.se(thing, shape="rect", style="outline", size=[2 * R, k_mm, 0], pos=p_head)
+    for x_off in (-s_mm / 2, s_mm / 2):
+        opsvg.se(thing, shape="line",
+                 p1=[x_off, -k_mm / 2], p2=[x_off, k_mm / 2],
+                 color="#AAAAAA", stroke_width=0.3, pos=p_head)
+
+    # Grip (unthreaded shank)
+    if grip_len > 0:
+        grip_cy = shank_len / 2 - k_mm - grip_len / 2
+        p_grip = copy.deepcopy(p_side)
+        p_grip[1] += grip_cy
+        opsvg.se(thing, shape="rect", style="outline", size=[d_hole, grip_len, 0], pos=p_grip)
+
+    # Threaded section (lighter fill to match mech drawing)
+    thread_cy = shank_len / 2 - k_mm - grip_len - thread_len / 2
+    p_thread = copy.deepcopy(p_side)
+    p_thread[1] += thread_cy
+    plate_light = _st.get("plate.light", {}).get("color", "#F0F0F0")
+    opsvg.se(thing, shape="rect",
+             color=plate_light, stroke="#1A1A1A", stroke_width=0.5,
+             size=[d_hole, thread_len, 0], pos=p_thread)
 
 
 def get_set_screw(thing, **kwargs):
-    # Full-thread hex head screw — same head geometry as bolt
     get_bolt(thing, **kwargs)
 
 
@@ -459,356 +500,267 @@ def get_internal_label_sheet(thing, **kwargs):
 
 
 def get_oomp_mech_drawing_hardware(thing, **kwargs):
-    """A4 mechanical drawing sheet for hardware fasteners (nuts, bolts, washers).
+    import svg_template
 
-    All views are rendered at view_scale : 1.  Dimension annotations call out
-    the true mm values.  Designed as a template — hardware_type selects the
-    correct front/side view geometry.
-
-    kwargs (set via svg_details in working.yaml)
-    --------------------------------------------
-    hardware_type  : 'nut' | 'bolt' | 'washer'   (default 'nut')
-    part_title     : str   large identifier, e.g. 'M6'
-    part_series    : str   series/spec,      e.g. 'METRIC HEX NUT'
-    part_category  : str   header category,  e.g. 'HARDWARE / NUT'
-    id_mm          : float inner diameter (thread bore), mm   (default 6.0)
-    af_mm          : float across-flats width, mm             (default 10.0)
-    height_mm      : float thickness / height, mm             (default 5.0)
-    part_code      : str   standard code, e.g. 'ISO4032 / DIN934'
-    part_name      : str   full part identifier string
-    view_scale     : float drawing scale (auto if None → targets ~46 mm AF span)
-    """
-    pos             = kwargs.get("pos",             [0, 0, 0])
-    hardware_type   = kwargs.get("hardware_type",   "nut")
-    part_title      = str(kwargs.get("part_title",      "M6"))
-    part_id = thing.get("id", "")
-    part_series     = str(kwargs.get("part_series",     "METRIC HEX NUT"))
-    part_category   = str(kwargs.get("part_category",   "HARDWARE / NUT"))
-    id_mm           = float(kwargs.get("id_mm",       6.0))
-    af_mm           = float(kwargs.get("af_mm",      10.0))
-    height_mm       = float(kwargs.get("height_mm",   5.0))
+    hardware_type    = kwargs.get("hardware_type", "nut")
+    id_mm            = float(kwargs.get("id_mm",            6.0))
+    af_mm            = float(kwargs.get("af_mm",           10.0))
+    height_mm        = float(kwargs.get("height_mm",        5.0))
     head_height_mm   = float(kwargs.get("head_height_mm",  height_mm))
-    length_mm        = float(kwargs.get("length_mm",      height_mm))
+    length_mm        = float(kwargs.get("length_mm",       height_mm))
     thread_length_mm = float(kwargs.get("thread_length_mm", length_mm))
-    part_code       = str(kwargs.get("part_code",      ""))
-    part_name       = str(kwargs.get("part_name",      ""))
-    view_scale      = kwargs.get("view_scale", None)
 
-    W, H = 210.0, 297.0
-
-    brand_y      =  H / 2 - 14.0
-    title_y      =  H / 2 - 40.0 + 3
-    part_name_y  =  H / 2 - 57.0 + 8
-    series_y     =  H / 2 - 67.0
-    rule1_y      =  H / 2 - 76.0
-    dim_head_y   =  H / 2 - 83.0
-    view_label_y =  H / 2 - 97.0
-    rule2_y      = -H / 2 + 72.0
-
-    # Auto-scale: fit views between view_label_y and rule2_y, whole number.
-    # Front view vertical height = label_gap(10) + dim_above(r_c_d/2+15) +
-    #                              hex_height(2*r_c_d) + bore_dim(r_c_d+12) = 37 + 3.5*r_c_d
-    # Side view for bolt = AF_dim_above(15) + total_bolt_height(scale*(L+k)) + margin(10)
-    # Width: front hex must fit in left half-page.
-    if view_scale is None:
-        r_c   = af_mm / math.sqrt(3)
-        avail = view_label_y - rule2_y          # available height for views
-        # Front-view overhead: label_gap(10) + dim_above(r_c/2+15) + hex(2r_c) + bore_dim(r_c+12)
-        scale_front = (avail - 37.0) / (3.5 * r_c)
-        if hardware_type == "nut":
-            scale_side = scale_front
-        else:
-            # Bolt side overhead: AF dim above(15) + total bolt(L+k) + length dim below(15)
-            total_mm = length_mm + head_height_mm
-            scale_side = (avail - 30.0) / total_mm
-        scale_w = (W / 4.0 - 10.0) / r_c
-        s_raw = min(scale_front, scale_side, scale_w)
-        view_scale = max(1, int(s_raw)) if s_raw >= 1.0 else 0.5
-
-    r_c_d    = (af_mm / math.sqrt(3)) * view_scale
-    af_d     = af_mm * view_scale
-    bore_r_d = (id_mm / 2.0) * view_scale
-    height_d = height_mm * view_scale
-    upper_vert_y = r_c_d / 2
-    ann_ts = 3.8   # dimension text size (mm) — used in centring calc below
-
-    # Centre the view block vertically between view_label_y and rule2_y.
-    # Height above view_cy: dim_above + hex/bolt-top
-    # Height below view_cy: hex/bolt-bottom + dim_below
     if hardware_type == "nut":
-        above_vc = upper_vert_y + 8 + ann_ts + 3   # AF dim + gap
-        below_vc = r_c_d + 8 + ann_ts + 3          # bore dim below hex
+        summary_cols = [
+            (f"M{id_mm:.0f}",           "THREAD"),
+            (f"{_mm(af_mm)} mm",         "ACROSS FLATS"),
+            (f"{height_mm:.1f} mm",     "NUT HEIGHT"),
+        ]
+    elif hardware_type in ("bolt", "set_screw"):
+        summary_cols = [
+            (f"M{id_mm:.0f}",               "THREAD"),
+            (f"{_mm(af_mm)} mm",             "ACROSS FLATS"),
+            (f"{head_height_mm:.1f} mm",    "HEAD HEIGHT"),
+            (f"{length_mm:.0f} mm",         "SHANK LENGTH"),
+            (f"{thread_length_mm:.0f} mm",  "THREAD LENGTH"),
+        ]
     else:
-        total_d_raw = (length_mm + head_height_mm) * view_scale
-        above_vc = total_d_raw / 2 + 15            # top of bolt + AF dim above
-        below_vc = total_d_raw / 2 + 15            # bottom of bolt + length dim below
+        summary_cols = []
 
-    content_top = view_label_y - 8   # just below the view label text
-    content_bot = rule2_y
-    content_mid = (content_top + content_bot) / 2
-    view_cy = content_mid + (below_vc - above_vc) / 2
-
-    front_cx = -W / 4
-    side_cx  =  W / 4
-
-    # ── Stylesheet ────────────────────────────────────────────────────────────
-    import svg_styles as _ss
-    thing["styles"] = _ss.get_stylesheet("project_bolt")
-    #thing["styles"] = _ss.get_stylesheet("jazzy")
-    _st = thing["styles"]
-
-    # Pull key colours directly from the resolved stylesheet
-    _plate_c  = _st.get("plate",         {}).get("color",        "#FAFAFA")
-    _plate_sk = _st.get("plate.outline", {}).get("stroke",       "#1A1A1A")
-    _plate_sw = _st.get("plate.outline", {}).get("stroke_width", 0.8)
-    _cut_c    = _st.get("hole.cut",{}).get("color",        "#FFFFFF")
-    _cut_sk   = _st.get("hole.cut",{}).get("stroke",       "#444444")
-    _cut_sw   = _st.get("hole.cut",{}).get("stroke_width", 0.3)
-    _dim_sk   = _st.get("outline", {}).get("stroke",       "#1A1A1A")
-    _dim_sw   = _st.get("outline", {}).get("stroke_width", 0.5)
-    _lbl_c    = _st.get("label",   {}).get("color",        "#1A1A1A")
-    _mut_c    = _st.get("label.muted", {}).get("color",    "#888888")
-    _tit_c    = _st.get("label.title", {}).get("color",    "#111111")
-    _hdr_c    = _st.get("header",  {}).get("color",        "#1C1C1C")
+    svg_template.mech_drawing_page(thing, draw_fn=draw_item,
+                                   summary_cols=summary_cols, **kwargs)
 
 
-    def _abs_pos(x_off, y_off):
-        p = copy.deepcopy(pos)
-        p[0] += x_off
-        p[1] += y_off
-        return p
-
-    def _hline(y_coord, x1=-W / 2 + 10, x2=W / 2 - 10, sw=None):
-        lpos = _abs_pos(0, y_coord)
-        opsvg.se(thing, shape="line",
-                 p1=[x1, 0], p2=[x2, 0],
-                 color=_dim_sk, stroke_width=(sw if sw is not None else _dim_sw),
-                 pos=lpos)
-
-    def _text_at(x_off, y_off, text, size=4.0, halign="center",
-                 color=None, bold=False, muted=False):
-        tpos = _abs_pos(x_off, y_off)
-        col  = _mut_c if muted else (color or _lbl_c)
-        fw   = "bold" if bold else ""
-        opsvg.se(thing, shape="text",
-                 text=text, size=size, halign=halign, valign="center",
-                 color=col, font_weight=fw, pos=tpos)
-
-    def _dim(cx_off, cy_off, p1, p2, offset, text, direction="auto"):
-        dpos = _abs_pos(cx_off, cy_off)
-        opsvg.se(thing, shape="dimension_line",
-                 p1=p1, p2=p2, offset=offset, direction=direction,
-                 text=text, text_size=ann_ts,
-                 color=_dim_sk, stroke_width=_dim_sw, pos=dpos)
-
-    def _hex_pts(r):
-        return [[r * math.cos(math.radians(90 + 60 * i)),
-                 r * math.sin(math.radians(90 + 60 * i))]
-                for i in range(6)]
-
-    # ── Background + border ───────────────────────────────────────────────────
-    opsvg.se(thing, shape="rect", color="#ffffff",
-             size=[W, H, 0], pos=_abs_pos(0, 0))
-    opsvg.se(thing, shape="rounded_rectangle",
-             color="none", stroke=_plate_sk, stroke_width=_plate_sw,
-             size=[W - 8, H - 8, 0], r=3.5, pos=_abs_pos(0, 0))
-
-    # ── Header ────────────────────────────────────────────────────────────────
-    _text_at(-W / 2 + 14, brand_y, part_id,
-             size=3.2, halign="left", muted=True)
-    _text_at(-W / 2 + 14, title_y, part_title,
-             size=18.0, halign="left", bold=True, color=_hdr_c)
-    _text_at(-W / 2 + 14, part_name_y, f"{part_category}",
-             size=4.5, halign="left", muted=True)
-    _text_at(-W / 2 + 14, series_y, part_series,
-             size=4.0, halign="left", muted=True)
-    _hline(rule1_y)
-    _text_at(-W / 2 + 14, dim_head_y, "DIMENSIONS",
-             size=5.2, halign="left", bold=True, color=_tit_c)
-    if view_scale >= 1:
-        scale_label = f"{int(view_scale)}:1"
+def draw_item(thing, **kwargs):
+    hardware_type = kwargs.get("hardware_type", "nut")
+    if hardware_type == "bolt":
+        draw_bolt(thing, **kwargs)
+    elif hardware_type == "set_screw":
+        draw_set_screw(thing, **kwargs)
     else:
-        scale_label = f"1:{int(round(1 / view_scale))}"
-    _text_at(W / 2 - 14, dim_head_y, f"{scale_label} RATIO  —  PRINT AT 100%",
-             size=3.2, halign="right", muted=True)
+        draw_nut(thing, **kwargs)
 
-    # ── View labels ───────────────────────────────────────────────────────────
-    _text_at(front_cx, view_label_y, "FRONT VIEW", size=3.2, bold=True, muted=True)
-    _text_at(side_cx,  view_label_y, "SIDE VIEW",  size=3.2, bold=True, muted=True)
 
-    # ── Front view (hex + bore) ───────────────────────────────────────────────
+def draw_nut(thing, **kwargs):
+    """Top view + side view + dimension annotations for a hex nut."""
+    front_cx     = kwargs["front_cx"]
+    side_cx      = kwargs["side_cx"]
+    view_cy      = kwargs["view_cy"]
+    view_label_y = kwargs["view_label_y"]
+    r_c_d        = kwargs["r_c_d"]
+    af_d         = kwargs["af_d"]
+    bore_r_d     = kwargs["bore_r_d"]
+    height_d     = kwargs["height_d"]
+    upper_vert_y = kwargs["upper_vert_y"]
+    af_mm        = float(kwargs.get("af_mm",     10.0))
+    id_mm        = float(kwargs.get("id_mm",      6.0))
+    height_mm    = float(kwargs.get("height_mm",  5.0))
+
+    _plate_c  = kwargs["_plate_c"]
+    _plate_sk = kwargs["_plate_sk"]
+    _plate_sw = kwargs["_plate_sw"]
+    _cut_c    = kwargs["_cut_c"]
+    _cut_sk   = kwargs["_cut_sk"]
+    _cut_sw   = kwargs["_cut_sw"]
+    _light_sk = kwargs["_light_sk"]
+    _light_sw = kwargs["_light_sw"]
+    _abs_pos  = kwargs["abs_pos_fn"]
+    _text_at  = kwargs["text_at_fn"]
+    _dim      = kwargs["dim_fn"]
+    _hex_pts  = kwargs["hex_pts_fn"]
+
+    e_d = 2 * r_c_d
+
+    # View labels
+    _text_at(front_cx, view_label_y, "TOP VIEW",  size=3.2, bold=True, muted=True)
+    _text_at(side_cx,  view_label_y, "SIDE VIEW", size=3.2, bold=True, muted=True)
+
+    # Top view: hex face with through bore
     fpos = _abs_pos(front_cx, view_cy)
-    opsvg.se(thing, shape="polygon",
-             points=_hex_pts(r_c_d),
+    opsvg.se(thing, shape="polygon", points=_hex_pts(r_c_d),
              color=_plate_c, stroke=_plate_sk, stroke_width=_plate_sw, pos=fpos)
-    opsvg.se(thing, shape="circle",
-             r=bore_r_d,
+    opsvg.se(thing, shape="circle", r=bore_r_d,
              color=_cut_c, stroke=_cut_sk, stroke_width=_cut_sw, pos=fpos)
 
-    # ── Side view ─────────────────────────────────────────────────────────────
+    # Side view: outer rect (across corners) + bore rect + flat-face indicator lines
     spos = _abs_pos(side_cx, view_cy)
+    opsvg.se(thing, shape="rect", size=[e_d, height_d, 0],
+             color=_plate_c, stroke=_plate_sk, stroke_width=_plate_sw, pos=spos)
+    opsvg.se(thing, shape="rect", size=[bore_r_d * 2, height_d, 0],
+             color=_cut_c, stroke=_cut_sk, stroke_width=_cut_sw, pos=spos)
+    for x_off in (-af_d / 2, af_d / 2):
+        opsvg.se(thing, shape="line",
+                 p1=[x_off, -height_d / 2], p2=[x_off, height_d / 2],
+                 color=_light_sk, stroke_width=_light_sw, pos=spos)
 
-    # Corner side view: outer width = e_mm (across corners = 2*r_c_d).
-    # Chamfer creates a peaked top (and bottom for nut) — the hex corner
-    # sits higher than the flat faces in this view.
-    e_d       = 2 * r_c_d
-    chamfer_h = max(r_c_d - af_d / 2, 2.0)   # geometric peak height, min 2 mm
-
-    origin = _abs_pos(side_cx, 0)   # anchor at side centre, Y=0
-
-    _light_sk = _st.get("outline.light", {}).get("stroke", "#AAAAAA")
-    _light_sw = _st.get("outline.light", {}).get("stroke_width", 0.3)
-
-    if hardware_type == "nut":
-        opsvg.se(thing, shape="rect",
-                 size=[e_d, height_d, 0],
-                 color=_plate_c, stroke=_plate_sk, stroke_width=_plate_sw, pos=spos)
-        opsvg.se(thing, shape="rect",
-                 size=[bore_r_d * 2, height_d, 0],
-                 color=_cut_c, stroke=_cut_sk, stroke_width=_cut_sw, pos=spos)
-        for x_off in (-af_d / 2, af_d / 2):
-            opsvg.se(thing, shape="line",
-                     p1=[x_off, -height_d / 2], p2=[x_off, height_d / 2],
-                     color=_light_sk, stroke_width=_light_sw, pos=spos)
-    else:
-        head_d   = head_height_mm * view_scale
-        shank_d  = length_mm * view_scale
-        total_d  = head_d + shank_d
-        top_y    = view_cy + total_d / 2
-        bear_y   = top_y - head_d
-        bot_y    = top_y - total_d
-
-        thread_d  = thread_length_mm * view_scale
-        grip_d    = shank_d - thread_d
-        grip_cy   = bear_y - grip_d / 2
-        thread_cy = bot_y + thread_d / 2
-
-        opsvg.se(thing, shape="rect",
-                 size=[e_d, head_d, 0],
-                 color=_plate_c, stroke=_plate_sk, stroke_width=_plate_sw,
-                 pos=_abs_pos(side_cx, (top_y + bear_y) / 2))
-        for x_off in (-af_d / 2, af_d / 2):
-            opsvg.se(thing, shape="line",
-                     p1=[x_off, bear_y], p2=[x_off, top_y],
-                     color=_light_sk, stroke_width=_light_sw, pos=origin)
-        # Grip (unthreaded shank)
-        if grip_d > 0:
-            opsvg.se(thing, shape="rect",
-                     size=[bore_r_d * 2, grip_d, 0],
-                     color=_plate_c, stroke=_plate_sk, stroke_width=_plate_sw,
-                     pos=_abs_pos(side_cx, grip_cy))
-        # Threaded portion
-        opsvg.se(thing, shape="rect",
-                 size=[bore_r_d * 2, thread_d, 0],
-                 color=_st.get("plate.light", {}).get("color", "#F0F0F0"),
-                 stroke=_plate_sk, stroke_width=_plate_sw,
-                 pos=_abs_pos(side_cx, thread_cy))
-
-    # ── Dimension annotations ─────────────────────────────────────────────────
+    # Dimension annotations
     _dim(front_cx, view_cy,
          p1=[-af_d / 2, upper_vert_y], p2=[af_d / 2, upper_vert_y],
-         offset=upper_vert_y + 8, text=f"ACROSS FLATS  {af_mm:.0f} mm",
+         offset=upper_vert_y + 8, text=f"ACROSS FLATS  {_mm(af_mm)} mm",
          direction="horizontal")
     _dim(front_cx, view_cy,
          p1=[-bore_r_d, 0], p2=[bore_r_d, 0],
          offset=-(r_c_d + 8), text=f"THREAD BORE  Ø{id_mm:.0f} mm",
          direction="horizontal")
+    _dim(side_cx, view_cy,
+         p1=[-af_d / 2, height_d / 2], p2=[af_d / 2, height_d / 2],
+         offset=8, text=f"ACROSS FLATS  {_mm(af_mm)} mm",
+         direction="horizontal")
+    _dim(side_cx, view_cy,
+         p1=[af_d / 2, -height_d / 2], p2=[af_d / 2, height_d / 2],
+         offset=8, text=f"NUT HEIGHT  {height_mm:.1f} mm",
+         direction="vertical")
 
-    if hardware_type == "nut":
-        _dim(side_cx, view_cy,
-             p1=[-af_d / 2, height_d / 2], p2=[af_d / 2, height_d / 2],
-             offset=8, text=f"ACROSS FLATS  {af_mm:.0f} mm",
-             direction="horizontal")
-        _dim(side_cx, view_cy,
-             p1=[af_d / 2, -height_d / 2], p2=[af_d / 2, height_d / 2],
-             offset=8, text=f"NUT HEIGHT  {height_mm:.1f} mm",
-             direction="vertical")
-    else:
-        head_d  = head_height_mm * view_scale
-        shank_d = length_mm * view_scale
-        total_d = head_d + shank_d
-        top_y   = view_cy + total_d / 2
-        bear_y  = top_y - head_d
-        bot_y   = top_y - total_d
-        # ACROSS FLATS spans the inner lines (±af_d/2), annotated above head top
-        _dim(side_cx, 0,
-             p1=[-af_d / 2, top_y], p2=[af_d / 2, top_y],
-             offset=8, text=f"ACROSS FLATS  {af_mm:.0f} mm",
-             direction="horizontal")
-        # HEAD HEIGHT: manual bracket so text stays flat (horizontal).
-        _gap  = 1.5;  _ovr = 1.5;  _tick = 1.5;  _off = 8
-        _bx   = side_cx - r_c_d - _off   # bar x in part coords
-        _dpos = _abs_pos(0, 0)
-        for _ey in (bear_y, top_y):
-            opsvg.se(thing, shape="line",
-                     p1=[side_cx - r_c_d - _gap, _ey],
-                     p2=[_bx - _ovr, _ey],
-                     color=_dim_sk, stroke_width=_dim_sw, pos=_dpos)
-            opsvg.se(thing, shape="line",
-                     p1=[_bx - _tick, _ey], p2=[_bx + _tick, _ey],
-                     color=_dim_sk, stroke_width=_dim_sw, pos=_dpos)
+
+def draw_bolt(thing, **kwargs):
+    """End view + tip view (left panel) + side view (right panel) for a hex bolt.
+
+    Left panel stacks two views vertically:
+      END VIEW  — looking at the bolt head from above (solid hex, no bore)
+      TIP VIEW  — looking at the shank tip (circle = shank OD)
+    Right panel:
+      SIDE VIEW — full profile: head + grip + threaded shank
+    """
+    front_cx         = kwargs["front_cx"]
+    side_cx          = kwargs["side_cx"]
+    view_cy          = kwargs["view_cy"]
+    view_label_y     = kwargs["view_label_y"]
+    view_area_top    = kwargs["view_area_top"]
+    view_area_bot    = kwargs["view_area_bot"]
+    r_c_d            = kwargs["r_c_d"]
+    af_d             = kwargs["af_d"]
+    bore_r_d         = kwargs["bore_r_d"]
+    upper_vert_y     = kwargs["upper_vert_y"]
+    view_scale       = kwargs["view_scale"]
+    ann_ts           = kwargs["ann_ts"]
+    af_mm            = float(kwargs.get("af_mm",             10.0))
+    id_mm            = float(kwargs.get("id_mm",              6.0))
+    head_height_mm   = float(kwargs.get("head_height_mm",     4.0))
+    length_mm        = float(kwargs.get("length_mm",         16.0))
+    thread_length_mm = float(kwargs.get("thread_length_mm", length_mm))
+
+    _plate_c  = kwargs["_plate_c"]
+    _plate_sk = kwargs["_plate_sk"]
+    _plate_sw = kwargs["_plate_sw"]
+    _dim_sk   = kwargs["_dim_sk"]
+    _dim_sw   = kwargs["_dim_sw"]
+    _light_sk = kwargs["_light_sk"]
+    _light_sw = kwargs["_light_sw"]
+    _abs_pos  = kwargs["abs_pos_fn"]
+    _text_at  = kwargs["text_at_fn"]
+    _dim      = kwargs["dim_fn"]
+    _hex_pts  = kwargs["hex_pts_fn"]
+
+    _st = thing.get("styles", {})
+    _plate_light = _st.get("plate.light", {}).get("color", "#F0F0F0")
+
+    e_d = 2 * r_c_d
+
+    # ── View labels ───────────────────────────────────────────────────────────
+    _text_at(front_cx, view_label_y, "END VIEW",  size=3.2, bold=True, muted=True)
+    _text_at(side_cx,  view_label_y, "SIDE VIEW", size=3.2, bold=True, muted=True)
+
+    # ── Left panel layout: stack END VIEW and TIP VIEW ────────────────────────
+    above_end = upper_vert_y + 8 + ann_ts + 3   # space from end_cy to top of end dim
+    below_end = r_c_d + 8 + ann_ts + 3          # space from end_cy to bottom of end dim
+    above_tip = bore_r_d + 5                    # space from tip_cy to tip label
+    below_tip = bore_r_d + ann_ts + 8           # space from tip_cy to bottom of tip dim
+    gap       = 8.0                             # gap between end dim bottom and tip label
+
+    total_h   = above_end + below_end + gap + above_tip + below_tip
+    block_top = (view_area_top + view_area_bot) / 2 + total_h / 2
+    end_cy    = block_top - above_end
+    tip_cy    = end_cy - below_end - gap - above_tip
+
+    # END VIEW: hex head only — bolt head is solid, no through bore
+    fpos = _abs_pos(front_cx, end_cy)
+    opsvg.se(thing, shape="polygon", points=_hex_pts(r_c_d),
+             color=_plate_c, stroke=_plate_sk, stroke_width=_plate_sw, pos=fpos)
+    _dim(front_cx, end_cy,
+         p1=[-af_d / 2, upper_vert_y], p2=[af_d / 2, upper_vert_y],
+         offset=upper_vert_y + 8, text=f"ACROSS FLATS  {_mm(af_mm)} mm",
+         direction="horizontal")
+
+    # TIP VIEW label (sits in the gap between the two views)
+    tip_label_y = end_cy - below_end - 3
+    _text_at(front_cx, tip_label_y, "TIP VIEW", size=3.2, bold=True, muted=True)
+
+    # TIP VIEW: shank cross-section — solid circle = shank OD
+    tpos = _abs_pos(front_cx, tip_cy)
+    opsvg.se(thing, shape="circle", r=bore_r_d,
+             color=_plate_c, stroke=_plate_sk, stroke_width=_plate_sw, pos=tpos)
+    _dim(front_cx, tip_cy,
+         p1=[-bore_r_d, 0], p2=[bore_r_d, 0],
+         offset=-(bore_r_d + 6), text=f"Ø{id_mm:.0f} mm",
+         direction="horizontal")
+
+    # ── Right panel: SIDE VIEW ────────────────────────────────────────────────
+    head_d    = head_height_mm * view_scale
+    shank_d   = length_mm * view_scale
+    total_d   = head_d + shank_d
+    top_y     = view_cy + total_d / 2
+    bear_y    = top_y - head_d
+    bot_y     = top_y - total_d
+    thread_d  = thread_length_mm * view_scale
+    grip_d    = shank_d - thread_d
+    grip_cy   = bear_y - grip_d / 2
+    thread_cy = bot_y + thread_d / 2
+    origin    = _abs_pos(side_cx, 0)
+
+    # Head
+    opsvg.se(thing, shape="rect", size=[e_d, head_d, 0],
+             color=_plate_c, stroke=_plate_sk, stroke_width=_plate_sw,
+             pos=_abs_pos(side_cx, (top_y + bear_y) / 2))
+    for x_off in (-af_d / 2, af_d / 2):
         opsvg.se(thing, shape="line",
-                 p1=[_bx, bear_y], p2=[_bx, top_y],
+                 p1=[x_off, bear_y], p2=[x_off, top_y],
+                 color=_light_sk, stroke_width=_light_sw, pos=origin)
+    # Grip (unthreaded shank)
+    if grip_d > 0:
+        opsvg.se(thing, shape="rect", size=[bore_r_d * 2, grip_d, 0],
+                 color=_plate_c, stroke=_plate_sk, stroke_width=_plate_sw,
+                 pos=_abs_pos(side_cx, grip_cy))
+    # Threaded section
+    opsvg.se(thing, shape="rect", size=[bore_r_d * 2, thread_d, 0],
+             color=_plate_light, stroke=_plate_sk, stroke_width=_plate_sw,
+             pos=_abs_pos(side_cx, thread_cy))
+
+    # Side view dimension annotations
+    _dim(side_cx, 0,
+         p1=[-af_d / 2, top_y], p2=[af_d / 2, top_y],
+         offset=8, text=f"ACROSS FLATS  {_mm(af_mm)} mm",
+         direction="horizontal")
+
+    # HEAD HEIGHT: manual bracket so label stays horizontal
+    _gap2 = 1.5;  _ovr = 1.5;  _tick = 1.5
+    _bx   = side_cx - r_c_d - 8
+    _dpos = _abs_pos(0, 0)
+    for _ey in (bear_y, top_y):
+        opsvg.se(thing, shape="line",
+                 p1=[side_cx - r_c_d - _gap2, _ey], p2=[_bx - _ovr, _ey],
                  color=_dim_sk, stroke_width=_dim_sw, pos=_dpos)
-        _text_at(_bx - _tick - 2, (top_y + bear_y) / 2,
-                 f"HEAD HEIGHT  {head_height_mm:.1f} mm",
-                 size=ann_ts, halign="right")
-        _dim(side_cx, 0,
-             p1=[r_c_d, bot_y], p2=[r_c_d, bear_y],
-             offset=8, text=f"SHANK LENGTH  {length_mm:.0f} mm",
-             direction="vertical")
-        # Thread length on the left side of the shank
-        _dim(side_cx, 0,
-             p1=[-bore_r_d, bot_y], p2=[-bore_r_d, bot_y + thread_d],
-             offset=-(r_c_d - bore_r_d + 8), text=f"THREAD LENGTH  {thread_length_mm:.0f} mm",
-             direction="vertical")
+        opsvg.se(thing, shape="line",
+                 p1=[_bx - _tick, _ey], p2=[_bx + _tick, _ey],
+                 color=_dim_sk, stroke_width=_dim_sw, pos=_dpos)
+    opsvg.se(thing, shape="line",
+             p1=[_bx, bear_y], p2=[_bx, top_y],
+             color=_dim_sk, stroke_width=_dim_sw, pos=_dpos)
+    _text_at(_bx - _tick - 2, (top_y + bear_y) / 2,
+             f"HEAD HEIGHT  {head_height_mm:.1f} mm",
+             size=ann_ts, halign="right")
 
-    # ── Summary ───────────────────────────────────────────────────────────────
-    rule2_y  = -H / 2 + 72.0
-    val_y    = -H / 2 + 61.0   # value row (large bold)
-    lbl_y    = -H / 2 + 53.5   # label row (small muted)
-    rule3_y  = -H / 2 + 46.0
-    code_y   = -H / 2 + 38.0
-    name_y   = -H / 2 + 29.0
-    rule4_y  = -H / 2 + 20.0
-    foot_y   = -H / 2 + 12.0
+    _dim(side_cx, 0,
+         p1=[r_c_d, bot_y], p2=[r_c_d, bear_y],
+         offset=8, text=f"SHANK LENGTH  {length_mm:.0f} mm",
+         direction="vertical")
+    _dim(side_cx, 0,
+         p1=[-bore_r_d, bot_y], p2=[-bore_r_d, bot_y + thread_d],
+         offset=-(r_c_d - bore_r_d + 8), text=f"THREAD LENGTH  {thread_length_mm:.0f} mm",
+         direction="vertical")
 
-    _hline(rule2_y)
 
-    margin = -W / 2 + 14
-    content_w = W - 28        # 182 mm
-
-    if hardware_type == "nut":
-        cols = [
-            (f"M{id_mm:.0f}",          "THREAD"),
-            (f"{af_mm:.0f} mm",         "ACROSS FLATS"),
-            (f"{height_mm:.1f} mm",     "NUT HEIGHT"),
-        ]
-    else:
-        cols = [
-            (f"M{id_mm:.0f}",            "THREAD"),
-            (f"{af_mm:.0f} mm",           "ACROSS FLATS"),
-            (f"{length_mm:.0f} mm",       "SHANK LENGTH"),
-            (f"{thread_length_mm:.0f} mm","THREAD LENGTH"),
-        ]
-
-    step = content_w / len(cols)
-    for i, (val, lbl) in enumerate(cols):
-        x = margin + i * step
-        _text_at(x, val_y, val, size=5.5, halign="left", bold=True, color=_tit_c)
-        _text_at(x, lbl_y, lbl, size=3.0, halign="left", muted=True)
-
-    _hline(rule3_y, sw=0.3)
-    if part_code:
-        _text_at(margin, code_y, part_code, size=3.2, halign="left", muted=True)
-    _text_at(margin, name_y,
-             part_name if part_name else part_title,
-             size=3.0, halign="left", color="#aaaaaa")
-    _hline(rule4_y, sw=0.3)
-    md5_6     = thing.get("md5_6", "")
-    foot_url  = f"oom.lt/{md5_6}" if md5_6 else "oomlout.com"
-    _text_at(margin,      foot_y, "OOMLOUT",  size=2.8, halign="left",  muted=True)
-    _text_at(W / 2 - 14, foot_y, foot_url,   size=2.8, halign="right", muted=True)
+def draw_set_screw(thing, **kwargs):
+    draw_bolt(thing, **kwargs)
 
 
 if __name__ == '__main__':

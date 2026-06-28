@@ -2602,7 +2602,7 @@ thing:
     size: 3.2
     stroke: none
     stroke_width: 0
-    text: FRONT VIEW
+    text: END VIEW
     valign: center
   - color: '#888888'
     font: sans-serif
@@ -2638,7 +2638,7 @@ thing:
       - 11.547005383792516
     pos:
     - -52.5
-    - -16.5
+    - 14.173502691896257
     - 0
     rot:
     - 0
@@ -2647,10 +2647,113 @@ thing:
     shape: polygon
     stroke: '#1A1A1A'
     stroke_width: 0.8
-  - color: '#FFFFFF'
+  - color: '#1A1A1A'
+    p1:
+    - -20.0
+    - 13.047005383792516
+    p2:
+    - -20.0
+    - 32.59401076758503
     pos:
     - -52.5
-    - -16.5
+    - 14.173502691896257
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - 20.0
+    - 13.047005383792516
+    p2:
+    - 20.0
+    - 32.59401076758503
+    pos:
+    - -52.5
+    - 14.173502691896257
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - -20.0
+    - 31.094010767585033
+    p2:
+    - 20.0
+    - 31.094010767585033
+    pos:
+    - -52.5
+    - 14.173502691896257
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - -20.0
+    - 29.594010767585033
+    p2:
+    - -20.0
+    - 32.59401076758503
+    pos:
+    - -52.5
+    - 14.173502691896257
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - 20.0
+    - 29.594010767585033
+    p2:
+    - 20.0
+    - 32.59401076758503
+    pos:
+    - -52.5
+    - 14.173502691896257
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    font: Arial, Helvetica, sans-serif
+    halign: center
+    pos:
+    - -52.5
+    - 48.547513459481294
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.8
+    text: ACROSS FLATS  8 mm
+    valign: center
+  - color: '#888888'
+    font: sans-serif
+    font_weight: bold
+    halign: center
+    pos:
+    - -52.5
+    - -26.720508075688773
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.2
+    stroke: none
+    stroke_width: 0
+    text: TIP VIEW
+    valign: center
+  - color: '#FAFAFA'
+    pos:
+    - -52.5
+    - -49.22050807568877
     - 0
     r: 12.5
     rot:
@@ -2658,8 +2761,93 @@ thing:
     - 0
     - 0
     shape: circle
-    stroke: '#444444'
-    stroke_width: 0.3
+    stroke: '#1A1A1A'
+    stroke_width: 0.8
+  - color: '#1A1A1A'
+    p1:
+    - -12.5
+    - -1.5
+    p2:
+    - -12.5
+    - -20.0
+    pos:
+    - -52.5
+    - -49.22050807568877
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - 12.5
+    - -1.5
+    p2:
+    - 12.5
+    - -20.0
+    pos:
+    - -52.5
+    - -49.22050807568877
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - -12.5
+    - -18.5
+    p2:
+    - 12.5
+    - -18.5
+    pos:
+    - -52.5
+    - -49.22050807568877
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - -12.5
+    - -20.0
+    p2:
+    - -12.5
+    - -17.0
+    pos:
+    - -52.5
+    - -49.22050807568877
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - 12.5
+    - -20.0
+    p2:
+    - 12.5
+    - -17.0
+    pos:
+    - -52.5
+    - -49.22050807568877
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    font: Arial, Helvetica, sans-serif
+    halign: center
+    pos:
+    - -52.5
+    - -71.00050807568877
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.8
+    text: Ø5 mm
+    valign: center
   - color: '#FAFAFA'
     pos:
     - 52.5
@@ -2718,176 +2906,6 @@ thing:
     - 0
     stroke: '#1A1A1A'
     stroke_width: 0.8
-  - color: '#1A1A1A'
-    p1:
-    - -20.0
-    - 13.047005383792516
-    p2:
-    - -20.0
-    - 32.59401076758503
-    pos:
-    - -52.5
-    - -16.5
-    - 0
-    shape: line
-    stroke: '#1A1A1A'
-    stroke_width: 0.5
-  - color: '#1A1A1A'
-    p1:
-    - 20.0
-    - 13.047005383792516
-    p2:
-    - 20.0
-    - 32.59401076758503
-    pos:
-    - -52.5
-    - -16.5
-    - 0
-    shape: line
-    stroke: '#1A1A1A'
-    stroke_width: 0.5
-  - color: '#1A1A1A'
-    p1:
-    - -20.0
-    - 31.094010767585033
-    p2:
-    - 20.0
-    - 31.094010767585033
-    pos:
-    - -52.5
-    - -16.5
-    - 0
-    shape: line
-    stroke: '#1A1A1A'
-    stroke_width: 0.5
-  - color: '#1A1A1A'
-    p1:
-    - -20.0
-    - 29.594010767585033
-    p2:
-    - -20.0
-    - 32.59401076758503
-    pos:
-    - -52.5
-    - -16.5
-    - 0
-    shape: line
-    stroke: '#1A1A1A'
-    stroke_width: 0.5
-  - color: '#1A1A1A'
-    p1:
-    - 20.0
-    - 29.594010767585033
-    p2:
-    - 20.0
-    - 32.59401076758503
-    pos:
-    - -52.5
-    - -16.5
-    - 0
-    shape: line
-    stroke: '#1A1A1A'
-    stroke_width: 0.5
-  - color: '#1A1A1A'
-    font: Arial, Helvetica, sans-serif
-    halign: center
-    pos:
-    - -52.5
-    - 17.874010767585034
-    - 0
-    rot:
-    - 0
-    - 0
-    - 0
-    shape: text
-    size: 3.8
-    text: ACROSS FLATS  8 mm
-    valign: center
-  - color: '#1A1A1A'
-    p1:
-    - -12.5
-    - -1.5
-    p2:
-    - -12.5
-    - -32.59401076758503
-    pos:
-    - -52.5
-    - -16.5
-    - 0
-    shape: line
-    stroke: '#1A1A1A'
-    stroke_width: 0.5
-  - color: '#1A1A1A'
-    p1:
-    - 12.5
-    - -1.5
-    p2:
-    - 12.5
-    - -32.59401076758503
-    pos:
-    - -52.5
-    - -16.5
-    - 0
-    shape: line
-    stroke: '#1A1A1A'
-    stroke_width: 0.5
-  - color: '#1A1A1A'
-    p1:
-    - -12.5
-    - -31.094010767585033
-    p2:
-    - 12.5
-    - -31.094010767585033
-    pos:
-    - -52.5
-    - -16.5
-    - 0
-    shape: line
-    stroke: '#1A1A1A'
-    stroke_width: 0.5
-  - color: '#1A1A1A'
-    p1:
-    - -12.5
-    - -32.59401076758503
-    p2:
-    - -12.5
-    - -29.594010767585033
-    pos:
-    - -52.5
-    - -16.5
-    - 0
-    shape: line
-    stroke: '#1A1A1A'
-    stroke_width: 0.5
-  - color: '#1A1A1A'
-    p1:
-    - 12.5
-    - -32.59401076758503
-    p2:
-    - 12.5
-    - -29.594010767585033
-    pos:
-    - -52.5
-    - -16.5
-    - 0
-    shape: line
-    stroke: '#1A1A1A'
-    stroke_width: 0.5
-  - color: '#1A1A1A'
-    font: Arial, Helvetica, sans-serif
-    halign: center
-    pos:
-    - -52.5
-    - -50.874010767585034
-    - 0
-    rot:
-    - 0
-    - 0
-    - 0
-    shape: text
-    size: 3.8
-    text: THREAD BORE  Ø5 mm
-    valign: center
   - color: '#1A1A1A'
     p1:
     - -20.0
@@ -3280,7 +3298,7 @@ thing:
     font_weight: bold
     halign: left
     pos:
-    - -45.5
+    - -54.6
     - -87.5
     - 0
     rot:
@@ -3298,7 +3316,7 @@ thing:
     font_weight: ''
     halign: left
     pos:
-    - -45.5
+    - -54.6
     - -95.0
     - 0
     rot:
@@ -3316,7 +3334,43 @@ thing:
     font_weight: bold
     halign: left
     pos:
-    - 0.0
+    - -18.200000000000003
+    - -87.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 5.5
+    stroke: none
+    stroke_width: 0
+    text: 3.6 mm
+    valign: center
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: left
+    pos:
+    - -18.200000000000003
+    - -95.0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.0
+    stroke: none
+    stroke_width: 0
+    text: HEAD HEIGHT
+    valign: center
+  - color: '#111111'
+    font: sans-serif
+    font_weight: bold
+    halign: left
+    pos:
+    - 18.19999999999999
     - -87.5
     - 0
     rot:
@@ -3334,7 +3388,7 @@ thing:
     font_weight: ''
     halign: left
     pos:
-    - 0.0
+    - 18.19999999999999
     - -95.0
     - 0
     rot:
@@ -3352,7 +3406,7 @@ thing:
     font_weight: bold
     halign: left
     pos:
-    - 45.5
+    - 54.599999999999994
     - -87.5
     - 0
     rot:
@@ -3370,7 +3424,7 @@ thing:
     font_weight: ''
     halign: left
     pos:
-    - 45.5
+    - 54.599999999999994
     - -95.0
     - 0
     rot:

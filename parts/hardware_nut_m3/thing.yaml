@@ -2627,7 +2627,7 @@ thing:
     size: 3.2
     stroke: none
     stroke_width: 0
-    text: FRONT VIEW
+    text: TOP VIEW
     valign: center
   - color: '#888888'
     font: sans-serif
@@ -2826,7 +2826,7 @@ thing:
     - 0
     shape: text
     size: 3.8
-    text: ACROSS FLATS  6 mm
+    text: ACROSS FLATS  5.5 mm
     valign: center
   - color: '#1A1A1A'
     p1:
@@ -2996,7 +2996,7 @@ thing:
     - 0
     shape: text
     size: 3.8
-    text: ACROSS FLATS  6 mm
+    text: ACROSS FLATS  5.5 mm
     valign: center
   - color: '#1A1A1A'
     p1:
@@ -3148,7 +3148,7 @@ thing:
     size: 5.5
     stroke: none
     stroke_width: 0
-    text: 6 mm
+    text: 5.5 mm
     valign: center
   - color: '#888888'
     font: sans-serif

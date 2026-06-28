@@ -2627,7 +2627,7 @@ thing:
     size: 3.2
     stroke: none
     stroke_width: 0
-    text: FRONT VIEW
+    text: TOP VIEW
     valign: center
   - color: '#888888'
     font: sans-serif
