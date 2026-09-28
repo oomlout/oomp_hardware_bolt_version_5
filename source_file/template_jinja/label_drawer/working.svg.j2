@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+{% set d = p.label_drawer %}
+<svg xmlns="http://www.w3.org/2000/svg" width="38.1mm" height="25.4mm" viewBox="0 0 38.1 25.4" role="img" aria-labelledby="title">
+  <title id="title">{{ d.description | e }}</title>
+  <desc>Drawer label, 1.5 by 1 inch. Diagram upper left; thread lower left; type description at the top right with length in millimetres below. Print at 100% actual size. Diagram is symbolic, not to scale.</desc>
+  <rect width="38.1" height="25.4" fill="#ffffff"/>
+  <g font-family="Arial, Liberation Sans, sans-serif" fill="#000000">
+    <rect x="0.8" y="0.8" width="11.8" height="23.8" rx="0.5" fill="#000000"/>
+    <svg id="hardware-diagram" x="1.5" y="1.6" width="10.4" height="7.3" viewBox="0 0 20 14">
+      <g fill="none" stroke="#ffffff" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round">
+        {{ d.diagram }}
+      </g>
+    </svg>
+    <path d="M2.2 10.1H11.2" stroke="#ffffff" stroke-width="0.2"/>
+    <text id="thread" x="6.7" y="19.5" fill="#ffffff" text-anchor="middle" font-size="{{ d.thread_size }}" font-weight="700">{{ d.thread }}</text>
+{% if d.length %}
+    <text id="length" x="{{ d.length_x }}" y="16.7" font-size="{{ d.length_size }}" font-weight="700">{{ d.length }}<tspan dx="0.8" font-size="2.8">mm</tspan></text>
+{% endif %}
+{% for line in d.name_lines %}
+    <text id="name-{{ loop.index }}" x="14" y="{{ 4.2 + loop.index0 * 3.3 }}" font-size="{{ d.name_size }}" font-weight="700">{{ line | e }}</text>
+{% endfor %}
+{% for line in d.detail_lines %}
+    <text id="detail-{{ loop.index }}" x="14" y="{{ d.detail_y + loop.index0 * 2.2 }}" font-size="{{ d.detail_size }}">{{ line | e }}</text>
+{% endfor %}
+  </g>
+</svg>

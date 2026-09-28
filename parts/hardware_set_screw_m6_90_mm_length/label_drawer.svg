@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="38.1mm" height="25.4mm" viewBox="0 0 38.1 25.4" role="img" aria-labelledby="title">
+  <title id="title">Set screw / M6 / 90 mm / Hex head / Full thread</title>
+  <desc>Drawer label, 1.5 by 1 inch. Diagram upper left; thread lower left; type description at the top right with length in millimetres below. Print at 100% actual size. Diagram is symbolic, not to scale.</desc>
+  <rect width="38.1" height="25.4" fill="#ffffff"/>
+  <g font-family="Arial, Liberation Sans, sans-serif" fill="#000000">
+    <rect x="0.8" y="0.8" width="11.8" height="23.8" rx="0.5" fill="#000000"/>
+    <svg id="hardware-diagram" x="1.5" y="1.6" width="10.4" height="7.3" viewBox="0 0 20 14">
+      <g fill="none" stroke="#ffffff" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round">
+        <path d="M2 3H5L6 4V10L5 11H2Z M4 3V11"/><path d="M6 5H18V9H6"/><path d="M7 5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+      </g>
+    </svg>
+    <path d="M2.2 10.1H11.2" stroke="#ffffff" stroke-width="0.2"/>
+    <text id="thread" x="6.7" y="19.5" fill="#ffffff" text-anchor="middle" font-size="6.5" font-weight="700">M6</text>
+
+    <text id="length" x="18.02234375" y="16.7" font-size="7.8" font-weight="700">90<tspan dx="0.8" font-size="2.8">mm</tspan></text>
+
+
+    <text id="name-1" x="14" y="4.2" font-size="3.2" font-weight="700">Set screw</text>
+
+
+    <text id="detail-1" x="14" y="24.1" font-size="2.05">Hex head / Full thread</text>
+
+  </g>
+</svg>

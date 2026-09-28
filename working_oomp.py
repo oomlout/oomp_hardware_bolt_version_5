@@ -2,6 +2,7 @@ import oomp
 import oomp_helper
 import copy
 import oomlout_roboclick
+import working_label_drawer
 
 def main(**kwargs):
     load_parts(**kwargs)
@@ -186,6 +187,7 @@ def create_generic(**kwargs):
             )
 
 
+        count = working_label_drawer.add_action(part, count=count)
         parts.append(part)
     
 

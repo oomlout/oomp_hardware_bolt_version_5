@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="38.1mm" height="25.4mm" viewBox="0 0 38.1 25.4" role="img" aria-labelledby="title">
+  <title id="title">Penny washer / M2.7</title>
+  <desc>Drawer label, 1.5 by 1 inch. Diagram upper left; thread lower left; type description at the top right with length in millimetres below. Print at 100% actual size. Diagram is symbolic, not to scale.</desc>
+  <rect width="38.1" height="25.4" fill="#ffffff"/>
+  <g font-family="Arial, Liberation Sans, sans-serif" fill="#000000">
+    <rect x="0.8" y="0.8" width="11.8" height="23.8" rx="0.5" fill="#000000"/>
+    <svg id="hardware-diagram" x="1.5" y="1.6" width="10.4" height="7.3" viewBox="0 0 20 14">
+      <g fill="none" stroke="#ffffff" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round">
+        <circle cx="10" cy="7" r="5.5"/><circle cx="10" cy="7" r="2.5"/>
+      </g>
+    </svg>
+    <path d="M2.2 10.1H11.2" stroke="#ffffff" stroke-width="0.2"/>
+    <text id="thread" x="6.7" y="19.5" fill="#ffffff" text-anchor="middle" font-size="4.408" font-weight="700">M2.7</text>
+
+
+    <text id="name-1" x="14" y="4.2" font-size="3.2" font-weight="700">Penny washer</text>
+
+
+  </g>
+</svg>

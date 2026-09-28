@@ -1237,3 +1237,35 @@ taxonomy_7: ''
 taxonomy_8: ''
 taxonomy_9: ''
 url_chat: ''
+# BEGIN GENERATED LABEL_DRAWER
+label_drawer: &id001
+  code: BO
+  thread: M8
+  length: '70'
+  name: Bolt
+  diagram: <path d="M2 3H5L6 4V10L5 11H2Z M4 3V11"/><path d="M6 5H18V9H6"/><path d="M11
+    5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+  description: Bolt / M8 / 70 mm / Hex head / Partial thread
+  name_lines:
+  - Bolt
+  name_size: 3.2
+  detail_lines:
+  - Hex head / Partial
+  - thread
+  detail_size: 2.05
+  detail_y: 21.900000000000002
+  thread_size: 6.5
+  length_size: 7.8
+  length_x: 18.02234375
+oomlout_ai_roboclick_4:
+  actions:
+  - command: text_jinja_template
+    description: label_drawer
+    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_output: label_drawer.svg
+    dict_data:
+      label_drawer: *id001
+    convert_to_pdf: false
+    convert_to_png: false
+  file_test: ''
+# END GENERATED LABEL_DRAWER

@@ -1114,3 +1114,33 @@ taxonomy_7: ''
 taxonomy_8: ''
 taxonomy_9: ''
 url_chat: ''
+# BEGIN GENERATED LABEL_DRAWER
+label_drawer: &id001
+  code: NU
+  thread: M6
+  length: ''
+  name: Nylon white nut
+  diagram: <path d="M7 1.8H13L16 7L13 12.2H7L4 7Z"/><circle cx="10" cy="7" r="2.5"/>
+  description: Nylon white nut / M6
+  name_lines:
+  - Nylon white
+  - nut
+  name_size: 3.2
+  detail_lines: []
+  detail_size: 2.05
+  detail_y: 24.1
+  thread_size: 6.5
+  length_size: 7.8
+  length_x: 22.3603625
+oomlout_ai_roboclick_4:
+  actions:
+  - command: text_jinja_template
+    description: label_drawer
+    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_output: label_drawer.svg
+    dict_data:
+      label_drawer: *id001
+    convert_to_pdf: false
+    convert_to_png: false
+  file_test: ''
+# END GENERATED LABEL_DRAWER
