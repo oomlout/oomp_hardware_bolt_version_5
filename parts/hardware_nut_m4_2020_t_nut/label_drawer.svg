@@ -11,12 +11,13 @@
         <path d="M7 1.8H13L16 7L13 12.2H7L4 7Z"/><circle cx="10" cy="7" r="2.5"/>
       </g>
     </svg>
-    <path d="M2.2 10.1H11.2" stroke="#ffffff" stroke-width="0.2"/>
-    <text id="thread" x="6.7" y="19.5" fill="#ffffff" text-anchor="middle" font-size="6.5" font-weight="700">M4</text>
+
+    <text id="thread" x="6.7" y="21.8" fill="#ffffff" text-anchor="middle" font-size="6.5" font-weight="700">M4</text>
 
 
     <text id="name-1" x="14" y="4.2" font-size="3.2" font-weight="700">2020 t nut nut</text>
 
 
+    <text id="bip39" x="14" y="24.1" font-size="2.35" font-weight="700">faculty flavor hero</text>
   </g>
 </svg>

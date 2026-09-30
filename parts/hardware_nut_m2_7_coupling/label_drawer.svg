@@ -11,12 +11,17 @@
         <path d="M2 3H18V11H2Z M2 5H18 M2 9H18"/>
       </g>
     </svg>
-    <path d="M2.2 10.1H11.2" stroke="#ffffff" stroke-width="0.2"/>
-    <text id="thread" x="6.7" y="19.5" fill="#ffffff" text-anchor="middle" font-size="4.408" font-weight="700">M2.7</text>
+
+    <svg id="drive-symbol" x="4.1" y="9.3" width="5.2" height="5.2" viewBox="0 0 10 10">
+      <path d="M5 1L8.46 3V7L5 9L1.54 7V3Z" fill="#ffffff"/>
+    </svg>
+
+    <text id="thread" x="6.7" y="21.8" fill="#ffffff" text-anchor="middle" font-size="4.408" font-weight="700">M2.7</text>
 
 
     <text id="name-1" x="14" y="4.2" font-size="3.2" font-weight="700">Coupling nut</text>
 
 
+    <text id="bip39" x="14" y="24.1" font-size="2.35" font-weight="700">desert mixed onion</text>
   </g>
 </svg>

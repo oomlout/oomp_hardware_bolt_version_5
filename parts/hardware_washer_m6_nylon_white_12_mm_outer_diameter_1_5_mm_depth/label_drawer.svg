@@ -11,16 +11,17 @@
         <circle cx="10" cy="7" r="5.5"/><circle cx="10" cy="7" r="2.5"/>
       </g>
     </svg>
-    <path d="M2.2 10.1H11.2" stroke="#ffffff" stroke-width="0.2"/>
-    <text id="thread" x="6.7" y="19.5" fill="#ffffff" text-anchor="middle" font-size="6.5" font-weight="700">M6</text>
+
+    <text id="thread" x="6.7" y="21.8" fill="#ffffff" text-anchor="middle" font-size="6.5" font-weight="700">M6</text>
 
 
     <text id="name-1" x="14" y="4.2" font-size="3.2" font-weight="700">Nylon washer</text>
 
 
-    <text id="detail-1" x="14" y="21.900000000000002" font-size="2.05">White 12 mm OD 1.5</text>
+    <text id="detail-1" x="14" y="18.900000000000002" font-size="2.05">White 12 mm OD 1.5</text>
 
-    <text id="detail-2" x="14" y="24.1" font-size="2.05">mm thick</text>
+    <text id="detail-2" x="14" y="21.1" font-size="2.05">mm thick</text>
 
+    <text id="bip39" x="14" y="24.1" font-size="2.35" font-weight="700">gauge organ noodle</text>
   </g>
 </svg>

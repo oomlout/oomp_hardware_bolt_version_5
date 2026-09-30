@@ -11,10 +11,14 @@
         {{ d.diagram }}
       </g>
     </svg>
-    <path d="M2.2 10.1H11.2" stroke="#ffffff" stroke-width="0.2"/>
-    <text id="thread" x="6.7" y="19.5" fill="#ffffff" text-anchor="middle" font-size="{{ d.thread_size }}" font-weight="700">{{ d.thread }}</text>
+{% if d.drive_symbol %}
+    <svg id="drive-symbol" x="4.1" y="9.3" width="5.2" height="5.2" viewBox="0 0 10 10">
+      {{ d.drive_symbol }}
+    </svg>
+{% endif %}
+    <text id="thread" x="6.7" y="21.8" fill="#ffffff" text-anchor="middle" font-size="{{ d.thread_size }}" font-weight="700">{{ d.thread }}</text>
 {% if d.length %}
-    <text id="length" x="{{ d.length_x }}" y="16.7" font-size="{{ d.length_size }}" font-weight="700">{{ d.length }}<tspan dx="0.8" font-size="2.8">mm</tspan></text>
+    <text id="length" x="{{ d.length_x }}" y="14.8" font-size="{{ d.length_size }}" font-weight="700">{{ d.length }}<tspan dx="0.8" font-size="2.8">mm</tspan></text>
 {% endif %}
 {% for line in d.name_lines %}
     <text id="name-{{ loop.index }}" x="14" y="{{ 4.2 + loop.index0 * 3.3 }}" font-size="{{ d.name_size }}" font-weight="700">{{ line | e }}</text>
@@ -22,5 +26,6 @@
 {% for line in d.detail_lines %}
     <text id="detail-{{ loop.index }}" x="14" y="{{ d.detail_y + loop.index0 * 2.2 }}" font-size="{{ d.detail_size }}">{{ line | e }}</text>
 {% endfor %}
+    <text id="bip39" x="14" y="24.1" font-size="{{ d.bip39_size }}" font-weight="700">{{ d.bip39 | e }}</text>
   </g>
 </svg>

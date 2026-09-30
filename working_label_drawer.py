@@ -6,6 +6,7 @@ SVG coordinates are millimetres; no image or CAD automation is required.
 from __future__ import annotations
 
 import argparse
+import hashlib
 from functools import lru_cache
 import os
 from pathlib import Path
@@ -58,6 +59,48 @@ def readable(value):
     text = str(value or "").replace("_", " ")
     text = re.sub(r"(?<=\d) (?=\d)", ".", text)
     return text
+
+
+@lru_cache(maxsize=1)
+def bip39_words():
+    words = (ROOT / TEMPLATE.parent / "bip_39_wordlist.txt").read_text(encoding="utf-8").split()
+    if len(words) != 2048:
+        raise ValueError("Expected the 2048-word OOMP BIP39 English word list")
+    return words
+
+
+def bip39_name(part):
+    """Prefer stored OOMP words; match OOMP's MD5-derived prefix for new parts."""
+    name = part.get("bip_39_3_word_space")
+    if not name and part.get("bip_39_3_word_array"):
+        name = " ".join(part["bip_39_3_word_array"])
+    if name:
+        words = str(name).split()
+        if len(words) != 3:
+            raise ValueError(f"Expected three BIP39 words, got {name!r}")
+        return " ".join(words)
+    identifier = part.get("id") or "_".join(str(part[f"taxonomy_{i}"]) for i in range(1, 16) if part.get(f"taxonomy_{i}"))
+    digest = part.get("md5") or hashlib.md5(identifier.encode()).hexdigest()
+    # The first three 11-bit indices precede the BIP39 checksum bits.
+    bits = f"{int(digest, 16):0128b}"
+    words = bip39_words()
+    return " ".join(words[int(bits[i:i + 11], 2)] for i in (0, 11, 22))
+
+
+def drive_symbol(kind, drive, variant=""):
+    """White drive-face symbols for the black left column; no drive on washers."""
+    hexagon = "M5 1L8.46 3V7L5 9L1.54 7V3Z"
+    if kind in {"bolt", "set_screw"} or (kind == "nut" and variant in {"", "coupling", "flanged", "locking", "nylon_white", "black"}):
+        return f'<path d="{hexagon}" fill="#ffffff"/>'
+    if kind != "screw":
+        return ""
+    if drive == "hex_head":
+        return f'<circle cx="5" cy="5" r="4.5" fill="#ffffff"/><path d="{hexagon}" transform="translate(1.5 1.5) scale(0.7)" fill="#000000"/>'
+    if drive in {"philips", "phillips", "pozidriv"}:
+        cross = '<path d="M4 1.7H6V4H8.3V6H6V8.3H4V6H1.7V4H4Z" fill="#000000"/>'
+        extra = '<path d="M1.9 1.9L3.3 3.3 M6.7 6.7L8.1 8.1 M1.9 8.1L3.3 6.7 M6.7 3.3L8.1 1.9" stroke="#000000" stroke-width="0.5"/>' if drive == "pozidriv" else ""
+        return '<circle cx="5" cy="5" r="4.5" fill="#ffffff"/>' + cross + extra
+    return ""
 
 
 def diagram(kind, style=""):
@@ -165,12 +208,15 @@ def layout(part):
         raise ValueError(f"Label text needs a layout adjustment: {name!r}, {detail_text!r}")
     length_size = fit_size(length, 7.8, available - width("mm", 2.8) - .8)
     length_width = width(length, length_size) + .8 + width("mm", 2.8)
+    mnemonic = bip39_name(part)
     return dict(code=codes[kind], thread=thread, length=length, name=name,
                 diagram=diagram(kind, values[2] if kind == "screw" else values[3]),
+                drive_symbol=drive_symbol(kind, values[3], values[3]),
+                bip39=mnemonic, bip39_size=fit_size(mnemonic, 2.35, available),
                 description=" / ".join([name, thread, length + " mm" if length else "", detail_text]).strip(" /"),
                 name_lines=name_lines, name_size=name_size,
                 detail_lines=detail_lines, detail_size=detail_size,
-                detail_y=24.1 - max(0, len(detail_lines) - 1) * 2.2,
+                detail_y=21.1 - max(0, len(detail_lines) - 1) * 2.2,
                 thread_size=fit_size(thread, 6.5, 9.8),
                 length_size=length_size, length_x=25.25 - length_width / 2)
 
@@ -233,7 +279,6 @@ def regenerate(root=ROOT):
         if not directory.resolve().is_relative_to(parts_root.resolve()):
             raise ValueError(f"Part directory escapes parts root: {directory}")
         part = yaml.load(source.read_text(encoding="utf-8"), Loader=LOADER)
-        output = render(part, root)
         metadata_path = directory / "working.yaml"
         original = metadata_path.read_text(encoding="utf-8") if metadata_path.exists() else yaml.safe_dump(part, sort_keys=False)
         # Preserve all pre-existing metadata and actions verbatim outside our block.
@@ -244,6 +289,7 @@ def regenerate(root=ROOT):
                 metadata[key] = value
         before = set(metadata)
         add_action(metadata, root=root)
+        output = render(metadata, root)
         drawer_keys = [k for k in metadata if k not in before or k == "label_drawer"]
         # Normally the action is new; a pipeline-generated drawer action is updated in place.
         existing_action = next((k for k in before if k.startswith("oomlout_ai_roboclick_")

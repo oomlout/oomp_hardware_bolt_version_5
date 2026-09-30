@@ -29,33 +29,32 @@ bip_39_full_space: clutch sweet honey zero snow celery birth quarter prepare arm
   erosion canoe
 bip_39_full_underscore: clutch_sweet_honey_zero_snow_celery_birth_quarter_prepare_army_erosion_canoe
 directory: parts/hardware_set_screw_m8_16_mm_length
+generate_stl: false
 id: hardware_set_screw_m8_16_mm_length
 id_no_class: hardware_set_screw_m8_16_mm_length
 id_no_size: hardware_set_screw_m8_16_mm_length
 id_no_type: hardware_set_screw_m8_16_mm_length
-id_svg: hardware_set_screw_m8_16_mm_length
-kwargs:
-  filter: ''
-  navigation: false
-  oomp_description_extra: ''
-  oomp_description_main: _
-  oomp_mode: project
-  overwrite: true
-  svg_b_125_lt_l_le_200_mm: '28'
-  svg_b_l_gt_200_mm: '41'
-  svg_b_l_le_125_mm: '22'
-  svg_c_max_mm: '0.60'
-  svg_c_min_mm: '0.15'
-  svg_da_max_mm: '9.2'
-  svg_dw_min_mm: '11.63'
-  svg_e_min_mm: '14.38'
-  svg_k_max_mm: '5.45'
-  svg_k_min_mm: '5.15'
-  svg_nominal_diameter: M8
-  svg_s_max_mm: '13.00'
-  svg_s_min_mm: '12.73'
-  svg_thread_pitch_mm: '1.25'
-  type: C:\gh\oomp_hardware_bolt_version_5_set_screw
+label_drawer: &id001
+  code: SS
+  thread: M8
+  length: '16'
+  name: Set screw
+  diagram: <path d="M2 3H5L6 4V10L5 11H2Z M4 3V11"/><path d="M6 5H18V9H6"/><path d="M7
+    5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+  drive_symbol: <path d="M5 1L8.46 3V7L5 9L1.54 7V3Z" fill="#ffffff"/>
+  bip39: clutch sweet honey
+  bip39_size: 2.35
+  description: Set screw / M8 / 16 mm / Hex head / Full thread
+  name_lines:
+  - Set screw
+  name_size: 3.2
+  detail_lines:
+  - Hex head / Full thread
+  detail_size: 2.05
+  detail_y: 21.1
+  thread_size: 6.5
+  length_size: 7.8
+  length_x: 18.02234375
 link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_16_mm_length
 link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_16_mm_length
 link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_16_mm_length
@@ -75,193 +74,272 @@ name_no_type: Hardware Set Screw M8 16 Mm Length
 name_proper: Hardware Set Screw M8 16 Mm Length
 name_space: hardware set screw m8 16 mm length
 name_upper: HARDWARE SET SCREW M8 16 MM LENGTH
-oobb_name: set_screw
 oomlout_ai_roboclick_1:
   actions:
   - command: new_chat
     description: step_1_create_icon
   - command: ai_query
-    delay: '120'
+    delay: '180'
     mode_ai_wait: slow
-    text: 'This is a context-loading and exploration step for a laser-cuttable mascot
-      logo. Take your time and think expansively before answering. Explore multiple
-      mascot directions, compare several line-art approaches, stress-test them for
-      charm, readability, manufacturability, and overall polish, and explain everything
-      that would be useful for the next step. The goal here is not brevity. The goal
-      is to surface strong options, useful observations, and a well-reasoned direction
-      for a square, single-colour, black-on-white mascot logo drawing that is charming,
-      original, cute, polished, and instantly readable at small size.
+    text: '## READ THIS FIRST — no theme is coming in this message, and that is correct
 
 
-      Creative direction:
-
-      - Invent one central mascot concept based on the theme, but push beyond generic
-      clip art. The mascot should feel witty, memorable, and slightly surprising while
-      still being cute and simple.
-
-      - Favor an adorable line-drawing character with a clear face, pose, and identity.
-      Anthropomorphize only as much as needed for charm and readability.
-
-      - Supporting elements and text are allowed and can be important when they help
-      define the identity, dimensions, category, mood, or story of the logo.
-
-      - Favor iconic themed props, symbols, labels, and shape cues over random decoration.
-      Every element should help the logo read faster and feel more complete.
-
-      - Think in stages before writing: concept search, line-language search, simplification,
-      and final refinement. Prefer the idea that stays most legible after simplification.
-
-      - Deliberately look for a concept that feels specific to the theme rather than
-      generic kawaii branding.
-
-      - Keep the cute details genuinely sweet and lovable: soft expressions, appealing
-      proportions, simple cheeks, tiny hands or feet only if they help, and charming
-      gesture choices.
-
-      - Search for a direction that feels like a designed branded icon rather than
-      a loose doodle page.
-
-      - Make all parts of the image feel like they were designed by one illustrator
-      in one visual family, with consistent shape logic, line language, facial styling,
-      spacing, and proportion choices.
-
-      - Favor rounded geometric simplification, clear negative space, gentle symmetry
-      or balance where useful, and a visual hierarchy where the mascot leads and the
-      supporting details and text reinforce.
+      This is **step 1 of 2**. It is deliberately theme-free. You are building a reusable
+      house style, not designing a specific logo.
 
 
-      Format and manufacturing constraints:
-
-      - Pure black artwork on a pure white background only.
-
-      - No grey, no shading, no gradients, no halftones, no texture, no color, no
-      transparency, and no background scene.
-
-      - Prefer line drawing over large filled black areas. Use clean outlines and
-      sparse interior detail instead of heavy solid shapes.
-
-      - Design for laser cutting: lines should be confident and durable rather than
-      hairline-thin; details should be simple; no dense crosshatching; and any islands
-      should be connected if the design depends on physical continuity.
-
-      - Keep the artwork centered in a square composition with comfortable margins
-      and a clean airy overall read.
-
-      - The drawing should feel cute, open, and light rather than dark, chunky, or
-      posterized.
-
-      - If text is used, it should be bold, simple, highly legible, and visually integrated
-      with the illustration.
-
-      - Border-like framing is allowed only if it strengthens the logo as a clean
-      badge or label shape rather than making it feel boxed in.
-
-      - Prioritize readability, cuteness, manufacturability, clarity, cohesion, and
-      polish over detail.
+      The theme arrives in step 2. Do **not** ask what the theme is. Do **not** ask
+      any clarifying questions. Do **not** write a final image-generation prompt yet
+      — you cannot, and attempting one is a failure of this step. Do **not** invent
+      a placeholder theme and design for it. If you feel information is missing, that
+      is expected: the missing information is the theme, it is coming next, and nothing
+      in this step requires it.
 
 
-      What to include in your response:
-
-      - Several candidate mascot directions for the theme, with notes on why each
-      could work.
-
-      - Observations about line clarity, readability at small size, cuteness, and
-      laser-cut safety.
-
-      - Notes on what details should be simplified, merged, thickened, connected,
-      or removed to keep the drawing light and appealing.
-
-      - Suggestions for supporting motifs and text treatments only where they genuinely
-      improve the idea.
-
-      - Observations about what makes the composition feel polished, cohesive, brandable,
-      and visually unified rather than random or clip-art-like.
-
-      - A recommended direction, with an explanation of why it is strongest.
-
-      - One strong final image-generation prompt at the end, ready for later use.
+      Your entire output for this step is a **house style guide** that will be applied
+      to whatever theme arrives next.
 
 
-      Response style:
+      ---
 
-      - Explain your reasoning clearly and include all useful detail.
 
-      - It is fine to use structure, bullets, short sections, and comparisons if that
-      helps clarity.
+      ## The product this style serves
 
-      - The final prompt should explicitly say the image is square and black on white.
+
+      **Intended use:** a square, single-colour, pure-black-on-pure-white mascot logo,
+      generated as a raster image, then **auto-traced to vector and cut/engraved on
+      a laser cutter**. The trace step is unforgiving — it is the hardest constraint
+      in this brief and should shape most of your recommendations.
+
+
+      **Target feel:** charming, original, cute, polished, instantly readable at ~20
+      mm. A designed branded icon, not a doodle page and not generic kawaii clip art.
+
+
+      ---
+
+
+      ## What to produce
+
+
+      Write these six sections. **Budget: about 900 words total, 1,100 hard ceiling.**
+      That is roughly 100–150 words per section, with section 6 allowed the most.
+      This is a working reference, not an essay — every line should be a rule someone
+      could check a drawing against. Prefer tight bullets over prose paragraphs, and
+      cut any sentence that only restates the brief back at me.
+
+
+      **1. Line language menu**
+
+      Exactly three distinct black-on-white line-art approaches (e.g. uniform monoline,
+      weight-varied outline with sparse interior, chunky sticker-outline, geometric
+      constructed line). One or two lines each: what it does for charm, how it survives
+      auto-tracing, what it costs.
+
+
+      **2. Cuteness that isn''t generic**
+
+      The handful of levers that make a line mascot lovable — eye shape and spacing,
+      head-to-body ratio, pose energy, mouth simplicity, restraint on blush marks
+      — each as a one-line rule with a number where a number applies. Then a short
+      do-not list of the clichés that make an AI mascot look stock (dead-centre symmetrical
+      stare, sparkle confetti, floating hearts, blob bodies), each with its one-line
+      replacement.
+
+
+      **3. Trace-safety rules**
+
+      A flat list of concrete, checkable rules for the auto-trace-to-cut pipeline
+      — one line each, no explanatory paragraphs:
+
+      - minimum stroke thickness relative to the square''s width, stated as a fraction
+      (so it scales)
+
+      - minimum gap between two adjacent strokes before they blur into one traced
+      blob
+
+      - why every shape should read as a closed path, and how to spot one that won''t
+
+      - island/floating-part handling and where to add connective bridges
+
+      - what to do about interior detail that a tracer will turn into noise (crosshatching,
+      stippling, tapering hairlines, single stray dots)
+
+      - why large solid black fills are avoided here, and the acceptable exceptions
+      (small eyes, pupils, a tiny accent shape)
+
+
+      **4. Composition and hierarchy**
+
+      Bulleted rules only: square framing, margin as a fraction of the square, centre
+      of visual mass, minimum negative space, the mascot-leads / props-support / text-reinforces
+      hierarchy, and the shared traits that make it read as one illustrator''s hand
+      (same stroke weight, same corner radius, same eye style, same spacing rhythm).
+
+
+      **5. Text and badge treatments**
+
+      Text is **optional**. Briefly: when a word helps versus clutters, a maximum
+      letter count that stays cuttable, how to specify literal text so it renders
+      verbatim (quotes, exact casing), the letterform to ask for, and when a badge
+      ring earns its place versus just boxing the mark in. Six bullets is plenty.
+
+
+      **6. Prompt architecture for step 2**
+
+      The most important section, so spend your words here. Specify the exact template
+      the step-2 final prompt must follow — and state that the finished prompt should
+      land at **180–250 words**, long enough to carry the spec, short enough that
+      no single instruction gets diluted. Order it to match how the image model weights
+      a prompt:
+
+
+      1. **Medium and style up front** — the first sentence states it is a square
+      black-and-white line-art mascot logo, because opening words set the mode for
+      everything after.
+
+      2. **Subject** — the mascot, its identity, expression, pose.
+
+      3. **Key details** — props, supporting motifs, any literal text in quotes.
+
+      4. **Layout** — centring, margins, hierarchy, where each element sits.
+
+      5. **Line and manufacturing spec** — stroke weight, closed paths, interior-detail
+      limits.
+
+      6. **Exclusions last** — negatives go at the very end, after every positive
+      descriptor, because a model reading them early tends to treat them as things
+      to compose rather than things to omit.
+
+
+      Give the canonical exclusion list to close with (no grey, no shading, no gradients,
+      no halftone, no dithering, no texture, no colour, no transparency, no background
+      scene, no drop shadow, no outer glow, no frame border unless specified, no watermark,
+      no signature, no extra text beyond what is quoted).
+
+
+      Also state the two facts the prompt must say in plain words no matter what:
+      the image is **square**, and it is **pure black on a pure white background**.
+
+
+      ---
+
+
+      ## Response style and length
+
+
+      **About 900 words, 1,100 absolute maximum.** Bullets over prose. Concrete and
+      checkable over abstract and aspirational — "stroke no thinner than 1/100 of
+      the square''s width" beats "confident lines". No preamble, no restating this
+      brief back at me, no summary of what you are about to do. Skip the caveats and
+      the reasoning behind each rule; just state the rule.
+
+
+      Close with a checklist of the rules, 12 lines at most, so step 2 can be graded
+      against it.
+
+
+      Then stop. No final image prompt, no questions, no theme.
 
       '
   - command: ai_query
-    delay: '120'
+    delay: '180'
     mode_ai_wait: slow
-    text: 'Now use the exploration work to develop the direction for this theme: an
-      image of hardware set screw m8 16 mm length please include the thread size and
-      length in the image as text, add extra icons in the back, one that ryhmes with
-      the diameter and one or two that rhymes with the length, if the length is less
-      than 14 just one if it is greater do two, one rhyming for each part of the number
-      ie for twenty five one that rhymes with twenty and one that rhymes with five.
-      Put some time into searching to find the rhymes
+    text: '## Step 2 of 2 — the theme
 
 
-      Take your time and search outward before narrowing down. Flesh the theme out
-      beyond its obvious first interpretation. Explore multiple mascot angles, visual
-      metaphors, poses, supporting motifs, text treatments, and line-drawing approaches,
-      and explain what becomes more interesting, more readable, cuter, more cohesive,
-      or more manufacturable as you develop the idea. Make it more creatively specific
-      than the theme name alone while staying laser-cut safe.
+      The theme is: **an image of hardware set screw m8 16 mm length please include
+      the thread size and length in the image as text, add extra icons in the back,
+      one that ryhmes with the diameter and one or two that rhymes with the length,
+      if the length is less than 14 just one if it is greater do two, one rhyming
+      for each part of the number ie for twenty five one that rhymes with twenty and
+      one that rhymes with five. Put some time into searching to find the rhymes**
 
 
-      What to do:
-
-      - Explore a healthy range of possible directions, not just the first few obvious
-      ones.
-
-      - Search for specific, memorable, and theme-native ideas rather than generic
-      cute branding.
-
-      - Compare different mascot interpretations, poses, prop choices, supporting
-      motifs, and label or badge text treatments where relevant.
-
-      - Compare different outline and interior-line strategies, especially ones that
-      avoid large dark filled areas.
-
-      - Discuss what helps or hurts the drawing at small size.
-
-      - Call out what should be simplified, thickened, connected, merged, or removed
-      for laser cutting.
-
-      - Surface tradeoffs between charm, cuteness, clarity, uniqueness, and manufacturability.
-
-      - Favor directions that feel sweet, lovable, and visually light. Avoid details
-      that make the mascot feel fussy, stern, generic, or overdesigned.
-
-      - Favor directions where the mascot, supporting details, and text feel like
-      one designed system rather than separate assets placed next to each other.
-
-      - Look for ways to make the composition feel more polished, premium, badge-like,
-      and visually intentional without losing warmth.
-
-      - Recommend the strongest direction only after the exploration feels well developed.
-
-      - End with one polished final image-generation prompt paragraph for the recommended
-      direction.
+      Apply the house style you just wrote to this theme. Everything you need is now
+      in hand — do not ask questions, just work.
 
 
-      Response style:
+      ---
 
-      - Explain everything that seems useful for the next step.
 
-      - It is good to be expansive here; do not compress the thinking prematurely.
+      ## Part A — exploration
 
-      - Structured notes, comparisons, bullets, and short sections are welcome if
-      they help clarity.
 
-      - The final prompt should explicitly say the image is square and black on white.
+      **Budget: about 450 words, 600 hard ceiling.** Push past the theme''s first
+      obvious reading, but do it briskly. No preamble, no restating the theme back
+      at me.
+
+
+      - **Angles:** exactly four mascot interpretations, **one or two sentences each**.
+      Include at least one that anthropomorphises an object or concept from the theme
+      rather than reaching for the obvious animal, and at least one built on a visual
+      pun. Then name your pick in a single sentence saying why it beats the other
+      three — no full comparison table.
+
+      - **The chosen design:** one short paragraph fixing the pose, expression, props,
+      and line strategy. Prefer gesture or a moment of character over a static front-on
+      stare. Cut any prop that is decoration rather than signal.
+
+      - **Text:** one line — the exact string in quotes with exact casing, or "no
+      text". Text is optional and a clean wordless mark often wins.
+
+      - **Trace and small-size check:** a short bullet list of fixes only — every
+      stroke to thicken, gap to widen, island to bridge, detail to delete. Just the
+      fixes, not the reasoning, and not a description of what the design looks like
+      at size.
+
+
+      Skip anything not on that list: no tradeoff essays, no runner-up post-mortems,
+      no notes on your own process.
+
+
+      ## Part B — the final prompt
+
+
+      End your response with the final image-generation prompt for the chosen direction,
+      and nothing after it.
+
+
+      Format it as a single fenced code block labelled `FINAL IMAGE PROMPT`, so it
+      can be copied cleanly. Follow the six-part architecture from step 1 exactly,
+      in order: medium and style → subject → key details → layout → line and manufacturing
+      spec → exclusions last.
+
+
+      **Length: 180–250 words.** Long enough to carry the full spec, short enough
+      that no single instruction gets diluted. If you are over, cut adjectives and
+      repeated style words before you cut any manufacturing rule.
+
+
+      Hard requirements for that prompt:
+
+
+      - It opens by stating it is a **square black-and-white line-art mascot logo**.
+
+      - It says in plain words that the image is **square** and **pure black on a
+      pure white background**.
+
+      - It states stroke weight as a fraction of the image width, and requires every
+      shape to be a **closed path** with **no floating disconnected islands**.
+
+      - It caps interior detail explicitly and forbids crosshatching, stippling, and
+      hairline tapers.
+
+      - Any literal text appears in quotes with exact casing, spelled out character
+      by character if it is unusual.
+
+      - The exclusion list comes **last**, after every positive descriptor.
+
+      - It is self-contained: someone pasting it cold, with no memory of this conversation,
+      gets the same image. No "as discussed above", no "the mascot from earlier".
+
+      - One prompt only. No variants, no alternates, no commentary after the code
+      block.
 
       '
   - command: ai_query
-    delay: '120'
+    delay: '300'
     mode_ai_wait: slow
     text: Generate the image take all the time you need
   - command: save_image_generated
@@ -269,6 +347,7 @@ oomlout_ai_roboclick_1:
     mode_ai_wait: slow
   - command: close_tab
   file_test: initial_generated_icon.png
+  retries_until_complete: 0
 oomlout_ai_roboclick_2:
   actions:
   - command: text_jinja_template
@@ -285,200 +364,277 @@ oomlout_ai_roboclick_2:
         - command: new_chat
           description: step_1_create_icon
         - command: ai_query
-          delay: '120'
+          delay: '180'
           mode_ai_wait: slow
-          text: 'This is a context-loading and exploration step for a laser-cuttable
-            mascot logo. Take your time and think expansively before answering. Explore
-            multiple mascot directions, compare several line-art approaches, stress-test
-            them for charm, readability, manufacturability, and overall polish, and
-            explain everything that would be useful for the next step. The goal here
-            is not brevity. The goal is to surface strong options, useful observations,
-            and a well-reasoned direction for a square, single-colour, black-on-white
-            mascot logo drawing that is charming, original, cute, polished, and instantly
-            readable at small size.
+          text: '## READ THIS FIRST — no theme is coming in this message, and that
+            is correct
 
 
-            Creative direction:
-
-            - Invent one central mascot concept based on the theme, but push beyond
-            generic clip art. The mascot should feel witty, memorable, and slightly
-            surprising while still being cute and simple.
-
-            - Favor an adorable line-drawing character with a clear face, pose, and
-            identity. Anthropomorphize only as much as needed for charm and readability.
-
-            - Supporting elements and text are allowed and can be important when they
-            help define the identity, dimensions, category, mood, or story of the
-            logo.
-
-            - Favor iconic themed props, symbols, labels, and shape cues over random
-            decoration. Every element should help the logo read faster and feel more
-            complete.
-
-            - Think in stages before writing: concept search, line-language search,
-            simplification, and final refinement. Prefer the idea that stays most
-            legible after simplification.
-
-            - Deliberately look for a concept that feels specific to the theme rather
-            than generic kawaii branding.
-
-            - Keep the cute details genuinely sweet and lovable: soft expressions,
-            appealing proportions, simple cheeks, tiny hands or feet only if they
-            help, and charming gesture choices.
-
-            - Search for a direction that feels like a designed branded icon rather
-            than a loose doodle page.
-
-            - Make all parts of the image feel like they were designed by one illustrator
-            in one visual family, with consistent shape logic, line language, facial
-            styling, spacing, and proportion choices.
-
-            - Favor rounded geometric simplification, clear negative space, gentle
-            symmetry or balance where useful, and a visual hierarchy where the mascot
-            leads and the supporting details and text reinforce.
+            This is **step 1 of 2**. It is deliberately theme-free. You are building
+            a reusable house style, not designing a specific logo.
 
 
-            Format and manufacturing constraints:
-
-            - Pure black artwork on a pure white background only.
-
-            - No grey, no shading, no gradients, no halftones, no texture, no color,
-            no transparency, and no background scene.
-
-            - Prefer line drawing over large filled black areas. Use clean outlines
-            and sparse interior detail instead of heavy solid shapes.
-
-            - Design for laser cutting: lines should be confident and durable rather
-            than hairline-thin; details should be simple; no dense crosshatching;
-            and any islands should be connected if the design depends on physical
-            continuity.
-
-            - Keep the artwork centered in a square composition with comfortable margins
-            and a clean airy overall read.
-
-            - The drawing should feel cute, open, and light rather than dark, chunky,
-            or posterized.
-
-            - If text is used, it should be bold, simple, highly legible, and visually
-            integrated with the illustration.
-
-            - Border-like framing is allowed only if it strengthens the logo as a
-            clean badge or label shape rather than making it feel boxed in.
-
-            - Prioritize readability, cuteness, manufacturability, clarity, cohesion,
-            and polish over detail.
+            The theme arrives in step 2. Do **not** ask what the theme is. Do **not**
+            ask any clarifying questions. Do **not** write a final image-generation
+            prompt yet — you cannot, and attempting one is a failure of this step.
+            Do **not** invent a placeholder theme and design for it. If you feel information
+            is missing, that is expected: the missing information is the theme, it
+            is coming next, and nothing in this step requires it.
 
 
-            What to include in your response:
-
-            - Several candidate mascot directions for the theme, with notes on why
-            each could work.
-
-            - Observations about line clarity, readability at small size, cuteness,
-            and laser-cut safety.
-
-            - Notes on what details should be simplified, merged, thickened, connected,
-            or removed to keep the drawing light and appealing.
-
-            - Suggestions for supporting motifs and text treatments only where they
-            genuinely improve the idea.
-
-            - Observations about what makes the composition feel polished, cohesive,
-            brandable, and visually unified rather than random or clip-art-like.
-
-            - A recommended direction, with an explanation of why it is strongest.
-
-            - One strong final image-generation prompt at the end, ready for later
-            use.
+            Your entire output for this step is a **house style guide** that will
+            be applied to whatever theme arrives next.
 
 
-            Response style:
+            ---
 
-            - Explain your reasoning clearly and include all useful detail.
 
-            - It is fine to use structure, bullets, short sections, and comparisons
-            if that helps clarity.
+            ## The product this style serves
 
-            - The final prompt should explicitly say the image is square and black
-            on white.
+
+            **Intended use:** a square, single-colour, pure-black-on-pure-white mascot
+            logo, generated as a raster image, then **auto-traced to vector and cut/engraved
+            on a laser cutter**. The trace step is unforgiving — it is the hardest
+            constraint in this brief and should shape most of your recommendations.
+
+
+            **Target feel:** charming, original, cute, polished, instantly readable
+            at ~20 mm. A designed branded icon, not a doodle page and not generic
+            kawaii clip art.
+
+
+            ---
+
+
+            ## What to produce
+
+
+            Write these six sections. **Budget: about 900 words total, 1,100 hard
+            ceiling.** That is roughly 100–150 words per section, with section 6 allowed
+            the most. This is a working reference, not an essay — every line should
+            be a rule someone could check a drawing against. Prefer tight bullets
+            over prose paragraphs, and cut any sentence that only restates the brief
+            back at me.
+
+
+            **1. Line language menu**
+
+            Exactly three distinct black-on-white line-art approaches (e.g. uniform
+            monoline, weight-varied outline with sparse interior, chunky sticker-outline,
+            geometric constructed line). One or two lines each: what it does for charm,
+            how it survives auto-tracing, what it costs.
+
+
+            **2. Cuteness that isn''t generic**
+
+            The handful of levers that make a line mascot lovable — eye shape and
+            spacing, head-to-body ratio, pose energy, mouth simplicity, restraint
+            on blush marks — each as a one-line rule with a number where a number
+            applies. Then a short do-not list of the clichés that make an AI mascot
+            look stock (dead-centre symmetrical stare, sparkle confetti, floating
+            hearts, blob bodies), each with its one-line replacement.
+
+
+            **3. Trace-safety rules**
+
+            A flat list of concrete, checkable rules for the auto-trace-to-cut pipeline
+            — one line each, no explanatory paragraphs:
+
+            - minimum stroke thickness relative to the square''s width, stated as
+            a fraction (so it scales)
+
+            - minimum gap between two adjacent strokes before they blur into one traced
+            blob
+
+            - why every shape should read as a closed path, and how to spot one that
+            won''t
+
+            - island/floating-part handling and where to add connective bridges
+
+            - what to do about interior detail that a tracer will turn into noise
+            (crosshatching, stippling, tapering hairlines, single stray dots)
+
+            - why large solid black fills are avoided here, and the acceptable exceptions
+            (small eyes, pupils, a tiny accent shape)
+
+
+            **4. Composition and hierarchy**
+
+            Bulleted rules only: square framing, margin as a fraction of the square,
+            centre of visual mass, minimum negative space, the mascot-leads / props-support
+            / text-reinforces hierarchy, and the shared traits that make it read as
+            one illustrator''s hand (same stroke weight, same corner radius, same
+            eye style, same spacing rhythm).
+
+
+            **5. Text and badge treatments**
+
+            Text is **optional**. Briefly: when a word helps versus clutters, a maximum
+            letter count that stays cuttable, how to specify literal text so it renders
+            verbatim (quotes, exact casing), the letterform to ask for, and when a
+            badge ring earns its place versus just boxing the mark in. Six bullets
+            is plenty.
+
+
+            **6. Prompt architecture for step 2**
+
+            The most important section, so spend your words here. Specify the exact
+            template the step-2 final prompt must follow — and state that the finished
+            prompt should land at **180–250 words**, long enough to carry the spec,
+            short enough that no single instruction gets diluted. Order it to match
+            how the image model weights a prompt:
+
+
+            1. **Medium and style up front** — the first sentence states it is a square
+            black-and-white line-art mascot logo, because opening words set the mode
+            for everything after.
+
+            2. **Subject** — the mascot, its identity, expression, pose.
+
+            3. **Key details** — props, supporting motifs, any literal text in quotes.
+
+            4. **Layout** — centring, margins, hierarchy, where each element sits.
+
+            5. **Line and manufacturing spec** — stroke weight, closed paths, interior-detail
+            limits.
+
+            6. **Exclusions last** — negatives go at the very end, after every positive
+            descriptor, because a model reading them early tends to treat them as
+            things to compose rather than things to omit.
+
+
+            Give the canonical exclusion list to close with (no grey, no shading,
+            no gradients, no halftone, no dithering, no texture, no colour, no transparency,
+            no background scene, no drop shadow, no outer glow, no frame border unless
+            specified, no watermark, no signature, no extra text beyond what is quoted).
+
+
+            Also state the two facts the prompt must say in plain words no matter
+            what: the image is **square**, and it is **pure black on a pure white
+            background**.
+
+
+            ---
+
+
+            ## Response style and length
+
+
+            **About 900 words, 1,100 absolute maximum.** Bullets over prose. Concrete
+            and checkable over abstract and aspirational — "stroke no thinner than
+            1/100 of the square''s width" beats "confident lines". No preamble, no
+            restating this brief back at me, no summary of what you are about to do.
+            Skip the caveats and the reasoning behind each rule; just state the rule.
+
+
+            Close with a checklist of the rules, 12 lines at most, so step 2 can be
+            graded against it.
+
+
+            Then stop. No final image prompt, no questions, no theme.
 
             '
         - command: ai_query
-          delay: '120'
+          delay: '180'
           mode_ai_wait: slow
-          text: 'Now use the exploration work to develop the direction for this theme:
-            an image of hardware set screw m8 16 mm length please include the thread
-            size and length in the image as text, add extra icons in the back, one
-            that ryhmes with the diameter and one or two that rhymes with the length,
-            if the length is less than 14 just one if it is greater do two, one rhyming
-            for each part of the number ie for twenty five one that rhymes with twenty
-            and one that rhymes with five. Put some time into searching to find the
-            rhymes
+          text: '## Step 2 of 2 — the theme
 
 
-            Take your time and search outward before narrowing down. Flesh the theme
-            out beyond its obvious first interpretation. Explore multiple mascot angles,
-            visual metaphors, poses, supporting motifs, text treatments, and line-drawing
-            approaches, and explain what becomes more interesting, more readable,
-            cuter, more cohesive, or more manufacturable as you develop the idea.
-            Make it more creatively specific than the theme name alone while staying
-            laser-cut safe.
+            The theme is: **an image of hardware set screw m8 16 mm length please
+            include the thread size and length in the image as text, add extra icons
+            in the back, one that ryhmes with the diameter and one or two that rhymes
+            with the length, if the length is less than 14 just one if it is greater
+            do two, one rhyming for each part of the number ie for twenty five one
+            that rhymes with twenty and one that rhymes with five. Put some time into
+            searching to find the rhymes**
 
 
-            What to do:
-
-            - Explore a healthy range of possible directions, not just the first few
-            obvious ones.
-
-            - Search for specific, memorable, and theme-native ideas rather than generic
-            cute branding.
-
-            - Compare different mascot interpretations, poses, prop choices, supporting
-            motifs, and label or badge text treatments where relevant.
-
-            - Compare different outline and interior-line strategies, especially ones
-            that avoid large dark filled areas.
-
-            - Discuss what helps or hurts the drawing at small size.
-
-            - Call out what should be simplified, thickened, connected, merged, or
-            removed for laser cutting.
-
-            - Surface tradeoffs between charm, cuteness, clarity, uniqueness, and
-            manufacturability.
-
-            - Favor directions that feel sweet, lovable, and visually light. Avoid
-            details that make the mascot feel fussy, stern, generic, or overdesigned.
-
-            - Favor directions where the mascot, supporting details, and text feel
-            like one designed system rather than separate assets placed next to each
-            other.
-
-            - Look for ways to make the composition feel more polished, premium, badge-like,
-            and visually intentional without losing warmth.
-
-            - Recommend the strongest direction only after the exploration feels well
-            developed.
-
-            - End with one polished final image-generation prompt paragraph for the
-            recommended direction.
+            Apply the house style you just wrote to this theme. Everything you need
+            is now in hand — do not ask questions, just work.
 
 
-            Response style:
+            ---
 
-            - Explain everything that seems useful for the next step.
 
-            - It is good to be expansive here; do not compress the thinking prematurely.
+            ## Part A — exploration
 
-            - Structured notes, comparisons, bullets, and short sections are welcome
-            if they help clarity.
 
-            - The final prompt should explicitly say the image is square and black
-            on white.
+            **Budget: about 450 words, 600 hard ceiling.** Push past the theme''s
+            first obvious reading, but do it briskly. No preamble, no restating the
+            theme back at me.
+
+
+            - **Angles:** exactly four mascot interpretations, **one or two sentences
+            each**. Include at least one that anthropomorphises an object or concept
+            from the theme rather than reaching for the obvious animal, and at least
+            one built on a visual pun. Then name your pick in a single sentence saying
+            why it beats the other three — no full comparison table.
+
+            - **The chosen design:** one short paragraph fixing the pose, expression,
+            props, and line strategy. Prefer gesture or a moment of character over
+            a static front-on stare. Cut any prop that is decoration rather than signal.
+
+            - **Text:** one line — the exact string in quotes with exact casing, or
+            "no text". Text is optional and a clean wordless mark often wins.
+
+            - **Trace and small-size check:** a short bullet list of fixes only —
+            every stroke to thicken, gap to widen, island to bridge, detail to delete.
+            Just the fixes, not the reasoning, and not a description of what the design
+            looks like at size.
+
+
+            Skip anything not on that list: no tradeoff essays, no runner-up post-mortems,
+            no notes on your own process.
+
+
+            ## Part B — the final prompt
+
+
+            End your response with the final image-generation prompt for the chosen
+            direction, and nothing after it.
+
+
+            Format it as a single fenced code block labelled `FINAL IMAGE PROMPT`,
+            so it can be copied cleanly. Follow the six-part architecture from step
+            1 exactly, in order: medium and style → subject → key details → layout
+            → line and manufacturing spec → exclusions last.
+
+
+            **Length: 180–250 words.** Long enough to carry the full spec, short enough
+            that no single instruction gets diluted. If you are over, cut adjectives
+            and repeated style words before you cut any manufacturing rule.
+
+
+            Hard requirements for that prompt:
+
+
+            - It opens by stating it is a **square black-and-white line-art mascot
+            logo**.
+
+            - It says in plain words that the image is **square** and **pure black
+            on a pure white background**.
+
+            - It states stroke weight as a fraction of the image width, and requires
+            every shape to be a **closed path** with **no floating disconnected islands**.
+
+            - It caps interior detail explicitly and forbids crosshatching, stippling,
+            and hairline tapers.
+
+            - Any literal text appears in quotes with exact casing, spelled out character
+            by character if it is unusual.
+
+            - The exclusion list comes **last**, after every positive descriptor.
+
+            - It is self-contained: someone pasting it cold, with no memory of this
+            conversation, gets the same image. No "as discussed above", no "the mascot
+            from earlier".
+
+            - One prompt only. No variants, no alternates, no commentary after the
+            code block.
 
             '
         - command: ai_query
-          delay: '120'
+          delay: '300'
           mode_ai_wait: slow
           text: Generate the image take all the time you need
         - command: save_image_generated
@@ -486,6 +642,7 @@ oomlout_ai_roboclick_2:
           mode_ai_wait: slow
         - command: close_tab
         file_test: initial_generated_icon.png
+        retries_until_complete: 0
       spec_iso_b_125_lt_l_le_200_mm: '28'
       spec_iso_b_l_gt_200_mm: '41'
       spec_iso_b_l_le_125_mm: '22'
@@ -548,9 +705,10 @@ oomlout_ai_roboclick_2:
     dict_data_files: {}
     dict_data_files_exists: {}
     file_output: label_oomp.svg
-    file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
     search_and_replace: []
   file_test: label_oomp.pdf
+  retries_until_complete: 0
 oomlout_ai_roboclick_3:
   actions:
   - command: text_jinja_template
@@ -567,200 +725,277 @@ oomlout_ai_roboclick_3:
         - command: new_chat
           description: step_1_create_icon
         - command: ai_query
-          delay: '120'
+          delay: '180'
           mode_ai_wait: slow
-          text: 'This is a context-loading and exploration step for a laser-cuttable
-            mascot logo. Take your time and think expansively before answering. Explore
-            multiple mascot directions, compare several line-art approaches, stress-test
-            them for charm, readability, manufacturability, and overall polish, and
-            explain everything that would be useful for the next step. The goal here
-            is not brevity. The goal is to surface strong options, useful observations,
-            and a well-reasoned direction for a square, single-colour, black-on-white
-            mascot logo drawing that is charming, original, cute, polished, and instantly
-            readable at small size.
+          text: '## READ THIS FIRST — no theme is coming in this message, and that
+            is correct
 
 
-            Creative direction:
-
-            - Invent one central mascot concept based on the theme, but push beyond
-            generic clip art. The mascot should feel witty, memorable, and slightly
-            surprising while still being cute and simple.
-
-            - Favor an adorable line-drawing character with a clear face, pose, and
-            identity. Anthropomorphize only as much as needed for charm and readability.
-
-            - Supporting elements and text are allowed and can be important when they
-            help define the identity, dimensions, category, mood, or story of the
-            logo.
-
-            - Favor iconic themed props, symbols, labels, and shape cues over random
-            decoration. Every element should help the logo read faster and feel more
-            complete.
-
-            - Think in stages before writing: concept search, line-language search,
-            simplification, and final refinement. Prefer the idea that stays most
-            legible after simplification.
-
-            - Deliberately look for a concept that feels specific to the theme rather
-            than generic kawaii branding.
-
-            - Keep the cute details genuinely sweet and lovable: soft expressions,
-            appealing proportions, simple cheeks, tiny hands or feet only if they
-            help, and charming gesture choices.
-
-            - Search for a direction that feels like a designed branded icon rather
-            than a loose doodle page.
-
-            - Make all parts of the image feel like they were designed by one illustrator
-            in one visual family, with consistent shape logic, line language, facial
-            styling, spacing, and proportion choices.
-
-            - Favor rounded geometric simplification, clear negative space, gentle
-            symmetry or balance where useful, and a visual hierarchy where the mascot
-            leads and the supporting details and text reinforce.
+            This is **step 1 of 2**. It is deliberately theme-free. You are building
+            a reusable house style, not designing a specific logo.
 
 
-            Format and manufacturing constraints:
-
-            - Pure black artwork on a pure white background only.
-
-            - No grey, no shading, no gradients, no halftones, no texture, no color,
-            no transparency, and no background scene.
-
-            - Prefer line drawing over large filled black areas. Use clean outlines
-            and sparse interior detail instead of heavy solid shapes.
-
-            - Design for laser cutting: lines should be confident and durable rather
-            than hairline-thin; details should be simple; no dense crosshatching;
-            and any islands should be connected if the design depends on physical
-            continuity.
-
-            - Keep the artwork centered in a square composition with comfortable margins
-            and a clean airy overall read.
-
-            - The drawing should feel cute, open, and light rather than dark, chunky,
-            or posterized.
-
-            - If text is used, it should be bold, simple, highly legible, and visually
-            integrated with the illustration.
-
-            - Border-like framing is allowed only if it strengthens the logo as a
-            clean badge or label shape rather than making it feel boxed in.
-
-            - Prioritize readability, cuteness, manufacturability, clarity, cohesion,
-            and polish over detail.
+            The theme arrives in step 2. Do **not** ask what the theme is. Do **not**
+            ask any clarifying questions. Do **not** write a final image-generation
+            prompt yet — you cannot, and attempting one is a failure of this step.
+            Do **not** invent a placeholder theme and design for it. If you feel information
+            is missing, that is expected: the missing information is the theme, it
+            is coming next, and nothing in this step requires it.
 
 
-            What to include in your response:
-
-            - Several candidate mascot directions for the theme, with notes on why
-            each could work.
-
-            - Observations about line clarity, readability at small size, cuteness,
-            and laser-cut safety.
-
-            - Notes on what details should be simplified, merged, thickened, connected,
-            or removed to keep the drawing light and appealing.
-
-            - Suggestions for supporting motifs and text treatments only where they
-            genuinely improve the idea.
-
-            - Observations about what makes the composition feel polished, cohesive,
-            brandable, and visually unified rather than random or clip-art-like.
-
-            - A recommended direction, with an explanation of why it is strongest.
-
-            - One strong final image-generation prompt at the end, ready for later
-            use.
+            Your entire output for this step is a **house style guide** that will
+            be applied to whatever theme arrives next.
 
 
-            Response style:
+            ---
 
-            - Explain your reasoning clearly and include all useful detail.
 
-            - It is fine to use structure, bullets, short sections, and comparisons
-            if that helps clarity.
+            ## The product this style serves
 
-            - The final prompt should explicitly say the image is square and black
-            on white.
+
+            **Intended use:** a square, single-colour, pure-black-on-pure-white mascot
+            logo, generated as a raster image, then **auto-traced to vector and cut/engraved
+            on a laser cutter**. The trace step is unforgiving — it is the hardest
+            constraint in this brief and should shape most of your recommendations.
+
+
+            **Target feel:** charming, original, cute, polished, instantly readable
+            at ~20 mm. A designed branded icon, not a doodle page and not generic
+            kawaii clip art.
+
+
+            ---
+
+
+            ## What to produce
+
+
+            Write these six sections. **Budget: about 900 words total, 1,100 hard
+            ceiling.** That is roughly 100–150 words per section, with section 6 allowed
+            the most. This is a working reference, not an essay — every line should
+            be a rule someone could check a drawing against. Prefer tight bullets
+            over prose paragraphs, and cut any sentence that only restates the brief
+            back at me.
+
+
+            **1. Line language menu**
+
+            Exactly three distinct black-on-white line-art approaches (e.g. uniform
+            monoline, weight-varied outline with sparse interior, chunky sticker-outline,
+            geometric constructed line). One or two lines each: what it does for charm,
+            how it survives auto-tracing, what it costs.
+
+
+            **2. Cuteness that isn''t generic**
+
+            The handful of levers that make a line mascot lovable — eye shape and
+            spacing, head-to-body ratio, pose energy, mouth simplicity, restraint
+            on blush marks — each as a one-line rule with a number where a number
+            applies. Then a short do-not list of the clichés that make an AI mascot
+            look stock (dead-centre symmetrical stare, sparkle confetti, floating
+            hearts, blob bodies), each with its one-line replacement.
+
+
+            **3. Trace-safety rules**
+
+            A flat list of concrete, checkable rules for the auto-trace-to-cut pipeline
+            — one line each, no explanatory paragraphs:
+
+            - minimum stroke thickness relative to the square''s width, stated as
+            a fraction (so it scales)
+
+            - minimum gap between two adjacent strokes before they blur into one traced
+            blob
+
+            - why every shape should read as a closed path, and how to spot one that
+            won''t
+
+            - island/floating-part handling and where to add connective bridges
+
+            - what to do about interior detail that a tracer will turn into noise
+            (crosshatching, stippling, tapering hairlines, single stray dots)
+
+            - why large solid black fills are avoided here, and the acceptable exceptions
+            (small eyes, pupils, a tiny accent shape)
+
+
+            **4. Composition and hierarchy**
+
+            Bulleted rules only: square framing, margin as a fraction of the square,
+            centre of visual mass, minimum negative space, the mascot-leads / props-support
+            / text-reinforces hierarchy, and the shared traits that make it read as
+            one illustrator''s hand (same stroke weight, same corner radius, same
+            eye style, same spacing rhythm).
+
+
+            **5. Text and badge treatments**
+
+            Text is **optional**. Briefly: when a word helps versus clutters, a maximum
+            letter count that stays cuttable, how to specify literal text so it renders
+            verbatim (quotes, exact casing), the letterform to ask for, and when a
+            badge ring earns its place versus just boxing the mark in. Six bullets
+            is plenty.
+
+
+            **6. Prompt architecture for step 2**
+
+            The most important section, so spend your words here. Specify the exact
+            template the step-2 final prompt must follow — and state that the finished
+            prompt should land at **180–250 words**, long enough to carry the spec,
+            short enough that no single instruction gets diluted. Order it to match
+            how the image model weights a prompt:
+
+
+            1. **Medium and style up front** — the first sentence states it is a square
+            black-and-white line-art mascot logo, because opening words set the mode
+            for everything after.
+
+            2. **Subject** — the mascot, its identity, expression, pose.
+
+            3. **Key details** — props, supporting motifs, any literal text in quotes.
+
+            4. **Layout** — centring, margins, hierarchy, where each element sits.
+
+            5. **Line and manufacturing spec** — stroke weight, closed paths, interior-detail
+            limits.
+
+            6. **Exclusions last** — negatives go at the very end, after every positive
+            descriptor, because a model reading them early tends to treat them as
+            things to compose rather than things to omit.
+
+
+            Give the canonical exclusion list to close with (no grey, no shading,
+            no gradients, no halftone, no dithering, no texture, no colour, no transparency,
+            no background scene, no drop shadow, no outer glow, no frame border unless
+            specified, no watermark, no signature, no extra text beyond what is quoted).
+
+
+            Also state the two facts the prompt must say in plain words no matter
+            what: the image is **square**, and it is **pure black on a pure white
+            background**.
+
+
+            ---
+
+
+            ## Response style and length
+
+
+            **About 900 words, 1,100 absolute maximum.** Bullets over prose. Concrete
+            and checkable over abstract and aspirational — "stroke no thinner than
+            1/100 of the square''s width" beats "confident lines". No preamble, no
+            restating this brief back at me, no summary of what you are about to do.
+            Skip the caveats and the reasoning behind each rule; just state the rule.
+
+
+            Close with a checklist of the rules, 12 lines at most, so step 2 can be
+            graded against it.
+
+
+            Then stop. No final image prompt, no questions, no theme.
 
             '
         - command: ai_query
-          delay: '120'
+          delay: '180'
           mode_ai_wait: slow
-          text: 'Now use the exploration work to develop the direction for this theme:
-            an image of hardware set screw m8 16 mm length please include the thread
-            size and length in the image as text, add extra icons in the back, one
-            that ryhmes with the diameter and one or two that rhymes with the length,
-            if the length is less than 14 just one if it is greater do two, one rhyming
-            for each part of the number ie for twenty five one that rhymes with twenty
-            and one that rhymes with five. Put some time into searching to find the
-            rhymes
+          text: '## Step 2 of 2 — the theme
 
 
-            Take your time and search outward before narrowing down. Flesh the theme
-            out beyond its obvious first interpretation. Explore multiple mascot angles,
-            visual metaphors, poses, supporting motifs, text treatments, and line-drawing
-            approaches, and explain what becomes more interesting, more readable,
-            cuter, more cohesive, or more manufacturable as you develop the idea.
-            Make it more creatively specific than the theme name alone while staying
-            laser-cut safe.
+            The theme is: **an image of hardware set screw m8 16 mm length please
+            include the thread size and length in the image as text, add extra icons
+            in the back, one that ryhmes with the diameter and one or two that rhymes
+            with the length, if the length is less than 14 just one if it is greater
+            do two, one rhyming for each part of the number ie for twenty five one
+            that rhymes with twenty and one that rhymes with five. Put some time into
+            searching to find the rhymes**
 
 
-            What to do:
-
-            - Explore a healthy range of possible directions, not just the first few
-            obvious ones.
-
-            - Search for specific, memorable, and theme-native ideas rather than generic
-            cute branding.
-
-            - Compare different mascot interpretations, poses, prop choices, supporting
-            motifs, and label or badge text treatments where relevant.
-
-            - Compare different outline and interior-line strategies, especially ones
-            that avoid large dark filled areas.
-
-            - Discuss what helps or hurts the drawing at small size.
-
-            - Call out what should be simplified, thickened, connected, merged, or
-            removed for laser cutting.
-
-            - Surface tradeoffs between charm, cuteness, clarity, uniqueness, and
-            manufacturability.
-
-            - Favor directions that feel sweet, lovable, and visually light. Avoid
-            details that make the mascot feel fussy, stern, generic, or overdesigned.
-
-            - Favor directions where the mascot, supporting details, and text feel
-            like one designed system rather than separate assets placed next to each
-            other.
-
-            - Look for ways to make the composition feel more polished, premium, badge-like,
-            and visually intentional without losing warmth.
-
-            - Recommend the strongest direction only after the exploration feels well
-            developed.
-
-            - End with one polished final image-generation prompt paragraph for the
-            recommended direction.
+            Apply the house style you just wrote to this theme. Everything you need
+            is now in hand — do not ask questions, just work.
 
 
-            Response style:
+            ---
 
-            - Explain everything that seems useful for the next step.
 
-            - It is good to be expansive here; do not compress the thinking prematurely.
+            ## Part A — exploration
 
-            - Structured notes, comparisons, bullets, and short sections are welcome
-            if they help clarity.
 
-            - The final prompt should explicitly say the image is square and black
-            on white.
+            **Budget: about 450 words, 600 hard ceiling.** Push past the theme''s
+            first obvious reading, but do it briskly. No preamble, no restating the
+            theme back at me.
+
+
+            - **Angles:** exactly four mascot interpretations, **one or two sentences
+            each**. Include at least one that anthropomorphises an object or concept
+            from the theme rather than reaching for the obvious animal, and at least
+            one built on a visual pun. Then name your pick in a single sentence saying
+            why it beats the other three — no full comparison table.
+
+            - **The chosen design:** one short paragraph fixing the pose, expression,
+            props, and line strategy. Prefer gesture or a moment of character over
+            a static front-on stare. Cut any prop that is decoration rather than signal.
+
+            - **Text:** one line — the exact string in quotes with exact casing, or
+            "no text". Text is optional and a clean wordless mark often wins.
+
+            - **Trace and small-size check:** a short bullet list of fixes only —
+            every stroke to thicken, gap to widen, island to bridge, detail to delete.
+            Just the fixes, not the reasoning, and not a description of what the design
+            looks like at size.
+
+
+            Skip anything not on that list: no tradeoff essays, no runner-up post-mortems,
+            no notes on your own process.
+
+
+            ## Part B — the final prompt
+
+
+            End your response with the final image-generation prompt for the chosen
+            direction, and nothing after it.
+
+
+            Format it as a single fenced code block labelled `FINAL IMAGE PROMPT`,
+            so it can be copied cleanly. Follow the six-part architecture from step
+            1 exactly, in order: medium and style → subject → key details → layout
+            → line and manufacturing spec → exclusions last.
+
+
+            **Length: 180–250 words.** Long enough to carry the full spec, short enough
+            that no single instruction gets diluted. If you are over, cut adjectives
+            and repeated style words before you cut any manufacturing rule.
+
+
+            Hard requirements for that prompt:
+
+
+            - It opens by stating it is a **square black-and-white line-art mascot
+            logo**.
+
+            - It says in plain words that the image is **square** and **pure black
+            on a pure white background**.
+
+            - It states stroke weight as a fraction of the image width, and requires
+            every shape to be a **closed path** with **no floating disconnected islands**.
+
+            - It caps interior detail explicitly and forbids crosshatching, stippling,
+            and hairline tapers.
+
+            - Any literal text appears in quotes with exact casing, spelled out character
+            by character if it is unusual.
+
+            - The exclusion list comes **last**, after every positive descriptor.
+
+            - It is self-contained: someone pasting it cold, with no memory of this
+            conversation, gets the same image. No "as discussed above", no "the mascot
+            from earlier".
+
+            - One prompt only. No variants, no alternates, no commentary after the
+            code block.
 
             '
         - command: ai_query
-          delay: '120'
+          delay: '300'
           mode_ai_wait: slow
           text: Generate the image take all the time you need
         - command: save_image_generated
@@ -768,6 +1003,7 @@ oomlout_ai_roboclick_3:
           mode_ai_wait: slow
         - command: close_tab
         file_test: initial_generated_icon.png
+        retries_until_complete: 0
       oomlout_ai_roboclick_2:
         actions:
         - command: text_jinja_template
@@ -784,205 +1020,289 @@ oomlout_ai_roboclick_3:
               - command: new_chat
                 description: step_1_create_icon
               - command: ai_query
-                delay: '120'
+                delay: '180'
                 mode_ai_wait: slow
-                text: 'This is a context-loading and exploration step for a laser-cuttable
-                  mascot logo. Take your time and think expansively before answering.
-                  Explore multiple mascot directions, compare several line-art approaches,
-                  stress-test them for charm, readability, manufacturability, and
-                  overall polish, and explain everything that would be useful for
-                  the next step. The goal here is not brevity. The goal is to surface
-                  strong options, useful observations, and a well-reasoned direction
-                  for a square, single-colour, black-on-white mascot logo drawing
-                  that is charming, original, cute, polished, and instantly readable
-                  at small size.
+                text: '## READ THIS FIRST — no theme is coming in this message, and
+                  that is correct
 
 
-                  Creative direction:
-
-                  - Invent one central mascot concept based on the theme, but push
-                  beyond generic clip art. The mascot should feel witty, memorable,
-                  and slightly surprising while still being cute and simple.
-
-                  - Favor an adorable line-drawing character with a clear face, pose,
-                  and identity. Anthropomorphize only as much as needed for charm
-                  and readability.
-
-                  - Supporting elements and text are allowed and can be important
-                  when they help define the identity, dimensions, category, mood,
-                  or story of the logo.
-
-                  - Favor iconic themed props, symbols, labels, and shape cues over
-                  random decoration. Every element should help the logo read faster
-                  and feel more complete.
-
-                  - Think in stages before writing: concept search, line-language
-                  search, simplification, and final refinement. Prefer the idea that
-                  stays most legible after simplification.
-
-                  - Deliberately look for a concept that feels specific to the theme
-                  rather than generic kawaii branding.
-
-                  - Keep the cute details genuinely sweet and lovable: soft expressions,
-                  appealing proportions, simple cheeks, tiny hands or feet only if
-                  they help, and charming gesture choices.
-
-                  - Search for a direction that feels like a designed branded icon
-                  rather than a loose doodle page.
-
-                  - Make all parts of the image feel like they were designed by one
-                  illustrator in one visual family, with consistent shape logic, line
-                  language, facial styling, spacing, and proportion choices.
-
-                  - Favor rounded geometric simplification, clear negative space,
-                  gentle symmetry or balance where useful, and a visual hierarchy
-                  where the mascot leads and the supporting details and text reinforce.
+                  This is **step 1 of 2**. It is deliberately theme-free. You are
+                  building a reusable house style, not designing a specific logo.
 
 
-                  Format and manufacturing constraints:
-
-                  - Pure black artwork on a pure white background only.
-
-                  - No grey, no shading, no gradients, no halftones, no texture, no
-                  color, no transparency, and no background scene.
-
-                  - Prefer line drawing over large filled black areas. Use clean outlines
-                  and sparse interior detail instead of heavy solid shapes.
-
-                  - Design for laser cutting: lines should be confident and durable
-                  rather than hairline-thin; details should be simple; no dense crosshatching;
-                  and any islands should be connected if the design depends on physical
-                  continuity.
-
-                  - Keep the artwork centered in a square composition with comfortable
-                  margins and a clean airy overall read.
-
-                  - The drawing should feel cute, open, and light rather than dark,
-                  chunky, or posterized.
-
-                  - If text is used, it should be bold, simple, highly legible, and
-                  visually integrated with the illustration.
-
-                  - Border-like framing is allowed only if it strengthens the logo
-                  as a clean badge or label shape rather than making it feel boxed
-                  in.
-
-                  - Prioritize readability, cuteness, manufacturability, clarity,
-                  cohesion, and polish over detail.
+                  The theme arrives in step 2. Do **not** ask what the theme is. Do
+                  **not** ask any clarifying questions. Do **not** write a final image-generation
+                  prompt yet — you cannot, and attempting one is a failure of this
+                  step. Do **not** invent a placeholder theme and design for it. If
+                  you feel information is missing, that is expected: the missing information
+                  is the theme, it is coming next, and nothing in this step requires
+                  it.
 
 
-                  What to include in your response:
-
-                  - Several candidate mascot directions for the theme, with notes
-                  on why each could work.
-
-                  - Observations about line clarity, readability at small size, cuteness,
-                  and laser-cut safety.
-
-                  - Notes on what details should be simplified, merged, thickened,
-                  connected, or removed to keep the drawing light and appealing.
-
-                  - Suggestions for supporting motifs and text treatments only where
-                  they genuinely improve the idea.
-
-                  - Observations about what makes the composition feel polished, cohesive,
-                  brandable, and visually unified rather than random or clip-art-like.
-
-                  - A recommended direction, with an explanation of why it is strongest.
-
-                  - One strong final image-generation prompt at the end, ready for
-                  later use.
+                  Your entire output for this step is a **house style guide** that
+                  will be applied to whatever theme arrives next.
 
 
-                  Response style:
+                  ---
 
-                  - Explain your reasoning clearly and include all useful detail.
 
-                  - It is fine to use structure, bullets, short sections, and comparisons
-                  if that helps clarity.
+                  ## The product this style serves
 
-                  - The final prompt should explicitly say the image is square and
-                  black on white.
+
+                  **Intended use:** a square, single-colour, pure-black-on-pure-white
+                  mascot logo, generated as a raster image, then **auto-traced to
+                  vector and cut/engraved on a laser cutter**. The trace step is unforgiving
+                  — it is the hardest constraint in this brief and should shape most
+                  of your recommendations.
+
+
+                  **Target feel:** charming, original, cute, polished, instantly readable
+                  at ~20 mm. A designed branded icon, not a doodle page and not generic
+                  kawaii clip art.
+
+
+                  ---
+
+
+                  ## What to produce
+
+
+                  Write these six sections. **Budget: about 900 words total, 1,100
+                  hard ceiling.** That is roughly 100–150 words per section, with
+                  section 6 allowed the most. This is a working reference, not an
+                  essay — every line should be a rule someone could check a drawing
+                  against. Prefer tight bullets over prose paragraphs, and cut any
+                  sentence that only restates the brief back at me.
+
+
+                  **1. Line language menu**
+
+                  Exactly three distinct black-on-white line-art approaches (e.g.
+                  uniform monoline, weight-varied outline with sparse interior, chunky
+                  sticker-outline, geometric constructed line). One or two lines each:
+                  what it does for charm, how it survives auto-tracing, what it costs.
+
+
+                  **2. Cuteness that isn''t generic**
+
+                  The handful of levers that make a line mascot lovable — eye shape
+                  and spacing, head-to-body ratio, pose energy, mouth simplicity,
+                  restraint on blush marks — each as a one-line rule with a number
+                  where a number applies. Then a short do-not list of the clichés
+                  that make an AI mascot look stock (dead-centre symmetrical stare,
+                  sparkle confetti, floating hearts, blob bodies), each with its one-line
+                  replacement.
+
+
+                  **3. Trace-safety rules**
+
+                  A flat list of concrete, checkable rules for the auto-trace-to-cut
+                  pipeline — one line each, no explanatory paragraphs:
+
+                  - minimum stroke thickness relative to the square''s width, stated
+                  as a fraction (so it scales)
+
+                  - minimum gap between two adjacent strokes before they blur into
+                  one traced blob
+
+                  - why every shape should read as a closed path, and how to spot
+                  one that won''t
+
+                  - island/floating-part handling and where to add connective bridges
+
+                  - what to do about interior detail that a tracer will turn into
+                  noise (crosshatching, stippling, tapering hairlines, single stray
+                  dots)
+
+                  - why large solid black fills are avoided here, and the acceptable
+                  exceptions (small eyes, pupils, a tiny accent shape)
+
+
+                  **4. Composition and hierarchy**
+
+                  Bulleted rules only: square framing, margin as a fraction of the
+                  square, centre of visual mass, minimum negative space, the mascot-leads
+                  / props-support / text-reinforces hierarchy, and the shared traits
+                  that make it read as one illustrator''s hand (same stroke weight,
+                  same corner radius, same eye style, same spacing rhythm).
+
+
+                  **5. Text and badge treatments**
+
+                  Text is **optional**. Briefly: when a word helps versus clutters,
+                  a maximum letter count that stays cuttable, how to specify literal
+                  text so it renders verbatim (quotes, exact casing), the letterform
+                  to ask for, and when a badge ring earns its place versus just boxing
+                  the mark in. Six bullets is plenty.
+
+
+                  **6. Prompt architecture for step 2**
+
+                  The most important section, so spend your words here. Specify the
+                  exact template the step-2 final prompt must follow — and state that
+                  the finished prompt should land at **180–250 words**, long enough
+                  to carry the spec, short enough that no single instruction gets
+                  diluted. Order it to match how the image model weights a prompt:
+
+
+                  1. **Medium and style up front** — the first sentence states it
+                  is a square black-and-white line-art mascot logo, because opening
+                  words set the mode for everything after.
+
+                  2. **Subject** — the mascot, its identity, expression, pose.
+
+                  3. **Key details** — props, supporting motifs, any literal text
+                  in quotes.
+
+                  4. **Layout** — centring, margins, hierarchy, where each element
+                  sits.
+
+                  5. **Line and manufacturing spec** — stroke weight, closed paths,
+                  interior-detail limits.
+
+                  6. **Exclusions last** — negatives go at the very end, after every
+                  positive descriptor, because a model reading them early tends to
+                  treat them as things to compose rather than things to omit.
+
+
+                  Give the canonical exclusion list to close with (no grey, no shading,
+                  no gradients, no halftone, no dithering, no texture, no colour,
+                  no transparency, no background scene, no drop shadow, no outer glow,
+                  no frame border unless specified, no watermark, no signature, no
+                  extra text beyond what is quoted).
+
+
+                  Also state the two facts the prompt must say in plain words no matter
+                  what: the image is **square**, and it is **pure black on a pure
+                  white background**.
+
+
+                  ---
+
+
+                  ## Response style and length
+
+
+                  **About 900 words, 1,100 absolute maximum.** Bullets over prose.
+                  Concrete and checkable over abstract and aspirational — "stroke
+                  no thinner than 1/100 of the square''s width" beats "confident lines".
+                  No preamble, no restating this brief back at me, no summary of what
+                  you are about to do. Skip the caveats and the reasoning behind each
+                  rule; just state the rule.
+
+
+                  Close with a checklist of the rules, 12 lines at most, so step 2
+                  can be graded against it.
+
+
+                  Then stop. No final image prompt, no questions, no theme.
 
                   '
               - command: ai_query
-                delay: '120'
+                delay: '180'
                 mode_ai_wait: slow
-                text: 'Now use the exploration work to develop the direction for this
-                  theme: an image of hardware set screw m8 16 mm length please include
-                  the thread size and length in the image as text, add extra icons
-                  in the back, one that ryhmes with the diameter and one or two that
-                  rhymes with the length, if the length is less than 14 just one if
-                  it is greater do two, one rhyming for each part of the number ie
-                  for twenty five one that rhymes with twenty and one that rhymes
-                  with five. Put some time into searching to find the rhymes
+                text: '## Step 2 of 2 — the theme
 
 
-                  Take your time and search outward before narrowing down. Flesh the
-                  theme out beyond its obvious first interpretation. Explore multiple
-                  mascot angles, visual metaphors, poses, supporting motifs, text
-                  treatments, and line-drawing approaches, and explain what becomes
-                  more interesting, more readable, cuter, more cohesive, or more manufacturable
-                  as you develop the idea. Make it more creatively specific than the
-                  theme name alone while staying laser-cut safe.
+                  The theme is: **an image of hardware set screw m8 16 mm length please
+                  include the thread size and length in the image as text, add extra
+                  icons in the back, one that ryhmes with the diameter and one or
+                  two that rhymes with the length, if the length is less than 14 just
+                  one if it is greater do two, one rhyming for each part of the number
+                  ie for twenty five one that rhymes with twenty and one that rhymes
+                  with five. Put some time into searching to find the rhymes**
 
 
-                  What to do:
-
-                  - Explore a healthy range of possible directions, not just the first
-                  few obvious ones.
-
-                  - Search for specific, memorable, and theme-native ideas rather
-                  than generic cute branding.
-
-                  - Compare different mascot interpretations, poses, prop choices,
-                  supporting motifs, and label or badge text treatments where relevant.
-
-                  - Compare different outline and interior-line strategies, especially
-                  ones that avoid large dark filled areas.
-
-                  - Discuss what helps or hurts the drawing at small size.
-
-                  - Call out what should be simplified, thickened, connected, merged,
-                  or removed for laser cutting.
-
-                  - Surface tradeoffs between charm, cuteness, clarity, uniqueness,
-                  and manufacturability.
-
-                  - Favor directions that feel sweet, lovable, and visually light.
-                  Avoid details that make the mascot feel fussy, stern, generic, or
-                  overdesigned.
-
-                  - Favor directions where the mascot, supporting details, and text
-                  feel like one designed system rather than separate assets placed
-                  next to each other.
-
-                  - Look for ways to make the composition feel more polished, premium,
-                  badge-like, and visually intentional without losing warmth.
-
-                  - Recommend the strongest direction only after the exploration feels
-                  well developed.
-
-                  - End with one polished final image-generation prompt paragraph
-                  for the recommended direction.
+                  Apply the house style you just wrote to this theme. Everything you
+                  need is now in hand — do not ask questions, just work.
 
 
-                  Response style:
+                  ---
 
-                  - Explain everything that seems useful for the next step.
 
-                  - It is good to be expansive here; do not compress the thinking
-                  prematurely.
+                  ## Part A — exploration
 
-                  - Structured notes, comparisons, bullets, and short sections are
-                  welcome if they help clarity.
 
-                  - The final prompt should explicitly say the image is square and
-                  black on white.
+                  **Budget: about 450 words, 600 hard ceiling.** Push past the theme''s
+                  first obvious reading, but do it briskly. No preamble, no restating
+                  the theme back at me.
+
+
+                  - **Angles:** exactly four mascot interpretations, **one or two
+                  sentences each**. Include at least one that anthropomorphises an
+                  object or concept from the theme rather than reaching for the obvious
+                  animal, and at least one built on a visual pun. Then name your pick
+                  in a single sentence saying why it beats the other three — no full
+                  comparison table.
+
+                  - **The chosen design:** one short paragraph fixing the pose, expression,
+                  props, and line strategy. Prefer gesture or a moment of character
+                  over a static front-on stare. Cut any prop that is decoration rather
+                  than signal.
+
+                  - **Text:** one line — the exact string in quotes with exact casing,
+                  or "no text". Text is optional and a clean wordless mark often wins.
+
+                  - **Trace and small-size check:** a short bullet list of fixes only
+                  — every stroke to thicken, gap to widen, island to bridge, detail
+                  to delete. Just the fixes, not the reasoning, and not a description
+                  of what the design looks like at size.
+
+
+                  Skip anything not on that list: no tradeoff essays, no runner-up
+                  post-mortems, no notes on your own process.
+
+
+                  ## Part B — the final prompt
+
+
+                  End your response with the final image-generation prompt for the
+                  chosen direction, and nothing after it.
+
+
+                  Format it as a single fenced code block labelled `FINAL IMAGE PROMPT`,
+                  so it can be copied cleanly. Follow the six-part architecture from
+                  step 1 exactly, in order: medium and style → subject → key details
+                  → layout → line and manufacturing spec → exclusions last.
+
+
+                  **Length: 180–250 words.** Long enough to carry the full spec, short
+                  enough that no single instruction gets diluted. If you are over,
+                  cut adjectives and repeated style words before you cut any manufacturing
+                  rule.
+
+
+                  Hard requirements for that prompt:
+
+
+                  - It opens by stating it is a **square black-and-white line-art
+                  mascot logo**.
+
+                  - It says in plain words that the image is **square** and **pure
+                  black on a pure white background**.
+
+                  - It states stroke weight as a fraction of the image width, and
+                  requires every shape to be a **closed path** with **no floating
+                  disconnected islands**.
+
+                  - It caps interior detail explicitly and forbids crosshatching,
+                  stippling, and hairline tapers.
+
+                  - Any literal text appears in quotes with exact casing, spelled
+                  out character by character if it is unusual.
+
+                  - The exclusion list comes **last**, after every positive descriptor.
+
+                  - It is self-contained: someone pasting it cold, with no memory
+                  of this conversation, gets the same image. No "as discussed above",
+                  no "the mascot from earlier".
+
+                  - One prompt only. No variants, no alternates, no commentary after
+                  the code block.
 
                   '
               - command: ai_query
-                delay: '120'
+                delay: '300'
                 mode_ai_wait: slow
                 text: Generate the image take all the time you need
               - command: save_image_generated
@@ -990,6 +1310,7 @@ oomlout_ai_roboclick_3:
                 mode_ai_wait: slow
               - command: close_tab
               file_test: initial_generated_icon.png
+              retries_until_complete: 0
             spec_iso_b_125_lt_l_le_200_mm: '28'
             spec_iso_b_l_gt_200_mm: '41'
             spec_iso_b_l_le_125_mm: '22'
@@ -1052,9 +1373,10 @@ oomlout_ai_roboclick_3:
           dict_data_files: {}
           dict_data_files_exists: {}
           file_output: label_oomp.svg
-          file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+          file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
           search_and_replace: []
         file_test: label_oomp.pdf
+        retries_until_complete: 0
       spec_iso_b_125_lt_l_le_200_mm: '28'
       spec_iso_b_l_gt_200_mm: '41'
       spec_iso_b_l_le_125_mm: '22'
@@ -1117,11 +1439,26 @@ oomlout_ai_roboclick_3:
     dict_data_files: {}
     dict_data_files_exists: {}
     file_output: label_bolt_image.svg
-    file_template: source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
     search_and_replace: []
   file_test: label_bolt_image.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_4:
+  actions:
+  - command: text_jinja_template
+    description: label_drawer
+    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_output: label_drawer.svg
+    dict_data:
+      label_drawer: *id001
+    convert_to_pdf: false
+    convert_to_png: false
+  file_test: ''
 oomp_key: oomp_hardware_set_screw_m8_16_mm_length
-project_name: C:\gh\oomp_hardware_bolt_version_5
+run_action: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: false
 spec_iso_b_125_lt_l_le_200_mm: '28'
 spec_iso_b_l_gt_200_mm: '41'
 spec_iso_b_l_le_125_mm: '22'
@@ -1237,34 +1574,3 @@ taxonomy_7_upper_length_5: 16_MM
 taxonomy_8: ''
 taxonomy_9: ''
 url_chat: ''
-# BEGIN GENERATED LABEL_DRAWER
-label_drawer: &id001
-  code: SS
-  thread: M8
-  length: '16'
-  name: Set screw
-  diagram: <path d="M2 3H5L6 4V10L5 11H2Z M4 3V11"/><path d="M6 5H18V9H6"/><path d="M7
-    5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
-  description: Set screw / M8 / 16 mm / Hex head / Full thread
-  name_lines:
-  - Set screw
-  name_size: 3.2
-  detail_lines:
-  - Hex head / Full thread
-  detail_size: 2.05
-  detail_y: 24.1
-  thread_size: 6.5
-  length_size: 7.8
-  length_x: 18.02234375
-oomlout_ai_roboclick_4:
-  actions:
-  - command: text_jinja_template
-    description: label_drawer
-    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
-    file_output: label_drawer.svg
-    dict_data:
-      label_drawer: *id001
-    convert_to_pdf: false
-    convert_to_png: false
-  file_test: ''
-# END GENERATED LABEL_DRAWER

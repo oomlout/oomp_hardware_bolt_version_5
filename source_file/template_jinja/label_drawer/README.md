@@ -6,7 +6,11 @@
 The label has a white hardware diagram on black at top left and a bold white
 thread size on black below it. The right side has the bold type description at
 the top, a large length with an explicit `mm` suffix beneath it, and secondary
-details at the bottom.
+details at the bottom. A drive-face symbol sits between the hardware diagram
+and thread size: solid hex for external hex, recessed hex for hex socket,
+cross for Phillips, and cross with diagonal marks for Pozidriv. Parts without
+a drive omit that symbol. The existing three-word BIP39 name appears in bold
+on the next line beneath the secondary details.
 There are no type abbreviations or TYPE / THREAD / LENGTH captions. Lengths
 are in millimetres; nuts and washers omit the length. Diagrams are symbolic
 SVG vectors, not dimensioned drawings. Bolt and set-screw diagrams distinguish
@@ -32,3 +36,8 @@ Both projects contain identical copies of the template, helper, batch and tests.
 Apply future design changes to both copies. Text stays editable; SVG rendering
 uses Arial with a Liberation Sans fallback. Long text is measured and wrapped
 without stretching, clipping, ellipses or discarded words.
+
+The English `bip_39_wordlist.txt` is copied from the local
+`oomlout_oomp_version_5/source/bip_39_wordlist.txt`. Existing part BIP39 fields
+take precedence. For newly populated parts, the helper reproduces the first
+three 11-bit word indices from the part ID's MD5, matching `oomp_bip39.py`.

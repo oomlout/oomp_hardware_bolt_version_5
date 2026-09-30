@@ -11,12 +11,13 @@
         <circle cx="10" cy="7" r="5.5"/><circle cx="10" cy="7" r="2.5"/>
       </g>
     </svg>
-    <path d="M2.2 10.1H11.2" stroke="#ffffff" stroke-width="0.2"/>
-    <text id="thread" x="6.7" y="19.5" fill="#ffffff" text-anchor="middle" font-size="6.5" font-weight="700">M1</text>
+
+    <text id="thread" x="6.7" y="21.8" fill="#ffffff" text-anchor="middle" font-size="6.5" font-weight="700">M1</text>
 
 
     <text id="name-1" x="14" y="4.2" font-size="3.2" font-weight="700">Penny washer</text>
 
 
+    <text id="bip39" x="14" y="24.1" font-size="2.35" font-weight="700">just dose expand</text>
   </g>
 </svg>

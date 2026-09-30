@@ -37,7 +37,12 @@ def test_real_catalogue_fits_and_is_monochrome():
         assert not {"TYPE", "THREAD", "LENGTH mm", "BO", "SS", "SC", "WA", "NU"}.intersection(texts)
         assert svg.find(".//*[@id='hardware-diagram']") is not None
         thread = svg.find(".//*[@id='thread']")
-        assert (thread.get("x"), thread.get("y"), thread.get("fill")) == ("6.7", "19.5", "#ffffff")
+        assert (thread.get("x"), thread.get("y"), thread.get("fill")) == ("6.7", "21.8", "#ffffff")
+        mnemonic = svg.find(".//*[@id='bip39']")
+        assert mnemonic.get("font-weight") == "700"
+        assert len(mnemonic.text.split()) == 3
+        assert drawer.width(d["bip39"], d["bip39_size"]) <= 22.51
+        assert float(mnemonic.get("y")) > d["detail_y"] + max(0, len(d["detail_lines"]) - 1) * 2.2
         assert float(svg.find(".//*[@id='name-1']").get("y")) < 5
         if d["length"]:
             length = svg.find(".//*[@id='length']")
@@ -59,6 +64,37 @@ def test_diagrams_distinguish_threading_and_head_styles():
     styles = ["socket_cap", "socket_cap_low_head", "socket_cap_low_head_ultra",
               "button_head", "countersunk", "grub"]
     assert len({drawer.diagram("screw", style) for style in styles}) == len(styles)
+
+
+def test_drive_faces_and_bip39_match_existing_part_data():
+    faces = [drawer.drive_symbol("screw", drive) for drive in ("hex_head", "philips", "pozidriv")]
+    faces.append(drawer.drive_symbol("bolt", ""))
+    assert all(faces) and len(set(faces)) == 4
+    assert drawer.drive_symbol("washer", "") == ""
+    for path in (ROOT / "parts").glob("*/working.yaml"):
+        part = yaml.load(path.read_text(encoding="utf-8"), Loader=drawer.LOADER)
+        expected = part["bip_39_3_word_space"]
+        source_only = {k: v for k, v in part.items() if k.startswith("taxonomy_")}
+        assert drawer.bip39_name(source_only) == expected, path
+        assert drawer.bip39_name(part) == expected
+
+
+def test_existing_bip39_is_used_by_batch(tmp_path):
+    part = bolt()
+    part["bip_39_3_word_space"] = "unique fade side"
+    assert drawer.layout(part)["bip39"] == "unique fade side"
+    template = tmp_path / drawer.TEMPLATE
+    template.parent.mkdir(parents=True)
+    template.write_bytes((ROOT / drawer.TEMPLATE).read_bytes())
+    source = tmp_path / "parts_source" / "example" / "working.yaml"
+    source.parent.mkdir(parents=True)
+    source.write_text(yaml.safe_dump(bolt()), encoding="utf-8")
+    dest = tmp_path / "parts" / "example"
+    dest.mkdir(parents=True)
+    (dest / "working.yaml").write_text(yaml.safe_dump(part), encoding="utf-8")
+    drawer.regenerate(tmp_path)
+    svg = ET.fromstring((dest / "label_drawer.svg").read_text(encoding="utf-8"))
+    assert svg.find(".//*[@id='bip39']").text == "unique fade side"
 
 
 def test_roboclick_action_updates_without_duplicates():

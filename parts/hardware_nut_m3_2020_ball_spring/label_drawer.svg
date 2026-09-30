@@ -11,8 +11,8 @@
         <path d="M7 1.8H13L16 7L13 12.2H7L4 7Z"/><circle cx="10" cy="7" r="2.5"/>
       </g>
     </svg>
-    <path d="M2.2 10.1H11.2" stroke="#ffffff" stroke-width="0.2"/>
-    <text id="thread" x="6.7" y="19.5" fill="#ffffff" text-anchor="middle" font-size="6.5" font-weight="700">M3</text>
+
+    <text id="thread" x="6.7" y="21.8" fill="#ffffff" text-anchor="middle" font-size="6.5" font-weight="700">M3</text>
 
 
     <text id="name-1" x="14" y="4.2" font-size="3.2" font-weight="700">2020 ball</text>
@@ -20,5 +20,6 @@
     <text id="name-2" x="14" y="7.5" font-size="3.2" font-weight="700">spring nut</text>
 
 
+    <text id="bip39" x="14" y="24.1" font-size="2.288" font-weight="700">bottom mimic armed</text>
   </g>
 </svg>
