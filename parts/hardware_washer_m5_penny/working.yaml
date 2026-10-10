@@ -26,7 +26,7 @@ bip_39_full_array:
 - edit
 bip_39_full_no_space: caketablesunnydefybronzecoffeecoverbuildtornadoroundproduceedit
 bip_39_full_space: cake table sunny defy bronze coffee cover build tornado round produce
-  edit
+    edit
 bip_39_full_underscore: cake_table_sunny_defy_bronze_coffee_cover_build_tornado_round_produce_edit
 directory: parts/hardware_washer_m5_penny
 generate_stl: false
@@ -35,24 +35,24 @@ id_no_class: hardware_washer_m5_penny
 id_no_size: hardware_washer_m5_penny
 id_no_type: hardware_washer_m5_penny
 label_drawer: &id001
-  code: WA
-  thread: M5
-  length: ''
-  name: Penny washer
-  diagram: <circle cx="10" cy="7" r="5.5"/><circle cx="10" cy="7" r="2.5"/>
-  drive_symbol: ''
-  bip39: cake table sunny
-  bip39_size: 2.35
-  description: Penny washer / M5
-  name_lines:
-  - Penny washer
-  name_size: 3.2
-  detail_lines: []
-  detail_size: 2.05
-  detail_y: 21.1
-  thread_size: 6.5
-  length_size: 7.8
-  length_x: 22.3603625
+    bip39: cake table sunny
+    bip39_size: 2.35
+    code: WA
+    description: Penny washer / M5
+    detail_lines: []
+    detail_size: 2.05
+    detail_y: 21.1
+    diagram: <circle cx="10" cy="7" r="5.5"/><circle cx="10" cy="7" r="2.5"/>
+    drive_symbol: ''
+    length: ''
+    length_size: 7.8
+    length_x: 22.3603625
+    name: Penny washer
+    name_lines:
+    - Penny washer
+    name_size: 3.2
+    thread: M5
+    thread_size: 6.5
 link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m5_penny
 link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m5_penny
 link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m5_penny
@@ -73,1199 +73,16 @@ name_proper: Hardware Washer M5 Penny
 name_space: hardware washer m5 penny
 name_upper: HARDWARE WASHER M5 PENNY
 oomlout_ai_roboclick_1:
-  actions:
-  - command: new_chat
-    description: step_1_create_icon
-  - command: ai_query
-    delay: '180'
-    mode_ai_wait: slow
-    text: '## READ THIS FIRST — no theme is coming in this message, and that is correct
-
-
-      This is **step 1 of 2**. It is deliberately theme-free. You are building a reusable
-      house style, not designing a specific logo.
-
-
-      The theme arrives in step 2. Do **not** ask what the theme is. Do **not** ask
-      any clarifying questions. Do **not** write a final image-generation prompt yet
-      — you cannot, and attempting one is a failure of this step. Do **not** invent
-      a placeholder theme and design for it. If you feel information is missing, that
-      is expected: the missing information is the theme, it is coming next, and nothing
-      in this step requires it.
-
-
-      Your entire output for this step is a **house style guide** that will be applied
-      to whatever theme arrives next.
-
-
-      ---
-
-
-      ## The product this style serves
-
-
-      **Intended use:** a square, single-colour, pure-black-on-pure-white mascot logo,
-      generated as a raster image, then **auto-traced to vector and cut/engraved on
-      a laser cutter**. The trace step is unforgiving — it is the hardest constraint
-      in this brief and should shape most of your recommendations.
-
-
-      **Target feel:** charming, original, cute, polished, instantly readable at ~20
-      mm. A designed branded icon, not a doodle page and not generic kawaii clip art.
-
-
-      ---
-
-
-      ## What to produce
-
-
-      Write these six sections. **Budget: about 900 words total, 1,100 hard ceiling.**
-      That is roughly 100–150 words per section, with section 6 allowed the most.
-      This is a working reference, not an essay — every line should be a rule someone
-      could check a drawing against. Prefer tight bullets over prose paragraphs, and
-      cut any sentence that only restates the brief back at me.
-
-
-      **1. Line language menu**
-
-      Exactly three distinct black-on-white line-art approaches (e.g. uniform monoline,
-      weight-varied outline with sparse interior, chunky sticker-outline, geometric
-      constructed line). One or two lines each: what it does for charm, how it survives
-      auto-tracing, what it costs.
-
-
-      **2. Cuteness that isn''t generic**
-
-      The handful of levers that make a line mascot lovable — eye shape and spacing,
-      head-to-body ratio, pose energy, mouth simplicity, restraint on blush marks
-      — each as a one-line rule with a number where a number applies. Then a short
-      do-not list of the clichés that make an AI mascot look stock (dead-centre symmetrical
-      stare, sparkle confetti, floating hearts, blob bodies), each with its one-line
-      replacement.
-
-
-      **3. Trace-safety rules**
-
-      A flat list of concrete, checkable rules for the auto-trace-to-cut pipeline
-      — one line each, no explanatory paragraphs:
-
-      - minimum stroke thickness relative to the square''s width, stated as a fraction
-      (so it scales)
-
-      - minimum gap between two adjacent strokes before they blur into one traced
-      blob
-
-      - why every shape should read as a closed path, and how to spot one that won''t
-
-      - island/floating-part handling and where to add connective bridges
-
-      - what to do about interior detail that a tracer will turn into noise (crosshatching,
-      stippling, tapering hairlines, single stray dots)
-
-      - why large solid black fills are avoided here, and the acceptable exceptions
-      (small eyes, pupils, a tiny accent shape)
-
-
-      **4. Composition and hierarchy**
-
-      Bulleted rules only: square framing, margin as a fraction of the square, centre
-      of visual mass, minimum negative space, the mascot-leads / props-support / text-reinforces
-      hierarchy, and the shared traits that make it read as one illustrator''s hand
-      (same stroke weight, same corner radius, same eye style, same spacing rhythm).
-
-
-      **5. Text and badge treatments**
-
-      Text is **optional**. Briefly: when a word helps versus clutters, a maximum
-      letter count that stays cuttable, how to specify literal text so it renders
-      verbatim (quotes, exact casing), the letterform to ask for, and when a badge
-      ring earns its place versus just boxing the mark in. Six bullets is plenty.
-
-
-      **6. Prompt architecture for step 2**
-
-      The most important section, so spend your words here. Specify the exact template
-      the step-2 final prompt must follow — and state that the finished prompt should
-      land at **180–250 words**, long enough to carry the spec, short enough that
-      no single instruction gets diluted. Order it to match how the image model weights
-      a prompt:
-
-
-      1. **Medium and style up front** — the first sentence states it is a square
-      black-and-white line-art mascot logo, because opening words set the mode for
-      everything after.
-
-      2. **Subject** — the mascot, its identity, expression, pose.
-
-      3. **Key details** — props, supporting motifs, any literal text in quotes.
-
-      4. **Layout** — centring, margins, hierarchy, where each element sits.
-
-      5. **Line and manufacturing spec** — stroke weight, closed paths, interior-detail
-      limits.
-
-      6. **Exclusions last** — negatives go at the very end, after every positive
-      descriptor, because a model reading them early tends to treat them as things
-      to compose rather than things to omit.
-
-
-      Give the canonical exclusion list to close with (no grey, no shading, no gradients,
-      no halftone, no dithering, no texture, no colour, no transparency, no background
-      scene, no drop shadow, no outer glow, no frame border unless specified, no watermark,
-      no signature, no extra text beyond what is quoted).
-
-
-      Also state the two facts the prompt must say in plain words no matter what:
-      the image is **square**, and it is **pure black on a pure white background**.
-
-
-      ---
-
-
-      ## Response style and length
-
-
-      **About 900 words, 1,100 absolute maximum.** Bullets over prose. Concrete and
-      checkable over abstract and aspirational — "stroke no thinner than 1/100 of
-      the square''s width" beats "confident lines". No preamble, no restating this
-      brief back at me, no summary of what you are about to do. Skip the caveats and
-      the reasoning behind each rule; just state the rule.
-
-
-      Close with a checklist of the rules, 12 lines at most, so step 2 can be graded
-      against it.
-
-
-      Then stop. No final image prompt, no questions, no theme.
-
-      '
-  - command: ai_query
-    delay: '180'
-    mode_ai_wait: slow
-    text: '## Step 2 of 2 — the theme
-
-
-      The theme is: **an image of hardware washer m5 penny please include the thread
-      size and length in the image as text, add extra icons in the back, one that
-      ryhmes with the diameter and one or two that rhymes with the length, if the
-      length is less than 14 just one if it is greater do two, one rhyming for each
-      part of the number ie for twenty five one that rhymes with twenty and one that
-      rhymes with five. Put some time into searching to find the rhymes**
-
-
-      Apply the house style you just wrote to this theme. Everything you need is now
-      in hand — do not ask questions, just work.
-
-
-      ---
-
-
-      ## Part A — exploration
-
-
-      **Budget: about 450 words, 600 hard ceiling.** Push past the theme''s first
-      obvious reading, but do it briskly. No preamble, no restating the theme back
-      at me.
-
-
-      - **Angles:** exactly four mascot interpretations, **one or two sentences each**.
-      Include at least one that anthropomorphises an object or concept from the theme
-      rather than reaching for the obvious animal, and at least one built on a visual
-      pun. Then name your pick in a single sentence saying why it beats the other
-      three — no full comparison table.
-
-      - **The chosen design:** one short paragraph fixing the pose, expression, props,
-      and line strategy. Prefer gesture or a moment of character over a static front-on
-      stare. Cut any prop that is decoration rather than signal.
-
-      - **Text:** one line — the exact string in quotes with exact casing, or "no
-      text". Text is optional and a clean wordless mark often wins.
-
-      - **Trace and small-size check:** a short bullet list of fixes only — every
-      stroke to thicken, gap to widen, island to bridge, detail to delete. Just the
-      fixes, not the reasoning, and not a description of what the design looks like
-      at size.
-
-
-      Skip anything not on that list: no tradeoff essays, no runner-up post-mortems,
-      no notes on your own process.
-
-
-      ## Part B — the final prompt
-
-
-      End your response with the final image-generation prompt for the chosen direction,
-      and nothing after it.
-
-
-      Format it as a single fenced code block labelled `FINAL IMAGE PROMPT`, so it
-      can be copied cleanly. Follow the six-part architecture from step 1 exactly,
-      in order: medium and style → subject → key details → layout → line and manufacturing
-      spec → exclusions last.
-
-
-      **Length: 180–250 words.** Long enough to carry the full spec, short enough
-      that no single instruction gets diluted. If you are over, cut adjectives and
-      repeated style words before you cut any manufacturing rule.
-
-
-      Hard requirements for that prompt:
-
-
-      - It opens by stating it is a **square black-and-white line-art mascot logo**.
-
-      - It says in plain words that the image is **square** and **pure black on a
-      pure white background**.
-
-      - It states stroke weight as a fraction of the image width, and requires every
-      shape to be a **closed path** with **no floating disconnected islands**.
-
-      - It caps interior detail explicitly and forbids crosshatching, stippling, and
-      hairline tapers.
-
-      - Any literal text appears in quotes with exact casing, spelled out character
-      by character if it is unusual.
-
-      - The exclusion list comes **last**, after every positive descriptor.
-
-      - It is self-contained: someone pasting it cold, with no memory of this conversation,
-      gets the same image. No "as discussed above", no "the mascot from earlier".
-
-      - One prompt only. No variants, no alternates, no commentary after the code
-      block.
-
-      '
-  - command: ai_query
-    delay: '300'
-    mode_ai_wait: slow
-    text: Generate the image take all the time you need
-  - command: save_image_generated
-    file_name: initial_generated_icon.png
-    mode_ai_wait: slow
-  - command: close_tab
-  file_test: initial_generated_icon.png
-  retries_until_complete: 0
-oomlout_ai_roboclick_2:
-  actions:
-  - command: text_jinja_template
-    convert_to_pdf: false
-    convert_to_png: false
-    dict_data:
-      directory: parts\hardware_washer_m5_penny
-      name: hardware_washer_m5_penny
-      name_proper: Hardware Washer M5 Penny
-      name_space: hardware washer m5 penny
-      name_upper: HARDWARE WASHER M5 PENNY
-      oomlout_ai_roboclick_1:
-        actions:
-        - command: new_chat
-          description: step_1_create_icon
-        - command: ai_query
-          delay: '180'
-          mode_ai_wait: slow
-          text: '## READ THIS FIRST — no theme is coming in this message, and that
-            is correct
-
-
-            This is **step 1 of 2**. It is deliberately theme-free. You are building
-            a reusable house style, not designing a specific logo.
-
-
-            The theme arrives in step 2. Do **not** ask what the theme is. Do **not**
-            ask any clarifying questions. Do **not** write a final image-generation
-            prompt yet — you cannot, and attempting one is a failure of this step.
-            Do **not** invent a placeholder theme and design for it. If you feel information
-            is missing, that is expected: the missing information is the theme, it
-            is coming next, and nothing in this step requires it.
-
-
-            Your entire output for this step is a **house style guide** that will
-            be applied to whatever theme arrives next.
-
-
-            ---
-
-
-            ## The product this style serves
-
-
-            **Intended use:** a square, single-colour, pure-black-on-pure-white mascot
-            logo, generated as a raster image, then **auto-traced to vector and cut/engraved
-            on a laser cutter**. The trace step is unforgiving — it is the hardest
-            constraint in this brief and should shape most of your recommendations.
-
-
-            **Target feel:** charming, original, cute, polished, instantly readable
-            at ~20 mm. A designed branded icon, not a doodle page and not generic
-            kawaii clip art.
-
-
-            ---
-
-
-            ## What to produce
-
-
-            Write these six sections. **Budget: about 900 words total, 1,100 hard
-            ceiling.** That is roughly 100–150 words per section, with section 6 allowed
-            the most. This is a working reference, not an essay — every line should
-            be a rule someone could check a drawing against. Prefer tight bullets
-            over prose paragraphs, and cut any sentence that only restates the brief
-            back at me.
-
-
-            **1. Line language menu**
-
-            Exactly three distinct black-on-white line-art approaches (e.g. uniform
-            monoline, weight-varied outline with sparse interior, chunky sticker-outline,
-            geometric constructed line). One or two lines each: what it does for charm,
-            how it survives auto-tracing, what it costs.
-
-
-            **2. Cuteness that isn''t generic**
-
-            The handful of levers that make a line mascot lovable — eye shape and
-            spacing, head-to-body ratio, pose energy, mouth simplicity, restraint
-            on blush marks — each as a one-line rule with a number where a number
-            applies. Then a short do-not list of the clichés that make an AI mascot
-            look stock (dead-centre symmetrical stare, sparkle confetti, floating
-            hearts, blob bodies), each with its one-line replacement.
-
-
-            **3. Trace-safety rules**
-
-            A flat list of concrete, checkable rules for the auto-trace-to-cut pipeline
-            — one line each, no explanatory paragraphs:
-
-            - minimum stroke thickness relative to the square''s width, stated as
-            a fraction (so it scales)
-
-            - minimum gap between two adjacent strokes before they blur into one traced
-            blob
-
-            - why every shape should read as a closed path, and how to spot one that
-            won''t
-
-            - island/floating-part handling and where to add connective bridges
-
-            - what to do about interior detail that a tracer will turn into noise
-            (crosshatching, stippling, tapering hairlines, single stray dots)
-
-            - why large solid black fills are avoided here, and the acceptable exceptions
-            (small eyes, pupils, a tiny accent shape)
-
-
-            **4. Composition and hierarchy**
-
-            Bulleted rules only: square framing, margin as a fraction of the square,
-            centre of visual mass, minimum negative space, the mascot-leads / props-support
-            / text-reinforces hierarchy, and the shared traits that make it read as
-            one illustrator''s hand (same stroke weight, same corner radius, same
-            eye style, same spacing rhythm).
-
-
-            **5. Text and badge treatments**
-
-            Text is **optional**. Briefly: when a word helps versus clutters, a maximum
-            letter count that stays cuttable, how to specify literal text so it renders
-            verbatim (quotes, exact casing), the letterform to ask for, and when a
-            badge ring earns its place versus just boxing the mark in. Six bullets
-            is plenty.
-
-
-            **6. Prompt architecture for step 2**
-
-            The most important section, so spend your words here. Specify the exact
-            template the step-2 final prompt must follow — and state that the finished
-            prompt should land at **180–250 words**, long enough to carry the spec,
-            short enough that no single instruction gets diluted. Order it to match
-            how the image model weights a prompt:
-
-
-            1. **Medium and style up front** — the first sentence states it is a square
-            black-and-white line-art mascot logo, because opening words set the mode
-            for everything after.
-
-            2. **Subject** — the mascot, its identity, expression, pose.
-
-            3. **Key details** — props, supporting motifs, any literal text in quotes.
-
-            4. **Layout** — centring, margins, hierarchy, where each element sits.
-
-            5. **Line and manufacturing spec** — stroke weight, closed paths, interior-detail
-            limits.
-
-            6. **Exclusions last** — negatives go at the very end, after every positive
-            descriptor, because a model reading them early tends to treat them as
-            things to compose rather than things to omit.
-
-
-            Give the canonical exclusion list to close with (no grey, no shading,
-            no gradients, no halftone, no dithering, no texture, no colour, no transparency,
-            no background scene, no drop shadow, no outer glow, no frame border unless
-            specified, no watermark, no signature, no extra text beyond what is quoted).
-
-
-            Also state the two facts the prompt must say in plain words no matter
-            what: the image is **square**, and it is **pure black on a pure white
-            background**.
-
-
-            ---
-
-
-            ## Response style and length
-
-
-            **About 900 words, 1,100 absolute maximum.** Bullets over prose. Concrete
-            and checkable over abstract and aspirational — "stroke no thinner than
-            1/100 of the square''s width" beats "confident lines". No preamble, no
-            restating this brief back at me, no summary of what you are about to do.
-            Skip the caveats and the reasoning behind each rule; just state the rule.
-
-
-            Close with a checklist of the rules, 12 lines at most, so step 2 can be
-            graded against it.
-
-
-            Then stop. No final image prompt, no questions, no theme.
-
-            '
-        - command: ai_query
-          delay: '180'
-          mode_ai_wait: slow
-          text: '## Step 2 of 2 — the theme
-
-
-            The theme is: **an image of hardware washer m5 penny please include the
-            thread size and length in the image as text, add extra icons in the back,
-            one that ryhmes with the diameter and one or two that rhymes with the
-            length, if the length is less than 14 just one if it is greater do two,
-            one rhyming for each part of the number ie for twenty five one that rhymes
-            with twenty and one that rhymes with five. Put some time into searching
-            to find the rhymes**
-
-
-            Apply the house style you just wrote to this theme. Everything you need
-            is now in hand — do not ask questions, just work.
-
-
-            ---
-
-
-            ## Part A — exploration
-
-
-            **Budget: about 450 words, 600 hard ceiling.** Push past the theme''s
-            first obvious reading, but do it briskly. No preamble, no restating the
-            theme back at me.
-
-
-            - **Angles:** exactly four mascot interpretations, **one or two sentences
-            each**. Include at least one that anthropomorphises an object or concept
-            from the theme rather than reaching for the obvious animal, and at least
-            one built on a visual pun. Then name your pick in a single sentence saying
-            why it beats the other three — no full comparison table.
-
-            - **The chosen design:** one short paragraph fixing the pose, expression,
-            props, and line strategy. Prefer gesture or a moment of character over
-            a static front-on stare. Cut any prop that is decoration rather than signal.
-
-            - **Text:** one line — the exact string in quotes with exact casing, or
-            "no text". Text is optional and a clean wordless mark often wins.
-
-            - **Trace and small-size check:** a short bullet list of fixes only —
-            every stroke to thicken, gap to widen, island to bridge, detail to delete.
-            Just the fixes, not the reasoning, and not a description of what the design
-            looks like at size.
-
-
-            Skip anything not on that list: no tradeoff essays, no runner-up post-mortems,
-            no notes on your own process.
-
-
-            ## Part B — the final prompt
-
-
-            End your response with the final image-generation prompt for the chosen
-            direction, and nothing after it.
-
-
-            Format it as a single fenced code block labelled `FINAL IMAGE PROMPT`,
-            so it can be copied cleanly. Follow the six-part architecture from step
-            1 exactly, in order: medium and style → subject → key details → layout
-            → line and manufacturing spec → exclusions last.
-
-
-            **Length: 180–250 words.** Long enough to carry the full spec, short enough
-            that no single instruction gets diluted. If you are over, cut adjectives
-            and repeated style words before you cut any manufacturing rule.
-
-
-            Hard requirements for that prompt:
-
-
-            - It opens by stating it is a **square black-and-white line-art mascot
-            logo**.
-
-            - It says in plain words that the image is **square** and **pure black
-            on a pure white background**.
-
-            - It states stroke weight as a fraction of the image width, and requires
-            every shape to be a **closed path** with **no floating disconnected islands**.
-
-            - It caps interior detail explicitly and forbids crosshatching, stippling,
-            and hairline tapers.
-
-            - Any literal text appears in quotes with exact casing, spelled out character
-            by character if it is unusual.
-
-            - The exclusion list comes **last**, after every positive descriptor.
-
-            - It is self-contained: someone pasting it cold, with no memory of this
-            conversation, gets the same image. No "as discussed above", no "the mascot
-            from earlier".
-
-            - One prompt only. No variants, no alternates, no commentary after the
-            code block.
-
-            '
-        - command: ai_query
-          delay: '300'
-          mode_ai_wait: slow
-          text: Generate the image take all the time you need
-        - command: save_image_generated
-          file_name: initial_generated_icon.png
-          mode_ai_wait: slow
-        - command: close_tab
-        file_test: initial_generated_icon.png
-        retries_until_complete: 0
-      taxonomy_1: hardware
-      taxonomy_10: ''
-      taxonomy_11: ''
-      taxonomy_12: ''
-      taxonomy_13: ''
-      taxonomy_14: ''
-      taxonomy_15: ''
-      taxonomy_2: washer
-      taxonomy_3: m5
-      taxonomy_4: penny
-      taxonomy_5: ''
-      taxonomy_6: ''
-      taxonomy_7: ''
-      taxonomy_8: ''
-      taxonomy_9: ''
-      url_chat: ''
-    dict_data_files: {}
-    dict_data_files_exists: {}
-    file_output: label_oomp.svg
-    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
-    search_and_replace: []
-  file_test: label_oomp.pdf
-  retries_until_complete: 0
-oomlout_ai_roboclick_3:
-  actions:
-  - command: text_jinja_template
-    convert_to_pdf: false
-    convert_to_png: false
-    dict_data:
-      directory: parts\hardware_washer_m5_penny
-      name: hardware_washer_m5_penny
-      name_proper: Hardware Washer M5 Penny
-      name_space: hardware washer m5 penny
-      name_upper: HARDWARE WASHER M5 PENNY
-      oomlout_ai_roboclick_1:
-        actions:
-        - command: new_chat
-          description: step_1_create_icon
-        - command: ai_query
-          delay: '180'
-          mode_ai_wait: slow
-          text: '## READ THIS FIRST — no theme is coming in this message, and that
-            is correct
-
-
-            This is **step 1 of 2**. It is deliberately theme-free. You are building
-            a reusable house style, not designing a specific logo.
-
-
-            The theme arrives in step 2. Do **not** ask what the theme is. Do **not**
-            ask any clarifying questions. Do **not** write a final image-generation
-            prompt yet — you cannot, and attempting one is a failure of this step.
-            Do **not** invent a placeholder theme and design for it. If you feel information
-            is missing, that is expected: the missing information is the theme, it
-            is coming next, and nothing in this step requires it.
-
-
-            Your entire output for this step is a **house style guide** that will
-            be applied to whatever theme arrives next.
-
-
-            ---
-
-
-            ## The product this style serves
-
-
-            **Intended use:** a square, single-colour, pure-black-on-pure-white mascot
-            logo, generated as a raster image, then **auto-traced to vector and cut/engraved
-            on a laser cutter**. The trace step is unforgiving — it is the hardest
-            constraint in this brief and should shape most of your recommendations.
-
-
-            **Target feel:** charming, original, cute, polished, instantly readable
-            at ~20 mm. A designed branded icon, not a doodle page and not generic
-            kawaii clip art.
-
-
-            ---
-
-
-            ## What to produce
-
-
-            Write these six sections. **Budget: about 900 words total, 1,100 hard
-            ceiling.** That is roughly 100–150 words per section, with section 6 allowed
-            the most. This is a working reference, not an essay — every line should
-            be a rule someone could check a drawing against. Prefer tight bullets
-            over prose paragraphs, and cut any sentence that only restates the brief
-            back at me.
-
-
-            **1. Line language menu**
-
-            Exactly three distinct black-on-white line-art approaches (e.g. uniform
-            monoline, weight-varied outline with sparse interior, chunky sticker-outline,
-            geometric constructed line). One or two lines each: what it does for charm,
-            how it survives auto-tracing, what it costs.
-
-
-            **2. Cuteness that isn''t generic**
-
-            The handful of levers that make a line mascot lovable — eye shape and
-            spacing, head-to-body ratio, pose energy, mouth simplicity, restraint
-            on blush marks — each as a one-line rule with a number where a number
-            applies. Then a short do-not list of the clichés that make an AI mascot
-            look stock (dead-centre symmetrical stare, sparkle confetti, floating
-            hearts, blob bodies), each with its one-line replacement.
-
-
-            **3. Trace-safety rules**
-
-            A flat list of concrete, checkable rules for the auto-trace-to-cut pipeline
-            — one line each, no explanatory paragraphs:
-
-            - minimum stroke thickness relative to the square''s width, stated as
-            a fraction (so it scales)
-
-            - minimum gap between two adjacent strokes before they blur into one traced
-            blob
-
-            - why every shape should read as a closed path, and how to spot one that
-            won''t
-
-            - island/floating-part handling and where to add connective bridges
-
-            - what to do about interior detail that a tracer will turn into noise
-            (crosshatching, stippling, tapering hairlines, single stray dots)
-
-            - why large solid black fills are avoided here, and the acceptable exceptions
-            (small eyes, pupils, a tiny accent shape)
-
-
-            **4. Composition and hierarchy**
-
-            Bulleted rules only: square framing, margin as a fraction of the square,
-            centre of visual mass, minimum negative space, the mascot-leads / props-support
-            / text-reinforces hierarchy, and the shared traits that make it read as
-            one illustrator''s hand (same stroke weight, same corner radius, same
-            eye style, same spacing rhythm).
-
-
-            **5. Text and badge treatments**
-
-            Text is **optional**. Briefly: when a word helps versus clutters, a maximum
-            letter count that stays cuttable, how to specify literal text so it renders
-            verbatim (quotes, exact casing), the letterform to ask for, and when a
-            badge ring earns its place versus just boxing the mark in. Six bullets
-            is plenty.
-
-
-            **6. Prompt architecture for step 2**
-
-            The most important section, so spend your words here. Specify the exact
-            template the step-2 final prompt must follow — and state that the finished
-            prompt should land at **180–250 words**, long enough to carry the spec,
-            short enough that no single instruction gets diluted. Order it to match
-            how the image model weights a prompt:
-
-
-            1. **Medium and style up front** — the first sentence states it is a square
-            black-and-white line-art mascot logo, because opening words set the mode
-            for everything after.
-
-            2. **Subject** — the mascot, its identity, expression, pose.
-
-            3. **Key details** — props, supporting motifs, any literal text in quotes.
-
-            4. **Layout** — centring, margins, hierarchy, where each element sits.
-
-            5. **Line and manufacturing spec** — stroke weight, closed paths, interior-detail
-            limits.
-
-            6. **Exclusions last** — negatives go at the very end, after every positive
-            descriptor, because a model reading them early tends to treat them as
-            things to compose rather than things to omit.
-
-
-            Give the canonical exclusion list to close with (no grey, no shading,
-            no gradients, no halftone, no dithering, no texture, no colour, no transparency,
-            no background scene, no drop shadow, no outer glow, no frame border unless
-            specified, no watermark, no signature, no extra text beyond what is quoted).
-
-
-            Also state the two facts the prompt must say in plain words no matter
-            what: the image is **square**, and it is **pure black on a pure white
-            background**.
-
-
-            ---
-
-
-            ## Response style and length
-
-
-            **About 900 words, 1,100 absolute maximum.** Bullets over prose. Concrete
-            and checkable over abstract and aspirational — "stroke no thinner than
-            1/100 of the square''s width" beats "confident lines". No preamble, no
-            restating this brief back at me, no summary of what you are about to do.
-            Skip the caveats and the reasoning behind each rule; just state the rule.
-
-
-            Close with a checklist of the rules, 12 lines at most, so step 2 can be
-            graded against it.
-
-
-            Then stop. No final image prompt, no questions, no theme.
-
-            '
-        - command: ai_query
-          delay: '180'
-          mode_ai_wait: slow
-          text: '## Step 2 of 2 — the theme
-
-
-            The theme is: **an image of hardware washer m5 penny please include the
-            thread size and length in the image as text, add extra icons in the back,
-            one that ryhmes with the diameter and one or two that rhymes with the
-            length, if the length is less than 14 just one if it is greater do two,
-            one rhyming for each part of the number ie for twenty five one that rhymes
-            with twenty and one that rhymes with five. Put some time into searching
-            to find the rhymes**
-
-
-            Apply the house style you just wrote to this theme. Everything you need
-            is now in hand — do not ask questions, just work.
-
-
-            ---
-
-
-            ## Part A — exploration
-
-
-            **Budget: about 450 words, 600 hard ceiling.** Push past the theme''s
-            first obvious reading, but do it briskly. No preamble, no restating the
-            theme back at me.
-
-
-            - **Angles:** exactly four mascot interpretations, **one or two sentences
-            each**. Include at least one that anthropomorphises an object or concept
-            from the theme rather than reaching for the obvious animal, and at least
-            one built on a visual pun. Then name your pick in a single sentence saying
-            why it beats the other three — no full comparison table.
-
-            - **The chosen design:** one short paragraph fixing the pose, expression,
-            props, and line strategy. Prefer gesture or a moment of character over
-            a static front-on stare. Cut any prop that is decoration rather than signal.
-
-            - **Text:** one line — the exact string in quotes with exact casing, or
-            "no text". Text is optional and a clean wordless mark often wins.
-
-            - **Trace and small-size check:** a short bullet list of fixes only —
-            every stroke to thicken, gap to widen, island to bridge, detail to delete.
-            Just the fixes, not the reasoning, and not a description of what the design
-            looks like at size.
-
-
-            Skip anything not on that list: no tradeoff essays, no runner-up post-mortems,
-            no notes on your own process.
-
-
-            ## Part B — the final prompt
-
-
-            End your response with the final image-generation prompt for the chosen
-            direction, and nothing after it.
-
-
-            Format it as a single fenced code block labelled `FINAL IMAGE PROMPT`,
-            so it can be copied cleanly. Follow the six-part architecture from step
-            1 exactly, in order: medium and style → subject → key details → layout
-            → line and manufacturing spec → exclusions last.
-
-
-            **Length: 180–250 words.** Long enough to carry the full spec, short enough
-            that no single instruction gets diluted. If you are over, cut adjectives
-            and repeated style words before you cut any manufacturing rule.
-
-
-            Hard requirements for that prompt:
-
-
-            - It opens by stating it is a **square black-and-white line-art mascot
-            logo**.
-
-            - It says in plain words that the image is **square** and **pure black
-            on a pure white background**.
-
-            - It states stroke weight as a fraction of the image width, and requires
-            every shape to be a **closed path** with **no floating disconnected islands**.
-
-            - It caps interior detail explicitly and forbids crosshatching, stippling,
-            and hairline tapers.
-
-            - Any literal text appears in quotes with exact casing, spelled out character
-            by character if it is unusual.
-
-            - The exclusion list comes **last**, after every positive descriptor.
-
-            - It is self-contained: someone pasting it cold, with no memory of this
-            conversation, gets the same image. No "as discussed above", no "the mascot
-            from earlier".
-
-            - One prompt only. No variants, no alternates, no commentary after the
-            code block.
-
-            '
-        - command: ai_query
-          delay: '300'
-          mode_ai_wait: slow
-          text: Generate the image take all the time you need
-        - command: save_image_generated
-          file_name: initial_generated_icon.png
-          mode_ai_wait: slow
-        - command: close_tab
-        file_test: initial_generated_icon.png
-        retries_until_complete: 0
-      oomlout_ai_roboclick_2:
-        actions:
-        - command: text_jinja_template
-          convert_to_pdf: false
-          convert_to_png: false
-          dict_data:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
             directory: parts\hardware_washer_m5_penny
             name: hardware_washer_m5_penny
             name_proper: Hardware Washer M5 Penny
             name_space: hardware washer m5 penny
             name_upper: HARDWARE WASHER M5 PENNY
-            oomlout_ai_roboclick_1:
-              actions:
-              - command: new_chat
-                description: step_1_create_icon
-              - command: ai_query
-                delay: '180'
-                mode_ai_wait: slow
-                text: '## READ THIS FIRST — no theme is coming in this message, and
-                  that is correct
-
-
-                  This is **step 1 of 2**. It is deliberately theme-free. You are
-                  building a reusable house style, not designing a specific logo.
-
-
-                  The theme arrives in step 2. Do **not** ask what the theme is. Do
-                  **not** ask any clarifying questions. Do **not** write a final image-generation
-                  prompt yet — you cannot, and attempting one is a failure of this
-                  step. Do **not** invent a placeholder theme and design for it. If
-                  you feel information is missing, that is expected: the missing information
-                  is the theme, it is coming next, and nothing in this step requires
-                  it.
-
-
-                  Your entire output for this step is a **house style guide** that
-                  will be applied to whatever theme arrives next.
-
-
-                  ---
-
-
-                  ## The product this style serves
-
-
-                  **Intended use:** a square, single-colour, pure-black-on-pure-white
-                  mascot logo, generated as a raster image, then **auto-traced to
-                  vector and cut/engraved on a laser cutter**. The trace step is unforgiving
-                  — it is the hardest constraint in this brief and should shape most
-                  of your recommendations.
-
-
-                  **Target feel:** charming, original, cute, polished, instantly readable
-                  at ~20 mm. A designed branded icon, not a doodle page and not generic
-                  kawaii clip art.
-
-
-                  ---
-
-
-                  ## What to produce
-
-
-                  Write these six sections. **Budget: about 900 words total, 1,100
-                  hard ceiling.** That is roughly 100–150 words per section, with
-                  section 6 allowed the most. This is a working reference, not an
-                  essay — every line should be a rule someone could check a drawing
-                  against. Prefer tight bullets over prose paragraphs, and cut any
-                  sentence that only restates the brief back at me.
-
-
-                  **1. Line language menu**
-
-                  Exactly three distinct black-on-white line-art approaches (e.g.
-                  uniform monoline, weight-varied outline with sparse interior, chunky
-                  sticker-outline, geometric constructed line). One or two lines each:
-                  what it does for charm, how it survives auto-tracing, what it costs.
-
-
-                  **2. Cuteness that isn''t generic**
-
-                  The handful of levers that make a line mascot lovable — eye shape
-                  and spacing, head-to-body ratio, pose energy, mouth simplicity,
-                  restraint on blush marks — each as a one-line rule with a number
-                  where a number applies. Then a short do-not list of the clichés
-                  that make an AI mascot look stock (dead-centre symmetrical stare,
-                  sparkle confetti, floating hearts, blob bodies), each with its one-line
-                  replacement.
-
-
-                  **3. Trace-safety rules**
-
-                  A flat list of concrete, checkable rules for the auto-trace-to-cut
-                  pipeline — one line each, no explanatory paragraphs:
-
-                  - minimum stroke thickness relative to the square''s width, stated
-                  as a fraction (so it scales)
-
-                  - minimum gap between two adjacent strokes before they blur into
-                  one traced blob
-
-                  - why every shape should read as a closed path, and how to spot
-                  one that won''t
-
-                  - island/floating-part handling and where to add connective bridges
-
-                  - what to do about interior detail that a tracer will turn into
-                  noise (crosshatching, stippling, tapering hairlines, single stray
-                  dots)
-
-                  - why large solid black fills are avoided here, and the acceptable
-                  exceptions (small eyes, pupils, a tiny accent shape)
-
-
-                  **4. Composition and hierarchy**
-
-                  Bulleted rules only: square framing, margin as a fraction of the
-                  square, centre of visual mass, minimum negative space, the mascot-leads
-                  / props-support / text-reinforces hierarchy, and the shared traits
-                  that make it read as one illustrator''s hand (same stroke weight,
-                  same corner radius, same eye style, same spacing rhythm).
-
-
-                  **5. Text and badge treatments**
-
-                  Text is **optional**. Briefly: when a word helps versus clutters,
-                  a maximum letter count that stays cuttable, how to specify literal
-                  text so it renders verbatim (quotes, exact casing), the letterform
-                  to ask for, and when a badge ring earns its place versus just boxing
-                  the mark in. Six bullets is plenty.
-
-
-                  **6. Prompt architecture for step 2**
-
-                  The most important section, so spend your words here. Specify the
-                  exact template the step-2 final prompt must follow — and state that
-                  the finished prompt should land at **180–250 words**, long enough
-                  to carry the spec, short enough that no single instruction gets
-                  diluted. Order it to match how the image model weights a prompt:
-
-
-                  1. **Medium and style up front** — the first sentence states it
-                  is a square black-and-white line-art mascot logo, because opening
-                  words set the mode for everything after.
-
-                  2. **Subject** — the mascot, its identity, expression, pose.
-
-                  3. **Key details** — props, supporting motifs, any literal text
-                  in quotes.
-
-                  4. **Layout** — centring, margins, hierarchy, where each element
-                  sits.
-
-                  5. **Line and manufacturing spec** — stroke weight, closed paths,
-                  interior-detail limits.
-
-                  6. **Exclusions last** — negatives go at the very end, after every
-                  positive descriptor, because a model reading them early tends to
-                  treat them as things to compose rather than things to omit.
-
-
-                  Give the canonical exclusion list to close with (no grey, no shading,
-                  no gradients, no halftone, no dithering, no texture, no colour,
-                  no transparency, no background scene, no drop shadow, no outer glow,
-                  no frame border unless specified, no watermark, no signature, no
-                  extra text beyond what is quoted).
-
-
-                  Also state the two facts the prompt must say in plain words no matter
-                  what: the image is **square**, and it is **pure black on a pure
-                  white background**.
-
-
-                  ---
-
-
-                  ## Response style and length
-
-
-                  **About 900 words, 1,100 absolute maximum.** Bullets over prose.
-                  Concrete and checkable over abstract and aspirational — "stroke
-                  no thinner than 1/100 of the square''s width" beats "confident lines".
-                  No preamble, no restating this brief back at me, no summary of what
-                  you are about to do. Skip the caveats and the reasoning behind each
-                  rule; just state the rule.
-
-
-                  Close with a checklist of the rules, 12 lines at most, so step 2
-                  can be graded against it.
-
-
-                  Then stop. No final image prompt, no questions, no theme.
-
-                  '
-              - command: ai_query
-                delay: '180'
-                mode_ai_wait: slow
-                text: '## Step 2 of 2 — the theme
-
-
-                  The theme is: **an image of hardware washer m5 penny please include
-                  the thread size and length in the image as text, add extra icons
-                  in the back, one that ryhmes with the diameter and one or two that
-                  rhymes with the length, if the length is less than 14 just one if
-                  it is greater do two, one rhyming for each part of the number ie
-                  for twenty five one that rhymes with twenty and one that rhymes
-                  with five. Put some time into searching to find the rhymes**
-
-
-                  Apply the house style you just wrote to this theme. Everything you
-                  need is now in hand — do not ask questions, just work.
-
-
-                  ---
-
-
-                  ## Part A — exploration
-
-
-                  **Budget: about 450 words, 600 hard ceiling.** Push past the theme''s
-                  first obvious reading, but do it briskly. No preamble, no restating
-                  the theme back at me.
-
-
-                  - **Angles:** exactly four mascot interpretations, **one or two
-                  sentences each**. Include at least one that anthropomorphises an
-                  object or concept from the theme rather than reaching for the obvious
-                  animal, and at least one built on a visual pun. Then name your pick
-                  in a single sentence saying why it beats the other three — no full
-                  comparison table.
-
-                  - **The chosen design:** one short paragraph fixing the pose, expression,
-                  props, and line strategy. Prefer gesture or a moment of character
-                  over a static front-on stare. Cut any prop that is decoration rather
-                  than signal.
-
-                  - **Text:** one line — the exact string in quotes with exact casing,
-                  or "no text". Text is optional and a clean wordless mark often wins.
-
-                  - **Trace and small-size check:** a short bullet list of fixes only
-                  — every stroke to thicken, gap to widen, island to bridge, detail
-                  to delete. Just the fixes, not the reasoning, and not a description
-                  of what the design looks like at size.
-
-
-                  Skip anything not on that list: no tradeoff essays, no runner-up
-                  post-mortems, no notes on your own process.
-
-
-                  ## Part B — the final prompt
-
-
-                  End your response with the final image-generation prompt for the
-                  chosen direction, and nothing after it.
-
-
-                  Format it as a single fenced code block labelled `FINAL IMAGE PROMPT`,
-                  so it can be copied cleanly. Follow the six-part architecture from
-                  step 1 exactly, in order: medium and style → subject → key details
-                  → layout → line and manufacturing spec → exclusions last.
-
-
-                  **Length: 180–250 words.** Long enough to carry the full spec, short
-                  enough that no single instruction gets diluted. If you are over,
-                  cut adjectives and repeated style words before you cut any manufacturing
-                  rule.
-
-
-                  Hard requirements for that prompt:
-
-
-                  - It opens by stating it is a **square black-and-white line-art
-                  mascot logo**.
-
-                  - It says in plain words that the image is **square** and **pure
-                  black on a pure white background**.
-
-                  - It states stroke weight as a fraction of the image width, and
-                  requires every shape to be a **closed path** with **no floating
-                  disconnected islands**.
-
-                  - It caps interior detail explicitly and forbids crosshatching,
-                  stippling, and hairline tapers.
-
-                  - Any literal text appears in quotes with exact casing, spelled
-                  out character by character if it is unusual.
-
-                  - The exclusion list comes **last**, after every positive descriptor.
-
-                  - It is self-contained: someone pasting it cold, with no memory
-                  of this conversation, gets the same image. No "as discussed above",
-                  no "the mascot from earlier".
-
-                  - One prompt only. No variants, no alternates, no commentary after
-                  the code block.
-
-                  '
-              - command: ai_query
-                delay: '300'
-                mode_ai_wait: slow
-                text: Generate the image take all the time you need
-              - command: save_image_generated
-                file_name: initial_generated_icon.png
-                mode_ai_wait: slow
-              - command: close_tab
-              file_test: initial_generated_icon.png
-              retries_until_complete: 0
             taxonomy_1: hardware
             taxonomy_10: ''
             taxonomy_11: ''
@@ -1282,52 +99,98 @@ oomlout_ai_roboclick_3:
             taxonomy_8: ''
             taxonomy_9: ''
             url_chat: ''
-          dict_data_files: {}
-          dict_data_files_exists: {}
-          file_output: label_oomp.svg
-          file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
-          search_and_replace: []
-        file_test: label_oomp.pdf
-        retries_until_complete: 0
-      taxonomy_1: hardware
-      taxonomy_10: ''
-      taxonomy_11: ''
-      taxonomy_12: ''
-      taxonomy_13: ''
-      taxonomy_14: ''
-      taxonomy_15: ''
-      taxonomy_2: washer
-      taxonomy_3: m5
-      taxonomy_4: penny
-      taxonomy_5: ''
-      taxonomy_6: ''
-      taxonomy_7: ''
-      taxonomy_8: ''
-      taxonomy_9: ''
-      url_chat: ''
-    dict_data_files: {}
-    dict_data_files_exists: {}
-    file_output: label_bolt_image.svg
-    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
-    search_and_replace: []
-  file_test: label_bolt_image.pdf
-  retries_until_complete: 0
-oomlout_ai_roboclick_4:
-  actions:
-  - command: text_jinja_template
-    description: label_drawer
-    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
-    file_output: label_drawer.svg
-    dict_data:
-      label_drawer: *id001
-    convert_to_pdf: false
-    convert_to_png: false
-  file_test: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_washer_m5_penny
+            name: hardware_washer_m5_penny
+            name_proper: Hardware Washer M5 Penny
+            name_space: hardware washer m5 penny
+            name_upper: HARDWARE WASHER M5 PENNY
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_washer_m5_penny
+                        name: hardware_washer_m5_penny
+                        name_proper: Hardware Washer M5 Penny
+                        name_space: hardware washer m5 penny
+                        name_upper: HARDWARE WASHER M5 PENNY
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: washer
+                        taxonomy_3: m5
+                        taxonomy_4: penny
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: washer
+            taxonomy_3: m5
+            taxonomy_4: penny
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_bolt_image.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        description: label_drawer
+        dict_data:
+            label_drawer: *id001
+        file_output: label_drawer.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
 oomp_key: oomp_hardware_washer_m5_penny
-run_action: true
+run_action: false
 run_oomp: true
 run_oomp_populate: true
-run_scad: false
+run_scad: true
+run_svg: true
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -1400,3 +263,9 @@ taxonomy_7: ''
 taxonomy_8: ''
 taxonomy_9: ''
 url_chat: ''
+generator_label_details:
+  schema_version: 1
+  geometry_file: generator_label.json
+  svg_file: generator_label.svg
+  title: M5 Penny washer
+  source: Defined schematic symbol for this nut / washer family

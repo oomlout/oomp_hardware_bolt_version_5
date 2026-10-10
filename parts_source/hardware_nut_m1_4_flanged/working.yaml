@@ -13,3 +13,9 @@ taxonomy_6: ''
 taxonomy_7: ''
 taxonomy_8: ''
 taxonomy_9: ''
+generator_label_details:
+  schema_version: 1
+  geometry_file: generator_label.json
+  svg_file: generator_label.svg
+  title: M1.4 Flanged nut
+  source: Defined schematic symbol for this nut / washer family
