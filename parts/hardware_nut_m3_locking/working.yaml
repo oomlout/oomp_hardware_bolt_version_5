@@ -29,7 +29,7 @@ bip_39_full_space: crunch brand twin west stairs diagram cradle plate zoo city m
     evidence
 bip_39_full_underscore: crunch_brand_twin_west_stairs_diagram_cradle_plate_zoo_city_minimum_evidence
 directory: parts/hardware_nut_m3_locking
-generate_stl: false
+generate_stl: true
 id: hardware_nut_m3_locking
 id_no_class: hardware_nut_m3_locking
 id_no_size: hardware_nut_m3_locking
@@ -186,11 +186,10 @@ oomlout_ai_roboclick_3:
         file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
     file_test: ''
 oomp_key: oomp_hardware_nut_m3_locking
-run_action: false
+run_action: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
-run_svg: true
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -263,9 +262,3 @@ taxonomy_7: ''
 taxonomy_8: ''
 taxonomy_9: ''
 url_chat: ''
-generator_label_details:
-  schema_version: 1
-  geometry_file: generator_label.json
-  svg_file: generator_label.svg
-  title: M3 Locking nut
-  source: Defined schematic symbol for this nut / washer family

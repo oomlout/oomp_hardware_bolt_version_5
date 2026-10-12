@@ -1,0 +1,194 @@
+{
+  "artifacts": {
+    "display/back.svg": {
+      "bytes": 4254,
+      "sha256": "f43c90d0b31377860de2547f36d98d2397a12fe4f62ac0c027ff5dd71a559333"
+    },
+    "display/bottom.svg": {
+      "bytes": 4373,
+      "sha256": "8d774549a161f85f31848671d4fbfcfb993eb53c4624196dc4830cfcb66ba2be"
+    },
+    "display/front.svg": {
+      "bytes": 4257,
+      "sha256": "d3cd7361996b29846c8e020d90cd3c6589cc23a435d41c4c8e445337e292403e"
+    },
+    "display/isometric.svg": {
+      "bytes": 3783,
+      "sha256": "bb2b21f00d955280e2de588ce4c74ad52827e13464880b37ab57745b77b2e954"
+    },
+    "display/left.svg": {
+      "bytes": 4220,
+      "sha256": "7f634e5429ad444df56fba732052f8695f142622793226192d7272d7f2c9222c"
+    },
+    "display/right.svg": {
+      "bytes": 4211,
+      "sha256": "abdc053cd305e46cec7c2c3fe067e06e322fc92bbe13e00261850d265569918c"
+    },
+    "display/top.svg": {
+      "bytes": 4226,
+      "sha256": "43ef40c5a62e33d0c39f084c51199b62610733eda0d8e96df9b7ce51452deb8f"
+    },
+    "full/back.svg": {
+      "bytes": 12022,
+      "sha256": "dc5e9c2b7379e71de775a6873a70ff994479be22d7b0c35f9fd025435b910b50"
+    },
+    "full/bottom.svg": {
+      "bytes": 25900,
+      "sha256": "093bea74034828d49b84dc6295d2525d784bef2bb7ec4e7b72868fe9b4d05284"
+    },
+    "full/front.svg": {
+      "bytes": 12025,
+      "sha256": "6fa4232beab49c058095bf80e408e0245c339ff7aa850eec9fc1409425ce6ed5"
+    },
+    "full/isometric.svg": {
+      "bytes": 18444,
+      "sha256": "c7f2429ff31a2c42cd87bbfcf94f619d5e110c4a80305ef26b1235c54c32c925"
+    },
+    "full/left.svg": {
+      "bytes": 11846,
+      "sha256": "fab55e5a65bc97ce27d53ad7094c48b2048da02e084c6b9bf6c49210c7466ae0"
+    },
+    "full/right.svg": {
+      "bytes": 11837,
+      "sha256": "5f39d7147ecf0358436c4557ddcc8f09c053dde1975c0dc03be885b1c5cb3486"
+    },
+    "full/top.svg": {
+      "bytes": 25946,
+      "sha256": "8cc1c960205bf28ec526d9205b8ed3009e58ea2d369303e8c57d1ffa9e5cae15"
+    },
+    "model.py": {
+      "bytes": 15158,
+      "sha256": "8d00b9b5fd12920aa45c50443c6f25360b662f66919d8a68b5267462655fc1aa"
+    },
+    "model_display.glb": {
+      "bytes": 11308,
+      "sha256": "97c1297991a83f299e2731625cfe5fa387e1a4d6a0e120dd95d6cbbe903406fa"
+    },
+    "model_display.stl": {
+      "bytes": 25684,
+      "sha256": "71d9b10bb7ece9656f8854aaa46b207e2cc805180edfaac83634d014a1592b1f"
+    },
+    "model_full.glb": {
+      "bytes": 440728,
+      "sha256": "e9ed06999658313680d7d41cca2ba8bb3ef0ebbc0d5064530927a2f6fb2192e0"
+    },
+    "model_full.stl": {
+      "bytes": 1218484,
+      "sha256": "ffd593de9b8940aff4cc85fd464c55862a1d6dc80f5dc5ff19af87900a27c5d3"
+    },
+    "parameters.json": {
+      "bytes": 7204,
+      "sha256": "7499522475d3845be67745ac471ec57ed95be7f56e7518ee08a740e530b7151d"
+    },
+    "render_high.png": {
+      "bytes": 3552171,
+      "sha256": "2cfe8f37ac5f401e5c6dc28c2d330dd94611917d7d6d2bde0785cfab90ed12d9"
+    },
+    "render_low.png": {
+      "bytes": 235112,
+      "sha256": "acf0bf268ac7157d0c23a6b6597f8eee5e1db7585dc77e95c646bff9be7747cb"
+    },
+    "render_product_high.png": {
+      "bytes": 3678517,
+      "sha256": "3a9f9287996d0d68b5c57253ec5b19dcbd6d086fcab1190fe5f56fa7bd0ac777"
+    },
+    "render_product_low.png": {
+      "bytes": 247673,
+      "sha256": "14bab978bc55c225fafd4fba58086b34294d74136a5b12c2052544a5beeb7315"
+    },
+    "render_scene.json": {
+      "bytes": 27517,
+      "sha256": "7ee5831bdb01ffb2e354b7bb08790b1f0b537032361070aac7b0dfaa4f11fed3"
+    },
+    "requirements.txt": {
+      "bytes": 159,
+      "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
+    },
+    "studio.blend": {
+      "bytes": 595145,
+      "sha256": "55499e7c58553007c497d8ffde3d94096e6f3e5e9de83d129a1038aa42e58ceb"
+    }
+  },
+  "coordinate_system": {
+    "axis": "+Z along bore",
+    "glb_conversion": "(x,y,z) mm -> (x,z,-y)/1000 metres",
+    "glb_units": "metres",
+    "glb_up_axis": "Y",
+    "origin": "lower face centre",
+    "stl_units": "mm"
+  },
+  "dimension_status": "manufacturer_dimensions",
+  "fingerprint": "a405c2d985bc938c5a08995e88c262ad613848bb15c3c10b4848b2e677d0ce19",
+  "generator": "supplier_hex_nut",
+  "length_status": "not_applicable",
+  "models": {
+    "display": {
+      "bounds_mm": [
+        [
+          -1.7320507764816284,
+          -1.5,
+          0.0
+        ],
+        [
+          1.7320507764816284,
+          1.5,
+          1.2000000476837158
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        3.464101552963257,
+        3.0,
+        1.2000000476837158
+      ],
+      "triangles": 512,
+      "vertices": 256,
+      "volume_mm3": 8.12286512957424,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "full": {
+      "bounds_mm": [
+        [
+          -1.7320507764816284,
+          -1.5,
+          0.0
+        ],
+        [
+          1.7320507764816284,
+          1.5,
+          1.2000000476837158
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        3.464101552963257,
+        3.0,
+        1.2000000476837158
+      ],
+      "triangles": 24368,
+      "vertices": 12184,
+      "volume_mm3": 7.83840962847805,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  },
+  "recipe_fingerprint": "fcfae67eb712e89c55c0422e0d291c929c470c66fdd3fbd9187532a04598733b",
+  "schema_version": 1,
+  "source_fingerprint": "94573d90e337026741855aba77bdbc908a7bfc40037501588568108c3f90e6a3",
+  "sources": [
+    {
+      "title": "Accu HPN-M1-A1-BL miniature nut dimensional specification",
+      "url": "https://www.accu.co.uk/hexagon-nuts/154926-HPN-M1-A1-BL"
+    },
+    {
+      "title": "Accu HPN-M1.4-A1 miniature nut dimensional specification",
+      "url": "https://www.accu.co.uk/hexagon-nuts/7881-HPN-M1-4-A1"
+    },
+    {
+      "title": "ISO 68-1:1998 basic ISO metric thread profile",
+      "url": "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+    }
+  ],
+  "standard": null
+}

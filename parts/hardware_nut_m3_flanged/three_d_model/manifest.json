@@ -1,0 +1,190 @@
+{
+  "artifacts": {
+    "display/back.svg": {
+      "bytes": 5336,
+      "sha256": "94ad1d982c7f2627db904f84a1a76bf118e56e08dda6f34b8380b456c0421d1e"
+    },
+    "display/bottom.svg": {
+      "bytes": 3182,
+      "sha256": "1f4a55796578e399ccab81f8c6d9dc072756866e50c7f0dfdcefd9de1a7af5de"
+    },
+    "display/front.svg": {
+      "bytes": 5339,
+      "sha256": "26d9ecdd84cd74cd329581d2da0b7a820b2f557ec1c26a8779b6feba47dd230a"
+    },
+    "display/isometric.svg": {
+      "bytes": 5143,
+      "sha256": "68eea7aac9ffccca090b5905b1ea14d516ed76f563f9fdb0c98588dfaa1dc196"
+    },
+    "display/left.svg": {
+      "bytes": 5230,
+      "sha256": "650abb814e379d705790f452c670f4afd95fe110dce86e0807cac1a7e72ef8ed"
+    },
+    "display/right.svg": {
+      "bytes": 5219,
+      "sha256": "bf79401a399548e3ba7eef1ffa4328496953a370dda7cef3c872fdde287516ba"
+    },
+    "display/top.svg": {
+      "bytes": 5695,
+      "sha256": "99f786121c2ded8c62b7992657d52ae237cc993bf857d0e65e10840286bac7d8"
+    },
+    "full/back.svg": {
+      "bytes": 14469,
+      "sha256": "c60512492a228400a5509e60de826570c6426cdb65aaaff9abc7e2d4dcb32fbd"
+    },
+    "full/bottom.svg": {
+      "bytes": 37461,
+      "sha256": "fcf21b330f89324459816db11649e05de3905d07d22ea2a096c17f3dbf2a53e7"
+    },
+    "full/front.svg": {
+      "bytes": 14435,
+      "sha256": "a04384445e780ff430c52dab293a0215c02e1fec07d31e8ac618be5f140c33cb"
+    },
+    "full/isometric.svg": {
+      "bytes": 24519,
+      "sha256": "940c26783b475a46408e45dbe5958f9430154a0b0197c9aba1df77f80c96801e"
+    },
+    "full/left.svg": {
+      "bytes": 14336,
+      "sha256": "03dfa47c96c9003cfad037a6b63f4e0b3dd865870449e6e2161eb4aaac8eb830"
+    },
+    "full/right.svg": {
+      "bytes": 14362,
+      "sha256": "c378222123b9821f6598c8b5fab1c047441be0a87c282839235c799dbcf5ff95"
+    },
+    "full/top.svg": {
+      "bytes": 48538,
+      "sha256": "23f15c452dd66f2570e8a9dd01731f6e3608f30052b75928391ca3ef7f96c36d"
+    },
+    "model.py": {
+      "bytes": 15158,
+      "sha256": "8d00b9b5fd12920aa45c50443c6f25360b662f66919d8a68b5267462655fc1aa"
+    },
+    "model_display.glb": {
+      "bytes": 20080,
+      "sha256": "68efcb8962f1228965874a87a133a279b5c1fb4ceed7ed606fa0a9d7ca017f29"
+    },
+    "model_display.stl": {
+      "bytes": 49884,
+      "sha256": "79175b020daf2d874bbc954c7e0579ffb4a94e871f5bf19a26cad4c63d62c7bc"
+    },
+    "model_full.glb": {
+      "bytes": 932868,
+      "sha256": "e4f6781fea0210da69fd311467ab0b2f4419caa6b5407f6f440403fa66e430ef"
+    },
+    "model_full.stl": {
+      "bytes": 2585384,
+      "sha256": "b9e6c5052398b542c07f8cc2f1bbfe80a412b4af52749ce85af1337bdcbf2fea"
+    },
+    "parameters.json": {
+      "bytes": 7152,
+      "sha256": "6a5856c78d692150337d473958f79caf0cfb5610d92e8473fd9368340723c013"
+    },
+    "render_high.png": {
+      "bytes": 3736796,
+      "sha256": "abb77be86061513276de0b583abcdd1ecdd641b324cd0ae15519e1540c9cee54"
+    },
+    "render_low.png": {
+      "bytes": 258236,
+      "sha256": "98e94c84c56295552082ca6f634c207da1ba816aa0792ba38046ed6c7409aa0a"
+    },
+    "render_product_high.png": {
+      "bytes": 3842850,
+      "sha256": "1636bd24df0b75db8b09b942c7bbb2ef1a805a7716411172ce7dc891ad733500"
+    },
+    "render_product_low.png": {
+      "bytes": 256152,
+      "sha256": "8fdf218ff58d3fbe55daa94cdaf862ca981322a849f492c46674641b4f8c8068"
+    },
+    "render_scene.json": {
+      "bytes": 27595,
+      "sha256": "a12b241ed4524a79e85a5421221d6ccf8551db063cad332486f0be7132de4d61"
+    },
+    "requirements.txt": {
+      "bytes": 159,
+      "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
+    },
+    "studio.blend": {
+      "bytes": 1209687,
+      "sha256": "5180ff3b47341d410f9d2c1bb6165d3ec648de7cdb3ce1857071653e3e5ad362"
+    }
+  },
+  "coordinate_system": {
+    "axis": "+Z along bore",
+    "glb_conversion": "(x,y,z) mm -> (x,z,-y)/1000 metres",
+    "glb_units": "metres",
+    "glb_up_axis": "Y",
+    "origin": "lower face centre",
+    "stl_units": "mm"
+  },
+  "dimension_status": "manufacturer_extension",
+  "fingerprint": "d6546dcd24d25224fa350fa2acf3ad192a32bfeaf442352475e4eb2265ed4e3b",
+  "generator": "din_6923_flange_nut",
+  "length_status": "not_applicable",
+  "models": {
+    "display": {
+      "bounds_mm": [
+        [
+          -3.9000000953674316,
+          -3.9000000953674316,
+          0.0
+        ],
+        [
+          3.9000000953674316,
+          3.9000000953674316,
+          3.799999952316284
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        7.800000190734863,
+        7.800000190734863,
+        3.799999952316284
+      ],
+      "triangles": 996,
+      "vertices": 498,
+      "volume_mm3": 97.56131314965232,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "full": {
+      "bounds_mm": [
+        [
+          -3.9000000953674316,
+          -3.9000000953674316,
+          0.0
+        ],
+        [
+          3.9000000953674316,
+          3.9000000953674316,
+          3.799999952316284
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        7.800000190734863,
+        7.800000190734863,
+        3.799999952316284
+      ],
+      "triangles": 51706,
+      "vertices": 25853,
+      "volume_mm3": 94.44123437311056,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  },
+  "recipe_fingerprint": "0f75ed67a5c4f018aea0d7b725f9481d4ed55cb8a10d0657b3029fe1f489b1b8",
+  "schema_version": 1,
+  "source_fingerprint": "94573d90e337026741855aba77bdbc908a7bfc40037501588568108c3f90e6a3",
+  "sources": [
+    {
+      "title": "Westfield plain hex flange nuts DIN 6923, includes M3/M4 supplier extensions",
+      "url": "https://www.westfieldfasteners.co.uk/Standards/Nut-HexFlgPln-M.pdf"
+    },
+    {
+      "title": "ISO 68-1:1998 basic ISO metric thread profile",
+      "url": "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+    }
+  ],
+  "standard": "DIN 6923 (supplier sheet; edition not stated)"
+}

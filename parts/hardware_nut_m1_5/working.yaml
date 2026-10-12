@@ -26,48 +26,33 @@ bip_39_full_array:
 - original
 bip_39_full_no_space: excitelyricsadmitaskbrownfallapproveillegalbarrelerasedanceoriginal
 bip_39_full_space: excite lyrics admit ask brown fall approve illegal barrel erase
-  dance original
+    dance original
 bip_39_full_underscore: excite_lyrics_admit_ask_brown_fall_approve_illegal_barrel_erase_dance_original
 directory: parts/hardware_nut_m1_5
-generate_stl: false
+generate_stl: true
 id: hardware_nut_m1_5
 id_no_class: hardware_nut_m1_5
 id_no_size: hardware_nut_m1_5
 id_no_type: hardware_nut_m1_5
-id_svg: hardware_nut_m1_5
-kwargs:
-  filter: ''
-  generate_stl: false
-  navigation: false
-  oomp_description_extra: ''
-  oomp_description_main: _
-  oomp_mode: project
-  overwrite: true
-  run_action: false
-  run_oomp: true
-  run_oomp_populate: true
-  run_scad: true
-  run_svg: true
-  type: default_nut
 label_drawer: &id001
-  bip39: excite lyrics admit
-  bip39_size: 2.35
-  code: NU
-  description: Nut / M1.5
-  detail_lines: []
-  detail_size: 2.05
-  detail_y: 21.1
-  diagram: <path d="M7 1.8H13L16 7L13 12.2H7L4 7Z"/><circle cx="10" cy="7" r="2.5"/>
-  drive_symbol: <path d="M5 1L8.46 3V7L5 9L1.54 7V3Z" fill="#ffffff"/>
-  length: ''
-  length_size: 7.8
-  length_x: 22.3603625
-  name: Nut
-  name_lines:
-  - Nut
-  name_size: 3.2
-  thread: M1.5
-  thread_size: 4.408
+    bip39: excite lyrics admit
+    bip39_size: 2.35
+    code: NU
+    description: Nut / M1.5
+    detail_lines: []
+    detail_size: 2.05
+    detail_y: 21.1
+    diagram: <path d="M7 1.8H13L16 7L13 12.2H7L4 7Z"/><circle cx="10" cy="7" r="2.5"/>
+    drive_symbol: <path d="M5 1L8.46 3V7L5 9L1.54 7V3Z" fill="#ffffff"/>
+    length: ''
+    length_size: 7.8
+    length_x: 22.3603625
+    name: Nut
+    name_lines:
+    - Nut
+    name_size: 3.2
+    thread: M1.5
+    thread_size: 4.408
 link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m1_5
 link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m1_5
 link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m1_5
@@ -87,67 +72,19 @@ name_no_type: Hardware Nut M1 5
 name_proper: Hardware Nut M1 5
 name_space: hardware nut m1 5
 name_upper: HARDWARE NUT M1 5
-oobb_name: nut
 oomlout_ai_roboclick_1:
-  actions:
-  - command: text_jinja_template
-    convert_to_pdf: false
-    convert_to_png: false
-    dict_data:
-      directory: parts\hardware_nut_m1_5
-      name: hardware_nut_m1_5
-      name_proper: Hardware Nut M1 5
-      name_space: hardware nut m1 5
-      name_upper: HARDWARE NUT M1 5
-      svg_details:
-        svg_name: nut
-      taxonomy_1: hardware
-      taxonomy_10: ''
-      taxonomy_11: ''
-      taxonomy_12: ''
-      taxonomy_13: ''
-      taxonomy_14: ''
-      taxonomy_15: ''
-      taxonomy_2: nut
-      taxonomy_3: m1_5
-      taxonomy_4: ''
-      taxonomy_5: ''
-      taxonomy_6: ''
-      taxonomy_7: ''
-      taxonomy_8: ''
-      taxonomy_9: ''
-      url_chat: ''
-    dict_data_files: {}
-    dict_data_files_exists: {}
-    file_output: label_oomp.svg
-    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
-    search_and_replace: []
-  file_test: label_oomp.pdf
-  retries_until_complete: 0
-oomlout_ai_roboclick_2:
-  actions:
-  - command: text_jinja_template
-    convert_to_pdf: false
-    convert_to_png: false
-    dict_data:
-      directory: parts\hardware_nut_m1_5
-      name: hardware_nut_m1_5
-      name_proper: Hardware Nut M1 5
-      name_space: hardware nut m1 5
-      name_upper: HARDWARE NUT M1 5
-      oomlout_ai_roboclick_1:
-        actions:
-        - command: text_jinja_template
-          convert_to_pdf: false
-          convert_to_png: false
-          dict_data:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
             directory: parts\hardware_nut_m1_5
             name: hardware_nut_m1_5
             name_proper: Hardware Nut M1 5
             name_space: hardware nut m1 5
             name_upper: HARDWARE NUT M1 5
             svg_details:
-              svg_name: nut
+                svg_name: nut
             taxonomy_1: hardware
             taxonomy_10: ''
             taxonomy_11: ''
@@ -164,58 +101,103 @@ oomlout_ai_roboclick_2:
             taxonomy_8: ''
             taxonomy_9: ''
             url_chat: ''
-          dict_data_files: {}
-          dict_data_files_exists: {}
-          file_output: label_oomp.svg
-          file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
-          search_and_replace: []
-        file_test: label_oomp.pdf
-        retries_until_complete: 0
-      svg_details:
-        svg_name: nut
-      taxonomy_1: hardware
-      taxonomy_10: ''
-      taxonomy_11: ''
-      taxonomy_12: ''
-      taxonomy_13: ''
-      taxonomy_14: ''
-      taxonomy_15: ''
-      taxonomy_2: nut
-      taxonomy_3: m1_5
-      taxonomy_4: ''
-      taxonomy_5: ''
-      taxonomy_6: ''
-      taxonomy_7: ''
-      taxonomy_8: ''
-      taxonomy_9: ''
-      url_chat: ''
-    dict_data_files: {}
-    dict_data_files_exists: {}
-    file_output: label_bolt_image.svg
-    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
-    search_and_replace: []
-  file_test: label_bolt_image.pdf
-  retries_until_complete: 0
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_nut_m1_5
+            name: hardware_nut_m1_5
+            name_proper: Hardware Nut M1 5
+            name_space: hardware nut m1 5
+            name_upper: HARDWARE NUT M1 5
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_nut_m1_5
+                        name: hardware_nut_m1_5
+                        name_proper: Hardware Nut M1 5
+                        name_space: hardware nut m1 5
+                        name_upper: HARDWARE NUT M1 5
+                        svg_details:
+                            svg_name: nut
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: nut
+                        taxonomy_3: m1_5
+                        taxonomy_4: ''
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            svg_details:
+                svg_name: nut
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: nut
+            taxonomy_3: m1_5
+            taxonomy_4: ''
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_bolt_image.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
 oomlout_ai_roboclick_3:
-  actions:
-  - command: text_jinja_template
-    convert_to_pdf: false
-    convert_to_png: false
-    description: label_drawer
-    dict_data:
-      label_drawer: *id001
-    file_output: label_drawer.svg
-    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
-  file_test: ''
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        description: label_drawer
+        dict_data:
+            label_drawer: *id001
+        file_output: label_drawer.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
 oomp_key: oomp_hardware_nut_m1_5
-project_name: C:\gh\oomp_hardware_bolt_version_5
-run_action: false
+run_action: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
-run_svg: true
 svg_details:
-  svg_name: nut
+    svg_name: nut
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -274,9 +256,3 @@ taxonomy_7: ''
 taxonomy_8: ''
 taxonomy_9: ''
 url_chat: ''
-generator_label_details:
-  schema_version: 1
-  geometry_file: generator_label.json
-  svg_file: generator_label.svg
-  title: M1.5 Nut
-  source: Defined schematic symbol for this nut / washer family

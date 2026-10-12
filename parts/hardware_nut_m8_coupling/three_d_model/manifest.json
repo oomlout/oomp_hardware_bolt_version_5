@@ -1,0 +1,194 @@
+{
+  "artifacts": {
+    "display/back.svg": {
+      "bytes": 4500,
+      "sha256": "7516dbc53720e7775f3c4c67c7cafd89ad8a0797e3ab4197046ddeb3340328f1"
+    },
+    "display/bottom.svg": {
+      "bytes": 3482,
+      "sha256": "c6fc19d0907437134812fc85608679c389070342baf772c98428b0d91415ee6e"
+    },
+    "display/front.svg": {
+      "bytes": 4503,
+      "sha256": "7aa620b626e3010310610e59e230bbfdf4f2b4c24bd44123deaf94721c730ec9"
+    },
+    "display/isometric.svg": {
+      "bytes": 3910,
+      "sha256": "562e9a36c7cf8cc09e370f2f36d083242282d4ce705baca79d6dce8da1b08833"
+    },
+    "display/left.svg": {
+      "bytes": 4319,
+      "sha256": "0352aea89df47c0ad153b1607c7390dddd0fcc94339d2ad1279ec6fd8f6ad938"
+    },
+    "display/right.svg": {
+      "bytes": 4310,
+      "sha256": "f00b8cb0e4841a4ff026086d8f4456cc9d694f4fcf6c15cb090a877220b2804e"
+    },
+    "display/top.svg": {
+      "bytes": 3405,
+      "sha256": "3a2b280a14fa02a9c301d24c3e38d49bfaa84628b2be40d31dd7674b708a2992"
+    },
+    "full/back.svg": {
+      "bytes": 12342,
+      "sha256": "819b7b9d60986733e08025a93b9e3d98d5fa436da2f2186a7ab3d5a53f8e3de1"
+    },
+    "full/bottom.svg": {
+      "bytes": 89524,
+      "sha256": "395b710519dd5a8f7e9f6db7c1a2c3243df2be82eb6ec5481bed128dd8a1aefc"
+    },
+    "full/front.svg": {
+      "bytes": 12345,
+      "sha256": "56c5634c04ca44f3b1440bed10cecaa7a632e8e7f5121970d4e38352b458a38b"
+    },
+    "full/isometric.svg": {
+      "bytes": 23403,
+      "sha256": "66fc149da83b3d5731930697e2383265cc3d2504dd0c62e9720dc7f8eebc3a1f"
+    },
+    "full/left.svg": {
+      "bytes": 12161,
+      "sha256": "da7994fe0de4a2d3ffef176573a8dccf596fb5dc7c7e49ab61138bf946e7fe26"
+    },
+    "full/right.svg": {
+      "bytes": 12152,
+      "sha256": "4030b676e96d044d13c12352ae02c8c5217806cba39faeeb46d50c9ef8164ef3"
+    },
+    "full/top.svg": {
+      "bytes": 88781,
+      "sha256": "e812b96427a5010ce59f028c8dd9dd0a81c4e49b717647506ebd125aa1831908"
+    },
+    "model.py": {
+      "bytes": 15158,
+      "sha256": "8d00b9b5fd12920aa45c50443c6f25360b662f66919d8a68b5267462655fc1aa"
+    },
+    "model_display.glb": {
+      "bytes": 25144,
+      "sha256": "696f2ffe9d1be64a4e2e393f5bbd279a1b468be2e2d7aee82ea55f966b019aef"
+    },
+    "model_display.stl": {
+      "bytes": 64084,
+      "sha256": "9adbc4cb14bb9eb8eb78660c676e34b7373055c5f12dcccdedc4b76c2852f9fe"
+    },
+    "model_full.glb": {
+      "bytes": 2144544,
+      "sha256": "ede3d2f9bead3c48f971278b290dc81ed231c46aa9f9abc48c61a4044bb82e9b"
+    },
+    "model_full.stl": {
+      "bytes": 5951284,
+      "sha256": "58ae213bebe9c80ad7b7580f9664def08acd0a81d8b3723cc56cbc1aacc062bc"
+    },
+    "parameters.json": {
+      "bytes": 7154,
+      "sha256": "e30113a757ed0f4953f9fa0d8b5bbb332053d82f845a1526fbf4ab9e01e3cc60"
+    },
+    "render_high.png": {
+      "bytes": 3472313,
+      "sha256": "9e32182f442149ae00f23b1ba129d97ae5c7b17c8962e219448fe01f87775876"
+    },
+    "render_low.png": {
+      "bytes": 233211,
+      "sha256": "23a1bd0742bb4671c63690430ee6317d0e21fccafd07bd1eb5db24493ec5f7a4"
+    },
+    "render_product_high.png": {
+      "bytes": 3592122,
+      "sha256": "abb058e3ae46b1007276e6495f183da6053ff436f92a33a9c27804e52916ba6d"
+    },
+    "render_product_low.png": {
+      "bytes": 230164,
+      "sha256": "72aa8de2cd5a52a9b3beb9ae3468f23796b76ef9b91aca9ad5b1a51bd83ad52a"
+    },
+    "render_scene.json": {
+      "bytes": 17583,
+      "sha256": "d2311d6a2e18c39dae0e8b2bba816aeecca37e4f4f5517824d725f53c1d8e6e3"
+    },
+    "requirements.txt": {
+      "bytes": 159,
+      "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
+    },
+    "studio.blend": {
+      "bytes": 2713018,
+      "sha256": "671b8da67bf004157953422889448977a3893178e4881ce2a05cebb6795b4a44"
+    }
+  },
+  "coordinate_system": {
+    "axis": "+Z along bore",
+    "glb_conversion": "(x,y,z) mm -> (x,z,-y)/1000 metres",
+    "glb_units": "metres",
+    "glb_up_axis": "Y",
+    "origin": "lower face centre",
+    "stl_units": "mm"
+  },
+  "dimension_status": "manufacturer_dimensions",
+  "fingerprint": "0ed64efb3f63559d6d86c89d95d5cec8701f18d1df4ae163c259bbc4169e6c9d",
+  "generator": "supplier_coupling_nut",
+  "length_status": "not_applicable",
+  "models": {
+    "display": {
+      "bounds_mm": [
+        [
+          -7.505553722381592,
+          -6.5,
+          0.0
+        ],
+        [
+          7.505553722381592,
+          6.5,
+          24.0
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        15.011107444763184,
+        13.0,
+        24.0
+      ],
+      "triangles": 1280,
+      "vertices": 640,
+      "volume_mm3": 2674.9377783909626,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "full": {
+      "bounds_mm": [
+        [
+          -7.505553722381592,
+          -6.5,
+          0.0
+        ],
+        [
+          7.505553722381592,
+          6.5,
+          24.0
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        15.011107444763184,
+        13.0,
+        24.0
+      ],
+      "triangles": 119024,
+      "vertices": 59512,
+      "volume_mm3": 2511.1799717920917,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  },
+  "recipe_fingerprint": "56c0620cc92f03a417045c4b08805b7acc81647021e9becb21f5a3c009ddca3b",
+  "schema_version": 1,
+  "source_fingerprint": "94573d90e337026741855aba77bdbc908a7bfc40037501588568108c3f90e6a3",
+  "sources": [
+    {
+      "title": "Westfield hexagon studding connector nut datasheet",
+      "url": "https://www.westfieldfasteners.co.uk/Datasheets/Nut_HexLong_M.pdf"
+    },
+    {
+      "title": "TOBSTEEL 2019 catalogue, commercial article 6334; explicitly not a DIN standard",
+      "url": "https://www.tobsteel.com/divi/wp-content/uploads/2019/01/TOBcatalog-2019.pdf"
+    },
+    {
+      "title": "ISO 68-1:1998 basic ISO metric thread profile",
+      "url": "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+    }
+  ],
+  "standard": null
+}

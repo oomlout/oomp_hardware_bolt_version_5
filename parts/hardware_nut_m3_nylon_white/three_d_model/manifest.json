@@ -1,0 +1,206 @@
+{
+  "artifacts": {
+    "display/back.svg": {
+      "bytes": 4418,
+      "sha256": "c9fc0ba21dd4702fba1db2241134c8d50bf78628fc80f5f9e61927d939ace0d0"
+    },
+    "display/bottom.svg": {
+      "bytes": 3135,
+      "sha256": "a054e65b48d8508fa326fd20524b9bf3f076d76a43b8ba88655feed67a1ef449"
+    },
+    "display/front.svg": {
+      "bytes": 4421,
+      "sha256": "ed4ee250f26c2e5a17656f09aec0eb489649fa30dcf4aae3955bc1ad0ae7ad8d"
+    },
+    "display/isometric.svg": {
+      "bytes": 3806,
+      "sha256": "0e02b6841a6ff7f964d337312aefa885672ccbfdbfb06b500dd153a3901a5be8"
+    },
+    "display/left.svg": {
+      "bytes": 4100,
+      "sha256": "be6acb7d650b082c6eda4ad9dc2b2931dfe27ec98f16cb35580ea340f6344f0c"
+    },
+    "display/right.svg": {
+      "bytes": 4091,
+      "sha256": "6714ca266965a222104eb77064f9bb67942b7e93ae8c02aaa8ce7a118838e94d"
+    },
+    "display/top.svg": {
+      "bytes": 3128,
+      "sha256": "59730ad1df9a7e93604cc9571ea313b4bb545194fb689c7e4e6944e8356cc63d"
+    },
+    "full/back.svg": {
+      "bytes": 12044,
+      "sha256": "a1176594bafcd1c9c44edc32b270548db193a342724d6864ccb963d180d6c353"
+    },
+    "full/bottom.svg": {
+      "bytes": 28093,
+      "sha256": "9a18baf0bc9bc362987c4365a90507b55b878df55e412fa1f155b9933c717420"
+    },
+    "full/front.svg": {
+      "bytes": 12047,
+      "sha256": "5997cefb8e8040b76bd21de1185ac2ad78c81b575c0bee74914c7e60272e8b57"
+    },
+    "full/isometric.svg": {
+      "bytes": 19840,
+      "sha256": "a7a54d541ccd7785bb9c6df34015b8c89ac16de7fd233b6ac72124bfd39f8a0f"
+    },
+    "full/left.svg": {
+      "bytes": 11868,
+      "sha256": "0581ae06542ad3e5463f5b7576889ec20eb85e8144987f4d0659a9914943bd23"
+    },
+    "full/right.svg": {
+      "bytes": 11859,
+      "sha256": "5136011cd849d9550e92939a4cd3526e9e5f3968295d0a97dba6ed15d8db1525"
+    },
+    "full/top.svg": {
+      "bytes": 28179,
+      "sha256": "253a70bed942f3c3718d1ffba128899c70a33af5afc3667c7102490ebadb8b5d"
+    },
+    "model.py": {
+      "bytes": 15158,
+      "sha256": "8d00b9b5fd12920aa45c50443c6f25360b662f66919d8a68b5267462655fc1aa"
+    },
+    "model_display.glb": {
+      "bytes": 12044,
+      "sha256": "3c82930d806e6fe5a0a144578c7fd3b4e29ee5e85ccb8cab8d01048a7bfc881c"
+    },
+    "model_display.stl": {
+      "bytes": 27684,
+      "sha256": "adb6b81977d99c9447d9187cd5e5227f1f8ea69737f930b51b8a39d2a63efe5b"
+    },
+    "model_full.glb": {
+      "bytes": 537368,
+      "sha256": "b888f05fbc2b8e66f4b9126e87a5b39f6f2f0c7e77ba8488157f093ee4b5420c"
+    },
+    "model_full.stl": {
+      "bytes": 1486884,
+      "sha256": "0a09e01c059be2f939d4f25df055b85848d2f1aaf78bf9e43f04190fd56ef01f"
+    },
+    "parameters.json": {
+      "bytes": 7529,
+      "sha256": "d93d1373cc56e0826a89608257fe970b3346f3cfca1111ad367dd38953ba0b28"
+    },
+    "render_high.png": {
+      "bytes": 3343154,
+      "sha256": "f0b6eb2d1761fd5eb1c4ff0b47efddf92b208cf90b2f87c5f636d73b1ecbde19"
+    },
+    "render_low.png": {
+      "bytes": 219603,
+      "sha256": "8756c2d9738f84edb249b5aaa4a47187d32d1dcc2fe39ba533d6d6330f93be69"
+    },
+    "render_product_high.png": {
+      "bytes": 3286444,
+      "sha256": "c4da467ec24b04a7b2d042f858a3d504f0c8caa16d512f55c883ffe18fb3f08c"
+    },
+    "render_product_low.png": {
+      "bytes": 216253,
+      "sha256": "a826bb66b98ac846b145951d52e7f53b56f015712d6edb626bcb007f578b8a9d"
+    },
+    "render_scene.json": {
+      "bytes": 27604,
+      "sha256": "981ed2fd5d373620d0109e383211be634adcab81fa9b6a4573e6012b9b919609"
+    },
+    "requirements.txt": {
+      "bytes": 159,
+      "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
+    },
+    "studio.blend": {
+      "bytes": 738036,
+      "sha256": "832c2cb28a55a451639024ba4b22e0ebe3b97e3ceb0c6cac2207c41812978f8c"
+    }
+  },
+  "coordinate_system": {
+    "axis": "+Z along bore",
+    "glb_conversion": "(x,y,z) mm -> (x,z,-y)/1000 metres",
+    "glb_units": "metres",
+    "glb_up_axis": "Y",
+    "origin": "lower face centre",
+    "stl_units": "mm"
+  },
+  "dimension_status": "manufacturer_dimensions",
+  "fingerprint": "af9af1f8a62293d9217a5e0eeabf7a797dc7351c80c27526e9f5b4fe2bb5f651",
+  "generator": "supplier_nylon_hex_nut",
+  "length_status": "not_applicable",
+  "models": {
+    "display": {
+      "bounds_mm": [
+        [
+          -3.175426483154297,
+          -2.75,
+          0.0
+        ],
+        [
+          3.175426483154297,
+          2.75,
+          2.4000000953674316
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        6.350852966308594,
+        5.5,
+        2.4000000953674316
+      ],
+      "triangles": 552,
+      "vertices": 276,
+      "volume_mm3": 50.66527275503622,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "full": {
+      "bounds_mm": [
+        [
+          -3.175426483154297,
+          -2.75,
+          0.0
+        ],
+        [
+          3.175426483154297,
+          2.75,
+          2.4000000953674316
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        6.350852966308594,
+        5.5,
+        2.4000000953674316
+      ],
+      "triangles": 29736,
+      "vertices": 14868,
+      "volume_mm3": 48.46422499977127,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  },
+  "recipe_fingerprint": "36ef8a07a6c7d93b4cd83af6c3c3c6e8f105c6a25826d4319984fa8473d61821",
+  "schema_version": 1,
+  "source_fingerprint": "94573d90e337026741855aba77bdbc908a7bfc40037501588568108c3f90e6a3",
+  "sources": [
+    {
+      "title": "Accu HPN-M3-N",
+      "url": "https://www.accu.co.uk/hexagon-nuts/422470-HPN-M3-N"
+    },
+    {
+      "title": "Accu HPN-M4-N",
+      "url": "https://www.accu.co.uk/hexagon-nuts/422472-HPN-M4-N"
+    },
+    {
+      "title": "Accu HPN-M5-N",
+      "url": "https://www.accu.co.uk/hexagon-nuts/422473-HPN-M5-N"
+    },
+    {
+      "title": "Accu HPN-M6-N",
+      "url": "https://www.accu.co.uk/hexagon-nuts/422474-HPN-M6-N"
+    },
+    {
+      "title": "Accu HPN-M8-N",
+      "url": "https://www.accu.co.uk/hexagon-nuts/422475-HPN-M8-N"
+    },
+    {
+      "title": "ISO 68-1:1998 basic ISO metric thread profile",
+      "url": "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+    }
+  ],
+  "standard": null
+}

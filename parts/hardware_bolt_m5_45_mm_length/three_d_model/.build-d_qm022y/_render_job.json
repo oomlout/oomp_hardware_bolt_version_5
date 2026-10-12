@@ -1,0 +1,329 @@
+{
+  "parameters": {
+    "family": "bolt",
+    "nominal_diameter_mm": 5.0,
+    "finish": "satin",
+    "identity": "hardware_bolt_m5_45_mm_length",
+    "specification": "ISO 4014:2011",
+    "expected_components": 1,
+    "handedness": "right",
+    "thread_starts": 1,
+    "thread_flank_angle_degrees": 60.0,
+    "pitch_mm": 0.8,
+    "across_flats_mm": 8,
+    "head_height_mm": 3.5,
+    "bearing_diameter_mm": 7.4,
+    "bearing_height_mm": 0.3,
+    "underhead_fillet_mm": 0.2,
+    "length_mm": 45.0,
+    "length_convention": "under-head bearing plane to tip",
+    "thread_mode": "partial",
+    "thread_length_table_mm": [
+      16,
+      22,
+      35
+    ],
+    "tip_chamfer_mm": 0.4,
+    "outer_chamfer_angle_degrees": 30.0,
+    "characteristic_dimension_mm": 5.0,
+    "characteristic_dimension_basis": "nominal axial thread diameter",
+    "head_chamfer_height_mm": 0.3572655899081639,
+    "thread_end_z_mm": 16.8,
+    "thread_runout_mm": 0.8,
+    "overall_height_mm": 48.5,
+    "thread_length_mm": 16.0,
+    "plain_shank_length_mm": 28.2,
+    "thread_length_reference_mm": 16,
+    "thread_pitch_diameter_mm": 4.480384757729337,
+    "external_minor_diameter_mm": 4.018504542377636,
+    "internal_minor_diameter_mm": 4.133974596215562
+  },
+  "material": {
+    "name": "Satin steel",
+    "base_colour_srgb": [
+      0.62,
+      0.65,
+      0.69
+    ],
+    "metallic": 1.0,
+    "roughness": 0.26,
+    "roughness_variation": 0.045,
+    "coat_weight": 0.02,
+    "coat_roughness": 0.28,
+    "microtexture_spacing_mm": 0.025,
+    "microtexture_height_um": 0.8,
+    "note": "Visual finish approximation; catalogue specifies colour only."
+  },
+  "studio": {
+    "engine": "cycles",
+    "device": "auto",
+    "seed": 7991,
+    "low_samples": 48,
+    "high_samples": 160,
+    "adaptive_threshold": 0.015,
+    "denoise": true,
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.0,
+    "world_colour": [
+      0.78,
+      0.82,
+      0.9
+    ],
+    "world_strength": 0.35,
+    "floor_colour_srgb": [
+      0.93,
+      0.935,
+      0.94
+    ],
+    "floor_roughness": 0.55,
+    "framing_margin": 0.13,
+    "lights": [
+      {
+        "name": "Key softbox",
+        "position": [
+          -3,
+          -4,
+          6
+        ],
+        "power": 650.0,
+        "width": 4.0,
+        "height": 5.0,
+        "colour": [
+          1.0,
+          0.96,
+          0.9
+        ]
+      },
+      {
+        "name": "Fill softbox",
+        "position": [
+          4,
+          -1,
+          3
+        ],
+        "power": 330.0,
+        "width": 3.0,
+        "height": 4.0,
+        "colour": [
+          0.9,
+          0.95,
+          1.0
+        ]
+      },
+      {
+        "name": "Rim strip",
+        "position": [
+          1,
+          4,
+          4
+        ],
+        "power": 850.0,
+        "width": 1.2,
+        "height": 5.0,
+        "colour": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "poses": {
+      "isometric": {
+        "camera_eye": [
+          1,
+          -1,
+          1
+        ],
+        "projection": "orthographic",
+        "orientation": "principal axis Z up"
+      },
+      "product": {
+        "camera_eye": [
+          -6,
+          -10,
+          6
+        ],
+        "projection": "orthographic",
+        "orientation": "lying on side, axial end to left",
+        "yaw_degrees": -12.0,
+        "support": "Stable convex-hull support using actual mesh centre of mass.",
+        "resting_axis": "side"
+      }
+    }
+  },
+  "renders": {
+    "low": {
+      "file": "render_low.png",
+      "variant": "display",
+      "pixels": 512,
+      "view": "isometric"
+    },
+    "high": {
+      "file": "render_high.png",
+      "variant": "full",
+      "pixels": 2048,
+      "view": "isometric"
+    },
+    "product_low": {
+      "file": "render_product_low.png",
+      "variant": "display",
+      "pixels": 512,
+      "view": "product"
+    },
+    "product_high": {
+      "file": "render_product_high.png",
+      "variant": "full",
+      "pixels": 2048,
+      "view": "product"
+    }
+  },
+  "output": "C:\\gh\\oomp_hardware_bolt_version_5\\parts\\hardware_bolt_m5_45_mm_length\\three_d_model\\.build-d_qm022y",
+  "product_transforms": {
+    "full": [
+      [
+        -0.07565630870866556,
+        0.19639555083051424,
+        -0.9776016113768216,
+        0.0
+      ],
+      [
+        -0.49508904570380263,
+        0.8436277674341055,
+        0.20779563719733052,
+        0.0
+      ],
+      [
+        0.8655420034733595,
+        0.49972089973116546,
+        0.03340752303295495,
+        2.484406429944382
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "display": [
+      [
+        -0.13223963989787738,
+        -0.16372714992311713,
+        -0.9776022187054062,
+        0.0
+      ],
+      [
+        -0.4830618873783878,
+        -0.8505716504062397,
+        0.20779576628900626,
+        0.0
+      ],
+      [
+        -0.8655425411856482,
+        0.4997212101794946,
+        0.03338894270011915,
+        2.4852506025943013
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "product_supports": {
+    "full": {
+      "method": "stable convex hull using solid centre of mass",
+      "stable_pose_probability": 0.16491935382169004,
+      "support_tolerance_mm": 4.85e-05,
+      "contact_vertices": 3,
+      "support_polygon_mm": [
+        [
+          -44.896214,
+          7.18199
+        ],
+        [
+          -0.497174,
+          0.105678
+        ],
+        [
+          -43.935911,
+          11.699861
+        ]
+      ],
+      "centre_of_mass_mm": [
+        -27.29093248769533,
+        5.801107063391349,
+        3.4167681977213418
+      ],
+      "centre_inside_support": true,
+      "stability_margin_mm": 1.406813115561434,
+      "principal_axis_world": [
+        -0.9776016113768216,
+        0.20779563719733052,
+        0.03340752303295495
+      ],
+      "ground_clearance_mm": 0.0,
+      "grounded_bounds_mm": [
+        [
+          -48.25527110999583,
+          -2.3154968216488863,
+          0.0
+        ],
+        [
+          0.44183631832664705,
+          14.521720422036898,
+          8.102438494892022
+        ]
+      ]
+    },
+    "display": {
+      "method": "stable convex hull using solid centre of mass",
+      "stable_pose_probability": 0.1650432942133583,
+      "support_tolerance_mm": 4.85e-05,
+      "contact_vertices": 3,
+      "support_polygon_mm": [
+        [
+          -44.896168,
+          7.181981
+        ],
+        [
+          -0.472689,
+          0.100473
+        ],
+        [
+          -43.935866,
+          11.699851
+        ]
+      ],
+      "centre_of_mass_mm": [
+        -26.258247374597538,
+        5.581362777425341,
+        3.3820725412320956
+      ],
+      "centre_inside_support": true,
+      "stability_margin_mm": 1.3533491424156636,
+      "principal_axis_world": [
+        -0.9776022187054062,
+        0.20779576628900626,
+        0.03338894270011915
+      ],
+      "ground_clearance_mm": 0.0,
+      "grounded_bounds_mm": [
+        [
+          -48.25082808923925,
+          -2.3622507876381102,
+          0.0
+        ],
+        [
+          0.43948824777190176,
+          14.521726636863175,
+          8.102384004986037
+        ]
+      ]
+    }
+  },
+  "meshes": "C:\\gh\\oomp_hardware_bolt_version_5\\parts\\hardware_bolt_m5_45_mm_length\\three_d_model\\.build-d_qm022y\\_render_meshes.npz"
+}

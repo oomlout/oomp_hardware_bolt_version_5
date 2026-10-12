@@ -1,0 +1,287 @@
+{
+  "checked_on": "2026-10-11",
+  "coordinate_system": {
+    "axis": "+Z towards head",
+    "glb_conversion": "(x,y,z) mm -> (x,z,-y)/1000 metres",
+    "glb_units": "metres",
+    "glb_up_axis": "Y",
+    "origin": "tip centre",
+    "stl_units": "mm"
+  },
+  "dimension_status": "standard_dimensions",
+  "dimensional_specification": "ISO 4014:2011",
+  "generator": "iso_4014_hex_bolt",
+  "length_status": "standard_length",
+  "material": {
+    "base_colour_srgb": [
+      0.62,
+      0.65,
+      0.69
+    ],
+    "coat_roughness": 0.28,
+    "coat_weight": 0.02,
+    "metallic": 1.0,
+    "microtexture_height_um": 0.8,
+    "microtexture_spacing_mm": 0.025,
+    "name": "Satin steel",
+    "note": "Visual finish approximation; catalogue specifies colour only.",
+    "roughness": 0.26,
+    "roughness_variation": 0.045
+  },
+  "model_formats": [
+    "stl",
+    "glb"
+  ],
+  "modelling_choices": {
+    "bearing": "Bolt bearing circle and c selected within limits; k includes bearing thickness; fillet tangent to shaft and bearing.",
+    "cavity": "Nut through-bore has a helical internal surface; display keeps minor-diameter bore and mouth chamfers.",
+    "certification": "Nominal visual catalogue model, not manufacturing tolerance certification.",
+    "chamfer": "30 degree outer hex chamfer. Nut mouth included angle 120 degrees. Bolt tip 45 degrees, P/2.",
+    "components": "One closed solid for supported products. Unspecified lock/cage assemblies are not substituted with plain hex nuts.",
+    "dimension_selection": "Nominal bolt head height, max flats/nut height, nominal washer sizes; selected dimensions stored in parameters.",
+    "display": "Smooth nominal external-thread envelope or smooth minor-diameter internal bore; lower angular and fillet tessellation.",
+    "family_note": "Catalogue family mapped to the cited dimensional pattern; exact supplier unspecified.",
+    "markings": "Supplier and property-class markings omitted because catalogue does not identify them.",
+    "runout": "External one-pitch fade to plain shank; full thread ends at underhead fillet.",
+    "thread": "Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External rounded root H/6, internal P/4 crest and P/8 root flats.",
+    "unspecified_geometry": "Nut mouth for supplier rows without limits and flange M3/M4 thickness/rim blends are explicit visual model selections."
+  },
+  "output_folder": "three_d_model",
+  "parameters": {
+    "across_flats_mm": 10,
+    "bearing_diameter_mm": 9.4,
+    "bearing_height_mm": 0.3,
+    "characteristic_dimension_basis": "nominal axial thread diameter",
+    "characteristic_dimension_mm": 6.0,
+    "expected_components": 1,
+    "external_minor_diameter_mm": 4.773130677972045,
+    "family": "bolt",
+    "finish": "satin",
+    "handedness": "right",
+    "head_chamfer_height_mm": 0.4465819873852048,
+    "head_height_mm": 4,
+    "identity": "hardware_bolt_m6_70_mm_length",
+    "internal_minor_diameter_mm": 4.917468245269452,
+    "length_convention": "under-head bearing plane to tip",
+    "length_mm": 70.0,
+    "nominal_diameter_mm": 6.0,
+    "outer_chamfer_angle_degrees": 30.0,
+    "overall_height_mm": 74.0,
+    "pitch_mm": 1,
+    "plain_shank_length_mm": 51.0,
+    "specification": "ISO 4014:2011",
+    "thread_end_z_mm": 19,
+    "thread_flank_angle_degrees": 60.0,
+    "thread_length_mm": 18,
+    "thread_length_reference_mm": 18,
+    "thread_length_table_mm": [
+      18,
+      24,
+      37
+    ],
+    "thread_mode": "partial",
+    "thread_pitch_diameter_mm": 5.350480947161671,
+    "thread_runout_mm": 1,
+    "thread_starts": 1,
+    "tip_chamfer_mm": 0.5,
+    "underhead_fillet_mm": 0.25
+  },
+  "renders": {
+    "high": {
+      "file": "render_high.png",
+      "pixels": 2048,
+      "variant": "full",
+      "view": "isometric"
+    },
+    "low": {
+      "file": "render_low.png",
+      "pixels": 512,
+      "variant": "display",
+      "view": "isometric"
+    },
+    "product_high": {
+      "file": "render_product_high.png",
+      "pixels": 2048,
+      "variant": "full",
+      "view": "product"
+    },
+    "product_low": {
+      "file": "render_product_low.png",
+      "pixels": 512,
+      "variant": "display",
+      "view": "product"
+    }
+  },
+  "schema_version": 1,
+  "source_table": "source_file/standards/catalogue_hardware.yaml",
+  "sources": [
+    {
+      "title": "ISO 4014:2011 fourth edition, figure 1 and table 1, grades A and B",
+      "url": "https://cdn.standards.iteh.ai/samples/56447/be5b2835974246f8868260ebe9f4d621/ISO-4014-2011.pdf"
+    },
+    {
+      "title": "ISO 68-1:1998 basic ISO metric thread profile",
+      "url": "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+    }
+  ],
+  "standard": "ISO 4014:2011",
+  "standard_lengths_mm": [
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    80,
+    90,
+    100,
+    110,
+    120,
+    130,
+    140,
+    150
+  ],
+  "standard_limits": {
+    "across_corners_min_mm": 10.89,
+    "across_flats_mm": [
+      9.64,
+      10
+    ],
+    "bearing_diameter_min_mm": 8.74,
+    "head_height_mm": [
+      3.76,
+      4.24
+    ],
+    "incomplete_thread_max_mm": 2,
+    "outer_chamfer_angle_degrees": [
+      15,
+      30
+    ],
+    "product_grade": "B",
+    "underhead_fillet_min_mm": 0.25
+  },
+  "studio": {
+    "adaptive_threshold": 0.015,
+    "denoise": true,
+    "device": "auto",
+    "engine": "cycles",
+    "exposure": 0.0,
+    "floor_colour_srgb": [
+      0.93,
+      0.935,
+      0.94
+    ],
+    "floor_roughness": 0.55,
+    "framing_margin": 0.13,
+    "high_samples": 160,
+    "lights": [
+      {
+        "colour": [
+          1.0,
+          0.96,
+          0.9
+        ],
+        "height": 5.0,
+        "name": "Key softbox",
+        "position": [
+          -3,
+          -4,
+          6
+        ],
+        "power": 650.0,
+        "width": 4.0
+      },
+      {
+        "colour": [
+          0.9,
+          0.95,
+          1.0
+        ],
+        "height": 4.0,
+        "name": "Fill softbox",
+        "position": [
+          4,
+          -1,
+          3
+        ],
+        "power": 330.0,
+        "width": 3.0
+      },
+      {
+        "colour": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "height": 5.0,
+        "name": "Rim strip",
+        "position": [
+          1,
+          4,
+          4
+        ],
+        "power": 850.0,
+        "width": 1.2
+      }
+    ],
+    "look": "AgX - Medium High Contrast",
+    "low_samples": 48,
+    "poses": {
+      "isometric": {
+        "camera_eye": [
+          1,
+          -1,
+          1
+        ],
+        "orientation": "principal axis Z up",
+        "projection": "orthographic"
+      },
+      "product": {
+        "camera_eye": [
+          -6,
+          -10,
+          6
+        ],
+        "orientation": "lying on side, axial end to left",
+        "projection": "orthographic",
+        "resting_axis": "side",
+        "support": "Stable convex-hull support using actual mesh centre of mass.",
+        "yaw_degrees": -12.0
+      }
+    },
+    "seed": 7991,
+    "view_transform": "AgX",
+    "world_colour": [
+      0.78,
+      0.82,
+      0.9
+    ],
+    "world_strength": 0.35
+  },
+  "units": "mm",
+  "variants": {
+    "display": {
+      "angular_segments": 24,
+      "fillet_segments": 3,
+      "samples_per_pitch": 1
+    },
+    "full": {
+      "angular_segments": 96,
+      "fillet_segments": 12,
+      "samples_per_pitch": 32
+    }
+  },
+  "views": [
+    "isometric",
+    "front",
+    "back",
+    "left",
+    "right",
+    "top",
+    "bottom"
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "artifacts": {
+    "display/back.svg": {
+      "bytes": 4382,
+      "sha256": "548bbc52dbb2df221b2d70ba3a76a690ffe268048b8eaf106fff845934028f5e"
+    },
+    "display/bottom.svg": {
+      "bytes": 4291,
+      "sha256": "ecc281d541950a5fa02798a99f702e2d4e74f9fed856ea57572c0c76e36a75ea"
+    },
+    "display/front.svg": {
+      "bytes": 4385,
+      "sha256": "b8b8bdbdb0426df84506ab6ccd38a0e021804954fbdba77d34e01066c411c491"
+    },
+    "display/isometric.svg": {
+      "bytes": 3969,
+      "sha256": "30b6cb05995e2f1257239ba91403626219f42deb9e2c02879a2414adc5baf9f6"
+    },
+    "display/left.svg": {
+      "bytes": 4348,
+      "sha256": "8cba9dbf29b403ecb6bb3b8edae2d4bf73f8f90c439033f3a78c2f872af16134"
+    },
+    "display/right.svg": {
+      "bytes": 4339,
+      "sha256": "6d0b333f72c05ff6e16c6ee44d9c1e4c04ce43fa35d4eadb31758fdc651cd450"
+    },
+    "display/top.svg": {
+      "bytes": 4284,
+      "sha256": "ff81cc5fa133e951211440f17b31d4f623ba0afe0ab1669239766b2414000d7e"
+    },
+    "full/back.svg": {
+      "bytes": 12008,
+      "sha256": "304b1df1b2b2398305931acc0abe360eacebd8539a47503ce80cbef73d1a3b33"
+    },
+    "full/bottom.svg": {
+      "bytes": 22782,
+      "sha256": "d03dfea5a8c9e47b0d0b75bcc5a401f673f0f0149916dbe3e20f13589552c2b7"
+    },
+    "full/front.svg": {
+      "bytes": 12011,
+      "sha256": "4c80df932e22bba47d03e713ce02f3a9e95790af8e78eb7ed7163853b26e445c"
+    },
+    "full/isometric.svg": {
+      "bytes": 18047,
+      "sha256": "592a61a16b5845fed165daafe1b806ca3bf5ac466f1994a43a9074176b9d10a8"
+    },
+    "full/left.svg": {
+      "bytes": 11974,
+      "sha256": "653043d049c99391d87db33f3f2033153889a7cc768eb145994b5d448cbf34b4"
+    },
+    "full/right.svg": {
+      "bytes": 11965,
+      "sha256": "b267df30d4e70d21b1d5276dc00aefbf8352de75efbd0ce450c22e92a37d52a7"
+    },
+    "full/top.svg": {
+      "bytes": 22718,
+      "sha256": "05144635b5cec6b48d980004c0ee04377064a4615070c8d5872169cba3371383"
+    },
+    "model.py": {
+      "bytes": 15158,
+      "sha256": "8d00b9b5fd12920aa45c50443c6f25360b662f66919d8a68b5267462655fc1aa"
+    },
+    "model_display.glb": {
+      "bytes": 11444,
+      "sha256": "ebdfa5618d6834f2f3d4eb2f1a85587bea3d8426adab3360764a3122ed2f1997"
+    },
+    "model_display.stl": {
+      "bytes": 26084,
+      "sha256": "b0055eb48b0074d50b535f4ffa2e70f35577af7b3228c3ad01233762d72e3384"
+    },
+    "model_full.glb": {
+      "bytes": 347548,
+      "sha256": "f3110d7938f8f60fa65a96f07bd41edff2f2a36e466b21891a8162f47a527df3"
+    },
+    "model_full.stl": {
+      "bytes": 959684,
+      "sha256": "360d8b69752ff12728a9b36d9f92a85b534f5f190f7982dfa17febcd36dfa085"
+    },
+    "parameters.json": {
+      "bytes": 7196,
+      "sha256": "bcfd7c3a51ca9d4e4840e892ce829b355e0e1fe706a8b3d8847f8f1a49d3fa5c"
+    },
+    "render_high.png": {
+      "bytes": 3516645,
+      "sha256": "2942b95306aebf9dd41bd57b0d8c39b0fd9067206528dc7b3b6bca3fe190dbee"
+    },
+    "render_low.png": {
+      "bytes": 234123,
+      "sha256": "9517f7be722be1f5a2038c6e368ead4013d1b5890fd7bed742355ebaab2c7af9"
+    },
+    "render_product_high.png": {
+      "bytes": 3653400,
+      "sha256": "a394f1c4430f4cc515a5fd22b41ff6371b007e7a2b8e1a1e49c84e7631167399"
+    },
+    "render_product_low.png": {
+      "bytes": 247251,
+      "sha256": "4298e1cbef4cf4070dce37256574d10202fe0aeb7f2528fff2f29f9567d5c792"
+    },
+    "render_scene.json": {
+      "bytes": 27536,
+      "sha256": "aa9636b301c2b3e03d67e8b0e4cb4c0763e178fb04d6c62215c504f03bbaab78"
+    },
+    "requirements.txt": {
+      "bytes": 159,
+      "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
+    },
+    "studio.blend": {
+      "bytes": 514118,
+      "sha256": "d87679898fc361ed97be9e4101ab0c91734466ba2a4c8723622627a55a2e1f48"
+    }
+  },
+  "coordinate_system": {
+    "axis": "+Z along bore",
+    "glb_conversion": "(x,y,z) mm -> (x,z,-y)/1000 metres",
+    "glb_units": "metres",
+    "glb_up_axis": "Y",
+    "origin": "lower face centre",
+    "stl_units": "mm"
+  },
+  "dimension_status": "manufacturer_dimensions",
+  "fingerprint": "eeb87588be0a6c48586db2fb6809f4e2acdd27c6779a96b85ccea111ba63c0e2",
+  "generator": "supplier_hex_nut",
+  "length_status": "not_applicable",
+  "models": {
+    "display": {
+      "bounds_mm": [
+        [
+          -1.4433757066726685,
+          -1.25,
+          0.0
+        ],
+        [
+          1.4433757066726685,
+          1.25,
+          0.800000011920929
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        2.886751413345337,
+        2.5,
+        0.800000011920929
+      ],
+      "triangles": 520,
+      "vertices": 260,
+      "volume_mm3": 3.919445761803876,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "full": {
+      "bounds_mm": [
+        [
+          -1.4433757066726685,
+          -1.25,
+          0.0
+        ],
+        [
+          1.4433757066726685,
+          1.25,
+          0.800000011920929
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        2.886751413345337,
+        2.5,
+        0.800000011920929
+      ],
+      "triangles": 19192,
+      "vertices": 9596,
+      "volume_mm3": 3.8158787729428814,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  },
+  "recipe_fingerprint": "807ef5e661fcef6501e40443126f041e228e10ec48b20d4c8a3c302c6dd07bee",
+  "schema_version": 1,
+  "source_fingerprint": "94573d90e337026741855aba77bdbc908a7bfc40037501588568108c3f90e6a3",
+  "sources": [
+    {
+      "title": "Accu HPN-M1-A1-BL miniature nut dimensional specification",
+      "url": "https://www.accu.co.uk/hexagon-nuts/154926-HPN-M1-A1-BL"
+    },
+    {
+      "title": "Accu HPN-M1.4-A1 miniature nut dimensional specification",
+      "url": "https://www.accu.co.uk/hexagon-nuts/7881-HPN-M1-4-A1"
+    },
+    {
+      "title": "ISO 68-1:1998 basic ISO metric thread profile",
+      "url": "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+    }
+  ],
+  "standard": null
+}

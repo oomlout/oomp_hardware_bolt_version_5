@@ -1,0 +1,190 @@
+{
+  "artifacts": {
+    "display/back.svg": {
+      "bytes": 7113,
+      "sha256": "771b4a6024b0606a721971c131de5726be753d2988e7717dbb5443ba7fa747ef"
+    },
+    "display/bottom.svg": {
+      "bytes": 6698,
+      "sha256": "108de4a7e1f3ebc4a59c7e9a4f343ece30d1ec6ae7298debcaf3cc44215460c3"
+    },
+    "display/front.svg": {
+      "bytes": 7116,
+      "sha256": "693ea05f0cc42eb290fc15d1cafcdd04e16bb1fd10d8545986bb7898adadb66f"
+    },
+    "display/isometric.svg": {
+      "bytes": 5279,
+      "sha256": "93a95e767c7f472404af1e44252b170f753bfad1062e03634ea28c1644e9d3eb"
+    },
+    "display/left.svg": {
+      "bytes": 6964,
+      "sha256": "39c14cbe1dcda14594fb79ff8fb7785b861e419c0c920b16dfab2aa7cadb205e"
+    },
+    "display/right.svg": {
+      "bytes": 6947,
+      "sha256": "ac5ba89ba4eeea2afb12981ed05809cec311f54b7b41b29377e7c7a126dccf74"
+    },
+    "display/top.svg": {
+      "bytes": 2771,
+      "sha256": "8079318ef2ae5b17b38b3b28a4c51f066233dbb8728ef19bfd78537cc7634590"
+    },
+    "full/back.svg": {
+      "bytes": 241759,
+      "sha256": "7b63227b2fd99cf15291d504a0753e71beff08f1cfbd74df0e8a280c09b00c28"
+    },
+    "full/bottom.svg": {
+      "bytes": 352839,
+      "sha256": "047e3d30a16c2779e3df5e0e7ff054c31fe0e9096b9044513b4791507c69f09c"
+    },
+    "full/front.svg": {
+      "bytes": 246030,
+      "sha256": "e3d509732869f37211adeecabba3555bcb2e3437f3b38354de9547e4e31d783b"
+    },
+    "full/isometric.svg": {
+      "bytes": 226465,
+      "sha256": "e5c93f0eaae34f4668dd79e7395b2a1ce53cde383395fba3724c34b561ed610d"
+    },
+    "full/left.svg": {
+      "bytes": 244106,
+      "sha256": "2411c1109407f5ddcb6c69ad895730601eee96b457474c5db129c3c09a13b78b"
+    },
+    "full/right.svg": {
+      "bytes": 244186,
+      "sha256": "d5e04771e2320400843cb95c5c2fb66cf789275cbd4741b1b3400311e87e66d5"
+    },
+    "full/top.svg": {
+      "bytes": 6755,
+      "sha256": "bc7cdb3b633d6e50dd07d550fbc08ccb672f401f2a6b36047568de66d43d7f61"
+    },
+    "model.py": {
+      "bytes": 15158,
+      "sha256": "8d00b9b5fd12920aa45c50443c6f25360b662f66919d8a68b5267462655fc1aa"
+    },
+    "model_display.glb": {
+      "bytes": 29096,
+      "sha256": "882515231f440bc326ee5b729996c5f30a9bc39da453c7ad37885017d4ab0cab"
+    },
+    "model_display.stl": {
+      "bytes": 74484,
+      "sha256": "077bdb1af736d23f78ba75454dffab8fb9cffaee1a76efdc188ef6b4033d264a"
+    },
+    "model_full.glb": {
+      "bytes": 2386964,
+      "sha256": "ded63cba773cee2b0d2b42d44bf4a5a1fad486d61e3b9e6458d45c4c0c6e578b"
+    },
+    "model_full.stl": {
+      "bytes": 6624084,
+      "sha256": "f9c82140c421ca85a4dc5e6bead84a412bd806a579fb469e2496989ebe7a0f21"
+    },
+    "parameters.json": {
+      "bytes": 7807,
+      "sha256": "03a6d28ebd93c6f7917bf0a25349caccbef9076de07e6f61a0549c2267dea670"
+    },
+    "render_high.png": {
+      "bytes": 3515191,
+      "sha256": "97ef7f303b8b0da2c108eab34cf6c135b0df72eabc3b96be6542f28f88e3f707"
+    },
+    "render_low.png": {
+      "bytes": 219639,
+      "sha256": "025ce67e55aa9e5f5e18d565d14071370359f30576124dee0d65af47b9bdb8b2"
+    },
+    "render_product_high.png": {
+      "bytes": 3463928,
+      "sha256": "ae56165f27281bff7ce5875f50eec4de7d4a6b7acfaeeac7259f348ace7ceb35"
+    },
+    "render_product_low.png": {
+      "bytes": 221367,
+      "sha256": "c891ea7700a730c7507e0c3a015e274656184faceff65f9eb7ead3c3ae01d49d"
+    },
+    "render_scene.json": {
+      "bytes": 12868,
+      "sha256": "72baf5962e7112deaf0f4aeb0e8ebc0ebe2e4277f133d5113abf451a6b6f5fa3"
+    },
+    "requirements.txt": {
+      "bytes": 159,
+      "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
+    },
+    "studio.blend": {
+      "bytes": 2934652,
+      "sha256": "1b49c6ad034e2c26387d57c24dfa8b57cc7fca645959bc73ec510838a8817bc9"
+    }
+  },
+  "coordinate_system": {
+    "axis": "+Z towards head",
+    "glb_conversion": "(x,y,z) mm -> (x,z,-y)/1000 metres",
+    "glb_units": "metres",
+    "glb_up_axis": "Y",
+    "origin": "tip centre",
+    "stl_units": "mm"
+  },
+  "dimension_status": "standard_dimensions",
+  "fingerprint": "7fb511710ee32bcbd3730d1737d34230546d9516246bfcb50c2dff1b2211718f",
+  "generator": "iso_4014_hex_bolt",
+  "length_status": "standard_length",
+  "models": {
+    "display": {
+      "bounds_mm": [
+        [
+          -4.041451930999756,
+          -3.5,
+          0.0
+        ],
+        [
+          4.041451930999756,
+          3.5,
+          42.79999923706055
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        8.082903861999512,
+        7.0,
+        42.79999923706055
+      ],
+      "triangles": 1488,
+      "vertices": 746,
+      "volume_mm3": 612.0822825788413,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "full": {
+      "bounds_mm": [
+        [
+          -4.041451930999756,
+          -3.5,
+          0.0
+        ],
+        [
+          4.041451930999756,
+          3.5,
+          42.79999923706055
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        8.082903861999512,
+        7.0,
+        42.79999923706055
+      ],
+      "triangles": 132480,
+      "vertices": 66242,
+      "volume_mm3": 581.2932052360699,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  },
+  "recipe_fingerprint": "b77551efaa5cd0a6cac95d8aca67b211e935b597343947c2454bf67d3be89a0c",
+  "schema_version": 1,
+  "source_fingerprint": "94573d90e337026741855aba77bdbc908a7bfc40037501588568108c3f90e6a3",
+  "sources": [
+    {
+      "title": "ISO 4014:2011 fourth edition, figure 1 and table 1, grades A and B",
+      "url": "https://cdn.standards.iteh.ai/samples/56447/be5b2835974246f8868260ebe9f4d621/ISO-4014-2011.pdf"
+    },
+    {
+      "title": "ISO 68-1:1998 basic ISO metric thread profile",
+      "url": "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+    }
+  ],
+  "standard": "ISO 4014:2011"
+}

@@ -1,0 +1,194 @@
+{
+  "artifacts": {
+    "display/back.svg": {
+      "bytes": 4495,
+      "sha256": "d4676b70b6798d88fa46826d4d54ac7af0ae81810e4f3aaf7764c1007c870093"
+    },
+    "display/bottom.svg": {
+      "bytes": 3685,
+      "sha256": "44753db22e008f40381ad40b4e9b57bad1c4fe0d2624270f291fa90a98229645"
+    },
+    "display/front.svg": {
+      "bytes": 4498,
+      "sha256": "9613d5b132393eccd776df8c545679724f3dd4e2db79c67c15d5a5e97c186deb"
+    },
+    "display/isometric.svg": {
+      "bytes": 3904,
+      "sha256": "f447f1686e928f042a1bdce511a486f66e21ca5f6b040b6c0b6a063e89e91ec7"
+    },
+    "display/left.svg": {
+      "bytes": 4312,
+      "sha256": "039973dcb31deee4d97c6656a70d71018c13b1cf2bc38758477146515ba32e49"
+    },
+    "display/right.svg": {
+      "bytes": 4303,
+      "sha256": "ce06f9336c74f2098aaabcb4eca98f98a7f8835585cfc67afa1cb1470be7df62"
+    },
+    "display/top.svg": {
+      "bytes": 3678,
+      "sha256": "df7675da039cb917174ade715474b873c1be310019ce0fcdd96b36b7bc85ec0e"
+    },
+    "full/back.svg": {
+      "bytes": 12485,
+      "sha256": "969c42bedd2e8e2874fb0096dea7086a3c7eaab7c75a23faf764379b6c9a2ac8"
+    },
+    "full/bottom.svg": {
+      "bytes": 86660,
+      "sha256": "20744bb7b7141a1cb9d04954136f1889e7d9e1669f098e26134d3346abcfa909"
+    },
+    "full/front.svg": {
+      "bytes": 12488,
+      "sha256": "0f8710c71b3745aeb16a8a71e626d1306b2c8428801bb452d87cc115ff31a99e"
+    },
+    "full/isometric.svg": {
+      "bytes": 21807,
+      "sha256": "d2a4fa42828dbf56e0e21fa078a84116a1bae08b158da23fdca16498df84ec5d"
+    },
+    "full/left.svg": {
+      "bytes": 12302,
+      "sha256": "9cff5fdeb53388e15512bb9eaaedb7da22044473c29f79e488ffd024323f3eeb"
+    },
+    "full/right.svg": {
+      "bytes": 12293,
+      "sha256": "e6eba81d2d80cf6531542edca77c27d87cdb4995e66da0b6d511547144b36d97"
+    },
+    "full/top.svg": {
+      "bytes": 86656,
+      "sha256": "82dfca5cb896cbfde453be1dac6c0eafb9c22988e1fe3c1c2064a56b966a324d"
+    },
+    "model.py": {
+      "bytes": 15158,
+      "sha256": "8d00b9b5fd12920aa45c50443c6f25360b662f66919d8a68b5267462655fc1aa"
+    },
+    "model_display.glb": {
+      "bytes": 24128,
+      "sha256": "04a5ff249d79dbdebecaeda47b392a2140a57557b52b7db6a1400fcac6c65130"
+    },
+    "model_display.stl": {
+      "bytes": 61284,
+      "sha256": "f28c2658024c4af49d5a1cbfd7af1ea4505bcdabc9cf5986df3045b9b92f213d"
+    },
+    "model_full.glb": {
+      "bytes": 2092556,
+      "sha256": "96d5d24811c00612c47d12be930161b59b758df049d9389a7b997bd1584abcf9"
+    },
+    "model_full.stl": {
+      "bytes": 5806884,
+      "sha256": "f71827ebd6a2f07407e7b915319040cb4ccb6f46476e252555a5d5624303179c"
+    },
+    "parameters.json": {
+      "bytes": 7149,
+      "sha256": "8b0ef7164b9cea2cce4a3a33c70b3e3219f08939f33db1af186f5b8ad385c74c"
+    },
+    "render_high.png": {
+      "bytes": 3496674,
+      "sha256": "5b5b23ba5a8236b5014e1f40292fa1d066e5cf1d4e267cda1b95add574019b0e"
+    },
+    "render_low.png": {
+      "bytes": 233317,
+      "sha256": "e31909c6b8273d613186ca6d4568a43e7849e8aad8db803510d3d8f2be95189e"
+    },
+    "render_product_high.png": {
+      "bytes": 3682324,
+      "sha256": "1b031e606a3e9db24c3c618c892cd34b1ceec3b710b6a0c9c4571a01bb5a2ce1"
+    },
+    "render_product_low.png": {
+      "bytes": 230841,
+      "sha256": "a1ddbd1cae07c3228700e198960c6f22fd5dbbf19d980ccd629e4af56ce75759"
+    },
+    "render_scene.json": {
+      "bytes": 17709,
+      "sha256": "56519c771185d2eacf5e61f5f0292954d5d2b7ea8d4bffa0769f00fef448a4da"
+    },
+    "requirements.txt": {
+      "bytes": 159,
+      "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
+    },
+    "studio.blend": {
+      "bytes": 2612341,
+      "sha256": "4c54824466846e87c5e3aff4328fe44edf8c9f9ea037e7ce83658f4f8243520f"
+    }
+  },
+  "coordinate_system": {
+    "axis": "+Z along bore",
+    "glb_conversion": "(x,y,z) mm -> (x,z,-y)/1000 metres",
+    "glb_units": "metres",
+    "glb_up_axis": "Y",
+    "origin": "lower face centre",
+    "stl_units": "mm"
+  },
+  "dimension_status": "manufacturer_dimensions",
+  "fingerprint": "0ba73d9a39b7cf22acf35cc1818459585d0d3e5b02e72d75436aab353b093df9",
+  "generator": "supplier_coupling_nut",
+  "length_status": "not_applicable",
+  "models": {
+    "display": {
+      "bounds_mm": [
+        [
+          -4.618802070617676,
+          -4.0,
+          0.0
+        ],
+        [
+          4.618802070617676,
+          4.0,
+          15.0
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        9.237604141235352,
+        8.0,
+        15.0
+      ],
+      "triangles": 1224,
+      "vertices": 612,
+      "volume_mm3": 628.7963809953513,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "full": {
+      "bounds_mm": [
+        [
+          -4.618802070617676,
+          -4.0,
+          0.0
+        ],
+        [
+          4.618802070617676,
+          4.0,
+          15.0
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        9.237604141235352,
+        8.0,
+        15.0
+      ],
+      "triangles": 116136,
+      "vertices": 58068,
+      "volume_mm3": 588.0543671955243,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  },
+  "recipe_fingerprint": "b9799c1a03566a67568646cc720771db838ed3577a7204455e5ae3fcb5c26db0",
+  "schema_version": 1,
+  "source_fingerprint": "94573d90e337026741855aba77bdbc908a7bfc40037501588568108c3f90e6a3",
+  "sources": [
+    {
+      "title": "Westfield hexagon studding connector nut datasheet",
+      "url": "https://www.westfieldfasteners.co.uk/Datasheets/Nut_HexLong_M.pdf"
+    },
+    {
+      "title": "TOBSTEEL 2019 catalogue, commercial article 6334; explicitly not a DIN standard",
+      "url": "https://www.tobsteel.com/divi/wp-content/uploads/2019/01/TOBcatalog-2019.pdf"
+    },
+    {
+      "title": "ISO 68-1:1998 basic ISO metric thread profile",
+      "url": "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+    }
+  ],
+  "standard": null
+}

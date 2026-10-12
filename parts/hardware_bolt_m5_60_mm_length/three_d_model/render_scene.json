@@ -1,0 +1,567 @@
+{
+  "engine": "Cycles",
+  "blender_version": "5.2.2 LTS",
+  "device": "GPU",
+  "material": {
+    "base_colour_srgb": [
+      0.62,
+      0.65,
+      0.69
+    ],
+    "coat_roughness": 0.28,
+    "coat_weight": 0.02,
+    "metallic": 1.0,
+    "microtexture_height_um": 0.8,
+    "microtexture_spacing_mm": 0.025,
+    "name": "Satin steel",
+    "note": "Visual finish approximation; catalogue specifies colour only.",
+    "roughness": 0.26,
+    "roughness_variation": 0.045
+  },
+  "studio": {
+    "adaptive_threshold": 0.015,
+    "denoise": true,
+    "device": "auto",
+    "engine": "cycles",
+    "exposure": 0.0,
+    "floor_colour_srgb": [
+      0.93,
+      0.935,
+      0.94
+    ],
+    "floor_roughness": 0.55,
+    "framing_margin": 0.13,
+    "high_samples": 160,
+    "lights": [
+      {
+        "colour": [
+          1.0,
+          0.96,
+          0.9
+        ],
+        "height": 5.0,
+        "name": "Key softbox",
+        "position": [
+          -3,
+          -4,
+          6
+        ],
+        "power": 650.0,
+        "width": 4.0
+      },
+      {
+        "colour": [
+          0.9,
+          0.95,
+          1.0
+        ],
+        "height": 4.0,
+        "name": "Fill softbox",
+        "position": [
+          4,
+          -1,
+          3
+        ],
+        "power": 330.0,
+        "width": 3.0
+      },
+      {
+        "colour": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "height": 5.0,
+        "name": "Rim strip",
+        "position": [
+          1,
+          4,
+          4
+        ],
+        "power": 850.0,
+        "width": 1.2
+      }
+    ],
+    "look": "AgX - Medium High Contrast",
+    "low_samples": 48,
+    "poses": {
+      "isometric": {
+        "camera_eye": [
+          1,
+          -1,
+          1
+        ],
+        "orientation": "principal axis Z up",
+        "projection": "orthographic"
+      },
+      "product": {
+        "camera_eye": [
+          -6,
+          -10,
+          6
+        ],
+        "orientation": "lying on side, axial end to left",
+        "projection": "orthographic",
+        "resting_axis": "side",
+        "support": "Stable convex-hull support using actual mesh centre of mass.",
+        "yaw_degrees": -12.0
+      }
+    },
+    "seed": 7991,
+    "view_transform": "AgX",
+    "world_colour": [
+      0.78,
+      0.82,
+      0.9
+    ],
+    "world_strength": 0.35
+  },
+  "poses": {
+    "isometric": {
+      "camera_eye": [
+        1,
+        -1,
+        1
+      ],
+      "projection": "orthographic",
+      "floor_z": 0.0,
+      "normalized_unit_mm": 5.0,
+      "normalization_basis": "nominal axial thread diameter",
+      "rig_scale": 7.619999885559082,
+      "orthographic_scale": 14.969701766967773,
+      "projected_span": 11.07757928921318,
+      "framing_margin": 0.13,
+      "framing": {
+        "full": {
+          "max_frame_fraction": 0.7900002120299636,
+          "bounds_normalized": [
+            [
+              -0.9237604141235352,
+              -0.800000011920929,
+              0.0
+            ],
+            [
+              0.9237604141235352,
+              0.800000011920929,
+              12.699999809265137
+            ]
+          ]
+        },
+        "display": {
+          "max_frame_fraction": 0.7899045381613432,
+          "bounds_normalized": [
+            [
+              -0.9237604141235352,
+              -0.800000011920929,
+              0.0
+            ],
+            [
+              0.9237604141235352,
+              0.800000011920929,
+              12.699999809265137
+            ]
+          ]
+        }
+      },
+      "object_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "variant_object_matrices": {
+        "full": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "display": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "variant_ground_clearance_mm": {
+        "full": 0.0,
+        "display": 0.0
+      },
+      "ground_clearance_mm": 0.0
+    },
+    "product": {
+      "camera_eye": [
+        -6,
+        -10,
+        6
+      ],
+      "projection": "orthographic",
+      "floor_z": 0.0,
+      "normalized_unit_mm": 5.0,
+      "normalization_basis": "nominal axial thread diameter",
+      "rig_scale": 7.604376549384327,
+      "orthographic_scale": 16.76275062561035,
+      "projected_span": 12.404435395063427,
+      "framing_margin": 0.13,
+      "framing": {
+        "full": {
+          "max_frame_fraction": 0.7400008282653413,
+          "bounds_normalized": [
+            [
+              -12.586042115895253,
+              -0.4630929996516926,
+              -8.465104062160833e-09
+            ],
+            [
+              0.08791879974529226,
+              3.5283729893793314,
+              1.6155264920423305
+            ]
+          ]
+        },
+        "display": {
+          "max_frame_fraction": 0.7399564049039117,
+          "bounds_normalized": [
+            [
+              -12.584910873561318,
+              -0.4724461077434732,
+              3.9686298691776756e-09
+            ],
+            [
+              0.08732291108142509,
+              3.528373780888508,
+              1.615520269097754
+            ]
+          ]
+        }
+      },
+      "object_matrix": [
+        [
+          -0.08274077624082565,
+          0.192305326461792,
+          -0.977840781211853,
+          0.0
+        ],
+        [
+          -0.49358320236206055,
+          0.8444971442222595,
+          0.2078464776277542,
+          0.0
+        ],
+        [
+          0.8657537698745728,
+          0.49984315037727356,
+          0.025044331327080727,
+          0.49771443009376526
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "variant_object_matrices": {
+        "full": [
+          [
+            -0.08274077624082565,
+            0.192305326461792,
+            -0.977840781211853,
+            0.0
+          ],
+          [
+            -0.49358320236206055,
+            0.8444971442222595,
+            0.2078464776277542,
+            0.0
+          ],
+          [
+            0.8657537698745728,
+            0.49984315037727356,
+            0.025044331327080727,
+            0.49771443009376526
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "display": [
+          [
+            0.0827496200799942,
+            -0.1923002302646637,
+            -0.9778410792350769,
+            0.0
+          ],
+          [
+            0.4935813248157501,
+            -0.8444982767105103,
+            0.207846537232399,
+            0.0
+          ],
+          [
+            -0.8657540082931519,
+            -0.4998432993888855,
+            0.02503388561308384,
+            0.49784064292907715
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "variant_ground_clearance_mm": {
+        "full": -4.2325520310804166e-08,
+        "display": 1.9843149345888378e-08
+      },
+      "ground_clearance_mm": 0.0,
+      "method": "stable convex hull using solid centre of mass",
+      "stable_pose_probability": 0.16568949841622674,
+      "support_tolerance_mm": 6.35e-05,
+      "contact_vertices": 3,
+      "support_polygon_mm": [
+        [
+          -59.541939,
+          10.295035
+        ],
+        [
+          -0.476825,
+          0.101352
+        ],
+        [
+          -58.581636,
+          14.812906
+        ]
+      ],
+      "centre_of_mass_mm": [
+        -34.84551338713095,
+        7.40682866407252,
+        3.380837190294364
+      ],
+      "centre_inside_support": true,
+      "stability_margin_mm": 1.3536167145924785,
+      "principal_axis_world": [
+        -0.9778407964488821,
+        0.20784647755385047,
+        0.025044332066811427
+      ],
+      "grounded_bounds_mm": [
+        [
+          -62.930212489044955,
+          -2.3154650464880446,
+          0.0
+        ],
+        [
+          0.4395940199482673,
+          17.641865179131884,
+          8.077632506264246
+        ]
+      ],
+      "variant_supports": {
+        "display": {
+          "method": "stable convex hull using solid centre of mass",
+          "stable_pose_probability": 0.1657425688113041,
+          "support_tolerance_mm": 6.35e-05,
+          "contact_vertices": 3,
+          "support_polygon_mm": [
+            [
+              -59.541914,
+              10.29503
+            ],
+            [
+              -0.452354,
+              0.096151
+            ],
+            [
+              -58.581611,
+              14.8129
+            ]
+          ],
+          "centre_of_mass_mm": [
+            -33.715324593109884,
+            7.16641347110018,
+            3.352355185944055
+          ],
+          "centre_inside_support": true,
+          "stability_margin_mm": 1.3096965983643072,
+          "principal_axis_world": [
+            -0.9778410523722173,
+            0.20784653195203467,
+            0.025033886056831548
+          ],
+          "ground_clearance_mm": 0.0,
+          "grounded_bounds_mm": [
+            [
+              -62.92455357618944,
+              -2.3622304809396026,
+              0.0
+            ],
+            [
+              0.43661454582584464,
+              17.641868613981988,
+              8.07760117215083
+            ]
+          ]
+        },
+        "full": {
+          "method": "stable convex hull using solid centre of mass",
+          "stable_pose_probability": 0.16568949841622674,
+          "support_tolerance_mm": 6.35e-05,
+          "contact_vertices": 3,
+          "support_polygon_mm": [
+            [
+              -59.541939,
+              10.295035
+            ],
+            [
+              -0.476825,
+              0.101352
+            ],
+            [
+              -58.581636,
+              14.812906
+            ]
+          ],
+          "centre_of_mass_mm": [
+            -34.84551338713095,
+            7.40682866407252,
+            3.380837190294364
+          ],
+          "centre_inside_support": true,
+          "stability_margin_mm": 1.3536167145924785,
+          "principal_axis_world": [
+            -0.9778407964488821,
+            0.20784647755385047,
+            0.025044332066811427
+          ],
+          "ground_clearance_mm": 0.0,
+          "grounded_bounds_mm": [
+            [
+              -62.930212489044955,
+              -2.3154650464880446,
+              0.0
+            ],
+            [
+              0.4395940199482673,
+              17.641865179131884,
+              8.077632506264246
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "renders": {
+    "high": {
+      "file": "render_high.png",
+      "pixels": 2048,
+      "variant": "full",
+      "view": "isometric"
+    },
+    "low": {
+      "file": "render_low.png",
+      "pixels": 512,
+      "variant": "display",
+      "view": "isometric"
+    },
+    "product_high": {
+      "file": "render_product_high.png",
+      "pixels": 2048,
+      "variant": "full",
+      "view": "product"
+    },
+    "product_low": {
+      "file": "render_product_low.png",
+      "pixels": 512,
+      "variant": "display",
+      "view": "product"
+    }
+  },
+  "render_statistics": {
+    "high": {
+      "seconds": 31.41,
+      "denoiser": "OPTIX",
+      "samples": 160
+    },
+    "low": {
+      "seconds": 1.192,
+      "denoiser": "OPTIX",
+      "samples": 48
+    },
+    "product_high": {
+      "seconds": 32.153,
+      "denoiser": "OPTIX",
+      "samples": 160
+    },
+    "product_low": {
+      "seconds": 0.664,
+      "denoiser": "OPTIX",
+      "samples": 48
+    }
+  }
+}

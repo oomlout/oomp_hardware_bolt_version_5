@@ -1,0 +1,8 @@
+# Independent of the external OOMP/OOBB toolchain.
+numpy>=2.0,<3
+scipy>=1.13,<2
+trimesh>=4.6,<6
+manifold3d>=3,<4
+Pillow>=10,<13
+PyYAML>=6,<7
+numba>=0.61,<0.66
