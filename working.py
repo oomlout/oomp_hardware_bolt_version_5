@@ -48,6 +48,10 @@ def run(**kwargs):
         import working_svg
         working_svg.main(**kwargs)
 
+    if kwargs.get("run_three_d_model", True):
+        import working_three_d_model
+        working_three_d_model.main(**kwargs)
+
     if kwargs.get("run_action", True):
         import working_action
         working_action.main(**kwargs)    

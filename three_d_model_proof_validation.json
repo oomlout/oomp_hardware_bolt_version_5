@@ -1,0 +1,247 @@
+[
+  {
+    "identity": "hardware_nut_m1",
+    "triangles": {
+      "display": 520,
+      "full": 19192
+    },
+    "dimensions_mm": [
+      2.886751413345337,
+      2.5,
+      0.800000011920929
+    ],
+    "device": "GPU",
+    "render_statistics": {
+      "low": {
+        "seconds": 0.649,
+        "denoiser": "OPTIX",
+        "samples": 48
+      },
+      "high": {
+        "seconds": 10.571,
+        "denoiser": "OPTIX",
+        "samples": 160
+      },
+      "product_low": {
+        "seconds": 0.518,
+        "denoiser": "OPTIX",
+        "samples": 48
+      },
+      "product_high": {
+        "seconds": 21.231,
+        "denoiser": "OPTIX",
+        "samples": 160
+      }
+    }
+  },
+  {
+    "identity": "hardware_set_screw_m3_8_mm_length",
+    "triangles": {
+      "display": 1248,
+      "full": 100800
+    },
+    "dimensions_mm": [
+      6.350852966308594,
+      5.5,
+      10.0
+    ],
+    "device": "GPU",
+    "render_statistics": {
+      "low": {
+        "seconds": 1.443,
+        "denoiser": "OPTIX",
+        "samples": 48
+      },
+      "high": {
+        "seconds": 26.434,
+        "denoiser": "OPTIX",
+        "samples": 160
+      },
+      "product_low": {
+        "seconds": 1.046,
+        "denoiser": "OPTIX",
+        "samples": 48
+      },
+      "product_high": {
+        "seconds": 38.724,
+        "denoiser": "OPTIX",
+        "samples": 160
+      }
+    }
+  },
+  {
+    "identity": "hardware_bolt_m8_150_mm_length",
+    "triangles": {
+      "display": 1680,
+      "full": 147648
+    },
+    "dimensions_mm": [
+      15.011107444763184,
+      13.0,
+      155.3000030517578
+    ],
+    "device": "GPU",
+    "render_statistics": {
+      "low": {
+        "seconds": 1.669,
+        "denoiser": "OPTIX",
+        "samples": 48
+      },
+      "high": {
+        "seconds": 21.079,
+        "denoiser": "OPTIX",
+        "samples": 160
+      },
+      "product_low": {
+        "seconds": 1.19,
+        "denoiser": "OPTIX",
+        "samples": 48
+      },
+      "product_high": {
+        "seconds": 31.749,
+        "denoiser": "OPTIX",
+        "samples": 160
+      }
+    }
+  },
+  {
+    "identity": "hardware_nut_m3_flanged",
+    "triangles": {
+      "display": 996,
+      "full": 51706
+    },
+    "dimensions_mm": [
+      7.800000190734863,
+      7.800000190734863,
+      3.799999952316284
+    ],
+    "device": "GPU",
+    "render_statistics": {
+      "low": {
+        "seconds": 1.383,
+        "denoiser": "OPTIX",
+        "samples": 48
+      },
+      "high": {
+        "seconds": 39.092,
+        "denoiser": "OPTIX",
+        "samples": 160
+      },
+      "product_low": {
+        "seconds": 0.501,
+        "denoiser": "OPTIX",
+        "samples": 48
+      },
+      "product_high": {
+        "seconds": 11.583,
+        "denoiser": "OPTIX",
+        "samples": 160
+      }
+    }
+  },
+  {
+    "identity": "hardware_nut_m8_coupling",
+    "triangles": {
+      "display": 1280,
+      "full": 119024
+    },
+    "dimensions_mm": [
+      15.011107444763184,
+      13.0,
+      24.0
+    ],
+    "device": "GPU",
+    "render_statistics": {
+      "low": {
+        "seconds": 1.238,
+        "denoiser": "OPTIX",
+        "samples": 48
+      },
+      "high": {
+        "seconds": 39.832,
+        "denoiser": "OPTIX",
+        "samples": 160
+      },
+      "product_low": {
+        "seconds": 1.3,
+        "denoiser": "OPTIX",
+        "samples": 48
+      },
+      "product_high": {
+        "seconds": 32.791,
+        "denoiser": "OPTIX",
+        "samples": 160
+      }
+    }
+  },
+  {
+    "identity": "hardware_set_screw_m6_nylon_white_15_mm_length",
+    "triangles": {
+      "display": 1208,
+      "full": 93896
+    },
+    "dimensions_mm": [
+      11.547005653381348,
+      10.0,
+      19.0
+    ],
+    "device": "GPU",
+    "render_statistics": {
+      "low": {
+        "seconds": 1.708,
+        "denoiser": "OPTIX",
+        "samples": 48
+      },
+      "high": {
+        "seconds": 38.149,
+        "denoiser": "OPTIX",
+        "samples": 160
+      },
+      "product_low": {
+        "seconds": 1.339,
+        "denoiser": "OPTIX",
+        "samples": 48
+      },
+      "product_high": {
+        "seconds": 31.902,
+        "denoiser": "OPTIX",
+        "samples": 160
+      }
+    }
+  },
+  {
+    "identity": "hardware_washer_m8_penny",
+    "triangles": {
+      "display": 192,
+      "full": 768
+    },
+    "dimensions_mm": [
+      24.0,
+      24.0,
+      2.0
+    ],
+    "device": "GPU",
+    "render_statistics": {
+      "low": {
+        "seconds": 0.675,
+        "denoiser": "OPTIX",
+        "samples": 48
+      },
+      "high": {
+        "seconds": 27.435,
+        "denoiser": "OPTIX",
+        "samples": 160
+      },
+      "product_low": {
+        "seconds": 1.222,
+        "denoiser": "OPTIX",
+        "samples": 48
+      },
+      "product_high": {
+        "seconds": 33.88,
+        "denoiser": "OPTIX",
+        "samples": 160
+      }
+    }
+  }
+]

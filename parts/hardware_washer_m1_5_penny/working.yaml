@@ -29,7 +29,7 @@ bip_39_full_space: thumb cave shell scout ignore reform surge raise common peasa
     busy measure
 bip_39_full_underscore: thumb_cave_shell_scout_ignore_reform_surge_raise_common_peasant_busy_measure
 directory: parts/hardware_washer_m1_5_penny
-generate_stl: false
+generate_stl: true
 id: hardware_washer_m1_5_penny
 id_no_class: hardware_washer_m1_5_penny
 id_no_size: hardware_washer_m1_5_penny
@@ -186,11 +186,10 @@ oomlout_ai_roboclick_3:
         file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
     file_test: ''
 oomp_key: oomp_hardware_washer_m1_5_penny
-run_action: false
+run_action: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
-run_svg: true
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -263,9 +262,3 @@ taxonomy_7: ''
 taxonomy_8: ''
 taxonomy_9: ''
 url_chat: ''
-generator_label_details:
-  schema_version: 1
-  geometry_file: generator_label.json
-  svg_file: generator_label.svg
-  title: M1.5 Penny washer
-  source: Defined schematic symbol for this nut / washer family

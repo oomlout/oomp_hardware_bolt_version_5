@@ -1,0 +1,142 @@
+schema_version: 1
+checked_on: '2026-10-11'
+units: mm
+note: Historical editions and supplier patterns selected to match the existing catalogue, not a claim of compliance with current editions. No rows are extrapolated.
+thread_source:
+  title: ISO 68-1:1998 basic ISO metric thread profile
+  url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+families:
+  hex_bolt:
+    standard: ISO 4014:2011
+    sources:
+    - title: ISO 4014:2011 fourth edition, figure 1 and table 1, grades A and B
+      url: https://cdn.standards.iteh.ai/samples/56447/be5b2835974246f8868260ebe9f4d621/ISO-4014-2011.pdf
+    standard_lengths_mm: [25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 80, 90, 100, 110, 120, 130, 140, 150]
+    sizes:
+      '4': {pitch_mm: 0.7, across_flats_mm: 7, head_height_mm: 2.8, bearing_diameter_mm: 6.4, bearing_height_mm: 0.25, underhead_fillet_mm: 0.2, b_mm: [14, 20, 33], k_limits_A: [2.675, 2.925], k_limits_B: [2.6, 3.0], s_limits_A: [6.78, 7], s_limits_B: [6.64, 7], e_min_A: 7.66, e_min_B: 7.5, dw_min_A: 5.88, dw_min_B: 5.74}
+      '5': {pitch_mm: 0.8, across_flats_mm: 8, head_height_mm: 3.5, bearing_diameter_mm: 7.4, bearing_height_mm: 0.3, underhead_fillet_mm: 0.2, b_mm: [16, 22, 35], k_limits_A: [3.35, 3.65], k_limits_B: [3.26, 3.74], s_limits_A: [7.78, 8], s_limits_B: [7.64, 8], e_min_A: 8.79, e_min_B: 8.63, dw_min_A: 6.88, dw_min_B: 6.74}
+      '6': {pitch_mm: 1, across_flats_mm: 10, head_height_mm: 4, bearing_diameter_mm: 9.4, bearing_height_mm: 0.3, underhead_fillet_mm: 0.25, b_mm: [18, 24, 37], k_limits_A: [3.85, 4.15], k_limits_B: [3.76, 4.24], s_limits_A: [9.78, 10], s_limits_B: [9.64, 10], e_min_A: 11.05, e_min_B: 10.89, dw_min_A: 8.88, dw_min_B: 8.74}
+      '8': {pitch_mm: 1.25, across_flats_mm: 13, head_height_mm: 5.3, bearing_diameter_mm: 12.4, bearing_height_mm: 0.3, underhead_fillet_mm: 0.4, b_mm: [22, 28, 41], k_limits_A: [5.15, 5.45], k_limits_B: [5.06, 5.54], s_limits_A: [12.73, 13], s_limits_B: [12.57, 13], e_min_A: 14.38, e_min_B: 14.2, dw_min_A: 11.63, dw_min_B: 11.47}
+  hex_screw:
+    standard: ISO 4017 supplier dimensional specification (edition not stated)
+    sources:
+    - title: Westfield Fasteners ISO 4017 hex head set screw specification
+      url: https://www.westfieldfasteners.co.uk/Standards/ScrewBolt-HexHd4017-M-THRfull.html
+    standard_lengths_mm: []
+    note: Lengths are catalogue selections; the cited supplier table verifies head dimensions, not every length offered here.
+    sizes:
+      '3': {pitch_mm: 0.5, across_flats_mm: 5.5, head_height_mm: 2, bearing_diameter_mm: 5, bearing_height_mm: 0.25, underhead_fillet_mm: 0.1, k_limits_A: [1.875, 2.125], k_limits_B: [1.8, 2.2], s_limits_A: [5.32, 5.5], s_limits_B: [5.2, 5.5], e_min_A: 6.01, e_min_B: 5.88, dw_min_A: 4.57, dw_min_B: 4.45}
+      '4': {inherit_bolt_size: '4'}
+      '5': {inherit_bolt_size: '5'}
+      '6': {inherit_bolt_size: '6'}
+      '8': {inherit_bolt_size: '8'}
+  nylon_hex_screw:
+    standard: null
+    specification: Westfield DIN 933-style nylon hex head screw; not ISO material compliance
+    sources:
+    - title: Westfield M6 nylon hex head setscrews, nominal DIN 933 pattern
+      url: https://www.westfieldfasteners.co.uk/Nylon-ScrewBolt-HexHd-M6-THRfull.html
+    - title: Kramp 933660N nylon M6 hexagon head bolt, 10 mm flats and 4 mm head
+      url: https://www.kramp.com/shop-gb/en/p/hexagon-head-bolt-din933-m6x60-nylon-6.6-kramp--933660N
+    sizes:
+      '6': {inherit_bolt_size: '6'}
+  hex_nut:
+    standard: ISO 4032:2012
+    sources:
+    - title: ISO 4032:2012 fourth edition, table 1, hexagon regular nuts
+      url: https://cdn.standards.iteh.ai/samples/61668/93b89b8502a943499386155c44018aaa/ISO-4032-2012.pdf
+    sizes:
+      '2': {pitch_mm: 0.4, across_flats_mm: 4, height_mm: 1.6, height_limits: [1.35, 1.6], flats_limits: [3.82, 4], hole_mouth_limits: [2, 2.3], e_min: 4.32}
+      '2.5': {pitch_mm: 0.45, across_flats_mm: 5, height_mm: 2, height_limits: [1.75, 2], flats_limits: [4.82, 5], hole_mouth_limits: [2.5, 2.9], e_min: 5.45}
+      '3': {pitch_mm: 0.5, across_flats_mm: 5.5, height_mm: 2.4, height_limits: [2.15, 2.4], flats_limits: [5.32, 5.5], hole_mouth_limits: [3, 3.45], e_min: 6.01}
+      '4': {pitch_mm: 0.7, across_flats_mm: 7, height_mm: 3.2, height_limits: [2.9, 3.2], flats_limits: [6.78, 7], hole_mouth_limits: [4, 4.6], e_min: 7.66}
+      '5': {pitch_mm: 0.8, across_flats_mm: 8, height_mm: 4.7, height_limits: [4.4, 4.7], flats_limits: [7.78, 8], hole_mouth_limits: [5, 5.75], e_min: 8.79}
+      '6': {pitch_mm: 1, across_flats_mm: 10, height_mm: 5.2, height_limits: [4.9, 5.2], flats_limits: [9.78, 10], hole_mouth_limits: [6, 6.75], e_min: 11.05}
+      '8': {pitch_mm: 1.25, across_flats_mm: 13, height_mm: 6.8, height_limits: [6.44, 6.8], flats_limits: [12.73, 13], hole_mouth_limits: [8, 8.75], e_min: 14.38}
+  miniature_hex_nut:
+    standard: null
+    specification: Accu DIN 934-style supplier miniature dimensional rows
+    sources:
+    - title: Accu HPN-M1-A1-BL miniature nut dimensional specification
+      url: https://www.accu.co.uk/hexagon-nuts/154926-HPN-M1-A1-BL
+    - title: Accu HPN-M1.4-A1 miniature nut dimensional specification
+      url: https://www.accu.co.uk/hexagon-nuts/7881-HPN-M1-4-A1
+    sizes:
+      '1': {pitch_mm: 0.25, across_flats_mm: 2.5, height_mm: 0.8, height_limits: [0.55, 0.8], flats_limits: [2.4, 2.5]}
+      '1.4': {pitch_mm: 0.3, across_flats_mm: 3, height_mm: 1.2, height_limits: [0.95, 1.2], flats_limits: [2.9, 3]}
+  nylon_hex_nut:
+    standard: null
+    specification: Accu HPN nylon nuts based on DIN 934; supplier dimensions
+    sources:
+    - {title: Accu HPN-M3-N, url: 'https://www.accu.co.uk/hexagon-nuts/422470-HPN-M3-N'}
+    - {title: Accu HPN-M4-N, url: 'https://www.accu.co.uk/hexagon-nuts/422472-HPN-M4-N'}
+    - {title: Accu HPN-M5-N, url: 'https://www.accu.co.uk/hexagon-nuts/422473-HPN-M5-N'}
+    - {title: Accu HPN-M6-N, url: 'https://www.accu.co.uk/hexagon-nuts/422474-HPN-M6-N'}
+    - {title: Accu HPN-M8-N, url: 'https://www.accu.co.uk/hexagon-nuts/422475-HPN-M8-N'}
+    sizes:
+      '3': {pitch_mm: 0.5, across_flats_mm: 5.5, height_mm: 2.4, height_limits: [2.15, 2.4], flats_limits: [5.32, 5.5]}
+      '4': {pitch_mm: 0.7, across_flats_mm: 7, height_mm: 3.2, height_limits: [2.9, 3.2], flats_limits: [6.78, 7]}
+      '5': {pitch_mm: 0.8, across_flats_mm: 8, height_mm: 4, height_limits: [3.7, 4], flats_limits: [7.78, 8]}
+      '6': {pitch_mm: 1, across_flats_mm: 10, height_mm: 5, height_limits: [4.7, 5], flats_limits: [9.78, 10]}
+      '8': {pitch_mm: 1.25, across_flats_mm: 13, height_mm: 6.5, height_limits: [6.14, 6.5], flats_limits: [12.73, 13]}
+  flange_nut:
+    standard: DIN 6923 (supplier sheet; edition not stated)
+    sources:
+    - title: Westfield plain hex flange nuts DIN 6923, includes M3/M4 supplier extensions
+      url: https://www.westfieldfasteners.co.uk/Standards/Nut-HexFlgPln-M.pdf
+    note: Plain flange selected; catalogue does not specify serrations. M3/M4 are outside DIN scope. Small edge blends and flange transition are visual choices.
+    sizes:
+      '3': {pitch_mm: 0.5, across_flats_mm: 5.5, height_mm: 3.8, flange_diameter_mm: 7.8, flange_thickness_mm: 0.8, dimension_status: manufacturer_extension}
+      '4': {pitch_mm: 0.7, across_flats_mm: 7, height_mm: 4.65, flange_diameter_mm: 10, flange_thickness_mm: 0.9, dimension_status: manufacturer_extension}
+      '5': {pitch_mm: 0.8, across_flats_mm: 8, height_mm: 5, flange_diameter_mm: 11.8, flange_thickness_mm: 1, height_limits: [4.7, 5], flats_limits: [7.78, 8], hole_mouth_limits: [5, 5.75], flange_radius_max_mm: 0.3, e_min: 8.79}
+      '6': {pitch_mm: 1, across_flats_mm: 10, height_mm: 6, flange_diameter_mm: 14.2, flange_thickness_mm: 1.1, height_limits: [5.7, 6], flats_limits: [9.78, 10], hole_mouth_limits: [6, 6.75], flange_radius_max_mm: 0.36, e_min: 11.05}
+      '8': {pitch_mm: 1.25, across_flats_mm: 13, height_mm: 8, flange_diameter_mm: 17.9, flange_thickness_mm: 1.2, height_limits: [7.6, 8], flats_limits: [12.73, 13], hole_mouth_limits: [8, 8.75], flange_radius_max_mm: 0.48, e_min: 14.38}
+  coupling_nut:
+    standard: null
+    specification: Westfield studding connector nut (commercial DIN 6334 pattern)
+    sources:
+    - title: Westfield hexagon studding connector nut datasheet
+      url: https://www.westfieldfasteners.co.uk/Datasheets/Nut_HexLong_M.pdf
+    - title: TOBSTEEL 2019 catalogue, commercial article 6334; explicitly not a DIN standard
+      url: https://www.tobsteel.com/divi/wp-content/uploads/2019/01/TOBcatalog-2019.pdf
+    sizes:
+      '5': {pitch_mm: 0.8, across_flats_mm: 8, height_mm: 15}
+      '6': {pitch_mm: 1, across_flats_mm: 10, height_mm: 18}
+      '8': {pitch_mm: 1.25, across_flats_mm: 13, height_mm: 24}
+  plain_washer:
+    standard: DIN 125 A (supplier sheet; edition not stated)
+    sources:
+    - title: Westfield DIN 125 A plain washer specification and tolerances
+      url: https://www.westfieldfasteners.co.uk/Standards/Washer-FormA-M.pdf
+    sizes:
+      '2': {hole_diameter_mm: 2.2, outer_diameter_mm: 5, height_mm: 0.3, hole_limits: [2.2, 2.34], outer_limits: [4.7, 5], height_limits: [0.25, 0.35]}
+      '2.5': {hole_diameter_mm: 2.7, outer_diameter_mm: 6, height_mm: 0.5, hole_limits: [2.7, 2.84], outer_limits: [5.7, 6], height_limits: [0.45, 0.55]}
+      '3': {hole_diameter_mm: 3.2, outer_diameter_mm: 7, height_mm: 0.5, hole_limits: [3.2, 3.38], outer_limits: [6.64, 7], height_limits: [0.45, 0.55]}
+      '4': {hole_diameter_mm: 4.3, outer_diameter_mm: 9, height_mm: 0.8, hole_limits: [4.3, 4.48], outer_limits: [8.64, 9], height_limits: [0.7, 0.9]}
+      '5': {hole_diameter_mm: 5.3, outer_diameter_mm: 10, height_mm: 1, hole_limits: [5.3, 5.48], outer_limits: [9.64, 10], height_limits: [0.9, 1.1]}
+      '6': {hole_diameter_mm: 6.4, outer_diameter_mm: 12, height_mm: 1.6, hole_limits: [6.4, 6.62], outer_limits: [11.57, 12], height_limits: [1.4, 1.8]}
+      '8': {hole_diameter_mm: 8.4, outer_diameter_mm: 16, height_mm: 1.6, hole_limits: [8.4, 8.62], outer_limits: [15.57, 16], height_limits: [1.4, 1.8]}
+  penny_washer:
+    standard: DIN 9021 (supplier sheet; edition not stated)
+    sources:
+    - title: Westfield DIN 9021 large series washer specification and tolerances
+      url: https://www.westfieldfasteners.co.uk/Standards/Washer-od3nom-M.html
+    note: DIN 9021 pattern selected for generic penny catalogue entries; unspecified supplier and hardness.
+    sizes:
+      '2.5': {hole_diameter_mm: 2.7, outer_diameter_mm: 8, height_mm: 0.8, hole_limits: [2.7, 2.84], outer_limits: [7.64, 8], height_limits: [0.7, 0.9]}
+      '3': {hole_diameter_mm: 3.2, outer_diameter_mm: 9, height_mm: 0.8, hole_limits: [3.2, 3.38], outer_limits: [8.64, 9], height_limits: [0.7, 0.9]}
+      '4': {hole_diameter_mm: 4.3, outer_diameter_mm: 12, height_mm: 1, hole_limits: [4.3, 4.48], outer_limits: [11.57, 12], height_limits: [0.9, 1.1]}
+      '5': {hole_diameter_mm: 5.3, outer_diameter_mm: 15, height_mm: 1.2, hole_limits: [5.3, 5.48], outer_limits: [14.57, 15], height_limits: [1, 1.4]}
+      '6': {hole_diameter_mm: 6.4, outer_diameter_mm: 18, height_mm: 1.6, hole_limits: [6.4, 6.62], outer_limits: [17.57, 18], height_limits: [1.4, 1.8]}
+      '8': {hole_diameter_mm: 8.4, outer_diameter_mm: 24, height_mm: 2, hole_limits: [8.4, 8.62], outer_limits: [23.48, 24], height_limits: [1.8, 2.2]}
+  nylon_washer:
+    standard: null
+    specification: Catalogue 12 mm OD / 1.5 mm thick M6 washer; 6.4 mm hole selected from supplier drawing
+    sources:
+    - title: Catalogue washer definition, explicit outer diameter and thickness
+      path: working_oomp_populate_washer.py
+    - title: Westfield Form A M6 clearance hole, used as explicit model selection
+      url: https://www.westfieldfasteners.co.uk/Standards/Washer-FormA-M.pdf
+    note: Catalogue overrides steel washer thickness. Hole is a sourced 6.4 mm model assumption, not a measured catalogue dimension. Nylon supplier identity unspecified.
+    sizes:
+      '6': {hole_diameter_mm: 6.4, outer_diameter_mm: 12, height_mm: 1.5, dimension_status: catalogue_specific_dimensions}

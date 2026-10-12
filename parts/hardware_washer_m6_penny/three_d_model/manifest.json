@@ -1,0 +1,186 @@
+{
+  "artifacts": {
+    "display/back.svg": {
+      "bytes": 2878,
+      "sha256": "bed4308a3fc1528cb2cb87eb039226d5be41c537f311ce5c84a1b1b617fd1eb1"
+    },
+    "display/bottom.svg": {
+      "bytes": 2816,
+      "sha256": "4771d7d5794f1ffc6780ec9361263c948297e9335f3642443feb28f5735805eb"
+    },
+    "display/front.svg": {
+      "bytes": 2881,
+      "sha256": "f69c2de06b7961da305a6a492445c49732b17956192bdc7f734e2f275b3fbe54"
+    },
+    "display/isometric.svg": {
+      "bytes": 3749,
+      "sha256": "57b3ae4c077b3d69584e53394bce6a33e9939f704f19d1ab186b513ae816a0ef"
+    },
+    "display/left.svg": {
+      "bytes": 2879,
+      "sha256": "140491149732d8d0b0cdc38a55da555ee5158bfc75b662b7f9764b6f7740649c"
+    },
+    "display/right.svg": {
+      "bytes": 2876,
+      "sha256": "43f1bd0c9e1ebb887ce698644e1bf57b94f75b6721195be7bbaf00a4de4978c9"
+    },
+    "display/top.svg": {
+      "bytes": 2809,
+      "sha256": "e3c7f5b51603b97fbbe66dd020e3d9071531aa8efaceab27f6ef440561e85525"
+    },
+    "full/back.svg": {
+      "bytes": 7912,
+      "sha256": "7e0b26eff9e4169213a88511b3e2e9d1d27fc7d156ec3797a1b0f0cc0c93e6f1"
+    },
+    "full/bottom.svg": {
+      "bytes": 7850,
+      "sha256": "e8e88424a5d874305c2de86310ce257782ec8774e6e6affbad26f25a82e92bec"
+    },
+    "full/front.svg": {
+      "bytes": 7915,
+      "sha256": "a42ca827f248b53cbe9c599831ce419159c0b1e12d97775c95035f921da562e2"
+    },
+    "full/isometric.svg": {
+      "bytes": 11063,
+      "sha256": "cd71558f88b7a69875fb7c17994d35028b3afc9c8fc0a1b70ac3f791bead3ed8"
+    },
+    "full/left.svg": {
+      "bytes": 7913,
+      "sha256": "a0933601ebd6c11959c6824209cb3a7a35f54c7771a17d5be247b2b4248f076b"
+    },
+    "full/right.svg": {
+      "bytes": 7910,
+      "sha256": "d0f428ff5279b735f2ed043896472640befce7de8059cc8f2cf672d6f841cfb6"
+    },
+    "full/top.svg": {
+      "bytes": 7843,
+      "sha256": "074e93293048d00ad380576885d754ff1d2e0c25a668a53c78d19512ce3604ba"
+    },
+    "model.py": {
+      "bytes": 15158,
+      "sha256": "8d00b9b5fd12920aa45c50443c6f25360b662f66919d8a68b5267462655fc1aa"
+    },
+    "model_display.glb": {
+      "bytes": 5248,
+      "sha256": "e065115b1c9beabbebf3fc060c614549c86c41384f61523def3fec6d9c23ad1a"
+    },
+    "model_display.stl": {
+      "bytes": 9684,
+      "sha256": "93f3bed1467449ce66e7c6ab4f90bc65b0fdb7bb9bf030c326f4a1dbc2650db2"
+    },
+    "model_full.glb": {
+      "bytes": 15616,
+      "sha256": "3c35d64da6affc7823be936a5c0888b204171720647c9e5285f0445ef6814d71"
+    },
+    "model_full.stl": {
+      "bytes": 38484,
+      "sha256": "ab5b252fe17d589b153352b0dd6d58b301d98773e8d3abc286b4ffa2a7d0a84d"
+    },
+    "parameters.json": {
+      "bytes": 6650,
+      "sha256": "2d1bf40361fcd5fa0ef1ef0438d0806d5180de1c6dc4fda181d5b81a458601c2"
+    },
+    "render_high.png": {
+      "bytes": 3539012,
+      "sha256": "90f3e26fed9aa872a91efda58d329e61901518dc08bc7b74a28c9714f975083c"
+    },
+    "render_low.png": {
+      "bytes": 222788,
+      "sha256": "fcf40c937023e0dd0ec854fdb5075c595d6d0b9258fb71b54430beb5dd9a2513"
+    },
+    "render_product_high.png": {
+      "bytes": 3482478,
+      "sha256": "2ab4c28e21e1fbb1ddcc584df6d3e8fe65df9fd109557b65ec0fc6cf84506a6d"
+    },
+    "render_product_low.png": {
+      "bytes": 227779,
+      "sha256": "2630df57836ee9e850447609102e9f0c3d7812cdf797e7d72e098814ae2a7f5e"
+    },
+    "render_scene.json": {
+      "bytes": 27481,
+      "sha256": "46404500c9adbdc210625f0b1ae01f7d7ebfb510550c6739d5d570f2ea4c8320"
+    },
+    "requirements.txt": {
+      "bytes": 159,
+      "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
+    },
+    "studio.blend": {
+      "bytes": 116491,
+      "sha256": "51ce52b294ad28467fd9fbf4ff752ea314dc61aaf49ebbf693391904a3587d02"
+    }
+  },
+  "coordinate_system": {
+    "axis": "+Z along bore",
+    "glb_conversion": "(x,y,z) mm -> (x,z,-y)/1000 metres",
+    "glb_units": "metres",
+    "glb_up_axis": "Y",
+    "origin": "lower face centre",
+    "stl_units": "mm"
+  },
+  "dimension_status": "standard_dimensions",
+  "fingerprint": "b19aeff1d30f022a17acac86020c59717db5bfb7a35a018dff65ee2f36389dcf",
+  "generator": "din_9021_penny_washer",
+  "length_status": "not_applicable",
+  "models": {
+    "display": {
+      "bounds_mm": [
+        [
+          -9.0,
+          -9.0,
+          0.0
+        ],
+        [
+          9.0,
+          9.0,
+          1.600000023841858
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        18.0,
+        18.0,
+        1.600000023841858
+      ],
+      "triangles": 192,
+      "vertices": 96,
+      "volume_mm3": 351.62949761773797,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "full": {
+      "bounds_mm": [
+        [
+          -9.0,
+          -9.0,
+          0.0
+        ],
+        [
+          9.0,
+          9.0,
+          1.600000023841858
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        18.0,
+        18.0,
+        1.600000023841858
+      ],
+      "triangles": 768,
+      "vertices": 384,
+      "volume_mm3": 355.4246788228429,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  },
+  "recipe_fingerprint": "1b93a1a39eedcd94d7ea5825bb26ce05e5185b009800161f6b1418893e7b6103",
+  "schema_version": 1,
+  "source_fingerprint": "94573d90e337026741855aba77bdbc908a7bfc40037501588568108c3f90e6a3",
+  "sources": [
+    {
+      "title": "Westfield DIN 9021 large series washer specification and tolerances",
+      "url": "https://www.westfieldfasteners.co.uk/Standards/Washer-od3nom-M.html"
+    }
+  ],
+  "standard": "DIN 9021 (supplier sheet; edition not stated)"
+}

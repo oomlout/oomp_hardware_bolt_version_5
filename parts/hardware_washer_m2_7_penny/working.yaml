@@ -29,7 +29,7 @@ bip_39_full_space: aspect nature calm since mandate fish amazing zero grid wide 
     found
 bip_39_full_underscore: aspect_nature_calm_since_mandate_fish_amazing_zero_grid_wide_multiply_found
 directory: parts/hardware_washer_m2_7_penny
-generate_stl: false
+generate_stl: true
 id: hardware_washer_m2_7_penny
 id_no_class: hardware_washer_m2_7_penny
 id_no_size: hardware_washer_m2_7_penny
@@ -186,11 +186,10 @@ oomlout_ai_roboclick_3:
         file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
     file_test: ''
 oomp_key: oomp_hardware_washer_m2_7_penny
-run_action: false
+run_action: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
-run_svg: true
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -263,9 +262,3 @@ taxonomy_7: ''
 taxonomy_8: ''
 taxonomy_9: ''
 url_chat: ''
-generator_label_details:
-  schema_version: 1
-  geometry_file: generator_label.json
-  svg_file: generator_label.svg
-  title: M2.7 Penny washer
-  source: Defined schematic symbol for this nut / washer family

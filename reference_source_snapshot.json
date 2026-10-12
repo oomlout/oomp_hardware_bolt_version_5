@@ -1,0 +1,16 @@
+{
+  "README.md": "470c8d21782bad771576f1ce8bceaec939078338c36e729a6c52b3da464bc86d",
+  "working_three_d_model.py": "3160ff4a9c26feee7ab772cd8e283709c4c1e99bd213023c6c6e8e3cfea0b118",
+  "screw_model_geometry.py": "93fe4de4b99d0832eefaf84faae89327deaf9c10ac35ba0c4d2fb6ae6076bceb",
+  "screw_model_render.py": "32db061a4103fe823904d7796fdf30a80b7dd456492e0302cb045077fe8af174",
+  "screw_model_blender.py": "9cc5b1543621ff01a248df6110e31feb918cdb28c59d17c26ee78844119eb3de",
+  "screw_model_views.py": "de17d39105312328ba6e4729998e788d528aa5e54acc27b6f901de608dd21ef0",
+  "requirements-three-d-model.txt": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4",
+  "working_oomp_populate.py": "5bb3853be05063c3f48d399e874184cd7de8c00ee92b29885ef38b87d4960008",
+  "working.py": "33dbe069ffd10b971f800fa3c481e7e6415a624acc2921f648813a00a0f0ecfc",
+  "action_make_three_d_model.bat": "0e0bd3298295a430f472dcb203326140470e92b009411e4451341cbf650b2717",
+  "action_delete_three_d_model.bat": "1e76cab76998b8d81bbd0aa8d3d072d281ded6ec6dbb25f5fa4004cc32867323",
+  "action_delete_three_d_model.ps1": "5b02346d697922b2651b5e423083228177e091dd730503777cb3d27004e89f15",
+  "tests/test_three_d_model.py": "500e2608eebb820a0a2ea754a19a9fc8f1b92a82f6fbae5f43301dfb3401f43e",
+  "source_file/standards/din_7991.yaml": "fe12b904d84c559bc11542ab11dc31aa079fc7f70aa53b65e39bab44f8c8894b"
+}
