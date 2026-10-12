@@ -1,0 +1,194 @@
+{
+  "artifacts": {
+    "display/back.svg": {
+      "bytes": 7239,
+      "sha256": "a3a118db72a832fadc7b1ab6fc3ca8b67627e52caf866094d0cc9e33b3616a99"
+    },
+    "display/bottom.svg": {
+      "bytes": 6670,
+      "sha256": "c7455a9f82f0e84e3f290a9eee2bb071cb8ca27d53640a5899d9b3bb71c233cb"
+    },
+    "display/front.svg": {
+      "bytes": 7242,
+      "sha256": "c30561fa0f33a091bc2778f3306946c46914455e15a31d616ece46f609e17113"
+    },
+    "display/isometric.svg": {
+      "bytes": 5297,
+      "sha256": "2aaa24c51ccd64e7446f23036422dd9eb1336dc7baaf875e35f18121be6537aa"
+    },
+    "display/left.svg": {
+      "bytes": 7090,
+      "sha256": "cb51a23a0b84d29a26b5f7bd81cb7c64123c98dc5d855026de990c4f9701ed70"
+    },
+    "display/right.svg": {
+      "bytes": 7073,
+      "sha256": "8c17f2470ec1b5fb00ba1c3208992121ea07178f2fb82e2f8b4d97555f1f34e0"
+    },
+    "display/top.svg": {
+      "bytes": 3303,
+      "sha256": "4e535b8ea8617581a8d8cac1c680f11daa2df8073c65135bf6c720c986607969"
+    },
+    "full/back.svg": {
+      "bytes": 218808,
+      "sha256": "81a485e8ad6ef29b3381cf5eba98551f27b84b7f8cd53d9572ab87b00d95f7ea"
+    },
+    "full/bottom.svg": {
+      "bytes": 326027,
+      "sha256": "df8e3fb0c85fcb2ae000649d49d1c57b9bb762d2a026db967da4c4fd0a936b30"
+    },
+    "full/front.svg": {
+      "bytes": 220974,
+      "sha256": "b90adfccce3d71fa467eeca03cfe60eb4d8deccc67afdc3312c2206f4e93643a"
+    },
+    "full/isometric.svg": {
+      "bytes": 192148,
+      "sha256": "276a66d5215390863d1d113a2824004cd4bd6c6b323446769f3ab839551fe940"
+    },
+    "full/left.svg": {
+      "bytes": 220719,
+      "sha256": "220ade25959b50ec38d6550dea2de9db09c3cd4b998299279730f293c9230ba0"
+    },
+    "full/right.svg": {
+      "bytes": 218758,
+      "sha256": "1cecfdb582d436c4c0078e899e737d2a1db7eb76949543e0f933799baf36bb2e"
+    },
+    "full/top.svg": {
+      "bytes": 7077,
+      "sha256": "a075c99455eeb6258cc75899782218e23da424918402e8a2053c6aea03904108"
+    },
+    "model.py": {
+      "bytes": 15158,
+      "sha256": "8d00b9b5fd12920aa45c50443c6f25360b662f66919d8a68b5267462655fc1aa"
+    },
+    "model_display.glb": {
+      "bytes": 28472,
+      "sha256": "41dae1ccbb2f7235e5940194aadb68832f6867439a71e65229f80f503e00ff20"
+    },
+    "model_display.stl": {
+      "bytes": 72484,
+      "sha256": "84bd6bf9117380a06d770540513166de844b243ed92370b974d8be050e18536f"
+    },
+    "model_full.glb": {
+      "bytes": 2245508,
+      "sha256": "2c9a15f58ef65292011df4a2f9600677bf2965869d797f43c0cd981264fb57c5"
+    },
+    "model_full.stl": {
+      "bytes": 6230884,
+      "sha256": "caba1b65239be716f0df9e483bd94b7ac60a46757ae450374aa4ad3aab62da1a"
+    },
+    "parameters.json": {
+      "bytes": 7963,
+      "sha256": "750a63de9248705fa4d1e569efff4f90a1f53554cfebc9872023b3809ba38aee"
+    },
+    "render_high.png": {
+      "bytes": 3366358,
+      "sha256": "b68ed9a3ba0821f95104bdcb8139b6f079f197b2b510240992a7bb91a12de84c"
+    },
+    "render_low.png": {
+      "bytes": 218692,
+      "sha256": "9de2d7d56ebdb965942da22df77ff91cde987be87c03bc667887111a810c3037"
+    },
+    "render_product_high.png": {
+      "bytes": 3372329,
+      "sha256": "db22484054fee22fafca907267c335e876830f53edfdf33bf1779d712ce3869d"
+    },
+    "render_product_low.png": {
+      "bytes": 217961,
+      "sha256": "4fabe2aa0ab0b71b7d9b601b5b8a6d6e476a3bebfcb7532a8191323e95a4d36c"
+    },
+    "render_scene.json": {
+      "bytes": 12877,
+      "sha256": "f90f95c4107ca24264f67ca47315904997a1f304c502845f4581813c14808557"
+    },
+    "requirements.txt": {
+      "bytes": 159,
+      "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
+    },
+    "studio.blend": {
+      "bytes": 2637092,
+      "sha256": "265322eeb3e33108c0bde1069449d41265ab69cc117659723e3bb86f766a8a83"
+    }
+  },
+  "coordinate_system": {
+    "axis": "+Z towards head",
+    "glb_conversion": "(x,y,z) mm -> (x,z,-y)/1000 metres",
+    "glb_units": "metres",
+    "glb_up_axis": "Y",
+    "origin": "tip centre",
+    "stl_units": "mm"
+  },
+  "dimension_status": "manufacturer_dimensions",
+  "fingerprint": "ef83a3d540ee96b1900db9adea95def9195c56850e0e19bc7eb5f9cfc3dd132c",
+  "generator": "supplier_nylon_hex_screw",
+  "length_status": "catalogue_length_not_verified_in_source_length_table",
+  "models": {
+    "display": {
+      "bounds_mm": [
+        [
+          -5.773502826690674,
+          -5.0,
+          0.0
+        ],
+        [
+          5.773502826690674,
+          5.0,
+          24.0
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        11.547005653381348,
+        10.0,
+        24.0
+      ],
+      "triangles": 1448,
+      "vertices": 726,
+      "volume_mm3": 896.9283798965463,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "full": {
+      "bounds_mm": [
+        [
+          -5.773502826690674,
+          -5.0,
+          0.0
+        ],
+        [
+          5.773502826690674,
+          5.0,
+          24.0
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        11.547005653381348,
+        10.0,
+        24.0
+      ],
+      "triangles": 124616,
+      "vertices": 62310,
+      "volume_mm3": 798.6704991956545,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  },
+  "recipe_fingerprint": "feea7511c5a0df9e31d79f32e288348fbb4c7ff2a7cf388bb6275afc8ede9bc3",
+  "schema_version": 1,
+  "source_fingerprint": "94573d90e337026741855aba77bdbc908a7bfc40037501588568108c3f90e6a3",
+  "sources": [
+    {
+      "title": "Westfield M6 nylon hex head setscrews, nominal DIN 933 pattern",
+      "url": "https://www.westfieldfasteners.co.uk/Nylon-ScrewBolt-HexHd-M6-THRfull.html"
+    },
+    {
+      "title": "Kramp 933660N nylon M6 hexagon head bolt, 10 mm flats and 4 mm head",
+      "url": "https://www.kramp.com/shop-gb/en/p/hexagon-head-bolt-din933-m6x60-nylon-6.6-kramp--933660N"
+    },
+    {
+      "title": "ISO 68-1:1998 basic ISO metric thread profile",
+      "url": "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+    }
+  ],
+  "standard": null
+}

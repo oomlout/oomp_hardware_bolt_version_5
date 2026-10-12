@@ -1,0 +1,190 @@
+{
+  "artifacts": {
+    "display/back.svg": {
+      "bytes": 9471,
+      "sha256": "7cff29012b9fc52724239ed4fa5ee3765f7c471e1a50d93f82c2bd75fa87f67d"
+    },
+    "display/bottom.svg": {
+      "bytes": 6622,
+      "sha256": "7d5d1fc386c3f6708eae12e403d46b31b3d229b32f3d6f836230d3c96bde0ad5"
+    },
+    "display/front.svg": {
+      "bytes": 9474,
+      "sha256": "8830100542facd1960c9b22b39b0e3771519a6e7cd433d7a234a851ad104f48e"
+    },
+    "display/isometric.svg": {
+      "bytes": 7565,
+      "sha256": "b76715602b6ff8ac8a6ddbd28aa759328e3aaf001527918e499631c9d8b9a7a3"
+    },
+    "display/left.svg": {
+      "bytes": 9322,
+      "sha256": "acf349908ac9ccc7df4bc8246d48e74e86f478d0517c9367840fc92113cf672b"
+    },
+    "display/right.svg": {
+      "bytes": 9305,
+      "sha256": "900fbc019463a0bd7674c0cf937b7c51959a0cc4cba2d7c94d5cf8de686d8412"
+    },
+    "display/top.svg": {
+      "bytes": 3255,
+      "sha256": "4efc66f6c0d4d68b13b53e67ae00465a59f734ac078a8c5d5b85d49e55bf5161"
+    },
+    "full/back.svg": {
+      "bytes": 582700,
+      "sha256": "33dc24abf6ea4f12efbfdca028dfcf287fa9aa9fdefbed18e981393369cef96d"
+    },
+    "full/bottom.svg": {
+      "bytes": 829979,
+      "sha256": "88a9bd7f432b08f7e182357fcdd025de72f24c9cb3cb5709eecd4ea6ed8497dd"
+    },
+    "full/front.svg": {
+      "bytes": 584862,
+      "sha256": "f17de99dc6a2deda5832a6c2bdb8215471705f9f9af871de9b145ee10ba531be"
+    },
+    "full/isometric.svg": {
+      "bytes": 531457,
+      "sha256": "84ad518b252a19c3b0485c152f2a85ece2a39e0ed7b78a680527f41698d9aff4"
+    },
+    "full/left.svg": {
+      "bytes": 584348,
+      "sha256": "38fc3ad71a2b43cd5e91d21ae0c0b457636bce76e308784cc2360335c191f0e7"
+    },
+    "full/right.svg": {
+      "bytes": 582677,
+      "sha256": "b40145f36c88c76c00cee5d122e6e08fd084a3ee326ad2387a6282c4b342d94d"
+    },
+    "full/top.svg": {
+      "bytes": 7029,
+      "sha256": "04380c45b99302d2d6397eb9834d2b8ed032eb31ed7ff16726c18b3ffe707ed4"
+    },
+    "model.py": {
+      "bytes": 15158,
+      "sha256": "8d00b9b5fd12920aa45c50443c6f25360b662f66919d8a68b5267462655fc1aa"
+    },
+    "model_display.glb": {
+      "bytes": 54356,
+      "sha256": "916731acf479fd1f1fefdc9ba24fe69a3f233e49d20f71a03ed65be3c2117ada"
+    },
+    "model_display.stl": {
+      "bytes": 144484,
+      "sha256": "7b4802d877cb9aaba985b7b1b118e712cc72241d81c1d6b10642cb4f92bb0773"
+    },
+    "model_full.glb": {
+      "bytes": 5563228,
+      "sha256": "a815fe9822926395760ddb7eabdad5d6c6623f4d8d72e78082e8e91764c51a22"
+    },
+    "model_full.stl": {
+      "bytes": 15446884,
+      "sha256": "0a1bc7dba72c6f37291017ca3fecc6df79f3a78d2176f8d867e546c1b63bc4e6"
+    },
+    "parameters.json": {
+      "bytes": 7758,
+      "sha256": "1cf251a2d87e4d9f82141d94c6c23fa576404a091a2a1b694355625f06116401"
+    },
+    "render_high.png": {
+      "bytes": 3689951,
+      "sha256": "d816e4cffda180d31d1594ebc81f7500b9faab758a5425b8233f404387b064c6"
+    },
+    "render_low.png": {
+      "bytes": 220294,
+      "sha256": "3043a02e312e51bc4cdec1301f0e9e483f95a0df7374d0d1d05511241443aa9d"
+    },
+    "render_product_high.png": {
+      "bytes": 3584836,
+      "sha256": "934077e14b7d2b1b600103ecc4b0afc2b861dec414b144a41f47845dcd408e65"
+    },
+    "render_product_low.png": {
+      "bytes": 221725,
+      "sha256": "00a71d8df00b580d5779940f558f5c931e41f7eb328e35dbe89ce3357978d538"
+    },
+    "render_scene.json": {
+      "bytes": 12833,
+      "sha256": "87b5c899dad476f7d1850fe8ac40921b6520b809956fb77d469d5840aa3bece0"
+    },
+    "requirements.txt": {
+      "bytes": 159,
+      "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
+    },
+    "studio.blend": {
+      "bytes": 6766441,
+      "sha256": "d1f38668c2ac9d76b0dcacde36088cca23f80ba6ffd1454a45af3558010b2a65"
+    }
+  },
+  "coordinate_system": {
+    "axis": "+Z towards head",
+    "glb_conversion": "(x,y,z) mm -> (x,z,-y)/1000 metres",
+    "glb_units": "metres",
+    "glb_up_axis": "Y",
+    "origin": "tip centre",
+    "stl_units": "mm"
+  },
+  "dimension_status": "standard_dimensions",
+  "fingerprint": "a71b721224b15be6ba34e7a58154716bf964e6242dac5d323cf9d50e058ed49b",
+  "generator": "iso_4017_hex_screw",
+  "length_status": "catalogue_length_not_verified_in_source_length_table",
+  "models": {
+    "display": {
+      "bounds_mm": [
+        [
+          -5.773502826690674,
+          -5.0,
+          0.0
+        ],
+        [
+          5.773502826690674,
+          5.0,
+          54.0
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        11.547005653381348,
+        10.0,
+        54.0
+      ],
+      "triangles": 2888,
+      "vertices": 1446,
+      "volume_mm3": 1735.5020701650371,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "full": {
+      "bounds_mm": [
+        [
+          -5.773502826690674,
+          -5.0,
+          0.0
+        ],
+        [
+          5.773502826690674,
+          5.0,
+          54.0
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        11.547005653381348,
+        10.0,
+        54.0
+      ],
+      "triangles": 308936,
+      "vertices": 154470,
+      "volume_mm3": 1481.037629373987,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  },
+  "recipe_fingerprint": "4ffad76bf6056d3de64aaacd3ec418be2ff2f79f23390f40f66bfa1c9e446901",
+  "schema_version": 1,
+  "source_fingerprint": "94573d90e337026741855aba77bdbc908a7bfc40037501588568108c3f90e6a3",
+  "sources": [
+    {
+      "title": "Westfield Fasteners ISO 4017 hex head set screw specification",
+      "url": "https://www.westfieldfasteners.co.uk/Standards/ScrewBolt-HexHd4017-M-THRfull.html"
+    },
+    {
+      "title": "ISO 68-1:1998 basic ISO metric thread profile",
+      "url": "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+    }
+  ],
+  "standard": "ISO 4017 supplier dimensional specification (edition not stated)"
+}

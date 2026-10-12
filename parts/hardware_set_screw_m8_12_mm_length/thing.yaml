@@ -62,7 +62,7 @@ kwargs:
   svg_s_max_mm: '13.00'
   svg_s_min_mm: '12.73'
   svg_thread_pitch_mm: '1.25'
-  type: default_set_screw
+  type: C:\gh\oomp_hardware_bolt_version_5_set_screw
 label_drawer: &id001
   bip39: damage wolf illegal
   bip39_size: 2.35
@@ -514,6 +514,7 @@ thing:
   id_no_class: hardware_set_screw_m8_12_mm_length
   id_no_size: hardware_set_screw_m8_12_mm_length
   id_no_type: hardware_set_screw_m8_12_mm_length
+  id_svg: hardware_set_screw_m8_12_mm_length
   kwargs:
     filter: ''
     generate_stl: false
@@ -542,7 +543,7 @@ thing:
     svg_s_max_mm: '13.00'
     svg_s_min_mm: '12.73'
     svg_thread_pitch_mm: '1.25'
-    type: default_set_screw
+    type: C:\gh\oomp_hardware_bolt_version_5_set_screw
   label_drawer:
     bip39: damage wolf illegal
     bip39_size: 2.35
@@ -847,6 +848,7 @@ thing:
       file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
     file_test: ''
   oomp_key: oomp_hardware_set_screw_m8_12_mm_length
+  project_name: C:\gh\oomp_hardware_bolt_version_5
   run_action: false
   run_oomp: true
   run_oomp_populate: true
@@ -2210,7 +2212,7 @@ thing:
   taxonomy_7_upper_length_5: 12_MM
   taxonomy_8: ''
   taxonomy_9: ''
-  type: default_set_screw
+  type: C:\gh\oomp_hardware_bolt_version_5_set_screw
   url_chat: ''
   width: 1
   width_mm: 14.0

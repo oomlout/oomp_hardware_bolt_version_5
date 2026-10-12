@@ -1,0 +1,190 @@
+{
+  "artifacts": {
+    "display/back.svg": {
+      "bytes": 12511,
+      "sha256": "b4780faad3448a24ceac86771367cd6ce9adfc2de61986a6895e1fcf5fea59da"
+    },
+    "display/bottom.svg": {
+      "bytes": 6371,
+      "sha256": "c72d10120279846f1d784dbc0465494e365406f4ebf2416aa61c09fea77bf88f"
+    },
+    "display/front.svg": {
+      "bytes": 12514,
+      "sha256": "1639b4002cea2703f503b436aff4fef045232bee9703f5187a74ec9cc7d8cac9"
+    },
+    "display/isometric.svg": {
+      "bytes": 10309,
+      "sha256": "75fa3159903f186b650f31aed52cc83685bf4e2806bb01acd0b9f31e488b9322"
+    },
+    "display/left.svg": {
+      "bytes": 12354,
+      "sha256": "b9e1addd6de33a10c205c20606cf778dcb5fe47bac4c0bd1a122288a5d85b07c"
+    },
+    "display/right.svg": {
+      "bytes": 12337,
+      "sha256": "3bf9a129f0285c3cb1444d317c9ba645fecb069694696c4dc3ba7241d79132df"
+    },
+    "display/top.svg": {
+      "bytes": 2864,
+      "sha256": "40e4e1062a708608c049e8fe2594f1f7209b043fd6970c380ab02891389d1a15"
+    },
+    "full/back.svg": {
+      "bytes": 1079297,
+      "sha256": "434ded1bbd0024724d7f4a816f0044ab906d0aae001942e0df1aa21aaf1653ee"
+    },
+    "full/bottom.svg": {
+      "bytes": 1466386,
+      "sha256": "c47be1aa24cfa120330f8b2237dc3766c13bb568551312a9bc1a252467147c14"
+    },
+    "full/front.svg": {
+      "bytes": 1081521,
+      "sha256": "74a0685623f6fac4d2b94dcee72e96b6e745f41f33a1112b3d02587f0bebf435"
+    },
+    "full/isometric.svg": {
+      "bytes": 1008614,
+      "sha256": "9840acabefd3de992e3be9776868a6d7da71f89737ea82b800fa5c42574812b6"
+    },
+    "full/left.svg": {
+      "bytes": 1080326,
+      "sha256": "654c07b368409a47f51f0e6d3a7dfc40c962d2c5ddf3740e1a88ed3b82685b75"
+    },
+    "full/right.svg": {
+      "bytes": 1078946,
+      "sha256": "86ad940f989f8fda854aa258fdad0e25dc489e94e68cb2d3b66efe554ccb2bec"
+    },
+    "full/top.svg": {
+      "bytes": 6568,
+      "sha256": "9d0e29504ee205844ff5e60f56c131fdb223a4e10c098db075b4444902eb4a64"
+    },
+    "model.py": {
+      "bytes": 15158,
+      "sha256": "8d00b9b5fd12920aa45c50443c6f25360b662f66919d8a68b5267462655fc1aa"
+    },
+    "model_display.glb": {
+      "bytes": 87072,
+      "sha256": "1c52655e03612b06a16de3ce666e021bb84d3234ba6f76b003dcdaf0ccf22b21"
+    },
+    "model_display.stl": {
+      "bytes": 235284,
+      "sha256": "0ade9062d243e693714b55d1fd82aa1d2bc32533c25e8d960191cbed3647174a"
+    },
+    "model_full.glb": {
+      "bytes": 9765608,
+      "sha256": "346ffe034b5294eaa64ceaf791061b3402e8112bd27f666e8f55db489c173cb6"
+    },
+    "model_full.stl": {
+      "bytes": 27120084,
+      "sha256": "1c5a12b0b6d3797a6bde79067b377d162cd03e8fc931a968fed319d896a0738e"
+    },
+    "parameters.json": {
+      "bytes": 7788,
+      "sha256": "695d787347de515df875396df1799adb4d23f5c86cb7563fc58d7cdf15d91ff5"
+    },
+    "render_high.png": {
+      "bytes": 3639624,
+      "sha256": "edb4cf1e7854e40743e2f88dbd66f4d6cd344ab2e54b1dd3ae8bccb286490b64"
+    },
+    "render_low.png": {
+      "bytes": 218766,
+      "sha256": "0fd1c690d5cc21cba1f51a006b254148dc8af9597424804560c76dfc52039bed"
+    },
+    "render_product_high.png": {
+      "bytes": 3537870,
+      "sha256": "d65911bf9f1607664fbe5fd01824602651a89cfebafb1fa3f38455125d38cf67"
+    },
+    "render_product_low.png": {
+      "bytes": 220790,
+      "sha256": "d0f81454f6aa5dfdfe4dc1dacaa9539caac0a1a488b65533935023846a275fdb"
+    },
+    "render_scene.json": {
+      "bytes": 12874,
+      "sha256": "793cfcafaf0acd293b57623b03e38ecf793b29f4f6d962a39dcfd483e8e11cd8"
+    },
+    "requirements.txt": {
+      "bytes": 159,
+      "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
+    },
+    "studio.blend": {
+      "bytes": 13493982,
+      "sha256": "968f74af27b9fec4f48408d4fe393cb74eca80e8e51c284df020c75746521dcb"
+    }
+  },
+  "coordinate_system": {
+    "axis": "+Z towards head",
+    "glb_conversion": "(x,y,z) mm -> (x,z,-y)/1000 metres",
+    "glb_units": "metres",
+    "glb_up_axis": "Y",
+    "origin": "tip centre",
+    "stl_units": "mm"
+  },
+  "dimension_status": "standard_dimensions",
+  "fingerprint": "f21487c98f2447b3b7a22d5b62da7cad282e93b9ecf7e567deac0bb3fa741980",
+  "generator": "iso_4017_hex_screw",
+  "length_status": "catalogue_length_not_verified_in_source_length_table",
+  "models": {
+    "display": {
+      "bounds_mm": [
+        [
+          -7.505553722381592,
+          -6.5,
+          0.0
+        ],
+        [
+          7.505553722381592,
+          6.5,
+          115.30000305175781
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        15.011107444763184,
+        13.0,
+        115.30000305175781
+      ],
+      "triangles": 4704,
+      "vertices": 2354,
+      "volume_mm3": 6227.582884804899,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "full": {
+      "bounds_mm": [
+        [
+          -7.505553722381592,
+          -6.5,
+          0.0
+        ],
+        [
+          7.505553722381592,
+          6.5,
+          115.30000305175781
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        15.011107444763184,
+        13.0,
+        115.30000305175781
+      ],
+      "triangles": 542400,
+      "vertices": 271202,
+      "volume_mm3": 5284.219185621895,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  },
+  "recipe_fingerprint": "53a402896693f714b12d6be36ef1795c7a9d51098096e1a0924e0f55334ad361",
+  "schema_version": 1,
+  "source_fingerprint": "94573d90e337026741855aba77bdbc908a7bfc40037501588568108c3f90e6a3",
+  "sources": [
+    {
+      "title": "Westfield Fasteners ISO 4017 hex head set screw specification",
+      "url": "https://www.westfieldfasteners.co.uk/Standards/ScrewBolt-HexHd4017-M-THRfull.html"
+    },
+    {
+      "title": "ISO 68-1:1998 basic ISO metric thread profile",
+      "url": "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+    }
+  ],
+  "standard": "ISO 4017 supplier dimensional specification (edition not stated)"
+}
