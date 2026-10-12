@@ -62,7 +62,7 @@
     },
     "model_display.glb": {
       "bytes": 25732,
-      "sha256": "85324a3c0c38570a53efc75df7ee6d3529eb3d43fbe53ef7401a8b5f373d26a9"
+      "sha256": "2bc56f5793ace2b26a7dd5d4ccaedee719ada38af6ad5cde75b00ec00302ac49"
     },
     "model_display.stl": {
       "bytes": 64884,
@@ -70,7 +70,7 @@
     },
     "model_full.glb": {
       "bytes": 1934320,
-      "sha256": "63f7ce554cdd370942e142f8b5edb9f37111ff640c91c22a020fdb08dd8a2056"
+      "sha256": "ca1cdc41b6631bf1f2f1f0dacdf216b510635722f16e56ace65185d806d1f2c8"
     },
     "model_full.stl": {
       "bytes": 5366484,
@@ -81,32 +81,32 @@
       "sha256": "6727b078d6d3b06271b795427589c7bccba3ef435c78e7e5f4fab8a5dcb9d88f"
     },
     "render_high.png": {
-      "bytes": 3745125,
-      "sha256": "72f7b044ddbcb2e493a236acdaca64c205a59c668331c254b9ed1aee0351eb58"
+      "bytes": 3744602,
+      "sha256": "6c878ab0ba544243919dfe5a2c44ffa0a60157bc09d2be2611552b916d1f7363"
     },
     "render_low.png": {
-      "bytes": 223364,
-      "sha256": "c2f7b4d9a6ae73a7eb3d11c208d2a6cb51475971a03c1550d7f5989167c84fb7"
+      "bytes": 223420,
+      "sha256": "2dfaa577709477fa4135f5ee13506514b6930304ec5bcc3484e8ca5643bf0bdf"
     },
     "render_product_high.png": {
-      "bytes": 3634013,
-      "sha256": "738d74e390616d60b928a2c0a98d114fd6a62cd9b285c06b3ae6d3e3883d5e93"
+      "bytes": 3634652,
+      "sha256": "0700970aa30220a2c0d49cd4a181ae659f3fc8cd6adf1e0e7640e55d33b53b56"
     },
     "render_product_low.png": {
-      "bytes": 226575,
-      "sha256": "649b597eb628a639f177374d77b65a7a80038261e82a16529db802a9a403c900"
+      "bytes": 226493,
+      "sha256": "87c30671d2a635b3d26f3fbe99d377cdcf11e1e2a31ba28e282b482d021ce39a"
     },
     "render_scene.json": {
       "bytes": 12853,
-      "sha256": "0e388319bc80df862f746334c92302f761012f00c41de7c3b51fe47c04293ba9"
+      "sha256": "0dec30e09103bca26cb30d4e0fe4aa68db40ff590b8d85e3f9ee647f14701f17"
     },
     "requirements.txt": {
       "bytes": 159,
       "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
     },
     "studio.blend": {
-      "bytes": 2513445,
-      "sha256": "bd16ef5e10e9b962e1c24d83d1a53155c35e2aefb1ac96f1d0fd197d711c8fad"
+      "bytes": 2513514,
+      "sha256": "5378c1a535c81ddf36f0a131d2e6a8c71c27f245f6c7507c987029d22059eb30"
     }
   },
   "coordinate_system": {
