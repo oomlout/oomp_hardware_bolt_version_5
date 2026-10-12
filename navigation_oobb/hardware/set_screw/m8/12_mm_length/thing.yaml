@@ -1,0 +1,2217 @@
+bip_39_2_word_array:
+- damage
+- wolf
+bip_39_2_word_no_space: damagewolf
+bip_39_2_word_space: damage wolf
+bip_39_2_word_underscore: damage_wolf
+bip_39_3_word_array:
+- damage
+- wolf
+- illegal
+bip_39_3_word_no_space: damagewolfillegal
+bip_39_3_word_space: damage wolf illegal
+bip_39_3_word_underscore: damage_wolf_illegal
+bip_39_full_array:
+- damage
+- wolf
+- illegal
+- order
+- client
+- need
+- maid
+- taxi
+- catalog
+- filter
+- inhale
+- provide
+bip_39_full_no_space: damagewolfillegalorderclientneedmaidtaxicatalogfilterinhaleprovide
+bip_39_full_space: damage wolf illegal order client need maid taxi catalog filter
+  inhale provide
+bip_39_full_underscore: damage_wolf_illegal_order_client_need_maid_taxi_catalog_filter_inhale_provide
+directory: parts/hardware_set_screw_m8_12_mm_length
+generate_stl: false
+id: hardware_set_screw_m8_12_mm_length
+id_no_class: hardware_set_screw_m8_12_mm_length
+id_no_size: hardware_set_screw_m8_12_mm_length
+id_no_type: hardware_set_screw_m8_12_mm_length
+id_svg: hardware_set_screw_m8_12_mm_length
+kwargs:
+  filter: ''
+  generate_stl: false
+  navigation: false
+  oomp_description_extra: ''
+  oomp_description_main: _
+  oomp_mode: project
+  overwrite: true
+  run_action: false
+  run_oomp: true
+  run_oomp_populate: true
+  run_scad: true
+  run_svg: true
+  svg_b_125_lt_l_le_200_mm: '28'
+  svg_b_l_gt_200_mm: '41'
+  svg_b_l_le_125_mm: '22'
+  svg_c_max_mm: '0.60'
+  svg_c_min_mm: '0.15'
+  svg_da_max_mm: '9.2'
+  svg_dw_min_mm: '11.63'
+  svg_e_min_mm: '14.38'
+  svg_k_max_mm: '5.45'
+  svg_k_min_mm: '5.15'
+  svg_nominal_diameter: M8
+  svg_s_max_mm: '13.00'
+  svg_s_min_mm: '12.73'
+  svg_thread_pitch_mm: '1.25'
+  type: default_set_screw
+label_drawer: &id001
+  bip39: damage wolf illegal
+  bip39_size: 2.35
+  code: SS
+  description: Set screw / M8 / 12 mm / Hex head / Full thread
+  detail_lines:
+  - Hex head / Full thread
+  detail_size: 2.05
+  detail_y: 21.1
+  diagram: <path d="M2 3H5L6 4V10L5 11H2Z M4 3V11"/><path d="M6 5H18V9H6"/><path d="M7
+    5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+  drive_symbol: <path d="M5 1L8.46 3V7L5 9L1.54 7V3Z" fill="#ffffff"/>
+  length: '12'
+  length_size: 7.8
+  length_x: 18.02234375
+  name: Set screw
+  name_lines:
+  - Set screw
+  name_size: 3.2
+  thread: M8
+  thread_size: 6.5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_12_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_12_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_12_mm_length
+md5: 371f99c44e12ad27a186f323eacdced6
+md5_10: 371f99c44e
+md5_10_upper: 371F99C44E
+md5_5: 371f9
+md5_5_upper: 371F9
+md5_6: 371f99
+md5_6_alpha: 25fh5
+md5_6_alpha_upper: 25FH5
+md5_6_upper: 371F99
+name: Hardware Set Screw M8 12 Mm Length
+name_no_class: Hardware Set Screw M8 12 Mm Length
+name_no_size: Hardware Set Screw M8 12 Mm Length
+name_no_type: Hardware Set Screw M8 12 Mm Length
+name_proper: Hardware Set Screw M8 12 Mm Length
+name_space: hardware set screw m8 12 mm length
+name_upper: HARDWARE SET SCREW M8 12 MM LENGTH
+oobb_name: set_screw
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      directory: parts\hardware_set_screw_m8_12_mm_length
+      name: hardware_set_screw_m8_12_mm_length
+      name_proper: Hardware Set Screw M8 12 Mm Length
+      name_space: hardware set screw m8 12 mm length
+      name_upper: HARDWARE SET SCREW M8 12 MM LENGTH
+      spec_iso_b_125_lt_l_le_200_mm: '28'
+      spec_iso_b_l_gt_200_mm: '41'
+      spec_iso_b_l_le_125_mm: '22'
+      spec_iso_c_max_mm: '0.60'
+      spec_iso_c_min_mm: '0.15'
+      spec_iso_da_max_mm: '9.2'
+      spec_iso_dw_min_mm: '11.63'
+      spec_iso_e_min_mm: '14.38'
+      spec_iso_k_max_mm: '5.45'
+      spec_iso_k_min_mm: '5.15'
+      spec_iso_nominal_diameter: M8
+      spec_iso_s_max_mm: '13.00'
+      spec_iso_s_min_mm: '12.73'
+      spec_iso_thread_pitch_mm: '1.25'
+      svg_details:
+      - svg_b_125_lt_l_le_200_mm: '28'
+        svg_b_l_gt_200_mm: '41'
+        svg_b_l_le_125_mm: '22'
+        svg_c_max_mm: '0.60'
+        svg_c_min_mm: '0.15'
+        svg_da_max_mm: '9.2'
+        svg_dw_min_mm: '11.63'
+        svg_e_min_mm: '14.38'
+        svg_k_max_mm: '5.45'
+        svg_k_min_mm: '5.15'
+        svg_name: set_screw
+        svg_nominal_diameter: M8
+        svg_s_max_mm: '13.00'
+        svg_s_min_mm: '12.73'
+        svg_thread_pitch_mm: '1.25'
+      - af_mm: 13.0
+        filename: working_mechanical_drawing
+        hardware_type: set_screw
+        head_height_mm: 5.45
+        id_mm: 8.0
+        length_mm: 12.0
+        part_category: HARDWARE / SET SCREW
+        part_code: ISO4017 / DIN933
+        part_name: ''
+        part_series: HEX HEAD FULL THREAD SCREW
+        part_title: M8×12
+        svg_name: oomp_mech_drawing_hardware
+        thread_length_mm: 12.0
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: set_screw
+      taxonomy_3: m8
+      taxonomy_4: ''
+      taxonomy_5: ''
+      taxonomy_6: ''
+      taxonomy_7: 12_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      url_chat: ''
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_2:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      directory: parts\hardware_set_screw_m8_12_mm_length
+      name: hardware_set_screw_m8_12_mm_length
+      name_proper: Hardware Set Screw M8 12 Mm Length
+      name_space: hardware set screw m8 12 mm length
+      name_upper: HARDWARE SET SCREW M8 12 MM LENGTH
+      oomlout_ai_roboclick_1:
+        actions:
+        - command: text_jinja_template
+          convert_to_pdf: false
+          convert_to_png: false
+          dict_data:
+            directory: parts\hardware_set_screw_m8_12_mm_length
+            name: hardware_set_screw_m8_12_mm_length
+            name_proper: Hardware Set Screw M8 12 Mm Length
+            name_space: hardware set screw m8 12 mm length
+            name_upper: HARDWARE SET SCREW M8 12 MM LENGTH
+            spec_iso_b_125_lt_l_le_200_mm: '28'
+            spec_iso_b_l_gt_200_mm: '41'
+            spec_iso_b_l_le_125_mm: '22'
+            spec_iso_c_max_mm: '0.60'
+            spec_iso_c_min_mm: '0.15'
+            spec_iso_da_max_mm: '9.2'
+            spec_iso_dw_min_mm: '11.63'
+            spec_iso_e_min_mm: '14.38'
+            spec_iso_k_max_mm: '5.45'
+            spec_iso_k_min_mm: '5.15'
+            spec_iso_nominal_diameter: M8
+            spec_iso_s_max_mm: '13.00'
+            spec_iso_s_min_mm: '12.73'
+            spec_iso_thread_pitch_mm: '1.25'
+            svg_details:
+            - svg_b_125_lt_l_le_200_mm: '28'
+              svg_b_l_gt_200_mm: '41'
+              svg_b_l_le_125_mm: '22'
+              svg_c_max_mm: '0.60'
+              svg_c_min_mm: '0.15'
+              svg_da_max_mm: '9.2'
+              svg_dw_min_mm: '11.63'
+              svg_e_min_mm: '14.38'
+              svg_k_max_mm: '5.45'
+              svg_k_min_mm: '5.15'
+              svg_name: set_screw
+              svg_nominal_diameter: M8
+              svg_s_max_mm: '13.00'
+              svg_s_min_mm: '12.73'
+              svg_thread_pitch_mm: '1.25'
+            - af_mm: 13.0
+              filename: working_mechanical_drawing
+              hardware_type: set_screw
+              head_height_mm: 5.45
+              id_mm: 8.0
+              length_mm: 12.0
+              part_category: HARDWARE / SET SCREW
+              part_code: ISO4017 / DIN933
+              part_name: ''
+              part_series: HEX HEAD FULL THREAD SCREW
+              part_title: M8×12
+              svg_name: oomp_mech_drawing_hardware
+              thread_length_mm: 12.0
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: set_screw
+            taxonomy_3: m8
+            taxonomy_4: ''
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: 12_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+          dict_data_files: {}
+          dict_data_files_exists: {}
+          file_output: label_oomp.svg
+          file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+          search_and_replace: []
+        file_test: label_oomp.pdf
+        retries_until_complete: 0
+      spec_iso_b_125_lt_l_le_200_mm: '28'
+      spec_iso_b_l_gt_200_mm: '41'
+      spec_iso_b_l_le_125_mm: '22'
+      spec_iso_c_max_mm: '0.60'
+      spec_iso_c_min_mm: '0.15'
+      spec_iso_da_max_mm: '9.2'
+      spec_iso_dw_min_mm: '11.63'
+      spec_iso_e_min_mm: '14.38'
+      spec_iso_k_max_mm: '5.45'
+      spec_iso_k_min_mm: '5.15'
+      spec_iso_nominal_diameter: M8
+      spec_iso_s_max_mm: '13.00'
+      spec_iso_s_min_mm: '12.73'
+      spec_iso_thread_pitch_mm: '1.25'
+      svg_details:
+      - svg_b_125_lt_l_le_200_mm: '28'
+        svg_b_l_gt_200_mm: '41'
+        svg_b_l_le_125_mm: '22'
+        svg_c_max_mm: '0.60'
+        svg_c_min_mm: '0.15'
+        svg_da_max_mm: '9.2'
+        svg_dw_min_mm: '11.63'
+        svg_e_min_mm: '14.38'
+        svg_k_max_mm: '5.45'
+        svg_k_min_mm: '5.15'
+        svg_name: set_screw
+        svg_nominal_diameter: M8
+        svg_s_max_mm: '13.00'
+        svg_s_min_mm: '12.73'
+        svg_thread_pitch_mm: '1.25'
+      - af_mm: 13.0
+        filename: working_mechanical_drawing
+        hardware_type: set_screw
+        head_height_mm: 5.45
+        id_mm: 8.0
+        length_mm: 12.0
+        part_category: HARDWARE / SET SCREW
+        part_code: ISO4017 / DIN933
+        part_name: ''
+        part_series: HEX HEAD FULL THREAD SCREW
+        part_title: M8×12
+        svg_name: oomp_mech_drawing_hardware
+        thread_length_mm: 12.0
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: set_screw
+      taxonomy_3: m8
+      taxonomy_4: ''
+      taxonomy_5: ''
+      taxonomy_6: ''
+      taxonomy_7: 12_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      url_chat: ''
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_bolt_image.svg
+    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_bolt_image.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_3:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    description: label_drawer
+    dict_data:
+      label_drawer: *id001
+    file_output: label_drawer.svg
+    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+  file_test: ''
+oomp_key: oomp_hardware_set_screw_m8_12_mm_length
+project_name: C:\gh\oomp_hardware_bolt_version_5
+run_action: false
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+run_svg: true
+spec_iso_b_125_lt_l_le_200_mm: '28'
+spec_iso_b_l_gt_200_mm: '41'
+spec_iso_b_l_le_125_mm: '22'
+spec_iso_c_max_mm: '0.60'
+spec_iso_c_min_mm: '0.15'
+spec_iso_da_max_mm: '9.2'
+spec_iso_dw_min_mm: '11.63'
+spec_iso_e_min_mm: '14.38'
+spec_iso_k_max_mm: '5.45'
+spec_iso_k_min_mm: '5.15'
+spec_iso_nominal_diameter: M8
+spec_iso_s_max_mm: '13.00'
+spec_iso_s_min_mm: '12.73'
+spec_iso_thread_pitch_mm: '1.25'
+svg_details:
+- svg_b_125_lt_l_le_200_mm: '28'
+  svg_b_l_gt_200_mm: '41'
+  svg_b_l_le_125_mm: '22'
+  svg_c_max_mm: '0.60'
+  svg_c_min_mm: '0.15'
+  svg_da_max_mm: '9.2'
+  svg_dw_min_mm: '11.63'
+  svg_e_min_mm: '14.38'
+  svg_k_max_mm: '5.45'
+  svg_k_min_mm: '5.15'
+  svg_name: set_screw
+  svg_nominal_diameter: M8
+  svg_s_max_mm: '13.00'
+  svg_s_min_mm: '12.73'
+  svg_thread_pitch_mm: '1.25'
+- af_mm: 13.0
+  filename: working_mechanical_drawing
+  hardware_type: set_screw
+  head_height_mm: 5.45
+  id_mm: 8.0
+  length_mm: 12.0
+  part_category: HARDWARE / SET SCREW
+  part_code: ISO4017 / DIN933
+  part_name: ''
+  part_series: HEX HEAD FULL THREAD SCREW
+  part_title: M8×12
+  svg_name: oomp_mech_drawing_hardware
+  thread_length_mm: 12.0
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: set_screw
+taxonomy_2_capital: Set Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: se
+taxonomy_2_length_3: set
+taxonomy_2_length_4: set_
+taxonomy_2_length_5: set_s
+taxonomy_2_upper: SET_SCREW
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: SE
+taxonomy_2_upper_length_3: SET
+taxonomy_2_upper_length_4: SET_
+taxonomy_2_upper_length_5: SET_S
+taxonomy_3: m8
+taxonomy_3_capital: M8
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m8
+taxonomy_3_length_3: m8
+taxonomy_3_length_4: m8
+taxonomy_3_length_5: m8
+taxonomy_3_upper: M8
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M8
+taxonomy_3_upper_length_3: M8
+taxonomy_3_upper_length_4: M8
+taxonomy_3_upper_length_5: M8
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: 12_mm_length
+taxonomy_7_capital: 12 mm Length
+taxonomy_7_first_letter: '1'
+taxonomy_7_first_letter_upper: '1'
+taxonomy_7_length_1: '1'
+taxonomy_7_length_2: '12'
+taxonomy_7_length_3: '12_'
+taxonomy_7_length_4: 12_m
+taxonomy_7_length_5: 12_mm
+taxonomy_7_upper: 12_MM_LENGTH
+taxonomy_7_upper_length_1: '1'
+taxonomy_7_upper_length_2: '12'
+taxonomy_7_upper_length_3: '12_'
+taxonomy_7_upper_length_4: 12_M
+taxonomy_7_upper_length_5: 12_MM
+taxonomy_8: ''
+taxonomy_9: ''
+thing:
+  bip_39_2_word_array:
+  - damage
+  - wolf
+  bip_39_2_word_no_space: damagewolf
+  bip_39_2_word_space: damage wolf
+  bip_39_2_word_underscore: damage_wolf
+  bip_39_3_word_array:
+  - damage
+  - wolf
+  - illegal
+  bip_39_3_word_no_space: damagewolfillegal
+  bip_39_3_word_space: damage wolf illegal
+  bip_39_3_word_underscore: damage_wolf_illegal
+  bip_39_full_array:
+  - damage
+  - wolf
+  - illegal
+  - order
+  - client
+  - need
+  - maid
+  - taxi
+  - catalog
+  - filter
+  - inhale
+  - provide
+  bip_39_full_no_space: damagewolfillegalorderclientneedmaidtaxicatalogfilterinhaleprovide
+  bip_39_full_space: damage wolf illegal order client need maid taxi catalog filter
+    inhale provide
+  bip_39_full_underscore: damage_wolf_illegal_order_client_need_maid_taxi_catalog_filter_inhale_provide
+  classification: svg
+  color: ''
+  depth: 3
+  depth_mm: 3
+  description: ''
+  description_extra: ''
+  description_main: ''
+  directory: parts/hardware_set_screw_m8_12_mm_length
+  extra: ''
+  generate_stl: false
+  height: 1
+  height_mm: 14.0
+  id: hardware_set_screw_m8_12_mm_length
+  id_no_class: hardware_set_screw_m8_12_mm_length
+  id_no_size: hardware_set_screw_m8_12_mm_length
+  id_no_type: hardware_set_screw_m8_12_mm_length
+  kwargs:
+    filter: ''
+    generate_stl: false
+    navigation: false
+    oomp_description_extra: ''
+    oomp_description_main: _
+    oomp_mode: project
+    overwrite: true
+    run_action: false
+    run_oomp: true
+    run_oomp_populate: true
+    run_scad: true
+    run_svg: true
+    save_type: all
+    svg_b_125_lt_l_le_200_mm: '28'
+    svg_b_l_gt_200_mm: '41'
+    svg_b_l_le_125_mm: '22'
+    svg_c_max_mm: '0.60'
+    svg_c_min_mm: '0.15'
+    svg_da_max_mm: '9.2'
+    svg_dw_min_mm: '11.63'
+    svg_e_min_mm: '14.38'
+    svg_k_max_mm: '5.45'
+    svg_k_min_mm: '5.15'
+    svg_nominal_diameter: M8
+    svg_s_max_mm: '13.00'
+    svg_s_min_mm: '12.73'
+    svg_thread_pitch_mm: '1.25'
+    type: default_set_screw
+  label_drawer:
+    bip39: damage wolf illegal
+    bip39_size: 2.35
+    code: SS
+    description: Set screw / M8 / 12 mm / Hex head / Full thread
+    detail_lines:
+    - Hex head / Full thread
+    detail_size: 2.05
+    detail_y: 21.1
+    diagram: <path d="M2 3H5L6 4V10L5 11H2Z M4 3V11"/><path d="M6 5H18V9H6"/><path
+      d="M7 5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+    drive_symbol: <path d="M5 1L8.46 3V7L5 9L1.54 7V3Z" fill="#ffffff"/>
+    length: '12'
+    length_size: 7.8
+    length_x: 18.02234375
+    name: Set screw
+    name_lines:
+    - Set screw
+    name_size: 3.2
+    thread: M8
+    thread_size: 6.5
+  link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_12_mm_length
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_12_mm_length
+  link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m8_12_mm_length
+  md5: 371f99c44e12ad27a186f323eacdced6
+  md5_10: 371f99c44e
+  md5_10_upper: 371F99C44E
+  md5_5: 371f9
+  md5_5_upper: 371F9
+  md5_6: 371f99
+  md5_6_alpha: 25fh5
+  md5_6_alpha_upper: 25FH5
+  md5_6_upper: 371F99
+  name: Hardware Set Screw M8 12 Mm Length
+  name_no_class: Hardware Set Screw M8 12 Mm Length
+  name_no_size: Hardware Set Screw M8 12 Mm Length
+  name_no_type: Hardware Set Screw M8 12 Mm Length
+  name_proper: Hardware Set Screw M8 12 Mm Length
+  name_space: hardware set screw m8 12 mm length
+  name_upper: HARDWARE SET SCREW M8 12 MM LENGTH
+  oobb_name: set_screw
+  oomlout_ai_roboclick_1:
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      dict_data:
+        directory: parts\hardware_set_screw_m8_12_mm_length
+        name: hardware_set_screw_m8_12_mm_length
+        name_proper: Hardware Set Screw M8 12 Mm Length
+        name_space: hardware set screw m8 12 mm length
+        name_upper: HARDWARE SET SCREW M8 12 MM LENGTH
+        spec_iso_b_125_lt_l_le_200_mm: '28'
+        spec_iso_b_l_gt_200_mm: '41'
+        spec_iso_b_l_le_125_mm: '22'
+        spec_iso_c_max_mm: '0.60'
+        spec_iso_c_min_mm: '0.15'
+        spec_iso_da_max_mm: '9.2'
+        spec_iso_dw_min_mm: '11.63'
+        spec_iso_e_min_mm: '14.38'
+        spec_iso_k_max_mm: '5.45'
+        spec_iso_k_min_mm: '5.15'
+        spec_iso_nominal_diameter: M8
+        spec_iso_s_max_mm: '13.00'
+        spec_iso_s_min_mm: '12.73'
+        spec_iso_thread_pitch_mm: '1.25'
+        svg_details:
+        - svg_b_125_lt_l_le_200_mm: '28'
+          svg_b_l_gt_200_mm: '41'
+          svg_b_l_le_125_mm: '22'
+          svg_c_max_mm: '0.60'
+          svg_c_min_mm: '0.15'
+          svg_da_max_mm: '9.2'
+          svg_dw_min_mm: '11.63'
+          svg_e_min_mm: '14.38'
+          svg_k_max_mm: '5.45'
+          svg_k_min_mm: '5.15'
+          svg_name: set_screw
+          svg_nominal_diameter: M8
+          svg_s_max_mm: '13.00'
+          svg_s_min_mm: '12.73'
+          svg_thread_pitch_mm: '1.25'
+        - af_mm: 13.0
+          filename: working_mechanical_drawing
+          hardware_type: set_screw
+          head_height_mm: 5.45
+          id_mm: 8.0
+          length_mm: 12.0
+          part_category: HARDWARE / SET SCREW
+          part_code: ISO4017 / DIN933
+          part_name: ''
+          part_series: HEX HEAD FULL THREAD SCREW
+          part_title: M8×12
+          svg_name: oomp_mech_drawing_hardware
+          thread_length_mm: 12.0
+        taxonomy_1: hardware
+        taxonomy_10: ''
+        taxonomy_11: ''
+        taxonomy_12: ''
+        taxonomy_13: ''
+        taxonomy_14: ''
+        taxonomy_15: ''
+        taxonomy_2: set_screw
+        taxonomy_3: m8
+        taxonomy_4: ''
+        taxonomy_5: ''
+        taxonomy_6: ''
+        taxonomy_7: 12_mm_length
+        taxonomy_8: ''
+        taxonomy_9: ''
+        url_chat: ''
+      dict_data_files: {}
+      dict_data_files_exists: {}
+      file_output: label_oomp.svg
+      file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+      search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+  oomlout_ai_roboclick_2:
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      dict_data:
+        directory: parts\hardware_set_screw_m8_12_mm_length
+        name: hardware_set_screw_m8_12_mm_length
+        name_proper: Hardware Set Screw M8 12 Mm Length
+        name_space: hardware set screw m8 12 mm length
+        name_upper: HARDWARE SET SCREW M8 12 MM LENGTH
+        oomlout_ai_roboclick_1:
+          actions:
+          - command: text_jinja_template
+            convert_to_pdf: false
+            convert_to_png: false
+            dict_data:
+              directory: parts\hardware_set_screw_m8_12_mm_length
+              name: hardware_set_screw_m8_12_mm_length
+              name_proper: Hardware Set Screw M8 12 Mm Length
+              name_space: hardware set screw m8 12 mm length
+              name_upper: HARDWARE SET SCREW M8 12 MM LENGTH
+              spec_iso_b_125_lt_l_le_200_mm: '28'
+              spec_iso_b_l_gt_200_mm: '41'
+              spec_iso_b_l_le_125_mm: '22'
+              spec_iso_c_max_mm: '0.60'
+              spec_iso_c_min_mm: '0.15'
+              spec_iso_da_max_mm: '9.2'
+              spec_iso_dw_min_mm: '11.63'
+              spec_iso_e_min_mm: '14.38'
+              spec_iso_k_max_mm: '5.45'
+              spec_iso_k_min_mm: '5.15'
+              spec_iso_nominal_diameter: M8
+              spec_iso_s_max_mm: '13.00'
+              spec_iso_s_min_mm: '12.73'
+              spec_iso_thread_pitch_mm: '1.25'
+              svg_details:
+              - svg_b_125_lt_l_le_200_mm: '28'
+                svg_b_l_gt_200_mm: '41'
+                svg_b_l_le_125_mm: '22'
+                svg_c_max_mm: '0.60'
+                svg_c_min_mm: '0.15'
+                svg_da_max_mm: '9.2'
+                svg_dw_min_mm: '11.63'
+                svg_e_min_mm: '14.38'
+                svg_k_max_mm: '5.45'
+                svg_k_min_mm: '5.15'
+                svg_name: set_screw
+                svg_nominal_diameter: M8
+                svg_s_max_mm: '13.00'
+                svg_s_min_mm: '12.73'
+                svg_thread_pitch_mm: '1.25'
+              - af_mm: '13.0'
+                filename: working_mechanical_drawing
+                hardware_type: set_screw
+                head_height_mm: '5.45'
+                id_mm: '8.0'
+                length_mm: '12.0'
+                part_category: HARDWARE / SET SCREW
+                part_code: ISO4017 / DIN933
+                part_name: ''
+                part_series: HEX HEAD FULL THREAD SCREW
+                part_title: M8×12
+                svg_name: oomp_mech_drawing_hardware
+                thread_length_mm: '12.0'
+              taxonomy_1: hardware
+              taxonomy_10: ''
+              taxonomy_11: ''
+              taxonomy_12: ''
+              taxonomy_13: ''
+              taxonomy_14: ''
+              taxonomy_15: ''
+              taxonomy_2: set_screw
+              taxonomy_3: m8
+              taxonomy_4: ''
+              taxonomy_5: ''
+              taxonomy_6: ''
+              taxonomy_7: 12_mm_length
+              taxonomy_8: ''
+              taxonomy_9: ''
+              url_chat: ''
+            dict_data_files: {}
+            dict_data_files_exists: {}
+            file_output: label_oomp.svg
+            file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+            search_and_replace: []
+          file_test: label_oomp.pdf
+          retries_until_complete: 0
+        spec_iso_b_125_lt_l_le_200_mm: '28'
+        spec_iso_b_l_gt_200_mm: '41'
+        spec_iso_b_l_le_125_mm: '22'
+        spec_iso_c_max_mm: '0.60'
+        spec_iso_c_min_mm: '0.15'
+        spec_iso_da_max_mm: '9.2'
+        spec_iso_dw_min_mm: '11.63'
+        spec_iso_e_min_mm: '14.38'
+        spec_iso_k_max_mm: '5.45'
+        spec_iso_k_min_mm: '5.15'
+        spec_iso_nominal_diameter: M8
+        spec_iso_s_max_mm: '13.00'
+        spec_iso_s_min_mm: '12.73'
+        spec_iso_thread_pitch_mm: '1.25'
+        svg_details:
+        - svg_b_125_lt_l_le_200_mm: '28'
+          svg_b_l_gt_200_mm: '41'
+          svg_b_l_le_125_mm: '22'
+          svg_c_max_mm: '0.60'
+          svg_c_min_mm: '0.15'
+          svg_da_max_mm: '9.2'
+          svg_dw_min_mm: '11.63'
+          svg_e_min_mm: '14.38'
+          svg_k_max_mm: '5.45'
+          svg_k_min_mm: '5.15'
+          svg_name: set_screw
+          svg_nominal_diameter: M8
+          svg_s_max_mm: '13.00'
+          svg_s_min_mm: '12.73'
+          svg_thread_pitch_mm: '1.25'
+        - af_mm: 13.0
+          filename: working_mechanical_drawing
+          hardware_type: set_screw
+          head_height_mm: 5.45
+          id_mm: 8.0
+          length_mm: 12.0
+          part_category: HARDWARE / SET SCREW
+          part_code: ISO4017 / DIN933
+          part_name: ''
+          part_series: HEX HEAD FULL THREAD SCREW
+          part_title: M8×12
+          svg_name: oomp_mech_drawing_hardware
+          thread_length_mm: 12.0
+        taxonomy_1: hardware
+        taxonomy_10: ''
+        taxonomy_11: ''
+        taxonomy_12: ''
+        taxonomy_13: ''
+        taxonomy_14: ''
+        taxonomy_15: ''
+        taxonomy_2: set_screw
+        taxonomy_3: m8
+        taxonomy_4: ''
+        taxonomy_5: ''
+        taxonomy_6: ''
+        taxonomy_7: 12_mm_length
+        taxonomy_8: ''
+        taxonomy_9: ''
+        url_chat: ''
+      dict_data_files: {}
+      dict_data_files_exists: {}
+      file_output: label_bolt_image.svg
+      file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+      search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
+  oomlout_ai_roboclick_3:
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      description: label_drawer
+      dict_data:
+        label_drawer:
+          bip39: damage wolf illegal
+          bip39_size: 2.35
+          code: SS
+          description: Set screw / M8 / 12 mm / Hex head / Full thread
+          detail_lines:
+          - Hex head / Full thread
+          detail_size: 2.05
+          detail_y: 21.1
+          diagram: <path d="M2 3H5L6 4V10L5 11H2Z M4 3V11"/><path d="M6 5H18V9H6"/><path
+            d="M7 5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+          drive_symbol: <path d="M5 1L8.46 3V7L5 9L1.54 7V3Z" fill="#ffffff"/>
+          length: '12'
+          length_size: 7.8
+          length_x: 18.02234375
+          name: Set screw
+          name_lines:
+          - Set screw
+          name_size: 3.2
+          thread: M8
+          thread_size: 6.5
+      file_output: label_drawer.svg
+      file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
+  oomp_key: oomp_hardware_set_screw_m8_12_mm_length
+  run_action: false
+  run_oomp: true
+  run_oomp_populate: true
+  run_scad: true
+  run_svg: true
+  size: ''
+  spec_iso_b_125_lt_l_le_200_mm: '28'
+  spec_iso_b_l_gt_200_mm: '41'
+  spec_iso_b_l_le_125_mm: '22'
+  spec_iso_c_max_mm: '0.60'
+  spec_iso_c_min_mm: '0.15'
+  spec_iso_da_max_mm: '9.2'
+  spec_iso_dw_min_mm: '11.63'
+  spec_iso_e_min_mm: '14.38'
+  spec_iso_k_max_mm: '5.45'
+  spec_iso_k_min_mm: '5.15'
+  spec_iso_nominal_diameter: M8
+  spec_iso_s_max_mm: '13.00'
+  spec_iso_s_min_mm: '12.73'
+  spec_iso_thread_pitch_mm: '1.25'
+  styles:
+    diagram.solid:
+      color: '#1A1A1A'
+      stroke: none
+      stroke_width: 0
+    engraved:
+      color: '#CCCCCC'
+      stroke: none
+      stroke_width: 0
+    engraved.light:
+      color: '#E0E0E0'
+    header:
+      color: '#1C1C1C'
+      stroke: '#1C1C1C'
+      stroke_width: 0.5
+    header.accent:
+      color: '#444444'
+    header.label:
+      color: '#FFFFFF'
+      font: Swis721 Blk BT, comic sans ms
+      font_weight: bold
+      halign: center
+      size: 7.0
+      stroke: none
+      stroke_width: 0
+      valign: center
+    hole:
+      color: '#DDDDDD'
+      stroke: '#1A1A1A'
+      stroke_width: 0.4
+    hole.cut:
+      color: '#FFFFFF'
+      stroke: '#444444'
+      stroke_width: 0.3
+    label:
+      color: '#1A1A1A'
+      font: Swis721 Blk BT, comic sans ms
+      halign: center
+      size: 5.0
+      stroke: none
+      stroke_width: 0
+      valign: center
+    label.accent:
+      color: '#333333'
+    label.large:
+      size: 8.0
+    label.light:
+      color: '#FFFFFF'
+    label.mono:
+      font: JetBrains Mono, Fira Code, Consolas, monospace
+    label.muted:
+      color: '#888888'
+    label.small:
+      size: 2.5
+    label.title:
+      color: '#111111'
+      font: Swis721 Blk BT, comic sans ms
+      font_weight: bold
+      size: 14.0
+    line:
+      color: none
+      stroke: '#333333'
+      stroke_width: 0.5
+    line.accent:
+      stroke: '#111111'
+    line.hairline:
+      stroke_width: 0.1
+    line.heavy:
+      stroke_width: 2.0
+    line.muted:
+      stroke: '#AAAAAA'
+    line.thick:
+      stroke_width: 1.0
+    line.thin:
+      stroke_width: 0.25
+    outline:
+      color: none
+      stroke: '#1A1A1A'
+      stroke_width: 0.5
+    outline.accent:
+      color: none
+      stroke: '#555555'
+      stroke_width: 0.5
+    outline.hairline:
+      stroke_width: 0.1
+    outline.heavy:
+      stroke_width: 2.0
+    outline.light:
+      color: none
+      stroke: '#AAAAAA'
+      stroke_width: 0.3
+    outline.thick:
+      stroke_width: 1.0
+    outline.thin:
+      stroke_width: 0.25
+    plate:
+      color: '#FAFAFA'
+      stroke: '#1A1A1A'
+      stroke_width: 1.2
+    plate.accent:
+      color: '#E8E8E8'
+      stroke: '#1A1A1A'
+      stroke_width: 0.5
+    plate.cell:
+      color: '#FFFFFF'
+      stroke: '#2E2E2E'
+      stroke_width: 0.5
+    plate.hairline:
+      stroke: '#333333'
+      stroke_width: 0.1
+    plate.heavy:
+      stroke: '#333333'
+      stroke_width: 2.0
+    plate.inner:
+      color: none
+      stroke: '#2E2E2E'
+      stroke_width: 0.35
+    plate.light:
+      color: '#F0F0F0'
+      stroke: '#333333'
+      stroke_width: 0.5
+    plate.outline:
+      color: none
+      stroke: '#1A1A1A'
+      stroke_width: 0.8
+    plate.thick:
+      stroke: '#333333'
+      stroke_width: 1.0
+    plate.thin:
+      stroke: '#333333'
+      stroke_width: 0.25
+    rule:
+      color: '#BBBBBB'
+      stroke: none
+      stroke_width: 0
+    slot:
+      color: '#DDDDDD'
+      stroke: '#1A1A1A'
+      stroke_width: 0.4
+  svg_components:
+  - color: '#ffffff'
+    pos:
+    - 0
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: rect
+    size:
+    - 210.0
+    - 297.0
+    - 0
+    stroke: none
+    stroke_width: 0
+  - color: none
+    pos:
+    - 0
+    - 0
+    - 0
+    r: 3.5
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: rounded_rectangle
+    size:
+    - 202.0
+    - 289.0
+    - 0
+    stroke: '#1A1A1A'
+    stroke_width: 0.8
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: left
+    pos:
+    - -91.0
+    - 134.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.2
+    stroke: none
+    stroke_width: 0
+    text: hardware_set_screw_m8_12_mm_length
+    valign: center
+  - color: '#1C1C1C'
+    font: sans-serif
+    font_weight: bold
+    halign: left
+    pos:
+    - -91.0
+    - 111.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 18.0
+    stroke: none
+    stroke_width: 0
+    text: M8×12
+    valign: center
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: left
+    pos:
+    - -91.0
+    - 99.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 4.5
+    stroke: none
+    stroke_width: 0
+    text: HARDWARE / SET SCREW
+    valign: center
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: left
+    pos:
+    - -91.0
+    - 81.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 4.0
+    stroke: none
+    stroke_width: 0
+    text: HEX HEAD FULL THREAD SCREW
+    valign: center
+  - p1:
+    - -95.0
+    - 0
+    p2:
+    - 95.0
+    - 0
+    pos:
+    - 0
+    - 72.5
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#111111'
+    font: sans-serif
+    font_weight: bold
+    halign: left
+    pos:
+    - -91.0
+    - 65.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 5.2
+    stroke: none
+    stroke_width: 0
+    text: DIMENSIONS
+    valign: center
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: right
+    pos:
+    - 91.0
+    - 65.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.2
+    stroke: none
+    stroke_width: 0
+    text: 3:1 RATIO  —  PRINT AT 100%
+    valign: center
+  - color: '#888888'
+    font: sans-serif
+    font_weight: bold
+    halign: center
+    pos:
+    - -52.5
+    - 51.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.2
+    stroke: none
+    stroke_width: 0
+    text: END VIEW
+    valign: center
+  - color: '#888888'
+    font: sans-serif
+    font_weight: bold
+    halign: center
+    pos:
+    - 52.5
+    - 51.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.2
+    stroke: none
+    stroke_width: 0
+    text: SIDE VIEW
+    valign: center
+  - color: '#FAFAFA'
+    points:
+    - - 1.3787478103423788e-15
+      - 22.516660498395403
+    - - -19.5
+      - 11.2583302491977
+    - - -19.499999999999996
+      - -11.258330249197703
+    - - -4.136243431027136e-15
+      - -22.516660498395403
+    - - 19.499999999999993
+      - -11.258330249197712
+    - - 19.499999999999996
+      - 11.258330249197702
+    pos:
+    - -52.5
+    - 13.529165124598848
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: polygon
+    stroke: '#1A1A1A'
+    stroke_width: 0.8
+  - color: '#1A1A1A'
+    p1:
+    - -19.5
+    - 12.758330249197702
+    p2:
+    - -19.5
+    - 32.0166604983954
+    pos:
+    - -52.5
+    - 13.529165124598848
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - 19.5
+    - 12.758330249197702
+    p2:
+    - 19.5
+    - 32.0166604983954
+    pos:
+    - -52.5
+    - 13.529165124598848
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - -19.5
+    - 30.516660498395403
+    p2:
+    - 19.5
+    - 30.516660498395403
+    pos:
+    - -52.5
+    - 13.529165124598848
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - -19.5
+    - 29.016660498395403
+    p2:
+    - -19.5
+    - 32.0166604983954
+    pos:
+    - -52.5
+    - 13.529165124598848
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - 19.5
+    - 29.016660498395403
+    p2:
+    - 19.5
+    - 32.0166604983954
+    pos:
+    - -52.5
+    - 13.529165124598848
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    font: Arial, Helvetica, sans-serif
+    halign: center
+    pos:
+    - -52.5
+    - 47.32582562299425
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.8
+    text: ACROSS FLATS  13 mm
+    valign: center
+  - color: '#888888'
+    font: sans-serif
+    font_weight: bold
+    halign: center
+    pos:
+    - -52.5
+    - -26.787495373796553
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.2
+    stroke: none
+    stroke_width: 0
+    text: TIP VIEW
+    valign: center
+  - color: '#FAFAFA'
+    pos:
+    - -52.5
+    - -48.78749537379655
+    - 0
+    r: 12.0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: circle
+    stroke: '#1A1A1A'
+    stroke_width: 0.8
+  - color: '#1A1A1A'
+    p1:
+    - -12.0
+    - -1.5
+    p2:
+    - -12.0
+    - -19.5
+    pos:
+    - -52.5
+    - -48.78749537379655
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - 12.0
+    - -1.5
+    p2:
+    - 12.0
+    - -19.5
+    pos:
+    - -52.5
+    - -48.78749537379655
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - -12.0
+    - -18.0
+    p2:
+    - 12.0
+    - -18.0
+    pos:
+    - -52.5
+    - -48.78749537379655
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - -12.0
+    - -19.5
+    p2:
+    - -12.0
+    - -16.5
+    pos:
+    - -52.5
+    - -48.78749537379655
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - 12.0
+    - -19.5
+    p2:
+    - 12.0
+    - -16.5
+    pos:
+    - -52.5
+    - -48.78749537379655
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    font: Arial, Helvetica, sans-serif
+    halign: center
+    pos:
+    - -52.5
+    - -70.06749537379656
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.8
+    text: Ø8 mm
+    valign: center
+  - color: '#FAFAFA'
+    pos:
+    - 52.5
+    - 1.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: rect
+    size:
+    - 45.033320996790806
+    - 16.35
+    - 0
+    stroke: '#1A1A1A'
+    stroke_width: 0.8
+  - p1:
+    - -19.5
+    - -6.675000000000001
+    p2:
+    - -19.5
+    - 9.675
+    pos:
+    - 52.5
+    - 0
+    - 0
+    shape: line
+    stroke: '#AAAAAA'
+    stroke_width: 0.3
+  - p1:
+    - 19.5
+    - -6.675000000000001
+    p2:
+    - 19.5
+    - 9.675
+    pos:
+    - 52.5
+    - 0
+    - 0
+    shape: line
+    stroke: '#AAAAAA'
+    stroke_width: 0.3
+  - color: '#F0F0F0'
+    pos:
+    - 52.5
+    - -24.674999999999997
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: rect
+    size:
+    - 24.0
+    - 36.0
+    - 0
+    stroke: '#1A1A1A'
+    stroke_width: 0.8
+  - color: '#1A1A1A'
+    p1:
+    - -19.5
+    - 11.175
+    p2:
+    - -19.5
+    - 19.175
+    pos:
+    - 52.5
+    - 0
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - 19.5
+    - 11.175
+    p2:
+    - 19.5
+    - 19.175
+    pos:
+    - 52.5
+    - 0
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - -19.5
+    - 17.675
+    p2:
+    - 19.5
+    - 17.675
+    pos:
+    - 52.5
+    - 0
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - -19.5
+    - 16.175
+    p2:
+    - -19.5
+    - 19.175
+    pos:
+    - 52.5
+    - 0
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - 19.5
+    - 16.175
+    p2:
+    - 19.5
+    - 19.175
+    pos:
+    - 52.5
+    - 0
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    font: Arial, Helvetica, sans-serif
+    halign: center
+    pos:
+    - 52.5
+    - 20.955000000000002
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.8
+    text: ACROSS FLATS  13 mm
+    valign: center
+  - p1:
+    - 28.483339501604597
+    - -6.675000000000001
+    p2:
+    - 20.483339501604597
+    - -6.675000000000001
+    pos:
+    - 0
+    - 0
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - p1:
+    - 20.483339501604597
+    - -6.675000000000001
+    p2:
+    - 23.483339501604597
+    - -6.675000000000001
+    pos:
+    - 0
+    - 0
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - p1:
+    - 28.483339501604597
+    - 9.675
+    p2:
+    - 20.483339501604597
+    - 9.675
+    pos:
+    - 0
+    - 0
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - p1:
+    - 20.483339501604597
+    - 9.675
+    p2:
+    - 23.483339501604597
+    - 9.675
+    pos:
+    - 0
+    - 0
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - p1:
+    - 21.983339501604597
+    - -6.675000000000001
+    p2:
+    - 21.983339501604597
+    - 9.675
+    pos:
+    - 0
+    - 0
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    font: sans-serif
+    font_weight: ''
+    halign: right
+    pos:
+    - 18.483339501604597
+    - 1.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.8
+    stroke: none
+    stroke_width: 0
+    text: HEAD HEIGHT  5.5 mm
+    valign: center
+  - color: '#1A1A1A'
+    p1:
+    - 24.016660498395403
+    - -42.675
+    p2:
+    - 32.0166604983954
+    - -42.675
+    pos:
+    - 52.5
+    - 0
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - 24.016660498395403
+    - -6.675000000000001
+    p2:
+    - 32.0166604983954
+    - -6.675000000000001
+    pos:
+    - 52.5
+    - 0
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - 30.516660498395403
+    - -42.675
+    p2:
+    - 30.516660498395403
+    - -6.675000000000001
+    pos:
+    - 52.5
+    - 0
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - 29.016660498395403
+    - -42.675
+    p2:
+    - 32.0166604983954
+    - -42.675
+    pos:
+    - 52.5
+    - 0
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - 29.016660498395403
+    - -6.675000000000001
+    p2:
+    - 32.0166604983954
+    - -6.675000000000001
+    pos:
+    - 52.5
+    - 0
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    font: Arial, Helvetica, sans-serif
+    halign: center
+    pos:
+    - 86.2966604983954
+    - -24.674999999999997
+    - 0
+    rot:
+    - 0
+    - 0
+    - 90
+    shape: text
+    size: 3.8
+    text: SHANK LENGTH  12 mm
+    valign: center
+  - color: '#1A1A1A'
+    p1:
+    - -13.5
+    - -42.675
+    p2:
+    - -32.0166604983954
+    - -42.675
+    pos:
+    - 52.5
+    - 0
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - -13.5
+    - -6.674999999999997
+    p2:
+    - -32.0166604983954
+    - -6.674999999999997
+    pos:
+    - 52.5
+    - 0
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - -30.516660498395403
+    - -42.675
+    p2:
+    - -30.516660498395403
+    - -6.674999999999997
+    pos:
+    - 52.5
+    - 0
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - -32.0166604983954
+    - -42.675
+    p2:
+    - -29.016660498395403
+    - -42.675
+    pos:
+    - 52.5
+    - 0
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - -32.0166604983954
+    - -6.674999999999997
+    p2:
+    - -29.016660498395403
+    - -6.674999999999997
+    pos:
+    - 52.5
+    - 0
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    font: Arial, Helvetica, sans-serif
+    halign: center
+    pos:
+    - 18.703339501604596
+    - -24.674999999999997
+    - 0
+    rot:
+    - 0
+    - 0
+    - 90
+    shape: text
+    size: 3.8
+    text: THREAD LENGTH  12 mm
+    valign: center
+  - p1:
+    - -95.0
+    - 0
+    p2:
+    - 95.0
+    - 0
+    pos:
+    - 0
+    - -76.5
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#111111'
+    font: sans-serif
+    font_weight: bold
+    halign: left
+    pos:
+    - -91.0
+    - -87.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 5.5
+    stroke: none
+    stroke_width: 0
+    text: M8
+    valign: center
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: left
+    pos:
+    - -91.0
+    - -95.0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.0
+    stroke: none
+    stroke_width: 0
+    text: THREAD
+    valign: center
+  - color: '#111111'
+    font: sans-serif
+    font_weight: bold
+    halign: left
+    pos:
+    - -54.6
+    - -87.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 5.5
+    stroke: none
+    stroke_width: 0
+    text: 13 mm
+    valign: center
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: left
+    pos:
+    - -54.6
+    - -95.0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.0
+    stroke: none
+    stroke_width: 0
+    text: ACROSS FLATS
+    valign: center
+  - color: '#111111'
+    font: sans-serif
+    font_weight: bold
+    halign: left
+    pos:
+    - -18.200000000000003
+    - -87.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 5.5
+    stroke: none
+    stroke_width: 0
+    text: 5.5 mm
+    valign: center
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: left
+    pos:
+    - -18.200000000000003
+    - -95.0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.0
+    stroke: none
+    stroke_width: 0
+    text: HEAD HEIGHT
+    valign: center
+  - color: '#111111'
+    font: sans-serif
+    font_weight: bold
+    halign: left
+    pos:
+    - 18.19999999999999
+    - -87.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 5.5
+    stroke: none
+    stroke_width: 0
+    text: 12 mm
+    valign: center
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: left
+    pos:
+    - 18.19999999999999
+    - -95.0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.0
+    stroke: none
+    stroke_width: 0
+    text: SHANK LENGTH
+    valign: center
+  - color: '#111111'
+    font: sans-serif
+    font_weight: bold
+    halign: left
+    pos:
+    - 54.599999999999994
+    - -87.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 5.5
+    stroke: none
+    stroke_width: 0
+    text: 12 mm
+    valign: center
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: left
+    pos:
+    - 54.599999999999994
+    - -95.0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.0
+    stroke: none
+    stroke_width: 0
+    text: THREAD LENGTH
+    valign: center
+  - p1:
+    - -95.0
+    - 0
+    p2:
+    - 95.0
+    - 0
+    pos:
+    - 0
+    - -102.5
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.3
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: left
+    pos:
+    - -91.0
+    - -110.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.2
+    stroke: none
+    stroke_width: 0
+    text: ISO4017 / DIN933
+    valign: center
+  - color: '#aaaaaa'
+    font: sans-serif
+    font_weight: ''
+    halign: left
+    pos:
+    - -91.0
+    - -119.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.0
+    stroke: none
+    stroke_width: 0
+    text: M8×12
+    valign: center
+  - p1:
+    - -95.0
+    - 0
+    p2:
+    - 95.0
+    - 0
+    pos:
+    - 0
+    - -128.5
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.3
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: left
+    pos:
+    - -91.0
+    - -136.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 2.8
+    stroke: none
+    stroke_width: 0
+    text: OOMLOUT
+    valign: center
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: right
+    pos:
+    - 91.0
+    - -136.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 2.8
+    stroke: none
+    stroke_width: 0
+    text: oom.lt/371f99
+    valign: center
+  svg_details:
+  - svg_b_125_lt_l_le_200_mm: '28'
+    svg_b_l_gt_200_mm: '41'
+    svg_b_l_le_125_mm: '22'
+    svg_c_max_mm: '0.60'
+    svg_c_min_mm: '0.15'
+    svg_da_max_mm: '9.2'
+    svg_dw_min_mm: '11.63'
+    svg_e_min_mm: '14.38'
+    svg_k_max_mm: '5.45'
+    svg_k_min_mm: '5.15'
+    svg_name: set_screw
+    svg_nominal_diameter: M8
+    svg_s_max_mm: '13.00'
+    svg_s_min_mm: '12.73'
+    svg_thread_pitch_mm: '1.25'
+  - af_mm: 13.0
+    filename: working_mechanical_drawing
+    hardware_type: set_screw
+    head_height_mm: 5.45
+    id_mm: 8.0
+    length_mm: 12.0
+    part_category: HARDWARE / SET SCREW
+    part_code: ISO4017 / DIN933
+    part_name: ''
+    part_series: HEX HEAD FULL THREAD SCREW
+    part_title: M8×12
+    svg_name: oomp_mech_drawing_hardware
+    thread_length_mm: 12.0
+  taxonomy_1: hardware
+  taxonomy_10: ''
+  taxonomy_11: ''
+  taxonomy_12: ''
+  taxonomy_13: ''
+  taxonomy_14: ''
+  taxonomy_15: ''
+  taxonomy_1_capital: Hardware
+  taxonomy_1_first_letter: h
+  taxonomy_1_first_letter_upper: H
+  taxonomy_1_length_1: h
+  taxonomy_1_length_2: ha
+  taxonomy_1_length_3: har
+  taxonomy_1_length_4: hard
+  taxonomy_1_length_5: hardw
+  taxonomy_1_upper: HARDWARE
+  taxonomy_1_upper_length_1: H
+  taxonomy_1_upper_length_2: HA
+  taxonomy_1_upper_length_3: HAR
+  taxonomy_1_upper_length_4: HARD
+  taxonomy_1_upper_length_5: HARDW
+  taxonomy_2: set_screw
+  taxonomy_2_capital: Set Screw
+  taxonomy_2_first_letter: s
+  taxonomy_2_first_letter_upper: S
+  taxonomy_2_length_1: s
+  taxonomy_2_length_2: se
+  taxonomy_2_length_3: set
+  taxonomy_2_length_4: set_
+  taxonomy_2_length_5: set_s
+  taxonomy_2_upper: SET_SCREW
+  taxonomy_2_upper_length_1: S
+  taxonomy_2_upper_length_2: SE
+  taxonomy_2_upper_length_3: SET
+  taxonomy_2_upper_length_4: SET_
+  taxonomy_2_upper_length_5: SET_S
+  taxonomy_3: m8
+  taxonomy_3_capital: M8
+  taxonomy_3_first_letter: m
+  taxonomy_3_first_letter_upper: M
+  taxonomy_3_length_1: m
+  taxonomy_3_length_2: m8
+  taxonomy_3_length_3: m8
+  taxonomy_3_length_4: m8
+  taxonomy_3_length_5: m8
+  taxonomy_3_upper: M8
+  taxonomy_3_upper_length_1: M
+  taxonomy_3_upper_length_2: M8
+  taxonomy_3_upper_length_3: M8
+  taxonomy_3_upper_length_4: M8
+  taxonomy_3_upper_length_5: M8
+  taxonomy_4: ''
+  taxonomy_5: ''
+  taxonomy_6: ''
+  taxonomy_7: 12_mm_length
+  taxonomy_7_capital: 12 mm Length
+  taxonomy_7_first_letter: '1'
+  taxonomy_7_first_letter_upper: '1'
+  taxonomy_7_length_1: '1'
+  taxonomy_7_length_2: '12'
+  taxonomy_7_length_3: '12_'
+  taxonomy_7_length_4: 12_m
+  taxonomy_7_length_5: 12_mm
+  taxonomy_7_upper: 12_MM_LENGTH
+  taxonomy_7_upper_length_1: '1'
+  taxonomy_7_upper_length_2: '12'
+  taxonomy_7_upper_length_3: '12_'
+  taxonomy_7_upper_length_4: 12_M
+  taxonomy_7_upper_length_5: 12_MM
+  taxonomy_8: ''
+  taxonomy_9: ''
+  type: default_set_screw
+  url_chat: ''
+  width: 1
+  width_mm: 14.0
+url_chat: ''

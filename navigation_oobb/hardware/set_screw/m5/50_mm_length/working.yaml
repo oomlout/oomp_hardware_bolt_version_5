@@ -1,0 +1,470 @@
+bip_39_2_word_array:
+- forest
+- bomb
+bip_39_2_word_no_space: forestbomb
+bip_39_2_word_space: forest bomb
+bip_39_2_word_underscore: forest_bomb
+bip_39_3_word_array:
+- forest
+- bomb
+- goddess
+bip_39_3_word_no_space: forestbombgoddess
+bip_39_3_word_space: forest bomb goddess
+bip_39_3_word_underscore: forest_bomb_goddess
+bip_39_full_array:
+- forest
+- bomb
+- goddess
+- weekend
+- fever
+- enjoy
+- cram
+- sniff
+- page
+- cereal
+- rich
+- cotton
+bip_39_full_no_space: forestbombgoddessweekendfeverenjoycramsniffpagecerealrichcotton
+bip_39_full_space: forest bomb goddess weekend fever enjoy cram sniff page cereal
+  rich cotton
+bip_39_full_underscore: forest_bomb_goddess_weekend_fever_enjoy_cram_sniff_page_cereal_rich_cotton
+directory: parts/hardware_set_screw_m5_50_mm_length
+generate_stl: false
+id: hardware_set_screw_m5_50_mm_length
+id_no_class: hardware_set_screw_m5_50_mm_length
+id_no_size: hardware_set_screw_m5_50_mm_length
+id_no_type: hardware_set_screw_m5_50_mm_length
+id_svg: hardware_set_screw_m5_50_mm_length
+kwargs:
+  filter: ''
+  generate_stl: false
+  navigation: false
+  oomp_description_extra: ''
+  oomp_description_main: _
+  oomp_mode: project
+  overwrite: true
+  run_action: false
+  run_oomp: true
+  run_oomp_populate: true
+  run_scad: true
+  run_svg: true
+  svg_b_125_lt_l_le_200_mm: '22'
+  svg_b_l_gt_200_mm: ''
+  svg_b_l_le_125_mm: '16'
+  svg_c_max_mm: '0.50'
+  svg_c_min_mm: '0.15'
+  svg_da_max_mm: '5.7'
+  svg_dw_min_mm: '6.88'
+  svg_e_min_mm: '8.79'
+  svg_k_max_mm: '3.65'
+  svg_k_min_mm: '3.35'
+  svg_nominal_diameter: M5
+  svg_s_max_mm: '8.00'
+  svg_s_min_mm: '7.78'
+  svg_thread_pitch_mm: '0.80'
+  type: default_set_screw
+label_drawer: &id001
+  bip39: forest bomb goddess
+  bip39_size: 2.213
+  code: SS
+  description: Set screw / M5 / 50 mm / Hex head / Full thread
+  detail_lines:
+  - Hex head / Full thread
+  detail_size: 2.05
+  detail_y: 21.1
+  diagram: <path d="M2 3H5L6 4V10L5 11H2Z M4 3V11"/><path d="M6 5H18V9H6"/><path d="M7
+    5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+  drive_symbol: <path d="M5 1L8.46 3V7L5 9L1.54 7V3Z" fill="#ffffff"/>
+  length: '50'
+  length_size: 7.8
+  length_x: 18.02234375
+  name: Set screw
+  name_lines:
+  - Set screw
+  name_size: 3.2
+  thread: M5
+  thread_size: 6.5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m5_50_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m5_50_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m5_50_mm_length
+md5: 5b232590fc8556954c8e6b9ee4b2e518
+md5_10: 5b232590fc
+md5_10_upper: 5B232590FC
+md5_5: 5b232
+md5_5_upper: 5B232
+md5_6: 5b2325
+md5_6_alpha: 3k0md
+md5_6_alpha_upper: 3K0MD
+md5_6_upper: 5B2325
+name: Hardware Set Screw M5 50 Mm Length
+name_no_class: Hardware Set Screw M5 50 Mm Length
+name_no_size: Hardware Set Screw M5 50 Mm Length
+name_no_type: Hardware Set Screw M5 50 Mm Length
+name_proper: Hardware Set Screw M5 50 Mm Length
+name_space: hardware set screw m5 50 mm length
+name_upper: HARDWARE SET SCREW M5 50 MM LENGTH
+oobb_name: set_screw
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      directory: parts\hardware_set_screw_m5_50_mm_length
+      name: hardware_set_screw_m5_50_mm_length
+      name_proper: Hardware Set Screw M5 50 Mm Length
+      name_space: hardware set screw m5 50 mm length
+      name_upper: HARDWARE SET SCREW M5 50 MM LENGTH
+      spec_iso_b_125_lt_l_le_200_mm: '22'
+      spec_iso_b_l_gt_200_mm: ''
+      spec_iso_b_l_le_125_mm: '16'
+      spec_iso_c_max_mm: '0.50'
+      spec_iso_c_min_mm: '0.15'
+      spec_iso_da_max_mm: '5.7'
+      spec_iso_dw_min_mm: '6.88'
+      spec_iso_e_min_mm: '8.79'
+      spec_iso_k_max_mm: '3.65'
+      spec_iso_k_min_mm: '3.35'
+      spec_iso_nominal_diameter: M5
+      spec_iso_s_max_mm: '8.00'
+      spec_iso_s_min_mm: '7.78'
+      spec_iso_thread_pitch_mm: '0.80'
+      svg_details:
+      - svg_b_125_lt_l_le_200_mm: '22'
+        svg_b_l_gt_200_mm: ''
+        svg_b_l_le_125_mm: '16'
+        svg_c_max_mm: '0.50'
+        svg_c_min_mm: '0.15'
+        svg_da_max_mm: '5.7'
+        svg_dw_min_mm: '6.88'
+        svg_e_min_mm: '8.79'
+        svg_k_max_mm: '3.65'
+        svg_k_min_mm: '3.35'
+        svg_name: set_screw
+        svg_nominal_diameter: M5
+        svg_s_max_mm: '8.00'
+        svg_s_min_mm: '7.78'
+        svg_thread_pitch_mm: '0.80'
+      - af_mm: 8.0
+        filename: working_mechanical_drawing
+        hardware_type: set_screw
+        head_height_mm: 3.65
+        id_mm: 5.0
+        length_mm: 50.0
+        part_category: HARDWARE / SET SCREW
+        part_code: ISO4017 / DIN933
+        part_name: ''
+        part_series: HEX HEAD FULL THREAD SCREW
+        part_title: M5×50
+        svg_name: oomp_mech_drawing_hardware
+        thread_length_mm: 50.0
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: set_screw
+      taxonomy_3: m5
+      taxonomy_4: ''
+      taxonomy_5: ''
+      taxonomy_6: ''
+      taxonomy_7: 50_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      url_chat: ''
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_2:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      directory: parts\hardware_set_screw_m5_50_mm_length
+      name: hardware_set_screw_m5_50_mm_length
+      name_proper: Hardware Set Screw M5 50 Mm Length
+      name_space: hardware set screw m5 50 mm length
+      name_upper: HARDWARE SET SCREW M5 50 MM LENGTH
+      oomlout_ai_roboclick_1:
+        actions:
+        - command: text_jinja_template
+          convert_to_pdf: false
+          convert_to_png: false
+          dict_data:
+            directory: parts\hardware_set_screw_m5_50_mm_length
+            name: hardware_set_screw_m5_50_mm_length
+            name_proper: Hardware Set Screw M5 50 Mm Length
+            name_space: hardware set screw m5 50 mm length
+            name_upper: HARDWARE SET SCREW M5 50 MM LENGTH
+            spec_iso_b_125_lt_l_le_200_mm: '22'
+            spec_iso_b_l_gt_200_mm: ''
+            spec_iso_b_l_le_125_mm: '16'
+            spec_iso_c_max_mm: '0.50'
+            spec_iso_c_min_mm: '0.15'
+            spec_iso_da_max_mm: '5.7'
+            spec_iso_dw_min_mm: '6.88'
+            spec_iso_e_min_mm: '8.79'
+            spec_iso_k_max_mm: '3.65'
+            spec_iso_k_min_mm: '3.35'
+            spec_iso_nominal_diameter: M5
+            spec_iso_s_max_mm: '8.00'
+            spec_iso_s_min_mm: '7.78'
+            spec_iso_thread_pitch_mm: '0.80'
+            svg_details:
+            - svg_b_125_lt_l_le_200_mm: '22'
+              svg_b_l_gt_200_mm: ''
+              svg_b_l_le_125_mm: '16'
+              svg_c_max_mm: '0.50'
+              svg_c_min_mm: '0.15'
+              svg_da_max_mm: '5.7'
+              svg_dw_min_mm: '6.88'
+              svg_e_min_mm: '8.79'
+              svg_k_max_mm: '3.65'
+              svg_k_min_mm: '3.35'
+              svg_name: set_screw
+              svg_nominal_diameter: M5
+              svg_s_max_mm: '8.00'
+              svg_s_min_mm: '7.78'
+              svg_thread_pitch_mm: '0.80'
+            - af_mm: 8.0
+              filename: working_mechanical_drawing
+              hardware_type: set_screw
+              head_height_mm: 3.65
+              id_mm: 5.0
+              length_mm: 50.0
+              part_category: HARDWARE / SET SCREW
+              part_code: ISO4017 / DIN933
+              part_name: ''
+              part_series: HEX HEAD FULL THREAD SCREW
+              part_title: M5×50
+              svg_name: oomp_mech_drawing_hardware
+              thread_length_mm: 50.0
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: set_screw
+            taxonomy_3: m5
+            taxonomy_4: ''
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: 50_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+          dict_data_files: {}
+          dict_data_files_exists: {}
+          file_output: label_oomp.svg
+          file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+          search_and_replace: []
+        file_test: label_oomp.pdf
+        retries_until_complete: 0
+      spec_iso_b_125_lt_l_le_200_mm: '22'
+      spec_iso_b_l_gt_200_mm: ''
+      spec_iso_b_l_le_125_mm: '16'
+      spec_iso_c_max_mm: '0.50'
+      spec_iso_c_min_mm: '0.15'
+      spec_iso_da_max_mm: '5.7'
+      spec_iso_dw_min_mm: '6.88'
+      spec_iso_e_min_mm: '8.79'
+      spec_iso_k_max_mm: '3.65'
+      spec_iso_k_min_mm: '3.35'
+      spec_iso_nominal_diameter: M5
+      spec_iso_s_max_mm: '8.00'
+      spec_iso_s_min_mm: '7.78'
+      spec_iso_thread_pitch_mm: '0.80'
+      svg_details:
+      - svg_b_125_lt_l_le_200_mm: '22'
+        svg_b_l_gt_200_mm: ''
+        svg_b_l_le_125_mm: '16'
+        svg_c_max_mm: '0.50'
+        svg_c_min_mm: '0.15'
+        svg_da_max_mm: '5.7'
+        svg_dw_min_mm: '6.88'
+        svg_e_min_mm: '8.79'
+        svg_k_max_mm: '3.65'
+        svg_k_min_mm: '3.35'
+        svg_name: set_screw
+        svg_nominal_diameter: M5
+        svg_s_max_mm: '8.00'
+        svg_s_min_mm: '7.78'
+        svg_thread_pitch_mm: '0.80'
+      - af_mm: 8.0
+        filename: working_mechanical_drawing
+        hardware_type: set_screw
+        head_height_mm: 3.65
+        id_mm: 5.0
+        length_mm: 50.0
+        part_category: HARDWARE / SET SCREW
+        part_code: ISO4017 / DIN933
+        part_name: ''
+        part_series: HEX HEAD FULL THREAD SCREW
+        part_title: M5×50
+        svg_name: oomp_mech_drawing_hardware
+        thread_length_mm: 50.0
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: set_screw
+      taxonomy_3: m5
+      taxonomy_4: ''
+      taxonomy_5: ''
+      taxonomy_6: ''
+      taxonomy_7: 50_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      url_chat: ''
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_bolt_image.svg
+    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_bolt_image.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_3:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    description: label_drawer
+    dict_data:
+      label_drawer: *id001
+    file_output: label_drawer.svg
+    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+  file_test: ''
+oomp_key: oomp_hardware_set_screw_m5_50_mm_length
+project_name: C:\gh\oomp_hardware_bolt_version_5
+run_action: false
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+run_svg: true
+spec_iso_b_125_lt_l_le_200_mm: '22'
+spec_iso_b_l_gt_200_mm: ''
+spec_iso_b_l_le_125_mm: '16'
+spec_iso_c_max_mm: '0.50'
+spec_iso_c_min_mm: '0.15'
+spec_iso_da_max_mm: '5.7'
+spec_iso_dw_min_mm: '6.88'
+spec_iso_e_min_mm: '8.79'
+spec_iso_k_max_mm: '3.65'
+spec_iso_k_min_mm: '3.35'
+spec_iso_nominal_diameter: M5
+spec_iso_s_max_mm: '8.00'
+spec_iso_s_min_mm: '7.78'
+spec_iso_thread_pitch_mm: '0.80'
+svg_details:
+- svg_b_125_lt_l_le_200_mm: '22'
+  svg_b_l_gt_200_mm: ''
+  svg_b_l_le_125_mm: '16'
+  svg_c_max_mm: '0.50'
+  svg_c_min_mm: '0.15'
+  svg_da_max_mm: '5.7'
+  svg_dw_min_mm: '6.88'
+  svg_e_min_mm: '8.79'
+  svg_k_max_mm: '3.65'
+  svg_k_min_mm: '3.35'
+  svg_name: set_screw
+  svg_nominal_diameter: M5
+  svg_s_max_mm: '8.00'
+  svg_s_min_mm: '7.78'
+  svg_thread_pitch_mm: '0.80'
+- af_mm: 8.0
+  filename: working_mechanical_drawing
+  hardware_type: set_screw
+  head_height_mm: 3.65
+  id_mm: 5.0
+  length_mm: 50.0
+  part_category: HARDWARE / SET SCREW
+  part_code: ISO4017 / DIN933
+  part_name: ''
+  part_series: HEX HEAD FULL THREAD SCREW
+  part_title: M5×50
+  svg_name: oomp_mech_drawing_hardware
+  thread_length_mm: 50.0
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: set_screw
+taxonomy_2_capital: Set Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: se
+taxonomy_2_length_3: set
+taxonomy_2_length_4: set_
+taxonomy_2_length_5: set_s
+taxonomy_2_upper: SET_SCREW
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: SE
+taxonomy_2_upper_length_3: SET
+taxonomy_2_upper_length_4: SET_
+taxonomy_2_upper_length_5: SET_S
+taxonomy_3: m5
+taxonomy_3_capital: M5
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m5
+taxonomy_3_length_3: m5
+taxonomy_3_length_4: m5
+taxonomy_3_length_5: m5
+taxonomy_3_upper: M5
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M5
+taxonomy_3_upper_length_3: M5
+taxonomy_3_upper_length_4: M5
+taxonomy_3_upper_length_5: M5
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: 50_mm_length
+taxonomy_7_capital: 50 mm Length
+taxonomy_7_first_letter: '5'
+taxonomy_7_first_letter_upper: '5'
+taxonomy_7_length_1: '5'
+taxonomy_7_length_2: '50'
+taxonomy_7_length_3: '50_'
+taxonomy_7_length_4: 50_m
+taxonomy_7_length_5: 50_mm
+taxonomy_7_upper: 50_MM_LENGTH
+taxonomy_7_upper_length_1: '5'
+taxonomy_7_upper_length_2: '50'
+taxonomy_7_upper_length_3: '50_'
+taxonomy_7_upper_length_4: 50_M
+taxonomy_7_upper_length_5: 50_MM
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: ''
