@@ -187,6 +187,7 @@ def main(job_path):
         raise RuntimeError('Blender 4.5 or newer required')
     bpy.ops.wm.read_factory_settings(use_empty=True)
     steel = material(job['material'], p['characteristic_dimension_mm'])
+    nylon = material(job['insert_material'], p['characteristic_dimension_mm']) if job.get('insert_material') else None
     arrays = np.load(job['meshes'])
     meshes = {}
     for variant in ['full', 'display']:
@@ -198,6 +199,10 @@ def main(job_path):
             poly.use_smooth = True
         data.normals_split_custom_set_from_vertices(arrays[f'{variant}_normals'].tolist())
         data.materials.append(steel)
+        if nylon:
+            data.materials.append(nylon)
+            for poly, index in zip(data.polygons, arrays[f'{variant}_materials']):
+                poly.material_index = int(index)
         meshes[variant] = data
     selected_device = device(settings)
     scenes, metadata = {}, {}
@@ -206,6 +211,8 @@ def main(job_path):
         metadata[name] = scenes[name][2]
     timings = {}
     for name, render in job['renders'].items():
+        if (output/render['file']).is_file():
+            continue
         scene, objects, _ = scenes[render.get('view', 'isometric')]
         bpy.context.window.scene = scene
         for variant, obj in objects.items():

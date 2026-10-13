@@ -1,0 +1,194 @@
+{
+  "artifacts": {
+    "display/back.svg": {
+      "bytes": 4487,
+      "sha256": "e917ceff6f695fff89bf39100aee191bf2a36c69e592f1bf3d74d8009ec931c0"
+    },
+    "display/bottom.svg": {
+      "bytes": 4324,
+      "sha256": "dc7a7627773d59b4ad16c6b22ead0021119902d4285dbbd6a132f60b18cb4b07"
+    },
+    "display/front.svg": {
+      "bytes": 4490,
+      "sha256": "a7d1ae680703bce02d20187130147da5f494251ced506d7e55789c90be458e69"
+    },
+    "display/isometric.svg": {
+      "bytes": 3948,
+      "sha256": "9cae20a841f126e8b01ecd042fc0416911031e350a3d29eb20ac7672b291999d"
+    },
+    "display/left.svg": {
+      "bytes": 4311,
+      "sha256": "c1d2843e27a087e754c9088eee0d249fa6c86584ab6e6125e22b60acff13785b"
+    },
+    "display/right.svg": {
+      "bytes": 4302,
+      "sha256": "0a1cbbe4528934c2d53954d38b76f7ce3d8d4709eda060648d4813ff5319c6fb"
+    },
+    "display/top.svg": {
+      "bytes": 4317,
+      "sha256": "fc17cc978b6821fe6f304aa1b1dfd9c334ee3f69fbeefcbb543003c83c3010cb"
+    },
+    "full/back.svg": {
+      "bytes": 12113,
+      "sha256": "28a08a3dd302b9b298b9efdb1e1c53be934b6d1ed9f9e06373930d80bfe9212d"
+    },
+    "full/bottom.svg": {
+      "bytes": 26864,
+      "sha256": "43abb90b9fd8ea1b66deaff4ed93d17bb81fc1639492276c1bdc543903076687"
+    },
+    "full/front.svg": {
+      "bytes": 12116,
+      "sha256": "23e9142ce4ef441d8c588b5c699a1984c28bd6efc8dc5406a9a3c91cffca97a1"
+    },
+    "full/isometric.svg": {
+      "bytes": 19077,
+      "sha256": "624d46699ef3457c4b1ac440b34120ff4c7b22624e5d0f0ed5feeb66e2e728a6"
+    },
+    "full/left.svg": {
+      "bytes": 11937,
+      "sha256": "d15ca6d0889295b1189381eb045aac131c99354249bd6125664339e15a8bff88"
+    },
+    "full/right.svg": {
+      "bytes": 11928,
+      "sha256": "c83d85c90a704b337613122d7f533b8993cebfc48bada0bf335563b429d281ab"
+    },
+    "full/top.svg": {
+      "bytes": 27054,
+      "sha256": "62cf95069123b59d36eccd303ea017f539902877702a063ae16c4a371f88cd40"
+    },
+    "model.py": {
+      "bytes": 22242,
+      "sha256": "e588dd0d61759c4c3fc94ff9268a547f38ff549d768640497613c9c442e7914e"
+    },
+    "model_display.glb": {
+      "bytes": 11396,
+      "sha256": "2c43218e67e9c42bec9c4df9a11a11a4d33e2c7d4e6203943fd03681587acddb"
+    },
+    "model_display.stl": {
+      "bytes": 26084,
+      "sha256": "175b50eb87106f1c228a5dd1d16af45d66011561967fa8ed7ada34fc5e86c6d6"
+    },
+    "model_full.glb": {
+      "bytes": 440816,
+      "sha256": "dcfd154f8773f4f2ad2e71bbd05409ca1c7f5b75126705979a0f383c8f13e502"
+    },
+    "model_full.stl": {
+      "bytes": 1218884,
+      "sha256": "65b190b4cc60584c1a04d2871cb2b054f5319ea2e9504d54b25ab7fe86034f90"
+    },
+    "model_notes.md": {
+      "bytes": 483,
+      "sha256": "e9a4b71e70d1d0f72bc5ca760ab07f762f475333c13622472d372f3f1d59c50c"
+    },
+    "parameters.json": {
+      "bytes": 6807,
+      "sha256": "4290151dd78d80cfb9b91da7800d6c410ddfb9e96f981cb444fc8af7ccc1fee8"
+    },
+    "render_high.png": {
+      "bytes": 3642103,
+      "sha256": "6400f457db3b0d7e8c346daf2ae60d9d4f172cc3e3487336282416e63e96c305"
+    },
+    "render_low.png": {
+      "bytes": 237390,
+      "sha256": "80f068bb0a1282bac8a166498400ca42f338bd10dd6f10edfabacd8ed256c990"
+    },
+    "render_product_high.png": {
+      "bytes": 3692720,
+      "sha256": "7efa29d3e46c9038cedd2508765e0a71a291bfd381d1fc75743346a868d9eca3"
+    },
+    "render_product_low.png": {
+      "bytes": 251039,
+      "sha256": "ecf7069b248c5fdf5837a5a9b7ba5e3bb08e47bb97f88abf6dc59465fb5045df"
+    },
+    "render_scene.json": {
+      "bytes": 27554,
+      "sha256": "aba700fdf2617d7dbbbda16b1de8f2edfc19b08acc4643ff72f54c9d21a2330a"
+    },
+    "requirements.txt": {
+      "bytes": 159,
+      "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
+    },
+    "studio.blend": {
+      "bytes": 598850,
+      "sha256": "cc92821fd74f9f7b015c7e8d3131ffcc6cefcb99511195c3dd8340ed9001651a"
+    }
+  },
+  "coordinate_system": {
+    "axis": "+Z along bore",
+    "glb_conversion": "(x,y,z) mm -> (x,z,-y)/1000 metres",
+    "glb_units": "metres",
+    "glb_up_axis": "Y",
+    "origin": "lower face centre",
+    "stl_units": "mm"
+  },
+  "dimension_status": "approximate_visual_model",
+  "fingerprint": "c47d2a6ef50d8608263f623b57627a903f7f176880e963fa0d8736d785e4ae3c",
+  "generator": "iso_4032_hex_nut",
+  "length_status": "not_applicable",
+  "models": {
+    "display": {
+      "bounds_mm": [
+        [
+          -1.299038052558899,
+          -1.125,
+          0.0
+        ],
+        [
+          1.299038052558899,
+          1.125,
+          1.2000000476837158
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        2.598076105117798,
+        2.25,
+        1.2000000476837158
+      ],
+      "triangles": 520,
+      "vertices": 260,
+      "volume_mm3": 3.852429817963944,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "full": {
+      "bounds_mm": [
+        [
+          -1.299038052558899,
+          -1.125,
+          0.0
+        ],
+        [
+          1.299038052558899,
+          1.125,
+          1.2000000476837158
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        2.598076105117798,
+        2.25,
+        1.2000000476837158
+      ],
+      "triangles": 24376,
+      "vertices": 12188,
+      "volume_mm3": 3.5381932702651464,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  },
+  "recipe_fingerprint": "46021476456a6d66072888ebd21943f5e268b0e88b77bd4f260e45fe2b52314a",
+  "schema_version": 1,
+  "source_fingerprint": "cf07d9b64fe3bbac5f6ac64edaac5714479c66d259667fdd8ccceab27fac49e7",
+  "sources": [
+    {
+      "title": "Tabco Optical SM420, M1.5 x 0.30, 2.25 across flats; height not published",
+      "url": "https://www.tabcooptical.com/hex-nuts-1-5mm-thread-ns-100-count-sm420/"
+    },
+    {
+      "title": "ISO 68-1:1998 basic ISO metric thread profile",
+      "url": "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+    }
+  ],
+  "standard": null
+}

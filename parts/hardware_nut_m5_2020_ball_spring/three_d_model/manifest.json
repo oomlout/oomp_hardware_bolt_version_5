@@ -1,0 +1,194 @@
+{
+  "artifacts": {
+    "display/back.svg": {
+      "bytes": 5280,
+      "sha256": "b33e84699cb82b2bc673fbe443c1792403bc02a1024811ad5a6c50d74469afd3"
+    },
+    "display/bottom.svg": {
+      "bytes": 5763,
+      "sha256": "b1acbaa70dc5b391ce5141b3bf388ed7eceb0b56450bdbced8a7f208eb8ee6b3"
+    },
+    "display/front.svg": {
+      "bytes": 5205,
+      "sha256": "c8ff670e5c7b0801961d20da77ebb9407670b0ecbff0310612cc64c5f652b42f"
+    },
+    "display/isometric.svg": {
+      "bytes": 3210,
+      "sha256": "ab14d05a1f0688a73747dcba9d6c621db7746ff2bd1733f5552cfc2d2f96d04e"
+    },
+    "display/left.svg": {
+      "bytes": 4993,
+      "sha256": "040d0b99684ec41daaac59c66e5e5527291c6083f509dcddc19cb8864d8966fb"
+    },
+    "display/right.svg": {
+      "bytes": 4483,
+      "sha256": "88ff18acfc08a5d77ea5ea4f72f956381fc0628a5f755ca5f1e0f2bc3c3b67c7"
+    },
+    "display/top.svg": {
+      "bytes": 2550,
+      "sha256": "09df55f87f368e3bc1f2c09155d4b6ec829510a333ddb1f172335759908bc914"
+    },
+    "full/back.svg": {
+      "bytes": 16975,
+      "sha256": "9350111f9006c88acd253284106b3c12e47f2d4ac08d2e43c03bbae146ef4c47"
+    },
+    "full/bottom.svg": {
+      "bytes": 39989,
+      "sha256": "20a57dbab888a7899accc92b4adc14f0b52a9060158f3cec9b51bb211e600771"
+    },
+    "full/front.svg": {
+      "bytes": 17691,
+      "sha256": "69e24e45d823312269288f0c5a516270f75763e5547b4bdccbf37e2c92b96a1f"
+    },
+    "full/isometric.svg": {
+      "bytes": 17708,
+      "sha256": "d643e2bf0df8dfa4df173a66473bb75c957fa4d488300df88014a002d72cbcc2"
+    },
+    "full/left.svg": {
+      "bytes": 19489,
+      "sha256": "dc684ae419144422f848513332290fc70a4986610593c1046dd943c48a81ff19"
+    },
+    "full/right.svg": {
+      "bytes": 17729,
+      "sha256": "5d10848c377f727a4ac989978325ec4124d331c1bafcb99f574da31bbc59356a"
+    },
+    "full/top.svg": {
+      "bytes": 26079,
+      "sha256": "54679e168c5bfabf31616a2ea0de64371093b90379c18afd67d75d794512e1cb"
+    },
+    "model.py": {
+      "bytes": 22242,
+      "sha256": "e588dd0d61759c4c3fc94ff9268a547f38ff549d768640497613c9c442e7914e"
+    },
+    "model_display.glb": {
+      "bytes": 23748,
+      "sha256": "e89e2a1907c616cee042125f20ad95f0d936e693bc2ba5f24afa92855a941cd5"
+    },
+    "model_display.stl": {
+      "bytes": 55184,
+      "sha256": "0f53924c0beabf5e3e0386583539e69feb7e71e138253932653c9b11adda14c5"
+    },
+    "model_full.glb": {
+      "bytes": 595408,
+      "sha256": "3e83e98a454cbab3d859013f7c088f87ea8aa45faa6dd137666ad600e29a9fa8"
+    },
+    "model_full.stl": {
+      "bytes": 1643084,
+      "sha256": "92530365b7ba1b491df75820b9747be3aab15534df879a5aa3965d8ff85159b7"
+    },
+    "model_notes.md": {
+      "bytes": 645,
+      "sha256": "adc6c3ca7912c47dbd054b25802632568c0ec3ea86a29357eea3c3ae18e765d7"
+    },
+    "parameters.json": {
+      "bytes": 7218,
+      "sha256": "650331bb7713c70c047d925f935801e9762fb4582a87f1db8f6e50b53eccb271"
+    },
+    "render_high.png": {
+      "bytes": 3498725,
+      "sha256": "88815193ad4b63bb6ad6f8702b9a4e51e90c6e48da2780946cf0cc086add73a1"
+    },
+    "render_low.png": {
+      "bytes": 228896,
+      "sha256": "2771eb6dd278570de78032690b92027cfadf0152ecc7f9dbaad74515961c5f6b"
+    },
+    "render_product_high.png": {
+      "bytes": 3506127,
+      "sha256": "24e4be3f369c07b1aa34baf6ee2966ba2882fbddb0334fa7ba17b7c7bdc75fe4"
+    },
+    "render_product_low.png": {
+      "bytes": 226042,
+      "sha256": "2e91db5c68011c10d98a47a54d6e5c02e577bf2413f3177985ec1443e54b6fe3"
+    },
+    "render_scene.json": {
+      "bytes": 12783,
+      "sha256": "9324fb97c43a2f5ce8603168b9615db54ff60385fee9ff64caf1a44703d99089"
+    },
+    "requirements.txt": {
+      "bytes": 159,
+      "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
+    },
+    "studio.blend": {
+      "bytes": 820556,
+      "sha256": "4d2db3125b7f32af3c10d9187ab495710021065d5bc75bf85da479b259fdfab2"
+    }
+  },
+  "coordinate_system": {
+    "axis": "+Z along bore",
+    "glb_conversion": "(x,y,z) mm -> (x,z,-y)/1000 metres",
+    "glb_units": "metres",
+    "glb_up_axis": "Y",
+    "origin": "lower face centre",
+    "stl_units": "mm"
+  },
+  "dimension_status": "supplier_dimensions_with_visual_details",
+  "fingerprint": "e85f8b5a14c5bd33317879a645cffa2951a08af8e2731e7a5af8126ca5951f37",
+  "generator": "supplier_2020_ball_spring_nut",
+  "length_status": "not_applicable",
+  "models": {
+    "display": {
+      "bounds_mm": [
+        [
+          -7.0,
+          -4.099999904632568,
+          0.0
+        ],
+        [
+          7.0,
+          4.099999904632568,
+          4.599999904632568
+        ]
+      ],
+      "connected_solids": 2,
+      "dimensions_mm": [
+        14.0,
+        8.199999809265137,
+        4.599999904632568
+      ],
+      "triangles": 1102,
+      "vertices": 553,
+      "volume_mm3": 319.92198734465114,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "full": {
+      "bounds_mm": [
+        [
+          -7.0,
+          -4.099999904632568,
+          0.0
+        ],
+        [
+          7.0,
+          4.099999904632568,
+          4.599999904632568
+        ]
+      ],
+      "connected_solids": 2,
+      "dimensions_mm": [
+        14.0,
+        8.199999809265137,
+        4.599999904632568
+      ],
+      "triangles": 32860,
+      "vertices": 16432,
+      "volume_mm3": 313.33974566172384,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  },
+  "recipe_fingerprint": "9057b9a97d7be84bf4e4a64b11068f6968e21014238ef67536d837fccd4c3a15",
+  "schema_version": 1,
+  "source_fingerprint": "cf07d9b64fe3bbac5f6ac64edaac5714479c66d259667fdd8ccceab27fac49e7",
+  "sources": [
+    {
+      "title": "Fasenco 20S-M3/M4/M5/M6 roll-in nuts, A/B/M/H table and drawing",
+      "url": "https://www.fasenco.com/roll-in-t-nuts/"
+    },
+    {
+      "title": "ISO 68-1:1998 basic ISO metric thread profile",
+      "url": "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+    }
+  ],
+  "standard": null
+}

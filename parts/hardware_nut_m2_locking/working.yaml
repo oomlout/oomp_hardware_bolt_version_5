@@ -262,3 +262,239 @@ taxonomy_7: ''
 taxonomy_8: ''
 taxonomy_9: ''
 url_chat: ''
+three_d_model_details:
+  schema_version: 1
+  generator: supplier_nylon_insert_nut
+  output_folder: three_d_model
+  units: mm
+  standard: null
+  dimensional_specification: D. S. Fasteners DIN 985 nylon-insert pattern
+  dimension_status: supplier_dimensions_with_visual_details
+  length_status: not_applicable
+  sources:
+  - title: D. S. Fasteners catalogue page 3, DIN 985 dimensions s/h/m
+    url: https://www.dsfasteners.co.uk/_files/ugd/eb95dd_d696717a07be4aa7a00bd695073b3017.pdf
+  - title: ISO 68-1:1998 basic ISO metric thread profile
+    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+  checked_on: '2026-10-13'
+  source_table: source_file/standards/catalogue_extensions.yaml
+  standard_limits: {}
+  standard_lengths_mm: []
+  parameters:
+    family: nut
+    nominal_diameter_mm: 2.0
+    finish: satin
+    identity: hardware_nut_m2_locking
+    specification: D. S. Fasteners DIN 985 nylon-insert pattern
+    expected_components: 2
+    handedness: right
+    thread_starts: 1
+    thread_flank_angle_degrees: 60.0
+    pitch_mm: 0.4
+    across_flats_mm: 4
+    height_mm: 2.5
+    outer_chamfer_angle_degrees: 30.0
+    mouth_diameter_mm: 2.1
+    hole_chamfer_mm: 0.15386751345948133
+    hole_chamfer_slope: 1.7320508075688767
+    height_convention: total axial nut height
+    overall_height_mm: 2.5
+    characteristic_dimension_mm: 4
+    characteristic_dimension_basis: hexagon across flats
+    nut_style: locking_nut
+    hex_height_mm: 1.8
+    thread_pitch_diameter_mm: 1.7401923788646685
+    external_minor_diameter_mm: 1.509252271188818
+    internal_minor_diameter_mm: 1.5669872981077808
+  modelling_choices:
+    dimension_selection: Nominal bolt head height, max flats/nut height, nominal washer
+      sizes; selected dimensions stored in parameters.
+    thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+      rounded root H/6, internal P/4 crest and P/8 root flats.
+    runout: External one-pitch fade to plain shank; full thread ends at underhead
+      fillet.
+    chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees. Bolt
+      tip 45 degrees, P/2.
+    bearing: Bolt bearing circle and c selected within limits; k includes bearing
+      thickness; fillet tangent to shaft and bearing.
+    cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
+      bore and mouth chamfers.
+    display: Smooth nominal external-thread envelope or smooth minor-diameter internal
+      bore; lower angular and fillet tessellation.
+    components: Closed separate assembly components; hidden spring omitted.
+    markings: Supplier and property-class markings omitted because catalogue does
+      not identify them.
+    unspecified_geometry: Nut mouth for supplier rows without limits and flange M3/M4
+      thickness/rim blends are explicit visual model selections.
+    family_note: Published s/h/m envelope. Nylon insert confirmed by owner. Collar
+      wall, insert section and blue colour are visual assumptions. Separate steel
+      body and nylon ring, small assembly clearance; no thread in undeformed nylon.
+    certification: Nominal visual catalogue model, not manufacturing tolerance certification.
+  coordinate_system:
+    origin: lower face centre
+    axis: +Z along bore
+    stl_units: mm
+    glb_units: metres
+    glb_up_axis: Y
+    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+  variants:
+    full:
+      angular_segments: 96
+      samples_per_pitch: 32
+      fillet_segments: 12
+    display:
+      angular_segments: 24
+      samples_per_pitch: 1
+      fillet_segments: 3
+  views:
+  - isometric
+  - front
+  - back
+  - left
+  - right
+  - top
+  - bottom
+  model_formats:
+  - stl
+  - glb
+  material:
+    name: Satin steel
+    base_colour_srgb:
+    - 0.62
+    - 0.65
+    - 0.69
+    metallic: 1.0
+    roughness: 0.26
+    roughness_variation: 0.045
+    coat_weight: 0.02
+    coat_roughness: 0.28
+    microtexture_spacing_mm: 0.025
+    microtexture_height_um: 0.8
+    note: Visual finish approximation; catalogue specifies colour only.
+    insert_material:
+      name: Blue nylon insert
+      base_colour_srgb:
+      - 0.055
+      - 0.16
+      - 0.48
+      metallic: 0.0
+      roughness: 0.42
+      coat_weight: 0.0
+      coat_roughness: 0.3
+      roughness_variation: 0.015
+      microtexture_spacing_mm: 0.025
+      microtexture_height_um: 0.4
+      note: Nylon mechanism confirmed by catalogue owner; blue colour is a visual
+        selection.
+  studio:
+    engine: cycles
+    device: auto
+    seed: 7991
+    low_samples: 48
+    high_samples: 160
+    adaptive_threshold: 0.015
+    denoise: true
+    view_transform: AgX
+    look: AgX - Medium High Contrast
+    exposure: 0.0
+    world_colour:
+    - 0.78
+    - 0.82
+    - 0.9
+    world_strength: 0.35
+    floor_colour_srgb:
+    - 0.93
+    - 0.935
+    - 0.94
+    floor_roughness: 0.55
+    framing_margin: 0.13
+    lights:
+    - name: Key softbox
+      position:
+      - -3
+      - -4
+      - 6
+      power: 650.0
+      width: 4.0
+      height: 5.0
+      colour:
+      - 1.0
+      - 0.96
+      - 0.9
+    - name: Fill softbox
+      position:
+      - 4
+      - -1
+      - 3
+      power: 330.0
+      width: 3.0
+      height: 4.0
+      colour:
+      - 0.9
+      - 0.95
+      - 1.0
+    - name: Rim strip
+      position:
+      - 1
+      - 4
+      - 4
+      power: 850.0
+      width: 1.2
+      height: 5.0
+      colour:
+      - 1.0
+      - 1.0
+      - 1.0
+    poses:
+      isometric:
+        camera_eye:
+        - 1
+        - -1
+        - 1
+        projection: orthographic
+        orientation: principal axis Z up
+      product:
+        camera_eye:
+        - -6
+        - -10
+        - 6
+        projection: orthographic
+        orientation: resting on lower face, bore visible
+        yaw_degrees: -12.0
+        support: Stable convex-hull support using actual mesh centre of mass.
+        resting_axis: face
+  renders:
+    low:
+      file: render_low.png
+      variant: display
+      pixels: 512
+      view: isometric
+    high:
+      file: render_high.png
+      variant: full
+      pixels: 2048
+      view: isometric
+    product_low:
+      file: render_product_low.png
+      variant: display
+      pixels: 512
+      view: product
+    product_high:
+      file: render_product_high.png
+      variant: full
+      pixels: 2048
+      view: product
+  insert_material:
+    name: Blue nylon insert
+    base_colour_srgb:
+    - 0.055
+    - 0.16
+    - 0.48
+    metallic: 0.0
+    roughness: 0.42
+    coat_weight: 0.0
+    coat_roughness: 0.3
+    roughness_variation: 0.015
+    microtexture_spacing_mm: 0.025
+    microtexture_height_um: 0.4
+    note: Nylon mechanism confirmed by catalogue owner; blue colour is a visual selection.

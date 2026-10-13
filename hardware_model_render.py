@@ -114,6 +114,15 @@ def render_studio(meshes, p, recipe, output):
         arrays[f'{variant}_vertices'] = shaded.vertices
         arrays[f'{variant}_faces'] = shaded.faces
         arrays[f'{variant}_normals'] = shaded.vertex_normals
+        if mesh.metadata.get('components'):
+            from scipy.spatial import cKDTree
+            original_materials = np.concatenate([
+                np.full(c['faces'], int(c['name']=='nylon_insert'), dtype=np.int32)
+                for c in mesh.metadata['components']])
+            distances, indices = cKDTree(mesh.triangles_center).query(shaded.triangles_center)
+            if distances.max() > 1e-7:
+                raise ValueError('Shading changed triangle geometry; cannot map component materials')
+            arrays[f'{variant}_materials'] = original_materials[indices]
     np.savez(transfer, **arrays)
     job = output/'_render_job.json'
     product_transforms, product_supports = {}, {}
@@ -122,6 +131,7 @@ def render_studio(meshes, p, recipe, output):
         product_transforms[variant] = transform.tolist()
         product_supports[variant] = support
     job.write_text(json.dumps(dict(parameters=p, material=recipe['material'],
+        insert_material=recipe.get('insert_material'),
         studio=recipe['studio'], renders=recipe['renders'], output=str(output.resolve()),
         product_transforms=product_transforms, product_supports=product_supports,
         meshes=str(transfer.resolve())), indent=2), encoding='utf-8')

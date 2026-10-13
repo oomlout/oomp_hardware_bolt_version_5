@@ -1,0 +1,194 @@
+{
+  "artifacts": {
+    "display/back.svg": {
+      "bytes": 5643,
+      "sha256": "4260717bf1a1d721980023cb4cf629c36200716ac001a1bf0ddd7704a5dfabf7"
+    },
+    "display/bottom.svg": {
+      "bytes": 5238,
+      "sha256": "0fbf660790f116c94c8926657d1c240bf622987d7a721a982ee58fb6d290e838"
+    },
+    "display/front.svg": {
+      "bytes": 5646,
+      "sha256": "854e5f1174ebb895e759369ecb106edfb773bd9d6e4abc0935b6739a6034ebee"
+    },
+    "display/isometric.svg": {
+      "bytes": 7510,
+      "sha256": "584c0a802c1797d5a508cb3c53f10549bc693c1010b17d505ef2fcc9d0e760f1"
+    },
+    "display/left.svg": {
+      "bytes": 5537,
+      "sha256": "ef6e8061034ee39fa6092bd9b68e5e7faa43f191115f5f0feb113b42eb682e50"
+    },
+    "display/right.svg": {
+      "bytes": 5524,
+      "sha256": "f861743a5ea5a2cb04811f4eaa9450053e657cbd621e3e93f6b3b60bd82eade3"
+    },
+    "display/top.svg": {
+      "bytes": 15311,
+      "sha256": "ecbc7275ada972d52ea3007b1883aab803e170fda88eac8ee4f9408eacbd4c1d"
+    },
+    "full/back.svg": {
+      "bytes": 16579,
+      "sha256": "ea7a8421b665c8ef8a7cd633502f68a53f3358608748e106b9e429ca2778ac50"
+    },
+    "full/bottom.svg": {
+      "bytes": 35902,
+      "sha256": "6da6b969348db4f05ec9443946230e1820afb430e717c1f0feaa5b731f4a5d67"
+    },
+    "full/front.svg": {
+      "bytes": 16582,
+      "sha256": "5a4a3dc3b6ea94074df5a04355ac7c91a983c6bd40dfe8dd363375bb05731122"
+    },
+    "full/isometric.svg": {
+      "bytes": 25578,
+      "sha256": "8cdaadaa7ccc9b464610cfb7f6fc152ba07120545fa314b0024e090c8aa100a7"
+    },
+    "full/left.svg": {
+      "bytes": 16403,
+      "sha256": "516b9608ceb16628baa3af24d4c858412bc402a4e6b7530aa29b81c4858f2ac1"
+    },
+    "full/right.svg": {
+      "bytes": 16390,
+      "sha256": "b9121ef2d2f65e3272becb18ad485ecb95edde002d8636eabe5ede00dc6f9b26"
+    },
+    "full/top.svg": {
+      "bytes": 51675,
+      "sha256": "bc88fd87828a879d5e0f46cbf9bb57dc9a4ce8077b1a99ac221ea5d28d85da7e"
+    },
+    "model.py": {
+      "bytes": 22242,
+      "sha256": "e588dd0d61759c4c3fc94ff9268a547f38ff549d768640497613c9c442e7914e"
+    },
+    "model_display.glb": {
+      "bytes": 24600,
+      "sha256": "0ee8336b71a7e97dbe41a23b2f7b3280fe53fcaaeeedd60eafe4073c9a4e08f0"
+    },
+    "model_display.stl": {
+      "bytes": 57284,
+      "sha256": "0984aab82729859f2dc210076b20a223487dbc13121c3505ea1a5ca02c53f8fb"
+    },
+    "model_full.glb": {
+      "bytes": 674344,
+      "sha256": "5f67dff402e31040f2e82aa6fa4b2430538ffc15849f9582696a94786a9d8680"
+    },
+    "model_full.stl": {
+      "bytes": 1862084,
+      "sha256": "4df683df49cd514bb9ee34e0adda817185a26541612042343b3c6a65256fd3dd"
+    },
+    "model_notes.md": {
+      "bytes": 721,
+      "sha256": "d1013a3baf2329491b216a885771735e084646921f680759fa8375ba161f042d"
+    },
+    "parameters.json": {
+      "bytes": 8115,
+      "sha256": "4134df72935b8d9e2794ef536054c9429ca58bbfe5bd3bce29eba72e9ea0970a"
+    },
+    "render_high.png": {
+      "bytes": 3626414,
+      "sha256": "10f85644fb0d807576904ac1ed58c744c4247473b080e408080101ce2d8b8868"
+    },
+    "render_low.png": {
+      "bytes": 254360,
+      "sha256": "ff6a453ea83d722821c82f36112ad3302188ec1988d1aae9ad09c75476f24be2"
+    },
+    "render_product_high.png": {
+      "bytes": 3672764,
+      "sha256": "627e3b163cc7dd97d39ca92207739075045812414845abdb7cf2c664f1746f9c"
+    },
+    "render_product_low.png": {
+      "bytes": 252223,
+      "sha256": "145d5cabd24c07054882ab6352eb9ed5fae3ebdac04e921063cf7fb5e4e3a77d"
+    },
+    "render_scene.json": {
+      "bytes": 28217,
+      "sha256": "2c22ccdec8987f0876ca4c264ad20a469cf267f67068b567e9b42847ca339f74"
+    },
+    "requirements.txt": {
+      "bytes": 159,
+      "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
+    },
+    "studio.blend": {
+      "bytes": 882249,
+      "sha256": "b30c3a108a7368df9b489850526a1764bfb62d8e1ac0dc9aa5f4359e65b94248"
+    }
+  },
+  "coordinate_system": {
+    "axis": "+Z along bore",
+    "glb_conversion": "(x,y,z) mm -> (x,z,-y)/1000 metres",
+    "glb_units": "metres",
+    "glb_up_axis": "Y",
+    "origin": "lower face centre",
+    "stl_units": "mm"
+  },
+  "dimension_status": "approximate_visual_model",
+  "fingerprint": "6a2ba6a8184bd93bc1556a7e6a2efbcd51c85c3cd823a9859434b637da66678a",
+  "generator": "supplier_nylon_insert_nut",
+  "length_status": "not_applicable",
+  "models": {
+    "display": {
+      "bounds_mm": [
+        [
+          -3.0022213459014893,
+          -2.5999999046325684,
+          0.0
+        ],
+        [
+          3.0022213459014893,
+          2.5999999046325684,
+          3.375
+        ]
+      ],
+      "connected_solids": 2,
+      "dimensions_mm": [
+        6.0044426918029785,
+        5.199999809265137,
+        3.375
+      ],
+      "triangles": 1144,
+      "vertices": 572,
+      "volume_mm3": 59.47514505223171,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "full": {
+      "bounds_mm": [
+        [
+          -3.0022213459014893,
+          -2.5999999046325684,
+          0.0
+        ],
+        [
+          3.0022213459014893,
+          2.5999999046325684,
+          3.375
+        ]
+      ],
+      "connected_solids": 2,
+      "dimensions_mm": [
+        6.0044426918029785,
+        5.199999809265137,
+        3.375
+      ],
+      "triangles": 37240,
+      "vertices": 18620,
+      "volume_mm3": 57.82560309442518,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  },
+  "recipe_fingerprint": "32c679ec00d85f65bd50bd3e2007bec82bce080772e94f796f832bc2b1763791",
+  "schema_version": 1,
+  "source_fingerprint": "cf07d9b64fe3bbac5f6ac64edaac5714479c66d259667fdd8ccceab27fac49e7",
+  "sources": [
+    {
+      "title": "D. S. Fasteners catalogue page 3, DIN 985 dimensions s/h/m",
+      "url": "https://www.dsfasteners.co.uk/_files/ugd/eb95dd_d696717a07be4aa7a00bd695073b3017.pdf"
+    },
+    {
+      "title": "ISO 68-1:1998 basic ISO metric thread profile",
+      "url": "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+    }
+  ],
+  "standard": null
+}

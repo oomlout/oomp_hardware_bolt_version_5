@@ -14,12 +14,21 @@ GENERATOR_NAMES = dict(hex_bolt='iso_4014_hex_bolt', hex_screw='iso_4017_hex_scr
     miniature_hex_nut='supplier_hex_nut', nylon_hex_nut='supplier_nylon_hex_nut',
     flange_nut='din_6923_flange_nut', coupling_nut='supplier_coupling_nut',
     plain_washer='din_125_a_washer', penny_washer='din_9021_penny_washer',
-    nylon_washer='catalogue_nylon_washer')
+    nylon_washer='catalogue_nylon_washer', locking_nut='supplier_nylon_insert_nut',
+    cage_nut='supplier_cage_nut', t_nut='supplier_2020_t_nut',
+    ball_spring_nut='supplier_2020_ball_spring_nut')
 
 
 @lru_cache(maxsize=1)
 def standard():
-    return yaml.safe_load(STANDARD_FILE.read_text(encoding='utf-8'))
+    result = yaml.safe_load(STANDARD_FILE.read_text(encoding='utf-8'))
+    extra = yaml.safe_load((ROOT/'source_file/standards/catalogue_extensions.yaml').read_text(encoding='utf-8'))
+    for name, family in extra['families'].items():
+        if name not in result['families']:
+            result['families'][name] = family
+        else:
+            result['families'][name]['sizes'].update(family['sizes'])
+    return result
 
 
 def classify(part):
@@ -32,6 +41,9 @@ def classify(part):
             return None, f'Unsupported screw material: {finish}'
         return 'nylon_hex_screw' if finish == 'nylon_white' else 'hex_screw', ''
     if typ == 'nut':
+        if variant in {'locking', 'cage', '2020_t_nut', '2020_ball_spring'}:
+            return {'locking': 'locking_nut', 'cage': 'cage_nut',
+                    '2020_t_nut': 't_nut', '2020_ball_spring': 'ball_spring_nut'}[variant], ''
         if variant in {'', 'black'}:
             token = part.get('taxonomy_3', '')
             return ('miniature_hex_nut' if token in {'m1', 'm1_4'} else 'hex_nut'), ''
@@ -58,6 +70,10 @@ def definition(part):
     row = copy.deepcopy(table['sizes'].get(f'{d:g}'))
     if row is None:
         return None, f'{family}: M{d:g} has no verified dimensional row; not extrapolated.'
+    table = copy.deepcopy(table)
+    for key in ['standard', 'specification', 'sources', 'note']:
+        if key in row:
+            table[key] = row[key]
     if 'inherit_bolt_size' in row:
         row = copy.deepcopy(standard()['families']['hex_bolt']['sizes'][row['inherit_bolt_size']])
         if family != 'hex_bolt':
@@ -113,6 +129,11 @@ def definition(part):
         if family == 'flange_nut':
             p.update(flange_diameter_mm=row['flange_diameter_mm'], flange_thickness_mm=row['flange_thickness_mm'],
                      flange_edge_round_mm=min(row.get('flange_radius_max_mm', .15), row['flange_thickness_mm']/4))
+        if family in {'locking_nut', 'cage_nut', 't_nut', 'ball_spring_nut'}:
+            p['nut_style'] = family
+            for key, value in row.items():
+                if key.endswith('_mm') or key == 'expected_components':
+                    p[key] = value
         for key, target in [('height_limits', 'height_mm'), ('flats_limits', 'across_flats_mm'), ('hole_mouth_limits', 'mouth_diameter_mm')]:
             if key in row:
                 limits[target] = row[key]
@@ -132,7 +153,7 @@ def definition(part):
     recipe = dict(schema_version=1, generator=GENERATOR_NAMES[family], output_folder='three_d_model', units='mm',
         standard=table['standard'], dimensional_specification=specification, dimension_status=status,
         length_status=length_status, sources=copy.deepcopy(table['sources']), checked_on=standard()['checked_on'],
-        source_table='source_file/standards/catalogue_hardware.yaml', standard_limits=limits,
+        source_table=row.get('source_table', 'source_file/standards/catalogue_hardware.yaml'), standard_limits=limits,
         standard_lengths_mm=table.get('standard_lengths_mm', []), parameters=p,
         modelling_choices=dict(dimension_selection='Nominal bolt head height, max flats/nut height, nominal washer sizes; selected dimensions stored in parameters.',
             thread='Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External rounded root H/6, internal P/4 crest and P/8 root flats.',
@@ -154,6 +175,22 @@ def definition(part):
     if shape != 'washer':
         recipe['sources'].append(copy.deepcopy(standard()['thread_source']))
     recipe.update(presentation_defaults(finish, shape, family == 'coupling_nut'))
+    if row.get('source_table'):
+        recipe['checked_on'] = '2026-10-13'
+        recipe['modelling_choices']['family_note'] = table.get('note', '')
+        recipe['modelling_choices']['components'] = ('Closed separate assembly components; hidden spring omitted.'
+            if p['expected_components'] > 1 else 'One closed solid.')
+    if status == 'approximate_visual_model':
+        recipe['standard'] = None
+        recipe['standard_limits'] = {}
+        recipe['dimensional_specification'] = 'APPROXIMATE VISUAL MODEL: '+specification
+        recipe['parameters']['specification'] = recipe['dimensional_specification']
+    if family == 'locking_nut':
+        recipe['insert_material'] = dict(name='Blue nylon insert', base_colour_srgb=[.055, .16, .48],
+            metallic=0., roughness=.42, coat_weight=0., coat_roughness=.3,
+            roughness_variation=.015, microtexture_spacing_mm=.025, microtexture_height_um=.4,
+            note='Nylon mechanism confirmed by catalogue owner; blue colour is a visual selection.')
+        recipe['material']['insert_material'] = copy.deepcopy(recipe['insert_material'])
     return recipe, ''
 
 

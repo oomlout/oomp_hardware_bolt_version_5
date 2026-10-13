@@ -12,7 +12,9 @@ GENERATORS = {'iso_4014_hex_bolt': 'bolt', 'iso_4017_hex_screw': 'bolt',
               'supplier_hex_nut': 'nut', 'supplier_nylon_hex_nut': 'nut',
               'din_6923_flange_nut': 'nut', 'supplier_coupling_nut': 'nut',
               'din_125_a_washer': 'washer', 'din_9021_penny_washer': 'washer',
-              'catalogue_nylon_washer': 'washer'}
+              'catalogue_nylon_washer': 'washer', 'supplier_nylon_insert_nut': 'nut',
+              'supplier_cage_nut': 'nut', 'supplier_2020_t_nut': 'nut',
+              'supplier_2020_ball_spring_nut': 'nut'}
 
 
 def resolve_parameters(parameters):
@@ -136,6 +138,8 @@ def internal_thread_radius(phase, p):
 
 
 def _nut(p, variant, q):
+    if p.get('nut_style'):
+        return _special_nut(p, variant, q)
     n, height = q['angular_segments'], p['height_mm']
     z0 = p.get('flange_thickness_mm', 0)
     body = _hex_body(p['across_flats_mm'], z0, height, n,
@@ -150,9 +154,15 @@ def _nut(p, variant, q):
         flange_r = np.r_[outer-edge+edge*np.cos(a), outer-edge+edge*np.cos(b), p['across_flats_mm']/2]
         flange = _ring_solid(flange_z, flange_r[:, None], n)
         body = trimesh.boolean.union([body, flange], engine='manifold')
+    return _bore(body, p, variant, q, height)
+
+
+def _bore(body, p, variant, q, height, offset=0):
+    n = q['angular_segments']
     pitch = p['pitch_mm']
     z = np.linspace(-.05, height+.05, max(4, math.ceil(height/pitch*q['samples_per_pitch'])+1))
     z = np.unique(np.r_[z, 0, p['hole_chamfer_mm'], height-p['hole_chamfer_mm'], height])
+    z = z[np.r_[True, np.diff(z) > 1e-8]]
     theta = np.arange(n)*2*math.pi/n
     if variant == 'full':
         radii = internal_thread_radius(z[:, None]/pitch-theta[None, :]/(2*math.pi), p)
@@ -162,7 +172,107 @@ def _nut(p, variant, q):
     chamfer_r = mouth-np.minimum(np.maximum(z, 0), np.maximum(height-z, 0))*p['hole_chamfer_slope']
     radii = np.maximum(radii, chamfer_r[:, None])
     cutter = _ring_solid(z, radii, n)
+    cutter.apply_translation([0, 0, offset])
     return trimesh.boolean.difference([body, cutter], engine='manifold')
+
+
+def _box(x, y, z0, z1, cx=0, cy=0):
+    mesh = trimesh.creation.box([x, y, z1-z0])
+    mesh.apply_translation([cx, cy, (z0+z1)/2])
+    return mesh
+
+
+def _assembly(components):
+    """Preserve face ranges for material assignment without merging contacting parts."""
+    components = [(name, _clean_for_stl(mesh)) for name, mesh in components]
+    result = trimesh.util.concatenate([mesh for _, mesh in components])
+    result.metadata['components'] = [dict(name=name, faces=len(mesh.faces)) for name, mesh in components]
+    return result
+
+
+def _clean_for_stl(mesh):
+    """Remove coincident boolean slivers before STL's default vertex merge."""
+    mesh.merge_vertices(digits_vertex=8)
+    ordered = np.sort(mesh.faces, axis=1)
+    mesh.update_faces(np.all(np.diff(ordered, axis=1) != 0, axis=1))
+    mesh.update_faces(mesh.unique_faces())
+    mesh.remove_unreferenced_vertices()
+    return mesh
+
+
+def _special_nut(p, variant, q):
+    n, h = q['angular_segments'], p['height_mm']
+    style = p['nut_style']
+    if style == 'locking_nut':
+        m, s, d = p['hex_height_mm'], p['across_flats_mm'], p['nominal_diameter_mm']
+        outer, seat = s*.48, (d+s)*.25
+        gap = .002
+        lower = _hex_body(s, 0, m, n, 30, bottom_chamfer=True)
+        # Rounded steel crown with an open counterbore for the separate polymer ring.
+        z = np.linspace(m-.01, h, q['fillet_segments']+2)
+        radii = outer-(outer-seat-.08*d)*np.clip((z-m)/(h-m), 0, 1)**2
+        crown = _ring_solid(z, radii[:, None], n)
+        steel = trimesh.boolean.union([lower, crown], engine='manifold')
+        steel = _bore(steel, p, variant, q, m)
+        steel = trimesh.boolean.difference([steel, _cylinder(seat, m, h+.05, n)], engine='manifold')
+        insert = trimesh.boolean.difference([
+            _cylinder(seat-gap, m+gap, h-.08*(h-m), n),
+            _cylinder(p['internal_minor_diameter_mm']/2, m, h+.05, n)], engine='manifold')
+        return _assembly([('steel', steel), ('nylon_insert', insert)])
+    if style == 'cage_nut':
+        w, length, t = p['body_width_mm'], p['body_length_mm'], p['sheet_thickness_mm']
+        body_h = p['body_height_mm']
+        # Open U-shaped sheet cage with opposing hooked spring ears.
+        pieces = [_box(length, w, 0, t)]
+        for sign in [-1, 1]:
+            pieces.append(_box(length*.78, t, t*.5, body_h, cy=sign*(w-t)/2))
+            ledge_depth = (w-p['across_flats_mm'])/2+.25
+            pieces.append(_box(length*.55, ledge_depth,
+                               body_h-t, body_h, cy=sign*(w/2-ledge_depth/2)))
+            ear_y = sign*(p['across_flats_mm']/2+.2)
+            # N is tab width across X, not outward hook projection.
+            pieces.append(_box(p['foot_width_mm'], t, body_h-t, h, cy=ear_y))
+            hook_depth = w/2-abs(ear_y)+t/2
+            pieces.append(_box(p['foot_width_mm'], hook_depth, h-t, h,
+                               cy=sign*(w/2-hook_depth/2)))
+        cage = trimesh.boolean.union(pieces, engine='manifold')
+        cage = trimesh.boolean.difference([cage, _cylinder(p['nominal_diameter_mm']*.6, -.05, t+.05, n)], engine='manifold')
+        nut_z = t+.025
+        nut = _box(p['across_flats_mm'], p['across_flats_mm'], nut_z, nut_z+p['nut_height_mm'])
+        nut = _bore(nut, p, variant, q, p['nut_height_mm'], nut_z)
+        return _assembly([('steel', cage), ('steel_nut', nut)])
+    length, width = p['body_length_mm'], p['body_width_mm']
+    if style == 't_nut':
+        shoulder = h-p['neck_height_mm']
+        # Convex clipped rectangle models the twist-in hammer head.
+        cut = min(width*.2, 1.)
+        xy = np.array([[-length/2+cut,-width/2],[length/2,-width/2],
+                       [length/2,width/2-cut],[length/2-cut,width/2],
+                       [-length/2,width/2],[-length/2,-width/2+cut]])
+        points = np.vstack([np.column_stack([xy, np.full(6,z)]) for z in [0,shoulder]])
+        head = trimesh.convex.convex_hull(points)
+        neck = _cylinder(p['neck_width_mm']/2, shoulder-.01, h, n)
+        body = trimesh.boolean.union([head,neck],engine='manifold')
+        return _bore(body,p,variant,q,h)
+    if style == 'ball_spring_nut':
+        bh, r, projection = p['body_height_mm'], p['ball_radius_mm'], p['ball_projection_mm']
+        # Extruded arched back and flat bearing face, aligned along X.
+        theta = np.linspace(0, math.pi, n//2+1)
+        section = np.column_stack([width/2*np.cos(theta), projection+bh*np.sin(theta)])
+        points = np.vstack([np.column_stack([np.full(len(section),x),section]) for x in [-length/2,length/2]])
+        body = trimesh.convex.convex_hull(points)
+        # Bearing face on top so the bore and retaining ball can both be inspected.
+        body.vertices[:,2] = h+projection-body.vertices[:,2]
+        body.invert()
+        body = _bore(body,p,variant,q,h)
+        ball_center = [length/2-r-.4,0,r]
+        pocket = trimesh.creation.icosphere(subdivisions=3 if variant=='full' else 2,radius=r+.025)
+        pocket.apply_translation(ball_center)
+        body = trimesh.boolean.difference([body,pocket],engine='manifold')
+        ball = trimesh.creation.icosphere(subdivisions=3 if variant=='full' else 2,radius=r)
+        ball.apply_translation(ball_center)
+        return _assembly([('steel',body),('steel_ball',ball)])
+    raise ValueError('Unknown special nut style')
 
 
 def _washer(p, variant, q):
@@ -184,6 +294,9 @@ def build_model(parameters, variant='full', quality=None):
     if q['angular_segments'] < 24 or q['angular_segments'] % 12 or q['samples_per_pitch'] < 1 or q['fillet_segments'] < 2:
         raise ValueError('Tessellation requires angular segments multiple of 12 >=24 and positive samples')
     mesh = {'bolt': _bolt, 'nut': _nut, 'washer': _washer}[p['family']](p, variant, q)
+    if p.get('nut_style') or p['specification'].startswith('APPROXIMATE VISUAL MODEL:'):
+        if not mesh.metadata.get('components'):
+            mesh = _clean_for_stl(mesh)
     if mesh is None or not mesh.is_watertight or not mesh.is_winding_consistent or mesh.volume <= 0 or mesh.body_count != p['expected_components']:
         raise ValueError('Generator did not produce the intended closed solids')
     if not np.isclose(mesh.extents[2], p['overall_height_mm'], atol=2e-5):
@@ -218,14 +331,16 @@ def _ring_solid(z, radii, segments):
 
 def apply_gltf_material(tree, material):
     """glTF factors are linear; preserve exact colours rather than 8-bit rounding."""
-    colour = [v/12.92 if v <= .04045 else ((v+.055)/1.055)**2.4
-              for v in material['base_colour_srgb']]+[1.]
     for entry in tree.get('materials', []):
+        selected = material.get('insert_material') if entry.get('name') == 'Blue nylon insert' else material
+        selected = selected or material
+        colour = [v/12.92 if v <= .04045 else ((v+.055)/1.055)**2.4
+                  for v in selected['base_colour_srgb']]+[1.]
         entry['pbrMetallicRoughness']['baseColorFactor'] = colour
-        if material.get('coat_weight', 0) > 0:
+        if selected.get('coat_weight', 0) > 0:
             entry.setdefault('extensions', {})['KHR_materials_clearcoat'] = dict(
-                clearcoatFactor=material['coat_weight'],
-                clearcoatRoughnessFactor=material['coat_roughness'])
+                clearcoatFactor=selected['coat_weight'],
+                clearcoatRoughnessFactor=selected['coat_roughness'])
             used = tree.setdefault('extensionsUsed', [])
             if 'KHR_materials_clearcoat' not in used:
                 used.append('KHR_materials_clearcoat')
@@ -244,7 +359,18 @@ def export_mesh(mesh, filename, p, material=None):
             name=material['name'] if material else p['finish'], baseColorFactor=colour,
             metallicFactor=material['metallic'] if material else .8,
             roughnessFactor=material['roughness'] if material else .31))
-        scene = trimesh.Scene(web)
+        scene = trimesh.Scene()
+        offset = 0
+        for component in mesh.metadata.get('components', [dict(name='steel', faces=len(mesh.faces))]):
+            count = component['faces']
+            piece = web.submesh([np.arange(offset, offset+count)], append=True)
+            selected = material.get('insert_material', material) if material and component['name']=='nylon_insert' else material
+            if selected:
+                piece.visual = trimesh.visual.TextureVisuals(material=trimesh.visual.material.PBRMaterial(
+                    name=selected['name'], baseColorFactor=[round(c*255) for c in selected['base_colour_srgb']]+[255],
+                    metallicFactor=selected['metallic'], roughnessFactor=selected['roughness']))
+            scene.add_geometry(piece, node_name=component['name'], geom_name=component['name'])
+            offset += count
         scene.metadata.update(units='metres', source_units='mm', up_axis='Y', specification=p['specification'])
         path.write_bytes(trimesh.exchange.gltf.export_glb(scene,
             tree_postprocessor=(lambda tree: apply_gltf_material(tree, material)) if material else None))
