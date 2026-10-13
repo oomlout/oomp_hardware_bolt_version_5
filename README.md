@@ -64,9 +64,12 @@ The pipeline is independent of the screw reference repository: all adapted code
 is local. `reference_source_snapshot.json` records the authoritative root sources
 inspected during setup; no reference scripts or batch files were run or changed.
 
-Initial population saved recipes for **162 parts in both stores**. The remaining
-**45 parts** have no automatic model recipe; see `three_d_model_coverage.json` for
-individual IDs and reasons. Unsupported parts are skipped and counted.
+Recipes now cover **207 parts in both stores**, including the 45 formerly unsupported entries.
+Of those additions, 20 use published supplier envelope dimensions with explicitly
+selected small features; **25 are labelled approximate visual models**. See
+`three_d_model_coverage.json` for the approximation list and reasons. Exact M1.5
+and M2.7 catalogue identities are retained; unverified thread/dimension choices
+are never represented as standard-compliant supplier products.
 
 | Family | Supported catalogue range | Dimension source and status |
 | --- | --- | --- |
@@ -90,15 +93,44 @@ persisted recipe. Sources include the [ISO 4014:2011 dimensional preview](https:
 and [washer supplier sheet](https://www.westfieldfasteners.co.uk/Standards/Washer-FormA-M.pdf).
 These are historical dimensional selections, not certification to current editions.
 
-Unsupported: all 2020 extrusion and cage nuts; locking nuts because the catalogue
-does not identify the locking mechanism or its dimensions; M1.5/M2.7 plain nuts;
-unsourced small coupling/flange sizes; M1/M1.5/M2.7 normal washers and
-M1/M1.5/M2/M2.7 penny washers. No M2.7 part is silently converted to M2.5 or M3.
-Adding a family requires a sourced row, family-specific generator and validation.
+The additional recipes live in `source_file/standards/catalogue_extensions.yaml`:
+
+- All locking nuts use the owner-confirmed **nylon insert** mechanism. D. S.
+  Fasteners supplies M2-M8 DIN 985 envelope dimensions; miniature sizes are
+  approximate. Steel and blue nylon are separate closed components/materials.
+- Fasenco drawings supply the 2020 ball-spring and hammer-nut patterns. Ball
+  dimensions, internal pockets and some shoulder details are visual selections;
+  the hidden spring is omitted. M3/M6 hammer variants are labelled adaptations.
+- Value Fastener/Kanebridge M5/M6/M8 drawings supply cage envelope and sheet
+  dimensions, converted from inches. Internal square nuts and formed clip
+  details use documented visual selections. Cage and nut are separate solids.
+- Fullerkreg supplies M3/M4 coupling dimensions. Spalding supplies M1 plain
+  washer dimensions; Westfield supplies M2 large washers (2.2 x 7 x 0.8 mm).
+- Tabco Optical confirms M1.5 x 0.30 and 2.25 mm flats; its missing height is
+  approximate. M2.7, other miniature flange/coupling/locking nuts and the
+  remaining small washers use owner-authorized, labelled visual approximations.
+
+Each new output includes `model_notes.md`; approximation status is also in
+`parameters.json`, YAML recipes, SVG titles and the manifest. These models are
+catalogue illustrations, not verified profile-fit or manufacturing drawings.
+
+```powershell
+python working_three_d_model.py --add-missing-metadata --metadata-only
+python generate_catalogue_extensions.py --jobs 1
+```
+
+The first command adds recipes without replacing existing custom recipes.
+The second builds only the 45 additional entries; use `--force` to refresh them.
+One worker is recommended when the GPU is shared with other render jobs.
+`python validate_catalogue_extension_renders.py` runs nine small real Blender
+smoke tests (four 128-pixel renders each) under `tmp/catalogue_extension_smoke/`.
+It leaves catalogue renders untouched. Per-item geometry, assembly, STL/GLB and
+stable-pose tests are in `tests/test_extended_hardware.py`.
 
 ### Geometry and conventions
 
-All supported products are one connected, closed solid. Bolts and headed hex
+Simple products are one connected, closed solid. Nylon-insert, cage and ball-spring
+nuts contain two separate closed components, validated for non-intersection. Bolts and headed hex
 screws use tip Z=0, bearing plane Z=under-head length, head top Z=length+k.
 Nut/washer origin is the lower face centre, with Z along the bore. STL uses mm.
 GLB uses metres and Y-up: `(x,y,z) -> (x,z,-y)/1000`; serialized dimensions are
@@ -185,10 +217,10 @@ preserving unrelated comments, anchors and metadata, using UTF-8. Presentation
 upgrades recursively add missing keys without changing user values.
 
 Builds stage in `.build-*` inside each model folder. Files publish atomically and
-the manifest publishes last. Cache reuse requires a complete artifact set with
-matching byte counts/SHA-256 hashes, recipe, source table, local generator/render
-code, dependency versions and Blender executable identity. Missing or damaged
-outputs regenerate. No partial build qualifies for cache reuse.
+the manifest publishes last. Complete existing artifact sets are skipped, even
+after recipe, code or dependency changes. Missing outputs regenerate while existing
+PNG renders are preserved. Use `--force` to refresh existing outputs or repair
+damaged files. The manifest still records fingerprints and artifact hashes.
 
 ### Windows shortcuts and representative proofs
 
@@ -198,9 +230,10 @@ Run the full supported catalogue when ready:
 .\action_make_three_d_model.bat
 ```
 
-It runs `python "%~dp0working_three_d_model.py" --filter "*" --jobs 3 --force --update-presentation %*`.
+It runs `python "%~dp0working_three_d_model.py" --filter "*" --jobs 3 --update-presentation %*`.
 Both shortcuts anchor to their script directory, accept appended arguments and
 preserve exit codes. For example, append `--jobs 1 --filter hardware_nut_m8`.
+Append `--force` to rebuild existing renders.
 
 ```powershell
 .\action_delete_three_d_model.bat -WhatIf  # preview

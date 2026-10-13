@@ -1,0 +1,194 @@
+{
+  "artifacts": {
+    "display/back.svg": {
+      "bytes": 5142,
+      "sha256": "bd757cb9541bcedd3c01e8e00a4b31e4fa927ad23203fd0879139b86b9b679fa"
+    },
+    "display/bottom.svg": {
+      "bytes": 5421,
+      "sha256": "4658527013a18fe47efa3e7b95916943bb2153a33594b12a2e0aec9881b77bb9"
+    },
+    "display/front.svg": {
+      "bytes": 5063,
+      "sha256": "8b501a4c37936ec036d5d8daff6958186193484841bc8612ee2cf2f2b4132a62"
+    },
+    "display/isometric.svg": {
+      "bytes": 3213,
+      "sha256": "6ad139f43e03724dfbe447c5a6006147cf9ab371287cdfdb265bfec42bcb99a8"
+    },
+    "display/left.svg": {
+      "bytes": 5143,
+      "sha256": "ab7cb97e5e41274cd95a9ebf451c153e34c21f09172b452ef1a5faa997114ea3"
+    },
+    "display/right.svg": {
+      "bytes": 4345,
+      "sha256": "a23a5d3dc7eca7e0befeaca8dcf1347a93c50ec17396e5325f1ec7921ba540de"
+    },
+    "display/top.svg": {
+      "bytes": 2554,
+      "sha256": "d9b72c0fa14d24fdc832f24a1bcf2068654985d53efe971c8f2974eb0b2785ed"
+    },
+    "full/back.svg": {
+      "bytes": 16632,
+      "sha256": "17847723105fd3ac12736be0c14facccd2e6763278559f36cd985c15d8fdb7db"
+    },
+    "full/bottom.svg": {
+      "bytes": 52362,
+      "sha256": "782d5d73a941386940c3cc1d06826806a1e1803d0160c2e95df88f0c2769cb33"
+    },
+    "full/front.svg": {
+      "bytes": 17349,
+      "sha256": "b0e3afcc3b669908234d1ed18d70add6214c4b77418672002910bee3ecbaa902"
+    },
+    "full/isometric.svg": {
+      "bytes": 18121,
+      "sha256": "5a37b21030fa7e5633b01d21c250ae62d6fcc1ef9f8b12ad2381a7351ef8e1c0"
+    },
+    "full/left.svg": {
+      "bytes": 16174,
+      "sha256": "94e5c2b503ceb3f5a4d467799508e924c61403bc89a18d132c4a1e6f24e990ed"
+    },
+    "full/right.svg": {
+      "bytes": 14421,
+      "sha256": "c2791fc12e6d60a5bb34e0396331b351534b1638f12c4ed69c59a695895b52b2"
+    },
+    "full/top.svg": {
+      "bytes": 38977,
+      "sha256": "91c314c47de58a68f2253b6378d7f6b72673a3e47a604de24be8fbd7f35023de"
+    },
+    "model.py": {
+      "bytes": 22242,
+      "sha256": "e588dd0d61759c4c3fc94ff9268a547f38ff549d768640497613c9c442e7914e"
+    },
+    "model_display.glb": {
+      "bytes": 26784,
+      "sha256": "2f18cb8fad675278f7620294e9cb0c10518da6431674796a544b43008d6a255e"
+    },
+    "model_display.stl": {
+      "bytes": 63584,
+      "sha256": "3276ed3bed623b8e7942e6de17659f87efcf45feff28bde0b381773b01c03d28"
+    },
+    "model_full.glb": {
+      "bytes": 954336,
+      "sha256": "4f6ccc8ef7b2ad5e6f7747516f90a6db6b7bea3a6b2e29d2b96675c062e99dc7"
+    },
+    "model_full.stl": {
+      "bytes": 2640084,
+      "sha256": "d8c5f3d7fd361a657249de16a796c543a20269c16fcb25687f606083de448973"
+    },
+    "model_notes.md": {
+      "bytes": 645,
+      "sha256": "b7eef7db611b153e7c430dac849565dfdf5f6aee564935a8bd155e3c5b51ecd0"
+    },
+    "parameters.json": {
+      "bytes": 7217,
+      "sha256": "e2fe8c873ebcde7a1562ec271eeaa6a8f01e21e1aa8be36524dde43262e3750c"
+    },
+    "render_high.png": {
+      "bytes": 18922,
+      "sha256": "ce0c3d02e0b1dd90b3d1ee0689ff7f41920bbc005bcb9d2ded6b38ce84499a8e"
+    },
+    "render_low.png": {
+      "bytes": 18954,
+      "sha256": "37183e3858648a2a5dfecddbda8cdffd90c4cadad12d41c564089aa4fbb2b0d0"
+    },
+    "render_product_high.png": {
+      "bytes": 17495,
+      "sha256": "396857774cdd1e5a3f1d46f74091e963a6111be84991098427dc03c5127ac8b1"
+    },
+    "render_product_low.png": {
+      "bytes": 17129,
+      "sha256": "1c6c8c4ddb41d3d59d093b573bdf1a5eb183d18cfd4556ddb6bf92253fa003d5"
+    },
+    "render_scene.json": {
+      "bytes": 12765,
+      "sha256": "cc2615ffe3071bda34bcffaf80342448ce0dba3d321d7b231ce2d3c66ff11b58"
+    },
+    "requirements.txt": {
+      "bytes": 159,
+      "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
+    },
+    "studio.blend": {
+      "bytes": 1248435,
+      "sha256": "5d17ce462e6b9df59c1892db664c0a8221642d2e1356403c95a64c50076f9f93"
+    }
+  },
+  "coordinate_system": {
+    "axis": "+Z along bore",
+    "glb_conversion": "(x,y,z) mm -> (x,z,-y)/1000 metres",
+    "glb_units": "metres",
+    "glb_up_axis": "Y",
+    "origin": "lower face centre",
+    "stl_units": "mm"
+  },
+  "dimension_status": "supplier_dimensions_with_visual_details",
+  "fingerprint": "1412dd147a04f8a662d6d51bb759eab6b38ecdfcf44f25cbda5ce3138b5dc787",
+  "generator": "supplier_2020_ball_spring_nut",
+  "length_status": "not_applicable",
+  "models": {
+    "display": {
+      "bounds_mm": [
+        [
+          -7.0,
+          -4.099999904632568,
+          0.0
+        ],
+        [
+          7.0,
+          4.099999904632568,
+          4.599999904632568
+        ]
+      ],
+      "connected_solids": 2,
+      "dimensions_mm": [
+        14.0,
+        8.199999809265137,
+        4.599999904632568
+      ],
+      "triangles": 1270,
+      "vertices": 637,
+      "volume_mm3": 355.0046983384102,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "full": {
+      "bounds_mm": [
+        [
+          -7.0,
+          -4.099999904632568,
+          0.0
+        ],
+        [
+          7.0,
+          4.099999904632568,
+          4.599999904632568
+        ]
+      ],
+      "connected_solids": 2,
+      "dimensions_mm": [
+        14.0,
+        8.199999809265137,
+        4.599999904632568
+      ],
+      "triangles": 52800,
+      "vertices": 26402,
+      "volume_mm3": 354.77255912571167,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  },
+  "recipe_fingerprint": "f0b8523fc635aad8e2eeda5df692ddac5dcb419044d008bdb267b0515fe49a86",
+  "schema_version": 1,
+  "source_fingerprint": "cf07d9b64fe3bbac5f6ac64edaac5714479c66d259667fdd8ccceab27fac49e7",
+  "sources": [
+    {
+      "title": "Fasenco 20S-M3/M4/M5/M6 roll-in nuts, A/B/M/H table and drawing",
+      "url": "https://www.fasenco.com/roll-in-t-nuts/"
+    },
+    {
+      "title": "ISO 68-1:1998 basic ISO metric thread profile",
+      "url": "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+    }
+  ],
+  "standard": null
+}

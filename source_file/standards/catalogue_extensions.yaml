@@ -1,0 +1,734 @@
+schema_version: 1
+checked_on: '2026-10-13'
+note: Supplier envelope dimensions where available. Approximate visual rows explicitly
+  authorized by catalogue owner; no claim of standard compliance or verified availability.
+  Nominal M1.5 and M2.7 identities are preserved.
+families:
+  hex_nut:
+    standard: null
+    specification: hex nut
+    sources: &id001
+    - title: Tabco Optical SM420, M1.5 x 0.30, 2.25 across flats; height not published
+      url: https://www.tabcooptical.com/hex-nuts-1-5mm-thread-ns-100-count-sm420/
+    sizes:
+      '1.5':
+        pitch_mm: 0.3
+        across_flats_mm: 2.25
+        height_mm: 1.2
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources: *id001
+        note: M1.5 pitch and flats from SM420; 1.2 mm height is a visual assumption.
+        standard: null
+        specification: hex nut
+        dimension_status: approximate_visual_model
+      '2.7':
+        pitch_mm: 0.45
+        across_flats_mm: 5.2
+        height_mm: 2.2
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - title: ISO 4032:2012 fourth edition, table 1, hexagon regular nuts
+          url: https://cdn.standards.iteh.ai/samples/61668/93b89b8502a943499386155c44018aaa/ISO-4032-2012.pdf
+        note: No matching M2.7 vendor thread row found. Selected pitch 0.45, flats
+          5.2 and height 2.2 mm for illustration; not a substituted M2.5 nut.
+        standard: null
+        specification: hex nut
+        dimension_status: approximate_visual_model
+  coupling_nut:
+    standard: null
+    specification: coupling nut
+    sources: &id002
+    - &id003
+      title: Fullerkreg commercial 6334 pattern M3/M4 dimensions
+      url: https://www.fullerkr.com/collections/din6334-a2
+    sizes:
+      '1':
+        pitch_mm: 0.25
+        across_flats_mm: 2.5
+        height_mm: 3
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources: *id002
+        note: Miniature visual extension of the sourced 3d coupling pattern; flats
+          and pitch are catalogue modelling selections, not a verified supplier product.
+        standard: null
+        specification: coupling nut
+        dimension_status: approximate_visual_model
+      '1.4':
+        pitch_mm: 0.3
+        across_flats_mm: 3
+        height_mm: 4.199999999999999
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id003
+        note: Miniature visual extension of the sourced 3d coupling pattern; flats
+          and pitch are catalogue modelling selections, not a verified supplier product.
+        standard: null
+        specification: coupling nut
+        dimension_status: approximate_visual_model
+      '1.5':
+        pitch_mm: 0.3
+        across_flats_mm: 2.25
+        height_mm: 4.5
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id003
+        note: Miniature visual extension of the sourced 3d coupling pattern; flats
+          and pitch are catalogue modelling selections, not a verified supplier product.
+        standard: null
+        specification: coupling nut
+        dimension_status: approximate_visual_model
+      '2':
+        pitch_mm: 0.4
+        across_flats_mm: 4
+        height_mm: 6
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id003
+        note: Miniature visual extension of the sourced 3d coupling pattern; flats
+          and pitch are catalogue modelling selections, not a verified supplier product.
+        standard: null
+        specification: coupling nut
+        dimension_status: approximate_visual_model
+      '2.5':
+        pitch_mm: 0.45
+        across_flats_mm: 5
+        height_mm: 7.5
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id003
+        note: Miniature visual extension of the sourced 3d coupling pattern; flats
+          and pitch are catalogue modelling selections, not a verified supplier product.
+        standard: null
+        specification: coupling nut
+        dimension_status: approximate_visual_model
+      '2.7':
+        pitch_mm: 0.45
+        across_flats_mm: 5.2
+        height_mm: 8.100000000000001
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id003
+        note: Miniature visual extension of the sourced 3d coupling pattern; flats
+          and pitch are catalogue modelling selections, not a verified supplier product.
+        standard: null
+        specification: coupling nut
+        dimension_status: approximate_visual_model
+      '3':
+        pitch_mm: 0.5
+        across_flats_mm: 5.5
+        height_mm: 9
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id003
+        note: Commercial coupling pattern; small mouth chamfers are model choices.
+        standard: null
+        specification: Fullerkreg commercial 6334 coupling nut
+        dimension_status: supplier_dimensions_with_visual_details
+      '4':
+        pitch_mm: 0.7
+        across_flats_mm: 7
+        height_mm: 12
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id003
+        note: Commercial coupling pattern; small mouth chamfers are model choices.
+        standard: null
+        specification: Fullerkreg commercial 6334 coupling nut
+        dimension_status: supplier_dimensions_with_visual_details
+  flange_nut:
+    standard: null
+    specification: flange nut
+    sources: &id004
+    - title: Westfield plain hex flange nuts DIN 6923, includes M3/M4 supplier extensions
+      url: https://www.westfieldfasteners.co.uk/Standards/Nut-HexFlgPln-M.pdf
+    sizes:
+      '1':
+        pitch_mm: 0.25
+        across_flats_mm: 2.5
+        height_mm: 1.267
+        flange_diameter_mm: 2.6
+        flange_thickness_mm: 0.267
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources: *id004
+        note: Miniature visual extension of the sourced M3 flange proportions; pitch/flats
+          selected separately. Availability and exact dimensions unverified.
+        standard: null
+        specification: flange nut
+        dimension_status: approximate_visual_model
+      '1.4':
+        pitch_mm: 0.3
+        across_flats_mm: 3
+        height_mm: 1.773
+        flange_diameter_mm: 3.64
+        flange_thickness_mm: 0.373
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources: *id004
+        note: Miniature visual extension of the sourced M3 flange proportions; pitch/flats
+          selected separately. Availability and exact dimensions unverified.
+        standard: null
+        specification: flange nut
+        dimension_status: approximate_visual_model
+      '1.5':
+        pitch_mm: 0.3
+        across_flats_mm: 2.25
+        height_mm: 1.9
+        flange_diameter_mm: 3.9
+        flange_thickness_mm: 0.4
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources: *id004
+        note: Miniature visual extension of the sourced M3 flange proportions; pitch/flats
+          selected separately. Availability and exact dimensions unverified.
+        standard: null
+        specification: flange nut
+        dimension_status: approximate_visual_model
+      '2':
+        pitch_mm: 0.4
+        across_flats_mm: 4
+        height_mm: 2.533
+        flange_diameter_mm: 5.2
+        flange_thickness_mm: 0.533
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources: *id004
+        note: Miniature visual extension of the sourced M3 flange proportions; pitch/flats
+          selected separately. Availability and exact dimensions unverified.
+        standard: null
+        specification: flange nut
+        dimension_status: approximate_visual_model
+      '2.5':
+        pitch_mm: 0.45
+        across_flats_mm: 5
+        height_mm: 3.167
+        flange_diameter_mm: 6.5
+        flange_thickness_mm: 0.667
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources: *id004
+        note: Miniature visual extension of the sourced M3 flange proportions; pitch/flats
+          selected separately. Availability and exact dimensions unverified.
+        standard: null
+        specification: flange nut
+        dimension_status: approximate_visual_model
+      '2.7':
+        pitch_mm: 0.45
+        across_flats_mm: 5.2
+        height_mm: 3.42
+        flange_diameter_mm: 7.02
+        flange_thickness_mm: 0.72
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources: *id004
+        note: Miniature visual extension of the sourced M3 flange proportions; pitch/flats
+          selected separately. Availability and exact dimensions unverified.
+        standard: null
+        specification: flange nut
+        dimension_status: approximate_visual_model
+  locking_nut:
+    standard: null
+    specification: D. S. Fasteners DIN 985 nylon-insert pattern
+    sources: &id005
+    - &id006
+      title: D. S. Fasteners catalogue page 3, DIN 985 dimensions s/h/m
+      url: https://www.dsfasteners.co.uk/_files/ugd/eb95dd_d696717a07be4aa7a00bd695073b3017.pdf
+    sizes:
+      '1':
+        pitch_mm: 0.25
+        across_flats_mm: 2.5
+        height_mm: 1.25
+        hex_height_mm: 0.9
+        expected_components: 2
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources: *id005
+        note: Miniature envelope scaled from M2; thread/flats are visual selections.
+          Nylon insert confirmed by owner. Collar wall, insert section and blue colour
+          are visual assumptions. Separate steel body and nylon ring, small assembly
+          clearance; no thread in undeformed nylon.
+        standard: null
+        specification: D. S. Fasteners DIN 985 nylon-insert pattern
+        dimension_status: approximate_visual_model
+      '1.4':
+        pitch_mm: 0.3
+        across_flats_mm: 3
+        height_mm: 1.75
+        hex_height_mm: 1.26
+        expected_components: 2
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id006
+        note: Miniature envelope scaled from M2; thread/flats are visual selections.
+          Nylon insert confirmed by owner. Collar wall, insert section and blue colour
+          are visual assumptions. Separate steel body and nylon ring, small assembly
+          clearance; no thread in undeformed nylon.
+        standard: null
+        specification: D. S. Fasteners DIN 985 nylon-insert pattern
+        dimension_status: approximate_visual_model
+      '1.5':
+        pitch_mm: 0.3
+        across_flats_mm: 2.25
+        height_mm: 1.875
+        hex_height_mm: 1.35
+        expected_components: 2
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id006
+        note: Miniature envelope scaled from M2; thread/flats are visual selections.
+          Nylon insert confirmed by owner. Collar wall, insert section and blue colour
+          are visual assumptions. Separate steel body and nylon ring, small assembly
+          clearance; no thread in undeformed nylon.
+        standard: null
+        specification: D. S. Fasteners DIN 985 nylon-insert pattern
+        dimension_status: approximate_visual_model
+      '2':
+        pitch_mm: 0.4
+        across_flats_mm: 4
+        height_mm: 2.5
+        hex_height_mm: 1.8
+        expected_components: 2
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id006
+        note: Published s/h/m envelope. Nylon insert confirmed by owner. Collar wall,
+          insert section and blue colour are visual assumptions. Separate steel body
+          and nylon ring, small assembly clearance; no thread in undeformed nylon.
+        standard: null
+        specification: D. S. Fasteners DIN 985 nylon-insert pattern
+        dimension_status: supplier_dimensions_with_visual_details
+      '2.5':
+        pitch_mm: 0.45
+        across_flats_mm: 5
+        height_mm: 2.8
+        hex_height_mm: 2.25
+        expected_components: 2
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id006
+        note: Published s/h/m envelope. Nylon insert confirmed by owner. Collar wall,
+          insert section and blue colour are visual assumptions. Separate steel body
+          and nylon ring, small assembly clearance; no thread in undeformed nylon.
+        standard: null
+        specification: D. S. Fasteners DIN 985 nylon-insert pattern
+        dimension_status: supplier_dimensions_with_visual_details
+      '2.7':
+        pitch_mm: 0.45
+        across_flats_mm: 5.2
+        height_mm: 3.375
+        hex_height_mm: 2.43
+        expected_components: 2
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id006
+        note: Miniature envelope scaled from M2; thread/flats are visual selections.
+          Nylon insert confirmed by owner. Collar wall, insert section and blue colour
+          are visual assumptions. Separate steel body and nylon ring, small assembly
+          clearance; no thread in undeformed nylon.
+        standard: null
+        specification: D. S. Fasteners DIN 985 nylon-insert pattern
+        dimension_status: approximate_visual_model
+      '3':
+        pitch_mm: 0.5
+        across_flats_mm: 5.5
+        height_mm: 4
+        hex_height_mm: 2.4
+        expected_components: 2
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id006
+        note: Published s/h/m envelope. Nylon insert confirmed by owner. Collar wall,
+          insert section and blue colour are visual assumptions. Separate steel body
+          and nylon ring, small assembly clearance; no thread in undeformed nylon.
+        standard: null
+        specification: D. S. Fasteners DIN 985 nylon-insert pattern
+        dimension_status: supplier_dimensions_with_visual_details
+      '4':
+        pitch_mm: 0.7
+        across_flats_mm: 7
+        height_mm: 5
+        hex_height_mm: 2.5
+        expected_components: 2
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id006
+        note: Published s/h/m envelope. Nylon insert confirmed by owner. Collar wall,
+          insert section and blue colour are visual assumptions. Separate steel body
+          and nylon ring, small assembly clearance; no thread in undeformed nylon.
+        standard: null
+        specification: D. S. Fasteners DIN 985 nylon-insert pattern
+        dimension_status: supplier_dimensions_with_visual_details
+      '5':
+        pitch_mm: 0.8
+        across_flats_mm: 8
+        height_mm: 5
+        hex_height_mm: 3.5
+        expected_components: 2
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id006
+        note: Published s/h/m envelope. Nylon insert confirmed by owner. Collar wall,
+          insert section and blue colour are visual assumptions. Separate steel body
+          and nylon ring, small assembly clearance; no thread in undeformed nylon.
+        standard: null
+        specification: D. S. Fasteners DIN 985 nylon-insert pattern
+        dimension_status: supplier_dimensions_with_visual_details
+      '6':
+        pitch_mm: 1
+        across_flats_mm: 10
+        height_mm: 6
+        hex_height_mm: 4.5
+        expected_components: 2
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id006
+        note: Published s/h/m envelope. Nylon insert confirmed by owner. Collar wall,
+          insert section and blue colour are visual assumptions. Separate steel body
+          and nylon ring, small assembly clearance; no thread in undeformed nylon.
+        standard: null
+        specification: D. S. Fasteners DIN 985 nylon-insert pattern
+        dimension_status: supplier_dimensions_with_visual_details
+      '8':
+        pitch_mm: 1.25
+        across_flats_mm: 13
+        height_mm: 8
+        hex_height_mm: 6
+        expected_components: 2
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id006
+        note: Published s/h/m envelope. Nylon insert confirmed by owner. Collar wall,
+          insert section and blue colour are visual assumptions. Separate steel body
+          and nylon ring, small assembly clearance; no thread in undeformed nylon.
+        standard: null
+        specification: D. S. Fasteners DIN 985 nylon-insert pattern
+        dimension_status: supplier_dimensions_with_visual_details
+  ball_spring_nut:
+    standard: null
+    specification: Fasenco 20S roll-in ball-spring nut
+    sources: &id007
+    - &id008
+      title: Fasenco 20S-M3/M4/M5/M6 roll-in nuts, A/B/M/H table and drawing
+      url: https://www.fasenco.com/roll-in-t-nuts/
+    sizes:
+      '3':
+        pitch_mm: 0.5
+        across_flats_mm: 8.2
+        height_mm: 4.6
+        body_height_mm: 4.2
+        body_length_mm: 14
+        body_width_mm: 8.2
+        lip_mm: 0.4
+        ball_radius_mm: 1.1
+        ball_projection_mm: 0.4
+        expected_components: 2
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources: *id007
+        note: Fasenco 20S envelope A=14 B=8.2 H=4.2 M=0.4 mm; nominal ISO coarse pitches.
+          Barrel cross-section, offset ball pocket and 0.4 mm ball projection are
+          visual selections. Hidden spring omitted. Total model height 4.6 mm includes
+          ball projection.
+        standard: null
+        specification: Fasenco 20S roll-in ball-spring nut
+        dimension_status: supplier_dimensions_with_visual_details
+      '4':
+        pitch_mm: 0.7
+        across_flats_mm: 8.2
+        height_mm: 4.6
+        body_height_mm: 4.2
+        body_length_mm: 14
+        body_width_mm: 8.2
+        lip_mm: 0.4
+        ball_radius_mm: 1.1
+        ball_projection_mm: 0.4
+        expected_components: 2
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id008
+        note: Fasenco 20S envelope A=14 B=8.2 H=4.2 M=0.4 mm; nominal ISO coarse pitches.
+          Barrel cross-section, offset ball pocket and 0.4 mm ball projection are
+          visual selections. Hidden spring omitted. Total model height 4.6 mm includes
+          ball projection.
+        standard: null
+        specification: Fasenco 20S roll-in ball-spring nut
+        dimension_status: supplier_dimensions_with_visual_details
+      '5':
+        pitch_mm: 0.8
+        across_flats_mm: 8.2
+        height_mm: 4.6
+        body_height_mm: 4.2
+        body_length_mm: 14
+        body_width_mm: 8.2
+        lip_mm: 0.4
+        ball_radius_mm: 1.1
+        ball_projection_mm: 0.4
+        expected_components: 2
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id008
+        note: Fasenco 20S envelope A=14 B=8.2 H=4.2 M=0.4 mm; nominal ISO coarse pitches.
+          Barrel cross-section, offset ball pocket and 0.4 mm ball projection are
+          visual selections. Hidden spring omitted. Total model height 4.6 mm includes
+          ball projection.
+        standard: null
+        specification: Fasenco 20S roll-in ball-spring nut
+        dimension_status: supplier_dimensions_with_visual_details
+      '6':
+        pitch_mm: 1
+        across_flats_mm: 8.2
+        height_mm: 4.6
+        body_height_mm: 4.2
+        body_length_mm: 14
+        body_width_mm: 8.2
+        lip_mm: 0.4
+        ball_radius_mm: 1.1
+        ball_projection_mm: 0.4
+        expected_components: 2
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id008
+        note: Fasenco 20S envelope A=14 B=8.2 H=4.2 M=0.4 mm; nominal ISO coarse pitches.
+          Barrel cross-section, offset ball pocket and 0.4 mm ball projection are
+          visual selections. Hidden spring omitted. Total model height 4.6 mm includes
+          ball projection.
+        standard: null
+        specification: Fasenco 20S roll-in ball-spring nut
+        dimension_status: supplier_dimensions_with_visual_details
+  t_nut:
+    standard: null
+    specification: Fasenco 20-series hammer T-nut pattern
+    sources: &id009
+    - &id010
+      title: Fasenco 20-series M4/M5 hammer nuts, S/H/L/K table and drawing
+      url: https://www.fasenco.com/t-slot-hammer-nut/
+    sizes:
+      '3':
+        pitch_mm: 0.5
+        across_flats_mm: 6
+        height_mm: 3.5
+        body_length_mm: 10
+        body_width_mm: 6
+        neck_width_mm: 6.2
+        neck_height_mm: 1
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources: *id009
+        note: M3/M6 not in this supplier 20-series table; visual adaptation of M4/M5.
+          M6 body widened to 8 mm to retain thread wall. Plan corner cuts, shoulder
+          and grip grooves simplified; neck height 1 mm selected visually. Profile-fit
+          not certified.
+        standard: null
+        specification: Fasenco 20-series hammer T-nut pattern
+        dimension_status: approximate_visual_model
+      '4':
+        pitch_mm: 0.7
+        across_flats_mm: 6
+        height_mm: 3.5
+        body_length_mm: 10
+        body_width_mm: 6
+        neck_width_mm: 6.2
+        neck_height_mm: 1
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id010
+        note: Fasenco M4/M5 S/H/L envelope. Plan corner cuts, shoulder and grip grooves
+          simplified; neck height 1 mm selected visually. Profile-fit not certified.
+        standard: null
+        specification: Fasenco 20-series hammer T-nut pattern
+        dimension_status: supplier_dimensions_with_visual_details
+      '5':
+        pitch_mm: 0.8
+        across_flats_mm: 6
+        height_mm: 3.5
+        body_length_mm: 10
+        body_width_mm: 6
+        neck_width_mm: 6.2
+        neck_height_mm: 1
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id010
+        note: Fasenco M4/M5 S/H/L envelope. Plan corner cuts, shoulder and grip grooves
+          simplified; neck height 1 mm selected visually. Profile-fit not certified.
+        standard: null
+        specification: Fasenco 20-series hammer T-nut pattern
+        dimension_status: supplier_dimensions_with_visual_details
+      '6':
+        pitch_mm: 1
+        across_flats_mm: 8
+        height_mm: 3.5
+        body_length_mm: 10
+        body_width_mm: 8
+        neck_width_mm: 7
+        neck_height_mm: 1
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id010
+        note: M3/M6 not in this supplier 20-series table; visual adaptation of M4/M5.
+          M6 body widened to 8 mm to retain thread wall. Plan corner cuts, shoulder
+          and grip grooves simplified; neck height 1 mm selected visually. Profile-fit
+          not certified.
+        standard: null
+        specification: Fasenco 20-series hammer T-nut pattern
+        dimension_status: approximate_visual_model
+  cage_nut:
+    standard: null
+    specification: Value Fastener / Kanebridge M5-025NCAG cage-nut pattern
+    sources: &id011
+    - &id012
+      title: Value Fastener / Kanebridge cage-nut drawing, page 514, dimensions in
+        inches
+      url: https://www.valuefastener.com/documents/products/metcagenut.pdf
+    sizes:
+      '5':
+        pitch_mm: 0.8
+        across_flats_mm: 10
+        height_mm: 8.636
+        body_height_mm: 6.35
+        body_width_mm: 13.208
+        body_length_mm: 13.208
+        sheet_thickness_mm: 0.508
+        foot_width_mm: 2.032
+        nut_height_mm: 3.5
+        clip_height_mm: 2.2859999999999996
+        expected_components: 2
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources: *id011
+        note: 'M5-025NCAG: B/J/N selected at midpoint of published inch limits; T
+          from reference, converted x25.4. Internal square-nut dimensions, perpendicular
+          length, clip projection and bends are explicit visual assumptions. Separate
+          nut and spring cage; no mating bolt/panel.'
+        standard: null
+        specification: Value Fastener / Kanebridge M5-025NCAG cage-nut pattern
+        dimension_status: supplier_dimensions_with_visual_details
+      '6':
+        pitch_mm: 1
+        across_flats_mm: 10
+        height_mm: 8.636
+        body_height_mm: 6.35
+        body_width_mm: 13.208
+        body_length_mm: 13.208
+        sheet_thickness_mm: 0.508
+        foot_width_mm: 3.0479999999999996
+        nut_height_mm: 4.5
+        clip_height_mm: 2.2859999999999996
+        expected_components: 2
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id012
+        note: 'M6-064NCAG: B/J/N selected at midpoint of published inch limits; T
+          from reference, converted x25.4. Internal square-nut dimensions, perpendicular
+          length, clip projection and bends are explicit visual assumptions. Separate
+          nut and spring cage; no mating bolt/panel.'
+        standard: null
+        specification: Value Fastener / Kanebridge M6-064NCAG cage-nut pattern
+        dimension_status: supplier_dimensions_with_visual_details
+      '8':
+        pitch_mm: 1.25
+        across_flats_mm: 13
+        height_mm: 9.906
+        body_height_mm: 7.62
+        body_width_mm: 16.764
+        body_length_mm: 16.764
+        sheet_thickness_mm: 0.635
+        foot_width_mm: 2.54
+        nut_height_mm: 5.5
+        clip_height_mm: 2.2859999999999996
+        expected_components: 2
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id012
+        note: 'M8-093NCAG: B/J/N selected at midpoint of published inch limits; T
+          from reference, converted x25.4. Internal square-nut dimensions, perpendicular
+          length, clip projection and bends are explicit visual assumptions. Separate
+          nut and spring cage; no mating bolt/panel.'
+        standard: null
+        specification: Value Fastener / Kanebridge M8-093NCAG cage-nut pattern
+        dimension_status: supplier_dimensions_with_visual_details
+  plain_washer:
+    standard: null
+    specification: Spalding M1 Form A washer
+    sources: &id013
+    - &id014
+      title: Spalding Fasteners washer size table, M1 Form A
+      url: https://www.spaldingfasteners.co.uk/washer-sizes/
+    sizes:
+      '1':
+        hole_diameter_mm: 1.1
+        outer_diameter_mm: 2.5
+        height_mm: 0.3
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources: *id013
+        note: Supplier M1 Form A dimensions.
+        standard: null
+        specification: Spalding M1 Form A washer
+        dimension_status: supplier_dimensions_with_visual_details
+      '1.5':
+        hole_diameter_mm: 1.7
+        outer_diameter_mm: 4
+        height_mm: 0.3
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id014
+        note: Visual selection with clearance for the literal catalogue nominal diameter;
+          not a verified supplier row for this size.
+        standard: null
+        specification: plain washer
+        dimension_status: approximate_visual_model
+      '2.7':
+        hole_diameter_mm: 2.9
+        outer_diameter_mm: 6.5
+        height_mm: 0.5
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id014
+        note: Visual selection with clearance for the literal catalogue nominal diameter;
+          not a verified supplier row for this size.
+        standard: null
+        specification: plain washer
+        dimension_status: approximate_visual_model
+  penny_washer:
+    standard: null
+    specification: Westfield M2 large washer
+    sources: &id015
+    - &id016
+      title: Westfield DIN 9021 large washer supplier sheet, M2 2.2 x 7 x 0.8
+      url: https://www.westfieldfasteners.co.uk/Datasheets/Washer_od3nom_M.pdf
+    sizes:
+      '2':
+        hole_diameter_mm: 2.2
+        outer_diameter_mm: 7
+        height_mm: 0.8
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources: *id015
+        note: Supplier M2 large washer dimensions.
+        standard: null
+        specification: Westfield M2 large washer
+        dimension_status: supplier_dimensions_with_visual_details
+      '1':
+        hole_diameter_mm: 1.1
+        outer_diameter_mm: 3.5
+        height_mm: 0.4
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id016
+        note: Visual large-washer selection informed by Westfield M2/M2.5 proportions.
+          Bore clears literal catalogue size; exact supplier availability unverified.
+        standard: null
+        specification: penny washer
+        dimension_status: approximate_visual_model
+      '1.5':
+        hole_diameter_mm: 1.7
+        outer_diameter_mm: 5
+        height_mm: 0.5
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id016
+        note: Visual large-washer selection informed by Westfield M2/M2.5 proportions.
+          Bore clears literal catalogue size; exact supplier availability unverified.
+        standard: null
+        specification: penny washer
+        dimension_status: approximate_visual_model
+      '2.7':
+        hole_diameter_mm: 2.9
+        outer_diameter_mm: 8
+        height_mm: 0.8
+        source_table: source_file/standards/catalogue_extensions.yaml
+        sources:
+        - *id016
+        note: Visual large-washer selection informed by Westfield M2/M2.5 proportions.
+          Bore clears literal catalogue size; exact supplier availability unverified.
+        standard: null
+        specification: penny washer
+        dimension_status: approximate_visual_model

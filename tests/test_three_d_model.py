@@ -104,7 +104,7 @@ def test_source_scope_length_and_materials():
     assert recipe('nut','m6')['parameters']['height_mm']==5.2
     assert recipe('nut','m6','nylon_white')['material']['metallic']==0
     assert recipe('nut','m3','black')['material']['base_colour_srgb']==[.205,.218,.235]
-    for typ,d,variant in [('nut','m6','cage'),('nut','m6','locking'),('nut','m2_7',''),('washer','m1',''),('nut','m4','coupling')]:
+    for typ,d,variant in [('nut','m99','cage'),('nut','m99','locking'),('nut','m99',''),('washer','m99',''),('nut','m99','coupling')]:
         r,reason=definition(dict(taxonomy_2=typ,taxonomy_3=d,taxonomy_4=variant))
         assert r is None and reason
 
@@ -175,19 +175,35 @@ def test_cache_damage_and_standalone_from_folder_with_spaces(tmp_path):
     r=recipe('washer','m2');folder=tmp_path/'part with spaces';folder.mkdir()
     def fake_studio(meshes,p,r,out):
         for render in r['renders'].values():
+            if (out/render['file']).is_file():
+                continue
             Image.new('RGB',(render['pixels'],render['pixels']),color='white').save(out/render['file'])
         (out/'studio.blend').write_bytes(b'fixture')
         (out/'render_scene.json').write_text('{}',encoding='utf-8')
     with patch('hardware_model_render.render_studio',side_effect=fake_studio) as renderer:
         assert models.generate_assets(r,folder)
         output=folder/'three_d_model';manifest=json.loads((output/'manifest.json').read_text())
-        assert len(manifest['artifacts'])==27
+        assert len(manifest['artifacts'])==28
+        assert 'model_notes.md' in manifest['artifacts']
         assert not models.generate_assets(r,folder)
-        (output/'render_low.png').write_bytes(b'corrupt')
+        existing={path.name:(path.read_bytes(),path.stat().st_mtime_ns) for path in output.glob('render*.png')}
+        changed_recipe=copy.deepcopy(r);changed_recipe['studio']['exposure']=1.
+        with patch.object(models,'_fingerprint',side_effect=AssertionError('No Blender/cache probe expected')):
+            assert not models.generate_assets(changed_recipe,folder)
+        (output/'render_low.png').unlink()
         assert models.generate_assets(r,folder)
+        for name,snapshot in existing.items():
+            if name!='render_low.png':
+                assert ((output/name).read_bytes(),(output/name).stat().st_mtime_ns)==snapshot
+        assert renderer.call_count==2
         (output/'full/top.svg').unlink()
         assert models.generate_assets(r,folder)
+        assert renderer.call_count==2
+        (output/'render_low.png').write_bytes(b'corrupt')
+        assert not models.generate_assets(r,folder)
+        assert models.generate_assets(r,folder,force=True)
         assert renderer.call_count==3
+        assert Image.open(output/'render_low.png').size==(512,512)
     subprocess.run([sys.executable,str(output/'model.py'),'--output',str(tmp_path/'standalone result')],
         cwd=tmp_path,check=True,capture_output=True)
     np.testing.assert_allclose(trimesh.load(tmp_path/'standalone result/model_full.stl').extents,[5,5,.3],atol=1e-6)
@@ -198,7 +214,7 @@ def test_population_and_every_saved_display_recipe():
     import working_oomp_populate as population
     with patch.object(population,'write_extras') as writer:
         population.main()
-    assert sum('three_d_model_details' in p for p in writer.call_args.args[0])==162
+    assert sum('three_d_model_details' in p for p in writer.call_args.args[0])==207
     supported=0
     for path in (ROOT/'parts').glob('*/working.yaml'):
         part=yaml.safe_load(path.read_text(encoding='utf-8'))
@@ -208,9 +224,9 @@ def test_population_and_every_saved_display_recipe():
         if r:
             supported+=1
             mesh=build_model(r['parameters'],'display',r['variants']['display'])
-            assert mesh.body_count==1 and mesh.is_watertight
+            assert mesh.body_count==r['parameters']['expected_components'] and mesh.is_watertight
             assert all('url' in s or 'path' in s for s in r['sources'])
-    assert supported==162
+    assert supported==207
 
 
 @pytest.mark.skipif(os.name!='nt',reason='Windows shortcut checks')
@@ -222,7 +238,7 @@ def test_windows_batch_external_cwd_spaces_exit_code_and_disposable_delete(tmp_p
     (fixture/'working_three_d_model.py').write_text(stub,encoding='utf-8')
     result=subprocess.run(['cmd.exe','/d','/c',str(fixture/'action_make_three_d_model.bat'),'--metadata-only','--filter','no_matching_parts'],cwd=tmp_path,capture_output=True)
     assert result.returncode==23
-    argv=json.loads((fixture/'argv.json').read_text());assert argv[:6]==['--filter','*','--jobs','3','--force','--update-presentation']
+    argv=json.loads((fixture/'argv.json').read_text());assert argv[:5]==['--filter','*','--jobs','3','--update-presentation'];assert '--force' not in argv
     assert argv[-3:]==['--metadata-only','--filter','no_matching_parts']
     part=fixture/'parts/product';output=part/'three_d_model';output.mkdir(parents=True)
     (part/'working.yaml').write_text('name: keep\n',encoding='utf-8');(part/'legacy.stl').write_bytes(b'keep')

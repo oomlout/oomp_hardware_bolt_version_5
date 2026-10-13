@@ -1,0 +1,194 @@
+{
+  "artifacts": {
+    "display/back.svg": {
+      "bytes": 5756,
+      "sha256": "983ac4002a5fbbc8cfb794a2b5ed2866292387484335bc7660d19eac2280fb38"
+    },
+    "display/bottom.svg": {
+      "bytes": 3170,
+      "sha256": "37615125ef91bb9a00ba866493267df4e4fdb0c0c4a8128561e212e00f05c155"
+    },
+    "display/front.svg": {
+      "bytes": 5722,
+      "sha256": "515f3358a88bf8f68c1f95f5d9b80ed66038af4083a9288a5e7b0d4fd6c29af3"
+    },
+    "display/isometric.svg": {
+      "bytes": 5833,
+      "sha256": "39e612df6cb6185638e986b3840406664e474e9900d4f4228b77cac7208b6107"
+    },
+    "display/left.svg": {
+      "bytes": 5615,
+      "sha256": "1ea159fd9986f5523f33ddb8a1c9250404e3a8662ca5284d5f6b20a56d58b55d"
+    },
+    "display/right.svg": {
+      "bytes": 5639,
+      "sha256": "62dcfaafd855390e924d79f6000881885f3c241ead3ca1af73351c042498681b"
+    },
+    "display/top.svg": {
+      "bytes": 7676,
+      "sha256": "d17ded90bf3a39ab12049fd57b0e1ada95fd8fd2666e2f8b49439b6901fd330b"
+    },
+    "full/back.svg": {
+      "bytes": 15177,
+      "sha256": "08724caacfdc9037d5354e1e9524b3b393f8feb8a80d9fd6572bd1046c1f945b"
+    },
+    "full/bottom.svg": {
+      "bytes": 32193,
+      "sha256": "f96f99da310a6676f94033ec23e6d68163a67bb4d76c3d1ef82b0fcb7c5f04c7"
+    },
+    "full/front.svg": {
+      "bytes": 15180,
+      "sha256": "71bb72be991bd969f66a1f3672338e86ee0fc4446df1cefb1549c3877018ccfc"
+    },
+    "full/isometric.svg": {
+      "bytes": 24442,
+      "sha256": "4a3684a451bca804dba02545ec39ff1d9b6d032c545f30a9a294fcfaaf0e16b4"
+    },
+    "full/left.svg": {
+      "bytes": 15079,
+      "sha256": "ef7488924918bb564c6c8288fdd99568884bbab99667fe0deec43c45086495c8"
+    },
+    "full/right.svg": {
+      "bytes": 15070,
+      "sha256": "19134ed230d269c35910bc14e83abf84bca4d698bf38c4a2f03ef8f13f9ba986"
+    },
+    "full/top.svg": {
+      "bytes": 45697,
+      "sha256": "4626b0a6654e5e8f2a5931743fd64f1f12210b3923b73ab93b0f93b5fa02daa3"
+    },
+    "model.py": {
+      "bytes": 22242,
+      "sha256": "e588dd0d61759c4c3fc94ff9268a547f38ff549d768640497613c9c442e7914e"
+    },
+    "model_display.glb": {
+      "bytes": 20024,
+      "sha256": "56bde632f939a2fcd0778a2e11b76599618b662e1a63f923417ec3807b18d17b"
+    },
+    "model_display.stl": {
+      "bytes": 49784,
+      "sha256": "d57867e613db2f78811908b2211b9ac1b9c6600cfb18858dd9f1a4c856907211"
+    },
+    "model_full.glb": {
+      "bytes": 778660,
+      "sha256": "f400d1ede2859a7f18177e6e09e603d90bb3e83c7e3390e4c562e406653ee92e"
+    },
+    "model_full.stl": {
+      "bytes": 2157084,
+      "sha256": "9dc4feebfbe65c933baff2fab2564d36dc56dd9748149eadc678875bdfdcac61"
+    },
+    "model_notes.md": {
+      "bytes": 566,
+      "sha256": "1ca3b5270e3af14e025f6e20c9305e6a83200c761bae6139e56c8daefde1105d"
+    },
+    "parameters.json": {
+      "bytes": 6990,
+      "sha256": "221238962d94375298c1bd6981dd53a04a6856b7d5fe1961f467a2ec0ce736c6"
+    },
+    "render_high.png": {
+      "bytes": 19821,
+      "sha256": "fe32ea22655d7632fbe4ee542c1d92bd7056a83dcc6811a4c50b03bb3f50abfe"
+    },
+    "render_low.png": {
+      "bytes": 19395,
+      "sha256": "3dd7f9a00b292a03493459bdddde5e4d6a7f040a0339fd4f8dcabebcaeb1bbff"
+    },
+    "render_product_high.png": {
+      "bytes": 19605,
+      "sha256": "07389855cea5d30c8a4eae87a4af9b61aa5d95cf4e77f830402906f4747e3dfb"
+    },
+    "render_product_low.png": {
+      "bytes": 19300,
+      "sha256": "24d042c1fd9e538891cd8082113b6f62d3d937ae28f8a52afbc879a2be71b4c5"
+    },
+    "render_scene.json": {
+      "bytes": 27609,
+      "sha256": "6bdf1f50000e9ead2c2a3122ed6cc33f8be887031d5c59393754c50bc49ee5e4"
+    },
+    "requirements.txt": {
+      "bytes": 159,
+      "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
+    },
+    "studio.blend": {
+      "bytes": 1015007,
+      "sha256": "237d1c4ecd3aead0e9cca6445b1a497e72e7da8b6a785eddbd61d33914633e90"
+    }
+  },
+  "coordinate_system": {
+    "axis": "+Z along bore",
+    "glb_conversion": "(x,y,z) mm -> (x,z,-y)/1000 metres",
+    "glb_units": "metres",
+    "glb_up_axis": "Y",
+    "origin": "lower face centre",
+    "stl_units": "mm"
+  },
+  "dimension_status": "approximate_visual_model",
+  "fingerprint": "95a5ea03df6780e0a5d79eecb451819dd6edfbd8c082c676e9029b3a2bf3c254",
+  "generator": "din_6923_flange_nut",
+  "length_status": "not_applicable",
+  "models": {
+    "display": {
+      "bounds_mm": [
+        [
+          -1.9500000476837158,
+          -1.9500000476837158,
+          0.0
+        ],
+        [
+          1.9500000476837158,
+          1.9500000476837158,
+          1.899999976158142
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        3.9000000953674316,
+        3.9000000953674316,
+        1.899999976158142
+      ],
+      "triangles": 994,
+      "vertices": 497,
+      "volume_mm3": 9.132123632645246,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "full": {
+      "bounds_mm": [
+        [
+          -1.9500000476837158,
+          -1.9500000476837158,
+          0.0
+        ],
+        [
+          1.9500000476837158,
+          1.9500000476837158,
+          1.899999976158142
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        3.9000000953674316,
+        3.9000000953674316,
+        1.899999976158142
+      ],
+      "triangles": 43140,
+      "vertices": 21570,
+      "volume_mm3": 8.680374499590547,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  },
+  "recipe_fingerprint": "63e4cddb756670456b09693a1236fbab487c536efcfc2c9154e77019e4af1779",
+  "schema_version": 1,
+  "source_fingerprint": "cf07d9b64fe3bbac5f6ac64edaac5714479c66d259667fdd8ccceab27fac49e7",
+  "sources": [
+    {
+      "title": "Westfield plain hex flange nuts DIN 6923, includes M3/M4 supplier extensions",
+      "url": "https://www.westfieldfasteners.co.uk/Standards/Nut-HexFlgPln-M.pdf"
+    },
+    {
+      "title": "ISO 68-1:1998 basic ISO metric thread profile",
+      "url": "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+    }
+  ],
+  "standard": null
+}

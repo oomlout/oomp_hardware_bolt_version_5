@@ -1,0 +1,190 @@
+{
+  "artifacts": {
+    "display/back.svg": {
+      "bytes": 2855,
+      "sha256": "5960dee4fc53dd2cd593a2aad5b98c2be3feb610dc54e18e276c2e67de0f4df2"
+    },
+    "display/bottom.svg": {
+      "bytes": 2790,
+      "sha256": "d2be89d3359c4d1cf8ddcde2e449f6a8b0c233dd2dd855b2950e04367d92ef6d"
+    },
+    "display/front.svg": {
+      "bytes": 2858,
+      "sha256": "bec642449d7428b520bb930b426a90cf4e0e0b44ed07ef47b3f64f3457ba123c"
+    },
+    "display/isometric.svg": {
+      "bytes": 3785,
+      "sha256": "c58695a9e04a3477697e43890b02766c980492d15ada9b8aaac698a8b890e9c5"
+    },
+    "display/left.svg": {
+      "bytes": 2856,
+      "sha256": "4fb2f5347f75e95bb3ab64d91fac1872572f65d8aeb53e3d3bd8c8de806cb848"
+    },
+    "display/right.svg": {
+      "bytes": 2853,
+      "sha256": "9db59dd99633bafb30e5ad78c2e9245c2d302691fd108324100a65cf717073b7"
+    },
+    "display/top.svg": {
+      "bytes": 2783,
+      "sha256": "4417ba90d19cefe9344f507e1d735ba11493bf279cbc474d1ef52736e00384f5"
+    },
+    "full/back.svg": {
+      "bytes": 7889,
+      "sha256": "e50b762b2e3d3996bf57a3934d98765e176f1aabf557db33b7e76f136f1c680c"
+    },
+    "full/bottom.svg": {
+      "bytes": 7824,
+      "sha256": "82b4e57dbfacf64eff43cc2ada1a1497c8820e0298898341da3f0eb714dad1bc"
+    },
+    "full/front.svg": {
+      "bytes": 7892,
+      "sha256": "5855acd8c8b566f2613b004a0def8c3c1fbb665cdb6e611592de0f61aac69534"
+    },
+    "full/isometric.svg": {
+      "bytes": 11159,
+      "sha256": "e705ca0e465174f055e7f6179b089061bd77e46c15ae22c8a2a5b7fb2b47a455"
+    },
+    "full/left.svg": {
+      "bytes": 7890,
+      "sha256": "97682566e88ee720f09a34e96a8d45c4bf3ec6e135cfd48302f6600125dd5626"
+    },
+    "full/right.svg": {
+      "bytes": 7887,
+      "sha256": "0319a4133244698ebd770d5f577dd424cb728dbafb8208eb4c8fea2b9a72e2f5"
+    },
+    "full/top.svg": {
+      "bytes": 7817,
+      "sha256": "b829405f331e44ea4421d196a00ef7e0d842333150d3329f913c779b47c0616f"
+    },
+    "model.py": {
+      "bytes": 22242,
+      "sha256": "e588dd0d61759c4c3fc94ff9268a547f38ff549d768640497613c9c442e7914e"
+    },
+    "model_display.glb": {
+      "bytes": 5228,
+      "sha256": "7b26038aca597b05d54ba4893ef9fc3c1aa4fe62a88ea70e41674ec9dec3cdbd"
+    },
+    "model_display.stl": {
+      "bytes": 9684,
+      "sha256": "bd7204e110381abd43953b17a7e3099ec622cb777c024ebda5b1c5bd35acc38d"
+    },
+    "model_full.glb": {
+      "bytes": 15596,
+      "sha256": "b60c7ebc15a058c8b33f14c87c33e1200fa9600a8499bcc3884af5d6948c4dcf"
+    },
+    "model_full.stl": {
+      "bytes": 38484,
+      "sha256": "e7f467b6497ac61959b8206fee925db502b95d4d74c533dcc05c9ef5f84558be"
+    },
+    "model_notes.md": {
+      "bytes": 348,
+      "sha256": "52bb728da58c384c456dbcd5da17606f3318a172abb8ae2c6d143e5a4002673e"
+    },
+    "parameters.json": {
+      "bytes": 6306,
+      "sha256": "a121664b4d8e89efdb74491cadd5d7730f034089aca18cb8f2774286a3406606"
+    },
+    "render_high.png": {
+      "bytes": 3485081,
+      "sha256": "3c94370a7e250a9c1953c65b37d3465e27907832cb5b298868a1dd1d405188db"
+    },
+    "render_low.png": {
+      "bytes": 224302,
+      "sha256": "08bb68b84737245f58e2701dbbdf61ab038dbab3088a0a6d663580fae2d0b406"
+    },
+    "render_product_high.png": {
+      "bytes": 3658840,
+      "sha256": "bab2595823f9ec41ae2535d1cdaa5e4f462045a3485271b7c1d31488cf8f2c07"
+    },
+    "render_product_low.png": {
+      "bytes": 232256,
+      "sha256": "bf192d22f7cfe4b9041ca8676b99254fb628570b3ab6222dc4e1282e73cab5e7"
+    },
+    "render_scene.json": {
+      "bytes": 27432,
+      "sha256": "0f4673aa7f8869a7f08201e500a4a087b10071f1b9ba7fb85b9c8d609673c3da"
+    },
+    "requirements.txt": {
+      "bytes": 159,
+      "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
+    },
+    "studio.blend": {
+      "bytes": 116404,
+      "sha256": "7abe2cc7a56ada728e679af8863d6d053326c5fa4d6026a6deb15d25626fa2c0"
+    }
+  },
+  "coordinate_system": {
+    "axis": "+Z along bore",
+    "glb_conversion": "(x,y,z) mm -> (x,z,-y)/1000 metres",
+    "glb_units": "metres",
+    "glb_up_axis": "Y",
+    "origin": "lower face centre",
+    "stl_units": "mm"
+  },
+  "dimension_status": "approximate_visual_model",
+  "fingerprint": "2f899edc16b4a4b3b0ab8952205e9ad6b294a4f5ecdff16309932fe82149278d",
+  "generator": "din_125_a_washer",
+  "length_status": "not_applicable",
+  "models": {
+    "display": {
+      "bounds_mm": [
+        [
+          -3.25,
+          -3.25,
+          0.0
+        ],
+        [
+          3.25,
+          3.25,
+          0.5
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        6.5,
+        6.5,
+        0.5
+      ],
+      "triangles": 192,
+      "vertices": 96,
+      "volume_mm3": 13.137654790425685,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "full": {
+      "bounds_mm": [
+        [
+          -3.25,
+          -3.25,
+          0.0
+        ],
+        [
+          3.25,
+          3.25,
+          0.5
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        6.5,
+        6.5,
+        0.5
+      ],
+      "triangles": 768,
+      "vertices": 384,
+      "volume_mm3": 13.279451610969952,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  },
+  "recipe_fingerprint": "532bf1596d532afbc21c4f86eba408fdfdf0d5c04a28874e1885f0669c8ff078",
+  "schema_version": 1,
+  "source_fingerprint": "cf07d9b64fe3bbac5f6ac64edaac5714479c66d259667fdd8ccceab27fac49e7",
+  "sources": [
+    {
+      "title": "Spalding Fasteners washer size table, M1 Form A",
+      "url": "https://www.spaldingfasteners.co.uk/washer-sizes/"
+    }
+  ],
+  "standard": null
+}

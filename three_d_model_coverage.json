@@ -1,199 +1,124 @@
 {
-  "checked_on": "2026-10-11",
-  "supported": 162,
+  "checked_on": "2026-10-13",
+  "supported": 207,
   "families": {
     "iso_4014_hex_bolt": 40,
     "supplier_hex_nut": 2,
-    "iso_4032_hex_nut": 8,
-    "din_6923_flange_nut": 5,
+    "supplier_coupling_nut": 11,
+    "din_6923_flange_nut": 11,
+    "supplier_nylon_insert_nut": 11,
+    "iso_4032_hex_nut": 10,
+    "supplier_2020_ball_spring_nut": 4,
+    "supplier_2020_t_nut": 4,
     "supplier_nylon_hex_nut": 5,
-    "supplier_coupling_nut": 3,
+    "supplier_cage_nut": 3,
     "iso_4017_hex_screw": 79,
     "supplier_nylon_hex_screw": 6,
-    "din_125_a_washer": 7,
-    "din_9021_penny_washer": 6,
+    "din_125_a_washer": 10,
+    "din_9021_penny_washer": 10,
     "catalogue_nylon_washer": 1
   },
-  "unsupported": [
+  "unsupported": [],
+  "approximate_visual_models": [
     {
       "part_id": "hardware_nut_m1_4_coupling",
-      "reason": "coupling_nut: M1.4 has no verified dimensional row; not extrapolated."
+      "note": "Miniature visual extension of the sourced 3d coupling pattern; flats and pitch are catalogue modelling selections, not a verified supplier product."
     },
     {
       "part_id": "hardware_nut_m1_4_flanged",
-      "reason": "flange_nut: M1.4 has no verified dimensional row; not extrapolated."
+      "note": "Miniature visual extension of the sourced M3 flange proportions; pitch/flats selected separately. Availability and exact dimensions unverified."
     },
     {
       "part_id": "hardware_nut_m1_4_locking",
-      "reason": "Locking mechanism and manufacturer dimensions are unspecified; cannot assume a nylon insert or all-metal lock nut."
+      "note": "Miniature envelope scaled from M2; thread/flats are visual selections. Nylon insert confirmed by owner. Collar wall, insert section and blue colour are visual assumptions. Separate steel body and nylon ring, small assembly clearance; no thread in undeformed nylon."
     },
     {
       "part_id": "hardware_nut_m1_5",
-      "reason": "hex_nut: M1.5 has no verified dimensional row; not extrapolated."
+      "note": "M1.5 pitch and flats from SM420; 1.2 mm height is a visual assumption."
     },
     {
       "part_id": "hardware_nut_m1_5_coupling",
-      "reason": "coupling_nut: M1.5 has no verified dimensional row; not extrapolated."
+      "note": "Miniature visual extension of the sourced 3d coupling pattern; flats and pitch are catalogue modelling selections, not a verified supplier product."
     },
     {
       "part_id": "hardware_nut_m1_5_flanged",
-      "reason": "flange_nut: M1.5 has no verified dimensional row; not extrapolated."
+      "note": "Miniature visual extension of the sourced M3 flange proportions; pitch/flats selected separately. Availability and exact dimensions unverified."
     },
     {
       "part_id": "hardware_nut_m1_5_locking",
-      "reason": "Locking mechanism and manufacturer dimensions are unspecified; cannot assume a nylon insert or all-metal lock nut."
+      "note": "Miniature envelope scaled from M2; thread/flats are visual selections. Nylon insert confirmed by owner. Collar wall, insert section and blue colour are visual assumptions. Separate steel body and nylon ring, small assembly clearance; no thread in undeformed nylon."
     },
     {
       "part_id": "hardware_nut_m1_coupling",
-      "reason": "coupling_nut: M1 has no verified dimensional row; not extrapolated."
+      "note": "Miniature visual extension of the sourced 3d coupling pattern; flats and pitch are catalogue modelling selections, not a verified supplier product."
     },
     {
       "part_id": "hardware_nut_m1_flanged",
-      "reason": "flange_nut: M1 has no verified dimensional row; not extrapolated."
+      "note": "Miniature visual extension of the sourced M3 flange proportions; pitch/flats selected separately. Availability and exact dimensions unverified."
     },
     {
       "part_id": "hardware_nut_m1_locking",
-      "reason": "Locking mechanism and manufacturer dimensions are unspecified; cannot assume a nylon insert or all-metal lock nut."
+      "note": "Miniature envelope scaled from M2; thread/flats are visual selections. Nylon insert confirmed by owner. Collar wall, insert section and blue colour are visual assumptions. Separate steel body and nylon ring, small assembly clearance; no thread in undeformed nylon."
     },
     {
       "part_id": "hardware_nut_m2_5_coupling",
-      "reason": "coupling_nut: M2.5 has no verified dimensional row; not extrapolated."
+      "note": "Miniature visual extension of the sourced 3d coupling pattern; flats and pitch are catalogue modelling selections, not a verified supplier product."
     },
     {
       "part_id": "hardware_nut_m2_5_flanged",
-      "reason": "flange_nut: M2.5 has no verified dimensional row; not extrapolated."
-    },
-    {
-      "part_id": "hardware_nut_m2_5_locking",
-      "reason": "Locking mechanism and manufacturer dimensions are unspecified; cannot assume a nylon insert or all-metal lock nut."
+      "note": "Miniature visual extension of the sourced M3 flange proportions; pitch/flats selected separately. Availability and exact dimensions unverified."
     },
     {
       "part_id": "hardware_nut_m2_7",
-      "reason": "hex_nut: M2.7 has no verified dimensional row; not extrapolated."
+      "note": "No matching M2.7 vendor thread row found. Selected pitch 0.45, flats 5.2 and height 2.2 mm for illustration; not a substituted M2.5 nut."
     },
     {
       "part_id": "hardware_nut_m2_7_coupling",
-      "reason": "coupling_nut: M2.7 has no verified dimensional row; not extrapolated."
+      "note": "Miniature visual extension of the sourced 3d coupling pattern; flats and pitch are catalogue modelling selections, not a verified supplier product."
     },
     {
       "part_id": "hardware_nut_m2_7_flanged",
-      "reason": "flange_nut: M2.7 has no verified dimensional row; not extrapolated."
+      "note": "Miniature visual extension of the sourced M3 flange proportions; pitch/flats selected separately. Availability and exact dimensions unverified."
     },
     {
       "part_id": "hardware_nut_m2_7_locking",
-      "reason": "Locking mechanism and manufacturer dimensions are unspecified; cannot assume a nylon insert or all-metal lock nut."
+      "note": "Miniature envelope scaled from M2; thread/flats are visual selections. Nylon insert confirmed by owner. Collar wall, insert section and blue colour are visual assumptions. Separate steel body and nylon ring, small assembly clearance; no thread in undeformed nylon."
     },
     {
       "part_id": "hardware_nut_m2_coupling",
-      "reason": "coupling_nut: M2 has no verified dimensional row; not extrapolated."
+      "note": "Miniature visual extension of the sourced 3d coupling pattern; flats and pitch are catalogue modelling selections, not a verified supplier product."
     },
     {
       "part_id": "hardware_nut_m2_flanged",
-      "reason": "flange_nut: M2 has no verified dimensional row; not extrapolated."
-    },
-    {
-      "part_id": "hardware_nut_m2_locking",
-      "reason": "Locking mechanism and manufacturer dimensions are unspecified; cannot assume a nylon insert or all-metal lock nut."
-    },
-    {
-      "part_id": "hardware_nut_m3_2020_ball_spring",
-      "reason": "Extrusion/cage nut requires a supplier-specific drawing and assembly definition."
+      "note": "Miniature visual extension of the sourced M3 flange proportions; pitch/flats selected separately. Availability and exact dimensions unverified."
     },
     {
       "part_id": "hardware_nut_m3_2020_t_nut",
-      "reason": "Extrusion/cage nut requires a supplier-specific drawing and assembly definition."
-    },
-    {
-      "part_id": "hardware_nut_m3_coupling",
-      "reason": "coupling_nut: M3 has no verified dimensional row; not extrapolated."
-    },
-    {
-      "part_id": "hardware_nut_m3_locking",
-      "reason": "Locking mechanism and manufacturer dimensions are unspecified; cannot assume a nylon insert or all-metal lock nut."
-    },
-    {
-      "part_id": "hardware_nut_m4_2020_ball_spring",
-      "reason": "Extrusion/cage nut requires a supplier-specific drawing and assembly definition."
-    },
-    {
-      "part_id": "hardware_nut_m4_2020_t_nut",
-      "reason": "Extrusion/cage nut requires a supplier-specific drawing and assembly definition."
-    },
-    {
-      "part_id": "hardware_nut_m4_coupling",
-      "reason": "coupling_nut: M4 has no verified dimensional row; not extrapolated."
-    },
-    {
-      "part_id": "hardware_nut_m4_locking",
-      "reason": "Locking mechanism and manufacturer dimensions are unspecified; cannot assume a nylon insert or all-metal lock nut."
-    },
-    {
-      "part_id": "hardware_nut_m5_2020_ball_spring",
-      "reason": "Extrusion/cage nut requires a supplier-specific drawing and assembly definition."
-    },
-    {
-      "part_id": "hardware_nut_m5_2020_t_nut",
-      "reason": "Extrusion/cage nut requires a supplier-specific drawing and assembly definition."
-    },
-    {
-      "part_id": "hardware_nut_m5_cage",
-      "reason": "Extrusion/cage nut requires a supplier-specific drawing and assembly definition."
-    },
-    {
-      "part_id": "hardware_nut_m5_locking",
-      "reason": "Locking mechanism and manufacturer dimensions are unspecified; cannot assume a nylon insert or all-metal lock nut."
-    },
-    {
-      "part_id": "hardware_nut_m6_2020_ball_spring",
-      "reason": "Extrusion/cage nut requires a supplier-specific drawing and assembly definition."
+      "note": "M3/M6 not in this supplier 20-series table; visual adaptation of M4/M5. M6 body widened to 8 mm to retain thread wall. Plan corner cuts, shoulder and grip grooves simplified; neck height 1 mm selected visually. Profile-fit not certified."
     },
     {
       "part_id": "hardware_nut_m6_2020_t_nut",
-      "reason": "Extrusion/cage nut requires a supplier-specific drawing and assembly definition."
-    },
-    {
-      "part_id": "hardware_nut_m6_cage",
-      "reason": "Extrusion/cage nut requires a supplier-specific drawing and assembly definition."
-    },
-    {
-      "part_id": "hardware_nut_m6_locking",
-      "reason": "Locking mechanism and manufacturer dimensions are unspecified; cannot assume a nylon insert or all-metal lock nut."
-    },
-    {
-      "part_id": "hardware_nut_m8_cage",
-      "reason": "Extrusion/cage nut requires a supplier-specific drawing and assembly definition."
-    },
-    {
-      "part_id": "hardware_nut_m8_locking",
-      "reason": "Locking mechanism and manufacturer dimensions are unspecified; cannot assume a nylon insert or all-metal lock nut."
-    },
-    {
-      "part_id": "hardware_washer_m1",
-      "reason": "plain_washer: M1 has no verified dimensional row; not extrapolated."
+      "note": "M3/M6 not in this supplier 20-series table; visual adaptation of M4/M5. M6 body widened to 8 mm to retain thread wall. Plan corner cuts, shoulder and grip grooves simplified; neck height 1 mm selected visually. Profile-fit not certified."
     },
     {
       "part_id": "hardware_washer_m1_5",
-      "reason": "plain_washer: M1.5 has no verified dimensional row; not extrapolated."
+      "note": "Visual selection with clearance for the literal catalogue nominal diameter; not a verified supplier row for this size."
     },
     {
       "part_id": "hardware_washer_m1_5_penny",
-      "reason": "penny_washer: M1.5 has no verified dimensional row; not extrapolated."
+      "note": "Visual large-washer selection informed by Westfield M2/M2.5 proportions. Bore clears literal catalogue size; exact supplier availability unverified."
     },
     {
       "part_id": "hardware_washer_m1_penny",
-      "reason": "penny_washer: M1 has no verified dimensional row; not extrapolated."
+      "note": "Visual large-washer selection informed by Westfield M2/M2.5 proportions. Bore clears literal catalogue size; exact supplier availability unverified."
     },
     {
       "part_id": "hardware_washer_m2_7",
-      "reason": "plain_washer: M2.7 has no verified dimensional row; not extrapolated."
+      "note": "Visual selection with clearance for the literal catalogue nominal diameter; not a verified supplier row for this size."
     },
     {
       "part_id": "hardware_washer_m2_7_penny",
-      "reason": "penny_washer: M2.7 has no verified dimensional row; not extrapolated."
-    },
-    {
-      "part_id": "hardware_washer_m2_penny",
-      "reason": "penny_washer: M2 has no verified dimensional row; not extrapolated."
+      "note": "Visual large-washer selection informed by Westfield M2/M2.5 proportions. Bore clears literal catalogue size; exact supplier availability unverified."
     }
   ]
 }

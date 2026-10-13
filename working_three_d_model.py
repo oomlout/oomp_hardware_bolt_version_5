@@ -8,6 +8,7 @@ from pathlib import Path
 import re
 import shutil
 import tempfile
+from datetime import date
 
 import yaml
 
@@ -39,7 +40,7 @@ def write_recipe(path, recipe):
 
 def _fingerprint(recipe):
     digest = hashlib.sha256(json.dumps(recipe, sort_keys=True).encode())
-    for name in ['working_three_d_model.py', 'hardware_model_recipe.py', 'hardware_model_pose.py', 'source_file/standards/catalogue_hardware.yaml', 'hardware_model_geometry.py', 'hardware_model_views.py',
+    for name in ['working_three_d_model.py', 'hardware_model_recipe.py', 'hardware_model_pose.py', 'source_file/standards/catalogue_hardware.yaml', 'source_file/standards/catalogue_extensions.yaml', 'hardware_model_geometry.py', 'hardware_model_views.py',
                  'hardware_model_render.py', 'hardware_model_blender.py', 'requirements-three-d-model.txt']:
         digest.update((ROOT/name).read_bytes())
     from hardware_model_render import renderer_identity
@@ -50,8 +51,18 @@ def _fingerprint(recipe):
     return digest.hexdigest()
 
 
+def assets_exist(recipe, folder):
+    """Reuse complete output sets regardless of recipe, code or dependency changes."""
+    output = Path(folder)/'three_d_model'
+    expected = {'manifest.json', 'model.py', 'parameters.json', 'requirements.txt', 'studio.blend', 'render_scene.json'}
+    expected.update(f'model_{variant}.{suffix}' for variant in recipe['variants'] for suffix in recipe['model_formats'])
+    expected.update(f'{variant}/{view}.svg' for variant in recipe['variants'] for view in recipe['views'])
+    expected.update(render['file'] for render in recipe['renders'].values())
+    return all((output/name).is_file() for name in expected)
+
+
 def generate_assets(recipe, folder, force=False):
-    """Generate atomically; cache only a complete, verified artifact set."""
+    """Fill missing outputs, preserving existing renders unless force is requested."""
     recipe = upgrade_presentation(recipe)
     if recipe.get('schema_version') != SCHEMA_VERSION or recipe.get('generator') not in GENERATOR_NAMES.values():
         raise ValueError('Unsupported model recipe schema or generator')
@@ -59,6 +70,8 @@ def generate_assets(recipe, folder, force=False):
         raise ValueError('Unsupported output folder or model formats')
     if set(recipe['variants']) != {'full', 'display'}:
         raise ValueError('Both full and display variants are required')
+    if not force and assets_exist(recipe, folder):
+        return False
     from hardware_model_geometry import build_model, export_mesh, resolve_parameters, GENERATORS
     from hardware_model_views import export_views, VIEWS
     from hardware_model_render import render_studio
@@ -79,23 +92,15 @@ def generate_assets(recipe, folder, force=False):
     output.mkdir(parents=True, exist_ok=True)
     fingerprint = _fingerprint(recipe)
     manifest_path = output/'manifest.json'
-    if not force and manifest_path.exists():
-        try:
-            manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
-            expected = {'model.py', 'parameters.json', 'requirements.txt', 'studio.blend', 'render_scene.json'}
-            expected.update(f'model_{variant}.{suffix}' for variant in recipe['variants'] for suffix in recipe['model_formats'])
-            expected.update(f'{variant}/{view}.svg' for variant in recipe['variants'] for view in recipe['views'])
-            expected.update(render['file'] for render in recipe['renders'].values())
-            if manifest['fingerprint'] == fingerprint and set(manifest['artifacts']) == expected and all(
-                (output/name).is_file() and hashlib.sha256((output/name).read_bytes()).hexdigest() == info['sha256']
-                and (output/name).stat().st_size == info['bytes']
-                for name, info in manifest['artifacts'].items()):
-                return False
-        except (KeyError, ValueError, OSError):
-            pass
     with tempfile.TemporaryDirectory(prefix='.build-', dir=output) as directory:
         stage = Path(directory)
         (stage/'parameters.json').write_text(json.dumps(recipe, indent=2, sort_keys=True)+'\n', encoding='utf-8')
+        (stage/'model_notes.md').write_text(
+            '# '+recipe['parameters']['identity']+'\n\n'+recipe['dimensional_specification']+'\n\n'
+            +'Dimension status: '+recipe['dimension_status']+'\n\n'
+            +recipe['modelling_choices']['family_note']+'\n\n'
+            +'Sources:\n'+''.join('- '+s['title']+': '+s.get('url', s.get('path', ''))+'\n' for s in recipe['sources']),
+            encoding='utf-8')
         shutil.copyfile(ROOT/'hardware_model_geometry.py', stage/'model.py')
         shutil.copyfile(ROOT/'requirements-three-d-model.txt', stage/'requirements.txt')
         measurements = {}
@@ -124,7 +129,21 @@ def generate_assets(recipe, folder, force=False):
             raise ValueError('Display model does not sufficiently reduce triangle count')
         if not np.allclose(meshes['display'].extents, meshes['full'].extents, atol=2e-5):
             raise ValueError('Full and display dimensions differ')
-        render_studio(meshes, p, recipe, stage)
+        studio_files = [render['file'] for render in recipe['renders'].values()]
+        reused_renders = set()
+        if not force:
+            for name in studio_files:
+                if (output/name).is_file():
+                    shutil.copy2(output/name, stage/name)
+                    reused_renders.add(name)
+            if len(reused_renders) == len(studio_files) and all(
+                    (output/name).is_file() for name in ['studio.blend', 'render_scene.json']):
+                for name in ['studio.blend', 'render_scene.json']:
+                    shutil.copy2(output/name, stage/name)
+        studio_files += ['studio.blend', 'render_scene.json']
+        if not all((stage/name).is_file() for name in studio_files):
+            # The Blender worker skips PNGs copied from the existing output.
+            render_studio(meshes, p, recipe, stage)
         artifacts = {str(path.relative_to(stage)).replace('\\', '/'): dict(bytes=path.stat().st_size,
             sha256=hashlib.sha256(path.read_bytes()).hexdigest()) for path in sorted(stage.rglob('*')) if path.is_file()}
         manifest = dict(schema_version=SCHEMA_VERSION, fingerprint=fingerprint, standard=recipe['standard'],
@@ -135,6 +154,8 @@ def generate_assets(recipe, folder, force=False):
             coordinate_system=recipe['coordinate_system'], models=measurements, artifacts=artifacts)
         # Publish manifest last: an interrupted build never passes a cache check.
         for name in artifacts:
+            if name in reused_renders:
+                continue
             destination = output/name
             destination.parent.mkdir(parents=True, exist_ok=True)
             (stage/name).replace(destination)
@@ -148,21 +169,23 @@ def main(**kwargs):
     root = Path(kwargs.get('root', ROOT))
     pattern = kwargs.get('filter') or '*'
     update = kwargs.get('update_metadata', False)
+    add_missing = kwargs.get('add_missing_metadata', False)
     update_presentation = kwargs.get('update_presentation', False)
     count = dict(updated=0, generated=0, cached=0, supported=0, unsupported=0)
     unsupported = []
+    approximations = []
     families = {}
     jobs = kwargs.get('model_jobs', 1)
     if not isinstance(jobs, int) or not 1 <= jobs <= 8:
         raise ValueError('model_jobs must be an integer between 1 and 8')
     # Migrate both stores independently; preserve hand-edited/action metadata.
-    if update or update_presentation:
+    if update or update_presentation or add_missing:
         for store in ['parts_source', 'parts']:
             for path in sorted((root/store).glob('*/working.yaml')):
                 if not fnmatch.fnmatchcase(path.parent.name, pattern):
                     continue
                 part = yaml.safe_load(path.read_text(encoding='utf-8'))
-                if update and add_definition(part):
+                if (update or (add_missing and not part.get('three_d_model_details'))) and add_definition(part):
                     write_recipe(path, part['three_d_model_details'])
                     count['updated'] += 1
                 elif update_presentation and part.get('three_d_model_details'):
@@ -182,6 +205,8 @@ def main(**kwargs):
             count['unsupported'] += 1
             continue
         count['supported'] += 1
+        if recipe.get('dimension_status') == 'approximate_visual_model':
+            approximations.append(dict(part_id=path.parent.name, note=recipe['modelling_choices']['family_note']))
         families[recipe['generator']] = families.get(recipe['generator'], 0)+1
         if kwargs.get('metadata_only', False):
             continue
@@ -199,9 +224,10 @@ def main(**kwargs):
                 name, changed = future.result()
                 count['generated' if changed else 'cached'] += 1
                 print(f'  3D {"generated" if changed else "cached"}: {name}', flush=True)
-    if kwargs.get('metadata_only', False) and update:
-        (root/'three_d_model_coverage.json').write_text(json.dumps(dict(checked_on='2026-10-11',
-            supported=count['supported'], families=families, unsupported=unsupported), indent=2)+'\n', encoding='utf-8')
+    if kwargs.get('metadata_only', False) and (update or add_missing):
+        (root/'three_d_model_coverage.json').write_text(json.dumps(dict(checked_on=date.today().isoformat(),
+            supported=count['supported'], families=families, unsupported=unsupported,
+            approximate_visual_models=approximations), indent=2)+'\n', encoding='utf-8')
     print(f'3D models: {count}; supported generators: {families}', flush=True)
     return count
 
@@ -215,10 +241,12 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--filter', default='*')
     parser.add_argument('--update-metadata', action='store_true')
+    parser.add_argument('--add-missing-metadata', action='store_true',
+                        help='Add newly supported recipes in both stores without replacing saved recipes')
     parser.add_argument('--update-presentation', action='store_true',
                         help='Add studio materials and product views, preserving saved geometry and custom settings')
     parser.add_argument('--metadata-only', action='store_true')
-    parser.add_argument('--force', action='store_true')
+    parser.add_argument('--force', action='store_true', help='Rebuild all outputs, including existing renders')
     parser.add_argument('--jobs', dest='model_jobs', type=int, default=1,
                         help='Independent model worker processes, 1–8 (default 1)')
     main(**vars(parser.parse_args()))
