@@ -1,4 +1,7 @@
 ﻿oomp_id,supplier_id,supplier_website
+hardware_nut_m5,HTSC10-934-M5,https://boltbase.com/products/m5-5mm-high-tensile-class-10-self-colour-hexagon-full-nuts-din-934
+hardware_nut_m6,HTSC10-934-M6,https://boltbase.com/products/m6-6mm-high-tensile-class-10-self-colour-hexagon-full-nuts-din-934
+hardware_nut_m8,HTSC10-934-M8,https://boltbase.com/products/m8-8mm-high-tensile-class-10-self-colour-hexagon-full-nuts-din-934
 hardware_screw_countersunk_hex_head_black_m2_diameter_10_mm_length,109SCCSK-2X10,https://boltbase.com/products/m2-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464508514685
 hardware_screw_countersunk_hex_head_black_m2_diameter_5_mm_length,109SCCSK-2X5,https://boltbase.com/products/m2-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464508416381
 hardware_screw_countersunk_hex_head_black_m2_diameter_6_mm_length,109SCCSK-2X6,https://boltbase.com/products/m2-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464508449149
@@ -13,6 +16,7 @@ hardware_screw_countersunk_hex_head_black_m3_diameter_35_mm_length,109SCCSK-3X35
 hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length,109SCCSK-3X5,https://boltbase.com/products/m3-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464508907901
 hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length,109SCCSK-3X6,https://boltbase.com/products/m3-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464508940669
 hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length,109SCCSK-3X8,https://boltbase.com/products/m3-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464508973437
+hardware_screw_countersunk_hex_head_black_m4_diameter_10_mm_length,109SCCSK-4X10,https://boltbase.com/products/m4-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464511037821
 hardware_screw_countersunk_hex_head_black_m4_diameter_12_mm_length,109SCCSK-4X12,https://boltbase.com/products/m4-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464511070589
 hardware_screw_countersunk_hex_head_black_m4_diameter_16_mm_length,109SCCSK-4X16,https://boltbase.com/products/m4-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464511168893
 hardware_screw_countersunk_hex_head_black_m4_diameter_20_mm_length,109SCCSK-4X20,https://boltbase.com/products/m4-self-colour-10-9-high-tensile-socket-countersunk-screws?variant=57464511234429
@@ -44,6 +48,7 @@ hardware_screw_socket_cap_hex_head_black_m3_diameter_12_mm_length,SC12.9CP-3X12,
 hardware_screw_socket_cap_hex_head_black_m3_diameter_16_mm_length,SC12.9CP-3X16,https://boltbase.com/products/m3-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464729108861
 hardware_screw_socket_cap_hex_head_black_m3_diameter_18_mm_length,SC12.9CP-3X18,https://boltbase.com/products/m3-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464729141629
 hardware_screw_socket_cap_hex_head_black_m3_diameter_20_mm_length,SC12.9CP-3X20,https://boltbase.com/products/m3-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464729174397
+hardware_screw_socket_cap_hex_head_black_m3_diameter_25_mm_length,SC12.9CP-3X25,https://boltbase.com/products/m3-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464729239933
 hardware_screw_socket_cap_hex_head_black_m3_diameter_30_mm_length,SC12.9CP-3X30,https://boltbase.com/products/m3-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464729272701
 hardware_screw_socket_cap_hex_head_black_m3_diameter_35_mm_length,SC12.9CP-3X35,https://boltbase.com/products/m3-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464729305469
 hardware_screw_socket_cap_hex_head_black_m3_diameter_40_mm_length,SC12.9CP-3X40,https://boltbase.com/products/m3-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464729338237
@@ -100,3 +105,11 @@ hardware_screw_socket_cap_hex_head_black_m6_diameter_25_mm_length,SC12.9CP-6X25,
 hardware_screw_socket_cap_hex_head_black_m6_diameter_30_mm_length,SC12.9CP-6X30,https://boltbase.com/products/m6-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464735629693
 hardware_screw_socket_cap_hex_head_black_m6_diameter_35_mm_length,SC12.9CP-6X35,https://boltbase.com/products/m6-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464735662461
 hardware_screw_socket_cap_hex_head_black_m6_diameter_40_mm_length,SC12.9CP-6X40,https://boltbase.com/products/m6-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464735695229
+hardware_screw_socket_cap_hex_head_black_m6_diameter_45_mm_length,SC12.9CP-6X45,https://boltbase.com/products/m6-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464735727997
+hardware_screw_socket_cap_hex_head_black_m6_diameter_50_mm_length,SC12.9CP-6X50,https://boltbase.com/products/m6-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464735760765
+hardware_screw_socket_cap_hex_head_black_m6_diameter_60_mm_length,SC12.9CP-6X60,https://boltbase.com/products/m6-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464735826301
+hardware_screw_socket_cap_hex_head_black_m6_diameter_65_mm_length,SC12.9CP-6X65,https://boltbase.com/products/m6-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464735859069
+hardware_screw_socket_cap_hex_head_black_m6_diameter_70_mm_length,SC12.9CP-6X70,https://boltbase.com/products/m6-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464735891837
+hardware_screw_socket_cap_hex_head_black_m6_diameter_80_mm_length,SC12.9CP-6X80,https://boltbase.com/products/m6-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464735957373
+hardware_screw_socket_cap_hex_head_black_m6_diameter_8_mm_length,SC12.9CP-6X8,https://boltbase.com/products/m6-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464735302013
+hardware_screw_socket_cap_hex_head_black_m6_diameter_90_mm_length,SC12.9CP-6X90,https://boltbase.com/products/m6-self-colour-12-9-high-tensile-socket-cap-screws-din-912?variant=57464736022909
