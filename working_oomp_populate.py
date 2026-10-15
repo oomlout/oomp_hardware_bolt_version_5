@@ -6,7 +6,7 @@ from working_oomp_populate_set_screw import generate as generate_set_screw
 from working_oomp_populate_nut import generate as generate_nut
 from working_oomp_populate_washer import generate as generate_washer
 from working_three_d_model import add_definition as add_three_d_model_definition
-from working_supplier_data import load_supplier_data
+from working_supplier_data import load_search_data, load_supplier_data
 
 
 
@@ -20,6 +20,7 @@ def main(**kwargs):
 
     extras = []
     supplier_data_by_part = load_supplier_data()
+    search_data_by_part = load_search_data()
     for option in options:
         import csv
         
@@ -200,6 +201,10 @@ def main(**kwargs):
         if supplier_data:
             # Supplier keyed records retain each exact SKU, URL and price tier.
             extra["supplier_data"] = supplier_data
+        search_data = search_data_by_part.get(build_oomp_id(extra))
+        if search_data:
+            # Platform keyed records retain the query, outcome, product details and evidence path.
+            extra["search_data"] = search_data
         extras.append(copy.deepcopy(extra))
         
 

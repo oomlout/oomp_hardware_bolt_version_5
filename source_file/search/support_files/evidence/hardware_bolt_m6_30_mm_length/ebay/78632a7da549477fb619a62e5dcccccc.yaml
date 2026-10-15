@@ -1,0 +1,40 @@
+oomp_id: hardware_bolt_m6_30_mm_length
+platform: ebay
+method: codex_builtin_browser
+status: verified
+search_for: M6 x 30 hex head part threaded bolt DIN 931 steel
+evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+30+hex+head+part+threaded+bolt+DIN+931+steel
+reason: Opened the exact eBay search result and selected Bolt Size M6 x 30mm. The
+  listing title specifies hexagon head bolts, part threaded, high tensile 8.8 zinc
+  plated; item specifics show DIN 931, high tensile steel, grade 8.8, M6, hex head,
+  spanner or socket drive, and bright zinc plated finish.
+search_evidence: The exact search result from Kay's Fasteners titled M6 M8 M10 HEXAGON
+  HEAD BOLTS PART THREADED SCREWS HIGH TENSILE 8.8 ZINC PLATED was opened. Selected
+  M6 x 30mm and checked the product specifics.
+attempts:
+- term: M6 x 30 hex head part threaded bolt DIN 931 steel
+  url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+30+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: Search completed; opened Kay's Fasteners result and selected the M6 x 30mm
+    part-threaded 8.8 high-tensile bolt.
+result_url: https://www.ebay.co.uk/itm/365341419766?_skw=M6+x+30+hex+head+part+threaded+bolt+DIN+931+steel&itmmeta=01M4WR54JDWPPV3AQM4VGTYK17&hash=item55100ba8f6:g:~1EAAeSwfBJqqZPa&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde97IluX%2BoQ40JxCDDNwyD793g8Z%2BrAWr1j%2BkV4pmQevmf8Ox8am%2FV8gfUFSX3HzRc69ToAHzIquEu%2FA8MiN55DpH7NSIbnEgYt%2FK6cotCDe7DmlnMoxMSA5Qlj7dH7QRHlKfnSa3VkFJtiqUcMIgqzJ%2BcDTaVQNc8wLTngPinGlaSHw1MhCNPq81g%2FG8RV00iUyA%2FWebUEHKwO3VJloYIzYlqmCruaKHEIljK8WMH8Vh1%2F2OmxNcO%2BsquILVdt1awikITcarZtFI0ghUcjWv6nbhAsfCo8yGpjQhzomM%2FAKvA%3D%3D%7Ctkp%3ABFBM8oqjpinaA
+product_name: M6 M8 M10 HEXAGON HEAD BOLTS PART THREADED SCREWS HIGH TENSILE 8.8 ZINC
+  PLATED
+selected_variant: 'Selected Bolt Size: M6 x 30mm; item specifics: MPN DIN 931; Material
+  High Tensile Steel, Grade 8.8; Head Style Hex Head; Drive Style Spanner or Socket;
+  Finish Bright Zinc Plated (BZP). The selected size is visible on the page; variant
+  selection is not encoded in the URL.'
+material_evidence: High Tensile Steel, Grade 8.8
+specification: 'Thread Size: M6; Length: 30mm; Form: Part threaded hexagon head bolt;
+  Head: Hex Head; Drive Style: Spanner or Socket; Material: High Tensile Steel, Grade
+  8.8; Finish: Bright Zinc Plated (BZP); Manufacturing Standard: DIN 931'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T08:24:10.055320+00:00'
+validator_version: 1

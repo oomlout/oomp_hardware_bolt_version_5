@@ -1,0 +1,36 @@
+oomp_id: hardware_bolt_m6_35_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M6 x 35 hex head part threaded bolt DIN 931 steel
+evidence_url: https://www.google.com/search?q=M6+x+35+hex+head+part+threaded+bolt+DIN+931+steel
+reason: Google's exact query returned Vital Parts' M6 x 35mm DIN 931 part-threaded
+  bolt. The page identifies code HH931-M6-35-109-BZP and specifies M6 thread, 35mm
+  length, 18mm threaded length, 10.9 Steel BZP, Hex Head and DIN 931; the description
+  confirms the unthreaded shank and external hex tool access.
+search_evidence: Google result M6 x 35mm Hex Bolt - Part Threaded (DIN 931) | 10.9
+  Steel BZP from Vital Parts led to the product page. Stainless results were not used.
+attempts:
+- term: M6 x 35 hex head part threaded bolt DIN 931 steel
+  url: https://www.google.com/search?q=M6+x+35+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: Search completed; opened Vital Parts and confirmed code HH931-M6-35-109-BZP
+    is M6 x 35mm, 10.9 steel BZP, DIN 931 and part threaded.
+result_url: https://www.vital-parts.co.uk/hex-head-bolts-din-931/9219-hh931-m6-35-109-bzp
+product_name: M6 x 35mm Hex Bolt - Part Threaded (DIN 931) | 10.9 Steel BZP
+selected_variant: Fixed product code HH931-M6-35-109-BZP; Thread Size M6; Length 35mm;
+  Threaded Length 18mm.
+material_evidence: 10.9 Steel BZP
+specification: 'Thread Size: M6; Length: 35mm; Threaded Length: 18mm; Head: Hex Head;
+  Drive: External hex; Form: Part threaded; Material: 10.9 Steel; Finish: Bright Zinc
+  Plated (BZP); Standard: DIN 931; Product code: HH931-M6-35-109-BZP'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T08:29:57.398267+00:00'
+validator_version: 1

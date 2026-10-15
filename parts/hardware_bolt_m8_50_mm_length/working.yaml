@@ -1461,3 +1461,53 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
+search_data:
+  google:
+    search_for: M8 x 50 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.google.com/search?q=M8+x+50+hex+head+part+threaded+bolt+DIN+931+steel
+    status: verified
+    reason: Exact product and selected variant verified against the product specification
+      page.
+    result_url: https://www.vital-parts.co.uk/hex-head-bolts-din-931/9295-hh931-m8-50-109-bzp
+    product_name: M8 x 50mm Hex Bolt - Part Threaded (DIN 931) | 10.9 Steel BZP
+    selected_variant: Product code HH931-M8-50-109-BZP; fixed product M8 x 50mm; 10.9
+      Steel BZP.
+    material_evidence: 'Vital Parts specification table states Material: 10.9 Steel
+      BZP.'
+    specification: 'Thread Size: M8; Length: 50mm; Threaded Length: 22mm; Hex Head;
+      13mm across flats; Manufacturing Standard: DIN 931; Material: 10.9 Steel; BZP
+      finish.'
+    search_evidence: Google returned the exact Vital Parts M8 x 50 result; opened
+      that page. The specification table lists thread M8, length 50mm, threaded length
+      22mm, material 10.9 Steel BZP, 13mm across flats, Hex Head and DIN 931.
+    evidence_url: https://www.google.com/search?q=M8+x+50+hex+head+part+threaded+bolt+DIN+931+steel
+    checked_at: '2026-10-14T08:39:00.092341+00:00'
+    evidence_file: support_files/evidence/hardware_bolt_m8_50_mm_length/google/b8302f073ccf48e7a190747a55ad018a.yaml
+  ebay:
+    search_for: M8 x 50 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+x+50+hex+head+part+threaded+bolt+DIN+931+steel
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''
+  aliexpress:
+    search_for: M8 x 50 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M8+x+50+hex+head+part+threaded+bolt+DIN+931+steel
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''

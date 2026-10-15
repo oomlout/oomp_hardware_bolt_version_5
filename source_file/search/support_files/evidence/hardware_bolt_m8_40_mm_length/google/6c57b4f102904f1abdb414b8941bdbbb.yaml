@@ -1,0 +1,36 @@
+oomp_id: hardware_bolt_m8_40_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M8 x 40 hex head part threaded bolt DIN 931 steel
+evidence_url: https://www.google.com/search?q=M8+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+reason: Exact product and selected size variant verified against the product page.
+search_evidence: Google returned Bolt World’s exact M8 x 40 hexagon head bolt. Opened
+  the result and confirmed the 40mm option is selected with SKU 20303.080.040. The
+  page lists Material Steel, Grade 8.8, Self Colour/Plain, M8 thread, 40mm total length
+  excluding head, minimum thread length 22mm and DIN 931; title says partially threaded.
+attempts:
+- term: M8 x 40 hex head part threaded bolt DIN 931 steel
+  url: https://www.google.com/search?q=M8+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: Exact Bolt World M8x40 selected variant, steel grade 8.8 DIN 931 part-threaded
+    hex bolt returned and verified.
+result_url: https://boltworld.co.uk/products/m8-x-40mm-hexagon-head-bolts-part-threaded-din-931-self-colour-black-8-8/
+product_name: M8 x 40mm Hexagon Head Bolt – High Tensile Grade 8.8 Steel, Self Colour
+  Black, Partially Threaded, DIN 931
+selected_variant: Selected thread size M8 and length 40mm; current SKU 20303.080.040;
+  material Steel, grade 8.8; Self Colour/Plain.
+material_evidence: 'Selected product states Material: Steel; Class/Grade: 8.8.'
+specification: 'Thread Size: M8; Length: 40mm (under head); Thread Length (Minimum):
+  22mm; hexagon head; part threaded; Material: Steel; Class/Grade: 8.8; Surface Treatment:
+  Self Colour/Plain; Manufacturing Standard: DIN 931.'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T08:38:13.726647+00:00'
+validator_version: 1

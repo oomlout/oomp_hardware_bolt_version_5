@@ -1,0 +1,39 @@
+oomp_id: hardware_bolt_m6_80_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M6 x 80 hex head part threaded bolt DIN 931 steel
+evidence_url: https://www.google.com/search?q=M6+x+80+hex+head+part+threaded+bolt+DIN+931+steel
+reason: Google's exact query returned Westfield Fasteners' M6 DIN 931 BZP Class 8
+  high tensile steel range. The product row identifies M6 x 80mm Hex Bolt Part Thread
+  in Bright Zinc Plate 8.8, SKU WF15633. The page states DIN 931/ISO 4014, partially
+  threaded shank, 18mm minimum thread for lengths up to 125mm, external hex drive
+  size 10mm, and bright zinc plated high tensile steel.
+search_evidence: Google result for Westfield Fasteners' M6 Hex Head Bolts with Part
+  Thread DIN 931 in Bright Zinc Plated Class 8 High Tensile Steel led to the product
+  page. The M6 x 80mm row (SKU WF15633) was checked; stainless results were not used.
+attempts:
+- term: M6 x 80 hex head part threaded bolt DIN 931 steel
+  url: https://www.google.com/search?q=M6+x+80+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: 'Search completed; opened Westfield Fasteners range and checked exact M6
+    x 80mm SKU WF15633: part-threaded, BZP Class 8 high tensile steel, DIN 931.'
+result_url: https://www.westfieldfasteners.co.uk/BZP-8.8-ScrewBolt-HexHd-M6-THRpart.html
+product_name: M6 x 80mm Hex Bolt Part Thread in Bright Zinc Plate 8.8
+selected_variant: Observed M6 x 80mm row, SKU WF15633; 18mm minimum thread length
+  for lengths up to 125mm; drive size 10mm across flats.
+material_evidence: Class 8 High Tensile Steel
+specification: 'Thread Size: M6; Length: 80mm; Thread Length (Minimum): 18mm; Head:
+  Hex Head; Drive: External hex, 10mm across flats; Form: Partially threaded shank;
+  Material: Class 8 High Tensile Steel; Finish: Bright Zinc Plated (BZP); Standard:
+  DIN 931 (ISO 4014); SKU: WF15633'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T08:33:02.785943+00:00'
+validator_version: 1

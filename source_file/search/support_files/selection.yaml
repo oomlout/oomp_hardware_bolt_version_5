@@ -1,0 +1,14 @@
+selected_at: '2026-10-14T08:39:40.973834+00:00'
+count: 361
+fingerprint: 14e8fcc639fe9eda5cb382af72251b44dcaf09966023329b60b5843206c5cdee
+filter_matches:
+  hardware_screw_wood_pozidriv_net_coat_yellow_plated_*_screwtite_*: 30
+  hardware_screw_countersunk_hex_head*: 32
+  hardware_screw_socket_cap_hex_head_*: 92
+  hardware_screw_countersunk_hex_head_*: 32
+  hardware_bolt_*: 40
+  hardware_nut_*: 61
+  hardware_washer_*: 21
+  hardware_setscrew_*: 0
+  hardware_set_screw_*: 85
+query_version: 1

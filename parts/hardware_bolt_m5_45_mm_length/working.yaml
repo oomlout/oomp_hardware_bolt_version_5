@@ -1461,3 +1461,65 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
+search_data:
+  google:
+    search_for: M5 x 45 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.google.com/search?q=M5+x+45+hex+head+part+threaded+bolt+DIN+931+steel
+    status: verified
+    reason: The exact Google query returned a Bolt World result for M5 x 45mm DIN
+      931 high tensile steel. The opened page identifies the selected SKU 20303.005.045,
+      M5 thread, 45mm total length excluding head, hexagon head, partially threaded
+      form with 16mm minimum thread length, steel grade 8.8 and self-colour/plain
+      finish.
+    result_url: https://boltworld.co.uk/products/m5-x-45mm-hexagon-head-bolts-part-threaded-self-colour-grade-8-8-din-931/
+    product_name: M5 x 45mm Hexagon Head Bolt – High Tensile Grade 8.8 Steel, Self
+      Colour Black, Partially Threaded, DIN 931
+    selected_variant: Current SKU 20303.005.045; Thread Size M5 (5mm); Length 45mm.
+      Page lists other sizes but current SKU and product title are M5 x 45mm.
+    material_evidence: Steel; Class / Grade 8.8
+    specification: 'Thread Size: M5; Length: 45mm; Head: Hexagon head; Drive: External
+      hex; Form: Partially threaded; Thread Length (Minimum): 16mm; Material: Steel,
+      Grade 8.8; Surface Treatment: Self Colour/Plain; Standard: DIN 931; SKU: 20303.005.045'
+    search_evidence: Google result titled M5 x 45mm Hexagon Head Bolt Grade 8.8 DIN
+      931 from Bolt World led to the product page. The selected page product is M5
+      x 45mm; nearby Google results included stainless listings, which were not used.
+    evidence_url: https://www.google.com/search?q=M5+x+45+hex+head+part+threaded+bolt+DIN+931+steel
+    checked_at: '2026-10-14T08:25:43.565347+00:00'
+    evidence_file: support_files/evidence/hardware_bolt_m5_45_mm_length/google/bb9fc2e701d54c36b13b202ad9899f13.yaml
+  ebay:
+    search_for: M5 x 45 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+x+45+hex+head+part+threaded+bolt+DIN+931+steel
+    status: verified
+    reason: Opened the Fixaball M5 Hex Bolt High Tensile 8.8 Zinc BZP DIN 931 listing
+      from the native eBay search and selected the observed 45mm variant. The item
+      specifics and description identify M5, 8.8 high tensile steel, zinc BZP, hexagon
+      head, partially threaded and DIN 931.
+    result_url: https://www.ebay.co.uk/itm/304184206712?_skw=M5+x+45+hex+head+part+threaded+bolt+DIN+931+steel&var=605177659574&itmmeta=01M4WQQ8QM11N49ETVY50J3RT6&hash=item46d2caa578:g:OCAAAOSwat9mcg63&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BODbikEGsb1wz5u8DYyhMW1m2mSzfJiYW8UI5O4iVDGBQXN34Bia2ngbmRP2rTwr8k0mSpce6RJJrBf%2FIQWe77Kof3SaYh%2FIHaojsvmxJTOXnpdvlfz7MPHcT5RmtFTMNaZFK3RCe5TydpRONMDy3IHe5NIM3juRJDpWxRoFpnHXwIYDRp9EcGns9SFDG%2FSdhQJWGarczsddvbU6cu%2BgQcfMVywXzIgKIwjlaUsU8%2Fdg7Ev7Qg0rluS0qszlNwcwD5vwuS8Jp4TpBPcLVfhbgaRZCbscHULbJ6Zg61k1wBLA%3D%3D%7Ctkp%3ABlBMUOys2JenaA
+    product_name: M5 Hex Bolt High Tensile 8.8 Zinc BZP DIN 931
+    selected_variant: 'Selected Length (mm): 45mm; M5 Hex Bolt; 100 bolts per pack.
+      eBay variant parameter var=605177659574.'
+    material_evidence: 8.8 High Tensile Steel (item specifics and seller description).
+    specification: 'Thread Size: M5; Length: 45mm; Form: Hexagon head, part plain
+      shank/partially threaded; Material: 8.8 High Tensile Steel; Finish: Zinc BZP;
+      Standard: DIN 931; Thread Pitch: M5 coarse 0.80mm.'
+    search_evidence: 'The eBay result for Fixaball M5 Hex Bolt High Tensile 8.8 Zinc
+      BZP DIN 931 led to item 304184206712. The opened selected option showed Length
+      (mm): 45mm. The description says part plain shank and lists M5 x 45 DIN 931
+      BZP. Stainless near matches were not selected.'
+    evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+x+45+hex+head+part+threaded+bolt+DIN+931+steel
+    checked_at: '2026-10-14T08:16:24.895203+00:00'
+    evidence_file: support_files/evidence/hardware_bolt_m5_45_mm_length/ebay/b0aaa90011eb49d081e82709f3354f91.yaml
+  aliexpress:
+    search_for: M5 x 45 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M5+x+45+hex+head+part+threaded+bolt+DIN+931+steel
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''

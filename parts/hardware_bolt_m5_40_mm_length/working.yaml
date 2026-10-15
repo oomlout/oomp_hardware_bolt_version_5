@@ -1461,3 +1461,65 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
+search_data:
+  google:
+    search_for: M5 x 40 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.google.com/search?q=M5+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+    status: verified
+    reason: The Google search led to Orbital Fasteners' exact M5 x 40 DIN 931 product.
+      The page identifies it as a high tensile grade 8.8 hexagon head bolt; its breadcrumb
+      specifies the partially threaded DIN 931 family and the product is bright zinc
+      plated.
+    result_url: https://www.orbitalfasteners.co.uk/products/m5x40-88-hex-bolt-bzp-box-200-din-931
+    product_name: M5 x 40 Hexagon Head Bolt High Tensile Grade 8.8, Bright Zinc Plated,
+      DIN 931
+    selected_variant: 'Fixed single product: SKU 1870510; M5 x 40mm.'
+    material_evidence: High tensile grade 8.8 steel, as stated in the selected product
+      heading.
+    specification: 'Thread Size: M5; Length: 40mm; Form: Hexagon head bolt, partially
+      threaded (DIN 931 category and bolt-only smooth-shoulder description); Material:
+      High tensile steel, grade 8.8; Finish: Bright zinc plated; Standard: DIN 931.'
+    search_evidence: The Google search showed the exact Orbital Fasteners M5 x 40
+      grade 8.8 DIN 931 result. The page's visible heading, SKU, DIN 931 breadcrumb
+      and product information confirmed the identity. Stainless and DIN 933 near matches
+      were not selected.
+    evidence_url: https://www.google.com/search?q=M5+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+    checked_at: '2026-10-14T08:14:46.940792+00:00'
+    evidence_file: support_files/evidence/hardware_bolt_m5_40_mm_length/google/de8f85ad2d484b4489426dfc180d1e11.yaml
+  ebay:
+    search_for: M5 x 40 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+    status: verified
+    reason: 'Opened Fixaball eBay item 304184206712 from the exact eBay search and
+      observed its selected Length (mm): 40mm variant. The listing specifies M5, 8.8
+      high tensile steel, zinc BZP finish, hexagon head, part plain shank and DIN
+      931.'
+    result_url: https://www.ebay.co.uk/itm/304184206712?_skw=M5+x+40+hex+head+part+threaded+bolt+DIN+931+steel&var=603290620965&itmmeta=01M4WQP2S7Y4GCYGDZ2DWF4BZR&hash=item46d2caa578:g:OCAAAOSwat9mcg63&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FWCWFaGJh7TQAVE6ZDs06KSRdC2fjTQuaJkUgLud3zfNWK8Pr4i%2BmCVDHXxpkmtweB%2BC1gpbjcuioZuaGvAiIPOkK8s3k%2B5jIjqWzJVC79IpLyuOD32iFZ%2BvEY8rwgZZNRElFtUbKg90367snlrr34OTWRFj4LW22gcWD0bVrgTS0g3LuJ4Z2Yh35tB%2BdYDhhs86%2FIeeo249oanz%2B7b2k8kCKnqjxm0v9FR88Q64II07S3Y%2FHKZPlZVs2qfDYq%2F7S0IeYj%2FYy56HiYPJGTylo%2B2WacFl%2FfqhWmoUMJhEPHb%2FQ%2FjQhNI8Kh8OjEgMKeDds8Q5XdKOFMzmyXAw73ItGX%7Ctkp%3ABlBMUOys2JenaA
+    product_name: M5 Hex Bolt High Tensile 8.8 Zinc BZP DIN 931
+    selected_variant: 'Selected Length (mm): 40mm; M5 Hex Bolt; 12 bolts per pack.
+      eBay variant parameter var=603290620965.'
+    material_evidence: 8.8 High Tensile Steel (item specifics and seller description).
+    specification: 'Thread Size: M5; Length: 40mm; Form: Hexagon head, part plain
+      shank/partially threaded; Material: 8.8 High Tensile Steel; Finish: Zinc BZP;
+      Standard: DIN 931; Thread Pitch: M5 coarse 0.80mm.'
+    search_evidence: Native eBay results included the Fixaball M5 Hex Bolt High Tensile
+      8.8 Zinc BZP DIN 931 listing. The opened listing showed its selected 40mm option,
+      and the seller description identifies the M5 x 40 DIN 931 bolt. Stainless near
+      matches were not selected.
+    evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+    checked_at: '2026-10-14T08:15:57.426946+00:00'
+    evidence_file: support_files/evidence/hardware_bolt_m5_40_mm_length/ebay/faf29935374a4e49bf3e7352d90356b9.yaml
+  aliexpress:
+    search_for: M5 x 40 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M5+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''

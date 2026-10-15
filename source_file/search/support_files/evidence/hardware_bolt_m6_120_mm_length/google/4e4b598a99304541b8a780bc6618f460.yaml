@@ -1,0 +1,37 @@
+oomp_id: hardware_bolt_m6_120_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
+evidence_url: https://www.google.com/search?q=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+reason: The exact Google query returned Vital Parts' M6 x 120mm part-threaded DIN
+  931 result. The product page shows code HH931-M6-120-88-BZP and specifies M6 thread,
+  120mm length, 18mm threaded length, 8.8 Steel BZP, Hex Head and DIN 931. The description
+  confirms the part-threaded hex bolt and external drive for workshop/site fitting.
+search_evidence: Google result M6 x 120mm Hex Bolt - Part Threaded (DIN 931) | 8.8
+  Steel BZP from Vital Parts led to the opened product page. Stainless steel search
+  results were not used.
+attempts:
+- term: M6 x 120 hex head part threaded bolt DIN 931 steel
+  url: https://www.google.com/search?q=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: Search completed; opened Vital Parts and confirmed code HH931-M6-120-88-BZP
+    is M6 x 120mm, 8.8 steel BZP, DIN 931 and part threaded.
+result_url: https://www.vital-parts.co.uk/hex-head-bolts-din-931/9203-hh931-m6-120-88-bzp
+product_name: M6 x 120mm Hex Bolt - Part Threaded (DIN 931) | 8.8 Steel BZP
+selected_variant: Fixed product code HH931-M6-120-88-BZP; Thread Size M6; Length 120mm;
+  Threaded Length 18mm.
+material_evidence: 8.8 Steel BZP
+specification: 'Thread Size: M6; Length: 120mm; Threaded Length: 18mm; Head: Hex Head;
+  Drive: External hex; Form: Part threaded; Material: 8.8 Steel; Finish: Bright Zinc
+  Plated (BZP); Standard: DIN 931; Product code: HH931-M6-120-88-BZP'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T08:28:48.427967+00:00'
+validator_version: 1

@@ -1166,3 +1166,46 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
+search_data:
+  google:
+    search_for: M6 hexagon full nut white nylon
+    search_url: https://www.google.com/search?q=M6+hexagon+full+nut+white+nylon
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''
+  ebay:
+    search_for: M6 hexagon full nut white nylon
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+hexagon+full+nut+white+nylon
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''
+  aliexpress:
+    search_for: M6 hexagon full nut white nylon
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+hexagon+full+nut+white+nylon
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''

@@ -1,0 +1,38 @@
+oomp_id: hardware_bolt_m5_70_mm_length
+platform: ebay
+method: codex_builtin_browser
+status: verified
+search_for: M5 x 70 hex head part threaded bolt DIN 931 steel
+evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+x+70+hex+head+part+threaded+bolt+DIN+931+steel
+reason: The observed eBay result opened to the selected 70mm M5 hex bolt listing.
+  Its heading identifies a high tensile 8.8 zinc BZP DIN 931 hex bolt; the selected
+  length and item specifics show M5, 70mm, hexagon head and drive, 8.8 high tensile
+  steel, and zinc BZP. DIN 931 identifies the standard part-threaded bolt form.
+search_evidence: The exact eBay search result M5 Hex Bolt High Tensile 8.8 Zinc BZP
+  DIN 931 from Balls Nuts And Bolts / Fixaball was opened. Selected Length (mm) 70mm.
+  Nearby results included A2 stainless listings; these were rejected.
+attempts:
+- term: M5 x 70 hex head part threaded bolt DIN 931 steel
+  url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+x+70+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: Search completed; opened the M5 Hex Bolt High Tensile 8.8 Zinc BZP DIN
+    931 result and confirmed selected 70mm variant.
+result_url: https://www.ebay.co.uk/itm/304184206712?_skw=M5+x+70+hex+head+part+threaded+bolt+DIN+931+steel&var=603559030751&itmmeta=01M4WQX35DR768Q2FM6M8SHC12&hash=item46d2caa578:g:OCAAAOSwat9mcg63&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BODbikEGsb1wz5u8DYyhMW1m2mSzfJiYW8UI5O4iVDGGyH60K1q%2FCAVdkHpwDiDFsVodbZQZIUmHQKekvd7%2BFccFLlJV4b%2Byd70LJ6%2BxIFDY3DUQpRgTesbyGpl%2Fm995XmUZqAWRJJJ6plNRVzF1xQYMMgwzzNBHim8h6MyNFMzRkewgpV4hAndWO8kVYiCrmoFZcntmLVCaMncUjp3J7jqrREQg5e5EJv1ETPzkA2%2F0g%2Bn0YRqvWhwONA8G4vhvxO%2FGkSXOkYGaOkVn%2BnbHjoC2uW7OicSmIS3wuYmbnCCg%3D%3D%7Ctkp%3ABk9SR4Cz9JenaA
+product_name: M5 Hex Bolt High Tensile 8.8 Zinc BZP DIN 931
+selected_variant: 'Selected listing options: Length (mm) 70mm; item specifics: Screw
+  Size M5, Material 8.8 High Tensile Steel, Finish Zinc BZP; item heading states DIN
+  931 hex bolt.'
+material_evidence: 8.8 High Tensile Steel
+specification: 'Thread Size: M5; Length: 70mm; Head: Hexagon; Drive Style: Hexagon;
+  Material: 8.8 High Tensile Steel; Finish: Zinc BZP; Grade: 8.8; Manufacturing Standard:
+  DIN 931; Form: Hex head, part threaded per DIN 931'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T08:20:23.125357+00:00'
+validator_version: 1

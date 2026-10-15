@@ -469,3 +469,46 @@ three_d_model_details:
       variant: full
       pixels: 2048
       view: product
+search_data:
+  google:
+    search_for: M1 flanged nut steel
+    search_url: https://www.google.com/search?q=M1+flanged+nut+steel
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''
+  ebay:
+    search_for: M1 flanged nut steel
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M1+flanged+nut+steel
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''
+  aliexpress:
+    search_for: M1 flanged nut steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M1+flanged+nut+steel
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''

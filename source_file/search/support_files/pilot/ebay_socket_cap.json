@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_screw_socket_cap_hex_head_black_m3_diameter_6_mm_length",
+  "platform": "ebay",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M3 x 6 socket cap screw DIN 912 black steel",
+  "evidence_url": "https://www.ebay.co.uk/sch/i.html?_nkw=M3+x+6+socket+cap+screw+DIN+912+black+steel",
+  "reason": "Opened Bolt Base eBay listing from the native eBay search. Selected Screw Length (Excluding head): m3 x 6, Pack Quantity: 10. Item specifics state steel, socket cap head, Allen key, DIN 912 and Black Oxide.",
+  "search_evidence": "Native eBay search heading showed 146 results. The Bolt Base listing was present with observed item 231377977479 and var=530640141181; opened that variant and verified selected size and item specifics.",
+  "attempts": [
+    {
+      "term": "M3 x 6 socket cap screw DIN 912 black steel",
+      "url": "https://www.ebay.co.uk/sch/i.html?_nkw=M3+x+6+socket+cap+screw+DIN+912+black+steel",
+      "completed": true,
+      "outcome": "Opened Bolt Base eBay listing from the native eBay search. Selected Screw Length (Excluding head): m3 x 6, Pack Quantity: 10. Item specifics state steel, socket cap head, Allen key, DIN 912 and Black Oxide."
+    }
+  ],
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  },
+  "result_url": "https://www.ebay.co.uk/itm/231377977479?var=530640141181",
+  "product_name": "M3 ( 3mm ) Black Self Colour 12.9 High Tensile Socket Cap Screws Allen Bolts HT",
+  "selected_variant": "Screw Length (Excluding head): m3 x 6; Pack Quantity: 10; observed var=530640141181",
+  "material_evidence": "Steel",
+  "specification": "Thread Size: M3; Length (Excluding Head): 6mm; Model: DIN 912; Head Style: Socket Cap Head; Drive Style: Allen Key; Material: Steel; Grade: Grade 12.9 Self Colour; Finish: Black Oxide; Brand: Bolt Base; Item Diameter: 3mm"
+}

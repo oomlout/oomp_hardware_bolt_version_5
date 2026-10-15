@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_screw_socket_cap_hex_head_black_m3_diameter_6_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M3 x 6 socket cap screw DIN 912 black high tensile steel",
+  "evidence_url": "https://www.google.com/search?q=M3+x+6+socket+cap+screw+DIN+912+black+high+tensile+steel",
+  "reason": "Opened Bolt World result. Selected M3 and 6mm; main heading and specifications establish steel grade 12.9, self-colour black, hex socket cap head and DIN 912.",
+  "search_evidence": "Google displayed the exact Bolt World product and also ineligible black A2 stainless and RENY/nylon Accu alternatives. Opened the Bolt World product link and read selected controls and specifications.",
+  "attempts": [
+    {
+      "term": "M3 x 6 socket cap screw DIN 912 black high tensile steel",
+      "url": "https://www.google.com/search?q=M3+x+6+socket+cap+screw+DIN+912+black+high+tensile+steel",
+      "completed": true,
+      "outcome": "Opened Bolt World result. Selected M3 and 6mm; main heading and specifications establish steel grade 12.9, self-colour black, hex socket cap head and DIN 912."
+    }
+  ],
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  },
+  "result_url": "https://boltworld.co.uk/products/m3-x-6mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912/",
+  "product_name": "M3 X 6mm Socket Head Cap Screw – High Tensile Grade 12.9 Steel, Self Colour Black, Allen Key Hex Socket, DIN 912",
+  "selected_variant": "Thread Size: M3 (3mm); Length: 6mm — SKU: 10161.030.006; current SKU 10161.030.006",
+  "material_evidence": "Steel",
+  "specification": "Material: Steel; Class / Grade: 12.9; Surface Treatment: Self Colour / Plain; Thread Size: M3; Thread: Metric Thread; Thread Direction: Right; Pitch: 0.50; Head Shape: Socket Cap; Length: 6mm (Total length does not include head); Manufacturing Standard: DIN 912"
+}

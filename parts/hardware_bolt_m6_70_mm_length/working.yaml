@@ -1461,3 +1461,54 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
+search_data:
+  google:
+    search_for: M6 x 70 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.google.com/search?q=M6+x+70+hex+head+part+threaded+bolt+DIN+931+steel
+    status: verified
+    reason: Google's exact query returned Bolt World's M6 x 70mm grade 8.8 DIN 931
+      result. The opened page identifies SKU 20303.060.070 and specifies M6 thread,
+      70mm total length excluding head, hexagon head, 18mm minimum thread length,
+      steel grade 8.8, self-colour/plain finish and DIN 931.
+    result_url: https://boltworld.co.uk/products/m6-x-70mm-hexagon-head-bolts-part-threaded-din-931-self-colour-black-8-8/
+    product_name: M6 x 70mm Hexagon Head Bolt – High Tensile Grade 8.8 Steel, Self
+      Colour Black, Partially Threaded, DIN 931
+    selected_variant: SKU 20303.060.070; Thread Diameter M6; Total Length 70mm (excludes
+      head); Thread Length (Minimum) 18mm.
+    material_evidence: Steel; Class / Grade 8.8
+    specification: 'Thread Size: M6; Length: 70mm; Thread Length (Minimum): 18mm;
+      Head: Hexagon; Drive: External hex; Form: Partially threaded; Material: Steel,
+      Grade 8.8; Surface Treatment: Self Colour/Plain; Standard: DIN 931; SKU: 20303.060.070'
+    search_evidence: Google result M6 x 70mm Hexagon Head Bolt – Grade 8.8 (DIN 931)
+      from Bolt World led to the product page. Nearby stainless results were not used.
+    evidence_url: https://www.google.com/search?q=M6+x+70+hex+head+part+threaded+bolt+DIN+931+steel
+    checked_at: '2026-10-14T08:32:20.981772+00:00'
+    evidence_file: support_files/evidence/hardware_bolt_m6_70_mm_length/google/881b637c6a2d49d4afc35541d884220f.yaml
+  ebay:
+    search_for: M6 x 70 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+70+hex+head+part+threaded+bolt+DIN+931+steel
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''
+  aliexpress:
+    search_for: M6 x 70 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+70+hex+head+part+threaded+bolt+DIN+931+steel
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''

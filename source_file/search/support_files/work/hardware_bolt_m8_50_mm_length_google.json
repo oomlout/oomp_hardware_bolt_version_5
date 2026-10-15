@@ -1,0 +1,13 @@
+{
+ "oomp_id":"hardware_bolt_m8_50_mm_length","platform":"google","method":"codex_builtin_browser","status":"verified",
+ "search_for":"M8 x 50 hex head part threaded bolt DIN 931 steel","evidence_url":"https://www.google.com/search?q=M8+x+50+hex+head+part+threaded+bolt+DIN+931+steel",
+ "reason":"Exact product and selected variant verified against the product specification page.",
+ "search_evidence":"Google returned the exact Vital Parts M8 x 50 result; opened that page. The specification table lists thread M8, length 50mm, threaded length 22mm, material 10.9 Steel BZP, 13mm across flats, Hex Head and DIN 931.",
+ "attempts":[{"term":"M8 x 50 hex head part threaded bolt DIN 931 steel","url":"https://www.google.com/search?q=M8+x+50+hex+head+part+threaded+bolt+DIN+931+steel","completed":true,"outcome":"Exact Vital Parts M8x50 DIN 931 part-threaded 10.9 steel BZP product returned and verified."}],
+ "result_url":"https://www.vital-parts.co.uk/hex-head-bolts-din-931/9295-hh931-m8-50-109-bzp",
+ "product_name":"M8 x 50mm Hex Bolt - Part Threaded (DIN 931) | 10.9 Steel BZP",
+ "selected_variant":"Product code HH931-M8-50-109-BZP; fixed product M8 x 50mm; 10.9 Steel BZP.",
+ "material_evidence":"Vital Parts specification table states Material: 10.9 Steel BZP.",
+ "specification":"Thread Size: M8; Length: 50mm; Threaded Length: 22mm; Hex Head; 13mm across flats; Manufacturing Standard: DIN 931; Material: 10.9 Steel; BZP finish.",
+ "checks":{"result_reached_from_search":true,"selected_variant":true,"dimensions":true,"form":true,"material":true,"finish":true,"standard":true}
+}

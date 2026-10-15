@@ -1,0 +1,39 @@
+oomp_id: hardware_bolt_m8_30_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M8 x 30 hex head part threaded bolt DIN 931 steel
+evidence_url: https://www.google.com/search?q=M8+x+30+hex+head+part+threaded+bolt+DIN+931+steel
+reason: Exact product and selected variant verified against the product specification
+  page.
+search_evidence: Google returned the Westfield M8 DIN 931 part-threaded family listing.
+  On the opened page, the exact M8 x 30mm selected length row identifies WF21433 as
+  a hex bolt part thread in bright zinc plate 10.9. The page title states Class 10
+  high tensile steel and the technical summary lists M8, 1.25mm pitch, DIN 931 and
+  13mm drive; it defines a partially threaded shank.
+attempts:
+- term: M8 x 30 hex head part threaded bolt DIN 931 steel
+  url: https://www.google.com/search?q=M8+x+30+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: Exact Westfield M8x30 part-threaded BZP grade 10.9 DIN 931 listing returned
+    and verified.
+result_url: https://www.westfieldfasteners.co.uk/BZP-10.9-ScrewBolt-HexHd-M8-THRpart.html
+product_name: M8 Hex Head Bolts with Part Thread DIN 931 (ISO 4014) in Bright Zinc
+  Plated (BZP) Class 10 High Tensile Steel
+selected_variant: 'Selected length row: M8 x 30mm Hex Bolt Part Thread in Bright Zinc
+  Plate 10.9; SKU WF21433.'
+material_evidence: Bright Zinc Plated Class 10 High Tensile Steel, as stated in the
+  product family title.
+specification: 'Thread Size: M8; Length: 30mm; pitch 1.25mm; external hex head; partially
+  threaded shank; minimum thread length 22mm for lengths up to 125mm; drive size 13mm;
+  Manufacturing Standard: DIN 931; Bright Zinc Plate 10.9 high tensile steel.'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T08:37:25.020523+00:00'
+validator_version: 1

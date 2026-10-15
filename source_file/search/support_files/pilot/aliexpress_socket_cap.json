@@ -1,0 +1,18 @@
+{
+  "oomp_id": "hardware_screw_socket_cap_hex_head_black_m3_diameter_6_mm_length",
+  "platform": "aliexpress",
+  "method": "codex_builtin_browser",
+  "status": "unresolved",
+  "search_for": "M3 x 6 DIN 912 black carbon steel socket cap screw",
+  "evidence_url": "https://www.aliexpress.com/w/wholesale-M3-x-6-DIN-912-black-carbon-steel-socket-cap-screw.html",
+  "reason": "Built-in browser site-safety policy blocked navigation to AliExpress before any page content could be observed. No product or search result was verified.",
+  "search_evidence": "Attempted the exact search URL. Browser denied authority to observe aliexpress.com; no user permission prompt or automatic approval review was attempted. Stopped this platform without workaround. Unattempted AliExpress rows remain pending.",
+  "attempts": [
+    {
+      "term": "M3 x 6 DIN 912 black carbon steel socket cap screw",
+      "url": "https://www.aliexpress.com/w/wholesale-M3-x-6-DIN-912-black-carbon-steel-socket-cap-screw.html",
+      "completed": false,
+      "outcome": "Built-in browser site-safety policy blocked navigation to AliExpress before any page content could be observed. No product or search result was verified."
+    }
+  ]
+}

@@ -1106,3 +1106,53 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
+search_data:
+  google:
+    search_for: M6 white nylon flat washer 12mm outer diameter 1.5mm thickness
+    search_url: https://www.google.com/search?q=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness
+    status: unresolved
+    reason: Exact search completed but verification remains incomplete. The opened
+      exact-dimensional eBay candidate specifies Black in its seller description and
+      is rejected for the white-nylon ID. Other candidates were not verified during
+      this pilot; do not assume non-stocked.
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: 'Google showed eBay item 188730967377 titled M6 Nylon Flat Washer,
+      80pcs 6mm ID 12mm OD 1.5mm Thick Sealing Spacer Gasket. Opened https://www.ebay.co.uk/itm/188730967377
+      and read the seller description frame: Color: Black; Material: Nylon; Inner
+      Diameter: 6mm; Outer Diameter: 12mm; Thickness: 1.5mm. Search also exposed wrong-form
+      HDPE retaining washers and other unverified listings.'
+    evidence_url: https://www.google.com/search?q=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness
+    checked_at: '2026-10-14T08:09:59.718530+00:00'
+    evidence_file: support_files/evidence/hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth/google/113f1949c6734288bb589e74f05b38e6.yaml
+  ebay:
+    search_for: M6 white nylon flat washer 12mm outer diameter 1.5mm thickness
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''
+  aliexpress:
+    search_for: M6 white nylon flat washer 12mm outer diameter 1.5mm thickness
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''

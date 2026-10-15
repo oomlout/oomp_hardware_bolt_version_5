@@ -1,0 +1,31 @@
+oomp_id: hardware_bolt_m6_45_mm_length
+platform: ebay
+method: codex_builtin_browser
+status: unresolved
+search_for: M6 x 45 hex head part threaded bolt DIN 931 steel
+evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+45+hex+head+part+threaded+bolt+DIN+931+steel
+reason: The supplied eBay search URL opened an eBay error page stating 'Something
+  went wrong on our end'. No results loaded and no product was inspected, so the lookup
+  is incomplete.
+search_evidence: Observed the eBay error page at the exact search URL; no product
+  results were shown.
+attempts:
+- term: M6 x 45 hex head part threaded bolt DIN 931 steel
+  url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+45+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: false
+  outcome: 'eBay error page: Something went wrong on our end. No results loaded.'
+result_url: ''
+product_name: ''
+selected_variant: ''
+material_evidence: ''
+specification: ''
+checks:
+  result_reached_from_search: false
+  selected_variant: false
+  dimensions: false
+  form: false
+  material: false
+  finish: false
+  standard: false
+checked_at: '2026-10-14T08:25:19.399262+00:00'
+validator_version: 1

@@ -1,0 +1,47 @@
+oomp_id: hardware_bolt_m5_60_mm_length
+platform: ebay
+method: codex_builtin_browser
+status: assumed_non_stocked
+search_for: M5x60 DIN931 steel bolt part threaded
+evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5x60+DIN931+steel+bolt+part+threaded
+reason: Both exact eBay searches completed, and the two inspected non-stainless DIN
+  931 M5 high-tensile BZP listings had length choices 25, 30, 35, 40, 45, 50 and 70mm
+  only; neither offered the required 60mm. Other prominent results were explicitly
+  stainless, wrong diameter, or wrong form. This records no eligible product found
+  in the tested searches, not a claim about all eBay stock.
+search_evidence: Initial search M5 x 60 hex head part threaded bolt DIN 931 steel
+  returned Fixaball listing 304184206712; its selected 70mm option and available length
+  menu excluded 60mm (25, 30, 35, 40, 45, 50, 70mm). Refinement M5x60 DIN931 steel
+  bolt part threaded returned Rodball listing 336301261686, M5 Hex Bolt High Tensile
+  8.8 Zinc BZP DIN 931; selected 70mm and menu likewise contained only 25, 30, 35,
+  40, 45, 50 and 70mm. Search results also showed stainless DIN 931 listings, which
+  are ineligible.
+attempts:
+- term: M5 x 60 hex head part threaded bolt DIN 931 steel
+  url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+x+60+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: Search completed; inspected Fixaball item 304184206712. Non-stainless steel
+    DIN 931 family, but no 60mm length option (length menu 25, 30, 35, 40, 45, 50,
+    70mm).
+- term: M5x60 DIN931 steel bolt part threaded
+  url: https://www.ebay.co.uk/sch/i.html?_nkw=M5x60+DIN931+steel+bolt+part+threaded
+  completed: true
+  outcome: Search completed; inspected Rodball item 336301261686. 8.8 high tensile
+    steel, zinc BZP, M5 DIN 931 hex bolt, but no 60mm length option (25, 30, 35, 40,
+    45, 50, 70mm). Other prominent exact-family results were stainless.
+no_eligible_product: true
+result_url: ''
+product_name: ''
+selected_variant: ''
+material_evidence: ''
+specification: ''
+checks:
+  result_reached_from_search: true
+  selected_variant: false
+  dimensions: false
+  form: false
+  material: false
+  finish: false
+  standard: false
+checked_at: '2026-10-14T08:18:07.244260+00:00'
+validator_version: 1

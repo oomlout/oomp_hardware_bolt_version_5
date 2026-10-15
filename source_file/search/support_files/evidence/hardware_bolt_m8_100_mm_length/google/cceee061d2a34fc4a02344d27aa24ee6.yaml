@@ -1,0 +1,39 @@
+oomp_id: hardware_bolt_m8_100_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M8 x 100 hex head part threaded bolt DIN 931 steel
+evidence_url: https://www.google.com/search?q=M8+x+100+hex+head+part+threaded+bolt+DIN+931+steel
+reason: Google's exact query returned Westfield Fasteners' M8 DIN 931 BZP Class 10.9
+  high tensile steel range. The product row identifies M8 x 100mm Hex Bolt Part Thread
+  in Bright Zinc Plate 10.9, SKU WF21457. The page states DIN 931, partially threaded
+  shank, 22mm minimum thread for lengths up to 125mm, external hex drive size 13mm,
+  and bright zinc plated high tensile steel.
+search_evidence: Google result for Westfield Fasteners' M8 Hex Head Bolts with Part
+  Thread DIN 931 in Bright Zinc Plated Class 10.9 High Tensile Steel led to the product
+  page. The M8 x 100mm row (SKU WF21457) was checked; stainless results were not used.
+attempts:
+- term: M8 x 100 hex head part threaded bolt DIN 931 steel
+  url: https://www.google.com/search?q=M8+x+100+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: 'Search completed; opened Westfield Fasteners range and checked exact M8
+    x 100mm SKU WF21457: part-threaded, BZP class 10.9 high tensile steel, DIN 931.'
+result_url: https://www.westfieldfasteners.co.uk/BZP-10.9-ScrewBolt-HexHd-M8-THRpart.html
+product_name: M8 x 100mm Hex Bolt Part Thread in Bright Zinc Plate 10.9
+selected_variant: Observed M8 x 100mm row, SKU WF21457; 22mm minimum thread length
+  for lengths up to 125mm; drive size 13mm across flats.
+material_evidence: Class 10.9 High Tensile Steel
+specification: 'Thread Size: M8; Length: 100mm; Thread Length (Minimum): 22mm; Head:
+  Hex Head; Drive: External hex, 13mm across flats; Form: Partially threaded shank;
+  Material: Class 10.9 High Tensile Steel; Finish: Bright Zinc Plated (BZP); Standard:
+  DIN 931; SKU: WF21457'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T08:33:44.631133+00:00'
+validator_version: 1

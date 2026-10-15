@@ -1,0 +1,38 @@
+oomp_id: hardware_bolt_m5_60_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M5 x 60 hex head part threaded bolt DIN 931 steel
+evidence_url: https://www.google.com/search?q=M5+x+60+hex+head+part+threaded+bolt+DIN+931+steel
+reason: Google's exact search returned a Bolt World M5 x 60mm DIN 931 grade 8.8 steel
+  result. The opened product page identifies current SKU 20303.005.060 and shows M5
+  thread size, 60mm total length excluding head, hexagon head, partially threaded
+  form with 16mm minimum thread length, steel grade 8.8 and self-colour/plain finish.
+search_evidence: Google result M5 Hexagon Head Bolt 60mm Part-Threaded Grade 8.8 from
+  Bolt World led to the product page. Nearby results included A2/A4 stainless options,
+  which were rejected.
+attempts:
+- term: M5 x 60 hex head part threaded bolt DIN 931 steel
+  url: https://www.google.com/search?q=M5+x+60+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: Search completed; opened Bolt World result and confirmed SKU 20303.005.060
+    is M5 x 60mm, DIN 931, grade 8.8 steel, part threaded, self-colour/plain.
+result_url: https://boltworld.co.uk/products/m5-x-60mm-hexagon-head-bolts-part-threaded-self-colour-grade-8-8-din-931/
+product_name: M5 x 60mm Hexagon Head Bolt – High Tensile Grade 8.8 Steel, Self Colour
+  Black, Partially Threaded, DIN 931
+selected_variant: Current SKU 20303.005.060; Thread Size M5 (5mm); Length 60mm. Page
+  lists other sizes but current SKU and heading identify M5 x 60mm.
+material_evidence: Steel; Class / Grade 8.8
+specification: 'Thread Size: M5; Length: 60mm; Head: Hexagon head; Drive: External
+  hex; Form: Partially threaded; Thread Length (Minimum): 16mm; Material: Steel, Grade
+  8.8; Surface Treatment: Self Colour/Plain; Standard: DIN 931; SKU: 20303.005.060'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T08:26:10.002909+00:00'
+validator_version: 1

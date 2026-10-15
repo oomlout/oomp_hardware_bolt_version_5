@@ -35,14 +35,9 @@ hardware_bolt_m8_80_mm_length,SEB-M8-80-8.8-BZP,https://www.accu.co.uk/metric-he
 hardware_bolt_m8_90_mm_length,SEB-M8-90-8.8-Z,https://www.accu.co.uk/metric-hexagon-bolts/429266-SEB-M8-90-8-8-Z
 hardware_nut_m2,HPN-M2-C8-Z,https://www.accu.co.uk/hexagon-nuts/456429-HPN-M2-C8-Z
 hardware_nut_m2_5,HPN-M2.5-C8-Z,https://www.accu.co.uk/hexagon-nuts/456430-HPN-M2-5-C8-Z
-hardware_nut_m2_5_coupling,NUT609M2.5X0.45,https://www.accu.co.uk/threaded-standoffs/766583-NUT609M2-5X0-45
-hardware_nut_m2_coupling,NUT609M2X0.4,https://www.accu.co.uk/threaded-standoffs/766588-NUT609M2X0-4
 hardware_nut_m3,HPN-M3-C8-Z,https://www.accu.co.uk/hexagon-nuts/456431-HPN-M3-C8-Z
-hardware_nut_m3_coupling,HTBHN-M3-10-PEEK,https://www.accu.co.uk/hexagonal-connector-nuts/849700-HTBHN-M3-10-PEEK
-hardware_nut_m3_flanged,HFFN-M3-7-N,https://www.accu.co.uk/metric-flanged-hexagon-nuts/505939-HFFN-M3-7-N
 hardware_nut_m3_locking,HNN-M3-0.5-C8-Z,https://www.accu.co.uk/hexagon-nylon-locking-nuts/495536-HNN-M3-0-5-C8-Z
 hardware_nut_m4,HPN-M4-C8-Z,https://www.accu.co.uk/hexagon-nuts/456433-HPN-M4-C8-Z
-hardware_nut_m4_coupling,HTBHN-M4-10-PEEK,https://www.accu.co.uk/hexagonal-connector-nuts/849717-HTBHN-M4-10-PEEK
 hardware_nut_m4_locking,HNN-M4-0.7-C8-Z,https://www.accu.co.uk/hexagon-nylon-locking-nuts/495542-HNN-M4-0-7-C8-Z
 hardware_nut_m5,HPN-M5-C8-Z,https://www.accu.co.uk/hexagon-nuts/456434-HPN-M5-C8-Z
 hardware_nut_m5_flanged,HFFN-M5-C6-Z,https://www.accu.co.uk/metric-flanged-hexagon-nuts/850040-HFFN-M5-C6-Z
@@ -197,4 +192,3 @@ hardware_set_screw_m8_70_mm_length,SEBF-M8-70-8.8-BZP,https://www.accu.co.uk/ful
 hardware_set_screw_m8_75_mm_length,SEBF-M8-75-8.8-BZP,https://www.accu.co.uk/full-thread-hexagon-bolts/1008586-SEBF-M8-75-8-8-BZP
 hardware_set_screw_m8_80_mm_length,SEBF-M8-80-8.8-BZP,https://www.accu.co.uk/full-thread-hexagon-bolts/1008587-SEBF-M8-80-8-8-BZP
 hardware_set_screw_m8_90_mm_length,SEBF-M8-90-8.8-BZP,https://www.accu.co.uk/full-thread-hexagon-bolts/1008588-SEBF-M8-90-8-8-BZP
-hardware_washer_m8_penny,HPW-8.4-23.8-2-N,https://www.accu.co.uk/metric-flat-washers/465929-HPW-8-4-23-8-2-N

@@ -16,6 +16,7 @@ from pathlib import Path
 
 DEFAULT_SOURCE = Path(r"C:\od\OneDrive\docs\project_bolt_web_scraper\data")
 DEFAULT_DESTINATION = Path(__file__).resolve().parent / "source_file" / "supplier_data"
+DEFAULT_SEARCH_DESTINATION = Path(__file__).resolve().parent / "source_file" / "search"
 
 
 def copy_supplier_csvs(source: Path = DEFAULT_SOURCE, destination: Path = DEFAULT_DESTINATION) -> int:
@@ -33,6 +34,23 @@ def copy_supplier_csvs(source: Path = DEFAULT_SOURCE, destination: Path = DEFAUL
             destination_file.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(source_file, destination_file)
             copied += 1
+    return copied
+
+
+def copy_search_data(source: Path = DEFAULT_SOURCE, destination: Path = DEFAULT_SEARCH_DESTINATION) -> int:
+    """Copy the scraper's complete search snapshot, including evidence files."""
+    search_source = source / "search"
+    if not search_source.is_dir():
+        raise FileNotFoundError(f"Search data folder does not exist: {search_source}")
+
+    copied = 0
+    for path in search_source.rglob("*"):
+        if not path.is_file():
+            continue
+        destination_file = destination / path.relative_to(search_source)
+        destination_file.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(path, destination_file)
+        copied += 1
     return copied
 
 
@@ -103,15 +121,38 @@ def load_supplier_data(
     return by_part
 
 
+def load_search_data(
+    directory: Path = DEFAULT_SEARCH_DESTINATION,
+) -> dict[str, dict[str, dict[str, str]]]:
+    """Return ``{oomp_id: {platform: search_record}}`` from the search snapshot."""
+    by_part: dict[str, dict[str, dict[str, str]]] = {}
+    for row in _read_csv(directory / "results.csv"):
+        oomp_id = (row.get("oomp_id") or "").strip()
+        platform = (row.get("platform") or "").strip()
+        if not oomp_id or not platform:
+            continue
+        record = {key: (value or "").strip() for key, value in row.items() if key not in {"oomp_id", "platform"}}
+        by_part.setdefault(oomp_id, {})[platform] = record
+    return by_part
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source", type=Path, default=DEFAULT_SOURCE, help="Supplier scraper data folder")
     parser.add_argument("--destination", type=Path, default=DEFAULT_DESTINATION, help="Local snapshot folder")
+    parser.add_argument("--search-destination", type=Path, default=DEFAULT_SEARCH_DESTINATION, help="Local search snapshot folder")
     args = parser.parse_args()
     copied = copy_supplier_csvs(args.source, args.destination)
+    search_copied = copy_search_data(args.source, args.search_destination)
     part_data = load_supplier_data(args.destination)
     supplier_count = sum(len(suppliers) for suppliers in part_data.values())
-    print(f"Copied {copied} CSV files; loaded {supplier_count} supplier records for {len(part_data)} OOMP parts.")
+    search_data = load_search_data(args.search_destination)
+    search_count = sum(len(platforms) for platforms in search_data.values())
+    print(
+        f"Copied {copied} supplier CSV files and {search_copied} search files; "
+        f"loaded {supplier_count} supplier records for {len(part_data)} OOMP parts "
+        f"and {search_count} search records for {len(search_data)} OOMP parts."
+    )
 
 
 if __name__ == "__main__":

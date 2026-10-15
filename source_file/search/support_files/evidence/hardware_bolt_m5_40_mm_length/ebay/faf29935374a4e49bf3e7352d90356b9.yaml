@@ -1,0 +1,37 @@
+oomp_id: hardware_bolt_m5_40_mm_length
+platform: ebay
+method: codex_builtin_browser
+status: verified
+search_for: M5 x 40 hex head part threaded bolt DIN 931 steel
+evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+reason: 'Opened Fixaball eBay item 304184206712 from the exact eBay search and observed
+  its selected Length (mm): 40mm variant. The listing specifies M5, 8.8 high tensile
+  steel, zinc BZP finish, hexagon head, part plain shank and DIN 931.'
+search_evidence: Native eBay results included the Fixaball M5 Hex Bolt High Tensile
+  8.8 Zinc BZP DIN 931 listing. The opened listing showed its selected 40mm option,
+  and the seller description identifies the M5 x 40 DIN 931 bolt. Stainless near matches
+  were not selected.
+attempts:
+- term: M5 x 40 hex head part threaded bolt DIN 931 steel
+  url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: Search completed; opened Fixaball item 304184206712 and verified the selected
+    40mm M5 high tensile steel DIN 931 bolt.
+result_url: https://www.ebay.co.uk/itm/304184206712?_skw=M5+x+40+hex+head+part+threaded+bolt+DIN+931+steel&var=603290620965&itmmeta=01M4WQP2S7Y4GCYGDZ2DWF4BZR&hash=item46d2caa578:g:OCAAAOSwat9mcg63&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2FWCWFaGJh7TQAVE6ZDs06KSRdC2fjTQuaJkUgLud3zfNWK8Pr4i%2BmCVDHXxpkmtweB%2BC1gpbjcuioZuaGvAiIPOkK8s3k%2B5jIjqWzJVC79IpLyuOD32iFZ%2BvEY8rwgZZNRElFtUbKg90367snlrr34OTWRFj4LW22gcWD0bVrgTS0g3LuJ4Z2Yh35tB%2BdYDhhs86%2FIeeo249oanz%2B7b2k8kCKnqjxm0v9FR88Q64II07S3Y%2FHKZPlZVs2qfDYq%2F7S0IeYj%2FYy56HiYPJGTylo%2B2WacFl%2FfqhWmoUMJhEPHb%2FQ%2FjQhNI8Kh8OjEgMKeDds8Q5XdKOFMzmyXAw73ItGX%7Ctkp%3ABlBMUOys2JenaA
+product_name: M5 Hex Bolt High Tensile 8.8 Zinc BZP DIN 931
+selected_variant: 'Selected Length (mm): 40mm; M5 Hex Bolt; 12 bolts per pack. eBay
+  variant parameter var=603290620965.'
+material_evidence: 8.8 High Tensile Steel (item specifics and seller description).
+specification: 'Thread Size: M5; Length: 40mm; Form: Hexagon head, part plain shank/partially
+  threaded; Material: 8.8 High Tensile Steel; Finish: Zinc BZP; Standard: DIN 931;
+  Thread Pitch: M5 coarse 0.80mm.'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T08:15:57.426946+00:00'
+validator_version: 1

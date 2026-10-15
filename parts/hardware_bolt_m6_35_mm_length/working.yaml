@@ -1461,3 +1461,66 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
+search_data:
+  google:
+    search_for: M6 x 35 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.google.com/search?q=M6+x+35+hex+head+part+threaded+bolt+DIN+931+steel
+    status: verified
+    reason: Google's exact query returned Vital Parts' M6 x 35mm DIN 931 part-threaded
+      bolt. The page identifies code HH931-M6-35-109-BZP and specifies M6 thread,
+      35mm length, 18mm threaded length, 10.9 Steel BZP, Hex Head and DIN 931; the
+      description confirms the unthreaded shank and external hex tool access.
+    result_url: https://www.vital-parts.co.uk/hex-head-bolts-din-931/9219-hh931-m6-35-109-bzp
+    product_name: M6 x 35mm Hex Bolt - Part Threaded (DIN 931) | 10.9 Steel BZP
+    selected_variant: Fixed product code HH931-M6-35-109-BZP; Thread Size M6; Length
+      35mm; Threaded Length 18mm.
+    material_evidence: 10.9 Steel BZP
+    specification: 'Thread Size: M6; Length: 35mm; Threaded Length: 18mm; Head: Hex
+      Head; Drive: External hex; Form: Part threaded; Material: 10.9 Steel; Finish:
+      Bright Zinc Plated (BZP); Standard: DIN 931; Product code: HH931-M6-35-109-BZP'
+    search_evidence: Google result M6 x 35mm Hex Bolt - Part Threaded (DIN 931) |
+      10.9 Steel BZP from Vital Parts led to the product page. Stainless results were
+      not used.
+    evidence_url: https://www.google.com/search?q=M6+x+35+hex+head+part+threaded+bolt+DIN+931+steel
+    checked_at: '2026-10-14T08:29:57.398267+00:00'
+    evidence_file: support_files/evidence/hardware_bolt_m6_35_mm_length/google/74893a8266a54099b1361b87bada5abf.yaml
+  ebay:
+    search_for: M6 x 35 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+35+hex+head+part+threaded+bolt+DIN+931+steel
+    status: verified
+    reason: Opened the exact eBay search result and selected Bolt Size M6 x 35mm.
+      The listing title specifies hexagon head bolts, part threaded, high tensile
+      8.8 zinc plated; item specifics show DIN 931, high tensile steel, grade 8.8,
+      M6, hex head, spanner or socket drive, and bright zinc plated finish.
+    result_url: https://www.ebay.co.uk/itm/365341419766?_skw=M6+x+35+hex+head+part+threaded+bolt+DIN+931+steel&itmmeta=01M4WR68PHE1JVKNGJ5F7MZ736&hash=item55100ba8f6:g:~1EAAeSwfBJqqZPa&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde97IluX%2BoQ40JxCDDNwyD793g8Z%2BrAWr1j%2BkV4pmQevmWv8ZzOlMV%2FsplNfCr50SdVnyHCicR8jf%2BxwjqP%2BgPcp8OGDL4E%2FJB%2FhdlTNORGh01mEjutffmtr96niCHMflJ7eaRaUdiZ%2F9qZv%2FVYz1uh7phHh5RjcVtoom5cGsKUiBUP8Crnn5LyjqbTp2ZFWphsD30ob7FI0FN52QPobLeQ%2FlgxxVZ9%2BmxAgSKXlBu2vpiydwagQJXmuATzOw3InN8DqBuNmtmZ%2FaEX7mSHGakKPIFkW1%2FamPvyegRgITLCcvQ%3D%3D%7Ctkp%3ABFBM8oqjpinaA
+    product_name: M6 M8 M10 HEXAGON HEAD BOLTS PART THREADED SCREWS HIGH TENSILE 8.8
+      ZINC PLATED
+    selected_variant: 'Selected Bolt Size: M6 x 35mm; item specifics: MPN DIN 931;
+      Material High Tensile Steel, Grade 8.8; Head Style Hex Head; Drive Style Spanner
+      or Socket; Finish Bright Zinc Plated (BZP). The selected size is visible on
+      the page; variant selection is not encoded in the URL.'
+    material_evidence: High Tensile Steel, Grade 8.8
+    specification: 'Thread Size: M6; Length: 35mm; Form: Part threaded hexagon head
+      bolt; Head: Hex Head; Drive Style: Spanner or Socket; Material: High Tensile
+      Steel, Grade 8.8; Finish: Bright Zinc Plated (BZP); Manufacturing Standard:
+      DIN 931'
+    search_evidence: Opened the exact Kay's Fasteners search result M6 M8 M10 HEXAGON
+      HEAD BOLTS PART THREADED SCREWS HIGH TENSILE 8.8 ZINC PLATED. Selected M6 x
+      35mm and checked the page specifics.
+    evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+35+hex+head+part+threaded+bolt+DIN+931+steel
+    checked_at: '2026-10-14T08:24:41.419495+00:00'
+    evidence_file: support_files/evidence/hardware_bolt_m6_35_mm_length/ebay/eda9ef11e12c4d02887409566a79f4df.yaml
+  aliexpress:
+    search_for: M6 x 35 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+35+hex+head+part+threaded+bolt+DIN+931+steel
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''

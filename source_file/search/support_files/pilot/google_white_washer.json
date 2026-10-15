@@ -1,0 +1,18 @@
+{
+  "oomp_id": "hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "unresolved",
+  "search_for": "M6 white nylon flat washer 12mm outer diameter 1.5mm thickness",
+  "evidence_url": "https://www.google.com/search?q=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness",
+  "reason": "Exact search completed but verification remains incomplete. The opened exact-dimensional eBay candidate specifies Black in its seller description and is rejected for the white-nylon ID. Other candidates were not verified during this pilot; do not assume non-stocked.",
+  "search_evidence": "Google showed eBay item 188730967377 titled M6 Nylon Flat Washer, 80pcs 6mm ID 12mm OD 1.5mm Thick Sealing Spacer Gasket. Opened https://www.ebay.co.uk/itm/188730967377 and read the seller description frame: Color: Black; Material: Nylon; Inner Diameter: 6mm; Outer Diameter: 12mm; Thickness: 1.5mm. Search also exposed wrong-form HDPE retaining washers and other unverified listings.",
+  "attempts": [
+    {
+      "term": "M6 white nylon flat washer 12mm outer diameter 1.5mm thickness",
+      "url": "https://www.google.com/search?q=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness",
+      "completed": true,
+      "outcome": "Exact search completed but verification remains incomplete. The opened exact-dimensional eBay candidate specifies Black in its seller description and is rejected for the white-nylon ID. Other candidates were not verified during this pilot; do not assume non-stocked."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+ "oomp_id":"hardware_bolt_m8_150_mm_length","platform":"google","method":"codex_builtin_browser","status":"verified",
+ "search_for":"M8 x 150 hex head part threaded bolt DIN 931 steel","evidence_url":"https://www.google.com/search?q=M8+x+150+hex+head+part+threaded+bolt+DIN+931+steel",
+ "reason":"Exact product and selected variant verified against the product specification page.",
+ "search_evidence":"Google returned the exact Vital Parts M8 x 150 result. The opened page identifies a part-threaded DIN 931 hex bolt. Its specification table lists thread M8, length 150mm, threaded length 28mm, material 8.8 Steel BZP, 13mm across flats and Hex Head.",
+ "attempts":[{"term":"M8 x 150 hex head part threaded bolt DIN 931 steel","url":"https://www.google.com/search?q=M8+x+150+hex+head+part+threaded+bolt+DIN+931+steel","completed":true,"outcome":"Exact Vital Parts M8x150 DIN 931 part-threaded 8.8 steel BZP product returned and verified."}],
+ "result_url":"https://www.vital-parts.co.uk/hex-head-bolts-din-931/9264-hh931-m8-150-88-bzp",
+ "product_name":"M8 x 150mm Hex Bolt - Part Threaded (DIN 931) | 8.8 Steel BZP",
+ "selected_variant":"Product code HH931-M8-150-88-BZP; M8 x 150mm; 8.8 Steel BZP; hex head; 28mm threaded length.",
+ "material_evidence":"Vital Parts specification table states Material: 8.8 Steel BZP; the product description identifies a zinc plated high tensile bolt.",
+ "specification":"Thread M8, length 150mm, threaded length 28mm (part threaded), hex head, 13mm across flats, 8.8 steel bright zinc plated, DIN 931.",
+ "checks":{"result_reached_from_search":true,"selected_variant":true,"dimensions":true,"form":true,"material":true,"finish":true,"standard":true}
+}

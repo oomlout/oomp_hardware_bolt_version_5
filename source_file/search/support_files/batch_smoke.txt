@@ -1,0 +1,2 @@
+Default no-argument launcher from outside the repository: exit 0.
+CSV preparation and starter prompt displayed successfully.

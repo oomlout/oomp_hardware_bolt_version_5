@@ -1,0 +1,33 @@
+{
+  "oomp_id": "hardware_screw_wood_pozidriv_net_coat_yellow_plated_m5_diameter_50_mm_length_screwtite_984fy",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "Screwtite 5 x 50 mm Pozidriv double countersunk carbon steel Net-Coat Yellow-Plated 984FY",
+  "evidence_url": "https://www.google.com/search?q=Screwtite+5+x+50+mm+Pozidriv+double+countersunk+carbon+steel+Net-Coat+Yellow-Plated+984FY",
+  "reason": "Opened the Screwfix result. Main product heading visibly includes 984FY and 5mm x 50mm with PZ Double-Countersunk. Main product bullets state Carbon Steel Construction and Net-Coat Yellow-Plated. No metric machine-screw DIN standard is required for this wood-screw family.",
+  "search_evidence": "Google returned a Screwfix image result for the exact product and other branded/nearby results. Opened its observed product URL and verified the heading and main product bullets directly.",
+  "attempts": [
+    {
+      "term": "Screwtite 5 x 50 mm Pozidriv double countersunk carbon steel Net-Coat Yellow-Plated 984FY",
+      "url": "https://www.google.com/search?q=Screwtite+5+x+50+mm+Pozidriv+double+countersunk+carbon+steel+Net-Coat+Yellow-Plated+984FY",
+      "completed": true,
+      "outcome": "Opened the Screwfix result. Main product heading visibly includes 984FY and 5mm x 50mm with PZ Double-Countersunk. Main product bullets state Carbon Steel Construction and Net-Coat Yellow-Plated. No metric machine-screw DIN standard is required for this wood-screw family."
+    }
+  ],
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  },
+  "result_url": "https://www.screwfix.com/p/screw-tite-2-pz-double-countersunk-thread-cutting-screws-5mm-x-50mm-200-pack/984fy",
+  "product_name": "Screw-Tite 2 PZ Double-Countersunk Thread Cutting Screws 5mm x 50mm 200 Pack (984FY)",
+  "selected_variant": "Fixed 5mm x 50mm product; 200 Pack; Product code 984FY",
+  "material_evidence": "Carbon Steel",
+  "specification": "Carbon Steel Construction; Net-Coat Yellow-Plated; Double Self-Countersunk with Underhead Ribs; Wax-Coated; Partially Threaded; Product Code: 984FY",
+  "observed_code": "984FY"
+}

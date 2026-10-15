@@ -1,0 +1,40 @@
+oomp_id: hardware_bolt_m6_100_mm_length
+platform: ebay
+method: codex_builtin_browser
+status: verified
+search_for: M6 x 100 hex head part threaded bolt DIN 931 steel
+evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+100+hex+head+part+threaded+bolt+DIN+931+steel
+reason: Opened the exact eBay result and selected the M6 X 100mm variant. The listing
+  heading says M6 bolts, part threaded, hexagon head, high tensile 8.8 zinc plated;
+  item specifics give Grade 8.8 High Tensile Steel, Bright Zinc Plated (BZP), Hex
+  Head, M6, and MPN DIN 931.
+search_evidence: The exact search results included Steve's Bolts listing M6 (6mmØ)
+  Bolts Part Threaded Hexagon Head High Tensile 8.8 Zinc Plated Screws. Opened it
+  and selected M6 X 100mm from the available lengths; verified item specifics on the
+  listing page.
+attempts:
+- term: M6 x 100 hex head part threaded bolt DIN 931 steel
+  url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+100+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: Search completed; opened Steve's Bolts M6 part-threaded high-tensile hex-bolt
+    listing and selected M6 X 100mm.
+result_url: https://www.ebay.co.uk/itm/266939396740?_skw=M6+x+100+hex+head+part+threaded+bolt+DIN+931+steel&var=566678158783&itmmeta=01M4WQZA5DSQJZKMY6WWRZWRNQ&hash=item3e26d3f284%3Ag%3AQDMAAOSwoNJm4X0g&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BVb%2F5ZJOwnbctqCxue1L80mzD1nmGVpb5xxz0qjerCLKWEqnZl5XYmdt%2BMTGifb9d0wNxKDaX0cGCNctftlOYNC4ucdLPKmG0bSAkN7Yb4yaVvlWUarpfhQjF9vZ1oj74MaCnuExDYnM4zuZJcqUj13XhHFU5wEhYX19FxGLd9j4DE4RDJVTyDTbDBhnn7q6WRlZTsTsfkCWHSyh1DRbTZHyHhwslFPLXZiheGSp8%2BktStEAYsaZBue9Ac5Gu2H24Mk%2FvqzrtHCP4i1kGRUkdEKNsFGur2QMj1qxgEeil0yJ8E5E8nWL2m7lzUU%2FHRitqiDnT34%2FW4wgo6JjGAkXNx%7Ctkp%3ABFBM7KL9l6do
+product_name: M6 (6mmØ) Bolts Part Threaded Hexagon Head High Tensile 8.8 Zinc Plated
+  Screws
+selected_variant: 'Selected Item Length: M6 X 100mm; item specifics: Material Grade
+  8.8 High Tensile Steel; Finish Bright Zinc Plated (BZP); Head Style Hex Head; Screw
+  Size M6; MPN DIN 931.'
+material_evidence: Grade 8.8 High Tensile Steel
+specification: 'Thread Size: M6; Length: 100mm; Form: Part threaded hexagon head bolt;
+  Material: Grade 8.8 High Tensile Steel; Finish: Bright Zinc Plated (BZP); Manufacturing
+  Standard: DIN 931'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T08:21:01.899029+00:00'
+validator_version: 1

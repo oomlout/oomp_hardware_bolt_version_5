@@ -501,3 +501,46 @@ three_d_model_details:
     microtexture_spacing_mm: 0.025
     microtexture_height_um: 0.4
     note: Nylon mechanism confirmed by catalogue owner; blue colour is a visual selection.
+search_data:
+  google:
+    search_for: M1 nylon insert locking nut steel
+    search_url: https://www.google.com/search?q=M1+nylon+insert+locking+nut+steel
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''
+  ebay:
+    search_for: M1 nylon insert locking nut steel
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M1+nylon+insert+locking+nut+steel
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''
+  aliexpress:
+    search_for: M1 nylon insert locking nut steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M1+nylon+insert+locking+nut+steel
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''

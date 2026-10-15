@@ -1461,3 +1461,66 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
+search_data:
+  google:
+    search_for: M4 x 40 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.google.com/search?q=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+    status: verified
+    reason: Opened the Bolt World result directly from the exact Google search. Its
+      selected M4 and 40mm options and specifications identify a partially threaded
+      hexagon head bolt made from high tensile grade 8.8 steel, self colour/black,
+      to DIN 931.
+    result_url: https://boltworld.co.uk/products/m4-x-40mm-hexagon-head-bolts-part-threaded-self-colour-grade-8-8-din-931/
+    product_name: M4 x 40mm Hexagon Head Bolt – High Tensile Grade 8.8 Steel, Self
+      Colour Black, Partially Threaded, DIN 931
+    selected_variant: Selected Thread Size M4 (4mm); selected Length 40mm (SKU 20303.004.040).
+    material_evidence: Steel; Class / Grade 8.8 (high tensile).
+    specification: 'Thread Diameter: M4; Total Length: 40mm (excluding head); Form:
+      Hexagon head, partially threaded; Thread Length (Minimum): 14mm; Material: Steel,
+      grade 8.8; Surface Treatment: Self Colour/Plain (product heading identifies
+      Self Colour Black); Standard: DIN 931.'
+    search_evidence: Google result titled M4 x 40mm Hexagon Head Bolt – Grade 8.8
+      DIN 931 Bolt World led to the opened product page. Other displayed near matches
+      included the wrong length, full thread, wrong diameter and stainless options;
+      they were not selected.
+    evidence_url: https://www.google.com/search?q=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+    checked_at: '2026-10-14T08:13:02.566566+00:00'
+    evidence_file: support_files/evidence/hardware_bolt_m4_40_mm_length/google/f5102dc329cc412397940d80b62ea6df.yaml
+  ebay:
+    search_for: M4 x 40 DIN 931 hex bolt part threaded high tensile steel
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+x+40+DIN+931+hex+bolt+part+threaded+high+tensile+steel
+    status: assumed_non_stocked
+    reason: Both completed eBay searches returned no eligible M4 x 40 partially threaded
+      DIN 931 steel bolt among the inspected results. The closest inspected listing,
+      M4 Hex Set Screw Bolt High Tensile 8.8 Zinc BZP, was selected at 50mm and explicitly
+      DIN 933 fully threaded; the listing's M4 x 40 option is still the wrong thread
+      form. This records only the outcome of these exact searches, not marketplace-wide
+      stock state.
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: Initial query returned 2,000+ results dominated by stainless
+      socket screws, fully threaded set screws and unrelated sizes. One refinement
+      retained M4 x 40, DIN 931, hex bolt and part-thread intent. The inspected Fixaball
+      listing identified its selected length as 50mm and its description as fully
+      threaded DIN 933; its listed M4 x 40 option was also DIN 933. No eligible result
+      was found in the results reviewed.
+    evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+x+40+DIN+931+hex+bolt+part+threaded+high+tensile+steel
+    checked_at: '2026-10-14T08:13:57.374767+00:00'
+    evidence_file: support_files/evidence/hardware_bolt_m4_40_mm_length/ebay/7252747f473341398a6e4d5ac166a64e.yaml
+  aliexpress:
+    search_for: M4 x 40 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''

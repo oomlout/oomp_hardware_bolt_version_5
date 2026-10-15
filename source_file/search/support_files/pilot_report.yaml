@@ -1,0 +1,45 @@
+date: '2026-10-14'
+scope:
+  configured_products: 361
+  platform_rows: 1083
+  live_pilot_products: 3
+  live_pilot_platform_tasks: 5
+  config_changed: false
+  source_repositories_changed: false
+  supplier_mappings_changed: false
+  harvest_run: false
+counts:
+  verified: 3
+  unresolved: 2
+  assumed_non_stocked: 0
+  pending: 1078
+browser_method: Codex built-in browser
+live_pilots:
+  - observation: pilot/google_socket_cap.json
+    result: verified
+    description: Exact M3 x 6 DIN 912 steel grade 12.9 self-colour black socket cap at Bolt World reached from Google.
+  - observation: pilot/ebay_socket_cap.json
+    result: verified
+    description: Native eBay search led to Bolt Base item 231377977479, selected variant 530640141181; M3 x 6, steel, black oxide, DIN 912.
+  - observation: pilot/aliexpress_socket_cap.json
+    result: unresolved
+    description: Browser site-safety policy blocked AliExpress navigation before content could be observed. No workaround attempted; no AliExpress product was verified.
+  - observation: pilot/google_white_washer.json
+    result: unresolved
+    description: Exact M6, 12mm OD, 1.5mm thickness candidate was black nylon according to the seller description frame. Rejected for white-nylon ID; other results not verified during pilot, so no non-stocked assumption.
+  - observation: pilot/google_screwtite.json
+    result: verified
+    description: Google led to Screwfix 984FY; main heading and bullets establish 5mm x 50mm, PZ, double countersunk, carbon steel and Net-Coat Yellow-Plated.
+offline_validation:
+  search_regression_tests: 34
+  full_project_command: test.bat
+  full_project_tests_passed: 1163
+  full_project_exit_code: 0
+  search_csv_check: passed
+  launcher_from_outside_repository: passed
+limitations:
+  - Generated search terms are pending until the agent tests them; the pilot does not establish full platform coverage.
+  - Search rankings and listings can change. Verified means at least one eligible product was reached at the check time, not that every result is correct.
+  - Python checks agent-entered observations offline and cannot independently establish their truth; selected product inspection remains mandatory.
+  - AliExpress cannot be verified in this session because of the browser site-safety policy.
+  - The batch prepares the queue and exports CSV. Live verification runs in a Codex chat using search/START_AGENT.md; the batch does not launch an AI model.

@@ -1,0 +1,37 @@
+oomp_id: hardware_bolt_m5_35_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M5 x 35 hex head part threaded bolt DIN 931 steel
+evidence_url: https://www.google.com/search?q=M5+x+35+hex+head+part+threaded+bolt+DIN+931+steel
+reason: Opened the exact M5 x 35 Accu result from Google. The selected product page
+  specifies a plain hexagon DIN 931 bolt, selected M5 x 35mm, high tensile steel grade
+  8.8, bright zinc plated, with 16mm minimum thread length.
+search_evidence: The Google search displayed the matching Accu result titled M5 x
+  35mm Plain Hexagon Bolts (DIN 931) - Bright Zinc Plated High Tensile Steel (8.8).
+  Wrong DIN 933, stainless and wrong-size near matches were visible but not selected.
+attempts:
+- term: M5 x 35 hex head part threaded bolt DIN 931 steel
+  url: https://www.google.com/search?q=M5+x+35+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: Search completed; opened the exact Accu M5 x 35 DIN 931 high tensile steel
+    product result.
+result_url: https://www.accu.co.uk/metric-hexagon-bolts/640136-SEB-M5-35-8-8-BZP?uk_google_shopping=1&c=3&gad_source=1&gad_campaignid=19697004200&gbraid=0AAAAADI7_w5ip8umiTfCerTey5d4IRXX4&gclid=CjwKCAjw0LzWBhBOEiwAKQd0cIeILuqh90vjQSEyzp8VxGQCm2Tes1vf51RqX6WbtiFB1-wrPZ417hoC9SAQAvD_BwE
+product_name: M5 x 35mm Plain Hexagon Bolts (DIN 931) - Bright Zinc Plated High Tensile
+  Steel (8.8)
+selected_variant: Selected Thread Size M5 (5mm), Length 35mm, Minimum Thread Length
+  16mm.
+material_evidence: Steel - High Tensile (8.8).
+specification: 'Thread Size: M5 (5mm); Length: 35mm; Form: Plain hexagon head, partially
+  threaded DIN 931; Minimum Thread Length: 16mm; Material: Steel - High Tensile (8.8);
+  Finish: Bright Zinc Plated; Standard: DIN 931.'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T08:14:27.072993+00:00'
+validator_version: 1

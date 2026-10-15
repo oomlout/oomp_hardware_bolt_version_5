@@ -1,0 +1,49 @@
+oomp_id: hardware_bolt_m5_65_mm_length
+platform: ebay
+method: codex_builtin_browser
+status: assumed_non_stocked
+search_for: M5 65mm part threaded 8.8 steel hex bolt
+evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+65mm+part+threaded+8.8+steel+hex+bolt
+reason: 'Both exact searches completed. The two inspected non-stainless steel part-threaded
+  M5 hex-bolt listings offered lengths around 65mm but neither offered exactly 65mm:
+  Fastpack offered 50, 60, 70, 80, 90 and 100mm; Balls Nuts And Bolts offered 25,
+  30, 35, 40, 45, 50 and 70mm. Other exact-family results were explicitly stainless
+  or wrong form. No eligible product appeared in the tested searches.'
+search_evidence: Initial search M5 x 65 hex head part threaded bolt DIN 931 steel
+  included Fastpack-York listing 277370942796 titled M5, LONG, Hex Bolts, Part Threaded,
+  BZP, Metric, 8.8 High Tensile. Its size menu offered M5 x 50mm, M5 x 60mm, M5 x
+  70mm, M5 x 80mm, M5 x 90mm, M5 x 100mm, and unrelated nuts/washers; no 65mm. Refinement
+  M5 65mm part threaded 8.8 steel hex bolt included Balls Nuts And Bolts listing 304184206712,
+  M5 Hex Bolt High Tensile 8.8 Zinc BZP DIN 931. Its length menu offered 25, 30, 35,
+  40, 45, 50, 70mm; no 65mm. Multiple other prominent DIN 931 matches were A2 stainless,
+  and some 8.8 matches were fully threaded set screws.
+attempts:
+- term: M5 x 65 hex head part threaded bolt DIN 931 steel
+  url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+x+65+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: Search completed; inspected Fastpack-York item 277370942796, a BZP 8.8
+    high-tensile M5 part-threaded hex bolt. Available sizes included 50, 60 and 70mm
+    but not 65mm.
+- term: M5 65mm part threaded 8.8 steel hex bolt
+  url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+65mm+part+threaded+8.8+steel+hex+bolt
+  completed: true
+  outcome: Search completed; inspected Balls Nuts And Bolts item 304184206712, an
+    M5 8.8 high-tensile zinc BZP DIN 931 hex bolt. Its length menu did not offer 65mm
+    (25, 30, 35, 40, 45, 50, 70mm). Other prominent exact-family results were stainless
+    or fully threaded.
+no_eligible_product: true
+result_url: ''
+product_name: ''
+selected_variant: ''
+material_evidence: ''
+specification: ''
+checks:
+  result_reached_from_search: true
+  selected_variant: false
+  dimensions: false
+  form: false
+  material: false
+  finish: false
+  standard: false
+checked_at: '2026-10-14T08:19:09.930612+00:00'
+validator_version: 1

@@ -13,14 +13,19 @@ tables in `source_file/standards/` and preserves legacy assets.
 
 This repository is part of the larger [oomlout_oomp_version_5](https://github.com/oomlout/oomlout_oomp_version_5) toolchain for building reusable hardware part libraries, rather than a standalone Python package.
 
-Supplier CSVs are copied from `C:\od\OneDrive\docs\project_bolt_web_scraper\data`
-into `source_file/supplier_data/` with `action_update_from_scraper.bat`
-(or `python working_supplier_data.py`).
+Supplier CSVs and search snapshots are copied from
+`C:\od\OneDrive\docs\project_bolt_web_scraper\data` into
+`source_file/supplier_data/` and `source_file/search/` with
+`action_update_from_scraper.bat` (or `python working_supplier_data.py`). The search
+snapshot includes its evidence files.
 Population attaches matching records to each part under a supplier-keyed
 `supplier_data` mapping. Verified SKUs and URLs are combined with harvested
 stock, pack, VAT, capture and price fields; price values remain exact strings.
-The current scraper snapshots are keyed to screw OOMP IDs, so they will only
-attach to bolt-catalogue parts when a supplier mapping has the same OOMP ID.
+Supplier snapshots are keyed to their mapped OOMP IDs and attach only where the
+generated part has the same ID.
+Search results attach under `search_data`, keyed by platform, when the OOMP ID
+matches a generated part. Running `action_make_all.py` regenerates those fields
+in the corresponding `parts/<id>/working.yaml` files.
 
 ## Example Images
 

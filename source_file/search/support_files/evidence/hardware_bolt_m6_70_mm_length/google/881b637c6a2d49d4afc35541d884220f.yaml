@@ -1,0 +1,37 @@
+oomp_id: hardware_bolt_m6_70_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M6 x 70 hex head part threaded bolt DIN 931 steel
+evidence_url: https://www.google.com/search?q=M6+x+70+hex+head+part+threaded+bolt+DIN+931+steel
+reason: Google's exact query returned Bolt World's M6 x 70mm grade 8.8 DIN 931 result.
+  The opened page identifies SKU 20303.060.070 and specifies M6 thread, 70mm total
+  length excluding head, hexagon head, 18mm minimum thread length, steel grade 8.8,
+  self-colour/plain finish and DIN 931.
+search_evidence: Google result M6 x 70mm Hexagon Head Bolt – Grade 8.8 (DIN 931) from
+  Bolt World led to the product page. Nearby stainless results were not used.
+attempts:
+- term: M6 x 70 hex head part threaded bolt DIN 931 steel
+  url: https://www.google.com/search?q=M6+x+70+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: Search completed; opened Bolt World and confirmed SKU 20303.060.070 is
+    M6 x 70mm, grade 8.8 steel, part-threaded DIN 931, self-colour/plain.
+result_url: https://boltworld.co.uk/products/m6-x-70mm-hexagon-head-bolts-part-threaded-din-931-self-colour-black-8-8/
+product_name: M6 x 70mm Hexagon Head Bolt – High Tensile Grade 8.8 Steel, Self Colour
+  Black, Partially Threaded, DIN 931
+selected_variant: SKU 20303.060.070; Thread Diameter M6; Total Length 70mm (excludes
+  head); Thread Length (Minimum) 18mm.
+material_evidence: Steel; Class / Grade 8.8
+specification: 'Thread Size: M6; Length: 70mm; Thread Length (Minimum): 18mm; Head:
+  Hexagon; Drive: External hex; Form: Partially threaded; Material: Steel, Grade 8.8;
+  Surface Treatment: Self Colour/Plain; Standard: DIN 931; SKU: 20303.060.070'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T08:32:20.981772+00:00'
+validator_version: 1

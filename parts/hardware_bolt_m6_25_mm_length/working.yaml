@@ -1461,3 +1461,67 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
+search_data:
+  google:
+    search_for: M6 x 25 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.google.com/search?q=M6+x+25+hex+head+part+threaded+bolt+DIN+931+steel
+    status: verified
+    reason: The exact Google query returned Vital Parts' M6 x 25mm part-threaded DIN
+      931 result. The product page identifies code HH931-M6-25-88-BZP and specifies
+      M6 thread, 25mm length, 18mm threaded length, 8.8 Steel BZP, Hex Head and DIN
+      931; description confirms the partially threaded form and external hex drive
+      for a spanner.
+    result_url: https://www.vital-parts.co.uk/hex-head-bolts-din-931/9213-hh931-m6-25-88-bzp
+    product_name: M6 x 25mm Hex Bolt - Part Threaded (DIN 931) | 8.8 Steel BZP
+    selected_variant: Fixed product code HH931-M6-25-88-BZP; Thread Size M6; Length
+      25mm; Threaded Length 18mm.
+    material_evidence: 8.8 Steel BZP
+    specification: 'Thread Size: M6; Length: 25mm; Threaded Length: 18mm; Head: Hex
+      Head; Drive: External hex for spanner; Form: Part threaded; Material: 8.8 Steel;
+      Finish: Bright Zinc Plated (BZP); Standard: DIN 931; Product code: HH931-M6-25-88-BZP'
+    search_evidence: Google result M6 x 25mm Hex Bolt - Part Threaded (DIN 931) |
+      8.8 Steel BZP from Vital Parts led to the opened product page. Stainless results
+      were not used.
+    evidence_url: https://www.google.com/search?q=M6+x+25+hex+head+part+threaded+bolt+DIN+931+steel
+    checked_at: '2026-10-14T08:29:10.497147+00:00'
+    evidence_file: support_files/evidence/hardware_bolt_m6_25_mm_length/google/2b7ca358e0814429916810b30351cb32.yaml
+  ebay:
+    search_for: M6 x 25 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+25+hex+head+part+threaded+bolt+DIN+931+steel
+    status: verified
+    reason: Opened the exact search result and selected Bolt Size M6 x 25mm. The listing
+      title specifies hexagon head bolts, part threaded, high tensile 8.8 zinc plated;
+      item specifics show MPN DIN 931, high tensile steel, grade 8.8, M6, hex head,
+      spanner or socket drive, and bright zinc plated finish.
+    result_url: https://www.ebay.co.uk/itm/365341419766?_skw=M6+x+25+hex+head+part+threaded+bolt+DIN+931+steel&itmmeta=01M4WR3P3CAN9NAKM94NK3VK6P&hash=item55100ba8f6:g:~1EAAeSwfBJqqZPa&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2F2YDZ0r%2Fv%2BXoGcZc46BN3CnaUL1zOE3j4qCb0pl5QLqqTmNCLFvAu7SAkBR1aZB3TotGim2m3Q4cv2mTvp62lfptH4VBBFFRXS19zXQVkd0S%2FniumN3mcMje9bKiyLdQgjLarcY10fvyE9VywMFASWNkIWF7TqUZqjeKXUwrxdXaqIoFIrqUA9GHS3RyYFJ7PmhyF6aud7Stfj7twN7C6q6BaD%2FSF%2B2owJXb822HEvPErfnYHBerQLwUNfAs6LwljQ8Y90Psxj84prKO9k0oEeoofJa%2BjiM2l4zaJuxsWx5Q6zJpWqAMoeQMA1pkaoQiAZ3W5frtaPLQhcpZufI4V%2FtkHhLD9iWV1puj4Rv3VoIG6ADUEkYsmS3gk%2BCCNXgd%2Fbh%2F7H9Oih0DVG92xzGn26WWOYojn1p30I73L2YSMZ0giUb7UK7zaGYrxEvFy11mKGVnx%2Fm%2BdTMZtD%2BY1Kx%2FiA7JFtJ8aaktwuY134Z60EV0PDR08b%2FRvdImmdSyd%2F6z4fsYRrw5lkdNZ5ZmfW9pEHvE4YC7xFjhtbQG4SD8pTk0JNvsNqAuK3YEIdrtWALfeafdFMVQxZpaFcgwQV6CElRhPAKIQri4HJqt8%2Bp8wCUH4aIUMWD4BgmwoTysJeytJdAdKleQewKrJdnp6G5fWJ6kmFiVAzK1IzbHztUW4xbOaBTvfi1v0SMwAvLn8mTLD59mbO0XXbUZTWGBiu1NQWfMDvUe2SKg35S0h8G2KPtBnAig%2FbPRP9Hc%2BOe7OdOEJTiP6pw22uPNtyKrSN1JMAg4mNjlYNL3CMg4D1zx9T262UrJxP4617ht9ACBDm980dqP9oQonWMBlS4c73C2jt19lZRi0fMgoXcW84ReGyCdOLPlRB8IlD6C3OR9s3S5wrE%2FQboJeq1Biws64e%2B0u%2BlAW0aI2wDsSyusjGkB4tZIoNhomfViwU%2BTRZI2okJvEBS74nz0NOGuHPqKINBabNmGydhrpSbW6oV%2Fz77iAKLB6FbQcIljEH5fgvwEn506WpK4r3KSvKwS2lJNe6udeu6G0IZ045J7H8ZgUkJ%2Bs0d6PVdr5lUBWiOP8jd6iQag105TzrM2quJTEI%2FHdedMBbngxdLzOpYidOnv1urTFj6FnP8ikFk%2BMuql33uFlwg%2BOmmd5TzK16OY0e5beLrQsHT2ATWfSsFKm7J6hQP9TGXGNcnr%2BTLmmKOvyjxUAaP7NV7Cj%2FUE6DeLPidpEMz483B6HtbbymPRK%2BSH2xiGIqRxUUtzOQ7I0l5L4RhKOqssDM%2FMAvXMnkUKeACGB%2BPzOSLFLOdduR2b0%2FrdzdwqJVy1Uw%2BuiKF5aYDv1WWQ%3D%7Ctkp%3ABFBM8oqjpinaA
+    product_name: M6 M8 M10 HEXAGON HEAD BOLTS PART THREADED SCREWS HIGH TENSILE 8.8
+      ZINC PLATED
+    selected_variant: 'Selected Bolt Size: M6 x 25mm; item specifics: MPN DIN 931;
+      Material High Tensile Steel, Grade 8.8; Head Style Hex Head; Drive Style Spanner
+      or Socket; Finish Bright Zinc Plated (BZP). The selected size is visible on
+      the page; variant selection is not encoded in the URL.'
+    material_evidence: High Tensile Steel, Grade 8.8
+    specification: 'Thread Size: M6; Length: 25mm; Form: Part threaded hexagon head
+      bolt; Head: Hex Head; Drive Style: Spanner or Socket; Material: High Tensile
+      Steel, Grade 8.8; Finish: Bright Zinc Plated (BZP); Manufacturing Standard:
+      DIN 931'
+    search_evidence: The exact eBay search result from Kay's Fasteners titled M6 M8
+      M10 HEXAGON HEAD BOLTS PART THREADED SCREWS HIGH TENSILE 8.8 ZINC PLATED was
+      opened. Selected M6 x 25mm and checked the product page specifics.
+    evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+25+hex+head+part+threaded+bolt+DIN+931+steel
+    checked_at: '2026-10-14T08:23:30.766167+00:00'
+    evidence_file: support_files/evidence/hardware_bolt_m6_25_mm_length/ebay/a6fa375c230147fcae08f2c928d2b5ab.yaml
+  aliexpress:
+    search_for: M6 x 25 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+25+hex+head+part+threaded+bolt+DIN+931+steel
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''

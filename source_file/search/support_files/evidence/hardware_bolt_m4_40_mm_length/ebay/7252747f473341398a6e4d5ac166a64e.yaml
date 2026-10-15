@@ -1,0 +1,45 @@
+oomp_id: hardware_bolt_m4_40_mm_length
+platform: ebay
+method: codex_builtin_browser
+status: assumed_non_stocked
+search_for: M4 x 40 DIN 931 hex bolt part threaded high tensile steel
+evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+x+40+DIN+931+hex+bolt+part+threaded+high+tensile+steel
+reason: Both completed eBay searches returned no eligible M4 x 40 partially threaded
+  DIN 931 steel bolt among the inspected results. The closest inspected listing, M4
+  Hex Set Screw Bolt High Tensile 8.8 Zinc BZP, was selected at 50mm and explicitly
+  DIN 933 fully threaded; the listing's M4 x 40 option is still the wrong thread form.
+  This records only the outcome of these exact searches, not marketplace-wide stock
+  state.
+search_evidence: Initial query returned 2,000+ results dominated by stainless socket
+  screws, fully threaded set screws and unrelated sizes. One refinement retained M4
+  x 40, DIN 931, hex bolt and part-thread intent. The inspected Fixaball listing identified
+  its selected length as 50mm and its description as fully threaded DIN 933; its listed
+  M4 x 40 option was also DIN 933. No eligible result was found in the results reviewed.
+no_eligible_product: true
+attempts:
+- term: M4 x 40 hex head part threaded bolt DIN 931 steel
+  url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: Search completed; reviewed displayed listings, which were predominantly
+    stainless, wrong family, wrong head or wrong dimensions. No eligible result identified.
+- term: M4 x 40 DIN 931 hex bolt part threaded high tensile steel
+  url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+x+40+DIN+931+hex+bolt+part+threaded+high+tensile+steel
+  completed: true
+  outcome: Focused refinement completed; inspected the closest high tensile steel
+    listing. It is a fully threaded DIN 933 set screw, with 50mm selected; not eligible
+    for a partially threaded DIN 931 bolt.
+result_url: ''
+product_name: ''
+selected_variant: ''
+material_evidence: ''
+specification: ''
+checks:
+  result_reached_from_search: true
+  selected_variant: false
+  dimensions: false
+  form: false
+  material: false
+  finish: false
+  standard: false
+checked_at: '2026-10-14T08:13:57.374767+00:00'
+validator_version: 1

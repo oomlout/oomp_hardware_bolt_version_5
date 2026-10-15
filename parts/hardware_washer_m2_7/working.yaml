@@ -488,3 +488,46 @@ three_d_model_details:
       variant: full
       pixels: 2048
       view: product
+search_data:
+  google:
+    search_for: M2.7 steel flat washer DIN 125
+    search_url: https://www.google.com/search?q=M2.7+steel+flat+washer+DIN+125
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''
+  ebay:
+    search_for: M2.7 steel flat washer DIN 125
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M2.7+steel+flat+washer+DIN+125
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''
+  aliexpress:
+    search_for: M2.7 steel flat washer DIN 125
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M2.7+steel+flat+washer+DIN+125
+    status: pending
+    reason: ''
+    result_url: ''
+    product_name: ''
+    selected_variant: ''
+    material_evidence: ''
+    specification: ''
+    search_evidence: ''
+    evidence_url: ''
+    checked_at: ''
+    evidence_file: ''
