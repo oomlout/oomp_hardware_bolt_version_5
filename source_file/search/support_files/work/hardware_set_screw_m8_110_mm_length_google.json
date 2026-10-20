@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_set_screw_m8_110_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M8 x 110 hex head fully threaded set screw DIN 933 steel",
+  "evidence_url": "https://www.google.com/search?q=M8+x+110+hex+head+fully+threaded+set+screw+DIN+933+steel",
+  "reason": "The Google search led to the exact Vital Parts M8 x 110 variant. Its product page confirms 8.8 steel BZP, M8 diameter, 110 mm length, DIN 933 and hex head.",
+  "search_evidence": "Google showed the Vital Parts M8 x 110mm 8.8 Steel BZP DIN 933 result. The opened page identifies product code HH933-M8-110-88-BZP and lists thread size M8, length 110mm, material 8.8 Steel BZP, standard DIN 933 and hex head. Its DIN 933 specification and page description confirm fully threaded.",
+  "attempts": [
+    {
+      "term": "M8 x 110 hex head fully threaded set screw DIN 933 steel",
+      "url": "https://www.google.com/search?q=M8+x+110+hex+head+fully+threaded+set+screw+DIN+933+steel",
+      "completed": true,
+      "outcome": "Opened Vital Parts product code HH933-M8-110-88-BZP; exact dimensions, 8.8 steel BZP, DIN 933 hex head and full threading confirmed."
+    }
+  ],
+  "result_url": "https://www.vital-parts.co.uk/hex-set-screws-din-933/10279-hh933-m8-110-88-bzp",
+  "product_name": "M8 x 110mm Set Screw - Hex Head (DIN 933) | 8.8 Steel BZP",
+  "selected_variant": "M8 x 110mm, product code HH933-M8-110-88-BZP",
+  "material_evidence": "Product specification states 8.8 Steel BZP.",
+  "specification": "M8 x 110mm; fully threaded hex head; DIN 933; 8.8 steel BZP.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_washer_m6",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M6 steel flat washer DIN 125",
+  "evidence_url": "https://www.google.com/search?q=M6+steel+flat+washer+DIN+125",
+  "reason": "The exact Google query led to Bolt World's M6 Form A flat washer page. The page states material steel, M6 thread size, 12mm outside diameter, flat washer form, and DIN 125-1A; the selected variant is M6 (SKU 20201.060.000). It is black passivated/zinc plated, with no stainless material indicated.",
+  "search_evidence": "Opened the Google result ‘M6 Form A Flat Washer, Steel Black Passivated DIN 125-1A’. The product page showed SKU 20201.060.000, selected thread size M6, 12mm external diameter, steel material, steel zinc plated black passivated treatment, flat washer shape and DIN 125-1A. Stainless listings were rejected.",
+  "attempts": [
+    {
+      "term": "M6 steel flat washer DIN 125",
+      "url": "https://www.google.com/search?q=M6+steel+flat+washer+DIN+125",
+      "completed": true,
+      "outcome": "Google surfaced an M6 Form A steel black-passivated DIN 125-1A washer at Bolt World; opened and verified selected M6 option and product specifications."
+    }
+  ],
+  "result_url": "https://boltworld.co.uk/products/m6-form-a-flat-washer-steel-zinc-plated-black-passivated-din-125-1a/",
+  "product_name": "M6 Form A Flat Washer, Steel Black Passivated DIN 125-1A",
+  "selected_variant": "Thread Size: M6 (6mm); External Diameter: 12mm; SKU 20201.060.000",
+  "material_evidence": "Steel",
+  "specification": "Thread Size: M6; Form: A flat washer; Outer Diameter: 12mm; Material: Steel; Finish: Steel zinc plated black passivated; Standard: DIN 125-1A",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

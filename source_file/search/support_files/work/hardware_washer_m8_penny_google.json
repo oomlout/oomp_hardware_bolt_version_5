@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_washer_m8_penny",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M8 steel penny washer DIN 9021",
+  "evidence_url": "https://www.google.com/search?q=M8+steel+penny+washer+DIN+9021",
+  "reason": "Google returned Bolt World's M8 penny mudguard washer. Its selected variant is M8, 20mm external diameter and 1.5mm thickness; the page states steel, bright zinc plated, flat washer and DIN 9021.",
+  "search_evidence": "Opened Bolt World from the Google results. The product page states M8 x 20mm x 1.5mm Penny Mudguard Repair Washer Mild Steel Bright Zinc Plated DIN 9021. Fields show Material Steel, Bright Zinc Plated, Internal Hole Diameter M8, External Diameter 20mm, Flat Washer, Standard DIN 9021. Selected option controls show Thread Size M8, OD 20mm, thickness 1.5mm; SKU 20233.080.020F; Available.",
+  "attempts": [
+    {
+      "term": "M8 steel penny washer DIN 9021",
+      "url": "https://www.google.com/search?q=M8+steel+penny+washer+DIN+9021",
+      "completed": true,
+      "outcome": "Opened Bolt World's exact M8 result and verified the selected M8, 20mm OD, 1.5mm thickness variant, steel, BZP finish, flat washer shape and DIN 9021."
+    }
+  ],
+  "result_url": "https://boltworld.co.uk/products/m8-x-20mm-x-1-5mm-penny-mudguard-repair-washer-mild-steel-bright-zinc-plated-din-9021/",
+  "product_name": "M8 x 20mm x 1.5mm Penny Mudguard Repair Washer Mild Steel Bright Zinc Plated DIN 9021",
+  "selected_variant": "Thread Size: M8 (8mm); External Diameter: 20mm; Thickness: 1.5mm; SKU: 20233.080.020F",
+  "material_evidence": "The page states Material: Steel and product title specifies Mild Steel.",
+  "specification": "Thread Size: M8; Penny/mudguard flat washer; Internal hole diameter: M8; External diameter: 20mm; Thickness: 1.5mm; Material: Mild steel/steel; Finish: Bright zinc plated; Standard: DIN 9021",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

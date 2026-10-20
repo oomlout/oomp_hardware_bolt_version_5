@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_washer_m5_penny",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M5 steel penny washer DIN 9021",
+  "evidence_url": "https://www.google.com/search?q=M5+steel+penny+washer+DIN+9021",
+  "reason": "The exact Google search led to Bolt World's M5 Form G penny washer. The live selected options are Thread Size M5 and External Diameter 15mm; the product heading gives 5.3 x 15 x 1.2mm and identifies mild steel, yellow zinc plated and DIN 9021. The product fields confirm steel, yellow zinc plated, flat washer and DIN 9021.",
+  "search_evidence": "Opened Google result ‘M5 Form G Flat Washer, Heavy Duty Penny Mudguard Repair Timber, Mild Steel Yellow Zinc Plated (5.3x15x1.2mm), DIN 9021’ at Bolt World. Page showed SKU 48243.050.000 with M5 and 15mm OD selected. Stainless results were not used.",
+  "attempts": [
+    {
+      "term": "M5 steel penny washer DIN 9021",
+      "url": "https://www.google.com/search?q=M5+steel+penny+washer+DIN+9021",
+      "completed": true,
+      "outcome": "Google surfaced an exact M5 Form G mild-steel yellow-zinc DIN 9021 product at Bolt World; opened it and verified the selected M5, 15mm OD options and product details."
+    }
+  ],
+  "result_url": "https://boltworld.co.uk/products/m5-form-g-flat-washer-heavy-duty-penny-mudguard-repair-timber-mild-steel-yellow-zinc-plated-5-3x15x1-2mm-din-9021/",
+  "product_name": "M5 Form G Flat Washer, Heavy Duty Penny Mudguard Repair Timber, Mild Steel Yellow Zinc Plated (5.3x15x1.2mm), DIN 9021",
+  "selected_variant": "Thread Size: M5 (5mm); External Diameter: 15mm; thickness shown in product heading: 1.2mm; selected SKU: 48243.050.000",
+  "material_evidence": "Steel (product field); product heading specifies mild steel",
+  "specification": "Thread Size: M5; Form: Form G flat penny/mudguard washer; Internal hole diameter: M5; Internal diameter: 5.3mm (product heading); External Diameter: 15mm; Thickness: 1.2mm (product heading); Material: Mild steel/steel; Finish: Yellow zinc plated; Standard: DIN 9021",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

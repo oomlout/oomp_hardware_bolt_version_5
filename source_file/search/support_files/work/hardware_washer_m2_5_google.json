@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_washer_m2_5",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M2.5 steel flat washer DIN 125",
+  "evidence_url": "https://www.google.com/search?q=M2.5+steel+flat+washer+DIN+125",
+  "reason": "The opened Orbital Fasteners product is explicitly an M2.5 mild steel Form A flat washer, bright zinc plated, DIN 125-1A. The page title and SKU identify the exact nominal M2.5 product.",
+  "search_evidence": "The supplied Google query returned Orbital Fasteners' exact M2.5 mild steel washer (SKU 4990550). Opened the product page and verified the exact nominal size, Form A flat form, mild steel, bright zinc plated finish and DIN 125-1A. Stainless and fibre alternatives were not selected.",
+  "attempts": [
+    {
+      "term": "M2.5 steel flat washer DIN 125",
+      "url": "https://www.google.com/search?q=M2.5+steel+flat+washer+DIN+125",
+      "completed": true,
+      "outcome": "Opened Orbital Fasteners SKU 4990550: M2.5 mild steel Form A flat washer, bright zinc plated, DIN 125-1A."
+    }
+  ],
+  "result_url": "https://www.orbitalfasteners.co.uk/products/m2-5-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a",
+  "product_name": "M2.5 Mild Steel Form A Flat Washer Bright Zinc Plated DIN 125 - 1A",
+  "selected_variant": "Fixed product SKU 4990550; nominal size M2.5; no variant controls.",
+  "material_evidence": "Product information states mild steel.",
+  "specification": "Nominal thread size: M2.5; form: Form A flat washer; material: mild steel; finish: bright zinc plated; standard: DIN 125-1A. Page does not state inner diameter, outer diameter or thickness.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

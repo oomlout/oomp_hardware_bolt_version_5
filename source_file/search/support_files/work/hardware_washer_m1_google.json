@@ -1,0 +1,39 @@
+{
+  "oomp_id": "hardware_washer_m1",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "assumed_non_stocked",
+  "no_eligible_product": true,
+  "search_for": "M1 steel flat washer DIN 125",
+  "evidence_url": "https://www.google.com/search?q=M1+steel+flat+washer+DIN+125",
+  "reason": "Completed exact searches for an M1 DIN 125 flat washer returned stainless steel M1 offers and mild steel washers at other sizes, but no eligible M1 non-stainless steel washer. The refinement search also surfaced the Orbital Fasteners M2 mild steel washer, explicitly a different size.",
+  "search_evidence": "The supplied Google query showed an M1 stainless steel washer, while the refined query for M1 mild steel DIN 125 returned stainless steel listings and mild steel washers only at M2/M6/M10 and other sizes. No result was accepted.",
+  "attempts": [
+    {
+      "term": "M1 steel flat washer DIN 125",
+      "url": "https://www.google.com/search?q=M1+steel+flat+washer+DIN+125",
+      "completed": true,
+      "outcome": "Results included M1 A2 stainless steel washers and wrong-size listings; no eligible non-stainless M1 washer found."
+    },
+    {
+      "term": "M1 flat washer mild steel DIN 125 UK",
+      "url": "https://www.google.com/search?q=M1+flat+washer+mild+steel+DIN+125+UK",
+      "completed": true,
+      "outcome": "Results included stainless steel M1 washers and mild steel DIN 125 washers only in other sizes, including M2; no eligible exact M1 product found."
+    }
+  ],
+  "result_url": "",
+  "product_name": "",
+  "selected_variant": "",
+  "material_evidence": "Search results for the M1 candidates explicitly identified A2/A4 stainless steel; the mild steel results were other sizes.",
+  "specification": "No eligible non-stainless steel M1 DIN 125 flat washer located in the completed exact searches.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": false,
+    "dimensions": false,
+    "form": false,
+    "material": false,
+    "finish": false,
+    "standard": false
+  }
+}

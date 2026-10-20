@@ -1,0 +1,38 @@
+{
+  "oomp_id": "hardware_washer_m4_penny",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M4 steel penny washer DIN 9021",
+  "evidence_url": "https://www.google.com/search?q=M4+steel+penny+washer+DIN+9021",
+  "reason": "The Google search led to Grampian Fasteners' DIN 9021 penny washer page. The page specifies mild steel and zinc finish and provides an M4 x 12 mm selectable product row (code 0089.004.012), currently in stock. The standard table identifies DIN 9021 and explains its penny washer proportions.",
+  "search_evidence": "The refinement query returned Grampian Fasteners' ‘Penny Washer, DIN 9021, Mild Steel, Zinc Plated’ product result with an M4 x 12mm variant. Opened the page and verified the selected-size row and material/finish tables. The initial results also contained stainless products and a Bolt World page with conflicting OD text; those were rejected.",
+  "attempts": [
+    {
+      "term": "M4 steel penny washer DIN 9021",
+      "url": "https://www.google.com/search?q=M4+steel+penny+washer+DIN+9021",
+      "completed": true,
+      "outcome": "Results included mild-steel and stainless M4 penny washers. The strongest initially inspected Bolt World candidate had conflicting selected OD information, so it was not accepted."
+    },
+    {
+      "term": "\"M4\" mild steel penny washer DIN 9021",
+      "url": "https://www.google.com/search?q=%22M4%22+mild+steel+penny+washer+DIN+9021",
+      "completed": true,
+      "outcome": "Google surfaced Grampian Fasteners' DIN 9021 mild-steel, zinc-plated penny washer family; opened it and confirmed its M4 x 12mm row."
+    }
+  ],
+  "result_url": "https://www.grampianfasteners.com/product/211",
+  "product_name": "Penny Washer, DIN 9021, Mild Steel, Zinc Plated",
+  "selected_variant": "M4 x 12mm; product code 0089.004.012; in stock",
+  "material_evidence": "Mild Steel",
+  "specification": "Thread Size: M4; Form: Penny washer (DIN 9021); Selected variant: M4 x 12mm; Material grade: Mild Steel; Finish: Zinc; Standard: DIN 9021 (plain penny washer, external diameter = 3x internal diameter)",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

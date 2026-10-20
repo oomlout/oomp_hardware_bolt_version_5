@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_set_screw_m6_12_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M6 x 12 hex head fully threaded set screw DIN 933 steel",
+  "evidence_url": "https://www.google.com/search?q=M6+x+12+hex+head+fully+threaded+set+screw+DIN+933+steel",
+  "reason": "The supplied search term produced an exact Bolt World M6 x 12 mm DIN 933 setscrew listing.",
+  "search_evidence": "The Google image result described an M6 x 12 mm hexagon head fully threaded DIN 933 screw in grade 8.8 steel and BLUE passivated zinc plating. The opened product page confirmed selected M6 thread size and 12 mm length, SKU 51111.060.012, steel grade 8.8, BLUE passivated zinc plated finish, metric thread, 1.00 mm pitch, hexagon head, and DIN 933.",
+  "attempts": [
+    {
+      "term": "M6 x 12 hex head fully threaded set screw DIN 933 steel",
+      "url": "https://www.google.com/search?q=M6+x+12+hex+head+fully+threaded+set+screw+DIN+933+steel",
+      "completed": true,
+      "outcome": "Opened Bolt World SKU 51111.060.012; exact M6 x 12 mm, fully threaded hex head, steel grade 8.8, BLUE passivated zinc plated, DIN 933."
+    }
+  ],
+  "result_url": "https://boltworld.co.uk/products/m6-x-12mm-hexagon-head-fully-threaded-set-screws-bolt-high-tensile-grade-8-8-blue-passivated-zinc-plated-din-933/",
+  "product_name": "M6 x 12mm Hexagon Head Set Screw Bolt – High Tensile Grade 8.8 Steel, BLUE Passivated Zinc Plated, Fully Threaded, DIN 933",
+  "selected_variant": "Thread size M6; length 12 mm; SKU 51111.060.012; grade 8.8; BLUE passivated zinc plated.",
+  "material_evidence": "Steel",
+  "specification": "M6 metric thread, 1.00 mm pitch, 12 mm length, fully threaded hexagon head, high tensile grade 8.8 steel, BLUE passivated zinc plated, DIN 933 (current norm DIN EN 24017; equivalent ISO 4017).",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

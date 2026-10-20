@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_set_screw_m6_22_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M6 x 22 hex head fully threaded set screw DIN 933 steel",
+  "evidence_url": "https://www.google.com/search?q=M6+x+22+hex+head+fully+threaded+set+screw+DIN+933+steel",
+  "reason": "The supplied query produced an exact M6 x 22 mm DIN 933 set screw listing from Orbital Fasteners.",
+  "search_evidence": "The Google results included Orbital Fasteners' M6 x 22 hexagon head high tensile grade 8.8 bright zinc plated DIN 933 product.",
+  "attempts": [
+    {
+      "term": "M6 x 22 hex head fully threaded set screw DIN 933 steel",
+      "url": "https://www.google.com/search?q=M6+x+22+hex+head+fully+threaded+set+screw+DIN+933+steel",
+      "completed": true,
+      "outcome": "Opened Orbital Fasteners product page. It identifies the exact M6 x 22 size, fully threaded hex head, high tensile grade 8.8 steel, bright zinc plating and DIN 933."
+    }
+  ],
+  "result_url": "https://www.orbitalfasteners.co.uk/products/m6-x-22-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated-din-933",
+  "product_name": "M6 x 22 Hexagon Head Set Screws High Tensile Grade 8.8 Bright Zinc Plated, DIN 933",
+  "selected_variant": "SKU 1851182",
+  "material_evidence": "Orbital product description states high tensile steel grade 8.8.",
+  "specification": "M6 x 22 mm, fully threaded hexagon head set screw, high tensile steel grade 8.8, bright zinc plated, DIN 933.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

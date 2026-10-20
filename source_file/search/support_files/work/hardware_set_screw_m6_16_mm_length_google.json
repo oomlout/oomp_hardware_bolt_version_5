@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_set_screw_m6_16_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M6 x 16 hex head fully threaded set screw DIN 933 steel",
+  "evidence_url": "https://www.google.com/search?q=M6+x+16+hex+head+fully+threaded+set+screw+DIN+933+steel",
+  "reason": "The supplied search term produced an exact Bolt World M6 x 16 mm DIN 933 set screw.",
+  "search_evidence": "Google returned an exact M6 x 16 mm fully threaded high tensile grade 8.8 steel product in BLUE passivated zinc plating. Opening the result confirmed the product heading and full selected product details.",
+  "attempts": [
+    {
+      "term": "M6 x 16 hex head fully threaded set screw DIN 933 steel",
+      "url": "https://www.google.com/search?q=M6+x+16+hex+head+fully+threaded+set+screw+DIN+933+steel",
+      "completed": true,
+      "outcome": "Opened Bolt World SKU 51111.060.016; M6 x 16 mm, fully threaded hex head, steel grade 8.8, BLUE passivated zinc plated, DIN 933."
+    }
+  ],
+  "result_url": "https://boltworld.co.uk/products/m6-x-16mm-hexagon-head-fully-threaded-set-screws-bolt-high-tensile-grade-8-8-blue-passivated-zinc-plated-din-933/",
+  "product_name": "M6 x 16mm Hexagon Head Set Screw Bolt – High Tensile Grade 8.8 Steel, BLUE Passivated Zinc Plated, Fully Threaded, DIN 933",
+  "selected_variant": "Single-size product: M6 x 16 mm; SKU 51111.060.016; grade 8.8; BLUE passivated zinc plated.",
+  "material_evidence": "Steel",
+  "specification": "M6 metric thread, 1.00 mm pitch, 16 mm length, fully threaded hexagon head, high tensile grade 8.8 steel, BLUE passivated zinc plated, DIN 933.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

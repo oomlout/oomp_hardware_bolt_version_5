@@ -1,6 +1,7 @@
 import copy
 
 def main(**kwargs):
+    kwargs.setdefault("run_only_yaml", True)
     run_oomp_populate = kwargs.get("run_oomp_populate", True)
     #run_oomp_populate = False
     kwargs["run_oomp_populate"] = run_oomp_populate
@@ -55,6 +56,10 @@ def run(**kwargs):
     if kwargs.get("run_action", True):
         import working_action
         working_action.main(**kwargs)    
+
+    if kwargs.get("run_only_yaml", False):
+        import working_only_yaml
+        working_only_yaml.main(**kwargs)
 
 
 

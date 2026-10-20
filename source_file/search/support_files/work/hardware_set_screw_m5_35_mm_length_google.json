@@ -1,0 +1,17 @@
+{
+  "oomp_id": "hardware_set_screw_m5_35_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M5 x 35 hex head fully threaded set screw DIN 933 steel",
+  "evidence_url": "https://www.google.com/search?q=M5+x+35+hex+head+fully+threaded+set+screw+DIN+933+steel",
+  "reason": "Orbital Fasteners result is the exact M5 x 35 fully threaded DIN 933 hexagon head set screw in high tensile grade 8.8 steel; the page confirms zinc yellow finish.",
+  "search_evidence": "Google result titled M5 x 35 Hexagon Head Set Screws High Tensile Grade 8.8 Zinc Yellow, DIN 933 led to this product page; stainless alternatives were rejected.",
+  "attempts": [{"term":"M5 x 35 hex head fully threaded set screw DIN 933 steel","url":"https://www.google.com/search?q=M5+x+35+hex+head+fully+threaded+set+screw+DIN+933+steel","completed":true,"outcome":"Opened Orbital Fasteners page; heading and description confirm M5 x 35, high tensile grade 8.8 steel, zinc yellow, fully threaded hexagon head DIN 933; SKU 1851135."}],
+  "result_url": "https://www.orbitalfasteners.co.uk/products/m5x35-88-hex-set-zy-box-200-din-933-yellow",
+  "product_name": "M5 X 35 HEXAGON HEAD SET SCREWS HIGH TENSILE GRADE 8.8 ZINC YELLOW, DIN 933 *25% OFF FULL BOXES*",
+  "selected_variant": "Single-size product: M5 x 35mm, high tensile grade 8.8 steel, zinc yellow; SKU 1851135",
+  "material_evidence": "Steel",
+  "specification": "Thread Size: M5; Length: 35mm; Thread form: fully threaded; Drive: external hexagon; Head Style: hexagon head; Material: high tensile grade 8.8 steel; Finish: zinc yellow; Standard: DIN 933",
+  "checks": {"result_reached_from_search":true,"selected_variant":true,"dimensions":true,"form":true,"material":true,"finish":true,"standard":true}
+}

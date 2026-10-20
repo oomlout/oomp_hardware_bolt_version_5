@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_set_screw_m4_8_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M4 x 8 hex head fully threaded set screw DIN 933 steel",
+  "evidence_url": "https://www.google.com/search?q=M4+x+8+hex+head+fully+threaded+set+screw+DIN+933+steel",
+  "reason": "Orbital Fasteners page confirms M4 x 8, hexagon head, fully threaded, high tensile grade 8.8 steel, bright zinc plated and DIN 933.",
+  "search_evidence": "Google result opened the matching Orbital Fasteners M4 x 8 Grade 8.8 BZP DIN 933 page. Stainless results were rejected.",
+  "attempts": [
+    {
+      "term": "M4 x 8 hex head fully threaded set screw DIN 933 steel",
+      "url": "https://www.google.com/search?q=M4+x+8+hex+head+fully+threaded+set+screw+DIN+933+steel",
+      "completed": true,
+      "outcome": "Opened Orbital Fasteners product page; verified M4 x 8, hexagon head, fully threaded, high tensile grade 8.8 steel BZP and DIN 933. SKU 1850990. Rejected stainless listings."
+    }
+  ],
+  "result_url": "https://www.orbitalfasteners.co.uk/products/m4-x-8-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated",
+  "product_name": "M4 x 8 Hexagon Head Set Screws High Tensile Grade 8.8 Bright Zinc Plated, DIN 933",
+  "selected_variant": "Single-size product: M4 x 8mm, high tensile grade 8.8 steel, bright zinc plated; SKU 1850990",
+  "material_evidence": "Steel",
+  "specification": "Diameter: M4; Length: 8mm; Thread: fully threaded; Drive: external hexagon; Head: hexagon head; Material: high tensile grade 8.8 steel; Finish: bright zinc plated; Standard: DIN 933",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

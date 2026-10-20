@@ -1,0 +1,38 @@
+{
+  "oomp_id": "hardware_washer_m2_penny",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "unresolved",
+  "search_for": "M2 steel penny washer DIN 9021",
+  "evidence_url": "https://www.google.com/search?q=M2+steel+penny+washer+DIN+9021",
+  "reason": "The exact M2 search exposed a possible Google result for an M2-M30 carbon-steel DIN 9021 washer listing, but its snippet also contradictorily says ‘carbon steel stainless steel’, and no exact M2 option or material was selected and verified. The steel Fabory DIN 9021 product family inspected from the result list has M2.5 as its smallest variant. Stainless M2 candidates are ineligible. The plausible listing remains ambiguous, so this cannot be called verified or assumed_non_stocked.",
+  "search_evidence": "The initial Google results included a Fabory DIN 9021 Form G steel 140 HV family. Its variant list showed M2.5, M3, M4 and larger, with no M2 variant. Other exact M2 candidates shown were A2/A4 stainless. The focused query returned an eBay result titled ‘M2-M30 Black Flat Washers Grade 8.8 High Tensile Penny’ with a snippet claiming carbon steel and also saying stainless steel; no selected variant was checked.",
+  "attempts": [
+    {
+      "term": "M2 steel penny washer DIN 9021",
+      "url": "https://www.google.com/search?q=M2+steel+penny+washer+DIN+9021",
+      "completed": true,
+      "outcome": "Found an exact M2 steel DIN 9021 family lead at Fabory, but the checked family variants begin at M2.5. Other M2 results were explicitly stainless."
+    },
+    {
+      "term": "\"M2\" carbon steel penny washer DIN 9021",
+      "url": "https://www.google.com/search?q=%22M2%22+carbon+steel+penny+washer+DIN+9021",
+      "completed": true,
+      "outcome": "A potential M2-M30 carbon-steel DIN 9021 result appeared, but its snippet contradicts itself by also stating stainless steel and gives no selected size. Exact product/material remains unverified."
+    }
+  ],
+  "result_url": "",
+  "product_name": "",
+  "selected_variant": "",
+  "material_evidence": "",
+  "specification": "",
+  "checks": {
+    "result_reached_from_search": false,
+    "selected_variant": false,
+    "dimensions": false,
+    "form": false,
+    "material": false,
+    "finish": false,
+    "standard": false
+  }
+}

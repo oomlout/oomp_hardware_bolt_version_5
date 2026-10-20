@@ -1,0 +1,17 @@
+{
+  "oomp_id": "hardware_set_screw_m5_20_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M5 x 20 hex head fully threaded set screw DIN 933 steel",
+  "evidence_url": "https://www.google.com/search?q=M5+x+20+hex+head+fully+threaded+set+screw+DIN+933+steel",
+  "reason": "The exact M5 x 20 option is selected on a DIN 933 page that verifies steel grade 8.8, full threading, hex head and blue passivated zinc plating.",
+  "search_evidence": "Google result led to Bolt World M5 x 20 high tensile steel DIN 933 product; stainless results were rejected.",
+  "attempts": [{"term":"M5 x 20 hex head fully threaded set screw DIN 933 steel","url":"https://www.google.com/search?q=M5+x+20+hex+head+fully+threaded+set+screw+DIN+933+steel","completed":true,"outcome":"Opened Bolt World product; M5 and selected 20mm variant confirmed, SKU 51111.050.020. Page specifies steel, grade 8.8, blue passivated zinc plated, hexagon, fully threaded, DIN 933 and 0.80mm pitch."}],
+  "result_url": "https://boltworld.co.uk/products/m5-x-20mm-hexagon-head-fully-threaded-set-screws-bolt-high-tensile-grade-8-8-blue-passivated-zinc-plated-din-933/",
+  "product_name": "M5 X 20mm Hexagon Head Set Screw Bolt – High Tensile Grade 8.8 Steel, BLUE Passivated Zinc Plated, Fully Threaded, DIN 933",
+  "selected_variant": "Selected options: M5 thread size and 20mm length; SKU 51111.050.020",
+  "material_evidence": "Steel",
+  "specification": "Thread Diameter: M5; Length: 20mm; Thread form: fully threaded; Drive: external hexagon; Head Shape: hexagon; Material: steel grade 8.8; Finish: blue passivated zinc plated; Standard: DIN 933; Pitch: 0.80mm",
+  "checks": {"result_reached_from_search":true,"selected_variant":true,"dimensions":true,"form":true,"material":true,"finish":true,"standard":true}
+}

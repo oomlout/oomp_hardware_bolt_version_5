@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_set_screw_m8_100_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M8 x 100 hex head fully threaded set screw DIN 933 steel",
+  "evidence_url": "https://www.google.com/search?q=M8+x+100+hex+head+fully+threaded+set+screw+DIN+933+steel",
+  "reason": "The Google result opened to the exact Orbital Fasteners M8 x 100 product. Its page states high tensile steel grade 8.8, zinc yellow, DIN 933 and fully threaded hexagon head.",
+  "search_evidence": "Google returned Orbital Fasteners for the exact supplied query. The opened product page title specifies M8 x 100, grade 8.8, zinc yellow and DIN 933; product text confirms fully threaded hexagon headed set screw and high tensile steel grade 8.8 zinc yellow. Page SKU 1851419.",
+  "attempts": [
+    {
+      "term": "M8 x 100 hex head fully threaded set screw DIN 933 steel",
+      "url": "https://www.google.com/search?q=M8+x+100+hex+head+fully+threaded+set+screw+DIN+933+steel",
+      "completed": true,
+      "outcome": "Opened Orbital Fasteners SKU 1851419; exact M8 x 100, fully threaded hex head, grade 8.8 steel, zinc yellow, DIN 933 confirmed."
+    }
+  ],
+  "result_url": "https://www.orbitalfasteners.co.uk/products/m8x100-88-hex-set-zy-box-100-din-933-yellow",
+  "product_name": "M8 x 100 Hexagon Head Set Screws High Tensile Grade 8.8 Zinc Yellow, DIN 933",
+  "selected_variant": "M8 x 100, SKU 1851419, grade 8.8, zinc yellow",
+  "material_evidence": "Product page states high tensile steel grade 8.8.",
+  "specification": "M8 x 100; hexagon head; fully threaded; DIN 933; high tensile steel grade 8.8; zinc yellow finish.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

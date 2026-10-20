@@ -1,0 +1,39 @@
+{
+  "oomp_id": "hardware_washer_m1_5",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "assumed_non_stocked",
+  "no_eligible_product": true,
+  "search_for": "M1.5 steel flat washer DIN 125",
+  "evidence_url": "https://www.google.com/search?q=M1.5+steel+flat+washer+DIN+125",
+  "reason": "Completed exact searches returned stainless steel listings, irrelevant sizes and a DIN 125 range page explicitly headed stainless steel. No eligible non-stainless M1.5 flat washer was found.",
+  "search_evidence": "The initial query returned a stainless steel M1.7 washer, M1 assortment explicitly made from A2/304 stainless steel, and wrong-size mild steel products. The focused mild steel query returned only wrong-size M5 washer listings and the same A2 range; the plausible PTS DIN 125 page was inspected and explicitly identifies its Form A range as stainless steel.",
+  "attempts": [
+    {
+      "term": "M1.5 steel flat washer DIN 125",
+      "url": "https://www.google.com/search?q=M1.5+steel+flat+washer+DIN+125",
+      "completed": true,
+      "outcome": "No exact eligible product in results; displayed M1 assortment is A2/304 stainless and other products were wrong size."
+    },
+    {
+      "term": "M1.5 flat washer mild steel DIN 125",
+      "url": "https://www.google.com/search?q=M1.5+flat+washer+mild+steel+DIN+125",
+      "completed": true,
+      "outcome": "No exact eligible product in results; only wrong-size mild steel listings and stainless alternatives. Inspected PTS DIN 125 result, whose page is explicitly stainless steel."
+    }
+  ],
+  "result_url": "",
+  "product_name": "",
+  "selected_variant": "",
+  "material_evidence": "The plausible M1 and M1.7 product results specify A2/304 stainless steel; inspected PTS page heading specifies stainless steel Form A washers.",
+  "specification": "No eligible non-stainless steel M1.5 DIN 125 flat washer located.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": false,
+    "dimensions": false,
+    "form": false,
+    "material": false,
+    "finish": false,
+    "standard": false
+  }
+}

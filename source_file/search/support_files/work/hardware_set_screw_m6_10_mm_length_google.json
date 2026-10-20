@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_set_screw_m6_10_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M6 x 10 hex head fully threaded set screw DIN 933 steel",
+  "evidence_url": "https://www.google.com/search?q=M6+x+10+hex+head+fully+threaded+set+screw+DIN+933+steel",
+  "reason": "The supplied search term produced an exact Fusion Fixings M6 x 10 mm DIN 933 setscrew listing.",
+  "search_evidence": "The Google result described an M6 x 10 mm fully threaded hex set screw in BZP grade 8.8 high tensile steel. The opened Fusion Fixings page confirmed item code HSS-MBZP-0610, thread diameter 6 mm, length 10 mm, pitch 1 mm, hex head, 8.8 steel, bright zinc plated finish, DIN 933.",
+  "attempts": [
+    {
+      "term": "M6 x 10 hex head fully threaded set screw DIN 933 steel",
+      "url": "https://www.google.com/search?q=M6+x+10+hex+head+fully+threaded+set+screw+DIN+933+steel",
+      "completed": true,
+      "outcome": "Opened Fusion Fixings HSS-MBZP-0610; exact M6 x 10 mm, fully threaded hex head, 8.8 steel, bright zinc plated, DIN 933."
+    }
+  ],
+  "result_url": "https://www.fusionfixings.co.uk/products/m6-x-10mm-set-screw-fully-threaded-bolt-bzp-din-933",
+  "product_name": "M6 x 10mm Hex Set Screw (Fully Threaded Bolt) 8.8 high tensile steel, BZP, DIN 933",
+  "selected_variant": "M6 x 10 mm; item code HSS-MBZP-0610; 8.8 high tensile steel; bright zinc plated.",
+  "material_evidence": "Steel",
+  "specification": "M6 metric thread, 1 mm pitch, 10 mm length, fully threaded hex head set screw, 8.8 high tensile steel, bright zinc plated (BZP), DIN 933.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

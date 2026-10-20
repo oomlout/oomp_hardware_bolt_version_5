@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_set_screw_m6_nylon_white_20_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "unresolved",
+  "search_for": "M6 x 20 hex head fully threaded set screw DIN 933 white nylon",
+  "evidence_url": "https://www.google.com/search?q=M6+x+20+hex+head+fully+threaded+set+screw+DIN+933+white+nylon",
+  "reason": "Google returned a plausible Ubuy product titled Hex Bolts DIN 933 Plastic White - Polyamide PA Nylon (M6 x 20mm Pack of 25), and its result snippet says fully threaded. The opened product page rendered only a blank product shell, item number placeholder and country modal, without a product name, selected variant, material details or specifications. Exact product verification is incomplete.",
+  "search_evidence": "The exact Google query returned the Ubuy Ecuador listing titled Hex Bolts DIN 933 Plastic White - Polyamide PA Nylon Plastic Screws (M6 x 20mm Pack of 25); the search snippet specifies M6 x 20 and fully threaded. Other supplier results identify natural nylon, which does not by itself establish white. The Ubuy page did not render its product details when opened.",
+  "attempts": [
+    {
+      "term": "M6 x 20 hex head fully threaded set screw DIN 933 white nylon",
+      "url": "https://www.google.com/search?q=M6+x+20+hex+head+fully+threaded+set+screw+DIN+933+white+nylon",
+      "completed": false,
+      "outcome": "Google results loaded; opened the plausible Ubuy listing, but its product page showed no item details beyond an empty shell/country modal. Lookup incomplete."
+    }
+  ],
+  "result_url": "https://www.ubuy.ec/en/productde/UCJE48OO0-hex-bolts-din-933-plastic-white-polyamide-pa-nylon-plastic-screws-m6-x-20mm-pack-of-25",
+  "product_name": "Hex Bolts DIN 933 Plastic White - Polyamide PA Nylon Plastic Screws (M6 x 20mm Pack of 25)",
+  "selected_variant": "Search result describes M6 x 20mm; product page did not render selected variant details.",
+  "material_evidence": "Search result title says plastic white polyamide PA nylon; selected product page did not render material details.",
+  "specification": "Search result title/snippet indicates M6 x 20mm, white polyamide nylon, DIN 933 and fully threaded; selected product page details unavailable.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": false,
+    "dimensions": false,
+    "form": false,
+    "material": false,
+    "finish": false,
+    "standard": false
+  }
+}

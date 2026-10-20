@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_set_screw_m8_130_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M8 x 130 hex head fully threaded set screw DIN 933 steel",
+  "evidence_url": "https://www.google.com/search?q=M8+x+130+hex+head+fully+threaded+set+screw+DIN+933+steel",
+  "reason": "The Google result led to the exact Orbital Fasteners M8 x 130 product. Its page confirms grade 8.8 high tensile steel, bright zinc plated finish, DIN 933 and fully threaded hexagon head.",
+  "search_evidence": "Google returned the Orbital Fasteners product for the supplied query. Its opened page specifies M8 x 130, SKU 1851415, grade 8.8 bright zinc plated, DIN 933 and fully threaded hexagon headed set screw made from high tensile steel grade 8.8 bright zinc plated.",
+  "attempts": [
+    {
+      "term": "M8 x 130 hex head fully threaded set screw DIN 933 steel",
+      "url": "https://www.google.com/search?q=M8+x+130+hex+head+fully+threaded+set+screw+DIN+933+steel",
+      "completed": true,
+      "outcome": "Opened Orbital Fasteners SKU 1851415; exact M8 x 130, fully threaded hex head, grade 8.8 steel, bright zinc plated, DIN 933 confirmed."
+    }
+  ],
+  "result_url": "https://www.orbitalfasteners.co.uk/products/m8-x-130-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated-",
+  "product_name": "M8 x 130 Hexagon Head Set Screws High Tensile Grade 8.8 Bright Zinc Plated, DIN 933",
+  "selected_variant": "M8 x 130, SKU 1851415, grade 8.8 bright zinc plated",
+  "material_evidence": "Product page states high tensile steel grade 8.8.",
+  "specification": "M8 x 130; fully threaded hexagon head; DIN 933; grade 8.8 steel; bright zinc plated.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

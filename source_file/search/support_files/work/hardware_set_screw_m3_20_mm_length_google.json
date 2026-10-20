@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_set_screw_m3_20_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M3 x 20 hex head fully threaded set screw DIN 933 steel",
+  "evidence_url": "https://www.google.com/search?q=M3+x+20+hex+head+fully+threaded+set+screw+DIN+933+steel",
+  "reason": "Fusion Fixings page confirms M3 x 20, hex head, fully threaded form, high tensile 8.8 steel, bright zinc plated finish and DIN 933.",
+  "search_evidence": "Google result linked to Fusion Fixings M3 x 20mm Hex Set Screw (Fully Threaded Bolt) 8.8 high tensile steel, BZP, DIN 933.",
+  "attempts": [
+    {
+      "term": "M3 x 20 hex head fully threaded set screw DIN 933 steel",
+      "url": "https://www.google.com/search?q=M3+x+20+hex+head+fully+threaded+set+screw+DIN+933+steel",
+      "completed": true,
+      "outcome": "Opened Fusion Fixings page; verified M3 x 20, 0.5mm pitch, hex head, fully threaded form, high tensile 8.8 steel, bright zinc plated finish and DIN 933."
+    }
+  ],
+  "result_url": "https://www.fusionfixings.co.uk/products/m3-x-20mm-set-screw-fully-threaded-bolt-bzp-din-933",
+  "product_name": "M3 x 20mm Hex Set Screw (Fully Threaded Bolt) 8.8 high tensile steel, BZP, DIN 933",
+  "selected_variant": "M3 x 20mm, 0.5mm pitch, grade 8.8 steel BZP",
+  "material_evidence": "Technical Specification identifies Material: 8.8 steel.",
+  "specification": "Diameter: M3; Length: 20mm; Thread: fully threaded, 0.5mm pitch; Drive: external hexagon; Head: hex, 5.5mm max width, 2.12mm max height; Material: high tensile 8.8 steel; Finish: bright zinc plated; Standard: DIN 933",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

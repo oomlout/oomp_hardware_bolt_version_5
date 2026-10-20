@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_set_screw_m6_nylon_white_30_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "unresolved",
+  "search_for": "M6 x 30 hex head fully threaded set screw DIN 933 white nylon",
+  "evidence_url": "https://www.google.com/search?q=M6+x+30+hex+head+fully+threaded+set+screw+DIN+933+white+nylon",
+  "reason": "The opened Orbital Fasteners SKU 5093210 page explicitly describes grade 66 natural colour nylon, which does not prove white. Google also returned exact-size nylon listings without an explicit colour, so an eligible white product remains ambiguous.",
+  "search_evidence": "Google returned Orbital Fasteners M6 x 30, Bolt World M6 x 30 and other exact-length nylon results. The opened Orbital page identifies SKU 5093210 and states 'Grade 66 natural colour nylon hexagon head set screw'; Bolt World and Vital Parts likewise describe natural nylon. Natural does not satisfy the explicit white requirement; other results do not state colour.",
+  "attempts": [
+    {
+      "term": "M6 x 30 hex head fully threaded set screw DIN 933 white nylon",
+      "url": "https://www.google.com/search?q=M6+x+30+hex+head+fully+threaded+set+screw+DIN+933+white+nylon",
+      "completed": true,
+      "outcome": "Opened exact Orbital result, SKU 5093210. Page verifies M6 x 30 hex head DIN 933 nylon but states natural colour, not white. Other exact results are natural or colour-unspecified."
+    }
+  ],
+  "result_url": "https://www.orbitalfasteners.co.uk/products/m6-x-30-nylon-hexagon-head-set-screw-din-933",
+  "product_name": "M6 X 30 NYLON HEXAGON HEAD SET SCREW DIN 933",
+  "selected_variant": "Fixed M6 x 30 mm product, SKU 5093210; page specifies natural colour Nylon 66.",
+  "material_evidence": "Page states Grade 66 natural colour nylon.",
+  "specification": "M6 x 30 mm; hexagon head set screw; DIN 933; Grade 66 natural colour nylon. Required white colour not established.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": false,
+    "finish": false,
+    "standard": true
+  }
+}

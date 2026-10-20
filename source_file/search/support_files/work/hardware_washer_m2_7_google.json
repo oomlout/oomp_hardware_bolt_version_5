@@ -1,0 +1,38 @@
+{
+  "oomp_id": "hardware_washer_m2_7",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "unresolved",
+  "search_for": "M2.7 steel flat washer DIN 125",
+  "evidence_url": "https://www.google.com/search?q=M2.7+steel+flat+washer+DIN+125",
+  "reason": "The supplied query was misinterpreted as M27. A focused exact-phrase search found an nVent/Schroff M2.7 zinc-yellow flat washer page, but opening it reached a DataDome device verification block. Aramfix's DIN 125A catalog filtered to M2.7 exposed only a brass variant. The blocked candidate's material remains unknown, so this is unresolved.",
+  "search_evidence": "The initial Google query returned M27 listings, not M2.7. The refinement `\"M2.7\" flat washer steel DIN 125` returned an exact M2.7 nVent/Schroff result describing metal and zinc yellow plated, but the product page displayed a DataDome verification interstitial. The Aramfix result range was filtered to DIN 125A and M2.7; it showed a single Brass / PLAIN Brass product, which was rejected.",
+  "attempts": [
+    {
+      "term": "M2.7 steel flat washer DIN 125",
+      "url": "https://www.google.com/search?q=M2.7+steel+flat+washer+DIN+125",
+      "completed": true,
+      "outcome": "Search results were interpreted as M27 and showed M27 washers; no exact M2.7 product in initial results."
+    },
+    {
+      "term": "\"M2.7\" flat washer steel DIN 125",
+      "url": "https://www.google.com/search?q=%22M2.7%22+flat+washer+steel+DIN+125",
+      "completed": true,
+      "outcome": "Opened Google result for nVent/Schroff article 21100721; supplier page presented a DataDome device verification block before product details. Aramfix DIN 125A M2.7 catalog row showed Brass, so it was rejected."
+    }
+  ],
+  "result_url": "",
+  "product_name": "",
+  "selected_variant": "",
+  "material_evidence": "Aramfix's exact M2.7 DIN 125A catalog row states Brass and was rejected. The nVent/Schroff Google snippet states only metal, which does not verify steel.",
+  "specification": "Potential nVent/Schroff M2.7 zinc yellow plated flat washer candidate blocked by DataDome; exact material and standard details not verified.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": false,
+    "dimensions": false,
+    "form": false,
+    "material": false,
+    "finish": false,
+    "standard": false
+  }
+}

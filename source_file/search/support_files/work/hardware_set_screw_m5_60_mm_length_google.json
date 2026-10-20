@@ -1,0 +1,17 @@
+{
+  "oomp_id": "hardware_set_screw_m5_60_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M5 x 60 hex head fully threaded set screw DIN 933 steel",
+  "evidence_url": "https://www.google.com/search?q=M5+x+60+hex+head+fully+threaded+set+screw+DIN+933+steel",
+  "reason": "Orbital Fasteners exact product page confirms M5 x 60mm DIN 933 fully threaded hexagon head, high tensile grade 8.8 steel and bright zinc plated finish.",
+  "search_evidence": "The supplied Google query led to the exact-size Orbital product page; stainless alternatives were rejected.",
+  "attempts": [{"term":"M5 x 60 hex head fully threaded set screw DIN 933 steel","url":"https://www.google.com/search?q=M5+x+60+hex+head+fully+threaded+set+screw+DIN+933+steel","completed":true,"outcome":"Opened Orbital Fasteners product SKU 1851143. Page confirms M5 x 60, high tensile grade 8.8 steel, bright zinc plated, fully threaded hexagon head and DIN 933."}],
+  "result_url": "https://www.orbitalfasteners.co.uk/products/m5-x-60-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated-",
+  "product_name": "M5 x 60 Hexagon Head Set Screws High Tensile Grade 8.8 Bright Zinc Plated, DIN 933",
+  "selected_variant": "Single-size product: M5 x 60mm high tensile grade 8.8 steel, bright zinc plated; SKU 1851143",
+  "material_evidence": "Steel",
+  "specification": "Thread Size: M5; Length: 60mm; Thread form: fully threaded; Drive: external hexagon; Head Style: hexagon head; Material: high tensile grade 8.8 steel; Finish: bright zinc plated; Standard: DIN 933",
+  "checks": {"result_reached_from_search":true,"selected_variant":true,"dimensions":true,"form":true,"material":true,"finish":true,"standard":true}
+}

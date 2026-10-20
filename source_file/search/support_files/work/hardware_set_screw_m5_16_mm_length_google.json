@@ -1,0 +1,17 @@
+{
+  "oomp_id": "hardware_set_screw_m5_16_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M5 x 16 hex head fully threaded set screw DIN 933 steel",
+  "evidence_url": "https://www.google.com/search?q=M5+x+16+hex+head+fully+threaded+set+screw+DIN+933+steel",
+  "reason": "Google result led to a matching M5 x 16 DIN 933 high tensile steel set screw; the product page shows the dimensions, grade, finish and form.",
+  "search_evidence": "Google returned the Bolt World 8.8 BZP result for M5 x 16. Stainless steel results were rejected.",
+  "attempts": [{"term":"M5 x 16 hex head fully threaded set screw DIN 933 steel","url":"https://www.google.com/search?q=M5+x+16+hex+head+fully+threaded+set+screw+DIN+933+steel","completed":true,"outcome":"Opened Bolt World single-size page, SKU 20323.050.016; verified M5, 16mm, steel grade 8.8, bright zinc plated, hexagon head, DIN 933 and full-threaded product title."}],
+  "result_url": "https://boltworld.co.uk/products/m5-x-16mm-hexagon-head-set-screws-bolt-high-tensile-grade-8-8-bright-zinc-plated-din-933/",
+  "product_name": "M5 X 16mm Hexagon Head Set Screw Bolt – High Tensile Grade 8.8 Steel, Bright Zinc Plated (BZP), Fully Threaded, DIN 933",
+  "selected_variant": "Single-size product: M5 x 16mm, steel grade 8.8, bright zinc plated; SKU 20323.050.016",
+  "material_evidence": "Steel",
+  "specification": "Thread Diameter: M5; Length: 16mm; Thread form: fully threaded; Drive: external hexagon; Head Shape: hexagon; Material: steel grade 8.8; Finish: bright zinc plated; Standard: DIN 933; Pitch: 0.80mm",
+  "checks": {"result_reached_from_search":true,"selected_variant":true,"dimensions":true,"form":true,"material":true,"finish":true,"standard":true}
+}

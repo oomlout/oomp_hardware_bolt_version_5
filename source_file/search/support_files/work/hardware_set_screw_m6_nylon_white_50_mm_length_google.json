@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_set_screw_m6_nylon_white_50_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M6 x 50 hex head fully threaded set screw DIN 933 white nylon",
+  "evidence_url": "https://www.google.com/search?q=M6+x+50+hex+head+fully+threaded+set+screw+DIN+933+white+nylon",
+  "reason": "The Google result opened to the exact M6 x 50 listing. The product page explicitly identifies DIN933, fully threaded, white plastic nylon, hex head and Colour White. The page currently says unavailable, which is recorded as availability context and does not change the product specification.",
+  "search_evidence": "Google result for the exact supplied query showed the Ochoos listing. The opened Amazon.ca product page title and image description state DIN933, M6 x 50, fully threaded, white plastic nylon and hexagon hex head; product information lists Colour White. The item is currently unavailable.",
+  "attempts": [
+    {
+      "term": "M6 x 50 hex head fully threaded set screw DIN 933 white nylon",
+      "url": "https://www.google.com/search?q=M6+x+50+hex+head+fully+threaded+set+screw+DIN+933+white+nylon",
+      "completed": true,
+      "outcome": "Opened the exact Ochoos product listing. Product title and item details confirm M6 x 50, DIN933, fully threaded, hex head, white plastic nylon and Colour White. Page indicates currently unavailable."
+    }
+  ],
+  "result_url": "https://www.amazon.ca/Ochoos-Threaded-Plastic-Hexagon-Setscrews/dp/B07R686XS8",
+  "product_name": "Ochoos 200pcs DIN933 M6 x 50 Fully Threaded White Plastic Nylon Bolts Hexagon Hex Head Bolt Set Screw Setscrews",
+  "selected_variant": "M6 x 50 DIN933 fully threaded hex head; white plastic nylon",
+  "material_evidence": "Product title states White Plastic Nylon; item details list Colour White.",
+  "specification": "M6 x 50; DIN933; fully threaded; hexagon hex head; white nylon.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

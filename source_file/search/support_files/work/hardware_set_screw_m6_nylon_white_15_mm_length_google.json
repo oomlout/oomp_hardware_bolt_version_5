@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_set_screw_m6_nylon_white_15_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "unresolved",
+  "search_for": "M6 x 15 hex head fully threaded set screw DIN 933 white nylon",
+  "evidence_url": "https://www.google.com/search?q=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon",
+  "reason": "Google returned an exact-size Bolt World nylon product, but the selected product page does not identify the nylon colour as white. The page identifies Nylon 66 but does not establish eligibility for this nylon_white ID. The exact-length eBay result was not opened because that platform is blocked.",
+  "search_evidence": "The exact Google query returned Bolt World's M6 x 15mm hexagon head set screw. Its product page shows the selected M6 (6mm) and 15mm options, nylon (plastic), fully threaded DIN 933 form, but does not state the colour. Google also returned an eBay result describing White (Natural), but eBay is blocked and was not inspected.",
+  "attempts": [
+    {
+      "term": "M6 x 15 hex head fully threaded set screw DIN 933 white nylon",
+      "url": "https://www.google.com/search?q=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon",
+      "completed": true,
+      "outcome": "Opened the exact-size Bolt World result; product page verifies M6 x 15, Nylon 66 and DIN 933 hex head form, but colour is unspecified. An eBay listing appeared in Google results but was not opened because eBay is blocked."
+    }
+  ],
+  "result_url": "https://boltworld.co.uk/products/m6-x-15mm-nylon-plastic-hexagon-head-set-screw-fully-threaded-bolts-din-933/",
+  "product_name": "M6 X 15mm Hexagon Head Set Screw Bolt – Nylon 66 (Plastic), Fully Threaded, DIN 933",
+  "selected_variant": "M6 (6mm) thread size and 15mm length selected; page does not identify colour.",
+  "material_evidence": "Product page states Nylon (Plastic), Class/Grade 66; colour is not specified.",
+  "specification": "Thread size: M6; Length: 15mm; Material: Nylon 66 (Plastic); Thread: Metric; Head shape: Hexagon Bolt; Standard: DIN 933; Colour: not stated.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": false,
+    "finish": false,
+    "standard": true
+  }
+}

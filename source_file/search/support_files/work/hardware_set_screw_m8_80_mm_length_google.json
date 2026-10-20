@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_set_screw_m8_80_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M8 x 80 hex head fully threaded set screw DIN 933 steel",
+  "evidence_url": "https://www.google.com/search?q=M8+x+80+hex+head+fully+threaded+set+screw+DIN+933+steel",
+  "reason": "Exact dimensions, fully threaded hex form, grade 10.9 steel, bright zinc plated finish and DIN 933 verified on selected product page.",
+  "search_evidence": "Google returned Orbital Fasteners' M8 x 80 fully threaded hexagon headed set screw in high tensile grade 10.9 steel, bright zinc plated; opened the page and verified SKU and specification.",
+  "attempts": [
+    {
+      "term": "M8 x 80 hex head fully threaded set screw DIN 933 steel",
+      "url": "https://www.google.com/search?q=M8+x+80+hex+head+fully+threaded+set+screw+DIN+933+steel",
+      "completed": true,
+      "outcome": "Opened Orbital Fasteners SKU 1851418: M8 x 80, fully threaded hex head, high tensile steel grade 10.9, bright zinc plated, DIN 933."
+    }
+  ],
+  "result_url": "https://www.orbitalfasteners.co.uk/products/m8x80-109-hex-set-bzp-box-100-din-933",
+  "product_name": "M8 x 80 Hexagon Head Set Screws High Tensile, Grade 10.9, Bright Zinc Plated, DIN 933",
+  "selected_variant": "SKU 1851418; M8 x 80; fully threaded; hexagon head; grade 10.9; bright zinc plated",
+  "material_evidence": "Product page states made from high tensile steel grade 10.9.",
+  "specification": "M8 x 80 mm fully threaded hexagon head set screw, DIN 933; high tensile steel grade 10.9; bright zinc plated.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

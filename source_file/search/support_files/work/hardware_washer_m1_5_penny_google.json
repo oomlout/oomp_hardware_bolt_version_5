@@ -1,0 +1,39 @@
+{
+  "oomp_id": "hardware_washer_m1_5_penny",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "assumed_non_stocked",
+  "no_eligible_product": true,
+  "search_for": "M1.5 steel penny washer DIN 9021",
+  "evidence_url": "https://www.google.com/search?q=M1.5+steel+penny+washer+DIN+9021",
+  "reason": "Completed exact searches found DIN 9021 steel penny washers only in other sizes; the only exact-search M1.5-adjacent results were stainless or not the requested size. The supplier page inspected was a mild steel Form G range, but the search/page did not expose an M1.5 product.",
+  "search_evidence": "The initial query returned M5 steel/stainless DIN 9021 washers and other sizes. The focused refinement returned steel/zinc plated DIN 9021 products including M5, M8 and M16, with Google indicating M1.5 was missing. The Orbital Fasteners Form G mild steel category page was opened; it names the correct material/form/standard family but exposed no product sizes or M1.5 exact product.",
+  "attempts": [
+    {
+      "term": "M1.5 steel penny washer DIN 9021",
+      "url": "https://www.google.com/search?q=M1.5+steel+penny+washer+DIN+9021",
+      "completed": true,
+      "outcome": "Results showed penny washers in M5 and other sizes, plus stainless offers; no exact M1.5 non-stainless product."
+    },
+    {
+      "term": "M1.5 DIN 9021 large flat washer steel zinc plated",
+      "url": "https://www.google.com/search?q=M1.5+DIN+9021+large+flat+washer+steel+zinc+plated",
+      "completed": true,
+      "outcome": "Results showed steel DIN 9021 washers for M5 and larger sizes; inspected Orbital mild steel Form G family page, which did not expose an M1.5 product."
+    }
+  ],
+  "result_url": "",
+  "product_name": "",
+  "selected_variant": "",
+  "material_evidence": "Exact-size relevant offers identified by the searches were stainless steel; the non-stainless steel category result did not expose an M1.5 variant.",
+  "specification": "No eligible non-stainless M1.5 DIN 9021 penny washer located in completed exact searches.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": false,
+    "dimensions": false,
+    "form": false,
+    "material": false,
+    "finish": false,
+    "standard": false
+  }
+}

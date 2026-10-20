@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_washer_m5",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M5 steel flat washer DIN 125",
+  "evidence_url": "https://www.google.com/search?q=M5+steel+flat+washer+DIN+125",
+  "reason": "The exact Google search led to Orbital Fasteners' M5 mild-steel Form A flat washer. Its heading and product information state M5, 5.3 x 10.0 x 1.0 mm ID x OD x thickness, mild steel, bright zinc plating, and DIN 125-1A.",
+  "search_evidence": "Google result for Orbital Fasteners was titled ‘M5 Mild Steel Form A Flat Washer Bright Zinc Plated DIN 125 - 1A (5.3x10x1mm)’. Opened the page; SKU 1711020 and the listed dimensions, material, finish and standard matched. Stainless results were rejected.",
+  "attempts": [
+    {
+      "term": "M5 steel flat washer DIN 125",
+      "url": "https://www.google.com/search?q=M5+steel+flat+washer+DIN+125",
+      "completed": true,
+      "outcome": "Google exposed an exact M5 mild-steel Form A DIN 125-1A washer at Orbital Fasteners; opened and verified the product page."
+    }
+  ],
+  "result_url": "https://www.orbitalfasteners.co.uk/products/m5-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-5-3x10x1mm-",
+  "product_name": "M5 MILD STEEL FORM A FLAT WASHER BRIGHT ZINC PLATED DIN 125 - 1A (5.3X10X1MM)",
+  "selected_variant": "Single product: M5 Form A, 5.3 x 10.0 x 1.0mm",
+  "material_evidence": "Mild steel",
+  "specification": "Thread size: M5; Form: A flat washer; Internal diameter: 5.3mm; External diameter: 10.0mm; Thickness: 1.0mm; Material: Mild steel; Finish: Bright zinc plated; Standard: DIN 125-1A",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}
