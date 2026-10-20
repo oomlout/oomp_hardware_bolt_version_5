@@ -83,6 +83,225 @@ oomlout_ai_roboclick_1:
             name_proper: Hardware Washer M5 Penny
             name_space: hardware washer m5 penny
             name_upper: HARDWARE WASHER M5 PENNY
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M5 steel penny washer DIN 9021
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M5+steel+penny+washer+DIN+9021
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M5 steel penny washer DIN 9021
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+steel+penny+washer+DIN+9021
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T11:35:56.126130+00:00'
+                    evidence_file: support_files/evidence/hardware_washer_m5_penny/google/aaca871a00b244489a9255dbc49e8471.yaml
+                    evidence_url: https://www.google.com/search?q=M5+steel+penny+washer+DIN+9021
+                    material_evidence: Steel (product field); product heading specifies
+                        mild steel
+                    product_name: M5 Form G Flat Washer, Heavy Duty Penny Mudguard
+                        Repair Timber, Mild Steel Yellow Zinc Plated (5.3x15x1.2mm),
+                        DIN 9021
+                    reason: The exact Google search led to Bolt World's M5 Form G
+                        penny washer. The live selected options are Thread Size M5
+                        and External Diameter 15mm; the product heading gives 5.3
+                        x 15 x 1.2mm and identifies mild steel, yellow zinc plated
+                        and DIN 9021. The product fields confirm steel, yellow zinc
+                        plated, flat washer and DIN 9021.
+                    result_url: https://boltworld.co.uk/products/m5-form-g-flat-washer-heavy-duty-penny-mudguard-repair-timber-mild-steel-yellow-zinc-plated-5-3x15x1-2mm-din-9021/
+                    search_evidence: "Opened Google result \u2018M5 Form G Flat Washer,\
+                        \ Heavy Duty Penny Mudguard Repair Timber, Mild Steel Yellow\
+                        \ Zinc Plated (5.3x15x1.2mm), DIN 9021\u2019 at Bolt World.\
+                        \ Page showed SKU 48243.050.000 with M5 and 15mm OD selected.\
+                        \ Stainless results were not used."
+                    search_for: M5 steel penny washer DIN 9021
+                    search_url: https://www.google.com/search?q=M5+steel+penny+washer+DIN+9021
+                    selected_variant: 'Thread Size: M5 (5mm); External Diameter: 15mm;
+                        thickness shown in product heading: 1.2mm; selected SKU: 48243.050.000'
+                    specification: 'Thread Size: M5; Form: Form G flat penny/mudguard
+                        washer; Internal hole diameter: M5; Internal diameter: 5.3mm
+                        (product heading); External Diameter: 15mm; Thickness: 1.2mm
+                        (product heading); Material: Mild steel/steel; Finish: Yellow
+                        zinc plated; Standard: DIN 9021'
+                    status: verified
+            supplier_data:
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T01:10:32.430153+00:00'
+                    currency: GBP
+                    html_sha256: 6021d268f555262b0ecb31dfd3c4d545cfd568caed1b7cacfabf4c572e48c8be
+                    name: M5 Form G Flat Washer, Heavy Duty Penny Mudguard Repair
+                        Timber, Mild Steel BLUE Passivated Zinc Plated (5.3x15x1.2mm),
+                        DIN 9021
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:03:42.242079+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'For Use With Thread Size: M5 (5mm); External
+                        Diameter (OD): 15mm; Internal Diameter (ID): 5.3mm; Thickness
+                        (T): 1.2mm; Material: Mild Steel; Finish: BLUE Passivated
+                        Zinc Plated; Manufacturing Standard: DIN 9021; Material Specification:
+                        Mild Steel; Metric or Imperial?: Metric'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 51330.050.000
+                    supplier_part_number: 51330.050.000
+                    supplier_website: https://dibolt.co.uk/products/m5-form-g-flat-washer-heavy-duty-penny-mudguard-repair-timber-mild-steel-blue-passivated-zinc-plated-5-3x15x1-2mm-din-9021
+                    tiers:
+                    -   maximum: 999
+                        minimum: 1
+                        source_text: "1 - 999 \xA33.20 Per 100 Units"
+                        source_unit_price: '0.032'
+                        source_vat_basis: exclusive
+                        unit_price: '0.03840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_text: "1,000 - 4,999 \xA32.88 Per 100 Units"
+                        source_unit_price: '0.0288'
+                        source_vat_basis: exclusive
+                        unit_price: '0.034560'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 5000
+                        source_text: "5,000+ \xA32.56 Per 100 Units"
+                        source_unit_price: '0.0256'
+                        source_vat_basis: exclusive
+                        unit_price: '0.030720'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.03840'
+                    total_price_10: '0.38400'
+                    total_price_100: '3.84000'
+                    total_price_1000: '34.560000'
+                    total_price_10000: '307.200000'
+                    unit_price_1: '0.03840'
+                    unit_price_10: '0.03840'
+                    unit_price_100: '0.03840'
+                    unit_price_1000: '0.034560'
+                    unit_price_10000: '0.030720'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-18T09:26:25.146734+00:00'
+                    currency: GBP
+                    family_description: 'Penny washers. Also called repair washers,
+                        mudguard washers. Bright zinc plated steel. PLEASE NOTE: THESE
+                        ARE SOLD IN PACKS OF 100'
+                    family_heading: PENNY WASHER ZINC PLATED STEEL
+                    html_sha256: 1f2149bcbddd01ab8c58e507b57431caa606403a1516f1c846d1ff4ded286a7d
+                    name: M5 x 20mm PENNY WASHER ZINC PLATED STEEL PACK OF 100
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:31:26.299160+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M5 x 20mm PENNY WASHER ZINC PLATED STEEL
+                        PACK OF 100
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: 'PENNY WASHER ZINC PLATED STEEL; Penny washers.
+                        Also called repair washers, mudguard washers. Bright zinc
+                        plated steel. PLEASE NOTE: THESE ARE SOLD IN PACKS OF 100'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M5-x-20mm-PENNY-WASHER-ZINC-PLATED-STEEL-PACK-OF-100
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M5-x-20mm-PENNY-WASHER-ZINC-PLATED-STEEL-PACK-OF-100
+                    supplier_website: https://www.kayfast.co.uk/view-product/PENNY-WASHER-ZINC-PLATED-STEEL
+                    tiers:
+                    -   maximum: 4
+                        minimum: 1
+                        source_price_per_100: '2.42'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 4 @ \xA32.42 per 100"
+                        source_unit_price: '0.0242'
+                        source_vat_basis: exclusive
+                        unit_price: '0.029040'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 19
+                        minimum: 5
+                        source_price_per_100: '1.10'
+                        source_price_quantity: 100
+                        source_text: "QTY 5 -  19 @ \xA31.10 per 100"
+                        source_unit_price: '0.011'
+                        source_vat_basis: exclusive
+                        unit_price: '0.01320'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 20
+                        source_price_per_100: '0.99'
+                        source_price_quantity: 100
+                        source_text: "QTY 20 + @ \xA30.99 per 100"
+                        source_unit_price: '0.0099'
+                        source_vat_basis: exclusive
+                        unit_price: '0.011880'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.029040'
+                    total_price_10: '0.13200'
+                    total_price_100: '1.188000'
+                    total_price_1000: '11.880000'
+                    total_price_10000: '118.800000'
+                    unit_price_1: '0.029040'
+                    unit_price_10: '0.01320'
+                    unit_price_100: '0.011880'
+                    unit_price_1000: '0.011880'
+                    unit_price_10000: '0.011880'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
             taxonomy_1: hardware
             taxonomy_10: ''
             taxonomy_11: ''
@@ -339,6 +558,237 @@ oomlout_ai_roboclick_2:
                         name_proper: Hardware Washer M5 Penny
                         name_space: hardware washer m5 penny
                         name_upper: HARDWARE WASHER M5 PENNY
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M5 steel penny washer DIN 9021
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M5+steel+penny+washer+DIN+9021
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M5 steel penny washer DIN 9021
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+steel+penny+washer+DIN+9021
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T11:35:56.126130+00:00'
+                                evidence_file: support_files/evidence/hardware_washer_m5_penny/google/aaca871a00b244489a9255dbc49e8471.yaml
+                                evidence_url: https://www.google.com/search?q=M5+steel+penny+washer+DIN+9021
+                                material_evidence: Steel (product field); product
+                                    heading specifies mild steel
+                                product_name: M5 Form G Flat Washer, Heavy Duty Penny
+                                    Mudguard Repair Timber, Mild Steel Yellow Zinc
+                                    Plated (5.3x15x1.2mm), DIN 9021
+                                reason: The exact Google search led to Bolt World's
+                                    M5 Form G penny washer. The live selected options
+                                    are Thread Size M5 and External Diameter 15mm;
+                                    the product heading gives 5.3 x 15 x 1.2mm and
+                                    identifies mild steel, yellow zinc plated and
+                                    DIN 9021. The product fields confirm steel, yellow
+                                    zinc plated, flat washer and DIN 9021.
+                                result_url: https://boltworld.co.uk/products/m5-form-g-flat-washer-heavy-duty-penny-mudguard-repair-timber-mild-steel-yellow-zinc-plated-5-3x15x1-2mm-din-9021/
+                                search_evidence: "Opened Google result \u2018M5 Form\
+                                    \ G Flat Washer, Heavy Duty Penny Mudguard Repair\
+                                    \ Timber, Mild Steel Yellow Zinc Plated (5.3x15x1.2mm),\
+                                    \ DIN 9021\u2019 at Bolt World. Page showed SKU\
+                                    \ 48243.050.000 with M5 and 15mm OD selected.\
+                                    \ Stainless results were not used."
+                                search_for: M5 steel penny washer DIN 9021
+                                search_url: https://www.google.com/search?q=M5+steel+penny+washer+DIN+9021
+                                selected_variant: 'Thread Size: M5 (5mm); External
+                                    Diameter: 15mm; thickness shown in product heading:
+                                    1.2mm; selected SKU: 48243.050.000'
+                                specification: 'Thread Size: M5; Form: Form G flat
+                                    penny/mudguard washer; Internal hole diameter:
+                                    M5; Internal diameter: 5.3mm (product heading);
+                                    External Diameter: 15mm; Thickness: 1.2mm (product
+                                    heading); Material: Mild steel/steel; Finish:
+                                    Yellow zinc plated; Standard: DIN 9021'
+                                status: verified
+                        supplier_data:
+                            dibolt:
+                                accepted_warnings: '["Dibolt per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-14T01:10:32.430153+00:00'
+                                currency: GBP
+                                html_sha256: 6021d268f555262b0ecb31dfd3c4d545cfd568caed1b7cacfabf4c572e48c8be
+                                name: M5 Form G Flat Washer, Heavy Duty Penny Mudguard
+                                    Repair Timber, Mild Steel BLUE Passivated Zinc
+                                    Plated (5.3x15x1.2mm), DIN 9021
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:03:42.242079+00:00'
+                                parser_version: dibolt-1.3-missing-price-review
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept the precision
+                                    of rounded displayed per-100 prices."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: 'For Use With Thread Size: M5 (5mm);
+                                    External Diameter (OD): 15mm; Internal Diameter
+                                    (ID): 5.3mm; Thickness (T): 1.2mm; Material: Mild
+                                    Steel; Finish: BLUE Passivated Zinc Plated; Manufacturing
+                                    Standard: DIN 9021; Material Specification: Mild
+                                    Steel; Metric or Imperial?: Metric'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: dibolt
+                                supplier_id: 51330.050.000
+                                supplier_part_number: 51330.050.000
+                                supplier_website: https://dibolt.co.uk/products/m5-form-g-flat-washer-heavy-duty-penny-mudguard-repair-timber-mild-steel-blue-passivated-zinc-plated-5-3x15x1-2mm-din-9021
+                                tiers:
+                                -   maximum: 999
+                                    minimum: 1
+                                    source_text: "1 - 999 \xA33.20 Per 100 Units"
+                                    source_unit_price: '0.032'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.03840'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 4999
+                                    minimum: 1000
+                                    source_text: "1,000 - 4,999 \xA32.88 Per 100 Units"
+                                    source_unit_price: '0.0288'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.034560'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 5000
+                                    source_text: "5,000+ \xA32.56 Per 100 Units"
+                                    source_unit_price: '0.0256'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.030720'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.03840'
+                                total_price_10: '0.38400'
+                                total_price_100: '3.84000'
+                                total_price_1000: '34.560000'
+                                total_price_10000: '307.200000'
+                                unit_price_1: '0.03840'
+                                unit_price_10: '0.03840'
+                                unit_price_100: '0.03840'
+                                unit_price_1000: '0.034560'
+                                unit_price_10000: '0.030720'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Dibolt per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
+                            kayfast:
+                                accepted_warnings: '["Kayfast per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-18T09:26:25.146734+00:00'
+                                currency: GBP
+                                family_description: 'Penny washers. Also called repair
+                                    washers, mudguard washers. Bright zinc plated
+                                    steel. PLEASE NOTE: THESE ARE SOLD IN PACKS OF
+                                    100'
+                                family_heading: PENNY WASHER ZINC PLATED STEEL
+                                html_sha256: 1f2149bcbddd01ab8c58e507b57431caa606403a1516f1c846d1ff4ded286a7d
+                                name: M5 x 20mm PENNY WASHER ZINC PLATED STEEL PACK
+                                    OF 100
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:31:26.299160+00:00'
+                                parser_version: kayfast-1.6-family-description
+                                price_breaks_description: M5 x 20mm PENNY WASHER ZINC
+                                    PLATED STEEL PACK OF 100
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-17", "statement": "Use the exact row
+                                    dropdown price per 100 divided by 100 with Decimal
+                                    precision; accept the captured per-100 display
+                                    precision."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "Kayfast
+                                    prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+                                specifications: 'PENNY WASHER ZINC PLATED STEEL; Penny
+                                    washers. Also called repair washers, mudguard
+                                    washers. Bright zinc plated steel. PLEASE NOTE:
+                                    THESE ARE SOLD IN PACKS OF 100'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: kayfast
+                                supplier_id: M5-x-20mm-PENNY-WASHER-ZINC-PLATED-STEEL-PACK-OF-100
+                                supplier_id_basis: exact dimensional row description;
+                                    spaces replaced by hyphens (user clarification
+                                    2026-10-11)
+                                supplier_part_number: M5-x-20mm-PENNY-WASHER-ZINC-PLATED-STEEL-PACK-OF-100
+                                supplier_website: https://www.kayfast.co.uk/view-product/PENNY-WASHER-ZINC-PLATED-STEEL
+                                tiers:
+                                -   maximum: 4
+                                    minimum: 1
+                                    source_price_per_100: '2.42'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 1 - 4 @ \xA32.42 per 100"
+                                    source_unit_price: '0.0242'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.029040'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 19
+                                    minimum: 5
+                                    source_price_per_100: '1.10'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 5 -  19 @ \xA31.10 per 100"
+                                    source_unit_price: '0.011'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.01320'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 20
+                                    source_price_per_100: '0.99'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 20 + @ \xA30.99 per 100"
+                                    source_unit_price: '0.0099'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.011880'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.029040'
+                                total_price_10: '0.13200'
+                                total_price_100: '1.188000'
+                                total_price_1000: '11.880000'
+                                total_price_10000: '118.800000'
+                                unit_price_1: '0.029040'
+                                unit_price_10: '0.01320'
+                                unit_price_100: '0.011880'
+                                unit_price_1000: '0.011880'
+                                unit_price_10000: '0.011880'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Kayfast per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
                         taxonomy_1: hardware
                         taxonomy_10: ''
                         taxonomy_11: ''
@@ -580,6 +1030,225 @@ oomlout_ai_roboclick_2:
                     search_and_replace: []
                 file_test: label_oomp.pdf
                 retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M5 steel penny washer DIN 9021
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M5+steel+penny+washer+DIN+9021
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M5 steel penny washer DIN 9021
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+steel+penny+washer+DIN+9021
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T11:35:56.126130+00:00'
+                    evidence_file: support_files/evidence/hardware_washer_m5_penny/google/aaca871a00b244489a9255dbc49e8471.yaml
+                    evidence_url: https://www.google.com/search?q=M5+steel+penny+washer+DIN+9021
+                    material_evidence: Steel (product field); product heading specifies
+                        mild steel
+                    product_name: M5 Form G Flat Washer, Heavy Duty Penny Mudguard
+                        Repair Timber, Mild Steel Yellow Zinc Plated (5.3x15x1.2mm),
+                        DIN 9021
+                    reason: The exact Google search led to Bolt World's M5 Form G
+                        penny washer. The live selected options are Thread Size M5
+                        and External Diameter 15mm; the product heading gives 5.3
+                        x 15 x 1.2mm and identifies mild steel, yellow zinc plated
+                        and DIN 9021. The product fields confirm steel, yellow zinc
+                        plated, flat washer and DIN 9021.
+                    result_url: https://boltworld.co.uk/products/m5-form-g-flat-washer-heavy-duty-penny-mudguard-repair-timber-mild-steel-yellow-zinc-plated-5-3x15x1-2mm-din-9021/
+                    search_evidence: "Opened Google result \u2018M5 Form G Flat Washer,\
+                        \ Heavy Duty Penny Mudguard Repair Timber, Mild Steel Yellow\
+                        \ Zinc Plated (5.3x15x1.2mm), DIN 9021\u2019 at Bolt World.\
+                        \ Page showed SKU 48243.050.000 with M5 and 15mm OD selected.\
+                        \ Stainless results were not used."
+                    search_for: M5 steel penny washer DIN 9021
+                    search_url: https://www.google.com/search?q=M5+steel+penny+washer+DIN+9021
+                    selected_variant: 'Thread Size: M5 (5mm); External Diameter: 15mm;
+                        thickness shown in product heading: 1.2mm; selected SKU: 48243.050.000'
+                    specification: 'Thread Size: M5; Form: Form G flat penny/mudguard
+                        washer; Internal hole diameter: M5; Internal diameter: 5.3mm
+                        (product heading); External Diameter: 15mm; Thickness: 1.2mm
+                        (product heading); Material: Mild steel/steel; Finish: Yellow
+                        zinc plated; Standard: DIN 9021'
+                    status: verified
+            supplier_data:
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T01:10:32.430153+00:00'
+                    currency: GBP
+                    html_sha256: 6021d268f555262b0ecb31dfd3c4d545cfd568caed1b7cacfabf4c572e48c8be
+                    name: M5 Form G Flat Washer, Heavy Duty Penny Mudguard Repair
+                        Timber, Mild Steel BLUE Passivated Zinc Plated (5.3x15x1.2mm),
+                        DIN 9021
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:03:42.242079+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'For Use With Thread Size: M5 (5mm); External
+                        Diameter (OD): 15mm; Internal Diameter (ID): 5.3mm; Thickness
+                        (T): 1.2mm; Material: Mild Steel; Finish: BLUE Passivated
+                        Zinc Plated; Manufacturing Standard: DIN 9021; Material Specification:
+                        Mild Steel; Metric or Imperial?: Metric'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 51330.050.000
+                    supplier_part_number: 51330.050.000
+                    supplier_website: https://dibolt.co.uk/products/m5-form-g-flat-washer-heavy-duty-penny-mudguard-repair-timber-mild-steel-blue-passivated-zinc-plated-5-3x15x1-2mm-din-9021
+                    tiers:
+                    -   maximum: 999
+                        minimum: 1
+                        source_text: "1 - 999 \xA33.20 Per 100 Units"
+                        source_unit_price: '0.032'
+                        source_vat_basis: exclusive
+                        unit_price: '0.03840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_text: "1,000 - 4,999 \xA32.88 Per 100 Units"
+                        source_unit_price: '0.0288'
+                        source_vat_basis: exclusive
+                        unit_price: '0.034560'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 5000
+                        source_text: "5,000+ \xA32.56 Per 100 Units"
+                        source_unit_price: '0.0256'
+                        source_vat_basis: exclusive
+                        unit_price: '0.030720'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.03840'
+                    total_price_10: '0.38400'
+                    total_price_100: '3.84000'
+                    total_price_1000: '34.560000'
+                    total_price_10000: '307.200000'
+                    unit_price_1: '0.03840'
+                    unit_price_10: '0.03840'
+                    unit_price_100: '0.03840'
+                    unit_price_1000: '0.034560'
+                    unit_price_10000: '0.030720'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-18T09:26:25.146734+00:00'
+                    currency: GBP
+                    family_description: 'Penny washers. Also called repair washers,
+                        mudguard washers. Bright zinc plated steel. PLEASE NOTE: THESE
+                        ARE SOLD IN PACKS OF 100'
+                    family_heading: PENNY WASHER ZINC PLATED STEEL
+                    html_sha256: 1f2149bcbddd01ab8c58e507b57431caa606403a1516f1c846d1ff4ded286a7d
+                    name: M5 x 20mm PENNY WASHER ZINC PLATED STEEL PACK OF 100
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:31:26.299160+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M5 x 20mm PENNY WASHER ZINC PLATED STEEL
+                        PACK OF 100
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: 'PENNY WASHER ZINC PLATED STEEL; Penny washers.
+                        Also called repair washers, mudguard washers. Bright zinc
+                        plated steel. PLEASE NOTE: THESE ARE SOLD IN PACKS OF 100'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M5-x-20mm-PENNY-WASHER-ZINC-PLATED-STEEL-PACK-OF-100
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M5-x-20mm-PENNY-WASHER-ZINC-PLATED-STEEL-PACK-OF-100
+                    supplier_website: https://www.kayfast.co.uk/view-product/PENNY-WASHER-ZINC-PLATED-STEEL
+                    tiers:
+                    -   maximum: 4
+                        minimum: 1
+                        source_price_per_100: '2.42'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 4 @ \xA32.42 per 100"
+                        source_unit_price: '0.0242'
+                        source_vat_basis: exclusive
+                        unit_price: '0.029040'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 19
+                        minimum: 5
+                        source_price_per_100: '1.10'
+                        source_price_quantity: 100
+                        source_text: "QTY 5 -  19 @ \xA31.10 per 100"
+                        source_unit_price: '0.011'
+                        source_vat_basis: exclusive
+                        unit_price: '0.01320'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 20
+                        source_price_per_100: '0.99'
+                        source_price_quantity: 100
+                        source_text: "QTY 20 + @ \xA30.99 per 100"
+                        source_unit_price: '0.0099'
+                        source_vat_basis: exclusive
+                        unit_price: '0.011880'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.029040'
+                    total_price_10: '0.13200'
+                    total_price_100: '1.188000'
+                    total_price_1000: '11.880000'
+                    total_price_10000: '118.800000'
+                    unit_price_1: '0.029040'
+                    unit_price_10: '0.01320'
+                    unit_price_100: '0.011880'
+                    unit_price_1000: '0.011880'
+                    unit_price_10000: '0.011880'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
             taxonomy_1: hardware
             taxonomy_10: ''
             taxonomy_11: ''
@@ -827,9 +1496,218 @@ oomlout_ai_roboclick_3:
     file_test: ''
 oomp_key: oomp_hardware_washer_m5_penny
 run_action: true
+run_only_yaml: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M5 steel penny washer DIN 9021
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M5+steel+penny+washer+DIN+9021
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M5 steel penny washer DIN 9021
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+steel+penny+washer+DIN+9021
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T11:35:56.126130+00:00'
+        evidence_file: support_files/evidence/hardware_washer_m5_penny/google/aaca871a00b244489a9255dbc49e8471.yaml
+        evidence_url: https://www.google.com/search?q=M5+steel+penny+washer+DIN+9021
+        material_evidence: Steel (product field); product heading specifies mild steel
+        product_name: M5 Form G Flat Washer, Heavy Duty Penny Mudguard Repair Timber,
+            Mild Steel Yellow Zinc Plated (5.3x15x1.2mm), DIN 9021
+        reason: The exact Google search led to Bolt World's M5 Form G penny washer.
+            The live selected options are Thread Size M5 and External Diameter 15mm;
+            the product heading gives 5.3 x 15 x 1.2mm and identifies mild steel,
+            yellow zinc plated and DIN 9021. The product fields confirm steel, yellow
+            zinc plated, flat washer and DIN 9021.
+        result_url: https://boltworld.co.uk/products/m5-form-g-flat-washer-heavy-duty-penny-mudguard-repair-timber-mild-steel-yellow-zinc-plated-5-3x15x1-2mm-din-9021/
+        search_evidence: "Opened Google result \u2018M5 Form G Flat Washer, Heavy\
+            \ Duty Penny Mudguard Repair Timber, Mild Steel Yellow Zinc Plated (5.3x15x1.2mm),\
+            \ DIN 9021\u2019 at Bolt World. Page showed SKU 48243.050.000 with M5\
+            \ and 15mm OD selected. Stainless results were not used."
+        search_for: M5 steel penny washer DIN 9021
+        search_url: https://www.google.com/search?q=M5+steel+penny+washer+DIN+9021
+        selected_variant: 'Thread Size: M5 (5mm); External Diameter: 15mm; thickness
+            shown in product heading: 1.2mm; selected SKU: 48243.050.000'
+        specification: 'Thread Size: M5; Form: Form G flat penny/mudguard washer;
+            Internal hole diameter: M5; Internal diameter: 5.3mm (product heading);
+            External Diameter: 15mm; Thickness: 1.2mm (product heading); Material:
+            Mild steel/steel; Finish: Yellow zinc plated; Standard: DIN 9021'
+        status: verified
+supplier_data:
+    dibolt:
+        accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-14T01:10:32.430153+00:00'
+        currency: GBP
+        html_sha256: 6021d268f555262b0ecb31dfd3c4d545cfd568caed1b7cacfabf4c572e48c8be
+        name: M5 Form G Flat Washer, Heavy Duty Penny Mudguard Repair Timber, Mild
+            Steel BLUE Passivated Zinc Plated (5.3x15x1.2mm), DIN 9021
+        packages: '[]'
+        parsed_at: '2026-10-18T09:03:42.242079+00:00'
+        parser_version: dibolt-1.3-missing-price-review
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept the precision of rounded displayed per-100 prices."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: 'For Use With Thread Size: M5 (5mm); External Diameter (OD):
+            15mm; Internal Diameter (ID): 5.3mm; Thickness (T): 1.2mm; Material: Mild
+            Steel; Finish: BLUE Passivated Zinc Plated; Manufacturing Standard: DIN
+            9021; Material Specification: Mild Steel; Metric or Imperial?: Metric'
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: dibolt
+        supplier_id: 51330.050.000
+        supplier_part_number: 51330.050.000
+        supplier_website: https://dibolt.co.uk/products/m5-form-g-flat-washer-heavy-duty-penny-mudguard-repair-timber-mild-steel-blue-passivated-zinc-plated-5-3x15x1-2mm-din-9021
+        tiers:
+        -   maximum: 999
+            minimum: 1
+            source_text: "1 - 999 \xA33.20 Per 100 Units"
+            source_unit_price: '0.032'
+            source_vat_basis: exclusive
+            unit_price: '0.03840'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 4999
+            minimum: 1000
+            source_text: "1,000 - 4,999 \xA32.88 Per 100 Units"
+            source_unit_price: '0.0288'
+            source_vat_basis: exclusive
+            unit_price: '0.034560'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 5000
+            source_text: "5,000+ \xA32.56 Per 100 Units"
+            source_unit_price: '0.0256'
+            source_vat_basis: exclusive
+            unit_price: '0.030720'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.03840'
+        total_price_10: '0.38400'
+        total_price_100: '3.84000'
+        total_price_1000: '34.560000'
+        total_price_10000: '307.200000'
+        unit_price_1: '0.03840'
+        unit_price_10: '0.03840'
+        unit_price_100: '0.03840'
+        unit_price_1000: '0.034560'
+        unit_price_10000: '0.030720'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Dibolt per-100 displayed prices are rounded; derived totals use captured
+            display precision
+    kayfast:
+        accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-18T09:26:25.146734+00:00'
+        currency: GBP
+        family_description: 'Penny washers. Also called repair washers, mudguard washers.
+            Bright zinc plated steel. PLEASE NOTE: THESE ARE SOLD IN PACKS OF 100'
+        family_heading: PENNY WASHER ZINC PLATED STEEL
+        html_sha256: 1f2149bcbddd01ab8c58e507b57431caa606403a1516f1c846d1ff4ded286a7d
+        name: M5 x 20mm PENNY WASHER ZINC PLATED STEEL PACK OF 100
+        packages: '[]'
+        parsed_at: '2026-10-18T09:31:26.299160+00:00'
+        parser_version: kayfast-1.6-family-description
+        price_breaks_description: M5 x 20mm PENNY WASHER ZINC PLATED STEEL PACK OF
+            100
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+            "statement": "Use the exact row dropdown price per 100 divided by 100
+            with Decimal precision; accept the captured per-100 display precision."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+        specifications: 'PENNY WASHER ZINC PLATED STEEL; Penny washers. Also called
+            repair washers, mudguard washers. Bright zinc plated steel. PLEASE NOTE:
+            THESE ARE SOLD IN PACKS OF 100'
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: kayfast
+        supplier_id: M5-x-20mm-PENNY-WASHER-ZINC-PLATED-STEEL-PACK-OF-100
+        supplier_id_basis: exact dimensional row description; spaces replaced by hyphens
+            (user clarification 2026-10-11)
+        supplier_part_number: M5-x-20mm-PENNY-WASHER-ZINC-PLATED-STEEL-PACK-OF-100
+        supplier_website: https://www.kayfast.co.uk/view-product/PENNY-WASHER-ZINC-PLATED-STEEL
+        tiers:
+        -   maximum: 4
+            minimum: 1
+            source_price_per_100: '2.42'
+            source_price_quantity: 100
+            source_text: "QTY 1 - 4 @ \xA32.42 per 100"
+            source_unit_price: '0.0242'
+            source_vat_basis: exclusive
+            unit_price: '0.029040'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 19
+            minimum: 5
+            source_price_per_100: '1.10'
+            source_price_quantity: 100
+            source_text: "QTY 5 -  19 @ \xA31.10 per 100"
+            source_unit_price: '0.011'
+            source_vat_basis: exclusive
+            unit_price: '0.01320'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 20
+            source_price_per_100: '0.99'
+            source_price_quantity: 100
+            source_text: "QTY 20 + @ \xA30.99 per 100"
+            source_unit_price: '0.0099'
+            source_vat_basis: exclusive
+            unit_price: '0.011880'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.029040'
+        total_price_10: '0.13200'
+        total_price_100: '1.188000'
+        total_price_1000: '11.880000'
+        total_price_10000: '118.800000'
+        unit_price_1: '0.029040'
+        unit_price_10: '0.01320'
+        unit_price_100: '0.011880'
+        unit_price_1000: '0.011880'
+        unit_price_10000: '0.011880'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Kayfast per-100 displayed prices are rounded; derived totals use captured
+            display precision
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -1108,46 +1986,3 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
-search_data:
-  google:
-    search_for: M5 steel penny washer DIN 9021
-    search_url: https://www.google.com/search?q=M5+steel+penny+washer+DIN+9021
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  ebay:
-    search_for: M5 steel penny washer DIN 9021
-    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+steel+penny+washer+DIN+9021
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  aliexpress:
-    search_for: M5 steel penny washer DIN 9021
-    search_url: https://www.aliexpress.com/wholesale?SearchText=M5+steel+penny+washer+DIN+9021
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''

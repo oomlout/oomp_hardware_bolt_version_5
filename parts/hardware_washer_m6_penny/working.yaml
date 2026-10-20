@@ -83,6 +83,290 @@ oomlout_ai_roboclick_1:
             name_proper: Hardware Washer M6 Penny
             name_space: hardware washer m6 penny
             name_upper: HARDWARE WASHER M6 PENNY
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 steel penny washer DIN 9021
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+steel+penny+washer+DIN+9021
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 steel penny washer DIN 9021
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+steel+penny+washer+DIN+9021
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T11:37:18.596709+00:00'
+                    evidence_file: support_files/evidence/hardware_washer_m6_penny/google/e3a1cbe7bf774403acf839eacbb5a52f.yaml
+                    evidence_url: https://www.google.com/search?q=M6+steel+penny+washer+DIN+9021
+                    material_evidence: ''
+                    product_name: ''
+                    reason: The supplied search term and one focused refinement produced
+                        plausible M6 DIN 9021 results, but the inspected product evidence
+                        conflicts on thickness and the other inspected listing is
+                        unavailable. Exact dimensions could not be verified.
+                    result_url: ''
+                    search_evidence: Search 1 surfaced an Orbital Fasteners M6 Form
+                        G mild-steel BZP DIN 9021 listing. Its Google title and product
+                        heading say 6.6x18x1.6mm, but its URL and browser page title
+                        say 6.6x18x2.0mm. Search 2 repeated that conflicting Orbital
+                        listing. The Fasteners Fixings & Tools M6 Flat Washer Zinc
+                        DIN 9021 listing led to a 404 page. No exact candidate was
+                        established.
+                    search_for: M6 steel penny washer DIN 9021
+                    search_url: https://www.google.com/search?q=M6+steel+penny+washer+DIN+9021
+                    selected_variant: ''
+                    specification: ''
+                    status: unresolved
+            supplier_data:
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T01:11:14.827015+00:00'
+                    currency: GBP
+                    html_sha256: 52a324418a920deaccc708173fa4a7a19ae2d25ecf6df00ddc8574a50f04089a
+                    name: M6 Form G Flat Washer, Heavy Duty Penny Mudguard Repair
+                        Timber, Mild Steel BLUE Passivated Zinc Plated (6.6x18x1.6mm),
+                        DIN 9021
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:03:42.621464+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'For Use With Thread Size: M6 (6mm); External
+                        Diameter (OD): 18mm; Internal Diameter (ID): 6.6mm; Thickness
+                        (T): 1.6mm; Material: Mild Steel; Finish: BLUE Passivated
+                        Zinc Plated; Manufacturing Standard: DIN 9021; Material Specification:
+                        Mild Steel; Metric or Imperial?: Metric'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 51330.060.000
+                    supplier_part_number: 51330.060.000
+                    supplier_website: https://dibolt.co.uk/products/m6-form-g-flat-washer-heavy-duty-penny-mudguard-repair-timber-mild-steel-blue-passivated-zinc-plated-6-6x18x1-6mm-din-9021
+                    tiers:
+                    -   maximum: 999
+                        minimum: 1
+                        source_text: "1 - 999 \xA35.01 Per 100 Units"
+                        source_unit_price: '0.0501'
+                        source_vat_basis: exclusive
+                        unit_price: '0.060120'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_text: "1,000 - 4,999 \xA34.51 Per 100 Units"
+                        source_unit_price: '0.0451'
+                        source_vat_basis: exclusive
+                        unit_price: '0.054120'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 5000
+                        source_text: "5,000+ \xA34.01 Per 100 Units"
+                        source_unit_price: '0.0401'
+                        source_vat_basis: exclusive
+                        unit_price: '0.048120'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.060120'
+                    total_price_10: '0.601200'
+                    total_price_100: '6.012000'
+                    total_price_1000: '54.120000'
+                    total_price_10000: '481.200000'
+                    unit_price_1: '0.060120'
+                    unit_price_10: '0.060120'
+                    unit_price_100: '0.060120'
+                    unit_price_1000: '0.054120'
+                    unit_price_10000: '0.048120'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-18T09:27:58.791259+00:00'
+                    currency: GBP
+                    family_description: 'Penny washers. Also called repair washers,
+                        mudguard washers. Bright zinc plated steel. PLEASE NOTE: THESE
+                        ARE SOLD IN PACKS OF 100'
+                    family_heading: PENNY WASHER ZINC PLATED STEEL
+                    html_sha256: 2a001ea28a7db06843cd0a4dcaba7994e56efc1da522a1883202fd76e97e60b3
+                    name: M6 x 20mm PENNY WASHER ZINC PLATED STEEL PACK OF 100
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:31:26.665284+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M6 x 20mm PENNY WASHER ZINC PLATED STEEL
+                        PACK OF 100
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: 'PENNY WASHER ZINC PLATED STEEL; Penny washers.
+                        Also called repair washers, mudguard washers. Bright zinc
+                        plated steel. PLEASE NOTE: THESE ARE SOLD IN PACKS OF 100'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M6-x-20mm-PENNY-WASHER-ZINC-PLATED-STEEL-PACK-OF-100
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M6-x-20mm-PENNY-WASHER-ZINC-PLATED-STEEL-PACK-OF-100
+                    supplier_website: https://www.kayfast.co.uk/view-product/PENNY-WASHER-ZINC-PLATED-STEEL
+                    tiers:
+                    -   maximum: 4
+                        minimum: 1
+                        source_price_per_100: '2.23'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 4 @ \xA32.23 per 100"
+                        source_unit_price: '0.0223'
+                        source_vat_basis: exclusive
+                        unit_price: '0.026760'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 19
+                        minimum: 5
+                        source_price_per_100: '1.76'
+                        source_price_quantity: 100
+                        source_text: "QTY 5 -  19 @ \xA31.76 per 100"
+                        source_unit_price: '0.0176'
+                        source_vat_basis: exclusive
+                        unit_price: '0.021120'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 20
+                        source_price_per_100: '1.10'
+                        source_price_quantity: 100
+                        source_text: "QTY 20 + @ \xA31.10 per 100"
+                        source_unit_price: '0.011'
+                        source_vat_basis: exclusive
+                        unit_price: '0.01320'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.026760'
+                    total_price_10: '0.211200'
+                    total_price_100: '1.32000'
+                    total_price_1000: '13.20000'
+                    total_price_10000: '132.00000'
+                    unit_price_1: '0.026760'
+                    unit_price_10: '0.021120'
+                    unit_price_100: '0.01320'
+                    unit_price_1000: '0.01320'
+                    unit_price_10000: '0.01320'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '200'
+                    captured_at: '2026-10-12T20:44:17.365574+00:00'
+                    catalogue_page: '31'
+                    currency: GBP
+                    description: ''
+                    html_sha256: 84e7f45c85e4c09be409e64f8a4cb7219e22b5af661a942e560a88e24e30dd1d
+                    name: M6 Form G Flat Washer, Heavy Duty Penny Mudguard Repair
+                        Timber, Mild Steel Bright Zinc Plated (6.6x18x1.6mm), DIN
+                        9021
+                    parsed_at: '2026-10-18T08:49:39.782600+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:02pm
+                    stock_quantity: '364341'
+                    supplier: orbitalfasteners
+                    supplier_id: '2471010'
+                    supplier_part_number: '2471010'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m6-form-g-flat-washer-heavy-duty-penny-mudguard-repair-timber-mild-steel-bright-zinc-plated-6-6x18x2-0mm-din-9021
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_text: "1 - 199 \xA30.024 Inc. VAT \xA32.40 Inc. VAT"
+                        source_unit_price: '0.024'
+                        source_vat_basis: inclusive
+                        unit_price: '0.024'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_text: "200 - 999 \xA30.02 Inc. VAT \xA32.00 Inc. VAT"
+                        source_unit_price: '0.02'
+                        source_vat_basis: inclusive
+                        unit_price: '0.02'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4799
+                        minimum: 1000
+                        source_text: "1000 - 4799 \xA30.018 Inc. VAT \xA31.80 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.018'
+                        source_vat_basis: inclusive
+                        unit_price: '0.018'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 4800
+                        source_text: "4800 + \xA30.0161 Inc. VAT \xA31.61 Inc. VAT"
+                        source_unit_price: '0.0161'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0161'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.024'
+                    total_price_10: '0.240'
+                    total_price_100: '2.400'
+                    total_price_1000: '18.000'
+                    total_price_10000: '161.0000'
+                    unit_price_1: '0.024'
+                    unit_price_10: '0.024'
+                    unit_price_100: '0.024'
+                    unit_price_1000: '0.018'
+                    unit_price_10000: '0.0161'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
             taxonomy_1: hardware
             taxonomy_10: ''
             taxonomy_11: ''
@@ -339,6 +623,303 @@ oomlout_ai_roboclick_2:
                         name_proper: Hardware Washer M6 Penny
                         name_space: hardware washer m6 penny
                         name_upper: HARDWARE WASHER M6 PENNY
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M6 steel penny washer DIN 9021
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M6+steel+penny+washer+DIN+9021
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M6 steel penny washer DIN 9021
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+steel+penny+washer+DIN+9021
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T11:37:18.596709+00:00'
+                                evidence_file: support_files/evidence/hardware_washer_m6_penny/google/e3a1cbe7bf774403acf839eacbb5a52f.yaml
+                                evidence_url: https://www.google.com/search?q=M6+steel+penny+washer+DIN+9021
+                                material_evidence: ''
+                                product_name: ''
+                                reason: The supplied search term and one focused refinement
+                                    produced plausible M6 DIN 9021 results, but the
+                                    inspected product evidence conflicts on thickness
+                                    and the other inspected listing is unavailable.
+                                    Exact dimensions could not be verified.
+                                result_url: ''
+                                search_evidence: Search 1 surfaced an Orbital Fasteners
+                                    M6 Form G mild-steel BZP DIN 9021 listing. Its
+                                    Google title and product heading say 6.6x18x1.6mm,
+                                    but its URL and browser page title say 6.6x18x2.0mm.
+                                    Search 2 repeated that conflicting Orbital listing.
+                                    The Fasteners Fixings & Tools M6 Flat Washer Zinc
+                                    DIN 9021 listing led to a 404 page. No exact candidate
+                                    was established.
+                                search_for: M6 steel penny washer DIN 9021
+                                search_url: https://www.google.com/search?q=M6+steel+penny+washer+DIN+9021
+                                selected_variant: ''
+                                specification: ''
+                                status: unresolved
+                        supplier_data:
+                            dibolt:
+                                accepted_warnings: '["Dibolt per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-14T01:11:14.827015+00:00'
+                                currency: GBP
+                                html_sha256: 52a324418a920deaccc708173fa4a7a19ae2d25ecf6df00ddc8574a50f04089a
+                                name: M6 Form G Flat Washer, Heavy Duty Penny Mudguard
+                                    Repair Timber, Mild Steel BLUE Passivated Zinc
+                                    Plated (6.6x18x1.6mm), DIN 9021
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:03:42.621464+00:00'
+                                parser_version: dibolt-1.3-missing-price-review
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept the precision
+                                    of rounded displayed per-100 prices."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: 'For Use With Thread Size: M6 (6mm);
+                                    External Diameter (OD): 18mm; Internal Diameter
+                                    (ID): 6.6mm; Thickness (T): 1.6mm; Material: Mild
+                                    Steel; Finish: BLUE Passivated Zinc Plated; Manufacturing
+                                    Standard: DIN 9021; Material Specification: Mild
+                                    Steel; Metric or Imperial?: Metric'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: dibolt
+                                supplier_id: 51330.060.000
+                                supplier_part_number: 51330.060.000
+                                supplier_website: https://dibolt.co.uk/products/m6-form-g-flat-washer-heavy-duty-penny-mudguard-repair-timber-mild-steel-blue-passivated-zinc-plated-6-6x18x1-6mm-din-9021
+                                tiers:
+                                -   maximum: 999
+                                    minimum: 1
+                                    source_text: "1 - 999 \xA35.01 Per 100 Units"
+                                    source_unit_price: '0.0501'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.060120'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 4999
+                                    minimum: 1000
+                                    source_text: "1,000 - 4,999 \xA34.51 Per 100 Units"
+                                    source_unit_price: '0.0451'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.054120'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 5000
+                                    source_text: "5,000+ \xA34.01 Per 100 Units"
+                                    source_unit_price: '0.0401'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.048120'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.060120'
+                                total_price_10: '0.601200'
+                                total_price_100: '6.012000'
+                                total_price_1000: '54.120000'
+                                total_price_10000: '481.200000'
+                                unit_price_1: '0.060120'
+                                unit_price_10: '0.060120'
+                                unit_price_100: '0.060120'
+                                unit_price_1000: '0.054120'
+                                unit_price_10000: '0.048120'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Dibolt per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
+                            kayfast:
+                                accepted_warnings: '["Kayfast per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-18T09:27:58.791259+00:00'
+                                currency: GBP
+                                family_description: 'Penny washers. Also called repair
+                                    washers, mudguard washers. Bright zinc plated
+                                    steel. PLEASE NOTE: THESE ARE SOLD IN PACKS OF
+                                    100'
+                                family_heading: PENNY WASHER ZINC PLATED STEEL
+                                html_sha256: 2a001ea28a7db06843cd0a4dcaba7994e56efc1da522a1883202fd76e97e60b3
+                                name: M6 x 20mm PENNY WASHER ZINC PLATED STEEL PACK
+                                    OF 100
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:31:26.665284+00:00'
+                                parser_version: kayfast-1.6-family-description
+                                price_breaks_description: M6 x 20mm PENNY WASHER ZINC
+                                    PLATED STEEL PACK OF 100
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-17", "statement": "Use the exact row
+                                    dropdown price per 100 divided by 100 with Decimal
+                                    precision; accept the captured per-100 display
+                                    precision."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "Kayfast
+                                    prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+                                specifications: 'PENNY WASHER ZINC PLATED STEEL; Penny
+                                    washers. Also called repair washers, mudguard
+                                    washers. Bright zinc plated steel. PLEASE NOTE:
+                                    THESE ARE SOLD IN PACKS OF 100'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: kayfast
+                                supplier_id: M6-x-20mm-PENNY-WASHER-ZINC-PLATED-STEEL-PACK-OF-100
+                                supplier_id_basis: exact dimensional row description;
+                                    spaces replaced by hyphens (user clarification
+                                    2026-10-11)
+                                supplier_part_number: M6-x-20mm-PENNY-WASHER-ZINC-PLATED-STEEL-PACK-OF-100
+                                supplier_website: https://www.kayfast.co.uk/view-product/PENNY-WASHER-ZINC-PLATED-STEEL
+                                tiers:
+                                -   maximum: 4
+                                    minimum: 1
+                                    source_price_per_100: '2.23'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 1 - 4 @ \xA32.23 per 100"
+                                    source_unit_price: '0.0223'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.026760'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 19
+                                    minimum: 5
+                                    source_price_per_100: '1.76'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 5 -  19 @ \xA31.76 per 100"
+                                    source_unit_price: '0.0176'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.021120'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 20
+                                    source_price_per_100: '1.10'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 20 + @ \xA31.10 per 100"
+                                    source_unit_price: '0.011'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.01320'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.026760'
+                                total_price_10: '0.211200'
+                                total_price_100: '1.32000'
+                                total_price_1000: '13.20000'
+                                total_price_10000: '132.00000'
+                                unit_price_1: '0.026760'
+                                unit_price_10: '0.021120'
+                                unit_price_100: '0.01320'
+                                unit_price_1000: '0.01320'
+                                unit_price_10000: '0.01320'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Kayfast per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
+                            orbitalfasteners:
+                                accepted_warnings: '[]'
+                                box_quantity: '200'
+                                captured_at: '2026-10-12T20:44:17.365574+00:00'
+                                catalogue_page: '31'
+                                currency: GBP
+                                description: ''
+                                html_sha256: 84e7f45c85e4c09be409e64f8a4cb7219e22b5af661a942e560a88e24e30dd1d
+                                name: M6 Form G Flat Washer, Heavy Duty Penny Mudguard
+                                    Repair Timber, Mild Steel Bright Zinc Plated (6.6x18x1.6mm),
+                                    DIN 9021
+                                parsed_at: '2026-10-18T08:49:39.782600+00:00'
+                                parser_version: 1.2-review-policy
+                                review_policy: ''
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: inclusive
+                                status: ok
+                                stock_as_of: 9th October 2026 10:02pm
+                                stock_quantity: '364341'
+                                supplier: orbitalfasteners
+                                supplier_id: '2471010'
+                                supplier_part_number: '2471010'
+                                supplier_website: https://www.orbitalfasteners.co.uk/products/m6-form-g-flat-washer-heavy-duty-penny-mudguard-repair-timber-mild-steel-bright-zinc-plated-6-6x18x2-0mm-din-9021
+                                tiers:
+                                -   maximum: 199
+                                    minimum: 1
+                                    source_text: "1 - 199 \xA30.024 Inc. VAT \xA3\
+                                        2.40 Inc. VAT"
+                                    source_unit_price: '0.024'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.024'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 999
+                                    minimum: 200
+                                    source_text: "200 - 999 \xA30.02 Inc. VAT \xA3\
+                                        2.00 Inc. VAT"
+                                    source_unit_price: '0.02'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.02'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 4799
+                                    minimum: 1000
+                                    source_text: "1000 - 4799 \xA30.018 Inc. VAT \xA3\
+                                        1.80 Inc. VAT"
+                                    source_unit_price: '0.018'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.018'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 4800
+                                    source_text: "4800 + \xA30.0161 Inc. VAT \xA3\
+                                        1.61 Inc. VAT"
+                                    source_unit_price: '0.0161'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0161'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.024'
+                                total_price_10: '0.240'
+                                total_price_100: '2.400'
+                                total_price_1000: '18.000'
+                                total_price_10000: '161.0000'
+                                unit_price_1: '0.024'
+                                unit_price_10: '0.024'
+                                unit_price_100: '0.024'
+                                unit_price_1000: '0.018'
+                                unit_price_10000: '0.0161'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings: []
                         taxonomy_1: hardware
                         taxonomy_10: ''
                         taxonomy_11: ''
@@ -580,6 +1161,290 @@ oomlout_ai_roboclick_2:
                     search_and_replace: []
                 file_test: label_oomp.pdf
                 retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 steel penny washer DIN 9021
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+steel+penny+washer+DIN+9021
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 steel penny washer DIN 9021
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+steel+penny+washer+DIN+9021
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T11:37:18.596709+00:00'
+                    evidence_file: support_files/evidence/hardware_washer_m6_penny/google/e3a1cbe7bf774403acf839eacbb5a52f.yaml
+                    evidence_url: https://www.google.com/search?q=M6+steel+penny+washer+DIN+9021
+                    material_evidence: ''
+                    product_name: ''
+                    reason: The supplied search term and one focused refinement produced
+                        plausible M6 DIN 9021 results, but the inspected product evidence
+                        conflicts on thickness and the other inspected listing is
+                        unavailable. Exact dimensions could not be verified.
+                    result_url: ''
+                    search_evidence: Search 1 surfaced an Orbital Fasteners M6 Form
+                        G mild-steel BZP DIN 9021 listing. Its Google title and product
+                        heading say 6.6x18x1.6mm, but its URL and browser page title
+                        say 6.6x18x2.0mm. Search 2 repeated that conflicting Orbital
+                        listing. The Fasteners Fixings & Tools M6 Flat Washer Zinc
+                        DIN 9021 listing led to a 404 page. No exact candidate was
+                        established.
+                    search_for: M6 steel penny washer DIN 9021
+                    search_url: https://www.google.com/search?q=M6+steel+penny+washer+DIN+9021
+                    selected_variant: ''
+                    specification: ''
+                    status: unresolved
+            supplier_data:
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T01:11:14.827015+00:00'
+                    currency: GBP
+                    html_sha256: 52a324418a920deaccc708173fa4a7a19ae2d25ecf6df00ddc8574a50f04089a
+                    name: M6 Form G Flat Washer, Heavy Duty Penny Mudguard Repair
+                        Timber, Mild Steel BLUE Passivated Zinc Plated (6.6x18x1.6mm),
+                        DIN 9021
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:03:42.621464+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'For Use With Thread Size: M6 (6mm); External
+                        Diameter (OD): 18mm; Internal Diameter (ID): 6.6mm; Thickness
+                        (T): 1.6mm; Material: Mild Steel; Finish: BLUE Passivated
+                        Zinc Plated; Manufacturing Standard: DIN 9021; Material Specification:
+                        Mild Steel; Metric or Imperial?: Metric'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 51330.060.000
+                    supplier_part_number: 51330.060.000
+                    supplier_website: https://dibolt.co.uk/products/m6-form-g-flat-washer-heavy-duty-penny-mudguard-repair-timber-mild-steel-blue-passivated-zinc-plated-6-6x18x1-6mm-din-9021
+                    tiers:
+                    -   maximum: 999
+                        minimum: 1
+                        source_text: "1 - 999 \xA35.01 Per 100 Units"
+                        source_unit_price: '0.0501'
+                        source_vat_basis: exclusive
+                        unit_price: '0.060120'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_text: "1,000 - 4,999 \xA34.51 Per 100 Units"
+                        source_unit_price: '0.0451'
+                        source_vat_basis: exclusive
+                        unit_price: '0.054120'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 5000
+                        source_text: "5,000+ \xA34.01 Per 100 Units"
+                        source_unit_price: '0.0401'
+                        source_vat_basis: exclusive
+                        unit_price: '0.048120'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.060120'
+                    total_price_10: '0.601200'
+                    total_price_100: '6.012000'
+                    total_price_1000: '54.120000'
+                    total_price_10000: '481.200000'
+                    unit_price_1: '0.060120'
+                    unit_price_10: '0.060120'
+                    unit_price_100: '0.060120'
+                    unit_price_1000: '0.054120'
+                    unit_price_10000: '0.048120'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-18T09:27:58.791259+00:00'
+                    currency: GBP
+                    family_description: 'Penny washers. Also called repair washers,
+                        mudguard washers. Bright zinc plated steel. PLEASE NOTE: THESE
+                        ARE SOLD IN PACKS OF 100'
+                    family_heading: PENNY WASHER ZINC PLATED STEEL
+                    html_sha256: 2a001ea28a7db06843cd0a4dcaba7994e56efc1da522a1883202fd76e97e60b3
+                    name: M6 x 20mm PENNY WASHER ZINC PLATED STEEL PACK OF 100
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:31:26.665284+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M6 x 20mm PENNY WASHER ZINC PLATED STEEL
+                        PACK OF 100
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: 'PENNY WASHER ZINC PLATED STEEL; Penny washers.
+                        Also called repair washers, mudguard washers. Bright zinc
+                        plated steel. PLEASE NOTE: THESE ARE SOLD IN PACKS OF 100'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M6-x-20mm-PENNY-WASHER-ZINC-PLATED-STEEL-PACK-OF-100
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M6-x-20mm-PENNY-WASHER-ZINC-PLATED-STEEL-PACK-OF-100
+                    supplier_website: https://www.kayfast.co.uk/view-product/PENNY-WASHER-ZINC-PLATED-STEEL
+                    tiers:
+                    -   maximum: 4
+                        minimum: 1
+                        source_price_per_100: '2.23'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 4 @ \xA32.23 per 100"
+                        source_unit_price: '0.0223'
+                        source_vat_basis: exclusive
+                        unit_price: '0.026760'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 19
+                        minimum: 5
+                        source_price_per_100: '1.76'
+                        source_price_quantity: 100
+                        source_text: "QTY 5 -  19 @ \xA31.76 per 100"
+                        source_unit_price: '0.0176'
+                        source_vat_basis: exclusive
+                        unit_price: '0.021120'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 20
+                        source_price_per_100: '1.10'
+                        source_price_quantity: 100
+                        source_text: "QTY 20 + @ \xA31.10 per 100"
+                        source_unit_price: '0.011'
+                        source_vat_basis: exclusive
+                        unit_price: '0.01320'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.026760'
+                    total_price_10: '0.211200'
+                    total_price_100: '1.32000'
+                    total_price_1000: '13.20000'
+                    total_price_10000: '132.00000'
+                    unit_price_1: '0.026760'
+                    unit_price_10: '0.021120'
+                    unit_price_100: '0.01320'
+                    unit_price_1000: '0.01320'
+                    unit_price_10000: '0.01320'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '200'
+                    captured_at: '2026-10-12T20:44:17.365574+00:00'
+                    catalogue_page: '31'
+                    currency: GBP
+                    description: ''
+                    html_sha256: 84e7f45c85e4c09be409e64f8a4cb7219e22b5af661a942e560a88e24e30dd1d
+                    name: M6 Form G Flat Washer, Heavy Duty Penny Mudguard Repair
+                        Timber, Mild Steel Bright Zinc Plated (6.6x18x1.6mm), DIN
+                        9021
+                    parsed_at: '2026-10-18T08:49:39.782600+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:02pm
+                    stock_quantity: '364341'
+                    supplier: orbitalfasteners
+                    supplier_id: '2471010'
+                    supplier_part_number: '2471010'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m6-form-g-flat-washer-heavy-duty-penny-mudguard-repair-timber-mild-steel-bright-zinc-plated-6-6x18x2-0mm-din-9021
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_text: "1 - 199 \xA30.024 Inc. VAT \xA32.40 Inc. VAT"
+                        source_unit_price: '0.024'
+                        source_vat_basis: inclusive
+                        unit_price: '0.024'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_text: "200 - 999 \xA30.02 Inc. VAT \xA32.00 Inc. VAT"
+                        source_unit_price: '0.02'
+                        source_vat_basis: inclusive
+                        unit_price: '0.02'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4799
+                        minimum: 1000
+                        source_text: "1000 - 4799 \xA30.018 Inc. VAT \xA31.80 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.018'
+                        source_vat_basis: inclusive
+                        unit_price: '0.018'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 4800
+                        source_text: "4800 + \xA30.0161 Inc. VAT \xA31.61 Inc. VAT"
+                        source_unit_price: '0.0161'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0161'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.024'
+                    total_price_10: '0.240'
+                    total_price_100: '2.400'
+                    total_price_1000: '18.000'
+                    total_price_10000: '161.0000'
+                    unit_price_1: '0.024'
+                    unit_price_10: '0.024'
+                    unit_price_100: '0.024'
+                    unit_price_1000: '0.018'
+                    unit_price_10000: '0.0161'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
             taxonomy_1: hardware
             taxonomy_10: ''
             taxonomy_11: ''
@@ -827,9 +1692,285 @@ oomlout_ai_roboclick_3:
     file_test: ''
 oomp_key: oomp_hardware_washer_m6_penny
 run_action: true
+run_only_yaml: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M6 steel penny washer DIN 9021
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M6+steel+penny+washer+DIN+9021
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M6 steel penny washer DIN 9021
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+steel+penny+washer+DIN+9021
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T11:37:18.596709+00:00'
+        evidence_file: support_files/evidence/hardware_washer_m6_penny/google/e3a1cbe7bf774403acf839eacbb5a52f.yaml
+        evidence_url: https://www.google.com/search?q=M6+steel+penny+washer+DIN+9021
+        material_evidence: ''
+        product_name: ''
+        reason: The supplied search term and one focused refinement produced plausible
+            M6 DIN 9021 results, but the inspected product evidence conflicts on thickness
+            and the other inspected listing is unavailable. Exact dimensions could
+            not be verified.
+        result_url: ''
+        search_evidence: Search 1 surfaced an Orbital Fasteners M6 Form G mild-steel
+            BZP DIN 9021 listing. Its Google title and product heading say 6.6x18x1.6mm,
+            but its URL and browser page title say 6.6x18x2.0mm. Search 2 repeated
+            that conflicting Orbital listing. The Fasteners Fixings & Tools M6 Flat
+            Washer Zinc DIN 9021 listing led to a 404 page. No exact candidate was
+            established.
+        search_for: M6 steel penny washer DIN 9021
+        search_url: https://www.google.com/search?q=M6+steel+penny+washer+DIN+9021
+        selected_variant: ''
+        specification: ''
+        status: unresolved
+supplier_data:
+    dibolt:
+        accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-14T01:11:14.827015+00:00'
+        currency: GBP
+        html_sha256: 52a324418a920deaccc708173fa4a7a19ae2d25ecf6df00ddc8574a50f04089a
+        name: M6 Form G Flat Washer, Heavy Duty Penny Mudguard Repair Timber, Mild
+            Steel BLUE Passivated Zinc Plated (6.6x18x1.6mm), DIN 9021
+        packages: '[]'
+        parsed_at: '2026-10-18T09:03:42.621464+00:00'
+        parser_version: dibolt-1.3-missing-price-review
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept the precision of rounded displayed per-100 prices."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: 'For Use With Thread Size: M6 (6mm); External Diameter (OD):
+            18mm; Internal Diameter (ID): 6.6mm; Thickness (T): 1.6mm; Material: Mild
+            Steel; Finish: BLUE Passivated Zinc Plated; Manufacturing Standard: DIN
+            9021; Material Specification: Mild Steel; Metric or Imperial?: Metric'
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: dibolt
+        supplier_id: 51330.060.000
+        supplier_part_number: 51330.060.000
+        supplier_website: https://dibolt.co.uk/products/m6-form-g-flat-washer-heavy-duty-penny-mudguard-repair-timber-mild-steel-blue-passivated-zinc-plated-6-6x18x1-6mm-din-9021
+        tiers:
+        -   maximum: 999
+            minimum: 1
+            source_text: "1 - 999 \xA35.01 Per 100 Units"
+            source_unit_price: '0.0501'
+            source_vat_basis: exclusive
+            unit_price: '0.060120'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 4999
+            minimum: 1000
+            source_text: "1,000 - 4,999 \xA34.51 Per 100 Units"
+            source_unit_price: '0.0451'
+            source_vat_basis: exclusive
+            unit_price: '0.054120'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 5000
+            source_text: "5,000+ \xA34.01 Per 100 Units"
+            source_unit_price: '0.0401'
+            source_vat_basis: exclusive
+            unit_price: '0.048120'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.060120'
+        total_price_10: '0.601200'
+        total_price_100: '6.012000'
+        total_price_1000: '54.120000'
+        total_price_10000: '481.200000'
+        unit_price_1: '0.060120'
+        unit_price_10: '0.060120'
+        unit_price_100: '0.060120'
+        unit_price_1000: '0.054120'
+        unit_price_10000: '0.048120'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Dibolt per-100 displayed prices are rounded; derived totals use captured
+            display precision
+    kayfast:
+        accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-18T09:27:58.791259+00:00'
+        currency: GBP
+        family_description: 'Penny washers. Also called repair washers, mudguard washers.
+            Bright zinc plated steel. PLEASE NOTE: THESE ARE SOLD IN PACKS OF 100'
+        family_heading: PENNY WASHER ZINC PLATED STEEL
+        html_sha256: 2a001ea28a7db06843cd0a4dcaba7994e56efc1da522a1883202fd76e97e60b3
+        name: M6 x 20mm PENNY WASHER ZINC PLATED STEEL PACK OF 100
+        packages: '[]'
+        parsed_at: '2026-10-18T09:31:26.665284+00:00'
+        parser_version: kayfast-1.6-family-description
+        price_breaks_description: M6 x 20mm PENNY WASHER ZINC PLATED STEEL PACK OF
+            100
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+            "statement": "Use the exact row dropdown price per 100 divided by 100
+            with Decimal precision; accept the captured per-100 display precision."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+        specifications: 'PENNY WASHER ZINC PLATED STEEL; Penny washers. Also called
+            repair washers, mudguard washers. Bright zinc plated steel. PLEASE NOTE:
+            THESE ARE SOLD IN PACKS OF 100'
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: kayfast
+        supplier_id: M6-x-20mm-PENNY-WASHER-ZINC-PLATED-STEEL-PACK-OF-100
+        supplier_id_basis: exact dimensional row description; spaces replaced by hyphens
+            (user clarification 2026-10-11)
+        supplier_part_number: M6-x-20mm-PENNY-WASHER-ZINC-PLATED-STEEL-PACK-OF-100
+        supplier_website: https://www.kayfast.co.uk/view-product/PENNY-WASHER-ZINC-PLATED-STEEL
+        tiers:
+        -   maximum: 4
+            minimum: 1
+            source_price_per_100: '2.23'
+            source_price_quantity: 100
+            source_text: "QTY 1 - 4 @ \xA32.23 per 100"
+            source_unit_price: '0.0223'
+            source_vat_basis: exclusive
+            unit_price: '0.026760'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 19
+            minimum: 5
+            source_price_per_100: '1.76'
+            source_price_quantity: 100
+            source_text: "QTY 5 -  19 @ \xA31.76 per 100"
+            source_unit_price: '0.0176'
+            source_vat_basis: exclusive
+            unit_price: '0.021120'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 20
+            source_price_per_100: '1.10'
+            source_price_quantity: 100
+            source_text: "QTY 20 + @ \xA31.10 per 100"
+            source_unit_price: '0.011'
+            source_vat_basis: exclusive
+            unit_price: '0.01320'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.026760'
+        total_price_10: '0.211200'
+        total_price_100: '1.32000'
+        total_price_1000: '13.20000'
+        total_price_10000: '132.00000'
+        unit_price_1: '0.026760'
+        unit_price_10: '0.021120'
+        unit_price_100: '0.01320'
+        unit_price_1000: '0.01320'
+        unit_price_10000: '0.01320'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Kayfast per-100 displayed prices are rounded; derived totals use captured
+            display precision
+    orbitalfasteners:
+        accepted_warnings: '[]'
+        box_quantity: '200'
+        captured_at: '2026-10-12T20:44:17.365574+00:00'
+        catalogue_page: '31'
+        currency: GBP
+        description: ''
+        html_sha256: 84e7f45c85e4c09be409e64f8a4cb7219e22b5af661a942e560a88e24e30dd1d
+        name: M6 Form G Flat Washer, Heavy Duty Penny Mudguard Repair Timber, Mild
+            Steel Bright Zinc Plated (6.6x18x1.6mm), DIN 9021
+        parsed_at: '2026-10-18T08:49:39.782600+00:00'
+        parser_version: 1.2-review-policy
+        review_policy: ''
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: inclusive
+        status: ok
+        stock_as_of: 9th October 2026 10:02pm
+        stock_quantity: '364341'
+        supplier: orbitalfasteners
+        supplier_id: '2471010'
+        supplier_part_number: '2471010'
+        supplier_website: https://www.orbitalfasteners.co.uk/products/m6-form-g-flat-washer-heavy-duty-penny-mudguard-repair-timber-mild-steel-bright-zinc-plated-6-6x18x2-0mm-din-9021
+        tiers:
+        -   maximum: 199
+            minimum: 1
+            source_text: "1 - 199 \xA30.024 Inc. VAT \xA32.40 Inc. VAT"
+            source_unit_price: '0.024'
+            source_vat_basis: inclusive
+            unit_price: '0.024'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 999
+            minimum: 200
+            source_text: "200 - 999 \xA30.02 Inc. VAT \xA32.00 Inc. VAT"
+            source_unit_price: '0.02'
+            source_vat_basis: inclusive
+            unit_price: '0.02'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 4799
+            minimum: 1000
+            source_text: "1000 - 4799 \xA30.018 Inc. VAT \xA31.80 Inc. VAT"
+            source_unit_price: '0.018'
+            source_vat_basis: inclusive
+            unit_price: '0.018'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 4800
+            source_text: "4800 + \xA30.0161 Inc. VAT \xA31.61 Inc. VAT"
+            source_unit_price: '0.0161'
+            source_vat_basis: inclusive
+            unit_price: '0.0161'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.024'
+        total_price_10: '0.240'
+        total_price_100: '2.400'
+        total_price_1000: '18.000'
+        total_price_10000: '161.0000'
+        unit_price_1: '0.024'
+        unit_price_10: '0.024'
+        unit_price_100: '0.024'
+        unit_price_1000: '0.018'
+        unit_price_10000: '0.0161'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings: []
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -1108,46 +2249,3 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
-search_data:
-  google:
-    search_for: M6 steel penny washer DIN 9021
-    search_url: https://www.google.com/search?q=M6+steel+penny+washer+DIN+9021
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  ebay:
-    search_for: M6 steel penny washer DIN 9021
-    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+steel+penny+washer+DIN+9021
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  aliexpress:
-    search_for: M6 steel penny washer DIN 9021
-    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+steel+penny+washer+DIN+9021
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''

@@ -1,0 +1,39 @@
+{
+  "oomp_id": "hardware_nut_m2_flanged",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "unresolved",
+  "search_for": "M2 flanged nut steel",
+  "evidence_url": "https://www.google.com/search?q=M2+flanged+nut+steel",
+  "reason": "The first completed exact search showed an M2 black-zinc steel serrated flange nut listing on eBay, but eBay is blocked. A second Google search exposed an Amazon M2 black-zinc variant whose title says carbon steel, while its specification block says Acrylic and #0-80 thread. The selected material and thread cannot be verified consistently, so no product is accepted.",
+  "search_evidence": "Search 1: Google results showed an eBay result titled M2 M3 M4 M5 M6 M8 M10 M12 Black Zinc Steel Hex Serrated Flange Nuts, but that supplier page is on blocked eBay and was not opened. Search 2: https://www.google.com/search?q=M2+serrated+flange+nut+carbon+steel+zinc+plated. Google showed a carbon-steel serrated flange nut listing with M2 options. I opened the Amazon result; the selected variant was M2 - 10 pieces and Black Zinc, and the title identifies carbon steel, but the product-information block says Material Acrylic and Thread size #0-80. These contradictions prevent exact material and thread verification.",
+  "attempts": [
+    {
+      "term": "M2 flanged nut steel",
+      "url": "https://www.google.com/search?q=M2+flanged+nut+steel",
+      "completed": true,
+      "outcome": "Google showed an exact M2 black-zinc steel serrated flange nut listing on eBay. The eBay platform is blocked, so the product page was not opened or used as evidence."
+    },
+    {
+      "term": "M2 serrated flange nut carbon steel zinc plated",
+      "url": "https://www.google.com/search?q=M2+serrated+flange+nut+carbon+steel+zinc+plated",
+      "completed": true,
+      "outcome": "Google showed an M2 option in a carbon-steel serrated flange nut listing. The opened Amazon page selected M2 - 10 pieces, Black Zinc, but its specifications conflict with the title by stating Acrylic and #0-80 thread."
+    }
+  ],
+  "result_url": "https://www.amazon.co.uk/Serrated-Flange-Carbon-Multicolor-M2-M16/dp/B0GV4X1PXV?th=1",
+  "product_name": "Serrated Flange Hex Nuts, Carbon Steel Flange Hex Nuts M2-M16",
+  "selected_variant": "M2 - 10Pcs, Black Zinc",
+  "material_evidence": "Product title says carbon steel; product-information block says Material Acrylic, so material is contradictory.",
+  "specification": "Selected variant says M2 - 10 pieces and Black Zinc. Product-information block also says thread size #0-80, conflicting with metric M2; thread form and pitch are not consistently established.",
+  "search_evidence_extra": "Google refinement also showed products with M2 variants on eBay; eBay was not accessed because it is blocked.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": false,
+    "form": true,
+    "material": false,
+    "finish": true,
+    "standard": false
+  }
+}

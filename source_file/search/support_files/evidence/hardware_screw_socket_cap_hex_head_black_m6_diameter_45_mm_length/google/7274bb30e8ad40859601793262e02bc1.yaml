@@ -1,0 +1,36 @@
+oomp_id: hardware_screw_socket_cap_hex_head_black_m6_diameter_45_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M6 x 45 socket cap screw DIN 912 black high tensile steel
+evidence_url: https://www.google.com/search?q=M6+x+45+socket+cap+screw+DIN+912+black+high+tensile+steel
+reason: The product page confirms the exact M6 x 45 socket cap, DIN 912, high tensile
+  steel and black self-colour specifications.
+search_evidence: Google result identified the Amazon Bolt Base M6 x 45 black 12.9
+  grade high tensile hex socket cap screws.
+attempts:
+- term: M6 x 45 socket cap screw DIN 912 black high tensile steel
+  url: https://www.google.com/search?q=M6+x+45+socket+cap+screw+DIN+912+black+high+tensile+steel
+  completed: true
+  outcome: Opened the Amazon Bolt Base product page. It states M6 x 45, 1.0 pitch,
+    12.9 steel, DIN 912, black self-colour, approximate 30mm thread, and 5mm Allen
+    key.
+result_url: https://www.amazon.co.uk/Bolt-Base-Tensile-Socket-screws/dp/B00SN3C4N2
+product_name: (6mm) M6 x 45 Black 12.9 Grade High Tensile Hex Socket Cap Screws Self
+  Colour Allen Bolts DIN 912-20 Pack
+selected_variant: M6 x 45mm, 20-pack
+material_evidence: Page states 12.9 Grade High Tensile Steel and technical details
+  list Material Steel.
+specification: M6 x 45mm, 1.0mm pitch, length excludes head; partial thread approximately
+  30mm; socket cap/DIN 912; 10mm head diameter, 6mm head height, 5mm Allen key; black
+  self-colour.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T10:09:39.628024+00:00'
+validator_version: 1

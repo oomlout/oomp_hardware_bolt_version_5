@@ -9,6 +9,191 @@ color_band_string_project_bolt_string: colour_band_washer_m2_
 color_band_taxonomy_3: red
 color_band_taxonomy_6: purple
 color_band_taxonomy_7: brown
+search_data:
+  aliexpress:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M2 steel flat washer DIN 125
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M2+steel+flat+washer+DIN+125
+    selected_variant: ''
+    specification: ''
+    status: pending
+  ebay:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M2 steel flat washer DIN 125
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M2+steel+flat+washer+DIN+125
+    selected_variant: ''
+    specification: ''
+    status: pending
+  google:
+    checked_at: '2026-10-14T11:29:36.907856+00:00'
+    evidence_file: support_files/evidence/hardware_washer_m2/google/4e605d17206443beb769c54d83c43c13.yaml
+    evidence_url: https://www.google.com/search?q=M2+steel+flat+washer+DIN+125
+    material_evidence: Product information states mild steel.
+    product_name: M2 Mild Steel Form A Flat Washer Bright Zinc Plated DIN 125 - 1A
+      (2x5x0.3mm)
+    reason: The exact M2 Form A flat washer is described as mild steel, bright zinc
+      plated, DIN 125-1A; the opened page confirms ID 2mm, OD 5mm and 0.3mm thickness.
+    result_url: https://www.orbitalfasteners.co.uk/products/m2-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-2x5x0-3mm-
+    search_evidence: The supplied Google query returned the Orbital Fasteners M2 Mild
+      Steel Form A Flat Washer. Opened its result and verified exact dimensions, material,
+      finish and standard. Stainless Accu result was not selected.
+    search_for: M2 steel flat washer DIN 125
+    search_url: https://www.google.com/search?q=M2+steel+flat+washer+DIN+125
+    selected_variant: Fixed product SKU 4990540; M2 Form A; 2 x 5 x 0.3mm
+    specification: 'Nominal thread size: M2; ID: 2mm; OD: 5mm; thickness: 0.3mm; form:
+      Form A flat washer; material: mild steel; finish: bright zinc plated; standard:
+      DIN 125-1A.'
+    status: verified
+supplier_data:
+  aanddfasteners:
+    accepted_warnings: '["Source quantity band starts at zero; normalized minimum
+      to one item"]'
+    captured_at: '2026-10-13T07:53:09.834906+00:00'
+    currency: GBP
+    html_sha256: 2ecf2993d3c441334caa406b1acd87bed86bb9fb53381889465063632f39ff90
+    name: M2 Form A Flat Washer, Steel Zinc plated, Din 125
+    packages: '[]'
+    parsed_at: '2026-10-18T08:57:33.359480+00:00'
+    parser_version: aanddfasteners-1.2-review-policy
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept zero-to-one quantity normalization and low-stock notices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: Product information A metric Form A washer also known as a flat
+      washer in steel with a bright zinc plating. Manufactured to Din 125A. A flat
+      washer's main task is to spread the load across a wider area, which comes in
+      particularly useful when dealing with softer materials.
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: aanddfasteners
+    supplier_id: ST12502AZP
+    supplier_part_number: ST12502AZP
+    supplier_website: https://www.aanddfasteners.co.uk/shop/washers/flat-washers/metric-flat-washer-din-125-form-a/metric-flat-washer-din-125-form-a-steel-zinc-plated/m2-form-a-flat-washer-steel-zinc-plated-din-125/details
+    tiers:
+    - maximum: 25
+      minimum: 1
+      source_text: 0 - 25 £ 0.09
+      source_unit_price: '0.09'
+      source_vat_basis: exclusive
+      unit_price: '0.1080'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 50
+      minimum: 26
+      source_text: 26 -50 £ 0.05
+      source_unit_price: '0.05'
+      source_vat_basis: exclusive
+      unit_price: '0.0600'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 51
+      source_text: 51+ £ 0.04
+      source_unit_price: '0.04'
+      source_vat_basis: exclusive
+      unit_price: '0.0480'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.1080'
+    total_price_10: '1.0800'
+    total_price_100: '4.8000'
+    total_price_1000: '48.0000'
+    total_price_10000: '480.0000'
+    unit_price_1: '0.1080'
+    unit_price_10: '0.1080'
+    unit_price_100: '0.0480'
+    unit_price_1000: '0.0480'
+    unit_price_10000: '0.0480'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Source quantity band starts at zero; normalized minimum to one item
+  dibolt:
+    accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-14T01:08:20.741811+00:00'
+    currency: GBP
+    html_sha256: 58ac2d2e15deadacfd6b1551bee64af55dbddd65f9479ca93c70808152300915
+    name: M2 Mild Steel Form A Flat Washer Bright Zinc Plated DIN 125 – 1A (2x5x0.3mm)
+    packages: '[]'
+    parsed_at: '2026-10-18T09:03:41.141816+00:00'
+    parser_version: dibolt-1.3-missing-price-review
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept the precision of rounded displayed per-100 prices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'For Use With Thread Size: M2 (2mm); External Diameter (OD): 5mm;
+      Internal Diameter (ID): 2.2mm; Thickness (T): 0.35mm; Material: Mild Steel;
+      Finish: Bright Zinc Plated; Manufacturing Standard: DIN 125; Material Specification:
+      Mild Steel; Metric or Imperial?: Metric'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: dibolt
+    supplier_id: 20208.020.002
+    supplier_part_number: 20208.020.002
+    supplier_website: https://dibolt.co.uk/products/m2-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-2x5x0-3mm
+    tiers:
+    - maximum: 999
+      minimum: 1
+      source_text: 1 - 999 £0.75 Per 100 Units
+      source_unit_price: '0.0075'
+      source_vat_basis: exclusive
+      unit_price: '0.009000'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4999
+      minimum: 1000
+      source_text: 1,000 - 4,999 £0.47 Per 100 Units
+      source_unit_price: '0.0047'
+      source_vat_basis: exclusive
+      unit_price: '0.005640'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 5000
+      source_text: 5,000+ £0.42 Per 100 Units
+      source_unit_price: '0.0042'
+      source_vat_basis: exclusive
+      unit_price: '0.005040'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.009000'
+    total_price_10: '0.090000'
+    total_price_100: '0.900000'
+    total_price_1000: '5.640000'
+    total_price_10000: '50.400000'
+    unit_price_1: '0.009000'
+    unit_price_10: '0.009000'
+    unit_price_100: '0.009000'
+    unit_price_1000: '0.005640'
+    unit_price_10000: '0.005040'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Dibolt per-100 displayed prices are rounded; derived totals use captured display
+      precision
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''

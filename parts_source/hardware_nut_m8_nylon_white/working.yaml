@@ -1,3 +1,116 @@
+search_data:
+  aliexpress:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M8 hexagon full nut white nylon
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M8+hexagon+full+nut+white+nylon
+    selected_variant: ''
+    specification: ''
+    status: pending
+  ebay:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M8 hexagon full nut white nylon
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+hexagon+full+nut+white+nylon
+    selected_variant: ''
+    specification: ''
+    status: pending
+  google:
+    checked_at: '2026-10-14T09:22:44.807786+00:00'
+    evidence_file: support_files/evidence/hardware_nut_m8_nylon_white/google/d9cc7e78efd64ab3b111675170b26d9c.yaml
+    evidence_url: https://www.google.com/search?q=M8+hexagon+full+nut+white+nylon
+    material_evidence: Page description states white nylon hexagon full nuts; key
+      features state white nylon construction.
+    product_name: Metric White Nylon Hexagon Full Nuts DIN 934
+    reason: Spalding Fasteners explicitly identifies white nylon hexagon full nuts
+      and gives the M8 thread, pitch, across-flats and height dimensions.
+    result_url: https://www.spaldingfasteners.co.uk/PARENT1303
+    search_evidence: The supplied Google query returned Spalding Fasteners’ Metric
+      White Nylon Full Nuts DIN 934 listing for M8. The selected product page describes
+      white nylon hexagon full nuts with metric coarse threads. Its M8 size row gives
+      1.25 mm pitch, 13 mm across flats and 6.5 mm nut height; the page lists them
+      as DIN 934 pattern nuts.
+    search_for: M8 hexagon full nut white nylon
+    search_url: https://www.google.com/search?q=M8+hexagon+full+nut+white+nylon
+    selected_variant: M8 size row; pitch 1.25 mm; across flats 13 mm; height 6.5 mm
+    specification: 'Thread Size: M8; metric coarse thread; pitch 1.25 mm; hexagon
+      full nut; across flats 13 mm; height 6.5 mm; white nylon; DIN 934 pattern.'
+    status: verified
+supplier_data:
+  orbitalfasteners:
+    accepted_warnings: '[]'
+    box_quantity: '200'
+    captured_at: '2026-10-12T19:57:38.136132+00:00'
+    catalogue_page: '37'
+    currency: GBP
+    description: ''
+    html_sha256: 6b65a69415f7811f238f8b65992debc3ddc38c5876f0b53a80c7c84fc048f822
+    name: M8 Full Nut Nylon Grade 66 Natural White
+    parsed_at: '2026-10-18T08:49:28.372716+00:00'
+    parser_version: 1.2-review-policy
+    review_policy: ''
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: inclusive
+    status: ok
+    stock_as_of: 9th October 2026 10:03pm
+    stock_quantity: '16005'
+    supplier: orbitalfasteners
+    supplier_id: '4988930'
+    supplier_part_number: '4988930'
+    supplier_website: https://www.orbitalfasteners.co.uk/products/m8-full-nut-nylon-grade-66-natural
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_text: 1 - 199 £0.0929 Inc. VAT £9.29 Inc. VAT
+      source_unit_price: '0.0929'
+      source_vat_basis: inclusive
+      unit_price: '0.0929'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_text: 200 - 999 £0.0774 Inc. VAT £7.74 Inc. VAT
+      source_unit_price: '0.0774'
+      source_vat_basis: inclusive
+      unit_price: '0.0774'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 1000
+      source_text: 1000 + £0.0697 Inc. VAT £6.97 Inc. VAT
+      source_unit_price: '0.0697'
+      source_vat_basis: inclusive
+      unit_price: '0.0697'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.0929'
+    total_price_10: '0.9290'
+    total_price_100: '9.2900'
+    total_price_1000: '69.7000'
+    total_price_10000: '697.0000'
+    unit_price_1: '0.0929'
+    unit_price_10: '0.0929'
+    unit_price_100: '0.0929'
+    unit_price_1000: '0.0697'
+    unit_price_10000: '0.0697'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings: []
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''

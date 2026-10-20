@@ -1,0 +1,44 @@
+oomp_id: hardware_washer_m2_7_penny
+platform: google
+method: codex_builtin_browser
+status: assumed_non_stocked
+search_for: M2.7 steel penny washer DIN 9021
+evidence_url: https://www.google.com/search?q=M2.7+steel+penny+washer+DIN+9021
+reason: Both exact Google searches completed without showing an eligible M2.7 steel
+  penny washer. Results were misread as M27 (including a mild-steel M27 x 85 x 4 mm
+  washer), explicitly stainless, or unrelated. The Orbital mild-steel DIN 9021 Form
+  G category exposed sizes M5 and larger, not M2.7. No exact eligible product was
+  found.
+search_evidence: Initial query results included M27 mild-steel DIN 9021 washers (wrong
+  nominal size), stainless M2 DIN 9021 washers (wrong size and material), and a mild-steel
+  Form G category whose listed sizes were M5 and larger. Refinement results again
+  returned M27, stainless, and unrelated results; Google Shopping included zinc-plated
+  DIN 9021 listings without an M2.7 size. No exact eligible M2.7 product was shown.
+attempts:
+- term: M2.7 steel penny washer DIN 9021
+  url: https://www.google.com/search?q=M2.7+steel+penny+washer+DIN+9021
+  completed: true
+  outcome: Google primarily interpreted M2.7 as M27; steel listings were M27 x 85
+    x 4 mm. Other surfaced exact M2 products were stainless. The Orbital mild-steel
+    DIN 9021 Form G category exposed M5 and larger sizes, not M2.7.
+- term: '"M2.7" penny washer steel DIN 9021'
+  url: https://www.google.com/search?q=%22M2.7%22+penny+washer+steel+DIN+9021
+  completed: true
+  outcome: The refinement still returned M27 listings, stainless items and unrelated
+    results; no M2.7 mild-steel penny washer was displayed.
+no_eligible_product: true
+result_url: ''
+product_name: ''
+selected_variant: ''
+material_evidence: ''
+specification: ''
+checks:
+  result_reached_from_search: false
+  selected_variant: false
+  dimensions: false
+  form: false
+  material: false
+  finish: false
+  standard: false
+checked_at: '2026-10-14T11:32:53.265462+00:00'
+validator_version: 1

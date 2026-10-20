@@ -1,3 +1,69 @@
+search_data:
+  aliexpress:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M5 x 65 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M5+x+65+hex+head+part+threaded+bolt+DIN+931+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  ebay:
+    checked_at: '2026-10-14T08:19:09.930612+00:00'
+    evidence_file: support_files/evidence/hardware_bolt_m5_65_mm_length/ebay/cbb7008da6ca4e4e80f595bc0708099c.yaml
+    evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+65mm+part+threaded+8.8+steel+hex+bolt
+    material_evidence: ''
+    product_name: ''
+    reason: 'Both exact searches completed. The two inspected non-stainless steel
+      part-threaded M5 hex-bolt listings offered lengths around 65mm but neither offered
+      exactly 65mm: Fastpack offered 50, 60, 70, 80, 90 and 100mm; Balls Nuts And
+      Bolts offered 25, 30, 35, 40, 45, 50 and 70mm. Other exact-family results were
+      explicitly stainless or wrong form. No eligible product appeared in the tested
+      searches.'
+    result_url: ''
+    search_evidence: Initial search M5 x 65 hex head part threaded bolt DIN 931 steel
+      included Fastpack-York listing 277370942796 titled M5, LONG, Hex Bolts, Part
+      Threaded, BZP, Metric, 8.8 High Tensile. Its size menu offered M5 x 50mm, M5
+      x 60mm, M5 x 70mm, M5 x 80mm, M5 x 90mm, M5 x 100mm, and unrelated nuts/washers;
+      no 65mm. Refinement M5 65mm part threaded 8.8 steel hex bolt included Balls
+      Nuts And Bolts listing 304184206712, M5 Hex Bolt High Tensile 8.8 Zinc BZP DIN
+      931. Its length menu offered 25, 30, 35, 40, 45, 50, 70mm; no 65mm. Multiple
+      other prominent DIN 931 matches were A2 stainless, and some 8.8 matches were
+      fully threaded set screws.
+    search_for: M5 65mm part threaded 8.8 steel hex bolt
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+65mm+part+threaded+8.8+steel+hex+bolt
+    selected_variant: ''
+    specification: ''
+    status: assumed_non_stocked
+  google:
+    checked_at: '2026-10-14T08:27:01.724254+00:00'
+    evidence_file: support_files/evidence/hardware_bolt_m5_65_mm_length/google/3516a8827f1744deb5e376640489d24d.yaml
+    evidence_url: https://www.google.com/search?q=M5+x+65+hex+head+part+threaded+bolt+DIN+931+steel
+    material_evidence: 8.8 Steel BZP
+    product_name: M5 x 65mm Hex Bolt - Part Threaded (DIN 931) | 8.8 Steel BZP
+    reason: The exact Google query returned the Vital Parts M5 x 65mm part-threaded
+      DIN 931 result. The product page shows code HH931-M5-65-88-BZP, Thread Size
+      M5, Length 65mm, Threaded Length 16mm, 8.8 Steel BZP material/finish, Hex Head,
+      and DIN 931. Description confirms external hex drive for socket or spanner access.
+    result_url: https://www.vital-parts.co.uk/hex-head-bolts-din-931/9182-hh931-m5-65-88-bzp
+    search_evidence: Google result M5 x 65mm Hex Bolt - Part Threaded (DIN 931) |
+      8.8 Steel BZP from Vital Parts led to the opened product page. A separate Orbital
+      search result was also inspected, but Vital Parts provided explicit 8.8 steel
+      material evidence and was the recorded match.
+    search_for: M5 x 65 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.google.com/search?q=M5+x+65+hex+head+part+threaded+bolt+DIN+931+steel
+    selected_variant: Fixed product code HH931-M5-65-88-BZP; Thread Size M5; Length
+      65mm; Threaded Length 16mm.
+    specification: 'Thread Size: M5; Length: 65mm; Threaded Length: 16mm; Head: Hex
+      Head; Drive: External hex for socket or spanner; Form: Part threaded; Material:
+      8.8 Steel; Finish: Bright Zinc Plated (BZP); Standard: DIN 931; Product code:
+      HH931-M5-65-88-BZP'
+    status: verified
 spec_iso_b_125_lt_l_le_200_mm: '22'
 spec_iso_b_l_gt_200_mm: ''
 spec_iso_b_l_le_125_mm: '16'
@@ -12,6 +78,147 @@ spec_iso_nominal_diameter: M5
 spec_iso_s_max_mm: '8.00'
 spec_iso_s_min_mm: '7.78'
 spec_iso_thread_pitch_mm: '0.80'
+supplier_data:
+  dibolt:
+    accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-12T00:26:12.485126+00:00'
+    currency: GBP
+    html_sha256: f91bd16008c25a62bf834b3327b4c17dece62d6b2e7b927d07918ac8fa083ca2
+    name: M5 x 65mm Hexagon Head Bolts Part Threaded Self Colour Grade 8.8 DIN 931
+    packages: '[]'
+    parsed_at: '2026-10-18T09:02:20.617430+00:00'
+    parser_version: dibolt-1.3-missing-price-review
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept the precision of rounded displayed per-100 prices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M5 (5mm); Length (L): 65mm; Material: High Tensile
+      (Grade 8.8); Finish: Self Colour; Hexagon Length (Max) (H): 3.65mm; Thread Length
+      (Min): 16mm; Thread Pitch: 0.8mm; Socket Size (J): 8mm; Manufacturing Standard:
+      DIN 931; Material Specification: High Tensile (Grade 8.8); Metric or Imperial?:
+      Metric'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: dibolt
+    supplier_id: 20303.005.065
+    supplier_part_number: 20303.005.065
+    supplier_website: https://dibolt.co.uk/products/m5-x-65mm-hexagon-head-bolts-part-threaded-self-colour-grade-8-8-din-931
+    tiers:
+    - maximum: 249
+      minimum: 1
+      source_text: 1 - 249 £14.64 Per 100 Units
+      source_unit_price: '0.1464'
+      source_vat_basis: exclusive
+      unit_price: '0.175680'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 250
+      source_text: 250 - 999 £13.91 Per 100 Units
+      source_unit_price: '0.1391'
+      source_vat_basis: exclusive
+      unit_price: '0.166920'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 1000
+      source_text: 1,000+ £13.18 Per 100 Units
+      source_unit_price: '0.1318'
+      source_vat_basis: exclusive
+      unit_price: '0.158160'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.175680'
+    total_price_10: '1.756800'
+    total_price_100: '17.568000'
+    total_price_1000: '158.160000'
+    total_price_10000: '1581.600000'
+    unit_price_1: '0.175680'
+    unit_price_10: '0.175680'
+    unit_price_100: '0.175680'
+    unit_price_1000: '0.158160'
+    unit_price_10000: '0.158160'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Dibolt per-100 displayed prices are rounded; derived totals use captured display
+      precision
+  orbitalfasteners:
+    accepted_warnings: '[]'
+    box_quantity: '200'
+    captured_at: '2026-10-12T08:07:27.740724+00:00'
+    catalogue_page: ''
+    currency: GBP
+    description: ''
+    html_sha256: 75b74f126b638c76732455c8ca348b864c0de676f6d2bd577a217cbe8acc7a26
+    name: M5 x 65 Hexagon Head Bolt High Tensile Grade 8.8, Bright Zinc Plated, DIN
+      931
+    parsed_at: '2026-10-18T08:49:22.370102+00:00'
+    parser_version: 1.2-review-policy
+    review_policy: ''
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: inclusive
+    status: ok
+    stock_as_of: 9th October 2026 10:01pm More Info
+    stock_quantity: '2397'
+    supplier: orbitalfasteners
+    supplier_id: '1870540'
+    supplier_part_number: '1870540'
+    supplier_website: https://www.orbitalfasteners.co.uk/products/m5x65-88-hex-bolt-bzp-box-200-din-931
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_text: 1 - 199 £0.2004 Inc. VAT £20.04 Inc. VAT
+      source_unit_price: '0.2004'
+      source_vat_basis: inclusive
+      unit_price: '0.2004'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_text: 200 - 999 £0.1114 Inc. VAT £11.14 Inc. VAT
+      source_unit_price: '0.1114'
+      source_vat_basis: inclusive
+      unit_price: '0.1114'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 1199
+      minimum: 1000
+      source_text: 1000 - 1199 £0.1002 Inc. VAT £10.02 Inc. VAT
+      source_unit_price: '0.1002'
+      source_vat_basis: inclusive
+      unit_price: '0.1002'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 1200
+      source_text: 1200 + £0.089 Inc. VAT £8.90 Inc. VAT
+      source_unit_price: '0.089'
+      source_vat_basis: inclusive
+      unit_price: '0.089'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.2004'
+    total_price_10: '2.0040'
+    total_price_100: '20.0400'
+    total_price_1000: '100.2000'
+    total_price_10000: '890.000'
+    unit_price_1: '0.2004'
+    unit_price_10: '0.2004'
+    unit_price_100: '0.2004'
+    unit_price_1000: '0.1002'
+    unit_price_10000: '0.089'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings: []
 svg_details:
 - svg_b_125_lt_l_le_200_mm: '22'
   svg_b_l_gt_200_mm: ''

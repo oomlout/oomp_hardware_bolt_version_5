@@ -1,0 +1,35 @@
+oomp_id: hardware_nut_m8
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M8 hexagon full nut steel
+evidence_url: https://www.google.com/search?q=M8+hexagon+full+nut+steel
+reason: Orbital Fasteners’ selected M8 hexagon full nut is Class 8 steel, bright zinc
+  plated and DIN 934.
+search_evidence: The supplied Google query returned Orbital Fasteners’ M8 Hexagon
+  Steel Full Nut Class 8 Bright Zinc Plated, DIN 934. The selected page identifies
+  SKU 1771040, M8, steel, Class 8, bright zinc plated finish and DIN 934. Its product
+  information describes a class 8 steel full nut with bright zinc plate.
+attempts:
+- term: M8 hexagon full nut steel
+  url: https://www.google.com/search?q=M8+hexagon+full+nut+steel
+  completed: true
+  outcome: Opened Orbital Fasteners’ M8 Hexagon Steel Full Nut Class 8 Bright Zinc
+    Plated, DIN 934 page. It identifies the M8 full hex nut, Class 8 steel, bright
+    zinc plating, DIN 934 and SKU 1771040.
+result_url: https://www.orbitalfasteners.co.uk/products/m8-hexagon-mild-steel-full-nuts-bright-zinc-plated
+product_name: M8 Hexagon Steel Full Nut Class 8 Bright Zinc Plated, DIN 934
+selected_variant: Fixed M8 product; SKU 1771040
+material_evidence: Selected page identifies steel and Class 8; product information
+  states Class 8 steel.
+specification: M8 hexagon full nut; Class 8 steel; bright zinc plated; DIN 934.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:20:53.493263+00:00'
+validator_version: 1

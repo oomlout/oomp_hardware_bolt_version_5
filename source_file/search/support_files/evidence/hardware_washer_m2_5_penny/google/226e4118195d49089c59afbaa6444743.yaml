@@ -1,0 +1,43 @@
+oomp_id: hardware_washer_m2_5_penny
+platform: google
+method: codex_builtin_browser
+status: unresolved
+search_for: M2.5 steel penny washer DIN 9021
+evidence_url: https://www.google.com/search?q=M2.5+steel+penny+washer+DIN+9021
+reason: The exact-size results were stainless steel, but Google also returned a Würth
+  DIN 9021 steel zinc-plated product family with 16 versions. The opened family page
+  did not expose the variant table or individual size, so an eligible M2.5 steel variant
+  cannot be confirmed or excluded.
+search_evidence: The supplied query returned A2/A4 stainless M2.5 DIN 9021 products
+  and a Würth DIN 9021 steel zinc-plated family. The focused M2.5 8mm mild steel query
+  also returned stainless exact-size products and the Würth family. Opened Würth's
+  family page; it states steel, zinc-plated, DIN 9021 and 16 versions, but no sizes/variant
+  rows were exposed.
+attempts:
+- term: M2.5 steel penny washer DIN 9021
+  url: https://www.google.com/search?q=M2.5+steel+penny+washer+DIN+9021
+  completed: true
+  outcome: Google returned exact M2.5 DIN 9021 products in stainless steel and a Würth
+    steel zinc-plated family with unshown variants.
+- term: M2.5 8mm DIN 9021 penny washer mild steel
+  url: https://www.google.com/search?q=M2.5+8mm+DIN+9021+penny+washer+mild+steel
+  completed: true
+  outcome: Results showed stainless exact-size M2.5 washers and a Würth steel family.
+    Opened the Würth family page; its 16-version table did not expose individual rows/sizes.
+result_url: ''
+product_name: ''
+selected_variant: ''
+material_evidence: Würth family heading states steel, zinc-plated, blue passivated
+  (A2K), but no M2.5 variant selection was visible.
+specification: 'Possible family candidate: DIN 9021 large washer, steel, zinc-plated;
+  16 variants, exact M2.5 variant unresolved.'
+checks:
+  result_reached_from_search: true
+  selected_variant: false
+  dimensions: false
+  form: false
+  material: false
+  finish: false
+  standard: false
+checked_at: '2026-10-14T11:30:45.728286+00:00'
+validator_version: 1

@@ -1,3 +1,52 @@
+search_data:
+  aliexpress:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M5 x 22 hex head fully threaded set screw DIN 933 steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M5+x+22+hex+head+fully+threaded+set+screw+DIN+933+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  ebay:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M5 x 22 hex head fully threaded set screw DIN 933 steel
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+x+22+hex+head+fully+threaded+set+screw+DIN+933+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  google:
+    checked_at: '2026-10-14T10:45:00.706191+00:00'
+    evidence_file: support_files/evidence/hardware_set_screw_m5_22_mm_length/google/6724dc1dbf68418f9e9ff899b04229b2.yaml
+    evidence_url: https://www.google.com/search?q=M5+x+22+hex+head+fully+threaded+set+screw+DIN+933+steel
+    material_evidence: Steel
+    product_name: M5 X 22 HEXAGON HEAD SET SCREWS HIGH TENSILE GRADE 8.8 BRIGHT ZINC
+      PLATED, DIN 933
+    reason: Exact Orbital Fasteners product page verifies M5 x 22 DIN 933 fully threaded
+      grade 8.8 steel, bright zinc plated, hexagon head.
+    result_url: https://www.orbitalfasteners.co.uk/products/m5-x-22-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated
+    search_evidence: Google result led to the exact Orbital Fasteners high tensile
+      grade 8.8 result; stainless results were rejected.
+    search_for: M5 x 22 hex head fully threaded set screw DIN 933 steel
+    search_url: https://www.google.com/search?q=M5+x+22+hex+head+fully+threaded+set+screw+DIN+933+steel
+    selected_variant: 'Single-size product: M5 x 22mm, high tensile grade 8.8 steel,
+      bright zinc plated; SKU 1851105'
+    specification: 'Thread Size: M5; Length: 22mm; Thread form: fully threaded; Drive:
+      external hexagon; Head Style: hexagon head; Material: high tensile grade 8.8
+      steel; Finish: bright zinc plated; Standard: DIN 933'
+    status: verified
 spec_iso_b_125_lt_l_le_200_mm: '22'
 spec_iso_b_l_gt_200_mm: ''
 spec_iso_b_l_le_125_mm: '16'
@@ -12,6 +61,78 @@ spec_iso_nominal_diameter: M5
 spec_iso_s_max_mm: '8.00'
 spec_iso_s_min_mm: '7.78'
 spec_iso_thread_pitch_mm: '0.80'
+supplier_data:
+  orbitalfasteners:
+    accepted_warnings: '[]'
+    box_quantity: '500'
+    captured_at: '2026-10-12T20:16:29.498767+00:00'
+    catalogue_page: '8'
+    currency: GBP
+    description: ''
+    html_sha256: 1167e0333c2d07199f49f0f241bee63941bb130c687da7561650637319612b67
+    name: M5 x 22 Hexagon Head Set Screws High Tensile Grade 8.8 Bright Zinc Plated,
+      DIN 933
+    parsed_at: '2026-10-18T08:49:36.957782+00:00'
+    parser_version: 1.2-review-policy
+    review_policy: ''
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: inclusive
+    status: ok
+    stock_as_of: 9th October 2026 10:01pm
+    stock_quantity: '50'
+    supplier: orbitalfasteners
+    supplier_id: '1851105'
+    supplier_part_number: '1851105'
+    supplier_website: https://www.orbitalfasteners.co.uk/products/m5-x-22-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated
+    tiers:
+    - maximum: 499
+      minimum: 1
+      source_text: 1 - 499 £0.108 Inc. VAT £10.80 Inc. VAT
+      source_unit_price: '0.108'
+      source_vat_basis: inclusive
+      unit_price: '0.108'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 2499
+      minimum: 500
+      source_text: 500 - 2499 £0.06 Inc. VAT £6.00 Inc. VAT
+      source_unit_price: '0.06'
+      source_vat_basis: inclusive
+      unit_price: '0.06'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4999
+      minimum: 2500
+      source_text: 2500 - 4999 £0.054 Inc. VAT £5.40 Inc. VAT
+      source_unit_price: '0.054'
+      source_vat_basis: inclusive
+      unit_price: '0.054'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 5000
+      source_text: 5000 + £0.048 Inc. VAT £4.80 Inc. VAT
+      source_unit_price: '0.048'
+      source_vat_basis: inclusive
+      unit_price: '0.048'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.108'
+    total_price_10: '1.080'
+    total_price_100: '10.800'
+    total_price_1000: '60.00'
+    total_price_10000: '480.000'
+    unit_price_1: '0.108'
+    unit_price_10: '0.108'
+    unit_price_100: '0.108'
+    unit_price_1000: '0.06'
+    unit_price_10000: '0.048'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings: []
 svg_details:
 - svg_b_125_lt_l_le_200_mm: '22'
   svg_b_l_gt_200_mm: ''

@@ -1,0 +1,32 @@
+oomp_id: hardware_screw_socket_cap_hex_head_black_m5_diameter_10_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M5 x 10 socket cap screw DIN 912 black high tensile steel
+evidence_url: https://www.google.com/search?q=M5+x+10+socket+cap+screw+DIN+912+black+high+tensile+steel
+reason: Exact selected size and eligible steel product verified on supplier page.
+search_evidence: Google result led to the Bolt Base Amazon listing for M5 x 10 black
+  12.9 steel DIN 912 socket cap screws.
+attempts:
+- term: M5 x 10 socket cap screw DIN 912 black high tensile steel
+  url: https://www.google.com/search?q=M5+x+10+socket+cap+screw+DIN+912+black+high+tensile+steel
+  completed: true
+  outcome: Exact M5 x 10 product page inspected, including selected 10-pack variant.
+result_url: https://www.amazon.co.uk/Bolt-Base-Tensile-Socket-screws/dp/B00SN3KDCQ
+product_name: (5mm) M5 x 10 Black 12.9 Grade High Tensile Hex Socket Cap Screws Self
+  Colour Allen Bolts DIN 912-10 Pack
+selected_variant: M5 x 10 mm, selected 10-pack
+material_evidence: Product page identifies Material Steel; listing specifies 12.9
+  Grade High Tensile Steel.
+specification: M5 x 10 mm, 0.8 mm pitch, full thread; socket cap head; 4 mm Allen
+  key drive; black self colour; DIN 912; length excludes head.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:58:50.968986+00:00'
+validator_version: 1

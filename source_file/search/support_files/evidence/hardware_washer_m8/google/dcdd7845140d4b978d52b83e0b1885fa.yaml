@@ -1,0 +1,36 @@
+oomp_id: hardware_washer_m8
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M8 steel flat washer DIN 125
+evidence_url: https://www.google.com/search?q=M8+steel+flat+washer+DIN+125
+reason: The Google search led to Orbital Fasteners' M8 Form A flat washer. The page
+  identifies an M8 washer, 8.4x16x1.6mm, mild steel, bright zinc plated, DIN 125-1A,
+  and lists it in stock.
+search_evidence: Opened the Orbital Fasteners result from the supplied search. The
+  product heading states M8 Mild Steel Form A Flat Washer Bright Zinc Plated DIN 125-1A
+  (8.4x16x1.6mm). Product information repeats 8.4 x 16.0 x 1.6mm, mild steel, bright
+  zinc plated, DIN 125-1A. SKU 1711040; in stock.
+attempts:
+- term: M8 steel flat washer DIN 125
+  url: https://www.google.com/search?q=M8+steel+flat+washer+DIN+125
+  completed: true
+  outcome: Google surfaced an exact Orbital Fasteners M8 Form A product. Opened the
+    page and verified 8.4x16x1.6mm, mild steel, bright zinc plated and DIN 125-1A.
+result_url: https://www.orbitalfasteners.co.uk/products/m8-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-8-4x17x1-6mm-
+product_name: M8 Mild Steel Form A Flat Washer Bright Zinc Plated DIN 125 - 1A (8.4x16x1.6mm)
+selected_variant: 'Thread Size: M8; SKU: 1711040'
+material_evidence: Product heading and product information state mild steel.
+specification: 'Thread Size: M8; Form: Form A flat washer; Internal diameter: 8.4mm;
+  External diameter: 16mm; Thickness: 1.6mm; Material: Mild steel; Finish: Bright
+  zinc plated; Standard: DIN 125-1A'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T11:37:35.912647+00:00'
+validator_version: 1

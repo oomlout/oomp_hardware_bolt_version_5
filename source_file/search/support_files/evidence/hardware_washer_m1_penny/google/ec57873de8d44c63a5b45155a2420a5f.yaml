@@ -1,0 +1,44 @@
+oomp_id: hardware_washer_m1_penny
+platform: google
+method: codex_builtin_browser
+status: unresolved
+search_for: M1 steel penny washer DIN 9021
+evidence_url: https://www.google.com/search?q=M1+steel+penny+washer+DIN+9021
+reason: No exact M1 non-stainless product appeared in either completed search. Google
+  returned an Orbital Fasteners mild steel Form G DIN 9021 category page, but the
+  opened page exposed no individual size options, so M1 availability remains ambiguous.
+search_evidence: The initial query returned stainless and other-size results, plus
+  a mild steel Form G category result. The focused query `M1 Form G mild steel penny
+  washer DIN 9021` returned the same supplier family page and Google indicated M1
+  was missing. Opened the Orbital category page; its heading confirmed Form G mild
+  steel, bright zinc plated, DIN 9021, but no product or sizes were accessible in
+  the page content.
+attempts:
+- term: M1 steel penny washer DIN 9021
+  url: https://www.google.com/search?q=M1+steel+penny+washer+DIN+9021
+  completed: true
+  outcome: Results included M5 and other-size washers and an Orbital mild steel DIN
+    9021 category; no exact M1 item.
+- term: M1 Form G mild steel penny washer DIN 9021
+  url: https://www.google.com/search?q=M1+Form+G+mild+steel+penny+washer+DIN+9021
+  completed: true
+  outcome: Search returned the Orbital mild steel Form G DIN 9021 category, but the
+    opened page did not expose its exact size variants; M1 cannot be confirmed or
+    rejected.
+result_url: ''
+product_name: ''
+selected_variant: ''
+material_evidence: Orbital category heading states mild steel; no selected M1 variant
+  or material was available to inspect.
+specification: 'Possible supplier family result: Form G mild steel washer, bright
+  zinc plated, DIN 9021; exact M1 product not exposed.'
+checks:
+  result_reached_from_search: true
+  selected_variant: false
+  dimensions: false
+  form: false
+  material: false
+  finish: false
+  standard: false
+checked_at: '2026-10-14T11:29:13.481690+00:00'
+validator_version: 1

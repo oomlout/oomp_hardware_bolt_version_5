@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_bolt_m8_100_mm_length",
+  "platform": "ebay",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M8 x 100 hex head part threaded bolt DIN 931 steel",
+  "evidence_url": "https://www.ebay.co.uk/sch/i.html?_nkw=M8+x+100+hex+head+part+threaded+bolt+DIN+931+steel",
+  "reason": "The exact eBay query led to Thread and Butter Fasteners item 327321917032. Its fixed listing is an M8 x 100mm part-threaded hex head bolt made of high tensile steel grade 8.8, with 1.25mm coarse pitch, BZP finish and DIN 931. The seller states length excludes the head. The listing's Unit Quantity 10 is a pack quantity, not a different size.",
+  "search_evidence": "The exact supplied eBay search returned several stainless near-matches and eligible steel candidates. Opened Thread and Butter Fasteners item 327321917032, titled M8 x 100mm x 1.25 part threaded bolts high tensile steel 8.8 hex head BZP UK. Item specifics identify Material Steel, Grade 8.8, MPN DIN 931, Thread Size M8 x 1.25 (STD), Item Length 100, Screw Size M8, Hex Head and BZP. Seller description states high-tensile steel, pitch 1.25 standard coarse, part-threaded with 22mm thread, screw length 100mm excluding head, 13mm socket size and quality assured DIN 931. Stainless candidates were excluded.",
+  "attempts": [
+    {
+      "term": "M8 x 100 hex head part threaded bolt DIN 931 steel",
+      "url": "https://www.ebay.co.uk/sch/i.html?_nkw=M8+x+100+hex+head+part+threaded+bolt+DIN+931+steel",
+      "completed": true,
+      "outcome": "Search completed with 57 results. Opened Thread and Butter Fasteners item 327321917032 from the results; listing specifics and description confirm M8 x 100mm part-threaded high tensile steel hex bolt, BZP, DIN 931. Stainless near-matches were rejected."
+    }
+  ],
+  "result_url": "https://www.ebay.co.uk/itm/327321917032?_skw=M8+x+100+hex+head+part+threaded+bolt+DIN+931+steel&var=516075811101&itmmeta=01M4X41QX0540BPZDFZ1A4ND8S&hash=item4c35e81668:g:9PsAAeSw3EVqibGG&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde%2BUk6yNvJADGG5qSk4x%2FvAMrXGbKfl20%2BdZhsHXq3aC%2Fp991GGeWNaQePQTOlUiOWMsQZJDFIKMKzdq%2Ba%2FaHT9ZeGcpJ3QzqU%2BmjXECyqLzUtrg0jyhG%2B4gihW9bEcUDiKx4YWbr4Xj12eLMnK9%2BoRnKroBIFfs%2FnV3f6Vhl6djatjwsT%2FCgdkbuDQ5LEyZPOQSELFTkaoF7kAikzSOcTIdWgvklpiQOImB7iEKA28BtBMS02e1FzVjY96vaiy3l85uQWcAhxRFC4RPOjBeKc4bKFYyhAYdp%2FysddY9B0%2BW9g%3D%3D%7Ctkp%3ABk9SR9r-hqSnaA",
+  "product_name": "M8 x 100mm x 1.25 part threaded bolts high tensile steel 8.8 hex head BZP UK",
+  "selected_variant": "Fixed M8 x 100mm listing; item specifics show M8, Item Length 100 and Material Steel. Unit Quantity 10 is the pack quantity, not a size variant.",
+  "material_evidence": "Steel; high-tensile steel grade 8.8 in seller description",
+  "specification": "Screw Size: M8; Thread Size: M8 x 1.25 (standard coarse); Length: 100mm excluding head; Material: Steel; Grade: 8.8; Product: Part-threaded hex head bolt; Standard: DIN 931; Head Style: Hex Head; Finish: Bright Zinc Plate (BZP); Threaded length: 22mm; Socket size: 13mm",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

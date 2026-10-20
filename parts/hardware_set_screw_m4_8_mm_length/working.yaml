@@ -85,6 +85,58 @@ oomlout_ai_roboclick_1:
             name_proper: Hardware Set Screw M4 8 Mm Length
             name_space: hardware set screw m4 8 mm length
             name_upper: HARDWARE SET SCREW M4 8 MM LENGTH
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M4 x 8 hex head fully threaded set screw DIN 933 steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M4+x+8+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M4 x 8 hex head fully threaded set screw DIN 933 steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+x+8+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T10:41:05.310576+00:00'
+                    evidence_file: support_files/evidence/hardware_set_screw_m4_8_mm_length/google/5a8f9cb45e1e479c8a9a62b0dcc2023b.yaml
+                    evidence_url: https://www.google.com/search?q=M4+x+8+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    material_evidence: Steel
+                    product_name: M4 x 8 Hexagon Head Set Screws High Tensile Grade
+                        8.8 Bright Zinc Plated, DIN 933
+                    reason: Orbital Fasteners page confirms M4 x 8, hexagon head,
+                        fully threaded, high tensile grade 8.8 steel, bright zinc
+                        plated and DIN 933.
+                    result_url: https://www.orbitalfasteners.co.uk/products/m4-x-8-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated
+                    search_evidence: Google result opened the matching Orbital Fasteners
+                        M4 x 8 Grade 8.8 BZP DIN 933 page. Stainless results were
+                        rejected.
+                    search_for: M4 x 8 hex head fully threaded set screw DIN 933 steel
+                    search_url: https://www.google.com/search?q=M4+x+8+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: 'Single-size product: M4 x 8mm, high tensile
+                        grade 8.8 steel, bright zinc plated; SKU 1850990'
+                    specification: 'Diameter: M4; Length: 8mm; Thread: fully threaded;
+                        Drive: external hexagon; Head: hexagon head; Material: high
+                        tensile grade 8.8 steel; Finish: bright zinc plated; Standard:
+                        DIN 933'
+                    status: verified
             spec_iso_b_125_lt_l_le_200_mm: ''
             spec_iso_b_l_gt_200_mm: ''
             spec_iso_b_l_le_125_mm: '14'
@@ -99,6 +151,226 @@ oomlout_ai_roboclick_1:
             spec_iso_s_max_mm: '7.00'
             spec_iso_s_min_mm: '6.78'
             spec_iso_thread_pitch_mm: '0.70'
+            supplier_data:
+                aanddfasteners:
+                    accepted_warnings: '["Source quantity band starts at zero; normalized
+                        minimum to one item"]'
+                    captured_at: '2026-10-12T23:53:23.023820+00:00'
+                    currency: GBP
+                    html_sha256: 386adc9df166285e0e7b2117c01cf4a2933155c745b14326aa8b1d5a5e661ac8
+                    name: M4 x 8mm Hexagonal Set screw, Din 933, Steel zinc plated
+                    packages: '[]'
+                    parsed_at: '2026-10-18T08:57:32.024371+00:00'
+                    parser_version: aanddfasteners-1.2-review-policy
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept zero-to-one quantity normalization
+                        and low-stock notices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: Product information A metric hexagonal set screw
+                        or Hex Set as it's commonly known, manufactured to Din 933.
+                        This fully threaded bolt is designed for use in heavy duty
+                        fastening applications, and is ideal for installation into
+                        pre-threaded holes using a spanner or socket tool. Manufactured
+                        in 8.8 high tensile steel with a bright zinc plating for an
+                        attractive appearance and medium corrosion resistance for
+                        general purpose use. Manufactured in 8.8 high tensile steel
+                        with a bright zinc plating for an attractive appearance and
+                        medium corrosion resistance for general purpose use.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: aanddfasteners
+                    supplier_id: ST93304008ZP
+                    supplier_part_number: ST93304008ZP
+                    supplier_website: https://www.aanddfasteners.co.uk/shop/bolting/hex-set/metric-din-933-zinc-plated/m4-x-8mm-hexagonal-set-screw-din-933-steel-zinc-plated/details
+                    tiers:
+                    -   maximum: 25
+                        minimum: 1
+                        source_text: "0 - 25 \xA3 0.10"
+                        source_unit_price: '0.10'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 50
+                        minimum: 26
+                        source_text: "26 -50 \xA3 0.08"
+                        source_unit_price: '0.08'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0960'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 51
+                        source_text: "51+ \xA3 0.06"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.1200'
+                    total_price_10: '1.2000'
+                    total_price_100: '7.2000'
+                    total_price_1000: '72.0000'
+                    total_price_10000: '720.0000'
+                    unit_price_1: '0.1200'
+                    unit_price_10: '0.1200'
+                    unit_price_100: '0.0720'
+                    unit_price_1000: '0.0720'
+                    unit_price_10000: '0.0720'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Source quantity band starts at zero; normalized minimum to one
+                        item
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T00:24:31.646398+00:00'
+                    currency: GBP
+                    html_sha256: 9deeb67eca1896b7a453717a5ec79b66aef46baabf753ff50b518e0620b341ff
+                    name: M4 x 8mm Hexagon Head Set Screw Fully Threaded Self Colour
+                        Black Grade 8.8 DIN 933
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:03:18.776640+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M4 (4mm); Length (L): 8mm; Material:
+                        High Tensile (Grade 8.8); Finish: Self Colour; Head Length
+                        (H): 3mm; Pitch: 0.7mm; Socket Size (J): 7mm; Manufacturing
+                        Standard: 933; Material Specification: High Tensile (Grade
+                        8.8); Fully Threaded: Yes'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 20324.040.008
+                    supplier_part_number: 20324.040.008
+                    supplier_website: https://dibolt.co.uk/products/m4-x-8mm-hexagon-head-set-screw-fully-threaded-self-colour-black-grade-8-8-din-933
+                    tiers:
+                    -   maximum: 999
+                        minimum: 1
+                        source_text: "1 - 999 \xA31.92 Per 100 Units"
+                        source_unit_price: '0.0192'
+                        source_vat_basis: exclusive
+                        unit_price: '0.023040'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_text: "1,000 - 4,999 \xA31.82 Per 100 Units"
+                        source_unit_price: '0.0182'
+                        source_vat_basis: exclusive
+                        unit_price: '0.021840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 5000
+                        source_text: "5,000+ \xA31.73 Per 100 Units"
+                        source_unit_price: '0.0173'
+                        source_vat_basis: exclusive
+                        unit_price: '0.020760'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.023040'
+                    total_price_10: '0.230400'
+                    total_price_100: '2.304000'
+                    total_price_1000: '21.840000'
+                    total_price_10000: '207.600000'
+                    unit_price_1: '0.023040'
+                    unit_price_10: '0.023040'
+                    unit_price_100: '0.023040'
+                    unit_price_1000: '0.021840'
+                    unit_price_10000: '0.020760'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '500'
+                    captured_at: '2026-10-12T20:12:10.648455+00:00'
+                    catalogue_page: '8'
+                    currency: GBP
+                    description: ''
+                    html_sha256: 749ec1af26dd90c15e23f2eaa9f6f7ea567704b7e9409c4a50c97d4d3e490558
+                    name: M4 x 8 Hexagon Head Set Screws High Tensile Grade 8.8 Bright
+                        Zinc Plated, DIN 933
+                    parsed_at: '2026-10-18T08:49:36.495455+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '13924'
+                    supplier: orbitalfasteners
+                    supplier_id: '1850990'
+                    supplier_part_number: '1850990'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m4-x-8-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA30.0232 Inc. VAT \xA32.32 Inc. VAT"
+                        source_unit_price: '0.0232'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0232'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2499 \xA30.0128 Inc. VAT \xA31.28 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0128'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0128'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 11999
+                        minimum: 2500
+                        source_text: "2500 - 11999 \xA30.0116 Inc. VAT \xA31.16 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0116'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0116'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 12000
+                        source_text: "12000 + \xA30.0103 Inc. VAT \xA31.03 Inc. VAT"
+                        source_unit_price: '0.0103'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0103'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0232'
+                    total_price_10: '0.2320'
+                    total_price_100: '2.3200'
+                    total_price_1000: '12.8000'
+                    total_price_10000: '116.0000'
+                    unit_price_1: '0.0232'
+                    unit_price_10: '0.0232'
+                    unit_price_100: '0.0232'
+                    unit_price_1000: '0.0128'
+                    unit_price_10000: '0.0116'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
             svg_details:
             -   svg_b_125_lt_l_le_200_mm: ''
                 svg_b_l_gt_200_mm: ''
@@ -409,6 +681,63 @@ oomlout_ai_roboclick_2:
                         name_proper: Hardware Set Screw M4 8 Mm Length
                         name_space: hardware set screw m4 8 mm length
                         name_upper: HARDWARE SET SCREW M4 8 MM LENGTH
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M4 x 8 hex head fully threaded set screw
+                                    DIN 933 steel
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M4+x+8+hex+head+fully+threaded+set+screw+DIN+933+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M4 x 8 hex head fully threaded set screw
+                                    DIN 933 steel
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+x+8+hex+head+fully+threaded+set+screw+DIN+933+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T10:41:05.310576+00:00'
+                                evidence_file: support_files/evidence/hardware_set_screw_m4_8_mm_length/google/5a8f9cb45e1e479c8a9a62b0dcc2023b.yaml
+                                evidence_url: https://www.google.com/search?q=M4+x+8+hex+head+fully+threaded+set+screw+DIN+933+steel
+                                material_evidence: Steel
+                                product_name: M4 x 8 Hexagon Head Set Screws High
+                                    Tensile Grade 8.8 Bright Zinc Plated, DIN 933
+                                reason: Orbital Fasteners page confirms M4 x 8, hexagon
+                                    head, fully threaded, high tensile grade 8.8 steel,
+                                    bright zinc plated and DIN 933.
+                                result_url: https://www.orbitalfasteners.co.uk/products/m4-x-8-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated
+                                search_evidence: Google result opened the matching
+                                    Orbital Fasteners M4 x 8 Grade 8.8 BZP DIN 933
+                                    page. Stainless results were rejected.
+                                search_for: M4 x 8 hex head fully threaded set screw
+                                    DIN 933 steel
+                                search_url: https://www.google.com/search?q=M4+x+8+hex+head+fully+threaded+set+screw+DIN+933+steel
+                                selected_variant: 'Single-size product: M4 x 8mm,
+                                    high tensile grade 8.8 steel, bright zinc plated;
+                                    SKU 1850990'
+                                specification: 'Diameter: M4; Length: 8mm; Thread:
+                                    fully threaded; Drive: external hexagon; Head:
+                                    hexagon head; Material: high tensile grade 8.8
+                                    steel; Finish: bright zinc plated; Standard: DIN
+                                    933'
+                                status: verified
                         spec_iso_b_125_lt_l_le_200_mm: ''
                         spec_iso_b_l_gt_200_mm: ''
                         spec_iso_b_l_le_125_mm: '14'
@@ -423,6 +752,233 @@ oomlout_ai_roboclick_2:
                         spec_iso_s_max_mm: '7.00'
                         spec_iso_s_min_mm: '6.78'
                         spec_iso_thread_pitch_mm: '0.70'
+                        supplier_data:
+                            aanddfasteners:
+                                accepted_warnings: '["Source quantity band starts
+                                    at zero; normalized minimum to one item"]'
+                                captured_at: '2026-10-12T23:53:23.023820+00:00'
+                                currency: GBP
+                                html_sha256: 386adc9df166285e0e7b2117c01cf4a2933155c745b14326aa8b1d5a5e661ac8
+                                name: M4 x 8mm Hexagonal Set screw, Din 933, Steel
+                                    zinc plated
+                                packages: '[]'
+                                parsed_at: '2026-10-18T08:57:32.024371+00:00'
+                                parser_version: aanddfasteners-1.2-review-policy
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept zero-to-one
+                                    quantity normalization and low-stock notices."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: Product information A metric hexagonal
+                                    set screw or Hex Set as it's commonly known, manufactured
+                                    to Din 933. This fully threaded bolt is designed
+                                    for use in heavy duty fastening applications,
+                                    and is ideal for installation into pre-threaded
+                                    holes using a spanner or socket tool. Manufactured
+                                    in 8.8 high tensile steel with a bright zinc plating
+                                    for an attractive appearance and medium corrosion
+                                    resistance for general purpose use. Manufactured
+                                    in 8.8 high tensile steel with a bright zinc plating
+                                    for an attractive appearance and medium corrosion
+                                    resistance for general purpose use.
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: aanddfasteners
+                                supplier_id: ST93304008ZP
+                                supplier_part_number: ST93304008ZP
+                                supplier_website: https://www.aanddfasteners.co.uk/shop/bolting/hex-set/metric-din-933-zinc-plated/m4-x-8mm-hexagonal-set-screw-din-933-steel-zinc-plated/details
+                                tiers:
+                                -   maximum: 25
+                                    minimum: 1
+                                    source_text: "0 - 25 \xA3 0.10"
+                                    source_unit_price: '0.10'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1200'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 50
+                                    minimum: 26
+                                    source_text: "26 -50 \xA3 0.08"
+                                    source_unit_price: '0.08'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0960'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 51
+                                    source_text: "51+ \xA3 0.06"
+                                    source_unit_price: '0.06'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0720'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.1200'
+                                total_price_10: '1.2000'
+                                total_price_100: '7.2000'
+                                total_price_1000: '72.0000'
+                                total_price_10000: '720.0000'
+                                unit_price_1: '0.1200'
+                                unit_price_10: '0.1200'
+                                unit_price_100: '0.0720'
+                                unit_price_1000: '0.0720'
+                                unit_price_10000: '0.0720'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Source quantity band starts at zero; normalized
+                                    minimum to one item
+                            dibolt:
+                                accepted_warnings: '["Dibolt per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-14T00:24:31.646398+00:00'
+                                currency: GBP
+                                html_sha256: 9deeb67eca1896b7a453717a5ec79b66aef46baabf753ff50b518e0620b341ff
+                                name: M4 x 8mm Hexagon Head Set Screw Fully Threaded
+                                    Self Colour Black Grade 8.8 DIN 933
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:03:18.776640+00:00'
+                                parser_version: dibolt-1.3-missing-price-review
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept the precision
+                                    of rounded displayed per-100 prices."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: 'Thread Size: M4 (4mm); Length (L):
+                                    8mm; Material: High Tensile (Grade 8.8); Finish:
+                                    Self Colour; Head Length (H): 3mm; Pitch: 0.7mm;
+                                    Socket Size (J): 7mm; Manufacturing Standard:
+                                    933; Material Specification: High Tensile (Grade
+                                    8.8); Fully Threaded: Yes'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: dibolt
+                                supplier_id: 20324.040.008
+                                supplier_part_number: 20324.040.008
+                                supplier_website: https://dibolt.co.uk/products/m4-x-8mm-hexagon-head-set-screw-fully-threaded-self-colour-black-grade-8-8-din-933
+                                tiers:
+                                -   maximum: 999
+                                    minimum: 1
+                                    source_text: "1 - 999 \xA31.92 Per 100 Units"
+                                    source_unit_price: '0.0192'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.023040'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 4999
+                                    minimum: 1000
+                                    source_text: "1,000 - 4,999 \xA31.82 Per 100 Units"
+                                    source_unit_price: '0.0182'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.021840'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 5000
+                                    source_text: "5,000+ \xA31.73 Per 100 Units"
+                                    source_unit_price: '0.0173'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.020760'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.023040'
+                                total_price_10: '0.230400'
+                                total_price_100: '2.304000'
+                                total_price_1000: '21.840000'
+                                total_price_10000: '207.600000'
+                                unit_price_1: '0.023040'
+                                unit_price_10: '0.023040'
+                                unit_price_100: '0.023040'
+                                unit_price_1000: '0.021840'
+                                unit_price_10000: '0.020760'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Dibolt per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
+                            orbitalfasteners:
+                                accepted_warnings: '[]'
+                                box_quantity: '500'
+                                captured_at: '2026-10-12T20:12:10.648455+00:00'
+                                catalogue_page: '8'
+                                currency: GBP
+                                description: ''
+                                html_sha256: 749ec1af26dd90c15e23f2eaa9f6f7ea567704b7e9409c4a50c97d4d3e490558
+                                name: M4 x 8 Hexagon Head Set Screws High Tensile
+                                    Grade 8.8 Bright Zinc Plated, DIN 933
+                                parsed_at: '2026-10-18T08:49:36.495455+00:00'
+                                parser_version: 1.2-review-policy
+                                review_policy: ''
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: inclusive
+                                status: ok
+                                stock_as_of: 9th October 2026 10:01pm
+                                stock_quantity: '13924'
+                                supplier: orbitalfasteners
+                                supplier_id: '1850990'
+                                supplier_part_number: '1850990'
+                                supplier_website: https://www.orbitalfasteners.co.uk/products/m4-x-8-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated
+                                tiers:
+                                -   maximum: 499
+                                    minimum: 1
+                                    source_text: "1 - 499 \xA30.0232 Inc. VAT \xA3\
+                                        2.32 Inc. VAT"
+                                    source_unit_price: '0.0232'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0232'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 2499
+                                    minimum: 500
+                                    source_text: "500 - 2499 \xA30.0128 Inc. VAT \xA3\
+                                        1.28 Inc. VAT"
+                                    source_unit_price: '0.0128'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0128'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 11999
+                                    minimum: 2500
+                                    source_text: "2500 - 11999 \xA30.0116 Inc. VAT\
+                                        \ \xA31.16 Inc. VAT"
+                                    source_unit_price: '0.0116'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0116'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 12000
+                                    source_text: "12000 + \xA30.0103 Inc. VAT \xA3\
+                                        1.03 Inc. VAT"
+                                    source_unit_price: '0.0103'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0103'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.0232'
+                                total_price_10: '0.2320'
+                                total_price_100: '2.3200'
+                                total_price_1000: '12.8000'
+                                total_price_10000: '116.0000'
+                                unit_price_1: '0.0232'
+                                unit_price_10: '0.0232'
+                                unit_price_100: '0.0232'
+                                unit_price_1000: '0.0128'
+                                unit_price_10000: '0.0116'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings: []
                         svg_details:
                         -   svg_b_125_lt_l_le_200_mm: ''
                             svg_b_l_gt_200_mm: ''
@@ -718,6 +1274,58 @@ oomlout_ai_roboclick_2:
                     search_and_replace: []
                 file_test: label_oomp.pdf
                 retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M4 x 8 hex head fully threaded set screw DIN 933 steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M4+x+8+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M4 x 8 hex head fully threaded set screw DIN 933 steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+x+8+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T10:41:05.310576+00:00'
+                    evidence_file: support_files/evidence/hardware_set_screw_m4_8_mm_length/google/5a8f9cb45e1e479c8a9a62b0dcc2023b.yaml
+                    evidence_url: https://www.google.com/search?q=M4+x+8+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    material_evidence: Steel
+                    product_name: M4 x 8 Hexagon Head Set Screws High Tensile Grade
+                        8.8 Bright Zinc Plated, DIN 933
+                    reason: Orbital Fasteners page confirms M4 x 8, hexagon head,
+                        fully threaded, high tensile grade 8.8 steel, bright zinc
+                        plated and DIN 933.
+                    result_url: https://www.orbitalfasteners.co.uk/products/m4-x-8-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated
+                    search_evidence: Google result opened the matching Orbital Fasteners
+                        M4 x 8 Grade 8.8 BZP DIN 933 page. Stainless results were
+                        rejected.
+                    search_for: M4 x 8 hex head fully threaded set screw DIN 933 steel
+                    search_url: https://www.google.com/search?q=M4+x+8+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: 'Single-size product: M4 x 8mm, high tensile
+                        grade 8.8 steel, bright zinc plated; SKU 1850990'
+                    specification: 'Diameter: M4; Length: 8mm; Thread: fully threaded;
+                        Drive: external hexagon; Head: hexagon head; Material: high
+                        tensile grade 8.8 steel; Finish: bright zinc plated; Standard:
+                        DIN 933'
+                    status: verified
             spec_iso_b_125_lt_l_le_200_mm: ''
             spec_iso_b_l_gt_200_mm: ''
             spec_iso_b_l_le_125_mm: '14'
@@ -732,6 +1340,226 @@ oomlout_ai_roboclick_2:
             spec_iso_s_max_mm: '7.00'
             spec_iso_s_min_mm: '6.78'
             spec_iso_thread_pitch_mm: '0.70'
+            supplier_data:
+                aanddfasteners:
+                    accepted_warnings: '["Source quantity band starts at zero; normalized
+                        minimum to one item"]'
+                    captured_at: '2026-10-12T23:53:23.023820+00:00'
+                    currency: GBP
+                    html_sha256: 386adc9df166285e0e7b2117c01cf4a2933155c745b14326aa8b1d5a5e661ac8
+                    name: M4 x 8mm Hexagonal Set screw, Din 933, Steel zinc plated
+                    packages: '[]'
+                    parsed_at: '2026-10-18T08:57:32.024371+00:00'
+                    parser_version: aanddfasteners-1.2-review-policy
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept zero-to-one quantity normalization
+                        and low-stock notices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: Product information A metric hexagonal set screw
+                        or Hex Set as it's commonly known, manufactured to Din 933.
+                        This fully threaded bolt is designed for use in heavy duty
+                        fastening applications, and is ideal for installation into
+                        pre-threaded holes using a spanner or socket tool. Manufactured
+                        in 8.8 high tensile steel with a bright zinc plating for an
+                        attractive appearance and medium corrosion resistance for
+                        general purpose use. Manufactured in 8.8 high tensile steel
+                        with a bright zinc plating for an attractive appearance and
+                        medium corrosion resistance for general purpose use.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: aanddfasteners
+                    supplier_id: ST93304008ZP
+                    supplier_part_number: ST93304008ZP
+                    supplier_website: https://www.aanddfasteners.co.uk/shop/bolting/hex-set/metric-din-933-zinc-plated/m4-x-8mm-hexagonal-set-screw-din-933-steel-zinc-plated/details
+                    tiers:
+                    -   maximum: 25
+                        minimum: 1
+                        source_text: "0 - 25 \xA3 0.10"
+                        source_unit_price: '0.10'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 50
+                        minimum: 26
+                        source_text: "26 -50 \xA3 0.08"
+                        source_unit_price: '0.08'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0960'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 51
+                        source_text: "51+ \xA3 0.06"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.1200'
+                    total_price_10: '1.2000'
+                    total_price_100: '7.2000'
+                    total_price_1000: '72.0000'
+                    total_price_10000: '720.0000'
+                    unit_price_1: '0.1200'
+                    unit_price_10: '0.1200'
+                    unit_price_100: '0.0720'
+                    unit_price_1000: '0.0720'
+                    unit_price_10000: '0.0720'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Source quantity band starts at zero; normalized minimum to one
+                        item
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T00:24:31.646398+00:00'
+                    currency: GBP
+                    html_sha256: 9deeb67eca1896b7a453717a5ec79b66aef46baabf753ff50b518e0620b341ff
+                    name: M4 x 8mm Hexagon Head Set Screw Fully Threaded Self Colour
+                        Black Grade 8.8 DIN 933
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:03:18.776640+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M4 (4mm); Length (L): 8mm; Material:
+                        High Tensile (Grade 8.8); Finish: Self Colour; Head Length
+                        (H): 3mm; Pitch: 0.7mm; Socket Size (J): 7mm; Manufacturing
+                        Standard: 933; Material Specification: High Tensile (Grade
+                        8.8); Fully Threaded: Yes'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 20324.040.008
+                    supplier_part_number: 20324.040.008
+                    supplier_website: https://dibolt.co.uk/products/m4-x-8mm-hexagon-head-set-screw-fully-threaded-self-colour-black-grade-8-8-din-933
+                    tiers:
+                    -   maximum: 999
+                        minimum: 1
+                        source_text: "1 - 999 \xA31.92 Per 100 Units"
+                        source_unit_price: '0.0192'
+                        source_vat_basis: exclusive
+                        unit_price: '0.023040'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_text: "1,000 - 4,999 \xA31.82 Per 100 Units"
+                        source_unit_price: '0.0182'
+                        source_vat_basis: exclusive
+                        unit_price: '0.021840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 5000
+                        source_text: "5,000+ \xA31.73 Per 100 Units"
+                        source_unit_price: '0.0173'
+                        source_vat_basis: exclusive
+                        unit_price: '0.020760'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.023040'
+                    total_price_10: '0.230400'
+                    total_price_100: '2.304000'
+                    total_price_1000: '21.840000'
+                    total_price_10000: '207.600000'
+                    unit_price_1: '0.023040'
+                    unit_price_10: '0.023040'
+                    unit_price_100: '0.023040'
+                    unit_price_1000: '0.021840'
+                    unit_price_10000: '0.020760'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '500'
+                    captured_at: '2026-10-12T20:12:10.648455+00:00'
+                    catalogue_page: '8'
+                    currency: GBP
+                    description: ''
+                    html_sha256: 749ec1af26dd90c15e23f2eaa9f6f7ea567704b7e9409c4a50c97d4d3e490558
+                    name: M4 x 8 Hexagon Head Set Screws High Tensile Grade 8.8 Bright
+                        Zinc Plated, DIN 933
+                    parsed_at: '2026-10-18T08:49:36.495455+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '13924'
+                    supplier: orbitalfasteners
+                    supplier_id: '1850990'
+                    supplier_part_number: '1850990'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m4-x-8-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA30.0232 Inc. VAT \xA32.32 Inc. VAT"
+                        source_unit_price: '0.0232'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0232'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2499 \xA30.0128 Inc. VAT \xA31.28 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0128'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0128'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 11999
+                        minimum: 2500
+                        source_text: "2500 - 11999 \xA30.0116 Inc. VAT \xA31.16 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0116'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0116'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 12000
+                        source_text: "12000 + \xA30.0103 Inc. VAT \xA31.03 Inc. VAT"
+                        source_unit_price: '0.0103'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0103'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0232'
+                    total_price_10: '0.2320'
+                    total_price_100: '2.3200'
+                    total_price_1000: '12.8000'
+                    total_price_10000: '116.0000'
+                    unit_price_1: '0.0232'
+                    unit_price_10: '0.0232'
+                    unit_price_100: '0.0232'
+                    unit_price_1000: '0.0128'
+                    unit_price_10000: '0.0116'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
             svg_details:
             -   svg_b_125_lt_l_le_200_mm: ''
                 svg_b_l_gt_200_mm: ''
@@ -1033,9 +1861,59 @@ oomlout_ai_roboclick_3:
     file_test: ''
 oomp_key: oomp_hardware_set_screw_m4_8_mm_length
 run_action: true
+run_only_yaml: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M4 x 8 hex head fully threaded set screw DIN 933 steel
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M4+x+8+hex+head+fully+threaded+set+screw+DIN+933+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M4 x 8 hex head fully threaded set screw DIN 933 steel
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+x+8+hex+head+fully+threaded+set+screw+DIN+933+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T10:41:05.310576+00:00'
+        evidence_file: support_files/evidence/hardware_set_screw_m4_8_mm_length/google/5a8f9cb45e1e479c8a9a62b0dcc2023b.yaml
+        evidence_url: https://www.google.com/search?q=M4+x+8+hex+head+fully+threaded+set+screw+DIN+933+steel
+        material_evidence: Steel
+        product_name: M4 x 8 Hexagon Head Set Screws High Tensile Grade 8.8 Bright
+            Zinc Plated, DIN 933
+        reason: Orbital Fasteners page confirms M4 x 8, hexagon head, fully threaded,
+            high tensile grade 8.8 steel, bright zinc plated and DIN 933.
+        result_url: https://www.orbitalfasteners.co.uk/products/m4-x-8-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated
+        search_evidence: Google result opened the matching Orbital Fasteners M4 x
+            8 Grade 8.8 BZP DIN 933 page. Stainless results were rejected.
+        search_for: M4 x 8 hex head fully threaded set screw DIN 933 steel
+        search_url: https://www.google.com/search?q=M4+x+8+hex+head+fully+threaded+set+screw+DIN+933+steel
+        selected_variant: 'Single-size product: M4 x 8mm, high tensile grade 8.8 steel,
+            bright zinc plated; SKU 1850990'
+        specification: 'Diameter: M4; Length: 8mm; Thread: fully threaded; Drive:
+            external hexagon; Head: hexagon head; Material: high tensile grade 8.8
+            steel; Finish: bright zinc plated; Standard: DIN 933'
+        status: verified
 spec_iso_b_125_lt_l_le_200_mm: ''
 spec_iso_b_l_gt_200_mm: ''
 spec_iso_b_l_le_125_mm: '14'
@@ -1050,6 +1928,220 @@ spec_iso_nominal_diameter: M4
 spec_iso_s_max_mm: '7.00'
 spec_iso_s_min_mm: '6.78'
 spec_iso_thread_pitch_mm: '0.70'
+supplier_data:
+    aanddfasteners:
+        accepted_warnings: '["Source quantity band starts at zero; normalized minimum
+            to one item"]'
+        captured_at: '2026-10-12T23:53:23.023820+00:00'
+        currency: GBP
+        html_sha256: 386adc9df166285e0e7b2117c01cf4a2933155c745b14326aa8b1d5a5e661ac8
+        name: M4 x 8mm Hexagonal Set screw, Din 933, Steel zinc plated
+        packages: '[]'
+        parsed_at: '2026-10-18T08:57:32.024371+00:00'
+        parser_version: aanddfasteners-1.2-review-policy
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept zero-to-one quantity normalization and low-stock
+            notices."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: Product information A metric hexagonal set screw or Hex Set
+            as it's commonly known, manufactured to Din 933. This fully threaded bolt
+            is designed for use in heavy duty fastening applications, and is ideal
+            for installation into pre-threaded holes using a spanner or socket tool.
+            Manufactured in 8.8 high tensile steel with a bright zinc plating for
+            an attractive appearance and medium corrosion resistance for general purpose
+            use. Manufactured in 8.8 high tensile steel with a bright zinc plating
+            for an attractive appearance and medium corrosion resistance for general
+            purpose use.
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: aanddfasteners
+        supplier_id: ST93304008ZP
+        supplier_part_number: ST93304008ZP
+        supplier_website: https://www.aanddfasteners.co.uk/shop/bolting/hex-set/metric-din-933-zinc-plated/m4-x-8mm-hexagonal-set-screw-din-933-steel-zinc-plated/details
+        tiers:
+        -   maximum: 25
+            minimum: 1
+            source_text: "0 - 25 \xA3 0.10"
+            source_unit_price: '0.10'
+            source_vat_basis: exclusive
+            unit_price: '0.1200'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 50
+            minimum: 26
+            source_text: "26 -50 \xA3 0.08"
+            source_unit_price: '0.08'
+            source_vat_basis: exclusive
+            unit_price: '0.0960'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 51
+            source_text: "51+ \xA3 0.06"
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.1200'
+        total_price_10: '1.2000'
+        total_price_100: '7.2000'
+        total_price_1000: '72.0000'
+        total_price_10000: '720.0000'
+        unit_price_1: '0.1200'
+        unit_price_10: '0.1200'
+        unit_price_100: '0.0720'
+        unit_price_1000: '0.0720'
+        unit_price_10000: '0.0720'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Source quantity band starts at zero; normalized minimum to one item
+    dibolt:
+        accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-14T00:24:31.646398+00:00'
+        currency: GBP
+        html_sha256: 9deeb67eca1896b7a453717a5ec79b66aef46baabf753ff50b518e0620b341ff
+        name: M4 x 8mm Hexagon Head Set Screw Fully Threaded Self Colour Black Grade
+            8.8 DIN 933
+        packages: '[]'
+        parsed_at: '2026-10-18T09:03:18.776640+00:00'
+        parser_version: dibolt-1.3-missing-price-review
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept the precision of rounded displayed per-100 prices."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: 'Thread Size: M4 (4mm); Length (L): 8mm; Material: High Tensile
+            (Grade 8.8); Finish: Self Colour; Head Length (H): 3mm; Pitch: 0.7mm;
+            Socket Size (J): 7mm; Manufacturing Standard: 933; Material Specification:
+            High Tensile (Grade 8.8); Fully Threaded: Yes'
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: dibolt
+        supplier_id: 20324.040.008
+        supplier_part_number: 20324.040.008
+        supplier_website: https://dibolt.co.uk/products/m4-x-8mm-hexagon-head-set-screw-fully-threaded-self-colour-black-grade-8-8-din-933
+        tiers:
+        -   maximum: 999
+            minimum: 1
+            source_text: "1 - 999 \xA31.92 Per 100 Units"
+            source_unit_price: '0.0192'
+            source_vat_basis: exclusive
+            unit_price: '0.023040'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 4999
+            minimum: 1000
+            source_text: "1,000 - 4,999 \xA31.82 Per 100 Units"
+            source_unit_price: '0.0182'
+            source_vat_basis: exclusive
+            unit_price: '0.021840'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 5000
+            source_text: "5,000+ \xA31.73 Per 100 Units"
+            source_unit_price: '0.0173'
+            source_vat_basis: exclusive
+            unit_price: '0.020760'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.023040'
+        total_price_10: '0.230400'
+        total_price_100: '2.304000'
+        total_price_1000: '21.840000'
+        total_price_10000: '207.600000'
+        unit_price_1: '0.023040'
+        unit_price_10: '0.023040'
+        unit_price_100: '0.023040'
+        unit_price_1000: '0.021840'
+        unit_price_10000: '0.020760'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Dibolt per-100 displayed prices are rounded; derived totals use captured
+            display precision
+    orbitalfasteners:
+        accepted_warnings: '[]'
+        box_quantity: '500'
+        captured_at: '2026-10-12T20:12:10.648455+00:00'
+        catalogue_page: '8'
+        currency: GBP
+        description: ''
+        html_sha256: 749ec1af26dd90c15e23f2eaa9f6f7ea567704b7e9409c4a50c97d4d3e490558
+        name: M4 x 8 Hexagon Head Set Screws High Tensile Grade 8.8 Bright Zinc Plated,
+            DIN 933
+        parsed_at: '2026-10-18T08:49:36.495455+00:00'
+        parser_version: 1.2-review-policy
+        review_policy: ''
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: inclusive
+        status: ok
+        stock_as_of: 9th October 2026 10:01pm
+        stock_quantity: '13924'
+        supplier: orbitalfasteners
+        supplier_id: '1850990'
+        supplier_part_number: '1850990'
+        supplier_website: https://www.orbitalfasteners.co.uk/products/m4-x-8-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated
+        tiers:
+        -   maximum: 499
+            minimum: 1
+            source_text: "1 - 499 \xA30.0232 Inc. VAT \xA32.32 Inc. VAT"
+            source_unit_price: '0.0232'
+            source_vat_basis: inclusive
+            unit_price: '0.0232'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 2499
+            minimum: 500
+            source_text: "500 - 2499 \xA30.0128 Inc. VAT \xA31.28 Inc. VAT"
+            source_unit_price: '0.0128'
+            source_vat_basis: inclusive
+            unit_price: '0.0128'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 11999
+            minimum: 2500
+            source_text: "2500 - 11999 \xA30.0116 Inc. VAT \xA31.16 Inc. VAT"
+            source_unit_price: '0.0116'
+            source_vat_basis: inclusive
+            unit_price: '0.0116'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 12000
+            source_text: "12000 + \xA30.0103 Inc. VAT \xA31.03 Inc. VAT"
+            source_unit_price: '0.0103'
+            source_vat_basis: inclusive
+            unit_price: '0.0103'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.0232'
+        total_price_10: '0.2320'
+        total_price_100: '2.3200'
+        total_price_1000: '12.8000'
+        total_price_10000: '116.0000'
+        unit_price_1: '0.0232'
+        unit_price_10: '0.0232'
+        unit_price_100: '0.0232'
+        unit_price_1000: '0.0128'
+        unit_price_10000: '0.0116'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings: []
 svg_details:
 -   svg_b_125_lt_l_le_200_mm: ''
     svg_b_l_gt_200_mm: ''
@@ -1381,46 +2473,3 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
-search_data:
-  google:
-    search_for: M4 x 8 hex head fully threaded set screw DIN 933 steel
-    search_url: https://www.google.com/search?q=M4+x+8+hex+head+fully+threaded+set+screw+DIN+933+steel
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  ebay:
-    search_for: M4 x 8 hex head fully threaded set screw DIN 933 steel
-    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+x+8+hex+head+fully+threaded+set+screw+DIN+933+steel
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  aliexpress:
-    search_for: M4 x 8 hex head fully threaded set screw DIN 933 steel
-    search_url: https://www.aliexpress.com/wholesale?SearchText=M4+x+8+hex+head+fully+threaded+set+screw+DIN+933+steel
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''

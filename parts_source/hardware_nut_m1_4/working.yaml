@@ -1,3 +1,56 @@
+search_data:
+  aliexpress:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M1.4 hexagon full nut steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M1.4+hexagon+full+nut+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  ebay:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M1.4 hexagon full nut steel
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M1.4+hexagon+full+nut+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  google:
+    checked_at: '2026-10-14T08:44:08.052037+00:00'
+    evidence_file: support_files/evidence/hardware_nut_m1_4/google/e2be929f4c5d4bf1ba2fefa6975366eb.yaml
+    evidence_url: https://www.google.com/search?q=M1.4+hexagon+full+nut+steel
+    material_evidence: 'Rapid Product Details states Material: Steel and describes
+      the nut as galvanised steel.'
+    product_name: Toolcraft Hexagon Nuts DIN 934 Galvanised Steel 6AU M1.4 Pack Of
+      20
+    reason: The supplied Google term returned Rapid Electronics Toolcraft M1.4 DIN
+      934 galvanized steel full hex nut; the opened product page confirms the selected
+      thread size, form, material, and finish.
+    result_url: https://www.rapidonline.com/toolcraft-hexagon-nuts-din-934-galvanised-steel-6au-m1-4-pack-of-20-51-3434
+    search_evidence: Opened the Rapid Electronics result reached from the supplied
+      Google search. Product title is Toolcraft Hexagon Nuts DIN 934 Galvanised Steel
+      6AU M1.4 Pack Of 20. Product details state Galvanised steel nuts, DIN 934, Type
+      Hexagon Full Nut, Thread Size M1.4, Material Steel. The selected thread size
+      dropdown is M1.4. Rapid Order Code 51-3434; Toolcraft MPN 828796.
+    search_for: M1.4 hexagon full nut steel
+    search_url: https://www.google.com/search?q=M1.4+hexagon+full+nut+steel
+    selected_variant: Selected thread size M1.4 in the product range selector; Toolcraft
+      MPN 828796; Rapid Order Code 51-3434; pack of 20.
+    specification: 'Thread Size: M1.4; Type: Hexagon Full Nut; Material: Steel; Finish:
+      Galvanised; Manufacturing Standard: DIN 934; ISO 4032.'
+    status: verified
 svg_details:
   svg_name: nut
 taxonomy_1: hardware

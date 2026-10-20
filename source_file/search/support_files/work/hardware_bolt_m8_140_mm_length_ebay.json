@@ -1,0 +1,38 @@
+{
+  "oomp_id": "hardware_bolt_m8_140_mm_length",
+  "platform": "ebay",
+  "method": "codex_builtin_browser",
+  "status": "unresolved",
+  "search_for": "M8 x 140 hex head part threaded bolt DIN 931 steel",
+  "evidence_url": "https://www.ebay.co.uk/sch/i.html?_nkw=M8+x+140+hex+head+part+threaded+bolt+DIN+931+steel",
+  "reason": "The eBay search returned the site error page 'Something went wrong on our end'. After the requested one-minute rest, the same exact search returned the same error again. No search results or product evidence could be observed; the lookup remains unresolved.",
+  "search_evidence": "The supplied eBay search URL was opened twice in the Codex built-in browser, with a 60-second wait between attempts. Both pages displayed 'SORRY / Something went wrong on our end / Please go back and try again'. No product was opened or inspected.",
+  "attempts": [
+    {
+      "term": "M8 x 140 hex head part threaded bolt DIN 931 steel",
+      "url": "https://www.ebay.co.uk/sch/i.html?_nkw=M8+x+140+hex+head+part+threaded+bolt+DIN+931+steel",
+      "completed": false,
+      "outcome": "Initial eBay search returned 'Something went wrong on our end'; no results were observed."
+    },
+    {
+      "term": "M8 x 140 hex head part threaded bolt DIN 931 steel",
+      "url": "https://www.ebay.co.uk/sch/i.html?_nkw=M8+x+140+hex+head+part+threaded+bolt+DIN+931+steel",
+      "completed": false,
+      "outcome": "Retried after a 60-second pause; same eBay error page appeared again."
+    }
+  ],
+  "result_url": "",
+  "product_name": "",
+  "selected_variant": "",
+  "material_evidence": "",
+  "specification": "",
+  "checks": {
+    "result_reached_from_search": false,
+    "selected_variant": false,
+    "dimensions": false,
+    "form": false,
+    "material": false,
+    "finish": false,
+    "standard": false
+  }
+}

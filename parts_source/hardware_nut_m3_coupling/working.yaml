@@ -1,3 +1,58 @@
+search_data:
+  aliexpress:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M3 coupling connector nut steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M3+coupling+connector+nut+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  ebay:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M3 coupling connector nut steel
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M3+coupling+connector+nut+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  google:
+    checked_at: '2026-10-14T08:58:53.671480+00:00'
+    evidence_file: support_files/evidence/hardware_nut_m3_coupling/google/d7652d9e291146a89abb87b0f798041f.yaml
+    evidence_url: https://www.google.com/search?q=M3+x+5mm+hexagon+connection+long+nut+steel
+    material_evidence: 'Selected product page states Material: Free Cutting Steel,
+      Class / Grade: 6.'
+    product_name: 'M3 X 5mm Hexagon Connection Long Nuts, Grade 6 BLUE Passivated
+      Zinc Plated; breadcrumb category: Stud Connector Nut'
+    reason: Bolt World confirms the selected M3 x 5mm hexagon connection long nut
+      is Free Cutting Steel, Grade 6, Blue Passivated Zinc Plated, metric M3 x 0.50
+      right-hand thread. The page breadcrumb identifies it as a Stud Connector Nut.
+    result_url: https://boltworld.co.uk/products/m3-x-5mm-hexagon-connection-long-nuts-grade-6-blue-passivated-zinc-plated/
+    search_evidence: The refined Google query returned Bolt World's M3 x 5mm Hexagon
+      Connection Long Nuts, Grade 6 BLUE Passivated Zinc Plated and a web result describing
+      mild steel, 0.50 pitch, and its use for joining two threaded parts. The opened
+      product page confirms the exact M3 and 5mm selected options, SKU 51317.030.005,
+      Free Cutting Steel, Grade 6, BLUE Passivated Zinc Plated, right-hand metric
+      thread, 0.50 pitch, hexagon shape, and the breadcrumb category Stud Connector
+      Nut.
+    search_for: M3 x 5mm hexagon connection long nut steel
+    search_url: https://www.google.com/search?q=M3+x+5mm+hexagon+connection+long+nut+steel
+    selected_variant: Thread Size M3 (3mm); Length 5mm; SKU 51317.030.005
+    specification: 'Thread Size: M3; Thread Pitch: 0.50mm; Thread Direction: Right;
+      Length: 5mm; Nut Shape: Hexagon; Material: Free Cutting Steel, Grade 6; Finish:
+      BLUE Passivated Zinc Plated; Product category: Stud Connector Nut; SKU: 51317.030.005.'
+    status: verified
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -14,85 +69,200 @@ taxonomy_7: ''
 taxonomy_8: ''
 taxonomy_9: ''
 three_d_model_details:
-  schema_version: 1
-  generator: supplier_coupling_nut
-  output_folder: three_d_model
-  units: mm
-  standard: null
-  dimensional_specification: Fullerkreg commercial 6334 coupling nut
+  checked_on: '2026-10-13'
+  coordinate_system:
+    axis: +Z along bore
+    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+    glb_units: metres
+    glb_up_axis: Y
+    origin: lower face centre
+    stl_units: mm
   dimension_status: supplier_dimensions_with_visual_details
+  dimensional_specification: Fullerkreg commercial 6334 coupling nut
+  generator: supplier_coupling_nut
   length_status: not_applicable
+  material:
+    base_colour_srgb:
+    - 0.62
+    - 0.65
+    - 0.69
+    coat_roughness: 0.28
+    coat_weight: 0.02
+    metallic: 1.0
+    microtexture_height_um: 0.8
+    microtexture_spacing_mm: 0.025
+    name: Satin steel
+    note: Visual finish approximation; catalogue specifies colour only.
+    roughness: 0.26
+    roughness_variation: 0.045
+  model_formats:
+  - stl
+  - glb
+  modelling_choices:
+    bearing: Bolt bearing circle and c selected within limits; k includes bearing
+      thickness; fillet tangent to shaft and bearing.
+    cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
+      bore and mouth chamfers.
+    certification: Nominal visual catalogue model, not manufacturing tolerance certification.
+    chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees. Bolt
+      tip 45 degrees, P/2.
+    components: One closed solid.
+    dimension_selection: Nominal bolt head height, max flats/nut height, nominal washer
+      sizes; selected dimensions stored in parameters.
+    display: Smooth nominal external-thread envelope or smooth minor-diameter internal
+      bore; lower angular and fillet tessellation.
+    family_note: Commercial coupling pattern; small mouth chamfers are model choices.
+    markings: Supplier and property-class markings omitted because catalogue does
+      not identify them.
+    runout: External one-pitch fade to plain shank; full thread ends at underhead
+      fillet.
+    thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+      rounded root H/6, internal P/4 crest and P/8 root flats.
+    unspecified_geometry: Nut mouth for supplier rows without limits and flange M3/M4
+      thickness/rim blends are explicit visual model selections.
+  output_folder: three_d_model
+  parameters:
+    across_flats_mm: 5.5
+    characteristic_dimension_basis: hexagon across flats
+    characteristic_dimension_mm: 5.5
+    expected_components: 1
+    external_minor_diameter_mm: 2.3865653389860224
+    family: nut
+    finish: satin
+    handedness: right
+    height_convention: total axial nut height
+    height_mm: 9
+    hole_chamfer_mm: 0.19233439182435158
+    hole_chamfer_slope: 1.7320508075688767
+    identity: hardware_nut_m3_coupling
+    internal_minor_diameter_mm: 2.458734122634726
+    mouth_diameter_mm: 3.125
+    nominal_diameter_mm: 3.0
+    outer_chamfer_angle_degrees: 30.0
+    overall_height_mm: 9
+    pitch_mm: 0.5
+    specification: Fullerkreg commercial 6334 coupling nut
+    thread_flank_angle_degrees: 60.0
+    thread_pitch_diameter_mm: 2.6752404735808355
+    thread_starts: 1
+  renders:
+    high:
+      file: render_high.png
+      pixels: 2048
+      variant: full
+      view: isometric
+    low:
+      file: render_low.png
+      pixels: 512
+      variant: display
+      view: isometric
+    product_high:
+      file: render_product_high.png
+      pixels: 2048
+      variant: full
+      view: product
+    product_low:
+      file: render_product_low.png
+      pixels: 512
+      variant: display
+      view: product
+  schema_version: 1
+  source_table: source_file/standards/catalogue_extensions.yaml
   sources:
   - title: Fullerkreg commercial 6334 pattern M3/M4 dimensions
     url: https://www.fullerkr.com/collections/din6334-a2
   - title: ISO 68-1:1998 basic ISO metric thread profile
     url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
-  checked_on: '2026-10-13'
-  source_table: source_file/standards/catalogue_extensions.yaml
-  standard_limits: {}
+  standard: null
   standard_lengths_mm: []
-  parameters:
-    family: nut
-    nominal_diameter_mm: 3.0
-    finish: satin
-    identity: hardware_nut_m3_coupling
-    specification: Fullerkreg commercial 6334 coupling nut
-    expected_components: 1
-    handedness: right
-    thread_starts: 1
-    thread_flank_angle_degrees: 60.0
-    pitch_mm: 0.5
-    across_flats_mm: 5.5
-    height_mm: 9
-    outer_chamfer_angle_degrees: 30.0
-    mouth_diameter_mm: 3.125
-    hole_chamfer_mm: 0.19233439182435158
-    hole_chamfer_slope: 1.7320508075688767
-    height_convention: total axial nut height
-    overall_height_mm: 9
-    characteristic_dimension_mm: 5.5
-    characteristic_dimension_basis: hexagon across flats
-    thread_pitch_diameter_mm: 2.6752404735808355
-    external_minor_diameter_mm: 2.3865653389860224
-    internal_minor_diameter_mm: 2.458734122634726
-  modelling_choices:
-    dimension_selection: Nominal bolt head height, max flats/nut height, nominal washer
-      sizes; selected dimensions stored in parameters.
-    thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
-      rounded root H/6, internal P/4 crest and P/8 root flats.
-    runout: External one-pitch fade to plain shank; full thread ends at underhead
-      fillet.
-    chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees. Bolt
-      tip 45 degrees, P/2.
-    bearing: Bolt bearing circle and c selected within limits; k includes bearing
-      thickness; fillet tangent to shaft and bearing.
-    cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
-      bore and mouth chamfers.
-    display: Smooth nominal external-thread envelope or smooth minor-diameter internal
-      bore; lower angular and fillet tessellation.
-    components: One closed solid.
-    markings: Supplier and property-class markings omitted because catalogue does
-      not identify them.
-    unspecified_geometry: Nut mouth for supplier rows without limits and flange M3/M4
-      thickness/rim blends are explicit visual model selections.
-    family_note: Commercial coupling pattern; small mouth chamfers are model choices.
-    certification: Nominal visual catalogue model, not manufacturing tolerance certification.
-  coordinate_system:
-    origin: lower face centre
-    axis: +Z along bore
-    stl_units: mm
-    glb_units: metres
-    glb_up_axis: Y
-    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+  standard_limits: {}
+  studio:
+    adaptive_threshold: 0.015
+    denoise: true
+    device: auto
+    engine: cycles
+    exposure: 0.0
+    floor_colour_srgb:
+    - 0.93
+    - 0.935
+    - 0.94
+    floor_roughness: 0.55
+    framing_margin: 0.13
+    high_samples: 160
+    lights:
+    - colour:
+      - 1.0
+      - 0.96
+      - 0.9
+      height: 5.0
+      name: Key softbox
+      position:
+      - -3
+      - -4
+      - 6
+      power: 650.0
+      width: 4.0
+    - colour:
+      - 0.9
+      - 0.95
+      - 1.0
+      height: 4.0
+      name: Fill softbox
+      position:
+      - 4
+      - -1
+      - 3
+      power: 330.0
+      width: 3.0
+    - colour:
+      - 1.0
+      - 1.0
+      - 1.0
+      height: 5.0
+      name: Rim strip
+      position:
+      - 1
+      - 4
+      - 4
+      power: 850.0
+      width: 1.2
+    look: AgX - Medium High Contrast
+    low_samples: 48
+    poses:
+      isometric:
+        camera_eye:
+        - 1
+        - -1
+        - 1
+        orientation: principal axis Z up
+        projection: orthographic
+      product:
+        camera_eye:
+        - -6
+        - -10
+        - 6
+        orientation: lying on side, axial end to left
+        projection: orthographic
+        resting_axis: side
+        support: Stable convex-hull support using actual mesh centre of mass.
+        yaw_degrees: -12.0
+    seed: 7991
+    view_transform: AgX
+    world_colour:
+    - 0.78
+    - 0.82
+    - 0.9
+    world_strength: 0.35
+  units: mm
   variants:
-    full:
-      angular_segments: 96
-      samples_per_pitch: 32
-      fillet_segments: 12
     display:
       angular_segments: 24
-      samples_per_pitch: 1
       fillet_segments: 3
+      samples_per_pitch: 1
+    full:
+      angular_segments: 96
+      fillet_segments: 12
+      samples_per_pitch: 32
   views:
   - isometric
   - front
@@ -101,118 +271,3 @@ three_d_model_details:
   - right
   - top
   - bottom
-  model_formats:
-  - stl
-  - glb
-  material:
-    name: Satin steel
-    base_colour_srgb:
-    - 0.62
-    - 0.65
-    - 0.69
-    metallic: 1.0
-    roughness: 0.26
-    roughness_variation: 0.045
-    coat_weight: 0.02
-    coat_roughness: 0.28
-    microtexture_spacing_mm: 0.025
-    microtexture_height_um: 0.8
-    note: Visual finish approximation; catalogue specifies colour only.
-  studio:
-    engine: cycles
-    device: auto
-    seed: 7991
-    low_samples: 48
-    high_samples: 160
-    adaptive_threshold: 0.015
-    denoise: true
-    view_transform: AgX
-    look: AgX - Medium High Contrast
-    exposure: 0.0
-    world_colour:
-    - 0.78
-    - 0.82
-    - 0.9
-    world_strength: 0.35
-    floor_colour_srgb:
-    - 0.93
-    - 0.935
-    - 0.94
-    floor_roughness: 0.55
-    framing_margin: 0.13
-    lights:
-    - name: Key softbox
-      position:
-      - -3
-      - -4
-      - 6
-      power: 650.0
-      width: 4.0
-      height: 5.0
-      colour:
-      - 1.0
-      - 0.96
-      - 0.9
-    - name: Fill softbox
-      position:
-      - 4
-      - -1
-      - 3
-      power: 330.0
-      width: 3.0
-      height: 4.0
-      colour:
-      - 0.9
-      - 0.95
-      - 1.0
-    - name: Rim strip
-      position:
-      - 1
-      - 4
-      - 4
-      power: 850.0
-      width: 1.2
-      height: 5.0
-      colour:
-      - 1.0
-      - 1.0
-      - 1.0
-    poses:
-      isometric:
-        camera_eye:
-        - 1
-        - -1
-        - 1
-        projection: orthographic
-        orientation: principal axis Z up
-      product:
-        camera_eye:
-        - -6
-        - -10
-        - 6
-        projection: orthographic
-        orientation: lying on side, axial end to left
-        yaw_degrees: -12.0
-        support: Stable convex-hull support using actual mesh centre of mass.
-        resting_axis: side
-  renders:
-    low:
-      file: render_low.png
-      variant: display
-      pixels: 512
-      view: isometric
-    high:
-      file: render_high.png
-      variant: full
-      pixels: 2048
-      view: isometric
-    product_low:
-      file: render_product_low.png
-      variant: display
-      pixels: 512
-      view: product
-    product_high:
-      file: render_product_high.png
-      variant: full
-      pixels: 2048
-      view: product

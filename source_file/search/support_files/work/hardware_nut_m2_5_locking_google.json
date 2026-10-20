@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_nut_m2_5_locking",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M2.5 nylon insert locking nut steel",
+  "evidence_url": "https://www.google.com/search?q=M2.5+nylon+insert+locking+nut+steel",
+  "reason": "Exact M2.5 steel nylon-insert locking nut variant confirmed on the supplier page.",
+  "search_evidence": "The Google search returned the Bolt World M2.5 Nyloc Nut Type T (Thin), Nylon Insert Lock Nut, Grade 6 Steel, Bright Zinc Plated, DIN 985 result. The opened page shows selected thread size M2.5, steel class 6, bright zinc plated, metric thread, 0.45mm pitch, hexagon shape and DIN 985.",
+  "attempts": [
+    {
+      "term": "M2.5 nylon insert locking nut steel",
+      "url": "https://www.google.com/search?q=M2.5+nylon+insert+locking+nut+steel",
+      "completed": true,
+      "outcome": "Found and opened the exact Bolt World M2.5 steel Type T DIN 985 nyloc nut with bright zinc plated finish."
+    }
+  ],
+  "result_url": "https://boltworld.co.uk/products/m2-5-nyloc-nut-type-t-thin-bright-zinc-plated-steel-grade-8-din-985/",
+  "product_name": "M2.5 Nyloc Nut Type T (Thin) – Nylon Insert Lock Nut, Grade 6 Steel, Bright Zinc Plated (BZP), DIN 985",
+  "selected_variant": "M2.5 (2.5mm), SKU 20007.025.000",
+  "material_evidence": "Supplier page explicitly states Material: Steel; Class / Grade: 6. It describes a nylon insert lock nut.",
+  "specification": "Nyloc hexagon nut, Type T thin; M2.5 metric thread, right-hand, 0.45mm pitch; bright zinc plated; DIN 985.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

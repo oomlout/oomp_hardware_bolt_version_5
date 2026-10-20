@@ -1,3 +1,55 @@
+search_data:
+  aliexpress:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M1 hexagon full nut steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M1+hexagon+full+nut+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  ebay:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M1 hexagon full nut steel
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M1+hexagon+full+nut+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  google:
+    checked_at: '2026-10-14T08:43:32.593661+00:00'
+    evidence_file: support_files/evidence/hardware_nut_m1/google/06042864fc064fc5a2a8857be1cac234.yaml
+    evidence_url: https://www.google.com/search?q=M1+DIN+934+carbon+steel+full+hex+nut+zinc+plated
+    material_evidence: ''
+    product_name: ''
+    reason: Original exact search for M1 hexagon full nut steel showed the exact Accu
+      M1 DIN 934 option is A1 stainless steel. The completed refinement for M1 DIN
+      934 carbon steel full hex nut zinc plated still showed the M1 Accu result as
+      A1 stainless; the displayed eligible steel hex nuts were other sizes. No eligible
+      M1 non-stainless steel full nut appeared in either completed exact search.
+    result_url: ''
+    search_evidence: 'First completed Google search: https://www.google.com/search?q=M1+hexagon+full+nut+steel.
+      The exact M1 DIN 934 Accu result led to https://www.accu.co.uk/hexagon-nuts/7879-HPN-M1-A1;
+      opened page confirms Thread Size M1, full hexagon nut DIN 934, Material Stainless
+      Steel - (A1), so excluded. Second completed Google search: https://www.google.com/search?q=M1+DIN+934+carbon+steel+full+hex+nut+zinc+plated.
+      Exact M1 Accu listing remained A1 stainless; visible mild-steel DIN 934 results
+      were M2 and larger, not M1.'
+    search_for: M1 DIN 934 carbon steel full hex nut zinc plated
+    search_url: https://www.google.com/search?q=M1+DIN+934+carbon+steel+full+hex+nut+zinc+plated
+    selected_variant: ''
+    specification: ''
+    status: assumed_non_stocked
 svg_details:
   svg_name: nut
 taxonomy_1: hardware

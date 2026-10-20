@@ -1,0 +1,36 @@
+oomp_id: hardware_screw_socket_cap_hex_head_black_m3_diameter_20_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M3 x 20 socket cap screw DIN 912 black high tensile steel
+evidence_url: https://www.google.com/search?q=M3+x+20+socket+cap+screw+DIN+912+black+high+tensile+steel
+reason: Opened the exact Bolt Base Amazon product from Google and verified its M3
+  x 20 dimensions and required attributes.
+search_evidence: Google returned the Bolt Base M3 x 20 black self-colour high tensile
+  Grade 12.9 socket cap screw listing, DIN 912.
+attempts:
+- term: M3 x 20 socket cap screw DIN 912 black high tensile steel
+  url: https://www.google.com/search?q=M3+x+20+socket+cap+screw+DIN+912+black+high+tensile+steel
+  completed: true
+  outcome: Opened the exact Bolt Base Amazon result and verified the product dimensions,
+    form, drive, material, finish and standard.
+result_url: https://www.amazon.co.uk/Bolt-Base-Tensile-Socket-screws/dp/B00SN3ZNJE?th=1
+product_name: (3mm) M3 x 20 Black 12.9 Grade High Tensile Hex Socket Cap Screws Self
+  Colour Allen Bolts DIN 912-5 Pack
+selected_variant: M3 x 20mm product; Item Package Quantity 5 selected; Bolt Base part
+  number BOB5572; ASIN B00SN3ZNJE.
+material_evidence: Amazon product information states Material Steel; title and bullet
+  state 12.9 Grade High Tensile Steel.
+specification: M3 x 20mm; full-length threaded, 0.5mm pitch; socket cap head; hex
+  socket/Allen drive, 2.5mm key; black self-colour; DIN 912; screw length excludes
+  head.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:47:52.822743+00:00'
+validator_version: 1

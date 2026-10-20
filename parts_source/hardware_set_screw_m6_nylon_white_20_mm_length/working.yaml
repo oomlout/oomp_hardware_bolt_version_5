@@ -1,3 +1,54 @@
+search_data:
+  aliexpress:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M6 x 20 hex head fully threaded set screw DIN 933 white nylon
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+20+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+    selected_variant: ''
+    specification: ''
+    status: pending
+  ebay:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M6 x 20 hex head fully threaded set screw DIN 933 white nylon
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+20+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+    selected_variant: ''
+    specification: ''
+    status: pending
+  google:
+    checked_at: '2026-10-14T11:09:30.723320+00:00'
+    evidence_file: support_files/evidence/hardware_set_screw_m6_nylon_white_20_mm_length/google/21ae950fec794b5f8d685b535af59e9d.yaml
+    evidence_url: https://www.google.com/search?q=M6+x+20+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+    material_evidence: ''
+    product_name: ''
+    reason: Google returned a plausible Ubuy product titled Hex Bolts DIN 933 Plastic
+      White - Polyamide PA Nylon (M6 x 20mm Pack of 25), and its result snippet says
+      fully threaded. The opened product page rendered only a blank product shell,
+      item number placeholder and country modal, without a product name, selected
+      variant, material details or specifications. Exact product verification is incomplete.
+    result_url: ''
+    search_evidence: The exact Google query returned the Ubuy Ecuador listing titled
+      Hex Bolts DIN 933 Plastic White - Polyamide PA Nylon Plastic Screws (M6 x 20mm
+      Pack of 25); the search snippet specifies M6 x 20 and fully threaded. Other
+      supplier results identify natural nylon, which does not by itself establish
+      white. The Ubuy page did not render its product details when opened.
+    search_for: M6 x 20 hex head fully threaded set screw DIN 933 white nylon
+    search_url: https://www.google.com/search?q=M6+x+20+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+    selected_variant: ''
+    specification: ''
+    status: unresolved
 spec_iso_b_125_lt_l_le_200_mm: '24'
 spec_iso_b_l_gt_200_mm: ''
 spec_iso_b_l_le_125_mm: '18'

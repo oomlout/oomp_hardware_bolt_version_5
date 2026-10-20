@@ -1,0 +1,32 @@
+oomp_id: hardware_set_screw_m6_50_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M6 x 50 hex head fully threaded set screw DIN 933 steel
+evidence_url: https://www.google.com/search?q=M6+x+50+hex+head+fully+threaded+set+screw+DIN+933+steel
+reason: The supplied query produced an exact M6 x 50 mm DIN 933 set screw listing
+  from Direct Channel.
+search_evidence: The Google results included Direct Channel's M6x50mm set screws made
+  from grade 8.8 high tensile steel, fully threaded to DIN 933, bright zinc plated.
+attempts:
+- term: M6 x 50 hex head fully threaded set screw DIN 933 steel
+  url: https://www.google.com/search?q=M6+x+50+hex+head+fully+threaded+set+screw+DIN+933+steel
+  completed: true
+  outcome: Opened Direct Channel product page. It identifies M6 x 50 mm fully threaded,
+    10 mm A/F hex head, grade 8.8 high tensile steel, BZP finish and DIN 933.
+result_url: https://directchannel.uk.com/product/m6x50mm-hex-head-set-screws-box-of-100-bzp/
+product_name: M6x50mm Hex Head Set Screws - (Box of 100) - (BZP)
+selected_variant: Code HB650B
+material_evidence: The product description states high tensile grade 8.8 steel.
+specification: M6 x 50 mm, 1.0 mm pitch, fully threaded 10 mm A/F hex head, high tensile
+  grade 8.8 steel, bright zinc plated, DIN 933.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T11:03:47.266442+00:00'
+validator_version: 1

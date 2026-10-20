@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_nut_m5_flanged",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M5 flanged nut steel",
+  "evidence_url": "https://www.google.com/search?q=M5+flanged+nut+steel",
+  "reason": "The selected M5 hexagon serrated flange nut is steel, blue-passivated zinc plated, and DIN 6923.",
+  "search_evidence": "Google Shopping result from Bolt World titled M5 Hexagon Serrated Flange Nut - Grade 8 Steel, Blue Passivated Zinc Plated, DIN 6923 led to the opened product page.",
+  "attempts": [
+    {
+      "term": "M5 flanged nut steel",
+      "url": "https://www.google.com/search?q=M5+flanged+nut+steel",
+      "completed": true,
+      "outcome": "Opened Bolt World product page; selected M5 thread option and verified steel, Grade 8, blue-passivated zinc plating, hexagon serrated flange form, 0.80 pitch, DIN 6923."
+    }
+  ],
+  "result_url": "https://boltworld.co.uk/products/m5-hexagon-serrated-flange-nut-blue-passivated-zinc-plated-grade-8-din-6923/",
+  "product_name": "M5 Hexagon Serrated Flange Nut – Grade 8 Steel, Blue Passivated Zinc Plated, DIN 6923",
+  "selected_variant": "Thread Size M5 (5mm); SKU 51303.050.000",
+  "material_evidence": "Product page states Material: Steel; Class / Grade: 8.",
+  "specification": "M5 hexagon serrated flange nut; metric right-hand thread; 0.80 mm pitch; blue-passivated zinc plated; DIN 6923.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "oomp_id": "hardware_nut_m1_5_flanged",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "assumed_non_stocked",
+  "search_for": "M1.5 DIN 6923 steel flanged nut",
+  "evidence_url": "https://www.google.com/search?q=M1.5+DIN+6923+steel+flanged+nut",
+  "reason": "Original exact search for an M1.5 steel flanged nut returned no exact M1.5 product; supplier candidates were M3/M5 or larger, stainless, or other thread systems. The completed DIN 6923 refinement likewise showed steel candidates at M4 and M5 or larger, with no eligible exact M1.5 flanged nut. Both searches completed.",
+  "search_evidence": "First completed Google search: https://www.google.com/search?q=M1.5+flanged+nut+steel. Results included M3 stainless DIN 6923, M5 steel DIN 6923, M5 stainless and larger sizes; no exact M1.5 steel flange nut. Second completed Google search: https://www.google.com/search?q=M1.5+DIN+6923+steel+flanged+nut. Orbital DIN 6923 steel flange nut category showed M4; other steel result was M5; stainless and larger products also appeared. No exact M1.5 product.",
+  "attempts": [
+    {
+      "term": "M1.5 flanged nut steel",
+      "url": "https://www.google.com/search?q=M1.5+flanged+nut+steel",
+      "completed": true,
+      "outcome": "No exact M1.5 steel flange nut; results showed M3 stainless, M5 steel, and larger products."
+    },
+    {
+      "term": "M1.5 DIN 6923 steel flanged nut",
+      "url": "https://www.google.com/search?q=M1.5+DIN+6923+steel+flanged+nut",
+      "completed": true,
+      "outcome": "No exact M1.5 candidate; DIN 6923 steel flange nut listings were M4 or M5 and larger."
+    }
+  ],
+  "no_eligible_product": true,
+  "result_url": "",
+  "product_name": "",
+  "selected_variant": "",
+  "material_evidence": "",
+  "specification": "",
+  "checks": {
+    "result_reached_from_search": false,
+    "selected_variant": false,
+    "dimensions": false,
+    "form": false,
+    "material": false,
+    "finish": false,
+    "standard": false
+  }
+}

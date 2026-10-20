@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_screw_socket_cap_hex_head_black_m3_diameter_30_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M3 x 30 socket cap screw DIN 912 black high tensile steel",
+  "evidence_url": "https://www.google.com/search?q=M3+x+30+socket+cap+screw+DIN+912+black+high+tensile+steel",
+  "reason": "Opened the exact Bolt Base Amazon result from Google and verified the M3 x 30 dimensions and all required product specifications.",
+  "search_evidence": "Google surfaced the exact Bolt Base M3 x 30 black Grade 12.9 steel socket cap listing; its page confirms the selected size, finish and product details.",
+  "attempts": [
+    {
+      "term": "M3 x 30 socket cap screw DIN 912 black high tensile steel",
+      "url": "https://www.google.com/search?q=M3+x+30+socket+cap+screw+DIN+912+black+high+tensile+steel",
+      "completed": true,
+      "outcome": "Opened the Bolt Base Amazon result and verified exact dimensions, form, drive, material, finish and standard."
+    }
+  ],
+  "result_url": "https://www.amazon.co.uk/Bolt-Base-Tensile-Socket-screws/dp/B00SN46H3O?th=1",
+  "product_name": "(3mm) M3 x 30 Black 12.9 Grade High Tensile Hex Socket Cap Screws Self Colour Allen Bolts DIN 912-10 Pack",
+  "selected_variant": "M3 x 30mm product; Item Package Quantity 10 selected; Bolt Base part number BOB5684; ASIN B00SN46H3O.",
+  "material_evidence": "Amazon product information states Material Steel; title and bullet state 12.9 Grade High Tensile Steel.",
+  "specification": "M3 x 30mm; partially threaded (approximately 20mm thread length), 0.5mm pitch; socket cap head; hex socket/Allen drive, 2.5mm key; black self-colour; DIN 912; screw length excludes head.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

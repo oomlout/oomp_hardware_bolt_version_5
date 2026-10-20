@@ -1,0 +1,45 @@
+oomp_id: hardware_set_screw_m6_nylon_white_12_mm_length
+platform: google
+method: codex_builtin_browser
+status: assumed_non_stocked
+search_for: M6 x 12 white nylon hex head set screw DIN 933
+evidence_url: https://www.google.com/search?q=M6+x+12+white+nylon+hex+head+set+screw+DIN+933
+reason: Completed the supplied exact search and one refinement; no eligible white
+  nylon M6 x 12 mm product was confirmed. The Spalding result explicitly specifies
+  white nylon and DIN 933 but its selectable lengths are 20, 25, 30, 40 and 50 mm,
+  not 12 mm. Other exact-length results identify natural nylon, which does not establish
+  white.
+search_evidence: The supplied Google query returned nylon M6 x 12 listings but the
+  inspected Bolt World result describes natural finish. Refining to white nylon returned
+  Spalding Fasteners, whose page explicitly says Nylon (White), M6 x 1, DIN 933, and
+  hexagon head; the length selector offers only 20, 25, 30, 40 and 50 mm. No 12 mm
+  selectable variant was available. Google also returned natural nylon M6 x 12 listings,
+  which do not satisfy the explicit white requirement.
+attempts:
+- term: M6 x 12 hex head fully threaded set screw DIN 933 white nylon
+  url: https://www.google.com/search?q=M6+x+12+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+  completed: true
+  outcome: Exact-length results identified natural nylon, not confirmed white; no
+    eligible white M6 x 12 product confirmed.
+- term: M6 x 12 white nylon hex head set screw DIN 933
+  url: https://www.google.com/search?q=M6+x+12+white+nylon+hex+head+set+screw+DIN+933
+  completed: true
+  outcome: Spalding page confirmed white nylon, M6 x 1 and DIN933 hex form, but its
+    selectable lengths do not include 12 mm.
+result_url: ''
+product_name: ''
+selected_variant: ''
+material_evidence: No eligible 12 mm white nylon product confirmed. Spalding page
+  specifies Nylon (White), but offers only 20, 25, 30, 40 and 50 mm.
+specification: Required M6 x 12 mm white nylon hex head set screw DIN 933 not confirmed.
+checks:
+  result_reached_from_search: false
+  selected_variant: false
+  dimensions: false
+  form: false
+  material: false
+  finish: false
+  standard: false
+no_eligible_product: true
+checked_at: '2026-10-14T11:08:23.798887+00:00'
+validator_version: 1

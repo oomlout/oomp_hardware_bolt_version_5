@@ -1,0 +1,39 @@
+{
+  "oomp_id": "hardware_nut_m1_locking",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "assumed_non_stocked",
+  "search_for": "M1 DIN 985 carbon steel nyloc zinc plated",
+  "evidence_url": "https://www.google.com/search?q=M1+DIN+985+carbon+steel+nyloc+zinc+plated",
+  "reason": "No eligible M1 steel nylon-insert locking nut found in two completed exact searches; the closest micro-size listing was M1.6 stainless steel, and steel DIN 985 listings found were M4 and larger.",
+  "search_evidence": "First search results showed an Accu M1.6 DIN 985 nut explicitly made from stainless steel A2, and a broader listing noted M1 nuts as A2 stainless. The refined search showed steel DIN 985 examples beginning at M4 and larger, with no M1 listing; results described DIN 985 micro nylocs as typically starting around M1.6.",
+  "attempts": [
+    {
+      "term": "M1 nylon insert locking nut steel",
+      "url": "https://www.google.com/search?q=M1+nylon+insert+locking+nut+steel",
+      "completed": true,
+      "outcome": "No eligible M1 steel candidate. The closest M1.6 Accu DIN 985 product page specified stainless steel A2, natural finish and 1.6 mm thread; excluded."
+    },
+    {
+      "term": "M1 DIN 985 carbon steel nyloc zinc plated",
+      "url": "https://www.google.com/search?q=M1+DIN+985+carbon+steel+nyloc+zinc+plated",
+      "completed": true,
+      "outcome": "No exact M1 result. Steel DIN 985 listings shown were M4 and larger; search results described micro DIN 985 sizes as typically starting around M1.6."
+    }
+  ],
+  "no_eligible_product": true,
+  "result_url": "",
+  "product_name": "",
+  "selected_variant": "",
+  "material_evidence": "",
+  "specification": "",
+  "checks": {
+    "result_reached_from_search": false,
+    "selected_variant": false,
+    "dimensions": false,
+    "form": false,
+    "material": false,
+    "finish": false,
+    "standard": false
+  }
+}

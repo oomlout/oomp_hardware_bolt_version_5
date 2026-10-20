@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_bolt_m4_40_mm_length",
+  "platform": "aliexpress",
+  "method": "codex_builtin_browser",
+  "status": "unresolved",
+  "search_for": "M4 x 40 hex head part threaded bolt DIN 931 steel",
+  "evidence_url": "https://www.aliexpress.com/wholesale?SearchText=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel",
+  "reason": "After a one-minute pause, the Codex built-in browser site-safety policy blocked the AliExpress URL before page content could be observed. No results or product candidates were available. Stopped AliExpress lookup; no workaround was attempted.",
+  "search_evidence": "Attempted the supplied AliExpress search URL in the Codex built-in browser. The browser returned a site-safety block before acquiring authority to observe the page; there was no accessible search page or result evidence.",
+  "attempts": [
+    {
+      "term": "M4 x 40 hex head part threaded bolt DIN 931 steel",
+      "url": "https://www.aliexpress.com/wholesale?SearchText=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel",
+      "completed": false,
+      "outcome": "Blocked by the Codex built-in browser site-safety policy before page content loaded. No results observed."
+    }
+  ],
+  "result_url": "",
+  "product_name": "",
+  "selected_variant": "",
+  "material_evidence": "",
+  "specification": "",
+  "checks": {
+    "result_reached_from_search": false,
+    "selected_variant": false,
+    "dimensions": false,
+    "form": false,
+    "material": false,
+    "finish": false,
+    "standard": false
+  }
+}

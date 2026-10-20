@@ -1,0 +1,38 @@
+{
+  "oomp_id": "hardware_nut_m2_locking",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M2 DIN 985 zinc plated steel nylon insert nut -stainless",
+  "evidence_url": "https://www.google.com/search?q=M2+DIN+985+zinc+plated+steel+nylon+insert+nut+-stainless",
+  "reason": "The Forest of Dean Fasteners page reached from the refined Google query confirms the selected M2 nylon insert locking nut, M2 x 0.4 coarse thread, DIN 985, Grade 8 steel category, and bright zinc plated Cr3 finish.",
+  "search_evidence": "The refined Google result was titled Nylocs (Thin) BZP Grade 8 DIN 985 M 2 x 0.4mm pitch (Coarse) and showed M2 thread, 0.4mm pitch, bright zinc plating, and DIN 985. The opened Forest of Dean Fasteners product page confirms the same specification and its breadcrumb places the item under Steel > Metric Nuts > Nyloc Nuts T Type Thin DIN 985. An earlier Fasteners Fixings & Tools result linked to a 404 and was rejected; the refined result yielded the verified product.",
+  "attempts": [
+    {
+      "term": "M2 nylon insert locking nut steel",
+      "url": "https://www.google.com/search?q=M2+nylon+insert+locking+nut+steel",
+      "completed": true,
+      "outcome": "Results included stainless M2 locking nuts and a Fasteners Fixings & Tools M2 zinc DIN 985 result, but its product URL returned 404. The exact M2 steel option was not verified from that result."
+    },
+    {
+      "term": "M2 DIN 985 zinc plated steel nylon insert nut -stainless",
+      "url": "https://www.google.com/search?q=M2+DIN+985+zinc+plated+steel+nylon+insert+nut+-stainless",
+      "completed": true,
+      "outcome": "Found and opened Forest of Dean Fasteners Nylocs (Thin) BZP Grade 8 DIN 985 M 2 x 0.4mm pitch (Coarse), with M2 thread, 0.4mm pitch, steel product category, Grade 8, bright zinc plated Cr3 coating, and T type thin nyloc form."
+    }
+  ],
+  "result_url": "https://forestofdeanfasteners.co.uk/shop/01-fasteners-fixings-screws-nails/nuts/steel-nuts-metric/metric-nuts/nyloc-nuts-t-type-thin-din985/nylocs-thin-bzp-grade-8-din-985-m-2-x-0-4mm-pitch-coarse/",
+  "product_name": "Nylocs (Thin) BZP Grade 8 DIN 985 M 2 x 0.4mm pitch (Coarse)",
+  "selected_variant": "M2, 0.4mm coarse pitch, T type thin, Grade 8, Bright Zinc Plated Cr3",
+  "material_evidence": "The product is under the Steel > Metric Nuts category and is specified as Grade 8 steel with a bright zinc-plated Cr3 coating; it is non-stainless steel.",
+  "specification": "Thread Size: M2; Thread Pitch: 0.4mm coarse; Across Flats: 4.5mm; Point-to-Point: 4.91mm; Material: Grade 8 steel; Finish: Bright Zinc Plated Cr3; Form: thin T-type nylon insert locking nut; Manufacturing Standard: DIN 985.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

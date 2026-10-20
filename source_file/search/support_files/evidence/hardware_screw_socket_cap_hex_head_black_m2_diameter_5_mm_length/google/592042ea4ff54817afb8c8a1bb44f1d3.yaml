@@ -1,0 +1,35 @@
+oomp_id: hardware_screw_socket_cap_hex_head_black_m2_diameter_5_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M2 x 5 socket cap screw DIN 912 black high tensile steel
+evidence_url: https://www.google.com/search?q=M2+x+5+socket+cap+screw+DIN+912+black+high+tensile+steel
+reason: Opened the exact Bolt Base Amazon result from Google and verified the product
+  dimensions, socket-cap head, hex drive, steel material, black self-colour finish,
+  and DIN 912.
+search_evidence: Google returned the Bolt Base M2 x 5 Black 12.9 Grade Hex Socket
+  Cap listing; the Amazon product page confirms M2 x 5mm and its full specifications.
+attempts:
+- term: M2 x 5 socket cap screw DIN 912 black high tensile steel
+  url: https://www.google.com/search?q=M2+x+5+socket+cap+screw+DIN+912+black+high+tensile+steel
+  completed: true
+  outcome: Opened the Bolt Base Amazon result and verified its exact product specifications.
+result_url: https://www.amazon.co.uk/Black-Tensile-Socket-screws-Colour/dp/B00SN3GBLS?th=1
+product_name: (2mm) M2 x 5 Black 12.9 Grade High Tensile Hex Socket Cap Screws Self
+  Colour Allen Bolts DIN 912-5 Pack
+selected_variant: M2 x 5mm product; Item Package Quantity 5 selected; Bolt Base part
+  number BOB5579; ASIN B00SN3GBLS.
+material_evidence: Amazon technical details state Material Alloy Steel; product title
+  and bullet state 12.9 Grade High Tensile Steel.
+specification: M2 x 5mm; full-length threaded, 0.4mm pitch; socket cap head; hex socket/Allen
+  drive, 1.5mm key; black self-colour; DIN 912; screw length excludes head.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:45:40.108297+00:00'
+validator_version: 1

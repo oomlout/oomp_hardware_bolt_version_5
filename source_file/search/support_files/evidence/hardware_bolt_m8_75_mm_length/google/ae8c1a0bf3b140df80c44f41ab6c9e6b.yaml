@@ -1,0 +1,44 @@
+oomp_id: hardware_bolt_m8_75_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M8x75 high tensile steel DIN 931 hex bolt part thread
+evidence_url: https://www.google.com/search?q=M8x75+high+tensile+steel+DIN+931+hex+bolt+part+thread
+reason: The refined search returned the exact Bolt World M8x75 variant, verified in
+  the opened product page.
+search_evidence: 'Initial Google term returned a Vital Parts M8 x 75 A4-70 stainless
+  result and Orbital''s 8.8 result, whose page did not state steel explicitly. One
+  focused refinement retained identity and material intent; it returned Bolt World''s
+  M8 x 75mm Grade 8.8 steel part-threaded DIN 931 bolt. Opened it and verified the
+  exact selected variant: M8 and 75mm selected, SKU 20303.080.075, Material Steel,
+  Grade 8.8, Self Colour/Plain, minimum thread 22mm, DIN 931.'
+attempts:
+- term: M8 x 75 hex head part threaded bolt DIN 931 steel
+  url: https://www.google.com/search?q=M8+x+75+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: Completed search; Vital Parts candidate was A4-70 stainless and excluded,
+    Orbital 8.8 result lacked explicit steel material statement.
+- term: M8x75 high tensile steel DIN 931 hex bolt part thread
+  url: https://www.google.com/search?q=M8x75+high+tensile+steel+DIN+931+hex+bolt+part+thread
+  completed: true
+  outcome: Exact Bolt World M8x75 Grade 8.8 steel DIN 931 part-threaded variant returned
+    and verified.
+result_url: https://boltworld.co.uk/products/m8-x-75mm-hexagon-head-bolts-part-threaded-din-931-self-colour-black-8-8/
+product_name: M8 x 75mm Hexagon Head Bolt – High Tensile Grade 8.8 Steel, Self Colour
+  Black, Partially Threaded, DIN 931
+selected_variant: Selected thread size M8 and length 75mm; current SKU 20303.080.075;
+  Material Steel, Grade 8.8; Self Colour/Plain.
+material_evidence: 'Selected product states Material: Steel; Class/Grade: 8.8.'
+specification: 'Thread Size: M8; Length: 75mm (under head); Thread Length (Minimum):
+  22mm; hexagon head; partially threaded; Material: Steel; Class/Grade: 8.8; Surface
+  Treatment: Self Colour/Plain; Manufacturing Standard: DIN 931.'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T08:40:31.529243+00:00'
+validator_version: 1

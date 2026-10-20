@@ -1,3 +1,57 @@
+search_data:
+  aliexpress:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M3 flanged nut steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M3+flanged+nut+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  ebay:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M3 flanged nut steel
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M3+flanged+nut+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  google:
+    checked_at: '2026-10-14T08:59:33.076048+00:00'
+    evidence_file: support_files/evidence/hardware_nut_m3_flanged/google/31b3c570363742c3a26b286553fb41fd.yaml
+    evidence_url: https://www.google.com/search?q=M3+serrated+flange+nut+carbon+steel+zinc+DIN+6923
+    material_evidence: 'Product details state Material: Carbon Steel and the description
+      says the nuts are made of carbon steel with zinc coating.'
+    product_name: 100 Pieces M3 Serrated Flanged Nuts 3mm Hexagonal Nuts DIN 6923
+    reason: The selected Amazon variant is M3 serrated flanged nuts; its page states
+      carbon steel, zinc finish, ISO metric thread, and DIN 6923. It is non-stainless
+      steel.
+    result_url: https://www.amazon.co.uk/Serrated-Flange-Hexagonal-Flanged-Steel/dp/B0G2QPVG9Z?th=1
+    search_evidence: The refinement showed an M3 serrated flanged nut listing with
+      carbon-steel and zinc-plated wording. The opened Amazon page confirms the selected
+      size M3-100pcs, title identifies serrated flanged nuts to DIN 6923, specifications
+      state Material Carbon Steel, Exterior Finish Zinc, ISO Metric and M3 thread,
+      and the product description says carbon steel with zinc coating. The earlier
+      Fasteners Fixings & Tools result matched M3 and DIN 6923 but did not state material;
+      it was not selected.
+    search_for: M3 serrated flange nut carbon steel zinc DIN 6923
+    search_url: https://www.google.com/search?q=M3+serrated+flange+nut+carbon+steel+zinc+DIN+6923
+    selected_variant: M3-100pcs
+    specification: 'Thread Size: M3; Thread Type: ISO Metric; Dimensions: 8 x 8 x
+      3mm (page item dimensions); Material: Carbon Steel; Finish: Zinc; Form: Serrated
+      Flanged Nut; Manufacturing Standard: DIN 6923; Selected pack: 100 pieces.'
+    status: verified
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''

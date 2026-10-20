@@ -1,0 +1,39 @@
+oomp_id: hardware_nut_m2_7
+platform: google
+method: codex_builtin_browser
+status: assumed_non_stocked
+search_for: M2.7 DIN 934 metric steel hexagon full nut zinc plated
+evidence_url: https://www.google.com/search?q=M2.7+DIN+934+metric+steel+hexagon+full+nut+zinc+plated
+reason: No eligible M2.7 full hex steel nut found in two completed exact searches.
+  The closest opened steel product was M2; results otherwise matched M27, not M2.7.
+search_evidence: The first Google query returned an Accu M2 bright zinc plated mild
+  steel DIN 934 nut and unrelated M27 products; the M2 page confirmed the selected
+  dimension was M2. The refined exact M2.7 query again returned M2 and M27 listings,
+  with no M2.7 steel nut result.
+attempts:
+- term: M2.7 hexagon full nut steel
+  url: https://www.google.com/search?q=M2.7+hexagon+full+nut+steel
+  completed: true
+  outcome: No exact M2.7 result. The opened nearest steel product was an Accu M2 DIN
+    934 full hex nut, not M2.7; other results were M27.
+- term: M2.7 DIN 934 metric steel hexagon full nut zinc plated
+  url: https://www.google.com/search?q=M2.7+DIN+934+metric+steel+hexagon+full+nut+zinc+plated
+  completed: true
+  outcome: No exact M2.7 steel product result; displayed candidates remained M2 or
+    M27.
+no_eligible_product: true
+result_url: ''
+product_name: ''
+selected_variant: ''
+material_evidence: ''
+specification: ''
+checks:
+  result_reached_from_search: false
+  selected_variant: false
+  dimensions: false
+  form: false
+  material: false
+  finish: false
+  standard: false
+checked_at: '2026-10-14T08:51:43.788957+00:00'
+validator_version: 1

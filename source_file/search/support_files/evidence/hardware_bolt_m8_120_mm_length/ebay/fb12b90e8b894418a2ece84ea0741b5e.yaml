@@ -1,0 +1,49 @@
+oomp_id: hardware_bolt_m8_120_mm_length
+platform: ebay
+method: codex_builtin_browser
+status: verified
+search_for: M8 x 120 hex head part threaded bolt DIN 931 steel
+evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+reason: The eBay search led to Kay's Fasteners' listing. I selected the Bolt Size
+  option 'M8 x 120mm'. The selected size and page description establish M8 x 120 mm
+  under-head length, part-threaded hexagon head, high tensile steel grade 8.8, bright
+  zinc plated finish and DIN 931. The separate pack-quantity control was not selected
+  because it does not change product identity. The other inspected candidate had a
+  conflicting generic description line and was not used.
+search_evidence: 'Opened the exact eBay search and inspected Kay''s Fasteners item
+  365341419766. Selected Bolt Size: M8 x 120mm on the listing; the product page then
+  displayed that selected size. Item specifics state Material High Tensile Steel,
+  Grade 8.8, MPN DIN 931, Hex Bolts, Hex Head and Bright Zinc Plated (BZP). Seller
+  description states part-threaded hexagon head bolts, high tensile steel grade 8.8,
+  BZP, manufactured to DIN 931, with bolt lengths excluding the head; the M8 section
+  gives 8 mm thread diameter, 1.25 mm pitch, and 22 mm thread length for bolts up
+  to 125 mm. The other inspected Thread and Butter candidate had a generic description
+  line saying 110 mm despite the 120 mm title and specifics, so it was rejected as
+  conflicting evidence.'
+attempts:
+- term: M8 x 120 hex head part threaded bolt DIN 931 steel
+  url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: Search results inspected; Kay's Fasteners item 365341419766 opened from
+    the results and the exact M8 x 120mm size option selected.
+result_url: https://www.ebay.co.uk/itm/365341419766?_skw=M8+x+120+hex+head+part+threaded+bolt+DIN+931+steel&itmmeta=01M4X5DQHZ16Q776D7CTZW7EHQ&hash=item55100ba8f6:g:~1EAAeSwfBJqqZPa&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde97IluX%2BoQ40JxCDDNwyD793g8Z%2BrAWr1j%2BkV4pmQevmfBdiOBaeo8trj8aIXgao48LPrz0PIvqcjNNcHu41pf1UutUe%2BBhEI4YRjW%2B9tp1fTEYWhUZGbPjDnV%2FlHWPpigoz7SiFFfEN%2BkB2Ja50EalD4mhfgi8r5426JX0fkq8slp%2Fy5gMd3eqpR4BoQDu6bvJHIzvS34PV26Bybn0gn6GgQqAEjvTpYms2%2BdlWy7OsXeed%2F9%2FPfsfxGUA9iKffv%2BzCZ8z%2BEV%2FsGr%2F7YtCvj3ZvVwB2d%2BZp3k4LiyR0MIJGw%3D%3D%7Ctkp%3ABk9SR7j5tqWnaA
+product_name: M6 M8 M10 HEXAGON HEAD BOLTS PART THREADED SCREWS HIGH TENSILE 8.8 ZINC
+  PLATED
+selected_variant: 'Bolt Size: M8 x 120mm (selected option). The separate Your Pack
+  Quantity option remained at Select; it specifies pack quantity, not dimensions or
+  material.'
+material_evidence: High Tensile Steel; Grade 8.8
+specification: 'Thread Size: M8; Length: 120mm (selected Bolt Size; seller says bolt
+  lengths exclude the head); Thread Pitch: 1.25mm; Form: part-threaded hexagon-head
+  bolt; Material: High Tensile Steel, Grade 8.8; Finish: Bright Zinc Plated (BZP);
+  Manufacturing Standard: DIN 931'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T12:19:09.816474+00:00'
+validator_version: 1

@@ -1,0 +1,41 @@
+oomp_id: hardware_nut_m5_coupling
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M5 hexagon coupling nut steel DIN 6334 zinc plated
+evidence_url: https://www.google.com/search?q=M5+hexagon+coupling+nut+steel+DIN+6334+zinc+plated
+reason: The selected M5 hex coupling nut is steel, zinc plated, and explicitly DIN
+  6334; the page states DIN 6334 length is three times nominal diameter.
+search_evidence: Refined Google search returned the B&Q product titled 5 x M5 Hex
+  Coupling Nuts - Threaded Rod Connector Studding Extension - BZP Steel Class 6 -
+  DIN 6334; the opened product page confirms those specifications.
+attempts:
+- term: M5 coupling connector nut steel
+  url: https://www.google.com/search?q=M5+coupling+connector+nut+steel
+  completed: true
+  outcome: Inspected Bolt World round M5 studding connector nut. Exact steel/M5 details
+    were shown, but its product heading did not clearly identify the required hex
+    coupling-nut form.
+- term: M5 hexagon coupling nut steel DIN 6334 zinc plated
+  url: https://www.google.com/search?q=M5+hexagon+coupling+nut+steel+DIN+6334+zinc+plated
+  completed: true
+  outcome: Opened B&Q M5 Hex Coupling Nuts product page. Fixed M5 option; hex nut;
+    carbon steel Class 6; BZP; DIN 6334.
+result_url: https://www.diy.com/departments/5-x-m5-hex-coupling-nuts-threaded-rod-connector-studding-extension-bzp-steel-class-6-din-6334/5056826613318_BQ.prd
+product_name: 5 x M5 Hex Coupling Nuts - Threaded Rod Connector Studding Extension
+  - BZP Steel Class 6 - DIN 6334
+selected_variant: Bolt size M5; pack quantity 5; product code 5056826613318
+material_evidence: Product specifications state Steel; product features state carbon
+  steel, Class 6.
+specification: Hex coupling nut; M5 metric coarse thread; DIN 6334; bright zinc plated
+  (BZP); length is three times nominal diameter, 15 mm for M5.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:10:15.085210+00:00'
+validator_version: 1

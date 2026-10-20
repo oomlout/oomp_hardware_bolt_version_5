@@ -1,0 +1,36 @@
+oomp_id: hardware_washer_m4
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M4 steel flat washer DIN 125
+evidence_url: https://www.google.com/search?q=M4+steel+flat+washer+DIN+125
+reason: The exact Google query led to Orbital Fasteners' M4 mild-steel Form A flat
+  washer. The page heading and product information state M4, Form A, mild steel, bright
+  zinc plated, DIN 125-1A, and 4.3 x 9.0 x 0.8 mm ID x OD x thickness.
+search_evidence: Google result for Orbital Fasteners was titled ‘M4 Mild Steel Form
+  A Flat Washer Bright Zinc Plated DIN 125 - 1A (4.3x9x0.8mm)’. Opened the page; selected
+  item SKU 1711010 and dimensions/material/finish/standard matched. Stainless results
+  were not used.
+attempts:
+- term: M4 steel flat washer DIN 125
+  url: https://www.google.com/search?q=M4+steel+flat+washer+DIN+125
+  completed: true
+  outcome: Google exposed an exact M4 mild-steel Form A DIN 125-1A washer at Orbital
+    Fasteners; opened and verified the product page.
+result_url: https://www.orbitalfasteners.co.uk/products/m4-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-4-3x9x0-8mm-
+product_name: M4 MILD STEEL FORM A FLAT WASHER BRIGHT ZINC PLATED DIN 125 - 1A (4.3X9X0.8MM)
+selected_variant: 'Single product: M4 Form A, 4.3 x 9.0 x 0.8mm'
+material_evidence: Mild steel
+specification: 'Thread size: M4; Form: A flat washer; Internal diameter: 4.3mm; External
+  diameter: 9.0mm; Thickness: 0.8mm; Material: Mild steel; Finish: Bright zinc plated;
+  Standard: DIN 125-1A'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T11:34:28.472529+00:00'
+validator_version: 1

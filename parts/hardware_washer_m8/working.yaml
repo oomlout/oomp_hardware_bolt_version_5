@@ -105,6 +105,370 @@ oomlout_ai_roboclick_1:
             name_proper: Hardware Washer M8
             name_space: hardware washer m8
             name_upper: HARDWARE WASHER M8
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M8 steel flat washer DIN 125
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M8+steel+flat+washer+DIN+125
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M8 steel flat washer DIN 125
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+steel+flat+washer+DIN+125
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T11:37:35.912647+00:00'
+                    evidence_file: support_files/evidence/hardware_washer_m8/google/dcdd7845140d4b978d52b83e0b1885fa.yaml
+                    evidence_url: https://www.google.com/search?q=M8+steel+flat+washer+DIN+125
+                    material_evidence: Product heading and product information state
+                        mild steel.
+                    product_name: M8 Mild Steel Form A Flat Washer Bright Zinc Plated
+                        DIN 125 - 1A (8.4x16x1.6mm)
+                    reason: The Google search led to Orbital Fasteners' M8 Form A
+                        flat washer. The page identifies an M8 washer, 8.4x16x1.6mm,
+                        mild steel, bright zinc plated, DIN 125-1A, and lists it in
+                        stock.
+                    result_url: https://www.orbitalfasteners.co.uk/products/m8-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-8-4x17x1-6mm-
+                    search_evidence: Opened the Orbital Fasteners result from the
+                        supplied search. The product heading states M8 Mild Steel
+                        Form A Flat Washer Bright Zinc Plated DIN 125-1A (8.4x16x1.6mm).
+                        Product information repeats 8.4 x 16.0 x 1.6mm, mild steel,
+                        bright zinc plated, DIN 125-1A. SKU 1711040; in stock.
+                    search_for: M8 steel flat washer DIN 125
+                    search_url: https://www.google.com/search?q=M8+steel+flat+washer+DIN+125
+                    selected_variant: 'Thread Size: M8; SKU: 1711040'
+                    specification: 'Thread Size: M8; Form: Form A flat washer; Internal
+                        diameter: 8.4mm; External diameter: 16mm; Thickness: 1.6mm;
+                        Material: Mild steel; Finish: Bright zinc plated; Standard:
+                        DIN 125-1A'
+                    status: verified
+            supplier_data:
+                aanddfasteners:
+                    accepted_warnings: '["Source quantity band starts at zero; normalized
+                        minimum to one item"]'
+                    captured_at: '2026-10-13T07:56:47.901237+00:00'
+                    currency: GBP
+                    html_sha256: df22442672138de6a3127f0e14d57b34c15eebdfcb7466c9355f379057f06a84
+                    name: M8 Form A Flat Washer, Steel Zinc plated, Din 125
+                    packages: '[]'
+                    parsed_at: '2026-10-18T08:57:33.797014+00:00'
+                    parser_version: aanddfasteners-1.2-review-policy
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept zero-to-one quantity normalization
+                        and low-stock notices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: Product information A metric Form A washer also
+                        known as a flat washer in steel with a bright zinc plating.
+                        Manufactured to Din 125A. A flat washer's main task is to
+                        spread the load across a wider area, which comes in particularly
+                        useful when dealing with softer materials.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: aanddfasteners
+                    supplier_id: ST12508AZP
+                    supplier_part_number: ST12508AZP
+                    supplier_website: https://www.aanddfasteners.co.uk/shop/washers/flat-washers/metric-flat-washer-din-125-form-a/metric-flat-washer-din-125-form-a-steel-zinc-plated/m8-form-a-flat-washer-steel-zinc-plated-din-125/details
+                    tiers:
+                    -   maximum: 25
+                        minimum: 1
+                        source_text: "0 - 25 \xA3 0.11"
+                        source_unit_price: '0.11'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1320'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 50
+                        minimum: 26
+                        source_text: "26 -50 \xA3 0.07"
+                        source_unit_price: '0.07'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 51
+                        source_text: "51+ \xA3 0.06"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.1320'
+                    total_price_10: '1.3200'
+                    total_price_100: '7.2000'
+                    total_price_1000: '72.0000'
+                    total_price_10000: '720.0000'
+                    unit_price_1: '0.1320'
+                    unit_price_10: '0.1320'
+                    unit_price_100: '0.0720'
+                    unit_price_1000: '0.0720'
+                    unit_price_10000: '0.0720'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Source quantity band starts at zero; normalized minimum to one
+                        item
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-18T09:28:48.609934+00:00'
+                    currency: GBP
+                    family_description: Form A washers. Self colour steel (uncoated).
+                        DIN125A.
+                    family_heading: FORM A FLAT WASHER DIN 125 SELF COLOUR
+                    html_sha256: 7c876181d916906dab2ef13e1c28ec860280ddbdc9aa53ad239afa401bce5e26
+                    name: M8 FORM A FLAT WASHER DIN 125 SELF COLOUR STEEL
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:31:26.824319+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M8 FORM A FLAT WASHER DIN 125 SELF COLOUR
+                        STEEL
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: FORM A FLAT WASHER DIN 125 SELF COLOUR; Form A
+                        washers. Self colour steel (uncoated). DIN125A.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M8-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M8-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+                    supplier_website: https://www.kayfast.co.uk/view-product/FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR
+                    tiers:
+                    -   maximum: 999
+                        minimum: 1
+                        source_price_per_100: '1.16'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 999 @ \xA31.16 per 100"
+                        source_unit_price: '0.0116'
+                        source_vat_basis: exclusive
+                        unit_price: '0.013920'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_price_per_100: '0.97'
+                        source_price_quantity: 100
+                        source_text: "QTY 1000 -  4999 @ \xA30.97 per 100"
+                        source_unit_price: '0.0097'
+                        source_vat_basis: exclusive
+                        unit_price: '0.011640'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 5000
+                        source_price_per_100: '0.87'
+                        source_price_quantity: 100
+                        source_text: "QTY 5000 + @ \xA30.87 per 100"
+                        source_unit_price: '0.0087'
+                        source_vat_basis: exclusive
+                        unit_price: '0.010440'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.013920'
+                    total_price_10: '0.139200'
+                    total_price_100: '1.392000'
+                    total_price_1000: '11.640000'
+                    total_price_10000: '104.400000'
+                    unit_price_1: '0.013920'
+                    unit_price_10: '0.013920'
+                    unit_price_100: '0.013920'
+                    unit_price_1000: '0.011640'
+                    unit_price_10000: '0.010440'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '500'
+                    captured_at: '2026-10-12T20:49:23.110389+00:00'
+                    catalogue_page: '30'
+                    currency: GBP
+                    description: ''
+                    html_sha256: 87078b133917318fd399656c09a15dc1fd245bb85ead30f05b88babd5025d8cc
+                    name: M8 Mild Steel Form A Flat Washer Bright Zinc Plated DIN
+                        125 - 1A (8.4x16x1.6mm)
+                    parsed_at: '2026-10-18T08:49:39.911226+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '972774'
+                    supplier: orbitalfasteners
+                    supplier_id: '1711040'
+                    supplier_part_number: '1711040'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m8-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-8-4x17x1-6mm-
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA30.0066 Inc. VAT \xA30.66 Inc. VAT"
+                        source_unit_price: '0.0066'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0066'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2499 \xA30.0055 Inc. VAT \xA30.55 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0055'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0055'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 7999
+                        minimum: 2500
+                        source_text: "2500 - 7999 \xA30.0049 Inc. VAT \xA30.49 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0049'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0049'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 8000
+                        source_text: "8000 + \xA30.0044 Inc. VAT \xA30.44 Inc. VAT"
+                        source_unit_price: '0.0044'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0044'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0066'
+                    total_price_10: '0.0660'
+                    total_price_100: '0.6600'
+                    total_price_1000: '5.5000'
+                    total_price_10000: '44.0000'
+                    unit_price_1: '0.0066'
+                    unit_price_10: '0.0066'
+                    unit_price_100: '0.0066'
+                    unit_price_1000: '0.0055'
+                    unit_price_10000: '0.0044'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+                westfieldfasteners:
+                    accepted_warnings: '["Westfield sliding-scale prices only verified
+                        at advertised package quantities; other quantities withheld",
+                        "Quantity 1: no unique verified source price/VAT band; price
+                        withheld", "Quantity 10: no unique verified source price/VAT
+                        band; price withheld", "Quantity 100: no unique verified source
+                        price/VAT band; price withheld", "Quantity 1000: no unique
+                        verified source price/VAT band; price withheld", "Quantity
+                        10000: no unique verified source price/VAT band; price withheld"]'
+                    captured_at: '2026-10-13T11:00:25.094429+00:00'
+                    currency: GBP
+                    html_sha256: 62f09059665361efe3450695adb065ddb2803366a7ec239d545989a487e85acb
+                    name: M8 Form A Washer in Zinc Plated Steel - DIN 125A
+                    packages: "[{\"quantity\": 400, \"total_price\": \"7.2240\", \"\
+                        source_text\": \"box of 400 for \xA36.02\", \"source_total_price\"\
+                        : \"6.02\", \"source_vat_basis\": \"exclusive\", \"vat_basis\"\
+                        : \"inclusive\"}, {\"quantity\": 2000, \"total_price\": \"\
+                        32.3280\", \"source_text\": \"bulk of 2000 for \xA326.94\"\
+                        , \"source_total_price\": \"26.94\", \"source_vat_basis\"\
+                        : \"exclusive\", \"vat_basis\": \"inclusive\"}]"
+                    parsed_at: '2026-10-18T09:33:18.554093+00:00'
+                    parser_version: westfieldfasteners-1.3-allen-cap-heading
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Include advertised package prices
+                        only; other quantities may remain blank."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: M8 Form A Washer in Zinc Plated Steel WF14910
+                        - 7484 in stock
+                    status: ok
+                    stock_quantity: '7484'
+                    stock_status: ''
+                    supplier: westfieldfasteners
+                    supplier_id: WF14910
+                    supplier_part_number: WF14910
+                    supplier_website: https://www.westfieldfasteners.co.uk/Metric-Washers/Form-A-Washer-M8-Zinc-Plated-Steel.html
+                    tiers:
+                    -   maximum: 400
+                        minimum: 400
+                        source_text: "box of 400 for \xA36.02"
+                        source_unit_price: '0.01505'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0180600'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2000
+                        minimum: 2000
+                        source_text: "bulk of 2000 for \xA326.94"
+                        source_unit_price: '0.01347'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0161640'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: ''
+                    total_price_10: ''
+                    total_price_100: ''
+                    total_price_1000: ''
+                    total_price_10000: ''
+                    unit_price_1: ''
+                    unit_price_10: ''
+                    unit_price_100: ''
+                    unit_price_1000: ''
+                    unit_price_10000: ''
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Westfield sliding-scale prices only verified at advertised package
+                        quantities; other quantities withheld
+                    - 'Quantity 1: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 10: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 100: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 1000: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 10000: no unique verified source price/VAT band; price
+                        withheld'
             taxonomy_1: hardware
             taxonomy_10: ''
             taxonomy_11: ''
@@ -383,6 +747,388 @@ oomlout_ai_roboclick_2:
                         name_proper: Hardware Washer M8
                         name_space: hardware washer m8
                         name_upper: HARDWARE WASHER M8
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M8 steel flat washer DIN 125
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M8+steel+flat+washer+DIN+125
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M8 steel flat washer DIN 125
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+steel+flat+washer+DIN+125
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T11:37:35.912647+00:00'
+                                evidence_file: support_files/evidence/hardware_washer_m8/google/dcdd7845140d4b978d52b83e0b1885fa.yaml
+                                evidence_url: https://www.google.com/search?q=M8+steel+flat+washer+DIN+125
+                                material_evidence: Product heading and product information
+                                    state mild steel.
+                                product_name: M8 Mild Steel Form A Flat Washer Bright
+                                    Zinc Plated DIN 125 - 1A (8.4x16x1.6mm)
+                                reason: The Google search led to Orbital Fasteners'
+                                    M8 Form A flat washer. The page identifies an
+                                    M8 washer, 8.4x16x1.6mm, mild steel, bright zinc
+                                    plated, DIN 125-1A, and lists it in stock.
+                                result_url: https://www.orbitalfasteners.co.uk/products/m8-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-8-4x17x1-6mm-
+                                search_evidence: Opened the Orbital Fasteners result
+                                    from the supplied search. The product heading
+                                    states M8 Mild Steel Form A Flat Washer Bright
+                                    Zinc Plated DIN 125-1A (8.4x16x1.6mm). Product
+                                    information repeats 8.4 x 16.0 x 1.6mm, mild steel,
+                                    bright zinc plated, DIN 125-1A. SKU 1711040; in
+                                    stock.
+                                search_for: M8 steel flat washer DIN 125
+                                search_url: https://www.google.com/search?q=M8+steel+flat+washer+DIN+125
+                                selected_variant: 'Thread Size: M8; SKU: 1711040'
+                                specification: 'Thread Size: M8; Form: Form A flat
+                                    washer; Internal diameter: 8.4mm; External diameter:
+                                    16mm; Thickness: 1.6mm; Material: Mild steel;
+                                    Finish: Bright zinc plated; Standard: DIN 125-1A'
+                                status: verified
+                        supplier_data:
+                            aanddfasteners:
+                                accepted_warnings: '["Source quantity band starts
+                                    at zero; normalized minimum to one item"]'
+                                captured_at: '2026-10-13T07:56:47.901237+00:00'
+                                currency: GBP
+                                html_sha256: df22442672138de6a3127f0e14d57b34c15eebdfcb7466c9355f379057f06a84
+                                name: M8 Form A Flat Washer, Steel Zinc plated, Din
+                                    125
+                                packages: '[]'
+                                parsed_at: '2026-10-18T08:57:33.797014+00:00'
+                                parser_version: aanddfasteners-1.2-review-policy
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept zero-to-one
+                                    quantity normalization and low-stock notices."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: Product information A metric Form
+                                    A washer also known as a flat washer in steel
+                                    with a bright zinc plating. Manufactured to Din
+                                    125A. A flat washer's main task is to spread the
+                                    load across a wider area, which comes in particularly
+                                    useful when dealing with softer materials.
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: aanddfasteners
+                                supplier_id: ST12508AZP
+                                supplier_part_number: ST12508AZP
+                                supplier_website: https://www.aanddfasteners.co.uk/shop/washers/flat-washers/metric-flat-washer-din-125-form-a/metric-flat-washer-din-125-form-a-steel-zinc-plated/m8-form-a-flat-washer-steel-zinc-plated-din-125/details
+                                tiers:
+                                -   maximum: 25
+                                    minimum: 1
+                                    source_text: "0 - 25 \xA3 0.11"
+                                    source_unit_price: '0.11'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1320'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 50
+                                    minimum: 26
+                                    source_text: "26 -50 \xA3 0.07"
+                                    source_unit_price: '0.07'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0840'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 51
+                                    source_text: "51+ \xA3 0.06"
+                                    source_unit_price: '0.06'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0720'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.1320'
+                                total_price_10: '1.3200'
+                                total_price_100: '7.2000'
+                                total_price_1000: '72.0000'
+                                total_price_10000: '720.0000'
+                                unit_price_1: '0.1320'
+                                unit_price_10: '0.1320'
+                                unit_price_100: '0.0720'
+                                unit_price_1000: '0.0720'
+                                unit_price_10000: '0.0720'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Source quantity band starts at zero; normalized
+                                    minimum to one item
+                            kayfast:
+                                accepted_warnings: '["Kayfast per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-18T09:28:48.609934+00:00'
+                                currency: GBP
+                                family_description: Form A washers. Self colour steel
+                                    (uncoated). DIN125A.
+                                family_heading: FORM A FLAT WASHER DIN 125 SELF COLOUR
+                                html_sha256: 7c876181d916906dab2ef13e1c28ec860280ddbdc9aa53ad239afa401bce5e26
+                                name: M8 FORM A FLAT WASHER DIN 125 SELF COLOUR STEEL
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:31:26.824319+00:00'
+                                parser_version: kayfast-1.6-family-description
+                                price_breaks_description: M8 FORM A FLAT WASHER DIN
+                                    125 SELF COLOUR STEEL
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-17", "statement": "Use the exact row
+                                    dropdown price per 100 divided by 100 with Decimal
+                                    precision; accept the captured per-100 display
+                                    precision."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "Kayfast
+                                    prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+                                specifications: FORM A FLAT WASHER DIN 125 SELF COLOUR;
+                                    Form A washers. Self colour steel (uncoated).
+                                    DIN125A.
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: kayfast
+                                supplier_id: M8-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+                                supplier_id_basis: exact dimensional row description;
+                                    spaces replaced by hyphens (user clarification
+                                    2026-10-11)
+                                supplier_part_number: M8-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+                                supplier_website: https://www.kayfast.co.uk/view-product/FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR
+                                tiers:
+                                -   maximum: 999
+                                    minimum: 1
+                                    source_price_per_100: '1.16'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 1 - 999 @ \xA31.16 per 100"
+                                    source_unit_price: '0.0116'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.013920'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 4999
+                                    minimum: 1000
+                                    source_price_per_100: '0.97'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 1000 -  4999 @ \xA30.97 per\
+                                        \ 100"
+                                    source_unit_price: '0.0097'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.011640'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 5000
+                                    source_price_per_100: '0.87'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 5000 + @ \xA30.87 per 100"
+                                    source_unit_price: '0.0087'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.010440'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.013920'
+                                total_price_10: '0.139200'
+                                total_price_100: '1.392000'
+                                total_price_1000: '11.640000'
+                                total_price_10000: '104.400000'
+                                unit_price_1: '0.013920'
+                                unit_price_10: '0.013920'
+                                unit_price_100: '0.013920'
+                                unit_price_1000: '0.011640'
+                                unit_price_10000: '0.010440'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Kayfast per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
+                            orbitalfasteners:
+                                accepted_warnings: '[]'
+                                box_quantity: '500'
+                                captured_at: '2026-10-12T20:49:23.110389+00:00'
+                                catalogue_page: '30'
+                                currency: GBP
+                                description: ''
+                                html_sha256: 87078b133917318fd399656c09a15dc1fd245bb85ead30f05b88babd5025d8cc
+                                name: M8 Mild Steel Form A Flat Washer Bright Zinc
+                                    Plated DIN 125 - 1A (8.4x16x1.6mm)
+                                parsed_at: '2026-10-18T08:49:39.911226+00:00'
+                                parser_version: 1.2-review-policy
+                                review_policy: ''
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: inclusive
+                                status: ok
+                                stock_as_of: 9th October 2026 10:01pm
+                                stock_quantity: '972774'
+                                supplier: orbitalfasteners
+                                supplier_id: '1711040'
+                                supplier_part_number: '1711040'
+                                supplier_website: https://www.orbitalfasteners.co.uk/products/m8-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-8-4x17x1-6mm-
+                                tiers:
+                                -   maximum: 499
+                                    minimum: 1
+                                    source_text: "1 - 499 \xA30.0066 Inc. VAT \xA3\
+                                        0.66 Inc. VAT"
+                                    source_unit_price: '0.0066'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0066'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 2499
+                                    minimum: 500
+                                    source_text: "500 - 2499 \xA30.0055 Inc. VAT \xA3\
+                                        0.55 Inc. VAT"
+                                    source_unit_price: '0.0055'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0055'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 7999
+                                    minimum: 2500
+                                    source_text: "2500 - 7999 \xA30.0049 Inc. VAT\
+                                        \ \xA30.49 Inc. VAT"
+                                    source_unit_price: '0.0049'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0049'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 8000
+                                    source_text: "8000 + \xA30.0044 Inc. VAT \xA3\
+                                        0.44 Inc. VAT"
+                                    source_unit_price: '0.0044'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0044'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.0066'
+                                total_price_10: '0.0660'
+                                total_price_100: '0.6600'
+                                total_price_1000: '5.5000'
+                                total_price_10000: '44.0000'
+                                unit_price_1: '0.0066'
+                                unit_price_10: '0.0066'
+                                unit_price_100: '0.0066'
+                                unit_price_1000: '0.0055'
+                                unit_price_10000: '0.0044'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings: []
+                            westfieldfasteners:
+                                accepted_warnings: '["Westfield sliding-scale prices
+                                    only verified at advertised package quantities;
+                                    other quantities withheld", "Quantity 1: no unique
+                                    verified source price/VAT band; price withheld",
+                                    "Quantity 10: no unique verified source price/VAT
+                                    band; price withheld", "Quantity 100: no unique
+                                    verified source price/VAT band; price withheld",
+                                    "Quantity 1000: no unique verified source price/VAT
+                                    band; price withheld", "Quantity 10000: no unique
+                                    verified source price/VAT band; price withheld"]'
+                                captured_at: '2026-10-13T11:00:25.094429+00:00'
+                                currency: GBP
+                                html_sha256: 62f09059665361efe3450695adb065ddb2803366a7ec239d545989a487e85acb
+                                name: M8 Form A Washer in Zinc Plated Steel - DIN
+                                    125A
+                                packages: "[{\"quantity\": 400, \"total_price\": \"\
+                                    7.2240\", \"source_text\": \"box of 400 for \xA3\
+                                    6.02\", \"source_total_price\": \"6.02\", \"source_vat_basis\"\
+                                    : \"exclusive\", \"vat_basis\": \"inclusive\"\
+                                    }, {\"quantity\": 2000, \"total_price\": \"32.3280\"\
+                                    , \"source_text\": \"bulk of 2000 for \xA326.94\"\
+                                    , \"source_total_price\": \"26.94\", \"source_vat_basis\"\
+                                    : \"exclusive\", \"vat_basis\": \"inclusive\"\
+                                    }]"
+                                parsed_at: '2026-10-18T09:33:18.554093+00:00'
+                                parser_version: westfieldfasteners-1.3-allen-cap-heading
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Include advertised
+                                    package prices only; other quantities may remain
+                                    blank."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: M8 Form A Washer in Zinc Plated Steel
+                                    WF14910 - 7484 in stock
+                                status: ok
+                                stock_quantity: '7484'
+                                stock_status: ''
+                                supplier: westfieldfasteners
+                                supplier_id: WF14910
+                                supplier_part_number: WF14910
+                                supplier_website: https://www.westfieldfasteners.co.uk/Metric-Washers/Form-A-Washer-M8-Zinc-Plated-Steel.html
+                                tiers:
+                                -   maximum: 400
+                                    minimum: 400
+                                    source_text: "box of 400 for \xA36.02"
+                                    source_unit_price: '0.01505'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0180600'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 2000
+                                    minimum: 2000
+                                    source_text: "bulk of 2000 for \xA326.94"
+                                    source_unit_price: '0.01347'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0161640'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: ''
+                                total_price_10: ''
+                                total_price_100: ''
+                                total_price_1000: ''
+                                total_price_10000: ''
+                                unit_price_1: ''
+                                unit_price_10: ''
+                                unit_price_100: ''
+                                unit_price_1000: ''
+                                unit_price_10000: ''
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Westfield sliding-scale prices only verified at
+                                    advertised package quantities; other quantities
+                                    withheld
+                                - 'Quantity 1: no unique verified source price/VAT
+                                    band; price withheld'
+                                - 'Quantity 10: no unique verified source price/VAT
+                                    band; price withheld'
+                                - 'Quantity 100: no unique verified source price/VAT
+                                    band; price withheld'
+                                - 'Quantity 1000: no unique verified source price/VAT
+                                    band; price withheld'
+                                - 'Quantity 10000: no unique verified source price/VAT
+                                    band; price withheld'
                         taxonomy_1: hardware
                         taxonomy_10: ''
                         taxonomy_11: ''
@@ -623,6 +1369,370 @@ oomlout_ai_roboclick_2:
                     search_and_replace: []
                 file_test: label_oomp.pdf
                 retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M8 steel flat washer DIN 125
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M8+steel+flat+washer+DIN+125
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M8 steel flat washer DIN 125
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+steel+flat+washer+DIN+125
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T11:37:35.912647+00:00'
+                    evidence_file: support_files/evidence/hardware_washer_m8/google/dcdd7845140d4b978d52b83e0b1885fa.yaml
+                    evidence_url: https://www.google.com/search?q=M8+steel+flat+washer+DIN+125
+                    material_evidence: Product heading and product information state
+                        mild steel.
+                    product_name: M8 Mild Steel Form A Flat Washer Bright Zinc Plated
+                        DIN 125 - 1A (8.4x16x1.6mm)
+                    reason: The Google search led to Orbital Fasteners' M8 Form A
+                        flat washer. The page identifies an M8 washer, 8.4x16x1.6mm,
+                        mild steel, bright zinc plated, DIN 125-1A, and lists it in
+                        stock.
+                    result_url: https://www.orbitalfasteners.co.uk/products/m8-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-8-4x17x1-6mm-
+                    search_evidence: Opened the Orbital Fasteners result from the
+                        supplied search. The product heading states M8 Mild Steel
+                        Form A Flat Washer Bright Zinc Plated DIN 125-1A (8.4x16x1.6mm).
+                        Product information repeats 8.4 x 16.0 x 1.6mm, mild steel,
+                        bright zinc plated, DIN 125-1A. SKU 1711040; in stock.
+                    search_for: M8 steel flat washer DIN 125
+                    search_url: https://www.google.com/search?q=M8+steel+flat+washer+DIN+125
+                    selected_variant: 'Thread Size: M8; SKU: 1711040'
+                    specification: 'Thread Size: M8; Form: Form A flat washer; Internal
+                        diameter: 8.4mm; External diameter: 16mm; Thickness: 1.6mm;
+                        Material: Mild steel; Finish: Bright zinc plated; Standard:
+                        DIN 125-1A'
+                    status: verified
+            supplier_data:
+                aanddfasteners:
+                    accepted_warnings: '["Source quantity band starts at zero; normalized
+                        minimum to one item"]'
+                    captured_at: '2026-10-13T07:56:47.901237+00:00'
+                    currency: GBP
+                    html_sha256: df22442672138de6a3127f0e14d57b34c15eebdfcb7466c9355f379057f06a84
+                    name: M8 Form A Flat Washer, Steel Zinc plated, Din 125
+                    packages: '[]'
+                    parsed_at: '2026-10-18T08:57:33.797014+00:00'
+                    parser_version: aanddfasteners-1.2-review-policy
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept zero-to-one quantity normalization
+                        and low-stock notices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: Product information A metric Form A washer also
+                        known as a flat washer in steel with a bright zinc plating.
+                        Manufactured to Din 125A. A flat washer's main task is to
+                        spread the load across a wider area, which comes in particularly
+                        useful when dealing with softer materials.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: aanddfasteners
+                    supplier_id: ST12508AZP
+                    supplier_part_number: ST12508AZP
+                    supplier_website: https://www.aanddfasteners.co.uk/shop/washers/flat-washers/metric-flat-washer-din-125-form-a/metric-flat-washer-din-125-form-a-steel-zinc-plated/m8-form-a-flat-washer-steel-zinc-plated-din-125/details
+                    tiers:
+                    -   maximum: 25
+                        minimum: 1
+                        source_text: "0 - 25 \xA3 0.11"
+                        source_unit_price: '0.11'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1320'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 50
+                        minimum: 26
+                        source_text: "26 -50 \xA3 0.07"
+                        source_unit_price: '0.07'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 51
+                        source_text: "51+ \xA3 0.06"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.1320'
+                    total_price_10: '1.3200'
+                    total_price_100: '7.2000'
+                    total_price_1000: '72.0000'
+                    total_price_10000: '720.0000'
+                    unit_price_1: '0.1320'
+                    unit_price_10: '0.1320'
+                    unit_price_100: '0.0720'
+                    unit_price_1000: '0.0720'
+                    unit_price_10000: '0.0720'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Source quantity band starts at zero; normalized minimum to one
+                        item
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-18T09:28:48.609934+00:00'
+                    currency: GBP
+                    family_description: Form A washers. Self colour steel (uncoated).
+                        DIN125A.
+                    family_heading: FORM A FLAT WASHER DIN 125 SELF COLOUR
+                    html_sha256: 7c876181d916906dab2ef13e1c28ec860280ddbdc9aa53ad239afa401bce5e26
+                    name: M8 FORM A FLAT WASHER DIN 125 SELF COLOUR STEEL
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:31:26.824319+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M8 FORM A FLAT WASHER DIN 125 SELF COLOUR
+                        STEEL
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: FORM A FLAT WASHER DIN 125 SELF COLOUR; Form A
+                        washers. Self colour steel (uncoated). DIN125A.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M8-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M8-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+                    supplier_website: https://www.kayfast.co.uk/view-product/FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR
+                    tiers:
+                    -   maximum: 999
+                        minimum: 1
+                        source_price_per_100: '1.16'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 999 @ \xA31.16 per 100"
+                        source_unit_price: '0.0116'
+                        source_vat_basis: exclusive
+                        unit_price: '0.013920'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_price_per_100: '0.97'
+                        source_price_quantity: 100
+                        source_text: "QTY 1000 -  4999 @ \xA30.97 per 100"
+                        source_unit_price: '0.0097'
+                        source_vat_basis: exclusive
+                        unit_price: '0.011640'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 5000
+                        source_price_per_100: '0.87'
+                        source_price_quantity: 100
+                        source_text: "QTY 5000 + @ \xA30.87 per 100"
+                        source_unit_price: '0.0087'
+                        source_vat_basis: exclusive
+                        unit_price: '0.010440'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.013920'
+                    total_price_10: '0.139200'
+                    total_price_100: '1.392000'
+                    total_price_1000: '11.640000'
+                    total_price_10000: '104.400000'
+                    unit_price_1: '0.013920'
+                    unit_price_10: '0.013920'
+                    unit_price_100: '0.013920'
+                    unit_price_1000: '0.011640'
+                    unit_price_10000: '0.010440'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '500'
+                    captured_at: '2026-10-12T20:49:23.110389+00:00'
+                    catalogue_page: '30'
+                    currency: GBP
+                    description: ''
+                    html_sha256: 87078b133917318fd399656c09a15dc1fd245bb85ead30f05b88babd5025d8cc
+                    name: M8 Mild Steel Form A Flat Washer Bright Zinc Plated DIN
+                        125 - 1A (8.4x16x1.6mm)
+                    parsed_at: '2026-10-18T08:49:39.911226+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '972774'
+                    supplier: orbitalfasteners
+                    supplier_id: '1711040'
+                    supplier_part_number: '1711040'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m8-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-8-4x17x1-6mm-
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA30.0066 Inc. VAT \xA30.66 Inc. VAT"
+                        source_unit_price: '0.0066'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0066'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2499 \xA30.0055 Inc. VAT \xA30.55 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0055'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0055'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 7999
+                        minimum: 2500
+                        source_text: "2500 - 7999 \xA30.0049 Inc. VAT \xA30.49 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0049'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0049'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 8000
+                        source_text: "8000 + \xA30.0044 Inc. VAT \xA30.44 Inc. VAT"
+                        source_unit_price: '0.0044'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0044'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0066'
+                    total_price_10: '0.0660'
+                    total_price_100: '0.6600'
+                    total_price_1000: '5.5000'
+                    total_price_10000: '44.0000'
+                    unit_price_1: '0.0066'
+                    unit_price_10: '0.0066'
+                    unit_price_100: '0.0066'
+                    unit_price_1000: '0.0055'
+                    unit_price_10000: '0.0044'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+                westfieldfasteners:
+                    accepted_warnings: '["Westfield sliding-scale prices only verified
+                        at advertised package quantities; other quantities withheld",
+                        "Quantity 1: no unique verified source price/VAT band; price
+                        withheld", "Quantity 10: no unique verified source price/VAT
+                        band; price withheld", "Quantity 100: no unique verified source
+                        price/VAT band; price withheld", "Quantity 1000: no unique
+                        verified source price/VAT band; price withheld", "Quantity
+                        10000: no unique verified source price/VAT band; price withheld"]'
+                    captured_at: '2026-10-13T11:00:25.094429+00:00'
+                    currency: GBP
+                    html_sha256: 62f09059665361efe3450695adb065ddb2803366a7ec239d545989a487e85acb
+                    name: M8 Form A Washer in Zinc Plated Steel - DIN 125A
+                    packages: "[{\"quantity\": 400, \"total_price\": \"7.2240\", \"\
+                        source_text\": \"box of 400 for \xA36.02\", \"source_total_price\"\
+                        : \"6.02\", \"source_vat_basis\": \"exclusive\", \"vat_basis\"\
+                        : \"inclusive\"}, {\"quantity\": 2000, \"total_price\": \"\
+                        32.3280\", \"source_text\": \"bulk of 2000 for \xA326.94\"\
+                        , \"source_total_price\": \"26.94\", \"source_vat_basis\"\
+                        : \"exclusive\", \"vat_basis\": \"inclusive\"}]"
+                    parsed_at: '2026-10-18T09:33:18.554093+00:00'
+                    parser_version: westfieldfasteners-1.3-allen-cap-heading
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Include advertised package prices
+                        only; other quantities may remain blank."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: M8 Form A Washer in Zinc Plated Steel WF14910
+                        - 7484 in stock
+                    status: ok
+                    stock_quantity: '7484'
+                    stock_status: ''
+                    supplier: westfieldfasteners
+                    supplier_id: WF14910
+                    supplier_part_number: WF14910
+                    supplier_website: https://www.westfieldfasteners.co.uk/Metric-Washers/Form-A-Washer-M8-Zinc-Plated-Steel.html
+                    tiers:
+                    -   maximum: 400
+                        minimum: 400
+                        source_text: "box of 400 for \xA36.02"
+                        source_unit_price: '0.01505'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0180600'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2000
+                        minimum: 2000
+                        source_text: "bulk of 2000 for \xA326.94"
+                        source_unit_price: '0.01347'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0161640'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: ''
+                    total_price_10: ''
+                    total_price_100: ''
+                    total_price_1000: ''
+                    total_price_10000: ''
+                    unit_price_1: ''
+                    unit_price_10: ''
+                    unit_price_100: ''
+                    unit_price_1000: ''
+                    unit_price_10000: ''
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Westfield sliding-scale prices only verified at advertised package
+                        quantities; other quantities withheld
+                    - 'Quantity 1: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 10: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 100: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 1000: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 10000: no unique verified source price/VAT band; price
+                        withheld'
             taxonomy_1: hardware
             taxonomy_10: ''
             taxonomy_11: ''
@@ -870,9 +1980,353 @@ oomlout_ai_roboclick_3:
     file_test: ''
 oomp_key: oomp_hardware_washer_m8
 run_action: true
+run_only_yaml: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M8 steel flat washer DIN 125
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M8+steel+flat+washer+DIN+125
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M8 steel flat washer DIN 125
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+steel+flat+washer+DIN+125
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T11:37:35.912647+00:00'
+        evidence_file: support_files/evidence/hardware_washer_m8/google/dcdd7845140d4b978d52b83e0b1885fa.yaml
+        evidence_url: https://www.google.com/search?q=M8+steel+flat+washer+DIN+125
+        material_evidence: Product heading and product information state mild steel.
+        product_name: M8 Mild Steel Form A Flat Washer Bright Zinc Plated DIN 125
+            - 1A (8.4x16x1.6mm)
+        reason: The Google search led to Orbital Fasteners' M8 Form A flat washer.
+            The page identifies an M8 washer, 8.4x16x1.6mm, mild steel, bright zinc
+            plated, DIN 125-1A, and lists it in stock.
+        result_url: https://www.orbitalfasteners.co.uk/products/m8-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-8-4x17x1-6mm-
+        search_evidence: Opened the Orbital Fasteners result from the supplied search.
+            The product heading states M8 Mild Steel Form A Flat Washer Bright Zinc
+            Plated DIN 125-1A (8.4x16x1.6mm). Product information repeats 8.4 x 16.0
+            x 1.6mm, mild steel, bright zinc plated, DIN 125-1A. SKU 1711040; in stock.
+        search_for: M8 steel flat washer DIN 125
+        search_url: https://www.google.com/search?q=M8+steel+flat+washer+DIN+125
+        selected_variant: 'Thread Size: M8; SKU: 1711040'
+        specification: 'Thread Size: M8; Form: Form A flat washer; Internal diameter:
+            8.4mm; External diameter: 16mm; Thickness: 1.6mm; Material: Mild steel;
+            Finish: Bright zinc plated; Standard: DIN 125-1A'
+        status: verified
+supplier_data:
+    aanddfasteners:
+        accepted_warnings: '["Source quantity band starts at zero; normalized minimum
+            to one item"]'
+        captured_at: '2026-10-13T07:56:47.901237+00:00'
+        currency: GBP
+        html_sha256: df22442672138de6a3127f0e14d57b34c15eebdfcb7466c9355f379057f06a84
+        name: M8 Form A Flat Washer, Steel Zinc plated, Din 125
+        packages: '[]'
+        parsed_at: '2026-10-18T08:57:33.797014+00:00'
+        parser_version: aanddfasteners-1.2-review-policy
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept zero-to-one quantity normalization and low-stock
+            notices."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: Product information A metric Form A washer also known as a
+            flat washer in steel with a bright zinc plating. Manufactured to Din 125A.
+            A flat washer's main task is to spread the load across a wider area, which
+            comes in particularly useful when dealing with softer materials.
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: aanddfasteners
+        supplier_id: ST12508AZP
+        supplier_part_number: ST12508AZP
+        supplier_website: https://www.aanddfasteners.co.uk/shop/washers/flat-washers/metric-flat-washer-din-125-form-a/metric-flat-washer-din-125-form-a-steel-zinc-plated/m8-form-a-flat-washer-steel-zinc-plated-din-125/details
+        tiers:
+        -   maximum: 25
+            minimum: 1
+            source_text: "0 - 25 \xA3 0.11"
+            source_unit_price: '0.11'
+            source_vat_basis: exclusive
+            unit_price: '0.1320'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 50
+            minimum: 26
+            source_text: "26 -50 \xA3 0.07"
+            source_unit_price: '0.07'
+            source_vat_basis: exclusive
+            unit_price: '0.0840'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 51
+            source_text: "51+ \xA3 0.06"
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.1320'
+        total_price_10: '1.3200'
+        total_price_100: '7.2000'
+        total_price_1000: '72.0000'
+        total_price_10000: '720.0000'
+        unit_price_1: '0.1320'
+        unit_price_10: '0.1320'
+        unit_price_100: '0.0720'
+        unit_price_1000: '0.0720'
+        unit_price_10000: '0.0720'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Source quantity band starts at zero; normalized minimum to one item
+    kayfast:
+        accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-18T09:28:48.609934+00:00'
+        currency: GBP
+        family_description: Form A washers. Self colour steel (uncoated). DIN125A.
+        family_heading: FORM A FLAT WASHER DIN 125 SELF COLOUR
+        html_sha256: 7c876181d916906dab2ef13e1c28ec860280ddbdc9aa53ad239afa401bce5e26
+        name: M8 FORM A FLAT WASHER DIN 125 SELF COLOUR STEEL
+        packages: '[]'
+        parsed_at: '2026-10-18T09:31:26.824319+00:00'
+        parser_version: kayfast-1.6-family-description
+        price_breaks_description: M8 FORM A FLAT WASHER DIN 125 SELF COLOUR STEEL
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+            "statement": "Use the exact row dropdown price per 100 divided by 100
+            with Decimal precision; accept the captured per-100 display precision."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+        specifications: FORM A FLAT WASHER DIN 125 SELF COLOUR; Form A washers. Self
+            colour steel (uncoated). DIN125A.
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: kayfast
+        supplier_id: M8-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+        supplier_id_basis: exact dimensional row description; spaces replaced by hyphens
+            (user clarification 2026-10-11)
+        supplier_part_number: M8-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+        supplier_website: https://www.kayfast.co.uk/view-product/FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR
+        tiers:
+        -   maximum: 999
+            minimum: 1
+            source_price_per_100: '1.16'
+            source_price_quantity: 100
+            source_text: "QTY 1 - 999 @ \xA31.16 per 100"
+            source_unit_price: '0.0116'
+            source_vat_basis: exclusive
+            unit_price: '0.013920'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 4999
+            minimum: 1000
+            source_price_per_100: '0.97'
+            source_price_quantity: 100
+            source_text: "QTY 1000 -  4999 @ \xA30.97 per 100"
+            source_unit_price: '0.0097'
+            source_vat_basis: exclusive
+            unit_price: '0.011640'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 5000
+            source_price_per_100: '0.87'
+            source_price_quantity: 100
+            source_text: "QTY 5000 + @ \xA30.87 per 100"
+            source_unit_price: '0.0087'
+            source_vat_basis: exclusive
+            unit_price: '0.010440'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.013920'
+        total_price_10: '0.139200'
+        total_price_100: '1.392000'
+        total_price_1000: '11.640000'
+        total_price_10000: '104.400000'
+        unit_price_1: '0.013920'
+        unit_price_10: '0.013920'
+        unit_price_100: '0.013920'
+        unit_price_1000: '0.011640'
+        unit_price_10000: '0.010440'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Kayfast per-100 displayed prices are rounded; derived totals use captured
+            display precision
+    orbitalfasteners:
+        accepted_warnings: '[]'
+        box_quantity: '500'
+        captured_at: '2026-10-12T20:49:23.110389+00:00'
+        catalogue_page: '30'
+        currency: GBP
+        description: ''
+        html_sha256: 87078b133917318fd399656c09a15dc1fd245bb85ead30f05b88babd5025d8cc
+        name: M8 Mild Steel Form A Flat Washer Bright Zinc Plated DIN 125 - 1A (8.4x16x1.6mm)
+        parsed_at: '2026-10-18T08:49:39.911226+00:00'
+        parser_version: 1.2-review-policy
+        review_policy: ''
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: inclusive
+        status: ok
+        stock_as_of: 9th October 2026 10:01pm
+        stock_quantity: '972774'
+        supplier: orbitalfasteners
+        supplier_id: '1711040'
+        supplier_part_number: '1711040'
+        supplier_website: https://www.orbitalfasteners.co.uk/products/m8-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-8-4x17x1-6mm-
+        tiers:
+        -   maximum: 499
+            minimum: 1
+            source_text: "1 - 499 \xA30.0066 Inc. VAT \xA30.66 Inc. VAT"
+            source_unit_price: '0.0066'
+            source_vat_basis: inclusive
+            unit_price: '0.0066'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 2499
+            minimum: 500
+            source_text: "500 - 2499 \xA30.0055 Inc. VAT \xA30.55 Inc. VAT"
+            source_unit_price: '0.0055'
+            source_vat_basis: inclusive
+            unit_price: '0.0055'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 7999
+            minimum: 2500
+            source_text: "2500 - 7999 \xA30.0049 Inc. VAT \xA30.49 Inc. VAT"
+            source_unit_price: '0.0049'
+            source_vat_basis: inclusive
+            unit_price: '0.0049'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 8000
+            source_text: "8000 + \xA30.0044 Inc. VAT \xA30.44 Inc. VAT"
+            source_unit_price: '0.0044'
+            source_vat_basis: inclusive
+            unit_price: '0.0044'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.0066'
+        total_price_10: '0.0660'
+        total_price_100: '0.6600'
+        total_price_1000: '5.5000'
+        total_price_10000: '44.0000'
+        unit_price_1: '0.0066'
+        unit_price_10: '0.0066'
+        unit_price_100: '0.0066'
+        unit_price_1000: '0.0055'
+        unit_price_10000: '0.0044'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings: []
+    westfieldfasteners:
+        accepted_warnings: '["Westfield sliding-scale prices only verified at advertised
+            package quantities; other quantities withheld", "Quantity 1: no unique
+            verified source price/VAT band; price withheld", "Quantity 10: no unique
+            verified source price/VAT band; price withheld", "Quantity 100: no unique
+            verified source price/VAT band; price withheld", "Quantity 1000: no unique
+            verified source price/VAT band; price withheld", "Quantity 10000: no unique
+            verified source price/VAT band; price withheld"]'
+        captured_at: '2026-10-13T11:00:25.094429+00:00'
+        currency: GBP
+        html_sha256: 62f09059665361efe3450695adb065ddb2803366a7ec239d545989a487e85acb
+        name: M8 Form A Washer in Zinc Plated Steel - DIN 125A
+        packages: "[{\"quantity\": 400, \"total_price\": \"7.2240\", \"source_text\"\
+            : \"box of 400 for \xA36.02\", \"source_total_price\": \"6.02\", \"source_vat_basis\"\
+            : \"exclusive\", \"vat_basis\": \"inclusive\"}, {\"quantity\": 2000, \"\
+            total_price\": \"32.3280\", \"source_text\": \"bulk of 2000 for \xA326.94\"\
+            , \"source_total_price\": \"26.94\", \"source_vat_basis\": \"exclusive\"\
+            , \"vat_basis\": \"inclusive\"}]"
+        parsed_at: '2026-10-18T09:33:18.554093+00:00'
+        parser_version: westfieldfasteners-1.3-allen-cap-heading
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Include advertised package prices only; other quantities
+            may remain blank."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: M8 Form A Washer in Zinc Plated Steel WF14910 - 7484 in stock
+        status: ok
+        stock_quantity: '7484'
+        stock_status: ''
+        supplier: westfieldfasteners
+        supplier_id: WF14910
+        supplier_part_number: WF14910
+        supplier_website: https://www.westfieldfasteners.co.uk/Metric-Washers/Form-A-Washer-M8-Zinc-Plated-Steel.html
+        tiers:
+        -   maximum: 400
+            minimum: 400
+            source_text: "box of 400 for \xA36.02"
+            source_unit_price: '0.01505'
+            source_vat_basis: exclusive
+            unit_price: '0.0180600'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 2000
+            minimum: 2000
+            source_text: "bulk of 2000 for \xA326.94"
+            source_unit_price: '0.01347'
+            source_vat_basis: exclusive
+            unit_price: '0.0161640'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: ''
+        total_price_10: ''
+        total_price_100: ''
+        total_price_1000: ''
+        total_price_10000: ''
+        unit_price_1: ''
+        unit_price_10: ''
+        unit_price_100: ''
+        unit_price_1000: ''
+        unit_price_10000: ''
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Westfield sliding-scale prices only verified at advertised package quantities;
+            other quantities withheld
+        - 'Quantity 1: no unique verified source price/VAT band; price withheld'
+        - 'Quantity 10: no unique verified source price/VAT band; price withheld'
+        - 'Quantity 100: no unique verified source price/VAT band; price withheld'
+        - 'Quantity 1000: no unique verified source price/VAT band; price withheld'
+        - 'Quantity 10000: no unique verified source price/VAT band; price withheld'
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -1137,46 +2591,3 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
-search_data:
-  google:
-    search_for: M8 steel flat washer DIN 125
-    search_url: https://www.google.com/search?q=M8+steel+flat+washer+DIN+125
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  ebay:
-    search_for: M8 steel flat washer DIN 125
-    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+steel+flat+washer+DIN+125
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  aliexpress:
-    search_for: M8 steel flat washer DIN 125
-    search_url: https://www.aliexpress.com/wholesale?SearchText=M8+steel+flat+washer+DIN+125
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''

@@ -1,3 +1,116 @@
+search_data:
+  aliexpress:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M5 hexagon full nut white nylon
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M5+hexagon+full+nut+white+nylon
+    selected_variant: ''
+    specification: ''
+    status: pending
+  ebay:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M5 hexagon full nut white nylon
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+hexagon+full+nut+white+nylon
+    selected_variant: ''
+    specification: ''
+    status: pending
+  google:
+    checked_at: '2026-10-14T09:13:19.807491+00:00'
+    evidence_file: support_files/evidence/hardware_nut_m5_nylon_white/google/cc9a5cd8732e4c80ad5ebec9ae418bfc.yaml
+    evidence_url: https://www.google.com/search?q=Spalding+M5+white+nylon+hexagon+full+nut+DIN+934
+    material_evidence: Product heading, description and key features explicitly state
+      white nylon; page says white nylon construction.
+    product_name: Metric White Nylon Full Nuts DIN 934
+    reason: The selected M5 option is a metric white nylon hexagon full nut in the
+      DIN 934 pattern.
+    result_url: https://www.spaldingfasteners.co.uk/PARENT1303
+    search_evidence: The exact Spalding Fasteners product page was returned by this
+      Google query. The product page states white nylon hexagon full nuts, DIN 934,
+      and lists M5 with 0.8 mm pitch, 8 mm across flats and 4 mm nut height. The M5
+      option was selected on the page.
+    search_for: Spalding M5 white nylon hexagon full nut DIN 934
+    search_url: https://www.google.com/search?q=Spalding+M5+white+nylon+hexagon+full+nut+DIN+934
+    selected_variant: Thread size M5 selected; pack size unselected (pack size does
+      not change product specification)
+    specification: 'Thread Size: M5; Thread Pitch: 0.8 mm; Across Flats: 8 mm; Nut
+      Height: 4 mm; White nylon hexagon full nut; DIN 934 pattern.'
+    status: verified
+supplier_data:
+  orbitalfasteners:
+    accepted_warnings: '[]'
+    box_quantity: '500'
+    captured_at: '2026-10-12T19:48:45.215409+00:00'
+    catalogue_page: '37'
+    currency: GBP
+    description: ''
+    html_sha256: c9a7fc0f7d6e3731d0cf912162c655d45604986cbf4d13be44d43245bc0a7301
+    name: M5 Full Nut Nylon Grade 66 Natural White
+    parsed_at: '2026-10-18T08:49:26.162384+00:00'
+    parser_version: 1.2-review-policy
+    review_policy: ''
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: inclusive
+    status: ok
+    stock_as_of: 9th October 2026 10:03pm
+    stock_quantity: '3922'
+    supplier: orbitalfasteners
+    supplier_id: '4988910'
+    supplier_part_number: '4988910'
+    supplier_website: https://www.orbitalfasteners.co.uk/products/m5-full-nut-nylon-grade-66-natural
+    tiers:
+    - maximum: 499
+      minimum: 1
+      source_text: 1 - 499 £0.0554 Inc. VAT £5.54 Inc. VAT
+      source_unit_price: '0.0554'
+      source_vat_basis: inclusive
+      unit_price: '0.0554'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 2499
+      minimum: 500
+      source_text: 500 - 2499 £0.0462 Inc. VAT £4.62 Inc. VAT
+      source_unit_price: '0.0462'
+      source_vat_basis: inclusive
+      unit_price: '0.0462'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 2500
+      source_text: 2500 + £0.0416 Inc. VAT £4.16 Inc. VAT
+      source_unit_price: '0.0416'
+      source_vat_basis: inclusive
+      unit_price: '0.0416'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.0554'
+    total_price_10: '0.5540'
+    total_price_100: '5.5400'
+    total_price_1000: '46.2000'
+    total_price_10000: '416.0000'
+    unit_price_1: '0.0554'
+    unit_price_10: '0.0554'
+    unit_price_100: '0.0554'
+    unit_price_1000: '0.0462'
+    unit_price_10000: '0.0416'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings: []
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''

@@ -1,0 +1,35 @@
+oomp_id: hardware_screw_countersunk_hex_head_black_m2_diameter_10_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M2 x 10 socket countersunk screw DIN 7991 black high tensile steel
+evidence_url: https://www.google.com/search?q=M2+x+10+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+reason: Exact product variant matches the requested specifications.
+search_evidence: Google results for the supplied search term included Bolt World's
+  M2 x 10mm DIN 7991 socket countersunk screw and stated high tensile Grade 10.9 steel,
+  self-colour finish, and 0.40mm pitch. The exact product page was opened from the
+  result.
+attempts:
+- term: M2 x 10 socket countersunk screw DIN 7991 black high tensile steel
+  url: https://www.google.com/search?q=M2+x+10+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+  completed: true
+  outcome: Exact product page inspected; selected M2 x 10mm variant matches requirements.
+result_url: https://boltworld.co.uk/products/m2-x-10mm-socket-screw-bolt-countersunk-high-tensile-grade-10-9-self-colour-din-7991/
+product_name: M2 X 10mm Socket Countersunk Head Screw – High Tensile Grade 10.9 Steel,
+  Self Colour Black, Allen Key Hex Socket, DIN 7991
+selected_variant: Thread size M2 (2mm); selected length 10mm, SKU 10170.020.010; metric
+  right-hand thread, 0.40mm pitch; socket countersunk head; total length includes
+  head.
+material_evidence: 'Product details list Material: Steel and Class / Grade: 10.9.'
+specification: DIN 7991. Surface treatment listed as Self color / plain. Product title
+  identifies Self Colour Black and Allen Key Hex Socket.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:23:40.041260+00:00'
+validator_version: 1

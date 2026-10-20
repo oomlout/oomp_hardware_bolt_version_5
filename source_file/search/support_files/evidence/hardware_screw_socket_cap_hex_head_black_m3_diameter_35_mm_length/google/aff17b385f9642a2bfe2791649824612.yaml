@@ -1,0 +1,36 @@
+oomp_id: hardware_screw_socket_cap_hex_head_black_m3_diameter_35_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M3 x 35 socket cap screw DIN 912 black high tensile steel
+evidence_url: https://www.google.com/search?q=M3+x+35+socket+cap+screw+DIN+912+black+high+tensile+steel
+reason: Opened the exact Bolt World result from the supplied Google query and verified
+  its selected size and construction on the product page.
+search_evidence: Google returned Bolt World's M3 x 35mm Socket Head Cap Screw listing,
+  with snippet stating high tensile Grade 12.9 steel, self colour black, Allen key
+  hex socket, DIN 912.
+attempts:
+- term: M3 x 35 socket cap screw DIN 912 black high tensile steel
+  url: https://www.google.com/search?q=M3+x+35+socket+cap+screw+DIN+912+black+high+tensile+steel
+  completed: true
+  outcome: Opened exact Bolt World product and verified M3 x 35, steel grade 12.9,
+    self colour/plain finish, socket cap head, right-hand metric thread pitch 0.50,
+    DIN 912, with M3 and 35mm selected.
+result_url: https://boltworld.co.uk/products/m3-x-35mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912/
+product_name: M3 x 35mm Socket Head Cap Screw – High Tensile Grade 12.9 Steel, Self
+  Colour Black, Allen Key Hex Socket, DIN 912
+selected_variant: Thread size M3 (3mm); length 35mm, selected SKU 10161.030.035.
+material_evidence: 'Product specifications state Material: Steel and Class/Grade:
+  12.9.'
+specification: M3 x 35mm, metric right-hand thread, 0.50mm pitch; socket cap head
+  with Allen key hex socket; DIN 912; self colour/plain (black).
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:49:37.984628+00:00'
+validator_version: 1

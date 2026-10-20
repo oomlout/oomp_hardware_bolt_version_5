@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_screw_socket_cap_hex_head_black_m5_diameter_40_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M5 x 40 socket cap screw DIN 912 black high tensile steel",
+  "evidence_url": "https://www.google.com/search?q=M5+x+40+socket+cap+screw+DIN+912+black+high+tensile+steel",
+  "reason": "Exact M5 x 40 DIN 912 black high tensile steel socket cap screw verified.",
+  "search_evidence": "Google result from the supplied exact search term showed Bolt Base M5 x 40 DIN 912, black self-colour, 12.9 steel and identified the listing as partially threaded.",
+  "attempts": [
+    {
+      "term": "M5 x 40 socket cap screw DIN 912 black high tensile steel",
+      "url": "https://www.google.com/search?q=M5+x+40+socket+cap+screw+DIN+912+black+high+tensile+steel",
+      "completed": true,
+      "outcome": "Bolt Base Amazon result matched; product page confirms exact dimensions, 4 mm drive, steel, finish and partial thread."
+    }
+  ],
+  "result_url": "https://www.amazon.co.uk/Bolt-Base-Tensile-Socket-screws/dp/B00SN3OE12",
+  "product_name": "(5mm) M5 x 40 Black 12.9 Grade High Tensile Hex Socket Cap Screws Self Colour Allen Bolts DIN 912-10 Pack",
+  "selected_variant": "10 pack; M5 x 40 mm",
+  "material_evidence": "Amazon product summary identifies Material Steel; listing specifies 12.9 Grade High Tensile Steel.",
+  "specification": "M5 x 40 mm, 0.8 mm pitch, partially threaded approximately 25 mm, socket cap, internal hex 4 mm drive, black self-colour, DIN 912. Length excludes head.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

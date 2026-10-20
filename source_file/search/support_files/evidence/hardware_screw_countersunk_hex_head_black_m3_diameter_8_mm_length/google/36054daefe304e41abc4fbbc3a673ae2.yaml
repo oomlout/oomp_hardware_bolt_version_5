@@ -1,0 +1,37 @@
+oomp_id: hardware_screw_countersunk_hex_head_black_m3_diameter_8_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M3 x 8 socket countersunk screw DIN 7991 black high tensile steel
+evidence_url: https://www.google.com/search?q=M3+x+8+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+reason: The supplied Google term returned an exact M3 x 8 Bolt Base/Amazon product
+  page with grade 10.9 high tensile steel, black self-colour finish, socket countersunk
+  head and DIN 7991.
+search_evidence: The supplied Google search returned the Bolt Base Amazon listing
+  titled (3mm) M3 x 8 Black 10.9 Grade High Tensile Hex Socket Countersunk Screws
+  Self Colour Allen Bolts DIN 7991.
+attempts:
+- term: M3 x 8 socket countersunk screw DIN 7991 black high tensile steel
+  url: https://www.google.com/search?q=M3+x+8+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+  completed: true
+  outcome: Opened the exact Amazon product page reached from the Google result. Page
+    title and bullets specify M3 x 8; 3mm metric thread, 0.5mm pitch; 8mm length including
+    head; 10.9 grade high tensile steel; black self-colour; socket countersunk, DIN
+    7991; available package quantity options.
+result_url: https://www.amazon.co.uk/Tensile-Socket-Countersunk-screws-Colour/dp/B00SN3K9FC?th=1
+product_name: (3mm) M3 x 8 Black 10.9 Grade High Tensile Hex Socket Countersunk Screws
+  Self Colour Allen Bolts DIN 7991
+selected_variant: M3 x 8mm, including head; 100 pack selected
+material_evidence: 10.9 Grade High Tensile Steel
+specification: M3 metric thread, 0.5mm pitch; 8mm length including head; hex socket
+  countersunk head; 10.9 grade high tensile steel; black self-colour finish; DIN 7991.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:32:32.880808+00:00'
+validator_version: 1

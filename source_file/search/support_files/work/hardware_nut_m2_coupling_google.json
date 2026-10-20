@@ -1,0 +1,39 @@
+{
+  "oomp_id": "hardware_nut_m2_coupling",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "assumed_non_stocked",
+  "search_for": "M2 coupling connector nut steel",
+  "evidence_url": "https://www.google.com/search?q=M2+coupling+connector+nut+steel",
+  "reason": "Two completed exact Google searches showed no eligible M2 coupling nut in non-stainless steel. I inspected the M2 variant in the one exact-size marketplace listing: the product page identifies the M2 option but its detailed description says 304 stainless steel, so it is ineligible. Other steel coupling nut results were larger sizes.",
+  "search_evidence": "Search 1 results included Accu's small M2 connector nut category, but the M2 examples shown were 304/A2 stainless steel, brass, or other non-eligible materials. Search 2 for M2 carbon steel coupling nut zinc plated showed zinc-plated steel coupling nuts from M6 upward and no M2 steel coupling listing. I inspected the M2 variant in the first search's mixed-material Amazon listing; the selected variant was M2 (10 pieces), and the description explicitly states 304 stainless steel, so it fails the non-stainless-steel requirement. No eligible candidate remained.",
+  "attempts": [
+    {
+      "term": "M2 coupling connector nut steel",
+      "url": "https://www.google.com/search?q=M2+coupling+connector+nut+steel",
+      "completed": true,
+      "outcome": "Search results showed M2 coupling listings in 304 stainless steel or brass; the inspected M2 variant explicitly states 304 stainless steel. Steel coupling nut products shown were larger than M2."
+    },
+    {
+      "term": "M2 carbon steel coupling nut zinc plated",
+      "url": "https://www.google.com/search?q=M2+carbon+steel+coupling+nut+zinc+plated",
+      "completed": true,
+      "outcome": "Search results showed zinc-plated steel coupling nuts from M6 upward; no eligible M2 coupling nut was found."
+    }
+  ],
+  "no_eligible_product": true,
+  "result_url": "https://www.amazon.co.uk/Carbon-Coupling-Stainless-M2-M12-Assortment/dp/B0GDDRS5DD?th=1",
+  "product_name": "Carbon Steel Hex Coupling Nuts, 304 Stainless Steel Hex Coupling Nuts M2-M12 Assortment Pack",
+  "selected_variant": "M2 (10pcs), 20mm length",
+  "material_evidence": "The product description states Material: Stainless Steel and identifies the M2-M12 set as 304 Stainless Steel; the M2 variant is ineligible.",
+  "specification": "The selected variant is M2 coupling nut, 20mm long, but the product is 304 stainless steel.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": false,
+    "finish": false,
+    "standard": false
+  }
+}

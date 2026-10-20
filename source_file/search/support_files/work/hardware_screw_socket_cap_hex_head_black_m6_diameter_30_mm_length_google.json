@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_screw_socket_cap_hex_head_black_m6_diameter_30_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M6 x 30 socket cap screw DIN 912 black high tensile steel",
+  "evidence_url": "https://www.google.com/search?q=M6+x+30+socket+cap+screw+DIN+912+black+high+tensile+steel",
+  "reason": "Google search produced an exact product result whose product page specifies the selected M6 x 30 DIN 912 socket cap screw in black 12.9 high tensile steel.",
+  "search_evidence": "The Google result title identified M6 x 30 black 12.9 grade high tensile hex socket cap screws, self colour, DIN 912.",
+  "attempts": [
+    {
+      "term": "M6 x 30 socket cap screw DIN 912 black high tensile steel",
+      "url": "https://www.google.com/search?q=M6+x+30+socket+cap+screw+DIN+912+black+high+tensile+steel",
+      "completed": true,
+      "outcome": "Opened Amazon Bolt Base result; product page confirmed exact dimensions and eligible material/finish/form."
+    }
+  ],
+  "result_url": "https://www.amazon.co.uk/Bolt-Base-Tensile-Socket-screws/dp/B00SN32WMU",
+  "product_name": "(6mm) M6 x 30 Black 12.9 Grade High Tensile Hex Socket Cap Screws Self Colour Allen Bolts DIN 912-2 Pack",
+  "selected_variant": "M6 x 30mm, 2-pack",
+  "material_evidence": "Product page states 12.9 Grade High Tensile Steel; structured material fields say Steel and Alloy Steel.",
+  "specification": "Product description states M6 x 30, 1.0mm pitch, 30mm length excluding head, full length thread, 10mm head diameter, 6mm head height, 5mm Allen key, DIN 912, black self-colour, high tensile grade 12.9.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

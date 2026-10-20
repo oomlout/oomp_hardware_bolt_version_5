@@ -1,0 +1,35 @@
+oomp_id: hardware_screw_countersunk_hex_head_black_m2_diameter_14_mm_length
+platform: google
+method: codex_builtin_browser
+status: unresolved
+search_for: M2 x 14 socket countersunk screw DIN 7991 black high tensile steel
+evidence_url: https://www.google.com/search?q=M2+x+14+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+reason: No exact eligible product could be verified within the search budget. Bolt
+  Base's inspected M2 10.9 black countersunk listing offers lengths only through 10mm;
+  the guessed Bolt World 14mm product page returned Item not found. Google surfaced
+  no clearly inspectable matching product page.
+search_evidence: The supplied Google search produced an exact-type Bolt Base M2 black
+  10.9 DIN 7991 listing, but its length selector offered only 5, 6, 8, and 10mm. Search
+  snippets surfaced an M2 x 14 reference but no usable exact seller page.
+attempts:
+- term: M2 x 14 socket countersunk screw DIN 7991 black high tensile steel
+  url: https://www.google.com/search?q=M2+x+14+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+  completed: true
+  outcome: Search completed; exact eligible product page not established.
+result_url: https://boltbase.com/products/m2-self-colour-10-9-high-tensile-socket-countersunk-screws
+product_name: M2 Self Colour 10.9 High Tensile Socket Countersunk Screws
+selected_variant: Inspected listing's available lengths were 5mm, 6mm, 8mm, and 10mm;
+  no 14mm option.
+material_evidence: Bolt Base product description identifies High Tensile 10.9 Steel.
+specification: Description identifies DIN 7991 / ISO 10642, self-colour (black), socket
+  countersunk; this page does not provide the required 14mm length.
+checks:
+  result_reached_from_search: true
+  selected_variant: false
+  dimensions: false
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:24:32.809429+00:00'
+validator_version: 1

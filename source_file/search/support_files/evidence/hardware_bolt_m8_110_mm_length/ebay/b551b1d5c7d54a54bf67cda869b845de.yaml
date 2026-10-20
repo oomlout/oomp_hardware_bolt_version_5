@@ -1,0 +1,33 @@
+oomp_id: hardware_bolt_m8_110_mm_length
+platform: ebay
+method: codex_builtin_browser
+status: unresolved
+search_for: M8 x 110 hex head part threaded bolt DIN 931 steel
+evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+x+110+hex+head+part+threaded+bolt+DIN+931+steel
+reason: 'The exact eBay search URL opened an eBay error page stating: Something went
+  wrong on our end. No search results were available to inspect. Stopped this eBay
+  platform session after the site error; no product evidence was obtained.'
+search_evidence: The built-in browser opened the supplied eBay search URL and displayed
+  eBay's Error Page with the text 'Something went wrong on our end' and 'Please go
+  back and try again.' No candidate or results were visible.
+attempts:
+- term: M8 x 110 hex head part threaded bolt DIN 931 steel
+  url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+x+110+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: false
+  outcome: 'The eBay search URL returned an eBay error page: Something went wrong
+    on our end. No results observed; stopped the platform session.'
+result_url: ''
+product_name: ''
+selected_variant: ''
+material_evidence: ''
+specification: ''
+checks:
+  result_reached_from_search: false
+  selected_variant: false
+  dimensions: false
+  form: false
+  material: false
+  finish: false
+  standard: false
+checked_at: '2026-10-14T11:53:18.425891+00:00'
+validator_version: 1

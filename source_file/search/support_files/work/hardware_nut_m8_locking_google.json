@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_nut_m8_locking",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M8 nylon insert locking nut steel",
+  "evidence_url": "https://www.google.com/search?q=M8+nylon+insert+locking+nut+steel",
+  "reason": "U-Bolts-R-Us’ selected M8 Nyloc nut is galvanised mild steel, has a nylon insert, and matches DIN 985 dimensions.",
+  "search_evidence": "The supplied Google query returned U-Bolts-R-Us’ M8 Nylon Insert Lock Nut Nyloc Type product. Its selected page identifies galvanised mild steel, DIN 985, M8 thread, 1.25 mm pitch, d=14.38 mm, h=8 mm, m=5.5 mm and s=13 mm. Product reference NUTS/GALV/NYLOC-M8.",
+  "attempts": [
+    {
+      "term": "M8 nylon insert locking nut steel",
+      "url": "https://www.google.com/search?q=M8+nylon+insert+locking+nut+steel",
+      "completed": true,
+      "outcome": "Opened U-Bolts-R-Us’ M8 Nylon Insert Lock Nut Nyloc Type page. It identifies galvanised mild steel, nylon insert, DIN 985, M8 thread, pitch 1.25 mm, d=14.38 mm, h=8 mm, m=5.5 mm and s=13 mm; reference NUTS/GALV/NYLOC-M8."
+    }
+  ],
+  "result_url": "https://u-bolts-r-us.co.uk/stainless-steel-self-locking-nuts/12108-m8-nylon-insert-lock-nut-nyloc-type-galvanised-mild-steel-din985-5055624431742.html",
+  "product_name": "M8 Nylon Insert Lock Nut Nyloc Type - Galvanised Mild Steel DIN985",
+  "selected_variant": "Fixed M8 product; reference NUTS/GALV/NYLOC-M8",
+  "material_evidence": "Selected page heading specifies Galvanised Mild Steel and identifies a nylon insert lock nut.",
+  "specification": "M8 nylon insert locking nut; pitch 1.25 mm; d=14.38 mm; h=8 mm; m=5.5 mm; s=13 mm; galvanised mild steel; DIN 985.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_screw_socket_cap_hex_head_black_m3_diameter_16_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M3 x 16 socket cap screw DIN 912 black high tensile steel",
+  "evidence_url": "https://www.google.com/search?q=M3+x+16+socket+cap+screw+DIN+912+black+high+tensile+steel",
+  "reason": "Opened the exact Bolt World product from Google and verified the M3 x 16 product and all required attributes.",
+  "search_evidence": "Google returned Bolt World’s exact M3 x 16mm Grade 12.9 steel, self-colour black, Allen key hex socket, DIN 912 result.",
+  "attempts": [
+    {
+      "term": "M3 x 16 socket cap screw DIN 912 black high tensile steel",
+      "url": "https://www.google.com/search?q=M3+x+16+socket+cap+screw+DIN+912+black+high+tensile+steel",
+      "completed": true,
+      "outcome": "Opened Bolt World’s exact result and verified the 16mm product specifications."
+    }
+  ],
+  "result_url": "https://boltworld.co.uk/products/m3-x-16mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912/",
+  "product_name": "M3 X 16mm Socket Head Cap Screw – High Tensile Grade 12.9 Steel, Self Colour Black, Allen Key Hex Socket, DIN 912",
+  "selected_variant": "M3 x 16mm product; SKU 10161.030.016.",
+  "material_evidence": "Supplier page states Material Steel, Class/Grade 12.9.",
+  "specification": "M3 x 16mm; metric right-hand thread, 0.50mm pitch; socket cap head; Allen key hex socket drive; self-colour/plain (heading describes black); DIN 912. Length excludes head.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

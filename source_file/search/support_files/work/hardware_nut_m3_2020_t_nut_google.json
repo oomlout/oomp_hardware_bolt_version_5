@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_nut_m3_2020_t_nut",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "unresolved",
+  "search_for": "M3 2020 extrusion T slot nut steel",
+  "evidence_url": "https://www.google.com/search?q=M3+2020+extrusion+T+slot+nut+steel",
+  "reason": "The opened Ooznest page confirms a selected M3 T/V-slot slide-in nut in 20 Series and a selected carbon steel zinc/nickel-plated version. It does not explicitly identify the configured profile as 2020/20x20, and I cannot infer that dimension from the 20 Series label. The exact configured dimensions remain unverified.",
+  "search_evidence": "Google results included Ooznest M3 20 Series T/V-Slot slide-in nut product results. The opened page has selected Profile Series: 20 Series, Thread: M3, and Version: Carbon Steel (Zinc/Nickel Plated), with a zinc-plated product heading and an SKU. It supports steel, M3 and T/V-slot form but does not explicitly state 2020 or 20x20 dimensions for the selected nut. A separate Amazon result advertised 2020-M3 carbon steel T-nuts, but it was not opened and is not accepted as product-page verification.",
+  "attempts": [
+    {
+      "term": "M3 2020 extrusion T slot nut steel",
+      "url": "https://www.google.com/search?q=M3+2020+extrusion+T+slot+nut+steel",
+      "completed": true,
+      "outcome": "Results showed an Ooznest M3 20 Series T/V-slot slide-in nut and an Amazon result claiming 2020-M3 T-slot nuts. The Ooznest page was opened; its selected options specify 20 Series and M3, but not 2020/20x20 dimensions."
+    }
+  ],
+  "result_url": "https://ooznest.co.uk/product/m3-20-series-slide-nut-t-v-slot-zinc-plated/",
+  "product_name": "M3 20 Series T/V-Slot Slide In Nut (Zinc Plated)",
+  "selected_variant": "Profile Series 20 Series; Thread M3; Version Carbon Steel (Zinc/Nickel Plated)",
+  "material_evidence": "The selected Version explicitly states Carbon Steel (Zinc/Nickel Plated); Stainless Steel is shown as unavailable.",
+  "specification": "M3 thread; 20 Series T/V-slot slide-in nut; selected version Carbon Steel (Zinc/Nickel Plated); zinc-plated finish; SKU SIN-20-M3. The page does not specify 2020/20x20 dimensions.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": false,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

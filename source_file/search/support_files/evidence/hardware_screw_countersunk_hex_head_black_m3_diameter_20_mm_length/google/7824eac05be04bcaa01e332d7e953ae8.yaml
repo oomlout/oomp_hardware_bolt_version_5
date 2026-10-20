@@ -1,0 +1,37 @@
+oomp_id: hardware_screw_countersunk_hex_head_black_m3_diameter_20_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M3 x 20 socket countersunk screw DIN 7991 black high tensile steel
+evidence_url: https://www.google.com/search?q=M3+x+20+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+reason: The supplied Google term returned an exact Orbital Fasteners M3 x 20 product
+  page with matching countersunk socket form, grade 10.9 steel, self-colour finish,
+  and DIN 7991 specification.
+search_evidence: The exact supplied Google search returned an Orbital Fasteners result
+  titled M3 x 20 Socket Screw, Countersunk, High Tensile Grade 10.9 Self Colour, DIN
+  7991.
+attempts:
+- term: M3 x 20 socket countersunk screw DIN 7991 black high tensile steel
+  url: https://www.google.com/search?q=M3+x+20+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+  completed: true
+  outcome: Opened the exact Orbital Fasteners product page. It lists SKU 1901050,
+    M3 x 20, fully threaded, countersunk socket head, grade 10.9 high tensile steel,
+    self colour, DIN 7991, ISO metric per ISO 10642; stock shown.
+result_url: https://www.orbitalfasteners.co.uk/products/m3-x-20-socket-screw-countersunk-high-tensile-grade-10-9-self-colour-din-7991
+product_name: M3 X 20 SOCKET SCREW, COUNTERSUNK, HIGH TENSILE GRADE 10.9 SELF COLOUR,
+  DIN 7991
+selected_variant: SKU 1901050; M3 x 20mm; fully threaded
+material_evidence: High tensile grade 10.9 steel
+specification: Thread size M3; length 20mm; ISO metric thread; fully threaded; countersunk
+  socket head; socket/Allen drive; high tensile grade 10.9 steel; self-colour finish;
+  DIN 7991 (ISO 10642).
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:30:16.129460+00:00'
+validator_version: 1

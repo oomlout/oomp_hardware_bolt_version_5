@@ -1,0 +1,33 @@
+{
+  "oomp_id": "hardware_screw_wood_pozidriv_net_coat_yellow_plated_m6_diameter_120_mm_length_screwtite_771fy",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "Screwtite 6 x 120 mm Pozidriv double countersunk carbon steel Net-Coat Yellow-Plated 771FY",
+  "evidence_url": "https://www.google.com/search?q=Screwtite+6+x+120+mm+Pozidriv+double+countersunk+carbon+steel+Net-Coat+Yellow-Plated+771FY",
+  "reason": "Screwfix page confirms code 771FY and the exact Screwtite dimensions, PZ drive, double-countersunk head, carbon steel and Net-Coat Yellow-Plated finish; no separate DIN/ISO standard is encoded for this wood-screw ID.",
+  "search_evidence": "Google result linked to the Screwfix Screw-Tite 2 PZ Double-Countersunk Thread Cutting Screws 6mm x 120mm 50 Pack page.",
+  "attempts": [
+    {
+      "term": "Screwtite 6 x 120 mm Pozidriv double countersunk carbon steel Net-Coat Yellow-Plated 771FY",
+      "url": "https://www.google.com/search?q=Screwtite+6+x+120+mm+Pozidriv+double+countersunk+carbon+steel+Net-Coat+Yellow-Plated+771FY",
+      "completed": true,
+      "outcome": "Opened Screwfix page; verified code 771FY, 6mm x 120mm, Screw-Tite 2 brand, PZ drive, double self-countersunk head, partially threaded thread-cutting form, carbon steel and Net-Coat Yellow-Plated finish."
+    }
+  ],
+  "result_url": "https://www.screwfix.com/p/screw-tite-2-pz-double-countersunk-thread-cutting-screws-6mm-x-120mm-50-pack/771fy",
+  "product_name": "Screw-Tite 2 PZ Double-Countersunk Thread Cutting Screws 6mm x 120mm 50 Pack (771FY)",
+  "selected_variant": "6mm x 120mm, 50-pack, product code 771FY",
+  "material_evidence": "Product page identifies Carbon Steel Construction.",
+  "specification": "Diameter: 6mm; Length: 120mm; Thread: Partially Threaded thread-cutting screw with acute tri-lock threadform; Drive: PZ; Head: Double-Countersunk with underhead ribs; Material: Carbon Steel; Finish: Net-Coat Yellow-Plated (zinc and yellow-passivated); Code: 771FY",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  },
+  "observed_code": "771FY"
+}

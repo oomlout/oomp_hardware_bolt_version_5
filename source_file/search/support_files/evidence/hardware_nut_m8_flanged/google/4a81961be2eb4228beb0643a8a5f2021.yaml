@@ -1,0 +1,40 @@
+oomp_id: hardware_nut_m8_flanged
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M8 serrated flange nut carbon steel DIN 6923 BZP
+evidence_url: https://www.google.com/search?q=M8+serrated+flange+nut+carbon+steel+DIN+6923+BZP
+reason: Vital Parts’ selected M8 serrated hex flange nut is Class 8 steel BZP and
+  provides the matching DIN 6923 dimensions.
+search_evidence: The refined Google query returned Vital Parts’ M8 Serrated Hex Flange
+  Nut product. The selected page identifies code SFN6923-M8-C8-BZP, thread size M8,
+  1.25 mm pitch, Class 8 steel BZP, 13 mm across flats, 17.9 mm flange diameter, 8.0
+  mm height and DIN 6923.
+attempts:
+- term: M8 flanged nut steel
+  url: https://www.google.com/search?q=M8+flanged+nut+steel
+  completed: true
+  outcome: The search primarily returned a stainless flanged nut and Screwfix flange-head
+    listing without the needed exact pitch and dimensions; these were not accepted.
+- term: M8 serrated flange nut carbon steel DIN 6923 BZP
+  url: https://www.google.com/search?q=M8+serrated+flange+nut+carbon+steel+DIN+6923+BZP
+  completed: true
+  outcome: Opened Vital Parts’ M8 Serrated Hex Flange Nut page. It gives M8, 1.25
+    mm pitch, Class 8 steel BZP, 13 mm across flats, 17.9 mm flange diameter, 8.0
+    mm height and DIN 6923; code SFN6923-M8-C8-BZP.
+result_url: https://www.vital-parts.co.uk/serrated-flanged-hex-nuts-din-6923/46532-sfn6923-m8-c8-bzp
+product_name: M8 Serrated Hex Flange Nut (DIN 6923) | Class 8 BZP Steel
+selected_variant: M8 fixed product; code SFN6923-M8-C8-BZP
+material_evidence: 'Product specification states Material: Class 8 Steel BZP.'
+specification: M8; thread pitch 1.25 mm; serrated hex flange nut; 13.0 mm across flats;
+  17.9 mm flange diameter; 8.0 mm height; Class 8 steel BZP; DIN 6923.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:22:02.042691+00:00'
+validator_version: 1

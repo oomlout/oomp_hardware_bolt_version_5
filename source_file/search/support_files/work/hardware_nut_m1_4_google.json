@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_nut_m1_4",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M1.4 hexagon full nut steel",
+  "evidence_url": "https://www.google.com/search?q=M1.4+hexagon+full+nut+steel",
+  "reason": "The supplied Google term returned Rapid Electronics Toolcraft M1.4 DIN 934 galvanized steel full hex nut; the opened product page confirms the selected thread size, form, material, and finish.",
+  "search_evidence": "Opened the Rapid Electronics result reached from the supplied Google search. Product title is Toolcraft Hexagon Nuts DIN 934 Galvanised Steel 6AU M1.4 Pack Of 20. Product details state Galvanised steel nuts, DIN 934, Type Hexagon Full Nut, Thread Size M1.4, Material Steel. The selected thread size dropdown is M1.4. Rapid Order Code 51-3434; Toolcraft MPN 828796.",
+  "attempts": [
+    {
+      "term": "M1.4 hexagon full nut steel",
+      "url": "https://www.google.com/search?q=M1.4+hexagon+full+nut+steel",
+      "completed": true,
+      "outcome": "Rapid Electronics result for Toolcraft M1.4 DIN 934 galvanized steel full hex nut opened; exact selected size, full hex form, steel material, and galvanized finish verified."
+    }
+  ],
+  "result_url": "https://www.rapidonline.com/toolcraft-hexagon-nuts-din-934-galvanised-steel-6au-m1-4-pack-of-20-51-3434",
+  "product_name": "Toolcraft Hexagon Nuts DIN 934 Galvanised Steel 6AU M1.4 Pack Of 20",
+  "selected_variant": "Selected thread size M1.4 in the product range selector; Toolcraft MPN 828796; Rapid Order Code 51-3434; pack of 20.",
+  "material_evidence": "Rapid Product Details states Material: Steel and describes the nut as galvanised steel.",
+  "specification": "Thread Size: M1.4; Type: Hexagon Full Nut; Material: Steel; Finish: Galvanised; Manufacturing Standard: DIN 934; ISO 4032.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

@@ -1,0 +1,41 @@
+oomp_id: hardware_nut_m2_7_coupling
+platform: google
+method: codex_builtin_browser
+status: assumed_non_stocked
+search_for: M2.7 DIN 6334 steel hexagon coupling nut
+evidence_url: https://www.google.com/search?q=M2.7+DIN+6334+steel+hexagon+coupling+nut
+reason: No eligible M2.7 steel coupling nut found in two completed exact searches.
+  The nearest opened steel DIN 6334 connector was M27, while DIN 6334 reference results
+  listed sizes starting at M6.
+search_evidence: The first Google query showed stainless/brass miniature connector
+  nuts, an M27 steel connector, and general steel coupling nuts at larger sizes. The
+  opened supplier page confirmed the steel DIN 6334 product was M27 x 81mm. The refined
+  search showed M27 steel and A2 stainless connector products and DIN 6334 reference
+  sizes from M6; no M2.7 steel match.
+attempts:
+- term: M2.7 coupling connector nut steel
+  url: https://www.google.com/search?q=M2.7+coupling+connector+nut+steel
+  completed: true
+  outcome: No exact M2.7 steel product result. Opened the nearest steel connector
+    product, which specified M27 x 81mm, mild steel and DIN 6334.
+- term: M2.7 DIN 6334 steel hexagon coupling nut
+  url: https://www.google.com/search?q=M2.7+DIN+6334+steel+hexagon+coupling+nut
+  completed: true
+  outcome: No exact M2.7 steel result; returned M27 steel and larger DIN 6334 sizes
+    from M6.
+no_eligible_product: true
+result_url: ''
+product_name: ''
+selected_variant: ''
+material_evidence: ''
+specification: ''
+checks:
+  result_reached_from_search: false
+  selected_variant: false
+  dimensions: false
+  form: false
+  material: false
+  finish: false
+  standard: false
+checked_at: '2026-10-14T08:52:10.314829+00:00'
+validator_version: 1

@@ -1,0 +1,34 @@
+oomp_id: hardware_washer_m2
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M2 steel flat washer DIN 125
+evidence_url: https://www.google.com/search?q=M2+steel+flat+washer+DIN+125
+reason: The exact M2 Form A flat washer is described as mild steel, bright zinc plated,
+  DIN 125-1A; the opened page confirms ID 2mm, OD 5mm and 0.3mm thickness.
+search_evidence: The supplied Google query returned the Orbital Fasteners M2 Mild
+  Steel Form A Flat Washer. Opened its result and verified exact dimensions, material,
+  finish and standard. Stainless Accu result was not selected.
+attempts:
+- term: M2 steel flat washer DIN 125
+  url: https://www.google.com/search?q=M2+steel+flat+washer+DIN+125
+  completed: true
+  outcome: 'Opened Orbital Fasteners SKU 4990540: M2 Form A, 2 x 5 x 0.3mm, mild steel,
+    bright zinc plated, DIN 125-1A.'
+result_url: https://www.orbitalfasteners.co.uk/products/m2-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-2x5x0-3mm-
+product_name: M2 Mild Steel Form A Flat Washer Bright Zinc Plated DIN 125 - 1A (2x5x0.3mm)
+selected_variant: Fixed product SKU 4990540; M2 Form A; 2 x 5 x 0.3mm
+material_evidence: Product information states mild steel.
+specification: 'Nominal thread size: M2; ID: 2mm; OD: 5mm; thickness: 0.3mm; form:
+  Form A flat washer; material: mild steel; finish: bright zinc plated; standard:
+  DIN 125-1A.'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T11:29:36.907856+00:00'
+validator_version: 1

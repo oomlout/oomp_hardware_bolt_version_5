@@ -1,0 +1,33 @@
+oomp_id: hardware_screw_socket_cap_hex_head_black_m4_diameter_25_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M4 x 25 socket cap screw DIN 912 black high tensile steel
+evidence_url: https://www.google.com/search?q=M4+x+25+socket+cap+screw+DIN+912+black+high+tensile+steel
+reason: The supplied Google query returned the exact Bolt Base M4 x 25 listing.
+search_evidence: Google result showed exact Bolt Base listing; page confirms full
+  thread, dimensions, grade 12.9 steel, black self colour and DIN 912.
+attempts:
+- term: M4 x 25 socket cap screw DIN 912 black high tensile steel
+  url: https://www.google.com/search?q=M4+x+25+socket+cap+screw+DIN+912+black+high+tensile+steel
+  completed: true
+  outcome: Opened exact listing and verified selected one-pack variant and product
+    description.
+result_url: https://www.amazon.co.uk/Bolt-Base-Tensile-Socket-screws/dp/B00SN3EV5Q
+product_name: M4 x 25 Black 12.9 Grade High Tensile Hex Socket Cap Screws Self Colour
+  Allen Bolts DIN 912
+selected_variant: M4 x 25 mm, selected package quantity 1
+material_evidence: Product details identify steel; product description specifies high
+  tensile grade 12.9 steel.
+specification: M4 x 25 mm, 0.7 mm pitch, full thread, length excludes head; socket
+  cap head; 3 mm Allen key drive; black self colour; DIN 912.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:54:00.512157+00:00'
+validator_version: 1

@@ -1,0 +1,39 @@
+{
+  "oomp_id": "hardware_nut_m1",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "assumed_non_stocked",
+  "search_for": "M1 DIN 934 carbon steel full hex nut zinc plated",
+  "evidence_url": "https://www.google.com/search?q=M1+DIN+934+carbon+steel+full+hex+nut+zinc+plated",
+  "reason": "Original exact search for M1 hexagon full nut steel showed the exact Accu M1 DIN 934 option is A1 stainless steel. The completed refinement for M1 DIN 934 carbon steel full hex nut zinc plated still showed the M1 Accu result as A1 stainless; the displayed eligible steel hex nuts were other sizes. No eligible M1 non-stainless steel full nut appeared in either completed exact search.",
+  "search_evidence": "First completed Google search: https://www.google.com/search?q=M1+hexagon+full+nut+steel. The exact M1 DIN 934 Accu result led to https://www.accu.co.uk/hexagon-nuts/7879-HPN-M1-A1; opened page confirms Thread Size M1, full hexagon nut DIN 934, Material Stainless Steel - (A1), so excluded. Second completed Google search: https://www.google.com/search?q=M1+DIN+934+carbon+steel+full+hex+nut+zinc+plated. Exact M1 Accu listing remained A1 stainless; visible mild-steel DIN 934 results were M2 and larger, not M1.",
+  "attempts": [
+    {
+      "term": "M1 hexagon full nut steel",
+      "url": "https://www.google.com/search?q=M1+hexagon+full+nut+steel",
+      "completed": true,
+      "outcome": "Exact Accu M1 DIN 934 candidate opened; product specifies A1 stainless steel and was excluded. Other visible results were stainless steel or different sizes."
+    },
+    {
+      "term": "M1 DIN 934 carbon steel full hex nut zinc plated",
+      "url": "https://www.google.com/search?q=M1+DIN+934+carbon+steel+full+hex+nut+zinc+plated",
+      "completed": true,
+      "outcome": "No eligible M1 non-stainless steel product appeared. Exact M1 result remained A1 stainless; steel DIN 934 listings shown were other sizes."
+    }
+  ],
+  "no_eligible_product": true,
+  "result_url": "",
+  "product_name": "",
+  "selected_variant": "",
+  "material_evidence": "",
+  "specification": "",
+  "checks": {
+    "result_reached_from_search": false,
+    "selected_variant": false,
+    "dimensions": false,
+    "form": false,
+    "material": false,
+    "finish": false,
+    "standard": false
+  }
+}

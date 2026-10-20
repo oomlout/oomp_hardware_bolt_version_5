@@ -1,0 +1,34 @@
+oomp_id: hardware_set_screw_m8_60_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M8 x 60 hex head fully threaded set screw DIN 933 steel
+evidence_url: https://www.google.com/search?q=M8+x+60+hex+head+fully+threaded+set+screw+DIN+933+steel
+reason: Exact dimensions, fully threaded hex form, 8.8 steel, bright zinc plated finish
+  and DIN 933 verified on product page.
+search_evidence: Google returned the Fusion Fixings M8 x 60mm fully threaded hex set
+  screw listing, described as 8.8 high tensile steel, BZP, DIN 933; opened product
+  page and checked technical specification.
+attempts:
+- term: M8 x 60 hex head fully threaded set screw DIN 933 steel
+  url: https://www.google.com/search?q=M8+x+60+hex+head+fully+threaded+set+screw+DIN+933+steel
+  completed: true
+  outcome: 'Opened Fusion Fixings item HSS-MBZP-0860: M8 x 60mm, hex head, fully threaded,
+    8.8 steel, bright zinc plated (BZP), DIN 933.'
+result_url: https://www.fusionfixings.co.uk/products/m8-x-60mm-set-screw-fully-threaded-bolt-bzp-din-933
+product_name: M8 x 60mm Hex Set Screw (Fully Threaded Bolt) 8.8 high tensile steel,
+  BZP, DIN 933
+selected_variant: Item Code HSS-MBZP-0860; M8 x 60mm; 8.8 steel; BZP
+material_evidence: Technical specification lists material as 8.8 steel.
+specification: M8 x 60mm fully threaded hex head set screw, DIN 933; 8.8 steel; bright
+  zinc plated (BZP); item HSS-MBZP-0860.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T11:24:58.600095+00:00'
+validator_version: 1

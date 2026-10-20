@@ -1,0 +1,45 @@
+oomp_id: hardware_bolt_m6_90_mm_length
+platform: ebay
+method: codex_builtin_browser
+status: verified
+search_for: M6 x 90 hex head part threaded bolt DIN 931 steel
+evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+90+hex+head+part+threaded+bolt+DIN+931+steel
+reason: The exact eBay search led to Oneweld item 178007542696. Item specifics show
+  M6, 90mm, Steel, Hex Head, Spanner drive, Grade 8.8 and Zinc Plated. Seller description
+  confirms part-threaded, DIN 931, high tensile steel, bright zinc plated, M6 x 90mm,
+  1.0mm pitch and length measured under the head. Pack Size is a separate quantity
+  control.
+search_evidence: The exact supplied eBay search returned the Oneweld listing titled
+  M6 x 90mm Hex Bolt Grade 8.8 High Tensile Part Thread Zinc DIN 931. Opened item
+  178007542696 from the results. Item specifics list Screw Size M6, Material Steel,
+  Head Style Hex Head, Drive Style Spanner, Thread Size M6, Item Length 90mm, Grade
+  8.8 and Zinc Plated. Seller description confirms part-threaded DIN 931, high tensile
+  steel, bright zinc plated, 1.0mm pitch, hexagon head, 10mm spanner and length measured
+  under the head. Pack size is quantity only.
+attempts:
+- term: M6 x 90 hex head part threaded bolt DIN 931 steel
+  url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+90+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: Search completed with 51 results. Opened Oneweld item 178007542696 from
+    the results; its item specifics and seller description confirm the exact M6 x
+    90mm part-threaded steel hex bolt to DIN 931. Stainless steel near-matches were
+    rejected.
+result_url: https://www.ebay.co.uk/itm/178007542696?_skw=M6+x+90+hex+head+part+threaded+bolt+DIN+931+steel&itmmeta=01M4X3ZA27T9SJKDVY5Y1ZNKCR&hash=item2972138ba8:g:7dwAAeSw2QVpytAD&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2BNIdagyR3IAm2PuSSsC5%2Bq6bzgppLWBh35kwHnGTw8mog%2BLalA2eQVmW%2FgYKvyjnN%2FFhz0EWvvivKqDJzSauY0jZXgkqrNE5qLQ8e%2Blj9G9%2FYx71nyJW4LcYAz0I%2F411NTSvcPlDjYDe%2FLsyauKvHfClK4RgAil6VfINRVOD1IumzyudyOzFpSBMb5kLoEj7OH5QLVhU1d4DXeaMczOBUz1QYAgwlfwEznI2kAL12rWbl%2B%2BLc2H%2BP19coi77tS0Dp4oEyNfM2qm%2BOvcBaXGFY608zOAwvSqxivPASaT258eBbt9lqBSoAmh7blIyt7GDXu2cuMSV%2BEwR2yN7Fv1%2FOA%7Ctkp%3ABFBMsqH9o6do
+product_name: M6 x 90mm Hex Bolt Grade 8.8 High Tensile Part Thread Zinc DIN 931
+selected_variant: Fixed 90mm product; item specifics show Item Length 90mm and Material
+  Steel. Pack Size selector is separate from size and remained Select.
+material_evidence: Steel; Grade 8.8 high tensile steel in seller description
+specification: 'Screw Size: M6; Thread Size: M6; Length: 90mm; Material: Steel; Grade:
+  8.8; Product: Part threaded hex bolt; Standard: DIN 931; Head Style: Hex Head; Drive
+  Style: Spanner; Finish: Zinc Plated (bright zinc plated); Thread Pitch: 1.0mm; length
+  measured under head'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T11:51:02.932200+00:00'
+validator_version: 1

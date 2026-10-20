@@ -1,0 +1,39 @@
+{
+  "oomp_id": "hardware_nut_m1_5_coupling",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "assumed_non_stocked",
+  "search_for": "M1.5 DIN 6334 steel connector nut",
+  "evidence_url": "https://www.google.com/search?q=M1.5+DIN+6334+steel+connector+nut",
+  "reason": "Original exact search for an M1.5 steel coupling nut returned no M1.5 product; displayed steel coupling nuts began at M5 or larger, and other candidates were stainless or different sizes. The completed DIN 6334 refinement likewise returned connector nut products at M5 and larger, with no exact M1.5 supplier item. Both searches completed without an eligible exact product.",
+  "search_evidence": "First completed Google search: https://www.google.com/search?q=M1.5+coupling+connector+nut+steel. Results showed coupling nuts at M5-M18, M5-M16, and larger; connector-nut range pages included stainless steel; no exact M1.5 steel part. Second completed Google search: https://www.google.com/search?q=M1.5+DIN+6334+steel+connector+nut. Supplier listings showed M5 x 15mm DIN 6334 stainless, M5 DIN 6334, M10, M14/M16 and other sizes; no M1.5 candidate.",
+  "attempts": [
+    {
+      "term": "M1.5 coupling connector nut steel",
+      "url": "https://www.google.com/search?q=M1.5+coupling+connector+nut+steel",
+      "completed": true,
+      "outcome": "No exact M1.5 steel coupling nut; supplier options displayed were M5 or larger, and some were stainless."
+    },
+    {
+      "term": "M1.5 DIN 6334 steel connector nut",
+      "url": "https://www.google.com/search?q=M1.5+DIN+6334+steel+connector+nut",
+      "completed": true,
+      "outcome": "No exact M1.5 DIN 6334 supplier nut; results were M5 or larger and some stainless."
+    }
+  ],
+  "no_eligible_product": true,
+  "result_url": "",
+  "product_name": "",
+  "selected_variant": "",
+  "material_evidence": "",
+  "specification": "",
+  "checks": {
+    "result_reached_from_search": false,
+    "selected_variant": false,
+    "dimensions": false,
+    "form": false,
+    "material": false,
+    "finish": false,
+    "standard": false
+  }
+}

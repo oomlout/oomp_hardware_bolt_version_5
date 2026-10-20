@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_nut_m6_cage",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M6 cage nut steel",
+  "evidence_url": "https://www.google.com/search?q=M6+cage+nut+steel",
+  "reason": "Bolt World’s selected M6 Type A cage nut page confirms the requested M6 cage-nut form, mild steel body/cage, blue passivated zinc finish and 9.5 mm square mounting hole.",
+  "search_evidence": "The Google results returned the exact Bolt World M6 cage nut. The product page shows M6 selected, SKU 51309.060.071, mild steel cage nut, spring steel cage, blue passivated zinc, 9.5 mm square hole and Type A.",
+  "attempts": [
+    {
+      "term": "M6 cage nut steel",
+      "url": "https://www.google.com/search?q=M6+cage+nut+steel",
+      "completed": true,
+      "outcome": "Opened Bolt World M6 To Suit Steel 0.71-1.60mm Cage Nuts, Mild Steel BLUE Passivated Zinc Plated, (9.5mm Square Hole Size) Type A. Page showed selected M6, SKU 51309.060.071, mild steel, spring steel cage and 9.5mm square mounting hole."
+    }
+  ],
+  "result_url": "https://boltworld.co.uk/products/m6-to-suit-steel-0-71-1-60mm-cage-nuts-mild-steel-blue-passivated-zinc-plated-9-5mm-square-hole-size-type-a/",
+  "product_name": "M6 To Suit Steel 0.71-1.60mm Cage Nuts, Mild Steel BLUE Passivated Zinc Plated, (9.5mm Square Hole Size) Type A",
+  "selected_variant": "Thread Size M6 (6mm), SKU 51309.060.071; Type A, 9.5mm square hole",
+  "material_evidence": "Page calls it a mild steel cage nut and states cage nuts consist of a square nut held captive in a spring steel cage.",
+  "specification": "M6 cage nut; Type A; for 0.71-1.60mm sheet steel; 9.5 x 9.5mm square mounting hole; blue passivated zinc plated.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

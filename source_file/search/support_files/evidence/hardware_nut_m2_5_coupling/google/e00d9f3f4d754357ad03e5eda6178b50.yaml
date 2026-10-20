@@ -1,0 +1,37 @@
+oomp_id: hardware_nut_m2_5_coupling
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M2.5 coupling connector nut steel
+evidence_url: https://www.google.com/search?q=M2.5+coupling+connector+nut+steel
+reason: Exact M2.5 hexagonal steel coupling nut variant confirmed on the supplier
+  page.
+search_evidence: The Google search returned the Bolt World M2.5 x 20mm Hexagon Connection
+  Long Nut, Grade 6, Blue Passivated Zinc Plated result. The opened page showed selected
+  options M2.5 thread and 20mm length, Free Cutting Steel class 6, metric thread with
+  0.45 pitch, hexagon nut shape and blue passivated zinc plated finish.
+attempts:
+- term: M2.5 coupling connector nut steel
+  url: https://www.google.com/search?q=M2.5+coupling+connector+nut+steel
+  completed: true
+  outcome: Found and opened the exact Bolt World M2.5 x 20mm class 6 steel hex connection
+    long nut, blue passivated zinc plated.
+result_url: https://boltworld.co.uk/products/m2-5-x-20mm-hexagon-connection-long-nuts-grade-6-blue-passivated-zinc-plated/
+product_name: M2.5 x 20mm Hexagon Connection Long Nut, Grade 6 BLUE Passivated Zinc
+  Plated (Stud Connector Nut)
+selected_variant: M2.5 (2.5mm) thread, 20mm length, SKU 51317.250.020
+material_evidence: 'Supplier page explicitly states Material: Free Cutting Steel;
+  Class / Grade: 6.'
+specification: Stud connector / coupling long nut; M2.5 metric thread, 0.45mm pitch,
+  right-hand; 20mm length/thread length; hexagon shape; blue passivated zinc plated;
+  grade 6.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T08:50:24.462031+00:00'
+validator_version: 1

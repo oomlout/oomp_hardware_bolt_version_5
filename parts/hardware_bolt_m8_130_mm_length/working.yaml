@@ -86,6 +86,78 @@ oomlout_ai_roboclick_1:
             name_proper: Hardware Bolt M8 130 Mm Length
             name_space: hardware bolt m8 130 mm length
             name_upper: HARDWARE BOLT M8 130 MM LENGTH
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M8 x 130 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: '2026-10-14T12:20:02.657312+00:00'
+                    evidence_file: support_files/evidence/hardware_bolt_m8_130_mm_length/ebay/4a26ae9164b14f17a32d2f755fd03b39.yaml
+                    evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
+                    material_evidence: Steel; seller description specifies high-tensile
+                        steel, grade 8.8.
+                    product_name: M8 x 130mm x 1.25 part threaded bolts high tensile
+                        steel 8.8 hex head BZP UK
+                    reason: The exact eBay search led to Thread and Butter Fasteners
+                        item 327330798701. The single fixed listing states M8 x 130
+                        mm x 1.25, high-tensile steel grade 8.8, part-threaded hex
+                        head, BZP and DIN 931. The seller states the 130 mm length
+                        excludes the head. Unit Quantity is 10.
+                    result_url: https://www.ebay.co.uk/itm/327330798701?_skw=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel&var=516083054298&itmmeta=01M4X5N6F5YX60DGQ6VFYTN0KB&hash=item4c366f9c6d:g:FeEAAeSwRAVqka4n&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9yFsjcwYvmplagfe85c9SHnyXVjbgLW1yW%2F12R2dMH1rqhvMRRGh2hqSj5XnJMlxoELIH55lQf2nICZPtN9Mdu1uuwGZIo1kbFFl%2F1ARr%2FansG9CwzPxECstF1UCr0t5VKR820J0leuUF2vXAsX2F7KSARVMGZsBcYTlntCfA8H8eVdbonaQ%2FMeLT0A0R1yoWXv9rcuV2lVx7ItPS49S0PNGupaKN2sf0cr7uwEymB4vnWzcfg6Pb8i822gfwq2grn7GHnm%2FCZX85bhR2je0t3%2FVHhyP1vbh2hDmV3Oy4pTp3eftNhI1cze6iYfqqgLRgmFunZrr8uVx%2F81VojucEf%7Ctkp%3ABk9SR_Ln1KWnaA
+                    search_evidence: Opened the supplied eBay search and followed
+                        the Thread and Butter Fasteners result. The main heading is
+                        'M8 x 130mm x 1.25 part threaded bolts high tensile steel
+                        8.8 hex head BZP UK'. Item specifics state Material Steel,
+                        Grade 8.8, MPN DIN 931, Thread Size M8 x 1.25 (STD), Item
+                        Length 130, Screw Size M8, Type Hex Bolts, Head Style Hex
+                        Head, and Finish BZP. Seller description states high-tensile
+                        steel, 8.8, standard coarse pitch 1.25, bright zinc plate,
+                        part-threaded with 22mm thread length, screw length 130mm
+                        excluding the head, and quality assured DIN 931.
+                    search_for: M8 x 130 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: 'Single fixed listing: M8 x 130mm; Unit Quantity:
+                        10.'
+                    specification: 'Thread Size: M8 x 1.25 (standard coarse); Length:
+                        130mm excluding head; Form: part-threaded hex head bolt; Material:
+                        high-tensile steel, Grade 8.8; Finish: Bright Zinc Plate (BZP);
+                        Manufacturing Standard: DIN 931; Unit Quantity: 10'
+                    status: verified
+                google:
+                    checked_at: '2026-10-14T08:35:28.635256+00:00'
+                    evidence_file: support_files/evidence/hardware_bolt_m8_130_mm_length/google/96f1f1aaaeb74d35baa9685687e458e1.yaml
+                    evidence_url: https://www.google.com/search?q=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
+                    material_evidence: 'Vital Parts specification table states Material:
+                        8.8 Steel BZP; the product description identifies a zinc plated
+                        high tensile bolt.'
+                    product_name: M8 x 130mm Hex Bolt - Part Threaded (DIN 931) |
+                        8.8 Steel BZP
+                    reason: Exact product and selected variant verified against the
+                        product specification page.
+                    result_url: https://www.vital-parts.co.uk/hex-head-bolts-din-931/9258-hh931-m8-130-88-bzp
+                    search_evidence: 'Google returned the exact Vital Parts M8 x 130
+                        product. Opened that result and checked the product specification
+                        table: thread M8, length 130mm, threaded length 28mm, material
+                        8.8 Steel BZP, 13mm across flats, Hex Head, DIN 931.'
+                    search_for: M8 x 130 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.google.com/search?q=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: Product code HH931-M8-130-88-BZP; M8 x 130mm;
+                        8.8 Steel BZP; hex head; 28mm threaded length.
+                    specification: Thread M8, length 130mm, threaded length 28mm (part
+                        threaded), hex head, 13mm across flats, 8.8 steel bright zinc
+                        plated, DIN 931.
+                    status: verified
             spec_iso_b_125_lt_l_le_200_mm: '28'
             spec_iso_b_l_gt_200_mm: '41'
             spec_iso_b_l_le_125_mm: '22'
@@ -100,6 +172,416 @@ oomlout_ai_roboclick_1:
             spec_iso_s_max_mm: '13.00'
             spec_iso_s_min_mm: '12.73'
             spec_iso_thread_pitch_mm: '1.25'
+            supplier_data:
+                accu:
+                    accepted_warnings: '["Accu displayed prices are rounded; derived
+                        totals use the captured display precision", "Final Accu price
+                        tier has no captured upper boundary; final advertised unit
+                        price extended by user policy"]'
+                    box_quantity: ''
+                    captured_at: '2026-10-12T21:08:59.388825+00:00'
+                    currency: GBP
+                    description: "Plain Hexagon Bolts feature a standard hexagonal\
+                        \ head, and are ideal for heavy-duty fastening applications.\
+                        \ All components within this range are precision rolled to\
+                        \ achieve general tolerances of +/-0.13mm. Plain Hexagon Bolts\
+                        \ are designed for use alongside Accu\u2019s\_Hexagon Nuts\_\
+                        ranges. As Hexagon Bolts are generally used with unthreaded\
+                        \ holes, Plain Hexagon Bolts feature an unthreaded shank below\
+                        \ the Bolt's head. The absence of a thread on this section\
+                        \ of the Bolt results in a stronger, more uniform shaft, making\
+                        \ the entire fastening more resistant to vibration and shear\
+                        \ forces when the unthreaded portion is inserted into a correctly\
+                        \ sized hole. In these applications, Hexagon Bolts function\
+                        \ similarly to a Dowel. The minimum thread length of each\
+                        \ Bolt is defined on each individual product page. Fully Threaded\
+                        \ Hexagon Bolts\_are also available. Materials Components\
+                        \ within this range are available in a wide range of materials,\
+                        \ including A2, A4 and A4-80 Stainless Steel, BUMAX, Brass,\
+                        \ Phosphor Bronze, Nylon (Polyamide), and PEEK. Ensure your\
+                        \ Metric Plain Hexagon Bolts stay secure with our advanced\
+                        \ pre-applied thread-locking patches. Whether you need AccuLock\
+                        \ Threadlocker for essential fastening, Anu-Lok 180 for added\
+                        \ grip, or Precote 80 for maximum performance, we have the\
+                        \ right solution. For a refined aesthetic, AccuBlack chemical\
+                        \ blackening reduces glare while enhancing the surface finish.\
+                        \ Metric Metric Plain Hexagon Bolts manufactured according\
+                        \ to DIN 931, and are available in diameters ranging from\
+                        \ M5 up to M52. Lengths of between 20mm and 600mm are also\
+                        \ available as standard. Non-Standard sizes are available\
+                        \ on request. Imperial Imperial Plain Hexagon Bolts are available\
+                        \ in thread diameters ranging from \xBC inch up to No.12,\
+                        \ and lengths of between 1/4 inch and 12 inch. These components\
+                        \ are manufactured to ANSI B18.2.1. Additional sizes are also\
+                        \ available on request."
+                    html_sha256: d9e1965aa41cd49f931c19baa722cc0c3a70c1a19e81652fb20e9c886cdb08d4
+                    name: M8 x 130mm Plain Hexagon Bolts (DIN 931) - Bright Zinc Plated
+                        High Tensile Steel (8.8)
+                    parsed_at: '2026-10-18T08:51:58.460269+00:00'
+                    parser_version: accu-1.9-base-material
+                    price_inheritance: "{\"1000\": {\"source_quantity\": 250, \"source_unit_price\"\
+                        : \"0.22\", \"source_text\": \"Buy 250 \xA30.22 Save 77 %\"\
+                        , \"basis\": \"user policy 2026-10-13\"}, \"10000\": {\"source_quantity\"\
+                        : 250, \"source_unit_price\": \"0.22\", \"source_text\": \"\
+                        Buy 250 \xA30.22 Save 77 %\", \"basis\": \"user policy 2026-10-13\"\
+                        }}"
+                    quote_minimum: ''
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept rounded displayed prices,
+                        open-ended final advertised tiers, and quotes required from
+                        400 units; quote-only prices remain blank."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.18",
+                        "highPrice": "0.99", "priceCurrency": "GBP", "offerCount":
+                        "13", "availability": "https://schema.org/InStock", "itemCondition":
+                        "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/metric-hexagon-bolts/640177-SEB-M8-130-8-8-BZP",
+                        "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                        {"@type": "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "accus prices are all ex
+                        vat", "confirmed_on": "2026-10-13"}'
+                    specifications: '{"Accu Product Code (APC)": "SEB-M8-130-8.8-BZP",
+                        "Thread Size": "M8 (8 mm)", "Length (L)": "130 mm", "Thread
+                        Length (Min) (E)": "28 mm", "Material": "Steel - High Tensile
+                        (8.8)", "Finish": "Bright Zinc Plated", "Hexagon Length (H)":
+                        "5.45 mm (Tolerance: +0/-0.3 mm)", "Manufacturing Standard":
+                        "DIN 931", "Material Family": "Steel", "Socket Size (J)":
+                        "13 mm (Tolerance: +0/-0.27 mm)", "System of Measurement":
+                        "Metric", "Thread Pitch": "1.25 mm"}'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: https://schema.org/InStock
+                    supplier: accu
+                    supplier_id: SEB-M8-130-8.8-BZP
+                    supplier_part_number: SEB-M8-130-8.8-BZP
+                    supplier_website: https://www.accu.co.uk/metric-hexagon-bolts/640177-SEB-M8-130-8-8-BZP
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: "Buy 1 \xA30.99"
+                        source_unit_price: '0.99'
+                        source_vat_basis: exclusive
+                        unit_price: '1.1880'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 3
+                        minimum: 2
+                        source_text: "Buy 2 \xA30.62 Save 37 %"
+                        source_unit_price: '0.62'
+                        source_vat_basis: exclusive
+                        unit_price: '0.7440'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5
+                        minimum: 4
+                        source_text: "Buy 4 \xA30.44 Save 55 %"
+                        source_unit_price: '0.44'
+                        source_vat_basis: exclusive
+                        unit_price: '0.5280'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 11
+                        minimum: 6
+                        source_text: "Buy 6 \xA30.35 Save 64 %"
+                        source_unit_price: '0.35'
+                        source_vat_basis: exclusive
+                        unit_price: '0.4200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 23
+                        minimum: 12
+                        source_text: "Buy 12 \xA30.29 Save 70 %"
+                        source_unit_price: '0.29'
+                        source_vat_basis: exclusive
+                        unit_price: '0.3480'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 24
+                        source_text: "Buy 24 \xA30.26 Save 73 %"
+                        source_unit_price: '0.26'
+                        source_vat_basis: exclusive
+                        unit_price: '0.3120'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: "Buy 50 \xA30.24 Save 75 %"
+                        source_unit_price: '0.24'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2880'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 249
+                        minimum: 100
+                        source_text: "Buy 100 \xA30.23 Save 76 %"
+                        source_unit_price: '0.23'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2760'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        maximum_basis: user-approved open-ended final tier; no captured
+                            upper boundary
+                        minimum: 250
+                        source_text: "Buy 250 \xA30.22 Save 77 %"
+                        source_unit_price: '0.22'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2640'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '1.1880'
+                    total_price_10: '4.2000'
+                    total_price_100: '27.6000'
+                    total_price_1000: '264.0000'
+                    total_price_10000: '2640.0000'
+                    unit_price_1: '1.1880'
+                    unit_price_10: '0.4200'
+                    unit_price_100: '0.2760'
+                    unit_price_1000: '0.2640'
+                    unit_price_10000: '0.2640'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Accu displayed prices are rounded; derived totals use the captured
+                        display precision
+                    - Final Accu price tier has no captured upper boundary; final
+                        advertised unit price extended by user policy
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-12T00:38:38.585747+00:00'
+                    currency: GBP
+                    html_sha256: 009bcfa8065d6c5d1e3e262d20e07ef992090acf312c0d22081a502c0482128c
+                    name: M8 x 130mm Hexagon Head Bolts Part Threaded Self Colour
+                        Grade 8.8 DIN 931
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:02:26.523976+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M8 (8mm); Length (L): 130mm; Material:
+                        High Tensile (Grade 8.8); Finish: Self Colour; Hexagon Length
+                        (Max) (H): 5.45mm; Thread Length (Min): 28mm; Thread Pitch:
+                        1.25mm; Socket Size (J): 13mm; Manufacturing Standard: DIN
+                        931; Material Specification: High Tensile (Grade 8.8); Metric
+                        or Imperial?: Metric'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 20303.080.130
+                    supplier_part_number: 20303.080.130
+                    supplier_website: https://dibolt.co.uk/products/m8-x-130mm-hexagon-head-bolts-part-threaded-din-931-self-colour-black-8-8
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_text: "1 - 199 \xA326.40 Per 100 Units"
+                        source_unit_price: '0.264'
+                        source_vat_basis: exclusive
+                        unit_price: '0.31680'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_text: "200 - 999 \xA325.08 Per 100 Units"
+                        source_unit_price: '0.2508'
+                        source_vat_basis: exclusive
+                        unit_price: '0.300960'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 1000
+                        source_text: "1,000+ \xA323.76 Per 100 Units"
+                        source_unit_price: '0.2376'
+                        source_vat_basis: exclusive
+                        unit_price: '0.285120'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.31680'
+                    total_price_10: '3.16800'
+                    total_price_100: '31.68000'
+                    total_price_1000: '285.120000'
+                    total_price_10000: '2851.200000'
+                    unit_price_1: '0.31680'
+                    unit_price_10: '0.31680'
+                    unit_price_100: '0.31680'
+                    unit_price_1000: '0.285120'
+                    unit_price_10000: '0.285120'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T01:29:08.762417+00:00'
+                    currency: GBP
+                    family_description: Hexagon head partly threaded bolts. High tensile
+                        grade 8.8. Bright zinc plated. Manufactured to DIN 931.
+                    family_heading: METRIC HEXAGON BOLT DIN 931 ZINC PLATED GRADE
+                        8.8
+                    html_sha256: ba1367e8f46e203340196888d47f999717beae5ce2224d38aa6e2eaa3abc233c
+                    name: M8 x 130mm HEXAGON HEAD PARTLY THREADED BOLT DIN 931 ZINC
+                        PLATED
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:29:48.826397+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M8 x 130mm HEXAGON HEAD PARTLY THREADED
+                        BOLT DIN 931 ZINC PLATED
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: METRIC HEXAGON BOLT DIN 931 ZINC PLATED GRADE
+                        8.8; Hexagon head partly threaded bolts. High tensile grade
+                        8.8. Bright zinc plated. Manufactured to DIN 931.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M8-x-130mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M8-x-130mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+                    supplier_website: https://www.kayfast.co.uk/view-product/METRIC-HEXAGON-BOLT-DIN-931-ZINC-PLATED-GRADE-88
+                    tiers:
+                    -   maximum: 49
+                        minimum: 1
+                        source_price_per_100: '38.62'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 49 @ \xA338.62 per 100"
+                        source_unit_price: '0.3862'
+                        source_vat_basis: exclusive
+                        unit_price: '0.463440'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 249
+                        minimum: 50
+                        source_price_per_100: '24.14'
+                        source_price_quantity: 100
+                        source_text: "QTY 50 -  249 @ \xA324.14 per 100"
+                        source_unit_price: '0.2414'
+                        source_vat_basis: exclusive
+                        unit_price: '0.289680'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 250
+                        source_price_per_100: '21.72'
+                        source_price_quantity: 100
+                        source_text: "QTY 250 + @ \xA321.72 per 100"
+                        source_unit_price: '0.2172'
+                        source_vat_basis: exclusive
+                        unit_price: '0.260640'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.463440'
+                    total_price_10: '4.634400'
+                    total_price_100: '28.968000'
+                    total_price_1000: '260.640000'
+                    total_price_10000: '2606.400000'
+                    unit_price_1: '0.463440'
+                    unit_price_10: '0.463440'
+                    unit_price_100: '0.289680'
+                    unit_price_1000: '0.260640'
+                    unit_price_10000: '0.260640'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '50'
+                    captured_at: '2026-10-12T18:50:52.434325+00:00'
+                    catalogue_page: '14'
+                    currency: GBP
+                    description: ''
+                    html_sha256: 05756afb005eb568582b129c2d4245d235013bd0f70b7cf416e88d7c7aecec2d
+                    name: M8 x 130 Hexagon Head Bolt High Tensile Grade 8.8, Bright
+                        Zinc Plated, DIN 931
+                    parsed_at: '2026-10-18T08:49:23.745193+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '840'
+                    supplier: orbitalfasteners
+                    supplier_id: '1871250'
+                    supplier_part_number: '1871250'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m8x130-high-tensile-bolt-grade-8.8-bright-zinc-plated
+                    tiers:
+                    -   maximum: 49
+                        minimum: 1
+                        source_text: "1 - 49 \xA30.3792 Inc. VAT \xA337.92 Inc. VAT"
+                        source_unit_price: '0.3792'
+                        source_vat_basis: inclusive
+                        unit_price: '0.3792'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 249
+                        minimum: 50
+                        source_text: "50 - 249 \xA30.237 Inc. VAT \xA323.70 Inc. VAT"
+                        source_unit_price: '0.237'
+                        source_vat_basis: inclusive
+                        unit_price: '0.237'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 299
+                        minimum: 250
+                        source_text: "250 - 299 \xA30.2132 Inc. VAT \xA321.32 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.2132'
+                        source_vat_basis: inclusive
+                        unit_price: '0.2132'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 300
+                        source_text: "300 + \xA30.1896 Inc. VAT \xA318.96 Inc. VAT"
+                        source_unit_price: '0.1896'
+                        source_vat_basis: inclusive
+                        unit_price: '0.1896'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.3792'
+                    total_price_10: '3.7920'
+                    total_price_100: '23.700'
+                    total_price_1000: '189.6000'
+                    total_price_10000: '1896.0000'
+                    unit_price_1: '0.3792'
+                    unit_price_10: '0.3792'
+                    unit_price_100: '0.237'
+                    unit_price_1000: '0.1896'
+                    unit_price_10000: '0.1896'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
             svg_details:
             -   svg_b_125_lt_l_le_200_mm: '28'
                 svg_b_l_gt_200_mm: '41'
@@ -430,6 +912,88 @@ oomlout_ai_roboclick_2:
                         name_proper: Hardware Bolt M8 130 Mm Length
                         name_space: hardware bolt m8 130 mm length
                         name_upper: HARDWARE BOLT M8 130 MM LENGTH
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M8 x 130 hex head part threaded bolt DIN
+                                    931 steel
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: '2026-10-14T12:20:02.657312+00:00'
+                                evidence_file: support_files/evidence/hardware_bolt_m8_130_mm_length/ebay/4a26ae9164b14f17a32d2f755fd03b39.yaml
+                                evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
+                                material_evidence: Steel; seller description specifies
+                                    high-tensile steel, grade 8.8.
+                                product_name: M8 x 130mm x 1.25 part threaded bolts
+                                    high tensile steel 8.8 hex head BZP UK
+                                reason: The exact eBay search led to Thread and Butter
+                                    Fasteners item 327330798701. The single fixed
+                                    listing states M8 x 130 mm x 1.25, high-tensile
+                                    steel grade 8.8, part-threaded hex head, BZP and
+                                    DIN 931. The seller states the 130 mm length excludes
+                                    the head. Unit Quantity is 10.
+                                result_url: https://www.ebay.co.uk/itm/327330798701?_skw=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel&var=516083054298&itmmeta=01M4X5N6F5YX60DGQ6VFYTN0KB&hash=item4c366f9c6d:g:FeEAAeSwRAVqka4n&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9yFsjcwYvmplagfe85c9SHnyXVjbgLW1yW%2F12R2dMH1rqhvMRRGh2hqSj5XnJMlxoELIH55lQf2nICZPtN9Mdu1uuwGZIo1kbFFl%2F1ARr%2FansG9CwzPxECstF1UCr0t5VKR820J0leuUF2vXAsX2F7KSARVMGZsBcYTlntCfA8H8eVdbonaQ%2FMeLT0A0R1yoWXv9rcuV2lVx7ItPS49S0PNGupaKN2sf0cr7uwEymB4vnWzcfg6Pb8i822gfwq2grn7GHnm%2FCZX85bhR2je0t3%2FVHhyP1vbh2hDmV3Oy4pTp3eftNhI1cze6iYfqqgLRgmFunZrr8uVx%2F81VojucEf%7Ctkp%3ABk9SR_Ln1KWnaA
+                                search_evidence: Opened the supplied eBay search and
+                                    followed the Thread and Butter Fasteners result.
+                                    The main heading is 'M8 x 130mm x 1.25 part threaded
+                                    bolts high tensile steel 8.8 hex head BZP UK'.
+                                    Item specifics state Material Steel, Grade 8.8,
+                                    MPN DIN 931, Thread Size M8 x 1.25 (STD), Item
+                                    Length 130, Screw Size M8, Type Hex Bolts, Head
+                                    Style Hex Head, and Finish BZP. Seller description
+                                    states high-tensile steel, 8.8, standard coarse
+                                    pitch 1.25, bright zinc plate, part-threaded with
+                                    22mm thread length, screw length 130mm excluding
+                                    the head, and quality assured DIN 931.
+                                search_for: M8 x 130 hex head part threaded bolt DIN
+                                    931 steel
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
+                                selected_variant: 'Single fixed listing: M8 x 130mm;
+                                    Unit Quantity: 10.'
+                                specification: 'Thread Size: M8 x 1.25 (standard coarse);
+                                    Length: 130mm excluding head; Form: part-threaded
+                                    hex head bolt; Material: high-tensile steel, Grade
+                                    8.8; Finish: Bright Zinc Plate (BZP); Manufacturing
+                                    Standard: DIN 931; Unit Quantity: 10'
+                                status: verified
+                            google:
+                                checked_at: '2026-10-14T08:35:28.635256+00:00'
+                                evidence_file: support_files/evidence/hardware_bolt_m8_130_mm_length/google/96f1f1aaaeb74d35baa9685687e458e1.yaml
+                                evidence_url: https://www.google.com/search?q=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
+                                material_evidence: 'Vital Parts specification table
+                                    states Material: 8.8 Steel BZP; the product description
+                                    identifies a zinc plated high tensile bolt.'
+                                product_name: M8 x 130mm Hex Bolt - Part Threaded
+                                    (DIN 931) | 8.8 Steel BZP
+                                reason: Exact product and selected variant verified
+                                    against the product specification page.
+                                result_url: https://www.vital-parts.co.uk/hex-head-bolts-din-931/9258-hh931-m8-130-88-bzp
+                                search_evidence: 'Google returned the exact Vital
+                                    Parts M8 x 130 product. Opened that result and
+                                    checked the product specification table: thread
+                                    M8, length 130mm, threaded length 28mm, material
+                                    8.8 Steel BZP, 13mm across flats, Hex Head, DIN
+                                    931.'
+                                search_for: M8 x 130 hex head part threaded bolt DIN
+                                    931 steel
+                                search_url: https://www.google.com/search?q=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
+                                selected_variant: Product code HH931-M8-130-88-BZP;
+                                    M8 x 130mm; 8.8 Steel BZP; hex head; 28mm threaded
+                                    length.
+                                specification: Thread M8, length 130mm, threaded length
+                                    28mm (part threaded), hex head, 13mm across flats,
+                                    8.8 steel bright zinc plated, DIN 931.
+                                status: verified
                         spec_iso_b_125_lt_l_le_200_mm: '28'
                         spec_iso_b_l_gt_200_mm: '41'
                         spec_iso_b_l_le_125_mm: '22'
@@ -444,6 +1008,438 @@ oomlout_ai_roboclick_2:
                         spec_iso_s_max_mm: '13.00'
                         spec_iso_s_min_mm: '12.73'
                         spec_iso_thread_pitch_mm: '1.25'
+                        supplier_data:
+                            accu:
+                                accepted_warnings: '["Accu displayed prices are rounded;
+                                    derived totals use the captured display precision",
+                                    "Final Accu price tier has no captured upper boundary;
+                                    final advertised unit price extended by user policy"]'
+                                box_quantity: ''
+                                captured_at: '2026-10-12T21:08:59.388825+00:00'
+                                currency: GBP
+                                description: "Plain Hexagon Bolts feature a standard\
+                                    \ hexagonal head, and are ideal for heavy-duty\
+                                    \ fastening applications. All components within\
+                                    \ this range are precision rolled to achieve general\
+                                    \ tolerances of +/-0.13mm. Plain Hexagon Bolts\
+                                    \ are designed for use alongside Accu\u2019s\_\
+                                    Hexagon Nuts\_ranges. As Hexagon Bolts are generally\
+                                    \ used with unthreaded holes, Plain Hexagon Bolts\
+                                    \ feature an unthreaded shank below the Bolt's\
+                                    \ head. The absence of a thread on this section\
+                                    \ of the Bolt results in a stronger, more uniform\
+                                    \ shaft, making the entire fastening more resistant\
+                                    \ to vibration and shear forces when the unthreaded\
+                                    \ portion is inserted into a correctly sized hole.\
+                                    \ In these applications, Hexagon Bolts function\
+                                    \ similarly to a Dowel. The minimum thread length\
+                                    \ of each Bolt is defined on each individual product\
+                                    \ page. Fully Threaded Hexagon Bolts\_are also\
+                                    \ available. Materials Components within this\
+                                    \ range are available in a wide range of materials,\
+                                    \ including A2, A4 and A4-80 Stainless Steel,\
+                                    \ BUMAX, Brass, Phosphor Bronze, Nylon (Polyamide),\
+                                    \ and PEEK. Ensure your Metric Plain Hexagon Bolts\
+                                    \ stay secure with our advanced pre-applied thread-locking\
+                                    \ patches. Whether you need AccuLock Threadlocker\
+                                    \ for essential fastening, Anu-Lok 180 for added\
+                                    \ grip, or Precote 80 for maximum performance,\
+                                    \ we have the right solution. For a refined aesthetic,\
+                                    \ AccuBlack chemical blackening reduces glare\
+                                    \ while enhancing the surface finish. Metric Metric\
+                                    \ Plain Hexagon Bolts manufactured according to\
+                                    \ DIN 931, and are available in diameters ranging\
+                                    \ from M5 up to M52. Lengths of between 20mm and\
+                                    \ 600mm are also available as standard. Non-Standard\
+                                    \ sizes are available on request. Imperial Imperial\
+                                    \ Plain Hexagon Bolts are available in thread\
+                                    \ diameters ranging from \xBC inch up to No.12,\
+                                    \ and lengths of between 1/4 inch and 12 inch.\
+                                    \ These components are manufactured to ANSI B18.2.1.\
+                                    \ Additional sizes are also available on request."
+                                html_sha256: d9e1965aa41cd49f931c19baa722cc0c3a70c1a19e81652fb20e9c886cdb08d4
+                                name: M8 x 130mm Plain Hexagon Bolts (DIN 931) - Bright
+                                    Zinc Plated High Tensile Steel (8.8)
+                                parsed_at: '2026-10-18T08:51:58.460269+00:00'
+                                parser_version: accu-1.9-base-material
+                                price_inheritance: "{\"1000\": {\"source_quantity\"\
+                                    : 250, \"source_unit_price\": \"0.22\", \"source_text\"\
+                                    : \"Buy 250 \xA30.22 Save 77 %\", \"basis\": \"\
+                                    user policy 2026-10-13\"}, \"10000\": {\"source_quantity\"\
+                                    : 250, \"source_unit_price\": \"0.22\", \"source_text\"\
+                                    : \"Buy 250 \xA30.22 Save 77 %\", \"basis\": \"\
+                                    user policy 2026-10-13\"}}"
+                                quote_minimum: ''
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept rounded displayed
+                                    prices, open-ended final advertised tiers, and
+                                    quotes required from 400 units; quote-only prices
+                                    remain blank."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_offer: '{"@type": "AggregateOffer", "lowPrice":
+                                    "0.18", "highPrice": "0.99", "priceCurrency":
+                                    "GBP", "offerCount": "13", "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "url": "https://www.accu.co.uk/metric-hexagon-bolts/640177-SEB-M8-130-8-8-BZP",
+                                    "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                                    {"@type": "QuantitativeValue", "value": 1, "unitCode":
+                                    "ANN"}}}'
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "accus
+                                    prices are all ex vat", "confirmed_on": "2026-10-13"}'
+                                specifications: '{"Accu Product Code (APC)": "SEB-M8-130-8.8-BZP",
+                                    "Thread Size": "M8 (8 mm)", "Length (L)": "130
+                                    mm", "Thread Length (Min) (E)": "28 mm", "Material":
+                                    "Steel - High Tensile (8.8)", "Finish": "Bright
+                                    Zinc Plated", "Hexagon Length (H)": "5.45 mm (Tolerance:
+                                    +0/-0.3 mm)", "Manufacturing Standard": "DIN 931",
+                                    "Material Family": "Steel", "Socket Size (J)":
+                                    "13 mm (Tolerance: +0/-0.27 mm)", "System of Measurement":
+                                    "Metric", "Thread Pitch": "1.25 mm"}'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: https://schema.org/InStock
+                                supplier: accu
+                                supplier_id: SEB-M8-130-8.8-BZP
+                                supplier_part_number: SEB-M8-130-8.8-BZP
+                                supplier_website: https://www.accu.co.uk/metric-hexagon-bolts/640177-SEB-M8-130-8-8-BZP
+                                tiers:
+                                -   maximum: 1
+                                    minimum: 1
+                                    source_text: "Buy 1 \xA30.99"
+                                    source_unit_price: '0.99'
+                                    source_vat_basis: exclusive
+                                    unit_price: '1.1880'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 3
+                                    minimum: 2
+                                    source_text: "Buy 2 \xA30.62 Save 37 %"
+                                    source_unit_price: '0.62'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.7440'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 5
+                                    minimum: 4
+                                    source_text: "Buy 4 \xA30.44 Save 55 %"
+                                    source_unit_price: '0.44'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.5280'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 11
+                                    minimum: 6
+                                    source_text: "Buy 6 \xA30.35 Save 64 %"
+                                    source_unit_price: '0.35'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.4200'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 23
+                                    minimum: 12
+                                    source_text: "Buy 12 \xA30.29 Save 70 %"
+                                    source_unit_price: '0.29'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.3480'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 49
+                                    minimum: 24
+                                    source_text: "Buy 24 \xA30.26 Save 73 %"
+                                    source_unit_price: '0.26'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.3120'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 99
+                                    minimum: 50
+                                    source_text: "Buy 50 \xA30.24 Save 75 %"
+                                    source_unit_price: '0.24'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.2880'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 249
+                                    minimum: 100
+                                    source_text: "Buy 100 \xA30.23 Save 76 %"
+                                    source_unit_price: '0.23'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.2760'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    maximum_basis: user-approved open-ended final
+                                        tier; no captured upper boundary
+                                    minimum: 250
+                                    source_text: "Buy 250 \xA30.22 Save 77 %"
+                                    source_unit_price: '0.22'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.2640'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '1.1880'
+                                total_price_10: '4.2000'
+                                total_price_100: '27.6000'
+                                total_price_1000: '264.0000'
+                                total_price_10000: '2640.0000'
+                                unit_price_1: '1.1880'
+                                unit_price_10: '0.4200'
+                                unit_price_100: '0.2760'
+                                unit_price_1000: '0.2640'
+                                unit_price_10000: '0.2640'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Accu displayed prices are rounded; derived totals
+                                    use the captured display precision
+                                - Final Accu price tier has no captured upper boundary;
+                                    final advertised unit price extended by user policy
+                            dibolt:
+                                accepted_warnings: '["Dibolt per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-12T00:38:38.585747+00:00'
+                                currency: GBP
+                                html_sha256: 009bcfa8065d6c5d1e3e262d20e07ef992090acf312c0d22081a502c0482128c
+                                name: M8 x 130mm Hexagon Head Bolts Part Threaded
+                                    Self Colour Grade 8.8 DIN 931
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:02:26.523976+00:00'
+                                parser_version: dibolt-1.3-missing-price-review
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept the precision
+                                    of rounded displayed per-100 prices."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: 'Thread Size: M8 (8mm); Length (L):
+                                    130mm; Material: High Tensile (Grade 8.8); Finish:
+                                    Self Colour; Hexagon Length (Max) (H): 5.45mm;
+                                    Thread Length (Min): 28mm; Thread Pitch: 1.25mm;
+                                    Socket Size (J): 13mm; Manufacturing Standard:
+                                    DIN 931; Material Specification: High Tensile
+                                    (Grade 8.8); Metric or Imperial?: Metric'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: dibolt
+                                supplier_id: 20303.080.130
+                                supplier_part_number: 20303.080.130
+                                supplier_website: https://dibolt.co.uk/products/m8-x-130mm-hexagon-head-bolts-part-threaded-din-931-self-colour-black-8-8
+                                tiers:
+                                -   maximum: 199
+                                    minimum: 1
+                                    source_text: "1 - 199 \xA326.40 Per 100 Units"
+                                    source_unit_price: '0.264'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.31680'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 999
+                                    minimum: 200
+                                    source_text: "200 - 999 \xA325.08 Per 100 Units"
+                                    source_unit_price: '0.2508'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.300960'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 1000
+                                    source_text: "1,000+ \xA323.76 Per 100 Units"
+                                    source_unit_price: '0.2376'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.285120'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.31680'
+                                total_price_10: '3.16800'
+                                total_price_100: '31.68000'
+                                total_price_1000: '285.120000'
+                                total_price_10000: '2851.200000'
+                                unit_price_1: '0.31680'
+                                unit_price_10: '0.31680'
+                                unit_price_100: '0.31680'
+                                unit_price_1000: '0.285120'
+                                unit_price_10000: '0.285120'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Dibolt per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
+                            kayfast:
+                                accepted_warnings: '["Kayfast per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-14T01:29:08.762417+00:00'
+                                currency: GBP
+                                family_description: Hexagon head partly threaded bolts.
+                                    High tensile grade 8.8. Bright zinc plated. Manufactured
+                                    to DIN 931.
+                                family_heading: METRIC HEXAGON BOLT DIN 931 ZINC PLATED
+                                    GRADE 8.8
+                                html_sha256: ba1367e8f46e203340196888d47f999717beae5ce2224d38aa6e2eaa3abc233c
+                                name: M8 x 130mm HEXAGON HEAD PARTLY THREADED BOLT
+                                    DIN 931 ZINC PLATED
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:29:48.826397+00:00'
+                                parser_version: kayfast-1.6-family-description
+                                price_breaks_description: M8 x 130mm HEXAGON HEAD
+                                    PARTLY THREADED BOLT DIN 931 ZINC PLATED
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-17", "statement": "Use the exact row
+                                    dropdown price per 100 divided by 100 with Decimal
+                                    precision; accept the captured per-100 display
+                                    precision."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "Kayfast
+                                    prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+                                specifications: METRIC HEXAGON BOLT DIN 931 ZINC PLATED
+                                    GRADE 8.8; Hexagon head partly threaded bolts.
+                                    High tensile grade 8.8. Bright zinc plated. Manufactured
+                                    to DIN 931.
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: kayfast
+                                supplier_id: M8-x-130mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+                                supplier_id_basis: exact dimensional row description;
+                                    spaces replaced by hyphens (user clarification
+                                    2026-10-11)
+                                supplier_part_number: M8-x-130mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+                                supplier_website: https://www.kayfast.co.uk/view-product/METRIC-HEXAGON-BOLT-DIN-931-ZINC-PLATED-GRADE-88
+                                tiers:
+                                -   maximum: 49
+                                    minimum: 1
+                                    source_price_per_100: '38.62'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 1 - 49 @ \xA338.62 per 100"
+                                    source_unit_price: '0.3862'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.463440'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 249
+                                    minimum: 50
+                                    source_price_per_100: '24.14'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 50 -  249 @ \xA324.14 per 100"
+                                    source_unit_price: '0.2414'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.289680'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 250
+                                    source_price_per_100: '21.72'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 250 + @ \xA321.72 per 100"
+                                    source_unit_price: '0.2172'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.260640'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.463440'
+                                total_price_10: '4.634400'
+                                total_price_100: '28.968000'
+                                total_price_1000: '260.640000'
+                                total_price_10000: '2606.400000'
+                                unit_price_1: '0.463440'
+                                unit_price_10: '0.463440'
+                                unit_price_100: '0.289680'
+                                unit_price_1000: '0.260640'
+                                unit_price_10000: '0.260640'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Kayfast per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
+                            orbitalfasteners:
+                                accepted_warnings: '[]'
+                                box_quantity: '50'
+                                captured_at: '2026-10-12T18:50:52.434325+00:00'
+                                catalogue_page: '14'
+                                currency: GBP
+                                description: ''
+                                html_sha256: 05756afb005eb568582b129c2d4245d235013bd0f70b7cf416e88d7c7aecec2d
+                                name: M8 x 130 Hexagon Head Bolt High Tensile Grade
+                                    8.8, Bright Zinc Plated, DIN 931
+                                parsed_at: '2026-10-18T08:49:23.745193+00:00'
+                                parser_version: 1.2-review-policy
+                                review_policy: ''
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: inclusive
+                                status: ok
+                                stock_as_of: 9th October 2026 10:01pm
+                                stock_quantity: '840'
+                                supplier: orbitalfasteners
+                                supplier_id: '1871250'
+                                supplier_part_number: '1871250'
+                                supplier_website: https://www.orbitalfasteners.co.uk/products/m8x130-high-tensile-bolt-grade-8.8-bright-zinc-plated
+                                tiers:
+                                -   maximum: 49
+                                    minimum: 1
+                                    source_text: "1 - 49 \xA30.3792 Inc. VAT \xA3\
+                                        37.92 Inc. VAT"
+                                    source_unit_price: '0.3792'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.3792'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 249
+                                    minimum: 50
+                                    source_text: "50 - 249 \xA30.237 Inc. VAT \xA3\
+                                        23.70 Inc. VAT"
+                                    source_unit_price: '0.237'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.237'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 299
+                                    minimum: 250
+                                    source_text: "250 - 299 \xA30.2132 Inc. VAT \xA3\
+                                        21.32 Inc. VAT"
+                                    source_unit_price: '0.2132'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.2132'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 300
+                                    source_text: "300 + \xA30.1896 Inc. VAT \xA318.96\
+                                        \ Inc. VAT"
+                                    source_unit_price: '0.1896'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.1896'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.3792'
+                                total_price_10: '3.7920'
+                                total_price_100: '23.700'
+                                total_price_1000: '189.6000'
+                                total_price_10000: '1896.0000'
+                                unit_price_1: '0.3792'
+                                unit_price_10: '0.3792'
+                                unit_price_100: '0.237'
+                                unit_price_1000: '0.1896'
+                                unit_price_10000: '0.1896'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings: []
                         svg_details:
                         -   svg_b_125_lt_l_le_200_mm: '28'
                             svg_b_l_gt_200_mm: '41'
@@ -757,6 +1753,78 @@ oomlout_ai_roboclick_2:
                     search_and_replace: []
                 file_test: label_oomp.pdf
                 retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M8 x 130 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: '2026-10-14T12:20:02.657312+00:00'
+                    evidence_file: support_files/evidence/hardware_bolt_m8_130_mm_length/ebay/4a26ae9164b14f17a32d2f755fd03b39.yaml
+                    evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
+                    material_evidence: Steel; seller description specifies high-tensile
+                        steel, grade 8.8.
+                    product_name: M8 x 130mm x 1.25 part threaded bolts high tensile
+                        steel 8.8 hex head BZP UK
+                    reason: The exact eBay search led to Thread and Butter Fasteners
+                        item 327330798701. The single fixed listing states M8 x 130
+                        mm x 1.25, high-tensile steel grade 8.8, part-threaded hex
+                        head, BZP and DIN 931. The seller states the 130 mm length
+                        excludes the head. Unit Quantity is 10.
+                    result_url: https://www.ebay.co.uk/itm/327330798701?_skw=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel&var=516083054298&itmmeta=01M4X5N6F5YX60DGQ6VFYTN0KB&hash=item4c366f9c6d:g:FeEAAeSwRAVqka4n&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9yFsjcwYvmplagfe85c9SHnyXVjbgLW1yW%2F12R2dMH1rqhvMRRGh2hqSj5XnJMlxoELIH55lQf2nICZPtN9Mdu1uuwGZIo1kbFFl%2F1ARr%2FansG9CwzPxECstF1UCr0t5VKR820J0leuUF2vXAsX2F7KSARVMGZsBcYTlntCfA8H8eVdbonaQ%2FMeLT0A0R1yoWXv9rcuV2lVx7ItPS49S0PNGupaKN2sf0cr7uwEymB4vnWzcfg6Pb8i822gfwq2grn7GHnm%2FCZX85bhR2je0t3%2FVHhyP1vbh2hDmV3Oy4pTp3eftNhI1cze6iYfqqgLRgmFunZrr8uVx%2F81VojucEf%7Ctkp%3ABk9SR_Ln1KWnaA
+                    search_evidence: Opened the supplied eBay search and followed
+                        the Thread and Butter Fasteners result. The main heading is
+                        'M8 x 130mm x 1.25 part threaded bolts high tensile steel
+                        8.8 hex head BZP UK'. Item specifics state Material Steel,
+                        Grade 8.8, MPN DIN 931, Thread Size M8 x 1.25 (STD), Item
+                        Length 130, Screw Size M8, Type Hex Bolts, Head Style Hex
+                        Head, and Finish BZP. Seller description states high-tensile
+                        steel, 8.8, standard coarse pitch 1.25, bright zinc plate,
+                        part-threaded with 22mm thread length, screw length 130mm
+                        excluding the head, and quality assured DIN 931.
+                    search_for: M8 x 130 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: 'Single fixed listing: M8 x 130mm; Unit Quantity:
+                        10.'
+                    specification: 'Thread Size: M8 x 1.25 (standard coarse); Length:
+                        130mm excluding head; Form: part-threaded hex head bolt; Material:
+                        high-tensile steel, Grade 8.8; Finish: Bright Zinc Plate (BZP);
+                        Manufacturing Standard: DIN 931; Unit Quantity: 10'
+                    status: verified
+                google:
+                    checked_at: '2026-10-14T08:35:28.635256+00:00'
+                    evidence_file: support_files/evidence/hardware_bolt_m8_130_mm_length/google/96f1f1aaaeb74d35baa9685687e458e1.yaml
+                    evidence_url: https://www.google.com/search?q=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
+                    material_evidence: 'Vital Parts specification table states Material:
+                        8.8 Steel BZP; the product description identifies a zinc plated
+                        high tensile bolt.'
+                    product_name: M8 x 130mm Hex Bolt - Part Threaded (DIN 931) |
+                        8.8 Steel BZP
+                    reason: Exact product and selected variant verified against the
+                        product specification page.
+                    result_url: https://www.vital-parts.co.uk/hex-head-bolts-din-931/9258-hh931-m8-130-88-bzp
+                    search_evidence: 'Google returned the exact Vital Parts M8 x 130
+                        product. Opened that result and checked the product specification
+                        table: thread M8, length 130mm, threaded length 28mm, material
+                        8.8 Steel BZP, 13mm across flats, Hex Head, DIN 931.'
+                    search_for: M8 x 130 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.google.com/search?q=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: Product code HH931-M8-130-88-BZP; M8 x 130mm;
+                        8.8 Steel BZP; hex head; 28mm threaded length.
+                    specification: Thread M8, length 130mm, threaded length 28mm (part
+                        threaded), hex head, 13mm across flats, 8.8 steel bright zinc
+                        plated, DIN 931.
+                    status: verified
             spec_iso_b_125_lt_l_le_200_mm: '28'
             spec_iso_b_l_gt_200_mm: '41'
             spec_iso_b_l_le_125_mm: '22'
@@ -771,6 +1839,416 @@ oomlout_ai_roboclick_2:
             spec_iso_s_max_mm: '13.00'
             spec_iso_s_min_mm: '12.73'
             spec_iso_thread_pitch_mm: '1.25'
+            supplier_data:
+                accu:
+                    accepted_warnings: '["Accu displayed prices are rounded; derived
+                        totals use the captured display precision", "Final Accu price
+                        tier has no captured upper boundary; final advertised unit
+                        price extended by user policy"]'
+                    box_quantity: ''
+                    captured_at: '2026-10-12T21:08:59.388825+00:00'
+                    currency: GBP
+                    description: "Plain Hexagon Bolts feature a standard hexagonal\
+                        \ head, and are ideal for heavy-duty fastening applications.\
+                        \ All components within this range are precision rolled to\
+                        \ achieve general tolerances of +/-0.13mm. Plain Hexagon Bolts\
+                        \ are designed for use alongside Accu\u2019s\_Hexagon Nuts\_\
+                        ranges. As Hexagon Bolts are generally used with unthreaded\
+                        \ holes, Plain Hexagon Bolts feature an unthreaded shank below\
+                        \ the Bolt's head. The absence of a thread on this section\
+                        \ of the Bolt results in a stronger, more uniform shaft, making\
+                        \ the entire fastening more resistant to vibration and shear\
+                        \ forces when the unthreaded portion is inserted into a correctly\
+                        \ sized hole. In these applications, Hexagon Bolts function\
+                        \ similarly to a Dowel. The minimum thread length of each\
+                        \ Bolt is defined on each individual product page. Fully Threaded\
+                        \ Hexagon Bolts\_are also available. Materials Components\
+                        \ within this range are available in a wide range of materials,\
+                        \ including A2, A4 and A4-80 Stainless Steel, BUMAX, Brass,\
+                        \ Phosphor Bronze, Nylon (Polyamide), and PEEK. Ensure your\
+                        \ Metric Plain Hexagon Bolts stay secure with our advanced\
+                        \ pre-applied thread-locking patches. Whether you need AccuLock\
+                        \ Threadlocker for essential fastening, Anu-Lok 180 for added\
+                        \ grip, or Precote 80 for maximum performance, we have the\
+                        \ right solution. For a refined aesthetic, AccuBlack chemical\
+                        \ blackening reduces glare while enhancing the surface finish.\
+                        \ Metric Metric Plain Hexagon Bolts manufactured according\
+                        \ to DIN 931, and are available in diameters ranging from\
+                        \ M5 up to M52. Lengths of between 20mm and 600mm are also\
+                        \ available as standard. Non-Standard sizes are available\
+                        \ on request. Imperial Imperial Plain Hexagon Bolts are available\
+                        \ in thread diameters ranging from \xBC inch up to No.12,\
+                        \ and lengths of between 1/4 inch and 12 inch. These components\
+                        \ are manufactured to ANSI B18.2.1. Additional sizes are also\
+                        \ available on request."
+                    html_sha256: d9e1965aa41cd49f931c19baa722cc0c3a70c1a19e81652fb20e9c886cdb08d4
+                    name: M8 x 130mm Plain Hexagon Bolts (DIN 931) - Bright Zinc Plated
+                        High Tensile Steel (8.8)
+                    parsed_at: '2026-10-18T08:51:58.460269+00:00'
+                    parser_version: accu-1.9-base-material
+                    price_inheritance: "{\"1000\": {\"source_quantity\": 250, \"source_unit_price\"\
+                        : \"0.22\", \"source_text\": \"Buy 250 \xA30.22 Save 77 %\"\
+                        , \"basis\": \"user policy 2026-10-13\"}, \"10000\": {\"source_quantity\"\
+                        : 250, \"source_unit_price\": \"0.22\", \"source_text\": \"\
+                        Buy 250 \xA30.22 Save 77 %\", \"basis\": \"user policy 2026-10-13\"\
+                        }}"
+                    quote_minimum: ''
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept rounded displayed prices,
+                        open-ended final advertised tiers, and quotes required from
+                        400 units; quote-only prices remain blank."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.18",
+                        "highPrice": "0.99", "priceCurrency": "GBP", "offerCount":
+                        "13", "availability": "https://schema.org/InStock", "itemCondition":
+                        "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/metric-hexagon-bolts/640177-SEB-M8-130-8-8-BZP",
+                        "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                        {"@type": "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "accus prices are all ex
+                        vat", "confirmed_on": "2026-10-13"}'
+                    specifications: '{"Accu Product Code (APC)": "SEB-M8-130-8.8-BZP",
+                        "Thread Size": "M8 (8 mm)", "Length (L)": "130 mm", "Thread
+                        Length (Min) (E)": "28 mm", "Material": "Steel - High Tensile
+                        (8.8)", "Finish": "Bright Zinc Plated", "Hexagon Length (H)":
+                        "5.45 mm (Tolerance: +0/-0.3 mm)", "Manufacturing Standard":
+                        "DIN 931", "Material Family": "Steel", "Socket Size (J)":
+                        "13 mm (Tolerance: +0/-0.27 mm)", "System of Measurement":
+                        "Metric", "Thread Pitch": "1.25 mm"}'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: https://schema.org/InStock
+                    supplier: accu
+                    supplier_id: SEB-M8-130-8.8-BZP
+                    supplier_part_number: SEB-M8-130-8.8-BZP
+                    supplier_website: https://www.accu.co.uk/metric-hexagon-bolts/640177-SEB-M8-130-8-8-BZP
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: "Buy 1 \xA30.99"
+                        source_unit_price: '0.99'
+                        source_vat_basis: exclusive
+                        unit_price: '1.1880'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 3
+                        minimum: 2
+                        source_text: "Buy 2 \xA30.62 Save 37 %"
+                        source_unit_price: '0.62'
+                        source_vat_basis: exclusive
+                        unit_price: '0.7440'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5
+                        minimum: 4
+                        source_text: "Buy 4 \xA30.44 Save 55 %"
+                        source_unit_price: '0.44'
+                        source_vat_basis: exclusive
+                        unit_price: '0.5280'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 11
+                        minimum: 6
+                        source_text: "Buy 6 \xA30.35 Save 64 %"
+                        source_unit_price: '0.35'
+                        source_vat_basis: exclusive
+                        unit_price: '0.4200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 23
+                        minimum: 12
+                        source_text: "Buy 12 \xA30.29 Save 70 %"
+                        source_unit_price: '0.29'
+                        source_vat_basis: exclusive
+                        unit_price: '0.3480'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 24
+                        source_text: "Buy 24 \xA30.26 Save 73 %"
+                        source_unit_price: '0.26'
+                        source_vat_basis: exclusive
+                        unit_price: '0.3120'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: "Buy 50 \xA30.24 Save 75 %"
+                        source_unit_price: '0.24'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2880'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 249
+                        minimum: 100
+                        source_text: "Buy 100 \xA30.23 Save 76 %"
+                        source_unit_price: '0.23'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2760'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        maximum_basis: user-approved open-ended final tier; no captured
+                            upper boundary
+                        minimum: 250
+                        source_text: "Buy 250 \xA30.22 Save 77 %"
+                        source_unit_price: '0.22'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2640'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '1.1880'
+                    total_price_10: '4.2000'
+                    total_price_100: '27.6000'
+                    total_price_1000: '264.0000'
+                    total_price_10000: '2640.0000'
+                    unit_price_1: '1.1880'
+                    unit_price_10: '0.4200'
+                    unit_price_100: '0.2760'
+                    unit_price_1000: '0.2640'
+                    unit_price_10000: '0.2640'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Accu displayed prices are rounded; derived totals use the captured
+                        display precision
+                    - Final Accu price tier has no captured upper boundary; final
+                        advertised unit price extended by user policy
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-12T00:38:38.585747+00:00'
+                    currency: GBP
+                    html_sha256: 009bcfa8065d6c5d1e3e262d20e07ef992090acf312c0d22081a502c0482128c
+                    name: M8 x 130mm Hexagon Head Bolts Part Threaded Self Colour
+                        Grade 8.8 DIN 931
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:02:26.523976+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M8 (8mm); Length (L): 130mm; Material:
+                        High Tensile (Grade 8.8); Finish: Self Colour; Hexagon Length
+                        (Max) (H): 5.45mm; Thread Length (Min): 28mm; Thread Pitch:
+                        1.25mm; Socket Size (J): 13mm; Manufacturing Standard: DIN
+                        931; Material Specification: High Tensile (Grade 8.8); Metric
+                        or Imperial?: Metric'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 20303.080.130
+                    supplier_part_number: 20303.080.130
+                    supplier_website: https://dibolt.co.uk/products/m8-x-130mm-hexagon-head-bolts-part-threaded-din-931-self-colour-black-8-8
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_text: "1 - 199 \xA326.40 Per 100 Units"
+                        source_unit_price: '0.264'
+                        source_vat_basis: exclusive
+                        unit_price: '0.31680'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_text: "200 - 999 \xA325.08 Per 100 Units"
+                        source_unit_price: '0.2508'
+                        source_vat_basis: exclusive
+                        unit_price: '0.300960'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 1000
+                        source_text: "1,000+ \xA323.76 Per 100 Units"
+                        source_unit_price: '0.2376'
+                        source_vat_basis: exclusive
+                        unit_price: '0.285120'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.31680'
+                    total_price_10: '3.16800'
+                    total_price_100: '31.68000'
+                    total_price_1000: '285.120000'
+                    total_price_10000: '2851.200000'
+                    unit_price_1: '0.31680'
+                    unit_price_10: '0.31680'
+                    unit_price_100: '0.31680'
+                    unit_price_1000: '0.285120'
+                    unit_price_10000: '0.285120'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T01:29:08.762417+00:00'
+                    currency: GBP
+                    family_description: Hexagon head partly threaded bolts. High tensile
+                        grade 8.8. Bright zinc plated. Manufactured to DIN 931.
+                    family_heading: METRIC HEXAGON BOLT DIN 931 ZINC PLATED GRADE
+                        8.8
+                    html_sha256: ba1367e8f46e203340196888d47f999717beae5ce2224d38aa6e2eaa3abc233c
+                    name: M8 x 130mm HEXAGON HEAD PARTLY THREADED BOLT DIN 931 ZINC
+                        PLATED
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:29:48.826397+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M8 x 130mm HEXAGON HEAD PARTLY THREADED
+                        BOLT DIN 931 ZINC PLATED
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: METRIC HEXAGON BOLT DIN 931 ZINC PLATED GRADE
+                        8.8; Hexagon head partly threaded bolts. High tensile grade
+                        8.8. Bright zinc plated. Manufactured to DIN 931.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M8-x-130mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M8-x-130mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+                    supplier_website: https://www.kayfast.co.uk/view-product/METRIC-HEXAGON-BOLT-DIN-931-ZINC-PLATED-GRADE-88
+                    tiers:
+                    -   maximum: 49
+                        minimum: 1
+                        source_price_per_100: '38.62'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 49 @ \xA338.62 per 100"
+                        source_unit_price: '0.3862'
+                        source_vat_basis: exclusive
+                        unit_price: '0.463440'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 249
+                        minimum: 50
+                        source_price_per_100: '24.14'
+                        source_price_quantity: 100
+                        source_text: "QTY 50 -  249 @ \xA324.14 per 100"
+                        source_unit_price: '0.2414'
+                        source_vat_basis: exclusive
+                        unit_price: '0.289680'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 250
+                        source_price_per_100: '21.72'
+                        source_price_quantity: 100
+                        source_text: "QTY 250 + @ \xA321.72 per 100"
+                        source_unit_price: '0.2172'
+                        source_vat_basis: exclusive
+                        unit_price: '0.260640'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.463440'
+                    total_price_10: '4.634400'
+                    total_price_100: '28.968000'
+                    total_price_1000: '260.640000'
+                    total_price_10000: '2606.400000'
+                    unit_price_1: '0.463440'
+                    unit_price_10: '0.463440'
+                    unit_price_100: '0.289680'
+                    unit_price_1000: '0.260640'
+                    unit_price_10000: '0.260640'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '50'
+                    captured_at: '2026-10-12T18:50:52.434325+00:00'
+                    catalogue_page: '14'
+                    currency: GBP
+                    description: ''
+                    html_sha256: 05756afb005eb568582b129c2d4245d235013bd0f70b7cf416e88d7c7aecec2d
+                    name: M8 x 130 Hexagon Head Bolt High Tensile Grade 8.8, Bright
+                        Zinc Plated, DIN 931
+                    parsed_at: '2026-10-18T08:49:23.745193+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '840'
+                    supplier: orbitalfasteners
+                    supplier_id: '1871250'
+                    supplier_part_number: '1871250'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m8x130-high-tensile-bolt-grade-8.8-bright-zinc-plated
+                    tiers:
+                    -   maximum: 49
+                        minimum: 1
+                        source_text: "1 - 49 \xA30.3792 Inc. VAT \xA337.92 Inc. VAT"
+                        source_unit_price: '0.3792'
+                        source_vat_basis: inclusive
+                        unit_price: '0.3792'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 249
+                        minimum: 50
+                        source_text: "50 - 249 \xA30.237 Inc. VAT \xA323.70 Inc. VAT"
+                        source_unit_price: '0.237'
+                        source_vat_basis: inclusive
+                        unit_price: '0.237'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 299
+                        minimum: 250
+                        source_text: "250 - 299 \xA30.2132 Inc. VAT \xA321.32 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.2132'
+                        source_vat_basis: inclusive
+                        unit_price: '0.2132'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 300
+                        source_text: "300 + \xA30.1896 Inc. VAT \xA318.96 Inc. VAT"
+                        source_unit_price: '0.1896'
+                        source_vat_basis: inclusive
+                        unit_price: '0.1896'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.3792'
+                    total_price_10: '3.7920'
+                    total_price_100: '23.700'
+                    total_price_1000: '189.6000'
+                    total_price_10000: '1896.0000'
+                    unit_price_1: '0.3792'
+                    unit_price_10: '0.3792'
+                    unit_price_100: '0.237'
+                    unit_price_1000: '0.1896'
+                    unit_price_10000: '0.1896'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
             svg_details:
             -   svg_b_125_lt_l_le_200_mm: '28'
                 svg_b_l_gt_200_mm: '41'
@@ -1092,9 +2570,75 @@ oomlout_ai_roboclick_3:
     file_test: ''
 oomp_key: oomp_hardware_bolt_m8_130_mm_length
 run_action: true
+run_only_yaml: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M8 x 130 hex head part threaded bolt DIN 931 steel
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: '2026-10-14T12:20:02.657312+00:00'
+        evidence_file: support_files/evidence/hardware_bolt_m8_130_mm_length/ebay/4a26ae9164b14f17a32d2f755fd03b39.yaml
+        evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
+        material_evidence: Steel; seller description specifies high-tensile steel,
+            grade 8.8.
+        product_name: M8 x 130mm x 1.25 part threaded bolts high tensile steel 8.8
+            hex head BZP UK
+        reason: The exact eBay search led to Thread and Butter Fasteners item 327330798701.
+            The single fixed listing states M8 x 130 mm x 1.25, high-tensile steel
+            grade 8.8, part-threaded hex head, BZP and DIN 931. The seller states
+            the 130 mm length excludes the head. Unit Quantity is 10.
+        result_url: https://www.ebay.co.uk/itm/327330798701?_skw=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel&var=516083054298&itmmeta=01M4X5N6F5YX60DGQ6VFYTN0KB&hash=item4c366f9c6d:g:FeEAAeSwRAVqka4n&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde9yFsjcwYvmplagfe85c9SHnyXVjbgLW1yW%2F12R2dMH1rqhvMRRGh2hqSj5XnJMlxoELIH55lQf2nICZPtN9Mdu1uuwGZIo1kbFFl%2F1ARr%2FansG9CwzPxECstF1UCr0t5VKR820J0leuUF2vXAsX2F7KSARVMGZsBcYTlntCfA8H8eVdbonaQ%2FMeLT0A0R1yoWXv9rcuV2lVx7ItPS49S0PNGupaKN2sf0cr7uwEymB4vnWzcfg6Pb8i822gfwq2grn7GHnm%2FCZX85bhR2je0t3%2FVHhyP1vbh2hDmV3Oy4pTp3eftNhI1cze6iYfqqgLRgmFunZrr8uVx%2F81VojucEf%7Ctkp%3ABk9SR_Ln1KWnaA
+        search_evidence: Opened the supplied eBay search and followed the Thread and
+            Butter Fasteners result. The main heading is 'M8 x 130mm x 1.25 part threaded
+            bolts high tensile steel 8.8 hex head BZP UK'. Item specifics state Material
+            Steel, Grade 8.8, MPN DIN 931, Thread Size M8 x 1.25 (STD), Item Length
+            130, Screw Size M8, Type Hex Bolts, Head Style Hex Head, and Finish BZP.
+            Seller description states high-tensile steel, 8.8, standard coarse pitch
+            1.25, bright zinc plate, part-threaded with 22mm thread length, screw
+            length 130mm excluding the head, and quality assured DIN 931.
+        search_for: M8 x 130 hex head part threaded bolt DIN 931 steel
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
+        selected_variant: 'Single fixed listing: M8 x 130mm; Unit Quantity: 10.'
+        specification: 'Thread Size: M8 x 1.25 (standard coarse); Length: 130mm excluding
+            head; Form: part-threaded hex head bolt; Material: high-tensile steel,
+            Grade 8.8; Finish: Bright Zinc Plate (BZP); Manufacturing Standard: DIN
+            931; Unit Quantity: 10'
+        status: verified
+    google:
+        checked_at: '2026-10-14T08:35:28.635256+00:00'
+        evidence_file: support_files/evidence/hardware_bolt_m8_130_mm_length/google/96f1f1aaaeb74d35baa9685687e458e1.yaml
+        evidence_url: https://www.google.com/search?q=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
+        material_evidence: 'Vital Parts specification table states Material: 8.8 Steel
+            BZP; the product description identifies a zinc plated high tensile bolt.'
+        product_name: M8 x 130mm Hex Bolt - Part Threaded (DIN 931) | 8.8 Steel BZP
+        reason: Exact product and selected variant verified against the product specification
+            page.
+        result_url: https://www.vital-parts.co.uk/hex-head-bolts-din-931/9258-hh931-m8-130-88-bzp
+        search_evidence: 'Google returned the exact Vital Parts M8 x 130 product.
+            Opened that result and checked the product specification table: thread
+            M8, length 130mm, threaded length 28mm, material 8.8 Steel BZP, 13mm across
+            flats, Hex Head, DIN 931.'
+        search_for: M8 x 130 hex head part threaded bolt DIN 931 steel
+        search_url: https://www.google.com/search?q=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
+        selected_variant: Product code HH931-M8-130-88-BZP; M8 x 130mm; 8.8 Steel
+            BZP; hex head; 28mm threaded length.
+        specification: Thread M8, length 130mm, threaded length 28mm (part threaded),
+            hex head, 13mm across flats, 8.8 steel bright zinc plated, DIN 931.
+        status: verified
 spec_iso_b_125_lt_l_le_200_mm: '28'
 spec_iso_b_l_gt_200_mm: '41'
 spec_iso_b_l_le_125_mm: '22'
@@ -1109,6 +2653,397 @@ spec_iso_nominal_diameter: M8
 spec_iso_s_max_mm: '13.00'
 spec_iso_s_min_mm: '12.73'
 spec_iso_thread_pitch_mm: '1.25'
+supplier_data:
+    accu:
+        accepted_warnings: '["Accu displayed prices are rounded; derived totals use
+            the captured display precision", "Final Accu price tier has no captured
+            upper boundary; final advertised unit price extended by user policy"]'
+        box_quantity: ''
+        captured_at: '2026-10-12T21:08:59.388825+00:00'
+        currency: GBP
+        description: "Plain Hexagon Bolts feature a standard hexagonal head, and are\
+            \ ideal for heavy-duty fastening applications. All components within this\
+            \ range are precision rolled to achieve general tolerances of +/-0.13mm.\
+            \ Plain Hexagon Bolts are designed for use alongside Accu\u2019s\_Hexagon\
+            \ Nuts\_ranges. As Hexagon Bolts are generally used with unthreaded holes,\
+            \ Plain Hexagon Bolts feature an unthreaded shank below the Bolt's head.\
+            \ The absence of a thread on this section of the Bolt results in a stronger,\
+            \ more uniform shaft, making the entire fastening more resistant to vibration\
+            \ and shear forces when the unthreaded portion is inserted into a correctly\
+            \ sized hole. In these applications, Hexagon Bolts function similarly\
+            \ to a Dowel. The minimum thread length of each Bolt is defined on each\
+            \ individual product page. Fully Threaded Hexagon Bolts\_are also available.\
+            \ Materials Components within this range are available in a wide range\
+            \ of materials, including A2, A4 and A4-80 Stainless Steel, BUMAX, Brass,\
+            \ Phosphor Bronze, Nylon (Polyamide), and PEEK. Ensure your Metric Plain\
+            \ Hexagon Bolts stay secure with our advanced pre-applied thread-locking\
+            \ patches. Whether you need AccuLock Threadlocker for essential fastening,\
+            \ Anu-Lok 180 for added grip, or Precote 80 for maximum performance, we\
+            \ have the right solution. For a refined aesthetic, AccuBlack chemical\
+            \ blackening reduces glare while enhancing the surface finish. Metric\
+            \ Metric Plain Hexagon Bolts manufactured according to DIN 931, and are\
+            \ available in diameters ranging from M5 up to M52. Lengths of between\
+            \ 20mm and 600mm are also available as standard. Non-Standard sizes are\
+            \ available on request. Imperial Imperial Plain Hexagon Bolts are available\
+            \ in thread diameters ranging from \xBC inch up to No.12, and lengths\
+            \ of between 1/4 inch and 12 inch. These components are manufactured to\
+            \ ANSI B18.2.1. Additional sizes are also available on request."
+        html_sha256: d9e1965aa41cd49f931c19baa722cc0c3a70c1a19e81652fb20e9c886cdb08d4
+        name: M8 x 130mm Plain Hexagon Bolts (DIN 931) - Bright Zinc Plated High Tensile
+            Steel (8.8)
+        parsed_at: '2026-10-18T08:51:58.460269+00:00'
+        parser_version: accu-1.9-base-material
+        price_inheritance: "{\"1000\": {\"source_quantity\": 250, \"source_unit_price\"\
+            : \"0.22\", \"source_text\": \"Buy 250 \xA30.22 Save 77 %\", \"basis\"\
+            : \"user policy 2026-10-13\"}, \"10000\": {\"source_quantity\": 250, \"\
+            source_unit_price\": \"0.22\", \"source_text\": \"Buy 250 \xA30.22 Save\
+            \ 77 %\", \"basis\": \"user policy 2026-10-13\"}}"
+        quote_minimum: ''
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept rounded displayed prices, open-ended final advertised
+            tiers, and quotes required from 400 units; quote-only prices remain blank."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.18", "highPrice":
+            "0.99", "priceCurrency": "GBP", "offerCount": "13", "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/metric-hexagon-bolts/640177-SEB-M8-130-8-8-BZP",
+            "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type":
+            "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "accus prices are all ex vat", "confirmed_on": "2026-10-13"}'
+        specifications: '{"Accu Product Code (APC)": "SEB-M8-130-8.8-BZP", "Thread
+            Size": "M8 (8 mm)", "Length (L)": "130 mm", "Thread Length (Min) (E)":
+            "28 mm", "Material": "Steel - High Tensile (8.8)", "Finish": "Bright Zinc
+            Plated", "Hexagon Length (H)": "5.45 mm (Tolerance: +0/-0.3 mm)", "Manufacturing
+            Standard": "DIN 931", "Material Family": "Steel", "Socket Size (J)": "13
+            mm (Tolerance: +0/-0.27 mm)", "System of Measurement": "Metric", "Thread
+            Pitch": "1.25 mm"}'
+        status: ok
+        stock_quantity: ''
+        stock_status: https://schema.org/InStock
+        supplier: accu
+        supplier_id: SEB-M8-130-8.8-BZP
+        supplier_part_number: SEB-M8-130-8.8-BZP
+        supplier_website: https://www.accu.co.uk/metric-hexagon-bolts/640177-SEB-M8-130-8-8-BZP
+        tiers:
+        -   maximum: 1
+            minimum: 1
+            source_text: "Buy 1 \xA30.99"
+            source_unit_price: '0.99'
+            source_vat_basis: exclusive
+            unit_price: '1.1880'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 3
+            minimum: 2
+            source_text: "Buy 2 \xA30.62 Save 37 %"
+            source_unit_price: '0.62'
+            source_vat_basis: exclusive
+            unit_price: '0.7440'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 5
+            minimum: 4
+            source_text: "Buy 4 \xA30.44 Save 55 %"
+            source_unit_price: '0.44'
+            source_vat_basis: exclusive
+            unit_price: '0.5280'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 11
+            minimum: 6
+            source_text: "Buy 6 \xA30.35 Save 64 %"
+            source_unit_price: '0.35'
+            source_vat_basis: exclusive
+            unit_price: '0.4200'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 23
+            minimum: 12
+            source_text: "Buy 12 \xA30.29 Save 70 %"
+            source_unit_price: '0.29'
+            source_vat_basis: exclusive
+            unit_price: '0.3480'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 49
+            minimum: 24
+            source_text: "Buy 24 \xA30.26 Save 73 %"
+            source_unit_price: '0.26'
+            source_vat_basis: exclusive
+            unit_price: '0.3120'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 99
+            minimum: 50
+            source_text: "Buy 50 \xA30.24 Save 75 %"
+            source_unit_price: '0.24'
+            source_vat_basis: exclusive
+            unit_price: '0.2880'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 249
+            minimum: 100
+            source_text: "Buy 100 \xA30.23 Save 76 %"
+            source_unit_price: '0.23'
+            source_vat_basis: exclusive
+            unit_price: '0.2760'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            maximum_basis: user-approved open-ended final tier; no captured upper
+                boundary
+            minimum: 250
+            source_text: "Buy 250 \xA30.22 Save 77 %"
+            source_unit_price: '0.22'
+            source_vat_basis: exclusive
+            unit_price: '0.2640'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '1.1880'
+        total_price_10: '4.2000'
+        total_price_100: '27.6000'
+        total_price_1000: '264.0000'
+        total_price_10000: '2640.0000'
+        unit_price_1: '1.1880'
+        unit_price_10: '0.4200'
+        unit_price_100: '0.2760'
+        unit_price_1000: '0.2640'
+        unit_price_10000: '0.2640'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Accu displayed prices are rounded; derived totals use the captured display
+            precision
+        - Final Accu price tier has no captured upper boundary; final advertised unit
+            price extended by user policy
+    dibolt:
+        accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-12T00:38:38.585747+00:00'
+        currency: GBP
+        html_sha256: 009bcfa8065d6c5d1e3e262d20e07ef992090acf312c0d22081a502c0482128c
+        name: M8 x 130mm Hexagon Head Bolts Part Threaded Self Colour Grade 8.8 DIN
+            931
+        packages: '[]'
+        parsed_at: '2026-10-18T09:02:26.523976+00:00'
+        parser_version: dibolt-1.3-missing-price-review
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept the precision of rounded displayed per-100 prices."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: 'Thread Size: M8 (8mm); Length (L): 130mm; Material: High
+            Tensile (Grade 8.8); Finish: Self Colour; Hexagon Length (Max) (H): 5.45mm;
+            Thread Length (Min): 28mm; Thread Pitch: 1.25mm; Socket Size (J): 13mm;
+            Manufacturing Standard: DIN 931; Material Specification: High Tensile
+            (Grade 8.8); Metric or Imperial?: Metric'
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: dibolt
+        supplier_id: 20303.080.130
+        supplier_part_number: 20303.080.130
+        supplier_website: https://dibolt.co.uk/products/m8-x-130mm-hexagon-head-bolts-part-threaded-din-931-self-colour-black-8-8
+        tiers:
+        -   maximum: 199
+            minimum: 1
+            source_text: "1 - 199 \xA326.40 Per 100 Units"
+            source_unit_price: '0.264'
+            source_vat_basis: exclusive
+            unit_price: '0.31680'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 999
+            minimum: 200
+            source_text: "200 - 999 \xA325.08 Per 100 Units"
+            source_unit_price: '0.2508'
+            source_vat_basis: exclusive
+            unit_price: '0.300960'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 1000
+            source_text: "1,000+ \xA323.76 Per 100 Units"
+            source_unit_price: '0.2376'
+            source_vat_basis: exclusive
+            unit_price: '0.285120'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.31680'
+        total_price_10: '3.16800'
+        total_price_100: '31.68000'
+        total_price_1000: '285.120000'
+        total_price_10000: '2851.200000'
+        unit_price_1: '0.31680'
+        unit_price_10: '0.31680'
+        unit_price_100: '0.31680'
+        unit_price_1000: '0.285120'
+        unit_price_10000: '0.285120'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Dibolt per-100 displayed prices are rounded; derived totals use captured
+            display precision
+    kayfast:
+        accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-14T01:29:08.762417+00:00'
+        currency: GBP
+        family_description: Hexagon head partly threaded bolts. High tensile grade
+            8.8. Bright zinc plated. Manufactured to DIN 931.
+        family_heading: METRIC HEXAGON BOLT DIN 931 ZINC PLATED GRADE 8.8
+        html_sha256: ba1367e8f46e203340196888d47f999717beae5ce2224d38aa6e2eaa3abc233c
+        name: M8 x 130mm HEXAGON HEAD PARTLY THREADED BOLT DIN 931 ZINC PLATED
+        packages: '[]'
+        parsed_at: '2026-10-18T09:29:48.826397+00:00'
+        parser_version: kayfast-1.6-family-description
+        price_breaks_description: M8 x 130mm HEXAGON HEAD PARTLY THREADED BOLT DIN
+            931 ZINC PLATED
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+            "statement": "Use the exact row dropdown price per 100 divided by 100
+            with Decimal precision; accept the captured per-100 display precision."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+        specifications: METRIC HEXAGON BOLT DIN 931 ZINC PLATED GRADE 8.8; Hexagon
+            head partly threaded bolts. High tensile grade 8.8. Bright zinc plated.
+            Manufactured to DIN 931.
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: kayfast
+        supplier_id: M8-x-130mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+        supplier_id_basis: exact dimensional row description; spaces replaced by hyphens
+            (user clarification 2026-10-11)
+        supplier_part_number: M8-x-130mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+        supplier_website: https://www.kayfast.co.uk/view-product/METRIC-HEXAGON-BOLT-DIN-931-ZINC-PLATED-GRADE-88
+        tiers:
+        -   maximum: 49
+            minimum: 1
+            source_price_per_100: '38.62'
+            source_price_quantity: 100
+            source_text: "QTY 1 - 49 @ \xA338.62 per 100"
+            source_unit_price: '0.3862'
+            source_vat_basis: exclusive
+            unit_price: '0.463440'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 249
+            minimum: 50
+            source_price_per_100: '24.14'
+            source_price_quantity: 100
+            source_text: "QTY 50 -  249 @ \xA324.14 per 100"
+            source_unit_price: '0.2414'
+            source_vat_basis: exclusive
+            unit_price: '0.289680'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 250
+            source_price_per_100: '21.72'
+            source_price_quantity: 100
+            source_text: "QTY 250 + @ \xA321.72 per 100"
+            source_unit_price: '0.2172'
+            source_vat_basis: exclusive
+            unit_price: '0.260640'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.463440'
+        total_price_10: '4.634400'
+        total_price_100: '28.968000'
+        total_price_1000: '260.640000'
+        total_price_10000: '2606.400000'
+        unit_price_1: '0.463440'
+        unit_price_10: '0.463440'
+        unit_price_100: '0.289680'
+        unit_price_1000: '0.260640'
+        unit_price_10000: '0.260640'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Kayfast per-100 displayed prices are rounded; derived totals use captured
+            display precision
+    orbitalfasteners:
+        accepted_warnings: '[]'
+        box_quantity: '50'
+        captured_at: '2026-10-12T18:50:52.434325+00:00'
+        catalogue_page: '14'
+        currency: GBP
+        description: ''
+        html_sha256: 05756afb005eb568582b129c2d4245d235013bd0f70b7cf416e88d7c7aecec2d
+        name: M8 x 130 Hexagon Head Bolt High Tensile Grade 8.8, Bright Zinc Plated,
+            DIN 931
+        parsed_at: '2026-10-18T08:49:23.745193+00:00'
+        parser_version: 1.2-review-policy
+        review_policy: ''
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: inclusive
+        status: ok
+        stock_as_of: 9th October 2026 10:01pm
+        stock_quantity: '840'
+        supplier: orbitalfasteners
+        supplier_id: '1871250'
+        supplier_part_number: '1871250'
+        supplier_website: https://www.orbitalfasteners.co.uk/products/m8x130-high-tensile-bolt-grade-8.8-bright-zinc-plated
+        tiers:
+        -   maximum: 49
+            minimum: 1
+            source_text: "1 - 49 \xA30.3792 Inc. VAT \xA337.92 Inc. VAT"
+            source_unit_price: '0.3792'
+            source_vat_basis: inclusive
+            unit_price: '0.3792'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 249
+            minimum: 50
+            source_text: "50 - 249 \xA30.237 Inc. VAT \xA323.70 Inc. VAT"
+            source_unit_price: '0.237'
+            source_vat_basis: inclusive
+            unit_price: '0.237'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 299
+            minimum: 250
+            source_text: "250 - 299 \xA30.2132 Inc. VAT \xA321.32 Inc. VAT"
+            source_unit_price: '0.2132'
+            source_vat_basis: inclusive
+            unit_price: '0.2132'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 300
+            source_text: "300 + \xA30.1896 Inc. VAT \xA318.96 Inc. VAT"
+            source_unit_price: '0.1896'
+            source_vat_basis: inclusive
+            unit_price: '0.1896'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.3792'
+        total_price_10: '3.7920'
+        total_price_100: '23.700'
+        total_price_1000: '189.6000'
+        total_price_10000: '1896.0000'
+        unit_price_1: '0.3792'
+        unit_price_10: '0.3792'
+        unit_price_100: '0.237'
+        unit_price_1000: '0.1896'
+        unit_price_10000: '0.1896'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings: []
 svg_details:
 -   svg_b_125_lt_l_le_200_mm: '28'
     svg_b_l_gt_200_mm: '41'
@@ -1461,53 +3396,3 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
-search_data:
-  google:
-    search_for: M8 x 130 hex head part threaded bolt DIN 931 steel
-    search_url: https://www.google.com/search?q=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
-    status: verified
-    reason: Exact product and selected variant verified against the product specification
-      page.
-    result_url: https://www.vital-parts.co.uk/hex-head-bolts-din-931/9258-hh931-m8-130-88-bzp
-    product_name: M8 x 130mm Hex Bolt - Part Threaded (DIN 931) | 8.8 Steel BZP
-    selected_variant: Product code HH931-M8-130-88-BZP; M8 x 130mm; 8.8 Steel BZP;
-      hex head; 28mm threaded length.
-    material_evidence: 'Vital Parts specification table states Material: 8.8 Steel
-      BZP; the product description identifies a zinc plated high tensile bolt.'
-    specification: Thread M8, length 130mm, threaded length 28mm (part threaded),
-      hex head, 13mm across flats, 8.8 steel bright zinc plated, DIN 931.
-    search_evidence: 'Google returned the exact Vital Parts M8 x 130 product. Opened
-      that result and checked the product specification table: thread M8, length 130mm,
-      threaded length 28mm, material 8.8 Steel BZP, 13mm across flats, Hex Head, DIN
-      931.'
-    evidence_url: https://www.google.com/search?q=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
-    checked_at: '2026-10-14T08:35:28.635256+00:00'
-    evidence_file: support_files/evidence/hardware_bolt_m8_130_mm_length/google/96f1f1aaaeb74d35baa9685687e458e1.yaml
-  ebay:
-    search_for: M8 x 130 hex head part threaded bolt DIN 931 steel
-    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  aliexpress:
-    search_for: M8 x 130 hex head part threaded bolt DIN 931 steel
-    search_url: https://www.aliexpress.com/wholesale?SearchText=M8+x+130+hex+head+part+threaded+bolt+DIN+931+steel
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''

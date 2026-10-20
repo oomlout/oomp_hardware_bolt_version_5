@@ -1,0 +1,40 @@
+oomp_id: hardware_nut_m5_2020_t_nut
+platform: google
+method: codex_builtin_browser
+status: unresolved
+search_for: M5 2020 T-slot nut carbon steel zinc plated
+evidence_url: https://www.google.com/search?q=M5+2020+T-slot+nut+carbon+steel+zinc+plated
+reason: The best steel M5 slide-in candidate page specifies 20 Series, not explicit
+  2020 extrusion compatibility. A second inspected T-slot nut candidate was for a
+  Line 5 profile, not the required 2020 form. Exact eligibility remains unproven.
+search_evidence: First search 'M5 2020 extrusion T slot nut steel' surfaced Ooznest
+  M5 20 Series T/V-Slot Slide In Nut (Zinc Plated), selected M5 carbon steel option,
+  but the page did not explicitly establish 2020 profile compatibility. Refined search
+  'M5 2020 T-slot nut carbon steel zinc plated' surfaced item24 T-Slot Nut 5 St M5,
+  bright zinc-plated, but its product page specifies Line 5 rather than 2020 extrusion.
+attempts:
+- term: M5 2020 extrusion T slot nut steel
+  url: https://www.google.com/search?q=M5+2020+extrusion+T+slot+nut+steel
+  completed: true
+  outcome: Inspected Ooznest M5 20 Series slide-in nut. M5 carbon steel zinc/nickel-plated
+    variant is clear; exact 2020 compatibility is not explicit.
+- term: M5 2020 T-slot nut carbon steel zinc plated
+  url: https://www.google.com/search?q=M5+2020+T-slot+nut+carbon+steel+zinc+plated
+  completed: true
+  outcome: Inspected item24 T-Slot Nut 5 St M5 page. Steel bright zinc-plated M5 is
+    clear, but product is for Line 5 profile rather than 2020 extrusion.
+result_url: ''
+product_name: ''
+selected_variant: ''
+material_evidence: ''
+specification: ''
+checks:
+  result_reached_from_search: true
+  selected_variant: false
+  dimensions: false
+  form: false
+  material: false
+  finish: false
+  standard: false
+checked_at: '2026-10-14T09:09:07.590916+00:00'
+validator_version: 1

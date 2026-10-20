@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_screw_socket_cap_hex_head_black_m4_diameter_14_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M4 x 14 socket cap screw DIN 912 black high tensile steel",
+  "evidence_url": "https://www.google.com/search?q=M4+x+14+socket+cap+screw+DIN+912+black+high+tensile+steel",
+  "reason": "The supplied Google query returned the exact Bolt Base M4 x 14 listing.",
+  "search_evidence": "Google result showed the exact M4 x 14 Bolt Base Amazon listing, black grade 12.9 full-thread socket cap.",
+  "attempts": [
+    {
+      "term": "M4 x 14 socket cap screw DIN 912 black high tensile steel",
+      "url": "https://www.google.com/search?q=M4+x+14+socket+cap+screw+DIN+912+black+high+tensile+steel",
+      "completed": true,
+      "outcome": "Opened exact Bolt Base listing and verified selected five-pack and product description."
+    }
+  ],
+  "result_url": "https://www.amazon.co.uk/Bolt-Base-Tensile-Socket-screws/dp/B00SN31L0O",
+  "product_name": "M4 x 14 Black 12.9 Grade High Tensile Hex Socket Cap Screws Self Colour Allen Bolts DIN 912",
+  "selected_variant": "M4 x 14 mm, selected five-pack",
+  "material_evidence": "Product detail text identifies Alloy Steel; description states high tensile grade 12.9 steel.",
+  "specification": "M4 x 14 mm, 0.7 mm pitch, full thread, length excludes head; socket cap head; 3 mm Allen key drive; black self colour; DIN 912.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

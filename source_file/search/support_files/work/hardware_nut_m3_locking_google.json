@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_nut_m3_locking",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M3 nylon insert locking nut steel",
+  "evidence_url": "https://www.google.com/search?q=M3+nylon+insert+locking+nut+steel",
+  "reason": "Frank's Fasteners confirms an M3 DIN 985 nylon locking nut made from zinc-plated steel, with a nylon insert.",
+  "search_evidence": "The Google result titled M3 Hexagon Nylon Locking Nuts (DIN 985) - Zinc Plated Steel was opened. Its page identifies SKU Z-NN-M3 and states steel, zinc plated, DIN 985, M3 thread size, 0.5mm pitch, nylon insert, 5.5mm maximum across flats and 2.4mm minimum height. The page describes this as a Grade 6 steel thin nyloc nut.",
+  "attempts": [
+    {
+      "term": "M3 nylon insert locking nut steel",
+      "url": "https://www.google.com/search?q=M3+nylon+insert+locking+nut+steel",
+      "completed": true,
+      "outcome": "Found and opened Frank's Fasteners M3 Hexagon Nylon Locking Nuts (DIN 985) - Zinc Plated Steel; exact M3 steel body and nylon insert were confirmed."
+    }
+  ],
+  "result_url": "https://franksfasteners.co.uk/products/m3-hexagon-nylon-locking-nuts-din-985-zinc-plated-steel",
+  "product_name": "M3 Hexagon Nylon Locking Nuts (DIN 985) - Zinc Plated Steel",
+  "selected_variant": "Fixed product: M3, Grade 6 steel, zinc plated, nylon insert, DIN 985",
+  "material_evidence": "Product information states Material Steel; the nylon is identified as the insert material. This is not a solid nylon nut.",
+  "specification": "Thread Size: M3; Thread Pitch: 0.5mm; Nut Width A/F max: 5.5mm; Hexagon Height min: 2.4mm; Material: Grade 6 steel; Insert Material: Nylon; Finish: Bright Zinc Plated; Form: hexagon nylon locking nut; Manufacturing Standard: DIN 985; SKU: Z-NN-M3.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

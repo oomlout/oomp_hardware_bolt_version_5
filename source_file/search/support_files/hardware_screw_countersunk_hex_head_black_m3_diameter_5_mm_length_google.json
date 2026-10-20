@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_screw_countersunk_hex_head_black_m3_diameter_5_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M3 x 5 socket countersunk screw DIN 7991 black high tensile steel",
+  "evidence_url": "https://www.google.com/search?q=M3+x+5+socket+countersunk+screw+DIN+7991+black+high+tensile+steel",
+  "reason": "The supplied Google term returned an exact Bolt World M3 x 5mm product page with matching socket countersunk head, 10.9 steel, self-colour black finish and DIN 7991.",
+  "search_evidence": "The exact supplied Google search returned the Bolt World listing M3 x 5mm Socket Countersunk Head Screw, High Tensile Grade 10.9 Steel, Self Colour Black, Allen Key Hex Socket, DIN 7991.",
+  "attempts": [
+    {
+      "term": "M3 x 5 socket countersunk screw DIN 7991 black high tensile steel",
+      "url": "https://www.google.com/search?q=M3+x+5+socket+countersunk+screw+DIN+7991+black+high+tensile+steel",
+      "completed": true,
+      "outcome": "Opened Bolt World exact listing. Selected product option is M3 (3mm) x 5mm, SKU 10170.030.005. Page confirms steel class 10.9, self-colour/plain finish, metric thread, right-hand 0.50 pitch, socket countersunk head, total length 5mm including head, DIN 7991; available."
+    }
+  ],
+  "result_url": "https://boltworld.co.uk/products/m3-x-5mm-socket-screw-bolt-countersunk-high-tensile-grade-10-9-self-colour-din-7991/",
+  "product_name": "M3 X 5mm Socket Countersunk Head Screw – High Tensile Grade 10.9 Steel, Self Colour Black, Allen Key Hex Socket, DIN 7991",
+  "selected_variant": "M3 (3mm); 5mm; SKU 10170.030.005",
+  "material_evidence": "Steel, class 10.9",
+  "specification": "Thread size M3; length 5mm including head; metric right-hand thread pitch 0.50; socket countersunk head; Allen key hex socket drive; steel class 10.9; self-colour/plain black finish; DIN 7991.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

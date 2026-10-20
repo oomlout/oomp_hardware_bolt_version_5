@@ -1,3 +1,54 @@
+search_data:
+  aliexpress:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M6 x 50 hex head fully threaded set screw DIN 933 white nylon
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+50+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+    selected_variant: ''
+    specification: ''
+    status: pending
+  ebay:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M6 x 50 hex head fully threaded set screw DIN 933 white nylon
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+50+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+    selected_variant: ''
+    specification: ''
+    status: pending
+  google:
+    checked_at: '2026-10-14T11:11:28.292333+00:00'
+    evidence_file: support_files/evidence/hardware_set_screw_m6_nylon_white_50_mm_length/google/1e5e25690f3f4101af4dc6cb9d0d6f6d.yaml
+    evidence_url: https://www.google.com/search?q=M6+x+50+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+    material_evidence: Product title states White Plastic Nylon; item details list
+      Colour White.
+    product_name: Ochoos 200pcs DIN933 M6 x 50 Fully Threaded White Plastic Nylon
+      Bolts Hexagon Hex Head Bolt Set Screw Setscrews
+    reason: The Google result opened to the exact M6 x 50 listing. The product page
+      explicitly identifies DIN933, fully threaded, white plastic nylon, hex head
+      and Colour White. The page currently says unavailable, which is recorded as
+      availability context and does not change the product specification.
+    result_url: https://www.amazon.ca/Ochoos-Threaded-Plastic-Hexagon-Setscrews/dp/B07R686XS8
+    search_evidence: Google result for the exact supplied query showed the Ochoos
+      listing. The opened Amazon.ca product page title and image description state
+      DIN933, M6 x 50, fully threaded, white plastic nylon and hexagon hex head; product
+      information lists Colour White. The item is currently unavailable.
+    search_for: M6 x 50 hex head fully threaded set screw DIN 933 white nylon
+    search_url: https://www.google.com/search?q=M6+x+50+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+    selected_variant: M6 x 50 DIN933 fully threaded hex head; white plastic nylon
+    specification: M6 x 50; DIN933; fully threaded; hexagon hex head; white nylon.
+    status: verified
 spec_iso_b_125_lt_l_le_200_mm: '24'
 spec_iso_b_l_gt_200_mm: ''
 spec_iso_b_l_le_125_mm: '18'

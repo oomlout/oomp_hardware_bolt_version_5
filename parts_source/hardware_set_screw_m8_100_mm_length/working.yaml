@@ -1,3 +1,53 @@
+search_data:
+  aliexpress:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M8 x 100 hex head fully threaded set screw DIN 933 steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M8+x+100+hex+head+fully+threaded+set+screw+DIN+933+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  ebay:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M8 x 100 hex head fully threaded set screw DIN 933 steel
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+x+100+hex+head+fully+threaded+set+screw+DIN+933+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  google:
+    checked_at: '2026-10-14T11:11:57.807795+00:00'
+    evidence_file: support_files/evidence/hardware_set_screw_m8_100_mm_length/google/c7cc1fc88b134950930f503eeb50bd3a.yaml
+    evidence_url: https://www.google.com/search?q=M8+x+100+hex+head+fully+threaded+set+screw+DIN+933+steel
+    material_evidence: Product page states high tensile steel grade 8.8.
+    product_name: M8 x 100 Hexagon Head Set Screws High Tensile Grade 8.8 Zinc Yellow,
+      DIN 933
+    reason: The Google result opened to the exact Orbital Fasteners M8 x 100 product.
+      Its page states high tensile steel grade 8.8, zinc yellow, DIN 933 and fully
+      threaded hexagon head.
+    result_url: https://www.orbitalfasteners.co.uk/products/m8x100-88-hex-set-zy-box-100-din-933-yellow
+    search_evidence: Google returned Orbital Fasteners for the exact supplied query.
+      The opened product page title specifies M8 x 100, grade 8.8, zinc yellow and
+      DIN 933; product text confirms fully threaded hexagon headed set screw and high
+      tensile steel grade 8.8 zinc yellow. Page SKU 1851419.
+    search_for: M8 x 100 hex head fully threaded set screw DIN 933 steel
+    search_url: https://www.google.com/search?q=M8+x+100+hex+head+fully+threaded+set+screw+DIN+933+steel
+    selected_variant: M8 x 100, SKU 1851419, grade 8.8, zinc yellow
+    specification: M8 x 100; hexagon head; fully threaded; DIN 933; high tensile steel
+      grade 8.8; zinc yellow finish.
+    status: verified
 spec_iso_b_125_lt_l_le_200_mm: '28'
 spec_iso_b_l_gt_200_mm: '41'
 spec_iso_b_l_le_125_mm: '22'
@@ -12,6 +62,319 @@ spec_iso_nominal_diameter: M8
 spec_iso_s_max_mm: '13.00'
 spec_iso_s_min_mm: '12.73'
 spec_iso_thread_pitch_mm: '1.25'
+supplier_data:
+  accu:
+    accepted_warnings: '["Accu displayed prices are rounded; derived totals use the
+      captured display precision", "Final Accu price tier has no captured upper boundary;
+      final advertised unit price extended by user policy"]'
+    box_quantity: ''
+    captured_at: '2026-10-13T22:51:38.321150+00:00'
+    currency: GBP
+    description: Fully Threaded Hexagon Bolts are designed for use in heavy-duty fastening
+      applications, and feature a hexagonal head for use with a standard spanner.
+      As their name suggests, these fasteners are threaded all the way up to the head
+      of the bolt, making them ideal for installation into pre-threaded holes. Plain
+      Hexagon Bolts, with a reinforced unthreaded shaft section, are also available.
+      All Full Thread Hexagon Headed Bolts are precision rolled to achieve general
+      tolerances of +/-0.13mm. These components feature a full thread which runs the
+      entire length of the bolt's shaft, and are designed for use alongside Accu's
+      Hexagon Nuts ranges. Fully Threaded Hexagon Bolt Materials Components within
+      the Full Thread Hexagon Bolts range are available in an array of materials,
+      including High-Tensile Steel (8.8, 10.9 & 12.9), A2, A4 and A4-80 Stainless
+      Steel, BUMAX, Brass, Aluminium, Ceramic, Phosphor Bronze, Nylon, Polypropylene,
+      Polyvinylidene, Polycarbonate, Reny, Polyphenylene and PEEK.  Ensure your Metric
+      Full thread Hexagon Bolts stay secure with our advanced pre-applied thread-locking
+      patches. Whether you need AccuLock Threadlocker for essential fastening, Anu-Lok
+      180 for added grip, or Precote 80 for maximum performance, we have the right
+      solution. For a refined aesthetic, AccuBlack chemical blackening reduces glare
+      while enhancing the surface finish. Metric Fully Threaded Hexagon Bolts Metric
+      Full Thread Hexagon Headed Bolts manufactured according to DIN 933, and are
+      available in diameters ranging from M2 up to M36. Lengths of between 3mm and
+      200mm are also available as standard. Non-Standard sizes are available on request.
+      Imperial Fully Threaded Hexagon Bolts Imperial Full Thread Hexagon Headed Bolts
+      are available in a number of thread diameters, ranging from 1/4 inch up to No.
+      12, and lengths of between 1/4 inch and 12 inch. These components are manufactured
+      to ANSI B18.6.3. Additional sizes are also available on request.
+    html_sha256: e67811ea3cac5ecc0ca65806dd4b99a60c3519d79d479d300405b265381c3554
+    name: M8 x 100mm Full Thread Hex Bolts (DIN 933) - Bright Zinc Plated High Tensile
+      Steel (8.8)
+    parsed_at: '2026-10-18T08:52:55.617057+00:00'
+    parser_version: accu-1.9-base-material
+    price_inheritance: '{"1000": {"source_quantity": 250, "source_unit_price": "0.17",
+      "source_text": "Buy 250 £0.17 Save 81 %", "basis": "user policy 2026-10-13"},
+      "10000": {"source_quantity": 250, "source_unit_price": "0.17", "source_text":
+      "Buy 250 £0.17 Save 81 %", "basis": "user policy 2026-10-13"}}'
+    quote_minimum: ''
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept rounded displayed prices, open-ended final advertised tiers,
+      and quotes required from 400 units; quote-only prices remain blank."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.13", "highPrice": "0.92",
+      "priceCurrency": "GBP", "offerCount": "13", "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/full-thread-hexagon-bolts/1008589-SEBF-M8-100-8-8-BZP",
+      "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type": "QuantitativeValue",
+      "value": 1, "unitCode": "ANN"}}}'
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "accus prices are all ex vat", "confirmed_on": "2026-10-13"}'
+    specifications: '{"Accu Product Code (APC)": "SEBF-M8-100-8.8-BZP", "Thread Size":
+      "M8 (8 mm)", "Length (L)": "100 mm", "Socket Size (J)": "13 mm (Tolerance: +0/-0.27
+      mm)", "Material": "Steel - High Tensile (8.8)", "Finish": "Bright Zinc Plated",
+      "Drive Type": "Hex", "Full Thread": "Yes", "Head Length (H)": "5.3 mm", "Manufacturing
+      Standard": "DIN 933", "Material Family": "Steel", "System of Measurement": "Metric"}'
+    status: ok
+    stock_quantity: ''
+    stock_status: https://schema.org/InStock
+    supplier: accu
+    supplier_id: SEBF-M8-100-8.8-BZP
+    supplier_part_number: SEBF-M8-100-8.8-BZP
+    supplier_website: https://www.accu.co.uk/full-thread-hexagon-bolts/1008589-SEBF-M8-100-8-8-BZP
+    tiers:
+    - maximum: 1
+      minimum: 1
+      source_text: Buy 1 £0.92
+      source_unit_price: '0.92'
+      source_vat_basis: exclusive
+      unit_price: '1.1040'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 3
+      minimum: 2
+      source_text: Buy 2 £0.56 Save 39 %
+      source_unit_price: '0.56'
+      source_vat_basis: exclusive
+      unit_price: '0.6720'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 5
+      minimum: 4
+      source_text: Buy 4 £0.39 Save 57 %
+      source_unit_price: '0.39'
+      source_vat_basis: exclusive
+      unit_price: '0.4680'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 11
+      minimum: 6
+      source_text: Buy 6 £0.30 Save 67 %
+      source_unit_price: '0.30'
+      source_vat_basis: exclusive
+      unit_price: '0.3600'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 23
+      minimum: 12
+      source_text: Buy 12 £0.24 Save 73 %
+      source_unit_price: '0.24'
+      source_vat_basis: exclusive
+      unit_price: '0.2880'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 49
+      minimum: 24
+      source_text: Buy 24 £0.21 Save 77 %
+      source_unit_price: '0.21'
+      source_vat_basis: exclusive
+      unit_price: '0.2520'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 99
+      minimum: 50
+      source_text: Buy 50 £0.19 Save 79 %
+      source_unit_price: '0.19'
+      source_vat_basis: exclusive
+      unit_price: '0.2280'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 249
+      minimum: 100
+      source_text: Buy 100 £0.18 Save 80 %
+      source_unit_price: '0.18'
+      source_vat_basis: exclusive
+      unit_price: '0.2160'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      maximum_basis: user-approved open-ended final tier; no captured upper boundary
+      minimum: 250
+      source_text: Buy 250 £0.17 Save 81 %
+      source_unit_price: '0.17'
+      source_vat_basis: exclusive
+      unit_price: '0.2040'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '1.1040'
+    total_price_10: '3.6000'
+    total_price_100: '21.6000'
+    total_price_1000: '204.0000'
+    total_price_10000: '2040.0000'
+    unit_price_1: '1.1040'
+    unit_price_10: '0.3600'
+    unit_price_100: '0.2160'
+    unit_price_1000: '0.2040'
+    unit_price_10000: '0.2040'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Accu displayed prices are rounded; derived totals use the captured display precision
+    - Final Accu price tier has no captured upper boundary; final advertised unit
+      price extended by user policy
+  dibolt:
+    accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-14T00:51:29.012312+00:00'
+    currency: GBP
+    html_sha256: cfcd54b7c35ac71c7ad758d96bda9503799dfcc2849685b0c68571594d1f8492
+    name: M8 x 100mm Hexagon Head Set Screws Bolts Fully Threaded Self Colour Black
+      Grade 8.8, DIN 933
+    packages: '[]'
+    parsed_at: '2026-10-18T09:03:32.413715+00:00'
+    parser_version: dibolt-1.3-missing-price-review
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept the precision of rounded displayed per-100 prices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M8 (8mm); Length (L): 100mm; Material: High Tensile
+      (Grade 8.8); Finish: Self Colour; Head Length (H): 5.54mm; Pitch: 1.25mm; Socket
+      Size (J): 13mm; Manufacturing Standard: 933; Material Specification: High Tensile
+      (Grade 8.8); Fully Threaded: Yes'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: dibolt
+    supplier_id: 20324.080.100
+    supplier_part_number: 20324.080.100
+    supplier_website: https://dibolt.co.uk/products/m8-x-100mm-hexagon-head-set-screw-fully-threaded-din-933-self-colour-black-8-8
+    tiers:
+    - maximum: 199
+      minimum: 1
+      source_text: 1 - 199 £18.94 Per 100 Units
+      source_unit_price: '0.1894'
+      source_vat_basis: exclusive
+      unit_price: '0.227280'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 999
+      minimum: 200
+      source_text: 200 - 999 £17.99 Per 100 Units
+      source_unit_price: '0.1799'
+      source_vat_basis: exclusive
+      unit_price: '0.215880'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 1000
+      source_text: 1,000+ £17.05 Per 100 Units
+      source_unit_price: '0.1705'
+      source_vat_basis: exclusive
+      unit_price: '0.204600'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.227280'
+    total_price_10: '2.272800'
+    total_price_100: '22.728000'
+    total_price_1000: '204.600000'
+    total_price_10000: '2046.000000'
+    unit_price_1: '0.227280'
+    unit_price_10: '0.227280'
+    unit_price_100: '0.227280'
+    unit_price_1000: '0.204600'
+    unit_price_10000: '0.204600'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Dibolt per-100 displayed prices are rounded; derived totals use captured display
+      precision
+  kayfast:
+    accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-18T09:07:12.136541+00:00'
+    currency: GBP
+    family_description: Metric coarse threads. High tensile grade 8.8. Bright zinc
+      plated. Manufactured to DIN 933 All sizes are fully threaded Screw lengths is
+      do not include the head
+    family_heading: METRIC HEXAGON HEAD SET SCREW DIN 933 ZINC PLATED 8.8
+    html_sha256: e0aa2a9eabee0db7a385d35f6866c99945af5a9e2215653272db0e0fc29fb60b
+    name: M8 x 100mm HEXAGON HEAD SET SCREW DIN 933 ZINC PLATED GRADE 8.8
+    packages: '[]'
+    parsed_at: '2026-10-18T09:31:04.356670+00:00'
+    parser_version: kayfast-1.6-family-description
+    price_breaks_description: M8 x 100mm HEXAGON HEAD SET SCREW DIN 933 ZINC PLATED
+      GRADE 8.8
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+      "statement": "Use the exact row dropdown price per 100 divided by 100 with Decimal
+      precision; accept the captured per-100 display precision."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+    specifications: METRIC HEXAGON HEAD SET SCREW DIN 933 ZINC PLATED 8.8; Metric
+      coarse threads. High tensile grade 8.8. Bright zinc plated. Manufactured to
+      DIN 933 All sizes are fully threaded Screw lengths is do not include the head
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: kayfast
+    supplier_id: M8-x-100mm-HEXAGON-HEAD-SET-SCREW-DIN-933-ZINC-PLATED-GRADE-8.8
+    supplier_id_basis: exact dimensional row description; spaces replaced by hyphens
+      (user clarification 2026-10-11)
+    supplier_part_number: M8-x-100mm-HEXAGON-HEAD-SET-SCREW-DIN-933-ZINC-PLATED-GRADE-8.8
+    supplier_website: https://www.kayfast.co.uk/view-product/METRIC-HEXAGON-HEAD-SET-SCREW-DIN-933-ZINC-PLATED-88
+    tiers:
+    - maximum: 99
+      minimum: 1
+      source_price_per_100: '21.01'
+      source_price_quantity: 100
+      source_text: QTY 1 - 99 @ £21.01 per 100
+      source_unit_price: '0.2101'
+      source_vat_basis: exclusive
+      unit_price: '0.252120'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 499
+      minimum: 100
+      source_price_per_100: '15.85'
+      source_price_quantity: 100
+      source_text: QTY 100 -  499 @ £15.85 per 100
+      source_unit_price: '0.1585'
+      source_vat_basis: exclusive
+      unit_price: '0.190200'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 500
+      source_price_per_100: '13.13'
+      source_price_quantity: 100
+      source_text: QTY 500 + @ £13.13 per 100
+      source_unit_price: '0.1313'
+      source_vat_basis: exclusive
+      unit_price: '0.157560'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.252120'
+    total_price_10: '2.521200'
+    total_price_100: '19.020000'
+    total_price_1000: '157.560000'
+    total_price_10000: '1575.600000'
+    unit_price_1: '0.252120'
+    unit_price_10: '0.252120'
+    unit_price_100: '0.190200'
+    unit_price_1000: '0.157560'
+    unit_price_10000: '0.157560'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Kayfast per-100 displayed prices are rounded; derived totals use captured display
+      precision
 svg_details:
 - svg_b_125_lt_l_le_200_mm: '28'
   svg_b_l_gt_200_mm: '41'

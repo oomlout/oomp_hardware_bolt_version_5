@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_screw_socket_cap_hex_head_black_m5_diameter_80_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M5 x 80 socket cap screw DIN 912 black high tensile steel",
+  "evidence_url": "https://www.google.com/search?q=M5+x+80+socket+cap+screw+DIN+912+black+high+tensile+steel",
+  "reason": "Exact M5 x 80 black Grade 12.9 DIN 912 socket cap verified on Amazon product page.",
+  "search_evidence": "Google result opened to Amazon Bolt Base listing B00SN3HVQC.",
+  "attempts": [
+    {
+      "term": "M5 x 80 socket cap screw DIN 912 black high tensile steel",
+      "url": "https://www.google.com/search?q=M5+x+80+socket+cap+screw+DIN+912+black+high+tensile+steel",
+      "completed": true,
+      "outcome": "Amazon product page confirms M5 x 80 mm excluding head, 0.8 mm pitch, DIN 912 socket cap with hex socket, Grade 12.9 high tensile steel, black self-colour, package quantity 5. Google result description says not threaded full length."
+    }
+  ],
+  "result_url": "https://www.amazon.co.uk/Bolt-Base-Tensile-Socket-screws/dp/B00SN3HVQC",
+  "product_name": "M5 x 80 Black 12.9 Grade High Tensile Hex Socket Cap Screws Self Colour Allen Bolts DIN 912",
+  "selected_variant": "M5 x 80 mm excluding head; 0.8 mm pitch; selected package quantity 5; partial thread per Google result description.",
+  "material_evidence": "Product page states High Tensile Grade 12.9 Steel and Material: Steel.",
+  "specification": "DIN 912; M5 x 80 mm; 0.8 mm pitch; socket cap with hex socket; Grade 12.9 steel; black self-colour; partial thread.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

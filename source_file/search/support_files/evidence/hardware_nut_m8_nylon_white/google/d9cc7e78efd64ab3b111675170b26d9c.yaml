@@ -1,0 +1,38 @@
+oomp_id: hardware_nut_m8_nylon_white
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M8 hexagon full nut white nylon
+evidence_url: https://www.google.com/search?q=M8+hexagon+full+nut+white+nylon
+reason: Spalding Fasteners explicitly identifies white nylon hexagon full nuts and
+  gives the M8 thread, pitch, across-flats and height dimensions.
+search_evidence: The supplied Google query returned Spalding Fasteners’ Metric White
+  Nylon Full Nuts DIN 934 listing for M8. The selected product page describes white
+  nylon hexagon full nuts with metric coarse threads. Its M8 size row gives 1.25 mm
+  pitch, 13 mm across flats and 6.5 mm nut height; the page lists them as DIN 934
+  pattern nuts.
+attempts:
+- term: M8 hexagon full nut white nylon
+  url: https://www.google.com/search?q=M8+hexagon+full+nut+white+nylon
+  completed: true
+  outcome: Opened Spalding Fasteners’ Metric White Nylon Full Nuts DIN 934 page from
+    the M8 listing. Its description and key features specify white nylon hexagon full
+    nut form; the M8 row gives 1.25 mm pitch, 13 mm across flats and 6.5 mm height,
+    with DIN 934 pattern.
+result_url: https://www.spaldingfasteners.co.uk/PARENT1303
+product_name: Metric White Nylon Hexagon Full Nuts DIN 934
+selected_variant: M8 size row; pitch 1.25 mm; across flats 13 mm; height 6.5 mm
+material_evidence: Page description states white nylon hexagon full nuts; key features
+  state white nylon construction.
+specification: 'Thread Size: M8; metric coarse thread; pitch 1.25 mm; hexagon full
+  nut; across flats 13 mm; height 6.5 mm; white nylon; DIN 934 pattern.'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:22:44.807786+00:00'
+validator_version: 1

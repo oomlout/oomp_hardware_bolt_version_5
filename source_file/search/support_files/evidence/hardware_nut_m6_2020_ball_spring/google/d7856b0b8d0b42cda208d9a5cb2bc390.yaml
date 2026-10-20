@@ -1,0 +1,48 @@
+oomp_id: hardware_nut_m6_2020_ball_spring
+platform: google
+method: codex_builtin_browser
+status: unresolved
+search_for: M6 2020 spring ball loaded nut 20x20 carbon steel
+evidence_url: https://www.google.com/search?q=M6+2020+spring+ball+loaded+nut+20x20+carbon+steel
+reason: Candidate product pages show M6 spring-ball nuts for 20 Series extrusion and
+  nickel-plated steel, but do not establish the exact 2020/20x20 profile compatibility
+  and selected thread pitch required for this row. The two-search/two-page budget
+  is exhausted.
+search_evidence: Search 1 returned Ooznest M6 20 Series T/V-Slot Spring Ball Loaded
+  Nut. The opened page showed selected Profile Series 20 Series, Thread M6, SKU SBLN-20-M6,
+  nickel plating and spring-ball form, but no stated thread pitch or explicit 2020/20x20
+  compatibility. Search 2 returned OG Secure's 20 Series - 2020 T-nut Spring/Swivel/Roll-in
+  Ball; its M6 option is available and page says nickel-plated steel, but no thread
+  pitch or dimensional table was provided. Neither page fully establishes the encoded
+  profile identity and dimensions.
+attempts:
+- term: M6 2020 extrusion ball spring nut steel
+  url: https://www.google.com/search?q=M6+2020+extrusion+ball+spring+nut+steel
+  completed: true
+  outcome: Opened Ooznest M6 20 Series T/V-Slot Spring Ball Loaded Nut. Selected 20
+    Series and M6; page says nickel-plated and spring-ball loaded, SKU SBLN-20-M6.
+    It did not state thread pitch or explicitly identify 2020/20x20 compatibility.
+- term: M6 2020 spring ball loaded nut 20x20 carbon steel
+  url: https://www.google.com/search?q=M6+2020+spring+ball+loaded+nut+20x20+carbon+steel
+  completed: true
+  outcome: Opened OG Secure T-nut Spring/Swivel/Roll-in Ball. M6 is selectable in
+    20 Series, page says nickel-plated steel, but no thread pitch or selected-part
+    dimensions were supplied.
+result_url: https://ooznest.co.uk/product/m6-20-series-spring-ball-loaded-nut-t-v-slot-nickel-plated/
+product_name: M6 20 Series T/V-Slot Spring Ball Loaded Nut (Nickel Plated)
+selected_variant: Ooznest product options selected 20 Series and M6; SKU SBLN-20-M6
+material_evidence: Ooznest product description states nickel-plated; technical description
+  identifies the selected item as a spring ball loaded nut but does not specify base
+  steel grade. OG Secure page states nickel-plated steel.
+specification: 'Ooznest: 20 Series T/V-slot; M6 selected; spring ball loaded; nickel-plated;
+  SKU SBLN-20-M6. Thread pitch and explicit 2020/20x20 compatibility not stated.'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: false
+  form: true
+  material: false
+  finish: true
+  standard: false
+checked_at: '2026-10-14T09:14:33.137389+00:00'
+validator_version: 1

@@ -1,3 +1,53 @@
+search_data:
+  aliexpress:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M6 x 15 hex head fully threaded set screw DIN 933 white nylon
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+    selected_variant: ''
+    specification: ''
+    status: pending
+  ebay:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M6 x 15 hex head fully threaded set screw DIN 933 white nylon
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+    selected_variant: ''
+    specification: ''
+    status: pending
+  google:
+    checked_at: '2026-10-14T11:08:53.210209+00:00'
+    evidence_file: support_files/evidence/hardware_set_screw_m6_nylon_white_15_mm_length/google/c86565cdd7f14a19821b984bdb7960b7.yaml
+    evidence_url: https://www.google.com/search?q=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+    material_evidence: ''
+    product_name: ''
+    reason: Google returned an exact-size Bolt World nylon product, but the selected
+      product page does not identify the nylon colour as white. The page identifies
+      Nylon 66 but does not establish eligibility for this nylon_white ID. The exact-length
+      eBay result was not opened because that platform is blocked.
+    result_url: ''
+    search_evidence: The exact Google query returned Bolt World's M6 x 15mm hexagon
+      head set screw. Its product page shows the selected M6 (6mm) and 15mm options,
+      nylon (plastic), fully threaded DIN 933 form, but does not state the colour.
+      Google also returned an eBay result describing White (Natural), but eBay is
+      blocked and was not inspected.
+    search_for: M6 x 15 hex head fully threaded set screw DIN 933 white nylon
+    search_url: https://www.google.com/search?q=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+    selected_variant: ''
+    specification: ''
+    status: unresolved
 spec_iso_b_125_lt_l_le_200_mm: '24'
 spec_iso_b_l_gt_200_mm: ''
 spec_iso_b_l_le_125_mm: '18'

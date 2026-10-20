@@ -1,3 +1,212 @@
+search_data:
+  aliexpress:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M6 coupling connector nut steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+coupling+connector+nut+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  ebay:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M6 coupling connector nut steel
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+coupling+connector+nut+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  google:
+    checked_at: '2026-10-14T09:16:39.825272+00:00'
+    evidence_file: support_files/evidence/hardware_nut_m6_coupling/google/18afb04ddb09403ea6a01f2600192caf.yaml
+    evidence_url: https://www.google.com/search?q=M6+hexagon+coupling+nut+carbon+steel+DIN+6334+zinc+plated
+    material_evidence: Product features state carbon steel, minimum Class 6; specifications
+      list steel.
+    product_name: 5 x M6 Hex Coupling Nuts - Threaded Rod Connector Studding Extension
+      - BZP Steel Class 6 - DIN 6334
+    reason: The selected B&Q product is an M6 hex coupling nut to DIN 6334, made from
+      carbon steel with bright zinc plating and metric coarse thread.
+    result_url: https://www.diy.com/departments/5-x-m6-hex-coupling-nuts-threaded-rod-connector-studding-extension-bzp-steel-class-6-din-6334/5056826613370_BQ.prd
+    search_evidence: The refined Google query returned the exact B&Q product. Its
+      product page lists M6 selected, DIN 6334, hex nut type, steel, zinc plating,
+      standard metric coarse pitch and a DIN length three times nominal diameter (18
+      mm for M6). The page currently reports out of stock; the product specification
+      still confirms the exact mapping.
+    search_for: M6 hexagon coupling nut carbon steel DIN 6334 zinc plated
+    search_url: https://www.google.com/search?q=M6+hexagon+coupling+nut+carbon+steel+DIN+6334+zinc+plated
+    selected_variant: Bolt size M6 selected; product code 5056826613370; pack of 5
+    specification: M6 hex coupling nut; standard metric coarse pitch; DIN 6334; DIN
+      length 3 x nominal diameter = 18 mm; bright zinc plated; carbon steel Class
+      6.
+    status: verified
+supplier_data:
+  kayfast:
+    accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-14T09:07:28.240931+00:00'
+    currency: GBP
+    family_description: Hexagon stud connector nuts. Used to connect 2 threaded parts
+      together. Manufactured from zinc plated steel. All connectors are fully threaded
+      internally. Threads are standard metric coarse pitch.
+    family_heading: HEXAGON STUD CONNECTOR NUTS DIN 6334 ZINC PLATED
+    html_sha256: 13231c9a3224800edacf6d40720aa41be3b8a86a440b3123be9e5bf7980c8ba5
+    name: M6 x 18mm HEXAGON STUD CONNECTOR NUT DIN 6334 ZINC PLATED STEEL
+    packages: '[]'
+    parsed_at: '2026-10-18T09:29:58.337387+00:00'
+    parser_version: kayfast-1.6-family-description
+    price_breaks_description: M6 x 18mm HEXAGON STUD CONNECTOR NUT DIN 6334 ZINC PLATED
+      STEEL
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+      "statement": "Use the exact row dropdown price per 100 divided by 100 with Decimal
+      precision; accept the captured per-100 display precision."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+    specifications: HEXAGON STUD CONNECTOR NUTS DIN 6334 ZINC PLATED; Hexagon stud
+      connector nuts. Used to connect 2 threaded parts together. Manufactured from zinc
+      plated steel. All connectors are fully threaded internally. Threads are standard
+      metric coarse pitch.
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: kayfast
+    supplier_id: M6-x-18mm-HEXAGON-STUD-CONNECTOR-NUT-DIN-6334-ZINC-PLATED-STEEL
+    supplier_id_basis: exact dimensional row description; spaces replaced by hyphens
+      (user clarification 2026-10-11)
+    supplier_part_number: M6-x-18mm-HEXAGON-STUD-CONNECTOR-NUT-DIN-6334-ZINC-PLATED-STEEL
+    supplier_website: https://www.kayfast.co.uk/view-product/HEXAGON-STUD-CONNECTOR-NUTS-DIN-6334-ZINC-PLATED
+    tiers:
+    - maximum: 19
+      minimum: 1
+      source_price_per_100: '8.46'
+      source_price_quantity: 100
+      source_text: QTY 1 - 19 @ £8.46 per 100
+      source_unit_price: '0.0846'
+      source_vat_basis: exclusive
+      unit_price: '0.101520'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 99
+      minimum: 20
+      source_price_per_100: '7.06'
+      source_price_quantity: 100
+      source_text: QTY 20 -  99 @ £7.06 per 100
+      source_unit_price: '0.0706'
+      source_vat_basis: exclusive
+      unit_price: '0.084720'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 100
+      source_price_per_100: '6.35'
+      source_price_quantity: 100
+      source_text: QTY 100 + @ £6.35 per 100
+      source_unit_price: '0.0635'
+      source_vat_basis: exclusive
+      unit_price: '0.076200'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.101520'
+    total_price_10: '1.015200'
+    total_price_100: '7.620000'
+    total_price_1000: '76.200000'
+    total_price_10000: '762.000000'
+    unit_price_1: '0.101520'
+    unit_price_10: '0.101520'
+    unit_price_100: '0.076200'
+    unit_price_1000: '0.076200'
+    unit_price_10000: '0.076200'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Kayfast per-100 displayed prices are rounded; derived totals use captured display
+      precision
+  orbitalfasteners:
+    accepted_warnings: '[]'
+    box_quantity: '100'
+    captured_at: '2026-10-13T07:24:36.528726+00:00'
+    catalogue_page: '25'
+    currency: GBP
+    description: ''
+    html_sha256: abf549e34f6a9fba8a38dee38df0025939be91ed798afb0beedffd584c447934
+    name: Studding Connectors, Mild Steel M6 x 18 Bright Zinc Plated, Grade 4 DIN
+      6334
+    parsed_at: '2026-10-18T08:49:27.064718+00:00'
+    parser_version: 1.2-review-policy
+    review_policy: ''
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: inclusive
+    status: ok
+    stock_as_of: 12th October 2026 10:01pm
+    stock_quantity: '3223'
+    supplier: orbitalfasteners
+    supplier_id: '1961000'
+    supplier_part_number: '1961000'
+    supplier_website: https://www.orbitalfasteners.co.uk/products/studding-connectors-mild-steel-m6x18-bright-zinc-plated-grade-4-din-6334-din-6334
+    tiers:
+    - maximum: 99
+      minimum: 1
+      source_text: 1 - 99 £0.0846 Inc. VAT £8.46 Inc. VAT
+      source_unit_price: '0.0846'
+      source_vat_basis: inclusive
+      unit_price: '0.0846'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 499
+      minimum: 100
+      source_text: 100 - 499 £0.0706 Inc. VAT £7.06 Inc. VAT
+      source_unit_price: '0.0706'
+      source_vat_basis: inclusive
+      unit_price: '0.0706'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 1199
+      minimum: 500
+      source_text: 500 - 1199 £0.0635 Inc. VAT £6.35 Inc. VAT
+      source_unit_price: '0.0635'
+      source_vat_basis: inclusive
+      unit_price: '0.0635'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 1200
+      source_text: 1200 + £0.0564 Inc. VAT £5.64 Inc. VAT
+      source_unit_price: '0.0564'
+      source_vat_basis: inclusive
+      unit_price: '0.0564'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.0846'
+    total_price_10: '0.8460'
+    total_price_100: '7.0600'
+    total_price_1000: '63.5000'
+    total_price_10000: '564.0000'
+    unit_price_1: '0.0846'
+    unit_price_10: '0.0846'
+    unit_price_100: '0.0706'
+    unit_price_1000: '0.0635'
+    unit_price_10000: '0.0564'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings: []
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''

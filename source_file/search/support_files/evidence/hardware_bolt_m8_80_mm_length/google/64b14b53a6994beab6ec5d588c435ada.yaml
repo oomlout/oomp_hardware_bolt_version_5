@@ -1,0 +1,41 @@
+oomp_id: hardware_bolt_m8_80_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M8 x 80 hex head part threaded bolt DIN 931 steel
+evidence_url: https://www.google.com/search?q=M8+x+80+hex+head+part+threaded+bolt+DIN+931+steel
+reason: The supplied search term returned the exact Accu M8 x 80mm DIN 931 hexagon
+  bolt, and the selected product specification confirms the requested dimensions,
+  part-thread geometry, steel, and finish.
+search_evidence: Opened the Accu result reached from the supplied Google search. Product
+  title identifies M8 x 80mm Plain Hexagon Bolts (DIN 931), Bright Zinc Plated High
+  Tensile Steel (8.8). Technical Specification identifies APC SEB-M8-80-8.8-BZP, Thread
+  Size M8, Length 80mm, Thread Length (Min) 22mm, Material Steel - High Tensile (8.8),
+  Finish Bright Zinc Plated, Manufacturing Standard DIN 931, and 13mm socket size.
+attempts:
+- term: M8 x 80 hex head part threaded bolt DIN 931 steel
+  url: https://www.google.com/search?q=M8+x+80+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: 'Exact Accu product opened and selected specifications verified: M8 x 80mm,
+    22mm minimum thread length, high tensile steel 8.8, Bright Zinc Plated, DIN 931.'
+result_url: https://www.accu.co.uk/metric-hexagon-bolts/640171-SEB-M8-80-8-8-BZP
+product_name: M8 x 80mm Plain Hexagon Bolts (DIN 931) - Bright Zinc Plated High Tensile
+  Steel (8.8)
+selected_variant: Accu Product Code SEB-M8-80-8.8-BZP; selected fixed variant M8 x
+  80mm, High Tensile Steel (8.8), Bright Zinc Plated.
+material_evidence: 'Accu Technical Specification states Material: Steel - High Tensile
+  (8.8) and Material Family: Steel.'
+specification: 'Thread Size: M8; Length (L): 80mm; Thread Length (Min) (E): 22mm;
+  hexagon head; partially threaded geometry (thread length is less than overall length);
+  Material: High Tensile Steel (8.8); Finish: Bright Zinc Plated; Manufacturing Standard:
+  DIN 931; Thread Pitch: 1.25mm; Socket Size: 13mm.'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T08:41:53.242893+00:00'
+validator_version: 1

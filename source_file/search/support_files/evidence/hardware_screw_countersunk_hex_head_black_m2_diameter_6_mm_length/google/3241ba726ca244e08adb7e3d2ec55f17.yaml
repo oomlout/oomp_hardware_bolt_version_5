@@ -1,0 +1,36 @@
+oomp_id: hardware_screw_countersunk_hex_head_black_m2_diameter_6_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M2 x 6 socket countersunk screw DIN 7991 black high tensile steel
+evidence_url: https://www.google.com/search?q=M2+x+6+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+reason: Exact GWR product is M2 x 6mm, fully threaded, DIN 7991, high tensile steel
+  10.9 with self-colour black finish; page shows stock available.
+search_evidence: Google results for the supplied term showed GWR Fasteners' exact
+  M2 x 6mm DIN 7991 high tensile 10.9 self-colour product and stock count. Opened
+  that page and verified its technical specification.
+attempts:
+- term: M2 x 6 socket countersunk screw DIN 7991 black high tensile steel
+  url: https://www.google.com/search?q=M2+x+6+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+  completed: true
+  outcome: GWR exact listing opened; M2 x 6mm product in stock with specified steel,
+    finish, head and standard.
+result_url: https://www.gwr-fasteners.co.uk/m2-x-6mm-socket-countersunk-screws-din-7991---high-tensile-steel-109-self-colour-94642-p.asp
+product_name: M2 x 6mm Socket Countersunk Screws (DIN 7991) - High Tensile Steel 10.9
+  Self Colour
+selected_variant: 'Fixed product: M2 x 6mm; thread diameter M2, pitch 0.4mm, length
+  including head 6mm, socket size 1.3mm, fully threaded.'
+material_evidence: Material listed as High Tensile Steel (10.9).
+specification: 'Thread Size: M2; Length (Including the Head): 6mm; Thread Pitch: 0.4mm;
+  Form: Socket Countersunk; Drive: Hex socket 1.3mm; Material: High Tensile Steel
+  (10.9); Finish: Self Colour Black; Manufacturing Standard: DIN 7991.'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:28:04.484665+00:00'
+validator_version: 1

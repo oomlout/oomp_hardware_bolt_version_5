@@ -83,6 +83,60 @@ oomlout_ai_roboclick_1:
             name_proper: Hardware Nut M1 4 Flanged
             name_space: hardware nut m1 4 flanged
             name_upper: HARDWARE NUT M1 4 FLANGED
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M1.4 flanged nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M1.4+flanged+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M1.4 flanged nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M1.4+flanged+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T08:44:56.826499+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m1_4_flanged/google/7ecb8010dbe743e3953f76d5a5b421c8.yaml
+                    evidence_url: https://www.google.com/search?q=M1.4+DIN+6923+steel+flange+nut
+                    material_evidence: ''
+                    product_name: ''
+                    reason: Original exact search for an M1.4 flanged nut in steel
+                        returned no exact flanged M1.4 product; the exact M1.4 result
+                        was a standard A1 stainless hex nut. The completed DIN 6923
+                        refinement showed flanged nuts starting at M4 or M5 and larger.
+                        No eligible M1.4 non-stainless steel flanged nut appeared
+                        in either completed exact search.
+                    result_url: ''
+                    search_evidence: 'First completed Google search: https://www.google.com/search?q=M1.4+flanged+nut+steel.
+                        Exact M1.4 supplier result was Accu''s standard M1.4 DIN 934
+                        stainless steel A1 hex nut; flange results were M4 or larger,
+                        with multiple M14 listings. Second completed Google search:
+                        https://www.google.com/search?q=M1.4+DIN+6923+steel+flange+nut.
+                        Results included DIN 6923 steel flange nut ranges and examples
+                        at M4 and above; no M1.4 steel flange nut.'
+                    search_for: M1.4 DIN 6923 steel flange nut
+                    search_url: https://www.google.com/search?q=M1.4+DIN+6923+steel+flange+nut
+                    selected_variant: ''
+                    specification: ''
+                    status: assumed_non_stocked
             taxonomy_1: hardware
             taxonomy_10: ''
             taxonomy_11: ''
@@ -98,6 +152,220 @@ oomlout_ai_roboclick_1:
             taxonomy_7: ''
             taxonomy_8: ''
             taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-13'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: approximate_visual_model
+                dimensional_specification: 'APPROXIMATE VISUAL MODEL: flange nut'
+                generator: din_6923_flange_nut
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Miniature visual extension of the sourced M3 flange
+                        proportions; pitch/flats selected separately. Availability
+                        and exact dimensions unverified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 3
+                    characteristic_dimension_basis: hexagon across flats
+                    characteristic_dimension_mm: 3
+                    expected_components: 1
+                    external_minor_diameter_mm: 1.0319392033916135
+                    family: nut
+                    finish: satin
+                    flange_diameter_mm: 3.64
+                    flange_edge_round_mm: 0.09325
+                    flange_thickness_mm: 0.373
+                    handedness: right
+                    height_convention: total axial nut height
+                    height_mm: 1.773
+                    hole_chamfer_mm: 0.11540063509461099
+                    hole_chamfer_slope: 1.7320508075688767
+                    identity: hardware_nut_m1_4_flanged
+                    internal_minor_diameter_mm: 1.0752404735808354
+                    mouth_diameter_mm: 1.4749999999999999
+                    nominal_diameter_mm: 1.4
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 1.773
+                    pitch_mm: 0.3
+                    specification: 'APPROXIMATE VISUAL MODEL: flange nut'
+                    thread_flank_angle_degrees: 60.0
+                    thread_pitch_diameter_mm: 1.2051442841485012
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_extensions.yaml
+                sources:
+                -   title: Westfield plain hex flange nuts DIN 6923, includes M3/M4
+                        supplier extensions
+                    url: https://www.westfieldfasteners.co.uk/Standards/Nut-HexFlgPln-M.pdf
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: null
+                standard_lengths_mm: []
+                standard_limits: {}
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
             url_chat: ''
         dict_data_files: {}
         dict_data_files_exists: {}
@@ -128,6 +396,62 @@ oomlout_ai_roboclick_2:
                         name_proper: Hardware Nut M1 4 Flanged
                         name_space: hardware nut m1 4 flanged
                         name_upper: HARDWARE NUT M1 4 FLANGED
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M1.4 flanged nut steel
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M1.4+flanged+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M1.4 flanged nut steel
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M1.4+flanged+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T08:44:56.826499+00:00'
+                                evidence_file: support_files/evidence/hardware_nut_m1_4_flanged/google/7ecb8010dbe743e3953f76d5a5b421c8.yaml
+                                evidence_url: https://www.google.com/search?q=M1.4+DIN+6923+steel+flange+nut
+                                material_evidence: ''
+                                product_name: ''
+                                reason: Original exact search for an M1.4 flanged
+                                    nut in steel returned no exact flanged M1.4 product;
+                                    the exact M1.4 result was a standard A1 stainless
+                                    hex nut. The completed DIN 6923 refinement showed
+                                    flanged nuts starting at M4 or M5 and larger.
+                                    No eligible M1.4 non-stainless steel flanged nut
+                                    appeared in either completed exact search.
+                                result_url: ''
+                                search_evidence: 'First completed Google search: https://www.google.com/search?q=M1.4+flanged+nut+steel.
+                                    Exact M1.4 supplier result was Accu''s standard
+                                    M1.4 DIN 934 stainless steel A1 hex nut; flange
+                                    results were M4 or larger, with multiple M14 listings.
+                                    Second completed Google search: https://www.google.com/search?q=M1.4+DIN+6923+steel+flange+nut.
+                                    Results included DIN 6923 steel flange nut ranges
+                                    and examples at M4 and above; no M1.4 steel flange
+                                    nut.'
+                                search_for: M1.4 DIN 6923 steel flange nut
+                                search_url: https://www.google.com/search?q=M1.4+DIN+6923+steel+flange+nut
+                                selected_variant: ''
+                                specification: ''
+                                status: assumed_non_stocked
                         taxonomy_1: hardware
                         taxonomy_10: ''
                         taxonomy_11: ''
@@ -143,6 +467,224 @@ oomlout_ai_roboclick_2:
                         taxonomy_7: ''
                         taxonomy_8: ''
                         taxonomy_9: ''
+                        three_d_model_details:
+                            checked_on: '2026-10-13'
+                            coordinate_system:
+                                axis: +Z along bore
+                                glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                                glb_units: metres
+                                glb_up_axis: Y
+                                origin: lower face centre
+                                stl_units: mm
+                            dimension_status: approximate_visual_model
+                            dimensional_specification: 'APPROXIMATE VISUAL MODEL:
+                                flange nut'
+                            generator: din_6923_flange_nut
+                            length_status: not_applicable
+                            material:
+                                base_colour_srgb:
+                                - 0.62
+                                - 0.65
+                                - 0.69
+                                coat_roughness: 0.28
+                                coat_weight: 0.02
+                                metallic: 1.0
+                                microtexture_height_um: 0.8
+                                microtexture_spacing_mm: 0.025
+                                name: Satin steel
+                                note: Visual finish approximation; catalogue specifies
+                                    colour only.
+                                roughness: 0.26
+                                roughness_variation: 0.045
+                            model_formats:
+                            - stl
+                            - glb
+                            modelling_choices:
+                                bearing: Bolt bearing circle and c selected within
+                                    limits; k includes bearing thickness; fillet tangent
+                                    to shaft and bearing.
+                                cavity: Nut through-bore has a helical internal surface;
+                                    display keeps minor-diameter bore and mouth chamfers.
+                                certification: Nominal visual catalogue model, not
+                                    manufacturing tolerance certification.
+                                chamfer: 30 degree outer hex chamfer. Nut mouth included
+                                    angle 120 degrees. Bolt tip 45 degrees, P/2.
+                                components: One closed solid.
+                                dimension_selection: Nominal bolt head height, max
+                                    flats/nut height, nominal washer sizes; selected
+                                    dimensions stored in parameters.
+                                display: Smooth nominal external-thread envelope or
+                                    smooth minor-diameter internal bore; lower angular
+                                    and fillet tessellation.
+                                family_note: Miniature visual extension of the sourced
+                                    M3 flange proportions; pitch/flats selected separately.
+                                    Availability and exact dimensions unverified.
+                                markings: Supplier and property-class markings omitted
+                                    because catalogue does not identify them.
+                                runout: External one-pitch fade to plain shank; full
+                                    thread ends at underhead fillet.
+                                thread: Nominal ISO basic metric profile, no ISO 965
+                                    tolerance offsets. External rounded root H/6,
+                                    internal P/4 crest and P/8 root flats.
+                                unspecified_geometry: Nut mouth for supplier rows
+                                    without limits and flange M3/M4 thickness/rim
+                                    blends are explicit visual model selections.
+                            output_folder: three_d_model
+                            parameters:
+                                across_flats_mm: 3
+                                characteristic_dimension_basis: hexagon across flats
+                                characteristic_dimension_mm: 3
+                                expected_components: 1
+                                external_minor_diameter_mm: 1.0319392033916135
+                                family: nut
+                                finish: satin
+                                flange_diameter_mm: 3.64
+                                flange_edge_round_mm: 0.09325
+                                flange_thickness_mm: 0.373
+                                handedness: right
+                                height_convention: total axial nut height
+                                height_mm: 1.773
+                                hole_chamfer_mm: 0.11540063509461099
+                                hole_chamfer_slope: 1.7320508075688767
+                                identity: hardware_nut_m1_4_flanged
+                                internal_minor_diameter_mm: 1.0752404735808354
+                                mouth_diameter_mm: 1.4749999999999999
+                                nominal_diameter_mm: 1.4
+                                outer_chamfer_angle_degrees: 30.0
+                                overall_height_mm: 1.773
+                                pitch_mm: 0.3
+                                specification: 'APPROXIMATE VISUAL MODEL: flange nut'
+                                thread_flank_angle_degrees: 60.0
+                                thread_pitch_diameter_mm: 1.2051442841485012
+                                thread_starts: 1
+                            renders:
+                                high:
+                                    file: render_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: isometric
+                                low:
+                                    file: render_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: isometric
+                                product_high:
+                                    file: render_product_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: product
+                                product_low:
+                                    file: render_product_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: product
+                            schema_version: 1
+                            source_table: source_file/standards/catalogue_extensions.yaml
+                            sources:
+                            -   title: Westfield plain hex flange nuts DIN 6923, includes
+                                    M3/M4 supplier extensions
+                                url: https://www.westfieldfasteners.co.uk/Standards/Nut-HexFlgPln-M.pdf
+                            -   title: ISO 68-1:1998 basic ISO metric thread profile
+                                url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                            standard: null
+                            standard_lengths_mm: []
+                            standard_limits: {}
+                            studio:
+                                adaptive_threshold: 0.015
+                                denoise: true
+                                device: auto
+                                engine: cycles
+                                exposure: 0.0
+                                floor_colour_srgb:
+                                - 0.93
+                                - 0.935
+                                - 0.94
+                                floor_roughness: 0.55
+                                framing_margin: 0.13
+                                high_samples: 160
+                                lights:
+                                -   colour:
+                                    - 1.0
+                                    - 0.96
+                                    - 0.9
+                                    height: 5.0
+                                    name: Key softbox
+                                    position:
+                                    - -3
+                                    - -4
+                                    - 6
+                                    power: 650.0
+                                    width: 4.0
+                                -   colour:
+                                    - 0.9
+                                    - 0.95
+                                    - 1.0
+                                    height: 4.0
+                                    name: Fill softbox
+                                    position:
+                                    - 4
+                                    - -1
+                                    - 3
+                                    power: 330.0
+                                    width: 3.0
+                                -   colour:
+                                    - 1.0
+                                    - 1.0
+                                    - 1.0
+                                    height: 5.0
+                                    name: Rim strip
+                                    position:
+                                    - 1
+                                    - 4
+                                    - 4
+                                    power: 850.0
+                                    width: 1.2
+                                look: AgX - Medium High Contrast
+                                low_samples: 48
+                                poses:
+                                    isometric:
+                                        camera_eye:
+                                        - 1
+                                        - -1
+                                        - 1
+                                        orientation: principal axis Z up
+                                        projection: orthographic
+                                    product:
+                                        camera_eye:
+                                        - -6
+                                        - -10
+                                        - 6
+                                        orientation: resting on lower face, bore visible
+                                        projection: orthographic
+                                        resting_axis: face
+                                        support: Stable convex-hull support using
+                                            actual mesh centre of mass.
+                                        yaw_degrees: -12.0
+                                seed: 7991
+                                view_transform: AgX
+                                world_colour:
+                                - 0.78
+                                - 0.82
+                                - 0.9
+                                world_strength: 0.35
+                            units: mm
+                            variants:
+                                display:
+                                    angular_segments: 24
+                                    fillet_segments: 3
+                                    samples_per_pitch: 1
+                                full:
+                                    angular_segments: 96
+                                    fillet_segments: 12
+                                    samples_per_pitch: 32
+                            views:
+                            - isometric
+                            - front
+                            - back
+                            - left
+                            - right
+                            - top
+                            - bottom
                         url_chat: ''
                     dict_data_files: {}
                     dict_data_files_exists: {}
@@ -151,6 +693,60 @@ oomlout_ai_roboclick_2:
                     search_and_replace: []
                 file_test: label_oomp.pdf
                 retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M1.4 flanged nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M1.4+flanged+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M1.4 flanged nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M1.4+flanged+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T08:44:56.826499+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m1_4_flanged/google/7ecb8010dbe743e3953f76d5a5b421c8.yaml
+                    evidence_url: https://www.google.com/search?q=M1.4+DIN+6923+steel+flange+nut
+                    material_evidence: ''
+                    product_name: ''
+                    reason: Original exact search for an M1.4 flanged nut in steel
+                        returned no exact flanged M1.4 product; the exact M1.4 result
+                        was a standard A1 stainless hex nut. The completed DIN 6923
+                        refinement showed flanged nuts starting at M4 or M5 and larger.
+                        No eligible M1.4 non-stainless steel flanged nut appeared
+                        in either completed exact search.
+                    result_url: ''
+                    search_evidence: 'First completed Google search: https://www.google.com/search?q=M1.4+flanged+nut+steel.
+                        Exact M1.4 supplier result was Accu''s standard M1.4 DIN 934
+                        stainless steel A1 hex nut; flange results were M4 or larger,
+                        with multiple M14 listings. Second completed Google search:
+                        https://www.google.com/search?q=M1.4+DIN+6923+steel+flange+nut.
+                        Results included DIN 6923 steel flange nut ranges and examples
+                        at M4 and above; no M1.4 steel flange nut.'
+                    search_for: M1.4 DIN 6923 steel flange nut
+                    search_url: https://www.google.com/search?q=M1.4+DIN+6923+steel+flange+nut
+                    selected_variant: ''
+                    specification: ''
+                    status: assumed_non_stocked
             taxonomy_1: hardware
             taxonomy_10: ''
             taxonomy_11: ''
@@ -166,6 +762,220 @@ oomlout_ai_roboclick_2:
             taxonomy_7: ''
             taxonomy_8: ''
             taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-13'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: approximate_visual_model
+                dimensional_specification: 'APPROXIMATE VISUAL MODEL: flange nut'
+                generator: din_6923_flange_nut
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Miniature visual extension of the sourced M3 flange
+                        proportions; pitch/flats selected separately. Availability
+                        and exact dimensions unverified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 3
+                    characteristic_dimension_basis: hexagon across flats
+                    characteristic_dimension_mm: 3
+                    expected_components: 1
+                    external_minor_diameter_mm: 1.0319392033916135
+                    family: nut
+                    finish: satin
+                    flange_diameter_mm: 3.64
+                    flange_edge_round_mm: 0.09325
+                    flange_thickness_mm: 0.373
+                    handedness: right
+                    height_convention: total axial nut height
+                    height_mm: 1.773
+                    hole_chamfer_mm: 0.11540063509461099
+                    hole_chamfer_slope: 1.7320508075688767
+                    identity: hardware_nut_m1_4_flanged
+                    internal_minor_diameter_mm: 1.0752404735808354
+                    mouth_diameter_mm: 1.4749999999999999
+                    nominal_diameter_mm: 1.4
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 1.773
+                    pitch_mm: 0.3
+                    specification: 'APPROXIMATE VISUAL MODEL: flange nut'
+                    thread_flank_angle_degrees: 60.0
+                    thread_pitch_diameter_mm: 1.2051442841485012
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_extensions.yaml
+                sources:
+                -   title: Westfield plain hex flange nuts DIN 6923, includes M3/M4
+                        supplier extensions
+                    url: https://www.westfieldfasteners.co.uk/Standards/Nut-HexFlgPln-M.pdf
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: null
+                standard_lengths_mm: []
+                standard_limits: {}
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
             url_chat: ''
         dict_data_files: {}
         dict_data_files_exists: {}
@@ -187,9 +997,62 @@ oomlout_ai_roboclick_3:
     file_test: ''
 oomp_key: oomp_hardware_nut_m1_4_flanged
 run_action: true
+run_only_yaml: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M1.4 flanged nut steel
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M1.4+flanged+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M1.4 flanged nut steel
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M1.4+flanged+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T08:44:56.826499+00:00'
+        evidence_file: support_files/evidence/hardware_nut_m1_4_flanged/google/7ecb8010dbe743e3953f76d5a5b421c8.yaml
+        evidence_url: https://www.google.com/search?q=M1.4+DIN+6923+steel+flange+nut
+        material_evidence: ''
+        product_name: ''
+        reason: Original exact search for an M1.4 flanged nut in steel returned no
+            exact flanged M1.4 product; the exact M1.4 result was a standard A1 stainless
+            hex nut. The completed DIN 6923 refinement showed flanged nuts starting
+            at M4 or M5 and larger. No eligible M1.4 non-stainless steel flanged nut
+            appeared in either completed exact search.
+        result_url: ''
+        search_evidence: 'First completed Google search: https://www.google.com/search?q=M1.4+flanged+nut+steel.
+            Exact M1.4 supplier result was Accu''s standard M1.4 DIN 934 stainless
+            steel A1 hex nut; flange results were M4 or larger, with multiple M14
+            listings. Second completed Google search: https://www.google.com/search?q=M1.4+DIN+6923+steel+flange+nut.
+            Results included DIN 6923 steel flange nut ranges and examples at M4 and
+            above; no M1.4 steel flange nut.'
+        search_for: M1.4 DIN 6923 steel flange nut
+        search_url: https://www.google.com/search?q=M1.4+DIN+6923+steel+flange+nut
+        selected_variant: ''
+        specification: ''
+        status: assumed_non_stocked
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -261,254 +1124,212 @@ taxonomy_6: ''
 taxonomy_7: ''
 taxonomy_8: ''
 taxonomy_9: ''
-url_chat: ''
 three_d_model_details:
-  schema_version: 1
-  generator: din_6923_flange_nut
-  output_folder: three_d_model
-  units: mm
-  standard: null
-  dimensional_specification: 'APPROXIMATE VISUAL MODEL: flange nut'
-  dimension_status: approximate_visual_model
-  length_status: not_applicable
-  sources:
-  - title: Westfield plain hex flange nuts DIN 6923, includes M3/M4 supplier extensions
-    url: https://www.westfieldfasteners.co.uk/Standards/Nut-HexFlgPln-M.pdf
-  - title: ISO 68-1:1998 basic ISO metric thread profile
-    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
-  checked_on: '2026-10-13'
-  source_table: source_file/standards/catalogue_extensions.yaml
-  standard_limits: {}
-  standard_lengths_mm: []
-  parameters:
-    family: nut
-    nominal_diameter_mm: 1.4
-    finish: satin
-    identity: hardware_nut_m1_4_flanged
-    specification: 'APPROXIMATE VISUAL MODEL: flange nut'
-    expected_components: 1
-    handedness: right
-    thread_starts: 1
-    thread_flank_angle_degrees: 60.0
-    pitch_mm: 0.3
-    across_flats_mm: 3
-    height_mm: 1.773
-    outer_chamfer_angle_degrees: 30.0
-    mouth_diameter_mm: 1.4749999999999999
-    hole_chamfer_mm: 0.11540063509461099
-    hole_chamfer_slope: 1.7320508075688767
-    height_convention: total axial nut height
-    overall_height_mm: 1.773
-    characteristic_dimension_mm: 3
-    characteristic_dimension_basis: hexagon across flats
-    flange_diameter_mm: 3.64
-    flange_thickness_mm: 0.373
-    flange_edge_round_mm: 0.09325
-    thread_pitch_diameter_mm: 1.2051442841485012
-    external_minor_diameter_mm: 1.0319392033916135
-    internal_minor_diameter_mm: 1.0752404735808354
-  modelling_choices:
-    dimension_selection: Nominal bolt head height, max flats/nut height, nominal washer
-      sizes; selected dimensions stored in parameters.
-    thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
-      rounded root H/6, internal P/4 crest and P/8 root flats.
-    runout: External one-pitch fade to plain shank; full thread ends at underhead
-      fillet.
-    chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees. Bolt
-      tip 45 degrees, P/2.
-    bearing: Bolt bearing circle and c selected within limits; k includes bearing
-      thickness; fillet tangent to shaft and bearing.
-    cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
-      bore and mouth chamfers.
-    display: Smooth nominal external-thread envelope or smooth minor-diameter internal
-      bore; lower angular and fillet tessellation.
-    components: One closed solid.
-    markings: Supplier and property-class markings omitted because catalogue does
-      not identify them.
-    unspecified_geometry: Nut mouth for supplier rows without limits and flange M3/M4
-      thickness/rim blends are explicit visual model selections.
-    family_note: Miniature visual extension of the sourced M3 flange proportions;
-      pitch/flats selected separately. Availability and exact dimensions unverified.
-    certification: Nominal visual catalogue model, not manufacturing tolerance certification.
-  coordinate_system:
-    origin: lower face centre
-    axis: +Z along bore
-    stl_units: mm
-    glb_units: metres
-    glb_up_axis: Y
-    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
-  variants:
-    full:
-      angular_segments: 96
-      samples_per_pitch: 32
-      fillet_segments: 12
-    display:
-      angular_segments: 24
-      samples_per_pitch: 1
-      fillet_segments: 3
-  views:
-  - isometric
-  - front
-  - back
-  - left
-  - right
-  - top
-  - bottom
-  model_formats:
-  - stl
-  - glb
-  material:
-    name: Satin steel
-    base_colour_srgb:
-    - 0.62
-    - 0.65
-    - 0.69
-    metallic: 1.0
-    roughness: 0.26
-    roughness_variation: 0.045
-    coat_weight: 0.02
-    coat_roughness: 0.28
-    microtexture_spacing_mm: 0.025
-    microtexture_height_um: 0.8
-    note: Visual finish approximation; catalogue specifies colour only.
-  studio:
-    engine: cycles
-    device: auto
-    seed: 7991
-    low_samples: 48
-    high_samples: 160
-    adaptive_threshold: 0.015
-    denoise: true
-    view_transform: AgX
-    look: AgX - Medium High Contrast
-    exposure: 0.0
-    world_colour:
-    - 0.78
-    - 0.82
-    - 0.9
-    world_strength: 0.35
-    floor_colour_srgb:
-    - 0.93
-    - 0.935
-    - 0.94
-    floor_roughness: 0.55
-    framing_margin: 0.13
-    lights:
-    - name: Key softbox
-      position:
-      - -3
-      - -4
-      - 6
-      power: 650.0
-      width: 4.0
-      height: 5.0
-      colour:
-      - 1.0
-      - 0.96
-      - 0.9
-    - name: Fill softbox
-      position:
-      - 4
-      - -1
-      - 3
-      power: 330.0
-      width: 3.0
-      height: 4.0
-      colour:
-      - 0.9
-      - 0.95
-      - 1.0
-    - name: Rim strip
-      position:
-      - 1
-      - 4
-      - 4
-      power: 850.0
-      width: 1.2
-      height: 5.0
-      colour:
-      - 1.0
-      - 1.0
-      - 1.0
-    poses:
-      isometric:
-        camera_eye:
-        - 1
-        - -1
-        - 1
-        projection: orthographic
-        orientation: principal axis Z up
-      product:
-        camera_eye:
-        - -6
-        - -10
-        - 6
-        projection: orthographic
-        orientation: resting on lower face, bore visible
-        yaw_degrees: -12.0
-        support: Stable convex-hull support using actual mesh centre of mass.
-        resting_axis: face
-  renders:
-    low:
-      file: render_low.png
-      variant: display
-      pixels: 512
-      view: isometric
-    high:
-      file: render_high.png
-      variant: full
-      pixels: 2048
-      view: isometric
-    product_low:
-      file: render_product_low.png
-      variant: display
-      pixels: 512
-      view: product
-    product_high:
-      file: render_product_high.png
-      variant: full
-      pixels: 2048
-      view: product
-search_data:
-  google:
-    search_for: M1.4 flanged nut steel
-    search_url: https://www.google.com/search?q=M1.4+flanged+nut+steel
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  ebay:
-    search_for: M1.4 flanged nut steel
-    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M1.4+flanged+nut+steel
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  aliexpress:
-    search_for: M1.4 flanged nut steel
-    search_url: https://www.aliexpress.com/wholesale?SearchText=M1.4+flanged+nut+steel
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
+    checked_on: '2026-10-13'
+    coordinate_system:
+        axis: +Z along bore
+        glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+        glb_units: metres
+        glb_up_axis: Y
+        origin: lower face centre
+        stl_units: mm
+    dimension_status: approximate_visual_model
+    dimensional_specification: 'APPROXIMATE VISUAL MODEL: flange nut'
+    generator: din_6923_flange_nut
+    length_status: not_applicable
+    material:
+        base_colour_srgb:
+        - 0.62
+        - 0.65
+        - 0.69
+        coat_roughness: 0.28
+        coat_weight: 0.02
+        metallic: 1.0
+        microtexture_height_um: 0.8
+        microtexture_spacing_mm: 0.025
+        name: Satin steel
+        note: Visual finish approximation; catalogue specifies colour only.
+        roughness: 0.26
+        roughness_variation: 0.045
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+        bearing: Bolt bearing circle and c selected within limits; k includes bearing
+            thickness; fillet tangent to shaft and bearing.
+        cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
+            bore and mouth chamfers.
+        certification: Nominal visual catalogue model, not manufacturing tolerance
+            certification.
+        chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees.
+            Bolt tip 45 degrees, P/2.
+        components: One closed solid.
+        dimension_selection: Nominal bolt head height, max flats/nut height, nominal
+            washer sizes; selected dimensions stored in parameters.
+        display: Smooth nominal external-thread envelope or smooth minor-diameter
+            internal bore; lower angular and fillet tessellation.
+        family_note: Miniature visual extension of the sourced M3 flange proportions;
+            pitch/flats selected separately. Availability and exact dimensions unverified.
+        markings: Supplier and property-class markings omitted because catalogue does
+            not identify them.
+        runout: External one-pitch fade to plain shank; full thread ends at underhead
+            fillet.
+        thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+            rounded root H/6, internal P/4 crest and P/8 root flats.
+        unspecified_geometry: Nut mouth for supplier rows without limits and flange
+            M3/M4 thickness/rim blends are explicit visual model selections.
+    output_folder: three_d_model
+    parameters:
+        across_flats_mm: 3
+        characteristic_dimension_basis: hexagon across flats
+        characteristic_dimension_mm: 3
+        expected_components: 1
+        external_minor_diameter_mm: 1.0319392033916135
+        family: nut
+        finish: satin
+        flange_diameter_mm: 3.64
+        flange_edge_round_mm: 0.09325
+        flange_thickness_mm: 0.373
+        handedness: right
+        height_convention: total axial nut height
+        height_mm: 1.773
+        hole_chamfer_mm: 0.11540063509461099
+        hole_chamfer_slope: 1.7320508075688767
+        identity: hardware_nut_m1_4_flanged
+        internal_minor_diameter_mm: 1.0752404735808354
+        mouth_diameter_mm: 1.4749999999999999
+        nominal_diameter_mm: 1.4
+        outer_chamfer_angle_degrees: 30.0
+        overall_height_mm: 1.773
+        pitch_mm: 0.3
+        specification: 'APPROXIMATE VISUAL MODEL: flange nut'
+        thread_flank_angle_degrees: 60.0
+        thread_pitch_diameter_mm: 1.2051442841485012
+        thread_starts: 1
+    renders:
+        high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+        low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+        product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+        product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+    schema_version: 1
+    source_table: source_file/standards/catalogue_extensions.yaml
+    sources:
+    -   title: Westfield plain hex flange nuts DIN 6923, includes M3/M4 supplier extensions
+        url: https://www.westfieldfasteners.co.uk/Standards/Nut-HexFlgPln-M.pdf
+    -   title: ISO 68-1:1998 basic ISO metric thread profile
+        url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+    standard: null
+    standard_lengths_mm: []
+    standard_limits: {}
+    studio:
+        adaptive_threshold: 0.015
+        denoise: true
+        device: auto
+        engine: cycles
+        exposure: 0.0
+        floor_colour_srgb:
+        - 0.93
+        - 0.935
+        - 0.94
+        floor_roughness: 0.55
+        framing_margin: 0.13
+        high_samples: 160
+        lights:
+        -   colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+        -   colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+        -   colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+        look: AgX - Medium High Contrast
+        low_samples: 48
+        poses:
+            isometric:
+                camera_eye:
+                - 1
+                - -1
+                - 1
+                orientation: principal axis Z up
+                projection: orthographic
+            product:
+                camera_eye:
+                - -6
+                - -10
+                - 6
+                orientation: resting on lower face, bore visible
+                projection: orthographic
+                resting_axis: face
+                support: Stable convex-hull support using actual mesh centre of mass.
+                yaw_degrees: -12.0
+        seed: 7991
+        view_transform: AgX
+        world_colour:
+        - 0.78
+        - 0.82
+        - 0.9
+        world_strength: 0.35
+    units: mm
+    variants:
+        display:
+            angular_segments: 24
+            fillet_segments: 3
+            samples_per_pitch: 1
+        full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
+url_chat: ''

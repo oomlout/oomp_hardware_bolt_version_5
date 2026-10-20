@@ -1,0 +1,35 @@
+oomp_id: hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M3 x 6 socket countersunk screw DIN 7991 black high tensile steel
+evidence_url: https://www.google.com/search?q=M3+x+6+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+reason: The supplied Google term returned the exact Orbital Fasteners M3 x 6 socket
+  countersunk screw with grade 10.9 steel, self-colour finish and DIN 7991 specification.
+search_evidence: The exact supplied Google search returned the Orbital Fasteners listing
+  M3 x 6 Socket Screw, Countersunk, High Tensile Grade 10.9 Self Colour, DIN 7991.
+attempts:
+- term: M3 x 6 socket countersunk screw DIN 7991 black high tensile steel
+  url: https://www.google.com/search?q=M3+x+6+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+  completed: true
+  outcome: Opened exact Orbital Fasteners page. It lists SKU 1901000, M3 x 6, fully
+    threaded, countersunk socket head, high tensile grade 10.9, self colour, DIN 7991
+    / ISO 10642, ISO metric; stock shown.
+result_url: https://www.orbitalfasteners.co.uk/products/m3-x-6-socket-screw-countersunk-high-tensile-grade-10-9-self-colour-din-7991
+product_name: M3 X 6 SOCKET SCREW, COUNTERSUNK, HIGH TENSILE GRADE 10.9 SELF COLOUR,
+  DIN 7991
+selected_variant: SKU 1901000; M3 x 6mm; fully threaded
+material_evidence: High tensile grade 10.9 steel
+specification: Thread size M3; length 6mm; ISO metric thread; fully threaded; countersunk
+  socket head; socket/Allen drive; high tensile grade 10.9 steel; self-colour finish;
+  DIN 7991 (ISO 10642).
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:32:14.217053+00:00'
+validator_version: 1

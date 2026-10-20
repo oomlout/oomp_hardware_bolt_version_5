@@ -1,0 +1,39 @@
+{
+  "oomp_id": "hardware_nut_m1_4_coupling",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "assumed_non_stocked",
+  "search_for": "M1.4 steel coupling nut DIN 6334",
+  "evidence_url": "https://www.google.com/search?q=M1.4+steel+coupling+nut+DIN+6334",
+  "reason": "Original exact search for an M1.4 coupling connector nut in steel returned no exact M1.4 product; shown supplier products were stainless or much larger sizes. The completed DIN 6334 refinement showed steel connector nuts starting at M4 or M5 and larger. No eligible M1.4 steel coupling nut appeared in either completed exact search.",
+  "search_evidence": "First completed Google search: https://www.google.com/search?q=M1.4+coupling+connector+nut+steel. Results included Westfield's connector nut range described as A2/A4 stainless steel and larger M14 coupling nuts, plus an eBay category result mentioning M10; no M1.4 supplier product. Second completed Google search: https://www.google.com/search?q=M1.4+steel+coupling+nut+DIN+6334. Results showed DIN 6334 steel coupling nut products from M4-M20 or M5-M20 and larger M10/M14 sizes; none matched M1.4. No plausible exact candidate remained.",
+  "attempts": [
+    {
+      "term": "M1.4 coupling connector nut steel",
+      "url": "https://www.google.com/search?q=M1.4+coupling+connector+nut+steel",
+      "completed": true,
+      "outcome": "No exact M1.4 steel connector nut found. Displayed connector-nut candidates were stainless or large sizes such as M10 and M14."
+    },
+    {
+      "term": "M1.4 steel coupling nut DIN 6334",
+      "url": "https://www.google.com/search?q=M1.4+steel+coupling+nut+DIN+6334",
+      "completed": true,
+      "outcome": "No exact M1.4 product found. DIN 6334 steel coupling nut ranges shown began at M4 or M5 and went larger."
+    }
+  ],
+  "no_eligible_product": true,
+  "result_url": "",
+  "product_name": "",
+  "selected_variant": "",
+  "material_evidence": "",
+  "specification": "",
+  "checks": {
+    "result_reached_from_search": false,
+    "selected_variant": false,
+    "dimensions": false,
+    "form": false,
+    "material": false,
+    "finish": false,
+    "standard": false
+  }
+}

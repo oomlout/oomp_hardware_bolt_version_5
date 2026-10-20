@@ -85,6 +85,63 @@ oomlout_ai_roboclick_1:
             name_proper: Hardware Set Screw M6 15 Mm Length
             name_space: hardware set screw m6 15 mm length
             name_upper: HARDWARE SET SCREW M6 15 MM LENGTH
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 15 hex head fully threaded set screw DIN 933
+                        steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 15 hex head fully threaded set screw DIN 933
+                        steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T10:57:19.088367+00:00'
+                    evidence_file: support_files/evidence/hardware_set_screw_m6_15_mm_length/google/4618c57e69094be19a049791b7ab0edf.yaml
+                    evidence_url: https://www.google.com/search?q=M6+x+15mm+hexagon+set+screw+DIN+933+grade+8.8+steel+zinc+plated
+                    material_evidence: ''
+                    product_name: ''
+                    reason: The exact supplied search returned a nylon M6 x 15 mm
+                        listing, which is ineligible. One focused refinement returned
+                        a broad Bowler Engineering M6 listing, but opening it did
+                        not expose a selected product variant or product specifications.
+                        Exact length, selected steel material, finish and form could
+                        not be verified within the search budget.
+                    result_url: ''
+                    search_evidence: 'Initial Google search: the only matching M6
+                        x 15 mm product described in results was black Nylon 66, so
+                        it was rejected. Refined search for M6 x 15mm hexagon set
+                        screw DIN 933 grade 8.8 steel zinc plated returned a broad
+                        M6 grade 8.8 zinc plated Bowler Engineering listing whose
+                        result explicitly omitted the length; the opened page exposed
+                        no selected product details or options.'
+                    search_for: M6 x 15mm hexagon set screw DIN 933 grade 8.8 steel
+                        zinc plated
+                    search_url: https://www.google.com/search?q=M6+x+15mm+hexagon+set+screw+DIN+933+grade+8.8+steel+zinc+plated
+                    selected_variant: ''
+                    specification: ''
+                    status: unresolved
             spec_iso_b_125_lt_l_le_200_mm: '24'
             spec_iso_b_l_gt_200_mm: ''
             spec_iso_b_l_le_125_mm: '18'
@@ -409,6 +466,66 @@ oomlout_ai_roboclick_2:
                         name_proper: Hardware Set Screw M6 15 Mm Length
                         name_space: hardware set screw m6 15 mm length
                         name_upper: HARDWARE SET SCREW M6 15 MM LENGTH
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M6 x 15 hex head fully threaded set screw
+                                    DIN 933 steel
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M6 x 15 hex head fully threaded set screw
+                                    DIN 933 steel
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T10:57:19.088367+00:00'
+                                evidence_file: support_files/evidence/hardware_set_screw_m6_15_mm_length/google/4618c57e69094be19a049791b7ab0edf.yaml
+                                evidence_url: https://www.google.com/search?q=M6+x+15mm+hexagon+set+screw+DIN+933+grade+8.8+steel+zinc+plated
+                                material_evidence: ''
+                                product_name: ''
+                                reason: The exact supplied search returned a nylon
+                                    M6 x 15 mm listing, which is ineligible. One focused
+                                    refinement returned a broad Bowler Engineering
+                                    M6 listing, but opening it did not expose a selected
+                                    product variant or product specifications. Exact
+                                    length, selected steel material, finish and form
+                                    could not be verified within the search budget.
+                                result_url: ''
+                                search_evidence: 'Initial Google search: the only
+                                    matching M6 x 15 mm product described in results
+                                    was black Nylon 66, so it was rejected. Refined
+                                    search for M6 x 15mm hexagon set screw DIN 933
+                                    grade 8.8 steel zinc plated returned a broad M6
+                                    grade 8.8 zinc plated Bowler Engineering listing
+                                    whose result explicitly omitted the length; the
+                                    opened page exposed no selected product details
+                                    or options.'
+                                search_for: M6 x 15mm hexagon set screw DIN 933 grade
+                                    8.8 steel zinc plated
+                                search_url: https://www.google.com/search?q=M6+x+15mm+hexagon+set+screw+DIN+933+grade+8.8+steel+zinc+plated
+                                selected_variant: ''
+                                specification: ''
+                                status: unresolved
                         spec_iso_b_125_lt_l_le_200_mm: '24'
                         spec_iso_b_l_gt_200_mm: ''
                         spec_iso_b_l_le_125_mm: '18'
@@ -718,6 +835,63 @@ oomlout_ai_roboclick_2:
                     search_and_replace: []
                 file_test: label_oomp.pdf
                 retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 15 hex head fully threaded set screw DIN 933
+                        steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 15 hex head fully threaded set screw DIN 933
+                        steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T10:57:19.088367+00:00'
+                    evidence_file: support_files/evidence/hardware_set_screw_m6_15_mm_length/google/4618c57e69094be19a049791b7ab0edf.yaml
+                    evidence_url: https://www.google.com/search?q=M6+x+15mm+hexagon+set+screw+DIN+933+grade+8.8+steel+zinc+plated
+                    material_evidence: ''
+                    product_name: ''
+                    reason: The exact supplied search returned a nylon M6 x 15 mm
+                        listing, which is ineligible. One focused refinement returned
+                        a broad Bowler Engineering M6 listing, but opening it did
+                        not expose a selected product variant or product specifications.
+                        Exact length, selected steel material, finish and form could
+                        not be verified within the search budget.
+                    result_url: ''
+                    search_evidence: 'Initial Google search: the only matching M6
+                        x 15 mm product described in results was black Nylon 66, so
+                        it was rejected. Refined search for M6 x 15mm hexagon set
+                        screw DIN 933 grade 8.8 steel zinc plated returned a broad
+                        M6 grade 8.8 zinc plated Bowler Engineering listing whose
+                        result explicitly omitted the length; the opened page exposed
+                        no selected product details or options.'
+                    search_for: M6 x 15mm hexagon set screw DIN 933 grade 8.8 steel
+                        zinc plated
+                    search_url: https://www.google.com/search?q=M6+x+15mm+hexagon+set+screw+DIN+933+grade+8.8+steel+zinc+plated
+                    selected_variant: ''
+                    specification: ''
+                    status: unresolved
             spec_iso_b_125_lt_l_le_200_mm: '24'
             spec_iso_b_l_gt_200_mm: ''
             spec_iso_b_l_le_125_mm: '18'
@@ -1033,9 +1207,62 @@ oomlout_ai_roboclick_3:
     file_test: ''
 oomp_key: oomp_hardware_set_screw_m6_15_mm_length
 run_action: true
+run_only_yaml: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M6 x 15 hex head fully threaded set screw DIN 933 steel
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M6 x 15 hex head fully threaded set screw DIN 933 steel
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T10:57:19.088367+00:00'
+        evidence_file: support_files/evidence/hardware_set_screw_m6_15_mm_length/google/4618c57e69094be19a049791b7ab0edf.yaml
+        evidence_url: https://www.google.com/search?q=M6+x+15mm+hexagon+set+screw+DIN+933+grade+8.8+steel+zinc+plated
+        material_evidence: ''
+        product_name: ''
+        reason: The exact supplied search returned a nylon M6 x 15 mm listing, which
+            is ineligible. One focused refinement returned a broad Bowler Engineering
+            M6 listing, but opening it did not expose a selected product variant or
+            product specifications. Exact length, selected steel material, finish
+            and form could not be verified within the search budget.
+        result_url: ''
+        search_evidence: 'Initial Google search: the only matching M6 x 15 mm product
+            described in results was black Nylon 66, so it was rejected. Refined search
+            for M6 x 15mm hexagon set screw DIN 933 grade 8.8 steel zinc plated returned
+            a broad M6 grade 8.8 zinc plated Bowler Engineering listing whose result
+            explicitly omitted the length; the opened page exposed no selected product
+            details or options.'
+        search_for: M6 x 15mm hexagon set screw DIN 933 grade 8.8 steel zinc plated
+        search_url: https://www.google.com/search?q=M6+x+15mm+hexagon+set+screw+DIN+933+grade+8.8+steel+zinc+plated
+        selected_variant: ''
+        specification: ''
+        status: unresolved
 spec_iso_b_125_lt_l_le_200_mm: '24'
 spec_iso_b_l_gt_200_mm: ''
 spec_iso_b_l_le_125_mm: '18'
@@ -1381,46 +1608,3 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
-search_data:
-  google:
-    search_for: M6 x 15 hex head fully threaded set screw DIN 933 steel
-    search_url: https://www.google.com/search?q=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+steel
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  ebay:
-    search_for: M6 x 15 hex head fully threaded set screw DIN 933 steel
-    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+steel
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  aliexpress:
-    search_for: M6 x 15 hex head fully threaded set screw DIN 933 steel
-    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+steel
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''

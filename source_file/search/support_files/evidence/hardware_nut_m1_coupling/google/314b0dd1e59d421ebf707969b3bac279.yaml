@@ -1,0 +1,42 @@
+oomp_id: hardware_nut_m1_coupling
+platform: google
+method: codex_builtin_browser
+status: assumed_non_stocked
+search_for: M1 DIN 6334 steel connector nut
+evidence_url: https://www.google.com/search?q=M1+DIN+6334+steel+connector+nut
+reason: Original exact search for an M1 steel coupling connector nut returned no exact
+  M1 product; shown steel listings began at M6 or larger and other results were stainless
+  steel. The completed DIN 6334 refinement showed supplier ranges beginning at M5
+  and larger; no eligible M1 steel coupling nut appeared in either completed search.
+search_evidence: 'First completed Google search: https://www.google.com/search?q=M1+coupling+connector+nut+steel.
+  Results included coupling nut products from M3/M4 or M5/M6 upwards, M10 and M16
+  steel examples, and stainless steel options; no M1 candidate. Second completed Google
+  search: https://www.google.com/search?q=M1+DIN+6334+steel+connector+nut. Supplier
+  results identified M5-M30 and M6/M8/M10/M12/M16/M20 as standard connector nut ranges,
+  along with larger steel examples; no M1 product.'
+attempts:
+- term: M1 coupling connector nut steel
+  url: https://www.google.com/search?q=M1+coupling+connector+nut+steel
+  completed: true
+  outcome: No exact M1 coupling nut. Displayed steel products were M10/M16 and larger;
+    other connector-nut options began M3-M6 or were stainless.
+- term: M1 DIN 6334 steel connector nut
+  url: https://www.google.com/search?q=M1+DIN+6334+steel+connector+nut
+  completed: true
+  outcome: No eligible M1 DIN 6334 steel nut; supplier ranges shown began M5 and larger.
+no_eligible_product: true
+result_url: ''
+product_name: ''
+selected_variant: ''
+material_evidence: ''
+specification: ''
+checks:
+  result_reached_from_search: false
+  selected_variant: false
+  dimensions: false
+  form: false
+  material: false
+  finish: false
+  standard: false
+checked_at: '2026-10-14T08:47:18.410883+00:00'
+validator_version: 1

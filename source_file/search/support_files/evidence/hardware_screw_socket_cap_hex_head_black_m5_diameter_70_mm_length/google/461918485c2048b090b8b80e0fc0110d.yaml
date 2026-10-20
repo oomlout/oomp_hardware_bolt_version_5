@@ -1,0 +1,35 @@
+oomp_id: hardware_screw_socket_cap_hex_head_black_m5_diameter_70_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M5 x 70 socket cap screw DIN 912 black high tensile steel
+evidence_url: https://www.google.com/search?q=M5+x+70+socket+cap+screw+DIN+912+black+high+tensile+steel
+reason: Exact M5 x 70 black Grade 12.9 DIN 912 listing verified on product page.
+search_evidence: Google result opened to Amazon Bolt Base listing B00SN3DIB4.
+attempts:
+- term: M5 x 70 socket cap screw DIN 912 black high tensile steel
+  url: https://www.google.com/search?q=M5+x+70+socket+cap+screw+DIN+912+black+high+tensile+steel
+  completed: true
+  outcome: Product page confirms M5 x 70 mm excluding head, 0.8 mm pitch, DIN 912
+    socket cap, Grade 12.9 steel, black self-colour, internal hex drive with 4 mm
+    Allen key, and approximately 25 mm threaded length. Selected package quantity
+    30.
+result_url: https://www.amazon.co.uk/Bolt-Base-Tensile-Socket-screws/dp/B00SN3DIB4
+product_name: M5 x 70 Black 12.9 Grade High Tensile Hex Socket Cap Screws Self Colour
+  Allen Bolts DIN 912
+selected_variant: M5 x 70 mm excluding head; 0.8 mm pitch; partially threaded approximately
+  25 mm; pack quantity 30.
+material_evidence: 'Product page states High Tensile Grade 12.9 Steel and Material:
+  Steel.'
+specification: DIN 912; M5 x 70 mm; 0.8 mm pitch; socket cap; internal hex 4 mm Allen
+  drive; Grade 12.9 steel; black self-colour.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T10:05:05.640139+00:00'
+validator_version: 1

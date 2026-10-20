@@ -1,0 +1,39 @@
+{
+  "oomp_id": "hardware_nut_m1_flanged",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "assumed_non_stocked",
+  "search_for": "M1 DIN 6923 steel flange nut",
+  "evidence_url": "https://www.google.com/search?q=M1+DIN+6923+steel+flange+nut",
+  "reason": "Original exact search for an M1 flanged nut in steel showed the exact M1 supplier listing was a stainless steel assortment; other steel flange nut listings were M4/M5 or larger. The completed DIN 6923 refinement showed product ranges from M3, M4 or M6 upwards, with no eligible M1 non-stainless steel flanged nut. Both searches completed.",
+  "search_evidence": "First completed Google search: https://www.google.com/search?q=M1+flanged+nut+steel. The M1 range product was an Amazon listing explicitly identified as stainless steel; shown steel flange nuts included UNC 5/16, M5-M12 and M6-M16 ranges, not M1. Second completed Google search: https://www.google.com/search?q=M1+DIN+6923+steel+flange+nut. DIN 6923 supplier listings and ranges showed M3-M16, M4 and larger, or stainless products; no exact eligible M1 nut.",
+  "attempts": [
+    {
+      "term": "M1 flanged nut steel",
+      "url": "https://www.google.com/search?q=M1+flanged+nut+steel",
+      "completed": true,
+      "outcome": "No eligible M1 steel flanged nut; M1 assortment was stainless, while steel candidates were other thread sizes."
+    },
+    {
+      "term": "M1 DIN 6923 steel flange nut",
+      "url": "https://www.google.com/search?q=M1+DIN+6923+steel+flange+nut",
+      "completed": true,
+      "outcome": "No exact M1 candidate. Supplier DIN 6923 ranges shown began at M3/M4/M6 or larger."
+    }
+  ],
+  "no_eligible_product": true,
+  "result_url": "",
+  "product_name": "",
+  "selected_variant": "",
+  "material_evidence": "",
+  "specification": "",
+  "checks": {
+    "result_reached_from_search": false,
+    "selected_variant": false,
+    "dimensions": false,
+    "form": false,
+    "material": false,
+    "finish": false,
+    "standard": false
+  }
+}

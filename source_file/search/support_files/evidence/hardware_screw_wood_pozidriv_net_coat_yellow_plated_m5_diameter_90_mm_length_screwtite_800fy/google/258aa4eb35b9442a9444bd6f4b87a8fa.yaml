@@ -1,0 +1,47 @@
+oomp_id: hardware_screw_wood_pozidriv_net_coat_yellow_plated_m5_diameter_90_mm_length_screwtite_800fy
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: site:screwfix.com/p/ "800FY" "5mm x 90mm" Screw-Tite PZ double-countersunk
+evidence_url: https://www.google.com/search?q=site%3Ascrewfix.com%2Fp%2F+%22800FY%22+%225mm+x+90mm%22+Screw-Tite+PZ+double-countersunk
+reason: The refined exact-code Google query reached the Screwfix 800FY page, which
+  confirms the exact Screwtite dimensions, PZ drive, double-countersunk head, carbon
+  steel and Net-Coat Yellow-Plated finish; no separate DIN/ISO standard is encoded
+  for this wood-screw ID.
+search_evidence: The supplied query surfaced a Screwfix category result and a trade-pack
+  result; the refined exact-code query surfaced the matching individual 800FY Screwfix
+  listing.
+attempts:
+- term: Screwtite 5 x 90 mm Pozidriv double countersunk carbon steel Net-Coat Yellow-Plated
+    800FY
+  url: https://www.google.com/search?q=Screwtite+5+x+90+mm+Pozidriv+double+countersunk+carbon+steel+Net-Coat+Yellow-Plated+800FY
+  completed: true
+  outcome: Google returned a Screwfix category result for the 5mm x 90mm (800FY) listing
+    and a nonmatching 800-piece trade pack; no individual product page was opened
+    from this query.
+- term: site:screwfix.com/p/ "800FY" "5mm x 90mm" Screw-Tite PZ double-countersunk
+  url: https://www.google.com/search?q=site%3Ascrewfix.com%2Fp%2F+%22800FY%22+%225mm+x+90mm%22+Screw-Tite+PZ+double-countersunk
+  completed: true
+  outcome: Opened Screwfix page; verified code 800FY, 5mm x 90mm, Screw-Tite 2 brand,
+    PZ drive, double self-countersunk head, partially threaded thread-cutting form,
+    carbon steel and Net-Coat Yellow-Plated finish.
+result_url: https://www.screwfix.com/p/screw-tite-2-pz-double-countersunk-thread-cutting-screws-5mm-x-90mm-100-pack/800fy
+product_name: Screw-Tite 2 PZ Double-Countersunk Thread Cutting Screws 5mm x 90mm
+  100 Pack (800FY)
+selected_variant: 5mm x 90mm, 100-pack, product code 800FY
+material_evidence: Product page identifies Carbon Steel Construction.
+specification: 'Diameter: 5mm; Length: 90mm; Thread: Partially Threaded thread-cutting
+  screw with acute tri-lock threadform; Drive: PZ; Head: Double-Countersunk with underhead
+  ribs; Material: Carbon Steel; Finish: Net-Coat Yellow-Plated (zinc and yellow-passivated);
+  Code: 800FY'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+observed_code: 800FY
+checked_at: '2026-10-14T10:30:15.060583+00:00'
+validator_version: 1

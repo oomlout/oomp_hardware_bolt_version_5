@@ -83,6 +83,150 @@ oomlout_ai_roboclick_1:
             name_proper: Hardware Nut M5 Coupling
             name_space: hardware nut m5 coupling
             name_upper: HARDWARE NUT M5 COUPLING
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M5 coupling connector nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M5+coupling+connector+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M5 coupling connector nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+coupling+connector+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T09:10:15.085210+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m5_coupling/google/995c3734e84349cc9fcf560aa032fa66.yaml
+                    evidence_url: https://www.google.com/search?q=M5+hexagon+coupling+nut+steel+DIN+6334+zinc+plated
+                    material_evidence: Product specifications state Steel; product
+                        features state carbon steel, Class 6.
+                    product_name: 5 x M5 Hex Coupling Nuts - Threaded Rod Connector
+                        Studding Extension - BZP Steel Class 6 - DIN 6334
+                    reason: The selected M5 hex coupling nut is steel, zinc plated,
+                        and explicitly DIN 6334; the page states DIN 6334 length is
+                        three times nominal diameter.
+                    result_url: https://www.diy.com/departments/5-x-m5-hex-coupling-nuts-threaded-rod-connector-studding-extension-bzp-steel-class-6-din-6334/5056826613318_BQ.prd
+                    search_evidence: Refined Google search returned the B&Q product
+                        titled 5 x M5 Hex Coupling Nuts - Threaded Rod Connector Studding
+                        Extension - BZP Steel Class 6 - DIN 6334; the opened product
+                        page confirms those specifications.
+                    search_for: M5 hexagon coupling nut steel DIN 6334 zinc plated
+                    search_url: https://www.google.com/search?q=M5+hexagon+coupling+nut+steel+DIN+6334+zinc+plated
+                    selected_variant: Bolt size M5; pack quantity 5; product code
+                        5056826613318
+                    specification: Hex coupling nut; M5 metric coarse thread; DIN
+                        6334; bright zinc plated (BZP); length is three times nominal
+                        diameter, 15 mm for M5.
+                    status: verified
+            supplier_data:
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T08:45:43.190333+00:00'
+                    currency: GBP
+                    family_description: "Hexagon stud connector nuts. Used to connect\
+                        \ 2 threaded parts together. Manufactured from\_zinc plated\
+                        \ steel. All connectors are fully threaded internally. Threads\
+                        \ are standard metric coarse pitch."
+                    family_heading: HEXAGON STUD CONNECTOR NUTS DIN 6334 ZINC PLATED
+                    html_sha256: 724f4d49f69873b58bdf0192d16b7bc94cefb5810f12fcd0fe8e0d74dac74d15
+                    name: M5 x 15mm HEXAGON STUD CONNECTOR NUT DIN 6334 ZINC PLATED
+                        STEEL
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:29:58.065114+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M5 x 15mm HEXAGON STUD CONNECTOR NUT
+                        DIN 6334 ZINC PLATED STEEL
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: "HEXAGON STUD CONNECTOR NUTS DIN 6334 ZINC PLATED;\
+                        \ Hexagon stud connector nuts. Used to connect 2 threaded\
+                        \ parts together. Manufactured from\_zinc plated steel. All\
+                        \ connectors are fully threaded internally. Threads are standard\
+                        \ metric coarse pitch."
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M5-x-15mm-HEXAGON-STUD-CONNECTOR-NUT-DIN-6334-ZINC-PLATED-STEEL
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M5-x-15mm-HEXAGON-STUD-CONNECTOR-NUT-DIN-6334-ZINC-PLATED-STEEL
+                    supplier_website: https://www.kayfast.co.uk/view-product/HEXAGON-STUD-CONNECTOR-NUTS-DIN-6334-ZINC-PLATED
+                    tiers:
+                    -   maximum: 19
+                        minimum: 1
+                        source_price_per_100: '8.40'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 19 @ \xA38.40 per 100"
+                        source_unit_price: '0.084'
+                        source_vat_basis: exclusive
+                        unit_price: '0.10080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 20
+                        source_price_per_100: '7.00'
+                        source_price_quantity: 100
+                        source_text: "QTY 20 -  99 @ \xA37.00 per 100"
+                        source_unit_price: '0.07'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 100
+                        source_price_per_100: '6.30'
+                        source_price_quantity: 100
+                        source_text: "QTY 100 + @ \xA36.30 per 100"
+                        source_unit_price: '0.063'
+                        source_vat_basis: exclusive
+                        unit_price: '0.07560'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.10080'
+                    total_price_10: '1.00800'
+                    total_price_100: '7.56000'
+                    total_price_1000: '75.60000'
+                    total_price_10000: '756.00000'
+                    unit_price_1: '0.10080'
+                    unit_price_10: '0.10080'
+                    unit_price_100: '0.07560'
+                    unit_price_1000: '0.07560'
+                    unit_price_10000: '0.07560'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
             taxonomy_1: hardware
             taxonomy_10: ''
             taxonomy_11: ''
@@ -343,6 +487,160 @@ oomlout_ai_roboclick_2:
                         name_proper: Hardware Nut M5 Coupling
                         name_space: hardware nut m5 coupling
                         name_upper: HARDWARE NUT M5 COUPLING
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M5 coupling connector nut steel
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M5+coupling+connector+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M5 coupling connector nut steel
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+coupling+connector+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T09:10:15.085210+00:00'
+                                evidence_file: support_files/evidence/hardware_nut_m5_coupling/google/995c3734e84349cc9fcf560aa032fa66.yaml
+                                evidence_url: https://www.google.com/search?q=M5+hexagon+coupling+nut+steel+DIN+6334+zinc+plated
+                                material_evidence: Product specifications state Steel;
+                                    product features state carbon steel, Class 6.
+                                product_name: 5 x M5 Hex Coupling Nuts - Threaded
+                                    Rod Connector Studding Extension - BZP Steel Class
+                                    6 - DIN 6334
+                                reason: The selected M5 hex coupling nut is steel,
+                                    zinc plated, and explicitly DIN 6334; the page
+                                    states DIN 6334 length is three times nominal
+                                    diameter.
+                                result_url: https://www.diy.com/departments/5-x-m5-hex-coupling-nuts-threaded-rod-connector-studding-extension-bzp-steel-class-6-din-6334/5056826613318_BQ.prd
+                                search_evidence: Refined Google search returned the
+                                    B&Q product titled 5 x M5 Hex Coupling Nuts -
+                                    Threaded Rod Connector Studding Extension - BZP
+                                    Steel Class 6 - DIN 6334; the opened product page
+                                    confirms those specifications.
+                                search_for: M5 hexagon coupling nut steel DIN 6334
+                                    zinc plated
+                                search_url: https://www.google.com/search?q=M5+hexagon+coupling+nut+steel+DIN+6334+zinc+plated
+                                selected_variant: Bolt size M5; pack quantity 5; product
+                                    code 5056826613318
+                                specification: Hex coupling nut; M5 metric coarse
+                                    thread; DIN 6334; bright zinc plated (BZP); length
+                                    is three times nominal diameter, 15 mm for M5.
+                                status: verified
+                        supplier_data:
+                            kayfast:
+                                accepted_warnings: '["Kayfast per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-14T08:45:43.190333+00:00'
+                                currency: GBP
+                                family_description: "Hexagon stud connector nuts.\
+                                    \ Used to connect 2 threaded parts together. Manufactured\
+                                    \ from\_zinc plated steel. All connectors are\
+                                    \ fully threaded internally. Threads are standard\
+                                    \ metric coarse pitch."
+                                family_heading: HEXAGON STUD CONNECTOR NUTS DIN 6334
+                                    ZINC PLATED
+                                html_sha256: 724f4d49f69873b58bdf0192d16b7bc94cefb5810f12fcd0fe8e0d74dac74d15
+                                name: M5 x 15mm HEXAGON STUD CONNECTOR NUT DIN 6334
+                                    ZINC PLATED STEEL
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:29:58.065114+00:00'
+                                parser_version: kayfast-1.6-family-description
+                                price_breaks_description: M5 x 15mm HEXAGON STUD CONNECTOR
+                                    NUT DIN 6334 ZINC PLATED STEEL
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-17", "statement": "Use the exact row
+                                    dropdown price per 100 divided by 100 with Decimal
+                                    precision; accept the captured per-100 display
+                                    precision."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "Kayfast
+                                    prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+                                specifications: "HEXAGON STUD CONNECTOR NUTS DIN 6334\
+                                    \ ZINC PLATED; Hexagon stud connector nuts. Used\
+                                    \ to connect 2 threaded parts together. Manufactured\
+                                    \ from\_zinc plated steel. All connectors are\
+                                    \ fully threaded internally. Threads are standard\
+                                    \ metric coarse pitch."
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: kayfast
+                                supplier_id: M5-x-15mm-HEXAGON-STUD-CONNECTOR-NUT-DIN-6334-ZINC-PLATED-STEEL
+                                supplier_id_basis: exact dimensional row description;
+                                    spaces replaced by hyphens (user clarification
+                                    2026-10-11)
+                                supplier_part_number: M5-x-15mm-HEXAGON-STUD-CONNECTOR-NUT-DIN-6334-ZINC-PLATED-STEEL
+                                supplier_website: https://www.kayfast.co.uk/view-product/HEXAGON-STUD-CONNECTOR-NUTS-DIN-6334-ZINC-PLATED
+                                tiers:
+                                -   maximum: 19
+                                    minimum: 1
+                                    source_price_per_100: '8.40'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 1 - 19 @ \xA38.40 per 100"
+                                    source_unit_price: '0.084'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.10080'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 99
+                                    minimum: 20
+                                    source_price_per_100: '7.00'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 20 -  99 @ \xA37.00 per 100"
+                                    source_unit_price: '0.07'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0840'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 100
+                                    source_price_per_100: '6.30'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 100 + @ \xA36.30 per 100"
+                                    source_unit_price: '0.063'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.07560'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.10080'
+                                total_price_10: '1.00800'
+                                total_price_100: '7.56000'
+                                total_price_1000: '75.60000'
+                                total_price_10000: '756.00000'
+                                unit_price_1: '0.10080'
+                                unit_price_10: '0.10080'
+                                unit_price_100: '0.07560'
+                                unit_price_1000: '0.07560'
+                                unit_price_10000: '0.07560'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Kayfast per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
                         taxonomy_1: hardware
                         taxonomy_10: ''
                         taxonomy_11: ''
@@ -585,6 +883,150 @@ oomlout_ai_roboclick_2:
                     search_and_replace: []
                 file_test: label_oomp.pdf
                 retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M5 coupling connector nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M5+coupling+connector+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M5 coupling connector nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+coupling+connector+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T09:10:15.085210+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m5_coupling/google/995c3734e84349cc9fcf560aa032fa66.yaml
+                    evidence_url: https://www.google.com/search?q=M5+hexagon+coupling+nut+steel+DIN+6334+zinc+plated
+                    material_evidence: Product specifications state Steel; product
+                        features state carbon steel, Class 6.
+                    product_name: 5 x M5 Hex Coupling Nuts - Threaded Rod Connector
+                        Studding Extension - BZP Steel Class 6 - DIN 6334
+                    reason: The selected M5 hex coupling nut is steel, zinc plated,
+                        and explicitly DIN 6334; the page states DIN 6334 length is
+                        three times nominal diameter.
+                    result_url: https://www.diy.com/departments/5-x-m5-hex-coupling-nuts-threaded-rod-connector-studding-extension-bzp-steel-class-6-din-6334/5056826613318_BQ.prd
+                    search_evidence: Refined Google search returned the B&Q product
+                        titled 5 x M5 Hex Coupling Nuts - Threaded Rod Connector Studding
+                        Extension - BZP Steel Class 6 - DIN 6334; the opened product
+                        page confirms those specifications.
+                    search_for: M5 hexagon coupling nut steel DIN 6334 zinc plated
+                    search_url: https://www.google.com/search?q=M5+hexagon+coupling+nut+steel+DIN+6334+zinc+plated
+                    selected_variant: Bolt size M5; pack quantity 5; product code
+                        5056826613318
+                    specification: Hex coupling nut; M5 metric coarse thread; DIN
+                        6334; bright zinc plated (BZP); length is three times nominal
+                        diameter, 15 mm for M5.
+                    status: verified
+            supplier_data:
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T08:45:43.190333+00:00'
+                    currency: GBP
+                    family_description: "Hexagon stud connector nuts. Used to connect\
+                        \ 2 threaded parts together. Manufactured from\_zinc plated\
+                        \ steel. All connectors are fully threaded internally. Threads\
+                        \ are standard metric coarse pitch."
+                    family_heading: HEXAGON STUD CONNECTOR NUTS DIN 6334 ZINC PLATED
+                    html_sha256: 724f4d49f69873b58bdf0192d16b7bc94cefb5810f12fcd0fe8e0d74dac74d15
+                    name: M5 x 15mm HEXAGON STUD CONNECTOR NUT DIN 6334 ZINC PLATED
+                        STEEL
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:29:58.065114+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M5 x 15mm HEXAGON STUD CONNECTOR NUT
+                        DIN 6334 ZINC PLATED STEEL
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: "HEXAGON STUD CONNECTOR NUTS DIN 6334 ZINC PLATED;\
+                        \ Hexagon stud connector nuts. Used to connect 2 threaded\
+                        \ parts together. Manufactured from\_zinc plated steel. All\
+                        \ connectors are fully threaded internally. Threads are standard\
+                        \ metric coarse pitch."
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M5-x-15mm-HEXAGON-STUD-CONNECTOR-NUT-DIN-6334-ZINC-PLATED-STEEL
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M5-x-15mm-HEXAGON-STUD-CONNECTOR-NUT-DIN-6334-ZINC-PLATED-STEEL
+                    supplier_website: https://www.kayfast.co.uk/view-product/HEXAGON-STUD-CONNECTOR-NUTS-DIN-6334-ZINC-PLATED
+                    tiers:
+                    -   maximum: 19
+                        minimum: 1
+                        source_price_per_100: '8.40'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 19 @ \xA38.40 per 100"
+                        source_unit_price: '0.084'
+                        source_vat_basis: exclusive
+                        unit_price: '0.10080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 20
+                        source_price_per_100: '7.00'
+                        source_price_quantity: 100
+                        source_text: "QTY 20 -  99 @ \xA37.00 per 100"
+                        source_unit_price: '0.07'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 100
+                        source_price_per_100: '6.30'
+                        source_price_quantity: 100
+                        source_text: "QTY 100 + @ \xA36.30 per 100"
+                        source_unit_price: '0.063'
+                        source_vat_basis: exclusive
+                        unit_price: '0.07560'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.10080'
+                    total_price_10: '1.00800'
+                    total_price_100: '7.56000'
+                    total_price_1000: '75.60000'
+                    total_price_10000: '756.00000'
+                    unit_price_1: '0.10080'
+                    unit_price_10: '0.10080'
+                    unit_price_100: '0.07560'
+                    unit_price_1000: '0.07560'
+                    unit_price_10000: '0.07560'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
             taxonomy_1: hardware
             taxonomy_10: ''
             taxonomy_11: ''
@@ -836,9 +1278,145 @@ oomlout_ai_roboclick_3:
     file_test: ''
 oomp_key: oomp_hardware_nut_m5_coupling
 run_action: true
+run_only_yaml: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M5 coupling connector nut steel
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M5+coupling+connector+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M5 coupling connector nut steel
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+coupling+connector+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T09:10:15.085210+00:00'
+        evidence_file: support_files/evidence/hardware_nut_m5_coupling/google/995c3734e84349cc9fcf560aa032fa66.yaml
+        evidence_url: https://www.google.com/search?q=M5+hexagon+coupling+nut+steel+DIN+6334+zinc+plated
+        material_evidence: Product specifications state Steel; product features state
+            carbon steel, Class 6.
+        product_name: 5 x M5 Hex Coupling Nuts - Threaded Rod Connector Studding Extension
+            - BZP Steel Class 6 - DIN 6334
+        reason: The selected M5 hex coupling nut is steel, zinc plated, and explicitly
+            DIN 6334; the page states DIN 6334 length is three times nominal diameter.
+        result_url: https://www.diy.com/departments/5-x-m5-hex-coupling-nuts-threaded-rod-connector-studding-extension-bzp-steel-class-6-din-6334/5056826613318_BQ.prd
+        search_evidence: Refined Google search returned the B&Q product titled 5 x
+            M5 Hex Coupling Nuts - Threaded Rod Connector Studding Extension - BZP
+            Steel Class 6 - DIN 6334; the opened product page confirms those specifications.
+        search_for: M5 hexagon coupling nut steel DIN 6334 zinc plated
+        search_url: https://www.google.com/search?q=M5+hexagon+coupling+nut+steel+DIN+6334+zinc+plated
+        selected_variant: Bolt size M5; pack quantity 5; product code 5056826613318
+        specification: Hex coupling nut; M5 metric coarse thread; DIN 6334; bright
+            zinc plated (BZP); length is three times nominal diameter, 15 mm for M5.
+        status: verified
+supplier_data:
+    kayfast:
+        accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-14T08:45:43.190333+00:00'
+        currency: GBP
+        family_description: "Hexagon stud connector nuts. Used to connect 2 threaded\
+            \ parts together. Manufactured from\_zinc plated steel. All connectors\
+            \ are fully threaded internally. Threads are standard metric coarse pitch."
+        family_heading: HEXAGON STUD CONNECTOR NUTS DIN 6334 ZINC PLATED
+        html_sha256: 724f4d49f69873b58bdf0192d16b7bc94cefb5810f12fcd0fe8e0d74dac74d15
+        name: M5 x 15mm HEXAGON STUD CONNECTOR NUT DIN 6334 ZINC PLATED STEEL
+        packages: '[]'
+        parsed_at: '2026-10-18T09:29:58.065114+00:00'
+        parser_version: kayfast-1.6-family-description
+        price_breaks_description: M5 x 15mm HEXAGON STUD CONNECTOR NUT DIN 6334 ZINC
+            PLATED STEEL
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+            "statement": "Use the exact row dropdown price per 100 divided by 100
+            with Decimal precision; accept the captured per-100 display precision."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+        specifications: "HEXAGON STUD CONNECTOR NUTS DIN 6334 ZINC PLATED; Hexagon\
+            \ stud connector nuts. Used to connect 2 threaded parts together. Manufactured\
+            \ from\_zinc plated steel. All connectors are fully threaded internally.\
+            \ Threads are standard metric coarse pitch."
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: kayfast
+        supplier_id: M5-x-15mm-HEXAGON-STUD-CONNECTOR-NUT-DIN-6334-ZINC-PLATED-STEEL
+        supplier_id_basis: exact dimensional row description; spaces replaced by hyphens
+            (user clarification 2026-10-11)
+        supplier_part_number: M5-x-15mm-HEXAGON-STUD-CONNECTOR-NUT-DIN-6334-ZINC-PLATED-STEEL
+        supplier_website: https://www.kayfast.co.uk/view-product/HEXAGON-STUD-CONNECTOR-NUTS-DIN-6334-ZINC-PLATED
+        tiers:
+        -   maximum: 19
+            minimum: 1
+            source_price_per_100: '8.40'
+            source_price_quantity: 100
+            source_text: "QTY 1 - 19 @ \xA38.40 per 100"
+            source_unit_price: '0.084'
+            source_vat_basis: exclusive
+            unit_price: '0.10080'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 99
+            minimum: 20
+            source_price_per_100: '7.00'
+            source_price_quantity: 100
+            source_text: "QTY 20 -  99 @ \xA37.00 per 100"
+            source_unit_price: '0.07'
+            source_vat_basis: exclusive
+            unit_price: '0.0840'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 100
+            source_price_per_100: '6.30'
+            source_price_quantity: 100
+            source_text: "QTY 100 + @ \xA36.30 per 100"
+            source_unit_price: '0.063'
+            source_vat_basis: exclusive
+            unit_price: '0.07560'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.10080'
+        total_price_10: '1.00800'
+        total_price_100: '7.56000'
+        total_price_1000: '75.60000'
+        total_price_10000: '756.00000'
+        unit_price_1: '0.10080'
+        unit_price_10: '0.10080'
+        unit_price_100: '0.07560'
+        unit_price_1000: '0.07560'
+        unit_price_10000: '0.07560'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Kayfast per-100 displayed prices are rounded; derived totals use captured
+            display precision
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -1121,46 +1699,3 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
-search_data:
-  google:
-    search_for: M5 coupling connector nut steel
-    search_url: https://www.google.com/search?q=M5+coupling+connector+nut+steel
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  ebay:
-    search_for: M5 coupling connector nut steel
-    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+coupling+connector+nut+steel
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  aliexpress:
-    search_for: M5 coupling connector nut steel
-    search_url: https://www.aliexpress.com/wholesale?SearchText=M5+coupling+connector+nut+steel
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''

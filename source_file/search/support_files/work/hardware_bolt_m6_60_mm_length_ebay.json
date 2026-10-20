@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_bolt_m6_60_mm_length",
+  "platform": "ebay",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M6 x 60 hex head part threaded bolt DIN 931 steel",
+  "evidence_url": "https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+60+hex+head+part+threaded+bolt+DIN+931+steel",
+  "reason": "The exact eBay search led to an Oneweld listing. I selected the explicit Bolt Size option M6 x 60. The selected product is steel, hex head with spanner drive, part threaded to DIN 931, Grade 8.8 high tensile, and bright zinc plated. The exact length is selected in the page control; pack size remains unselected and does not alter the bolt identity.",
+  "search_evidence": "Opened the supplied eBay search. The Oneweld result titled M6 Hex Bolt Part Thread Grade 8.8 Zinc Plated DIN 931 High Tensile led to item 178007543046. The listing's Bolt Size selector offered M6 x 60 and that exact option was selected. Search results also showed stainless DIN 931 items and wrong-length/full-thread alternatives, which were not accepted.",
+  "attempts": [
+    {
+      "term": "M6 x 60 hex head part threaded bolt DIN 931 steel",
+      "url": "https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+60+hex+head+part+threaded+bolt+DIN+931+steel",
+      "completed": true,
+      "outcome": "Search completed; opened Oneweld item 178007543046 and selected Bolt Size M6 x 60. Page confirms steel, hex head/spanner, part threaded DIN 931, Grade 8.8, and bright zinc plated."
+    }
+  ],
+  "result_url": "https://www.ebay.co.uk/itm/178007543046?_skw=M6+x+60+hex+head+part+threaded+bolt+DIN+931+steel&itmmeta=01M4X3FF946GCGHT6J8CAYMJGD&hash=item2972138d06:g:u6cAAeSwgXdpytB3&itmprp=enc%3AAQALAAAA8CHNgUiiE%2FjQhlDTaMiAde8KaDSsMcb1DFvb55%2BZnxrRPUSz3%2BWij6Z44VHcKFmYJQV9%2F31pmSwcZuo3SlNM9gO5hBokhYm%2Bci9GS%2FpLewUzfwc%2FE3T%2BZonLJ9LaQGHWjSUZPzBR0gLMI7SvORz0V6KeRq0NznNr%2F065R577FU0fljagZUJ%2BRJ6H7RpnrLZDusJXemtoswL7l%2Fm6bNdrWlRYfTMH8pQPcDEKvFUCbljaxmElvmlTO9m4YxwonCyamXWYNsL4dgI2qajRjJck7tPHEmLVnQ3AGTNsb5at%2Fns26yoBhxaafdSK2r%2FX5jjSBg%3D%3D%7Ctkp%3ABk9SR-L0vaOnaA",
+  "product_name": "M6 Hex Bolt Part Thread Grade 8.8 Zinc Plated DIN 931 High Tensile",
+  "selected_variant": "Selected option: Bolt Size M6 x 60. Pack Size remained Select; no pack variant was selected. The selected Bolt Size option is visible in the page control, but the URL did not change to encode it.",
+  "material_evidence": "Steel",
+  "specification": "Screw Size: M6; Thread Size: M6; Length: 60mm (selected Bolt Size option: M6 x 60); Material: Steel; Head Style: Hex Head; Drive Style: Spanner; Type: Hex Bolts; Grade: Grade 8.8; Finish: Zinc Plated; seller description: Part threaded; Manufacturing Standard: DIN 931; Bright zinc plated (BZP); thread pitch 1.0mm",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

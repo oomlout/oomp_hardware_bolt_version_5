@@ -1,0 +1,43 @@
+oomp_id: hardware_set_screw_m6_15_mm_length
+platform: google
+method: codex_builtin_browser
+status: unresolved
+search_for: M6 x 15mm hexagon set screw DIN 933 grade 8.8 steel zinc plated
+evidence_url: https://www.google.com/search?q=M6+x+15mm+hexagon+set+screw+DIN+933+grade+8.8+steel+zinc+plated
+reason: The exact supplied search returned a nylon M6 x 15 mm listing, which is ineligible.
+  One focused refinement returned a broad Bowler Engineering M6 listing, but opening
+  it did not expose a selected product variant or product specifications. Exact length,
+  selected steel material, finish and form could not be verified within the search
+  budget.
+search_evidence: 'Initial Google search: the only matching M6 x 15 mm product described
+  in results was black Nylon 66, so it was rejected. Refined search for M6 x 15mm
+  hexagon set screw DIN 933 grade 8.8 steel zinc plated returned a broad M6 grade
+  8.8 zinc plated Bowler Engineering listing whose result explicitly omitted the length;
+  the opened page exposed no selected product details or options.'
+attempts:
+- term: M6 x 15 hex head fully threaded set screw DIN 933 steel
+  url: https://www.google.com/search?q=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+steel
+  completed: true
+  outcome: Matching M6 x 15 mm Bolt World result was solid Nylon 66; rejected. Other
+    results did not identify an exact eligible steel product.
+- term: M6 x 15mm hexagon set screw DIN 933 grade 8.8 steel zinc plated
+  url: https://www.google.com/search?q=M6+x+15mm+hexagon+set+screw+DIN+933+grade+8.8+steel+zinc+plated
+  completed: true
+  outcome: Opened broad Bowler Engineering M6 grade 8.8 bright zinc plated DIN 933
+    listing; page did not expose exact length selection or product specifications,
+    so candidate remains ambiguous.
+result_url: ''
+product_name: ''
+selected_variant: ''
+material_evidence: ''
+specification: ''
+checks:
+  result_reached_from_search: true
+  selected_variant: false
+  dimensions: false
+  form: false
+  material: false
+  finish: false
+  standard: false
+checked_at: '2026-10-14T10:57:19.088367+00:00'
+validator_version: 1

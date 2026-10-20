@@ -1,0 +1,38 @@
+{
+  "oomp_id": "hardware_nut_m5_locking",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M5 nyloc nut steel zinc plated DIN 985",
+  "evidence_url": "https://www.google.com/search?q=M5+nyloc+nut+steel+zinc+plated+DIN+985",
+  "reason": "The selected M5 Type T Nyloc is a steel nylon-insert locking nut with bright zinc plating and DIN 985 form.",
+  "search_evidence": "Refined Google query returned Orbital Fasteners result titled M5 Nyloc Nut Steel Bright Zinc Plated, Class 6 DIN 985 Type T Thin; the opened product page confirms the same selected M5 SKU.",
+  "attempts": [
+    {
+      "term": "M5 nylon insert locking nut steel",
+      "url": "https://www.google.com/search?q=M5+nylon+insert+locking+nut+steel",
+      "completed": true,
+      "outcome": "Search results were dominated by stainless products; no steel result was inspected."
+    },
+    {
+      "term": "M5 nyloc nut steel zinc plated DIN 985",
+      "url": "https://www.google.com/search?q=M5+nyloc+nut+steel+zinc+plated+DIN+985",
+      "completed": true,
+      "outcome": "Opened Orbital Fasteners product page; exact M5 Type T thin product, steel nylon insert nut Class 6, bright zinc plated, DIN 985; SKU 1781021."
+    }
+  ],
+  "result_url": "https://www.orbitalfasteners.co.uk/products/m5-nyloc-nut-steel-bright-zinc-plated-grade-8-din-985-type-t-thin",
+  "product_name": "M5 Nyloc Nut Steel Bright Zinc Plated, Class 6 DIN 985 Type T Thin",
+  "selected_variant": "Fixed M5 Type T (thin) product; SKU 1781021",
+  "material_evidence": "Product information states steel nylon insert nut, Class 6.",
+  "specification": "M5 hexagon Nyloc locking nut; DIN 985 Type T thin; bright zinc plated; steel body with nylon insert.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

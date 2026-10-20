@@ -1,0 +1,41 @@
+oomp_id: hardware_nut_m4_locking
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M4 nylon insert locking nut steel
+evidence_url: https://www.google.com/search?q=M4+nylon+insert+locking+nut+steel
+reason: Fusion Fixings confirms the selected M4 standard Nyloc nut is Grade 6 steel,
+  bright zinc plated, with nylon insert and DIN 985 dimensions.
+search_evidence: The Google search showed Easyfix M4 lock nuts and Fusion Fixings
+  M4 Nyloc. Screwfix's M4 BZP steel nylon lock nut page confirmed M4, BZP steel and
+  nylon lock nut category but lacked geometry detail. The Fusion Fixings product page
+  title identifies M4 Nyloc Insert Nut, T Type (Standard), Metric, Class 6 Steel BZP,
+  DIN 985. Its Technical Specification table states thread diameter M4, nut height
+  5mm max and 2.9mm min, socket size 7mm, Grade 6 steel material and bright zinc plated
+  finish; the description says the nylon insert provides locking action.
+attempts:
+- term: M4 nylon insert locking nut steel
+  url: https://www.google.com/search?q=M4+nylon+insert+locking+nut+steel
+  completed: true
+  outcome: Found steel nylon lock nut candidates including Fusion Fixings M4 Nyloc,
+    and opened its exact product page to verify selected specifications.
+result_url: https://www.fusionfixings.co.uk/products/m4-nyloc-nut-bzp-t-type-din-985
+product_name: M4 Nylon Nut, Nyloc Insert Nut, T Type (Standard) Metric, Class 6 Steel
+  BZP, DIN 985
+selected_variant: Fixed product code NIN-MBZP-04; M4 standard T-type Nyloc nut
+material_evidence: 'Technical Specification table states Material: Grade 6 steel;
+  product description identifies a nylon insert as the locking feature.'
+specification: 'Thread Size: M4; Nut Height max: 5mm; Nut Height min: 2.9mm; Socket
+  Size: 7mm; Form: T Type (Standard) Nyloc nylon insert locking nut; Material: Grade
+  6 steel with nylon insert; Finish: Bright zinc plated (BZP); Manufacturing Standard:
+  DIN 985; Item Code: NIN-MBZP-04.'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:05:54.438220+00:00'
+validator_version: 1

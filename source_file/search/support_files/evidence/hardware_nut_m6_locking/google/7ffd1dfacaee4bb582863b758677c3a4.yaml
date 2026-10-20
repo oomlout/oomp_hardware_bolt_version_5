@@ -1,0 +1,44 @@
+oomp_id: hardware_nut_m6_locking
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M6 DIN 985 steel nylon insert lock nut BZP 1.00mm pitch
+evidence_url: https://www.google.com/search?q=M6+DIN+985+steel+nylon+insert+lock+nut+BZP+1.00mm+pitch
+reason: Bolt World’s selected M6 Type T Nyloc nut matches DIN 985, with 1.00 mm pitch,
+  steel body, nylon insert and bright zinc plating.
+search_evidence: The refined Google query returned Bolt World’s exact M6 Nyloc Nut
+  Type T product. Its selected product page identifies the thin nylon insert hex locking
+  form, Grade 6 or 8 steel, bright zinc plating, M6 metric thread, 1.00 pitch and
+  DIN 985. The selected variant is M6, SKU 20007.060.000.
+attempts:
+- term: M6 nylon insert locking nut steel
+  url: https://www.google.com/search?q=M6+nylon+insert+locking+nut+steel
+  completed: true
+  outcome: Inspected Screwfix Easyfix BZP Steel Nylon Lock Nuts M6 100 Pack, code
+    29800. Its page confirms M6, steel, nylon lock form and BZP, but the displayed
+    product information did not establish thread pitch or standard, so it was not
+    accepted.
+- term: M6 DIN 985 steel nylon insert lock nut BZP 1.00mm pitch
+  url: https://www.google.com/search?q=M6+DIN+985+steel+nylon+insert+lock+nut+BZP+1.00mm+pitch
+  completed: true
+  outcome: Opened Bolt World’s M6 Nyloc Nut Type T. The selected M6 option (SKU 20007.060.000)
+    is specified as steel, Grade 6 or 8, bright zinc plated, metric thread, 1.00 pitch,
+    hexagon, DIN 985.
+result_url: https://boltworld.co.uk/products/m6-nyloc-nut-steel-bright-zinc-plated-grade-8-din-985-type-t/
+product_name: M6 Nyloc Nut Type T (Thin) – Nylon Insert Lock Nut, Grade 6 Steel, Bright
+  Zinc Plated (BZP), DIN 985
+selected_variant: M6 (6mm) selected; SKU 20007.060.000; Type T thin pattern
+material_evidence: 'Selected page states Material: Steel and Class / Grade: 6 or 8.
+  The nut has a nylon locking insert.'
+specification: M6 metric thread; 1.00 mm pitch; hexagon locking nut with nylon insert,
+  Type T thin pattern; DIN 985; Grade 6 or 8 steel; bright zinc plated.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:19:25.196069+00:00'
+validator_version: 1

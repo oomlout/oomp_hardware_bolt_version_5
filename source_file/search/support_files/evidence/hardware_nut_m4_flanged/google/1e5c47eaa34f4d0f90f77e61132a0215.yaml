@@ -1,0 +1,38 @@
+oomp_id: hardware_nut_m4_flanged
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M4 flanged nut steel
+evidence_url: https://www.google.com/search?q=M4+flanged+nut+steel
+reason: Bolt World confirms an M4 hexagon serrated flange nut in Grade 8 steel with
+  bright zinc plating to DIN 6923.
+search_evidence: The Google result M4 Hexagon Serrated Flange Nut – Grade 8 Steel,
+  Bright Zinc Plated (BZP), DIN 6923 was opened. The product page heading and specification
+  details confirm steel, Grade 8, bright zinc plated, M4 thread, metric right-hand
+  thread, 0.70 pitch and DIN 6923. The selected size is M4 (4mm), SKU 20044.040.000.
+  The page links a flange-serrated dimensions drawing.
+attempts:
+- term: M4 flanged nut steel
+  url: https://www.google.com/search?q=M4+flanged+nut+steel
+  completed: true
+  outcome: Found and opened Bolt World M4 Hexagon Serrated Flange Nut; page confirms
+    M4, Grade 8 steel, bright zinc plating and DIN 6923.
+result_url: https://boltworld.co.uk/products/m4-hexagon-serrated-flange-nut-bright-zinc-plated-grade-8-din-6923/
+product_name: M4 Hexagon Serrated Flange Nut – Grade 8 Steel, Bright Zinc Plated (BZP),
+  DIN 6923
+selected_variant: SKU 20044.040.000; selected thread size M4 (4mm)
+material_evidence: 'Product specifications state Material: Steel and Class / Grade:
+  8.'
+specification: 'Thread Size: M4; Thread Pitch: 0.70mm; Thread Form: Metric Thread,
+  Right Hand; Form: hexagon serrated flanged nut; Material: Steel, Grade 8; Finish:
+  Bright Zinc Plated (BZP); Manufacturing Standard: DIN 6923; SKU: 20044.040.000.'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:05:06.009797+00:00'
+validator_version: 1

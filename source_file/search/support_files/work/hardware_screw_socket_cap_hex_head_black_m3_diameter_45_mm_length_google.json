@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_screw_socket_cap_hex_head_black_m3_diameter_45_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M3 x 45 socket cap screw DIN 912 black high tensile steel",
+  "evidence_url": "https://www.google.com/search?q=M3+x+45+socket+cap+screw+DIN+912+black+high+tensile+steel",
+  "reason": "Opened the exact Bolt Base Amazon result from the supplied Google query and verified the product description, materials, dimensions, and selected pack quantity.",
+  "search_evidence": "Google returned the Bolt Base M3 x 45 listing; the snippet identifies DIN 912, black self colour, high tensile Grade 12.9, 3mm thread diameter, 0.5mm pitch, and not threaded full length.",
+  "attempts": [
+    {
+      "term": "M3 x 45 socket cap screw DIN 912 black high tensile steel",
+      "url": "https://www.google.com/search?q=M3+x+45+socket+cap+screw+DIN+912+black+high+tensile+steel",
+      "completed": true,
+      "outcome": "Opened the Bolt Base listing and verified M3 x 45mm, alloy steel grade 12.9, self colour black, socket cap with internal hex 2.5mm Allen drive, 0.5mm pitch, not fully threaded (approximately 20mm threaded), DIN 912, pack quantity 20 selected."
+    }
+  ],
+  "result_url": "https://www.amazon.co.uk/Bolt-Base-Tensile-Socket-screws/dp/B00SN3938G?th=1",
+  "product_name": "(3mm) M3 x 45 Black 12.9 Grade High Tensile Hex Socket Cap Screws Self Colour Allen Bolts DIN 912-20 Pack",
+  "selected_variant": "M3 x 45mm; item pack quantity 20 selected.",
+  "material_evidence": "Amazon product specifications state Material Type: Alloy Steel and product bullets state 12.9 Grade High Tensile Steel.",
+  "specification": "M3 metric coarse thread pitch 0.5mm; length 45mm excluding head; not threaded full length, approximately 20mm threaded; socket cap head; internal hex 2.5mm Allen drive; black self colour; DIN 912.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

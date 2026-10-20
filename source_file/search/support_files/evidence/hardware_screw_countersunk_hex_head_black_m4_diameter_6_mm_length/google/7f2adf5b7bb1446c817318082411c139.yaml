@@ -1,0 +1,36 @@
+oomp_id: hardware_screw_countersunk_hex_head_black_m4_diameter_6_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M4 x 6 socket countersunk screw DIN 7991 black high tensile steel
+evidence_url: https://www.google.com/search?q=M4+x+6+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+reason: The exact Google search returned the Amazon Bolt Base M4 x 6 listing. Its
+  page specifies 10.9 high tensile steel, black self-colour finish, socket countersunk
+  DIN 7991, M4 x 0.7 metric thread and 6mm length including head.
+search_evidence: Google displayed the Amazon Bolt Base listing with matching M4 x
+  6 dimensions, 10.9 high tensile steel, black self-colour, socket countersunk DIN
+  7991 and M4 x 0.7 pitch. The black stainless and A4 stainless result matches were
+  rejected.
+attempts:
+- term: M4 x 6 socket countersunk screw DIN 7991 black high tensile steel
+  url: https://www.google.com/search?q=M4+x+6+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+  completed: true
+  outcome: Opened the Amazon Bolt Base result and checked the listing details.
+result_url: https://www.amazon.co.uk/Tensile-Socket-Countersunk-screws-Colour/dp/B00SN38MFG?th=1
+product_name: (4mm) M4 x 6 Black 10.9 Grade High Tensile Hex Socket Countersunk Screws
+  Self Colour Allen Bolts DIN 7991-10 Pack
+selected_variant: 'Selected Item Package Quantity: 10; fixed product size M4 x 6mm.'
+material_evidence: 10.9 Grade High Tensile Steel; product details specify Steel.
+specification: 'Thread Size: M4 (4mm); Thread Pitch: 0.7mm; Length: 6mm including
+  head; Head: Socket Countersunk; Drive: Allen key/hex socket; Material: 10.9 Grade
+  High Tensile Steel; Finish: Black (Self Colour); Standard: DIN 7991.'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:36:29.536105+00:00'
+validator_version: 1

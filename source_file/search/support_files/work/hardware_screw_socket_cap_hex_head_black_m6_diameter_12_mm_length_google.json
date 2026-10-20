@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_screw_socket_cap_hex_head_black_m6_diameter_12_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M6 x 12 socket cap screw DIN 912 black high tensile steel",
+  "evidence_url": "https://www.google.com/search?q=M6+x+12+socket+cap+screw+DIN+912+black+high+tensile+steel",
+  "reason": "Exact non-stainless steel socket cap screw found and verified on product page.",
+  "search_evidence": "Google result led to Bolt Base M6 x 12 listing; product page inspected.",
+  "attempts": [
+    {
+      "term": "M6 x 12 socket cap screw DIN 912 black high tensile steel",
+      "url": "https://www.google.com/search?q=M6+x+12+socket+cap+screw+DIN+912+black+high+tensile+steel",
+      "completed": true,
+      "outcome": "Bolt Base page verifies M6 x 12, DIN 912, full thread, 12.9 high tensile steel, black self-colour, 1.0 mm pitch, 5 mm Allen key, selected pack quantity 10; technical fields list steel/alloy steel."
+    }
+  ],
+  "result_url": "https://www.amazon.co.uk/Bolt-Base-Tensile-Socket-screws/dp/B00SN34UKM",
+  "product_name": "Bolt Base M6 x 12 Black 12.9 Grade High Tensile Hex Socket Cap Screws Self Colour Allen Bolts DIN 912",
+  "selected_variant": "M6 x 12 mm; selected item package quantity 10",
+  "material_evidence": "Product page title and description state 12.9 Grade High Tensile Steel; material and metal type fields identify Steel and Alloy Steel.",
+  "specification": "M6 thread, 1.0 mm pitch, 12 mm length excluding head, full thread, DIN 912 socket cap head, 10 mm head diameter, 6 mm head height, 5 mm Allen key size, black self-colour.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

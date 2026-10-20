@@ -86,6 +86,78 @@ oomlout_ai_roboclick_1:
             name_proper: Hardware Bolt M6 120 Mm Length
             name_space: hardware bolt m6 120 mm length
             name_upper: HARDWARE BOLT M6 120 MM LENGTH
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: '2026-10-14T08:22:38.073396+00:00'
+                    evidence_file: support_files/evidence/hardware_bolt_m6_120_mm_length/ebay/b39ca43e71a944e09b32e665bff0948d.yaml
+                    evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                    material_evidence: High Tensile Steel, Grade 8.8
+                    product_name: M6 M8 M10 HEXAGON HEAD BOLTS PART THREADED SCREWS
+                        HIGH TENSILE 8.8 ZINC PLATED
+                    reason: Opened the exact eBay result and selected Bolt Size M6
+                        x 120mm. The listing title says hexagon head bolts, part threaded,
+                        high tensile 8.8 zinc plated; item specifics confirm DIN 931,
+                        high tensile steel, grade 8.8, M6, hex head, spanner or socket
+                        drive, and bright zinc plated finish.
+                    result_url: https://www.ebay.co.uk/itm/365341419766?_skw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel&itmmeta=01M4WR28V5XVKQSCN750RSE3YB&hash=item55100ba8f6:g:~1EAAeSwfBJqqZPa&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2F2YDZ0r%2Fv%2BXoGcZc46BN3CnaUL1zOE3j4qCb0pl5QLqqTmNCLFvAu7SAkBR1aZB3TotGim2m3Q4cv2mTvp62lfptH4VBBFFRXS19zXQVkd0S%2FniumN3wOO5p6j654wh6PWNGQFUsVaGJzL6N51KTIGsgwJIWw8a%2F9MBCwmu3J5NOG1VxmoXMNJP2EmyWE6iy8G8cKHnWimEbTocbqrBioQoS2DYGHnQ3Blux8iMlgqgzVstUEhO9GQa9u1CTsDOQbCUaRk1fSzAGh4gSVKfnDhNx6l1nBY%2Fqa43mh4hKYID9F%2Bw62qYXu0me%2Fbyi0wwvEl1R8kjTDg9qXbTp9IbkN6%7Ctkp%3ABk9SR-6NiZinaA
+                    search_evidence: Exact eBay search results included Kay's Fasteners
+                        listing M6 M8 M10 HEXAGON HEAD BOLTS PART THREADED SCREWS
+                        HIGH TENSILE 8.8 ZINC PLATED. Opened it from the results and
+                        selected M6 x 120mm. The page confirmed the selected size
+                        and relevant item specifics.
+                    search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: 'Selected Bolt Size: M6 x 120mm; item specifics
+                        state MPN DIN 931, Material High Tensile Steel, Grade 8.8,
+                        Thread Size M6 M8 M10, Head Style Hex Head, Drive Style Spanner
+                        or Socket, Finish Bright Zinc Plated (BZP). The selected Bolt
+                        Size is explicit on the page; variant selection is not encoded
+                        in the URL.'
+                    specification: 'Thread Size: M6; Length: 120mm; Form: Part threaded
+                        hexagon head bolt; Head: Hex Head; Drive Style: Spanner or
+                        Socket; Material: High Tensile Steel, Grade 8.8; Finish: Bright
+                        Zinc Plated (BZP); Manufacturing Standard: DIN 931'
+                    status: verified
+                google:
+                    checked_at: '2026-10-14T08:28:48.427967+00:00'
+                    evidence_file: support_files/evidence/hardware_bolt_m6_120_mm_length/google/4e4b598a99304541b8a780bc6618f460.yaml
+                    evidence_url: https://www.google.com/search?q=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                    material_evidence: 8.8 Steel BZP
+                    product_name: M6 x 120mm Hex Bolt - Part Threaded (DIN 931) |
+                        8.8 Steel BZP
+                    reason: The exact Google query returned Vital Parts' M6 x 120mm
+                        part-threaded DIN 931 result. The product page shows code
+                        HH931-M6-120-88-BZP and specifies M6 thread, 120mm length,
+                        18mm threaded length, 8.8 Steel BZP, Hex Head and DIN 931.
+                        The description confirms the part-threaded hex bolt and external
+                        drive for workshop/site fitting.
+                    result_url: https://www.vital-parts.co.uk/hex-head-bolts-din-931/9203-hh931-m6-120-88-bzp
+                    search_evidence: Google result M6 x 120mm Hex Bolt - Part Threaded
+                        (DIN 931) | 8.8 Steel BZP from Vital Parts led to the opened
+                        product page. Stainless steel search results were not used.
+                    search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.google.com/search?q=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: Fixed product code HH931-M6-120-88-BZP; Thread
+                        Size M6; Length 120mm; Threaded Length 18mm.
+                    specification: 'Thread Size: M6; Length: 120mm; Threaded Length:
+                        18mm; Head: Hex Head; Drive: External hex; Form: Part threaded;
+                        Material: 8.8 Steel; Finish: Bright Zinc Plated (BZP); Standard:
+                        DIN 931; Product code: HH931-M6-120-88-BZP'
+                    status: verified
             spec_iso_b_125_lt_l_le_200_mm: '24'
             spec_iso_b_l_gt_200_mm: ''
             spec_iso_b_l_le_125_mm: '18'
@@ -100,6 +172,167 @@ oomlout_ai_roboclick_1:
             spec_iso_s_max_mm: '10.00'
             spec_iso_s_min_mm: '9.78'
             spec_iso_thread_pitch_mm: '1.00'
+            supplier_data:
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T01:18:09.316714+00:00'
+                    currency: GBP
+                    family_description: Hexagon head partly threaded bolts. High tensile
+                        grade 8.8. Bright zinc plated. Manufactured to DIN 931.
+                    family_heading: METRIC HEXAGON BOLT DIN 931 ZINC PLATED GRADE
+                        8.8
+                    html_sha256: 2732e4bd459ccf0d8d3f4b87982017a45e4542e97728e88b0997451f637188de
+                    name: M6 x 120mm HEXAGON HEAD PARTLY THREADED BOLT DIN 931 ZINC
+                        PLATED
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:29:39.898891+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M6 x 120mm HEXAGON HEAD PARTLY THREADED
+                        BOLT DIN 931 ZINC PLATED
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: METRIC HEXAGON BOLT DIN 931 ZINC PLATED GRADE
+                        8.8; Hexagon head partly threaded bolts. High tensile grade
+                        8.8. Bright zinc plated. Manufactured to DIN 931.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M6-x-120mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M6-x-120mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+                    supplier_website: https://www.kayfast.co.uk/view-product/METRIC-HEXAGON-BOLT-DIN-931-ZINC-PLATED-GRADE-88
+                    tiers:
+                    -   maximum: 99
+                        minimum: 1
+                        source_price_per_100: '43.96'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 99 @ \xA343.96 per 100"
+                        source_unit_price: '0.4396'
+                        source_vat_basis: exclusive
+                        unit_price: '0.527520'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 100
+                        source_price_per_100: '27.50'
+                        source_price_quantity: 100
+                        source_text: "QTY 100 -  499 @ \xA327.50 per 100"
+                        source_unit_price: '0.275'
+                        source_vat_basis: exclusive
+                        unit_price: '0.33000'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 500
+                        source_price_per_100: '24.72'
+                        source_price_quantity: 100
+                        source_text: "QTY 500 + @ \xA324.72 per 100"
+                        source_unit_price: '0.2472'
+                        source_vat_basis: exclusive
+                        unit_price: '0.296640'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.527520'
+                    total_price_10: '5.275200'
+                    total_price_100: '33.00000'
+                    total_price_1000: '296.640000'
+                    total_price_10000: '2966.400000'
+                    unit_price_1: '0.527520'
+                    unit_price_10: '0.527520'
+                    unit_price_100: '0.33000'
+                    unit_price_1000: '0.296640'
+                    unit_price_10000: '0.296640'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '100'
+                    captured_at: '2026-10-12T08:10:19.935304+00:00'
+                    catalogue_page: '14'
+                    currency: GBP
+                    description: ''
+                    html_sha256: 8e75729561f8531ffda3e63479b358108eab21996c30ec4ecd389ca8419e8246
+                    name: M6 x 120 Hexagon Head Bolt High Tensile Grade 8.8, Bright
+                        Zinc Plated, DIN 931
+                    parsed_at: '2026-10-18T08:49:22.649884+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '9644'
+                    supplier: orbitalfasteners
+                    supplier_id: '1871114'
+                    supplier_part_number: '1871114'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m6x120-high-tensile-bolt-grade-8.8-bright-zinc-plated
+                    tiers:
+                    -   maximum: 99
+                        minimum: 1
+                        source_text: "1 - 99 \xA30.3012 Inc. VAT \xA330.12 Inc. VAT"
+                        source_unit_price: '0.3012'
+                        source_vat_basis: inclusive
+                        unit_price: '0.3012'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 100
+                        source_text: "100 - 499 \xA30.1674 Inc. VAT \xA316.74 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.1674'
+                        source_vat_basis: inclusive
+                        unit_price: '0.1674'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 799
+                        minimum: 500
+                        source_text: "500 - 799 \xA30.1506 Inc. VAT \xA315.06 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.1506'
+                        source_vat_basis: inclusive
+                        unit_price: '0.1506'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 800
+                        source_text: "800 + \xA30.1339 Inc. VAT \xA313.39 Inc. VAT"
+                        source_unit_price: '0.1339'
+                        source_vat_basis: inclusive
+                        unit_price: '0.1339'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.3012'
+                    total_price_10: '3.0120'
+                    total_price_100: '16.7400'
+                    total_price_1000: '133.9000'
+                    total_price_10000: '1339.0000'
+                    unit_price_1: '0.3012'
+                    unit_price_10: '0.3012'
+                    unit_price_100: '0.1674'
+                    unit_price_1000: '0.1339'
+                    unit_price_10000: '0.1339'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
             svg_details:
             -   svg_b_125_lt_l_le_200_mm: '24'
                 svg_b_l_gt_200_mm: ''
@@ -430,6 +663,89 @@ oomlout_ai_roboclick_2:
                         name_proper: Hardware Bolt M6 120 Mm Length
                         name_space: hardware bolt m6 120 mm length
                         name_upper: HARDWARE BOLT M6 120 MM LENGTH
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M6 x 120 hex head part threaded bolt DIN
+                                    931 steel
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: '2026-10-14T08:22:38.073396+00:00'
+                                evidence_file: support_files/evidence/hardware_bolt_m6_120_mm_length/ebay/b39ca43e71a944e09b32e665bff0948d.yaml
+                                evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                                material_evidence: High Tensile Steel, Grade 8.8
+                                product_name: M6 M8 M10 HEXAGON HEAD BOLTS PART THREADED
+                                    SCREWS HIGH TENSILE 8.8 ZINC PLATED
+                                reason: Opened the exact eBay result and selected
+                                    Bolt Size M6 x 120mm. The listing title says hexagon
+                                    head bolts, part threaded, high tensile 8.8 zinc
+                                    plated; item specifics confirm DIN 931, high tensile
+                                    steel, grade 8.8, M6, hex head, spanner or socket
+                                    drive, and bright zinc plated finish.
+                                result_url: https://www.ebay.co.uk/itm/365341419766?_skw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel&itmmeta=01M4WR28V5XVKQSCN750RSE3YB&hash=item55100ba8f6:g:~1EAAeSwfBJqqZPa&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2F2YDZ0r%2Fv%2BXoGcZc46BN3CnaUL1zOE3j4qCb0pl5QLqqTmNCLFvAu7SAkBR1aZB3TotGim2m3Q4cv2mTvp62lfptH4VBBFFRXS19zXQVkd0S%2FniumN3wOO5p6j654wh6PWNGQFUsVaGJzL6N51KTIGsgwJIWw8a%2F9MBCwmu3J5NOG1VxmoXMNJP2EmyWE6iy8G8cKHnWimEbTocbqrBioQoS2DYGHnQ3Blux8iMlgqgzVstUEhO9GQa9u1CTsDOQbCUaRk1fSzAGh4gSVKfnDhNx6l1nBY%2Fqa43mh4hKYID9F%2Bw62qYXu0me%2Fbyi0wwvEl1R8kjTDg9qXbTp9IbkN6%7Ctkp%3ABk9SR-6NiZinaA
+                                search_evidence: Exact eBay search results included
+                                    Kay's Fasteners listing M6 M8 M10 HEXAGON HEAD
+                                    BOLTS PART THREADED SCREWS HIGH TENSILE 8.8 ZINC
+                                    PLATED. Opened it from the results and selected
+                                    M6 x 120mm. The page confirmed the selected size
+                                    and relevant item specifics.
+                                search_for: M6 x 120 hex head part threaded bolt DIN
+                                    931 steel
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                                selected_variant: 'Selected Bolt Size: M6 x 120mm;
+                                    item specifics state MPN DIN 931, Material High
+                                    Tensile Steel, Grade 8.8, Thread Size M6 M8 M10,
+                                    Head Style Hex Head, Drive Style Spanner or Socket,
+                                    Finish Bright Zinc Plated (BZP). The selected
+                                    Bolt Size is explicit on the page; variant selection
+                                    is not encoded in the URL.'
+                                specification: 'Thread Size: M6; Length: 120mm; Form:
+                                    Part threaded hexagon head bolt; Head: Hex Head;
+                                    Drive Style: Spanner or Socket; Material: High
+                                    Tensile Steel, Grade 8.8; Finish: Bright Zinc
+                                    Plated (BZP); Manufacturing Standard: DIN 931'
+                                status: verified
+                            google:
+                                checked_at: '2026-10-14T08:28:48.427967+00:00'
+                                evidence_file: support_files/evidence/hardware_bolt_m6_120_mm_length/google/4e4b598a99304541b8a780bc6618f460.yaml
+                                evidence_url: https://www.google.com/search?q=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                                material_evidence: 8.8 Steel BZP
+                                product_name: M6 x 120mm Hex Bolt - Part Threaded
+                                    (DIN 931) | 8.8 Steel BZP
+                                reason: The exact Google query returned Vital Parts'
+                                    M6 x 120mm part-threaded DIN 931 result. The product
+                                    page shows code HH931-M6-120-88-BZP and specifies
+                                    M6 thread, 120mm length, 18mm threaded length,
+                                    8.8 Steel BZP, Hex Head and DIN 931. The description
+                                    confirms the part-threaded hex bolt and external
+                                    drive for workshop/site fitting.
+                                result_url: https://www.vital-parts.co.uk/hex-head-bolts-din-931/9203-hh931-m6-120-88-bzp
+                                search_evidence: Google result M6 x 120mm Hex Bolt
+                                    - Part Threaded (DIN 931) | 8.8 Steel BZP from
+                                    Vital Parts led to the opened product page. Stainless
+                                    steel search results were not used.
+                                search_for: M6 x 120 hex head part threaded bolt DIN
+                                    931 steel
+                                search_url: https://www.google.com/search?q=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                                selected_variant: Fixed product code HH931-M6-120-88-BZP;
+                                    Thread Size M6; Length 120mm; Threaded Length
+                                    18mm.
+                                specification: 'Thread Size: M6; Length: 120mm; Threaded
+                                    Length: 18mm; Head: Hex Head; Drive: External
+                                    hex; Form: Part threaded; Material: 8.8 Steel;
+                                    Finish: Bright Zinc Plated (BZP); Standard: DIN
+                                    931; Product code: HH931-M6-120-88-BZP'
+                                status: verified
                         spec_iso_b_125_lt_l_le_200_mm: '24'
                         spec_iso_b_l_gt_200_mm: ''
                         spec_iso_b_l_le_125_mm: '18'
@@ -444,6 +760,174 @@ oomlout_ai_roboclick_2:
                         spec_iso_s_max_mm: '10.00'
                         spec_iso_s_min_mm: '9.78'
                         spec_iso_thread_pitch_mm: '1.00'
+                        supplier_data:
+                            kayfast:
+                                accepted_warnings: '["Kayfast per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-14T01:18:09.316714+00:00'
+                                currency: GBP
+                                family_description: Hexagon head partly threaded bolts.
+                                    High tensile grade 8.8. Bright zinc plated. Manufactured
+                                    to DIN 931.
+                                family_heading: METRIC HEXAGON BOLT DIN 931 ZINC PLATED
+                                    GRADE 8.8
+                                html_sha256: 2732e4bd459ccf0d8d3f4b87982017a45e4542e97728e88b0997451f637188de
+                                name: M6 x 120mm HEXAGON HEAD PARTLY THREADED BOLT
+                                    DIN 931 ZINC PLATED
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:29:39.898891+00:00'
+                                parser_version: kayfast-1.6-family-description
+                                price_breaks_description: M6 x 120mm HEXAGON HEAD
+                                    PARTLY THREADED BOLT DIN 931 ZINC PLATED
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-17", "statement": "Use the exact row
+                                    dropdown price per 100 divided by 100 with Decimal
+                                    precision; accept the captured per-100 display
+                                    precision."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "Kayfast
+                                    prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+                                specifications: METRIC HEXAGON BOLT DIN 931 ZINC PLATED
+                                    GRADE 8.8; Hexagon head partly threaded bolts.
+                                    High tensile grade 8.8. Bright zinc plated. Manufactured
+                                    to DIN 931.
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: kayfast
+                                supplier_id: M6-x-120mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+                                supplier_id_basis: exact dimensional row description;
+                                    spaces replaced by hyphens (user clarification
+                                    2026-10-11)
+                                supplier_part_number: M6-x-120mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+                                supplier_website: https://www.kayfast.co.uk/view-product/METRIC-HEXAGON-BOLT-DIN-931-ZINC-PLATED-GRADE-88
+                                tiers:
+                                -   maximum: 99
+                                    minimum: 1
+                                    source_price_per_100: '43.96'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 1 - 99 @ \xA343.96 per 100"
+                                    source_unit_price: '0.4396'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.527520'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 499
+                                    minimum: 100
+                                    source_price_per_100: '27.50'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 100 -  499 @ \xA327.50 per 100"
+                                    source_unit_price: '0.275'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.33000'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 500
+                                    source_price_per_100: '24.72'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 500 + @ \xA324.72 per 100"
+                                    source_unit_price: '0.2472'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.296640'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.527520'
+                                total_price_10: '5.275200'
+                                total_price_100: '33.00000'
+                                total_price_1000: '296.640000'
+                                total_price_10000: '2966.400000'
+                                unit_price_1: '0.527520'
+                                unit_price_10: '0.527520'
+                                unit_price_100: '0.33000'
+                                unit_price_1000: '0.296640'
+                                unit_price_10000: '0.296640'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Kayfast per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
+                            orbitalfasteners:
+                                accepted_warnings: '[]'
+                                box_quantity: '100'
+                                captured_at: '2026-10-12T08:10:19.935304+00:00'
+                                catalogue_page: '14'
+                                currency: GBP
+                                description: ''
+                                html_sha256: 8e75729561f8531ffda3e63479b358108eab21996c30ec4ecd389ca8419e8246
+                                name: M6 x 120 Hexagon Head Bolt High Tensile Grade
+                                    8.8, Bright Zinc Plated, DIN 931
+                                parsed_at: '2026-10-18T08:49:22.649884+00:00'
+                                parser_version: 1.2-review-policy
+                                review_policy: ''
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: inclusive
+                                status: ok
+                                stock_as_of: 9th October 2026 10:01pm
+                                stock_quantity: '9644'
+                                supplier: orbitalfasteners
+                                supplier_id: '1871114'
+                                supplier_part_number: '1871114'
+                                supplier_website: https://www.orbitalfasteners.co.uk/products/m6x120-high-tensile-bolt-grade-8.8-bright-zinc-plated
+                                tiers:
+                                -   maximum: 99
+                                    minimum: 1
+                                    source_text: "1 - 99 \xA30.3012 Inc. VAT \xA3\
+                                        30.12 Inc. VAT"
+                                    source_unit_price: '0.3012'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.3012'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 499
+                                    minimum: 100
+                                    source_text: "100 - 499 \xA30.1674 Inc. VAT \xA3\
+                                        16.74 Inc. VAT"
+                                    source_unit_price: '0.1674'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.1674'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 799
+                                    minimum: 500
+                                    source_text: "500 - 799 \xA30.1506 Inc. VAT \xA3\
+                                        15.06 Inc. VAT"
+                                    source_unit_price: '0.1506'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.1506'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 800
+                                    source_text: "800 + \xA30.1339 Inc. VAT \xA313.39\
+                                        \ Inc. VAT"
+                                    source_unit_price: '0.1339'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.1339'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.3012'
+                                total_price_10: '3.0120'
+                                total_price_100: '16.7400'
+                                total_price_1000: '133.9000'
+                                total_price_10000: '1339.0000'
+                                unit_price_1: '0.3012'
+                                unit_price_10: '0.3012'
+                                unit_price_100: '0.1674'
+                                unit_price_1000: '0.1339'
+                                unit_price_10000: '0.1339'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings: []
                         svg_details:
                         -   svg_b_125_lt_l_le_200_mm: '24'
                             svg_b_l_gt_200_mm: ''
@@ -757,6 +1241,78 @@ oomlout_ai_roboclick_2:
                     search_and_replace: []
                 file_test: label_oomp.pdf
                 retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: '2026-10-14T08:22:38.073396+00:00'
+                    evidence_file: support_files/evidence/hardware_bolt_m6_120_mm_length/ebay/b39ca43e71a944e09b32e665bff0948d.yaml
+                    evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                    material_evidence: High Tensile Steel, Grade 8.8
+                    product_name: M6 M8 M10 HEXAGON HEAD BOLTS PART THREADED SCREWS
+                        HIGH TENSILE 8.8 ZINC PLATED
+                    reason: Opened the exact eBay result and selected Bolt Size M6
+                        x 120mm. The listing title says hexagon head bolts, part threaded,
+                        high tensile 8.8 zinc plated; item specifics confirm DIN 931,
+                        high tensile steel, grade 8.8, M6, hex head, spanner or socket
+                        drive, and bright zinc plated finish.
+                    result_url: https://www.ebay.co.uk/itm/365341419766?_skw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel&itmmeta=01M4WR28V5XVKQSCN750RSE3YB&hash=item55100ba8f6:g:~1EAAeSwfBJqqZPa&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2F2YDZ0r%2Fv%2BXoGcZc46BN3CnaUL1zOE3j4qCb0pl5QLqqTmNCLFvAu7SAkBR1aZB3TotGim2m3Q4cv2mTvp62lfptH4VBBFFRXS19zXQVkd0S%2FniumN3wOO5p6j654wh6PWNGQFUsVaGJzL6N51KTIGsgwJIWw8a%2F9MBCwmu3J5NOG1VxmoXMNJP2EmyWE6iy8G8cKHnWimEbTocbqrBioQoS2DYGHnQ3Blux8iMlgqgzVstUEhO9GQa9u1CTsDOQbCUaRk1fSzAGh4gSVKfnDhNx6l1nBY%2Fqa43mh4hKYID9F%2Bw62qYXu0me%2Fbyi0wwvEl1R8kjTDg9qXbTp9IbkN6%7Ctkp%3ABk9SR-6NiZinaA
+                    search_evidence: Exact eBay search results included Kay's Fasteners
+                        listing M6 M8 M10 HEXAGON HEAD BOLTS PART THREADED SCREWS
+                        HIGH TENSILE 8.8 ZINC PLATED. Opened it from the results and
+                        selected M6 x 120mm. The page confirmed the selected size
+                        and relevant item specifics.
+                    search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: 'Selected Bolt Size: M6 x 120mm; item specifics
+                        state MPN DIN 931, Material High Tensile Steel, Grade 8.8,
+                        Thread Size M6 M8 M10, Head Style Hex Head, Drive Style Spanner
+                        or Socket, Finish Bright Zinc Plated (BZP). The selected Bolt
+                        Size is explicit on the page; variant selection is not encoded
+                        in the URL.'
+                    specification: 'Thread Size: M6; Length: 120mm; Form: Part threaded
+                        hexagon head bolt; Head: Hex Head; Drive Style: Spanner or
+                        Socket; Material: High Tensile Steel, Grade 8.8; Finish: Bright
+                        Zinc Plated (BZP); Manufacturing Standard: DIN 931'
+                    status: verified
+                google:
+                    checked_at: '2026-10-14T08:28:48.427967+00:00'
+                    evidence_file: support_files/evidence/hardware_bolt_m6_120_mm_length/google/4e4b598a99304541b8a780bc6618f460.yaml
+                    evidence_url: https://www.google.com/search?q=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                    material_evidence: 8.8 Steel BZP
+                    product_name: M6 x 120mm Hex Bolt - Part Threaded (DIN 931) |
+                        8.8 Steel BZP
+                    reason: The exact Google query returned Vital Parts' M6 x 120mm
+                        part-threaded DIN 931 result. The product page shows code
+                        HH931-M6-120-88-BZP and specifies M6 thread, 120mm length,
+                        18mm threaded length, 8.8 Steel BZP, Hex Head and DIN 931.
+                        The description confirms the part-threaded hex bolt and external
+                        drive for workshop/site fitting.
+                    result_url: https://www.vital-parts.co.uk/hex-head-bolts-din-931/9203-hh931-m6-120-88-bzp
+                    search_evidence: Google result M6 x 120mm Hex Bolt - Part Threaded
+                        (DIN 931) | 8.8 Steel BZP from Vital Parts led to the opened
+                        product page. Stainless steel search results were not used.
+                    search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.google.com/search?q=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: Fixed product code HH931-M6-120-88-BZP; Thread
+                        Size M6; Length 120mm; Threaded Length 18mm.
+                    specification: 'Thread Size: M6; Length: 120mm; Threaded Length:
+                        18mm; Head: Hex Head; Drive: External hex; Form: Part threaded;
+                        Material: 8.8 Steel; Finish: Bright Zinc Plated (BZP); Standard:
+                        DIN 931; Product code: HH931-M6-120-88-BZP'
+                    status: verified
             spec_iso_b_125_lt_l_le_200_mm: '24'
             spec_iso_b_l_gt_200_mm: ''
             spec_iso_b_l_le_125_mm: '18'
@@ -771,6 +1327,167 @@ oomlout_ai_roboclick_2:
             spec_iso_s_max_mm: '10.00'
             spec_iso_s_min_mm: '9.78'
             spec_iso_thread_pitch_mm: '1.00'
+            supplier_data:
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T01:18:09.316714+00:00'
+                    currency: GBP
+                    family_description: Hexagon head partly threaded bolts. High tensile
+                        grade 8.8. Bright zinc plated. Manufactured to DIN 931.
+                    family_heading: METRIC HEXAGON BOLT DIN 931 ZINC PLATED GRADE
+                        8.8
+                    html_sha256: 2732e4bd459ccf0d8d3f4b87982017a45e4542e97728e88b0997451f637188de
+                    name: M6 x 120mm HEXAGON HEAD PARTLY THREADED BOLT DIN 931 ZINC
+                        PLATED
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:29:39.898891+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M6 x 120mm HEXAGON HEAD PARTLY THREADED
+                        BOLT DIN 931 ZINC PLATED
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: METRIC HEXAGON BOLT DIN 931 ZINC PLATED GRADE
+                        8.8; Hexagon head partly threaded bolts. High tensile grade
+                        8.8. Bright zinc plated. Manufactured to DIN 931.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M6-x-120mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M6-x-120mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+                    supplier_website: https://www.kayfast.co.uk/view-product/METRIC-HEXAGON-BOLT-DIN-931-ZINC-PLATED-GRADE-88
+                    tiers:
+                    -   maximum: 99
+                        minimum: 1
+                        source_price_per_100: '43.96'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 99 @ \xA343.96 per 100"
+                        source_unit_price: '0.4396'
+                        source_vat_basis: exclusive
+                        unit_price: '0.527520'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 100
+                        source_price_per_100: '27.50'
+                        source_price_quantity: 100
+                        source_text: "QTY 100 -  499 @ \xA327.50 per 100"
+                        source_unit_price: '0.275'
+                        source_vat_basis: exclusive
+                        unit_price: '0.33000'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 500
+                        source_price_per_100: '24.72'
+                        source_price_quantity: 100
+                        source_text: "QTY 500 + @ \xA324.72 per 100"
+                        source_unit_price: '0.2472'
+                        source_vat_basis: exclusive
+                        unit_price: '0.296640'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.527520'
+                    total_price_10: '5.275200'
+                    total_price_100: '33.00000'
+                    total_price_1000: '296.640000'
+                    total_price_10000: '2966.400000'
+                    unit_price_1: '0.527520'
+                    unit_price_10: '0.527520'
+                    unit_price_100: '0.33000'
+                    unit_price_1000: '0.296640'
+                    unit_price_10000: '0.296640'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '100'
+                    captured_at: '2026-10-12T08:10:19.935304+00:00'
+                    catalogue_page: '14'
+                    currency: GBP
+                    description: ''
+                    html_sha256: 8e75729561f8531ffda3e63479b358108eab21996c30ec4ecd389ca8419e8246
+                    name: M6 x 120 Hexagon Head Bolt High Tensile Grade 8.8, Bright
+                        Zinc Plated, DIN 931
+                    parsed_at: '2026-10-18T08:49:22.649884+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '9644'
+                    supplier: orbitalfasteners
+                    supplier_id: '1871114'
+                    supplier_part_number: '1871114'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m6x120-high-tensile-bolt-grade-8.8-bright-zinc-plated
+                    tiers:
+                    -   maximum: 99
+                        minimum: 1
+                        source_text: "1 - 99 \xA30.3012 Inc. VAT \xA330.12 Inc. VAT"
+                        source_unit_price: '0.3012'
+                        source_vat_basis: inclusive
+                        unit_price: '0.3012'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 100
+                        source_text: "100 - 499 \xA30.1674 Inc. VAT \xA316.74 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.1674'
+                        source_vat_basis: inclusive
+                        unit_price: '0.1674'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 799
+                        minimum: 500
+                        source_text: "500 - 799 \xA30.1506 Inc. VAT \xA315.06 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.1506'
+                        source_vat_basis: inclusive
+                        unit_price: '0.1506'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 800
+                        source_text: "800 + \xA30.1339 Inc. VAT \xA313.39 Inc. VAT"
+                        source_unit_price: '0.1339'
+                        source_vat_basis: inclusive
+                        unit_price: '0.1339'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.3012'
+                    total_price_10: '3.0120'
+                    total_price_100: '16.7400'
+                    total_price_1000: '133.9000'
+                    total_price_10000: '1339.0000'
+                    unit_price_1: '0.3012'
+                    unit_price_10: '0.3012'
+                    unit_price_100: '0.1674'
+                    unit_price_1000: '0.1339'
+                    unit_price_10000: '0.1339'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
             svg_details:
             -   svg_b_125_lt_l_le_200_mm: '24'
                 svg_b_l_gt_200_mm: ''
@@ -1092,9 +1809,76 @@ oomlout_ai_roboclick_3:
     file_test: ''
 oomp_key: oomp_hardware_bolt_m6_120_mm_length
 run_action: true
+run_only_yaml: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: '2026-10-14T08:22:38.073396+00:00'
+        evidence_file: support_files/evidence/hardware_bolt_m6_120_mm_length/ebay/b39ca43e71a944e09b32e665bff0948d.yaml
+        evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+        material_evidence: High Tensile Steel, Grade 8.8
+        product_name: M6 M8 M10 HEXAGON HEAD BOLTS PART THREADED SCREWS HIGH TENSILE
+            8.8 ZINC PLATED
+        reason: Opened the exact eBay result and selected Bolt Size M6 x 120mm. The
+            listing title says hexagon head bolts, part threaded, high tensile 8.8
+            zinc plated; item specifics confirm DIN 931, high tensile steel, grade
+            8.8, M6, hex head, spanner or socket drive, and bright zinc plated finish.
+        result_url: https://www.ebay.co.uk/itm/365341419766?_skw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel&itmmeta=01M4WR28V5XVKQSCN750RSE3YB&hash=item55100ba8f6:g:~1EAAeSwfBJqqZPa&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2F2YDZ0r%2Fv%2BXoGcZc46BN3CnaUL1zOE3j4qCb0pl5QLqqTmNCLFvAu7SAkBR1aZB3TotGim2m3Q4cv2mTvp62lfptH4VBBFFRXS19zXQVkd0S%2FniumN3wOO5p6j654wh6PWNGQFUsVaGJzL6N51KTIGsgwJIWw8a%2F9MBCwmu3J5NOG1VxmoXMNJP2EmyWE6iy8G8cKHnWimEbTocbqrBioQoS2DYGHnQ3Blux8iMlgqgzVstUEhO9GQa9u1CTsDOQbCUaRk1fSzAGh4gSVKfnDhNx6l1nBY%2Fqa43mh4hKYID9F%2Bw62qYXu0me%2Fbyi0wwvEl1R8kjTDg9qXbTp9IbkN6%7Ctkp%3ABk9SR-6NiZinaA
+        search_evidence: Exact eBay search results included Kay's Fasteners listing
+            M6 M8 M10 HEXAGON HEAD BOLTS PART THREADED SCREWS HIGH TENSILE 8.8 ZINC
+            PLATED. Opened it from the results and selected M6 x 120mm. The page confirmed
+            the selected size and relevant item specifics.
+        search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+        selected_variant: 'Selected Bolt Size: M6 x 120mm; item specifics state MPN
+            DIN 931, Material High Tensile Steel, Grade 8.8, Thread Size M6 M8 M10,
+            Head Style Hex Head, Drive Style Spanner or Socket, Finish Bright Zinc
+            Plated (BZP). The selected Bolt Size is explicit on the page; variant
+            selection is not encoded in the URL.'
+        specification: 'Thread Size: M6; Length: 120mm; Form: Part threaded hexagon
+            head bolt; Head: Hex Head; Drive Style: Spanner or Socket; Material: High
+            Tensile Steel, Grade 8.8; Finish: Bright Zinc Plated (BZP); Manufacturing
+            Standard: DIN 931'
+        status: verified
+    google:
+        checked_at: '2026-10-14T08:28:48.427967+00:00'
+        evidence_file: support_files/evidence/hardware_bolt_m6_120_mm_length/google/4e4b598a99304541b8a780bc6618f460.yaml
+        evidence_url: https://www.google.com/search?q=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+        material_evidence: 8.8 Steel BZP
+        product_name: M6 x 120mm Hex Bolt - Part Threaded (DIN 931) | 8.8 Steel BZP
+        reason: The exact Google query returned Vital Parts' M6 x 120mm part-threaded
+            DIN 931 result. The product page shows code HH931-M6-120-88-BZP and specifies
+            M6 thread, 120mm length, 18mm threaded length, 8.8 Steel BZP, Hex Head
+            and DIN 931. The description confirms the part-threaded hex bolt and external
+            drive for workshop/site fitting.
+        result_url: https://www.vital-parts.co.uk/hex-head-bolts-din-931/9203-hh931-m6-120-88-bzp
+        search_evidence: Google result M6 x 120mm Hex Bolt - Part Threaded (DIN 931)
+            | 8.8 Steel BZP from Vital Parts led to the opened product page. Stainless
+            steel search results were not used.
+        search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
+        search_url: https://www.google.com/search?q=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+        selected_variant: Fixed product code HH931-M6-120-88-BZP; Thread Size M6;
+            Length 120mm; Threaded Length 18mm.
+        specification: 'Thread Size: M6; Length: 120mm; Threaded Length: 18mm; Head:
+            Hex Head; Drive: External hex; Form: Part threaded; Material: 8.8 Steel;
+            Finish: Bright Zinc Plated (BZP); Standard: DIN 931; Product code: HH931-M6-120-88-BZP'
+        status: verified
 spec_iso_b_125_lt_l_le_200_mm: '24'
 spec_iso_b_l_gt_200_mm: ''
 spec_iso_b_l_le_125_mm: '18'
@@ -1109,6 +1893,161 @@ spec_iso_nominal_diameter: M6
 spec_iso_s_max_mm: '10.00'
 spec_iso_s_min_mm: '9.78'
 spec_iso_thread_pitch_mm: '1.00'
+supplier_data:
+    kayfast:
+        accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-14T01:18:09.316714+00:00'
+        currency: GBP
+        family_description: Hexagon head partly threaded bolts. High tensile grade
+            8.8. Bright zinc plated. Manufactured to DIN 931.
+        family_heading: METRIC HEXAGON BOLT DIN 931 ZINC PLATED GRADE 8.8
+        html_sha256: 2732e4bd459ccf0d8d3f4b87982017a45e4542e97728e88b0997451f637188de
+        name: M6 x 120mm HEXAGON HEAD PARTLY THREADED BOLT DIN 931 ZINC PLATED
+        packages: '[]'
+        parsed_at: '2026-10-18T09:29:39.898891+00:00'
+        parser_version: kayfast-1.6-family-description
+        price_breaks_description: M6 x 120mm HEXAGON HEAD PARTLY THREADED BOLT DIN
+            931 ZINC PLATED
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+            "statement": "Use the exact row dropdown price per 100 divided by 100
+            with Decimal precision; accept the captured per-100 display precision."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+        specifications: METRIC HEXAGON BOLT DIN 931 ZINC PLATED GRADE 8.8; Hexagon
+            head partly threaded bolts. High tensile grade 8.8. Bright zinc plated.
+            Manufactured to DIN 931.
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: kayfast
+        supplier_id: M6-x-120mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+        supplier_id_basis: exact dimensional row description; spaces replaced by hyphens
+            (user clarification 2026-10-11)
+        supplier_part_number: M6-x-120mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+        supplier_website: https://www.kayfast.co.uk/view-product/METRIC-HEXAGON-BOLT-DIN-931-ZINC-PLATED-GRADE-88
+        tiers:
+        -   maximum: 99
+            minimum: 1
+            source_price_per_100: '43.96'
+            source_price_quantity: 100
+            source_text: "QTY 1 - 99 @ \xA343.96 per 100"
+            source_unit_price: '0.4396'
+            source_vat_basis: exclusive
+            unit_price: '0.527520'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 499
+            minimum: 100
+            source_price_per_100: '27.50'
+            source_price_quantity: 100
+            source_text: "QTY 100 -  499 @ \xA327.50 per 100"
+            source_unit_price: '0.275'
+            source_vat_basis: exclusive
+            unit_price: '0.33000'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 500
+            source_price_per_100: '24.72'
+            source_price_quantity: 100
+            source_text: "QTY 500 + @ \xA324.72 per 100"
+            source_unit_price: '0.2472'
+            source_vat_basis: exclusive
+            unit_price: '0.296640'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.527520'
+        total_price_10: '5.275200'
+        total_price_100: '33.00000'
+        total_price_1000: '296.640000'
+        total_price_10000: '2966.400000'
+        unit_price_1: '0.527520'
+        unit_price_10: '0.527520'
+        unit_price_100: '0.33000'
+        unit_price_1000: '0.296640'
+        unit_price_10000: '0.296640'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Kayfast per-100 displayed prices are rounded; derived totals use captured
+            display precision
+    orbitalfasteners:
+        accepted_warnings: '[]'
+        box_quantity: '100'
+        captured_at: '2026-10-12T08:10:19.935304+00:00'
+        catalogue_page: '14'
+        currency: GBP
+        description: ''
+        html_sha256: 8e75729561f8531ffda3e63479b358108eab21996c30ec4ecd389ca8419e8246
+        name: M6 x 120 Hexagon Head Bolt High Tensile Grade 8.8, Bright Zinc Plated,
+            DIN 931
+        parsed_at: '2026-10-18T08:49:22.649884+00:00'
+        parser_version: 1.2-review-policy
+        review_policy: ''
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: inclusive
+        status: ok
+        stock_as_of: 9th October 2026 10:01pm
+        stock_quantity: '9644'
+        supplier: orbitalfasteners
+        supplier_id: '1871114'
+        supplier_part_number: '1871114'
+        supplier_website: https://www.orbitalfasteners.co.uk/products/m6x120-high-tensile-bolt-grade-8.8-bright-zinc-plated
+        tiers:
+        -   maximum: 99
+            minimum: 1
+            source_text: "1 - 99 \xA30.3012 Inc. VAT \xA330.12 Inc. VAT"
+            source_unit_price: '0.3012'
+            source_vat_basis: inclusive
+            unit_price: '0.3012'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 499
+            minimum: 100
+            source_text: "100 - 499 \xA30.1674 Inc. VAT \xA316.74 Inc. VAT"
+            source_unit_price: '0.1674'
+            source_vat_basis: inclusive
+            unit_price: '0.1674'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 799
+            minimum: 500
+            source_text: "500 - 799 \xA30.1506 Inc. VAT \xA315.06 Inc. VAT"
+            source_unit_price: '0.1506'
+            source_vat_basis: inclusive
+            unit_price: '0.1506'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 800
+            source_text: "800 + \xA30.1339 Inc. VAT \xA313.39 Inc. VAT"
+            source_unit_price: '0.1339'
+            source_vat_basis: inclusive
+            unit_price: '0.1339'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.3012'
+        total_price_10: '3.0120'
+        total_price_100: '16.7400'
+        total_price_1000: '133.9000'
+        total_price_10000: '1339.0000'
+        unit_price_1: '0.3012'
+        unit_price_10: '0.3012'
+        unit_price_100: '0.1674'
+        unit_price_1000: '0.1339'
+        unit_price_10000: '0.1339'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings: []
 svg_details:
 -   svg_b_125_lt_l_le_200_mm: '24'
     svg_b_l_gt_200_mm: ''
@@ -1461,69 +2400,3 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
-search_data:
-  google:
-    search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
-    search_url: https://www.google.com/search?q=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
-    status: verified
-    reason: The exact Google query returned Vital Parts' M6 x 120mm part-threaded
-      DIN 931 result. The product page shows code HH931-M6-120-88-BZP and specifies
-      M6 thread, 120mm length, 18mm threaded length, 8.8 Steel BZP, Hex Head and DIN
-      931. The description confirms the part-threaded hex bolt and external drive
-      for workshop/site fitting.
-    result_url: https://www.vital-parts.co.uk/hex-head-bolts-din-931/9203-hh931-m6-120-88-bzp
-    product_name: M6 x 120mm Hex Bolt - Part Threaded (DIN 931) | 8.8 Steel BZP
-    selected_variant: Fixed product code HH931-M6-120-88-BZP; Thread Size M6; Length
-      120mm; Threaded Length 18mm.
-    material_evidence: 8.8 Steel BZP
-    specification: 'Thread Size: M6; Length: 120mm; Threaded Length: 18mm; Head: Hex
-      Head; Drive: External hex; Form: Part threaded; Material: 8.8 Steel; Finish:
-      Bright Zinc Plated (BZP); Standard: DIN 931; Product code: HH931-M6-120-88-BZP'
-    search_evidence: Google result M6 x 120mm Hex Bolt - Part Threaded (DIN 931) |
-      8.8 Steel BZP from Vital Parts led to the opened product page. Stainless steel
-      search results were not used.
-    evidence_url: https://www.google.com/search?q=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
-    checked_at: '2026-10-14T08:28:48.427967+00:00'
-    evidence_file: support_files/evidence/hardware_bolt_m6_120_mm_length/google/4e4b598a99304541b8a780bc6618f460.yaml
-  ebay:
-    search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
-    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
-    status: verified
-    reason: Opened the exact eBay result and selected Bolt Size M6 x 120mm. The listing
-      title says hexagon head bolts, part threaded, high tensile 8.8 zinc plated;
-      item specifics confirm DIN 931, high tensile steel, grade 8.8, M6, hex head,
-      spanner or socket drive, and bright zinc plated finish.
-    result_url: https://www.ebay.co.uk/itm/365341419766?_skw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel&itmmeta=01M4WR28V5XVKQSCN750RSE3YB&hash=item55100ba8f6:g:~1EAAeSwfBJqqZPa&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2F2YDZ0r%2Fv%2BXoGcZc46BN3CnaUL1zOE3j4qCb0pl5QLqqTmNCLFvAu7SAkBR1aZB3TotGim2m3Q4cv2mTvp62lfptH4VBBFFRXS19zXQVkd0S%2FniumN3wOO5p6j654wh6PWNGQFUsVaGJzL6N51KTIGsgwJIWw8a%2F9MBCwmu3J5NOG1VxmoXMNJP2EmyWE6iy8G8cKHnWimEbTocbqrBioQoS2DYGHnQ3Blux8iMlgqgzVstUEhO9GQa9u1CTsDOQbCUaRk1fSzAGh4gSVKfnDhNx6l1nBY%2Fqa43mh4hKYID9F%2Bw62qYXu0me%2Fbyi0wwvEl1R8kjTDg9qXbTp9IbkN6%7Ctkp%3ABk9SR-6NiZinaA
-    product_name: M6 M8 M10 HEXAGON HEAD BOLTS PART THREADED SCREWS HIGH TENSILE 8.8
-      ZINC PLATED
-    selected_variant: 'Selected Bolt Size: M6 x 120mm; item specifics state MPN DIN
-      931, Material High Tensile Steel, Grade 8.8, Thread Size M6 M8 M10, Head Style
-      Hex Head, Drive Style Spanner or Socket, Finish Bright Zinc Plated (BZP). The
-      selected Bolt Size is explicit on the page; variant selection is not encoded
-      in the URL.'
-    material_evidence: High Tensile Steel, Grade 8.8
-    specification: 'Thread Size: M6; Length: 120mm; Form: Part threaded hexagon head
-      bolt; Head: Hex Head; Drive Style: Spanner or Socket; Material: High Tensile
-      Steel, Grade 8.8; Finish: Bright Zinc Plated (BZP); Manufacturing Standard:
-      DIN 931'
-    search_evidence: Exact eBay search results included Kay's Fasteners listing M6
-      M8 M10 HEXAGON HEAD BOLTS PART THREADED SCREWS HIGH TENSILE 8.8 ZINC PLATED.
-      Opened it from the results and selected M6 x 120mm. The page confirmed the selected
-      size and relevant item specifics.
-    evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
-    checked_at: '2026-10-14T08:22:38.073396+00:00'
-    evidence_file: support_files/evidence/hardware_bolt_m6_120_mm_length/ebay/b39ca43e71a944e09b32e665bff0948d.yaml
-  aliexpress:
-    search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
-    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''

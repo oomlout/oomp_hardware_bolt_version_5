@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_screw_socket_cap_hex_head_black_m3_diameter_25_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M3 x 25 socket cap screw DIN 912 black high tensile steel",
+  "evidence_url": "https://www.google.com/search?q=M3+x+25+socket+cap+screw+DIN+912+black+high+tensile+steel",
+  "reason": "Opened the exact Bolt World result from Google and verified the selected M3 x 25mm product and full specifications.",
+  "search_evidence": "Google returned Bolt World’s exact M3 x 25mm fully threaded Grade 12.9 steel self-colour black Allen key hex socket cap screw, DIN 912.",
+  "attempts": [
+    {
+      "term": "M3 x 25 socket cap screw DIN 912 black high tensile steel",
+      "url": "https://www.google.com/search?q=M3+x+25+socket+cap+screw+DIN+912+black+high+tensile+steel",
+      "completed": true,
+      "outcome": "Opened Bolt World’s exact product from Google and verified the selected M3 x 25mm option and specifications."
+    }
+  ],
+  "result_url": "https://boltworld.co.uk/products/m3-x-25mm-socket-head-cap-screws-fully-threaded-grade-12-9-self-colour-din-912/",
+  "product_name": "M3 X 25mm Socket Head Cap Screw (Fully Threaded) – High Tensile Grade 12.9 Steel, Self Colour Black, Allen Key Hex Socket, DIN 912",
+  "selected_variant": "Thread Size M3 (3mm) selected; Length 25mm selected; SKU 50025.030.025.",
+  "material_evidence": "Supplier page states Material Steel, Class/Grade 12.9.",
+  "specification": "M3 x 25mm; metric right-hand fully threaded thread, 0.50mm pitch; socket cap head; Allen key hex socket drive; self-colour/plain (heading describes black); DIN 912. Supplier identifies 25mm as thread length excluding head.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

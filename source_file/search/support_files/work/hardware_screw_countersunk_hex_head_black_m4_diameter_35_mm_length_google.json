@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_screw_countersunk_hex_head_black_m4_diameter_35_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M4 x 35 socket countersunk screw DIN 7991 black high tensile steel",
+  "evidence_url": "https://www.google.com/search?q=M4+x+35+socket+countersunk+screw+DIN+7991+black+high+tensile+steel",
+  "reason": "The exact Google search returned this Amazon Bolt Base listing. The selected M4 x 35 screw is a hex socket countersunk screw to DIN 7991, made from 10.9 high tensile alloy steel with black self-colour finish. The page specifies M4 x 0.7 pitch, 35mm length including head, and fully threaded coverage.",
+  "search_evidence": "Google results included an Amazon Bolt Base listing, which was opened. The listing title and bullets match M4 x 35, black self-colour 10.9 high tensile steel, socket countersunk DIN 7991, M4 x 0.7 pitch and 35mm including head. Other results included stainless or zinc plated alternatives that do not match the requested material/finish.",
+  "attempts": [
+    {
+      "term": "M4 x 35 socket countersunk screw DIN 7991 black high tensile steel",
+      "url": "https://www.google.com/search?q=M4+x+35+socket+countersunk+screw+DIN+7991+black+high+tensile+steel",
+      "completed": true,
+      "outcome": "Opened the Amazon Bolt Base result and verified the selected M4 x 35 listing details."
+    }
+  ],
+  "result_url": "https://www.amazon.co.uk/Tensile-Socket-Countersunk-screws-Colour/dp/B00SN3JYY4?th=1",
+  "product_name": "(4mm) M4 x 35 Black 10.9 Grade High Tensile Hex Socket Countersunk Screws Self Colour Allen Bolts DIN 7991-30 Pack",
+  "selected_variant": "Selected Item Package Quantity: 30; fixed product size M4 x 35mm.",
+  "material_evidence": "10.9 Grade High Tensile Steel; product details specify Alloy Steel.",
+  "specification": "Thread Size: M4 (4mm); Thread Pitch: 0.7mm; Length: 35mm including head; Thread Coverage: Fully Threaded; Head: Socket Countersunk; Drive: Internal Hex; Material: 10.9 Grade High Tensile Alloy Steel; Finish: Black (Self Colour); Standard: DIN 7991.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

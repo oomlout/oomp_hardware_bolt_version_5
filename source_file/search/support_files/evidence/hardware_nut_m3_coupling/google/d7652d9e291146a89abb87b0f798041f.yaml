@@ -1,0 +1,46 @@
+oomp_id: hardware_nut_m3_coupling
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M3 x 5mm hexagon connection long nut steel
+evidence_url: https://www.google.com/search?q=M3+x+5mm+hexagon+connection+long+nut+steel
+reason: Bolt World confirms the selected M3 x 5mm hexagon connection long nut is Free
+  Cutting Steel, Grade 6, Blue Passivated Zinc Plated, metric M3 x 0.50 right-hand
+  thread. The page breadcrumb identifies it as a Stud Connector Nut.
+search_evidence: The refined Google query returned Bolt World's M3 x 5mm Hexagon Connection
+  Long Nuts, Grade 6 BLUE Passivated Zinc Plated and a web result describing mild
+  steel, 0.50 pitch, and its use for joining two threaded parts. The opened product
+  page confirms the exact M3 and 5mm selected options, SKU 51317.030.005, Free Cutting
+  Steel, Grade 6, BLUE Passivated Zinc Plated, right-hand metric thread, 0.50 pitch,
+  hexagon shape, and the breadcrumb category Stud Connector Nut.
+attempts:
+- term: M3 coupling connector nut steel
+  url: https://www.google.com/search?q=M3+coupling+connector+nut+steel
+  completed: true
+  outcome: Results were mainly stainless coupling nuts, but Google shopping results
+    also showed Bolt World M3 connection long nuts in several lengths. Refined to
+    the exact 5mm option.
+- term: M3 x 5mm hexagon connection long nut steel
+  url: https://www.google.com/search?q=M3+x+5mm+hexagon+connection+long+nut+steel
+  completed: true
+  outcome: Found and opened Bolt World M3 x 5mm Hexagon Connection Long Nut; product
+    page confirms exact M3 x 5mm steel stud connector nut and finish.
+result_url: https://boltworld.co.uk/products/m3-x-5mm-hexagon-connection-long-nuts-grade-6-blue-passivated-zinc-plated/
+product_name: 'M3 X 5mm Hexagon Connection Long Nuts, Grade 6 BLUE Passivated Zinc
+  Plated; breadcrumb category: Stud Connector Nut'
+selected_variant: Thread Size M3 (3mm); Length 5mm; SKU 51317.030.005
+material_evidence: 'Selected product page states Material: Free Cutting Steel, Class
+  / Grade: 6.'
+specification: 'Thread Size: M3; Thread Pitch: 0.50mm; Thread Direction: Right; Length:
+  5mm; Nut Shape: Hexagon; Material: Free Cutting Steel, Grade 6; Finish: BLUE Passivated
+  Zinc Plated; Product category: Stud Connector Nut; SKU: 51317.030.005.'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T08:58:53.671480+00:00'
+validator_version: 1

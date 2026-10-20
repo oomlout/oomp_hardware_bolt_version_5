@@ -1,0 +1,35 @@
+oomp_id: hardware_set_screw_m8_70_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M8 x 70 hex head fully threaded set screw DIN 933 steel
+evidence_url: https://www.google.com/search?q=M8+x+70+hex+head+fully+threaded+set+screw+DIN+933+steel
+reason: Exact dimensions, fully threaded hex form, grade 8.8 steel, bright zinc plated
+  finish and DIN 933 verified on selected product page.
+search_evidence: Google returned Orbital Fasteners M8 x 70, fully threaded hexagon
+  headed set screw, high tensile steel grade 8.8 bright zinc plated; opened product
+  page and verified specification.
+attempts:
+- term: M8 x 70 hex head fully threaded set screw DIN 933 steel
+  url: https://www.google.com/search?q=M8+x+70+hex+head+fully+threaded+set+screw+DIN+933+steel
+  completed: true
+  outcome: 'Opened Orbital Fasteners SKU 1851390: M8 x 70, fully threaded hex head,
+    high tensile steel grade 8.8, bright zinc plated, DIN 933.'
+result_url: https://www.orbitalfasteners.co.uk/products/m8-x-70-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated
+product_name: M8 x 70 Hexagon Head Set Screws High Tensile Grade 8.8 Bright Zinc Plated,
+  DIN 933
+selected_variant: SKU 1851390; M8 x 70; fully threaded; hexagon head; grade 8.8; bright
+  zinc plated
+material_evidence: Product page states made from high tensile steel grade 8.8.
+specification: M8 x 70 mm fully threaded hexagon head set screw, DIN 933; high tensile
+  steel grade 8.8; bright zinc plated.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T11:25:52.700675+00:00'
+validator_version: 1

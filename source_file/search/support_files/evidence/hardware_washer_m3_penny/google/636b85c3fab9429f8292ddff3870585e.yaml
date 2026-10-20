@@ -1,0 +1,39 @@
+oomp_id: hardware_washer_m3_penny
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M3 steel penny washer DIN 9021
+evidence_url: https://www.google.com/search?q=M3+steel+penny+washer+DIN+9021
+reason: The exact Google search led to Orbital Fasteners' M3 x 12 x 0.8 mm penny/mudguard
+  repair washer page. The page heading states mild steel and bright zinc plated, and
+  the seller description calls it a mild-steel penny washer with bright zinc plating.
+  The search result and product URL identify DIN 9021.
+search_evidence: Opened the Orbital Fasteners Google result ‘M3 x 12 x 0.8mm Penny
+  Mudguard Repair Washer Mild Steel Bright Zinc Plated’; its product page showed SKU
+  1731000 and seller description ‘Mild Steel penny washer, (mudguard washer) bright
+  zinc plated.’ Other results included stainless candidates and were rejected.
+attempts:
+- term: M3 steel penny washer DIN 9021
+  url: https://www.google.com/search?q=M3+steel+penny+washer+DIN+9021
+  completed: true
+  outcome: Google exposed an exact M3 x 12 x 0.8 mm mild-steel BZP penny washer from
+    Orbital Fasteners; opened its product page and confirmed product identity and
+    material/finish.
+result_url: https://www.orbitalfasteners.co.uk/products/m3-x-12-x-0-8mm-penny-mudguard-repair-washer-mild-steel-bright-zinc-plated-din-9021
+product_name: M3 X 12 X 0.8MM PENNY MUDGUARD REPAIR WASHER MILD STEEL BRIGHT ZINC
+  PLATED
+selected_variant: 'Single product: M3 x 12 x 0.8mm penny/mudguard repair washer'
+material_evidence: Mild steel
+specification: 'Nominal size: M3; Form: Penny/mudguard repair washer; Outside diameter:
+  12mm; Thickness: 0.8mm; Material: Mild steel; Finish: Bright zinc plated; Standard:
+  DIN 9021 (product URL and Google result)'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T11:34:11.398023+00:00'
+validator_version: 1

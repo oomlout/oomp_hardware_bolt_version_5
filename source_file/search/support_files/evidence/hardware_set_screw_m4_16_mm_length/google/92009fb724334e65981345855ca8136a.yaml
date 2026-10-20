@@ -1,0 +1,35 @@
+oomp_id: hardware_set_screw_m4_16_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M4 x 16 hex head fully threaded set screw DIN 933 steel
+evidence_url: https://www.google.com/search?q=M4+x+16+hex+head+fully+threaded+set+screw+DIN+933+steel
+reason: Vital Parts page confirms M4 x 16, 0.70mm pitch, hex head, fully threaded,
+  8.8 steel BZP and DIN 933.
+search_evidence: Google result opened Vital Parts M4 x 16mm Set Screw - Hex Head (DIN
+  933) | 8.8 Steel BZP. Stainless results were rejected.
+attempts:
+- term: M4 x 16 hex head fully threaded set screw DIN 933 steel
+  url: https://www.google.com/search?q=M4+x+16+hex+head+fully+threaded+set+screw+DIN+933+steel
+  completed: true
+  outcome: Opened Vital Parts page; verified Thread Size M4, Length 16mm, Pitch 0.70mm,
+    Material 8.8 Steel BZP, Across Flats 7mm, Head Height 3mm, Standard DIN 933, Hex
+    Head; page confirms fully threaded. Product code HH933-M4-16-88-BZP.
+result_url: https://www.vital-parts.co.uk/hex-set-screws-din-933/10056-hh933-m4-16-88-bzp
+product_name: M4 x 16mm Set Screw - Hex Head (DIN 933) | 8.8 Steel BZP
+selected_variant: 'Single-size product: M4 x 16mm, 0.70mm pitch, 8.8 Steel BZP; product
+  code HH933-M4-16-88-BZP'
+material_evidence: Steel
+specification: 'Thread Size: M4; Length: 16mm; Pitch: 0.70mm; Thread form: fully threaded;
+  Drive: external hexagon; Head Style: Hex Head; Across Flats: 7mm; Head Height: 3mm;
+  Material: 8.8 Steel; Finish: BZP; Standard: DIN 933'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T10:36:41.096147+00:00'
+validator_version: 1

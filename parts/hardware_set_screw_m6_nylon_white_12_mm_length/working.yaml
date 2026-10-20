@@ -86,6 +86,63 @@ oomlout_ai_roboclick_1:
             name_proper: Hardware Set Screw M6 Nylon White 12 Mm Length
             name_space: hardware set screw m6 nylon white 12 mm length
             name_upper: HARDWARE SET SCREW M6 NYLON WHITE 12 MM LENGTH
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 12 hex head fully threaded set screw DIN 933
+                        white nylon
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+12+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 12 hex head fully threaded set screw DIN 933
+                        white nylon
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+12+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T11:08:23.798887+00:00'
+                    evidence_file: support_files/evidence/hardware_set_screw_m6_nylon_white_12_mm_length/google/058280f8b6a943b4a4e97e5d78f3128f.yaml
+                    evidence_url: https://www.google.com/search?q=M6+x+12+white+nylon+hex+head+set+screw+DIN+933
+                    material_evidence: ''
+                    product_name: ''
+                    reason: Completed the supplied exact search and one refinement;
+                        no eligible white nylon M6 x 12 mm product was confirmed.
+                        The Spalding result explicitly specifies white nylon and DIN
+                        933 but its selectable lengths are 20, 25, 30, 40 and 50 mm,
+                        not 12 mm. Other exact-length results identify natural nylon,
+                        which does not establish white.
+                    result_url: ''
+                    search_evidence: The supplied Google query returned nylon M6 x
+                        12 listings but the inspected Bolt World result describes
+                        natural finish. Refining to white nylon returned Spalding
+                        Fasteners, whose page explicitly says Nylon (White), M6 x
+                        1, DIN 933, and hexagon head; the length selector offers only
+                        20, 25, 30, 40 and 50 mm. No 12 mm selectable variant was
+                        available. Google also returned natural nylon M6 x 12 listings,
+                        which do not satisfy the explicit white requirement.
+                    search_for: M6 x 12 white nylon hex head set screw DIN 933
+                    search_url: https://www.google.com/search?q=M6+x+12+white+nylon+hex+head+set+screw+DIN+933
+                    selected_variant: ''
+                    specification: ''
+                    status: assumed_non_stocked
             spec_iso_b_125_lt_l_le_200_mm: '24'
             spec_iso_b_l_gt_200_mm: ''
             spec_iso_b_l_le_125_mm: '18'
@@ -413,6 +470,67 @@ oomlout_ai_roboclick_2:
                         name_proper: Hardware Set Screw M6 Nylon White 12 Mm Length
                         name_space: hardware set screw m6 nylon white 12 mm length
                         name_upper: HARDWARE SET SCREW M6 NYLON WHITE 12 MM LENGTH
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M6 x 12 hex head fully threaded set screw
+                                    DIN 933 white nylon
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+12+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M6 x 12 hex head fully threaded set screw
+                                    DIN 933 white nylon
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+12+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T11:08:23.798887+00:00'
+                                evidence_file: support_files/evidence/hardware_set_screw_m6_nylon_white_12_mm_length/google/058280f8b6a943b4a4e97e5d78f3128f.yaml
+                                evidence_url: https://www.google.com/search?q=M6+x+12+white+nylon+hex+head+set+screw+DIN+933
+                                material_evidence: ''
+                                product_name: ''
+                                reason: Completed the supplied exact search and one
+                                    refinement; no eligible white nylon M6 x 12 mm
+                                    product was confirmed. The Spalding result explicitly
+                                    specifies white nylon and DIN 933 but its selectable
+                                    lengths are 20, 25, 30, 40 and 50 mm, not 12 mm.
+                                    Other exact-length results identify natural nylon,
+                                    which does not establish white.
+                                result_url: ''
+                                search_evidence: The supplied Google query returned
+                                    nylon M6 x 12 listings but the inspected Bolt
+                                    World result describes natural finish. Refining
+                                    to white nylon returned Spalding Fasteners, whose
+                                    page explicitly says Nylon (White), M6 x 1, DIN
+                                    933, and hexagon head; the length selector offers
+                                    only 20, 25, 30, 40 and 50 mm. No 12 mm selectable
+                                    variant was available. Google also returned natural
+                                    nylon M6 x 12 listings, which do not satisfy the
+                                    explicit white requirement.
+                                search_for: M6 x 12 white nylon hex head set screw
+                                    DIN 933
+                                search_url: https://www.google.com/search?q=M6+x+12+white+nylon+hex+head+set+screw+DIN+933
+                                selected_variant: ''
+                                specification: ''
+                                status: assumed_non_stocked
                         spec_iso_b_125_lt_l_le_200_mm: '24'
                         spec_iso_b_l_gt_200_mm: ''
                         spec_iso_b_l_le_125_mm: '18'
@@ -723,6 +841,63 @@ oomlout_ai_roboclick_2:
                     search_and_replace: []
                 file_test: label_oomp.pdf
                 retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 12 hex head fully threaded set screw DIN 933
+                        white nylon
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+12+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 12 hex head fully threaded set screw DIN 933
+                        white nylon
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+12+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T11:08:23.798887+00:00'
+                    evidence_file: support_files/evidence/hardware_set_screw_m6_nylon_white_12_mm_length/google/058280f8b6a943b4a4e97e5d78f3128f.yaml
+                    evidence_url: https://www.google.com/search?q=M6+x+12+white+nylon+hex+head+set+screw+DIN+933
+                    material_evidence: ''
+                    product_name: ''
+                    reason: Completed the supplied exact search and one refinement;
+                        no eligible white nylon M6 x 12 mm product was confirmed.
+                        The Spalding result explicitly specifies white nylon and DIN
+                        933 but its selectable lengths are 20, 25, 30, 40 and 50 mm,
+                        not 12 mm. Other exact-length results identify natural nylon,
+                        which does not establish white.
+                    result_url: ''
+                    search_evidence: The supplied Google query returned nylon M6 x
+                        12 listings but the inspected Bolt World result describes
+                        natural finish. Refining to white nylon returned Spalding
+                        Fasteners, whose page explicitly says Nylon (White), M6 x
+                        1, DIN 933, and hexagon head; the length selector offers only
+                        20, 25, 30, 40 and 50 mm. No 12 mm selectable variant was
+                        available. Google also returned natural nylon M6 x 12 listings,
+                        which do not satisfy the explicit white requirement.
+                    search_for: M6 x 12 white nylon hex head set screw DIN 933
+                    search_url: https://www.google.com/search?q=M6+x+12+white+nylon+hex+head+set+screw+DIN+933
+                    selected_variant: ''
+                    specification: ''
+                    status: assumed_non_stocked
             spec_iso_b_125_lt_l_le_200_mm: '24'
             spec_iso_b_l_gt_200_mm: ''
             spec_iso_b_l_le_125_mm: '18'
@@ -1041,9 +1216,63 @@ oomlout_ai_roboclick_3:
     file_test: ''
 oomp_key: oomp_hardware_set_screw_m6_nylon_white_12_mm_length
 run_action: true
+run_only_yaml: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M6 x 12 hex head fully threaded set screw DIN 933 white nylon
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+12+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M6 x 12 hex head fully threaded set screw DIN 933 white nylon
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+12+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T11:08:23.798887+00:00'
+        evidence_file: support_files/evidence/hardware_set_screw_m6_nylon_white_12_mm_length/google/058280f8b6a943b4a4e97e5d78f3128f.yaml
+        evidence_url: https://www.google.com/search?q=M6+x+12+white+nylon+hex+head+set+screw+DIN+933
+        material_evidence: ''
+        product_name: ''
+        reason: Completed the supplied exact search and one refinement; no eligible
+            white nylon M6 x 12 mm product was confirmed. The Spalding result explicitly
+            specifies white nylon and DIN 933 but its selectable lengths are 20, 25,
+            30, 40 and 50 mm, not 12 mm. Other exact-length results identify natural
+            nylon, which does not establish white.
+        result_url: ''
+        search_evidence: The supplied Google query returned nylon M6 x 12 listings
+            but the inspected Bolt World result describes natural finish. Refining
+            to white nylon returned Spalding Fasteners, whose page explicitly says
+            Nylon (White), M6 x 1, DIN 933, and hexagon head; the length selector
+            offers only 20, 25, 30, 40 and 50 mm. No 12 mm selectable variant was
+            available. Google also returned natural nylon M6 x 12 listings, which
+            do not satisfy the explicit white requirement.
+        search_for: M6 x 12 white nylon hex head set screw DIN 933
+        search_url: https://www.google.com/search?q=M6+x+12+white+nylon+hex+head+set+screw+DIN+933
+        selected_variant: ''
+        specification: ''
+        status: assumed_non_stocked
 spec_iso_b_125_lt_l_le_200_mm: '24'
 spec_iso_b_l_gt_200_mm: ''
 spec_iso_b_l_le_125_mm: '18'
@@ -1407,46 +1636,3 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
-search_data:
-  google:
-    search_for: M6 x 12 hex head fully threaded set screw DIN 933 white nylon
-    search_url: https://www.google.com/search?q=M6+x+12+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  ebay:
-    search_for: M6 x 12 hex head fully threaded set screw DIN 933 white nylon
-    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+12+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  aliexpress:
-    search_for: M6 x 12 hex head fully threaded set screw DIN 933 white nylon
-    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+12+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''

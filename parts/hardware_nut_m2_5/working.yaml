@@ -105,6 +105,59 @@ oomlout_ai_roboclick_1:
             name_proper: Hardware Nut M2 5
             name_space: hardware nut m2 5
             name_upper: HARDWARE NUT M2 5
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M2.5 hexagon full nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M2.5+hexagon+full+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M2.5 hexagon full nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M2.5+hexagon+full+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T08:49:31.944315+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m2_5/google/eb4ef1e0779e4d93be7398c70ffd588b.yaml
+                    evidence_url: https://www.google.com/search?q=M2.5+hexagon+full+nut+steel
+                    material_evidence: Supplier page title identifies steel, class
+                        8; page description says standard steel Hexagon Full Nuts,
+                        class 8. Bright Zinc Plated (DIN 934).
+                    product_name: M2.5 Hexagon Steel Full Nut Class 8 Bright Zinc
+                        Plated, DIN 934
+                    reason: Exact M2.5 full hex nut specification confirmed on the
+                        supplier page.
+                    result_url: https://www.orbitalfasteners.co.uk/products/m2-5-steel-hexagon-full-nut-grade-8-bright-zinc-plated
+                    search_evidence: The Google search returned an Orbital Fasteners
+                        M2.5 Hexagon Steel Full Nut Class 8 Bright Zinc Plated, DIN
+                        934 result. The opened supplier page identifies the exact
+                        M2.5 product, class 8 steel, bright zinc plated finish, full
+                        hex nut form and DIN 934 standard.
+                    search_for: M2.5 hexagon full nut steel
+                    search_url: https://www.google.com/search?q=M2.5+hexagon+full+nut+steel
+                    selected_variant: M2.5 full hexagon nut, class 8 steel, bright
+                        zinc plated
+                    specification: Thread size M2.5; full hexagon nut; DIN 934; class
+                        8 steel; bright zinc plated. SKU 1770020.
+                    status: verified
             spec_iso_c_max_mm: '0.30'
             spec_iso_c_min_mm: '0.10'
             spec_iso_da_max_mm: '2.90'
@@ -117,6 +170,332 @@ oomlout_ai_roboclick_1:
             spec_iso_s_max_mm: '5.00'
             spec_iso_s_min_mm: '4.82'
             spec_iso_thread_pitch_mm: '0.45'
+            supplier_data:
+                aanddfasteners:
+                    accepted_warnings: '["Source quantity band starts at zero; normalized
+                        minimum to one item"]'
+                    captured_at: '2026-10-13T07:36:56.812412+00:00'
+                    currency: GBP
+                    html_sha256: 94293f5f9a9ac8a839abeb3813827a7a749249dec38e928a649b46a118184e63
+                    name: M2.5 Hexagon Full Nut, Steel zinc plated CR3, Din 934
+                    packages: '[]'
+                    parsed_at: '2026-10-18T08:57:29.247023+00:00'
+                    parser_version: aanddfasteners-1.2-review-policy
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept zero-to-one quantity normalization
+                        and low-stock notices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: Product information A hexagonal nut also known
+                        as a full nut or hex nut. In class 6 mild steel with bright
+                        zinc plating to Din 934 with metric coarse thread. The full
+                        nut is typically used with a mating bolt or machine screw,
+                        and can be tightened by hand, spanner or socket wrench.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: aanddfasteners
+                    supplier_id: ST934025ZP
+                    supplier_part_number: ST934025ZP
+                    supplier_website: https://www.aanddfasteners.co.uk/shop/nuts/full-nut/metric-full-nut-din-934-steel-zinc-plated/m2-5-hexagon-full-nut-steel-zinc-plated-cr3-din-934/details
+                    tiers:
+                    -   maximum: 25
+                        minimum: 1
+                        source_text: "0 - 25 \xA3 0.10"
+                        source_unit_price: '0.10'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 50
+                        minimum: 26
+                        source_text: "26 -50 \xA3 0.06"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 51
+                        source_text: "51+ \xA3 0.05"
+                        source_unit_price: '0.05'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0600'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.1200'
+                    total_price_10: '1.2000'
+                    total_price_100: '6.0000'
+                    total_price_1000: '60.0000'
+                    total_price_10000: '600.0000'
+                    unit_price_1: '0.1200'
+                    unit_price_10: '0.1200'
+                    unit_price_100: '0.0600'
+                    unit_price_1000: '0.0600'
+                    unit_price_10000: '0.0600'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Source quantity band starts at zero; normalized minimum to one
+                        item
+                accu:
+                    accepted_warnings: '["Accu displayed prices are rounded; derived
+                        totals use the captured display precision", "Final Accu price
+                        tier has no captured upper boundary; final advertised unit
+                        price extended by user policy"]'
+                    box_quantity: ''
+                    captured_at: '2026-10-13T12:00:03.016687+00:00'
+                    currency: GBP
+                    description: "Hexagon Nuts are one of the most popular types of\
+                        \ fasteners, designed to be used in conjunction with screws,\
+                        \ bolts and other male threaded fasteners to securely join\
+                        \ multiple components together. When combined with a Mating\
+                        \ Bolt, a hex nut can be used to fasten two or more parts\
+                        \ together through a combination of compression, friction\
+                        \ (of the threads of the fasteners), and a slight stretching\
+                        \ of the bolt. Washers are also often used with nuts and bolts\
+                        \ to help distribute the load of the fasteners, for spacing\
+                        \ or protecting the surfaces of the mating components. This\
+                        \ type of metric nut is also commonly referred to as a Full\
+                        \ Nut or Finished Hex Nut, and is typically fastened using\
+                        \ either a wrench (spanner) or a ratchet. For heavy duty applications,\
+                        \ such as structural\_projects, Heavy Duty Hex Nuts are available\
+                        \ from Accu in both metric and imperial sizes. Metric Hex\
+                        \ Nut Materials Hexagon Nuts from Accu are manufactured in\
+                        \ a wide range of materials. Metal Hex Nuts available include\
+                        \ A1, A2, A4 Stainless Steel, with High Tensile options in\
+                        \ Duplex and Bumax Stainless Steel. Mild Steel (Grades 6,\
+                        \ 8, 10 and 12) is also available with either Hot Dip Galvanised\
+                        \ or Zinc Plated finishes. Accu also lists Plastic Hex Nuts\
+                        \ in our standard range, with Nylon, Polycarbonate, Polypropylene,\
+                        \ Reny and Polyphenylene options available, along with specialist\
+                        \ thermoplastics like PVDF and PEEK. Additionally, exotic\
+                        \ materials such as ceramic and aluminium are also available.\
+                        \ Hexagon Nuts can be manufactured in alternative material\
+                        \ types such as Brass, Phosphor Bronze and Titanium on request.\
+                        \ Metric Hexagon Nuts Accu's Hex Nuts are manufactured according\
+                        \ to internationally recognised industry standards, with DIN\
+                        \ 934 and ISO 4032 options available. As standard, we stock\
+                        \ Full Nuts in metric sizes from M1 to M56. These components\
+                        \ feature a coarse metric thread pitch, which makes them more\
+                        \ resistant to cross threading and stripping. Metric Fine\
+                        \ Pitch Hexagon Nuts are available from our online store for\
+                        \ applications which require finer adjustments and greater\
+                        \ resistance to loosening under vibration. Imperial Hexagon\
+                        \ Nuts Imperial Hexagon Nuts are also supplied by Accu in\
+                        \ diameters ranging from No. 0 up to 2 inch. Both UNC and\
+                        \ UNF threads are available."
+                    html_sha256: 337ce9a3aa6dc7d93c9e757d0eb7e3176f0df59bb0b90991cb679aa93909cf44
+                    name: M2.5 Hexagon Nuts (DIN 934) - Bright Zinc Plated Mild Steel
+                        (Class 6)
+                    parsed_at: '2026-10-18T08:52:03.668186+00:00'
+                    parser_version: accu-1.9-base-material
+                    price_inheritance: "{\"1000\": {\"source_quantity\": 500, \"source_unit_price\"\
+                        : \"0.01\", \"source_text\": \"Buy 500 \xA30.01 Save 98 %\"\
+                        , \"basis\": \"user policy 2026-10-13\"}, \"10000\": {\"source_quantity\"\
+                        : 500, \"source_unit_price\": \"0.01\", \"source_text\": \"\
+                        Buy 500 \xA30.01 Save 98 %\", \"basis\": \"user policy 2026-10-13\"\
+                        }}"
+                    quote_minimum: ''
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept rounded displayed prices,
+                        open-ended final advertised tiers, and quotes required from
+                        400 units; quote-only prices remain blank."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.01",
+                        "highPrice": "0.74", "priceCurrency": "GBP", "offerCount":
+                        "9", "availability": "https://schema.org/InStock", "itemCondition":
+                        "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/hexagon-nuts/456430-HPN-M2-5-C8-Z",
+                        "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                        {"@type": "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "accus prices are all ex
+                        vat", "confirmed_on": "2026-10-13"}'
+                    specifications: '{"Accu Product Code (APC)": "HPN-M2.5-C8-Z",
+                        "Thread Size": "M2.5 (2.5 mm)", "Socket Size (J)": "5 mm (Tolerance:
+                        +0/-0.18 mm)", "Nut Thickness (H)": "2 mm (Tolerance: +0/-0.25
+                        mm)", "Material": "Steel - (Class 6)", "Finish": "Zinc Plated",
+                        "Manufacturing Standard": "DIN 934", "Material Family": "Steel",
+                        "System of Measurement": "Metric", "Thread Pitch": "0.45 mm"}'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: https://schema.org/InStock
+                    supplier: accu
+                    supplier_id: HPN-M2.5-C8-Z
+                    supplier_part_number: HPN-M2.5-C8-Z
+                    supplier_website: https://www.accu.co.uk/hexagon-nuts/456430-HPN-M2-5-C8-Z
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: "Buy 1 \xA30.74"
+                        source_unit_price: '0.74'
+                        source_vat_basis: exclusive
+                        unit_price: '0.8880'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5
+                        minimum: 2
+                        source_text: "Buy 2 \xA30.40 Save 45 %"
+                        source_unit_price: '0.40'
+                        source_vat_basis: exclusive
+                        unit_price: '0.4800'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 11
+                        minimum: 6
+                        source_text: "Buy 6 \xA30.15 Save 79 %"
+                        source_unit_price: '0.15'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1800'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 23
+                        minimum: 12
+                        source_text: "Buy 12 \xA30.09 Save 87 %"
+                        source_unit_price: '0.09'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 24
+                        source_text: "Buy 24 \xA30.06 Save 91 %"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: "Buy 50 \xA30.04 Save 94 %"
+                        source_unit_price: '0.04'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0480'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 199
+                        minimum: 100
+                        source_text: "Buy 100 \xA30.03 Save 95 %"
+                        source_unit_price: '0.03'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0360'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 200
+                        source_text: "Buy 200 \xA30.02 Save 97 %"
+                        source_unit_price: '0.02'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0240'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        maximum_basis: user-approved open-ended final tier; no captured
+                            upper boundary
+                        minimum: 500
+                        source_text: "Buy 500 \xA30.01 Save 98 %"
+                        source_unit_price: '0.01'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0120'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.8880'
+                    total_price_10: '1.8000'
+                    total_price_100: '3.6000'
+                    total_price_1000: '12.0000'
+                    total_price_10000: '120.0000'
+                    unit_price_1: '0.8880'
+                    unit_price_10: '0.1800'
+                    unit_price_100: '0.0360'
+                    unit_price_1000: '0.0120'
+                    unit_price_10000: '0.0120'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Accu displayed prices are rounded; derived totals use the captured
+                        display precision
+                    - Final Accu price tier has no captured upper boundary; final
+                        advertised unit price extended by user policy
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '2000'
+                    captured_at: '2026-10-12T19:22:25.507656+00:00'
+                    catalogue_page: ''
+                    currency: GBP
+                    description: ''
+                    html_sha256: 0a7178498da4d66f5ae654eab1726064e5106295774f8185a6180aacf0619bb7
+                    name: M2.5 Hexagon Steel Full Nut Class 8  Bright Zinc Plated,
+                        DIN 934
+                    parsed_at: '2026-10-18T08:49:24.824686+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm More Info
+                    stock_quantity: '11933'
+                    supplier: orbitalfasteners
+                    supplier_id: '1770020'
+                    supplier_part_number: '1770020'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m2-5-steel-hexagon-full-nut-grade-8-bright-zinc-plated
+                    tiers:
+                    -   maximum: 1999
+                        minimum: 1
+                        source_text: "1 - 1999 \xA30.0038 Inc. VAT \xA30.38 Inc. VAT"
+                        source_unit_price: '0.0038'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0038'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 9999
+                        minimum: 2000
+                        source_text: "2000 - 9999 \xA30.0022 Inc. VAT \xA30.22 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0022'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0022'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 63999
+                        minimum: 10000
+                        source_text: "10000 - 63999 \xA30.0019 Inc. VAT \xA30.19 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0019'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0019'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 64000
+                        source_text: "64000 + \xA30.0017 Inc. VAT \xA30.17 Inc. VAT"
+                        source_unit_price: '0.0017'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0017'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0038'
+                    total_price_10: '0.0380'
+                    total_price_100: '0.3800'
+                    total_price_1000: '3.8000'
+                    total_price_10000: '19.0000'
+                    unit_price_1: '0.0038'
+                    unit_price_10: '0.0038'
+                    unit_price_100: '0.0038'
+                    unit_price_1000: '0.0038'
+                    unit_price_10000: '0.0019'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
             svg_details:
             -   svg_c_max_mm: '0.30'
                 svg_c_min_mm: '0.10'
@@ -431,6 +810,62 @@ oomlout_ai_roboclick_2:
                         name_proper: Hardware Nut M2 5
                         name_space: hardware nut m2 5
                         name_upper: HARDWARE NUT M2 5
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M2.5 hexagon full nut steel
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M2.5+hexagon+full+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M2.5 hexagon full nut steel
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M2.5+hexagon+full+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T08:49:31.944315+00:00'
+                                evidence_file: support_files/evidence/hardware_nut_m2_5/google/eb4ef1e0779e4d93be7398c70ffd588b.yaml
+                                evidence_url: https://www.google.com/search?q=M2.5+hexagon+full+nut+steel
+                                material_evidence: Supplier page title identifies
+                                    steel, class 8; page description says standard
+                                    steel Hexagon Full Nuts, class 8. Bright Zinc
+                                    Plated (DIN 934).
+                                product_name: M2.5 Hexagon Steel Full Nut Class 8
+                                    Bright Zinc Plated, DIN 934
+                                reason: Exact M2.5 full hex nut specification confirmed
+                                    on the supplier page.
+                                result_url: https://www.orbitalfasteners.co.uk/products/m2-5-steel-hexagon-full-nut-grade-8-bright-zinc-plated
+                                search_evidence: The Google search returned an Orbital
+                                    Fasteners M2.5 Hexagon Steel Full Nut Class 8
+                                    Bright Zinc Plated, DIN 934 result. The opened
+                                    supplier page identifies the exact M2.5 product,
+                                    class 8 steel, bright zinc plated finish, full
+                                    hex nut form and DIN 934 standard.
+                                search_for: M2.5 hexagon full nut steel
+                                search_url: https://www.google.com/search?q=M2.5+hexagon+full+nut+steel
+                                selected_variant: M2.5 full hexagon nut, class 8 steel,
+                                    bright zinc plated
+                                specification: Thread size M2.5; full hexagon nut;
+                                    DIN 934; class 8 steel; bright zinc plated. SKU
+                                    1770020.
+                                status: verified
                         spec_iso_c_max_mm: '0.30'
                         spec_iso_c_min_mm: '0.10'
                         spec_iso_da_max_mm: '2.90'
@@ -443,6 +878,351 @@ oomlout_ai_roboclick_2:
                         spec_iso_s_max_mm: '5.00'
                         spec_iso_s_min_mm: '4.82'
                         spec_iso_thread_pitch_mm: '0.45'
+                        supplier_data:
+                            aanddfasteners:
+                                accepted_warnings: '["Source quantity band starts
+                                    at zero; normalized minimum to one item"]'
+                                captured_at: '2026-10-13T07:36:56.812412+00:00'
+                                currency: GBP
+                                html_sha256: 94293f5f9a9ac8a839abeb3813827a7a749249dec38e928a649b46a118184e63
+                                name: M2.5 Hexagon Full Nut, Steel zinc plated CR3,
+                                    Din 934
+                                packages: '[]'
+                                parsed_at: '2026-10-18T08:57:29.247023+00:00'
+                                parser_version: aanddfasteners-1.2-review-policy
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept zero-to-one
+                                    quantity normalization and low-stock notices."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: Product information A hexagonal nut
+                                    also known as a full nut or hex nut. In class
+                                    6 mild steel with bright zinc plating to Din 934
+                                    with metric coarse thread. The full nut is typically
+                                    used with a mating bolt or machine screw, and
+                                    can be tightened by hand, spanner or socket wrench.
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: aanddfasteners
+                                supplier_id: ST934025ZP
+                                supplier_part_number: ST934025ZP
+                                supplier_website: https://www.aanddfasteners.co.uk/shop/nuts/full-nut/metric-full-nut-din-934-steel-zinc-plated/m2-5-hexagon-full-nut-steel-zinc-plated-cr3-din-934/details
+                                tiers:
+                                -   maximum: 25
+                                    minimum: 1
+                                    source_text: "0 - 25 \xA3 0.10"
+                                    source_unit_price: '0.10'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1200'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 50
+                                    minimum: 26
+                                    source_text: "26 -50 \xA3 0.06"
+                                    source_unit_price: '0.06'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0720'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 51
+                                    source_text: "51+ \xA3 0.05"
+                                    source_unit_price: '0.05'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0600'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.1200'
+                                total_price_10: '1.2000'
+                                total_price_100: '6.0000'
+                                total_price_1000: '60.0000'
+                                total_price_10000: '600.0000'
+                                unit_price_1: '0.1200'
+                                unit_price_10: '0.1200'
+                                unit_price_100: '0.0600'
+                                unit_price_1000: '0.0600'
+                                unit_price_10000: '0.0600'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Source quantity band starts at zero; normalized
+                                    minimum to one item
+                            accu:
+                                accepted_warnings: '["Accu displayed prices are rounded;
+                                    derived totals use the captured display precision",
+                                    "Final Accu price tier has no captured upper boundary;
+                                    final advertised unit price extended by user policy"]'
+                                box_quantity: ''
+                                captured_at: '2026-10-13T12:00:03.016687+00:00'
+                                currency: GBP
+                                description: "Hexagon Nuts are one of the most popular\
+                                    \ types of fasteners, designed to be used in conjunction\
+                                    \ with screws, bolts and other male threaded fasteners\
+                                    \ to securely join multiple components together.\
+                                    \ When combined with a Mating Bolt, a hex nut\
+                                    \ can be used to fasten two or more parts together\
+                                    \ through a combination of compression, friction\
+                                    \ (of the threads of the fasteners), and a slight\
+                                    \ stretching of the bolt. Washers are also often\
+                                    \ used with nuts and bolts to help distribute\
+                                    \ the load of the fasteners, for spacing or protecting\
+                                    \ the surfaces of the mating components. This\
+                                    \ type of metric nut is also commonly referred\
+                                    \ to as a Full Nut or Finished Hex Nut, and is\
+                                    \ typically fastened using either a wrench (spanner)\
+                                    \ or a ratchet. For heavy duty applications, such\
+                                    \ as structural\_projects, Heavy Duty Hex Nuts\
+                                    \ are available from Accu in both metric and imperial\
+                                    \ sizes. Metric Hex Nut Materials Hexagon Nuts\
+                                    \ from Accu are manufactured in a wide range of\
+                                    \ materials. Metal Hex Nuts available include\
+                                    \ A1, A2, A4 Stainless Steel, with High Tensile\
+                                    \ options in Duplex and Bumax Stainless Steel.\
+                                    \ Mild Steel (Grades 6, 8, 10 and 12) is also\
+                                    \ available with either Hot Dip Galvanised or\
+                                    \ Zinc Plated finishes. Accu also lists Plastic\
+                                    \ Hex Nuts in our standard range, with Nylon,\
+                                    \ Polycarbonate, Polypropylene, Reny and Polyphenylene\
+                                    \ options available, along with specialist thermoplastics\
+                                    \ like PVDF and PEEK. Additionally, exotic materials\
+                                    \ such as ceramic and aluminium are also available.\
+                                    \ Hexagon Nuts can be manufactured in alternative\
+                                    \ material types such as Brass, Phosphor Bronze\
+                                    \ and Titanium on request. Metric Hexagon Nuts\
+                                    \ Accu's Hex Nuts are manufactured according to\
+                                    \ internationally recognised industry standards,\
+                                    \ with DIN 934 and ISO 4032 options available.\
+                                    \ As standard, we stock Full Nuts in metric sizes\
+                                    \ from M1 to M56. These components feature a coarse\
+                                    \ metric thread pitch, which makes them more resistant\
+                                    \ to cross threading and stripping. Metric Fine\
+                                    \ Pitch Hexagon Nuts are available from our online\
+                                    \ store for applications which require finer adjustments\
+                                    \ and greater resistance to loosening under vibration.\
+                                    \ Imperial Hexagon Nuts Imperial Hexagon Nuts\
+                                    \ are also supplied by Accu in diameters ranging\
+                                    \ from No. 0 up to 2 inch. Both UNC and UNF threads\
+                                    \ are available."
+                                html_sha256: 337ce9a3aa6dc7d93c9e757d0eb7e3176f0df59bb0b90991cb679aa93909cf44
+                                name: M2.5 Hexagon Nuts (DIN 934) - Bright Zinc Plated
+                                    Mild Steel (Class 6)
+                                parsed_at: '2026-10-18T08:52:03.668186+00:00'
+                                parser_version: accu-1.9-base-material
+                                price_inheritance: "{\"1000\": {\"source_quantity\"\
+                                    : 500, \"source_unit_price\": \"0.01\", \"source_text\"\
+                                    : \"Buy 500 \xA30.01 Save 98 %\", \"basis\": \"\
+                                    user policy 2026-10-13\"}, \"10000\": {\"source_quantity\"\
+                                    : 500, \"source_unit_price\": \"0.01\", \"source_text\"\
+                                    : \"Buy 500 \xA30.01 Save 98 %\", \"basis\": \"\
+                                    user policy 2026-10-13\"}}"
+                                quote_minimum: ''
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept rounded displayed
+                                    prices, open-ended final advertised tiers, and
+                                    quotes required from 400 units; quote-only prices
+                                    remain blank."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_offer: '{"@type": "AggregateOffer", "lowPrice":
+                                    "0.01", "highPrice": "0.74", "priceCurrency":
+                                    "GBP", "offerCount": "9", "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "url": "https://www.accu.co.uk/hexagon-nuts/456430-HPN-M2-5-C8-Z",
+                                    "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                                    {"@type": "QuantitativeValue", "value": 1, "unitCode":
+                                    "ANN"}}}'
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "accus
+                                    prices are all ex vat", "confirmed_on": "2026-10-13"}'
+                                specifications: '{"Accu Product Code (APC)": "HPN-M2.5-C8-Z",
+                                    "Thread Size": "M2.5 (2.5 mm)", "Socket Size (J)":
+                                    "5 mm (Tolerance: +0/-0.18 mm)", "Nut Thickness
+                                    (H)": "2 mm (Tolerance: +0/-0.25 mm)", "Material":
+                                    "Steel - (Class 6)", "Finish": "Zinc Plated",
+                                    "Manufacturing Standard": "DIN 934", "Material
+                                    Family": "Steel", "System of Measurement": "Metric",
+                                    "Thread Pitch": "0.45 mm"}'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: https://schema.org/InStock
+                                supplier: accu
+                                supplier_id: HPN-M2.5-C8-Z
+                                supplier_part_number: HPN-M2.5-C8-Z
+                                supplier_website: https://www.accu.co.uk/hexagon-nuts/456430-HPN-M2-5-C8-Z
+                                tiers:
+                                -   maximum: 1
+                                    minimum: 1
+                                    source_text: "Buy 1 \xA30.74"
+                                    source_unit_price: '0.74'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.8880'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 5
+                                    minimum: 2
+                                    source_text: "Buy 2 \xA30.40 Save 45 %"
+                                    source_unit_price: '0.40'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.4800'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 11
+                                    minimum: 6
+                                    source_text: "Buy 6 \xA30.15 Save 79 %"
+                                    source_unit_price: '0.15'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1800'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 23
+                                    minimum: 12
+                                    source_text: "Buy 12 \xA30.09 Save 87 %"
+                                    source_unit_price: '0.09'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1080'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 49
+                                    minimum: 24
+                                    source_text: "Buy 24 \xA30.06 Save 91 %"
+                                    source_unit_price: '0.06'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0720'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 99
+                                    minimum: 50
+                                    source_text: "Buy 50 \xA30.04 Save 94 %"
+                                    source_unit_price: '0.04'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0480'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 199
+                                    minimum: 100
+                                    source_text: "Buy 100 \xA30.03 Save 95 %"
+                                    source_unit_price: '0.03'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0360'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 499
+                                    minimum: 200
+                                    source_text: "Buy 200 \xA30.02 Save 97 %"
+                                    source_unit_price: '0.02'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0240'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    maximum_basis: user-approved open-ended final
+                                        tier; no captured upper boundary
+                                    minimum: 500
+                                    source_text: "Buy 500 \xA30.01 Save 98 %"
+                                    source_unit_price: '0.01'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0120'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.8880'
+                                total_price_10: '1.8000'
+                                total_price_100: '3.6000'
+                                total_price_1000: '12.0000'
+                                total_price_10000: '120.0000'
+                                unit_price_1: '0.8880'
+                                unit_price_10: '0.1800'
+                                unit_price_100: '0.0360'
+                                unit_price_1000: '0.0120'
+                                unit_price_10000: '0.0120'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Accu displayed prices are rounded; derived totals
+                                    use the captured display precision
+                                - Final Accu price tier has no captured upper boundary;
+                                    final advertised unit price extended by user policy
+                            orbitalfasteners:
+                                accepted_warnings: '[]'
+                                box_quantity: '2000'
+                                captured_at: '2026-10-12T19:22:25.507656+00:00'
+                                catalogue_page: ''
+                                currency: GBP
+                                description: ''
+                                html_sha256: 0a7178498da4d66f5ae654eab1726064e5106295774f8185a6180aacf0619bb7
+                                name: M2.5 Hexagon Steel Full Nut Class 8  Bright
+                                    Zinc Plated, DIN 934
+                                parsed_at: '2026-10-18T08:49:24.824686+00:00'
+                                parser_version: 1.2-review-policy
+                                review_policy: ''
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: inclusive
+                                status: ok
+                                stock_as_of: 9th October 2026 10:01pm More Info
+                                stock_quantity: '11933'
+                                supplier: orbitalfasteners
+                                supplier_id: '1770020'
+                                supplier_part_number: '1770020'
+                                supplier_website: https://www.orbitalfasteners.co.uk/products/m2-5-steel-hexagon-full-nut-grade-8-bright-zinc-plated
+                                tiers:
+                                -   maximum: 1999
+                                    minimum: 1
+                                    source_text: "1 - 1999 \xA30.0038 Inc. VAT \xA3\
+                                        0.38 Inc. VAT"
+                                    source_unit_price: '0.0038'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0038'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 9999
+                                    minimum: 2000
+                                    source_text: "2000 - 9999 \xA30.0022 Inc. VAT\
+                                        \ \xA30.22 Inc. VAT"
+                                    source_unit_price: '0.0022'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0022'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 63999
+                                    minimum: 10000
+                                    source_text: "10000 - 63999 \xA30.0019 Inc. VAT\
+                                        \ \xA30.19 Inc. VAT"
+                                    source_unit_price: '0.0019'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0019'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 64000
+                                    source_text: "64000 + \xA30.0017 Inc. VAT \xA3\
+                                        0.17 Inc. VAT"
+                                    source_unit_price: '0.0017'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0017'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.0038'
+                                total_price_10: '0.0380'
+                                total_price_100: '0.3800'
+                                total_price_1000: '3.8000'
+                                total_price_10000: '19.0000'
+                                unit_price_1: '0.0038'
+                                unit_price_10: '0.0038'
+                                unit_price_100: '0.0038'
+                                unit_price_1000: '0.0038'
+                                unit_price_10000: '0.0019'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings: []
                         svg_details:
                         -   svg_c_max_mm: '0.30'
                             svg_c_min_mm: '0.10'
@@ -716,6 +1496,59 @@ oomlout_ai_roboclick_2:
                     search_and_replace: []
                 file_test: label_oomp.pdf
                 retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M2.5 hexagon full nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M2.5+hexagon+full+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M2.5 hexagon full nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M2.5+hexagon+full+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T08:49:31.944315+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m2_5/google/eb4ef1e0779e4d93be7398c70ffd588b.yaml
+                    evidence_url: https://www.google.com/search?q=M2.5+hexagon+full+nut+steel
+                    material_evidence: Supplier page title identifies steel, class
+                        8; page description says standard steel Hexagon Full Nuts,
+                        class 8. Bright Zinc Plated (DIN 934).
+                    product_name: M2.5 Hexagon Steel Full Nut Class 8 Bright Zinc
+                        Plated, DIN 934
+                    reason: Exact M2.5 full hex nut specification confirmed on the
+                        supplier page.
+                    result_url: https://www.orbitalfasteners.co.uk/products/m2-5-steel-hexagon-full-nut-grade-8-bright-zinc-plated
+                    search_evidence: The Google search returned an Orbital Fasteners
+                        M2.5 Hexagon Steel Full Nut Class 8 Bright Zinc Plated, DIN
+                        934 result. The opened supplier page identifies the exact
+                        M2.5 product, class 8 steel, bright zinc plated finish, full
+                        hex nut form and DIN 934 standard.
+                    search_for: M2.5 hexagon full nut steel
+                    search_url: https://www.google.com/search?q=M2.5+hexagon+full+nut+steel
+                    selected_variant: M2.5 full hexagon nut, class 8 steel, bright
+                        zinc plated
+                    specification: Thread size M2.5; full hexagon nut; DIN 934; class
+                        8 steel; bright zinc plated. SKU 1770020.
+                    status: verified
             spec_iso_c_max_mm: '0.30'
             spec_iso_c_min_mm: '0.10'
             spec_iso_da_max_mm: '2.90'
@@ -728,6 +1561,332 @@ oomlout_ai_roboclick_2:
             spec_iso_s_max_mm: '5.00'
             spec_iso_s_min_mm: '4.82'
             spec_iso_thread_pitch_mm: '0.45'
+            supplier_data:
+                aanddfasteners:
+                    accepted_warnings: '["Source quantity band starts at zero; normalized
+                        minimum to one item"]'
+                    captured_at: '2026-10-13T07:36:56.812412+00:00'
+                    currency: GBP
+                    html_sha256: 94293f5f9a9ac8a839abeb3813827a7a749249dec38e928a649b46a118184e63
+                    name: M2.5 Hexagon Full Nut, Steel zinc plated CR3, Din 934
+                    packages: '[]'
+                    parsed_at: '2026-10-18T08:57:29.247023+00:00'
+                    parser_version: aanddfasteners-1.2-review-policy
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept zero-to-one quantity normalization
+                        and low-stock notices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: Product information A hexagonal nut also known
+                        as a full nut or hex nut. In class 6 mild steel with bright
+                        zinc plating to Din 934 with metric coarse thread. The full
+                        nut is typically used with a mating bolt or machine screw,
+                        and can be tightened by hand, spanner or socket wrench.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: aanddfasteners
+                    supplier_id: ST934025ZP
+                    supplier_part_number: ST934025ZP
+                    supplier_website: https://www.aanddfasteners.co.uk/shop/nuts/full-nut/metric-full-nut-din-934-steel-zinc-plated/m2-5-hexagon-full-nut-steel-zinc-plated-cr3-din-934/details
+                    tiers:
+                    -   maximum: 25
+                        minimum: 1
+                        source_text: "0 - 25 \xA3 0.10"
+                        source_unit_price: '0.10'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 50
+                        minimum: 26
+                        source_text: "26 -50 \xA3 0.06"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 51
+                        source_text: "51+ \xA3 0.05"
+                        source_unit_price: '0.05'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0600'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.1200'
+                    total_price_10: '1.2000'
+                    total_price_100: '6.0000'
+                    total_price_1000: '60.0000'
+                    total_price_10000: '600.0000'
+                    unit_price_1: '0.1200'
+                    unit_price_10: '0.1200'
+                    unit_price_100: '0.0600'
+                    unit_price_1000: '0.0600'
+                    unit_price_10000: '0.0600'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Source quantity band starts at zero; normalized minimum to one
+                        item
+                accu:
+                    accepted_warnings: '["Accu displayed prices are rounded; derived
+                        totals use the captured display precision", "Final Accu price
+                        tier has no captured upper boundary; final advertised unit
+                        price extended by user policy"]'
+                    box_quantity: ''
+                    captured_at: '2026-10-13T12:00:03.016687+00:00'
+                    currency: GBP
+                    description: "Hexagon Nuts are one of the most popular types of\
+                        \ fasteners, designed to be used in conjunction with screws,\
+                        \ bolts and other male threaded fasteners to securely join\
+                        \ multiple components together. When combined with a Mating\
+                        \ Bolt, a hex nut can be used to fasten two or more parts\
+                        \ together through a combination of compression, friction\
+                        \ (of the threads of the fasteners), and a slight stretching\
+                        \ of the bolt. Washers are also often used with nuts and bolts\
+                        \ to help distribute the load of the fasteners, for spacing\
+                        \ or protecting the surfaces of the mating components. This\
+                        \ type of metric nut is also commonly referred to as a Full\
+                        \ Nut or Finished Hex Nut, and is typically fastened using\
+                        \ either a wrench (spanner) or a ratchet. For heavy duty applications,\
+                        \ such as structural\_projects, Heavy Duty Hex Nuts are available\
+                        \ from Accu in both metric and imperial sizes. Metric Hex\
+                        \ Nut Materials Hexagon Nuts from Accu are manufactured in\
+                        \ a wide range of materials. Metal Hex Nuts available include\
+                        \ A1, A2, A4 Stainless Steel, with High Tensile options in\
+                        \ Duplex and Bumax Stainless Steel. Mild Steel (Grades 6,\
+                        \ 8, 10 and 12) is also available with either Hot Dip Galvanised\
+                        \ or Zinc Plated finishes. Accu also lists Plastic Hex Nuts\
+                        \ in our standard range, with Nylon, Polycarbonate, Polypropylene,\
+                        \ Reny and Polyphenylene options available, along with specialist\
+                        \ thermoplastics like PVDF and PEEK. Additionally, exotic\
+                        \ materials such as ceramic and aluminium are also available.\
+                        \ Hexagon Nuts can be manufactured in alternative material\
+                        \ types such as Brass, Phosphor Bronze and Titanium on request.\
+                        \ Metric Hexagon Nuts Accu's Hex Nuts are manufactured according\
+                        \ to internationally recognised industry standards, with DIN\
+                        \ 934 and ISO 4032 options available. As standard, we stock\
+                        \ Full Nuts in metric sizes from M1 to M56. These components\
+                        \ feature a coarse metric thread pitch, which makes them more\
+                        \ resistant to cross threading and stripping. Metric Fine\
+                        \ Pitch Hexagon Nuts are available from our online store for\
+                        \ applications which require finer adjustments and greater\
+                        \ resistance to loosening under vibration. Imperial Hexagon\
+                        \ Nuts Imperial Hexagon Nuts are also supplied by Accu in\
+                        \ diameters ranging from No. 0 up to 2 inch. Both UNC and\
+                        \ UNF threads are available."
+                    html_sha256: 337ce9a3aa6dc7d93c9e757d0eb7e3176f0df59bb0b90991cb679aa93909cf44
+                    name: M2.5 Hexagon Nuts (DIN 934) - Bright Zinc Plated Mild Steel
+                        (Class 6)
+                    parsed_at: '2026-10-18T08:52:03.668186+00:00'
+                    parser_version: accu-1.9-base-material
+                    price_inheritance: "{\"1000\": {\"source_quantity\": 500, \"source_unit_price\"\
+                        : \"0.01\", \"source_text\": \"Buy 500 \xA30.01 Save 98 %\"\
+                        , \"basis\": \"user policy 2026-10-13\"}, \"10000\": {\"source_quantity\"\
+                        : 500, \"source_unit_price\": \"0.01\", \"source_text\": \"\
+                        Buy 500 \xA30.01 Save 98 %\", \"basis\": \"user policy 2026-10-13\"\
+                        }}"
+                    quote_minimum: ''
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept rounded displayed prices,
+                        open-ended final advertised tiers, and quotes required from
+                        400 units; quote-only prices remain blank."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.01",
+                        "highPrice": "0.74", "priceCurrency": "GBP", "offerCount":
+                        "9", "availability": "https://schema.org/InStock", "itemCondition":
+                        "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/hexagon-nuts/456430-HPN-M2-5-C8-Z",
+                        "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                        {"@type": "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "accus prices are all ex
+                        vat", "confirmed_on": "2026-10-13"}'
+                    specifications: '{"Accu Product Code (APC)": "HPN-M2.5-C8-Z",
+                        "Thread Size": "M2.5 (2.5 mm)", "Socket Size (J)": "5 mm (Tolerance:
+                        +0/-0.18 mm)", "Nut Thickness (H)": "2 mm (Tolerance: +0/-0.25
+                        mm)", "Material": "Steel - (Class 6)", "Finish": "Zinc Plated",
+                        "Manufacturing Standard": "DIN 934", "Material Family": "Steel",
+                        "System of Measurement": "Metric", "Thread Pitch": "0.45 mm"}'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: https://schema.org/InStock
+                    supplier: accu
+                    supplier_id: HPN-M2.5-C8-Z
+                    supplier_part_number: HPN-M2.5-C8-Z
+                    supplier_website: https://www.accu.co.uk/hexagon-nuts/456430-HPN-M2-5-C8-Z
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: "Buy 1 \xA30.74"
+                        source_unit_price: '0.74'
+                        source_vat_basis: exclusive
+                        unit_price: '0.8880'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5
+                        minimum: 2
+                        source_text: "Buy 2 \xA30.40 Save 45 %"
+                        source_unit_price: '0.40'
+                        source_vat_basis: exclusive
+                        unit_price: '0.4800'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 11
+                        minimum: 6
+                        source_text: "Buy 6 \xA30.15 Save 79 %"
+                        source_unit_price: '0.15'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1800'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 23
+                        minimum: 12
+                        source_text: "Buy 12 \xA30.09 Save 87 %"
+                        source_unit_price: '0.09'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 24
+                        source_text: "Buy 24 \xA30.06 Save 91 %"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: "Buy 50 \xA30.04 Save 94 %"
+                        source_unit_price: '0.04'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0480'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 199
+                        minimum: 100
+                        source_text: "Buy 100 \xA30.03 Save 95 %"
+                        source_unit_price: '0.03'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0360'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 200
+                        source_text: "Buy 200 \xA30.02 Save 97 %"
+                        source_unit_price: '0.02'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0240'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        maximum_basis: user-approved open-ended final tier; no captured
+                            upper boundary
+                        minimum: 500
+                        source_text: "Buy 500 \xA30.01 Save 98 %"
+                        source_unit_price: '0.01'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0120'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.8880'
+                    total_price_10: '1.8000'
+                    total_price_100: '3.6000'
+                    total_price_1000: '12.0000'
+                    total_price_10000: '120.0000'
+                    unit_price_1: '0.8880'
+                    unit_price_10: '0.1800'
+                    unit_price_100: '0.0360'
+                    unit_price_1000: '0.0120'
+                    unit_price_10000: '0.0120'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Accu displayed prices are rounded; derived totals use the captured
+                        display precision
+                    - Final Accu price tier has no captured upper boundary; final
+                        advertised unit price extended by user policy
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '2000'
+                    captured_at: '2026-10-12T19:22:25.507656+00:00'
+                    catalogue_page: ''
+                    currency: GBP
+                    description: ''
+                    html_sha256: 0a7178498da4d66f5ae654eab1726064e5106295774f8185a6180aacf0619bb7
+                    name: M2.5 Hexagon Steel Full Nut Class 8  Bright Zinc Plated,
+                        DIN 934
+                    parsed_at: '2026-10-18T08:49:24.824686+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm More Info
+                    stock_quantity: '11933'
+                    supplier: orbitalfasteners
+                    supplier_id: '1770020'
+                    supplier_part_number: '1770020'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m2-5-steel-hexagon-full-nut-grade-8-bright-zinc-plated
+                    tiers:
+                    -   maximum: 1999
+                        minimum: 1
+                        source_text: "1 - 1999 \xA30.0038 Inc. VAT \xA30.38 Inc. VAT"
+                        source_unit_price: '0.0038'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0038'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 9999
+                        minimum: 2000
+                        source_text: "2000 - 9999 \xA30.0022 Inc. VAT \xA30.22 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0022'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0022'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 63999
+                        minimum: 10000
+                        source_text: "10000 - 63999 \xA30.0019 Inc. VAT \xA30.19 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0019'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0019'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 64000
+                        source_text: "64000 + \xA30.0017 Inc. VAT \xA30.17 Inc. VAT"
+                        source_unit_price: '0.0017'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0017'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0038'
+                    total_price_10: '0.0380'
+                    total_price_100: '0.3800'
+                    total_price_1000: '3.8000'
+                    total_price_10000: '19.0000'
+                    unit_price_1: '0.0038'
+                    unit_price_10: '0.0038'
+                    unit_price_100: '0.0038'
+                    unit_price_1000: '0.0038'
+                    unit_price_10000: '0.0019'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
             svg_details:
             -   svg_c_max_mm: '0.30'
                 svg_c_min_mm: '0.10'
@@ -1010,9 +2169,60 @@ oomlout_ai_roboclick_3:
     file_test: ''
 oomp_key: oomp_hardware_nut_m2_5
 run_action: true
+run_only_yaml: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M2.5 hexagon full nut steel
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M2.5+hexagon+full+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M2.5 hexagon full nut steel
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M2.5+hexagon+full+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T08:49:31.944315+00:00'
+        evidence_file: support_files/evidence/hardware_nut_m2_5/google/eb4ef1e0779e4d93be7398c70ffd588b.yaml
+        evidence_url: https://www.google.com/search?q=M2.5+hexagon+full+nut+steel
+        material_evidence: Supplier page title identifies steel, class 8; page description
+            says standard steel Hexagon Full Nuts, class 8. Bright Zinc Plated (DIN
+            934).
+        product_name: M2.5 Hexagon Steel Full Nut Class 8 Bright Zinc Plated, DIN
+            934
+        reason: Exact M2.5 full hex nut specification confirmed on the supplier page.
+        result_url: https://www.orbitalfasteners.co.uk/products/m2-5-steel-hexagon-full-nut-grade-8-bright-zinc-plated
+        search_evidence: The Google search returned an Orbital Fasteners M2.5 Hexagon
+            Steel Full Nut Class 8 Bright Zinc Plated, DIN 934 result. The opened
+            supplier page identifies the exact M2.5 product, class 8 steel, bright
+            zinc plated finish, full hex nut form and DIN 934 standard.
+        search_for: M2.5 hexagon full nut steel
+        search_url: https://www.google.com/search?q=M2.5+hexagon+full+nut+steel
+        selected_variant: M2.5 full hexagon nut, class 8 steel, bright zinc plated
+        specification: Thread size M2.5; full hexagon nut; DIN 934; class 8 steel;
+            bright zinc plated. SKU 1770020.
+        status: verified
 spec_iso_c_max_mm: '0.30'
 spec_iso_c_min_mm: '0.10'
 spec_iso_da_max_mm: '2.90'
@@ -1025,6 +2235,316 @@ spec_iso_nominal_diameter: M2.5
 spec_iso_s_max_mm: '5.00'
 spec_iso_s_min_mm: '4.82'
 spec_iso_thread_pitch_mm: '0.45'
+supplier_data:
+    aanddfasteners:
+        accepted_warnings: '["Source quantity band starts at zero; normalized minimum
+            to one item"]'
+        captured_at: '2026-10-13T07:36:56.812412+00:00'
+        currency: GBP
+        html_sha256: 94293f5f9a9ac8a839abeb3813827a7a749249dec38e928a649b46a118184e63
+        name: M2.5 Hexagon Full Nut, Steel zinc plated CR3, Din 934
+        packages: '[]'
+        parsed_at: '2026-10-18T08:57:29.247023+00:00'
+        parser_version: aanddfasteners-1.2-review-policy
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept zero-to-one quantity normalization and low-stock
+            notices."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: Product information A hexagonal nut also known as a full nut
+            or hex nut. In class 6 mild steel with bright zinc plating to Din 934
+            with metric coarse thread. The full nut is typically used with a mating
+            bolt or machine screw, and can be tightened by hand, spanner or socket
+            wrench.
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: aanddfasteners
+        supplier_id: ST934025ZP
+        supplier_part_number: ST934025ZP
+        supplier_website: https://www.aanddfasteners.co.uk/shop/nuts/full-nut/metric-full-nut-din-934-steel-zinc-plated/m2-5-hexagon-full-nut-steel-zinc-plated-cr3-din-934/details
+        tiers:
+        -   maximum: 25
+            minimum: 1
+            source_text: "0 - 25 \xA3 0.10"
+            source_unit_price: '0.10'
+            source_vat_basis: exclusive
+            unit_price: '0.1200'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 50
+            minimum: 26
+            source_text: "26 -50 \xA3 0.06"
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 51
+            source_text: "51+ \xA3 0.05"
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.1200'
+        total_price_10: '1.2000'
+        total_price_100: '6.0000'
+        total_price_1000: '60.0000'
+        total_price_10000: '600.0000'
+        unit_price_1: '0.1200'
+        unit_price_10: '0.1200'
+        unit_price_100: '0.0600'
+        unit_price_1000: '0.0600'
+        unit_price_10000: '0.0600'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Source quantity band starts at zero; normalized minimum to one item
+    accu:
+        accepted_warnings: '["Accu displayed prices are rounded; derived totals use
+            the captured display precision", "Final Accu price tier has no captured
+            upper boundary; final advertised unit price extended by user policy"]'
+        box_quantity: ''
+        captured_at: '2026-10-13T12:00:03.016687+00:00'
+        currency: GBP
+        description: "Hexagon Nuts are one of the most popular types of fasteners,\
+            \ designed to be used in conjunction with screws, bolts and other male\
+            \ threaded fasteners to securely join multiple components together. When\
+            \ combined with a Mating Bolt, a hex nut can be used to fasten two or\
+            \ more parts together through a combination of compression, friction (of\
+            \ the threads of the fasteners), and a slight stretching of the bolt.\
+            \ Washers are also often used with nuts and bolts to help distribute the\
+            \ load of the fasteners, for spacing or protecting the surfaces of the\
+            \ mating components. This type of metric nut is also commonly referred\
+            \ to as a Full Nut or Finished Hex Nut, and is typically fastened using\
+            \ either a wrench (spanner) or a ratchet. For heavy duty applications,\
+            \ such as structural\_projects, Heavy Duty Hex Nuts are available from\
+            \ Accu in both metric and imperial sizes. Metric Hex Nut Materials Hexagon\
+            \ Nuts from Accu are manufactured in a wide range of materials. Metal\
+            \ Hex Nuts available include A1, A2, A4 Stainless Steel, with High Tensile\
+            \ options in Duplex and Bumax Stainless Steel. Mild Steel (Grades 6, 8,\
+            \ 10 and 12) is also available with either Hot Dip Galvanised or Zinc\
+            \ Plated finishes. Accu also lists Plastic Hex Nuts in our standard range,\
+            \ with Nylon, Polycarbonate, Polypropylene, Reny and Polyphenylene options\
+            \ available, along with specialist thermoplastics like PVDF and PEEK.\
+            \ Additionally, exotic materials such as ceramic and aluminium are also\
+            \ available. Hexagon Nuts can be manufactured in alternative material\
+            \ types such as Brass, Phosphor Bronze and Titanium on request. Metric\
+            \ Hexagon Nuts Accu's Hex Nuts are manufactured according to internationally\
+            \ recognised industry standards, with DIN 934 and ISO 4032 options available.\
+            \ As standard, we stock Full Nuts in metric sizes from M1 to M56. These\
+            \ components feature a coarse metric thread pitch, which makes them more\
+            \ resistant to cross threading and stripping. Metric Fine Pitch Hexagon\
+            \ Nuts are available from our online store for applications which require\
+            \ finer adjustments and greater resistance to loosening under vibration.\
+            \ Imperial Hexagon Nuts Imperial Hexagon Nuts are also supplied by Accu\
+            \ in diameters ranging from No. 0 up to 2 inch. Both UNC and UNF threads\
+            \ are available."
+        html_sha256: 337ce9a3aa6dc7d93c9e757d0eb7e3176f0df59bb0b90991cb679aa93909cf44
+        name: M2.5 Hexagon Nuts (DIN 934) - Bright Zinc Plated Mild Steel (Class 6)
+        parsed_at: '2026-10-18T08:52:03.668186+00:00'
+        parser_version: accu-1.9-base-material
+        price_inheritance: "{\"1000\": {\"source_quantity\": 500, \"source_unit_price\"\
+            : \"0.01\", \"source_text\": \"Buy 500 \xA30.01 Save 98 %\", \"basis\"\
+            : \"user policy 2026-10-13\"}, \"10000\": {\"source_quantity\": 500, \"\
+            source_unit_price\": \"0.01\", \"source_text\": \"Buy 500 \xA30.01 Save\
+            \ 98 %\", \"basis\": \"user policy 2026-10-13\"}}"
+        quote_minimum: ''
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept rounded displayed prices, open-ended final advertised
+            tiers, and quotes required from 400 units; quote-only prices remain blank."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.01", "highPrice":
+            "0.74", "priceCurrency": "GBP", "offerCount": "9", "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/hexagon-nuts/456430-HPN-M2-5-C8-Z",
+            "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type":
+            "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "accus prices are all ex vat", "confirmed_on": "2026-10-13"}'
+        specifications: '{"Accu Product Code (APC)": "HPN-M2.5-C8-Z", "Thread Size":
+            "M2.5 (2.5 mm)", "Socket Size (J)": "5 mm (Tolerance: +0/-0.18 mm)", "Nut
+            Thickness (H)": "2 mm (Tolerance: +0/-0.25 mm)", "Material": "Steel -
+            (Class 6)", "Finish": "Zinc Plated", "Manufacturing Standard": "DIN 934",
+            "Material Family": "Steel", "System of Measurement": "Metric", "Thread
+            Pitch": "0.45 mm"}'
+        status: ok
+        stock_quantity: ''
+        stock_status: https://schema.org/InStock
+        supplier: accu
+        supplier_id: HPN-M2.5-C8-Z
+        supplier_part_number: HPN-M2.5-C8-Z
+        supplier_website: https://www.accu.co.uk/hexagon-nuts/456430-HPN-M2-5-C8-Z
+        tiers:
+        -   maximum: 1
+            minimum: 1
+            source_text: "Buy 1 \xA30.74"
+            source_unit_price: '0.74'
+            source_vat_basis: exclusive
+            unit_price: '0.8880'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 5
+            minimum: 2
+            source_text: "Buy 2 \xA30.40 Save 45 %"
+            source_unit_price: '0.40'
+            source_vat_basis: exclusive
+            unit_price: '0.4800'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 11
+            minimum: 6
+            source_text: "Buy 6 \xA30.15 Save 79 %"
+            source_unit_price: '0.15'
+            source_vat_basis: exclusive
+            unit_price: '0.1800'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 23
+            minimum: 12
+            source_text: "Buy 12 \xA30.09 Save 87 %"
+            source_unit_price: '0.09'
+            source_vat_basis: exclusive
+            unit_price: '0.1080'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 49
+            minimum: 24
+            source_text: "Buy 24 \xA30.06 Save 91 %"
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 99
+            minimum: 50
+            source_text: "Buy 50 \xA30.04 Save 94 %"
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 199
+            minimum: 100
+            source_text: "Buy 100 \xA30.03 Save 95 %"
+            source_unit_price: '0.03'
+            source_vat_basis: exclusive
+            unit_price: '0.0360'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 499
+            minimum: 200
+            source_text: "Buy 200 \xA30.02 Save 97 %"
+            source_unit_price: '0.02'
+            source_vat_basis: exclusive
+            unit_price: '0.0240'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            maximum_basis: user-approved open-ended final tier; no captured upper
+                boundary
+            minimum: 500
+            source_text: "Buy 500 \xA30.01 Save 98 %"
+            source_unit_price: '0.01'
+            source_vat_basis: exclusive
+            unit_price: '0.0120'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.8880'
+        total_price_10: '1.8000'
+        total_price_100: '3.6000'
+        total_price_1000: '12.0000'
+        total_price_10000: '120.0000'
+        unit_price_1: '0.8880'
+        unit_price_10: '0.1800'
+        unit_price_100: '0.0360'
+        unit_price_1000: '0.0120'
+        unit_price_10000: '0.0120'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Accu displayed prices are rounded; derived totals use the captured display
+            precision
+        - Final Accu price tier has no captured upper boundary; final advertised unit
+            price extended by user policy
+    orbitalfasteners:
+        accepted_warnings: '[]'
+        box_quantity: '2000'
+        captured_at: '2026-10-12T19:22:25.507656+00:00'
+        catalogue_page: ''
+        currency: GBP
+        description: ''
+        html_sha256: 0a7178498da4d66f5ae654eab1726064e5106295774f8185a6180aacf0619bb7
+        name: M2.5 Hexagon Steel Full Nut Class 8  Bright Zinc Plated, DIN 934
+        parsed_at: '2026-10-18T08:49:24.824686+00:00'
+        parser_version: 1.2-review-policy
+        review_policy: ''
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: inclusive
+        status: ok
+        stock_as_of: 9th October 2026 10:01pm More Info
+        stock_quantity: '11933'
+        supplier: orbitalfasteners
+        supplier_id: '1770020'
+        supplier_part_number: '1770020'
+        supplier_website: https://www.orbitalfasteners.co.uk/products/m2-5-steel-hexagon-full-nut-grade-8-bright-zinc-plated
+        tiers:
+        -   maximum: 1999
+            minimum: 1
+            source_text: "1 - 1999 \xA30.0038 Inc. VAT \xA30.38 Inc. VAT"
+            source_unit_price: '0.0038'
+            source_vat_basis: inclusive
+            unit_price: '0.0038'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 9999
+            minimum: 2000
+            source_text: "2000 - 9999 \xA30.0022 Inc. VAT \xA30.22 Inc. VAT"
+            source_unit_price: '0.0022'
+            source_vat_basis: inclusive
+            unit_price: '0.0022'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 63999
+            minimum: 10000
+            source_text: "10000 - 63999 \xA30.0019 Inc. VAT \xA30.19 Inc. VAT"
+            source_unit_price: '0.0019'
+            source_vat_basis: inclusive
+            unit_price: '0.0019'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 64000
+            source_text: "64000 + \xA30.0017 Inc. VAT \xA30.17 Inc. VAT"
+            source_unit_price: '0.0017'
+            source_vat_basis: inclusive
+            unit_price: '0.0017'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.0038'
+        total_price_10: '0.0380'
+        total_price_100: '0.3800'
+        total_price_1000: '3.8000'
+        total_price_10000: '19.0000'
+        unit_price_1: '0.0038'
+        unit_price_10: '0.0038'
+        unit_price_100: '0.0038'
+        unit_price_1000: '0.0038'
+        unit_price_10000: '0.0019'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings: []
 svg_details:
 -   svg_c_max_mm: '0.30'
     svg_c_min_mm: '0.10'
@@ -1324,46 +2844,3 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
-search_data:
-  google:
-    search_for: M2.5 hexagon full nut steel
-    search_url: https://www.google.com/search?q=M2.5+hexagon+full+nut+steel
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  ebay:
-    search_for: M2.5 hexagon full nut steel
-    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M2.5+hexagon+full+nut+steel
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  aliexpress:
-    search_for: M2.5 hexagon full nut steel
-    search_url: https://www.aliexpress.com/wholesale?SearchText=M2.5+hexagon+full+nut+steel
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''

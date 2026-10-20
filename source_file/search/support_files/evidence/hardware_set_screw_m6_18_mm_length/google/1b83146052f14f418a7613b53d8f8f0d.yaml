@@ -1,0 +1,35 @@
+oomp_id: hardware_set_screw_m6_18_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M6 x 18 hex head fully threaded set screw DIN 933 steel
+evidence_url: https://www.google.com/search?q=M6+x+18+hex+head+fully+threaded+set+screw+DIN+933+steel
+reason: The supplied search term produced an exact Orbital Fasteners M6 x 18 mm DIN
+  933 set screw.
+search_evidence: Google returned an exact M6 x 18 mm fully threaded high tensile grade
+  8.8 steel product in bright zinc plating. Opening the result confirmed the product
+  heading, SKU 1851178, full-threaded form, grade and finish.
+attempts:
+- term: M6 x 18 hex head fully threaded set screw DIN 933 steel
+  url: https://www.google.com/search?q=M6+x+18+hex+head+fully+threaded+set+screw+DIN+933+steel
+  completed: true
+  outcome: Opened Orbital Fasteners SKU 1851178; M6 x 18 mm, fully threaded hex head,
+    high tensile grade 8.8 steel, bright zinc plated, DIN 933.
+result_url: https://www.orbitalfasteners.co.uk/products/m6-x-18-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated-din-933
+product_name: M6 x 18 Hexagon Head Set Screws High Tensile Grade 8.8 Bright Zinc Plated,
+  DIN 933
+selected_variant: 'Single-size product: M6 x 18 mm; SKU 1851178; grade 8.8; bright
+  zinc plated.'
+material_evidence: High tensile steel grade 8.8
+specification: M6 metric thread, 1.0 mm pitch, 18 mm length, fully threaded hexagon
+  head, high tensile grade 8.8 steel, bright zinc plated, DIN 933.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T10:58:50.824510+00:00'
+validator_version: 1

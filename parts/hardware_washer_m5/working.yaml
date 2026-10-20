@@ -105,6 +105,215 @@ oomlout_ai_roboclick_1:
             name_proper: Hardware Washer M5
             name_space: hardware washer m5
             name_upper: HARDWARE WASHER M5
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M5 steel flat washer DIN 125
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M5+steel+flat+washer+DIN+125
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M5 steel flat washer DIN 125
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+steel+flat+washer+DIN+125
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T11:35:40.434156+00:00'
+                    evidence_file: support_files/evidence/hardware_washer_m5/google/b41de55a99124ddca3be3d7b5c7000e2.yaml
+                    evidence_url: https://www.google.com/search?q=M5+steel+flat+washer+DIN+125
+                    material_evidence: Mild steel
+                    product_name: M5 MILD STEEL FORM A FLAT WASHER BRIGHT ZINC PLATED
+                        DIN 125 - 1A (5.3X10X1MM)
+                    reason: The exact Google search led to Orbital Fasteners' M5 mild-steel
+                        Form A flat washer. Its heading and product information state
+                        M5, 5.3 x 10.0 x 1.0 mm ID x OD x thickness, mild steel, bright
+                        zinc plating, and DIN 125-1A.
+                    result_url: https://www.orbitalfasteners.co.uk/products/m5-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-5-3x10x1mm-
+                    search_evidence: "Google result for Orbital Fasteners was titled\
+                        \ \u2018M5 Mild Steel Form A Flat Washer Bright Zinc Plated\
+                        \ DIN 125 - 1A (5.3x10x1mm)\u2019. Opened the page; SKU 1711020\
+                        \ and the listed dimensions, material, finish and standard\
+                        \ matched. Stainless results were rejected."
+                    search_for: M5 steel flat washer DIN 125
+                    search_url: https://www.google.com/search?q=M5+steel+flat+washer+DIN+125
+                    selected_variant: 'Single product: M5 Form A, 5.3 x 10.0 x 1.0mm'
+                    specification: 'Thread size: M5; Form: A flat washer; Internal
+                        diameter: 5.3mm; External diameter: 10.0mm; Thickness: 1.0mm;
+                        Material: Mild steel; Finish: Bright zinc plated; Standard:
+                        DIN 125-1A'
+                    status: verified
+            supplier_data:
+                aanddfasteners:
+                    accepted_warnings: '["Source quantity band starts at zero; normalized
+                        minimum to one item"]'
+                    captured_at: '2026-10-13T07:55:22.776272+00:00'
+                    currency: GBP
+                    html_sha256: 6bbf9b7727b3c9a00314e9039d57b4881c8b5a775bd5a76e2adc125325d8699d
+                    name: M5 Form A Flat Washer, Steel Zinc plated, Din 125
+                    packages: '[]'
+                    parsed_at: '2026-10-18T08:57:33.612036+00:00'
+                    parser_version: aanddfasteners-1.2-review-policy
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept zero-to-one quantity normalization
+                        and low-stock notices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: Product information A metric Form A washer also
+                        known as a flat washer in steel with a bright zinc plating.
+                        Manufactured to Din 125A. A flat washer's main task is to
+                        spread the load across a wider area, which comes in particularly
+                        useful when dealing with softer materials.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: aanddfasteners
+                    supplier_id: ST12505AZP
+                    supplier_part_number: ST12505AZP
+                    supplier_website: https://www.aanddfasteners.co.uk/shop/washers/flat-washers/metric-flat-washer-din-125-form-a/metric-flat-washer-din-125-form-a-steel-zinc-plated/m5-form-a-flat-washer-steel-zinc-plated-din-125/details
+                    tiers:
+                    -   maximum: 25
+                        minimum: 1
+                        source_text: "0 - 25 \xA3 0.10"
+                        source_unit_price: '0.10'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 50
+                        minimum: 26
+                        source_text: "26 -50 \xA3 0.06"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 51
+                        source_text: "51+ \xA3 0.05"
+                        source_unit_price: '0.05'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0600'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.1200'
+                    total_price_10: '1.2000'
+                    total_price_100: '6.0000'
+                    total_price_1000: '60.0000'
+                    total_price_10000: '600.0000'
+                    unit_price_1: '0.1200'
+                    unit_price_10: '0.1200'
+                    unit_price_100: '0.0600'
+                    unit_price_1000: '0.0600'
+                    unit_price_10000: '0.0600'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Source quantity band starts at zero; normalized minimum to one
+                        item
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-18T09:25:41.097073+00:00'
+                    currency: GBP
+                    family_description: Form A washers. Self colour steel (uncoated).
+                        DIN125A.
+                    family_heading: FORM A FLAT WASHER DIN 125 SELF COLOUR
+                    html_sha256: 8dddfa58b247746d51b81c8bafa7b095b56e668facacfffbee527c368b08a232
+                    name: M5 FORM A FLAT WASHER DIN 125 SELF COLOUR STEEL
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:31:26.123105+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M5 FORM A FLAT WASHER DIN 125 SELF COLOUR
+                        STEEL
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: FORM A FLAT WASHER DIN 125 SELF COLOUR; Form A
+                        washers. Self colour steel (uncoated). DIN125A.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M5-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M5-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+                    supplier_website: https://www.kayfast.co.uk/view-product/FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR
+                    tiers:
+                    -   maximum: 999
+                        minimum: 1
+                        source_price_per_100: '0.71'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 999 @ \xA30.71 per 100"
+                        source_unit_price: '0.0071'
+                        source_vat_basis: exclusive
+                        unit_price: '0.008520'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_price_per_100: '0.45'
+                        source_price_quantity: 100
+                        source_text: "QTY 1000 -  4999 @ \xA30.45 per 100"
+                        source_unit_price: '0.0045'
+                        source_vat_basis: exclusive
+                        unit_price: '0.005400'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 5000
+                        source_price_per_100: '0.41'
+                        source_price_quantity: 100
+                        source_text: "QTY 5000 + @ \xA30.41 per 100"
+                        source_unit_price: '0.0041'
+                        source_vat_basis: exclusive
+                        unit_price: '0.004920'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.008520'
+                    total_price_10: '0.085200'
+                    total_price_100: '0.852000'
+                    total_price_1000: '5.400000'
+                    total_price_10000: '49.200000'
+                    unit_price_1: '0.008520'
+                    unit_price_10: '0.008520'
+                    unit_price_100: '0.008520'
+                    unit_price_1000: '0.005400'
+                    unit_price_10000: '0.004920'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
             taxonomy_1: hardware
             taxonomy_10: ''
             taxonomy_11: ''
@@ -383,6 +592,225 @@ oomlout_ai_roboclick_2:
                         name_proper: Hardware Washer M5
                         name_space: hardware washer m5
                         name_upper: HARDWARE WASHER M5
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M5 steel flat washer DIN 125
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M5+steel+flat+washer+DIN+125
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M5 steel flat washer DIN 125
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+steel+flat+washer+DIN+125
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T11:35:40.434156+00:00'
+                                evidence_file: support_files/evidence/hardware_washer_m5/google/b41de55a99124ddca3be3d7b5c7000e2.yaml
+                                evidence_url: https://www.google.com/search?q=M5+steel+flat+washer+DIN+125
+                                material_evidence: Mild steel
+                                product_name: M5 MILD STEEL FORM A FLAT WASHER BRIGHT
+                                    ZINC PLATED DIN 125 - 1A (5.3X10X1MM)
+                                reason: The exact Google search led to Orbital Fasteners'
+                                    M5 mild-steel Form A flat washer. Its heading
+                                    and product information state M5, 5.3 x 10.0 x
+                                    1.0 mm ID x OD x thickness, mild steel, bright
+                                    zinc plating, and DIN 125-1A.
+                                result_url: https://www.orbitalfasteners.co.uk/products/m5-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-5-3x10x1mm-
+                                search_evidence: "Google result for Orbital Fasteners\
+                                    \ was titled \u2018M5 Mild Steel Form A Flat Washer\
+                                    \ Bright Zinc Plated DIN 125 - 1A (5.3x10x1mm)\u2019\
+                                    . Opened the page; SKU 1711020 and the listed\
+                                    \ dimensions, material, finish and standard matched.\
+                                    \ Stainless results were rejected."
+                                search_for: M5 steel flat washer DIN 125
+                                search_url: https://www.google.com/search?q=M5+steel+flat+washer+DIN+125
+                                selected_variant: 'Single product: M5 Form A, 5.3
+                                    x 10.0 x 1.0mm'
+                                specification: 'Thread size: M5; Form: A flat washer;
+                                    Internal diameter: 5.3mm; External diameter: 10.0mm;
+                                    Thickness: 1.0mm; Material: Mild steel; Finish:
+                                    Bright zinc plated; Standard: DIN 125-1A'
+                                status: verified
+                        supplier_data:
+                            aanddfasteners:
+                                accepted_warnings: '["Source quantity band starts
+                                    at zero; normalized minimum to one item"]'
+                                captured_at: '2026-10-13T07:55:22.776272+00:00'
+                                currency: GBP
+                                html_sha256: 6bbf9b7727b3c9a00314e9039d57b4881c8b5a775bd5a76e2adc125325d8699d
+                                name: M5 Form A Flat Washer, Steel Zinc plated, Din
+                                    125
+                                packages: '[]'
+                                parsed_at: '2026-10-18T08:57:33.612036+00:00'
+                                parser_version: aanddfasteners-1.2-review-policy
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept zero-to-one
+                                    quantity normalization and low-stock notices."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: Product information A metric Form
+                                    A washer also known as a flat washer in steel
+                                    with a bright zinc plating. Manufactured to Din
+                                    125A. A flat washer's main task is to spread the
+                                    load across a wider area, which comes in particularly
+                                    useful when dealing with softer materials.
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: aanddfasteners
+                                supplier_id: ST12505AZP
+                                supplier_part_number: ST12505AZP
+                                supplier_website: https://www.aanddfasteners.co.uk/shop/washers/flat-washers/metric-flat-washer-din-125-form-a/metric-flat-washer-din-125-form-a-steel-zinc-plated/m5-form-a-flat-washer-steel-zinc-plated-din-125/details
+                                tiers:
+                                -   maximum: 25
+                                    minimum: 1
+                                    source_text: "0 - 25 \xA3 0.10"
+                                    source_unit_price: '0.10'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1200'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 50
+                                    minimum: 26
+                                    source_text: "26 -50 \xA3 0.06"
+                                    source_unit_price: '0.06'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0720'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 51
+                                    source_text: "51+ \xA3 0.05"
+                                    source_unit_price: '0.05'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0600'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.1200'
+                                total_price_10: '1.2000'
+                                total_price_100: '6.0000'
+                                total_price_1000: '60.0000'
+                                total_price_10000: '600.0000'
+                                unit_price_1: '0.1200'
+                                unit_price_10: '0.1200'
+                                unit_price_100: '0.0600'
+                                unit_price_1000: '0.0600'
+                                unit_price_10000: '0.0600'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Source quantity band starts at zero; normalized
+                                    minimum to one item
+                            kayfast:
+                                accepted_warnings: '["Kayfast per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-18T09:25:41.097073+00:00'
+                                currency: GBP
+                                family_description: Form A washers. Self colour steel
+                                    (uncoated). DIN125A.
+                                family_heading: FORM A FLAT WASHER DIN 125 SELF COLOUR
+                                html_sha256: 8dddfa58b247746d51b81c8bafa7b095b56e668facacfffbee527c368b08a232
+                                name: M5 FORM A FLAT WASHER DIN 125 SELF COLOUR STEEL
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:31:26.123105+00:00'
+                                parser_version: kayfast-1.6-family-description
+                                price_breaks_description: M5 FORM A FLAT WASHER DIN
+                                    125 SELF COLOUR STEEL
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-17", "statement": "Use the exact row
+                                    dropdown price per 100 divided by 100 with Decimal
+                                    precision; accept the captured per-100 display
+                                    precision."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "Kayfast
+                                    prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+                                specifications: FORM A FLAT WASHER DIN 125 SELF COLOUR;
+                                    Form A washers. Self colour steel (uncoated).
+                                    DIN125A.
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: kayfast
+                                supplier_id: M5-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+                                supplier_id_basis: exact dimensional row description;
+                                    spaces replaced by hyphens (user clarification
+                                    2026-10-11)
+                                supplier_part_number: M5-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+                                supplier_website: https://www.kayfast.co.uk/view-product/FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR
+                                tiers:
+                                -   maximum: 999
+                                    minimum: 1
+                                    source_price_per_100: '0.71'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 1 - 999 @ \xA30.71 per 100"
+                                    source_unit_price: '0.0071'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.008520'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 4999
+                                    minimum: 1000
+                                    source_price_per_100: '0.45'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 1000 -  4999 @ \xA30.45 per\
+                                        \ 100"
+                                    source_unit_price: '0.0045'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.005400'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 5000
+                                    source_price_per_100: '0.41'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 5000 + @ \xA30.41 per 100"
+                                    source_unit_price: '0.0041'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.004920'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.008520'
+                                total_price_10: '0.085200'
+                                total_price_100: '0.852000'
+                                total_price_1000: '5.400000'
+                                total_price_10000: '49.200000'
+                                unit_price_1: '0.008520'
+                                unit_price_10: '0.008520'
+                                unit_price_100: '0.008520'
+                                unit_price_1000: '0.005400'
+                                unit_price_10000: '0.004920'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Kayfast per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
                         taxonomy_1: hardware
                         taxonomy_10: ''
                         taxonomy_11: ''
@@ -623,6 +1051,215 @@ oomlout_ai_roboclick_2:
                     search_and_replace: []
                 file_test: label_oomp.pdf
                 retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M5 steel flat washer DIN 125
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M5+steel+flat+washer+DIN+125
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M5 steel flat washer DIN 125
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+steel+flat+washer+DIN+125
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T11:35:40.434156+00:00'
+                    evidence_file: support_files/evidence/hardware_washer_m5/google/b41de55a99124ddca3be3d7b5c7000e2.yaml
+                    evidence_url: https://www.google.com/search?q=M5+steel+flat+washer+DIN+125
+                    material_evidence: Mild steel
+                    product_name: M5 MILD STEEL FORM A FLAT WASHER BRIGHT ZINC PLATED
+                        DIN 125 - 1A (5.3X10X1MM)
+                    reason: The exact Google search led to Orbital Fasteners' M5 mild-steel
+                        Form A flat washer. Its heading and product information state
+                        M5, 5.3 x 10.0 x 1.0 mm ID x OD x thickness, mild steel, bright
+                        zinc plating, and DIN 125-1A.
+                    result_url: https://www.orbitalfasteners.co.uk/products/m5-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-5-3x10x1mm-
+                    search_evidence: "Google result for Orbital Fasteners was titled\
+                        \ \u2018M5 Mild Steel Form A Flat Washer Bright Zinc Plated\
+                        \ DIN 125 - 1A (5.3x10x1mm)\u2019. Opened the page; SKU 1711020\
+                        \ and the listed dimensions, material, finish and standard\
+                        \ matched. Stainless results were rejected."
+                    search_for: M5 steel flat washer DIN 125
+                    search_url: https://www.google.com/search?q=M5+steel+flat+washer+DIN+125
+                    selected_variant: 'Single product: M5 Form A, 5.3 x 10.0 x 1.0mm'
+                    specification: 'Thread size: M5; Form: A flat washer; Internal
+                        diameter: 5.3mm; External diameter: 10.0mm; Thickness: 1.0mm;
+                        Material: Mild steel; Finish: Bright zinc plated; Standard:
+                        DIN 125-1A'
+                    status: verified
+            supplier_data:
+                aanddfasteners:
+                    accepted_warnings: '["Source quantity band starts at zero; normalized
+                        minimum to one item"]'
+                    captured_at: '2026-10-13T07:55:22.776272+00:00'
+                    currency: GBP
+                    html_sha256: 6bbf9b7727b3c9a00314e9039d57b4881c8b5a775bd5a76e2adc125325d8699d
+                    name: M5 Form A Flat Washer, Steel Zinc plated, Din 125
+                    packages: '[]'
+                    parsed_at: '2026-10-18T08:57:33.612036+00:00'
+                    parser_version: aanddfasteners-1.2-review-policy
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept zero-to-one quantity normalization
+                        and low-stock notices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: Product information A metric Form A washer also
+                        known as a flat washer in steel with a bright zinc plating.
+                        Manufactured to Din 125A. A flat washer's main task is to
+                        spread the load across a wider area, which comes in particularly
+                        useful when dealing with softer materials.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: aanddfasteners
+                    supplier_id: ST12505AZP
+                    supplier_part_number: ST12505AZP
+                    supplier_website: https://www.aanddfasteners.co.uk/shop/washers/flat-washers/metric-flat-washer-din-125-form-a/metric-flat-washer-din-125-form-a-steel-zinc-plated/m5-form-a-flat-washer-steel-zinc-plated-din-125/details
+                    tiers:
+                    -   maximum: 25
+                        minimum: 1
+                        source_text: "0 - 25 \xA3 0.10"
+                        source_unit_price: '0.10'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 50
+                        minimum: 26
+                        source_text: "26 -50 \xA3 0.06"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 51
+                        source_text: "51+ \xA3 0.05"
+                        source_unit_price: '0.05'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0600'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.1200'
+                    total_price_10: '1.2000'
+                    total_price_100: '6.0000'
+                    total_price_1000: '60.0000'
+                    total_price_10000: '600.0000'
+                    unit_price_1: '0.1200'
+                    unit_price_10: '0.1200'
+                    unit_price_100: '0.0600'
+                    unit_price_1000: '0.0600'
+                    unit_price_10000: '0.0600'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Source quantity band starts at zero; normalized minimum to one
+                        item
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-18T09:25:41.097073+00:00'
+                    currency: GBP
+                    family_description: Form A washers. Self colour steel (uncoated).
+                        DIN125A.
+                    family_heading: FORM A FLAT WASHER DIN 125 SELF COLOUR
+                    html_sha256: 8dddfa58b247746d51b81c8bafa7b095b56e668facacfffbee527c368b08a232
+                    name: M5 FORM A FLAT WASHER DIN 125 SELF COLOUR STEEL
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:31:26.123105+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M5 FORM A FLAT WASHER DIN 125 SELF COLOUR
+                        STEEL
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: FORM A FLAT WASHER DIN 125 SELF COLOUR; Form A
+                        washers. Self colour steel (uncoated). DIN125A.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M5-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M5-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+                    supplier_website: https://www.kayfast.co.uk/view-product/FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR
+                    tiers:
+                    -   maximum: 999
+                        minimum: 1
+                        source_price_per_100: '0.71'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 999 @ \xA30.71 per 100"
+                        source_unit_price: '0.0071'
+                        source_vat_basis: exclusive
+                        unit_price: '0.008520'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_price_per_100: '0.45'
+                        source_price_quantity: 100
+                        source_text: "QTY 1000 -  4999 @ \xA30.45 per 100"
+                        source_unit_price: '0.0045'
+                        source_vat_basis: exclusive
+                        unit_price: '0.005400'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 5000
+                        source_price_per_100: '0.41'
+                        source_price_quantity: 100
+                        source_text: "QTY 5000 + @ \xA30.41 per 100"
+                        source_unit_price: '0.0041'
+                        source_vat_basis: exclusive
+                        unit_price: '0.004920'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.008520'
+                    total_price_10: '0.085200'
+                    total_price_100: '0.852000'
+                    total_price_1000: '5.400000'
+                    total_price_10000: '49.200000'
+                    unit_price_1: '0.008520'
+                    unit_price_10: '0.008520'
+                    unit_price_100: '0.008520'
+                    unit_price_1000: '0.005400'
+                    unit_price_10000: '0.004920'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
             taxonomy_1: hardware
             taxonomy_10: ''
             taxonomy_11: ''
@@ -870,9 +1507,211 @@ oomlout_ai_roboclick_3:
     file_test: ''
 oomp_key: oomp_hardware_washer_m5
 run_action: true
+run_only_yaml: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M5 steel flat washer DIN 125
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M5+steel+flat+washer+DIN+125
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M5 steel flat washer DIN 125
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+steel+flat+washer+DIN+125
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T11:35:40.434156+00:00'
+        evidence_file: support_files/evidence/hardware_washer_m5/google/b41de55a99124ddca3be3d7b5c7000e2.yaml
+        evidence_url: https://www.google.com/search?q=M5+steel+flat+washer+DIN+125
+        material_evidence: Mild steel
+        product_name: M5 MILD STEEL FORM A FLAT WASHER BRIGHT ZINC PLATED DIN 125
+            - 1A (5.3X10X1MM)
+        reason: The exact Google search led to Orbital Fasteners' M5 mild-steel Form
+            A flat washer. Its heading and product information state M5, 5.3 x 10.0
+            x 1.0 mm ID x OD x thickness, mild steel, bright zinc plating, and DIN
+            125-1A.
+        result_url: https://www.orbitalfasteners.co.uk/products/m5-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-5-3x10x1mm-
+        search_evidence: "Google result for Orbital Fasteners was titled \u2018M5\
+            \ Mild Steel Form A Flat Washer Bright Zinc Plated DIN 125 - 1A (5.3x10x1mm)\u2019\
+            . Opened the page; SKU 1711020 and the listed dimensions, material, finish\
+            \ and standard matched. Stainless results were rejected."
+        search_for: M5 steel flat washer DIN 125
+        search_url: https://www.google.com/search?q=M5+steel+flat+washer+DIN+125
+        selected_variant: 'Single product: M5 Form A, 5.3 x 10.0 x 1.0mm'
+        specification: 'Thread size: M5; Form: A flat washer; Internal diameter: 5.3mm;
+            External diameter: 10.0mm; Thickness: 1.0mm; Material: Mild steel; Finish:
+            Bright zinc plated; Standard: DIN 125-1A'
+        status: verified
+supplier_data:
+    aanddfasteners:
+        accepted_warnings: '["Source quantity band starts at zero; normalized minimum
+            to one item"]'
+        captured_at: '2026-10-13T07:55:22.776272+00:00'
+        currency: GBP
+        html_sha256: 6bbf9b7727b3c9a00314e9039d57b4881c8b5a775bd5a76e2adc125325d8699d
+        name: M5 Form A Flat Washer, Steel Zinc plated, Din 125
+        packages: '[]'
+        parsed_at: '2026-10-18T08:57:33.612036+00:00'
+        parser_version: aanddfasteners-1.2-review-policy
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept zero-to-one quantity normalization and low-stock
+            notices."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: Product information A metric Form A washer also known as a
+            flat washer in steel with a bright zinc plating. Manufactured to Din 125A.
+            A flat washer's main task is to spread the load across a wider area, which
+            comes in particularly useful when dealing with softer materials.
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: aanddfasteners
+        supplier_id: ST12505AZP
+        supplier_part_number: ST12505AZP
+        supplier_website: https://www.aanddfasteners.co.uk/shop/washers/flat-washers/metric-flat-washer-din-125-form-a/metric-flat-washer-din-125-form-a-steel-zinc-plated/m5-form-a-flat-washer-steel-zinc-plated-din-125/details
+        tiers:
+        -   maximum: 25
+            minimum: 1
+            source_text: "0 - 25 \xA3 0.10"
+            source_unit_price: '0.10'
+            source_vat_basis: exclusive
+            unit_price: '0.1200'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 50
+            minimum: 26
+            source_text: "26 -50 \xA3 0.06"
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 51
+            source_text: "51+ \xA3 0.05"
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.1200'
+        total_price_10: '1.2000'
+        total_price_100: '6.0000'
+        total_price_1000: '60.0000'
+        total_price_10000: '600.0000'
+        unit_price_1: '0.1200'
+        unit_price_10: '0.1200'
+        unit_price_100: '0.0600'
+        unit_price_1000: '0.0600'
+        unit_price_10000: '0.0600'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Source quantity band starts at zero; normalized minimum to one item
+    kayfast:
+        accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-18T09:25:41.097073+00:00'
+        currency: GBP
+        family_description: Form A washers. Self colour steel (uncoated). DIN125A.
+        family_heading: FORM A FLAT WASHER DIN 125 SELF COLOUR
+        html_sha256: 8dddfa58b247746d51b81c8bafa7b095b56e668facacfffbee527c368b08a232
+        name: M5 FORM A FLAT WASHER DIN 125 SELF COLOUR STEEL
+        packages: '[]'
+        parsed_at: '2026-10-18T09:31:26.123105+00:00'
+        parser_version: kayfast-1.6-family-description
+        price_breaks_description: M5 FORM A FLAT WASHER DIN 125 SELF COLOUR STEEL
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+            "statement": "Use the exact row dropdown price per 100 divided by 100
+            with Decimal precision; accept the captured per-100 display precision."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+        specifications: FORM A FLAT WASHER DIN 125 SELF COLOUR; Form A washers. Self
+            colour steel (uncoated). DIN125A.
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: kayfast
+        supplier_id: M5-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+        supplier_id_basis: exact dimensional row description; spaces replaced by hyphens
+            (user clarification 2026-10-11)
+        supplier_part_number: M5-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+        supplier_website: https://www.kayfast.co.uk/view-product/FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR
+        tiers:
+        -   maximum: 999
+            minimum: 1
+            source_price_per_100: '0.71'
+            source_price_quantity: 100
+            source_text: "QTY 1 - 999 @ \xA30.71 per 100"
+            source_unit_price: '0.0071'
+            source_vat_basis: exclusive
+            unit_price: '0.008520'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 4999
+            minimum: 1000
+            source_price_per_100: '0.45'
+            source_price_quantity: 100
+            source_text: "QTY 1000 -  4999 @ \xA30.45 per 100"
+            source_unit_price: '0.0045'
+            source_vat_basis: exclusive
+            unit_price: '0.005400'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 5000
+            source_price_per_100: '0.41'
+            source_price_quantity: 100
+            source_text: "QTY 5000 + @ \xA30.41 per 100"
+            source_unit_price: '0.0041'
+            source_vat_basis: exclusive
+            unit_price: '0.004920'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.008520'
+        total_price_10: '0.085200'
+        total_price_100: '0.852000'
+        total_price_1000: '5.400000'
+        total_price_10000: '49.200000'
+        unit_price_1: '0.008520'
+        unit_price_10: '0.008520'
+        unit_price_100: '0.008520'
+        unit_price_1000: '0.005400'
+        unit_price_10000: '0.004920'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Kayfast per-100 displayed prices are rounded; derived totals use captured
+            display precision
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -1137,46 +1976,3 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
-search_data:
-  google:
-    search_for: M5 steel flat washer DIN 125
-    search_url: https://www.google.com/search?q=M5+steel+flat+washer+DIN+125
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  ebay:
-    search_for: M5 steel flat washer DIN 125
-    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+steel+flat+washer+DIN+125
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  aliexpress:
-    search_for: M5 steel flat washer DIN 125
-    search_url: https://www.aliexpress.com/wholesale?SearchText=M5+steel+flat+washer+DIN+125
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''

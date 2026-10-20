@@ -1,3 +1,54 @@
+search_data:
+  aliexpress:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M5 x 14 hex head fully threaded set screw DIN 933 steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M5+x+14+hex+head+fully+threaded+set+screw+DIN+933+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  ebay:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M5 x 14 hex head fully threaded set screw DIN 933 steel
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+x+14+hex+head+fully+threaded+set+screw+DIN+933+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  google:
+    checked_at: '2026-10-14T10:43:29.568075+00:00'
+    evidence_file: support_files/evidence/hardware_set_screw_m5_14_mm_length/google/be37313d0e3944c18e710ee1f70e4769.yaml
+    evidence_url: https://www.google.com/search?q=M5+x+14+hex+head+fully+threaded+set+screw+DIN+933+steel
+    material_evidence: Steel
+    product_name: M5 X 14 HEXAGON HEAD SET SCREWS HIGH TENSILE GRADE 8.8 BRIGHT ZINC
+      PLATED, DIN 933
+    reason: Exact Google search returned an exact M5 x 14 DIN 933 set screw in high
+      tensile steel.
+    result_url: https://www.orbitalfasteners.co.uk/products/m5-x-14-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated
+    search_evidence: Google result for Orbital Fasteners titled M5 X 14 HEXAGON HEAD
+      SET SCREWS HIGH TENSILE GRADE 8.8 BRIGHT ZINC PLATED, DIN 933; product page
+      identifies SKU 1851085 and describes it as fully threaded, high tensile grade
+      8.8 steel, bright zinc plated.
+    search_for: M5 x 14 hex head fully threaded set screw DIN 933 steel
+    search_url: https://www.google.com/search?q=M5+x+14+hex+head+fully+threaded+set+screw+DIN+933+steel
+    selected_variant: 'Single-size product: M5 x 14mm, high tensile grade 8.8 steel,
+      bright zinc plated; SKU 1851085'
+    specification: 'Thread Size: M5; Length: 14mm; Thread form: fully threaded; Drive:
+      external hexagon; Head Style: hexagon head; Material: high tensile grade 8.8
+      steel; Finish: bright zinc plated; Standard: DIN 933'
+    status: verified
 spec_iso_b_125_lt_l_le_200_mm: '22'
 spec_iso_b_l_gt_200_mm: ''
 spec_iso_b_l_le_125_mm: '16'
@@ -12,6 +63,147 @@ spec_iso_nominal_diameter: M5
 spec_iso_s_max_mm: '8.00'
 spec_iso_s_min_mm: '7.78'
 spec_iso_thread_pitch_mm: '0.80'
+supplier_data:
+  dibolt:
+    accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-14T00:26:45.476217+00:00'
+    currency: GBP
+    html_sha256: a59432f32149d6d3c791e1395b82da2db9c433b5ece11d967be35f293d3f0007
+    name: M5 x 14mm Hexagon Head Set Screws Bolts Fully Threaded Self Colour Black
+      Grade 8.8, DIN 933
+    packages: '[]'
+    parsed_at: '2026-10-18T09:03:19.875135+00:00'
+    parser_version: dibolt-1.3-missing-price-review
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept the precision of rounded displayed per-100 prices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M5 (5mm); Length (L): 14mm; Material: High Tensile
+      (Grade 8.8); Finish: Self Colour; Head Length (H): 3.74mm; Pitch: 0.8mm; Socket
+      Size (J): 8mm; Manufacturing Standard: 933; Material Specification: High Tensile
+      (Grade 8.8); Fully Threaded: Yes'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: dibolt
+    supplier_id: 20324.050.014
+    supplier_part_number: 20324.050.014
+    supplier_website: https://dibolt.co.uk/products/m5-x-14mm-hexagon-head-set-screw-fully-threaded-self-colour-black-grade-8-8-din-933
+    tiers:
+    - maximum: 999
+      minimum: 1
+      source_text: 1 - 999 £4.38 Per 100 Units
+      source_unit_price: '0.0438'
+      source_vat_basis: exclusive
+      unit_price: '0.052560'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4999
+      minimum: 1000
+      source_text: 1,000 - 4,999 £4.16 Per 100 Units
+      source_unit_price: '0.0416'
+      source_vat_basis: exclusive
+      unit_price: '0.049920'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 5000
+      source_text: 5,000+ £3.94 Per 100 Units
+      source_unit_price: '0.0394'
+      source_vat_basis: exclusive
+      unit_price: '0.047280'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.052560'
+    total_price_10: '0.525600'
+    total_price_100: '5.256000'
+    total_price_1000: '49.920000'
+    total_price_10000: '472.800000'
+    unit_price_1: '0.052560'
+    unit_price_10: '0.052560'
+    unit_price_100: '0.052560'
+    unit_price_1000: '0.049920'
+    unit_price_10000: '0.047280'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Dibolt per-100 displayed prices are rounded; derived totals use captured display
+      precision
+  orbitalfasteners:
+    accepted_warnings: '[]'
+    box_quantity: '500'
+    captured_at: '2026-10-12T20:14:19.864905+00:00'
+    catalogue_page: '8'
+    currency: GBP
+    description: ''
+    html_sha256: 000e4863ed3c6eac0f353fe7bb6a5c3367a5256c26744223dd05130202779494
+    name: M5 x 14 Hexagon Head Set Screws High Tensile Grade 8.8 Bright Zinc Plated,
+      DIN 933
+    parsed_at: '2026-10-18T08:49:36.724248+00:00'
+    parser_version: 1.2-review-policy
+    review_policy: ''
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: inclusive
+    status: ok
+    stock_as_of: 9th October 2026 10:01pm
+    stock_quantity: '5691'
+    supplier: orbitalfasteners
+    supplier_id: '1851085'
+    supplier_part_number: '1851085'
+    supplier_website: https://www.orbitalfasteners.co.uk/products/m5-x-14-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated
+    tiers:
+    - maximum: 499
+      minimum: 1
+      source_text: 1 - 499 £0.0643 Inc. VAT £6.43 Inc. VAT
+      source_unit_price: '0.0643'
+      source_vat_basis: inclusive
+      unit_price: '0.0643'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 2499
+      minimum: 500
+      source_text: 500 - 2499 £0.0358 Inc. VAT £3.58 Inc. VAT
+      source_unit_price: '0.0358'
+      source_vat_basis: inclusive
+      unit_price: '0.0358'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 5999
+      minimum: 2500
+      source_text: 2500 - 5999 £0.0322 Inc. VAT £3.22 Inc. VAT
+      source_unit_price: '0.0322'
+      source_vat_basis: inclusive
+      unit_price: '0.0322'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 6000
+      source_text: 6000 + £0.0286 Inc. VAT £2.86 Inc. VAT
+      source_unit_price: '0.0286'
+      source_vat_basis: inclusive
+      unit_price: '0.0286'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.0643'
+    total_price_10: '0.6430'
+    total_price_100: '6.4300'
+    total_price_1000: '35.8000'
+    total_price_10000: '286.0000'
+    unit_price_1: '0.0643'
+    unit_price_10: '0.0643'
+    unit_price_100: '0.0643'
+    unit_price_1000: '0.0358'
+    unit_price_10000: '0.0286'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings: []
 svg_details:
 - svg_b_125_lt_l_le_200_mm: '22'
   svg_b_l_gt_200_mm: ''

@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_screw_socket_cap_hex_head_black_m5_diameter_45_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M5 x 45 socket cap screw DIN 912 black high tensile steel",
+  "evidence_url": "https://www.google.com/search?q=M5+x+45+socket+cap+screw+DIN+912+black+high+tensile+steel",
+  "reason": "Exact-size black high tensile steel socket cap screw listing found and inspected.",
+  "search_evidence": "Google result opened for Amazon Bolt Base listing B00SN3R2JI.",
+  "attempts": [
+    {
+      "term": "M5 x 45 socket cap screw DIN 912 black high tensile steel",
+      "url": "https://www.google.com/search?q=M5+x+45+socket+cap+screw+DIN+912+black+high+tensile+steel",
+      "completed": true,
+      "outcome": "Opened the exact Bolt Base listing and verified M5 x 45, 0.8 mm pitch, DIN 912 socket cap, 4 mm Allen drive, 12.9 steel and black self-colour finish. Product page describes approximately 25 mm thread. Page title says 5 pack while the current selector displays quantity 1; pack quantity is inconsistent, but the selected screw specification is exact."
+    }
+  ],
+  "result_url": "https://www.amazon.co.uk/dp/B00SN3R2JI",
+  "product_name": "M5 x 45 Black 12.9 Grade High Tensile Hex Socket Cap Screws Self Colour Allen Bolts DIN 912",
+  "selected_variant": "M5 x 45 mm, 0.8 mm pitch; partial thread approximately 25 mm. Listing title says 5 pack, but current package quantity selector shows 1.",
+  "material_evidence": "Product description identifies high tensile Grade 12.9 steel; product summary says Material: Steel.",
+  "specification": "DIN 912; M5 x 45 mm; 0.8 mm pitch; socket cap with 4 mm Allen drive; black self-colour; approximately 25 mm thread.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

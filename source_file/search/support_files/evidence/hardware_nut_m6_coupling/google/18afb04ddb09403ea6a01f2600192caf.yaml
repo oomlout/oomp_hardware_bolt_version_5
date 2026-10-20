@@ -1,0 +1,44 @@
+oomp_id: hardware_nut_m6_coupling
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M6 hexagon coupling nut carbon steel DIN 6334 zinc plated
+evidence_url: https://www.google.com/search?q=M6+hexagon+coupling+nut+carbon+steel+DIN+6334+zinc+plated
+reason: The selected B&Q product is an M6 hex coupling nut to DIN 6334, made from
+  carbon steel with bright zinc plating and metric coarse thread.
+search_evidence: The refined Google query returned the exact B&Q product. Its product
+  page lists M6 selected, DIN 6334, hex nut type, steel, zinc plating, standard metric
+  coarse pitch and a DIN length three times nominal diameter (18 mm for M6). The page
+  currently reports out of stock; the product specification still confirms the exact
+  mapping.
+attempts:
+- term: M6 coupling connector nut steel
+  url: https://www.google.com/search?q=M6+coupling+connector+nut+steel
+  completed: true
+  outcome: Inspected Screwfix Easyfix Carbon Steel Threaded Rod Connecting Nuts M6.
+    Page confirms carbon steel, M6 and hexagon form for joining threaded rods, but
+    does not specify an exact plating or pitch, so it was not used.
+- term: M6 hexagon coupling nut carbon steel DIN 6334 zinc plated
+  url: https://www.google.com/search?q=M6+hexagon+coupling+nut+carbon+steel+DIN+6334+zinc+plated
+  completed: true
+  outcome: Opened B&Q 5 x M6 Hex Coupling Nuts - Threaded Rod Connector Studding Extension
+    - BZP Steel Class 6 - DIN 6334. Product page lists M6, hex type, steel, zinc plating,
+    metric coarse pitch, DIN 6334 and length three times diameter (18 mm).
+result_url: https://www.diy.com/departments/5-x-m6-hex-coupling-nuts-threaded-rod-connector-studding-extension-bzp-steel-class-6-din-6334/5056826613370_BQ.prd
+product_name: 5 x M6 Hex Coupling Nuts - Threaded Rod Connector Studding Extension
+  - BZP Steel Class 6 - DIN 6334
+selected_variant: Bolt size M6 selected; product code 5056826613370; pack of 5
+material_evidence: Product features state carbon steel, minimum Class 6; specifications
+  list steel.
+specification: M6 hex coupling nut; standard metric coarse pitch; DIN 6334; DIN length
+  3 x nominal diameter = 18 mm; bright zinc plated; carbon steel Class 6.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:16:39.825272+00:00'
+validator_version: 1

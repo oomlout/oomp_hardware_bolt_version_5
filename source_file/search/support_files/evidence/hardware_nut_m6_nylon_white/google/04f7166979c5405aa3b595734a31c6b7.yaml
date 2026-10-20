@@ -1,0 +1,39 @@
+oomp_id: hardware_nut_m6_nylon_white
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M6 hexagon full nut white nylon
+evidence_url: https://www.google.com/search?q=M6+hexagon+full+nut+white+nylon
+reason: Spalding Fasteners explicitly lists white nylon hexagon full nuts and provides
+  the M6 pitch, across-flats and height dimensions in its size table.
+search_evidence: The supplied Google query returned Spalding Fasteners’ Metric White
+  Nylon Full Nuts DIN 934 page. Its selected M6 size row gives 1.0 mm pitch, 10 mm
+  across flats and 5 mm nut height. The page describes white nylon hexagon full nuts
+  with metric coarse threads and lists them as DIN 934 pattern nuts.
+attempts:
+- term: M6 hexagon full nut white nylon
+  url: https://www.google.com/search?q=M6+hexagon+full+nut+white+nylon
+  completed: true
+  outcome: Inspected Fusion Fixings’ M6 Nylon Nut, White Plastic Nut page. It explicitly
+    gives M6, 1 mm pitch, 5 mm maximum height, 10 mm socket size and white nylon,
+    but the product heading does not establish the full hex form, so it was not accepted.
+    Inspected Spalding Fasteners’ Metric White Nylon Full Nuts DIN 934 page; the M6
+    size row states 1.0 mm pitch, 10 mm across flats and 5 mm height, with white nylon
+    hexagon full nut form and DIN 934 pattern.
+result_url: https://www.spaldingfasteners.co.uk/PARENT1303
+product_name: Metric White Nylon Hexagon Full Nuts DIN 934
+selected_variant: M6 size row; pitch 1.0 mm; across flats 10 mm; height 5 mm
+material_evidence: Page description states white nylon hexagon full nuts; key features
+  state white nylon construction.
+specification: 'Thread Size: M6; metric coarse thread; pitch 1.0 mm; hexagon full
+  nut; across flats 10 mm; height 5 mm; white nylon; DIN 934 pattern.'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:20:24.500947+00:00'
+validator_version: 1

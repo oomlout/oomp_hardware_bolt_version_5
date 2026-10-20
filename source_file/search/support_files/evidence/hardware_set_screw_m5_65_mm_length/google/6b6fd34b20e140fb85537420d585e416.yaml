@@ -1,0 +1,35 @@
+oomp_id: hardware_set_screw_m5_65_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M5 x 65 hex head fully threaded set screw DIN 933 steel
+evidence_url: https://www.google.com/search?q=M5+x+65+hex+head+fully+threaded+set+screw+DIN+933+steel
+reason: Bolt World exact product page confirms M5 x 65mm, DIN 933, fully threaded
+  hexagon head, grade 8.8 steel and bright zinc plated finish.
+search_evidence: The supplied Google query led to the exact Bolt World product page;
+  stainless results were rejected.
+attempts:
+- term: M5 x 65 hex head fully threaded set screw DIN 933 steel
+  url: https://www.google.com/search?q=M5+x+65+hex+head+fully+threaded+set+screw+DIN+933+steel
+  completed: true
+  outcome: Opened Bolt World product SKU 20323.050.065. Selected page confirms M5
+    x 65mm, 8.8 steel, bright zinc plated, hexagon head, fully threaded and DIN 933.
+result_url: https://boltworld.co.uk/products/m5-x-65mm-hexagon-head-fully-threaded-set-screws-bolt-high-tensile-grade-8-8-bright-zinc-plated-din-933/
+product_name: M5 x 65mm Hexagon Head Set Screw Bolt – High Tensile Grade 8.8 Steel,
+  Bright Zinc Plated (BZP), Fully Threaded, DIN 933
+selected_variant: M5 (5mm) x 65mm; SKU 20323.050.065; high tensile grade 8.8 steel,
+  bright zinc plated
+material_evidence: Steel
+specification: 'Thread Size: M5; Length: 65mm; Pitch: 0.80mm; Thread form: fully threaded;
+  Drive: external hexagon; Head Shape: hexagon; Material: high tensile grade 8.8 steel;
+  Finish: bright zinc plated; Standard: DIN 933'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T10:51:05.563546+00:00'
+validator_version: 1

@@ -1,0 +1,35 @@
+oomp_id: hardware_set_screw_m5_12_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M5 x 12 hex head fully threaded set screw DIN 933 steel
+evidence_url: https://www.google.com/search?q=M5+x+12+hex+head+fully+threaded+set+screw+DIN+933+steel
+reason: Vital Parts page confirms M5 x 12, 0.80mm pitch, hex head, full length threading,
+  8.8 steel BZP and DIN 933.
+search_evidence: Google result opened Vital Parts M5 x 12mm Set Screw - Hex Head (DIN
+  933) | 8.8 Steel BZP. Stainless results were rejected.
+attempts:
+- term: M5 x 12 hex head fully threaded set screw DIN 933 steel
+  url: https://www.google.com/search?q=M5+x+12+hex+head+fully+threaded+set+screw+DIN+933+steel
+  completed: true
+  outcome: Opened Vital Parts page; verified Thread Size M5, Length 12mm, Pitch 0.80mm,
+    Material 8.8 Steel BZP, Across Flats 8mm, Head Height 3.70mm, Standard DIN 933
+    and Hex Head; description confirms fully threaded. Code HH933-M5-12-88-BZP.
+result_url: https://www.vital-parts.co.uk/hex-set-screws-din-933/10105-hh933-m5-12-88-bzp
+product_name: M5 x 12mm Set Screw - Hex Head (DIN 933) | 8.8 Steel BZP
+selected_variant: 'Single-size product: M5 x 12mm, 0.80mm pitch, 8.8 Steel BZP; product
+  code HH933-M5-12-88-BZP'
+material_evidence: Steel
+specification: 'Thread Size: M5; Length: 12mm; Pitch: 0.80mm; Thread form: fully threaded;
+  Drive: external hexagon; Head Style: Hex Head; Across Flats: 8mm; Head Height: 3.70mm;
+  Material: 8.8 Steel; Finish: BZP; Standard: DIN 933'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T10:41:59.230820+00:00'
+validator_version: 1

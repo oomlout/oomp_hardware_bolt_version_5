@@ -1,0 +1,32 @@
+oomp_id: hardware_nut_m5
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M5 hexagon full nut steel
+evidence_url: https://www.google.com/search?q=M5+hexagon+full+nut+steel
+reason: Exact M5 steel full nut match verified on the product page.
+search_evidence: Google search for the exact term returned Orbital Fasteners result
+  titled M5 Hexagon Steel Full Nut Class 8 Bright Zinc Plated, DIN 934; the opened
+  product page confirms the selected M5 full hex nut.
+attempts:
+- term: M5 hexagon full nut steel
+  url: https://www.google.com/search?q=M5+hexagon+full+nut+steel
+  completed: true
+  outcome: Opened the Orbital Fasteners result and verified the exact M5 steel full
+    nut, bright zinc plated, DIN 934.
+result_url: https://www.orbitalfasteners.co.uk/products/m5-hexagon-mild-steel-full-nuts-bright-zinc-plated
+product_name: M5 Hexagon Steel Full Nut Class 8 Bright Zinc Plated, DIN 934
+selected_variant: M5; SKU 1771020
+material_evidence: Product page states Class 8 steel full nut.
+specification: M5 hexagon full nut; DIN 934; thread pitch 0.80 mm; nut thickness 3.85
+  mm; bright zinc plated.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:07:06.225595+00:00'
+validator_version: 1

@@ -1,0 +1,35 @@
+oomp_id: hardware_screw_socket_cap_hex_head_black_m6_diameter_70_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M6 x 70 socket cap screw DIN 912 black high tensile steel
+evidence_url: https://www.google.com/search?q=M6+x+70+socket+cap+screw+DIN+912+black+high+tensile+steel
+reason: Amazon product page verifies the exact M6 x 70 DIN 912 socket cap screw in
+  high tensile 12.9 steel with black self-colour finish.
+search_evidence: Google returned the Amazon Bolt Base result for M6 x 70 black 12.9
+  grade high tensile hex socket cap screws.
+attempts:
+- term: M6 x 70 socket cap screw DIN 912 black high tensile steel
+  url: https://www.google.com/search?q=M6+x+70+socket+cap+screw+DIN+912+black+high+tensile+steel
+  completed: true
+  outcome: Opened the exact Amazon product page; confirmed M6 x 70, 1.0mm pitch, 12.9
+    steel, black self-colour, DIN 912, partial thread and 5mm Allen key.
+result_url: https://www.amazon.co.uk/Bolt-Base-Tensile-Socket-screws/dp/B00SN3OJ7Q
+product_name: (6mm) M6 x 70 Black 12.9 Grade High Tensile Hex Socket Cap Screws Self
+  Colour Allen Bolts DIN 912-100 Pack
+selected_variant: M6 x 70mm, 100-pack
+material_evidence: Page states 12.9 Grade High Tensile Steel; structured fields list
+  Material Steel and Alloy Steel.
+specification: M6 x 70mm, 1.0mm pitch, length excludes head; partial thread approximately
+  30mm; socket cap/DIN 912; 10mm head diameter, 6mm head height, 5mm Allen key; black
+  self-colour.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T10:11:09.878319+00:00'
+validator_version: 1

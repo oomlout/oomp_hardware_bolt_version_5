@@ -1,0 +1,37 @@
+oomp_id: hardware_set_screw_m8_16_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M8 x 16 hex head fully threaded set screw DIN 933 steel
+evidence_url: https://www.google.com/search?q=M8+x+16+hex+head+fully+threaded+set+screw+DIN+933+steel
+reason: The search term returned an exact supplier product, and the selected product
+  page confirms the required size and specification.
+search_evidence: 'Google results returned the exact M8 x 16 Hexagon Head Set Screws
+  listing from Orbital Fasteners. Opened the result and verified the title and description:
+  high tensile grade 8.8, bright zinc plated, DIN 933, fully threaded hexagon head
+  set screw. SKU 1851280.'
+attempts:
+- term: M8 x 16 hex head fully threaded set screw DIN 933 steel
+  url: https://www.google.com/search?q=M8+x+16+hex+head+fully+threaded+set+screw+DIN+933+steel
+  completed: true
+  outcome: Exact Orbital Fasteners result opened; page confirms M8 x 16, fully threaded
+    hex head set screw, grade 8.8 steel, bright zinc plated, DIN 933.
+result_url: https://www.orbitalfasteners.co.uk/products/m8-x-16-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated
+product_name: M8 x 16 Hexagon Head Set Screws, High Tensile Grade 8.8 Bright Zinc
+  Plated, DIN 933
+selected_variant: SKU 1851280; M8 x 16mm; grade 8.8; fully threaded hexagon head set
+  screw.
+material_evidence: Orbital Fasteners describes the selected product as high tensile
+  steel grade 8.8, bright zinc plated.
+specification: M8 thread, 16mm length, fully threaded hexagon head set screw, grade
+  8.8 steel, bright zinc plated, DIN 933.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T11:18:49.733048+00:00'
+validator_version: 1

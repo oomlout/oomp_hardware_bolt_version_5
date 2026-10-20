@@ -86,6 +86,61 @@ oomlout_ai_roboclick_1:
             name_proper: Hardware Set Screw M6 Nylon White 30 Mm Length
             name_space: hardware set screw m6 nylon white 30 mm length
             name_upper: HARDWARE SET SCREW M6 NYLON WHITE 30 MM LENGTH
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 30 hex head fully threaded set screw DIN 933
+                        white nylon
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+30+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 30 hex head fully threaded set screw DIN 933
+                        white nylon
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+30+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T11:10:35.637385+00:00'
+                    evidence_file: support_files/evidence/hardware_set_screw_m6_nylon_white_30_mm_length/google/dc44e78c7f7f4f79aafa2ff1575d3b0d.yaml
+                    evidence_url: https://www.google.com/search?q=M6+x+30+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                    material_evidence: ''
+                    product_name: ''
+                    reason: The opened Orbital Fasteners SKU 5093210 page explicitly
+                        describes grade 66 natural colour nylon, which does not prove
+                        white. Google also returned exact-size nylon listings without
+                        an explicit colour, so an eligible white product remains ambiguous.
+                    result_url: ''
+                    search_evidence: Google returned Orbital Fasteners M6 x 30, Bolt
+                        World M6 x 30 and other exact-length nylon results. The opened
+                        Orbital page identifies SKU 5093210 and states 'Grade 66 natural
+                        colour nylon hexagon head set screw'; Bolt World and Vital
+                        Parts likewise describe natural nylon. Natural does not satisfy
+                        the explicit white requirement; other results do not state
+                        colour.
+                    search_for: M6 x 30 hex head fully threaded set screw DIN 933
+                        white nylon
+                    search_url: https://www.google.com/search?q=M6+x+30+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: unresolved
             spec_iso_b_125_lt_l_le_200_mm: '24'
             spec_iso_b_l_gt_200_mm: ''
             spec_iso_b_l_le_125_mm: '18'
@@ -413,6 +468,63 @@ oomlout_ai_roboclick_2:
                         name_proper: Hardware Set Screw M6 Nylon White 30 Mm Length
                         name_space: hardware set screw m6 nylon white 30 mm length
                         name_upper: HARDWARE SET SCREW M6 NYLON WHITE 30 MM LENGTH
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M6 x 30 hex head fully threaded set screw
+                                    DIN 933 white nylon
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+30+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M6 x 30 hex head fully threaded set screw
+                                    DIN 933 white nylon
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+30+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T11:10:35.637385+00:00'
+                                evidence_file: support_files/evidence/hardware_set_screw_m6_nylon_white_30_mm_length/google/dc44e78c7f7f4f79aafa2ff1575d3b0d.yaml
+                                evidence_url: https://www.google.com/search?q=M6+x+30+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                                material_evidence: ''
+                                product_name: ''
+                                reason: The opened Orbital Fasteners SKU 5093210 page
+                                    explicitly describes grade 66 natural colour nylon,
+                                    which does not prove white. Google also returned
+                                    exact-size nylon listings without an explicit
+                                    colour, so an eligible white product remains ambiguous.
+                                result_url: ''
+                                search_evidence: Google returned Orbital Fasteners
+                                    M6 x 30, Bolt World M6 x 30 and other exact-length
+                                    nylon results. The opened Orbital page identifies
+                                    SKU 5093210 and states 'Grade 66 natural colour
+                                    nylon hexagon head set screw'; Bolt World and
+                                    Vital Parts likewise describe natural nylon. Natural
+                                    does not satisfy the explicit white requirement;
+                                    other results do not state colour.
+                                search_for: M6 x 30 hex head fully threaded set screw
+                                    DIN 933 white nylon
+                                search_url: https://www.google.com/search?q=M6+x+30+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                                selected_variant: ''
+                                specification: ''
+                                status: unresolved
                         spec_iso_b_125_lt_l_le_200_mm: '24'
                         spec_iso_b_l_gt_200_mm: ''
                         spec_iso_b_l_le_125_mm: '18'
@@ -723,6 +835,61 @@ oomlout_ai_roboclick_2:
                     search_and_replace: []
                 file_test: label_oomp.pdf
                 retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 30 hex head fully threaded set screw DIN 933
+                        white nylon
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+30+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 30 hex head fully threaded set screw DIN 933
+                        white nylon
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+30+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T11:10:35.637385+00:00'
+                    evidence_file: support_files/evidence/hardware_set_screw_m6_nylon_white_30_mm_length/google/dc44e78c7f7f4f79aafa2ff1575d3b0d.yaml
+                    evidence_url: https://www.google.com/search?q=M6+x+30+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                    material_evidence: ''
+                    product_name: ''
+                    reason: The opened Orbital Fasteners SKU 5093210 page explicitly
+                        describes grade 66 natural colour nylon, which does not prove
+                        white. Google also returned exact-size nylon listings without
+                        an explicit colour, so an eligible white product remains ambiguous.
+                    result_url: ''
+                    search_evidence: Google returned Orbital Fasteners M6 x 30, Bolt
+                        World M6 x 30 and other exact-length nylon results. The opened
+                        Orbital page identifies SKU 5093210 and states 'Grade 66 natural
+                        colour nylon hexagon head set screw'; Bolt World and Vital
+                        Parts likewise describe natural nylon. Natural does not satisfy
+                        the explicit white requirement; other results do not state
+                        colour.
+                    search_for: M6 x 30 hex head fully threaded set screw DIN 933
+                        white nylon
+                    search_url: https://www.google.com/search?q=M6+x+30+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: unresolved
             spec_iso_b_125_lt_l_le_200_mm: '24'
             spec_iso_b_l_gt_200_mm: ''
             spec_iso_b_l_le_125_mm: '18'
@@ -1041,9 +1208,61 @@ oomlout_ai_roboclick_3:
     file_test: ''
 oomp_key: oomp_hardware_set_screw_m6_nylon_white_30_mm_length
 run_action: true
+run_only_yaml: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M6 x 30 hex head fully threaded set screw DIN 933 white nylon
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+30+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M6 x 30 hex head fully threaded set screw DIN 933 white nylon
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+30+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T11:10:35.637385+00:00'
+        evidence_file: support_files/evidence/hardware_set_screw_m6_nylon_white_30_mm_length/google/dc44e78c7f7f4f79aafa2ff1575d3b0d.yaml
+        evidence_url: https://www.google.com/search?q=M6+x+30+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+        material_evidence: ''
+        product_name: ''
+        reason: The opened Orbital Fasteners SKU 5093210 page explicitly describes
+            grade 66 natural colour nylon, which does not prove white. Google also
+            returned exact-size nylon listings without an explicit colour, so an eligible
+            white product remains ambiguous.
+        result_url: ''
+        search_evidence: Google returned Orbital Fasteners M6 x 30, Bolt World M6
+            x 30 and other exact-length nylon results. The opened Orbital page identifies
+            SKU 5093210 and states 'Grade 66 natural colour nylon hexagon head set
+            screw'; Bolt World and Vital Parts likewise describe natural nylon. Natural
+            does not satisfy the explicit white requirement; other results do not
+            state colour.
+        search_for: M6 x 30 hex head fully threaded set screw DIN 933 white nylon
+        search_url: https://www.google.com/search?q=M6+x+30+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+        selected_variant: ''
+        specification: ''
+        status: unresolved
 spec_iso_b_125_lt_l_le_200_mm: '24'
 spec_iso_b_l_gt_200_mm: ''
 spec_iso_b_l_le_125_mm: '18'
@@ -1407,46 +1626,3 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
-search_data:
-  google:
-    search_for: M6 x 30 hex head fully threaded set screw DIN 933 white nylon
-    search_url: https://www.google.com/search?q=M6+x+30+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  ebay:
-    search_for: M6 x 30 hex head fully threaded set screw DIN 933 white nylon
-    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+30+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  aliexpress:
-    search_for: M6 x 30 hex head fully threaded set screw DIN 933 white nylon
-    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+30+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''

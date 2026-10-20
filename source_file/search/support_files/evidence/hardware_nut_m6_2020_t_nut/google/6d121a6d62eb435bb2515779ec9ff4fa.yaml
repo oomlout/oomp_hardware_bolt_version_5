@@ -1,0 +1,43 @@
+oomp_id: hardware_nut_m6_2020_t_nut
+platform: google
+method: codex_builtin_browser
+status: unresolved
+search_for: M6 T nut for 2020 V slot aluminum extrusion slide in steel
+evidence_url: https://www.google.com/search?q=M6+T+nut+for+2020+V+slot+aluminum+extrusion+slide+in+steel
+reason: Searches showed plausible M6 20 Series T-slot nuts and 2020-compatible products,
+  but the exact product page opened from the refined result was unavailable, so the
+  selected product's dimensions, material and finish could not be verified. Search
+  budget is complete.
+search_evidence: The first Google search showed Ooznest M6 20 Series T/V-Slot Slide
+  In Nut (Zinc Plated), and search results with other 20 Series sizes. The refined
+  search returned further candidates including products explicitly labeled 2020, but
+  the opened UK Timber result URL returned a Page not found page. Search snippets
+  and AI overview content are not product-page evidence.
+attempts:
+- term: M6 2020 extrusion T slot nut steel
+  url: https://www.google.com/search?q=M6+2020+extrusion+T+slot+nut+steel
+  completed: true
+  outcome: Google showed Ooznest M6 20 Series T/V-Slot Slide In Nut (Zinc Plated),
+    as well as other T-slot nut candidates. The product page was not opened on this
+    search.
+- term: M6 T nut for 2020 V slot aluminum extrusion slide in steel
+  url: https://www.google.com/search?q=M6+T+nut+for+2020+V+slot+aluminum+extrusion+slide+in+steel
+  completed: true
+  outcome: Google returned a UK Timber 2020-series M6 sliding T-nut candidate with
+    snippet claims for carbon steel and zinc plating, but the supplied result URL
+    opened a Page not found page. No selected product specifications could be confirmed.
+result_url: ''
+product_name: ''
+selected_variant: ''
+material_evidence: ''
+specification: ''
+checks:
+  result_reached_from_search: true
+  selected_variant: false
+  dimensions: false
+  form: false
+  material: false
+  finish: false
+  standard: false
+checked_at: '2026-10-14T09:15:09.442538+00:00'
+validator_version: 1

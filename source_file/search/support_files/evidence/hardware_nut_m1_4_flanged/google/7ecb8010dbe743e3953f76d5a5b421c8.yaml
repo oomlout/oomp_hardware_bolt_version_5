@@ -1,0 +1,43 @@
+oomp_id: hardware_nut_m1_4_flanged
+platform: google
+method: codex_builtin_browser
+status: assumed_non_stocked
+search_for: M1.4 DIN 6923 steel flange nut
+evidence_url: https://www.google.com/search?q=M1.4+DIN+6923+steel+flange+nut
+reason: Original exact search for an M1.4 flanged nut in steel returned no exact flanged
+  M1.4 product; the exact M1.4 result was a standard A1 stainless hex nut. The completed
+  DIN 6923 refinement showed flanged nuts starting at M4 or M5 and larger. No eligible
+  M1.4 non-stainless steel flanged nut appeared in either completed exact search.
+search_evidence: 'First completed Google search: https://www.google.com/search?q=M1.4+flanged+nut+steel.
+  Exact M1.4 supplier result was Accu''s standard M1.4 DIN 934 stainless steel A1
+  hex nut; flange results were M4 or larger, with multiple M14 listings. Second completed
+  Google search: https://www.google.com/search?q=M1.4+DIN+6923+steel+flange+nut. Results
+  included DIN 6923 steel flange nut ranges and examples at M4 and above; no M1.4
+  steel flange nut.'
+attempts:
+- term: M1.4 flanged nut steel
+  url: https://www.google.com/search?q=M1.4+flanged+nut+steel
+  completed: true
+  outcome: No exact M1.4 flanged nut found. Exact M1.4 result was an A1 stainless
+    standard hex nut; flanged candidates were M4 or larger.
+- term: M1.4 DIN 6923 steel flange nut
+  url: https://www.google.com/search?q=M1.4+DIN+6923+steel+flange+nut
+  completed: true
+  outcome: No eligible M1.4 steel flanged nut found; DIN 6923 candidates shown were
+    M4 or larger.
+no_eligible_product: true
+result_url: ''
+product_name: ''
+selected_variant: ''
+material_evidence: ''
+specification: ''
+checks:
+  result_reached_from_search: false
+  selected_variant: false
+  dimensions: false
+  form: false
+  material: false
+  finish: false
+  standard: false
+checked_at: '2026-10-14T08:44:56.826499+00:00'
+validator_version: 1

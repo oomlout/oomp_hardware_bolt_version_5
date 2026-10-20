@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_nut_m3_2020_ball_spring",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "unresolved",
+  "search_for": "M3 2020 extrusion ball spring nut steel",
+  "evidence_url": "https://www.google.com/search?q=M3+2020+extrusion+ball+spring+nut+steel",
+  "reason": "Google exposed plausible M3 spring-ball products, but no inspected page established all required details for the selected item. The Amazon page identifies M3, 2020-series and carbon steel, but its form is explicitly titled T-nut; the Ooznest spring-ball page identifies M3, 20 Series and nickel plating, but does not state body material or explicitly identify a 2020 extrusion dimension. Exact selected material and series therefore remain unverified.",
+  "search_evidence": "The Google search showed an Amazon sourcing map result titled M3 T Slot Nuts Roll in Spring T-nut with Ball Carbon Steel for 2020 Series. Its opened page selected M3, stated Carbon Steel and nickel-plated, but called the product a T-Slot/T-nut. I also opened the Ooznest result titled M3 20 Series T/V-Slot Spring Ball Loaded Nut (Nickel Plated); it confirmed M3 and spring-ball form but only stated 20 Series and did not specify the body material. These conflicting/incomplete pages do not verify the exact configured M3 2020 ball spring nut.",
+  "attempts": [
+    {
+      "term": "M3 2020 extrusion ball spring nut steel",
+      "url": "https://www.google.com/search?q=M3+2020+extrusion+ball+spring+nut+steel",
+      "completed": true,
+      "outcome": "Results included M3 ball spring T-slot nuts in carbon steel for 2020 extrusion and an Ooznest M3 20 Series T/V-slot spring-ball nut. Product pages were opened for both candidates."
+    }
+  ],
+  "result_url": "https://www.ooznest.co.uk/product/m3-20-series-spring-ball-loaded-nut-t-v-slot-nickel-plated/",
+  "product_name": "M3 20 Series T/V-Slot Spring Ball Loaded Nut (Nickel Plated)",
+  "selected_variant": "Thread M3; Profile Series 20 Series",
+  "material_evidence": "The Ooznest page states nickel-plated finish but does not state the nut body material. The Amazon result states carbon steel but is a T-slot/T-nut listing.",
+  "specification": "Ooznest page: M3 thread; 20 Series; T/V-slot spring-ball loaded nut; nickel plated. It does not confirm 2020 series or nut body material.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": false,
+    "form": true,
+    "material": false,
+    "finish": true,
+    "standard": false
+  }
+}

@@ -1,0 +1,36 @@
+oomp_id: hardware_screw_countersunk_hex_head_black_m2_diameter_8_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M2 x 8 socket countersunk screw DIN 7991 black high tensile steel
+evidence_url: https://www.google.com/search?q=M2+x+8+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+reason: Exact Bolt World product is the selected M2 x 8mm DIN 7991 socket countersunk
+  screw, steel grade 10.9, self-colour black, and available.
+search_evidence: Google results for the supplied term showed Bolt World's exact M2
+  x 8mm DIN 7991 high tensile steel self-colour black screw. Opened the result and
+  confirmed the selected thread and length options and listed product specifications.
+attempts:
+- term: M2 x 8 socket countersunk screw DIN 7991 black high tensile steel
+  url: https://www.google.com/search?q=M2+x+8+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+  completed: true
+  outcome: Bolt World exact product page opened; selected M2 x 8mm option available.
+result_url: https://boltworld.co.uk/products/m2-x-8mm-socket-screw-bolt-countersunk-high-tensile-grade-10-9-self-colour-din-7991/
+product_name: M2 X 8mm Socket Countersunk Head Screw – High Tensile Grade 10.9 Steel,
+  Self Colour Black, Allen Key Hex Socket, DIN 7991
+selected_variant: Selected Thread Size M2 (2mm) and Length 8mm, SKU 10170.020.008;
+  metric right-hand thread, pitch 0.40mm; socket countersunk head; total length includes
+  head.
+material_evidence: 'Product details list Material: Steel and Class / Grade: 10.9.'
+specification: 'Thread Size: M2; Length: 8mm; Thread: Metric Thread; Pitch: 0.40mm;
+  Head Shape: Socket Countersunk; Drive: Allen key hex socket; Material: Steel Grade
+  10.9; Finish: Self colour / plain black; Manufacturing Standard: DIN 7991.'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:28:25.437900+00:00'
+validator_version: 1

@@ -1,0 +1,42 @@
+oomp_id: hardware_washer_m6_penny
+platform: google
+method: codex_builtin_browser
+status: unresolved
+search_for: M6 steel penny washer DIN 9021
+evidence_url: https://www.google.com/search?q=M6+steel+penny+washer+DIN+9021
+reason: The supplied search term and one focused refinement produced plausible M6
+  DIN 9021 results, but the inspected product evidence conflicts on thickness and
+  the other inspected listing is unavailable. Exact dimensions could not be verified.
+search_evidence: Search 1 surfaced an Orbital Fasteners M6 Form G mild-steel BZP DIN
+  9021 listing. Its Google title and product heading say 6.6x18x1.6mm, but its URL
+  and browser page title say 6.6x18x2.0mm. Search 2 repeated that conflicting Orbital
+  listing. The Fasteners Fixings & Tools M6 Flat Washer Zinc DIN 9021 listing led
+  to a 404 page. No exact candidate was established.
+attempts:
+- term: M6 steel penny washer DIN 9021
+  url: https://www.google.com/search?q=M6+steel+penny+washer+DIN+9021
+  completed: true
+  outcome: Google surfaced an Orbital Fasteners M6 Form G mild-steel BZP DIN 9021
+    result. Product heading and search title stated 6.6x18x1.6mm while page title
+    and URL stated 6.6x18x2.0mm; thickness conflicted.
+- term: M6 Form G 6.6x18 mild steel penny washer DIN 9021
+  url: https://www.google.com/search?q=M6+Form+G+6.6x18+mild+steel+penny+washer+DIN+9021
+  completed: true
+  outcome: The focused query returned the same conflicting Orbital listing. The Fasteners
+    Fixings & Tools M6 DIN 9021 listing was opened but returned 404. Exact dimensions
+    remain unverified.
+result_url: ''
+product_name: ''
+selected_variant: ''
+material_evidence: ''
+specification: ''
+checks:
+  result_reached_from_search: false
+  selected_variant: false
+  dimensions: false
+  form: false
+  material: false
+  finish: false
+  standard: false
+checked_at: '2026-10-14T11:37:18.596709+00:00'
+validator_version: 1

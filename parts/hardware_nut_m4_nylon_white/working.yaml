@@ -84,6 +84,123 @@ oomlout_ai_roboclick_1:
             name_proper: Hardware Nut M4 Nylon White
             name_space: hardware nut m4 nylon white
             name_upper: HARDWARE NUT M4 NYLON WHITE
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M4 hexagon full nut white nylon
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M4+hexagon+full+nut+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M4 hexagon full nut white nylon
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+hexagon+full+nut+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T09:06:14.174515+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m4_nylon_white/google/e9add1a98dbd455a9abf3de2275ea6eb.yaml
+                    evidence_url: https://www.google.com/search?q=M4+hexagon+full+nut+white+nylon
+                    material_evidence: 'Specification table states Bolts Material:
+                        Nylon and Finish: White.'
+                    product_name: M4 - Full Nut Hexagon - Nylon - Pack Of 25
+                    reason: Bolts.co.uk confirms an M4 full hexagon nut made of nylon
+                        with a white finish, DIN 934 and exact dimensions.
+                    result_url: https://www.bolts.co.uk/m4-full-nut-hexagon-nylon-pack-of-25-p-FNMCNY04/
+                    search_evidence: Google returned Bolts.co.uk M4 - Full Nut Hexagon
+                        - Nylon - Pack of 25. The opened page identifies product code
+                        FNMCNY04 and states M4 diameter, 0.70 pitch, nylon material,
+                        white finish, hex head, metric coarse thread, DIN 934, 7mm
+                        spanner size and 3.2mm thickness.
+                    search_for: M4 hexagon full nut white nylon
+                    search_url: https://www.google.com/search?q=M4+hexagon+full+nut+white+nylon
+                    selected_variant: Fixed product FNMCNY04; pack of 25; M4 white
+                        nylon full hex nut
+                    specification: 'Thread Size: M4; Thread Pitch: 0.70mm; Spanner
+                        Size: 7mm; Thickness: 3.2mm; Material: Nylon; Finish: White;
+                        Form: full hexagon nut; Thread Type: Metric Coarse; Manufacturing
+                        Standard: DIN 934; Product Code: FNMCNY04.'
+                    status: verified
+            supplier_data:
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '500'
+                    captured_at: '2026-10-12T19:45:09.596839+00:00'
+                    catalogue_page: '37'
+                    currency: GBP
+                    description: ''
+                    html_sha256: 327959d1c02acb2fe93f30901bc0d3c7273a697af2ff91fb78e1a46108ce39c3
+                    name: M4 Full Nut Nylon Grade 66 Natural White
+                    parsed_at: '2026-10-18T08:49:25.640628+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:03pm
+                    stock_quantity: '15645'
+                    supplier: orbitalfasteners
+                    supplier_id: '4988900'
+                    supplier_part_number: '4988900'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m4-full-nut-nylon-grade-66-natural
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA30.0612 Inc. VAT \xA36.12 Inc. VAT"
+                        source_unit_price: '0.0612'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0612'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2499 \xA30.051 Inc. VAT \xA35.10 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.051'
+                        source_vat_basis: inclusive
+                        unit_price: '0.051'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2500
+                        source_text: "2500 + \xA30.046 Inc. VAT \xA34.60 Inc. VAT"
+                        source_unit_price: '0.046'
+                        source_vat_basis: inclusive
+                        unit_price: '0.046'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0612'
+                    total_price_10: '0.6120'
+                    total_price_100: '6.1200'
+                    total_price_1000: '51.000'
+                    total_price_10000: '460.000'
+                    unit_price_1: '0.0612'
+                    unit_price_10: '0.0612'
+                    unit_price_100: '0.0612'
+                    unit_price_1000: '0.051'
+                    unit_price_10000: '0.046'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
             taxonomy_1: hardware
             taxonomy_10: ''
             taxonomy_11: ''
@@ -355,6 +472,129 @@ oomlout_ai_roboclick_2:
                         name_proper: Hardware Nut M4 Nylon White
                         name_space: hardware nut m4 nylon white
                         name_upper: HARDWARE NUT M4 NYLON WHITE
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M4 hexagon full nut white nylon
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M4+hexagon+full+nut+white+nylon
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M4 hexagon full nut white nylon
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+hexagon+full+nut+white+nylon
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T09:06:14.174515+00:00'
+                                evidence_file: support_files/evidence/hardware_nut_m4_nylon_white/google/e9add1a98dbd455a9abf3de2275ea6eb.yaml
+                                evidence_url: https://www.google.com/search?q=M4+hexagon+full+nut+white+nylon
+                                material_evidence: 'Specification table states Bolts
+                                    Material: Nylon and Finish: White.'
+                                product_name: M4 - Full Nut Hexagon - Nylon - Pack
+                                    Of 25
+                                reason: Bolts.co.uk confirms an M4 full hexagon nut
+                                    made of nylon with a white finish, DIN 934 and
+                                    exact dimensions.
+                                result_url: https://www.bolts.co.uk/m4-full-nut-hexagon-nylon-pack-of-25-p-FNMCNY04/
+                                search_evidence: Google returned Bolts.co.uk M4 -
+                                    Full Nut Hexagon - Nylon - Pack of 25. The opened
+                                    page identifies product code FNMCNY04 and states
+                                    M4 diameter, 0.70 pitch, nylon material, white
+                                    finish, hex head, metric coarse thread, DIN 934,
+                                    7mm spanner size and 3.2mm thickness.
+                                search_for: M4 hexagon full nut white nylon
+                                search_url: https://www.google.com/search?q=M4+hexagon+full+nut+white+nylon
+                                selected_variant: Fixed product FNMCNY04; pack of
+                                    25; M4 white nylon full hex nut
+                                specification: 'Thread Size: M4; Thread Pitch: 0.70mm;
+                                    Spanner Size: 7mm; Thickness: 3.2mm; Material:
+                                    Nylon; Finish: White; Form: full hexagon nut;
+                                    Thread Type: Metric Coarse; Manufacturing Standard:
+                                    DIN 934; Product Code: FNMCNY04.'
+                                status: verified
+                        supplier_data:
+                            orbitalfasteners:
+                                accepted_warnings: '[]'
+                                box_quantity: '500'
+                                captured_at: '2026-10-12T19:45:09.596839+00:00'
+                                catalogue_page: '37'
+                                currency: GBP
+                                description: ''
+                                html_sha256: 327959d1c02acb2fe93f30901bc0d3c7273a697af2ff91fb78e1a46108ce39c3
+                                name: M4 Full Nut Nylon Grade 66 Natural White
+                                parsed_at: '2026-10-18T08:49:25.640628+00:00'
+                                parser_version: 1.2-review-policy
+                                review_policy: ''
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: inclusive
+                                status: ok
+                                stock_as_of: 9th October 2026 10:03pm
+                                stock_quantity: '15645'
+                                supplier: orbitalfasteners
+                                supplier_id: '4988900'
+                                supplier_part_number: '4988900'
+                                supplier_website: https://www.orbitalfasteners.co.uk/products/m4-full-nut-nylon-grade-66-natural
+                                tiers:
+                                -   maximum: 499
+                                    minimum: 1
+                                    source_text: "1 - 499 \xA30.0612 Inc. VAT \xA3\
+                                        6.12 Inc. VAT"
+                                    source_unit_price: '0.0612'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0612'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 2499
+                                    minimum: 500
+                                    source_text: "500 - 2499 \xA30.051 Inc. VAT \xA3\
+                                        5.10 Inc. VAT"
+                                    source_unit_price: '0.051'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.051'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 2500
+                                    source_text: "2500 + \xA30.046 Inc. VAT \xA34.60\
+                                        \ Inc. VAT"
+                                    source_unit_price: '0.046'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.046'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.0612'
+                                total_price_10: '0.6120'
+                                total_price_100: '6.1200'
+                                total_price_1000: '51.000'
+                                total_price_10000: '460.000'
+                                unit_price_1: '0.0612'
+                                unit_price_10: '0.0612'
+                                unit_price_100: '0.0612'
+                                unit_price_1000: '0.051'
+                                unit_price_10000: '0.046'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings: []
                         taxonomy_1: hardware
                         taxonomy_10: ''
                         taxonomy_11: ''
@@ -608,6 +848,123 @@ oomlout_ai_roboclick_2:
                     search_and_replace: []
                 file_test: label_oomp.pdf
                 retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M4 hexagon full nut white nylon
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M4+hexagon+full+nut+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M4 hexagon full nut white nylon
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+hexagon+full+nut+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T09:06:14.174515+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m4_nylon_white/google/e9add1a98dbd455a9abf3de2275ea6eb.yaml
+                    evidence_url: https://www.google.com/search?q=M4+hexagon+full+nut+white+nylon
+                    material_evidence: 'Specification table states Bolts Material:
+                        Nylon and Finish: White.'
+                    product_name: M4 - Full Nut Hexagon - Nylon - Pack Of 25
+                    reason: Bolts.co.uk confirms an M4 full hexagon nut made of nylon
+                        with a white finish, DIN 934 and exact dimensions.
+                    result_url: https://www.bolts.co.uk/m4-full-nut-hexagon-nylon-pack-of-25-p-FNMCNY04/
+                    search_evidence: Google returned Bolts.co.uk M4 - Full Nut Hexagon
+                        - Nylon - Pack of 25. The opened page identifies product code
+                        FNMCNY04 and states M4 diameter, 0.70 pitch, nylon material,
+                        white finish, hex head, metric coarse thread, DIN 934, 7mm
+                        spanner size and 3.2mm thickness.
+                    search_for: M4 hexagon full nut white nylon
+                    search_url: https://www.google.com/search?q=M4+hexagon+full+nut+white+nylon
+                    selected_variant: Fixed product FNMCNY04; pack of 25; M4 white
+                        nylon full hex nut
+                    specification: 'Thread Size: M4; Thread Pitch: 0.70mm; Spanner
+                        Size: 7mm; Thickness: 3.2mm; Material: Nylon; Finish: White;
+                        Form: full hexagon nut; Thread Type: Metric Coarse; Manufacturing
+                        Standard: DIN 934; Product Code: FNMCNY04.'
+                    status: verified
+            supplier_data:
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '500'
+                    captured_at: '2026-10-12T19:45:09.596839+00:00'
+                    catalogue_page: '37'
+                    currency: GBP
+                    description: ''
+                    html_sha256: 327959d1c02acb2fe93f30901bc0d3c7273a697af2ff91fb78e1a46108ce39c3
+                    name: M4 Full Nut Nylon Grade 66 Natural White
+                    parsed_at: '2026-10-18T08:49:25.640628+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:03pm
+                    stock_quantity: '15645'
+                    supplier: orbitalfasteners
+                    supplier_id: '4988900'
+                    supplier_part_number: '4988900'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m4-full-nut-nylon-grade-66-natural
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA30.0612 Inc. VAT \xA36.12 Inc. VAT"
+                        source_unit_price: '0.0612'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0612'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2499 \xA30.051 Inc. VAT \xA35.10 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.051'
+                        source_vat_basis: inclusive
+                        unit_price: '0.051'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2500
+                        source_text: "2500 + \xA30.046 Inc. VAT \xA34.60 Inc. VAT"
+                        source_unit_price: '0.046'
+                        source_vat_basis: inclusive
+                        unit_price: '0.046'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0612'
+                    total_price_10: '0.6120'
+                    total_price_100: '6.1200'
+                    total_price_1000: '51.000'
+                    total_price_10000: '460.000'
+                    unit_price_1: '0.0612'
+                    unit_price_10: '0.0612'
+                    unit_price_100: '0.0612'
+                    unit_price_1000: '0.051'
+                    unit_price_10000: '0.046'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
             taxonomy_1: hardware
             taxonomy_10: ''
             taxonomy_11: ''
@@ -870,9 +1227,125 @@ oomlout_ai_roboclick_3:
     file_test: ''
 oomp_key: oomp_hardware_nut_m4_nylon_white
 run_action: true
+run_only_yaml: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M4 hexagon full nut white nylon
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M4+hexagon+full+nut+white+nylon
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M4 hexagon full nut white nylon
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+hexagon+full+nut+white+nylon
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T09:06:14.174515+00:00'
+        evidence_file: support_files/evidence/hardware_nut_m4_nylon_white/google/e9add1a98dbd455a9abf3de2275ea6eb.yaml
+        evidence_url: https://www.google.com/search?q=M4+hexagon+full+nut+white+nylon
+        material_evidence: 'Specification table states Bolts Material: Nylon and Finish:
+            White.'
+        product_name: M4 - Full Nut Hexagon - Nylon - Pack Of 25
+        reason: Bolts.co.uk confirms an M4 full hexagon nut made of nylon with a white
+            finish, DIN 934 and exact dimensions.
+        result_url: https://www.bolts.co.uk/m4-full-nut-hexagon-nylon-pack-of-25-p-FNMCNY04/
+        search_evidence: Google returned Bolts.co.uk M4 - Full Nut Hexagon - Nylon
+            - Pack of 25. The opened page identifies product code FNMCNY04 and states
+            M4 diameter, 0.70 pitch, nylon material, white finish, hex head, metric
+            coarse thread, DIN 934, 7mm spanner size and 3.2mm thickness.
+        search_for: M4 hexagon full nut white nylon
+        search_url: https://www.google.com/search?q=M4+hexagon+full+nut+white+nylon
+        selected_variant: Fixed product FNMCNY04; pack of 25; M4 white nylon full
+            hex nut
+        specification: 'Thread Size: M4; Thread Pitch: 0.70mm; Spanner Size: 7mm;
+            Thickness: 3.2mm; Material: Nylon; Finish: White; Form: full hexagon nut;
+            Thread Type: Metric Coarse; Manufacturing Standard: DIN 934; Product Code:
+            FNMCNY04.'
+        status: verified
+supplier_data:
+    orbitalfasteners:
+        accepted_warnings: '[]'
+        box_quantity: '500'
+        captured_at: '2026-10-12T19:45:09.596839+00:00'
+        catalogue_page: '37'
+        currency: GBP
+        description: ''
+        html_sha256: 327959d1c02acb2fe93f30901bc0d3c7273a697af2ff91fb78e1a46108ce39c3
+        name: M4 Full Nut Nylon Grade 66 Natural White
+        parsed_at: '2026-10-18T08:49:25.640628+00:00'
+        parser_version: 1.2-review-policy
+        review_policy: ''
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: inclusive
+        status: ok
+        stock_as_of: 9th October 2026 10:03pm
+        stock_quantity: '15645'
+        supplier: orbitalfasteners
+        supplier_id: '4988900'
+        supplier_part_number: '4988900'
+        supplier_website: https://www.orbitalfasteners.co.uk/products/m4-full-nut-nylon-grade-66-natural
+        tiers:
+        -   maximum: 499
+            minimum: 1
+            source_text: "1 - 499 \xA30.0612 Inc. VAT \xA36.12 Inc. VAT"
+            source_unit_price: '0.0612'
+            source_vat_basis: inclusive
+            unit_price: '0.0612'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 2499
+            minimum: 500
+            source_text: "500 - 2499 \xA30.051 Inc. VAT \xA35.10 Inc. VAT"
+            source_unit_price: '0.051'
+            source_vat_basis: inclusive
+            unit_price: '0.051'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 2500
+            source_text: "2500 + \xA30.046 Inc. VAT \xA34.60 Inc. VAT"
+            source_unit_price: '0.046'
+            source_vat_basis: inclusive
+            unit_price: '0.046'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.0612'
+        total_price_10: '0.6120'
+        total_price_100: '6.1200'
+        total_price_1000: '51.000'
+        total_price_10000: '460.000'
+        unit_price_1: '0.0612'
+        unit_price_10: '0.0612'
+        unit_price_100: '0.0612'
+        unit_price_1000: '0.051'
+        unit_price_10000: '0.046'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings: []
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -1166,46 +1639,3 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
-search_data:
-  google:
-    search_for: M4 hexagon full nut white nylon
-    search_url: https://www.google.com/search?q=M4+hexagon+full+nut+white+nylon
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  ebay:
-    search_for: M4 hexagon full nut white nylon
-    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+hexagon+full+nut+white+nylon
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  aliexpress:
-    search_for: M4 hexagon full nut white nylon
-    search_url: https://www.aliexpress.com/wholesale?SearchText=M4+hexagon+full+nut+white+nylon
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''

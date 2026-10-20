@@ -2,6 +2,7 @@ import copy
 import working_scad
 
 def main(**kwargs):
+    kwargs.setdefault("run_only_yaml", True)
     kwargs["run_oomp_populate"] = True
 
     kwargs["run_oomp"] = True

@@ -1,0 +1,39 @@
+oomp_id: hardware_nut_m2_7_locking
+platform: google
+method: codex_builtin_browser
+status: assumed_non_stocked
+search_for: M2.7 DIN 985 carbon steel nyloc zinc plated
+evidence_url: https://www.google.com/search?q=M2.7+DIN+985+carbon+steel+nyloc+zinc+plated
+reason: No eligible M2.7 steel nylon-insert locking nut found in two completed exact
+  searches. The nearest opened steel product was M27, not M2.7.
+search_evidence: The first Google search returned Accu and Orbital steel DIN 985 nyloc
+  products at M27, as well as M2.5 stainless and M2 stainless results. The opened
+  Accu page confirmed the selected product is M27, steel class 6, bright zinc plated
+  and DIN 985. The refined query again returned M27 steel products or M2/M2.5 variants;
+  no M2.7 result.
+attempts:
+- term: M2.7 nylon insert locking nut steel
+  url: https://www.google.com/search?q=M2.7+nylon+insert+locking+nut+steel
+  completed: true
+  outcome: No exact M2.7 result. The closest opened steel DIN 985 nyloc product was
+    Accu M27, with M27 thread size.
+- term: M2.7 DIN 985 carbon steel nyloc zinc plated
+  url: https://www.google.com/search?q=M2.7+DIN+985+carbon+steel+nyloc+zinc+plated
+  completed: true
+  outcome: No exact M2.7 steel result; results were M27, M2 or M2.5.
+no_eligible_product: true
+result_url: ''
+product_name: ''
+selected_variant: ''
+material_evidence: ''
+specification: ''
+checks:
+  result_reached_from_search: false
+  selected_variant: false
+  dimensions: false
+  form: false
+  material: false
+  finish: false
+  standard: false
+checked_at: '2026-10-14T08:53:01.266643+00:00'
+validator_version: 1

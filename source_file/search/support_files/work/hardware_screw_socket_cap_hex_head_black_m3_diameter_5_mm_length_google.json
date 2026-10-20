@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_screw_socket_cap_hex_head_black_m3_diameter_5_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M3 x 5 socket cap screw DIN 912 black high tensile steel",
+  "evidence_url": "https://www.google.com/search?q=M3+x+5+socket+cap+screw+DIN+912+black+high+tensile+steel",
+  "reason": "Opened the exact Bolt Base Amazon product from the supplied Google query and verified its listed specifications and selected pack quantity.",
+  "search_evidence": "Google returned the Bolt Base M3 x 5 listing; the snippet identifies 12.9 grade high tensile steel, black self colour, DIN 912, M3 x 0.5, and 5mm length excluding head.",
+  "attempts": [
+    {
+      "term": "M3 x 5 socket cap screw DIN 912 black high tensile steel",
+      "url": "https://www.google.com/search?q=M3+x+5+socket+cap+screw+DIN+912+black+high+tensile+steel",
+      "completed": true,
+      "outcome": "Opened Bolt Base Amazon listing and verified M3 x 5mm, alloy steel grade 12.9, black self colour, socket cap with internal hex 2.5mm Allen drive, M3-0.5 metric thread, fully threaded; DIN 912, pack quantity 100 selected."
+    }
+  ],
+  "result_url": "https://www.amazon.co.uk/Bolt-Base-Tensile-Socket-screws/dp/B00SN3BCO4?th=1",
+  "product_name": "(3mm) M3 x 5 Black 12.9 Grade High Tensile Hex Socket Cap Screws Self Colour Allen Bolts DIN 912-100 Pack",
+  "selected_variant": "M3 x 5mm; item pack quantity 100 selected.",
+  "material_evidence": "Amazon product specifications state Material Type: Alloy Steel; product bullets state 12.9 Grade High Tensile Steel.",
+  "specification": "M3 metric coarse thread pitch 0.5mm; length 5mm excluding head; fully threaded; socket cap head; internal hex 2.5mm Allen drive; black self colour; DIN 912.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

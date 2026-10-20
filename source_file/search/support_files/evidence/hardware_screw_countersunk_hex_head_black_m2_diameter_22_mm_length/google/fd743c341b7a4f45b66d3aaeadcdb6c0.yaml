@@ -1,0 +1,42 @@
+oomp_id: hardware_screw_countersunk_hex_head_black_m2_diameter_22_mm_length
+platform: google
+method: codex_builtin_browser
+status: unresolved
+search_for: M2 x 22 socket countersunk screw DIN 7991 black high tensile steel
+evidence_url: https://www.google.com/search?q=M2+x+22+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+reason: No exact orderable product was verified within the search budget. Google returned
+  an M2x22 eBay listing, but eBay is blocked for this workflow and was not opened.
+  Bolt World's inferred product URL returned Item not found; Bolt Base's inspected
+  M2 listing offers lengths only through 10mm.
+search_evidence: The supplied search produced a blocked eBay listing mentioning M2
+  x 22mm and Google snippets for Bolt World, but no exact working seller page. The
+  refined query likewise returned no working exact product page. Bolt Base's listing
+  had no 22mm option.
+attempts:
+- term: M2 x 22 socket countersunk screw DIN 7991 black high tensile steel
+  url: https://www.google.com/search?q=M2+x+22+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+  completed: true
+  outcome: Search completed; direct Bolt World product page returned Item not found.
+    eBay result not opened due platform block.
+- term: M2 22mm DIN 7991 high tensile black countersunk screw
+  url: https://www.google.com/search?q=M2+22mm+DIN+7991+high+tensile+black+countersunk+screw
+  completed: true
+  outcome: Refined search completed; Bolt Base M2 listing inspected and selectable
+    lengths stopped at 10mm.
+result_url: https://boltbase.com/products/m2-self-colour-10-9-high-tensile-socket-countersunk-screws
+product_name: M2 Self Colour 10.9 High Tensile Socket Countersunk Screws
+selected_variant: The listing offers M2 thread with selectable lengths 5, 6, 8, and
+  10mm; no 22mm option.
+material_evidence: Bolt Base product description identifies High Tensile 10.9 Steel.
+specification: DIN 7991 / ISO 10642, self-colour black, socket countersunk; selected
+  exact 22mm variant unavailable on inspected listing.
+checks:
+  result_reached_from_search: true
+  selected_variant: false
+  dimensions: false
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:25:48.020339+00:00'
+validator_version: 1

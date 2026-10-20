@@ -1,0 +1,36 @@
+oomp_id: hardware_set_screw_m5_25_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M5 x 25 hex head fully threaded set screw DIN 933 steel
+evidence_url: https://www.google.com/search?q=M5+x+25+hex+head+fully+threaded+set+screw+DIN+933+steel
+reason: Orbital Fasteners exact M5 x 25 page confirms a fully threaded DIN 933 hex
+  head set screw in grade 8.8 steel with bright zinc plating.
+search_evidence: Google search led to Orbital Fasteners' exact high tensile 8.8 steel
+  result; stainless products were rejected.
+attempts:
+- term: M5 x 25 hex head fully threaded set screw DIN 933 steel
+  url: https://www.google.com/search?q=M5+x+25+hex+head+fully+threaded+set+screw+DIN+933+steel
+  completed: true
+  outcome: Opened exact Orbital product page; heading and page description confirm
+    M5 x 25, high tensile grade 8.8 steel, bright zinc plated, fully threaded hexagon
+    head DIN 933; SKU 1851110.
+result_url: https://www.orbitalfasteners.co.uk/products/m5-x-25-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated
+product_name: M5 X 25 HEXAGON HEAD SET SCREWS HIGH TENSILE GRADE 8.8 BRIGHT ZINC PLATED,
+  DIN 933
+selected_variant: 'Single-size product: M5 x 25mm, high tensile grade 8.8 steel, bright
+  zinc plated; SKU 1851110'
+material_evidence: Steel
+specification: 'Thread Size: M5; Length: 25mm; Thread form: fully threaded; Drive:
+  external hexagon; Head Style: hexagon head; Material: high tensile grade 8.8 steel;
+  Finish: bright zinc plated; Standard: DIN 933'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T10:45:23.940695+00:00'
+validator_version: 1

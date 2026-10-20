@@ -1,0 +1,37 @@
+oomp_id: hardware_set_screw_m8_20_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M8 x 20 hex head fully threaded set screw DIN 933 steel
+evidence_url: https://www.google.com/search?q=M8+x+20+hex+head+fully+threaded+set+screw+DIN+933+steel
+reason: The search term returned an exact supplier product, and the selected product
+  page confirms the required size and specification.
+search_evidence: Google returned the exact M8 x 20 Hexagon Head Set Screws listing
+  from Orbital Fasteners. The opened page identifies SKU 2411000 and confirms the
+  product as high tensile grade 8.8, galvanised, fully threaded, hexagon head, DIN
+  933.
+attempts:
+- term: M8 x 20 hex head fully threaded set screw DIN 933 steel
+  url: https://www.google.com/search?q=M8+x+20+hex+head+fully+threaded+set+screw+DIN+933+steel
+  completed: true
+  outcome: Exact Orbital Fasteners result opened; page confirms M8 x 20, fully threaded
+    hex head set screw, grade 8.8 steel, galvanised finish, DIN 933.
+result_url: https://www.orbitalfasteners.co.uk/products/m8-x-20-hexagon-head-set-screws-high-tensile-grade-8-8-galvanised-din-933
+product_name: M8 x 20 Hexagon Head Set Screws High Tensile Grade 8.8 Galvanised, DIN
+  933
+selected_variant: SKU 2411000; M8 x 20mm; grade 8.8; fully threaded hexagon head set
+  screw.
+material_evidence: Orbital Fasteners identifies the selected product as high tensile
+  steel grade 8.8 and galvanised.
+specification: M8 thread, 20mm length, fully threaded hexagon head set screw, grade
+  8.8 steel, galvanised finish, DIN 933.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T11:19:35.141415+00:00'
+validator_version: 1

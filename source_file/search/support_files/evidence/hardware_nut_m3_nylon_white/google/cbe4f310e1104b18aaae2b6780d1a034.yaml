@@ -1,0 +1,36 @@
+oomp_id: hardware_nut_m3_nylon_white
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M3 hexagon full nut white nylon
+evidence_url: https://www.google.com/search?q=M3+hexagon+full+nut+white+nylon
+reason: Bolts.co.uk confirms the selected M3 full hexagon nut is nylon with a white
+  finish, metric coarse thread, and DIN 934 dimensions.
+search_evidence: Google's result for M3 - Full Nut Hexagon - Nylon - Pack of 25 was
+  opened. The Bolts.co.uk page heading identifies the M3 full hexagon nylon nut and
+  product code FNMCNY03. Its specification table states M3 diameter, 0.50 pitch, nylon
+  material, white finish, hex head, metric coarse thread, DIN 934, 5.5mm spanner size
+  and 2.4mm thickness.
+attempts:
+- term: M3 hexagon full nut white nylon
+  url: https://www.google.com/search?q=M3+hexagon+full+nut+white+nylon
+  completed: true
+  outcome: Found and opened Bolts.co.uk M3 - Full Nut Hexagon - Nylon - Pack of 25;
+    the page confirms exact M3 dimensions and white nylon material/finish.
+result_url: https://www.bolts.co.uk/m3-full-nut-hexagon-nylon-pack-of-25-p-FNMCNY03/
+product_name: M3 - Full Nut Hexagon - Nylon - Pack Of 25
+selected_variant: Fixed product FNMCNY03; pack of 25; M3 white nylon full hex nut
+material_evidence: 'Specification table states Bolts Material: Nylon and Finish: White.'
+specification: 'Thread Size: M3; Thread Pitch: 0.50mm; Spanner Size: 5.5mm; Thickness:
+  2.4mm; Material: Nylon; Finish: White; Form: full hexagon nut; Thread Type: Metric
+  Coarse; Manufacturing Standard: DIN 934; Product Code: FNMCNY03.'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:00:55.595644+00:00'
+validator_version: 1

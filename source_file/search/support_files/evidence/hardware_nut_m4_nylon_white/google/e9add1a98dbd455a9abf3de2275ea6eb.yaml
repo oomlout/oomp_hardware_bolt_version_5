@@ -1,0 +1,36 @@
+oomp_id: hardware_nut_m4_nylon_white
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M4 hexagon full nut white nylon
+evidence_url: https://www.google.com/search?q=M4+hexagon+full+nut+white+nylon
+reason: Bolts.co.uk confirms an M4 full hexagon nut made of nylon with a white finish,
+  DIN 934 and exact dimensions.
+search_evidence: Google returned Bolts.co.uk M4 - Full Nut Hexagon - Nylon - Pack
+  of 25. The opened page identifies product code FNMCNY04 and states M4 diameter,
+  0.70 pitch, nylon material, white finish, hex head, metric coarse thread, DIN 934,
+  7mm spanner size and 3.2mm thickness.
+attempts:
+- term: M4 hexagon full nut white nylon
+  url: https://www.google.com/search?q=M4+hexagon+full+nut+white+nylon
+  completed: true
+  outcome: Found and opened Bolts.co.uk M4 - Full Nut Hexagon - Nylon - Pack of 25;
+    page confirms M4 white nylon, DIN 934, 0.70 pitch, 7mm spanner size and 3.2mm
+    thickness.
+result_url: https://www.bolts.co.uk/m4-full-nut-hexagon-nylon-pack-of-25-p-FNMCNY04/
+product_name: M4 - Full Nut Hexagon - Nylon - Pack Of 25
+selected_variant: Fixed product FNMCNY04; pack of 25; M4 white nylon full hex nut
+material_evidence: 'Specification table states Bolts Material: Nylon and Finish: White.'
+specification: 'Thread Size: M4; Thread Pitch: 0.70mm; Spanner Size: 7mm; Thickness:
+  3.2mm; Material: Nylon; Finish: White; Form: full hexagon nut; Thread Type: Metric
+  Coarse; Manufacturing Standard: DIN 934; Product Code: FNMCNY04.'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:06:14.174515+00:00'
+validator_version: 1

@@ -1,0 +1,34 @@
+oomp_id: hardware_screw_socket_cap_hex_head_black_m2_diameter_4_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M2 x 4 socket cap screw DIN 912 black high tensile steel
+evidence_url: https://www.google.com/search?q=M2+x+4+socket+cap+screw+DIN+912+black+high+tensile+steel
+reason: Opened the exact Bolt World product from Google and verified the selected
+  M2 and 4mm options and specifications.
+search_evidence: Google showed Bolt World’s exact M2 x 4mm listing with Grade 12.9
+  steel, self-colour black, Allen key hex socket, DIN 912.
+attempts:
+- term: M2 x 4 socket cap screw DIN 912 black high tensile steel
+  url: https://www.google.com/search?q=M2+x+4+socket+cap+screw+DIN+912+black+high+tensile+steel
+  completed: true
+  outcome: Opened Bolt World’s exact result and verified selected size and material/finish/form
+    specifications.
+result_url: https://boltworld.co.uk/products/m2-x-4mm-socket-cap-screw-high-tensile-grade-12-9-self-colour-din-912/
+product_name: M2 X 4mm Socket Head Cap Screw – High Tensile Grade 12.9 Steel, Self
+  Colour Black, Allen Key Hex Socket, DIN 912
+selected_variant: Thread Size M2 (2mm) selected; Length 4mm selected; SKU 10161.020.004.
+material_evidence: Supplier page states Material Steel, Class/Grade 12.9.
+specification: M2 x 4mm; metric right-hand thread, 0.40mm pitch; socket cap head;
+  Allen key hex socket drive; self-colour/plain (heading describes black); DIN 912.
+  Length excludes head.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:45:12.988315+00:00'
+validator_version: 1

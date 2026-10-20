@@ -1,0 +1,43 @@
+oomp_id: hardware_screw_countersunk_hex_head_black_m2_diameter_3_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M2 x 3mm DIN 7991 10.9 steel self colour socket countersunk screw
+evidence_url: https://www.google.com/search?q=M2+x+3mm+DIN+7991+10.9+steel+self+colour+socket+countersunk+screw
+reason: The selected listing variant is M2x3mm, black oxide, Grade 10.9 alloy steel,
+  DIN 7991 hexagon socket countersunk head.
+search_evidence: The refined Google query returned the Haroar Amazon listing for M2
+  Grade 10.9 black oxide DIN7991 screws. Opened the listing; current selected option
+  is 20pcs M2x3 and the page states the product is dispatched within 3 to 4 days.
+  The first SAM result was also an M2x3 black steel DIN 7991 screw, but its page did
+  not state the black finish as self-colour or black oxide.
+attempts:
+- term: M2 x 3 socket countersunk screw DIN 7991 black high tensile steel
+  url: https://www.google.com/search?q=M2+x+3+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+  completed: true
+  outcome: SAM result inspected; M2x3 steel 10.9 black DIN 7991, but exact black finish
+    type was not named.
+- term: M2 x 3mm DIN 7991 10.9 steel self colour socket countersunk screw
+  url: https://www.google.com/search?q=M2+x+3mm+DIN+7991+10.9+steel+self+colour+socket+countersunk+screw
+  completed: true
+  outcome: Amazon result opened; selected option 20pcs M2x3, black oxide, Grade 10.9
+    alloy steel, DIN7991.
+result_url: https://www.amazon.co.uk/Hexagon-Socket-Countersunk-DIN7991-3mm-40mm/dp/B0DGQK5278?th=1
+product_name: 10/20pcs M2 Grade 10.9 Alloy Steel Hexagon Socket Countersunk Head Cap
+  Screws Black Oxide DIN7991 Total Length 3mm-40mm(20Pcs M2x3)
+selected_variant: 'Selected option: 20pcs M2x3; thread diameter M2, length 3mm including
+  head; metric thread; hexagon socket countersunk head.'
+material_evidence: Product title and description identify Grade 10.9 alloy steel.
+specification: 'Length: 3mm including head; Thread Size: M2; Material: Grade 10.9
+  alloy steel; Finish: Black Oxide; Head: Hexagon Socket Countersunk; Manufacturing
+  Standard: DIN 7991.'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:27:22.800106+00:00'
+validator_version: 1

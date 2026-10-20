@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_set_screw_m3_12_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M3 x 12 hex head fully threaded set screw DIN 933 steel",
+  "evidence_url": "https://www.google.com/search?q=M3+x+12+hex+head+fully+threaded+set+screw+DIN+933+steel",
+  "reason": "Vital Parts page confirms M3 x 12, hex head, fully threaded form, 8.8 steel, bright zinc plated finish and DIN 933.",
+  "search_evidence": "Google result linked to Vital Parts M3 x 12mm Set Screw - Hex Head (DIN 933) | 8.8 Steel BZP.",
+  "attempts": [
+    {
+      "term": "M3 x 12 hex head fully threaded set screw DIN 933 steel",
+      "url": "https://www.google.com/search?q=M3+x+12+hex+head+fully+threaded+set+screw+DIN+933+steel",
+      "completed": true,
+      "outcome": "Opened Vital Parts page; verified M3 x 12, 0.50mm pitch, hex head, fully threaded form, 8.8 steel BZP, and DIN 933."
+    }
+  ],
+  "result_url": "https://www.vital-parts.co.uk/hex-set-screws-din-933/9915-hh933-m3-12-88-bzp",
+  "product_name": "M3 x 12mm Set Screw - Hex Head (DIN 933) | 8.8 Steel BZP",
+  "selected_variant": "M3 x 12mm, 0.50mm pitch, 8.8 steel BZP",
+  "material_evidence": "Product Specification identifies Material: 8.8 Steel BZP.",
+  "specification": "Diameter: M3; Length: 12mm; Thread: fully threaded, 0.50mm pitch; Drive: external hexagon; Head: hex head, 5.5mm across flats, 2.10mm height; Material: 8.8 steel; Finish: bright zinc plated; Standard: DIN 933",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

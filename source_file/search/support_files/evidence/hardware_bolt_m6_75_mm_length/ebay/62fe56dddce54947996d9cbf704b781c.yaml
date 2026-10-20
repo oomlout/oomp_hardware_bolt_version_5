@@ -1,0 +1,54 @@
+oomp_id: hardware_bolt_m6_75_mm_length
+platform: ebay
+method: codex_builtin_browser
+status: verified
+search_for: M6 x 75mm Hex Bolt Grade 8.8 High Tensile Part Thread Zinc DIN 931
+evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+75mm+Hex+Bolt+Grade+8.8+High+Tensile+Part+Thread+Zinc+DIN+931
+reason: The focused eBay search led to a Kay's Fasteners M6 part-threaded hex bolt
+  listing. I selected the explicit Bolt Size option M6 x 75mm. The listing identifies
+  the body as Grade 8.8 high tensile steel, identifies hex head/spanner form, bright
+  zinc plated finish, and DIN 931. The description states bolt lengths do not include
+  the head. Pack quantity remains a separate unselected control.
+search_evidence: The initial search term M6 x 75 hex head part threaded bolt DIN 931
+  steel returned broad results with mismatched visible lengths. One focused refinement,
+  M6 x 75mm Hex Bolt Grade 8.8 High Tensile Part Thread Zinc DIN 931, returned the
+  Kay's Fasteners listing item 163905000663. Its Bolt Size selector included M6 x
+  75mm and that exact option was selected. The listing's selected material is Grade
+  8.8 High Tensile Steel; wrong-size, stainless and different-form results were not
+  accepted.
+attempts:
+- term: M6 x 75 hex head part threaded bolt DIN 931 steel
+  url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+75+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: Search completed but displayed a broad result set; visible candidates were
+    wrong length, stainless or different form. Applied one focused size/grade refinement.
+- term: M6 x 75mm Hex Bolt Grade 8.8 High Tensile Part Thread Zinc DIN 931
+  url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+75mm+Hex+Bolt+Grade+8.8+High+Tensile+Part+Thread+Zinc+DIN+931
+  completed: true
+  outcome: Opened Kay's Fasteners item 163905000663 from the refined result and selected
+    Bolt Size M6 x 75mm. Page confirms Grade 8.8 High Tensile Steel, hex head, part-threaded
+    form, bright zinc plated finish and DIN 931.
+result_url: https://www.ebay.co.uk/itm/163905000663?_skw=M6+x+75mm+Hex+Bolt+Grade+8.8+High+Tensile+Part+Thread+Zinc+DIN+931&itmmeta=01M4X3RP6D4J2MMHWWG5PF7W59&hash=item26297fd4d7:g:PEQAAeSwi9FqqZQS&itmprp=enc%3AAQALAAABICHNgUiiE%2FjQhlDTaMiAde%2BgYCVWIhJweOLCJ68E%2FOlyham%2FfgpW65MordZ%2BsFbZxf0uHpCrw98olQvmx%2BEwalFEf60lHTUUytUEo1YuZpmmYWRrn4v4iWK6T095Mu6NNdcDTygNez4Jue%2FdUf%2FXyhoPLyWxr5hI2onP3UavvfwfN7uzVinx9XtPllIIYIdKbWi631HNNdUQt0yIgznLTNi6rb6sfvPeWbLZOoQJ2Le8qbdpbxQ01clNC4EpP38PwVMlZY2NA6mYhRwlmPTGx5KsW8%2FUmfU0sZSNjjxubixpxGHOXbh%2BN3OnvfT7ErY5wjiC9KR2qV1KAmAj%2BCJ4lfVvaLfS1qJNn9r6Mu6Ac8%2B8gafWL9JjaflHBWoRLMsO7g%3D%3D%7Ctkp%3ABk9SR8rj4qOnaA
+product_name: M6 (6mmØ) HEXAGON HEAD BOLTS PART THREADED HIGH TENSILE 8.8 ZINC PLATED
+  SCREWS
+selected_variant: 'Selected Bolt Size option: M6 x 75mm. Item Length is listed as
+  As Selected and is confirmed by the selected control. Material listing is Grade
+  8.8 High Tensile Steel. Pack quantity remained Select; separate from the selected
+  size.'
+material_evidence: Grade 8.8 High Tensile Steel
+specification: 'Thread Diameter: 6mm; Thread Size: M6 (listing shows 6mm); Screw Size:
+  M6; Length: 75mm (selected Bolt Size option: M6 x 75mm); Material: Grade 8.8 High
+  Tensile Steel; Product: M6 Part Threaded Bolts; MPN: DIN 931; Head Style: Hex Head;
+  Drive Style: Spanner; Finish: Bright Zinc Plated (BZP); Thread Pitch: M6 x 1mm Metric
+  Coarse; seller description: bolt lengths do not include the head; bolts are part
+  threaded; approximately 20mm of thread'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T11:47:37.080620+00:00'
+validator_version: 1

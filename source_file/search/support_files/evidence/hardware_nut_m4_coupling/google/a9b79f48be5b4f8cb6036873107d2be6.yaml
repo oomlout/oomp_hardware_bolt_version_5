@@ -1,0 +1,49 @@
+oomp_id: hardware_nut_m4_coupling
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M4 hexagon coupling nut steel zinc plated
+evidence_url: https://www.google.com/search?q=M4+hexagon+coupling+nut+steel+zinc+plated
+reason: Bolt World confirms the selected M4 x 20mm hexagon connection long nut is
+  a stud connector nut, made from free cutting steel Grade 6 with blue passivated
+  zinc plating.
+search_evidence: The supplied search led to a round studding connector nut page with
+  M4, steel and BZP details, but its form wording did not establish the hexagon connector
+  form. The refinement M4 hexagon coupling nut steel zinc plated led to Bolt World's
+  M4 x 20mm Hexagon Connection Long Nut. The page title states Grade 6 and BLUE Passivated
+  Zinc Plated; the breadcrumb classifies it as a Stud Connector Nut / Hex Connector
+  Nut. The selected options and page specifications state M4, 20mm, free cutting steel,
+  metric right-hand thread, 0.70 pitch and hexagon shape; SKU 51317.040.020.
+attempts:
+- term: M4 coupling connector nut steel
+  url: https://www.google.com/search?q=M4+coupling+connector+nut+steel
+  completed: true
+  outcome: Found and inspected Bolt World M4 x 15mm round studding connector nut;
+    exact size and material were clear, but the page wording did not establish the
+    required connector-nut form for the selected ID.
+- term: M4 hexagon coupling nut steel zinc plated
+  url: https://www.google.com/search?q=M4+hexagon+coupling+nut+steel+zinc+plated
+  completed: true
+  outcome: Found and opened Bolt World M4 x 20mm Hexagon Connection Long Nut. Selected
+    product is categorized as a stud connector nut; M4, 20mm length, Grade 6 free
+    cutting steel and blue passivated zinc plating confirmed.
+result_url: https://boltworld.co.uk/products/m4-x-20mm-hexagon-connection-long-nuts-grade-6-blue-passivated-zinc-plated/
+product_name: M4 x 20mm Hexagon Connection Long Nuts, Grade 6 BLUE Passivated Zinc
+  Plated (Stud Connector Nut category)
+selected_variant: SKU 51317.040.020; M4 thread, 20mm length
+material_evidence: 'Product page states Material: Free Cutting Steel and Class / Grade:
+  6.'
+specification: 'Thread Size: M4; Thread Pitch: 0.70mm; Thread Form: Metric Thread,
+  Right Hand; Length: 20mm; Nut Shape: Hexagon; Form: hexagon connection long nut
+  / stud connector nut; Material: Free Cutting Steel, Grade 6; Finish: BLUE Passivated
+  Zinc Plated; SKU: 51317.040.020.'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:04:33.078195+00:00'
+validator_version: 1

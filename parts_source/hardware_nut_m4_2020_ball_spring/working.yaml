@@ -1,3 +1,60 @@
+search_data:
+  aliexpress:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M4 2020 extrusion ball spring nut steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M4+2020+extrusion+ball+spring+nut+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  ebay:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M4 2020 extrusion ball spring nut steel
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+2020+extrusion+ball+spring+nut+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  google:
+    checked_at: '2026-10-14T09:02:47.010227+00:00'
+    evidence_file: support_files/evidence/hardware_nut_m4_2020_ball_spring/google/d9a2641707084be39ce684c7c325f96b.yaml
+    evidence_url: https://www.google.com/search?q=M4+2020+spring+ball+loaded+nut+carbon+steel+nickel+plated
+    material_evidence: 'Amazon product details state Material: carbon steel; the item
+      description repeats carbon steel construction.'
+    product_name: 2020 Series M4 T Slot Half Round Nuts Roll-in Spring Ball Loaded
+      Elastic Nuts Carbon Steel
+    reason: The selected Amazon variant is an M4 roll-in spring ball T-slot nut for
+      2020 series profiles with a 6mm slot, made from carbon steel with a nickel-plated
+      surface.
+    result_url: https://www.amazon.co.uk/Elastic-European-Standard-Aluminum-Extrusion/dp/B0CG4W2RVM?th=1
+    search_evidence: The generated search term found an Ooznest M4 20 Series spring
+      ball loaded nut, but that page did not state the body material. The permitted
+      refinement M4 2020 spring ball loaded nut carbon steel nickel plated led to
+      the Amazon listing. The opened Amazon page title identifies 2020 Series M4 T
+      Slot Half Round Nuts, roll-in spring ball loaded, carbon steel, for European
+      Standard 2020 profiles with 6mm slot. Its selected size option is 20-M4 (10
+      Pcs). Product details say Material Carbon Steel; the description confirms nickel-plated
+      surface and spring ball positioning mechanism.
+    search_for: M4 2020 spring ball loaded nut carbon steel nickel plated
+    search_url: https://www.google.com/search?q=M4+2020+spring+ball+loaded+nut+carbon+steel+nickel+plated
+    selected_variant: 'Size Name: 20-M4 (10 Pcs); M4 thread for 2020 series profile'
+    specification: 'Thread Size: M4; Thread Pitch: 0.7mm; Form: roll-in spring ball
+      loaded T-slot half-round nut; Compatible Profile: European Standard 2020 series
+      profile with 6mm slot; Material: carbon steel; Finish: Nickel-plated; Selected
+      Variant: 20-M4 (10 Pcs).'
+    status: verified
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -14,95 +71,210 @@ taxonomy_7: ''
 taxonomy_8: ''
 taxonomy_9: ''
 three_d_model_details:
-  schema_version: 1
-  generator: supplier_2020_ball_spring_nut
-  output_folder: three_d_model
-  units: mm
-  standard: null
-  dimensional_specification: Fasenco 20S roll-in ball-spring nut
+  checked_on: '2026-10-13'
+  coordinate_system:
+    axis: +Z along bore
+    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+    glb_units: metres
+    glb_up_axis: Y
+    origin: lower face centre
+    stl_units: mm
   dimension_status: supplier_dimensions_with_visual_details
+  dimensional_specification: Fasenco 20S roll-in ball-spring nut
+  generator: supplier_2020_ball_spring_nut
   length_status: not_applicable
+  material:
+    base_colour_srgb:
+    - 0.62
+    - 0.65
+    - 0.69
+    coat_roughness: 0.28
+    coat_weight: 0.02
+    metallic: 1.0
+    microtexture_height_um: 0.8
+    microtexture_spacing_mm: 0.025
+    name: Satin steel
+    note: Visual finish approximation; catalogue specifies colour only.
+    roughness: 0.26
+    roughness_variation: 0.045
+  model_formats:
+  - stl
+  - glb
+  modelling_choices:
+    bearing: Bolt bearing circle and c selected within limits; k includes bearing
+      thickness; fillet tangent to shaft and bearing.
+    cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
+      bore and mouth chamfers.
+    certification: Nominal visual catalogue model, not manufacturing tolerance certification.
+    chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees. Bolt
+      tip 45 degrees, P/2.
+    components: Closed separate assembly components; hidden spring omitted.
+    dimension_selection: Nominal bolt head height, max flats/nut height, nominal washer
+      sizes; selected dimensions stored in parameters.
+    display: Smooth nominal external-thread envelope or smooth minor-diameter internal
+      bore; lower angular and fillet tessellation.
+    family_note: Fasenco 20S envelope A=14 B=8.2 H=4.2 M=0.4 mm; nominal ISO coarse
+      pitches. Barrel cross-section, offset ball pocket and 0.4 mm ball projection
+      are visual selections. Hidden spring omitted. Total model height 4.6 mm includes
+      ball projection.
+    markings: Supplier and property-class markings omitted because catalogue does
+      not identify them.
+    runout: External one-pitch fade to plain shank; full thread ends at underhead
+      fillet.
+    thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+      rounded root H/6, internal P/4 crest and P/8 root flats.
+    unspecified_geometry: Nut mouth for supplier rows without limits and flange M3/M4
+      thickness/rim blends are explicit visual model selections.
+  output_folder: three_d_model
+  parameters:
+    across_flats_mm: 8.2
+    ball_projection_mm: 0.4
+    ball_radius_mm: 1.1
+    body_height_mm: 4.2
+    body_length_mm: 14
+    body_width_mm: 8.2
+    characteristic_dimension_basis: hexagon across flats
+    characteristic_dimension_mm: 8.2
+    expected_components: 2
+    external_minor_diameter_mm: 3.141191474580432
+    family: nut
+    finish: satin
+    handedness: right
+    height_convention: total axial nut height
+    height_mm: 4.6
+    hole_chamfer_mm: 0.26926814855409226
+    hole_chamfer_slope: 1.7320508075688767
+    identity: hardware_nut_m4_2020_ball_spring
+    internal_minor_diameter_mm: 3.2422277716886163
+    lip_mm: 0.4
+    mouth_diameter_mm: 4.175
+    nominal_diameter_mm: 4.0
+    nut_style: ball_spring_nut
+    outer_chamfer_angle_degrees: 30.0
+    overall_height_mm: 4.6
+    pitch_mm: 0.7
+    specification: Fasenco 20S roll-in ball-spring nut
+    thread_flank_angle_degrees: 60.0
+    thread_pitch_diameter_mm: 3.5453366630131695
+    thread_starts: 1
+  renders:
+    high:
+      file: render_high.png
+      pixels: 2048
+      variant: full
+      view: isometric
+    low:
+      file: render_low.png
+      pixels: 512
+      variant: display
+      view: isometric
+    product_high:
+      file: render_product_high.png
+      pixels: 2048
+      variant: full
+      view: product
+    product_low:
+      file: render_product_low.png
+      pixels: 512
+      variant: display
+      view: product
+  schema_version: 1
+  source_table: source_file/standards/catalogue_extensions.yaml
   sources:
   - title: Fasenco 20S-M3/M4/M5/M6 roll-in nuts, A/B/M/H table and drawing
     url: https://www.fasenco.com/roll-in-t-nuts/
   - title: ISO 68-1:1998 basic ISO metric thread profile
     url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
-  checked_on: '2026-10-13'
-  source_table: source_file/standards/catalogue_extensions.yaml
-  standard_limits: {}
+  standard: null
   standard_lengths_mm: []
-  parameters:
-    family: nut
-    nominal_diameter_mm: 4.0
-    finish: satin
-    identity: hardware_nut_m4_2020_ball_spring
-    specification: Fasenco 20S roll-in ball-spring nut
-    expected_components: 2
-    handedness: right
-    thread_starts: 1
-    thread_flank_angle_degrees: 60.0
-    pitch_mm: 0.7
-    across_flats_mm: 8.2
-    height_mm: 4.6
-    outer_chamfer_angle_degrees: 30.0
-    mouth_diameter_mm: 4.175
-    hole_chamfer_mm: 0.26926814855409226
-    hole_chamfer_slope: 1.7320508075688767
-    height_convention: total axial nut height
-    overall_height_mm: 4.6
-    characteristic_dimension_mm: 8.2
-    characteristic_dimension_basis: hexagon across flats
-    nut_style: ball_spring_nut
-    body_height_mm: 4.2
-    body_length_mm: 14
-    body_width_mm: 8.2
-    lip_mm: 0.4
-    ball_radius_mm: 1.1
-    ball_projection_mm: 0.4
-    thread_pitch_diameter_mm: 3.5453366630131695
-    external_minor_diameter_mm: 3.141191474580432
-    internal_minor_diameter_mm: 3.2422277716886163
-  modelling_choices:
-    dimension_selection: Nominal bolt head height, max flats/nut height, nominal washer
-      sizes; selected dimensions stored in parameters.
-    thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
-      rounded root H/6, internal P/4 crest and P/8 root flats.
-    runout: External one-pitch fade to plain shank; full thread ends at underhead
-      fillet.
-    chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees. Bolt
-      tip 45 degrees, P/2.
-    bearing: Bolt bearing circle and c selected within limits; k includes bearing
-      thickness; fillet tangent to shaft and bearing.
-    cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
-      bore and mouth chamfers.
-    display: Smooth nominal external-thread envelope or smooth minor-diameter internal
-      bore; lower angular and fillet tessellation.
-    components: Closed separate assembly components; hidden spring omitted.
-    markings: Supplier and property-class markings omitted because catalogue does
-      not identify them.
-    unspecified_geometry: Nut mouth for supplier rows without limits and flange M3/M4
-      thickness/rim blends are explicit visual model selections.
-    family_note: Fasenco 20S envelope A=14 B=8.2 H=4.2 M=0.4 mm; nominal ISO coarse
-      pitches. Barrel cross-section, offset ball pocket and 0.4 mm ball projection
-      are visual selections. Hidden spring omitted. Total model height 4.6 mm includes
-      ball projection.
-    certification: Nominal visual catalogue model, not manufacturing tolerance certification.
-  coordinate_system:
-    origin: lower face centre
-    axis: +Z along bore
-    stl_units: mm
-    glb_units: metres
-    glb_up_axis: Y
-    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+  standard_limits: {}
+  studio:
+    adaptive_threshold: 0.015
+    denoise: true
+    device: auto
+    engine: cycles
+    exposure: 0.0
+    floor_colour_srgb:
+    - 0.93
+    - 0.935
+    - 0.94
+    floor_roughness: 0.55
+    framing_margin: 0.13
+    high_samples: 160
+    lights:
+    - colour:
+      - 1.0
+      - 0.96
+      - 0.9
+      height: 5.0
+      name: Key softbox
+      position:
+      - -3
+      - -4
+      - 6
+      power: 650.0
+      width: 4.0
+    - colour:
+      - 0.9
+      - 0.95
+      - 1.0
+      height: 4.0
+      name: Fill softbox
+      position:
+      - 4
+      - -1
+      - 3
+      power: 330.0
+      width: 3.0
+    - colour:
+      - 1.0
+      - 1.0
+      - 1.0
+      height: 5.0
+      name: Rim strip
+      position:
+      - 1
+      - 4
+      - 4
+      power: 850.0
+      width: 1.2
+    look: AgX - Medium High Contrast
+    low_samples: 48
+    poses:
+      isometric:
+        camera_eye:
+        - 1
+        - -1
+        - 1
+        orientation: principal axis Z up
+        projection: orthographic
+      product:
+        camera_eye:
+        - -6
+        - -10
+        - 6
+        orientation: resting on lower face, bore visible
+        projection: orthographic
+        resting_axis: face
+        support: Stable convex-hull support using actual mesh centre of mass.
+        yaw_degrees: -12.0
+    seed: 7991
+    view_transform: AgX
+    world_colour:
+    - 0.78
+    - 0.82
+    - 0.9
+    world_strength: 0.35
+  units: mm
   variants:
-    full:
-      angular_segments: 96
-      samples_per_pitch: 32
-      fillet_segments: 12
     display:
       angular_segments: 24
-      samples_per_pitch: 1
       fillet_segments: 3
+      samples_per_pitch: 1
+    full:
+      angular_segments: 96
+      fillet_segments: 12
+      samples_per_pitch: 32
   views:
   - isometric
   - front
@@ -111,118 +283,3 @@ three_d_model_details:
   - right
   - top
   - bottom
-  model_formats:
-  - stl
-  - glb
-  material:
-    name: Satin steel
-    base_colour_srgb:
-    - 0.62
-    - 0.65
-    - 0.69
-    metallic: 1.0
-    roughness: 0.26
-    roughness_variation: 0.045
-    coat_weight: 0.02
-    coat_roughness: 0.28
-    microtexture_spacing_mm: 0.025
-    microtexture_height_um: 0.8
-    note: Visual finish approximation; catalogue specifies colour only.
-  studio:
-    engine: cycles
-    device: auto
-    seed: 7991
-    low_samples: 48
-    high_samples: 160
-    adaptive_threshold: 0.015
-    denoise: true
-    view_transform: AgX
-    look: AgX - Medium High Contrast
-    exposure: 0.0
-    world_colour:
-    - 0.78
-    - 0.82
-    - 0.9
-    world_strength: 0.35
-    floor_colour_srgb:
-    - 0.93
-    - 0.935
-    - 0.94
-    floor_roughness: 0.55
-    framing_margin: 0.13
-    lights:
-    - name: Key softbox
-      position:
-      - -3
-      - -4
-      - 6
-      power: 650.0
-      width: 4.0
-      height: 5.0
-      colour:
-      - 1.0
-      - 0.96
-      - 0.9
-    - name: Fill softbox
-      position:
-      - 4
-      - -1
-      - 3
-      power: 330.0
-      width: 3.0
-      height: 4.0
-      colour:
-      - 0.9
-      - 0.95
-      - 1.0
-    - name: Rim strip
-      position:
-      - 1
-      - 4
-      - 4
-      power: 850.0
-      width: 1.2
-      height: 5.0
-      colour:
-      - 1.0
-      - 1.0
-      - 1.0
-    poses:
-      isometric:
-        camera_eye:
-        - 1
-        - -1
-        - 1
-        projection: orthographic
-        orientation: principal axis Z up
-      product:
-        camera_eye:
-        - -6
-        - -10
-        - 6
-        projection: orthographic
-        orientation: resting on lower face, bore visible
-        yaw_degrees: -12.0
-        support: Stable convex-hull support using actual mesh centre of mass.
-        resting_axis: face
-  renders:
-    low:
-      file: render_low.png
-      variant: display
-      pixels: 512
-      view: isometric
-    high:
-      file: render_high.png
-      variant: full
-      pixels: 2048
-      view: isometric
-    product_low:
-      file: render_product_low.png
-      variant: display
-      pixels: 512
-      view: product
-    product_high:
-      file: render_product_high.png
-      variant: full
-      pixels: 2048
-      view: product

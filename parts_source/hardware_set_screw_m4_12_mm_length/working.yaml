@@ -1,3 +1,51 @@
+search_data:
+  aliexpress:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M4 x 12 hex head fully threaded set screw DIN 933 steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M4+x+12+hex+head+fully+threaded+set+screw+DIN+933+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  ebay:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M4 x 12 hex head fully threaded set screw DIN 933 steel
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+x+12+hex+head+fully+threaded+set+screw+DIN+933+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  google:
+    checked_at: '2026-10-14T10:36:24.455658+00:00'
+    evidence_file: support_files/evidence/hardware_set_screw_m4_12_mm_length/google/fd23250639094df3a558a41c8fccb9b4.yaml
+    evidence_url: https://www.google.com/search?q=M4+x+12+hex+head+fully+threaded+set+screw+DIN+933+steel
+    material_evidence: Steel
+    product_name: M4 x 12mm Set Screw - Hex Head (DIN 933) | 8.8 Steel BZP
+    reason: Vital Parts page confirms M4 x 12, 0.70mm pitch, hex head, fully threaded
+      shank, 8.8 steel BZP and DIN 933.
+    result_url: https://www.vital-parts.co.uk/hex-set-screws-din-933/10051-hh933-m4-12-88-bzp
+    search_evidence: Google result opened Vital Parts M4 x 12mm Set Screw - Hex Head
+      (DIN 933) | 8.8 Steel BZP. Stainless results were rejected.
+    search_for: M4 x 12 hex head fully threaded set screw DIN 933 steel
+    search_url: https://www.google.com/search?q=M4+x+12+hex+head+fully+threaded+set+screw+DIN+933+steel
+    selected_variant: 'Single-size product: M4 x 12mm, 0.70mm pitch, 8.8 Steel BZP;
+      product code HH933-M4-12-88-BZP'
+    specification: 'Thread Size: M4; Length: 12mm; Pitch: 0.70mm; Thread form: fully
+      threaded; Drive: external hexagon; Head Style: Hex Head; Across Flats: 7mm;
+      Head Height: 3mm; Material: 8.8 Steel; Finish: BZP; Standard: DIN 933'
+    status: verified
 spec_iso_b_125_lt_l_le_200_mm: ''
 spec_iso_b_l_gt_200_mm: ''
 spec_iso_b_l_le_125_mm: '14'
@@ -12,6 +60,367 @@ spec_iso_nominal_diameter: M4
 spec_iso_s_max_mm: '7.00'
 spec_iso_s_min_mm: '6.78'
 spec_iso_thread_pitch_mm: '0.70'
+supplier_data:
+  aanddfasteners:
+    accepted_warnings: '["Source quantity band starts at zero; normalized minimum
+      to one item"]'
+    captured_at: '2026-10-13T07:39:56.747324+00:00'
+    currency: GBP
+    html_sha256: ab01efd0c4644fd5be12d507aa8650d3e68a89d107338d659a166ae8cbe98263
+    name: M4 x 12mm Hexagonal Set screw, Din 933, Steel zinc plated
+    packages: '[]'
+    parsed_at: '2026-10-18T08:57:31.856584+00:00'
+    parser_version: aanddfasteners-1.2-review-policy
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept zero-to-one quantity normalization and low-stock notices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: Product information A metric hexagonal set screw or Hex Set as
+      it's commonly known, manufactured to Din 933. This fully threaded bolt is designed
+      for use in heavy duty fastening applications, and is ideal for installation
+      into pre-threaded holes using a spanner or socket tool. Manufactured in 8.8
+      high tensile steel with a bright zinc plating for an attractive appearance and
+      medium corrosion resistance for general purpose use. Manufactured in 8.8 high
+      tensile steel with a bright zinc plating for an attractive appearance and medium
+      corrosion resistance for general purpose use.
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: aanddfasteners
+    supplier_id: ST93304012ZP
+    supplier_part_number: ST93304012ZP
+    supplier_website: https://www.aanddfasteners.co.uk/shop/bolting/hex-set/metric-din-933-zinc-plated/m4-x-12mm-hexagonal-set-screw-din-933-steel-zinc-plated/details
+    tiers:
+    - maximum: 25
+      minimum: 1
+      source_text: 0 - 25 £ 0.08
+      source_unit_price: '0.08'
+      source_vat_basis: exclusive
+      unit_price: '0.0960'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 50
+      minimum: 26
+      source_text: 26 -50 £ 0.06
+      source_unit_price: '0.06'
+      source_vat_basis: exclusive
+      unit_price: '0.0720'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 51
+      source_text: 51+ £ 0.04
+      source_unit_price: '0.04'
+      source_vat_basis: exclusive
+      unit_price: '0.0480'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.0960'
+    total_price_10: '0.9600'
+    total_price_100: '4.8000'
+    total_price_1000: '48.0000'
+    total_price_10000: '480.0000'
+    unit_price_1: '0.0960'
+    unit_price_10: '0.0960'
+    unit_price_100: '0.0480'
+    unit_price_1000: '0.0480'
+    unit_price_10000: '0.0480'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Source quantity band starts at zero; normalized minimum to one item
+  accu:
+    accepted_warnings: '["Accu displayed prices are rounded; derived totals use the
+      captured display precision", "Accu requires a quote from 400 units; prices beyond
+      that withheld", "Quantity 1000: no verified price/VAT band; price withheld",
+      "Quantity 10000: no verified price/VAT band; price withheld"]'
+    box_quantity: ''
+    captured_at: '2026-10-13T22:24:28.996981+00:00'
+    currency: GBP
+    description: Fully Threaded Hexagon Bolts are designed for use in heavy-duty fastening
+      applications, and feature a hexagonal head for use with a standard spanner.
+      As their name suggests, these fasteners are threaded all the way up to the head
+      of the bolt, making them ideal for installation into pre-threaded holes. Plain
+      Hexagon Bolts, with a reinforced unthreaded shaft section, are also available.
+      All Full Thread Hexagon Headed Bolts are precision rolled to achieve general
+      tolerances of +/-0.13mm. These components feature a full thread which runs the
+      entire length of the bolt's shaft, and are designed for use alongside Accu's
+      Hexagon Nuts ranges. Fully Threaded Hexagon Bolt Materials Components within
+      the Full Thread Hexagon Bolts range are available in an array of materials,
+      including High-Tensile Steel (8.8, 10.9 & 12.9), A2, A4 and A4-80 Stainless
+      Steel, BUMAX, Brass, Aluminium, Ceramic, Phosphor Bronze, Nylon, Polypropylene,
+      Polyvinylidene, Polycarbonate, Reny, Polyphenylene and PEEK.  Ensure your Metric
+      Full thread Hexagon Bolts stay secure with our advanced pre-applied thread-locking
+      patches. Whether you need AccuLock Threadlocker for essential fastening, Anu-Lok
+      180 for added grip, or Precote 80 for maximum performance, we have the right
+      solution. For a refined aesthetic, AccuBlack chemical blackening reduces glare
+      while enhancing the surface finish. Metric Fully Threaded Hexagon Bolts Metric
+      Full Thread Hexagon Headed Bolts manufactured according to DIN 933, and are
+      available in diameters ranging from M2 up to M36. Lengths of between 3mm and
+      200mm are also available as standard. Non-Standard sizes are available on request.
+      Imperial Fully Threaded Hexagon Bolts Imperial Full Thread Hexagon Headed Bolts
+      are available in a number of thread diameters, ranging from 1/4 inch up to No.
+      12, and lengths of between 1/4 inch and 12 inch. These components are manufactured
+      to ANSI B18.6.3. Additional sizes are also available on request.
+    html_sha256: 7676a9329fb509e9bb8401ecadfa6bb87f3ec6e2042477b5089045621e0b3e1b
+    name: M4 x 12mm Full Thread Hex Bolts (DIN 933) - Bright Zinc Plated High Tensile
+      Steel (8.8)
+    parsed_at: '2026-10-18T08:52:41.990213+00:00'
+    parser_version: accu-1.9-base-material
+    price_inheritance: ''
+    quote_minimum: '400'
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept rounded displayed prices, open-ended final advertised tiers,
+      and quotes required from 400 units; quote-only prices remain blank."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.02", "highPrice": "0.74",
+      "priceCurrency": "GBP", "offerCount": "8", "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/full-thread-hexagon-bolts/1008535-SEBF-M4-12-8-8-BZP",
+      "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type": "QuantitativeValue",
+      "value": 1, "unitCode": "ANN"}}}'
+    source_vat_basis: exclusive
+    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+      "statement": "accus prices are all ex vat", "confirmed_on": "2026-10-13"}'
+    specifications: '{"Accu Product Code (APC)": "SEBF-M4-12-8.8-BZP", "Thread Size":
+      "M4 (4 mm)", "Length (L)": "12 mm", "Socket Size (J)": "7 mm (Tolerance: +0/-0.22
+      mm)", "Material": "Steel - High Tensile (8.8)", "Finish": "Bright Zinc Plated",
+      "Drive Type": "Hex", "Full Thread": "Yes", "Head Length (H)": "2.8 mm", "Manufacturing
+      Standard": "DIN 933", "Material Family": "Steel", "System of Measurement": "Metric"}'
+    status: ok
+    stock_quantity: ''
+    stock_status: https://schema.org/InStock
+    supplier: accu
+    supplier_id: SEBF-M4-12-8.8-BZP
+    supplier_part_number: SEBF-M4-12-8.8-BZP
+    supplier_website: https://www.accu.co.uk/full-thread-hexagon-bolts/1008535-SEBF-M4-12-8-8-BZP
+    tiers:
+    - maximum: 1
+      minimum: 1
+      source_text: Buy 1 £0.74
+      source_unit_price: '0.74'
+      source_vat_basis: exclusive
+      unit_price: '0.8880'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 5
+      minimum: 2
+      source_text: Buy 2 £0.40 Save 45 %
+      source_unit_price: '0.40'
+      source_vat_basis: exclusive
+      unit_price: '0.4800'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 11
+      minimum: 6
+      source_text: Buy 6 £0.15 Save 79 %
+      source_unit_price: '0.15'
+      source_vat_basis: exclusive
+      unit_price: '0.1800'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 23
+      minimum: 12
+      source_text: Buy 12 £0.09 Save 87 %
+      source_unit_price: '0.09'
+      source_vat_basis: exclusive
+      unit_price: '0.1080'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 49
+      minimum: 24
+      source_text: Buy 24 £0.06 Save 91 %
+      source_unit_price: '0.06'
+      source_vat_basis: exclusive
+      unit_price: '0.0720'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 99
+      minimum: 50
+      source_text: Buy 50 £0.04 Save 94 %
+      source_unit_price: '0.04'
+      source_vat_basis: exclusive
+      unit_price: '0.0480'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 199
+      minimum: 100
+      source_text: Buy 100 £0.03 Save 95 %
+      source_unit_price: '0.03'
+      source_vat_basis: exclusive
+      unit_price: '0.0360'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 399
+      minimum: 200
+      source_text: Buy 200 £0.02 Save 97 %
+      source_unit_price: '0.02'
+      source_vat_basis: exclusive
+      unit_price: '0.0240'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.8880'
+    total_price_10: '1.8000'
+    total_price_100: '3.6000'
+    total_price_1000: ''
+    total_price_10000: ''
+    unit_price_1: '0.8880'
+    unit_price_10: '0.1800'
+    unit_price_100: '0.0360'
+    unit_price_1000: ''
+    unit_price_10000: ''
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Accu displayed prices are rounded; derived totals use the captured display precision
+    - Accu requires a quote from 400 units; prices beyond that withheld
+    - 'Quantity 1000: no verified price/VAT band; price withheld'
+    - 'Quantity 10000: no verified price/VAT band; price withheld'
+  dibolt:
+    accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-14T00:18:27.927040+00:00'
+    currency: GBP
+    html_sha256: 506063026a2ea8de12d215272aa26a70857e5c7a3f42be9f47d487d5ef35d767
+    name: M4 x 12mm Hexagon Head Set Screw Fully Threaded Self Colour Black Grade
+      8.8 DIN 933
+    packages: '[]'
+    parsed_at: '2026-10-18T09:03:15.760162+00:00'
+    parser_version: dibolt-1.3-missing-price-review
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept the precision of rounded displayed per-100 prices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M4 (4mm); Length (L): 12mm; Material: High Tensile
+      (Grade 8.8); Finish: Self Colour; Head Length (H): 3mm; Pitch: 0.7mm; Socket
+      Size (J): 7mm; Manufacturing Standard: 933; Material Specification: High Tensile
+      (Grade 8.8); Fully Threaded: Yes'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: dibolt
+    supplier_id: 20324.040.012
+    supplier_part_number: 20324.040.012
+    supplier_website: https://dibolt.co.uk/products/m4-x-12mm-hexagon-head-set-screw-fully-threaded-self-colour-black-grade-8-8-din-933
+    tiers:
+    - maximum: 999
+      minimum: 1
+      source_text: 1 - 999 £2.94 Per 100 Units
+      source_unit_price: '0.0294'
+      source_vat_basis: exclusive
+      unit_price: '0.035280'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 4999
+      minimum: 1000
+      source_text: 1,000 - 4,999 £2.79 Per 100 Units
+      source_unit_price: '0.0279'
+      source_vat_basis: exclusive
+      unit_price: '0.033480'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 5000
+      source_text: 5,000+ £2.65 Per 100 Units
+      source_unit_price: '0.0265'
+      source_vat_basis: exclusive
+      unit_price: '0.031800'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.035280'
+    total_price_10: '0.352800'
+    total_price_100: '3.528000'
+    total_price_1000: '33.480000'
+    total_price_10000: '318.000000'
+    unit_price_1: '0.035280'
+    unit_price_10: '0.035280'
+    unit_price_100: '0.035280'
+    unit_price_1000: '0.033480'
+    unit_price_10000: '0.031800'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Dibolt per-100 displayed prices are rounded; derived totals use captured display
+      precision
+  orbitalfasteners:
+    accepted_warnings: '[]'
+    box_quantity: '500'
+    captured_at: '2026-10-12T20:06:15.333080+00:00'
+    catalogue_page: '8'
+    currency: GBP
+    description: ''
+    html_sha256: d12e2bc13c14435f0c5a4f542a2428695c6658dc06dfe1e405b5e6263aee5dc6
+    name: M4 x 12 Hexagon Head Set Screws High Tensile Grade 8.8 Bright Zinc Plated,
+      DIN 933
+    parsed_at: '2026-10-18T08:49:35.914095+00:00'
+    parser_version: 1.2-review-policy
+    review_policy: ''
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: inclusive
+    status: ok
+    stock_as_of: 9th October 2026 10:01pm
+    stock_quantity: '14176'
+    supplier: orbitalfasteners
+    supplier_id: '1851010'
+    supplier_part_number: '1851010'
+    supplier_website: https://www.orbitalfasteners.co.uk/products/m4-x-12-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated
+    tiers:
+    - maximum: 499
+      minimum: 1
+      source_text: 1 - 499 £0.0254 Inc. VAT £2.54 Inc. VAT
+      source_unit_price: '0.0254'
+      source_vat_basis: inclusive
+      unit_price: '0.0254'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 2499
+      minimum: 500
+      source_text: 500 - 2499 £0.0142 Inc. VAT £1.42 Inc. VAT
+      source_unit_price: '0.0142'
+      source_vat_basis: inclusive
+      unit_price: '0.0142'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 8999
+      minimum: 2500
+      source_text: 2500 - 8999 £0.0127 Inc. VAT £1.27 Inc. VAT
+      source_unit_price: '0.0127'
+      source_vat_basis: inclusive
+      unit_price: '0.0127'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 9000
+      source_text: 9000 + £0.0113 Inc. VAT £1.13 Inc. VAT
+      source_unit_price: '0.0113'
+      source_vat_basis: inclusive
+      unit_price: '0.0113'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.0254'
+    total_price_10: '0.2540'
+    total_price_100: '2.5400'
+    total_price_1000: '14.2000'
+    total_price_10000: '113.0000'
+    unit_price_1: '0.0254'
+    unit_price_10: '0.0254'
+    unit_price_100: '0.0254'
+    unit_price_1000: '0.0142'
+    unit_price_10000: '0.0113'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings: []
 svg_details:
 - svg_b_125_lt_l_le_200_mm: ''
   svg_b_l_gt_200_mm: ''

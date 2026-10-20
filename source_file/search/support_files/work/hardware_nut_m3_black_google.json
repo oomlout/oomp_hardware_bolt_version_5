@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_nut_m3_black",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M3 black hexagon full nut steel",
+  "evidence_url": "https://www.google.com/search?q=M3+black+hexagon+full+nut+steel",
+  "reason": "Bolt World confirms the selected M3 hexagon full nut is Grade 8 steel, black passivated, right-hand metric thread with 0.50mm pitch, to DIN 934.",
+  "search_evidence": "The first Google search showed Bolt World's M3 Metric Hexagon Full Nut – Grade 8 Steel, Black Passivated, DIN 934. The opened product page confirms the exact selected M3 option, steel material, Grade 8, black passivated treatment, right-hand metric thread, 0.50 pitch, hexagon shape, and DIN 934. Stainless and nylon alternatives were not selected.",
+  "attempts": [
+    {
+      "term": "M3 black hexagon full nut steel",
+      "url": "https://www.google.com/search?q=M3+black+hexagon+full+nut+steel",
+      "completed": true,
+      "outcome": "Found Bolt World M3 Metric Hexagon Full Nut – Grade 8 Steel, Black Passivated, DIN 934 and opened the selected M3 variant for verification."
+    }
+  ],
+  "result_url": "https://boltworld.co.uk/products/m3-hexagon-steel-full-nuts-grade-8-metric-black-passivated-din-934/",
+  "product_name": "M3 Metric Hexagon Full Nut – Grade 8 Steel, Black Passivated, DIN 934",
+  "selected_variant": "M3 (3mm) — SKU 10008.030.000",
+  "material_evidence": "The selected product page states Material: Steel and Class/Grade: 8.",
+  "specification": "Thread Size: M3; Thread: Metric Thread; Thread Direction: Right; Thread Pitch: 0.50mm; Nut Shape: Hexagon full nut; Material: Grade 8 steel; Finish: Black Passivated; Manufacturing Standard: DIN 934; SKU: 10008.030.000.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

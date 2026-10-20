@@ -27,6 +27,46 @@ Search results attach under `search_data`, keyed by platform, when the OOMP ID
 matches a generated part. Running `action_make_all.py` regenerates those fields
 in the corresponding `parts/<id>/working.yaml` files.
 
+## Lightweight YAML catalogue
+
+`action_make_all.py`, `action_make_all_no_stl.py`, and `working.py` finish by
+updating the sibling `../oomp_hardware_bolt_version_5_only_yaml/` folder. Its
+layout is `parts/<part-id>/working.yaml` plus `parts/<part-id>/image.png`:
+the generated YAML is copied byte-for-byte, and the image fits within 256 × 256
+pixels, keeping its aspect ratio. Product renders are preferred, with other
+renders and legacy previews as fallbacks. CAD files, source data, navigation
+copies, and large images are excluded.
+
+Refresh just this export from existing generated parts (no model rebuild):
+
+```powershell
+python working_only_yaml.py
+```
+
+The exporter needs Python 3.10+ and Pillow (`python -m pip install "Pillow>=10,<13"`).
+It is self-contained: copy `working_only_yaml.py` into any other OOMP project
+with `parts/<part-id>/working.yaml`, or point this copy at that project:
+
+```powershell
+python working_only_yaml.py --project ../oomp_hardware_screw_version_5
+python working_only_yaml.py --project ../another_oomp_project --size 256
+```
+
+The default destination is always a sibling `<project-name>_only_yaml` folder,
+independent of the shell's current directory. `--output PATH` overrides it;
+repeat `--image relative/path.png` to customize the ordered image fallbacks.
+To integrate another project's build, call `working_only_yaml.main()` last.
+Both screw and bolt contain identical, independent copies of the exporter.
+
+Each export includes the whole generated catalogue, even after a filtered build.
+It updates changed files, removes retired parts, and leaves root files such as
+`.git` and `README.md` intact. `parts/` is owned by the exporter; unexpected files
+there cause an error. Missing or unusable images fail before changing the previous
+export. The folder is prepared locally; no Git commit or remote push is performed.
+Programmatic full builds accept `run_only_yaml=False` to skip the export, or
+`only_yaml_output=...` / `only_yaml_image_size=...` to customize it. Direct partial
+`working.run()` calls export only when passed `run_only_yaml=True`.
+
 ## Example Images
 
 ![M3 fully threaded hex screw, isometric](./parts/hardware_set_screw_m3_8_mm_length/three_d_model/render_low.png)

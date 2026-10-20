@@ -1,0 +1,40 @@
+oomp_id: hardware_screw_wood_pozidriv_net_coat_yellow_plated_m3_5_diameter_40_mm_length_screwtite_130fy
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: Screwtite 3.5 x 40 mm Pozidriv double countersunk carbon steel Net-Coat
+  Yellow-Plated 130FY
+evidence_url: https://www.google.com/search?q=Screwtite+3.5+x+40+mm+Pozidriv+double+countersunk+carbon+steel+Net-Coat+Yellow-Plated+130FY
+reason: Screwfix page confirms code 130FY and the exact Screwtite dimensions, PZ drive,
+  double-countersunk head, carbon steel and Net-Coat Yellow-Plated finish; no separate
+  DIN/ISO standard is encoded for this wood-screw ID.
+search_evidence: Google result linked to the Screwfix Screw-Tite 2 PZ Double-Countersunk
+  Thread Cutting Screws 3.5mm x 40mm 200 Pack page.
+attempts:
+- term: Screwtite 3.5 x 40 mm Pozidriv double countersunk carbon steel Net-Coat Yellow-Plated
+    130FY
+  url: https://www.google.com/search?q=Screwtite+3.5+x+40+mm+Pozidriv+double+countersunk+carbon+steel+Net-Coat+Yellow-Plated+130FY
+  completed: true
+  outcome: Opened Screwfix page; verified code 130FY, 3.5mm x 40mm, Screw-Tite 2 brand,
+    PZ drive, double self-countersunk head, partially threaded thread-cutting form,
+    carbon steel and Net-Coat Yellow-Plated finish.
+result_url: https://www.screwfix.com/p/screw-tite-2-pz-double-countersunk-thread-cutting-screws-3-5mm-x-40mm-200-pack/130fy
+product_name: Screw-Tite 2 PZ Double-Countersunk Thread Cutting Screws 3.5mm x 40mm
+  200 Pack (130FY)
+selected_variant: 3.5mm x 40mm, 200-pack, product code 130FY
+material_evidence: Specifications list Carbon Steel construction material.
+specification: 'Diameter: 3.5mm; Length: 40mm; Thread: Partially Threaded thread-cutting
+  screw with acute tri-lock threadform; Drive: PZ; Head: Double-Countersunk with underhead
+  ribs; Material: Carbon Steel; Finish: Net-Coat Yellow-Plated (zinc and yellow-passivated);
+  Code: 130FY'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+observed_code: 130FY
+checked_at: '2026-10-14T10:17:06.871421+00:00'
+validator_version: 1

@@ -1,0 +1,36 @@
+oomp_id: hardware_screw_countersunk_hex_head_black_m2_diameter_25_mm_length
+platform: google
+method: codex_builtin_browser
+status: unresolved
+search_for: M2 x 25 socket countersunk screw DIN 7991 black high tensile steel
+evidence_url: https://www.google.com/search?q=M2+x+25+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+reason: No exact eligible 25mm variant was verified. Bolt Base's inspected listing
+  has M2 self-colour 10.9 steel DIN 7991 variants only through 10mm, while other surfaced
+  results were different diameters or inaccessible eBay listings.
+search_evidence: The supplied Google search returned exact-category results but no
+  verified M2 x 25mm page. Bolt World result shown was M2 x 4mm; other results were
+  M4/M6 or Amazon M2.5. eBay was not opened because that platform is blocked for this
+  workflow.
+attempts:
+- term: M2 x 25 socket countersunk screw DIN 7991 black high tensile steel
+  url: https://www.google.com/search?q=M2+x+25+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+  completed: true
+  outcome: Search completed; no exact working seller page established within search
+    budget.
+result_url: https://boltbase.com/products/m2-self-colour-10-9-high-tensile-socket-countersunk-screws
+product_name: M2 Self Colour 10.9 High Tensile Socket Countersunk Screws
+selected_variant: The listing offers M2 thread with selectable lengths 5, 6, 8, and
+  10mm; no 25mm option.
+material_evidence: Bolt Base product description identifies High Tensile 10.9 Steel.
+specification: DIN 7991 / ISO 10642, self-colour black, socket countersunk; selected
+  exact 25mm variant unavailable on inspected listing.
+checks:
+  result_reached_from_search: true
+  selected_variant: false
+  dimensions: false
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:26:03.253571+00:00'
+validator_version: 1

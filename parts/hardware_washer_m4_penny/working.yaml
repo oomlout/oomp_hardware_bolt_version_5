@@ -83,6 +83,134 @@ oomlout_ai_roboclick_1:
             name_proper: Hardware Washer M4 Penny
             name_space: hardware washer m4 penny
             name_upper: HARDWARE WASHER M4 PENNY
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M4 steel penny washer DIN 9021
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M4+steel+penny+washer+DIN+9021
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M4 steel penny washer DIN 9021
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+steel+penny+washer+DIN+9021
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T11:35:23.546985+00:00'
+                    evidence_file: support_files/evidence/hardware_washer_m4_penny/google/42ef40b242e84ee6a14df9e82ebf6dc4.yaml
+                    evidence_url: https://www.google.com/search?q=M4+steel+penny+washer+DIN+9021
+                    material_evidence: Mild Steel
+                    product_name: Penny Washer, DIN 9021, Mild Steel, Zinc Plated
+                    reason: The Google search led to Grampian Fasteners' DIN 9021
+                        penny washer page. The page specifies mild steel and zinc
+                        finish and provides an M4 x 12 mm selectable product row (code
+                        0089.004.012), currently in stock. The standard table identifies
+                        DIN 9021 and explains its penny washer proportions.
+                    result_url: https://www.grampianfasteners.com/product/211
+                    search_evidence: "The refinement query returned Grampian Fasteners'\
+                        \ \u2018Penny Washer, DIN 9021, Mild Steel, Zinc Plated\u2019\
+                        \ product result with an M4 x 12mm variant. Opened the page\
+                        \ and verified the selected-size row and material/finish tables.\
+                        \ The initial results also contained stainless products and\
+                        \ a Bolt World page with conflicting OD text; those were rejected."
+                    search_for: M4 steel penny washer DIN 9021
+                    search_url: https://www.google.com/search?q=M4+steel+penny+washer+DIN+9021
+                    selected_variant: M4 x 12mm; product code 0089.004.012; in stock
+                    specification: 'Thread Size: M4; Form: Penny washer (DIN 9021);
+                        Selected variant: M4 x 12mm; Material grade: Mild Steel; Finish:
+                        Zinc; Standard: DIN 9021 (plain penny washer, external diameter
+                        = 3x internal diameter)'
+                    status: verified
+            supplier_data:
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T01:09:46.111114+00:00'
+                    currency: GBP
+                    html_sha256: 83e68863985be216cf280f8e028e0fc478b445ebc2949376d5600e0588ba28ff
+                    name: M4 Form G Flat Washer, Heavy Duty Penny Mudguard Repair
+                        Timber, Mild Steel BLUE Passivated Zinc Plated (4.3x12x1mm),
+                        DIN 9021
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:03:41.867189+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'For Use With Thread Size: M4 (4mm); External
+                        Diameter (OD): 12mm; Internal Diameter (ID): 4.3mm; Thickness
+                        (T): 1mm; Material: Mild Steel; Finish: BLUE Passivated Zinc
+                        Plated; Manufacturing Standard: DIN 9021; Material Specification:
+                        Mild Steel; Metric or Imperial?: Metric'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 51330.040.000
+                    supplier_part_number: 51330.040.000
+                    supplier_website: https://dibolt.co.uk/products/m4-form-g-flat-washer-heavy-duty-penny-mudguard-repair-timber-mild-steel-blue-passivated-zinc-plated-4-3x12x1mm-din-9021
+                    tiers:
+                    -   maximum: 999
+                        minimum: 1
+                        source_text: "1 - 999 \xA33.18 Per 100 Units"
+                        source_unit_price: '0.0318'
+                        source_vat_basis: exclusive
+                        unit_price: '0.038160'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_text: "1,000 - 4,999 \xA32.87 Per 100 Units"
+                        source_unit_price: '0.0287'
+                        source_vat_basis: exclusive
+                        unit_price: '0.034440'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 5000
+                        source_text: "5,000+ \xA32.55 Per 100 Units"
+                        source_unit_price: '0.0255'
+                        source_vat_basis: exclusive
+                        unit_price: '0.030600'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.038160'
+                    total_price_10: '0.381600'
+                    total_price_100: '3.816000'
+                    total_price_1000: '34.440000'
+                    total_price_10000: '306.000000'
+                    unit_price_1: '0.038160'
+                    unit_price_10: '0.038160'
+                    unit_price_100: '0.038160'
+                    unit_price_1000: '0.034440'
+                    unit_price_10000: '0.030600'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
             taxonomy_1: hardware
             taxonomy_10: ''
             taxonomy_11: ''
@@ -339,6 +467,142 @@ oomlout_ai_roboclick_2:
                         name_proper: Hardware Washer M4 Penny
                         name_space: hardware washer m4 penny
                         name_upper: HARDWARE WASHER M4 PENNY
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M4 steel penny washer DIN 9021
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M4+steel+penny+washer+DIN+9021
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M4 steel penny washer DIN 9021
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+steel+penny+washer+DIN+9021
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T11:35:23.546985+00:00'
+                                evidence_file: support_files/evidence/hardware_washer_m4_penny/google/42ef40b242e84ee6a14df9e82ebf6dc4.yaml
+                                evidence_url: https://www.google.com/search?q=M4+steel+penny+washer+DIN+9021
+                                material_evidence: Mild Steel
+                                product_name: Penny Washer, DIN 9021, Mild Steel,
+                                    Zinc Plated
+                                reason: The Google search led to Grampian Fasteners'
+                                    DIN 9021 penny washer page. The page specifies
+                                    mild steel and zinc finish and provides an M4
+                                    x 12 mm selectable product row (code 0089.004.012),
+                                    currently in stock. The standard table identifies
+                                    DIN 9021 and explains its penny washer proportions.
+                                result_url: https://www.grampianfasteners.com/product/211
+                                search_evidence: "The refinement query returned Grampian\
+                                    \ Fasteners' \u2018Penny Washer, DIN 9021, Mild\
+                                    \ Steel, Zinc Plated\u2019 product result with\
+                                    \ an M4 x 12mm variant. Opened the page and verified\
+                                    \ the selected-size row and material/finish tables.\
+                                    \ The initial results also contained stainless\
+                                    \ products and a Bolt World page with conflicting\
+                                    \ OD text; those were rejected."
+                                search_for: M4 steel penny washer DIN 9021
+                                search_url: https://www.google.com/search?q=M4+steel+penny+washer+DIN+9021
+                                selected_variant: M4 x 12mm; product code 0089.004.012;
+                                    in stock
+                                specification: 'Thread Size: M4; Form: Penny washer
+                                    (DIN 9021); Selected variant: M4 x 12mm; Material
+                                    grade: Mild Steel; Finish: Zinc; Standard: DIN
+                                    9021 (plain penny washer, external diameter =
+                                    3x internal diameter)'
+                                status: verified
+                        supplier_data:
+                            dibolt:
+                                accepted_warnings: '["Dibolt per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-14T01:09:46.111114+00:00'
+                                currency: GBP
+                                html_sha256: 83e68863985be216cf280f8e028e0fc478b445ebc2949376d5600e0588ba28ff
+                                name: M4 Form G Flat Washer, Heavy Duty Penny Mudguard
+                                    Repair Timber, Mild Steel BLUE Passivated Zinc
+                                    Plated (4.3x12x1mm), DIN 9021
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:03:41.867189+00:00'
+                                parser_version: dibolt-1.3-missing-price-review
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept the precision
+                                    of rounded displayed per-100 prices."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: 'For Use With Thread Size: M4 (4mm);
+                                    External Diameter (OD): 12mm; Internal Diameter
+                                    (ID): 4.3mm; Thickness (T): 1mm; Material: Mild
+                                    Steel; Finish: BLUE Passivated Zinc Plated; Manufacturing
+                                    Standard: DIN 9021; Material Specification: Mild
+                                    Steel; Metric or Imperial?: Metric'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: dibolt
+                                supplier_id: 51330.040.000
+                                supplier_part_number: 51330.040.000
+                                supplier_website: https://dibolt.co.uk/products/m4-form-g-flat-washer-heavy-duty-penny-mudguard-repair-timber-mild-steel-blue-passivated-zinc-plated-4-3x12x1mm-din-9021
+                                tiers:
+                                -   maximum: 999
+                                    minimum: 1
+                                    source_text: "1 - 999 \xA33.18 Per 100 Units"
+                                    source_unit_price: '0.0318'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.038160'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 4999
+                                    minimum: 1000
+                                    source_text: "1,000 - 4,999 \xA32.87 Per 100 Units"
+                                    source_unit_price: '0.0287'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.034440'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 5000
+                                    source_text: "5,000+ \xA32.55 Per 100 Units"
+                                    source_unit_price: '0.0255'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.030600'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.038160'
+                                total_price_10: '0.381600'
+                                total_price_100: '3.816000'
+                                total_price_1000: '34.440000'
+                                total_price_10000: '306.000000'
+                                unit_price_1: '0.038160'
+                                unit_price_10: '0.038160'
+                                unit_price_100: '0.038160'
+                                unit_price_1000: '0.034440'
+                                unit_price_10000: '0.030600'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Dibolt per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
                         taxonomy_1: hardware
                         taxonomy_10: ''
                         taxonomy_11: ''
@@ -580,6 +844,134 @@ oomlout_ai_roboclick_2:
                     search_and_replace: []
                 file_test: label_oomp.pdf
                 retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M4 steel penny washer DIN 9021
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M4+steel+penny+washer+DIN+9021
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M4 steel penny washer DIN 9021
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+steel+penny+washer+DIN+9021
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T11:35:23.546985+00:00'
+                    evidence_file: support_files/evidence/hardware_washer_m4_penny/google/42ef40b242e84ee6a14df9e82ebf6dc4.yaml
+                    evidence_url: https://www.google.com/search?q=M4+steel+penny+washer+DIN+9021
+                    material_evidence: Mild Steel
+                    product_name: Penny Washer, DIN 9021, Mild Steel, Zinc Plated
+                    reason: The Google search led to Grampian Fasteners' DIN 9021
+                        penny washer page. The page specifies mild steel and zinc
+                        finish and provides an M4 x 12 mm selectable product row (code
+                        0089.004.012), currently in stock. The standard table identifies
+                        DIN 9021 and explains its penny washer proportions.
+                    result_url: https://www.grampianfasteners.com/product/211
+                    search_evidence: "The refinement query returned Grampian Fasteners'\
+                        \ \u2018Penny Washer, DIN 9021, Mild Steel, Zinc Plated\u2019\
+                        \ product result with an M4 x 12mm variant. Opened the page\
+                        \ and verified the selected-size row and material/finish tables.\
+                        \ The initial results also contained stainless products and\
+                        \ a Bolt World page with conflicting OD text; those were rejected."
+                    search_for: M4 steel penny washer DIN 9021
+                    search_url: https://www.google.com/search?q=M4+steel+penny+washer+DIN+9021
+                    selected_variant: M4 x 12mm; product code 0089.004.012; in stock
+                    specification: 'Thread Size: M4; Form: Penny washer (DIN 9021);
+                        Selected variant: M4 x 12mm; Material grade: Mild Steel; Finish:
+                        Zinc; Standard: DIN 9021 (plain penny washer, external diameter
+                        = 3x internal diameter)'
+                    status: verified
+            supplier_data:
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T01:09:46.111114+00:00'
+                    currency: GBP
+                    html_sha256: 83e68863985be216cf280f8e028e0fc478b445ebc2949376d5600e0588ba28ff
+                    name: M4 Form G Flat Washer, Heavy Duty Penny Mudguard Repair
+                        Timber, Mild Steel BLUE Passivated Zinc Plated (4.3x12x1mm),
+                        DIN 9021
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:03:41.867189+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'For Use With Thread Size: M4 (4mm); External
+                        Diameter (OD): 12mm; Internal Diameter (ID): 4.3mm; Thickness
+                        (T): 1mm; Material: Mild Steel; Finish: BLUE Passivated Zinc
+                        Plated; Manufacturing Standard: DIN 9021; Material Specification:
+                        Mild Steel; Metric or Imperial?: Metric'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 51330.040.000
+                    supplier_part_number: 51330.040.000
+                    supplier_website: https://dibolt.co.uk/products/m4-form-g-flat-washer-heavy-duty-penny-mudguard-repair-timber-mild-steel-blue-passivated-zinc-plated-4-3x12x1mm-din-9021
+                    tiers:
+                    -   maximum: 999
+                        minimum: 1
+                        source_text: "1 - 999 \xA33.18 Per 100 Units"
+                        source_unit_price: '0.0318'
+                        source_vat_basis: exclusive
+                        unit_price: '0.038160'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_text: "1,000 - 4,999 \xA32.87 Per 100 Units"
+                        source_unit_price: '0.0287'
+                        source_vat_basis: exclusive
+                        unit_price: '0.034440'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 5000
+                        source_text: "5,000+ \xA32.55 Per 100 Units"
+                        source_unit_price: '0.0255'
+                        source_vat_basis: exclusive
+                        unit_price: '0.030600'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.038160'
+                    total_price_10: '0.381600'
+                    total_price_100: '3.816000'
+                    total_price_1000: '34.440000'
+                    total_price_10000: '306.000000'
+                    unit_price_1: '0.038160'
+                    unit_price_10: '0.038160'
+                    unit_price_100: '0.038160'
+                    unit_price_1000: '0.034440'
+                    unit_price_10000: '0.030600'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
             taxonomy_1: hardware
             taxonomy_10: ''
             taxonomy_11: ''
@@ -827,9 +1219,133 @@ oomlout_ai_roboclick_3:
     file_test: ''
 oomp_key: oomp_hardware_washer_m4_penny
 run_action: true
+run_only_yaml: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M4 steel penny washer DIN 9021
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M4+steel+penny+washer+DIN+9021
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M4 steel penny washer DIN 9021
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+steel+penny+washer+DIN+9021
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T11:35:23.546985+00:00'
+        evidence_file: support_files/evidence/hardware_washer_m4_penny/google/42ef40b242e84ee6a14df9e82ebf6dc4.yaml
+        evidence_url: https://www.google.com/search?q=M4+steel+penny+washer+DIN+9021
+        material_evidence: Mild Steel
+        product_name: Penny Washer, DIN 9021, Mild Steel, Zinc Plated
+        reason: The Google search led to Grampian Fasteners' DIN 9021 penny washer
+            page. The page specifies mild steel and zinc finish and provides an M4
+            x 12 mm selectable product row (code 0089.004.012), currently in stock.
+            The standard table identifies DIN 9021 and explains its penny washer proportions.
+        result_url: https://www.grampianfasteners.com/product/211
+        search_evidence: "The refinement query returned Grampian Fasteners' \u2018\
+            Penny Washer, DIN 9021, Mild Steel, Zinc Plated\u2019 product result with\
+            \ an M4 x 12mm variant. Opened the page and verified the selected-size\
+            \ row and material/finish tables. The initial results also contained stainless\
+            \ products and a Bolt World page with conflicting OD text; those were\
+            \ rejected."
+        search_for: M4 steel penny washer DIN 9021
+        search_url: https://www.google.com/search?q=M4+steel+penny+washer+DIN+9021
+        selected_variant: M4 x 12mm; product code 0089.004.012; in stock
+        specification: 'Thread Size: M4; Form: Penny washer (DIN 9021); Selected variant:
+            M4 x 12mm; Material grade: Mild Steel; Finish: Zinc; Standard: DIN 9021
+            (plain penny washer, external diameter = 3x internal diameter)'
+        status: verified
+supplier_data:
+    dibolt:
+        accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-14T01:09:46.111114+00:00'
+        currency: GBP
+        html_sha256: 83e68863985be216cf280f8e028e0fc478b445ebc2949376d5600e0588ba28ff
+        name: M4 Form G Flat Washer, Heavy Duty Penny Mudguard Repair Timber, Mild
+            Steel BLUE Passivated Zinc Plated (4.3x12x1mm), DIN 9021
+        packages: '[]'
+        parsed_at: '2026-10-18T09:03:41.867189+00:00'
+        parser_version: dibolt-1.3-missing-price-review
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept the precision of rounded displayed per-100 prices."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: 'For Use With Thread Size: M4 (4mm); External Diameter (OD):
+            12mm; Internal Diameter (ID): 4.3mm; Thickness (T): 1mm; Material: Mild
+            Steel; Finish: BLUE Passivated Zinc Plated; Manufacturing Standard: DIN
+            9021; Material Specification: Mild Steel; Metric or Imperial?: Metric'
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: dibolt
+        supplier_id: 51330.040.000
+        supplier_part_number: 51330.040.000
+        supplier_website: https://dibolt.co.uk/products/m4-form-g-flat-washer-heavy-duty-penny-mudguard-repair-timber-mild-steel-blue-passivated-zinc-plated-4-3x12x1mm-din-9021
+        tiers:
+        -   maximum: 999
+            minimum: 1
+            source_text: "1 - 999 \xA33.18 Per 100 Units"
+            source_unit_price: '0.0318'
+            source_vat_basis: exclusive
+            unit_price: '0.038160'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 4999
+            minimum: 1000
+            source_text: "1,000 - 4,999 \xA32.87 Per 100 Units"
+            source_unit_price: '0.0287'
+            source_vat_basis: exclusive
+            unit_price: '0.034440'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 5000
+            source_text: "5,000+ \xA32.55 Per 100 Units"
+            source_unit_price: '0.0255'
+            source_vat_basis: exclusive
+            unit_price: '0.030600'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.038160'
+        total_price_10: '0.381600'
+        total_price_100: '3.816000'
+        total_price_1000: '34.440000'
+        total_price_10000: '306.000000'
+        unit_price_1: '0.038160'
+        unit_price_10: '0.038160'
+        unit_price_100: '0.038160'
+        unit_price_1000: '0.034440'
+        unit_price_10000: '0.030600'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Dibolt per-100 displayed prices are rounded; derived totals use captured
+            display precision
 taxonomy_1: hardware
 taxonomy_10: ''
 taxonomy_11: ''
@@ -1108,46 +1624,3 @@ three_d_model_details:
     - top
     - bottom
 url_chat: ''
-search_data:
-  google:
-    search_for: M4 steel penny washer DIN 9021
-    search_url: https://www.google.com/search?q=M4+steel+penny+washer+DIN+9021
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  ebay:
-    search_for: M4 steel penny washer DIN 9021
-    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+steel+penny+washer+DIN+9021
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''
-  aliexpress:
-    search_for: M4 steel penny washer DIN 9021
-    search_url: https://www.aliexpress.com/wholesale?SearchText=M4+steel+penny+washer+DIN+9021
-    status: pending
-    reason: ''
-    result_url: ''
-    product_name: ''
-    selected_variant: ''
-    material_evidence: ''
-    specification: ''
-    search_evidence: ''
-    evidence_url: ''
-    checked_at: ''
-    evidence_file: ''

@@ -1,3 +1,71 @@
+search_data:
+  aliexpress:
+    checked_at: '2026-10-14T12:14:55.863930+00:00'
+    evidence_file: support_files/evidence/hardware_bolt_m4_40_mm_length/aliexpress/e3839dbf952b4a7c8200c5a38a77e343.yaml
+    evidence_url: https://www.aliexpress.com/wholesale?SearchText=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+    material_evidence: ''
+    product_name: ''
+    reason: After a one-minute pause, the Codex built-in browser site-safety policy
+      blocked the AliExpress URL before page content could be observed. No results
+      or product candidates were available. Stopped AliExpress lookup; no workaround
+      was attempted.
+    result_url: ''
+    search_evidence: Attempted the supplied AliExpress search URL in the Codex built-in
+      browser. The browser returned a site-safety block before acquiring authority
+      to observe the page; there was no accessible search page or result evidence.
+    search_for: M4 x 40 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+    selected_variant: ''
+    specification: ''
+    status: unresolved
+  ebay:
+    checked_at: '2026-10-14T08:13:57.374767+00:00'
+    evidence_file: support_files/evidence/hardware_bolt_m4_40_mm_length/ebay/7252747f473341398a6e4d5ac166a64e.yaml
+    evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+x+40+DIN+931+hex+bolt+part+threaded+high+tensile+steel
+    material_evidence: ''
+    product_name: ''
+    reason: Both completed eBay searches returned no eligible M4 x 40 partially threaded
+      DIN 931 steel bolt among the inspected results. The closest inspected listing,
+      M4 Hex Set Screw Bolt High Tensile 8.8 Zinc BZP, was selected at 50mm and explicitly
+      DIN 933 fully threaded; the listing's M4 x 40 option is still the wrong thread
+      form. This records only the outcome of these exact searches, not marketplace-wide
+      stock state.
+    result_url: ''
+    search_evidence: Initial query returned 2,000+ results dominated by stainless
+      socket screws, fully threaded set screws and unrelated sizes. One refinement
+      retained M4 x 40, DIN 931, hex bolt and part-thread intent. The inspected Fixaball
+      listing identified its selected length as 50mm and its description as fully
+      threaded DIN 933; its listed M4 x 40 option was also DIN 933. No eligible result
+      was found in the results reviewed.
+    search_for: M4 x 40 DIN 931 hex bolt part threaded high tensile steel
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+x+40+DIN+931+hex+bolt+part+threaded+high+tensile+steel
+    selected_variant: ''
+    specification: ''
+    status: assumed_non_stocked
+  google:
+    checked_at: '2026-10-14T08:13:02.566566+00:00'
+    evidence_file: support_files/evidence/hardware_bolt_m4_40_mm_length/google/f5102dc329cc412397940d80b62ea6df.yaml
+    evidence_url: https://www.google.com/search?q=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+    material_evidence: Steel; Class / Grade 8.8 (high tensile).
+    product_name: M4 x 40mm Hexagon Head Bolt – High Tensile Grade 8.8 Steel, Self
+      Colour Black, Partially Threaded, DIN 931
+    reason: Opened the Bolt World result directly from the exact Google search. Its
+      selected M4 and 40mm options and specifications identify a partially threaded
+      hexagon head bolt made from high tensile grade 8.8 steel, self colour/black,
+      to DIN 931.
+    result_url: https://boltworld.co.uk/products/m4-x-40mm-hexagon-head-bolts-part-threaded-self-colour-grade-8-8-din-931/
+    search_evidence: Google result titled M4 x 40mm Hexagon Head Bolt – Grade 8.8
+      DIN 931 Bolt World led to the opened product page. Other displayed near matches
+      included the wrong length, full thread, wrong diameter and stainless options;
+      they were not selected.
+    search_for: M4 x 40 hex head part threaded bolt DIN 931 steel
+    search_url: https://www.google.com/search?q=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+    selected_variant: Selected Thread Size M4 (4mm); selected Length 40mm (SKU 20303.004.040).
+    specification: 'Thread Diameter: M4; Total Length: 40mm (excluding head); Form:
+      Hexagon head, partially threaded; Thread Length (Minimum): 14mm; Material: Steel,
+      grade 8.8; Surface Treatment: Self Colour/Plain (product heading identifies
+      Self Colour Black); Standard: DIN 931.'
+    status: verified
 spec_iso_b_125_lt_l_le_200_mm: ''
 spec_iso_b_l_gt_200_mm: ''
 spec_iso_b_l_le_125_mm: '14'
@@ -12,6 +80,139 @@ spec_iso_nominal_diameter: M4
 spec_iso_s_max_mm: '7.00'
 spec_iso_s_min_mm: '6.78'
 spec_iso_thread_pitch_mm: '0.70'
+supplier_data:
+  dibolt:
+    accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-12T00:22:22.767179+00:00'
+    currency: GBP
+    html_sha256: 1c31ab69fcea35aa27a6b8dc8d7b1da11d30557674d6878371461174166697ff
+    name: M4 x 40mm Hexagon Head Bolts Part Threaded Self Colour Grade 8.8 DIN 931
+    packages: '[]'
+    parsed_at: '2026-10-18T09:02:18.951099+00:00'
+    parser_version: dibolt-1.3-missing-price-review
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept the precision of rounded displayed per-100 prices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M4 (4mm); Length (L): 40mm; Material: High Tensile
+      (Grade 8.8); Finish: Self Colour; Hexagon Length (Max) (H): 2.8mm; Thread Length
+      (Min): 14mm; Thread Pitch: 0.7mm; Socket Size (J): 7mm; Manufacturing Standard:
+      DIN 931; Material Specification: High Tensile (Grade 8.8); Metric or Imperial?:
+      Metric'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: dibolt
+    supplier_id: 20303.004.040
+    supplier_part_number: 20303.004.040
+    supplier_website: https://dibolt.co.uk/products/m4-x-40mm-hexagon-head-bolts-part-threaded-self-colour-grade-8-8-din-931
+    tiers:
+    - maximum: 499
+      minimum: 1
+      source_text: 1 - 499 £10.98 Per 100 Units
+      source_unit_price: '0.1098'
+      source_vat_basis: exclusive
+      unit_price: '0.131760'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 2499
+      minimum: 500
+      source_text: 500 - 2,499 £10.43 Per 100 Units
+      source_unit_price: '0.1043'
+      source_vat_basis: exclusive
+      unit_price: '0.125160'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 2500
+      source_text: 2,500+ £9.88 Per 100 Units
+      source_unit_price: '0.0988'
+      source_vat_basis: exclusive
+      unit_price: '0.118560'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.131760'
+    total_price_10: '1.317600'
+    total_price_100: '13.176000'
+    total_price_1000: '125.160000'
+    total_price_10000: '1185.600000'
+    unit_price_1: '0.131760'
+    unit_price_10: '0.131760'
+    unit_price_100: '0.131760'
+    unit_price_1000: '0.125160'
+    unit_price_10000: '0.118560'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Dibolt per-100 displayed prices are rounded; derived totals use captured display
+      precision
+  orbitalfasteners:
+    accepted_warnings: '[]'
+    box_quantity: '500'
+    captured_at: '2026-10-12T01:41:31.725346+00:00'
+    catalogue_page: ''
+    currency: GBP
+    description: ''
+    html_sha256: e579fd421d5803e512f44142dede0bcc449facf0a6d028361cc6bd288e517f45
+    name: M4 x 40 Hexagon Head Bolt High Tensile Grade 8.8, Bright Zinc Plated, DIN
+      931
+    parsed_at: '2026-10-18T08:49:22.084098+00:00'
+    parser_version: 1.2-review-policy
+    review_policy: ''
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: inclusive
+    status: ok
+    stock_as_of: 9th October 2026 10:01pm More Info
+    stock_quantity: '347'
+    supplier: orbitalfasteners
+    supplier_id: '1870000'
+    supplier_part_number: '1870000'
+    supplier_website: https://www.orbitalfasteners.co.uk/products/m4x40-88-hex-bolt-bzp-box-500-din-931
+    tiers:
+    - maximum: 499
+      minimum: 1
+      source_text: 1 - 499 £0.0661 Inc. VAT £6.61 Inc. VAT
+      source_unit_price: '0.0661'
+      source_vat_basis: inclusive
+      unit_price: '0.0661'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 2499
+      minimum: 500
+      source_text: 500 - 2499 £0.0414 Inc. VAT £4.14 Inc. VAT
+      source_unit_price: '0.0414'
+      source_vat_basis: inclusive
+      unit_price: '0.0414'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 2500
+      source_text: 2500 + £0.0372 Inc. VAT £3.72 Inc. VAT
+      source_unit_price: '0.0372'
+      source_vat_basis: inclusive
+      unit_price: '0.0372'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.0661'
+    total_price_10: '0.6610'
+    total_price_100: '6.6100'
+    total_price_1000: '41.4000'
+    total_price_10000: '372.0000'
+    unit_price_1: '0.0661'
+    unit_price_10: '0.0661'
+    unit_price_100: '0.0661'
+    unit_price_1000: '0.0414'
+    unit_price_10000: '0.0372'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings: []
 svg_details:
 - svg_b_125_lt_l_le_200_mm: ''
   svg_b_l_gt_200_mm: ''

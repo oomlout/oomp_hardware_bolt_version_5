@@ -1,0 +1,33 @@
+oomp_id: hardware_screw_socket_cap_hex_head_black_m4_diameter_8_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M4 x 8 socket cap screw DIN 912 black high tensile steel
+evidence_url: https://www.google.com/search?q=M4+x+8+socket+cap+screw+DIN+912+black+high+tensile+steel
+reason: Exact selected size and eligible steel product verified on supplier page.
+search_evidence: Google results included the matching Bolt Base product listing with
+  M4 x 8 mm, black self colour, 12.9 high tensile steel, DIN 912, 0.7 mm pitch, and
+  8 mm length excluding head.
+attempts:
+- term: M4 x 8 socket cap screw DIN 912 black high tensile steel
+  url: https://www.google.com/search?q=M4+x+8+socket+cap+screw+DIN+912+black+high+tensile+steel
+  completed: true
+  outcome: Exact M4 x 8 Bolt Base Amazon result opened and product details verified.
+result_url: https://www.amazon.co.uk/Bolt-Base-Tensile-Socket-screws/dp/B00SN3GMCQ
+product_name: (4mm) M4 x 8 Black 12.9 Grade High Tensile Hex Socket Cap Screws Self
+  Colour Allen Bolts DIN 912-5 Pack
+selected_variant: M4 x 8 mm, selected 5-pack
+material_evidence: Product page identifies Material Steel and Metal type Alloy Steel;
+  listing specifies 12.9 Grade High Tensile Steel.
+specification: M4 x 8 mm, 0.7 mm pitch, full thread; socket cap head; 3 mm Allen key
+  drive; black self colour; DIN 912; length excludes head.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:58:13.030695+00:00'
+validator_version: 1

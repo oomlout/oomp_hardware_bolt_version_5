@@ -1,0 +1,39 @@
+oomp_id: hardware_nut_m8_coupling
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M8 coupling connector nut steel
+evidence_url: https://www.google.com/search?q=M8+coupling+connector+nut+steel
+reason: The selected B&Q M8 hex coupling nut is carbon steel Class 6, BZP, DIN 6334
+  and uses the standard 3D length ratio.
+search_evidence: The supplied Google query returned B&Q’s 50 x M8 Hex Coupling Nuts.
+  The selected page confirms bolt size M8, hex nut type, steel material, zinc plating,
+  DIN 6334 and product code 5056826613462. It identifies carbon steel Class 6, bright
+  zinc plating, standard metric coarse pitch and length exactly three times nominal
+  diameter, which gives 24 mm for M8.
+attempts:
+- term: M8 coupling connector nut steel
+  url: https://www.google.com/search?q=M8+coupling+connector+nut+steel
+  completed: true
+  outcome: Inspected B&Q’s 50 x M8 Hex Coupling Nuts page. Selected bolt size M8,
+    hex form, carbon steel Class 6, BZP, DIN 6334; page states standard metric coarse
+    pitch and length exactly 3 times nominal diameter (24 mm for M8). Product code
+    5056826613462.
+result_url: https://www.diy.com/departments/50-x-m8-hex-coupling-nuts-threaded-rod-connector-studding-extension-bzp-steel-class-6-din-6334/5056826613462_BQ.prd
+product_name: 50 x M8 Hex Coupling Nuts - Threaded Rod Connector Studding Extension
+  - BZP Steel Class 6 - DIN 6334
+selected_variant: M8 selected; product code 5056826613462; pack of 50
+material_evidence: Product page identifies carbon steel and a minimum Class 6 strength
+  rating.
+specification: M8 metric coarse hex coupling nut; length 24 mm (DIN 6334 length is
+  3 times nominal diameter); carbon steel Class 6; bright zinc plated; DIN 6334.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:21:35.337662+00:00'
+validator_version: 1

@@ -1,0 +1,37 @@
+oomp_id: hardware_screw_socket_cap_hex_head_black_m5_diameter_8_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M5 x 8 socket cap screw DIN 912 black high tensile steel
+evidence_url: https://www.google.com/search?q=M5+x+8+socket+cap+screw+DIN+912+black+high+tensile+steel
+reason: Exact non-stainless carbon/alloy steel socket cap screw found and verified
+  on product page.
+search_evidence: Google result led to Bolt Base Amazon listing titled M5 x 8 Black
+  12.9 Grade High Tensile Hex Socket Cap Screws Self Colour Allen Bolts DIN 912, 20
+  pack.
+attempts:
+- term: M5 x 8 socket cap screw DIN 912 black high tensile steel
+  url: https://www.google.com/search?q=M5+x+8+socket+cap+screw+DIN+912+black+high+tensile+steel
+  completed: true
+  outcome: Exact listing inspected; product page verifies M5 x 8, DIN 912 socket cap,
+    full thread, 12.9 high tensile steel, black self-colour, 0.8 mm pitch, and 4 mm
+    Allen key size.
+result_url: https://www.amazon.co.uk/Bolt-Base-Tensile-Socket-screws/dp/B00SN3GDCK
+product_name: Bolt Base M5 x 8 Black 12.9 Grade High Tensile Hex Socket Cap Screws
+  Self Colour Allen Bolts DIN 912
+selected_variant: M5 x 8 mm; selected item package quantity 20
+material_evidence: Product page states 12.9 Grade High Tensile Steel; material field
+  Alloy Steel.
+specification: M5 thread, 0.8 mm pitch, 8 mm length excluding head, full thread, DIN
+  912 socket cap head, 8.5 mm head diameter, 5 mm head height, 4 mm Allen key size,
+  black self-colour.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T10:06:18.653128+00:00'
+validator_version: 1

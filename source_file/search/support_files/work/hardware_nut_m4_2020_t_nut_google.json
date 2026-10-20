@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_nut_m4_2020_t_nut",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M4 2020 extrusion T slot nut steel",
+  "evidence_url": "https://www.google.com/search?q=M4+2020+extrusion+T+slot+nut+steel",
+  "reason": "RS confirms an M4 Bosch Rexroth T-slot nut for a 20mm profile with 6mm groove, galvanised steel, and 11.5mm length.",
+  "search_evidence": "Google's result for Bosch Rexroth M4 T-Slot Nut, Connecting Component, Strut Profile 20 mm, Groove Size 6 mm was opened on RS. The page lists RS stock number 466-7281 and manufacturer part number 3842523135. Its specifications state connector type T-Slot Nut, compatible groove size 6mm, compatible strut profile 20mm, thread size M4, material Galvanised Steel and length 11.5mm.",
+  "attempts": [
+    {
+      "term": "M4 2020 extrusion T slot nut steel",
+      "url": "https://www.google.com/search?q=M4+2020+extrusion+T+slot+nut+steel",
+      "completed": true,
+      "outcome": "Found and opened RS/Bosch Rexroth M4 T-slot nut for 20mm strut profile, 6mm groove; page confirms galvanised steel and 11.5mm length."
+    }
+  ],
+  "result_url": "https://uk.rs-online.com/web/p/connecting-components/4667281",
+  "product_name": "Bosch Rexroth M4 T-Slot Nut, Connecting Component, Strut Profile 20 mm, Groove Size 6 mm",
+  "selected_variant": "Fixed Bosch Rexroth part 3842523135; M4 thread, 2020 series 20mm strut profile, 6mm groove",
+  "material_evidence": "RS specifications state Material: Galvanised Steel.",
+  "specification": "Thread Size: M4; Compatible Strut Profile: 2020 series 20mm; Compatible Groove Size: 6mm; Length: 11.5mm; Form: T-slot nut; Material: Galvanised Steel; Finish: Galvanised; Manufacturer Part No.: 3842523135; RS Stock No.: 466-7281.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

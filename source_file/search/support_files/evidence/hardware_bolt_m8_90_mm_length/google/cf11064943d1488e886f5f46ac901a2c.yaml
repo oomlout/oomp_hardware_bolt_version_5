@@ -1,0 +1,38 @@
+oomp_id: hardware_bolt_m8_90_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M8 x 90 hex head part threaded bolt DIN 931 steel
+evidence_url: https://www.google.com/search?q=M8+x+90+hex+head+part+threaded+bolt+DIN+931+steel
+reason: The supplied Google term returned the exact Vital Parts M8 x 90mm DIN 931
+  part-threaded bolt; its opened product specification confirms the exact selected
+  item and eligible material.
+search_evidence: Opened the Vital Parts result reached from the supplied Google search.
+  Product page gives product code HH931-M8-90-88-BZP and title M8 x 90mm Hex Bolt
+  - Part Threaded (DIN 931) | 8.8 Steel BZP. Product Specification lists Thread Size
+  M8, Pitch 1.25mm, Length 90mm, Threaded Length 22mm, Material 8.8 Steel BZP, Across
+  Flats 13mm, Head Style Hex Head, and Standard DIN 931.
+attempts:
+- term: M8 x 90 hex head part threaded bolt DIN 931 steel
+  url: https://www.google.com/search?q=M8+x+90+hex+head+part+threaded+bolt+DIN+931+steel
+  completed: true
+  outcome: Exact Vital Parts M8 x 90mm 8.8 Steel BZP product opened and selected dimensions,
+    part-threaded form, material, finish, and DIN 931 standard verified.
+result_url: https://www.vital-parts.co.uk/hex-head-bolts-din-931/9334-hh931-m8-90-88-bzp
+product_name: M8 x 90mm Hex Bolt - Part Threaded (DIN 931) | 8.8 Steel BZP
+selected_variant: Product code HH931-M8-90-88-BZP; selected M8 x 90mm product, 8.8
+  Steel BZP.
+material_evidence: 'Vital Parts Product Specification states Material: 8.8 Steel BZP.'
+specification: 'Thread Size: M8; Length: 90mm; Threaded Length: 22mm; hex head; part
+  threaded; Material: 8.8 Steel; Finish: Bright Zinc Plated; Standard: DIN 931; Pitch:
+  1.25mm; Across Flats: 13mm; Head Height: 5.5mm.'
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T08:42:28.795641+00:00'
+validator_version: 1

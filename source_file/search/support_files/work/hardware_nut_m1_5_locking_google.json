@@ -1,0 +1,39 @@
+{
+  "oomp_id": "hardware_nut_m1_5_locking",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "assumed_non_stocked",
+  "search_for": "M1.5 DIN 985 steel nyloc nut",
+  "evidence_url": "https://www.google.com/search?q=M1.5+DIN+985+steel+nyloc+nut",
+  "reason": "Original exact search for an M1.5 nylon insert locking nut in steel showed no eligible M1.5 steel product; the exact small nut results were stainless, and steel lock nuts shown were other sizes. The completed DIN 985 refinement showed the smallest exact Accu nylon locking nut at M1.6 stainless, while the steel options shown were M5 or larger. No eligible M1.5 non-stainless steel locking nut appeared in either completed search.",
+  "search_evidence": "First completed Google search: https://www.google.com/search?q=M1.5+nylon+insert+locking+nut+steel. Exact micro-nut result from Amazon was explicitly stainless steel. Other displayed nylon lock nuts were M5, M14, M16 or larger; Shop4Fasteners' M1-M3.5 micro nuts are A2 stainless. Second completed Google search: https://www.google.com/search?q=M1.5+DIN+985+steel+nyloc+nut. Accu's smallest exact displayed DIN 985 option was M1.6 A2 stainless, and its range page states M1.6 to M48. Steel examples were M5 and larger. No eligible M1.5 product.",
+  "attempts": [
+    {
+      "term": "M1.5 nylon insert locking nut steel",
+      "url": "https://www.google.com/search?q=M1.5+nylon+insert+locking+nut+steel",
+      "completed": true,
+      "outcome": "No eligible M1.5 steel locking nut; exact micro-nut result was stainless and steel lock nuts shown were larger sizes."
+    },
+    {
+      "term": "M1.5 DIN 985 steel nyloc nut",
+      "url": "https://www.google.com/search?q=M1.5+DIN+985+steel+nyloc+nut",
+      "completed": true,
+      "outcome": "No M1.5 steel DIN 985 option; smallest exact Accu option shown was M1.6 stainless and steel results were M5 or larger."
+    }
+  ],
+  "no_eligible_product": true,
+  "result_url": "",
+  "product_name": "",
+  "selected_variant": "",
+  "material_evidence": "",
+  "specification": "",
+  "checks": {
+    "result_reached_from_search": false,
+    "selected_variant": false,
+    "dimensions": false,
+    "form": false,
+    "material": false,
+    "finish": false,
+    "standard": false
+  }
+}

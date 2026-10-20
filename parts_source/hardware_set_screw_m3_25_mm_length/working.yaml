@@ -1,3 +1,50 @@
+search_data:
+  aliexpress:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M3 x 25 hex head fully threaded set screw DIN 933 steel
+    search_url: https://www.aliexpress.com/wholesale?SearchText=M3+x+25+hex+head+fully+threaded+set+screw+DIN+933+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  ebay:
+    checked_at: ''
+    evidence_file: ''
+    evidence_url: ''
+    material_evidence: ''
+    product_name: ''
+    reason: ''
+    result_url: ''
+    search_evidence: ''
+    search_for: M3 x 25 hex head fully threaded set screw DIN 933 steel
+    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M3+x+25+hex+head+fully+threaded+set+screw+DIN+933+steel
+    selected_variant: ''
+    specification: ''
+    status: pending
+  google:
+    checked_at: '2026-10-14T10:33:34.541169+00:00'
+    evidence_file: support_files/evidence/hardware_set_screw_m3_25_mm_length/google/683a735f707b4f02a8f36d7db5e0d29f.yaml
+    evidence_url: https://www.google.com/search?q=M3+x+25+hex+head+fully+threaded+set+screw+DIN+933+steel
+    material_evidence: 'Product Specification identifies Material: 8.8 Steel BZP.'
+    product_name: M3 x 25mm Set Screw - Hex Head (DIN 933) | 8.8 Steel BZP
+    reason: Vital Parts page confirms M3 x 25, hex head, fully threaded form, 8.8
+      steel, bright zinc plated finish and DIN 933.
+    result_url: https://www.vital-parts.co.uk/hex-set-screws-din-933/9952-hh933-m3-25-88-bzp
+    search_evidence: Google result linked to Vital Parts M3 x 25mm Set Screw - Hex
+      Head (DIN 933) | 8.8 Steel BZP.
+    search_for: M3 x 25 hex head fully threaded set screw DIN 933 steel
+    search_url: https://www.google.com/search?q=M3+x+25+hex+head+fully+threaded+set+screw+DIN+933+steel
+    selected_variant: M3 x 25mm, 0.50mm pitch, 8.8 steel BZP
+    specification: 'Diameter: M3; Length: 25mm; Thread: fully threaded, 0.50mm pitch;
+      Drive: external hexagon; Head: hex head, 5.5mm across flats, 2.10mm height;
+      Material: 8.8 steel; Finish: bright zinc plated; Standard: DIN 933'
+    status: verified
 spec_iso_b_125_lt_l_le_200_mm: ''
 spec_iso_b_l_gt_200_mm: ''
 spec_iso_b_l_le_125_mm: '12'
@@ -12,6 +59,147 @@ spec_iso_nominal_diameter: M3
 spec_iso_s_max_mm: '5.50'
 spec_iso_s_min_mm: '5.32'
 spec_iso_thread_pitch_mm: '0.50'
+supplier_data:
+  dibolt:
+    accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived totals
+      use captured display precision"]'
+    captured_at: '2026-10-14T00:15:38.066596+00:00'
+    currency: GBP
+    html_sha256: e507b106138985f189ae248bab9296803fea7f7c3a1baef38099647ad98b6424
+    name: M3 x 25mm Hexagon Head Set Screw Fully Threaded Self Colour Black Grade
+      8.8 DIN 933
+    packages: '[]'
+    parsed_at: '2026-10-18T09:03:14.270215+00:00'
+    parser_version: dibolt-1.3-missing-price-review
+    review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+      "statement": "Accept the precision of rounded displayed per-100 prices."}'
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: exclusive
+    specifications: 'Thread Size: M3 (3mm); Length (L): 25mm; Material: High Tensile
+      (Grade 8.8); Finish: Self Colour; Head Length (H): 2.12mm; Pitch: 0.5mm; Socket
+      Size (J): 5.5mm; Manufacturing Standard: 933; Material Specification: High Tensile
+      (Grade 8.8); Fully Threaded: Yes'
+    status: ok
+    stock_quantity: ''
+    stock_status: ''
+    supplier: dibolt
+    supplier_id: 20324.030.025
+    supplier_part_number: 20324.030.025
+    supplier_website: https://dibolt.co.uk/products/m3-x-25mm-hexagon-head-set-screw-fully-threaded-self-colour-black-grade-8-8-din-933
+    tiers:
+    - maximum: 499
+      minimum: 1
+      source_text: 1 - 499 £6.48 Per 100 Units
+      source_unit_price: '0.0648'
+      source_vat_basis: exclusive
+      unit_price: '0.077760'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 2499
+      minimum: 500
+      source_text: 500 - 2,499 £6.16 Per 100 Units
+      source_unit_price: '0.0616'
+      source_vat_basis: exclusive
+      unit_price: '0.073920'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 2500
+      source_text: 2,500+ £5.83 Per 100 Units
+      source_unit_price: '0.0583'
+      source_vat_basis: exclusive
+      unit_price: '0.069960'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.077760'
+    total_price_10: '0.777600'
+    total_price_100: '7.776000'
+    total_price_1000: '73.920000'
+    total_price_10000: '699.600000'
+    unit_price_1: '0.077760'
+    unit_price_10: '0.077760'
+    unit_price_100: '0.077760'
+    unit_price_1000: '0.073920'
+    unit_price_10000: '0.069960'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings:
+    - Dibolt per-100 displayed prices are rounded; derived totals use captured display
+      precision
+  orbitalfasteners:
+    accepted_warnings: '[]'
+    box_quantity: '500'
+    captured_at: '2026-10-12T20:03:14.661323+00:00'
+    catalogue_page: '8'
+    currency: GBP
+    description: ''
+    html_sha256: c5a95f6fc2898cdfdbc32b6d966d62161658d521289429ddcb0919103c726424
+    name: M3 x 25 Hexagon Head Set Screws High Tensile Grade 8.8 Bright Zinc Plated,
+      DIN 933
+    parsed_at: '2026-10-18T08:49:35.659122+00:00'
+    parser_version: 1.2-review-policy
+    review_policy: ''
+    review_warnings: '[]'
+    selected_by_current_filter: true
+    source_vat_basis: inclusive
+    status: ok
+    stock_as_of: 9th October 2026 10:01pm
+    stock_quantity: ''
+    supplier: orbitalfasteners
+    supplier_id: '1850850'
+    supplier_part_number: '1850850'
+    supplier_website: https://www.orbitalfasteners.co.uk/products/m3-x-25-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated-din-933
+    tiers:
+    - maximum: 499
+      minimum: 1
+      source_text: 1 - 499 £0.0481 Inc. VAT £4.81 Inc. VAT
+      source_unit_price: '0.0481'
+      source_vat_basis: inclusive
+      unit_price: '0.0481'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 2499
+      minimum: 500
+      source_text: 500 - 2499 £0.0268 Inc. VAT £2.68 Inc. VAT
+      source_unit_price: '0.0268'
+      source_vat_basis: inclusive
+      unit_price: '0.0268'
+      valid: true
+      vat_basis: inclusive
+    - maximum: 5999
+      minimum: 2500
+      source_text: 2500 - 5999 £0.024 Inc. VAT £2.40 Inc. VAT
+      source_unit_price: '0.024'
+      source_vat_basis: inclusive
+      unit_price: '0.024'
+      valid: true
+      vat_basis: inclusive
+    - maximum: null
+      minimum: 6000
+      source_text: 6000 + £0.0214 Inc. VAT £2.14 Inc. VAT
+      source_unit_price: '0.0214'
+      source_vat_basis: inclusive
+      unit_price: '0.0214'
+      valid: true
+      vat_basis: inclusive
+    total_price_1: '0.0481'
+    total_price_10: '0.4810'
+    total_price_100: '4.8100'
+    total_price_1000: '26.8000'
+    total_price_10000: '214.0000'
+    unit_price_1: '0.0481'
+    unit_price_10: '0.0481'
+    unit_price_100: '0.0481'
+    unit_price_1000: '0.0268'
+    unit_price_10000: '0.0214'
+    vat_basis: inclusive
+    vat_rate: '0.20'
+    vat_rate_checked: '2026-10-11'
+    vat_rate_source: https://www.gov.uk/vat-rates
+    warnings: []
 svg_details:
 - svg_b_125_lt_l_le_200_mm: ''
   svg_b_l_gt_200_mm: ''

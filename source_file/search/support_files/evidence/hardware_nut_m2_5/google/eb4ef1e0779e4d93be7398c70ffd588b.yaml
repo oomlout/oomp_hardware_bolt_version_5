@@ -1,0 +1,34 @@
+oomp_id: hardware_nut_m2_5
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M2.5 hexagon full nut steel
+evidence_url: https://www.google.com/search?q=M2.5+hexagon+full+nut+steel
+reason: Exact M2.5 full hex nut specification confirmed on the supplier page.
+search_evidence: The Google search returned an Orbital Fasteners M2.5 Hexagon Steel
+  Full Nut Class 8 Bright Zinc Plated, DIN 934 result. The opened supplier page identifies
+  the exact M2.5 product, class 8 steel, bright zinc plated finish, full hex nut form
+  and DIN 934 standard.
+attempts:
+- term: M2.5 hexagon full nut steel
+  url: https://www.google.com/search?q=M2.5+hexagon+full+nut+steel
+  completed: true
+  outcome: Found and opened the exact Orbital Fasteners M2.5 class 8 steel DIN 934
+    full nut in bright zinc plated finish.
+result_url: https://www.orbitalfasteners.co.uk/products/m2-5-steel-hexagon-full-nut-grade-8-bright-zinc-plated
+product_name: M2.5 Hexagon Steel Full Nut Class 8 Bright Zinc Plated, DIN 934
+selected_variant: M2.5 full hexagon nut, class 8 steel, bright zinc plated
+material_evidence: Supplier page title identifies steel, class 8; page description
+  says standard steel Hexagon Full Nuts, class 8. Bright Zinc Plated (DIN 934).
+specification: Thread size M2.5; full hexagon nut; DIN 934; class 8 steel; bright
+  zinc plated. SKU 1770020.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T08:49:31.944315+00:00'
+validator_version: 1

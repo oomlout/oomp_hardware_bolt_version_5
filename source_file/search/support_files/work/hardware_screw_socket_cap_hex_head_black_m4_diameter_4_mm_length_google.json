@@ -1,0 +1,38 @@
+{
+  "oomp_id": "hardware_screw_socket_cap_hex_head_black_m4_diameter_4_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M4 x 4 socket cap screw DIN 912 black high tensile steel",
+  "evidence_url": "https://www.google.com/search?q=M4+x+4+socket+cap+screw+DIN+912+black+high+tensile+steel",
+  "reason": "The supplied search term and one exact-phrase refinement returned an eligible exact-size product.",
+  "search_evidence": "Google's refined results included Fusion Fixings M4 x 4mm Socket Cap Head Screw, Self Colour, Grade 12.9 high tensile steel, DIN 912.",
+  "attempts": [
+    {
+      "term": "M4 x 4 socket cap screw DIN 912 black high tensile steel",
+      "url": "https://www.google.com/search?q=M4+x+4+socket+cap+screw+DIN+912+black+high+tensile+steel",
+      "completed": true,
+      "outcome": "Results included stainless and mismatched lengths; refined once."
+    },
+    {
+      "term": "\"M4 x 4mm\" socket cap screw 12.9 steel DIN 912",
+      "url": "https://www.google.com/search?q=%22M4+x+4mm%22+socket+cap+screw+12.9+steel+DIN+912",
+      "completed": true,
+      "outcome": "Opened exact Fusion Fixings listing and verified full specifications."
+    }
+  ],
+  "result_url": "https://www.fusionfixings.co.uk/products/m4-x-4mm-socket-cap-head-screw-self-colour-din-912",
+  "product_name": "M4 x 4mm Socket Cap Head Screw, Self Colour, Grade 12.9 high tensile steel, DIN 912",
+  "selected_variant": "M4 x 4 mm, selected quantity 1",
+  "material_evidence": "Technical Specification states Material: Grade 12.9 high tensile steel.",
+  "specification": "M4 x 4 mm, 0.70 mm pitch, fully threaded; socket cap head; internal hex drive size 3 mm; self-colour finish; DIN 912.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

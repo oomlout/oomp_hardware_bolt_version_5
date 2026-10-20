@@ -1,0 +1,35 @@
+oomp_id: hardware_screw_socket_cap_hex_head_black_m6_diameter_40_mm_length
+platform: google
+method: codex_builtin_browser
+status: verified
+search_for: M6 x 40 socket cap screw DIN 912 black high tensile steel
+evidence_url: https://www.google.com/search?q=M6+x+40+socket+cap+screw+DIN+912+black+high+tensile+steel
+reason: The product page identifies an exact M6 x 40 DIN 912 socket cap screw in non-stainless
+  high tensile steel, black self-colour.
+search_evidence: Google returned the Amazon Bolt Base result titled M6 x 40 Black
+  12.9 Grade High Tensile Hex Socket Cap Screws Self Colour Allen Bolts DIN 912.
+attempts:
+- term: M6 x 40 socket cap screw DIN 912 black high tensile steel
+  url: https://www.google.com/search?q=M6+x+40+socket+cap+screw+DIN+912+black+high+tensile+steel
+  completed: true
+  outcome: Opened the exact Amazon product page; it confirms M6 x 40, DIN 912, grade
+    12.9 high tensile steel, black self-colour, partial thread and 5mm Allen drive.
+result_url: https://www.amazon.co.uk/Bolt-Base-Tensile-Socket-screws/dp/B00SN39SAE
+product_name: (6mm) M6 x 40 Black 12.9 Grade High Tensile Hex Socket Cap Screws Self
+  Colour Allen Bolts DIN 912-2 Pack
+selected_variant: M6 x 40mm, 2-pack
+material_evidence: Page states 12.9 Grade High Tensile Steel; structured fields list
+  Material Steel and Metal type Alloy Steel.
+specification: M6 x 40mm, 1.0mm pitch, length excludes head; partial thread approximately
+  30mm; socket cap/DIN 912; 10mm head diameter, 6mm head height, 5mm Allen key; black
+  self-colour.
+checks:
+  result_reached_from_search: true
+  selected_variant: true
+  dimensions: true
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T10:09:21.173987+00:00'
+validator_version: 1

@@ -1,0 +1,37 @@
+oomp_id: hardware_screw_countersunk_hex_head_black_m2_diameter_16_mm_length
+platform: google
+method: codex_builtin_browser
+status: unresolved
+search_for: M2 x 16 socket countersunk screw DIN 7991 black high tensile steel
+evidence_url: https://www.google.com/search?q=M2+x+16+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+reason: The inspected Fixaball page lists M2 x 16mm in its length table, but its selectable
+  length variants stop at 12mm, so the exact 16mm variant could not be selected or
+  verified as an orderable product.
+search_evidence: Google results included Fixaball's M2 high tensile Grade 10.9 DIN
+  7991 hex socket countersunk listing, described as fully threaded and offering all
+  M2 lengths. Opened the listing to verify variant controls and specifications.
+attempts:
+- term: M2 x 16 socket countersunk screw DIN 7991 black high tensile steel
+  url: https://www.google.com/search?q=M2+x+16+socket+countersunk+screw+DIN+7991+black+high+tensile+steel
+  completed: true
+  outcome: Inspected Fixaball listing; 16mm appears in reference table but is absent
+    from selectable length choices.
+result_url: https://www.fixaball.co.uk/products/m2-socket-screw-countersunk-high-tensile-10-9-din-7991
+product_name: M2 Socket Screw Countersunk High Tensile 10.9 DIN7991
+selected_variant: Page initially selected 5mm; selectable lengths shown were 5, 6,
+  8, 10, and 12mm. The reference table lists 16mm, but no 16mm selectable option was
+  present.
+material_evidence: Product heading and description identify High Tensile Steel, Grade
+  10.9.
+specification: Hex / Allen socket, countersunk / flat, DIN 7991, fully threaded. Reference
+  table identifies M2-0.40x16mm as a length, but it was not selectable.
+checks:
+  result_reached_from_search: true
+  selected_variant: false
+  dimensions: false
+  form: true
+  material: true
+  finish: true
+  standard: true
+checked_at: '2026-10-14T09:24:51.679490+00:00'
+validator_version: 1

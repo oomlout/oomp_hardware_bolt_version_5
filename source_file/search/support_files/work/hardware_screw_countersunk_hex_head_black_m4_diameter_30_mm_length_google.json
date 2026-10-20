@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_screw_countersunk_hex_head_black_m4_diameter_30_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M4 x 30 socket countersunk screw DIN 7991 black high tensile steel",
+  "evidence_url": "https://www.google.com/search?q=M4+x+30+socket+countersunk+screw+DIN+7991+black+high+tensile+steel",
+  "reason": "The exact Google search returned this Amazon Bolt Base listing. The selected M4 x 30 screw is a hex socket countersunk screw to DIN 7991, made from 10.9 high tensile steel with black self-colour finish; the page specifies M4 x 0.7 pitch and 30mm length including the head.",
+  "search_evidence": "Google displayed the Amazon Bolt Base M4 x 30 result with 10.9 high tensile steel, black self-colour, socket countersunk DIN 7991, M4 x 0.7 pitch and 30mm length including head. The black stainless steel result was rejected; zinc plated results were also visible but did not match the black finish.",
+  "attempts": [
+    {
+      "term": "M4 x 30 socket countersunk screw DIN 7991 black high tensile steel",
+      "url": "https://www.google.com/search?q=M4+x+30+socket+countersunk+screw+DIN+7991+black+high+tensile+steel",
+      "completed": true,
+      "outcome": "Opened the Amazon Bolt Base result and verified the selected M4 x 30 listing details."
+    }
+  ],
+  "result_url": "https://www.amazon.co.uk/Bolt-Base-Tensile-Socket-Countersunk/dp/B00SN3HM66",
+  "product_name": "(4mm) M4 x 30 Black 10.9 Grade High Tensile Hex Socket Countersunk Screws Self Colour Allen Bolts DIN 7991-5 Pack",
+  "selected_variant": "Single fixed product size M4 x 30mm; selected product is sold as a 5-pack.",
+  "material_evidence": "10.9 Grade High Tensile Steel",
+  "specification": "Thread Size: M4 (4mm); Thread Pitch: 0.7mm; Length: 30mm including head; Head: Socket Countersunk; Drive: Hex socket/Allen; Material: 10.9 Grade High Tensile Steel; Finish: Black (Self Colour); Standard: DIN 7991; Description notes screw may not be threaded full length.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

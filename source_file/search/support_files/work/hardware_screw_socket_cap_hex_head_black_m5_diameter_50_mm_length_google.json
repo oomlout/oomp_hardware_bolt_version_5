@@ -1,0 +1,32 @@
+{
+  "oomp_id": "hardware_screw_socket_cap_hex_head_black_m5_diameter_50_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "verified",
+  "search_for": "M5 x 50 socket cap screw DIN 912 black high tensile steel",
+  "evidence_url": "https://www.google.com/search?q=M5+x+50+socket+cap+screw+DIN+912+black+high+tensile+steel",
+  "reason": "Opened and verified the exact M5 x 50 high tensile DIN 912 self-colour listing.",
+  "search_evidence": "Google result led to Orbital Fasteners SKU 1891260.",
+  "attempts": [
+    {
+      "term": "M5 x 50 socket cap screw DIN 912 black high tensile steel",
+      "url": "https://www.google.com/search?q=M5+x+50+socket+cap+screw+DIN+912+black+high+tensile+steel",
+      "completed": true,
+      "outcome": "Inspected Orbital Fasteners M5 x 50 product page, SKU 1891260. Product title specifies high tensile Grade 12.9, self colour and DIN 912; product information states ISO metric socket head cap screw and approximately 22 mm thread length. Search result summary independently identified it as steel and DIN 912."
+    }
+  ],
+  "result_url": "https://www.orbitalfasteners.co.uk/products/m5-x-50-socket-cap-screw-high-tensile-grade-12-9-self-colour",
+  "product_name": "M5 x 50 Socket Cap Screw, High Tensile Grade 12.9 Self Colour, DIN 912",
+  "selected_variant": "M5 x 50 mm; approximately 22 mm thread length; SKU 1891260.",
+  "material_evidence": "Product page specifies high tensile Grade 12.9 steel; search result summary identifies steel.",
+  "specification": "DIN 912 / ISO 4762 socket head cap screw; M5 x 50 mm; high tensile Grade 12.9; self-colour black; approximately 22 mm thread length.",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": true,
+    "dimensions": true,
+    "form": true,
+    "material": true,
+    "finish": true,
+    "standard": true
+  }
+}

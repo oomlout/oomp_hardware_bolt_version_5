@@ -1,0 +1,38 @@
+{
+  "oomp_id": "hardware_screw_countersunk_hex_head_black_m3_diameter_4_mm_length",
+  "platform": "google",
+  "method": "codex_builtin_browser",
+  "status": "unresolved",
+  "search_for": "M3 4mm DIN 7991 self colour grade 10.9 socket countersunk screw",
+  "evidence_url": "https://www.google.com/search?q=M3+4mm+DIN+7991+self+colour+grade+10.9+socket+countersunk+screw",
+  "reason": "The first exact query returned a Franks Fasteners product range whose listed M3 lengths begin at 10mm; its selected variant did not include 4mm. The refinement surfaced an exact eBay result, but that platform is blocked and its product page could not be inspected. The lookup remains incomplete.",
+  "search_evidence": "The supplied Google search showed a Franks Fasteners M3 socket countersunk screw range. Its page was inspected and lists 10, 15, 20, 25, 30, 40 and 50mm variants, not 4mm. The refined Google result showed a UKTF eBay M3 x 4mm Grade 10.9 self-colour DIN 7991 result; eBay is blocked, so it was not opened.",
+  "attempts": [
+    {
+      "term": "M3 x 4 socket countersunk screw DIN 7991 black high tensile steel",
+      "url": "https://www.google.com/search?q=M3+x+4+socket+countersunk+screw+DIN+7991+black+high+tensile+steel",
+      "completed": true,
+      "outcome": "Inspected Franks Fasteners M3 range; available lengths shown start at 10mm and exclude 4mm."
+    },
+    {
+      "term": "M3 4mm DIN 7991 self colour grade 10.9 socket countersunk screw",
+      "url": "https://www.google.com/search?q=M3+4mm+DIN+7991+self+colour+grade+10.9+socket+countersunk+screw",
+      "completed": true,
+      "outcome": "Google showed a matching UKTF eBay M3 x 4mm result but eBay is blocked; the product page could not be inspected. Other results did not establish an eligible selected 4mm variant."
+    }
+  ],
+  "result_url": "",
+  "product_name": "",
+  "selected_variant": "",
+  "material_evidence": "",
+  "specification": "",
+  "checks": {
+    "result_reached_from_search": true,
+    "selected_variant": false,
+    "dimensions": false,
+    "form": false,
+    "material": false,
+    "finish": false,
+    "standard": false
+  }
+}
