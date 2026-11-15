@@ -1,0 +1,155 @@
+{
+  "schema_version": 2,
+  "asset": "hardware_nut_m1",
+  "family": "nut",
+  "drive": "external_hex",
+  "designation": "M1x0.25",
+  "parameters": {
+    "diameter": 1.0,
+    "pitch": 0.25,
+    "tap_diameter": 0.729367061317363,
+    "head_af": 2.5,
+    "height": 0.8,
+    "bevel": 0.16,
+    "mouth_radius": 0.53125
+  },
+  "thread_mode": "internal",
+  "sourced_thread_length_minimum_mm": null,
+  "length_convention": "nut axial height",
+  "standard": null,
+  "finish": "satin",
+  "template": "..\\..\\..\\solidcraft_masters\\2a442b99f4710f2d7651d42b409c098fd3fe404572c66f5d14bef4755c90aa8d.solidcraft",
+  "template_sha256": "941cd36c929da4ecdaee3dbcd448a814a948e7e818d7818d068daea9a1977c20",
+  "sources": [
+    "https://www.accu.co.uk/hexagon-nuts/154926-HPN-M1-A1-BL",
+    "https://www.accu.co.uk/hexagon-nuts/7881-HPN-M1-4-A1",
+    "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+  ],
+  "source_sha256": "7731466cf26e5026daae3e62457f720d119a50aab693584ed10114d329c07633",
+  "fingerprint": "f1f4b50954e02f4acb722016bae3dde7c0c0816ac55b053f31cade14671345f4",
+  "generator": {
+    "batch.py": "6149732f6d9d8967b1c8fff3313ef88a44fa12c094b2714557b71fe19e956c86",
+    "catalogue_run.py": "9421d42b164847abfeb84647befe30887a28a33326f73074d33817a031b39e9e",
+    "families.py": "b7fe07340689cdf6dc91d2b92151957ec4e937bd9d3b5b53664a408d4670df5d",
+    "build.py": "a204a0f4b8df81823ecf7299f92662e712d7b0fcf9a2e86a3c7cbf96ccd44054",
+    "validation.py": "32be71d67051f25a6bfda2569341db0b7c8fe5d0323191f2c3e70b1be246279d"
+  },
+  "backend_version": "solidcraft-cli 0.22.0",
+  "evidence": "C:\\od\\OneDrive\\docs\\software_cad_mcp_helper\\build\\high_quality_hardware_batch\\evidence\\20261026T165854Z_4d1236d4\\hardware_nut_m1",
+  "author_sha256": "b7fe07340689cdf6dc91d2b92151957ec4e937bd9d3b5b53664a408d4670df5d",
+  "construction_order": "native_family_author",
+  "sha256": {
+    "solidcraft": "2ac94626615ed06327647d9ae5bbfdb51ecda7cb66e32eac9e45fd2fe748acf2",
+    "stl": "622043f3fe4993e5bfd8e2a0b8add2aa5b5f05c406c663580ddf2fb261f1be66",
+    "png": "b24836561c3a22c4da610688161ebd151d3c7311371416e015411f16cd562f02"
+  },
+  "validation": {
+    "status": "passed",
+    "scope": "native presentation and independent mesh sections",
+    "watertight": true,
+    "consistent_winding": true,
+    "body_count": 1,
+    "triangles": 4224,
+    "volume_mm3": 3.803618235046855,
+    "bounds_mm": [
+      [
+        -1.4433757066726685,
+        -1.25,
+        1.542618124075206e-16
+      ],
+      [
+        1.4433757066726685,
+        1.25,
+        0.800000011920929
+      ]
+    ],
+    "head_af_mm": 2.5,
+    "thread_pitch_mm": 0.25,
+    "thread_period_error_mm": 0.00027065094494554964,
+    "thread_half_turn_phase_error_mm": 0.0001695459755264861,
+    "thread_radius_range_mm": [
+      0.3639027047699751,
+      0.49969395452777154
+    ],
+    "thread_sample_interval_mm": [
+      0.1975,
+      0.6025
+    ],
+    "internal_thread": true,
+    "reopened": {
+      "status": "passed",
+      "scope": "native presentation and independent mesh sections",
+      "watertight": true,
+      "consistent_winding": true,
+      "body_count": 1,
+      "triangles": 4224,
+      "volume_mm3": 3.803618235046855,
+      "bounds_mm": [
+        [
+          -1.4433757066726685,
+          -1.25,
+          1.542618124075206e-16
+        ],
+        [
+          1.4433757066726685,
+          1.25,
+          0.800000011920929
+        ]
+      ],
+      "head_af_mm": 2.5,
+      "thread_pitch_mm": 0.25,
+      "thread_period_error_mm": 0.00027065094494554964,
+      "thread_half_turn_phase_error_mm": 0.0001695459755264861,
+      "thread_radius_range_mm": [
+        0.3639027047699751,
+        0.49969395452777154
+      ],
+      "thread_sample_interval_mm": [
+        0.1975,
+        0.6025
+      ],
+      "internal_thread": true
+    },
+    "parameter_edit": {
+      "parameter": "height",
+      "before_mm": 0.8,
+      "after_mm": 0.8250000000000001,
+      "saved_and_reopened": true,
+      "mesh": {
+        "status": "passed",
+        "scope": "native presentation and independent mesh sections",
+        "watertight": true,
+        "consistent_winding": true,
+        "body_count": 1,
+        "triangles": 4326,
+        "volume_mm3": 3.9246519963776483,
+        "bounds_mm": [
+          [
+            -1.4433757066726685,
+            -1.25,
+            1.53884644517976e-16
+          ],
+          [
+            1.4433757066726685,
+            1.25,
+            0.824999988079071
+          ]
+        ],
+        "head_af_mm": 2.5,
+        "thread_pitch_mm": 0.25,
+        "thread_period_error_mm": 4.0743004844134845e-05,
+        "thread_half_turn_phase_error_mm": 2.0465078649056778e-05,
+        "thread_radius_range_mm": [
+          0.36390271324928086,
+          0.4999163731710249
+        ],
+        "thread_sample_interval_mm": [
+          0.1975,
+          0.6275000000000001
+        ],
+        "internal_thread": true
+      }
+    }
+  },
+  "step_status": "not exported; modeled-thread STEP is not qualified"
+}

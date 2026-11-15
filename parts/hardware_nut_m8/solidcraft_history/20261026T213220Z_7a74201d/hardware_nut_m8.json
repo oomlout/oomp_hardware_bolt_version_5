@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "asset": "hardware_nut_m8",
+  "family": "nut",
+  "units": "mm",
+  "parameters": {
+    "diameter": 8.0,
+    "pitch": 1.25,
+    "tap_diameter": 6.646835306586815,
+    "head_af": 13,
+    "height": 6.8,
+    "bevel": 0.25,
+    "mouth_radius": 4.1875
+  },
+  "template": "nut_m8_p1.25_satin_phase0.solidcraft",
+  "template_sha256": "f6602aa9107e3cf2730a1bcd3a9b2df21982268da7d998eb170240c3fb1610ac",
+  "author_sha256": "0b4256f7b3e0ed6d40c5753559c01743cfaec4a22e8cb631e09d9b4189e6c54b",
+  "sha256": {
+    "solidcraft": "ae214de4c90688fc752ccfe70f0de27d757ec297b3a30a607497c1346c35ffdc",
+    "stl": "2946d1d4689b04c1c5ee373de700cd3c6051fe3cfa419d2f33f56898cb367418"
+  },
+  "backend_version": "0.22.0",
+  "validation": {
+    "status": "passed",
+    "scope": "native presentation and independent mesh sections",
+    "watertight": true,
+    "consistent_winding": true,
+    "body_count": 1,
+    "triangles": 7582,
+    "volume_mm3": 710.0816091723286,
+    "bounds_mm": [
+      [
+        -7.505553245544434,
+        -6.5,
+        3.0915527316567647e-16
+      ],
+      [
+        7.505553722381592,
+        6.5,
+        6.800000190734863
+      ]
+    ],
+    "head_af_mm": 13,
+    "thread_pitch_mm": 1.25,
+    "thread_period_error_mm": 0.00049312777067545,
+    "thread_half_turn_phase_error_mm": 0.0001816018406137765,
+    "thread_radius_range_mm": [
+      3.3234176635742143,
+      3.9989618485824443
+    ],
+    "internal_thread": true,
+    "parameter_edit": {
+      "parameter": "height",
+      "before_mm": 6.8,
+      "after_mm": 6.8999999999999995,
+      "saved_and_reopened": true,
+      "mesh": {
+        "status": "passed",
+        "scope": "native presentation and independent mesh sections",
+        "watertight": true,
+        "consistent_winding": true,
+        "body_count": 1,
+        "triangles": 7678,
+        "volume_mm3": 720.5894019109768,
+        "bounds_mm": [
+          [
+            -7.505553245544434,
+            -6.5,
+            3.0919900124157847e-16
+          ],
+          [
+            7.505553722381592,
+            6.5,
+            6.900000095367432
+          ]
+        ],
+        "head_af_mm": 13,
+        "thread_pitch_mm": 1.25,
+        "thread_period_error_mm": 0.00120762212058656,
+        "thread_half_turn_phase_error_mm": 0.00046565211260984896,
+        "thread_radius_range_mm": [
+          3.3234176635742188,
+          3.9971195414959917
+        ],
+        "internal_thread": true
+      }
+    }
+  },
+  "sources": [
+    "https://cdn.standards.iteh.ai/samples/61668/93b89b8502a943499386155c44018aaa/ISO-4032-2012.pdf",
+    "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+  ],
+  "step_status": "not certified; linked hardware route remains native/STL presentation only",
+  "thread": {
+    "designation": "M8x1.25",
+    "modeled": true,
+    "internal": true
+  },
+  "drive": "external_hex",
+  "anchor": "nut bottom at Z=0",
+  "length_convention": "nut height",
+  "modeling_choices": "Nominal presentation model; chamfers and thread runout are explicit display choices, not tolerance-class certification."
+}

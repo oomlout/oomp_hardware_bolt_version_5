@@ -1,0 +1,34 @@
+{
+  "pid": 22220,
+  "status": "finished",
+  "total": 3,
+  "completed": 3,
+  "results": [
+    {
+      "identity": "hardware_set_screw_m5_80_mm_length",
+      "status": "succeeded",
+      "reason": null,
+      "evidence": "C:\\od\\OneDrive\\docs\\software_cad_mcp_helper\\build\\high_quality_hardware_batch\\evidence\\20261027T104920Z_aa0bb90a\\hardware_set_screw_m5_80_mm_length",
+      "seconds": 1420.39
+    },
+    {
+      "identity": "hardware_set_screw_m8_100_mm_length",
+      "status": "succeeded",
+      "reason": null,
+      "evidence": "C:\\od\\OneDrive\\docs\\software_cad_mcp_helper\\build\\high_quality_hardware_batch\\evidence\\20261027T104920Z_aa0bb90a\\hardware_set_screw_m8_100_mm_length",
+      "seconds": 2588.64
+    },
+    {
+      "identity": "hardware_set_screw_m8_110_mm_length",
+      "status": "succeeded",
+      "reason": null,
+      "evidence": "C:\\od\\OneDrive\\docs\\software_cad_mcp_helper\\build\\high_quality_hardware_batch\\evidence\\20261027T104920Z_aa0bb90a\\hardware_set_screw_m8_110_mm_length",
+      "seconds": 1264.45
+    }
+  ],
+  "current": null,
+  "run": "C:\\od\\OneDrive\\docs\\software_cad_mcp_helper\\build\\high_quality_hardware_batch\\runs\\20261027T104920Z_aa0bb90a",
+  "counts": {
+    "succeeded": 3
+  }
+}

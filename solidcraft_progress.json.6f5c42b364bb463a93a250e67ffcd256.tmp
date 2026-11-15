@@ -1,0 +1,51 @@
+{
+  "pid": 69412,
+  "status": "running",
+  "total": 255,
+  "completed": 7,
+  "results": [
+    {
+      "identity": "hardware_bolt_m4_40_mm_length",
+      "status": "reused",
+      "seconds": 0.03
+    },
+    {
+      "identity": "hardware_bolt_m5_35_mm_length",
+      "status": "reused",
+      "seconds": 0.02
+    },
+    {
+      "identity": "hardware_bolt_m5_40_mm_length",
+      "status": "reused",
+      "seconds": 0.02
+    },
+    {
+      "identity": "hardware_bolt_m5_45_mm_length",
+      "status": "failed",
+      "reason": "[Errno 2] No such file or directory: 'C:\\\\od\\\\OneDrive\\\\docs\\\\software_cad_mcp_helper\\\\build\\\\high_quality_hardware_batch\\\\evidence\\\\20261026T182327Z_14fa2932\\\\hardware_bolt_m5_45_mm_length\\\\source.solidcraft'",
+      "evidence": "C:\\od\\OneDrive\\docs\\software_cad_mcp_helper\\build\\high_quality_hardware_batch\\evidence\\20261026T182327Z_14fa2932\\hardware_bolt_m5_45_mm_length",
+      "seconds": 0.02
+    },
+    {
+      "identity": "hardware_bolt_m5_60_mm_length",
+      "status": "reused",
+      "seconds": 0.01
+    },
+    {
+      "identity": "hardware_bolt_m5_65_mm_length",
+      "status": "reused",
+      "seconds": 0.03
+    },
+    {
+      "identity": "hardware_bolt_m5_70_mm_length",
+      "status": "reused",
+      "seconds": 0.02
+    }
+  ],
+  "current": "hardware_bolt_m6_100_mm_length",
+  "run": "C:\\od\\OneDrive\\docs\\software_cad_mcp_helper\\build\\high_quality_hardware_batch\\runs\\20261026T182327Z_14fa2932",
+  "counts": {
+    "reused": 6,
+    "failed": 1
+  }
+}

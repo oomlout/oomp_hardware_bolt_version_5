@@ -1,0 +1,156 @@
+{
+  "schema_version": 2,
+  "asset": "hardware_set_screw_m3_30_mm_length",
+  "family": "bolt",
+  "drive": "external_hex",
+  "designation": "M3x0.5",
+  "parameters": {
+    "length": 30.0,
+    "diameter": 3.0,
+    "pitch": 0.5,
+    "head_af": 5.5,
+    "head_height": 2,
+    "bevel": 0.3,
+    "tip_chamfer": 0.25,
+    "runout": 0.5,
+    "thread_length": 29.4
+  },
+  "thread_mode": "full",
+  "sourced_thread_length_minimum_mm": null,
+  "length_convention": "under-head bearing plane to tip",
+  "standard": "ISO 4017 supplier dimensional specification (edition not stated)",
+  "finish": "satin",
+  "template": "..\\..\\..\\solidcraft_masters\\be16e2af40730cc9b6d48f992efab38690259af6bac17cf65029c9f3fc58d10e.solidcraft",
+  "template_sha256": "031589a11f16c6be73368f98da10fc95da811c11fb150550ee030b96be26ea26",
+  "sources": [
+    "https://www.westfieldfasteners.co.uk/Standards/ScrewBolt-HexHd4017-M-THRfull.html",
+    "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+  ],
+  "source_sha256": "eafc3c32d4e1ad68dd498a17c4d8e367a8a577bf901e10b0c5ed24024081fca2",
+  "fingerprint": "d72cef2ed8764d595bcc8bcdfdc486fb5d140ee22bc4038e6283d1cdd0f0e75f",
+  "generator": {
+    "batch.py": "6149732f6d9d8967b1c8fff3313ef88a44fa12c094b2714557b71fe19e956c86",
+    "catalogue_run.py": "9421d42b164847abfeb84647befe30887a28a33326f73074d33817a031b39e9e",
+    "families.py": "b7fe07340689cdf6dc91d2b92151957ec4e937bd9d3b5b53664a408d4670df5d",
+    "build.py": "a204a0f4b8df81823ecf7299f92662e712d7b0fcf9a2e86a3c7cbf96ccd44054",
+    "validation.py": "32be71d67051f25a6bfda2569341db0b7c8fe5d0323191f2c3e70b1be246279d"
+  },
+  "backend_version": "solidcraft-cli 0.22.0",
+  "evidence": "C:\\od\\OneDrive\\docs\\software_cad_mcp_helper\\build\\high_quality_hardware_batch\\evidence\\20261026T165854Z_4d1236d4\\hardware_set_screw_m3_30_mm_length",
+  "author_sha256": "b7fe07340689cdf6dc91d2b92151957ec4e937bd9d3b5b53664a408d4670df5d",
+  "construction_order": "thread_round_blank_then_hex",
+  "sha256": {
+    "solidcraft": "fe07605e14894bdd3c331c75f52376f5d73febd6a260fa9aa0b9e739865e2ee8",
+    "stl": "a03500e0a0ccb801749952ac9c09e8a7156511978d16ee0ac5b35168141947c2",
+    "png": "3ad22c8c8a119f4eebf0c0ee96a05fa04230e22718e243db265a468ba380aaf3"
+  },
+  "validation": {
+    "status": "passed",
+    "scope": "native presentation and independent mesh sections",
+    "watertight": true,
+    "consistent_winding": true,
+    "body_count": 1,
+    "triangles": 59696,
+    "volume_mm3": 224.28621421945547,
+    "bounds_mm": [
+      [
+        -3.175426483154297,
+        -2.75,
+        -30.0
+      ],
+      [
+        3.175426483154297,
+        2.75,
+        2.0
+      ]
+    ],
+    "head_af_mm": 5.5,
+    "thread_pitch_mm": 0.5,
+    "thread_period_error_mm": 0.00015900883334540872,
+    "thread_half_turn_phase_error_mm": 8.110032909169895e-05,
+    "thread_radius_range_mm": [
+      1.2267665860271093,
+      1.5000000179220903
+    ],
+    "thread_sample_interval_mm": [
+      -29.675,
+      -0.42500000000000143
+    ],
+    "internal_thread": false,
+    "reopened": {
+      "status": "passed",
+      "scope": "native presentation and independent mesh sections",
+      "watertight": true,
+      "consistent_winding": true,
+      "body_count": 1,
+      "triangles": 59696,
+      "volume_mm3": 224.28621421945547,
+      "bounds_mm": [
+        [
+          -3.175426483154297,
+          -2.75,
+          -30.0
+        ],
+        [
+          3.175426483154297,
+          2.75,
+          2.0
+        ]
+      ],
+      "head_af_mm": 5.5,
+      "thread_pitch_mm": 0.5,
+      "thread_period_error_mm": 0.00015900883334540872,
+      "thread_half_turn_phase_error_mm": 8.110032909169895e-05,
+      "thread_radius_range_mm": [
+        1.2267665860271093,
+        1.5000000179220903
+      ],
+      "thread_sample_interval_mm": [
+        -29.675,
+        -0.42500000000000143
+      ],
+      "internal_thread": false
+    },
+    "parameter_edit": {
+      "parameter": "length",
+      "before_mm": 30.0,
+      "after_mm": 30.05,
+      "saved_and_reopened": true,
+      "mesh": {
+        "status": "passed",
+        "scope": "native presentation and independent mesh sections",
+        "watertight": true,
+        "consistent_winding": true,
+        "body_count": 1,
+        "triangles": 59686,
+        "volume_mm3": 224.63943902679304,
+        "bounds_mm": [
+          [
+            -3.175426483154297,
+            -2.75,
+            -30.049999237060547
+          ],
+          [
+            3.175426483154297,
+            2.75,
+            2.0
+          ]
+        ],
+        "head_af_mm": 5.5,
+        "thread_pitch_mm": 0.5,
+        "thread_period_error_mm": 0.0001592577936728734,
+        "thread_half_turn_phase_error_mm": 7.864496313403357e-05,
+        "thread_radius_range_mm": [
+          1.2267665860271093,
+          1.5000000179220903
+        ],
+        "thread_sample_interval_mm": [
+          -29.725,
+          -0.47500000000000214
+        ],
+        "internal_thread": false
+      }
+    }
+  },
+  "step_status": "not exported; modeled-thread STEP is not qualified"
+}

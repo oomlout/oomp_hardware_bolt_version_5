@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "asset": "hardware_bolt_m6_30_mm_length",
+  "family": "bolt",
+  "units": "mm",
+  "parameters": {
+    "length": 30.0,
+    "diameter": 6.0,
+    "pitch": 1,
+    "head_af": 10,
+    "head_height": 4,
+    "bevel": 0.3,
+    "tip_chamfer": 0.5,
+    "runout": 1,
+    "thread_length": 18.05,
+    "thread_phase": 0.2
+  },
+  "template": "bolt_m6_p1_satin_phase0.2_L30.solidcraft",
+  "template_sha256": "9f70c3b8c07a97200c3ab5be226f0b394e9199b585ebc8a4f9360c2dd20fca81",
+  "author_sha256": "0b4256f7b3e0ed6d40c5753559c01743cfaec4a22e8cb631e09d9b4189e6c54b",
+  "sha256": {
+    "solidcraft": "4439433232ea02eacd364ea74b369f3e2c2650413f93bae0d91e904c8b1223b1",
+    "stl": "489887a4970fc3824d1b4becc9fe0a296e36a4ccb8ec8bb56ac3e109637c73b9"
+  },
+  "backend_version": "0.22.0",
+  "validation": {
+    "status": "passed",
+    "scope": "native presentation and independent mesh sections",
+    "watertight": true,
+    "consistent_winding": true,
+    "body_count": 1,
+    "triangles": 71462,
+    "volume_mm3": 1093.2333704707642,
+    "bounds_mm": [
+      [
+        -5.773502826690674,
+        -5.0,
+        -30.0
+      ],
+      [
+        5.773502826690674,
+        5.0,
+        4.0
+      ]
+    ],
+    "head_af_mm": 10,
+    "thread_pitch_mm": 1,
+    "thread_period_error_mm": 0.0009313658875358399,
+    "thread_half_turn_phase_error_mm": 0.0004726209009975335,
+    "thread_radius_range_mm": [
+      2.4570682980843688,
+      3.0
+    ],
+    "internal_thread": false,
+    "parameter_edit": {
+      "parameter": "length",
+      "before_mm": 30.0,
+      "after_mm": 29.0,
+      "saved_and_reopened": true,
+      "mesh": {
+        "status": "passed",
+        "scope": "native presentation and independent mesh sections",
+        "watertight": true,
+        "consistent_winding": true,
+        "body_count": 1,
+        "triangles": 71214,
+        "volume_mm3": 1064.9790435361958,
+        "bounds_mm": [
+          [
+            -5.773502826690674,
+            -5.0,
+            -29.0
+          ],
+          [
+            5.773502826690674,
+            5.0,
+            4.0
+          ]
+        ],
+        "head_af_mm": 10,
+        "thread_pitch_mm": 1,
+        "thread_period_error_mm": 0.0009317194848192933,
+        "thread_half_turn_phase_error_mm": 0.0004725798742692966,
+        "thread_radius_range_mm": [
+          2.4570682980843688,
+          2.9999999999998885
+        ],
+        "internal_thread": false
+      }
+    }
+  },
+  "sources": [
+    "https://cdn.standards.iteh.ai/samples/56447/be5b2835974246f8868260ebe9f4d621/ISO-4014-2011.pdf",
+    "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+  ],
+  "step_status": "not certified; linked hardware route remains native/STL presentation only",
+  "sourced_thread_length_minimum_mm": 18,
+  "thread": {
+    "designation": "M6x1",
+    "modeled": true,
+    "internal": false
+  },
+  "drive": "external_hex",
+  "anchor": "under-head face at Z=0; tip at -length",
+  "length_convention": "under head, excluding head",
+  "modeling_choices": "Nominal presentation model; chamfers and thread runout are explicit display choices, not tolerance-class certification."
+}

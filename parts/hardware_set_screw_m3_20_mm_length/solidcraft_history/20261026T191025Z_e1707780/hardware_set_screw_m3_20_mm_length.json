@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "asset": "hardware_set_screw_m3_20_mm_length",
+  "family": "bolt",
+  "units": "mm",
+  "parameters": {
+    "length": 20.0,
+    "diameter": 3.0,
+    "pitch": 0.5,
+    "head_af": 5.5,
+    "head_height": 2,
+    "bevel": 0.3,
+    "tip_chamfer": 0.25,
+    "runout": 0.5,
+    "thread_length": 19.4,
+    "thread_phase": 0
+  },
+  "template": "bolt_m3_p0.5_satin_phase0_L20.solidcraft",
+  "template_sha256": "4774be50a1e6dfae46d76b9ac4eb08b044c915727258cabbe8a43f31c7efaed1",
+  "author_sha256": "0b4256f7b3e0ed6d40c5753559c01743cfaec4a22e8cb631e09d9b4189e6c54b",
+  "sha256": {
+    "solidcraft": "0f2987c2f6dea37085886523b67aa8a3bf7b34c7eddee0e4ade5151656a80d7a",
+    "stl": "ebb50f87f92d7257bbdc3e036587f196c8915cf9ef459d766b1ce7ed0a121ed3"
+  },
+  "backend_version": "0.22.0",
+  "validation": {
+    "status": "passed",
+    "scope": "native presentation and independent mesh sections",
+    "watertight": true,
+    "consistent_winding": true,
+    "body_count": 1,
+    "triangles": 131642,
+    "volume_mm3": 167.05707561565671,
+    "bounds_mm": [
+      [
+        -3.175426483154297,
+        -2.75,
+        -20.0
+      ],
+      [
+        3.175426483154297,
+        2.75,
+        2.0
+      ]
+    ],
+    "head_af_mm": 5.5,
+    "thread_pitch_mm": 0.5,
+    "thread_period_error_mm": 0.00023766069926489664,
+    "thread_half_turn_phase_error_mm": 0.00011854409609246552,
+    "thread_radius_range_mm": [
+      1.228805048062501,
+      1.4999999999998472
+    ],
+    "internal_thread": false,
+    "parameter_edit": {
+      "parameter": "length",
+      "before_mm": 20.0,
+      "after_mm": 19.0,
+      "saved_and_reopened": true,
+      "mesh": {
+        "status": "passed",
+        "scope": "native presentation and independent mesh sections",
+        "watertight": true,
+        "consistent_winding": true,
+        "body_count": 1,
+        "triangles": 123998,
+        "volume_mm3": 161.3341617445175,
+        "bounds_mm": [
+          [
+            -3.175426483154297,
+            -2.75,
+            -19.0
+          ],
+          [
+            3.175426483154297,
+            2.75,
+            2.0
+          ]
+        ],
+        "head_af_mm": 5.5,
+        "thread_pitch_mm": 0.5,
+        "thread_period_error_mm": 0.0002492293633307163,
+        "thread_half_turn_phase_error_mm": 0.00012742170910229333,
+        "thread_radius_range_mm": [
+          1.2287772824140195,
+          1.5
+        ],
+        "internal_thread": false
+      }
+    }
+  },
+  "sources": [
+    "https://www.westfieldfasteners.co.uk/Standards/ScrewBolt-HexHd4017-M-THRfull.html",
+    "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+  ],
+  "step_status": "not certified; linked hardware route remains native/STL presentation only",
+  "thread": {
+    "designation": "M3x0.5",
+    "modeled": true,
+    "internal": false
+  },
+  "drive": "external_hex",
+  "anchor": "under-head face at Z=0; tip at -length",
+  "length_convention": "under head, excluding head",
+  "modeling_choices": "Nominal presentation model; chamfers and thread runout are explicit display choices, not tolerance-class certification."
+}
