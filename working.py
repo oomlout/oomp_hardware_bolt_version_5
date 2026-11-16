@@ -61,6 +61,11 @@ def run(**kwargs):
         import working_only_yaml
         working_only_yaml.main(**kwargs)
 
+    # Publish the parts-first overview after all requested asset stages.
+    if kwargs.get("run_readme", True):
+        import working_readme
+        working_readme.main()
+
 
 
 
