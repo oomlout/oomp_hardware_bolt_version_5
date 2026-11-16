@@ -93,7 +93,7 @@ bip_39_full_space: person volcano exercise tobacco melt gather random degree sim
   enhance join ketchup
 bip_39_full_underscore: person_volcano_exercise_tobacco_melt_gather_random_degree_similar_enhance_join_ketchup
 directory: parts/hardware_threaded_rod_m3_100_mm_length
-filter: hardware_threaded_rod_*
+filter: hardware_threaded_rod_m[34568]_*
 generate_stl: true
 id: hardware_threaded_rod_m3_100_mm_length
 id_no_class: hardware_threaded_rod_m3_100_mm_length
@@ -110,16 +110,17 @@ kwargs:
   oomp_description_main: _
   oomp_mode: project
   overwrite: true
-  part_filter: hardware_threaded_rod_*
+  part_filter: hardware_threaded_rod_m[34568]_*
   pitch_mm: 0.5
   run_action: false
   run_only_yaml: false
   run_oomp: true
-  run_oomp_populate: true
+  run_oomp_populate: false
+  run_readme: false
   run_scad: true
   run_svg: true
   run_three_d_model: false
-  type: default_threaded_rod
+  type: C:\gh\oomp_hardware_bolt_version_5_threaded_rod
 label_drawer: &id001
   bip39: person volcano exercise
   bip39_size: 1.928
@@ -166,6 +167,7 @@ oobb_details:
   pitch_mm: 0.5
 oobb_name: threaded_rod
 oomlout_ai_roboclick_1:
+  action_name: step_0_jinja_template_label_oomp.svg
   actions:
   - command: text_jinja_template
     convert_to_pdf: false
@@ -418,6 +420,7 @@ oomlout_ai_roboclick_1:
   file_test: label_oomp.pdf
   retries_until_complete: 0
 oomlout_ai_roboclick_2:
+  action_name: step_1_jinja_template_label_bolt_image.svg
   actions:
   - command: text_jinja_template
     convert_to_pdf: false
@@ -434,6 +437,7 @@ oomlout_ai_roboclick_2:
         oobb_name: threaded_rod
         pitch_mm: 0.5
       oomlout_ai_roboclick_1:
+        action_name: step_0_jinja_template_label_oomp.svg
         actions:
         - command: text_jinja_template
           convert_to_pdf: false
@@ -940,7 +944,8 @@ project_name: C:\gh\oomp_hardware_bolt_version_5
 run_action: false
 run_only_yaml: false
 run_oomp: true
-run_oomp_populate: true
+run_oomp_populate: false
+run_readme: false
 run_scad: true
 run_svg: true
 run_three_d_model: false
@@ -1233,7 +1238,7 @@ url_chat: ''
 
 ## Parts
 
-[Full-detail 3D model (GLB)](three_d_model/model_full.glb) · [Full-detail mesh (STL)](three_d_model/model_full.stl) · [Dimensioned drawing (PDF)](working_mechanical_drawing_a4.pdf) · [Full-detail view drawings](three_d_model/full/) · [Drawer label (SVG)](label_drawer.svg)
+[Full-detail 3D model (GLB)](three_d_model/model_full.glb) · [Simplified 3D model (GLB)](three_d_model/model_display.glb) · [Full-detail mesh (STL)](three_d_model/model_full.stl) · [Parametric model (OpenSCAD)](3dpr.scad) · [Editable studio scene (Blender)](three_d_model/studio.blend) · [Dimensioned drawing (PDF)](working_mechanical_drawing_a4.pdf) · [Full-detail view drawings](three_d_model/full/) · [Drawer label (SVG)](label_drawer.svg)
 
 Full-detail and simplified display models are alternatives for the same part. GLB uses metres; STL, where supplied, uses millimetres. The [part folder](./) contains all available files.
 

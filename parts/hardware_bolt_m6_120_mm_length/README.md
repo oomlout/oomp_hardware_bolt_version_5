@@ -2470,7 +2470,7 @@ url_chat: ''
 
 ## Parts
 
-[Full-detail 3D model (GLB)](three_d_model/model_full.glb) · [Dimensioned drawing (PDF)](working_mechanical_drawing_a4.pdf) · [Full-detail view drawings](three_d_model/full/) · [Drawer label (SVG)](label_drawer.svg)
+[Full-detail 3D model (GLB)](three_d_model/model_full.glb) · [Simplified 3D model (GLB)](three_d_model/model_display.glb) · [Editable studio scene (Blender)](three_d_model/studio.blend) · [Dimensioned drawing (PDF)](working_mechanical_drawing_a4.pdf) · [Full-detail view drawings](three_d_model/full/) · [Drawer label (SVG)](label_drawer.svg)
 
 Full-detail and simplified display models are alternatives for the same part. GLB uses metres; STL, where supplied, uses millimetres. The [part folder](./) contains all available files.
 

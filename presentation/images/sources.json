@@ -24,5 +24,18 @@
       512,
       512
     ]
+  },
+  {
+    "preview": "m8x50-threaded-rod.png",
+    "source": "parts/hardware_threaded_rod_m8_50_mm_length/three_d_model/render_high.png",
+    "source_sha256": "ccdbc9a814f733cb9177b9aea66dd8b67dd1a894a12bd01b481c1ca2d7b37382",
+    "source_size": [
+      2048,
+      2048
+    ],
+    "preview_size": [
+      512,
+      512
+    ]
   }
 ]

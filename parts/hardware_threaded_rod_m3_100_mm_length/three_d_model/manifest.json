@@ -2,7 +2,7 @@
   "artifacts": {
     "display/back.svg": {
       "bytes": 3446,
-      "sha256": "cb335e2a97a7fe6131dfd5f76c2cc47fe8d75840f719fc3b3c42491cc355b032"
+      "sha256": "80414cd20b30da10b2e4d1dabf9d5697c9bda0d9a24c5d7798fc84a8ebf1f160"
     },
     "display/bottom.svg": {
       "bytes": 3123,
@@ -10,23 +10,23 @@
     },
     "display/front.svg": {
       "bytes": 3449,
-      "sha256": "4b55d5857ad6fb4fc6964a34601622a5727287be54c4022fb2daaff3856d9362"
+      "sha256": "209135fa0d30c8458746d08a63d4bf8d943a108dc228ae3a4aa8069e110180e3"
     },
     "display/isometric.svg": {
       "bytes": 3883,
-      "sha256": "e1c50d79b604d255a56ef46ecda20d6a6a2028f117a5d3e561bcbb2eaf68a130"
+      "sha256": "8897efaf17ea6e49b30b83a65ab65da24b848d010d0f794d0c412ffde3500bde"
     },
     "display/left.svg": {
       "bytes": 3447,
-      "sha256": "7d36825f73ae363b43e0d1685c0448ecd3257ee0b75d301877f4658652d02307"
+      "sha256": "27b5cf573feaa2652505a5d3e7809e22c793df561d66661dd7a770e9c0975492"
     },
     "display/right.svg": {
       "bytes": 3440,
-      "sha256": "116340a4c74214c75b9472900448818609f503f0c04c790fb8ad3b765abb242b"
+      "sha256": "f3e82f1be5b90d5a3cdfe40089543bde75dff7ff0d7812c858c8e23698cc5afa"
     },
     "display/top.svg": {
       "bytes": 3116,
-      "sha256": "f8e87acb4beb0602d0af4827181fbba4ea9ccb18ee2a091fba4beb9de981d608"
+      "sha256": "f4fc782ab42f412f3eaf37afe16147d9fa42083d071ff2e4b37344ea05b860b1"
     },
     "full/back.svg": {
       "bytes": 2374670,
@@ -34,7 +34,7 @@
     },
     "full/bottom.svg": {
       "bytes": 3012266,
-      "sha256": "ef8276e7a03aaa6d6e119c31df8257d9ac368d09ee88f070262bd9c18abe30e1"
+      "sha256": "6cd3c7dc348048874bda56f0d3c183415fae7bbd87d78f77ec242738be42675d"
     },
     "full/front.svg": {
       "bytes": 2374381,
@@ -54,11 +54,11 @@
     },
     "full/top.svg": {
       "bytes": 3013417,
-      "sha256": "0fb669f198bf30036ec99d914d40274b81f25241cf0cd0ad0b2ae6b4458e0faf"
+      "sha256": "2f83c946ebc1c214f96f035f0efbf030dc6743ee0d6dfbc96ce9353884177f64"
     },
     "model.py": {
-      "bytes": 24014,
-      "sha256": "0a4622db1cf1ddca56356b7a5a1969518a62220b0bc489b8b17aeca7478f6f86"
+      "bytes": 24133,
+      "sha256": "11771aae91af544974bb27b37cc8a6e68e8dfaab3af4fa22c4fe82577ac0a5a4"
     },
     "model_display.glb": {
       "bytes": 5564,
@@ -122,7 +122,7 @@
     "stl_units": "mm"
   },
   "dimension_status": "nominal_thread_dimensions",
-  "fingerprint": "e6b6f04ce18e1f028737cdf99a87792fdd2f79036de2118317123700a1184cf1",
+  "fingerprint": "9ac71bed82faf153ed3f2c7856dd5d7d17495089f7f1e3197bded373065d5825",
   "generator": "metric_threaded_rod",
   "length_status": "user_specified_cut_length",
   "models": {

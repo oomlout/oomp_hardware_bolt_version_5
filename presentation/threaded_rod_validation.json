@@ -1,0 +1,405 @@
+{
+  "requested_parts": 25,
+  "checked_on": "2026-11-16",
+  "status": "passed",
+  "checks": [
+    "source/part/standalone recipe agreement",
+    "model dimensions and closed topology",
+    "manifest hashes and sizes",
+    "all four render sizes",
+    "long-rod STL absence",
+    "SCAD, PDF, label and README availability"
+  ],
+  "parts": [
+    {
+      "part_id": "hardware_threaded_rod_m3_50_mm_length",
+      "formats": [
+        "stl",
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 28,
+      "stl_count": 3,
+      "dimensions_mm": [
+        3,
+        3,
+        50
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m3_100_mm_length",
+      "formats": [
+        "stl",
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 28,
+      "stl_count": 3,
+      "dimensions_mm": [
+        3,
+        3,
+        100
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m3_150_mm_length",
+      "formats": [
+        "stl",
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 28,
+      "stl_count": 3,
+      "dimensions_mm": [
+        3,
+        3,
+        150
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m3_300_mm_length",
+      "formats": [
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 26,
+      "stl_count": 0,
+      "dimensions_mm": [
+        3,
+        3,
+        300
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m3_1000_mm_length",
+      "formats": [
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 26,
+      "stl_count": 0,
+      "dimensions_mm": [
+        3,
+        3,
+        1000
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m4_50_mm_length",
+      "formats": [
+        "stl",
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 28,
+      "stl_count": 3,
+      "dimensions_mm": [
+        4,
+        4,
+        50
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m4_100_mm_length",
+      "formats": [
+        "stl",
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 28,
+      "stl_count": 3,
+      "dimensions_mm": [
+        4,
+        4,
+        100
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m4_150_mm_length",
+      "formats": [
+        "stl",
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 28,
+      "stl_count": 3,
+      "dimensions_mm": [
+        4,
+        4,
+        150
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m4_300_mm_length",
+      "formats": [
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 26,
+      "stl_count": 0,
+      "dimensions_mm": [
+        4,
+        4,
+        300
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m4_1000_mm_length",
+      "formats": [
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 26,
+      "stl_count": 0,
+      "dimensions_mm": [
+        4,
+        4,
+        1000
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m5_50_mm_length",
+      "formats": [
+        "stl",
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 28,
+      "stl_count": 3,
+      "dimensions_mm": [
+        5,
+        5,
+        50
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m5_100_mm_length",
+      "formats": [
+        "stl",
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 28,
+      "stl_count": 3,
+      "dimensions_mm": [
+        5,
+        5,
+        100
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m5_150_mm_length",
+      "formats": [
+        "stl",
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 28,
+      "stl_count": 3,
+      "dimensions_mm": [
+        5,
+        5,
+        150
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m5_300_mm_length",
+      "formats": [
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 26,
+      "stl_count": 0,
+      "dimensions_mm": [
+        5,
+        5,
+        300
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m5_1000_mm_length",
+      "formats": [
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 26,
+      "stl_count": 0,
+      "dimensions_mm": [
+        5,
+        5,
+        1000
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m6_50_mm_length",
+      "formats": [
+        "stl",
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 28,
+      "stl_count": 3,
+      "dimensions_mm": [
+        6,
+        6,
+        50
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m6_100_mm_length",
+      "formats": [
+        "stl",
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 28,
+      "stl_count": 3,
+      "dimensions_mm": [
+        6,
+        6,
+        100
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m6_150_mm_length",
+      "formats": [
+        "stl",
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 28,
+      "stl_count": 3,
+      "dimensions_mm": [
+        6,
+        6,
+        150
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m6_300_mm_length",
+      "formats": [
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 26,
+      "stl_count": 0,
+      "dimensions_mm": [
+        6,
+        6,
+        300
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m6_1000_mm_length",
+      "formats": [
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 26,
+      "stl_count": 0,
+      "dimensions_mm": [
+        6,
+        6,
+        1000
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m8_50_mm_length",
+      "formats": [
+        "stl",
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 28,
+      "stl_count": 3,
+      "dimensions_mm": [
+        8,
+        8,
+        50
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m8_100_mm_length",
+      "formats": [
+        "stl",
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 28,
+      "stl_count": 3,
+      "dimensions_mm": [
+        8,
+        8,
+        100
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m8_150_mm_length",
+      "formats": [
+        "stl",
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 28,
+      "stl_count": 3,
+      "dimensions_mm": [
+        8,
+        8,
+        150
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m8_300_mm_length",
+      "formats": [
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 26,
+      "stl_count": 0,
+      "dimensions_mm": [
+        8,
+        8,
+        300
+      ],
+      "status": "passed"
+    },
+    {
+      "part_id": "hardware_threaded_rod_m8_1000_mm_length",
+      "formats": [
+        "glb"
+      ],
+      "render_count": 4,
+      "manifest_artifacts_checked": 26,
+      "stl_count": 0,
+      "dimensions_mm": [
+        8,
+        8,
+        1000
+      ],
+      "status": "passed"
+    }
+  ]
+}

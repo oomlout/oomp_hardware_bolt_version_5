@@ -10,6 +10,7 @@
   },
   "dimension_status": "approximate_visual_model",
   "dimensional_specification": "APPROXIMATE VISUAL MODEL: Nominal metric fully threaded rod, cut to catalogue length",
+  "export_note": "STL intentionally omitted for threaded rods of 300 mm and longer; GLB, SCAD, Blender scenes and renders are provided.",
   "generator": "metric_threaded_rod",
   "length_status": "user_specified_cut_length",
   "material": {
@@ -29,7 +30,6 @@
     "roughness_variation": 0.045
   },
   "model_formats": [
-    "stl",
     "glb"
   ],
   "modelling_choices": {

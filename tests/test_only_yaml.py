@@ -104,11 +104,11 @@ def test_reject_empty_source_and_unmanaged_output(tmp_path):
 
 
 @pytest.mark.parametrize("entrypoint", ["action_make_all", "action_make_all_no_stl", "working"])
-def test_export_is_last_in_full_build(tmp_path, monkeypatch, entrypoint):
+def test_export_follows_assets_and_precedes_readmes(tmp_path, monkeypatch, entrypoint):
     project = tmp_path / "project"
     make_part(project)
     calls = []
-    for name in ("oomp_populate", "oomp", "svg", "three_d_model", "scad", "action"):
+    for name in ("oomp_populate", "oomp", "svg", "three_d_model", "scad", "action", "readme"):
         monkeypatch.setitem(sys.modules, "working_" + name,
                             SimpleNamespace(main=lambda _name=name, **kw: calls.append(_name)))
 
@@ -119,7 +119,7 @@ def test_export_is_last_in_full_build(tmp_path, monkeypatch, entrypoint):
     monkeypatch.setitem(sys.modules, "working_only_yaml", SimpleNamespace(main=publish))
     module = importlib.import_module(entrypoint)
     module.main()
-    assert calls[-1] == "only_yaml"
+    assert calls[-2:] == ["only_yaml", "readme"]
     assert calls.index("only_yaml") > calls.index("action")
     assert {"oomp_populate", "oomp", "scad"} <= set(calls)
     assert (tmp_path / "project_only_yaml" / "parts" / "example" / "image.png").is_file()

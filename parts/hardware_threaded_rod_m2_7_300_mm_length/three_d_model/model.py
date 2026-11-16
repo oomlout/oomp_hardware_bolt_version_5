@@ -426,6 +426,7 @@ if __name__ == '__main__':
     args.output.mkdir(parents=True, exist_ok=True)
     for variant in ['full', 'display'] if args.variant == 'both' else [args.variant]:
         mesh = build_model(p, variant, recipe['variants'][variant])
-        for suffix in ['stl', 'glb']:
+        formats = ['glb'] if p['family'] == 'rod' and p['length_mm'] >= 300 else recipe.get('model_formats', ['stl', 'glb'])
+        for suffix in formats:
             export_mesh(mesh, args.output/f'model_{variant}.{suffix}', p, recipe['material'])
         print(f'{variant}: {len(mesh.faces)} triangles, {mesh.volume:.3f} mm3')

@@ -57,32 +57,24 @@
       "sha256": "f7df037f8effb8483e5b3ead6f823d5f81cf503b0f8fb981a86b826e54e1784e"
     },
     "model.py": {
-      "bytes": 24014,
-      "sha256": "0a4622db1cf1ddca56356b7a5a1969518a62220b0bc489b8b17aeca7478f6f86"
+      "bytes": 24133,
+      "sha256": "11771aae91af544974bb27b37cc8a6e68e8dfaab3af4fa22c4fe82577ac0a5a4"
     },
     "model_display.glb": {
       "bytes": 5568,
       "sha256": "ed244ee2cf180c86daaa94d328fbfebec566762da0cb6fc82884b7290d0ca22f"
     },
-    "model_display.stl": {
-      "bytes": 9684,
-      "sha256": "fd4665a26ea2996b66ba1df18c7afbc6f757a547982d6c740a18a11f4c93e165"
-    },
     "model_full.glb": {
       "bytes": 3321616,
       "sha256": "9571837d79ec0c467282f525d87026ced338a73771b7105843a6d6e68d763ca8"
-    },
-    "model_full.stl": {
-      "bytes": 9220884,
-      "sha256": "3f1158598ac7cd6872f31c5d778d624bef6c927928254bfd0291610debd1ede3"
     },
     "model_notes.md": {
       "bytes": 568,
       "sha256": "906d1fc1a7f5fe028a0eb21a0dfd44746315372fe185d67a5db7afdcfca4eb63"
     },
     "parameters.json": {
-      "bytes": 6640,
-      "sha256": "441c931f1cb83902148d15fb49bfc23cc02e46a565caf61b8c45dd29786496b3"
+      "bytes": 6767,
+      "sha256": "c733ad35ca75ac949b39d767c27a75a00ea0ecf706aaf91a1ef18d516433ddc8"
     },
     "render_high.png": {
       "bytes": 3641626,
@@ -122,6 +114,7 @@
     "stl_units": "mm"
   },
   "dimension_status": "nominal_thread_dimensions",
+  "export_note": "STL intentionally omitted for threaded rods of 300 mm and longer; GLB, SCAD, Blender scenes and renders are provided.",
   "fingerprint": "64bd90a4e3925b2b4f08303a713d45295d4776d7d9f27914784c3e9838ed92f7",
   "generator": "metric_threaded_rod",
   "length_status": "user_specified_cut_length",
@@ -177,7 +170,7 @@
       "winding_consistent": true
     }
   },
-  "recipe_fingerprint": "4c8e419ae04d968272b1009d1a2920d41249b234db9b0e00c19f595278685e09",
+  "recipe_fingerprint": "8790b99bb098c93fba7c14114a9911ce816c4abe413613a2d21cb96d23756cdd",
   "schema_version": 1,
   "source_fingerprint": "e5ab348665415bf8e07a46610b0cc01e7b921a962811051999d2e01509bfc4d7",
   "sources": [
