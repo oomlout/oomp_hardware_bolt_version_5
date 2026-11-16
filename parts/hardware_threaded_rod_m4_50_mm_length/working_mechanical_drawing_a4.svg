@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="210.0000mm" height="297.0000mm"
+     viewBox="0 0 210.0000 297.0000">
+
+  <rect x="0" y="0" width="210.0000" height="297.0000" fill="white" stroke="none" />
+  <rect x="8.0000" y="8.0000" width="194.0000" height="281.0000" fill="none" stroke="#1A1A1A" stroke-width="0.35" />
+  <rect x="10.5000" y="10.5000" width="189.0000" height="276.0000" fill="none" stroke="#1A1A1A" stroke-width="0.7" />
+  <line x1="8.0000" y1="261.0000" x2="202.0000" y2="261.0000" stroke="#1A1A1A" stroke-width="0.35" />
+  <line x1="10.5000" y1="263.5000" x2="199.5000" y2="263.5000" stroke="#1A1A1A" stroke-width="0.7" />
+  <line x1="101.5000" y1="261.0000" x2="101.5000" y2="286.5000" stroke="#1A1A1A" stroke-width="0.35" />
+  <line x1="101.5000" y1="263.5000" x2="101.5000" y2="286.5000" stroke="#1A1A1A" stroke-width="0.7" />
+  <line x1="139.5000" y1="261.0000" x2="139.5000" y2="286.5000" stroke="#1A1A1A" stroke-width="0.35" />
+  <line x1="139.5000" y1="263.5000" x2="139.5000" y2="286.5000" stroke="#1A1A1A" stroke-width="0.7" />
+  <line x1="169.5000" y1="261.0000" x2="169.5000" y2="286.5000" stroke="#1A1A1A" stroke-width="0.35" />
+  <line x1="169.5000" y1="263.5000" x2="169.5000" y2="286.5000" stroke="#1A1A1A" stroke-width="0.7" />
+  <text x="13.5000" y="270.5000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="start" dominant-baseline="middle" fill="#555555" textLength="85.0000" lengthAdjust="spacingAndGlyphs">oomp_hardware_bolt_version_5</text>
+  <text x="13.5000" y="276.5000" font-family="Swis721 Blk BT, comic sans ms" font-size="5.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A" textLength="85.0000" lengthAdjust="spacingAndGlyphs">threaded_rod</text>
+  <text x="104.5000" y="271.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">Dimensions</text>
+  <text x="104.5000" y="276.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="3.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">220.0 × 307.0 mm</text>
+  <text x="142.5000" y="271.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">Scale</text>
+  <text x="142.5000" y="276.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="3.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">0.808× (80.8%)</text>
+  <text x="172.5000" y="271.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">Date</text>
+  <text x="172.5000" y="276.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="3.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">2026-11-16</text>
+  <text x="105.0000" y="5.5000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="middle" dominant-baseline="middle" fill="#AA4400">SCALE 80.8%  (220.0×307.0 mm original)</text>
+  <g transform="translate(16.1401,10.5000) scale(0.807818)">
+    <rect x="5.0000" y="5.0000" width="210.0000" height="297.0000"  fill="#ffffff" stroke="none" />
+      <rect x="9.0000" y="9.0000" width="202.0000" height="289.0000" rx="3.5000" ry="3.5000"  fill="none" stroke="#1A1A1A" stroke-width="0.8" />
+      <text x="19.0000" y="19.0000" font-family="sans-serif" font-size="3.2000" text-anchor="start" dominant-baseline="middle" fill="#888888">hardware_threaded_rod_m4_50_mm_length</text>
+      <text x="19.0000" y="42.0000" font-family="sans-serif" font-size="18.0000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1C1C1C">M4 x 50</text>
+      <text x="19.0000" y="54.0000" font-family="sans-serif" font-size="4.5000" text-anchor="start" dominant-baseline="middle" fill="#888888">HARDWARE / THREADED ROD</text>
+      <text x="19.0000" y="72.0000" font-family="sans-serif" font-size="4.0000" text-anchor="start" dominant-baseline="middle" fill="#888888">FULLY THREADED ROD</text>
+      <line x1="15.0000" y1="81.0000" x2="205.0000" y2="81.0000"  fill="#333333" stroke="#1A1A1A" stroke-width="0.5" />
+      <text x="19.0000" y="88.0000" font-family="sans-serif" font-size="5.2000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#111111">DIMENSIONS</text>
+      <text x="201.0000" y="88.0000" font-family="sans-serif" font-size="3.2000" text-anchor="end" dominant-baseline="middle" fill="#888888">SCHEMATIC VIEWS — DIMENSIONS IN mm</text>
+      <text x="57.5000" y="102.0000" font-family="sans-serif" font-size="3.2000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#1A1A1A">END VIEW</text>
+      <text x="162.5000" y="102.0000" font-family="sans-serif" font-size="3.2000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#1A1A1A">SIDE VIEW</text>
+      <circle cx="57.5000" cy="170.0000" r="2.0000"  fill="#eeeeee" stroke="#222222" stroke-width="0.3" />
+      <rect x="160.5000" y="145.0000" width="4.0000" height="50.0000"  fill="#eeeeee" stroke="#222222" stroke-width="0.3" />
+      <line x1="160.5000" y1="194.3000" x2="164.5000" y2="193.9500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="193.6000" x2="164.5000" y2="193.2500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="192.9000" x2="164.5000" y2="192.5500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="192.2000" x2="164.5000" y2="191.8500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="191.5000" x2="164.5000" y2="191.1500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="190.8000" x2="164.5000" y2="190.4500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="190.1000" x2="164.5000" y2="189.7500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="189.4000" x2="164.5000" y2="189.0500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="188.7000" x2="164.5000" y2="188.3500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="188.0000" x2="164.5000" y2="187.6500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="187.3000" x2="164.5000" y2="186.9500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="186.6000" x2="164.5000" y2="186.2500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="185.9000" x2="164.5000" y2="185.5500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="185.2000" x2="164.5000" y2="184.8500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="184.5000" x2="164.5000" y2="184.1500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="183.8000" x2="164.5000" y2="183.4500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="183.1000" x2="164.5000" y2="182.7500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="182.4000" x2="164.5000" y2="182.0500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="181.7000" x2="164.5000" y2="181.3500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="181.0000" x2="164.5000" y2="180.6500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="180.3000" x2="164.5000" y2="179.9500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="179.6000" x2="164.5000" y2="179.2500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="178.9000" x2="164.5000" y2="178.5500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="178.2000" x2="164.5000" y2="177.8500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="177.5000" x2="164.5000" y2="177.1500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="176.8000" x2="164.5000" y2="176.4500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="176.1000" x2="164.5000" y2="175.7500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="175.4000" x2="164.5000" y2="175.0500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="174.7000" x2="164.5000" y2="174.3500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="174.0000" x2="164.5000" y2="173.6500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="173.3000" x2="164.5000" y2="172.9500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="172.6000" x2="164.5000" y2="172.2500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="171.9000" x2="164.5000" y2="171.5500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="171.2000" x2="164.5000" y2="170.8500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="170.5000" x2="164.5000" y2="170.1500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="169.8000" x2="164.5000" y2="169.4500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="169.1000" x2="164.5000" y2="168.7500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="168.4000" x2="164.5000" y2="168.0500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="167.7000" x2="164.5000" y2="167.3500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="167.0000" x2="164.5000" y2="166.6500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="166.3000" x2="164.5000" y2="165.9500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="165.6000" x2="164.5000" y2="165.2500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="164.9000" x2="164.5000" y2="164.5500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="164.2000" x2="164.5000" y2="163.8500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="163.5000" x2="164.5000" y2="163.1500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="162.8000" x2="164.5000" y2="162.4500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="162.1000" x2="164.5000" y2="161.7500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="161.4000" x2="164.5000" y2="161.0500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="160.7000" x2="164.5000" y2="160.3500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="160.0000" x2="164.5000" y2="159.6500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="159.3000" x2="164.5000" y2="158.9500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="158.6000" x2="164.5000" y2="158.2500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="157.9000" x2="164.5000" y2="157.5500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="157.2000" x2="164.5000" y2="156.8500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="156.5000" x2="164.5000" y2="156.1500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="155.8000" x2="164.5000" y2="155.4500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="155.1000" x2="164.5000" y2="154.7500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="154.4000" x2="164.5000" y2="154.0500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="153.7000" x2="164.5000" y2="153.3500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="153.0000" x2="164.5000" y2="152.6500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="152.3000" x2="164.5000" y2="151.9500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="151.6000" x2="164.5000" y2="151.2500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="150.9000" x2="164.5000" y2="150.5500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="150.2000" x2="164.5000" y2="149.8500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="149.5000" x2="164.5000" y2="149.1500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="148.8000" x2="164.5000" y2="148.4500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="148.1000" x2="164.5000" y2="147.7500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="147.4000" x2="164.5000" y2="147.0500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="146.7000" x2="164.5000" y2="146.3500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="160.5000" y1="146.0000" x2="164.5000" y2="145.6500"  fill="#333333" stroke="#888888" stroke-width="0.1" />
+      <line x1="55.5000" y1="171.5000" x2="55.5000" y2="181.5000"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="59.5000" y1="171.5000" x2="59.5000" y2="181.5000"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="55.5000" y1="180.0000" x2="59.5000" y2="180.0000"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="55.5000" y1="181.5000" x2="55.5000" y2="178.5000"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="59.5000" y1="181.5000" x2="59.5000" y2="178.5000"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <text x="57.5000" y="183.2800" font-family="Arial, Helvetica, sans-serif" font-size="3.8000" text-anchor="middle" dominant-baseline="middle" fill="#1A1A1A">M4 / 4 mm</text>
+      <line x1="166.0000" y1="195.0000" x2="175.0000" y2="195.0000"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="166.0000" y1="145.0000" x2="175.0000" y2="145.0000"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="173.5000" y1="195.0000" x2="173.5000" y2="145.0000"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="172.0000" y1="195.0000" x2="175.0000" y2="195.0000"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <line x1="172.0000" y1="145.0000" x2="175.0000" y2="145.0000"  fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" />
+      <text x="176.7800" y="170.0000" font-family="Arial, Helvetica, sans-serif" font-size="3.8000" text-anchor="middle" dominant-baseline="middle" fill="#1A1A1A" transform="rotate(-90.000,176.7800,170.0000)">50 mm OVERALL</text>
+      <line x1="15.0000" y1="230.0000" x2="205.0000" y2="230.0000"  fill="#333333" stroke="#1A1A1A" stroke-width="0.5" />
+      <text x="19.0000" y="241.0000" font-family="sans-serif" font-size="5.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#111111">M4</text>
+      <text x="19.0000" y="248.5000" font-family="sans-serif" font-size="3.0000" text-anchor="start" dominant-baseline="middle" fill="#888888">THREAD</text>
+      <text x="79.6667" y="241.0000" font-family="sans-serif" font-size="5.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#111111">0.7 mm</text>
+      <text x="79.6667" y="248.5000" font-family="sans-serif" font-size="3.0000" text-anchor="start" dominant-baseline="middle" fill="#888888">PITCH</text>
+      <text x="140.3333" y="241.0000" font-family="sans-serif" font-size="5.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#111111">50 mm</text>
+      <text x="140.3333" y="248.5000" font-family="sans-serif" font-size="3.0000" text-anchor="start" dominant-baseline="middle" fill="#888888">OVERALL LENGTH</text>
+      <line x1="15.0000" y1="256.0000" x2="205.0000" y2="256.0000"  fill="#333333" stroke="#1A1A1A" stroke-width="0.3" />
+      <text x="19.0000" y="264.0000" font-family="sans-serif" font-size="3.2000" text-anchor="start" dominant-baseline="middle" fill="#888888">NOMINAL METRIC COARSE THREAD</text>
+      <text x="19.0000" y="273.0000" font-family="sans-serif" font-size="3.0000" text-anchor="start" dominant-baseline="middle" fill="#aaaaaa">hardware_threaded_rod_m4_50_mm_length</text>
+      <line x1="15.0000" y1="282.0000" x2="205.0000" y2="282.0000"  fill="#333333" stroke="#1A1A1A" stroke-width="0.3" />
+      <text x="19.0000" y="290.0000" font-family="sans-serif" font-size="2.8000" text-anchor="start" dominant-baseline="middle" fill="#888888">OOMLOUT</text>
+      <text x="201.0000" y="290.0000" font-family="sans-serif" font-size="2.8000" text-anchor="end" dominant-baseline="middle" fill="#888888">oom.lt/eedd4e</text>
+  </g>
+</svg>

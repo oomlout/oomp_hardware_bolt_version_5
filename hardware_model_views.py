@@ -137,22 +137,30 @@ def svg_lines(mesh, p, variant, view, path, visibility_size=1024):
                 np.clip(index[:, :, 0]+dx, 0, visibility_size-1)])
     visible = (endpoints[:, :, 2] >= nearby_min-1/scale).all(axis=1)
     fragments.extend(endpoints[visible, :, :2])
-    for segment, length in zip(segments[~short], lengths[~short]):
-        count = max(2, math.ceil(length/2)+1)
-        samples = segment[0]+np.linspace(0, 1, count)[:, None]*(segment[1]-segment[0])
-        pos = samples[:, :2]*scale+offset
-        index = np.clip(np.floor(pos).astype(int), 0, visibility_size-1)
-        # A contour can fall between pixel centres. Sample the surrounding
-        # footprint so a nearer interior pixel cannot erase the silhouette.
-        nearby = np.stack([depth[np.clip(index[:, 1]+dy, 0, visibility_size-1),
-                                   np.clip(index[:, 0]+dx, 0, visibility_size-1)]
-                           for dy in [-1, 0, 1] for dx in [-1, 0, 1]])
-        visible = samples[:, 2] >= nearby.min(axis=0)-1/scale
-        # Merge contiguous visible samples back into one vector segment.
-        mask = visible[:-1] & visible[1:]
-        starts = np.flatnonzero(mask & ~np.r_[False, mask[:-1]])
-        stops = np.flatnonzero(mask & ~np.r_[mask[1:], False])+1
-        fragments.extend((samples[a, :2], samples[b, :2]) for a,b in zip(starts, stops))
+    # End-on views of metre stock contain many equal-length helix segments.
+    # Batch equal sample counts while retaining the exact visibility and
+    # contiguous-fragment rules; cap temporary arrays at 65536 sample points.
+    long_segments = segments[~short]
+    counts = np.ceil(lengths[~short]/2).astype(int)+1
+    for count in np.unique(counts):
+        group = long_segments[counts == count]
+        batch_size = max(1, 65536//int(count))
+        fractions = np.linspace(0, 1, count)[None, :, None]
+        for start in range(0, len(group), batch_size):
+            batch = group[start:start+batch_size]
+            samples = batch[:, 0, None, :]+fractions*(batch[:, 1, None, :]-batch[:, 0, None, :])
+            index = np.clip(np.floor(samples[:, :, :2]*scale+offset).astype(int), 0, visibility_size-1)
+            nearby_min = np.full(index.shape[:2], np.inf)
+            for dy in [-1, 0, 1]:
+                for dx in [-1, 0, 1]:
+                    nearby_min = np.minimum(nearby_min, depth[
+                        np.clip(index[:, :, 1]+dy, 0, visibility_size-1),
+                        np.clip(index[:, :, 0]+dx, 0, visibility_size-1)])
+            visible = samples[:, :, 2] >= nearby_min-1/scale
+            mask = visible[:, :-1] & visible[:, 1:]
+            begins = np.nonzero(mask & ~np.pad(mask[:, :-1], ((0,0),(1,0))))
+            ends = np.nonzero(mask & ~np.pad(mask[:, 1:], ((0,0),(0,1))))
+            fragments.extend(zip(samples[begins[0], begins[1], :2], samples[ends[0], ends[1]+1, :2]))
     pad = max(.25, p['characteristic_dimension_mm']*.08)
     lower, upper = bounds[0]-pad, bounds[1]+pad
     width, height = upper-lower

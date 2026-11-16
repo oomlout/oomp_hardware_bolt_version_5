@@ -14,13 +14,14 @@
   <line x1="139.5000" y1="263.5000" x2="139.5000" y2="286.5000" stroke="#1A1A1A" stroke-width="0.7" />
   <line x1="169.5000" y1="261.0000" x2="169.5000" y2="286.5000" stroke="#1A1A1A" stroke-width="0.35" />
   <line x1="169.5000" y1="263.5000" x2="169.5000" y2="286.5000" stroke="#1A1A1A" stroke-width="0.7" />
+  <text x="13.5000" y="270.5000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="start" dominant-baseline="middle" fill="#555555" textLength="85.0000" lengthAdjust="spacingAndGlyphs">oomp_hardware_bolt_version_5</text>
   <text x="13.5000" y="276.5000" font-family="Swis721 Blk BT, comic sans ms" font-size="5.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A" textLength="85.0000" lengthAdjust="spacingAndGlyphs">threaded_rod</text>
   <text x="104.5000" y="271.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">Dimensions</text>
   <text x="104.5000" y="276.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="3.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">220.0 × 307.0 mm</text>
   <text x="142.5000" y="271.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">Scale</text>
   <text x="142.5000" y="276.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="3.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">0.808× (80.8%)</text>
   <text x="172.5000" y="271.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">Date</text>
-  <text x="172.5000" y="276.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="3.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">2026-11-15</text>
+  <text x="172.5000" y="276.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="3.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">2026-11-16</text>
   <text x="105.0000" y="5.5000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="middle" dominant-baseline="middle" fill="#AA4400">SCALE 80.8%  (220.0×307.0 mm original)</text>
   <g transform="translate(16.1401,10.5000) scale(0.807818)">
     <rect x="5.0000" y="5.0000" width="210.0000" height="297.0000"  fill="#ffffff" stroke="none" />
@@ -31,7 +32,7 @@
       <text x="19.0000" y="72.0000" font-family="sans-serif" font-size="4.0000" text-anchor="start" dominant-baseline="middle" fill="#888888">FULLY THREADED ROD</text>
       <line x1="15.0000" y1="81.0000" x2="205.0000" y2="81.0000"  fill="#333333" stroke="#1A1A1A" stroke-width="0.5" />
       <text x="19.0000" y="88.0000" font-family="sans-serif" font-size="5.2000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#111111">DIMENSIONS</text>
-      <text x="201.0000" y="88.0000" font-family="sans-serif" font-size="3.2000" text-anchor="end" dominant-baseline="middle" fill="#888888">1:1 RATIO  —  PRINT AT 100%</text>
+      <text x="201.0000" y="88.0000" font-family="sans-serif" font-size="3.2000" text-anchor="end" dominant-baseline="middle" fill="#888888">SCHEMATIC VIEWS — DIMENSIONS IN mm</text>
       <text x="57.5000" y="102.0000" font-family="sans-serif" font-size="3.2000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#1A1A1A">END VIEW</text>
       <text x="162.5000" y="102.0000" font-family="sans-serif" font-size="3.2000" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#1A1A1A">SIDE VIEW</text>
       <circle cx="57.5000" cy="170.0000" r="1.5000"  fill="#eeeeee" stroke="#222222" stroke-width="0.3" />

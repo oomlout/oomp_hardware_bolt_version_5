@@ -25,6 +25,8 @@ def create_generic(**kwargs):
         #create it
         os.makedirs(directory_source)
     directories = os.listdir(directory_source)
+    import fnmatch
+    directories = [name for name in directories if fnmatch.fnmatchcase(name, kwargs.get('filter') or '*')]
     for directory  in directories:
         directory_full = f"{directory_source}/{directory}"
         filenames = os.listdir(f"{directory_full}")
@@ -194,6 +196,12 @@ def create_generic(**kwargs):
 
 
     oomp.add_parts(parts, **kwargs)
+    from pathlib import Path
+    for part in parts:
+        if part.get('taxonomy_2') == 'threaded_rod':
+            target = Path('parts') / part['name'] / 'label_drawer.svg'
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_text(working_label_drawer.render(part), encoding='utf-8')
 
     #dd file copy
     for part in parts:

@@ -214,7 +214,7 @@ def test_population_and_every_saved_display_recipe():
     import working_oomp_populate as population
     with patch.object(population,'write_extras') as writer:
         population.main()
-    assert sum('three_d_model_details' in p for p in writer.call_args.args[0])==207
+    assert sum('three_d_model_details' in p for p in writer.call_args.args[0])==254
     supported=0
     for path in (ROOT/'parts').glob('*/working.yaml'):
         part=yaml.safe_load(path.read_text(encoding='utf-8'))
@@ -226,7 +226,7 @@ def test_population_and_every_saved_display_recipe():
             mesh=build_model(r['parameters'],'display',r['variants']['display'])
             assert mesh.body_count==r['parameters']['expected_components'] and mesh.is_watertight
             assert all('url' in s or 'path' in s for s in r['sources'])
-    assert supported==207
+    assert supported==254
 
 
 @pytest.mark.skipif(os.name!='nt',reason='Windows shortcut checks')
@@ -266,8 +266,8 @@ def test_metadata_is_lightweight_and_pipeline_stage_can_be_disabled():
     import working
     with patch('working_three_d_model.main') as stage:
         working.run(run_oomp_populate=False,run_oomp=False,run_scad=False,run_svg=False,run_action=False,
-                    run_three_d_model=False)
+                    run_three_d_model=False,run_readme=False)
         stage.assert_not_called()
         working.run(run_oomp_populate=False,run_oomp=False,run_scad=False,run_svg=False,run_action=False,
-                    run_three_d_model=True,model_jobs=3)
+                    run_three_d_model=True,model_jobs=3,run_readme=False)
         assert stage.call_args.kwargs['model_jobs']==3

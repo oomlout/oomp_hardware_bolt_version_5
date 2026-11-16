@@ -105,6 +105,8 @@ def drive_symbol(kind, drive, variant=""):
 
 def diagram(kind, style=""):
     """Symbolic side profiles; nuts and washers use front views."""
+    if kind == 'threaded_rod':
+        return '<path d="M2 5H18V9H2Z ' + ' '.join(f'M{x} 5L{x-1} 9' for x in range(4,18,2)) + '"/>'
     if kind == "washer":
         return '<circle cx="10" cy="7" r="5.5"/><circle cx="10" cy="7" r="2.5"/>'
     if kind == "nut":
@@ -143,7 +145,7 @@ def layout(part):
     """Normalize both taxonomies without confusing a drive or material with size."""
     values = [str(part.get(f"taxonomy_{i}") or "") for i in range(1, 16)]
     kind = values[1]
-    codes = {"bolt": "BO", "set_screw": "SS", "screw": "SC", "nut": "NU", "washer": "WA"}
+    codes = {"bolt": "BO", "set_screw": "SS", "screw": "SC", "nut": "NU", "washer": "WA", "threaded_rod": "TR"}
     if kind not in codes:
         raise ValueError(f"Unsupported drawer-label hardware type: {kind!r}")
     thread = next((v for v in values if re.fullmatch(r"m\d+(?:_\d+)?(?:_diameter)?", v)), "")
@@ -152,7 +154,7 @@ def layout(part):
     thread = thread.removesuffix("_diameter").replace("_", ".").upper()
     length_token = next((v for v in values if re.fullmatch(r"\d+(?:_\d+)?_mm_length", v)), "")
     length = length_token.removesuffix("_mm_length").replace("_", ".")
-    if kind in {"bolt", "set_screw", "screw"} and not length:
+    if kind in {"bolt", "set_screw", "screw", "threaded_rod"} and not length:
         raise ValueError(f"Missing fastener length: {values}")
 
     names = {"socket_cap": "Socket cap screw", "socket_cap_low_head": "Low head socket cap screw",
@@ -170,7 +172,7 @@ def layout(part):
         if values[4]:
             details.append(readable(values[4]).capitalize())
     else:
-        name = {"bolt": "Bolt", "set_screw": "Set screw", "nut": "Nut", "washer": "Washer"}[kind]
+        name = {"bolt": "Bolt", "set_screw": "Set screw", "nut": "Nut", "washer": "Washer", "threaded_rod": "Threaded rod"}[kind]
         extras = [v for v in values[3:] if v and v != length_token]
         if kind in {"nut", "washer"} and extras:
             variant = extras.pop(0)

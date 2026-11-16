@@ -27,6 +27,7 @@ FAMILIES = {
 LEAD_IMAGES = (
     ('hardware_set_screw_m6_25_mm_length', 'm6x25-set-screw.png'),
     ('hardware_nut_m3', 'm3-nut.png'),
+    ('hardware_threaded_rod_m8_50_mm_length', 'm8x50-threaded-rod.png'),
 )
 
 

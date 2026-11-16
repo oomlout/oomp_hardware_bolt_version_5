@@ -143,6 +143,8 @@ def render(folder, data, recipe, template, raw_yaml, images):
             dimensions.append(f'| {label} | {text(number(p[key]))} |')
     if p.get('length_convention'):
         dimensions += ['', 'Length convention: ' + text(p['length_convention']) + '.']
+    if recipe.get('export_note'):
+        dimensions += ['', text(recipe['export_note'])]
     identifiers = []
     if data.get('md5_6_alpha'):
         identifiers.append('**Short code:** `' + text(data['md5_6_alpha']) + '`')
@@ -170,7 +172,10 @@ def render(folder, data, recipe, template, raw_yaml, images):
                 '[Source working.yaml](working.yaml)\n\n' + fenced(raw_yaml, 'yaml') + '\n\n</details>')
     downloads = []
     for path, label in [('three_d_model/model_full.glb', 'Full-detail 3D model (GLB)'),
+                        ('three_d_model/model_display.glb', 'Simplified 3D model (GLB)'),
                         ('three_d_model/model_full.stl', 'Full-detail mesh (STL)'),
+                        ('3dpr.scad', 'Parametric model (OpenSCAD)'),
+                        ('three_d_model/studio.blend', 'Editable studio scene (Blender)'),
                         ('working_mechanical_drawing_a4.pdf', 'Dimensioned drawing (PDF)'),
                         ('three_d_model/full/', 'Full-detail view drawings'),
                         ('label_drawer.svg', 'Drawer label (SVG)')]:

@@ -2,7 +2,7 @@
   "artifacts": {
     "display/back.svg": {
       "bytes": 3474,
-      "sha256": "745f7d514e8c51651abb8479fe63514d613b97081dea3c2df7cd16148c8588fb"
+      "sha256": "15ef1c5df8331ebe0fa4d8bc457cff093351a88ff65b0ff362e1dd0d04ecbdf3"
     },
     "display/bottom.svg": {
       "bytes": 3123,
@@ -10,23 +10,23 @@
     },
     "display/front.svg": {
       "bytes": 3477,
-      "sha256": "0797a39caba19afb6f7397bcf30155de0ad69394397d1cd9b3e51e014145dfbe"
+      "sha256": "4829d4e1f62150ec2db6e65bf1e92dab4852624ebec2b7347cdec8e796e120c7"
     },
     "display/isometric.svg": {
       "bytes": 3976,
-      "sha256": "c9a6ef821fb69eaec33d50c1b4177e129bcd4b94e0af2187f9bd0445f7c72fa4"
+      "sha256": "fe9cde2989e0df1d3a923d78043a4407dbb8a4d3fae379eb9b9e4c4723bbe797"
     },
     "display/left.svg": {
       "bytes": 3475,
-      "sha256": "832315faa24ebe79100387496863ed04bca63d2389cfceb88a530ad28a213578"
+      "sha256": "999f32b3c76853954b0314590b65c47d1793fd6566e9c7b40c1422047bf11001"
     },
     "display/right.svg": {
       "bytes": 3468,
-      "sha256": "38a3ab06614fde13530df4a9f20ca443724e1d3e89cd32fa51d9b709254db652"
+      "sha256": "96ea453ed3a5eb69e1de9a5fe1ee26834491cfb6b08dd6285235f97ef507fa11"
     },
     "display/top.svg": {
       "bytes": 3116,
-      "sha256": "1ca1824660a448b47ae22274dfc121e77c0290710594a75da40dad035aae09f1"
+      "sha256": "6e7bf77418c9eec424af3418d48372ef4bcfbf4d87d802532508488a79978e3e"
     },
     "full/back.svg": {
       "bytes": 3796116,
@@ -34,7 +34,7 @@
     },
     "full/bottom.svg": {
       "bytes": 4524266,
-      "sha256": "ada71804718693a9ea0d7c045da0c7c7325c18a608474858975718d12b5d6e0a"
+      "sha256": "ee3ecf07508669cc96d255c61371e95b410a44e9098050a24a71558089d82650"
     },
     "full/front.svg": {
       "bytes": 3795657,
@@ -54,11 +54,11 @@
     },
     "full/top.svg": {
       "bytes": 4525417,
-      "sha256": "e10dc8c43ac06dcd3475eeac8ecabe5ddfd5b66759893520d7bdb97313b302d6"
+      "sha256": "47ea6600216c6b853faf11fd3c2193879fb0f6636921c2d105b54fde9a73c7c1"
     },
     "model.py": {
-      "bytes": 24014,
-      "sha256": "0a4622db1cf1ddca56356b7a5a1969518a62220b0bc489b8b17aeca7478f6f86"
+      "bytes": 24133,
+      "sha256": "11771aae91af544974bb27b37cc8a6e68e8dfaab3af4fa22c4fe82577ac0a5a4"
     },
     "model_display.glb": {
       "bytes": 5564,
@@ -89,28 +89,28 @@
       "sha256": "599229be31dcdef85da5ea15f129ee790993d6b1779d576fe3ca600f49893d0a"
     },
     "render_low.png": {
-      "bytes": 217000,
-      "sha256": "8a3993dd2bbc97062fc573252033c816f2b4edec5498a82a479ca16154e7b5d1"
+      "bytes": 217068,
+      "sha256": "07e5a0e33e554283017faeae5e5a7305d3640a0853fe5bf2189047e7a2b2f4df"
     },
     "render_product_high.png": {
-      "bytes": 3468036,
-      "sha256": "1871f453f47fd756479392b53089a919872e3f8806ee3db9a3dcfece2cf4d27d"
+      "bytes": 3468012,
+      "sha256": "115c65600cb7106c3cd5fc740051ab8a6bec6fa11eb53af8f9ea3a09be659b53"
     },
     "render_product_low.png": {
-      "bytes": 217595,
-      "sha256": "8e36696b356d0b86b27fc82ee015c97b9de67d611718123bcf529f28ced4ce50"
+      "bytes": 217568,
+      "sha256": "1ca6daa0b312fcd02312a2e9e0f2d04747c5c7e890bdde81301e46c53fbb0f78"
     },
     "render_scene.json": {
-      "bytes": 15224,
-      "sha256": "6eb34cf56f17769b3cf90760254941f55bdae807d6eefcecc799d0ae44038e83"
+      "bytes": 15124,
+      "sha256": "c8ee433fe7cd2fc4d6799e2a03780a9d35d20823c13bfb2de5f86ef6bfc7eaac"
     },
     "requirements.txt": {
       "bytes": 159,
       "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
     },
     "studio.blend": {
-      "bytes": 8388500,
-      "sha256": "2c79a6a289d56414942566e72e684f9eb370380ab12f50760aa77ebd3151141e"
+      "bytes": 8388501,
+      "sha256": "328197d64038c1978489a6aba59a60489f1947b499edf7d83ca003bc704907a7"
     }
   },
   "coordinate_system": {
@@ -122,7 +122,7 @@
     "stl_units": "mm"
   },
   "dimension_status": "nominal_thread_dimensions",
-  "fingerprint": "4fa0f525aead083efdb8a73c6b8e474a167dd5a670a225ea7c3aaa851e7b63cd",
+  "fingerprint": "d28f1f997bd981617df7483c047f35e61dbd84d2d7bf47a642f5cf92659f0825",
   "generator": "metric_threaded_rod",
   "length_status": "user_specified_cut_length",
   "models": {

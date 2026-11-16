@@ -36,8 +36,8 @@ complete metadata, section structure and image provenance. It records coverage
 in `presentation/part_readme_validation.json`; it does not validate engineering
 dimensions or fetch the recorded external sources.
 
-The lead images are 512-pixel reductions of the full-detail M6 × 25 mm set-screw
-and M3 hex-nut renders. `working_readme.py` regenerates them with Pillow directly
+The lead images are 512-pixel reductions of the full-detail M6 × 25 mm set-screw,
+M3 hex-nut and M8 × 50 mm threaded-rod renders. `working_readme.py` regenerates them with Pillow directly
 from each part's `three_d_model/render_high.png`, preserving external and internal
 thread detail. It never substitutes simplified low-resolution renders or changes
 the originals. The clickable previews open the full-resolution originals.
@@ -123,6 +123,28 @@ Programmatic full builds accept `run_only_yaml=False` to skip the export, or
 ![M8 coupling nut, product view](./parts/hardware_nut_m8_coupling/three_d_model/render_product_low.png)
 
 ## Quick Start
+
+### Threaded rods
+
+`working_oomp_populate_threaded_rod.py` supplies the rod matrix to the normal
+population pipeline, using `source_file/standards/threaded_rod.yaml` for pitches.
+The M3, M4, M5, M6 and M8 series each contain 50, 100, 150, 300 and 1000 mm
+overall lengths. Existing smaller and larger rod series are retained.
+
+Rods of 300 mm and longer use `model_formats: [glb]`: no legacy or full/display
+STLs are created, including during standalone regeneration. Existing generated
+STLs are removed when those bundles are refreshed. GLB models, editable SCAD,
+Blender scenes, SVG/PDF drawings and all four studio renders remain available.
+
+```powershell
+python -X utf8 action_make_all.py --filter "hardware_threaded_rod_m[34568]_*" --jobs 2 --skip-actions
+```
+
+`make all` runs the same entry point. Add `--force` to the Python command (or
+`ARGS="--force"` to Make) to refresh existing renders. `working_readme.py`
+publishes the new-style navigation index, every part README and the front-page
+examples from the templates in `presentation/`; do not hand-edit generated pages.
+
 
 If you only want to browse the generated outputs, start in:
 

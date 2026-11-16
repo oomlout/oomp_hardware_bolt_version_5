@@ -40,7 +40,10 @@ faces = concat(
 polyhedron(points,faces,convexity=10);
 '''
     (folder/'3dpr.scad').write_text(source, encoding='utf-8')
-    if generate_stl:
+    if p['length_mm'] >= 300:
+        # Remove only this generator's obsolete STL; preserve all other assets.
+        (folder/'3dpr.stl').unlink(missing_ok=True)
+    elif generate_stl and 'stl' in recipe['model_formats']:
         from hardware_model_geometry import build_model, export_mesh
         mesh = build_model(p, 'full', recipe['variants']['full'])
         export_mesh(mesh, folder/'3dpr.stl', p, recipe['material'])

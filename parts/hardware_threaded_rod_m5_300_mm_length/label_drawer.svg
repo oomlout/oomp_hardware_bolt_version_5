@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="38.1mm" height="25.4mm" viewBox="0 0 38.1 25.4" role="img" aria-labelledby="title">
+  <title id="title">Threaded rod / M5 / 300 mm</title>
+  <desc>Drawer label, 1.5 by 1 inch. Diagram upper left; thread lower left; type description at the top right with length in millimetres below. Print at 100% actual size. Diagram is symbolic, not to scale.</desc>
+  <rect width="38.1" height="25.4" fill="#ffffff"/>
+  <g font-family="Arial, Liberation Sans, sans-serif" fill="#000000">
+    <rect x="0.8" y="0.8" width="11.8" height="23.8" rx="0.5" fill="#000000"/>
+    <svg id="hardware-diagram" x="1.5" y="1.6" width="10.4" height="7.3" viewBox="0 0 20 14">
+      <g fill="none" stroke="#ffffff" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round">
+        <path d="M2 5H18V9H2Z M4 5L3 9 M6 5L5 9 M8 5L7 9 M10 5L9 9 M12 5L11 9 M14 5L13 9 M16 5L15 9"/>
+      </g>
+    </svg>
+
+    <text id="thread" x="6.7" y="21.8" fill="#ffffff" text-anchor="middle" font-size="6.5" font-weight="700">M5</text>
+
+    <text id="length" x="15.853334375" y="14.8" font-size="7.8" font-weight="700">300<tspan dx="0.8" font-size="2.8">mm</tspan></text>
+
+
+    <text id="name-1" x="14" y="4.2" font-size="3.2" font-weight="700">Threaded rod</text>
+
+
+    <text id="bip39" x="14" y="24.1" font-size="2.35" font-weight="700">expect color lab</text>
+  </g>
+</svg>

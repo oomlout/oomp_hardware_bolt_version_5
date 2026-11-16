@@ -13,7 +13,8 @@ def make_scad(**kwargs):
     typ = scad_help.get_typ(**kwargs)
     oomp_mode = "project"
     #oomp_mode = "oobb"
-    filt = ""
+    filt = kwargs.get('filter') or '*'
+    kwargs['part_filter'] = filt
     build_variables = scad_help.get_build_variables(typ, filter=filt)
     if True:
         kwargs["filter"] = build_variables["filter"]
@@ -25,11 +26,15 @@ def make_scad(**kwargs):
         kwargs["oomp_run"] = build_variables["oomp_run"]
     parts = get_parts(kwargs, oomp_mode)
     
-    kwargs["parts"] = parts
+    import hardware_rod_scad
+    for part in parts:
+        if part.get('taxonomy_2') == 'threaded_rod':
+            hardware_rod_scad.generate(part, generate_stl=kwargs.get('generate_stl', False))
+    kwargs["parts"] = [part for part in parts if part.get('taxonomy_2') != 'threaded_rod']
 
     scad_help.make_parts(**kwargs)
 
-    if kwargs["navigation"]:
+    if kwargs["navigation"] and filt == '*':
         scad_help.generate_navigation(sort=scad_help.get_navigation_sort())
 
 def get_parts(kwargs, oomp_mode):
@@ -41,6 +46,9 @@ def get_parts(kwargs, oomp_mode):
         return parts
 
     for folder in os.listdir(parts_directory):
+        import fnmatch
+        if not fnmatch.fnmatchcase(folder, kwargs.get('part_filter') or '*'):
+            continue
         folder_path = os.path.join(parts_directory, folder)
         if not os.path.isdir(folder_path):
             continue

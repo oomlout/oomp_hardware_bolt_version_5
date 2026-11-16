@@ -19,7 +19,8 @@ def make_svg(**kwargs):
     typ = svg_help.get_typ(**kwargs)
     oomp_mode = "project"
     #oomp_mode = "oobb"
-    filt = ""
+    filt = kwargs.get('filter') or '*'
+    kwargs['part_filter'] = filt
     build_variables = svg_help.get_build_variables(typ, filter=filt)
     if True:
         kwargs["filter"] = build_variables["filter"]
@@ -33,7 +34,7 @@ def make_svg(**kwargs):
 
     svg_help.make_parts(**kwargs)
 
-    if kwargs["navigation"]:
+    if kwargs["navigation"] and filt == '*':
         oobb_style = False
         sort = svg_help.get_navigation_sort(oobb_style=oobb_style)
         svg_help.generate_navigation(sort=sort)
@@ -48,6 +49,9 @@ def get_parts(kwargs, oomp_mode):
         return parts
 
     for folder in os.listdir(parts_directory):
+        import fnmatch
+        if not fnmatch.fnmatchcase(folder, kwargs.get('part_filter') or '*'):
+            continue
         folder_path = os.path.join(parts_directory, folder)
         if not os.path.isdir(folder_path):
             continue
@@ -287,6 +291,61 @@ def get_bolt(thing, **kwargs):
 
 def get_set_screw(thing, **kwargs):
     get_bolt(thing, **kwargs)
+
+
+def get_threaded_rod(thing, **kwargs):
+    """True-size end and side views with schematic thread marks."""
+    d, length, pitch = (float(kwargs[k]) for k in ['diameter_mm', 'length_mm', 'pitch_mm'])
+    pos = kwargs.get('pos', [0, 0, 0])
+    opsvg.se(thing, shape='circle', r=d/2, color='#eeeeee', stroke='#222222',
+             stroke_width=.15, pos=[pos[0]-d-2, pos[1], 0])
+    opsvg.se(thing, shape='rect', size=[d, length, 0], color='#eeeeee',
+             stroke='#222222', stroke_width=.15, pos=pos)
+    for i in range(1, int(length/pitch)):
+        y = -length/2+i*pitch
+        opsvg.se(thing, shape='line', p1=[-d/2, y], p2=[d/2, min(length/2, y+pitch/2)],
+                 color='#777777', stroke_width=.06, pos=pos)
+
+
+def get_threaded_rod_drawing(thing, **kwargs):
+    """Established drawing sheet with an explicit axial break for long stock."""
+    import svg_template
+    first_component = len(thing.get('svg_components', []))
+    d, length, pitch = (float(kwargs[k]) for k in ['diameter_mm', 'length_mm', 'pitch_mm'])
+    shown = min(length, 60.)
+    def draw(thing, **layout):
+        text, pos, dim = layout['text_at_fn'], layout['abs_pos_fn'], layout['dim_fn']
+        x, y, end_x = layout['side_cx'], layout['view_cy'], layout['front_cx']
+        scale = layout['view_scale']
+        width, height = d*scale, shown*scale
+        text(end_x, layout['view_label_y'], 'END VIEW', size=3.2, bold=True)
+        text(x, layout['view_label_y'], 'SIDE VIEW', size=3.2, bold=True)
+        opsvg.se(thing, shape='circle', r=width/2, color='#eeeeee', stroke='#222222', stroke_width=.3, pos=pos(end_x,y))
+        opsvg.se(thing, shape='rect', size=[width,height,0], color='#eeeeee', stroke='#222222', stroke_width=.3, pos=pos(x,y))
+        for i in range(1, int(shown/pitch)):
+            yy = -height/2+i*pitch*scale
+            opsvg.se(thing, shape='line', p1=[-width/2,yy], p2=[width/2,min(height/2,yy+pitch*scale/2)], color='#888888', stroke_width=.1, pos=pos(x,y))
+        if length > shown:
+            opsvg.se(thing, shape='rect', size=[width+2,5,0], color='white', stroke='none', pos=pos(x,y))
+            for yy in [-2.,2.]:
+                opsvg.se(thing, shape='line', p1=[-width/2-1,yy-1], p2=[width/2+1,yy+1], color='#222222', stroke_width=.3, pos=pos(x,y))
+            text(0, layout['view_area_bot']+7, 'AXIAL VIEW SHORTENED AT BREAK', size=3, muted=True)
+        dim(end_x,y,p1=[-width/2,0],p2=[width/2,0],offset=-width/2-8,
+            text=f'M{d:g} / {d:g} mm',direction='horizontal')
+        dim(x,y,p1=[width/2,-height/2],p2=[width/2,height/2],offset=9,
+            text=f'{length:g} mm OVERALL',direction='vertical')
+    svg_template.mech_drawing_page(thing, draw_fn=draw, hardware_type='rod',
+        id_mm=d, af_mm=d, length_mm=shown, head_height_mm=0,
+        part_title=f'M{d:g} x {length:g}', part_series='FULLY THREADED ROD',
+        part_category='HARDWARE / THREADED ROD',
+        part_code=('M2.7 PITCH 0.45 mm: VISUAL APPROXIMATION' if d == 2.7 else 'NOMINAL METRIC COARSE THREAD'),
+        part_name=thing.get('id',''),
+        summary_cols=[(f'M{d:g}','THREAD'),(f'{pitch:g} mm','PITCH'),(f'{length:g} mm','OVERALL LENGTH')])
+    # The shared sheet assumes a scale drawing. Rod views can contain an axial
+    # break and the A4 exporter rescales the sheet, so use written dimensions.
+    for component in thing['svg_components'][first_component:]:
+        if component.get('shape') == 'text' and 'PRINT AT 100%' in component.get('text', ''):
+            component['text'] = 'SCHEMATIC VIEWS — DIMENSIONS IN mm'
 
 
 def get_fill_in_the_blanks(thing, **kwargs):

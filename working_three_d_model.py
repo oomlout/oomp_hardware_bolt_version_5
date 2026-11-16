@@ -16,7 +16,7 @@ from hardware_model_render import upgrade_presentation
 
 ROOT = Path(__file__).resolve().parent
 SCHEMA_VERSION = 1
-from hardware_model_recipe import add_definition, definition, GENERATOR_NAMES
+from hardware_model_recipe import add_definition, definition, GENERATOR_NAMES, apply_export_policy
 
 
 def write_recipe(path, recipe):
@@ -44,6 +44,7 @@ def _fingerprint(recipe):
                  'hardware_model_render.py', 'hardware_model_blender.py', 'requirements-three-d-model.txt']:
         digest.update((ROOT/name).read_bytes())
     from hardware_model_render import renderer_identity
+    digest.update((ROOT/'source_file/standards/threaded_rod.yaml').read_bytes())
     digest.update(json.dumps(renderer_identity(), sort_keys=True).encode())
     from importlib.metadata import version
     for dependency in ['numpy', 'scipy', 'trimesh', 'manifold3d', 'Pillow', 'numba', 'PyYAML']:
@@ -63,14 +64,15 @@ def assets_exist(recipe, folder):
 
 def generate_assets(recipe, folder, force=False):
     """Fill missing outputs, preserving existing renders unless force is requested."""
-    recipe = upgrade_presentation(recipe)
+    recipe = apply_export_policy(upgrade_presentation(recipe))
     if recipe.get('schema_version') != SCHEMA_VERSION or recipe.get('generator') not in GENERATOR_NAMES.values():
         raise ValueError('Unsupported model recipe schema or generator')
-    if recipe.get('output_folder') != 'three_d_model' or recipe.get('model_formats') != ['stl', 'glb']:
+    if recipe.get('output_folder') != 'three_d_model' or recipe.get('model_formats') not in (['stl', 'glb'], ['glb']):
         raise ValueError('Unsupported output folder or model formats')
     if set(recipe['variants']) != {'full', 'display'}:
         raise ValueError('Both full and display variants are required')
     if not force and assets_exist(recipe, folder):
+        reconcile_export_policy(recipe, folder)
         return False
     from hardware_model_geometry import build_model, export_mesh, resolve_parameters, GENERATORS
     from hardware_model_views import export_views, VIEWS
@@ -118,10 +120,11 @@ def generate_assets(recipe, folder, force=False):
             # Verify serialized unit/axis conversion rather than trusting export code.
             import numpy as np
             import trimesh
-            stl = trimesh.load(stage/f'model_{variant}.stl')
+            if 'stl' in recipe['model_formats']:
+                stl = trimesh.load(stage/f'model_{variant}.stl')
+                if not stl.is_watertight or not np.allclose(stl.extents, mesh.extents, atol=2e-5):
+                    raise ValueError('STL lost closed topology or millimetre dimensions')
             glb = trimesh.load(stage/f'model_{variant}.glb', force='scene')
-            if not stl.is_watertight or not np.allclose(stl.extents, mesh.extents, atol=2e-5):
-                raise ValueError('STL lost closed topology or millimetre dimensions')
             if not np.allclose(glb.extents, mesh.extents[[0, 2, 1]]*.001, atol=2e-8):
                 raise ValueError('GLB metre/Y-up dimensions mismatch')
             export_views(mesh, p, variant, stage)
@@ -162,7 +165,39 @@ def generate_assets(recipe, folder, force=False):
         temp_manifest = stage/'manifest.json'
         temp_manifest.write_text(json.dumps(manifest, indent=2, sort_keys=True)+'\n', encoding='utf-8')
         temp_manifest.replace(manifest_path)
+    reconcile_export_policy(recipe, folder)
     return True
+
+
+def reconcile_export_policy(recipe, folder):
+    """Keep rod rebuild scripts and export metadata current without rerendering."""
+    if recipe['parameters']['family'] != 'rod':
+        return
+    folder = Path(folder).resolve()
+    output = folder/'three_d_model'
+    omit_stl = 'stl' not in recipe['model_formats']
+    obsolete = ['3dpr.stl', 'three_d_model/model_full.stl', 'three_d_model/model_display.stl'] if omit_stl else []
+    for relative in obsolete:
+        path = folder/relative
+        if not path.resolve().is_relative_to(folder) or path.is_symlink():
+            raise ValueError(f'Export artifact escapes part folder: {path}')
+        path.unlink(missing_ok=True)
+    parameters = output/'parameters.json'
+    saved = apply_export_policy(json.loads(parameters.read_text(encoding='utf-8')))
+    parameters.write_text(json.dumps(saved, indent=2, sort_keys=True)+'\n', encoding='utf-8')
+    shutil.copyfile(ROOT/'hardware_model_geometry.py', output/'model.py')
+    manifest_path = output/'manifest.json'
+    manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+    if omit_stl:
+        for variant in ['full', 'display']:
+            manifest['artifacts'].pop(f'model_{variant}.stl', None)
+    for name in ['parameters.json', 'model.py']:
+        path = output/name
+        manifest['artifacts'][name] = dict(bytes=path.stat().st_size, sha256=hashlib.sha256(path.read_bytes()).hexdigest())
+    manifest['recipe_fingerprint'] = hashlib.sha256(json.dumps(saved, sort_keys=True).encode()).hexdigest()
+    if omit_stl:
+        manifest['export_note'] = saved['export_note']
+    manifest_path.write_text(json.dumps(manifest, indent=2, sort_keys=True)+'\n', encoding='utf-8')
 
 
 def main(**kwargs):

@@ -5,6 +5,7 @@ from working_oomp_populate_bolt import generate as generate_bolt
 from working_oomp_populate_set_screw import generate as generate_set_screw
 from working_oomp_populate_nut import generate as generate_nut
 from working_oomp_populate_washer import generate as generate_washer
+from working_oomp_populate_threaded_rod import generate as generate_threaded_rod
 from working_three_d_model import add_definition as add_three_d_model_definition
 from working_supplier_data import load_search_data, load_supplier_data
 
@@ -17,6 +18,9 @@ def main(**kwargs):
     options.extend(generate_set_screw())
     options.extend(generate_nut())
     options.extend(generate_washer())
+    options.extend(generate_threaded_rod())
+    import fnmatch
+    options = [option for option in options if fnmatch.fnmatchcase(build_oomp_id(option), kwargs.get('filter') or '*')]
 
     extras = []
     supplier_data_by_part = load_supplier_data()

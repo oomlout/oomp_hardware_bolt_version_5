@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="210.0000mm" height="297.0000mm"
+     viewBox="0 0 210.0000 297.0000">
+
+  <rect x="0" y="0" width="210.0000" height="297.0000" fill="white" stroke="none" />
+  <rect x="8.0000" y="8.0000" width="194.0000" height="281.0000" fill="none" stroke="#1A1A1A" stroke-width="0.35" />
+  <rect x="10.5000" y="10.5000" width="189.0000" height="276.0000" fill="none" stroke="#1A1A1A" stroke-width="0.7" />
+  <line x1="8.0000" y1="261.0000" x2="202.0000" y2="261.0000" stroke="#1A1A1A" stroke-width="0.35" />
+  <line x1="10.5000" y1="263.5000" x2="199.5000" y2="263.5000" stroke="#1A1A1A" stroke-width="0.7" />
+  <line x1="101.5000" y1="261.0000" x2="101.5000" y2="286.5000" stroke="#1A1A1A" stroke-width="0.35" />
+  <line x1="101.5000" y1="263.5000" x2="101.5000" y2="286.5000" stroke="#1A1A1A" stroke-width="0.7" />
+  <line x1="139.5000" y1="261.0000" x2="139.5000" y2="286.5000" stroke="#1A1A1A" stroke-width="0.35" />
+  <line x1="139.5000" y1="263.5000" x2="139.5000" y2="286.5000" stroke="#1A1A1A" stroke-width="0.7" />
+  <line x1="169.5000" y1="261.0000" x2="169.5000" y2="286.5000" stroke="#1A1A1A" stroke-width="0.35" />
+  <line x1="169.5000" y1="263.5000" x2="169.5000" y2="286.5000" stroke="#1A1A1A" stroke-width="0.7" />
+  <text x="13.5000" y="270.5000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="start" dominant-baseline="middle" fill="#555555" textLength="85.0000" lengthAdjust="spacingAndGlyphs">oomp_hardware_bolt_version_5</text>
+  <text x="13.5000" y="276.5000" font-family="Swis721 Blk BT, comic sans ms" font-size="5.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A" textLength="85.0000" lengthAdjust="spacingAndGlyphs">threaded_rod</text>
+  <text x="104.5000" y="271.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">Dimensions</text>
+  <text x="104.5000" y="276.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="3.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">22.0 × 60.0 mm</text>
+  <text x="142.5000" y="271.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">Scale</text>
+  <text x="142.5000" y="276.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="3.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">1:1</text>
+  <text x="172.5000" y="271.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="2.8000" font-weight="normal" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">Date</text>
+  <text x="172.5000" y="276.0000" font-family="Swis721 Blk BT, comic sans ms" font-size="3.5000" font-weight="bold" text-anchor="start" dominant-baseline="middle" fill="#1A1A1A">2026-11-16</text>
+  <g transform="translate(94.0000,104.5000) scale(1.000000)">
+    <circle cx="7.5000" cy="30.0000" r="2.5000"  fill="#eeeeee" stroke="#222222" stroke-width="0.15" />
+      <rect x="12.0000" y="5.0000" width="5.0000" height="50.0000"  fill="#eeeeee" stroke="#222222" stroke-width="0.15" />
+      <line x1="12.0000" y1="54.2000" x2="17.0000" y2="53.8000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="53.4000" x2="17.0000" y2="53.0000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="52.6000" x2="17.0000" y2="52.2000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="51.8000" x2="17.0000" y2="51.4000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="51.0000" x2="17.0000" y2="50.6000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="50.2000" x2="17.0000" y2="49.8000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="49.4000" x2="17.0000" y2="49.0000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="48.6000" x2="17.0000" y2="48.2000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="47.8000" x2="17.0000" y2="47.4000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="47.0000" x2="17.0000" y2="46.6000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="46.2000" x2="17.0000" y2="45.8000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="45.4000" x2="17.0000" y2="45.0000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="44.6000" x2="17.0000" y2="44.2000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="43.8000" x2="17.0000" y2="43.4000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="43.0000" x2="17.0000" y2="42.6000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="42.2000" x2="17.0000" y2="41.8000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="41.4000" x2="17.0000" y2="41.0000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="40.6000" x2="17.0000" y2="40.2000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="39.8000" x2="17.0000" y2="39.4000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="39.0000" x2="17.0000" y2="38.6000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="38.2000" x2="17.0000" y2="37.8000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="37.4000" x2="17.0000" y2="37.0000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="36.6000" x2="17.0000" y2="36.2000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="35.8000" x2="17.0000" y2="35.4000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="35.0000" x2="17.0000" y2="34.6000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="34.2000" x2="17.0000" y2="33.8000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="33.4000" x2="17.0000" y2="33.0000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="32.6000" x2="17.0000" y2="32.2000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="31.8000" x2="17.0000" y2="31.4000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="31.0000" x2="17.0000" y2="30.6000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="30.2000" x2="17.0000" y2="29.8000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="29.4000" x2="17.0000" y2="29.0000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="28.6000" x2="17.0000" y2="28.2000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="27.8000" x2="17.0000" y2="27.4000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="27.0000" x2="17.0000" y2="26.6000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="26.2000" x2="17.0000" y2="25.8000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="25.4000" x2="17.0000" y2="25.0000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="24.6000" x2="17.0000" y2="24.2000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="23.8000" x2="17.0000" y2="23.4000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="23.0000" x2="17.0000" y2="22.6000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="22.2000" x2="17.0000" y2="21.8000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="21.4000" x2="17.0000" y2="21.0000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="20.6000" x2="17.0000" y2="20.2000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="19.8000" x2="17.0000" y2="19.4000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="19.0000" x2="17.0000" y2="18.6000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="18.2000" x2="17.0000" y2="17.8000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="17.4000" x2="17.0000" y2="17.0000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="16.6000" x2="17.0000" y2="16.2000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="15.8000" x2="17.0000" y2="15.4000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="15.0000" x2="17.0000" y2="14.6000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="14.2000" x2="17.0000" y2="13.8000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="13.4000" x2="17.0000" y2="13.0000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="12.6000" x2="17.0000" y2="12.2000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="11.8000" x2="17.0000" y2="11.4000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="11.0000" x2="17.0000" y2="10.6000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="10.2000" x2="17.0000" y2="9.8000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="9.4000" x2="17.0000" y2="9.0000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="8.6000" x2="17.0000" y2="8.2000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="7.8000" x2="17.0000" y2="7.4000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="7.0000" x2="17.0000" y2="6.6000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+      <line x1="12.0000" y1="6.2000" x2="17.0000" y2="5.8000"  fill="#333333" stroke="#777777" stroke-width="0.06" />
+  </g>
+</svg>

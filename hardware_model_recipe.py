@@ -218,7 +218,17 @@ def definition(part):
             chamfer='Both ends: visual 45 degree chamfer, axial depth P/2.',
             bearing='No head or bearing surface.', cavity='Solid headless rod.')
         recipe['variants']['full'].update(angular_segments=48, samples_per_pitch=16)
-    return recipe, ''
+    return apply_export_policy(recipe), ''
+
+
+def apply_export_policy(recipe):
+    """Long rods retain GLB and Blender assets, without any STL export."""
+    result = copy.deepcopy(recipe)
+    p = result['parameters']
+    if p['family'] == 'rod' and p['length_mm'] >= 300:
+        result['model_formats'] = ['glb']
+        result['export_note'] = 'STL intentionally omitted for threaded rods of 300 mm and longer; GLB, SCAD, Blender scenes and renders are provided.'
+    return result
 
 
 def add_definition(part):
