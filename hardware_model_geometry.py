@@ -7,7 +7,7 @@ from pathlib import Path
 import numpy as np
 import trimesh
 
-GENERATORS = {'iso_4014_hex_bolt': 'bolt', 'iso_4017_hex_screw': 'bolt',
+GENERATORS = {'metric_threaded_rod': 'rod', 'iso_4014_hex_bolt': 'bolt', 'iso_4017_hex_screw': 'bolt',
               'supplier_nylon_hex_screw': 'bolt', 'iso_4032_hex_nut': 'nut',
               'supplier_hex_nut': 'nut', 'supplier_nylon_hex_nut': 'nut',
               'din_6923_flange_nut': 'nut', 'supplier_coupling_nut': 'nut',
@@ -32,6 +32,9 @@ def resolve_parameters(parameters):
                  overall_height_mm=length+p['head_height_mm'])
         p['thread_length_mm'] = end-p['thread_runout_mm']
         p['plain_shank_length_mm'] = length-end
+    elif p['family'] == 'rod':
+        p.update(overall_height_mm=p['length_mm'], thread_length_mm=p['length_mm'],
+                 thread_end_z_mm=p['length_mm'])
     else:
         p['overall_height_mm'] = p['height_mm']
     if 'pitch_mm' in p:
@@ -44,7 +47,7 @@ def resolve_parameters(parameters):
 
 def validate_parameters(p):
     family = p.get('family')
-    if family not in {'bolt', 'nut', 'washer'}:
+    if family not in {'bolt', 'nut', 'washer', 'rod'}:
         raise ValueError('Unknown geometry family')
     for key, value in p.items():
         if key.endswith('_mm') and isinstance(value, (float, int)):
@@ -62,7 +65,13 @@ def validate_parameters(p):
             raise ValueError('Outer chamfer must be 15 to 30 degrees')
         if p['thread_flank_angle_degrees'] != 60:
             raise ValueError('ISO metric generator requires 60 degree thread flanks')
-    if family == 'bolt':
+    if family == 'rod':
+        if (p['handedness'] != 'right' or p['thread_starts'] != 1 or p['pitch_mm'] <= 0
+                or p['thread_flank_angle_degrees'] != 60 or p['external_minor_diameter_mm'] <= 0):
+            raise ValueError('Invalid metric rod thread')
+        if not 0 < p['tip_chamfer_mm'] < min(p['nominal_diameter_mm']/2, p['length_mm']/2):
+            raise ValueError('Rod chamfers consume the end face or length')
+    elif family == 'bolt':
         if p['thread_end_z_mm'] <= p['tip_chamfer_mm']+p['pitch_mm']:
             raise ValueError('Length too short for thread and tip')
         if not 0 < p['tip_chamfer_mm'] < p['nominal_diameter_mm']/2:
@@ -101,6 +110,27 @@ def _hex_body(flats, z0, z1, n, angle, bottom_chamfer=False):
         radii = [flats/2, corner, corner, flats/2]
     envelope = _ring_solid(z, np.asarray(radii)[:, None], n)
     return trimesh.boolean.intersection([hexagon, envelope], engine='manifold')
+
+
+def _rod(p, variant, q):
+    n, pitch = q['angular_segments'], p['pitch_mm']
+    length, chamfer, radius = p['length_mm'], p['tip_chamfer_mm'], p['nominal_diameter_mm']/2
+    # Smooth display needs only four rings, even for metre-long stock.
+    z = np.array([0., chamfer, length-chamfer, length])
+    if variant == 'full':
+        samples = np.linspace(0, length, math.ceil(length/pitch*q['samples_per_pitch'])+1)
+        # STL stores float32 coordinates. Nearly coincident sample/chamfer
+        # rings on long stock otherwise collapse on export and open the mesh.
+        tolerance = max(1e-6, length*2e-7)
+        keep = (np.abs(samples[:, None]-z[None, :]) > tolerance).all(axis=1)
+        z = np.sort(np.r_[z, samples[keep]])
+    theta = np.arange(n)*2*math.pi/n
+    radii = np.full((len(z), n), radius)
+    if variant == 'full':
+        radii -= thread_depth(z[:, None]/pitch-theta[None, :]/(2*math.pi), pitch)
+    envelope = radius-chamfer+np.minimum(z, length-z)
+    radii = np.minimum(radii, envelope[:, None])
+    return _ring_solid(z, radii, n)
 
 
 def _bolt(p, variant, q):
@@ -293,7 +323,7 @@ def build_model(parameters, variant='full', quality=None):
         fillet_segments=12 if variant == 'full' else 3)
     if q['angular_segments'] < 24 or q['angular_segments'] % 12 or q['samples_per_pitch'] < 1 or q['fillet_segments'] < 2:
         raise ValueError('Tessellation requires angular segments multiple of 12 >=24 and positive samples')
-    mesh = {'bolt': _bolt, 'nut': _nut, 'washer': _washer}[p['family']](p, variant, q)
+    mesh = {'rod': _rod, 'bolt': _bolt, 'nut': _nut, 'washer': _washer}[p['family']](p, variant, q)
     if p.get('nut_style') or p['specification'].startswith('APPROXIMATE VISUAL MODEL:'):
         if not mesh.metadata.get('components'):
             mesh = _clean_for_stl(mesh)
@@ -381,7 +411,7 @@ def export_mesh(mesh, filename, p, material=None):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--parameters', type=Path, default=Path(__file__).with_name('parameters.json'))
-    parser.add_argument('--length', type=float, help='Under-head length for headed axial fasteners only')
+    parser.add_argument('--length', type=float, help='Under-head bolt/screw length or overall rod length')
     parser.add_argument('--variant', choices=['full', 'display', 'both'], default='both')
     parser.add_argument('--output', type=Path, default=Path(__file__).parent)
     args = parser.parse_args()
@@ -390,8 +420,8 @@ if __name__ == '__main__':
         raise ValueError('Unsupported generator or inconsistent family')
     p = recipe['parameters']
     if args.length is not None:
-        if p['family'] != 'bolt':
-            parser.error('--length applies only to bolts and headed screws')
+        if p['family'] not in {'bolt', 'rod'}:
+            parser.error('--length applies only to bolts, headed screws and threaded rods')
         p['length_mm'] = args.length
     args.output.mkdir(parents=True, exist_ok=True)
     for variant in ['full', 'display'] if args.variant == 'both' else [args.variant]:

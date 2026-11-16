@@ -83,14 +83,16 @@ def _feature_lines(mesh, p, view, basis, variant):
     sharp &= front0 | front1
     edges = mesh.face_adjacency_edges
     # Thread crease positions are analytic; avoid tessellation diagonals at crests.
-    if variant == 'full' and p['family'] == 'bolt':
+    if variant == 'full' and p['family'] in {'bolt', 'rod'}:
         points = mesh.vertices[edges]
         threaded = ((points[:, :, 2] < p['thread_end_z_mm']-p['thread_runout_mm']).all(axis=1) &
                     (np.linalg.norm(points[:, :, :2], axis=2) > p['nominal_diameter_mm']*.4).all(axis=1))
         sharp &= ~threaded
     segments = mesh.vertices[edges[silhouette | sharp]]
-    if variant == 'full' and p['family'] == 'bolt':
+    if variant == 'full' and p['family'] in {'bolt', 'rod'}:
         pitch, end = p['pitch_mm'], p['thread_end_z_mm']-p['thread_runout_mm']
+        if p['family'] == 'rod':
+            end -= p['tip_chamfer_mm']
         for phase in [-1/16, 1/16]:
             theta = np.linspace(-2*math.pi, (end/pitch+1)*2*math.pi,
                                 max(2, math.ceil((end/pitch+2)*192)))
@@ -105,12 +107,37 @@ def _feature_lines(mesh, p, view, basis, variant):
 
 def svg_lines(mesh, p, variant, view, path, visibility_size=1024):
     basis, bounds, scale, offset, pixels = project(mesh, view, visibility_size)
-    depth, _ = _raster(pixels, mesh.faces, np.zeros_like(mesh.vertices), visibility_size)
+    raster_faces = mesh.faces
+    if p['family'] == 'rod' and view in {'top', 'bottom'}:
+        # A solid, constant-pitch rod's nearest complete thread turns cover
+        # every radial ray. All more distant turns are occluded in an axial
+        # view. Keep two pitches beyond the end chamfer, including crossing
+        # triangles, rather than rasterizing hundreds of identical layers.
+        band = p['tip_chamfer_mm']+2*p['pitch_mm']
+        z = mesh.vertices[:, 2]
+        near = z >= p['length_mm']-band if view == 'top' else z <= band
+        raster_faces = mesh.faces[near[mesh.faces].any(axis=1)]
+    depth, _ = _raster(pixels, raster_faces, np.zeros_like(mesh.vertices), visibility_size)
     segments = _feature_lines(mesh, p, view, basis, variant) @ basis
     # Sample each segment, splitting partial occlusions instead of drawing through a solid.
     lengths = np.linalg.norm(segments[:, 1, :2]-segments[:, 0, :2], axis=1)*scale
     fragments = []
-    for segment, length in zip(segments, lengths):
+    # Sub-pixel thread segments need only their two endpoints. Batch those
+    # identical visibility tests instead of doing thousands of NumPy calls
+    # for every thread turn on long stock.
+    short = lengths <= 2
+    endpoints = segments[short].copy()
+    endpoints[:, 1] = endpoints[:, 0]+(endpoints[:, 1]-endpoints[:, 0])
+    index = np.clip(np.floor(endpoints[:, :, :2]*scale+offset).astype(int), 0, visibility_size-1)
+    nearby_min = np.full(index.shape[:2], np.inf)
+    for dy in [-1, 0, 1]:
+        for dx in [-1, 0, 1]:
+            nearby_min = np.minimum(nearby_min, depth[
+                np.clip(index[:, :, 1]+dy, 0, visibility_size-1),
+                np.clip(index[:, :, 0]+dx, 0, visibility_size-1)])
+    visible = (endpoints[:, :, 2] >= nearby_min-1/scale).all(axis=1)
+    fragments.extend(endpoints[visible, :, :2])
+    for segment, length in zip(segments[~short], lengths[~short]):
         count = max(2, math.ceil(length/2)+1)
         samples = segment[0]+np.linspace(0, 1, count)[:, None]*(segment[1]-segment[0])
         pos = samples[:, :2]*scale+offset

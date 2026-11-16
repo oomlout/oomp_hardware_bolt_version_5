@@ -42,8 +42,8 @@ def presentation_defaults(finish='satin', family='bolt', elongated=False):
                      product_high=dict(file='render_product_high.png', variant='full', pixels=2048, view='product')))
     defaults['studio']['poses']['isometric']['orientation'] = 'principal axis Z up'
     defaults['studio']['poses']['product'].update(
-        resting_axis='side' if family == 'bolt' or elongated else 'face',
-        orientation='lying on side, axial end to left' if family == 'bolt' or elongated else 'resting on lower face, bore visible')
+        resting_axis='side' if family in {'bolt', 'rod'} or elongated else 'face',
+        orientation='lying on side, axial end to left' if family in {'bolt', 'rod'} or elongated else 'resting on lower face, bore visible')
     if finish == 'nylon_white':
         defaults['material'].update(name='Natural white nylon', base_colour_srgb=[.86, .85, .81],
             metallic=0., roughness=.38, roughness_variation=.025, coat_weight=.025,

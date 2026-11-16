@@ -1,0 +1,3614 @@
+bip_39_2_word_array:
+- scissors
+- purity
+bip_39_2_word_no_space: scissorspurity
+bip_39_2_word_space: scissors purity
+bip_39_2_word_underscore: scissors_purity
+bip_39_3_word_array:
+- scissors
+- purity
+- appear
+bip_39_3_word_no_space: scissorspurityappear
+bip_39_3_word_space: scissors purity appear
+bip_39_3_word_underscore: scissors_purity_appear
+bip_39_full_array:
+- scissors
+- purity
+- appear
+- camera
+- donkey
+- scatter
+- negative
+- toss
+- asset
+- mouse
+- motor
+- grace
+bip_39_full_no_space: scissorspurityappearcameradonkeyscatternegativetossassetmousemotorgrace
+bip_39_full_space: scissors purity appear camera donkey scatter negative toss asset
+  mouse motor grace
+bip_39_full_underscore: scissors_purity_appear_camera_donkey_scatter_negative_toss_asset_mouse_motor_grace
+directory: parts/hardware_threaded_rod_m10_1000_mm_length
+filter: hardware_threaded_rod_*
+generate_stl: true
+id: hardware_threaded_rod_m10_1000_mm_length
+id_no_class: hardware_threaded_rod_m10_1000_mm_length
+id_no_size: hardware_threaded_rod_m10_1000_mm_length
+id_no_type: hardware_threaded_rod_m10_1000_mm_length
+id_svg: hardware_threaded_rod_m10_1000_mm_length
+kwargs:
+  diameter_mm: 10.0
+  filter: ''
+  generate_stl: true
+  length_mm: 1000
+  navigation: false
+  oomp_description_extra: ''
+  oomp_description_main: _
+  oomp_mode: project
+  overwrite: true
+  part_filter: hardware_threaded_rod_*
+  pitch_mm: 1.5
+  run_action: false
+  run_only_yaml: false
+  run_oomp: true
+  run_oomp_populate: true
+  run_scad: true
+  run_svg: true
+  run_three_d_model: false
+  type: default_threaded_rod
+label_drawer: &id001
+  bip39: scissors purity appear
+  bip39_size: 2.108
+  code: TR
+  description: Threaded rod / M10 / 1000 mm
+  detail_lines: []
+  detail_size: 2.05
+  detail_y: 21.1
+  diagram: <path d="M2 5H18V9H2Z M4 5L3 9 M6 5L5 9 M8 5L7 9 M10 5L9 9 M12 5L11 9 M14
+    5L13 9 M16 5L15 9"/>
+  drive_symbol: ''
+  length: '1000'
+  length_size: 7.516
+  length_x: 14.000221749999998
+  name: Threaded rod
+  name_lines:
+  - Threaded rod
+  name_size: 3.2
+  thread: M10
+  thread_size: 5.038
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_threaded_rod_m10_1000_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_threaded_rod_m10_1000_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_threaded_rod_m10_1000_mm_length
+md5: c115c82a10541380e4ff2d0db21641b2
+md5_10: c115c82a10
+md5_10_upper: C115C82A10
+md5_5: c115c
+md5_5_upper: C115C
+md5_6: c115c8
+md5_6_alpha: 7j7wo
+md5_6_alpha_upper: 7J7WO
+md5_6_upper: C115C8
+name: Hardware Threaded Rod M10 1000 Mm Length
+name_no_class: Hardware Threaded Rod M10 1000 Mm Length
+name_no_size: Hardware Threaded Rod M10 1000 Mm Length
+name_no_type: Hardware Threaded Rod M10 1000 Mm Length
+name_proper: Hardware Threaded Rod M10 1000 Mm Length
+name_space: hardware threaded rod m10 1000 mm length
+name_upper: HARDWARE THREADED ROD M10 1000 MM LENGTH
+oobb_details:
+  diameter_mm: 10.0
+  length_mm: 1000
+  oobb_name: threaded_rod
+  pitch_mm: 1.5
+oobb_name: threaded_rod
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      directory: parts\hardware_threaded_rod_m10_1000_mm_length
+      name: hardware_threaded_rod_m10_1000_mm_length
+      name_proper: Hardware Threaded Rod M10 1000 Mm Length
+      name_space: hardware threaded rod m10 1000 mm length
+      name_upper: HARDWARE THREADED ROD M10 1000 MM LENGTH
+      oobb_details:
+        diameter_mm: 10.0
+        length_mm: 1000
+        oobb_name: threaded_rod
+        pitch_mm: 1.5
+      svg_details:
+      - diameter_mm: 10.0
+        length_mm: 1000
+        pitch_mm: 1.5
+        svg_name: threaded_rod
+      - diameter_mm: 10.0
+        filename: working_mechanical_drawing
+        length_mm: 1000
+        pitch_mm: 1.5
+        svg_name: threaded_rod_drawing
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: threaded_rod
+      taxonomy_3: m10
+      taxonomy_4: ''
+      taxonomy_5: ''
+      taxonomy_6: ''
+      taxonomy_7: 1000_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      three_d_model_details:
+        checked_on: '2026-11-15'
+        coordinate_system:
+          axis: +Z along rod
+          glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+          glb_units: metres
+          glb_up_axis: Y
+          origin: lower end centre
+          stl_units: mm
+        dimension_status: nominal_thread_dimensions
+        dimensional_specification: Nominal metric fully threaded rod, cut to catalogue
+          length
+        generator: metric_threaded_rod
+        length_status: user_specified_cut_length
+        material:
+          base_colour_srgb:
+          - 0.62
+          - 0.65
+          - 0.69
+          coat_roughness: 0.28
+          coat_weight: 0.02
+          metallic: 1.0
+          microtexture_height_um: 0.8
+          microtexture_spacing_mm: 0.025
+          name: Satin steel
+          note: Visual finish approximation; catalogue specifies colour only.
+          roughness: 0.26
+          roughness_variation: 0.045
+        model_formats:
+        - stl
+        - glb
+        modelling_choices:
+          bearing: No head or bearing surface.
+          cavity: Solid headless rod.
+          certification: Nominal visual catalogue model, not manufacturing tolerance
+            certification.
+          chamfer: 'Both ends: visual 45 degree chamfer, axial depth P/2.'
+          components: One closed solid.
+          dimension_selection: Nominal thread diameter and sourced coarse pitch; user-specified
+            overall cut length.
+          display: Smooth nominal external-thread envelope or smooth minor-diameter
+            internal bore; lower angular and fillet tessellation.
+          family_note: End-to-end catalogue lengths; supplier and tolerances unspecified.
+            Both ends have a visual 45 degree chamfer of half a pitch. No head or
+            plain shank.
+          markings: Supplier and property-class markings omitted because catalogue
+            does not identify them.
+          runout: Continuous external thread, clipped by end chamfers; no plain shank.
+          thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets.
+            External rounded root H/6, internal P/4 crest and P/8 root flats.
+          unspecified_geometry: Nut mouth for supplier rows without limits and flange
+            M3/M4 thickness/rim blends are explicit visual model selections.
+        output_folder: three_d_model
+        parameters:
+          characteristic_dimension_basis: nominal axial thread diameter
+          characteristic_dimension_mm: 10.0
+          expected_components: 1
+          external_minor_diameter_mm: 8.159696016958067
+          family: rod
+          finish: satin
+          handedness: right
+          identity: hardware_threaded_rod_m10_1000_mm_length
+          internal_minor_diameter_mm: 8.376202367904177
+          length_convention: overall end-to-end length
+          length_mm: 1000.0
+          nominal_diameter_mm: 10.0
+          overall_height_mm: 1000.0
+          pitch_mm: 1.5
+          specification: Nominal metric fully threaded rod, cut to catalogue length
+          thread_end_z_mm: 1000.0
+          thread_flank_angle_degrees: 60.0
+          thread_length_mm: 1000.0
+          thread_mode: full
+          thread_pitch_diameter_mm: 9.025721420742506
+          thread_runout_mm: 0.0
+          thread_starts: 1
+          tip_chamfer_mm: 0.75
+        renders:
+          high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+          low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+          product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+          product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+        schema_version: 1
+        source_table: source_file/standards/threaded_rod.yaml
+        sources:
+        - title: Accu metric coarse thread dimensions
+          url: https://i.accu.co.uk/documents/marketing/Thread-Size-Sheet-V2.pdf
+        - title: ISO 68-1:1998 basic ISO metric thread profile
+          url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+        standard: null
+        standard_lengths_mm: []
+        standard_limits: {}
+        studio:
+          adaptive_threshold: 0.015
+          denoise: true
+          device: auto
+          engine: cycles
+          exposure: 0.0
+          floor_colour_srgb:
+          - 0.93
+          - 0.935
+          - 0.94
+          floor_roughness: 0.55
+          framing_margin: 0.13
+          high_samples: 160
+          lights:
+          - colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+          - colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+          - colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+          look: AgX - Medium High Contrast
+          low_samples: 48
+          poses:
+            isometric:
+              camera_eye:
+              - 1
+              - -1
+              - 1
+              orientation: principal axis Z up
+              projection: orthographic
+            product:
+              camera_eye:
+              - -6
+              - -10
+              - 6
+              orientation: lying on side, axial end to left
+              projection: orthographic
+              resting_axis: side
+              support: Stable convex-hull support using actual mesh centre of mass.
+              yaw_degrees: -12.0
+          seed: 7991
+          view_transform: AgX
+          world_colour:
+          - 0.78
+          - 0.82
+          - 0.9
+          world_strength: 0.35
+        units: mm
+        variants:
+          display:
+            angular_segments: 24
+            fillet_segments: 3
+            samples_per_pitch: 1
+          full:
+            angular_segments: 48
+            fillet_segments: 12
+            samples_per_pitch: 16
+        views:
+        - isometric
+        - front
+        - back
+        - left
+        - right
+        - top
+        - bottom
+      url_chat: ''
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_2:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      directory: parts\hardware_threaded_rod_m10_1000_mm_length
+      name: hardware_threaded_rod_m10_1000_mm_length
+      name_proper: Hardware Threaded Rod M10 1000 Mm Length
+      name_space: hardware threaded rod m10 1000 mm length
+      name_upper: HARDWARE THREADED ROD M10 1000 MM LENGTH
+      oobb_details:
+        diameter_mm: 10.0
+        length_mm: 1000
+        oobb_name: threaded_rod
+        pitch_mm: 1.5
+      oomlout_ai_roboclick_1:
+        actions:
+        - command: text_jinja_template
+          convert_to_pdf: false
+          convert_to_png: false
+          dict_data:
+            directory: parts\hardware_threaded_rod_m10_1000_mm_length
+            name: hardware_threaded_rod_m10_1000_mm_length
+            name_proper: Hardware Threaded Rod M10 1000 Mm Length
+            name_space: hardware threaded rod m10 1000 mm length
+            name_upper: HARDWARE THREADED ROD M10 1000 MM LENGTH
+            oobb_details:
+              diameter_mm: 10.0
+              length_mm: 1000
+              oobb_name: threaded_rod
+              pitch_mm: 1.5
+            svg_details:
+            - diameter_mm: 10.0
+              length_mm: 1000
+              pitch_mm: 1.5
+              svg_name: threaded_rod
+            - diameter_mm: 10.0
+              filename: working_mechanical_drawing
+              length_mm: 1000
+              pitch_mm: 1.5
+              svg_name: threaded_rod_drawing
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: threaded_rod
+            taxonomy_3: m10
+            taxonomy_4: ''
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: 1000_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+              checked_on: '2026-11-15'
+              coordinate_system:
+                axis: +Z along rod
+                glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                glb_units: metres
+                glb_up_axis: Y
+                origin: lower end centre
+                stl_units: mm
+              dimension_status: nominal_thread_dimensions
+              dimensional_specification: Nominal metric fully threaded rod, cut to
+                catalogue length
+              generator: metric_threaded_rod
+              length_status: user_specified_cut_length
+              material:
+                base_colour_srgb:
+                - 0.62
+                - 0.65
+                - 0.69
+                coat_roughness: 0.28
+                coat_weight: 0.02
+                metallic: 1.0
+                microtexture_height_um: 0.8
+                microtexture_spacing_mm: 0.025
+                name: Satin steel
+                note: Visual finish approximation; catalogue specifies colour only.
+                roughness: 0.26
+                roughness_variation: 0.045
+              model_formats:
+              - stl
+              - glb
+              modelling_choices:
+                bearing: No head or bearing surface.
+                cavity: Solid headless rod.
+                certification: Nominal visual catalogue model, not manufacturing tolerance
+                  certification.
+                chamfer: 'Both ends: visual 45 degree chamfer, axial depth P/2.'
+                components: One closed solid.
+                dimension_selection: Nominal thread diameter and sourced coarse pitch;
+                  user-specified overall cut length.
+                display: Smooth nominal external-thread envelope or smooth minor-diameter
+                  internal bore; lower angular and fillet tessellation.
+                family_note: End-to-end catalogue lengths; supplier and tolerances
+                  unspecified. Both ends have a visual 45 degree chamfer of half a
+                  pitch. No head or plain shank.
+                markings: Supplier and property-class markings omitted because catalogue
+                  does not identify them.
+                runout: Continuous external thread, clipped by end chamfers; no plain
+                  shank.
+                thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets.
+                  External rounded root H/6, internal P/4 crest and P/8 root flats.
+                unspecified_geometry: Nut mouth for supplier rows without limits and
+                  flange M3/M4 thickness/rim blends are explicit visual model selections.
+              output_folder: three_d_model
+              parameters:
+                characteristic_dimension_basis: nominal axial thread diameter
+                characteristic_dimension_mm: 10.0
+                expected_components: 1
+                external_minor_diameter_mm: 8.159696016958067
+                family: rod
+                finish: satin
+                handedness: right
+                identity: hardware_threaded_rod_m10_1000_mm_length
+                internal_minor_diameter_mm: 8.376202367904177
+                length_convention: overall end-to-end length
+                length_mm: 1000.0
+                nominal_diameter_mm: 10.0
+                overall_height_mm: 1000.0
+                pitch_mm: 1.5
+                specification: Nominal metric fully threaded rod, cut to catalogue
+                  length
+                thread_end_z_mm: 1000.0
+                thread_flank_angle_degrees: 60.0
+                thread_length_mm: 1000.0
+                thread_mode: full
+                thread_pitch_diameter_mm: 9.025721420742506
+                thread_runout_mm: 0.0
+                thread_starts: 1
+                tip_chamfer_mm: 0.75
+              renders:
+                high:
+                  file: render_high.png
+                  pixels: 2048
+                  variant: full
+                  view: isometric
+                low:
+                  file: render_low.png
+                  pixels: 512
+                  variant: display
+                  view: isometric
+                product_high:
+                  file: render_product_high.png
+                  pixels: 2048
+                  variant: full
+                  view: product
+                product_low:
+                  file: render_product_low.png
+                  pixels: 512
+                  variant: display
+                  view: product
+              schema_version: 1
+              source_table: source_file/standards/threaded_rod.yaml
+              sources:
+              - title: Accu metric coarse thread dimensions
+                url: https://i.accu.co.uk/documents/marketing/Thread-Size-Sheet-V2.pdf
+              - title: ISO 68-1:1998 basic ISO metric thread profile
+                url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+              standard: null
+              standard_lengths_mm: []
+              standard_limits: {}
+              studio:
+                adaptive_threshold: 0.015
+                denoise: true
+                device: auto
+                engine: cycles
+                exposure: 0.0
+                floor_colour_srgb:
+                - 0.93
+                - 0.935
+                - 0.94
+                floor_roughness: 0.55
+                framing_margin: 0.13
+                high_samples: 160
+                lights:
+                - colour:
+                  - 1.0
+                  - 0.96
+                  - 0.9
+                  height: 5.0
+                  name: Key softbox
+                  position:
+                  - -3
+                  - -4
+                  - 6
+                  power: 650.0
+                  width: 4.0
+                - colour:
+                  - 0.9
+                  - 0.95
+                  - 1.0
+                  height: 4.0
+                  name: Fill softbox
+                  position:
+                  - 4
+                  - -1
+                  - 3
+                  power: 330.0
+                  width: 3.0
+                - colour:
+                  - 1.0
+                  - 1.0
+                  - 1.0
+                  height: 5.0
+                  name: Rim strip
+                  position:
+                  - 1
+                  - 4
+                  - 4
+                  power: 850.0
+                  width: 1.2
+                look: AgX - Medium High Contrast
+                low_samples: 48
+                poses:
+                  isometric:
+                    camera_eye:
+                    - 1
+                    - -1
+                    - 1
+                    orientation: principal axis Z up
+                    projection: orthographic
+                  product:
+                    camera_eye:
+                    - -6
+                    - -10
+                    - 6
+                    orientation: lying on side, axial end to left
+                    projection: orthographic
+                    resting_axis: side
+                    support: Stable convex-hull support using actual mesh centre of
+                      mass.
+                    yaw_degrees: -12.0
+                seed: 7991
+                view_transform: AgX
+                world_colour:
+                - 0.78
+                - 0.82
+                - 0.9
+                world_strength: 0.35
+              units: mm
+              variants:
+                display:
+                  angular_segments: 24
+                  fillet_segments: 3
+                  samples_per_pitch: 1
+                full:
+                  angular_segments: 48
+                  fillet_segments: 12
+                  samples_per_pitch: 16
+              views:
+              - isometric
+              - front
+              - back
+              - left
+              - right
+              - top
+              - bottom
+            url_chat: ''
+          dict_data_files: {}
+          dict_data_files_exists: {}
+          file_output: label_oomp.svg
+          file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+          search_and_replace: []
+        file_test: label_oomp.pdf
+        retries_until_complete: 0
+      svg_details:
+      - diameter_mm: 10.0
+        length_mm: 1000
+        pitch_mm: 1.5
+        svg_name: threaded_rod
+      - diameter_mm: 10.0
+        filename: working_mechanical_drawing
+        length_mm: 1000
+        pitch_mm: 1.5
+        svg_name: threaded_rod_drawing
+      taxonomy_1: hardware
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: threaded_rod
+      taxonomy_3: m10
+      taxonomy_4: ''
+      taxonomy_5: ''
+      taxonomy_6: ''
+      taxonomy_7: 1000_mm_length
+      taxonomy_8: ''
+      taxonomy_9: ''
+      three_d_model_details:
+        checked_on: '2026-11-15'
+        coordinate_system:
+          axis: +Z along rod
+          glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+          glb_units: metres
+          glb_up_axis: Y
+          origin: lower end centre
+          stl_units: mm
+        dimension_status: nominal_thread_dimensions
+        dimensional_specification: Nominal metric fully threaded rod, cut to catalogue
+          length
+        generator: metric_threaded_rod
+        length_status: user_specified_cut_length
+        material:
+          base_colour_srgb:
+          - 0.62
+          - 0.65
+          - 0.69
+          coat_roughness: 0.28
+          coat_weight: 0.02
+          metallic: 1.0
+          microtexture_height_um: 0.8
+          microtexture_spacing_mm: 0.025
+          name: Satin steel
+          note: Visual finish approximation; catalogue specifies colour only.
+          roughness: 0.26
+          roughness_variation: 0.045
+        model_formats:
+        - stl
+        - glb
+        modelling_choices:
+          bearing: No head or bearing surface.
+          cavity: Solid headless rod.
+          certification: Nominal visual catalogue model, not manufacturing tolerance
+            certification.
+          chamfer: 'Both ends: visual 45 degree chamfer, axial depth P/2.'
+          components: One closed solid.
+          dimension_selection: Nominal thread diameter and sourced coarse pitch; user-specified
+            overall cut length.
+          display: Smooth nominal external-thread envelope or smooth minor-diameter
+            internal bore; lower angular and fillet tessellation.
+          family_note: End-to-end catalogue lengths; supplier and tolerances unspecified.
+            Both ends have a visual 45 degree chamfer of half a pitch. No head or
+            plain shank.
+          markings: Supplier and property-class markings omitted because catalogue
+            does not identify them.
+          runout: Continuous external thread, clipped by end chamfers; no plain shank.
+          thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets.
+            External rounded root H/6, internal P/4 crest and P/8 root flats.
+          unspecified_geometry: Nut mouth for supplier rows without limits and flange
+            M3/M4 thickness/rim blends are explicit visual model selections.
+        output_folder: three_d_model
+        parameters:
+          characteristic_dimension_basis: nominal axial thread diameter
+          characteristic_dimension_mm: 10.0
+          expected_components: 1
+          external_minor_diameter_mm: 8.159696016958067
+          family: rod
+          finish: satin
+          handedness: right
+          identity: hardware_threaded_rod_m10_1000_mm_length
+          internal_minor_diameter_mm: 8.376202367904177
+          length_convention: overall end-to-end length
+          length_mm: 1000.0
+          nominal_diameter_mm: 10.0
+          overall_height_mm: 1000.0
+          pitch_mm: 1.5
+          specification: Nominal metric fully threaded rod, cut to catalogue length
+          thread_end_z_mm: 1000.0
+          thread_flank_angle_degrees: 60.0
+          thread_length_mm: 1000.0
+          thread_mode: full
+          thread_pitch_diameter_mm: 9.025721420742506
+          thread_runout_mm: 0.0
+          thread_starts: 1
+          tip_chamfer_mm: 0.75
+        renders:
+          high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+          low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+          product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+          product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+        schema_version: 1
+        source_table: source_file/standards/threaded_rod.yaml
+        sources:
+        - title: Accu metric coarse thread dimensions
+          url: https://i.accu.co.uk/documents/marketing/Thread-Size-Sheet-V2.pdf
+        - title: ISO 68-1:1998 basic ISO metric thread profile
+          url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+        standard: null
+        standard_lengths_mm: []
+        standard_limits: {}
+        studio:
+          adaptive_threshold: 0.015
+          denoise: true
+          device: auto
+          engine: cycles
+          exposure: 0.0
+          floor_colour_srgb:
+          - 0.93
+          - 0.935
+          - 0.94
+          floor_roughness: 0.55
+          framing_margin: 0.13
+          high_samples: 160
+          lights:
+          - colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+          - colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+          - colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+          look: AgX - Medium High Contrast
+          low_samples: 48
+          poses:
+            isometric:
+              camera_eye:
+              - 1
+              - -1
+              - 1
+              orientation: principal axis Z up
+              projection: orthographic
+            product:
+              camera_eye:
+              - -6
+              - -10
+              - 6
+              orientation: lying on side, axial end to left
+              projection: orthographic
+              resting_axis: side
+              support: Stable convex-hull support using actual mesh centre of mass.
+              yaw_degrees: -12.0
+          seed: 7991
+          view_transform: AgX
+          world_colour:
+          - 0.78
+          - 0.82
+          - 0.9
+          world_strength: 0.35
+        units: mm
+        variants:
+          display:
+            angular_segments: 24
+            fillet_segments: 3
+            samples_per_pitch: 1
+          full:
+            angular_segments: 48
+            fillet_segments: 12
+            samples_per_pitch: 16
+        views:
+        - isometric
+        - front
+        - back
+        - left
+        - right
+        - top
+        - bottom
+      url_chat: ''
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_bolt_image.svg
+    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_bolt_image.pdf
+  retries_until_complete: 0
+oomlout_ai_roboclick_3:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    description: label_drawer
+    dict_data:
+      label_drawer: *id001
+    file_output: label_drawer.svg
+    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+  file_test: ''
+oomp_key: oomp_hardware_threaded_rod_m10_1000_mm_length
+project_name: C:\gh\oomp_hardware_bolt_version_5
+run_action: false
+run_only_yaml: false
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+run_svg: true
+run_three_d_model: false
+svg_details:
+- diameter_mm: 10.0
+  length_mm: 1000
+  pitch_mm: 1.5
+  svg_name: threaded_rod
+- diameter_mm: 10.0
+  filename: working_mechanical_drawing
+  length_mm: 1000
+  pitch_mm: 1.5
+  svg_name: threaded_rod_drawing
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: threaded_rod
+taxonomy_2_capital: Threaded Rod
+taxonomy_2_first_letter: t
+taxonomy_2_first_letter_upper: T
+taxonomy_2_length_1: t
+taxonomy_2_length_2: th
+taxonomy_2_length_3: thr
+taxonomy_2_length_4: thre
+taxonomy_2_length_5: threa
+taxonomy_2_upper: THREADED_ROD
+taxonomy_2_upper_length_1: T
+taxonomy_2_upper_length_2: TH
+taxonomy_2_upper_length_3: THR
+taxonomy_2_upper_length_4: THRE
+taxonomy_2_upper_length_5: THREA
+taxonomy_3: m10
+taxonomy_3_capital: M10
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m1
+taxonomy_3_length_3: m10
+taxonomy_3_length_4: m10
+taxonomy_3_length_5: m10
+taxonomy_3_upper: M10
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M1
+taxonomy_3_upper_length_3: M10
+taxonomy_3_upper_length_4: M10
+taxonomy_3_upper_length_5: M10
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: 1000_mm_length
+taxonomy_7_capital: 1000 mm Length
+taxonomy_7_first_letter: '1'
+taxonomy_7_first_letter_upper: '1'
+taxonomy_7_length_1: '1'
+taxonomy_7_length_2: '10'
+taxonomy_7_length_3: '100'
+taxonomy_7_length_4: '1000'
+taxonomy_7_length_5: '1000_'
+taxonomy_7_upper: 1000_MM_LENGTH
+taxonomy_7_upper_length_1: '1'
+taxonomy_7_upper_length_2: '10'
+taxonomy_7_upper_length_3: '100'
+taxonomy_7_upper_length_4: '1000'
+taxonomy_7_upper_length_5: '1000_'
+taxonomy_8: ''
+taxonomy_9: ''
+thing:
+  bip_39_2_word_array:
+  - scissors
+  - purity
+  bip_39_2_word_no_space: scissorspurity
+  bip_39_2_word_space: scissors purity
+  bip_39_2_word_underscore: scissors_purity
+  bip_39_3_word_array:
+  - scissors
+  - purity
+  - appear
+  bip_39_3_word_no_space: scissorspurityappear
+  bip_39_3_word_space: scissors purity appear
+  bip_39_3_word_underscore: scissors_purity_appear
+  bip_39_full_array:
+  - scissors
+  - purity
+  - appear
+  - camera
+  - donkey
+  - scatter
+  - negative
+  - toss
+  - asset
+  - mouse
+  - motor
+  - grace
+  bip_39_full_no_space: scissorspurityappearcameradonkeyscatternegativetossassetmousemotorgrace
+  bip_39_full_space: scissors purity appear camera donkey scatter negative toss asset
+    mouse motor grace
+  bip_39_full_underscore: scissors_purity_appear_camera_donkey_scatter_negative_toss_asset_mouse_motor_grace
+  classification: svg
+  color: ''
+  depth: 3
+  depth_mm: 3
+  description: ''
+  description_extra: ''
+  description_main: ''
+  directory: parts/hardware_threaded_rod_m10_1000_mm_length
+  extra: ''
+  filter: hardware_threaded_rod_*
+  generate_stl: true
+  height: 1
+  height_mm: 14.0
+  id: hardware_threaded_rod_m10_1000_mm_length
+  id_no_class: hardware_threaded_rod_m10_1000_mm_length
+  id_no_size: hardware_threaded_rod_m10_1000_mm_length
+  id_no_type: hardware_threaded_rod_m10_1000_mm_length
+  kwargs:
+    diameter_mm: 10.0
+    filter: ''
+    generate_stl: true
+    length_mm: 1000
+    navigation: false
+    oomp_description_extra: ''
+    oomp_description_main: _
+    oomp_mode: project
+    overwrite: true
+    part_filter: hardware_threaded_rod_*
+    pitch_mm: 1.5
+    run_action: false
+    run_only_yaml: false
+    run_oomp: true
+    run_oomp_populate: true
+    run_scad: true
+    run_svg: true
+    run_three_d_model: false
+    save_type: all
+    type: default_threaded_rod
+  label_drawer:
+    bip39: scissors purity appear
+    bip39_size: 2.108
+    code: TR
+    description: Threaded rod / M10 / 1000 mm
+    detail_lines: []
+    detail_size: 2.05
+    detail_y: 21.1
+    diagram: <path d="M2 5H18V9H2Z M4 5L3 9 M6 5L5 9 M8 5L7 9 M10 5L9 9 M12 5L11 9
+      M14 5L13 9 M16 5L15 9"/>
+    drive_symbol: ''
+    length: '1000'
+    length_size: 7.516
+    length_x: 14.000221749999998
+    name: Threaded rod
+    name_lines:
+    - Threaded rod
+    name_size: 3.2
+    thread: M10
+    thread_size: 5.038
+  link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_threaded_rod_m10_1000_mm_length
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_threaded_rod_m10_1000_mm_length
+  link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_threaded_rod_m10_1000_mm_length
+  md5: c115c82a10541380e4ff2d0db21641b2
+  md5_10: c115c82a10
+  md5_10_upper: C115C82A10
+  md5_5: c115c
+  md5_5_upper: C115C
+  md5_6: c115c8
+  md5_6_alpha: 7j7wo
+  md5_6_alpha_upper: 7J7WO
+  md5_6_upper: C115C8
+  name: Hardware Threaded Rod M10 1000 Mm Length
+  name_no_class: Hardware Threaded Rod M10 1000 Mm Length
+  name_no_size: Hardware Threaded Rod M10 1000 Mm Length
+  name_no_type: Hardware Threaded Rod M10 1000 Mm Length
+  name_proper: Hardware Threaded Rod M10 1000 Mm Length
+  name_space: hardware threaded rod m10 1000 mm length
+  name_upper: HARDWARE THREADED ROD M10 1000 MM LENGTH
+  oobb_details:
+    diameter_mm: 10.0
+    length_mm: 1000
+    oobb_name: threaded_rod
+    pitch_mm: 1.5
+  oobb_name: threaded_rod
+  oomlout_ai_roboclick_1:
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      dict_data:
+        directory: parts\hardware_threaded_rod_m10_1000_mm_length
+        name: hardware_threaded_rod_m10_1000_mm_length
+        name_proper: Hardware Threaded Rod M10 1000 Mm Length
+        name_space: hardware threaded rod m10 1000 mm length
+        name_upper: HARDWARE THREADED ROD M10 1000 MM LENGTH
+        oobb_details:
+          diameter_mm: 10.0
+          length_mm: 1000
+          oobb_name: threaded_rod
+          pitch_mm: 1.5
+        svg_details:
+        - diameter_mm: 10.0
+          length_mm: 1000
+          pitch_mm: 1.5
+          svg_name: threaded_rod
+        - diameter_mm: 10.0
+          filename: working_mechanical_drawing
+          length_mm: 1000
+          pitch_mm: 1.5
+          svg_name: threaded_rod_drawing
+        taxonomy_1: hardware
+        taxonomy_10: ''
+        taxonomy_11: ''
+        taxonomy_12: ''
+        taxonomy_13: ''
+        taxonomy_14: ''
+        taxonomy_15: ''
+        taxonomy_2: threaded_rod
+        taxonomy_3: m10
+        taxonomy_4: ''
+        taxonomy_5: ''
+        taxonomy_6: ''
+        taxonomy_7: 1000_mm_length
+        taxonomy_8: ''
+        taxonomy_9: ''
+        three_d_model_details:
+          checked_on: '2026-11-15'
+          coordinate_system:
+            axis: +Z along rod
+            glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+            glb_units: metres
+            glb_up_axis: Y
+            origin: lower end centre
+            stl_units: mm
+          dimension_status: nominal_thread_dimensions
+          dimensional_specification: Nominal metric fully threaded rod, cut to catalogue
+            length
+          generator: metric_threaded_rod
+          length_status: user_specified_cut_length
+          material:
+            base_colour_srgb:
+            - 0.62
+            - 0.65
+            - 0.69
+            coat_roughness: 0.28
+            coat_weight: 0.02
+            metallic: 1.0
+            microtexture_height_um: 0.8
+            microtexture_spacing_mm: 0.025
+            name: Satin steel
+            note: Visual finish approximation; catalogue specifies colour only.
+            roughness: 0.26
+            roughness_variation: 0.045
+          model_formats:
+          - stl
+          - glb
+          modelling_choices:
+            bearing: No head or bearing surface.
+            cavity: Solid headless rod.
+            certification: Nominal visual catalogue model, not manufacturing tolerance
+              certification.
+            chamfer: 'Both ends: visual 45 degree chamfer, axial depth P/2.'
+            components: One closed solid.
+            dimension_selection: Nominal thread diameter and sourced coarse pitch;
+              user-specified overall cut length.
+            display: Smooth nominal external-thread envelope or smooth minor-diameter
+              internal bore; lower angular and fillet tessellation.
+            family_note: End-to-end catalogue lengths; supplier and tolerances unspecified.
+              Both ends have a visual 45 degree chamfer of half a pitch. No head or
+              plain shank.
+            markings: Supplier and property-class markings omitted because catalogue
+              does not identify them.
+            runout: Continuous external thread, clipped by end chamfers; no plain
+              shank.
+            thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets.
+              External rounded root H/6, internal P/4 crest and P/8 root flats.
+            unspecified_geometry: Nut mouth for supplier rows without limits and flange
+              M3/M4 thickness/rim blends are explicit visual model selections.
+          output_folder: three_d_model
+          parameters:
+            characteristic_dimension_basis: nominal axial thread diameter
+            characteristic_dimension_mm: 10.0
+            expected_components: 1
+            external_minor_diameter_mm: 8.159696016958067
+            family: rod
+            finish: satin
+            handedness: right
+            identity: hardware_threaded_rod_m10_1000_mm_length
+            internal_minor_diameter_mm: 8.376202367904177
+            length_convention: overall end-to-end length
+            length_mm: 1000.0
+            nominal_diameter_mm: 10.0
+            overall_height_mm: 1000.0
+            pitch_mm: 1.5
+            specification: Nominal metric fully threaded rod, cut to catalogue length
+            thread_end_z_mm: 1000.0
+            thread_flank_angle_degrees: 60.0
+            thread_length_mm: 1000.0
+            thread_mode: full
+            thread_pitch_diameter_mm: 9.025721420742506
+            thread_runout_mm: 0.0
+            thread_starts: 1
+            tip_chamfer_mm: 0.75
+          renders:
+            high:
+              file: render_high.png
+              pixels: 2048
+              variant: full
+              view: isometric
+            low:
+              file: render_low.png
+              pixels: 512
+              variant: display
+              view: isometric
+            product_high:
+              file: render_product_high.png
+              pixels: 2048
+              variant: full
+              view: product
+            product_low:
+              file: render_product_low.png
+              pixels: 512
+              variant: display
+              view: product
+          schema_version: 1
+          source_table: source_file/standards/threaded_rod.yaml
+          sources:
+          - title: Accu metric coarse thread dimensions
+            url: https://i.accu.co.uk/documents/marketing/Thread-Size-Sheet-V2.pdf
+          - title: ISO 68-1:1998 basic ISO metric thread profile
+            url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+          standard: null
+          standard_lengths_mm: []
+          standard_limits: {}
+          studio:
+            adaptive_threshold: 0.015
+            denoise: true
+            device: auto
+            engine: cycles
+            exposure: 0.0
+            floor_colour_srgb:
+            - 0.93
+            - 0.935
+            - 0.94
+            floor_roughness: 0.55
+            framing_margin: 0.13
+            high_samples: 160
+            lights:
+            - colour:
+              - 1.0
+              - 0.96
+              - 0.9
+              height: 5.0
+              name: Key softbox
+              position:
+              - -3
+              - -4
+              - 6
+              power: 650.0
+              width: 4.0
+            - colour:
+              - 0.9
+              - 0.95
+              - 1.0
+              height: 4.0
+              name: Fill softbox
+              position:
+              - 4
+              - -1
+              - 3
+              power: 330.0
+              width: 3.0
+            - colour:
+              - 1.0
+              - 1.0
+              - 1.0
+              height: 5.0
+              name: Rim strip
+              position:
+              - 1
+              - 4
+              - 4
+              power: 850.0
+              width: 1.2
+            look: AgX - Medium High Contrast
+            low_samples: 48
+            poses:
+              isometric:
+                camera_eye:
+                - 1
+                - -1
+                - 1
+                orientation: principal axis Z up
+                projection: orthographic
+              product:
+                camera_eye:
+                - -6
+                - -10
+                - 6
+                orientation: lying on side, axial end to left
+                projection: orthographic
+                resting_axis: side
+                support: Stable convex-hull support using actual mesh centre of mass.
+                yaw_degrees: -12.0
+            seed: 7991
+            view_transform: AgX
+            world_colour:
+            - 0.78
+            - 0.82
+            - 0.9
+            world_strength: 0.35
+          units: mm
+          variants:
+            display:
+              angular_segments: 24
+              fillet_segments: 3
+              samples_per_pitch: 1
+            full:
+              angular_segments: 48
+              fillet_segments: 12
+              samples_per_pitch: 16
+          views:
+          - isometric
+          - front
+          - back
+          - left
+          - right
+          - top
+          - bottom
+        url_chat: ''
+      dict_data_files: {}
+      dict_data_files_exists: {}
+      file_output: label_oomp.svg
+      file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+      search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+  oomlout_ai_roboclick_2:
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      dict_data:
+        directory: parts\hardware_threaded_rod_m10_1000_mm_length
+        name: hardware_threaded_rod_m10_1000_mm_length
+        name_proper: Hardware Threaded Rod M10 1000 Mm Length
+        name_space: hardware threaded rod m10 1000 mm length
+        name_upper: HARDWARE THREADED ROD M10 1000 MM LENGTH
+        oobb_details:
+          diameter_mm: 10.0
+          length_mm: 1000
+          oobb_name: threaded_rod
+          pitch_mm: 1.5
+        oomlout_ai_roboclick_1:
+          actions:
+          - command: text_jinja_template
+            convert_to_pdf: false
+            convert_to_png: false
+            dict_data:
+              directory: parts\hardware_threaded_rod_m10_1000_mm_length
+              name: hardware_threaded_rod_m10_1000_mm_length
+              name_proper: Hardware Threaded Rod M10 1000 Mm Length
+              name_space: hardware threaded rod m10 1000 mm length
+              name_upper: HARDWARE THREADED ROD M10 1000 MM LENGTH
+              oobb_details:
+                diameter_mm: 10.0
+                length_mm: 1000
+                oobb_name: threaded_rod
+                pitch_mm: 1.5
+              svg_details:
+              - diameter_mm: '10.0'
+                length_mm: '1000'
+                pitch_mm: '1.5'
+                svg_name: threaded_rod
+              - diameter_mm: '10.0'
+                filename: working_mechanical_drawing
+                length_mm: '1000'
+                pitch_mm: '1.5'
+                svg_name: threaded_rod_drawing
+              taxonomy_1: hardware
+              taxonomy_10: ''
+              taxonomy_11: ''
+              taxonomy_12: ''
+              taxonomy_13: ''
+              taxonomy_14: ''
+              taxonomy_15: ''
+              taxonomy_2: threaded_rod
+              taxonomy_3: m10
+              taxonomy_4: ''
+              taxonomy_5: ''
+              taxonomy_6: ''
+              taxonomy_7: 1000_mm_length
+              taxonomy_8: ''
+              taxonomy_9: ''
+              three_d_model_details:
+                checked_on: '2026-11-15'
+                coordinate_system:
+                  axis: +Z along rod
+                  glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                  glb_units: metres
+                  glb_up_axis: Y
+                  origin: lower end centre
+                  stl_units: mm
+                dimension_status: nominal_thread_dimensions
+                dimensional_specification: Nominal metric fully threaded rod, cut
+                  to catalogue length
+                generator: metric_threaded_rod
+                length_status: user_specified_cut_length
+                material:
+                  base_colour_srgb: '[0.62, 0.65, 0.69]'
+                  coat_roughness: '0.28'
+                  coat_weight: '0.02'
+                  metallic: '1.0'
+                  microtexture_height_um: '0.8'
+                  microtexture_spacing_mm: '0.025'
+                  name: Satin steel
+                  note: Visual finish approximation; catalogue specifies colour only.
+                  roughness: '0.26'
+                  roughness_variation: '0.045'
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                  bearing: No head or bearing surface.
+                  cavity: Solid headless rod.
+                  certification: Nominal visual catalogue model, not manufacturing
+                    tolerance certification.
+                  chamfer: 'Both ends: visual 45 degree chamfer, axial depth P/2.'
+                  components: One closed solid.
+                  dimension_selection: Nominal thread diameter and sourced coarse
+                    pitch; user-specified overall cut length.
+                  display: Smooth nominal external-thread envelope or smooth minor-diameter
+                    internal bore; lower angular and fillet tessellation.
+                  family_note: End-to-end catalogue lengths; supplier and tolerances
+                    unspecified. Both ends have a visual 45 degree chamfer of half
+                    a pitch. No head or plain shank.
+                  markings: Supplier and property-class markings omitted because catalogue
+                    does not identify them.
+                  runout: Continuous external thread, clipped by end chamfers; no
+                    plain shank.
+                  thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets.
+                    External rounded root H/6, internal P/4 crest and P/8 root flats.
+                  unspecified_geometry: Nut mouth for supplier rows without limits
+                    and flange M3/M4 thickness/rim blends are explicit visual model
+                    selections.
+                output_folder: three_d_model
+                parameters:
+                  characteristic_dimension_basis: nominal axial thread diameter
+                  characteristic_dimension_mm: '10.0'
+                  expected_components: '1'
+                  external_minor_diameter_mm: '8.159696016958067'
+                  family: rod
+                  finish: satin
+                  handedness: right
+                  identity: hardware_threaded_rod_m10_1000_mm_length
+                  internal_minor_diameter_mm: '8.376202367904177'
+                  length_convention: overall end-to-end length
+                  length_mm: '1000.0'
+                  nominal_diameter_mm: '10.0'
+                  overall_height_mm: '1000.0'
+                  pitch_mm: '1.5'
+                  specification: Nominal metric fully threaded rod, cut to catalogue
+                    length
+                  thread_end_z_mm: '1000.0'
+                  thread_flank_angle_degrees: '60.0'
+                  thread_length_mm: '1000.0'
+                  thread_mode: full
+                  thread_pitch_diameter_mm: '9.025721420742506'
+                  thread_runout_mm: '0.0'
+                  thread_starts: '1'
+                  tip_chamfer_mm: '0.75'
+                renders:
+                  high: '{''file'': ''render_high.png'', ''pixels'': 2048, ''variant'':
+                    ''full'', ''view'': ''isometric''}'
+                  low: '{''file'': ''render_low.png'', ''pixels'': 512, ''variant'':
+                    ''display'', ''view'': ''isometric''}'
+                  product_high: '{''file'': ''render_product_high.png'', ''pixels'':
+                    2048, ''variant'': ''full'', ''view'': ''product''}'
+                  product_low: '{''file'': ''render_product_low.png'', ''pixels'':
+                    512, ''variant'': ''display'', ''view'': ''product''}'
+                schema_version: 1
+                source_table: source_file/standards/threaded_rod.yaml
+                sources:
+                - '{''title'': ''Accu metric coarse thread dimensions'', ''url'':
+                  ''https://i.accu.co.uk/documents/marketing/Thread-Size-Sheet-V2.pdf''}'
+                - '{''title'': ''ISO 68-1:1998 basic ISO metric thread profile'',
+                  ''url'': ''https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf''}'
+                standard: null
+                standard_lengths_mm: []
+                standard_limits: {}
+                studio:
+                  adaptive_threshold: '0.015'
+                  denoise: 'True'
+                  device: auto
+                  engine: cycles
+                  exposure: '0.0'
+                  floor_colour_srgb: '[0.93, 0.935, 0.94]'
+                  floor_roughness: '0.55'
+                  framing_margin: '0.13'
+                  high_samples: '160'
+                  lights: '[{''colour'': [1.0, 0.96, 0.9], ''height'': 5.0, ''name'':
+                    ''Key softbox'', ''position'': [-3, -4, 6], ''power'': 650.0,
+                    ''width'': 4.0}, {''colour'': [0.9, 0.95, 1.0], ''height'': 4.0,
+                    ''name'': ''Fill softbox'', ''position'': [4, -1, 3], ''power'':
+                    330.0, ''width'': 3.0}, {''colour'': [1.0, 1.0, 1.0], ''height'':
+                    5.0, ''name'': ''Rim strip'', ''position'': [1, 4, 4], ''power'':
+                    850.0, ''width'': 1.2}]'
+                  look: AgX - Medium High Contrast
+                  low_samples: '48'
+                  poses: '{''isometric'': {''camera_eye'': [1, -1, 1], ''orientation'':
+                    ''principal axis Z up'', ''projection'': ''orthographic''}, ''product'':
+                    {''camera_eye'': [-6, -10, 6], ''orientation'': ''lying on side,
+                    axial end to left'', ''projection'': ''orthographic'', ''resting_axis'':
+                    ''side'', ''support'': ''Stable convex-hull support using actual
+                    mesh centre of mass.'', ''yaw_degrees'': -12.0}}'
+                  seed: '7991'
+                  view_transform: AgX
+                  world_colour: '[0.78, 0.82, 0.9]'
+                  world_strength: '0.35'
+                units: mm
+                variants:
+                  display: '{''angular_segments'': 24, ''fillet_segments'': 3, ''samples_per_pitch'':
+                    1}'
+                  full: '{''angular_segments'': 48, ''fillet_segments'': 12, ''samples_per_pitch'':
+                    16}'
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+              url_chat: ''
+            dict_data_files: {}
+            dict_data_files_exists: {}
+            file_output: label_oomp.svg
+            file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+            search_and_replace: []
+          file_test: label_oomp.pdf
+          retries_until_complete: 0
+        svg_details:
+        - diameter_mm: 10.0
+          length_mm: 1000
+          pitch_mm: 1.5
+          svg_name: threaded_rod
+        - diameter_mm: 10.0
+          filename: working_mechanical_drawing
+          length_mm: 1000
+          pitch_mm: 1.5
+          svg_name: threaded_rod_drawing
+        taxonomy_1: hardware
+        taxonomy_10: ''
+        taxonomy_11: ''
+        taxonomy_12: ''
+        taxonomy_13: ''
+        taxonomy_14: ''
+        taxonomy_15: ''
+        taxonomy_2: threaded_rod
+        taxonomy_3: m10
+        taxonomy_4: ''
+        taxonomy_5: ''
+        taxonomy_6: ''
+        taxonomy_7: 1000_mm_length
+        taxonomy_8: ''
+        taxonomy_9: ''
+        three_d_model_details:
+          checked_on: '2026-11-15'
+          coordinate_system:
+            axis: +Z along rod
+            glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+            glb_units: metres
+            glb_up_axis: Y
+            origin: lower end centre
+            stl_units: mm
+          dimension_status: nominal_thread_dimensions
+          dimensional_specification: Nominal metric fully threaded rod, cut to catalogue
+            length
+          generator: metric_threaded_rod
+          length_status: user_specified_cut_length
+          material:
+            base_colour_srgb:
+            - 0.62
+            - 0.65
+            - 0.69
+            coat_roughness: 0.28
+            coat_weight: 0.02
+            metallic: 1.0
+            microtexture_height_um: 0.8
+            microtexture_spacing_mm: 0.025
+            name: Satin steel
+            note: Visual finish approximation; catalogue specifies colour only.
+            roughness: 0.26
+            roughness_variation: 0.045
+          model_formats:
+          - stl
+          - glb
+          modelling_choices:
+            bearing: No head or bearing surface.
+            cavity: Solid headless rod.
+            certification: Nominal visual catalogue model, not manufacturing tolerance
+              certification.
+            chamfer: 'Both ends: visual 45 degree chamfer, axial depth P/2.'
+            components: One closed solid.
+            dimension_selection: Nominal thread diameter and sourced coarse pitch;
+              user-specified overall cut length.
+            display: Smooth nominal external-thread envelope or smooth minor-diameter
+              internal bore; lower angular and fillet tessellation.
+            family_note: End-to-end catalogue lengths; supplier and tolerances unspecified.
+              Both ends have a visual 45 degree chamfer of half a pitch. No head or
+              plain shank.
+            markings: Supplier and property-class markings omitted because catalogue
+              does not identify them.
+            runout: Continuous external thread, clipped by end chamfers; no plain
+              shank.
+            thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets.
+              External rounded root H/6, internal P/4 crest and P/8 root flats.
+            unspecified_geometry: Nut mouth for supplier rows without limits and flange
+              M3/M4 thickness/rim blends are explicit visual model selections.
+          output_folder: three_d_model
+          parameters:
+            characteristic_dimension_basis: nominal axial thread diameter
+            characteristic_dimension_mm: 10.0
+            expected_components: 1
+            external_minor_diameter_mm: 8.159696016958067
+            family: rod
+            finish: satin
+            handedness: right
+            identity: hardware_threaded_rod_m10_1000_mm_length
+            internal_minor_diameter_mm: 8.376202367904177
+            length_convention: overall end-to-end length
+            length_mm: 1000.0
+            nominal_diameter_mm: 10.0
+            overall_height_mm: 1000.0
+            pitch_mm: 1.5
+            specification: Nominal metric fully threaded rod, cut to catalogue length
+            thread_end_z_mm: 1000.0
+            thread_flank_angle_degrees: 60.0
+            thread_length_mm: 1000.0
+            thread_mode: full
+            thread_pitch_diameter_mm: 9.025721420742506
+            thread_runout_mm: 0.0
+            thread_starts: 1
+            tip_chamfer_mm: 0.75
+          renders:
+            high:
+              file: render_high.png
+              pixels: 2048
+              variant: full
+              view: isometric
+            low:
+              file: render_low.png
+              pixels: 512
+              variant: display
+              view: isometric
+            product_high:
+              file: render_product_high.png
+              pixels: 2048
+              variant: full
+              view: product
+            product_low:
+              file: render_product_low.png
+              pixels: 512
+              variant: display
+              view: product
+          schema_version: 1
+          source_table: source_file/standards/threaded_rod.yaml
+          sources:
+          - title: Accu metric coarse thread dimensions
+            url: https://i.accu.co.uk/documents/marketing/Thread-Size-Sheet-V2.pdf
+          - title: ISO 68-1:1998 basic ISO metric thread profile
+            url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+          standard: null
+          standard_lengths_mm: []
+          standard_limits: {}
+          studio:
+            adaptive_threshold: 0.015
+            denoise: true
+            device: auto
+            engine: cycles
+            exposure: 0.0
+            floor_colour_srgb:
+            - 0.93
+            - 0.935
+            - 0.94
+            floor_roughness: 0.55
+            framing_margin: 0.13
+            high_samples: 160
+            lights:
+            - colour:
+              - 1.0
+              - 0.96
+              - 0.9
+              height: 5.0
+              name: Key softbox
+              position:
+              - -3
+              - -4
+              - 6
+              power: 650.0
+              width: 4.0
+            - colour:
+              - 0.9
+              - 0.95
+              - 1.0
+              height: 4.0
+              name: Fill softbox
+              position:
+              - 4
+              - -1
+              - 3
+              power: 330.0
+              width: 3.0
+            - colour:
+              - 1.0
+              - 1.0
+              - 1.0
+              height: 5.0
+              name: Rim strip
+              position:
+              - 1
+              - 4
+              - 4
+              power: 850.0
+              width: 1.2
+            look: AgX - Medium High Contrast
+            low_samples: 48
+            poses:
+              isometric:
+                camera_eye:
+                - 1
+                - -1
+                - 1
+                orientation: principal axis Z up
+                projection: orthographic
+              product:
+                camera_eye:
+                - -6
+                - -10
+                - 6
+                orientation: lying on side, axial end to left
+                projection: orthographic
+                resting_axis: side
+                support: Stable convex-hull support using actual mesh centre of mass.
+                yaw_degrees: -12.0
+            seed: 7991
+            view_transform: AgX
+            world_colour:
+            - 0.78
+            - 0.82
+            - 0.9
+            world_strength: 0.35
+          units: mm
+          variants:
+            display:
+              angular_segments: 24
+              fillet_segments: 3
+              samples_per_pitch: 1
+            full:
+              angular_segments: 48
+              fillet_segments: 12
+              samples_per_pitch: 16
+          views:
+          - isometric
+          - front
+          - back
+          - left
+          - right
+          - top
+          - bottom
+        url_chat: ''
+      dict_data_files: {}
+      dict_data_files_exists: {}
+      file_output: label_bolt_image.svg
+      file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+      search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
+  oomlout_ai_roboclick_3:
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      description: label_drawer
+      dict_data:
+        label_drawer:
+          bip39: scissors purity appear
+          bip39_size: 2.108
+          code: TR
+          description: Threaded rod / M10 / 1000 mm
+          detail_lines: []
+          detail_size: 2.05
+          detail_y: 21.1
+          diagram: <path d="M2 5H18V9H2Z M4 5L3 9 M6 5L5 9 M8 5L7 9 M10 5L9 9 M12
+            5L11 9 M14 5L13 9 M16 5L15 9"/>
+          drive_symbol: ''
+          length: '1000'
+          length_size: 7.516
+          length_x: 14.000221749999998
+          name: Threaded rod
+          name_lines:
+          - Threaded rod
+          name_size: 3.2
+          thread: M10
+          thread_size: 5.038
+      file_output: label_drawer.svg
+      file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
+  oomp_key: oomp_hardware_threaded_rod_m10_1000_mm_length
+  run_action: false
+  run_only_yaml: false
+  run_oomp: true
+  run_oomp_populate: true
+  run_scad: true
+  run_svg: true
+  run_three_d_model: false
+  size: ''
+  styles:
+    diagram.solid:
+      color: '#1A1A1A'
+      stroke: none
+      stroke_width: 0
+    engraved:
+      color: '#CCCCCC'
+      stroke: none
+      stroke_width: 0
+    engraved.light:
+      color: '#E0E0E0'
+    header:
+      color: '#1C1C1C'
+      stroke: '#1C1C1C'
+      stroke_width: 0.5
+    header.accent:
+      color: '#444444'
+    header.label:
+      color: '#FFFFFF'
+      font: Swis721 Blk BT, comic sans ms
+      font_weight: bold
+      halign: center
+      size: 7.0
+      stroke: none
+      stroke_width: 0
+      valign: center
+    hole:
+      color: '#DDDDDD'
+      stroke: '#1A1A1A'
+      stroke_width: 0.4
+    hole.cut:
+      color: '#FFFFFF'
+      stroke: '#444444'
+      stroke_width: 0.3
+    label:
+      color: '#1A1A1A'
+      font: Swis721 Blk BT, comic sans ms
+      halign: center
+      size: 5.0
+      stroke: none
+      stroke_width: 0
+      valign: center
+    label.accent:
+      color: '#333333'
+    label.large:
+      size: 8.0
+    label.light:
+      color: '#FFFFFF'
+    label.mono:
+      font: JetBrains Mono, Fira Code, Consolas, monospace
+    label.muted:
+      color: '#888888'
+    label.small:
+      size: 2.5
+    label.title:
+      color: '#111111'
+      font: Swis721 Blk BT, comic sans ms
+      font_weight: bold
+      size: 14.0
+    line:
+      color: none
+      stroke: '#333333'
+      stroke_width: 0.5
+    line.accent:
+      stroke: '#111111'
+    line.hairline:
+      stroke_width: 0.1
+    line.heavy:
+      stroke_width: 2.0
+    line.muted:
+      stroke: '#AAAAAA'
+    line.thick:
+      stroke_width: 1.0
+    line.thin:
+      stroke_width: 0.25
+    outline:
+      color: none
+      stroke: '#1A1A1A'
+      stroke_width: 0.5
+    outline.accent:
+      color: none
+      stroke: '#555555'
+      stroke_width: 0.5
+    outline.hairline:
+      stroke_width: 0.1
+    outline.heavy:
+      stroke_width: 2.0
+    outline.light:
+      color: none
+      stroke: '#AAAAAA'
+      stroke_width: 0.3
+    outline.thick:
+      stroke_width: 1.0
+    outline.thin:
+      stroke_width: 0.25
+    plate:
+      color: '#FAFAFA'
+      stroke: '#1A1A1A'
+      stroke_width: 1.2
+    plate.accent:
+      color: '#E8E8E8'
+      stroke: '#1A1A1A'
+      stroke_width: 0.5
+    plate.cell:
+      color: '#FFFFFF'
+      stroke: '#2E2E2E'
+      stroke_width: 0.5
+    plate.hairline:
+      stroke: '#333333'
+      stroke_width: 0.1
+    plate.heavy:
+      stroke: '#333333'
+      stroke_width: 2.0
+    plate.inner:
+      color: none
+      stroke: '#2E2E2E'
+      stroke_width: 0.35
+    plate.light:
+      color: '#F0F0F0'
+      stroke: '#333333'
+      stroke_width: 0.5
+    plate.outline:
+      color: none
+      stroke: '#1A1A1A'
+      stroke_width: 0.8
+    plate.thick:
+      stroke: '#333333'
+      stroke_width: 1.0
+    plate.thin:
+      stroke: '#333333'
+      stroke_width: 0.25
+    rule:
+      color: '#BBBBBB'
+      stroke: none
+      stroke_width: 0
+    slot:
+      color: '#DDDDDD'
+      stroke: '#1A1A1A'
+      stroke_width: 0.4
+  svg_components:
+  - color: '#ffffff'
+    pos:
+    - 0
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: rect
+    size:
+    - 210.0
+    - 297.0
+    - 0
+    stroke: none
+    stroke_width: 0
+  - color: none
+    pos:
+    - 0
+    - 0
+    - 0
+    r: 3.5
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: rounded_rectangle
+    size:
+    - 202.0
+    - 289.0
+    - 0
+    stroke: '#1A1A1A'
+    stroke_width: 0.8
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: left
+    pos:
+    - -91.0
+    - 134.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.2
+    stroke: none
+    stroke_width: 0
+    text: hardware_threaded_rod_m10_1000_mm_length
+    valign: center
+  - color: '#1C1C1C'
+    font: sans-serif
+    font_weight: bold
+    halign: left
+    pos:
+    - -91.0
+    - 111.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 18.0
+    stroke: none
+    stroke_width: 0
+    text: M10 x 1000
+    valign: center
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: left
+    pos:
+    - -91.0
+    - 99.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 4.5
+    stroke: none
+    stroke_width: 0
+    text: HARDWARE / THREADED ROD
+    valign: center
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: left
+    pos:
+    - -91.0
+    - 81.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 4.0
+    stroke: none
+    stroke_width: 0
+    text: FULLY THREADED ROD
+    valign: center
+  - p1:
+    - -95.0
+    - 0
+    p2:
+    - 95.0
+    - 0
+    pos:
+    - 0
+    - 72.5
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#111111'
+    font: sans-serif
+    font_weight: bold
+    halign: left
+    pos:
+    - -91.0
+    - 65.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 5.2
+    stroke: none
+    stroke_width: 0
+    text: DIMENSIONS
+    valign: center
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: right
+    pos:
+    - 91.0
+    - 65.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.2
+    stroke: none
+    stroke_width: 0
+    text: 1:1 RATIO  —  PRINT AT 100%
+    valign: center
+  - color: '#1A1A1A'
+    font: sans-serif
+    font_weight: bold
+    halign: center
+    pos:
+    - -52.5
+    - 51.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.2
+    stroke: none
+    stroke_width: 0
+    text: END VIEW
+    valign: center
+  - color: '#1A1A1A'
+    font: sans-serif
+    font_weight: bold
+    halign: center
+    pos:
+    - 52.5
+    - 51.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.2
+    stroke: none
+    stroke_width: 0
+    text: SIDE VIEW
+    valign: center
+  - color: '#eeeeee'
+    pos:
+    - -52.5
+    - -16.5
+    - 0
+    r: 5.0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: circle
+    stroke: '#222222'
+    stroke_width: 0.3
+  - color: '#eeeeee'
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: rect
+    size:
+    - 10.0
+    - 60.0
+    - 0
+    stroke: '#222222'
+    stroke_width: 0.3
+  - p1:
+    - -5.0
+    - -28.5
+    p2:
+    - 5.0
+    - -27.75
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - -27.0
+    p2:
+    - 5.0
+    - -26.25
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - -25.5
+    p2:
+    - 5.0
+    - -24.75
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - -24.0
+    p2:
+    - 5.0
+    - -23.25
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - -22.5
+    p2:
+    - 5.0
+    - -21.75
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - -21.0
+    p2:
+    - 5.0
+    - -20.25
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - -19.5
+    p2:
+    - 5.0
+    - -18.75
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - -18.0
+    p2:
+    - 5.0
+    - -17.25
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - -16.5
+    p2:
+    - 5.0
+    - -15.75
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - -15.0
+    p2:
+    - 5.0
+    - -14.25
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - -13.5
+    p2:
+    - 5.0
+    - -12.75
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - -12.0
+    p2:
+    - 5.0
+    - -11.25
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - -10.5
+    p2:
+    - 5.0
+    - -9.75
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - -9.0
+    p2:
+    - 5.0
+    - -8.25
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - -7.5
+    p2:
+    - 5.0
+    - -6.75
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - -6.0
+    p2:
+    - 5.0
+    - -5.25
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - -4.5
+    p2:
+    - 5.0
+    - -3.75
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - -3.0
+    p2:
+    - 5.0
+    - -2.25
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - -1.5
+    p2:
+    - 5.0
+    - -0.75
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - 0.0
+    p2:
+    - 5.0
+    - 0.75
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - 1.5
+    p2:
+    - 5.0
+    - 2.25
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - 3.0
+    p2:
+    - 5.0
+    - 3.75
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - 4.5
+    p2:
+    - 5.0
+    - 5.25
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - 6.0
+    p2:
+    - 5.0
+    - 6.75
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - 7.5
+    p2:
+    - 5.0
+    - 8.25
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - 9.0
+    p2:
+    - 5.0
+    - 9.75
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - 10.5
+    p2:
+    - 5.0
+    - 11.25
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - 12.0
+    p2:
+    - 5.0
+    - 12.75
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - 13.5
+    p2:
+    - 5.0
+    - 14.25
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - 15.0
+    p2:
+    - 5.0
+    - 15.75
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - 16.5
+    p2:
+    - 5.0
+    - 17.25
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - 18.0
+    p2:
+    - 5.0
+    - 18.75
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - 19.5
+    p2:
+    - 5.0
+    - 20.25
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - 21.0
+    p2:
+    - 5.0
+    - 21.75
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - 22.5
+    p2:
+    - 5.0
+    - 23.25
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - 24.0
+    p2:
+    - 5.0
+    - 24.75
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - 25.5
+    p2:
+    - 5.0
+    - 26.25
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - 27.0
+    p2:
+    - 5.0
+    - 27.75
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - p1:
+    - -5.0
+    - 28.5
+    p2:
+    - 5.0
+    - 29.25
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#888888'
+    stroke_width: 0.1
+  - color: white
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: rect
+    size:
+    - 12.0
+    - 5
+    - 0
+    stroke: none
+    stroke_width: 0
+  - p1:
+    - -6.0
+    - -3.0
+    p2:
+    - 6.0
+    - -1.0
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#222222'
+    stroke_width: 0.3
+  - p1:
+    - -6.0
+    - 1.0
+    p2:
+    - 6.0
+    - 3.0
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#222222'
+    stroke_width: 0.3
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: center
+    pos:
+    - 0
+    - -69.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3
+    stroke: none
+    stroke_width: 0
+    text: AXIAL VIEW SHORTENED AT BREAK
+    valign: center
+  - color: '#1A1A1A'
+    p1:
+    - -5.0
+    - -1.5
+    p2:
+    - -5.0
+    - -14.5
+    pos:
+    - -52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - 5.0
+    - -1.5
+    p2:
+    - 5.0
+    - -14.5
+    pos:
+    - -52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - -5.0
+    - -13.0
+    p2:
+    - 5.0
+    - -13.0
+    pos:
+    - -52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - -5.0
+    - -14.5
+    p2:
+    - -5.0
+    - -11.5
+    pos:
+    - -52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - 5.0
+    - -14.5
+    p2:
+    - 5.0
+    - -11.5
+    pos:
+    - -52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    font: Arial, Helvetica, sans-serif
+    halign: center
+    pos:
+    - -52.5
+    - -32.78
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.8
+    text: M10 / 10 mm
+    valign: center
+  - color: '#1A1A1A'
+    p1:
+    - 6.5
+    - -30.0
+    p2:
+    - 15.5
+    - -30.0
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - 6.5
+    - 30.0
+    p2:
+    - 15.5
+    - 30.0
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - 14.0
+    - -30.0
+    p2:
+    - 14.0
+    - 30.0
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - 12.5
+    - -30.0
+    p2:
+    - 15.5
+    - -30.0
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    p1:
+    - 12.5
+    - 30.0
+    p2:
+    - 15.5
+    - 30.0
+    pos:
+    - 52.5
+    - -16.5
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#1A1A1A'
+    font: Arial, Helvetica, sans-serif
+    halign: center
+    pos:
+    - 69.78
+    - -16.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 90
+    shape: text
+    size: 3.8
+    text: 1000 mm OVERALL
+    valign: center
+  - p1:
+    - -95.0
+    - 0
+    p2:
+    - 95.0
+    - 0
+    pos:
+    - 0
+    - -76.5
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.5
+  - color: '#111111'
+    font: sans-serif
+    font_weight: bold
+    halign: left
+    pos:
+    - -91.0
+    - -87.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 5.5
+    stroke: none
+    stroke_width: 0
+    text: M10
+    valign: center
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: left
+    pos:
+    - -91.0
+    - -95.0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.0
+    stroke: none
+    stroke_width: 0
+    text: THREAD
+    valign: center
+  - color: '#111111'
+    font: sans-serif
+    font_weight: bold
+    halign: left
+    pos:
+    - -30.333333333333336
+    - -87.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 5.5
+    stroke: none
+    stroke_width: 0
+    text: 1.5 mm
+    valign: center
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: left
+    pos:
+    - -30.333333333333336
+    - -95.0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.0
+    stroke: none
+    stroke_width: 0
+    text: PITCH
+    valign: center
+  - color: '#111111'
+    font: sans-serif
+    font_weight: bold
+    halign: left
+    pos:
+    - 30.33333333333333
+    - -87.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 5.5
+    stroke: none
+    stroke_width: 0
+    text: 1000 mm
+    valign: center
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: left
+    pos:
+    - 30.33333333333333
+    - -95.0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.0
+    stroke: none
+    stroke_width: 0
+    text: OVERALL LENGTH
+    valign: center
+  - p1:
+    - -95.0
+    - 0
+    p2:
+    - 95.0
+    - 0
+    pos:
+    - 0
+    - -102.5
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.3
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: left
+    pos:
+    - -91.0
+    - -110.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.2
+    stroke: none
+    stroke_width: 0
+    text: NOMINAL METRIC COARSE THREAD
+    valign: center
+  - color: '#aaaaaa'
+    font: sans-serif
+    font_weight: ''
+    halign: left
+    pos:
+    - -91.0
+    - -119.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 3.0
+    stroke: none
+    stroke_width: 0
+    text: hardware_threaded_rod_m10_1000_mm_length
+    valign: center
+  - p1:
+    - -95.0
+    - 0
+    p2:
+    - 95.0
+    - 0
+    pos:
+    - 0
+    - -128.5
+    - 0
+    shape: line
+    stroke: '#1A1A1A'
+    stroke_width: 0.3
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: left
+    pos:
+    - -91.0
+    - -136.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 2.8
+    stroke: none
+    stroke_width: 0
+    text: OOMLOUT
+    valign: center
+  - color: '#888888'
+    font: sans-serif
+    font_weight: ''
+    halign: right
+    pos:
+    - 91.0
+    - -136.5
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: text
+    size: 2.8
+    stroke: none
+    stroke_width: 0
+    text: oom.lt/c115c8
+    valign: center
+  svg_details:
+  - diameter_mm: 10.0
+    length_mm: 1000
+    pitch_mm: 1.5
+    svg_name: threaded_rod
+  - diameter_mm: 10.0
+    filename: working_mechanical_drawing
+    length_mm: 1000
+    pitch_mm: 1.5
+    svg_name: threaded_rod_drawing
+  taxonomy_1: hardware
+  taxonomy_10: ''
+  taxonomy_11: ''
+  taxonomy_12: ''
+  taxonomy_13: ''
+  taxonomy_14: ''
+  taxonomy_15: ''
+  taxonomy_1_capital: Hardware
+  taxonomy_1_first_letter: h
+  taxonomy_1_first_letter_upper: H
+  taxonomy_1_length_1: h
+  taxonomy_1_length_2: ha
+  taxonomy_1_length_3: har
+  taxonomy_1_length_4: hard
+  taxonomy_1_length_5: hardw
+  taxonomy_1_upper: HARDWARE
+  taxonomy_1_upper_length_1: H
+  taxonomy_1_upper_length_2: HA
+  taxonomy_1_upper_length_3: HAR
+  taxonomy_1_upper_length_4: HARD
+  taxonomy_1_upper_length_5: HARDW
+  taxonomy_2: threaded_rod
+  taxonomy_2_capital: Threaded Rod
+  taxonomy_2_first_letter: t
+  taxonomy_2_first_letter_upper: T
+  taxonomy_2_length_1: t
+  taxonomy_2_length_2: th
+  taxonomy_2_length_3: thr
+  taxonomy_2_length_4: thre
+  taxonomy_2_length_5: threa
+  taxonomy_2_upper: THREADED_ROD
+  taxonomy_2_upper_length_1: T
+  taxonomy_2_upper_length_2: TH
+  taxonomy_2_upper_length_3: THR
+  taxonomy_2_upper_length_4: THRE
+  taxonomy_2_upper_length_5: THREA
+  taxonomy_3: m10
+  taxonomy_3_capital: M10
+  taxonomy_3_first_letter: m
+  taxonomy_3_first_letter_upper: M
+  taxonomy_3_length_1: m
+  taxonomy_3_length_2: m1
+  taxonomy_3_length_3: m10
+  taxonomy_3_length_4: m10
+  taxonomy_3_length_5: m10
+  taxonomy_3_upper: M10
+  taxonomy_3_upper_length_1: M
+  taxonomy_3_upper_length_2: M1
+  taxonomy_3_upper_length_3: M10
+  taxonomy_3_upper_length_4: M10
+  taxonomy_3_upper_length_5: M10
+  taxonomy_4: ''
+  taxonomy_5: ''
+  taxonomy_6: ''
+  taxonomy_7: 1000_mm_length
+  taxonomy_7_capital: 1000 mm Length
+  taxonomy_7_first_letter: '1'
+  taxonomy_7_first_letter_upper: '1'
+  taxonomy_7_length_1: '1'
+  taxonomy_7_length_2: '10'
+  taxonomy_7_length_3: '100'
+  taxonomy_7_length_4: '1000'
+  taxonomy_7_length_5: '1000_'
+  taxonomy_7_upper: 1000_MM_LENGTH
+  taxonomy_7_upper_length_1: '1'
+  taxonomy_7_upper_length_2: '10'
+  taxonomy_7_upper_length_3: '100'
+  taxonomy_7_upper_length_4: '1000'
+  taxonomy_7_upper_length_5: '1000_'
+  taxonomy_8: ''
+  taxonomy_9: ''
+  three_d_model_details:
+    checked_on: '2026-11-15'
+    coordinate_system:
+      axis: +Z along rod
+      glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+      glb_units: metres
+      glb_up_axis: Y
+      origin: lower end centre
+      stl_units: mm
+    dimension_status: nominal_thread_dimensions
+    dimensional_specification: Nominal metric fully threaded rod, cut to catalogue
+      length
+    generator: metric_threaded_rod
+    length_status: user_specified_cut_length
+    material:
+      base_colour_srgb:
+      - 0.62
+      - 0.65
+      - 0.69
+      coat_roughness: 0.28
+      coat_weight: 0.02
+      metallic: 1.0
+      microtexture_height_um: 0.8
+      microtexture_spacing_mm: 0.025
+      name: Satin steel
+      note: Visual finish approximation; catalogue specifies colour only.
+      roughness: 0.26
+      roughness_variation: 0.045
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+      bearing: No head or bearing surface.
+      cavity: Solid headless rod.
+      certification: Nominal visual catalogue model, not manufacturing tolerance certification.
+      chamfer: 'Both ends: visual 45 degree chamfer, axial depth P/2.'
+      components: One closed solid.
+      dimension_selection: Nominal thread diameter and sourced coarse pitch; user-specified
+        overall cut length.
+      display: Smooth nominal external-thread envelope or smooth minor-diameter internal
+        bore; lower angular and fillet tessellation.
+      family_note: End-to-end catalogue lengths; supplier and tolerances unspecified.
+        Both ends have a visual 45 degree chamfer of half a pitch. No head or plain
+        shank.
+      markings: Supplier and property-class markings omitted because catalogue does
+        not identify them.
+      runout: Continuous external thread, clipped by end chamfers; no plain shank.
+      thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+        rounded root H/6, internal P/4 crest and P/8 root flats.
+      unspecified_geometry: Nut mouth for supplier rows without limits and flange
+        M3/M4 thickness/rim blends are explicit visual model selections.
+    output_folder: three_d_model
+    parameters:
+      characteristic_dimension_basis: nominal axial thread diameter
+      characteristic_dimension_mm: 10.0
+      expected_components: 1
+      external_minor_diameter_mm: 8.159696016958067
+      family: rod
+      finish: satin
+      handedness: right
+      identity: hardware_threaded_rod_m10_1000_mm_length
+      internal_minor_diameter_mm: 8.376202367904177
+      length_convention: overall end-to-end length
+      length_mm: 1000.0
+      nominal_diameter_mm: 10.0
+      overall_height_mm: 1000.0
+      pitch_mm: 1.5
+      specification: Nominal metric fully threaded rod, cut to catalogue length
+      thread_end_z_mm: 1000.0
+      thread_flank_angle_degrees: 60.0
+      thread_length_mm: 1000.0
+      thread_mode: full
+      thread_pitch_diameter_mm: 9.025721420742506
+      thread_runout_mm: 0.0
+      thread_starts: 1
+      tip_chamfer_mm: 0.75
+    renders:
+      high:
+        file: render_high.png
+        pixels: 2048
+        variant: full
+        view: isometric
+      low:
+        file: render_low.png
+        pixels: 512
+        variant: display
+        view: isometric
+      product_high:
+        file: render_product_high.png
+        pixels: 2048
+        variant: full
+        view: product
+      product_low:
+        file: render_product_low.png
+        pixels: 512
+        variant: display
+        view: product
+    schema_version: 1
+    source_table: source_file/standards/threaded_rod.yaml
+    sources:
+    - title: Accu metric coarse thread dimensions
+      url: https://i.accu.co.uk/documents/marketing/Thread-Size-Sheet-V2.pdf
+    - title: ISO 68-1:1998 basic ISO metric thread profile
+      url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+    standard: null
+    standard_lengths_mm: []
+    standard_limits: {}
+    studio:
+      adaptive_threshold: 0.015
+      denoise: true
+      device: auto
+      engine: cycles
+      exposure: 0.0
+      floor_colour_srgb:
+      - 0.93
+      - 0.935
+      - 0.94
+      floor_roughness: 0.55
+      framing_margin: 0.13
+      high_samples: 160
+      lights:
+      - colour:
+        - 1.0
+        - 0.96
+        - 0.9
+        height: 5.0
+        name: Key softbox
+        position:
+        - -3
+        - -4
+        - 6
+        power: 650.0
+        width: 4.0
+      - colour:
+        - 0.9
+        - 0.95
+        - 1.0
+        height: 4.0
+        name: Fill softbox
+        position:
+        - 4
+        - -1
+        - 3
+        power: 330.0
+        width: 3.0
+      - colour:
+        - 1.0
+        - 1.0
+        - 1.0
+        height: 5.0
+        name: Rim strip
+        position:
+        - 1
+        - 4
+        - 4
+        power: 850.0
+        width: 1.2
+      look: AgX - Medium High Contrast
+      low_samples: 48
+      poses:
+        isometric:
+          camera_eye:
+          - 1
+          - -1
+          - 1
+          orientation: principal axis Z up
+          projection: orthographic
+        product:
+          camera_eye:
+          - -6
+          - -10
+          - 6
+          orientation: lying on side, axial end to left
+          projection: orthographic
+          resting_axis: side
+          support: Stable convex-hull support using actual mesh centre of mass.
+          yaw_degrees: -12.0
+      seed: 7991
+      view_transform: AgX
+      world_colour:
+      - 0.78
+      - 0.82
+      - 0.9
+      world_strength: 0.35
+    units: mm
+    variants:
+      display:
+        angular_segments: 24
+        fillet_segments: 3
+        samples_per_pitch: 1
+      full:
+        angular_segments: 48
+        fillet_segments: 12
+        samples_per_pitch: 16
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
+  type: default_threaded_rod
+  url_chat: ''
+  width: 1
+  width_mm: 14.0
+three_d_model_details:
+  checked_on: '2026-11-15'
+  coordinate_system:
+    axis: +Z along rod
+    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+    glb_units: metres
+    glb_up_axis: Y
+    origin: lower end centre
+    stl_units: mm
+  dimension_status: nominal_thread_dimensions
+  dimensional_specification: Nominal metric fully threaded rod, cut to catalogue length
+  generator: metric_threaded_rod
+  length_status: user_specified_cut_length
+  material:
+    base_colour_srgb:
+    - 0.62
+    - 0.65
+    - 0.69
+    coat_roughness: 0.28
+    coat_weight: 0.02
+    metallic: 1.0
+    microtexture_height_um: 0.8
+    microtexture_spacing_mm: 0.025
+    name: Satin steel
+    note: Visual finish approximation; catalogue specifies colour only.
+    roughness: 0.26
+    roughness_variation: 0.045
+  model_formats:
+  - stl
+  - glb
+  modelling_choices:
+    bearing: No head or bearing surface.
+    cavity: Solid headless rod.
+    certification: Nominal visual catalogue model, not manufacturing tolerance certification.
+    chamfer: 'Both ends: visual 45 degree chamfer, axial depth P/2.'
+    components: One closed solid.
+    dimension_selection: Nominal thread diameter and sourced coarse pitch; user-specified
+      overall cut length.
+    display: Smooth nominal external-thread envelope or smooth minor-diameter internal
+      bore; lower angular and fillet tessellation.
+    family_note: End-to-end catalogue lengths; supplier and tolerances unspecified.
+      Both ends have a visual 45 degree chamfer of half a pitch. No head or plain
+      shank.
+    markings: Supplier and property-class markings omitted because catalogue does
+      not identify them.
+    runout: Continuous external thread, clipped by end chamfers; no plain shank.
+    thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+      rounded root H/6, internal P/4 crest and P/8 root flats.
+    unspecified_geometry: Nut mouth for supplier rows without limits and flange M3/M4
+      thickness/rim blends are explicit visual model selections.
+  output_folder: three_d_model
+  parameters:
+    characteristic_dimension_basis: nominal axial thread diameter
+    characteristic_dimension_mm: 10.0
+    expected_components: 1
+    external_minor_diameter_mm: 8.159696016958067
+    family: rod
+    finish: satin
+    handedness: right
+    identity: hardware_threaded_rod_m10_1000_mm_length
+    internal_minor_diameter_mm: 8.376202367904177
+    length_convention: overall end-to-end length
+    length_mm: 1000.0
+    nominal_diameter_mm: 10.0
+    overall_height_mm: 1000.0
+    pitch_mm: 1.5
+    specification: Nominal metric fully threaded rod, cut to catalogue length
+    thread_end_z_mm: 1000.0
+    thread_flank_angle_degrees: 60.0
+    thread_length_mm: 1000.0
+    thread_mode: full
+    thread_pitch_diameter_mm: 9.025721420742506
+    thread_runout_mm: 0.0
+    thread_starts: 1
+    tip_chamfer_mm: 0.75
+  renders:
+    high:
+      file: render_high.png
+      pixels: 2048
+      variant: full
+      view: isometric
+    low:
+      file: render_low.png
+      pixels: 512
+      variant: display
+      view: isometric
+    product_high:
+      file: render_product_high.png
+      pixels: 2048
+      variant: full
+      view: product
+    product_low:
+      file: render_product_low.png
+      pixels: 512
+      variant: display
+      view: product
+  schema_version: 1
+  source_table: source_file/standards/threaded_rod.yaml
+  sources:
+  - title: Accu metric coarse thread dimensions
+    url: https://i.accu.co.uk/documents/marketing/Thread-Size-Sheet-V2.pdf
+  - title: ISO 68-1:1998 basic ISO metric thread profile
+    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+  standard: null
+  standard_lengths_mm: []
+  standard_limits: {}
+  studio:
+    adaptive_threshold: 0.015
+    denoise: true
+    device: auto
+    engine: cycles
+    exposure: 0.0
+    floor_colour_srgb:
+    - 0.93
+    - 0.935
+    - 0.94
+    floor_roughness: 0.55
+    framing_margin: 0.13
+    high_samples: 160
+    lights:
+    - colour:
+      - 1.0
+      - 0.96
+      - 0.9
+      height: 5.0
+      name: Key softbox
+      position:
+      - -3
+      - -4
+      - 6
+      power: 650.0
+      width: 4.0
+    - colour:
+      - 0.9
+      - 0.95
+      - 1.0
+      height: 4.0
+      name: Fill softbox
+      position:
+      - 4
+      - -1
+      - 3
+      power: 330.0
+      width: 3.0
+    - colour:
+      - 1.0
+      - 1.0
+      - 1.0
+      height: 5.0
+      name: Rim strip
+      position:
+      - 1
+      - 4
+      - 4
+      power: 850.0
+      width: 1.2
+    look: AgX - Medium High Contrast
+    low_samples: 48
+    poses:
+      isometric:
+        camera_eye:
+        - 1
+        - -1
+        - 1
+        orientation: principal axis Z up
+        projection: orthographic
+      product:
+        camera_eye:
+        - -6
+        - -10
+        - 6
+        orientation: lying on side, axial end to left
+        projection: orthographic
+        resting_axis: side
+        support: Stable convex-hull support using actual mesh centre of mass.
+        yaw_degrees: -12.0
+    seed: 7991
+    view_transform: AgX
+    world_colour:
+    - 0.78
+    - 0.82
+    - 0.9
+    world_strength: 0.35
+  units: mm
+  variants:
+    display:
+      angular_segments: 24
+      fillet_segments: 3
+      samples_per_pitch: 1
+    full:
+      angular_segments: 48
+      fillet_segments: 12
+      samples_per_pitch: 16
+  views:
+  - isometric
+  - front
+  - back
+  - left
+  - right
+  - top
+  - bottom
+url_chat: ''

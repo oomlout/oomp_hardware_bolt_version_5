@@ -9,7 +9,7 @@ from hardware_model_render import presentation_defaults
 
 ROOT = Path(__file__).resolve().parent
 STANDARD_FILE = ROOT/'source_file/standards/catalogue_hardware.yaml'
-GENERATOR_NAMES = dict(hex_bolt='iso_4014_hex_bolt', hex_screw='iso_4017_hex_screw',
+GENERATOR_NAMES = dict(threaded_rod='metric_threaded_rod', hex_bolt='iso_4014_hex_bolt', hex_screw='iso_4017_hex_screw',
     nylon_hex_screw='supplier_nylon_hex_screw', hex_nut='iso_4032_hex_nut',
     miniature_hex_nut='supplier_hex_nut', nylon_hex_nut='supplier_nylon_hex_nut',
     flange_nut='din_6923_flange_nut', coupling_nut='supplier_coupling_nut',
@@ -28,11 +28,18 @@ def standard():
             result['families'][name] = family
         else:
             result['families'][name]['sizes'].update(family['sizes'])
+    rods = yaml.safe_load((ROOT/'source_file/standards/threaded_rod.yaml').read_text(encoding='utf-8'))
+    for family in rods['families'].values():
+        for row in family['sizes'].values():
+            row['source_table'] = 'source_file/standards/threaded_rod.yaml'
+    result['families'].update(rods['families'])
     return result
 
 
 def classify(part):
     typ, variant = part.get('taxonomy_2'), part.get('taxonomy_4', '') or ''
+    if typ == 'threaded_rod':
+        return 'threaded_rod', ''
     if typ == 'bolt':
         return 'hex_bolt', ''
     if typ == 'set_screw':
@@ -78,7 +85,7 @@ def definition(part):
         row = copy.deepcopy(standard()['families']['hex_bolt']['sizes'][row['inherit_bolt_size']])
         if family != 'hex_bolt':
             row.pop('b_mm', None)
-    shape = 'bolt' if family.endswith('screw') or family == 'hex_bolt' else 'washer' if 'washer' in family else 'nut'
+    shape = 'rod' if family == 'threaded_rod' else 'bolt' if family.endswith('screw') or family == 'hex_bolt' else 'washer' if 'washer' in family else 'nut'
     finish = ('nylon_white' if 'nylon' in family else
               'black' if part.get('taxonomy_4') == 'black' else 'satin')
     identity = part.get('id') or '_'.join(str(part.get(f'taxonomy_{i}', '')) for i in range(1, 8) if part.get(f'taxonomy_{i}'))
@@ -89,7 +96,18 @@ def definition(part):
     limits = {}
     status = row.get('dimension_status', 'standard_dimensions' if table['standard'] else 'manufacturer_dimensions')
     length_status = 'not_applicable'
-    if shape == 'bolt':
+    if shape == 'rod':
+        length_token = part.get('taxonomy_7', '')
+        if not re.fullmatch(r'\d+(?:_\d+)?_mm_length', length_token):
+            raise ValueError(f'Invalid overall rod length {length_token}')
+        length = float(length_token.removesuffix('_mm_length').replace('_', '.'))
+        p.update(pitch_mm=row['pitch_mm'], length_mm=length, overall_height_mm=length,
+                 length_convention='overall end-to-end length', thread_mode='full',
+                 thread_length_mm=length, thread_end_z_mm=length, thread_runout_mm=0.,
+                 tip_chamfer_mm=row['pitch_mm']/2, characteristic_dimension_mm=d,
+                 characteristic_dimension_basis='nominal axial thread diameter')
+        length_status = 'user_specified_cut_length'
+    elif shape == 'bolt':
         length_token = part.get('taxonomy_4') if family == 'hex_bolt' else part.get('taxonomy_7')
         if not re.fullmatch(r'\d+(?:_\d+)?_mm_length', length_token or ''):
             raise ValueError(f'Invalid under-head length {length_token}')
@@ -191,6 +209,15 @@ def definition(part):
             roughness_variation=.015, microtexture_spacing_mm=.025, microtexture_height_um=.4,
             note='Nylon mechanism confirmed by catalogue owner; blue colour is a visual selection.')
         recipe['material']['insert_material'] = copy.deepcopy(recipe['insert_material'])
+    if shape == 'rod':
+        recipe['checked_on'] = '2026-11-15'
+        recipe['coordinate_system'].update(origin='lower end centre', axis='+Z along rod')
+        recipe['modelling_choices'].update(
+            dimension_selection='Nominal thread diameter and sourced coarse pitch; user-specified overall cut length.',
+            runout='Continuous external thread, clipped by end chamfers; no plain shank.',
+            chamfer='Both ends: visual 45 degree chamfer, axial depth P/2.',
+            bearing='No head or bearing surface.', cavity='Solid headless rod.')
+        recipe['variants']['full'].update(angular_segments=48, samples_per_pitch=16)
     return recipe, ''
 
 

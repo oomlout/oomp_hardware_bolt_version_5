@@ -1,0 +1,194 @@
+{
+  "artifacts": {
+    "display/back.svg": {
+      "bytes": 3430,
+      "sha256": "542c5cf469ba79b0f329f31705de81ac5ef062b157d344c4246d28a25d1e49cd"
+    },
+    "display/bottom.svg": {
+      "bytes": 3135,
+      "sha256": "d9c0e50e997c06463f54991bb51c13af433b64826c050242aedf0b58c3767349"
+    },
+    "display/front.svg": {
+      "bytes": 3433,
+      "sha256": "1275141dbf4d2cc12d35bbaeb0f3de540a37cfd9923ca0fb270909f4262a6067"
+    },
+    "display/isometric.svg": {
+      "bytes": 3894,
+      "sha256": "c7e42193ebc3ae816c6bdc5b6ec4992e8e88bdb7ea1920b7dcf27a539052e983"
+    },
+    "display/left.svg": {
+      "bytes": 3431,
+      "sha256": "e0f8516dc327133dce92d8511ace7c4878b97cf96102f942b556e852e7ededba"
+    },
+    "display/right.svg": {
+      "bytes": 3424,
+      "sha256": "300bd388d5f88ca50d99637addeaa6d36abc1aef370fef24a65506246ebbe772"
+    },
+    "display/top.svg": {
+      "bytes": 3128,
+      "sha256": "3275e43b63aa8c0322232714ab76c39a45faf16fea921b2d39d7f4df098e613f"
+    },
+    "full/back.svg": {
+      "bytes": 185752,
+      "sha256": "d5ba459d095950f22238d0e3a54845fb3f3c259bef6e13fac9dab6d601d95300"
+    },
+    "full/bottom.svg": {
+      "bytes": 290718,
+      "sha256": "3b651765aea4ba728e954bd2be9df988b41ab04dcfc5aed41c5a2011d76e9e31"
+    },
+    "full/front.svg": {
+      "bytes": 185419,
+      "sha256": "23c9754d681674013e57a7d25d4bf5224c05bf89ca44aa51f2c0e91319fe24e8"
+    },
+    "full/isometric.svg": {
+      "bytes": 182522,
+      "sha256": "4fd14024826353c401e523ab700aa8de17062c1bc985613e8c8839e653955c5b"
+    },
+    "full/left.svg": {
+      "bytes": 185581,
+      "sha256": "19a0729321ede55e9b45e3e645fb90aca1bf118d026aae2473089d4d19022ef8"
+    },
+    "full/right.svg": {
+      "bytes": 185539,
+      "sha256": "afc0b5d216577da518bc9bc15db68bc58b8b200c111ce9f61eadda7e0eab894c"
+    },
+    "full/top.svg": {
+      "bytes": 292012,
+      "sha256": "569578f88355cbd5b4a031b13cfe186b18a7a413dc8cc4a4bf83de664fb3b06f"
+    },
+    "model.py": {
+      "bytes": 24014,
+      "sha256": "0a4622db1cf1ddca56356b7a5a1969518a62220b0bc489b8b17aeca7478f6f86"
+    },
+    "model_display.glb": {
+      "bytes": 5560,
+      "sha256": "f7e1ac81d9b7d1e92d17e2f08d1dcc2847e22b6216c1f5d3e3fd2c531665edcf"
+    },
+    "model_display.stl": {
+      "bytes": 9684,
+      "sha256": "c291477dc6cbb539455a3ff2f34c16d68f391b00dbdfe120b4401720e6c2d96b"
+    },
+    "model_full.glb": {
+      "bytes": 556808,
+      "sha256": "24cf93ae18ebbc9336e66355fc83566ce5dc0b8f461808da3c7ed757926d554a"
+    },
+    "model_full.stl": {
+      "bytes": 1540884,
+      "sha256": "3509588b9232e599b9e59e9f4ff193eceb2d1041a36927cbbba232b365a91d83"
+    },
+    "model_notes.md": {
+      "bytes": 567,
+      "sha256": "0c55202b5766effd0d8713294807667b07edcdfd8bf6f5650a55d9d73b490ed3"
+    },
+    "parameters.json": {
+      "bytes": 6635,
+      "sha256": "2bd730eb6878f3b98f0e08ac652ba4bc8a148f75723da2fd5ded96521d7d1653"
+    },
+    "render_high.png": {
+      "bytes": 3986073,
+      "sha256": "f07a1482545ff6ade1411921e2055d456336e680d99abf06541ecd73906dec55"
+    },
+    "render_low.png": {
+      "bytes": 222459,
+      "sha256": "6fc2387259e57a2ffb18f771461f7e8f021f14a210632a6961f7900579e4f405"
+    },
+    "render_product_high.png": {
+      "bytes": 3762509,
+      "sha256": "25f4aa24235e18d2549edde326b1cdc91e67eccb72f8f4c8fbf71dbe818fc8d4"
+    },
+    "render_product_low.png": {
+      "bytes": 227578,
+      "sha256": "37dc3891a8c815d580454026b4f4e3149cbd46eb5a96934c19ab746d007585c5"
+    },
+    "render_scene.json": {
+      "bytes": 14241,
+      "sha256": "110dd6119f5fe83fa481f32ce8becb77c1fba89d7faf2e1f248f0071bc990515"
+    },
+    "requirements.txt": {
+      "bytes": 159,
+      "sha256": "28d3bd256f74029ed53f3f1e0d97af6fe46e8e66ce5713c70e4e093d000d01e4"
+    },
+    "studio.blend": {
+      "bytes": 610242,
+      "sha256": "06b284ebcb9129c7c74a92c75401223924f26c04c0e1cff0d2c934d1ef8ced92"
+    }
+  },
+  "coordinate_system": {
+    "axis": "+Z along rod",
+    "glb_conversion": "(x,y,z) mm -> (x,z,-y)/1000 metres",
+    "glb_units": "metres",
+    "glb_up_axis": "Y",
+    "origin": "lower end centre",
+    "stl_units": "mm"
+  },
+  "dimension_status": "nominal_thread_dimensions",
+  "fingerprint": "706819be22c8f0e32eded49c27956f2f50f98886249a811ed9dc1d26f03906ed",
+  "generator": "metric_threaded_rod",
+  "length_status": "user_specified_cut_length",
+  "models": {
+    "display": {
+      "bounds_mm": [
+        [
+          -10.0,
+          -10.0,
+          0.0
+        ],
+        [
+          10.0,
+          10.0,
+          50.0
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        20.0,
+        20.0,
+        50.0
+      ],
+      "triangles": 192,
+      "vertices": 98,
+      "volume_mm3": 15436.129611817529,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "full": {
+      "bounds_mm": [
+        [
+          -10.0,
+          -10.0,
+          0.0
+        ],
+        [
+          10.0,
+          10.0,
+          50.0
+        ]
+      ],
+      "connected_solids": 1,
+      "dimensions_mm": [
+        20.0,
+        20.0,
+        50.0
+      ],
+      "triangles": 30816,
+      "vertices": 15410,
+      "volume_mm3": 13294.842620850492,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  },
+  "recipe_fingerprint": "f1a53f4e67dc13082736e2985d59829e06f9a0866af968680d02a3b94fdf3bd7",
+  "schema_version": 1,
+  "source_fingerprint": "e5ab348665415bf8e07a46610b0cc01e7b921a962811051999d2e01509bfc4d7",
+  "sources": [
+    {
+      "title": "Accu metric coarse thread dimensions",
+      "url": "https://i.accu.co.uk/documents/marketing/Thread-Size-Sheet-V2.pdf"
+    },
+    {
+      "title": "ISO 68-1:1998 basic ISO metric thread profile",
+      "url": "https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf"
+    }
+  ],
+  "standard": null
+}
