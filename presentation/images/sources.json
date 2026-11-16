@@ -1,0 +1,28 @@
+[
+  {
+    "preview": "m6x25-set-screw.png",
+    "source": "parts/hardware_set_screw_m6_25_mm_length/three_d_model/render_high.png",
+    "source_sha256": "8fc4eb8b224421f9dcdb6d3c63e3f49cf48bc6755e942520893c6fb6f4125335",
+    "source_size": [
+      2048,
+      2048
+    ],
+    "preview_size": [
+      512,
+      512
+    ]
+  },
+  {
+    "preview": "m3-nut.png",
+    "source": "parts/hardware_nut_m3/three_d_model/render_high.png",
+    "source_sha256": "3005843ece83657723c2ed362e57bee12e7649b6c01a26bdbb7aa62fadb9ffd7",
+    "source_size": [
+      2048,
+      2048
+    ],
+    "preview_size": [
+      512,
+      512
+    ]
+  }
+]

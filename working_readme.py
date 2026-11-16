@@ -1,15 +1,20 @@
 """Refresh the catalogue front page and navigation index from existing records.
 
-Only README.md and navigation_oobb/README.md are written. No CAD or part files
-are generated, copied or removed. The previous navigation branches are preserved.
+Writes the overview, navigation index and two compact lead-image previews.
+Part files and original renders are read-only; existing navigation branches
+are preserved. Requires PyYAML and Pillow.
 """
 from collections import defaultdict
+import hashlib
+import io
+import json
 from pathlib import Path
 import re
 from string import Template
 from urllib.parse import quote
 
 import yaml
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parent
 FAMILIES = {
@@ -19,6 +24,33 @@ FAMILIES = {
     'washer': ('Washers', 'Plain and large-diameter washers.'),
     'threaded_rod': ('Threaded rod', 'Threaded rod records by diameter and length.'),
 }
+LEAD_IMAGES = (
+    ('hardware_set_screw_m6_25_mm_length', 'm6x25-set-screw.png'),
+    ('hardware_nut_m3', 'm3-nut.png'),
+)
+
+
+def refresh_lead_images():
+    """Downsample full-detail renders only; low renders may omit thread geometry."""
+    outputs = []
+    evidence = []
+    for part_id, filename in LEAD_IMAGES:
+        source = ROOT / 'parts' / part_id / 'three_d_model/render_high.png'
+        original_bytes = source.read_bytes()
+        with Image.open(io.BytesIO(original_bytes)) as original:
+            preview = original.convert('RGB')
+            preview.thumbnail((512, 512), Image.Resampling.LANCZOS)
+            buffer = io.BytesIO()
+            preview.save(buffer, format='PNG', optimize=True)
+            outputs.append((ROOT / 'presentation/images' / filename, buffer.getvalue()))
+            evidence.append({'preview': filename, 'source': source.relative_to(ROOT).as_posix(),
+                             'source_sha256': hashlib.sha256(original_bytes).hexdigest(),
+                             'source_size': list(original.size), 'preview_size': list(preview.size)})
+    for destination, data in outputs:
+        if not destination.exists() or destination.read_bytes() != data:
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            destination.write_bytes(data)
+    write_changed(ROOT / 'presentation/images/sources.json', json.dumps(evidence, indent=2))
 
 
 def natural_key(value):
@@ -64,6 +96,7 @@ def main(**kwargs):
 
     template = Template((ROOT / 'presentation/README.template.md').read_text(encoding='utf-8'))
     content = template.substitute(part_count=sum(map(len, groups.values())), family_table='\n'.join(table))
+    refresh_lead_images()
     write_changed(ROOT / 'navigation_oobb/README.md', '\n'.join(navigation))
     write_changed(ROOT / 'README.md', content)
     return {'parts': sum(map(len, groups.values())), 'families': len(groups)}

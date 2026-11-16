@@ -7,9 +7,11 @@ A browsable library of bolts, fully threaded hex-head set screws, nuts, washers 
 
 **[Browse the hardware catalogue](navigation_oobb/README.md)** · [Open all part folders](parts/)
 
-[![Full-detail render of an M6 × 25 mm hex-head set screw](presentation/images/m6x25-set-screw.png)](parts/hardware_set_screw_m6_25_mm_length/)
+| [M6 × 25 mm hex-head set screw](parts/hardware_set_screw_m6_25_mm_length/) | [M3 hex nut](parts/hardware_nut_m3/) |
+| --- | --- |
+| [![Full-detail render showing the set screw's external thread](presentation/images/m6x25-set-screw.png)](parts/hardware_set_screw_m6_25_mm_length/three_d_model/render_high.png) | [![Full-detail render showing the M3 nut's internal thread](presentation/images/m3-nut.png)](parts/hardware_nut_m3/three_d_model/render_high.png) |
 
-Example: [M6 × 25 mm fully threaded hex-head set screw](parts/hardware_set_screw_m6_25_mm_length/). The image is a catalogue render.
+Examples from the catalogue, with full thread detail. Click an image for the original full-resolution render, or its name for the part record. Images are not to a common scale.
 
 ## Details
 

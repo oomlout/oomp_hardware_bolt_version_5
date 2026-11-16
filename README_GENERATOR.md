@@ -14,9 +14,13 @@ Edit `presentation/README.template.md` for the public introduction and
 `working_readme.py` for family labels and navigation. The normal `working.run()`
 pipeline refreshes these pages last; pass `run_readme=False` to skip this step.
 
-The example image is a 512-pixel reduction of the full-detail M6 × 25 mm set-screw
-render, copied from the base OOMP directory gallery. The source part remains in
-`parts/hardware_set_screw_m6_25_mm_length/three_d_model/render_high.png`.
+The lead images are 512-pixel reductions of the full-detail M6 × 25 mm set-screw
+and M3 hex-nut renders. `working_readme.py` regenerates them with Pillow directly
+from each part's `three_d_model/render_high.png`, preserving external and internal
+thread detail. It never substitutes simplified low-resolution renders or changes
+the originals. The clickable previews open the full-resolution originals.
+`presentation/images/sources.json` records their source hashes and dimensions.
+Install documentation dependencies with `python -m pip install PyYAML Pillow`.
 
 The technical notes below are preserved from the previous README. Their model
 coverage figures describe earlier builds; see the main catalogue for the current
