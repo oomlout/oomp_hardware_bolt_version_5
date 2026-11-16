@@ -1,0 +1,1554 @@
+<!-- hardware-part:start -->
+# M1.5 locking nut
+
+## Summary
+
+A nylon-insert locking nut, modelled with separate body and insert components.
+
+[Hardware catalogue](../../README.md) · [Browse this family](../../navigation_oobb/README.md#nuts)
+
+| Isometric | Product view |
+| --- | --- |
+| [![Full-detail isometric render](three_d_model/readme_isometric.png)](three_d_model/render_high.png) | [![Full-detail product view render](three_d_model/readme_product.png)](three_d_model/render_product_high.png) |
+
+Full-detail catalogue renders. Click either image to open the original resolution.
+
+## Details
+
+**OOMP ID:** `hardware_nut_m1_5_locking`
+
+**Short code:** `4gp17` · **Three-word label:** include cupboard shuffle
+
+| Model dimension | mm |
+| --- | ---: |
+| Nominal size | 1.5 |
+| Thread pitch | 0.3 |
+| Across flats | 2.25 |
+| Height / thickness | 1.875 |
+
+Dimensions above are values used by the saved model recipe, in millimetres. **Model basis: approximate visual model.**
+
+<details>
+<summary>Model provenance and assumptions</summary>
+
+**Recorded dimensional reference:** APPROXIMATE VISUAL MODEL: D. S. Fasteners DIN 985 nylon-insert pattern
+
+**Source checked:** 2026-10-13
+
+**Visual finish:** Satin steel
+
+**Finish assumption:** Visual finish approximation; catalogue specifies colour only.
+
+**Family notes:** Miniature envelope scaled from M2; thread/flats are visual selections. Nylon insert confirmed by owner. Collar wall, insert section and blue colour are visual assumptions. Separate steel body and nylon ring, small assembly clearance; no thread in undeformed nylon.
+
+These are saved catalogue references and modelling choices, not a claim of manufacturing certification.
+
+- [D. S. Fasteners catalogue page 3, DIN 985 dimensions s/h/m](https://www.dsfasteners.co.uk/_files/ugd/eb95dd_d696717a07be4aa7a00bd695073b3017.pdf)
+- [ISO 68-1:1998 basic ISO metric thread profile](https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf)
+
+[Detailed model notes](three_d_model/model_notes.md)
+
+[Complete model recipe](three_d_model/parameters.json)
+
+</details>
+
+<details>
+<summary>Complete part metadata</summary>
+
+[Source working.yaml](working.yaml)
+
+```yaml
+bip_39_2_word_array:
+- include
+- cupboard
+bip_39_2_word_no_space: includecupboard
+bip_39_2_word_space: include cupboard
+bip_39_2_word_underscore: include_cupboard
+bip_39_3_word_array:
+- include
+- cupboard
+- shuffle
+bip_39_3_word_no_space: includecupboardshuffle
+bip_39_3_word_space: include cupboard shuffle
+bip_39_3_word_underscore: include_cupboard_shuffle
+bip_39_full_array:
+- include
+- cupboard
+- shuffle
+- water
+- sign
+- blood
+- jealous
+- weasel
+- tide
+- execute
+- angry
+- vendor
+bip_39_full_no_space: includecupboardshufflewatersignbloodjealousweaseltideexecuteangryvendor
+bip_39_full_space: include cupboard shuffle water sign blood jealous weasel tide execute
+    angry vendor
+bip_39_full_underscore: include_cupboard_shuffle_water_sign_blood_jealous_weasel_tide_execute_angry_vendor
+directory: parts/hardware_nut_m1_5_locking
+generate_stl: true
+id: hardware_nut_m1_5_locking
+id_no_class: hardware_nut_m1_5_locking
+id_no_size: hardware_nut_m1_5_locking
+id_no_type: hardware_nut_m1_5_locking
+label_drawer: &id001
+    bip39: include cupboard shuffle
+    bip39_size: 1.892
+    code: NU
+    description: Locking nut / M1.5
+    detail_lines: []
+    detail_size: 2.05
+    detail_y: 21.1
+    diagram: <path d="M7 1.8H13L16 7L13 12.2H7L4 7Z"/><circle cx="10" cy="7" r="2.5"/>
+    drive_symbol: <path d="M5 1L8.46 3V7L5 9L1.54 7V3Z" fill="#ffffff"/>
+    length: ''
+    length_size: 7.8
+    length_x: 22.3603625
+    name: Locking nut
+    name_lines:
+    - Locking nut
+    name_size: 3.2
+    thread: M1.5
+    thread_size: 4.408
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m1_5_locking
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m1_5_locking
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m1_5_locking
+md5: 7266bb1dfbec842fdde7c4e1c9e423f9
+md5_10: 7266bb1dfb
+md5_10_upper: 7266BB1DFB
+md5_5: 7266b
+md5_5_upper: 7266B
+md5_6: 7266bb
+md5_6_alpha: 4gp17
+md5_6_alpha_upper: 4GP17
+md5_6_upper: 7266BB
+name: Hardware Nut M1 5 Locking
+name_no_class: Hardware Nut M1 5 Locking
+name_no_size: Hardware Nut M1 5 Locking
+name_no_type: Hardware Nut M1 5 Locking
+name_proper: Hardware Nut M1 5 Locking
+name_space: hardware nut m1 5 locking
+name_upper: HARDWARE NUT M1 5 LOCKING
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_nut_m1_5_locking
+            name: hardware_nut_m1_5_locking
+            name_proper: Hardware Nut M1 5 Locking
+            name_space: hardware nut m1 5 locking
+            name_upper: HARDWARE NUT M1 5 LOCKING
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M1.5 nylon insert locking nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M1.5+nylon+insert+locking+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M1.5 nylon insert locking nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M1.5+nylon+insert+locking+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T08:46:55.173979+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m1_5_locking/google/c06542ad56ab4801b701c76773da1740.yaml
+                    evidence_url: https://www.google.com/search?q=M1.5+DIN+985+steel+nyloc+nut
+                    material_evidence: ''
+                    product_name: ''
+                    reason: Original exact search for an M1.5 nylon insert locking
+                        nut in steel showed no eligible M1.5 steel product; the exact
+                        small nut results were stainless, and steel lock nuts shown
+                        were other sizes. The completed DIN 985 refinement showed
+                        the smallest exact Accu nylon locking nut at M1.6 stainless,
+                        while the steel options shown were M5 or larger. No eligible
+                        M1.5 non-stainless steel locking nut appeared in either completed
+                        search.
+                    result_url: ''
+                    search_evidence: 'First completed Google search: https://www.google.com/search?q=M1.5+nylon+insert+locking+nut+steel.
+                        Exact micro-nut result from Amazon was explicitly stainless
+                        steel. Other displayed nylon lock nuts were M5, M14, M16 or
+                        larger; Shop4Fasteners'' M1-M3.5 micro nuts are A2 stainless.
+                        Second completed Google search: https://www.google.com/search?q=M1.5+DIN+985+steel+nyloc+nut.
+                        Accu''s smallest exact displayed DIN 985 option was M1.6 A2
+                        stainless, and its range page states M1.6 to M48. Steel examples
+                        were M5 and larger. No eligible M1.5 product.'
+                    search_for: M1.5 DIN 985 steel nyloc nut
+                    search_url: https://www.google.com/search?q=M1.5+DIN+985+steel+nyloc+nut
+                    selected_variant: ''
+                    specification: ''
+                    status: assumed_non_stocked
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: nut
+            taxonomy_3: m1_5
+            taxonomy_4: locking
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-13'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: approximate_visual_model
+                dimensional_specification: 'APPROXIMATE VISUAL MODEL: D. S. Fasteners
+                    DIN 985 nylon-insert pattern'
+                generator: supplier_nylon_insert_nut
+                insert_material:
+                    base_colour_srgb:
+                    - 0.055
+                    - 0.16
+                    - 0.48
+                    coat_roughness: 0.3
+                    coat_weight: 0.0
+                    metallic: 0.0
+                    microtexture_height_um: 0.4
+                    microtexture_spacing_mm: 0.025
+                    name: Blue nylon insert
+                    note: Nylon mechanism confirmed by catalogue owner; blue colour
+                        is a visual selection.
+                    roughness: 0.42
+                    roughness_variation: 0.015
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    insert_material:
+                        base_colour_srgb:
+                        - 0.055
+                        - 0.16
+                        - 0.48
+                        coat_roughness: 0.3
+                        coat_weight: 0.0
+                        metallic: 0.0
+                        microtexture_height_um: 0.4
+                        microtexture_spacing_mm: 0.025
+                        name: Blue nylon insert
+                        note: Nylon mechanism confirmed by catalogue owner; blue colour
+                            is a visual selection.
+                        roughness: 0.42
+                        roughness_variation: 0.015
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: Closed separate assembly components; hidden spring
+                        omitted.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Miniature envelope scaled from M2; thread/flats are
+                        visual selections. Nylon insert confirmed by owner. Collar
+                        wall, insert section and blue colour are visual assumptions.
+                        Separate steel body and nylon ring, small assembly clearance;
+                        no thread in undeformed nylon.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 2.25
+                    characteristic_dimension_basis: hexagon across flats
+                    characteristic_dimension_mm: 2.25
+                    expected_components: 2
+                    external_minor_diameter_mm: 1.1319392033916136
+                    family: nut
+                    finish: satin
+                    handedness: right
+                    height_convention: total axial nut height
+                    height_mm: 1.875
+                    hex_height_mm: 1.35
+                    hole_chamfer_mm: 0.11540063509461099
+                    hole_chamfer_slope: 1.7320508075688767
+                    identity: hardware_nut_m1_5_locking
+                    internal_minor_diameter_mm: 1.1752404735808355
+                    mouth_diameter_mm: 1.575
+                    nominal_diameter_mm: 1.5
+                    nut_style: locking_nut
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 1.875
+                    pitch_mm: 0.3
+                    specification: 'APPROXIMATE VISUAL MODEL: D. S. Fasteners DIN
+                        985 nylon-insert pattern'
+                    thread_flank_angle_degrees: 60.0
+                    thread_pitch_diameter_mm: 1.3051442841485013
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_extensions.yaml
+                sources:
+                -   title: D. S. Fasteners catalogue page 3, DIN 985 dimensions s/h/m
+                    url: https://www.dsfasteners.co.uk/_files/ugd/eb95dd_d696717a07be4aa7a00bd695073b3017.pdf
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: null
+                standard_lengths_mm: []
+                standard_limits: {}
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_nut_m1_5_locking
+            name: hardware_nut_m1_5_locking
+            name_proper: Hardware Nut M1 5 Locking
+            name_space: hardware nut m1 5 locking
+            name_upper: HARDWARE NUT M1 5 LOCKING
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_nut_m1_5_locking
+                        name: hardware_nut_m1_5_locking
+                        name_proper: Hardware Nut M1 5 Locking
+                        name_space: hardware nut m1 5 locking
+                        name_upper: HARDWARE NUT M1 5 LOCKING
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M1.5 nylon insert locking nut steel
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M1.5+nylon+insert+locking+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M1.5 nylon insert locking nut steel
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M1.5+nylon+insert+locking+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T08:46:55.173979+00:00'
+                                evidence_file: support_files/evidence/hardware_nut_m1_5_locking/google/c06542ad56ab4801b701c76773da1740.yaml
+                                evidence_url: https://www.google.com/search?q=M1.5+DIN+985+steel+nyloc+nut
+                                material_evidence: ''
+                                product_name: ''
+                                reason: Original exact search for an M1.5 nylon insert
+                                    locking nut in steel showed no eligible M1.5 steel
+                                    product; the exact small nut results were stainless,
+                                    and steel lock nuts shown were other sizes. The
+                                    completed DIN 985 refinement showed the smallest
+                                    exact Accu nylon locking nut at M1.6 stainless,
+                                    while the steel options shown were M5 or larger.
+                                    No eligible M1.5 non-stainless steel locking nut
+                                    appeared in either completed search.
+                                result_url: ''
+                                search_evidence: 'First completed Google search: https://www.google.com/search?q=M1.5+nylon+insert+locking+nut+steel.
+                                    Exact micro-nut result from Amazon was explicitly
+                                    stainless steel. Other displayed nylon lock nuts
+                                    were M5, M14, M16 or larger; Shop4Fasteners''
+                                    M1-M3.5 micro nuts are A2 stainless. Second completed
+                                    Google search: https://www.google.com/search?q=M1.5+DIN+985+steel+nyloc+nut.
+                                    Accu''s smallest exact displayed DIN 985 option
+                                    was M1.6 A2 stainless, and its range page states
+                                    M1.6 to M48. Steel examples were M5 and larger.
+                                    No eligible M1.5 product.'
+                                search_for: M1.5 DIN 985 steel nyloc nut
+                                search_url: https://www.google.com/search?q=M1.5+DIN+985+steel+nyloc+nut
+                                selected_variant: ''
+                                specification: ''
+                                status: assumed_non_stocked
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: nut
+                        taxonomy_3: m1_5
+                        taxonomy_4: locking
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        three_d_model_details:
+                            checked_on: '2026-10-13'
+                            coordinate_system:
+                                axis: +Z along bore
+                                glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                                glb_units: metres
+                                glb_up_axis: Y
+                                origin: lower face centre
+                                stl_units: mm
+                            dimension_status: approximate_visual_model
+                            dimensional_specification: 'APPROXIMATE VISUAL MODEL:
+                                D. S. Fasteners DIN 985 nylon-insert pattern'
+                            generator: supplier_nylon_insert_nut
+                            insert_material:
+                                base_colour_srgb:
+                                - 0.055
+                                - 0.16
+                                - 0.48
+                                coat_roughness: 0.3
+                                coat_weight: 0.0
+                                metallic: 0.0
+                                microtexture_height_um: 0.4
+                                microtexture_spacing_mm: 0.025
+                                name: Blue nylon insert
+                                note: Nylon mechanism confirmed by catalogue owner;
+                                    blue colour is a visual selection.
+                                roughness: 0.42
+                                roughness_variation: 0.015
+                            length_status: not_applicable
+                            material:
+                                base_colour_srgb:
+                                - 0.62
+                                - 0.65
+                                - 0.69
+                                coat_roughness: 0.28
+                                coat_weight: 0.02
+                                insert_material:
+                                    base_colour_srgb:
+                                    - 0.055
+                                    - 0.16
+                                    - 0.48
+                                    coat_roughness: 0.3
+                                    coat_weight: 0.0
+                                    metallic: 0.0
+                                    microtexture_height_um: 0.4
+                                    microtexture_spacing_mm: 0.025
+                                    name: Blue nylon insert
+                                    note: Nylon mechanism confirmed by catalogue owner;
+                                        blue colour is a visual selection.
+                                    roughness: 0.42
+                                    roughness_variation: 0.015
+                                metallic: 1.0
+                                microtexture_height_um: 0.8
+                                microtexture_spacing_mm: 0.025
+                                name: Satin steel
+                                note: Visual finish approximation; catalogue specifies
+                                    colour only.
+                                roughness: 0.26
+                                roughness_variation: 0.045
+                            model_formats:
+                            - stl
+                            - glb
+                            modelling_choices:
+                                bearing: Bolt bearing circle and c selected within
+                                    limits; k includes bearing thickness; fillet tangent
+                                    to shaft and bearing.
+                                cavity: Nut through-bore has a helical internal surface;
+                                    display keeps minor-diameter bore and mouth chamfers.
+                                certification: Nominal visual catalogue model, not
+                                    manufacturing tolerance certification.
+                                chamfer: 30 degree outer hex chamfer. Nut mouth included
+                                    angle 120 degrees. Bolt tip 45 degrees, P/2.
+                                components: Closed separate assembly components; hidden
+                                    spring omitted.
+                                dimension_selection: Nominal bolt head height, max
+                                    flats/nut height, nominal washer sizes; selected
+                                    dimensions stored in parameters.
+                                display: Smooth nominal external-thread envelope or
+                                    smooth minor-diameter internal bore; lower angular
+                                    and fillet tessellation.
+                                family_note: Miniature envelope scaled from M2; thread/flats
+                                    are visual selections. Nylon insert confirmed
+                                    by owner. Collar wall, insert section and blue
+                                    colour are visual assumptions. Separate steel
+                                    body and nylon ring, small assembly clearance;
+                                    no thread in undeformed nylon.
+                                markings: Supplier and property-class markings omitted
+                                    because catalogue does not identify them.
+                                runout: External one-pitch fade to plain shank; full
+                                    thread ends at underhead fillet.
+                                thread: Nominal ISO basic metric profile, no ISO 965
+                                    tolerance offsets. External rounded root H/6,
+                                    internal P/4 crest and P/8 root flats.
+                                unspecified_geometry: Nut mouth for supplier rows
+                                    without limits and flange M3/M4 thickness/rim
+                                    blends are explicit visual model selections.
+                            output_folder: three_d_model
+                            parameters:
+                                across_flats_mm: 2.25
+                                characteristic_dimension_basis: hexagon across flats
+                                characteristic_dimension_mm: 2.25
+                                expected_components: 2
+                                external_minor_diameter_mm: 1.1319392033916136
+                                family: nut
+                                finish: satin
+                                handedness: right
+                                height_convention: total axial nut height
+                                height_mm: 1.875
+                                hex_height_mm: 1.35
+                                hole_chamfer_mm: 0.11540063509461099
+                                hole_chamfer_slope: 1.7320508075688767
+                                identity: hardware_nut_m1_5_locking
+                                internal_minor_diameter_mm: 1.1752404735808355
+                                mouth_diameter_mm: 1.575
+                                nominal_diameter_mm: 1.5
+                                nut_style: locking_nut
+                                outer_chamfer_angle_degrees: 30.0
+                                overall_height_mm: 1.875
+                                pitch_mm: 0.3
+                                specification: 'APPROXIMATE VISUAL MODEL: D. S. Fasteners
+                                    DIN 985 nylon-insert pattern'
+                                thread_flank_angle_degrees: 60.0
+                                thread_pitch_diameter_mm: 1.3051442841485013
+                                thread_starts: 1
+                            renders:
+                                high:
+                                    file: render_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: isometric
+                                low:
+                                    file: render_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: isometric
+                                product_high:
+                                    file: render_product_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: product
+                                product_low:
+                                    file: render_product_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: product
+                            schema_version: 1
+                            source_table: source_file/standards/catalogue_extensions.yaml
+                            sources:
+                            -   title: D. S. Fasteners catalogue page 3, DIN 985 dimensions
+                                    s/h/m
+                                url: https://www.dsfasteners.co.uk/_files/ugd/eb95dd_d696717a07be4aa7a00bd695073b3017.pdf
+                            -   title: ISO 68-1:1998 basic ISO metric thread profile
+                                url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                            standard: null
+                            standard_lengths_mm: []
+                            standard_limits: {}
+                            studio:
+                                adaptive_threshold: 0.015
+                                denoise: true
+                                device: auto
+                                engine: cycles
+                                exposure: 0.0
+                                floor_colour_srgb:
+                                - 0.93
+                                - 0.935
+                                - 0.94
+                                floor_roughness: 0.55
+                                framing_margin: 0.13
+                                high_samples: 160
+                                lights:
+                                -   colour:
+                                    - 1.0
+                                    - 0.96
+                                    - 0.9
+                                    height: 5.0
+                                    name: Key softbox
+                                    position:
+                                    - -3
+                                    - -4
+                                    - 6
+                                    power: 650.0
+                                    width: 4.0
+                                -   colour:
+                                    - 0.9
+                                    - 0.95
+                                    - 1.0
+                                    height: 4.0
+                                    name: Fill softbox
+                                    position:
+                                    - 4
+                                    - -1
+                                    - 3
+                                    power: 330.0
+                                    width: 3.0
+                                -   colour:
+                                    - 1.0
+                                    - 1.0
+                                    - 1.0
+                                    height: 5.0
+                                    name: Rim strip
+                                    position:
+                                    - 1
+                                    - 4
+                                    - 4
+                                    power: 850.0
+                                    width: 1.2
+                                look: AgX - Medium High Contrast
+                                low_samples: 48
+                                poses:
+                                    isometric:
+                                        camera_eye:
+                                        - 1
+                                        - -1
+                                        - 1
+                                        orientation: principal axis Z up
+                                        projection: orthographic
+                                    product:
+                                        camera_eye:
+                                        - -6
+                                        - -10
+                                        - 6
+                                        orientation: resting on lower face, bore visible
+                                        projection: orthographic
+                                        resting_axis: face
+                                        support: Stable convex-hull support using
+                                            actual mesh centre of mass.
+                                        yaw_degrees: -12.0
+                                seed: 7991
+                                view_transform: AgX
+                                world_colour:
+                                - 0.78
+                                - 0.82
+                                - 0.9
+                                world_strength: 0.35
+                            units: mm
+                            variants:
+                                display:
+                                    angular_segments: 24
+                                    fillet_segments: 3
+                                    samples_per_pitch: 1
+                                full:
+                                    angular_segments: 96
+                                    fillet_segments: 12
+                                    samples_per_pitch: 32
+                            views:
+                            - isometric
+                            - front
+                            - back
+                            - left
+                            - right
+                            - top
+                            - bottom
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M1.5 nylon insert locking nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M1.5+nylon+insert+locking+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M1.5 nylon insert locking nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M1.5+nylon+insert+locking+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T08:46:55.173979+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m1_5_locking/google/c06542ad56ab4801b701c76773da1740.yaml
+                    evidence_url: https://www.google.com/search?q=M1.5+DIN+985+steel+nyloc+nut
+                    material_evidence: ''
+                    product_name: ''
+                    reason: Original exact search for an M1.5 nylon insert locking
+                        nut in steel showed no eligible M1.5 steel product; the exact
+                        small nut results were stainless, and steel lock nuts shown
+                        were other sizes. The completed DIN 985 refinement showed
+                        the smallest exact Accu nylon locking nut at M1.6 stainless,
+                        while the steel options shown were M5 or larger. No eligible
+                        M1.5 non-stainless steel locking nut appeared in either completed
+                        search.
+                    result_url: ''
+                    search_evidence: 'First completed Google search: https://www.google.com/search?q=M1.5+nylon+insert+locking+nut+steel.
+                        Exact micro-nut result from Amazon was explicitly stainless
+                        steel. Other displayed nylon lock nuts were M5, M14, M16 or
+                        larger; Shop4Fasteners'' M1-M3.5 micro nuts are A2 stainless.
+                        Second completed Google search: https://www.google.com/search?q=M1.5+DIN+985+steel+nyloc+nut.
+                        Accu''s smallest exact displayed DIN 985 option was M1.6 A2
+                        stainless, and its range page states M1.6 to M48. Steel examples
+                        were M5 and larger. No eligible M1.5 product.'
+                    search_for: M1.5 DIN 985 steel nyloc nut
+                    search_url: https://www.google.com/search?q=M1.5+DIN+985+steel+nyloc+nut
+                    selected_variant: ''
+                    specification: ''
+                    status: assumed_non_stocked
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: nut
+            taxonomy_3: m1_5
+            taxonomy_4: locking
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-13'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: approximate_visual_model
+                dimensional_specification: 'APPROXIMATE VISUAL MODEL: D. S. Fasteners
+                    DIN 985 nylon-insert pattern'
+                generator: supplier_nylon_insert_nut
+                insert_material:
+                    base_colour_srgb:
+                    - 0.055
+                    - 0.16
+                    - 0.48
+                    coat_roughness: 0.3
+                    coat_weight: 0.0
+                    metallic: 0.0
+                    microtexture_height_um: 0.4
+                    microtexture_spacing_mm: 0.025
+                    name: Blue nylon insert
+                    note: Nylon mechanism confirmed by catalogue owner; blue colour
+                        is a visual selection.
+                    roughness: 0.42
+                    roughness_variation: 0.015
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    insert_material:
+                        base_colour_srgb:
+                        - 0.055
+                        - 0.16
+                        - 0.48
+                        coat_roughness: 0.3
+                        coat_weight: 0.0
+                        metallic: 0.0
+                        microtexture_height_um: 0.4
+                        microtexture_spacing_mm: 0.025
+                        name: Blue nylon insert
+                        note: Nylon mechanism confirmed by catalogue owner; blue colour
+                            is a visual selection.
+                        roughness: 0.42
+                        roughness_variation: 0.015
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: Closed separate assembly components; hidden spring
+                        omitted.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Miniature envelope scaled from M2; thread/flats are
+                        visual selections. Nylon insert confirmed by owner. Collar
+                        wall, insert section and blue colour are visual assumptions.
+                        Separate steel body and nylon ring, small assembly clearance;
+                        no thread in undeformed nylon.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 2.25
+                    characteristic_dimension_basis: hexagon across flats
+                    characteristic_dimension_mm: 2.25
+                    expected_components: 2
+                    external_minor_diameter_mm: 1.1319392033916136
+                    family: nut
+                    finish: satin
+                    handedness: right
+                    height_convention: total axial nut height
+                    height_mm: 1.875
+                    hex_height_mm: 1.35
+                    hole_chamfer_mm: 0.11540063509461099
+                    hole_chamfer_slope: 1.7320508075688767
+                    identity: hardware_nut_m1_5_locking
+                    internal_minor_diameter_mm: 1.1752404735808355
+                    mouth_diameter_mm: 1.575
+                    nominal_diameter_mm: 1.5
+                    nut_style: locking_nut
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 1.875
+                    pitch_mm: 0.3
+                    specification: 'APPROXIMATE VISUAL MODEL: D. S. Fasteners DIN
+                        985 nylon-insert pattern'
+                    thread_flank_angle_degrees: 60.0
+                    thread_pitch_diameter_mm: 1.3051442841485013
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_extensions.yaml
+                sources:
+                -   title: D. S. Fasteners catalogue page 3, DIN 985 dimensions s/h/m
+                    url: https://www.dsfasteners.co.uk/_files/ugd/eb95dd_d696717a07be4aa7a00bd695073b3017.pdf
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: null
+                standard_lengths_mm: []
+                standard_limits: {}
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_bolt_image.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        description: label_drawer
+        dict_data:
+            label_drawer: *id001
+        file_output: label_drawer.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
+oomp_key: oomp_hardware_nut_m1_5_locking
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M1.5 nylon insert locking nut steel
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M1.5+nylon+insert+locking+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M1.5 nylon insert locking nut steel
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M1.5+nylon+insert+locking+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T08:46:55.173979+00:00'
+        evidence_file: support_files/evidence/hardware_nut_m1_5_locking/google/c06542ad56ab4801b701c76773da1740.yaml
+        evidence_url: https://www.google.com/search?q=M1.5+DIN+985+steel+nyloc+nut
+        material_evidence: ''
+        product_name: ''
+        reason: Original exact search for an M1.5 nylon insert locking nut in steel
+            showed no eligible M1.5 steel product; the exact small nut results were
+            stainless, and steel lock nuts shown were other sizes. The completed DIN
+            985 refinement showed the smallest exact Accu nylon locking nut at M1.6
+            stainless, while the steel options shown were M5 or larger. No eligible
+            M1.5 non-stainless steel locking nut appeared in either completed search.
+        result_url: ''
+        search_evidence: 'First completed Google search: https://www.google.com/search?q=M1.5+nylon+insert+locking+nut+steel.
+            Exact micro-nut result from Amazon was explicitly stainless steel. Other
+            displayed nylon lock nuts were M5, M14, M16 or larger; Shop4Fasteners''
+            M1-M3.5 micro nuts are A2 stainless. Second completed Google search: https://www.google.com/search?q=M1.5+DIN+985+steel+nyloc+nut.
+            Accu''s smallest exact displayed DIN 985 option was M1.6 A2 stainless,
+            and its range page states M1.6 to M48. Steel examples were M5 and larger.
+            No eligible M1.5 product.'
+        search_for: M1.5 DIN 985 steel nyloc nut
+        search_url: https://www.google.com/search?q=M1.5+DIN+985+steel+nyloc+nut
+        selected_variant: ''
+        specification: ''
+        status: assumed_non_stocked
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: nut
+taxonomy_2_capital: Nut
+taxonomy_2_first_letter: n
+taxonomy_2_first_letter_upper: N
+taxonomy_2_length_1: n
+taxonomy_2_length_2: nu
+taxonomy_2_length_3: nut
+taxonomy_2_length_4: nut
+taxonomy_2_length_5: nut
+taxonomy_2_upper: NUT
+taxonomy_2_upper_length_1: N
+taxonomy_2_upper_length_2: NU
+taxonomy_2_upper_length_3: NUT
+taxonomy_2_upper_length_4: NUT
+taxonomy_2_upper_length_5: NUT
+taxonomy_3: m1_5
+taxonomy_3_capital: M1.5
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m1
+taxonomy_3_length_3: m1_
+taxonomy_3_length_4: m1_5
+taxonomy_3_length_5: m1_5
+taxonomy_3_upper: M1_5
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M1
+taxonomy_3_upper_length_3: M1_
+taxonomy_3_upper_length_4: M1_5
+taxonomy_3_upper_length_5: M1_5
+taxonomy_4: locking
+taxonomy_4_capital: Locking
+taxonomy_4_first_letter: l
+taxonomy_4_first_letter_upper: L
+taxonomy_4_length_1: l
+taxonomy_4_length_2: lo
+taxonomy_4_length_3: loc
+taxonomy_4_length_4: lock
+taxonomy_4_length_5: locki
+taxonomy_4_upper: LOCKING
+taxonomy_4_upper_length_1: L
+taxonomy_4_upper_length_2: LO
+taxonomy_4_upper_length_3: LOC
+taxonomy_4_upper_length_4: LOCK
+taxonomy_4_upper_length_5: LOCKI
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+    checked_on: '2026-10-13'
+    coordinate_system:
+        axis: +Z along bore
+        glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+        glb_units: metres
+        glb_up_axis: Y
+        origin: lower face centre
+        stl_units: mm
+    dimension_status: approximate_visual_model
+    dimensional_specification: 'APPROXIMATE VISUAL MODEL: D. S. Fasteners DIN 985
+        nylon-insert pattern'
+    generator: supplier_nylon_insert_nut
+    insert_material:
+        base_colour_srgb:
+        - 0.055
+        - 0.16
+        - 0.48
+        coat_roughness: 0.3
+        coat_weight: 0.0
+        metallic: 0.0
+        microtexture_height_um: 0.4
+        microtexture_spacing_mm: 0.025
+        name: Blue nylon insert
+        note: Nylon mechanism confirmed by catalogue owner; blue colour is a visual
+            selection.
+        roughness: 0.42
+        roughness_variation: 0.015
+    length_status: not_applicable
+    material:
+        base_colour_srgb:
+        - 0.62
+        - 0.65
+        - 0.69
+        coat_roughness: 0.28
+        coat_weight: 0.02
+        insert_material:
+            base_colour_srgb:
+            - 0.055
+            - 0.16
+            - 0.48
+            coat_roughness: 0.3
+            coat_weight: 0.0
+            metallic: 0.0
+            microtexture_height_um: 0.4
+            microtexture_spacing_mm: 0.025
+            name: Blue nylon insert
+            note: Nylon mechanism confirmed by catalogue owner; blue colour is a visual
+                selection.
+            roughness: 0.42
+            roughness_variation: 0.015
+        metallic: 1.0
+        microtexture_height_um: 0.8
+        microtexture_spacing_mm: 0.025
+        name: Satin steel
+        note: Visual finish approximation; catalogue specifies colour only.
+        roughness: 0.26
+        roughness_variation: 0.045
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+        bearing: Bolt bearing circle and c selected within limits; k includes bearing
+            thickness; fillet tangent to shaft and bearing.
+        cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
+            bore and mouth chamfers.
+        certification: Nominal visual catalogue model, not manufacturing tolerance
+            certification.
+        chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees.
+            Bolt tip 45 degrees, P/2.
+        components: Closed separate assembly components; hidden spring omitted.
+        dimension_selection: Nominal bolt head height, max flats/nut height, nominal
+            washer sizes; selected dimensions stored in parameters.
+        display: Smooth nominal external-thread envelope or smooth minor-diameter
+            internal bore; lower angular and fillet tessellation.
+        family_note: Miniature envelope scaled from M2; thread/flats are visual selections.
+            Nylon insert confirmed by owner. Collar wall, insert section and blue
+            colour are visual assumptions. Separate steel body and nylon ring, small
+            assembly clearance; no thread in undeformed nylon.
+        markings: Supplier and property-class markings omitted because catalogue does
+            not identify them.
+        runout: External one-pitch fade to plain shank; full thread ends at underhead
+            fillet.
+        thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+            rounded root H/6, internal P/4 crest and P/8 root flats.
+        unspecified_geometry: Nut mouth for supplier rows without limits and flange
+            M3/M4 thickness/rim blends are explicit visual model selections.
+    output_folder: three_d_model
+    parameters:
+        across_flats_mm: 2.25
+        characteristic_dimension_basis: hexagon across flats
+        characteristic_dimension_mm: 2.25
+        expected_components: 2
+        external_minor_diameter_mm: 1.1319392033916136
+        family: nut
+        finish: satin
+        handedness: right
+        height_convention: total axial nut height
+        height_mm: 1.875
+        hex_height_mm: 1.35
+        hole_chamfer_mm: 0.11540063509461099
+        hole_chamfer_slope: 1.7320508075688767
+        identity: hardware_nut_m1_5_locking
+        internal_minor_diameter_mm: 1.1752404735808355
+        mouth_diameter_mm: 1.575
+        nominal_diameter_mm: 1.5
+        nut_style: locking_nut
+        outer_chamfer_angle_degrees: 30.0
+        overall_height_mm: 1.875
+        pitch_mm: 0.3
+        specification: 'APPROXIMATE VISUAL MODEL: D. S. Fasteners DIN 985 nylon-insert
+            pattern'
+        thread_flank_angle_degrees: 60.0
+        thread_pitch_diameter_mm: 1.3051442841485013
+        thread_starts: 1
+    renders:
+        high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+        low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+        product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+        product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+    schema_version: 1
+    source_table: source_file/standards/catalogue_extensions.yaml
+    sources:
+    -   title: D. S. Fasteners catalogue page 3, DIN 985 dimensions s/h/m
+        url: https://www.dsfasteners.co.uk/_files/ugd/eb95dd_d696717a07be4aa7a00bd695073b3017.pdf
+    -   title: ISO 68-1:1998 basic ISO metric thread profile
+        url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+    standard: null
+    standard_lengths_mm: []
+    standard_limits: {}
+    studio:
+        adaptive_threshold: 0.015
+        denoise: true
+        device: auto
+        engine: cycles
+        exposure: 0.0
+        floor_colour_srgb:
+        - 0.93
+        - 0.935
+        - 0.94
+        floor_roughness: 0.55
+        framing_margin: 0.13
+        high_samples: 160
+        lights:
+        -   colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+        -   colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+        -   colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+        look: AgX - Medium High Contrast
+        low_samples: 48
+        poses:
+            isometric:
+                camera_eye:
+                - 1
+                - -1
+                - 1
+                orientation: principal axis Z up
+                projection: orthographic
+            product:
+                camera_eye:
+                - -6
+                - -10
+                - 6
+                orientation: resting on lower face, bore visible
+                projection: orthographic
+                resting_axis: face
+                support: Stable convex-hull support using actual mesh centre of mass.
+                yaw_degrees: -12.0
+        seed: 7991
+        view_transform: AgX
+        world_colour:
+        - 0.78
+        - 0.82
+        - 0.9
+        world_strength: 0.35
+    units: mm
+    variants:
+        display:
+            angular_segments: 24
+            fillet_segments: 3
+            samples_per_pitch: 1
+        full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
+url_chat: ''
+```
+
+</details>
+
+## Parts
+
+[Full-detail 3D model (GLB)](three_d_model/model_full.glb) · [Full-detail view drawings](three_d_model/full/) · [Drawer label (SVG)](label_drawer.svg)
+
+Full-detail and simplified display models are alternatives for the same part. GLB uses metres; STL, where supplied, uses millimetres. The [part folder](./) contains all available files.
+
+## Assembly
+
+This page documents a component rather than a complete project assembly. No installation sequence or tightening torque is specified by this record. The saved model contains 2 separate solids; consult the model notes for their interpretation.
+<!-- hardware-part:end -->

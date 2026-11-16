@@ -1,0 +1,20 @@
+{
+  "part_pages": 230,
+  "previews": 460,
+  "local_links": 3006,
+  "model_dimension_status": {
+    "approximate_visual_model": 29,
+    "catalogue_specific_dimensions": 1,
+    "manufacturer_dimensions": 16,
+    "manufacturer_extension": 2,
+    "nominal_thread_dimensions": 19,
+    "standard_dimensions": 143,
+    "supplier_dimensions_with_visual_details": 20
+  },
+  "model_families": {
+    "bolt": 125,
+    "nut": 61,
+    "rod": 23,
+    "washer": 21
+  }
+}

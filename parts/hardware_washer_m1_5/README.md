@@ -1,0 +1,1332 @@
+<!-- hardware-part:start -->
+# M1.5 flat washer
+
+## Summary
+
+A flat washer with its bore, outside diameter and thickness shown below.
+
+[Hardware catalogue](../../README.md) · [Browse this family](../../navigation_oobb/README.md#washers)
+
+| Isometric | Product view |
+| --- | --- |
+| [![Full-detail isometric render](three_d_model/readme_isometric.png)](three_d_model/render_high.png) | [![Full-detail product view render](three_d_model/readme_product.png)](three_d_model/render_product_high.png) |
+
+Full-detail catalogue renders. Click either image to open the original resolution.
+
+## Details
+
+**OOMP ID:** `hardware_washer_m1_5`
+
+**Short code:** `15kqx` · **Three-word label:** budget ski giggle
+
+| Model dimension | mm |
+| --- | ---: |
+| Nominal size | 1.5 |
+| Height / thickness | 0.3 |
+| Outside diameter | 4 |
+| Hole diameter | 1.7 |
+
+Dimensions above are values used by the saved model recipe, in millimetres. **Model basis: approximate visual model.**
+
+<details>
+<summary>Model provenance and assumptions</summary>
+
+**Recorded dimensional reference:** APPROXIMATE VISUAL MODEL: plain washer
+
+**Source checked:** 2026-10-13
+
+**Visual finish:** Satin steel
+
+**Finish assumption:** Visual finish approximation; catalogue specifies colour only.
+
+**Family notes:** Visual selection with clearance for the literal catalogue nominal diameter; not a verified supplier row for this size.
+
+These are saved catalogue references and modelling choices, not a claim of manufacturing certification.
+
+- [Spalding Fasteners washer size table, M1 Form A](https://www.spaldingfasteners.co.uk/washer-sizes/)
+
+[Detailed model notes](three_d_model/model_notes.md)
+
+[Complete model recipe](three_d_model/parameters.json)
+
+</details>
+
+<details>
+<summary>Complete part metadata</summary>
+
+[Source working.yaml](working.yaml)
+
+```yaml
+bip_39_2_word_array:
+- budget
+- ski
+bip_39_2_word_no_space: budgetski
+bip_39_2_word_space: budget ski
+bip_39_2_word_underscore: budget_ski
+bip_39_3_word_array:
+- budget
+- ski
+- giggle
+bip_39_3_word_no_space: budgetskigiggle
+bip_39_3_word_space: budget ski giggle
+bip_39_3_word_underscore: budget_ski_giggle
+bip_39_full_array:
+- budget
+- ski
+- giggle
+- correct
+- flat
+- merit
+- attack
+- supreme
+- action
+- snake
+- grain
+- pig
+bip_39_full_no_space: budgetskigigglecorrectflatmeritattacksupremeactionsnakegrainpig
+bip_39_full_space: budget ski giggle correct flat merit attack supreme action snake
+    grain pig
+bip_39_full_underscore: budget_ski_giggle_correct_flat_merit_attack_supreme_action_snake_grain_pig
+directory: parts/hardware_washer_m1_5
+generate_stl: true
+id: hardware_washer_m1_5
+id_no_class: hardware_washer_m1_5
+id_no_size: hardware_washer_m1_5
+id_no_type: hardware_washer_m1_5
+label_drawer: &id001
+    bip39: budget ski giggle
+    bip39_size: 2.35
+    code: WA
+    description: Washer / M1.5
+    detail_lines: []
+    detail_size: 2.05
+    detail_y: 21.1
+    diagram: <circle cx="10" cy="7" r="5.5"/><circle cx="10" cy="7" r="2.5"/>
+    drive_symbol: ''
+    length: ''
+    length_size: 7.8
+    length_x: 22.3603625
+    name: Washer
+    name_lines:
+    - Washer
+    name_size: 3.2
+    thread: M1.5
+    thread_size: 4.408
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m1_5
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m1_5
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m1_5
+md5: 1d99498798458917039ecf0299a59652
+md5_10: 1d99498798
+md5_10_upper: 1D99498798
+md5_5: 1d994
+md5_5_upper: 1D994
+md5_6: 1d9949
+md5_6_alpha: 15kqx
+md5_6_alpha_upper: 15KQX
+md5_6_upper: 1D9949
+name: Hardware Washer M1 5
+name_no_class: Hardware Washer M1 5
+name_no_size: Hardware Washer M1 5
+name_no_type: Hardware Washer M1 5
+name_proper: Hardware Washer M1 5
+name_space: hardware washer m1 5
+name_upper: HARDWARE WASHER M1 5
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_washer_m1_5
+            name: hardware_washer_m1_5
+            name_proper: Hardware Washer M1 5
+            name_space: hardware washer m1 5
+            name_upper: HARDWARE WASHER M1 5
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M1.5 steel flat washer DIN 125
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M1.5+steel+flat+washer+DIN+125
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M1.5 steel flat washer DIN 125
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M1.5+steel+flat+washer+DIN+125
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T11:28:28.392330+00:00'
+                    evidence_file: support_files/evidence/hardware_washer_m1_5/google/9f636a03464e44a0b9de61601ecc15c2.yaml
+                    evidence_url: https://www.google.com/search?q=M1.5+steel+flat+washer+DIN+125
+                    material_evidence: ''
+                    product_name: ''
+                    reason: Completed exact searches returned stainless steel listings,
+                        irrelevant sizes and a DIN 125 range page explicitly headed
+                        stainless steel. No eligible non-stainless M1.5 flat washer
+                        was found.
+                    result_url: ''
+                    search_evidence: The initial query returned a stainless steel
+                        M1.7 washer, M1 assortment explicitly made from A2/304 stainless
+                        steel, and wrong-size mild steel products. The focused mild
+                        steel query returned only wrong-size M5 washer listings and
+                        the same A2 range; the plausible PTS DIN 125 page was inspected
+                        and explicitly identifies its Form A range as stainless steel.
+                    search_for: M1.5 steel flat washer DIN 125
+                    search_url: https://www.google.com/search?q=M1.5+steel+flat+washer+DIN+125
+                    selected_variant: ''
+                    specification: ''
+                    status: assumed_non_stocked
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: washer
+            taxonomy_3: m1_5
+            taxonomy_4: ''
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-13'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: approximate_visual_model
+                dimensional_specification: 'APPROXIMATE VISUAL MODEL: plain washer'
+                generator: din_125_a_washer
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Visual selection with clearance for the literal catalogue
+                        nominal diameter; not a verified supplier row for this size.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    characteristic_dimension_basis: outer washer diameter
+                    characteristic_dimension_mm: 4
+                    expected_components: 1
+                    family: washer
+                    finish: satin
+                    handedness: right
+                    height_convention: axial thickness
+                    height_mm: 0.3
+                    hole_diameter_mm: 1.7
+                    identity: hardware_washer_m1_5
+                    nominal_diameter_mm: 1.5
+                    outer_diameter_mm: 4
+                    overall_height_mm: 0.3
+                    specification: 'APPROXIMATE VISUAL MODEL: plain washer'
+                    thread_flank_angle_degrees: 60.0
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_extensions.yaml
+                sources:
+                -   title: Spalding Fasteners washer size table, M1 Form A
+                    url: https://www.spaldingfasteners.co.uk/washer-sizes/
+                standard: null
+                standard_lengths_mm: []
+                standard_limits: {}
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_washer_m1_5
+            name: hardware_washer_m1_5
+            name_proper: Hardware Washer M1 5
+            name_space: hardware washer m1 5
+            name_upper: HARDWARE WASHER M1 5
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_washer_m1_5
+                        name: hardware_washer_m1_5
+                        name_proper: Hardware Washer M1 5
+                        name_space: hardware washer m1 5
+                        name_upper: HARDWARE WASHER M1 5
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M1.5 steel flat washer DIN 125
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M1.5+steel+flat+washer+DIN+125
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M1.5 steel flat washer DIN 125
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M1.5+steel+flat+washer+DIN+125
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T11:28:28.392330+00:00'
+                                evidence_file: support_files/evidence/hardware_washer_m1_5/google/9f636a03464e44a0b9de61601ecc15c2.yaml
+                                evidence_url: https://www.google.com/search?q=M1.5+steel+flat+washer+DIN+125
+                                material_evidence: ''
+                                product_name: ''
+                                reason: Completed exact searches returned stainless
+                                    steel listings, irrelevant sizes and a DIN 125
+                                    range page explicitly headed stainless steel.
+                                    No eligible non-stainless M1.5 flat washer was
+                                    found.
+                                result_url: ''
+                                search_evidence: The initial query returned a stainless
+                                    steel M1.7 washer, M1 assortment explicitly made
+                                    from A2/304 stainless steel, and wrong-size mild
+                                    steel products. The focused mild steel query returned
+                                    only wrong-size M5 washer listings and the same
+                                    A2 range; the plausible PTS DIN 125 page was inspected
+                                    and explicitly identifies its Form A range as
+                                    stainless steel.
+                                search_for: M1.5 steel flat washer DIN 125
+                                search_url: https://www.google.com/search?q=M1.5+steel+flat+washer+DIN+125
+                                selected_variant: ''
+                                specification: ''
+                                status: assumed_non_stocked
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: washer
+                        taxonomy_3: m1_5
+                        taxonomy_4: ''
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        three_d_model_details:
+                            checked_on: '2026-10-13'
+                            coordinate_system:
+                                axis: +Z along bore
+                                glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                                glb_units: metres
+                                glb_up_axis: Y
+                                origin: lower face centre
+                                stl_units: mm
+                            dimension_status: approximate_visual_model
+                            dimensional_specification: 'APPROXIMATE VISUAL MODEL:
+                                plain washer'
+                            generator: din_125_a_washer
+                            length_status: not_applicable
+                            material:
+                                base_colour_srgb:
+                                - 0.62
+                                - 0.65
+                                - 0.69
+                                coat_roughness: 0.28
+                                coat_weight: 0.02
+                                metallic: 1.0
+                                microtexture_height_um: 0.8
+                                microtexture_spacing_mm: 0.025
+                                name: Satin steel
+                                note: Visual finish approximation; catalogue specifies
+                                    colour only.
+                                roughness: 0.26
+                                roughness_variation: 0.045
+                            model_formats:
+                            - stl
+                            - glb
+                            modelling_choices:
+                                bearing: Bolt bearing circle and c selected within
+                                    limits; k includes bearing thickness; fillet tangent
+                                    to shaft and bearing.
+                                cavity: Nut through-bore has a helical internal surface;
+                                    display keeps minor-diameter bore and mouth chamfers.
+                                certification: Nominal visual catalogue model, not
+                                    manufacturing tolerance certification.
+                                chamfer: 30 degree outer hex chamfer. Nut mouth included
+                                    angle 120 degrees. Bolt tip 45 degrees, P/2.
+                                components: One closed solid.
+                                dimension_selection: Nominal bolt head height, max
+                                    flats/nut height, nominal washer sizes; selected
+                                    dimensions stored in parameters.
+                                display: Smooth nominal external-thread envelope or
+                                    smooth minor-diameter internal bore; lower angular
+                                    and fillet tessellation.
+                                family_note: Visual selection with clearance for the
+                                    literal catalogue nominal diameter; not a verified
+                                    supplier row for this size.
+                                markings: Supplier and property-class markings omitted
+                                    because catalogue does not identify them.
+                                runout: External one-pitch fade to plain shank; full
+                                    thread ends at underhead fillet.
+                                thread: Nominal ISO basic metric profile, no ISO 965
+                                    tolerance offsets. External rounded root H/6,
+                                    internal P/4 crest and P/8 root flats.
+                                unspecified_geometry: Nut mouth for supplier rows
+                                    without limits and flange M3/M4 thickness/rim
+                                    blends are explicit visual model selections.
+                            output_folder: three_d_model
+                            parameters:
+                                characteristic_dimension_basis: outer washer diameter
+                                characteristic_dimension_mm: 4
+                                expected_components: 1
+                                family: washer
+                                finish: satin
+                                handedness: right
+                                height_convention: axial thickness
+                                height_mm: 0.3
+                                hole_diameter_mm: 1.7
+                                identity: hardware_washer_m1_5
+                                nominal_diameter_mm: 1.5
+                                outer_diameter_mm: 4
+                                overall_height_mm: 0.3
+                                specification: 'APPROXIMATE VISUAL MODEL: plain washer'
+                                thread_flank_angle_degrees: 60.0
+                                thread_starts: 1
+                            renders:
+                                high:
+                                    file: render_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: isometric
+                                low:
+                                    file: render_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: isometric
+                                product_high:
+                                    file: render_product_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: product
+                                product_low:
+                                    file: render_product_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: product
+                            schema_version: 1
+                            source_table: source_file/standards/catalogue_extensions.yaml
+                            sources:
+                            -   title: Spalding Fasteners washer size table, M1 Form
+                                    A
+                                url: https://www.spaldingfasteners.co.uk/washer-sizes/
+                            standard: null
+                            standard_lengths_mm: []
+                            standard_limits: {}
+                            studio:
+                                adaptive_threshold: 0.015
+                                denoise: true
+                                device: auto
+                                engine: cycles
+                                exposure: 0.0
+                                floor_colour_srgb:
+                                - 0.93
+                                - 0.935
+                                - 0.94
+                                floor_roughness: 0.55
+                                framing_margin: 0.13
+                                high_samples: 160
+                                lights:
+                                -   colour:
+                                    - 1.0
+                                    - 0.96
+                                    - 0.9
+                                    height: 5.0
+                                    name: Key softbox
+                                    position:
+                                    - -3
+                                    - -4
+                                    - 6
+                                    power: 650.0
+                                    width: 4.0
+                                -   colour:
+                                    - 0.9
+                                    - 0.95
+                                    - 1.0
+                                    height: 4.0
+                                    name: Fill softbox
+                                    position:
+                                    - 4
+                                    - -1
+                                    - 3
+                                    power: 330.0
+                                    width: 3.0
+                                -   colour:
+                                    - 1.0
+                                    - 1.0
+                                    - 1.0
+                                    height: 5.0
+                                    name: Rim strip
+                                    position:
+                                    - 1
+                                    - 4
+                                    - 4
+                                    power: 850.0
+                                    width: 1.2
+                                look: AgX - Medium High Contrast
+                                low_samples: 48
+                                poses:
+                                    isometric:
+                                        camera_eye:
+                                        - 1
+                                        - -1
+                                        - 1
+                                        orientation: principal axis Z up
+                                        projection: orthographic
+                                    product:
+                                        camera_eye:
+                                        - -6
+                                        - -10
+                                        - 6
+                                        orientation: resting on lower face, bore visible
+                                        projection: orthographic
+                                        resting_axis: face
+                                        support: Stable convex-hull support using
+                                            actual mesh centre of mass.
+                                        yaw_degrees: -12.0
+                                seed: 7991
+                                view_transform: AgX
+                                world_colour:
+                                - 0.78
+                                - 0.82
+                                - 0.9
+                                world_strength: 0.35
+                            units: mm
+                            variants:
+                                display:
+                                    angular_segments: 24
+                                    fillet_segments: 3
+                                    samples_per_pitch: 1
+                                full:
+                                    angular_segments: 96
+                                    fillet_segments: 12
+                                    samples_per_pitch: 32
+                            views:
+                            - isometric
+                            - front
+                            - back
+                            - left
+                            - right
+                            - top
+                            - bottom
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M1.5 steel flat washer DIN 125
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M1.5+steel+flat+washer+DIN+125
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M1.5 steel flat washer DIN 125
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M1.5+steel+flat+washer+DIN+125
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T11:28:28.392330+00:00'
+                    evidence_file: support_files/evidence/hardware_washer_m1_5/google/9f636a03464e44a0b9de61601ecc15c2.yaml
+                    evidence_url: https://www.google.com/search?q=M1.5+steel+flat+washer+DIN+125
+                    material_evidence: ''
+                    product_name: ''
+                    reason: Completed exact searches returned stainless steel listings,
+                        irrelevant sizes and a DIN 125 range page explicitly headed
+                        stainless steel. No eligible non-stainless M1.5 flat washer
+                        was found.
+                    result_url: ''
+                    search_evidence: The initial query returned a stainless steel
+                        M1.7 washer, M1 assortment explicitly made from A2/304 stainless
+                        steel, and wrong-size mild steel products. The focused mild
+                        steel query returned only wrong-size M5 washer listings and
+                        the same A2 range; the plausible PTS DIN 125 page was inspected
+                        and explicitly identifies its Form A range as stainless steel.
+                    search_for: M1.5 steel flat washer DIN 125
+                    search_url: https://www.google.com/search?q=M1.5+steel+flat+washer+DIN+125
+                    selected_variant: ''
+                    specification: ''
+                    status: assumed_non_stocked
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: washer
+            taxonomy_3: m1_5
+            taxonomy_4: ''
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-13'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: approximate_visual_model
+                dimensional_specification: 'APPROXIMATE VISUAL MODEL: plain washer'
+                generator: din_125_a_washer
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Visual selection with clearance for the literal catalogue
+                        nominal diameter; not a verified supplier row for this size.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    characteristic_dimension_basis: outer washer diameter
+                    characteristic_dimension_mm: 4
+                    expected_components: 1
+                    family: washer
+                    finish: satin
+                    handedness: right
+                    height_convention: axial thickness
+                    height_mm: 0.3
+                    hole_diameter_mm: 1.7
+                    identity: hardware_washer_m1_5
+                    nominal_diameter_mm: 1.5
+                    outer_diameter_mm: 4
+                    overall_height_mm: 0.3
+                    specification: 'APPROXIMATE VISUAL MODEL: plain washer'
+                    thread_flank_angle_degrees: 60.0
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_extensions.yaml
+                sources:
+                -   title: Spalding Fasteners washer size table, M1 Form A
+                    url: https://www.spaldingfasteners.co.uk/washer-sizes/
+                standard: null
+                standard_lengths_mm: []
+                standard_limits: {}
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_bolt_image.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        description: label_drawer
+        dict_data:
+            label_drawer: *id001
+        file_output: label_drawer.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
+oomp_key: oomp_hardware_washer_m1_5
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M1.5 steel flat washer DIN 125
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M1.5+steel+flat+washer+DIN+125
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M1.5 steel flat washer DIN 125
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M1.5+steel+flat+washer+DIN+125
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T11:28:28.392330+00:00'
+        evidence_file: support_files/evidence/hardware_washer_m1_5/google/9f636a03464e44a0b9de61601ecc15c2.yaml
+        evidence_url: https://www.google.com/search?q=M1.5+steel+flat+washer+DIN+125
+        material_evidence: ''
+        product_name: ''
+        reason: Completed exact searches returned stainless steel listings, irrelevant
+            sizes and a DIN 125 range page explicitly headed stainless steel. No eligible
+            non-stainless M1.5 flat washer was found.
+        result_url: ''
+        search_evidence: The initial query returned a stainless steel M1.7 washer,
+            M1 assortment explicitly made from A2/304 stainless steel, and wrong-size
+            mild steel products. The focused mild steel query returned only wrong-size
+            M5 washer listings and the same A2 range; the plausible PTS DIN 125 page
+            was inspected and explicitly identifies its Form A range as stainless
+            steel.
+        search_for: M1.5 steel flat washer DIN 125
+        search_url: https://www.google.com/search?q=M1.5+steel+flat+washer+DIN+125
+        selected_variant: ''
+        specification: ''
+        status: assumed_non_stocked
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: washer
+taxonomy_2_capital: Washer
+taxonomy_2_first_letter: w
+taxonomy_2_first_letter_upper: W
+taxonomy_2_length_1: w
+taxonomy_2_length_2: wa
+taxonomy_2_length_3: was
+taxonomy_2_length_4: wash
+taxonomy_2_length_5: washe
+taxonomy_2_upper: WASHER
+taxonomy_2_upper_length_1: W
+taxonomy_2_upper_length_2: WA
+taxonomy_2_upper_length_3: WAS
+taxonomy_2_upper_length_4: WASH
+taxonomy_2_upper_length_5: WASHE
+taxonomy_3: m1_5
+taxonomy_3_capital: M1.5
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m1
+taxonomy_3_length_3: m1_
+taxonomy_3_length_4: m1_5
+taxonomy_3_length_5: m1_5
+taxonomy_3_upper: M1_5
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M1
+taxonomy_3_upper_length_3: M1_
+taxonomy_3_upper_length_4: M1_5
+taxonomy_3_upper_length_5: M1_5
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+    checked_on: '2026-10-13'
+    coordinate_system:
+        axis: +Z along bore
+        glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+        glb_units: metres
+        glb_up_axis: Y
+        origin: lower face centre
+        stl_units: mm
+    dimension_status: approximate_visual_model
+    dimensional_specification: 'APPROXIMATE VISUAL MODEL: plain washer'
+    generator: din_125_a_washer
+    length_status: not_applicable
+    material:
+        base_colour_srgb:
+        - 0.62
+        - 0.65
+        - 0.69
+        coat_roughness: 0.28
+        coat_weight: 0.02
+        metallic: 1.0
+        microtexture_height_um: 0.8
+        microtexture_spacing_mm: 0.025
+        name: Satin steel
+        note: Visual finish approximation; catalogue specifies colour only.
+        roughness: 0.26
+        roughness_variation: 0.045
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+        bearing: Bolt bearing circle and c selected within limits; k includes bearing
+            thickness; fillet tangent to shaft and bearing.
+        cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
+            bore and mouth chamfers.
+        certification: Nominal visual catalogue model, not manufacturing tolerance
+            certification.
+        chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees.
+            Bolt tip 45 degrees, P/2.
+        components: One closed solid.
+        dimension_selection: Nominal bolt head height, max flats/nut height, nominal
+            washer sizes; selected dimensions stored in parameters.
+        display: Smooth nominal external-thread envelope or smooth minor-diameter
+            internal bore; lower angular and fillet tessellation.
+        family_note: Visual selection with clearance for the literal catalogue nominal
+            diameter; not a verified supplier row for this size.
+        markings: Supplier and property-class markings omitted because catalogue does
+            not identify them.
+        runout: External one-pitch fade to plain shank; full thread ends at underhead
+            fillet.
+        thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+            rounded root H/6, internal P/4 crest and P/8 root flats.
+        unspecified_geometry: Nut mouth for supplier rows without limits and flange
+            M3/M4 thickness/rim blends are explicit visual model selections.
+    output_folder: three_d_model
+    parameters:
+        characteristic_dimension_basis: outer washer diameter
+        characteristic_dimension_mm: 4
+        expected_components: 1
+        family: washer
+        finish: satin
+        handedness: right
+        height_convention: axial thickness
+        height_mm: 0.3
+        hole_diameter_mm: 1.7
+        identity: hardware_washer_m1_5
+        nominal_diameter_mm: 1.5
+        outer_diameter_mm: 4
+        overall_height_mm: 0.3
+        specification: 'APPROXIMATE VISUAL MODEL: plain washer'
+        thread_flank_angle_degrees: 60.0
+        thread_starts: 1
+    renders:
+        high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+        low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+        product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+        product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+    schema_version: 1
+    source_table: source_file/standards/catalogue_extensions.yaml
+    sources:
+    -   title: Spalding Fasteners washer size table, M1 Form A
+        url: https://www.spaldingfasteners.co.uk/washer-sizes/
+    standard: null
+    standard_lengths_mm: []
+    standard_limits: {}
+    studio:
+        adaptive_threshold: 0.015
+        denoise: true
+        device: auto
+        engine: cycles
+        exposure: 0.0
+        floor_colour_srgb:
+        - 0.93
+        - 0.935
+        - 0.94
+        floor_roughness: 0.55
+        framing_margin: 0.13
+        high_samples: 160
+        lights:
+        -   colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+        -   colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+        -   colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+        look: AgX - Medium High Contrast
+        low_samples: 48
+        poses:
+            isometric:
+                camera_eye:
+                - 1
+                - -1
+                - 1
+                orientation: principal axis Z up
+                projection: orthographic
+            product:
+                camera_eye:
+                - -6
+                - -10
+                - 6
+                orientation: resting on lower face, bore visible
+                projection: orthographic
+                resting_axis: face
+                support: Stable convex-hull support using actual mesh centre of mass.
+                yaw_degrees: -12.0
+        seed: 7991
+        view_transform: AgX
+        world_colour:
+        - 0.78
+        - 0.82
+        - 0.9
+        world_strength: 0.35
+    units: mm
+    variants:
+        display:
+            angular_segments: 24
+            fillet_segments: 3
+            samples_per_pitch: 1
+        full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
+url_chat: ''
+```
+
+</details>
+
+## Parts
+
+[Full-detail 3D model (GLB)](three_d_model/model_full.glb) · [Full-detail view drawings](three_d_model/full/) · [Drawer label (SVG)](label_drawer.svg)
+
+Full-detail and simplified display models are alternatives for the same part. GLB uses metres; STL, where supplied, uses millimetres. The [part folder](./) contains all available files.
+
+## Assembly
+
+This page documents a component rather than a complete project assembly. No installation sequence or tightening torque is specified by this record.
+<!-- hardware-part:end -->

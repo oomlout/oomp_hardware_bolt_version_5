@@ -1,8 +1,8 @@
 """Refresh the catalogue front page and navigation index from existing records.
 
-Writes the overview, navigation index and two compact lead-image previews.
-Part files and original renders are read-only; existing navigation branches
-are preserved. Requires PyYAML and Pillow.
+Writes the overview, navigation index, part READMEs and compact image previews.
+Engineering metadata and original renders are read-only; existing notes and
+navigation branches are preserved. Requires PyYAML and Pillow.
 """
 from collections import defaultdict
 import hashlib
@@ -67,15 +67,18 @@ def write_changed(path, content):
 
 def main(**kwargs):
     groups = defaultdict(list)
+    records = []
     loader = getattr(yaml, 'CSafeLoader', yaml.SafeLoader)
     for source in (ROOT / 'parts').glob('*/working.yaml'):
-        data = yaml.load(source.read_text(encoding='utf-8'), Loader=loader)
+        raw_yaml = source.read_text(encoding='utf-8')
+        data = yaml.load(raw_yaml, Loader=loader)
         if not isinstance(data, dict):
             raise ValueError(f'Expected part metadata: {source}')
         family = str(data.get('taxonomy_2') or 'other')
         if not re.fullmatch(r'[a-z0-9_]+', family):
             raise ValueError(f'Unexpected hardware family: {family}')
         groups[family].append(source.parent.name)
+        records.append((source.parent, data, raw_yaml))
     if not groups:
         raise ValueError('No part records found; leaving the existing pages intact')
 
@@ -96,10 +99,12 @@ def main(**kwargs):
 
     template = Template((ROOT / 'presentation/README.template.md').read_text(encoding='utf-8'))
     content = template.substitute(part_count=sum(map(len, groups.values())), family_table='\n'.join(table))
+    import working_part_readme
+    part_pages = working_part_readme.generate(ROOT, records)
     refresh_lead_images()
     write_changed(ROOT / 'navigation_oobb/README.md', '\n'.join(navigation))
     write_changed(ROOT / 'README.md', content)
-    return {'parts': sum(map(len, groups.values())), 'families': len(groups)}
+    return {'parts': sum(map(len, groups.values())), 'families': len(groups), 'part_pages': part_pages}
 
 
 if __name__ == '__main__':

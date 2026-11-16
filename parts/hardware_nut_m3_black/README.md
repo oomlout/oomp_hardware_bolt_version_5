@@ -1,0 +1,1442 @@
+<!-- hardware-part:start -->
+# M3 black nut
+
+## Summary
+
+A metric nut with a modelled internal thread. The dimensions below identify the exact catalogue variant.
+
+[Hardware catalogue](../../README.md) · [Browse this family](../../navigation_oobb/README.md#nuts)
+
+| Isometric | Product view |
+| --- | --- |
+| [![Full-detail isometric render](three_d_model/readme_isometric.png)](three_d_model/render_high.png) | [![Full-detail product view render](three_d_model/readme_product.png)](three_d_model/render_product_high.png) |
+
+Full-detail catalogue renders. Click either image to open the original resolution.
+
+## Details
+
+**OOMP ID:** `hardware_nut_m3_black`
+
+**Short code:** `9i6w5` · **Three-word label:** vicious tobacco kangaroo
+
+| Model dimension | mm |
+| --- | ---: |
+| Nominal size | 3 |
+| Thread pitch | 0.5 |
+| Across flats | 5.5 |
+| Height / thickness | 2.4 |
+
+Dimensions above are values used by the saved model recipe, in millimetres. **Model basis: standard dimensions.**
+
+<details>
+<summary>Model provenance and assumptions</summary>
+
+**Recorded dimensional reference:** ISO 4032:2012
+
+**Source checked:** 2026-10-11
+
+**Visual finish:** Black oxide steel
+
+**Finish assumption:** Visual finish approximation; catalogue specifies colour only.
+
+**Family notes:** Catalogue family mapped to the cited dimensional pattern; exact supplier unspecified.
+
+These are saved catalogue references and modelling choices, not a claim of manufacturing certification.
+
+- [ISO 4032:2012 fourth edition, table 1, hexagon regular nuts](https://cdn.standards.iteh.ai/samples/61668/93b89b8502a943499386155c44018aaa/ISO-4032-2012.pdf)
+- [ISO 68-1:1998 basic ISO metric thread profile](https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf)
+
+[Complete model recipe](three_d_model/parameters.json)
+
+</details>
+
+<details>
+<summary>Complete part metadata</summary>
+
+[Source working.yaml](working.yaml)
+
+```yaml
+bip_39_2_word_array:
+- vicious
+- tobacco
+bip_39_2_word_no_space: vicioustobacco
+bip_39_2_word_space: vicious tobacco
+bip_39_2_word_underscore: vicious_tobacco
+bip_39_3_word_array:
+- vicious
+- tobacco
+- kangaroo
+bip_39_3_word_no_space: vicioustobaccokangaroo
+bip_39_3_word_space: vicious tobacco kangaroo
+bip_39_3_word_underscore: vicious_tobacco_kangaroo
+bip_39_full_array:
+- vicious
+- tobacco
+- kangaroo
+- squeeze
+- wrist
+- curtain
+- clerk
+- unfair
+- immense
+- chest
+- reject
+- guard
+bip_39_full_no_space: vicioustobaccokangaroosqueezewristcurtainclerkunfairimmensechestrejectguard
+bip_39_full_space: vicious tobacco kangaroo squeeze wrist curtain clerk unfair immense
+    chest reject guard
+bip_39_full_underscore: vicious_tobacco_kangaroo_squeeze_wrist_curtain_clerk_unfair_immense_chest_reject_guard
+directory: parts/hardware_nut_m3_black
+generate_stl: true
+id: hardware_nut_m3_black
+id_no_class: hardware_nut_m3_black
+id_no_size: hardware_nut_m3_black
+id_no_type: hardware_nut_m3_black
+label_drawer: &id001
+    bip39: vicious tobacco kangaroo
+    bip39_size: 1.824
+    code: NU
+    description: Black nut / M3
+    detail_lines: []
+    detail_size: 2.05
+    detail_y: 21.1
+    diagram: <path d="M7 1.8H13L16 7L13 12.2H7L4 7Z"/><circle cx="10" cy="7" r="2.5"/>
+    drive_symbol: <path d="M5 1L8.46 3V7L5 9L1.54 7V3Z" fill="#ffffff"/>
+    length: ''
+    length_size: 7.8
+    length_x: 22.3603625
+    name: Black nut
+    name_lines:
+    - Black nut
+    name_size: 3.2
+    thread: M3
+    thread_size: 6.5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m3_black
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m3_black
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m3_black
+md5: f39c65e669cfe66c4a9f687184f2d3b3
+md5_10: f39c65e669
+md5_10_upper: F39C65E669
+md5_5: f39c6
+md5_5_upper: F39C6
+md5_6: f39c65
+md5_6_alpha: 9i6w5
+md5_6_alpha_upper: 9I6W5
+md5_6_upper: F39C65
+name: Hardware Nut M3 Black
+name_no_class: Hardware Nut M3 Black
+name_no_size: Hardware Nut M3 Black
+name_no_type: Hardware Nut M3 Black
+name_proper: Hardware Nut M3 Black
+name_space: hardware nut m3 black
+name_upper: HARDWARE NUT M3 BLACK
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_nut_m3_black
+            name: hardware_nut_m3_black
+            name_proper: Hardware Nut M3 Black
+            name_space: hardware nut m3 black
+            name_upper: HARDWARE NUT M3 BLACK
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M3 black hexagon full nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M3+black+hexagon+full+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M3 black hexagon full nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M3+black+hexagon+full+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T08:58:10.201067+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m3_black/google/e51fd1e4f8f1470ba7ad5a85f8ddf78c.yaml
+                    evidence_url: https://www.google.com/search?q=M3+black+hexagon+full+nut+steel
+                    material_evidence: 'The selected product page states Material:
+                        Steel and Class/Grade: 8.'
+                    product_name: "M3 Metric Hexagon Full Nut \u2013 Grade 8 Steel,\
+                        \ Black Passivated, DIN 934"
+                    reason: Bolt World confirms the selected M3 hexagon full nut is
+                        Grade 8 steel, black passivated, right-hand metric thread
+                        with 0.50mm pitch, to DIN 934.
+                    result_url: https://boltworld.co.uk/products/m3-hexagon-steel-full-nuts-grade-8-metric-black-passivated-din-934/
+                    search_evidence: "The first Google search showed Bolt World's\
+                        \ M3 Metric Hexagon Full Nut \u2013 Grade 8 Steel, Black Passivated,\
+                        \ DIN 934. The opened product page confirms the exact selected\
+                        \ M3 option, steel material, Grade 8, black passivated treatment,\
+                        \ right-hand metric thread, 0.50 pitch, hexagon shape, and\
+                        \ DIN 934. Stainless and nylon alternatives were not selected."
+                    search_for: M3 black hexagon full nut steel
+                    search_url: https://www.google.com/search?q=M3+black+hexagon+full+nut+steel
+                    selected_variant: "M3 (3mm) \u2014 SKU 10008.030.000"
+                    specification: 'Thread Size: M3; Thread: Metric Thread; Thread
+                        Direction: Right; Thread Pitch: 0.50mm; Nut Shape: Hexagon
+                        full nut; Material: Grade 8 steel; Finish: Black Passivated;
+                        Manufacturing Standard: DIN 934; SKU: 10008.030.000.'
+                    status: verified
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: nut
+            taxonomy_3: m3
+            taxonomy_4: black
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: standard_dimensions
+                dimensional_specification: ISO 4032:2012
+                generator: iso_4032_hex_nut
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.205
+                    - 0.218
+                    - 0.235
+                    coat_roughness: 0.28
+                    coat_weight: 0.08
+                    metallic: 0.8
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Black oxide steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.31
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Catalogue family mapped to the cited dimensional
+                        pattern; exact supplier unspecified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 5.5
+                    characteristic_dimension_basis: hexagon across flats
+                    characteristic_dimension_mm: 5.5
+                    expected_components: 1
+                    external_minor_diameter_mm: 2.3865653389860224
+                    family: nut
+                    finish: black
+                    handedness: right
+                    height_convention: total axial nut height
+                    height_mm: 2.4
+                    hole_chamfer_mm: 0.2212019052838329
+                    hole_chamfer_slope: 1.7320508075688767
+                    identity: hardware_nut_m3_black
+                    internal_minor_diameter_mm: 2.458734122634726
+                    mouth_diameter_mm: 3.225
+                    nominal_diameter_mm: 3.0
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 2.4
+                    pitch_mm: 0.5
+                    specification: ISO 4032:2012
+                    thread_flank_angle_degrees: 60.0
+                    thread_pitch_diameter_mm: 2.6752404735808355
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: ISO 4032:2012 fourth edition, table 1, hexagon regular
+                        nuts
+                    url: https://cdn.standards.iteh.ai/samples/61668/93b89b8502a943499386155c44018aaa/ISO-4032-2012.pdf
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: ISO 4032:2012
+                standard_lengths_mm: []
+                standard_limits:
+                    across_corners_min_mm: 6.01
+                    across_flats_mm:
+                    - 5.32
+                    - 5.5
+                    height_mm:
+                    - 2.15
+                    - 2.4
+                    mouth_diameter_mm:
+                    - 3
+                    - 3.45
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_nut_m3_black
+            name: hardware_nut_m3_black
+            name_proper: Hardware Nut M3 Black
+            name_space: hardware nut m3 black
+            name_upper: HARDWARE NUT M3 BLACK
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_nut_m3_black
+                        name: hardware_nut_m3_black
+                        name_proper: Hardware Nut M3 Black
+                        name_space: hardware nut m3 black
+                        name_upper: HARDWARE NUT M3 BLACK
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M3 black hexagon full nut steel
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M3+black+hexagon+full+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M3 black hexagon full nut steel
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M3+black+hexagon+full+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T08:58:10.201067+00:00'
+                                evidence_file: support_files/evidence/hardware_nut_m3_black/google/e51fd1e4f8f1470ba7ad5a85f8ddf78c.yaml
+                                evidence_url: https://www.google.com/search?q=M3+black+hexagon+full+nut+steel
+                                material_evidence: 'The selected product page states
+                                    Material: Steel and Class/Grade: 8.'
+                                product_name: "M3 Metric Hexagon Full Nut \u2013 Grade\
+                                    \ 8 Steel, Black Passivated, DIN 934"
+                                reason: Bolt World confirms the selected M3 hexagon
+                                    full nut is Grade 8 steel, black passivated, right-hand
+                                    metric thread with 0.50mm pitch, to DIN 934.
+                                result_url: https://boltworld.co.uk/products/m3-hexagon-steel-full-nuts-grade-8-metric-black-passivated-din-934/
+                                search_evidence: "The first Google search showed Bolt\
+                                    \ World's M3 Metric Hexagon Full Nut \u2013 Grade\
+                                    \ 8 Steel, Black Passivated, DIN 934. The opened\
+                                    \ product page confirms the exact selected M3\
+                                    \ option, steel material, Grade 8, black passivated\
+                                    \ treatment, right-hand metric thread, 0.50 pitch,\
+                                    \ hexagon shape, and DIN 934. Stainless and nylon\
+                                    \ alternatives were not selected."
+                                search_for: M3 black hexagon full nut steel
+                                search_url: https://www.google.com/search?q=M3+black+hexagon+full+nut+steel
+                                selected_variant: "M3 (3mm) \u2014 SKU 10008.030.000"
+                                specification: 'Thread Size: M3; Thread: Metric Thread;
+                                    Thread Direction: Right; Thread Pitch: 0.50mm;
+                                    Nut Shape: Hexagon full nut; Material: Grade 8
+                                    steel; Finish: Black Passivated; Manufacturing
+                                    Standard: DIN 934; SKU: 10008.030.000.'
+                                status: verified
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: nut
+                        taxonomy_3: m3
+                        taxonomy_4: black
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        three_d_model_details:
+                            checked_on: '2026-10-11'
+                            coordinate_system:
+                                axis: +Z along bore
+                                glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                                glb_units: metres
+                                glb_up_axis: Y
+                                origin: lower face centre
+                                stl_units: mm
+                            dimension_status: standard_dimensions
+                            dimensional_specification: ISO 4032:2012
+                            generator: iso_4032_hex_nut
+                            length_status: not_applicable
+                            material:
+                                base_colour_srgb:
+                                - 0.205
+                                - 0.218
+                                - 0.235
+                                coat_roughness: 0.28
+                                coat_weight: 0.08
+                                metallic: 0.8
+                                microtexture_height_um: 0.8
+                                microtexture_spacing_mm: 0.025
+                                name: Black oxide steel
+                                note: Visual finish approximation; catalogue specifies
+                                    colour only.
+                                roughness: 0.31
+                                roughness_variation: 0.045
+                            model_formats:
+                            - stl
+                            - glb
+                            modelling_choices:
+                                bearing: Bolt bearing circle and c selected within
+                                    limits; k includes bearing thickness; fillet tangent
+                                    to shaft and bearing.
+                                cavity: Nut through-bore has a helical internal surface;
+                                    display keeps minor-diameter bore and mouth chamfers.
+                                certification: Nominal visual catalogue model, not
+                                    manufacturing tolerance certification.
+                                chamfer: 30 degree outer hex chamfer. Nut mouth included
+                                    angle 120 degrees. Bolt tip 45 degrees, P/2.
+                                components: One closed solid for supported products.
+                                    Unspecified lock/cage assemblies are not substituted
+                                    with plain hex nuts.
+                                dimension_selection: Nominal bolt head height, max
+                                    flats/nut height, nominal washer sizes; selected
+                                    dimensions stored in parameters.
+                                display: Smooth nominal external-thread envelope or
+                                    smooth minor-diameter internal bore; lower angular
+                                    and fillet tessellation.
+                                family_note: Catalogue family mapped to the cited
+                                    dimensional pattern; exact supplier unspecified.
+                                markings: Supplier and property-class markings omitted
+                                    because catalogue does not identify them.
+                                runout: External one-pitch fade to plain shank; full
+                                    thread ends at underhead fillet.
+                                thread: Nominal ISO basic metric profile, no ISO 965
+                                    tolerance offsets. External rounded root H/6,
+                                    internal P/4 crest and P/8 root flats.
+                                unspecified_geometry: Nut mouth for supplier rows
+                                    without limits and flange M3/M4 thickness/rim
+                                    blends are explicit visual model selections.
+                            output_folder: three_d_model
+                            parameters:
+                                across_flats_mm: 5.5
+                                characteristic_dimension_basis: hexagon across flats
+                                characteristic_dimension_mm: 5.5
+                                expected_components: 1
+                                external_minor_diameter_mm: 2.3865653389860224
+                                family: nut
+                                finish: black
+                                handedness: right
+                                height_convention: total axial nut height
+                                height_mm: 2.4
+                                hole_chamfer_mm: 0.2212019052838329
+                                hole_chamfer_slope: 1.7320508075688767
+                                identity: hardware_nut_m3_black
+                                internal_minor_diameter_mm: 2.458734122634726
+                                mouth_diameter_mm: 3.225
+                                nominal_diameter_mm: 3.0
+                                outer_chamfer_angle_degrees: 30.0
+                                overall_height_mm: 2.4
+                                pitch_mm: 0.5
+                                specification: ISO 4032:2012
+                                thread_flank_angle_degrees: 60.0
+                                thread_pitch_diameter_mm: 2.6752404735808355
+                                thread_starts: 1
+                            renders:
+                                high:
+                                    file: render_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: isometric
+                                low:
+                                    file: render_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: isometric
+                                product_high:
+                                    file: render_product_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: product
+                                product_low:
+                                    file: render_product_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: product
+                            schema_version: 1
+                            source_table: source_file/standards/catalogue_hardware.yaml
+                            sources:
+                            -   title: ISO 4032:2012 fourth edition, table 1, hexagon
+                                    regular nuts
+                                url: https://cdn.standards.iteh.ai/samples/61668/93b89b8502a943499386155c44018aaa/ISO-4032-2012.pdf
+                            -   title: ISO 68-1:1998 basic ISO metric thread profile
+                                url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                            standard: ISO 4032:2012
+                            standard_lengths_mm: []
+                            standard_limits:
+                                across_corners_min_mm: 6.01
+                                across_flats_mm:
+                                - 5.32
+                                - 5.5
+                                height_mm:
+                                - 2.15
+                                - 2.4
+                                mouth_diameter_mm:
+                                - 3
+                                - 3.45
+                            studio:
+                                adaptive_threshold: 0.015
+                                denoise: true
+                                device: auto
+                                engine: cycles
+                                exposure: 0.0
+                                floor_colour_srgb:
+                                - 0.93
+                                - 0.935
+                                - 0.94
+                                floor_roughness: 0.55
+                                framing_margin: 0.13
+                                high_samples: 160
+                                lights:
+                                -   colour:
+                                    - 1.0
+                                    - 0.96
+                                    - 0.9
+                                    height: 5.0
+                                    name: Key softbox
+                                    position:
+                                    - -3
+                                    - -4
+                                    - 6
+                                    power: 650.0
+                                    width: 4.0
+                                -   colour:
+                                    - 0.9
+                                    - 0.95
+                                    - 1.0
+                                    height: 4.0
+                                    name: Fill softbox
+                                    position:
+                                    - 4
+                                    - -1
+                                    - 3
+                                    power: 330.0
+                                    width: 3.0
+                                -   colour:
+                                    - 1.0
+                                    - 1.0
+                                    - 1.0
+                                    height: 5.0
+                                    name: Rim strip
+                                    position:
+                                    - 1
+                                    - 4
+                                    - 4
+                                    power: 850.0
+                                    width: 1.2
+                                look: AgX - Medium High Contrast
+                                low_samples: 48
+                                poses:
+                                    isometric:
+                                        camera_eye:
+                                        - 1
+                                        - -1
+                                        - 1
+                                        orientation: principal axis Z up
+                                        projection: orthographic
+                                    product:
+                                        camera_eye:
+                                        - -6
+                                        - -10
+                                        - 6
+                                        orientation: resting on lower face, bore visible
+                                        projection: orthographic
+                                        resting_axis: face
+                                        support: Stable convex-hull support using
+                                            actual mesh centre of mass.
+                                        yaw_degrees: -12.0
+                                seed: 7991
+                                view_transform: AgX
+                                world_colour:
+                                - 0.78
+                                - 0.82
+                                - 0.9
+                                world_strength: 0.35
+                            units: mm
+                            variants:
+                                display:
+                                    angular_segments: 24
+                                    fillet_segments: 3
+                                    samples_per_pitch: 1
+                                full:
+                                    angular_segments: 96
+                                    fillet_segments: 12
+                                    samples_per_pitch: 32
+                            views:
+                            - isometric
+                            - front
+                            - back
+                            - left
+                            - right
+                            - top
+                            - bottom
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M3 black hexagon full nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M3+black+hexagon+full+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M3 black hexagon full nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M3+black+hexagon+full+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T08:58:10.201067+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m3_black/google/e51fd1e4f8f1470ba7ad5a85f8ddf78c.yaml
+                    evidence_url: https://www.google.com/search?q=M3+black+hexagon+full+nut+steel
+                    material_evidence: 'The selected product page states Material:
+                        Steel and Class/Grade: 8.'
+                    product_name: "M3 Metric Hexagon Full Nut \u2013 Grade 8 Steel,\
+                        \ Black Passivated, DIN 934"
+                    reason: Bolt World confirms the selected M3 hexagon full nut is
+                        Grade 8 steel, black passivated, right-hand metric thread
+                        with 0.50mm pitch, to DIN 934.
+                    result_url: https://boltworld.co.uk/products/m3-hexagon-steel-full-nuts-grade-8-metric-black-passivated-din-934/
+                    search_evidence: "The first Google search showed Bolt World's\
+                        \ M3 Metric Hexagon Full Nut \u2013 Grade 8 Steel, Black Passivated,\
+                        \ DIN 934. The opened product page confirms the exact selected\
+                        \ M3 option, steel material, Grade 8, black passivated treatment,\
+                        \ right-hand metric thread, 0.50 pitch, hexagon shape, and\
+                        \ DIN 934. Stainless and nylon alternatives were not selected."
+                    search_for: M3 black hexagon full nut steel
+                    search_url: https://www.google.com/search?q=M3+black+hexagon+full+nut+steel
+                    selected_variant: "M3 (3mm) \u2014 SKU 10008.030.000"
+                    specification: 'Thread Size: M3; Thread: Metric Thread; Thread
+                        Direction: Right; Thread Pitch: 0.50mm; Nut Shape: Hexagon
+                        full nut; Material: Grade 8 steel; Finish: Black Passivated;
+                        Manufacturing Standard: DIN 934; SKU: 10008.030.000.'
+                    status: verified
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: nut
+            taxonomy_3: m3
+            taxonomy_4: black
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: standard_dimensions
+                dimensional_specification: ISO 4032:2012
+                generator: iso_4032_hex_nut
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.205
+                    - 0.218
+                    - 0.235
+                    coat_roughness: 0.28
+                    coat_weight: 0.08
+                    metallic: 0.8
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Black oxide steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.31
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Catalogue family mapped to the cited dimensional
+                        pattern; exact supplier unspecified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 5.5
+                    characteristic_dimension_basis: hexagon across flats
+                    characteristic_dimension_mm: 5.5
+                    expected_components: 1
+                    external_minor_diameter_mm: 2.3865653389860224
+                    family: nut
+                    finish: black
+                    handedness: right
+                    height_convention: total axial nut height
+                    height_mm: 2.4
+                    hole_chamfer_mm: 0.2212019052838329
+                    hole_chamfer_slope: 1.7320508075688767
+                    identity: hardware_nut_m3_black
+                    internal_minor_diameter_mm: 2.458734122634726
+                    mouth_diameter_mm: 3.225
+                    nominal_diameter_mm: 3.0
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 2.4
+                    pitch_mm: 0.5
+                    specification: ISO 4032:2012
+                    thread_flank_angle_degrees: 60.0
+                    thread_pitch_diameter_mm: 2.6752404735808355
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: ISO 4032:2012 fourth edition, table 1, hexagon regular
+                        nuts
+                    url: https://cdn.standards.iteh.ai/samples/61668/93b89b8502a943499386155c44018aaa/ISO-4032-2012.pdf
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: ISO 4032:2012
+                standard_lengths_mm: []
+                standard_limits:
+                    across_corners_min_mm: 6.01
+                    across_flats_mm:
+                    - 5.32
+                    - 5.5
+                    height_mm:
+                    - 2.15
+                    - 2.4
+                    mouth_diameter_mm:
+                    - 3
+                    - 3.45
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_bolt_image.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        description: label_drawer
+        dict_data:
+            label_drawer: *id001
+        file_output: label_drawer.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
+oomp_key: oomp_hardware_nut_m3_black
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M3 black hexagon full nut steel
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M3+black+hexagon+full+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M3 black hexagon full nut steel
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M3+black+hexagon+full+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T08:58:10.201067+00:00'
+        evidence_file: support_files/evidence/hardware_nut_m3_black/google/e51fd1e4f8f1470ba7ad5a85f8ddf78c.yaml
+        evidence_url: https://www.google.com/search?q=M3+black+hexagon+full+nut+steel
+        material_evidence: 'The selected product page states Material: Steel and Class/Grade:
+            8.'
+        product_name: "M3 Metric Hexagon Full Nut \u2013 Grade 8 Steel, Black Passivated,\
+            \ DIN 934"
+        reason: Bolt World confirms the selected M3 hexagon full nut is Grade 8 steel,
+            black passivated, right-hand metric thread with 0.50mm pitch, to DIN 934.
+        result_url: https://boltworld.co.uk/products/m3-hexagon-steel-full-nuts-grade-8-metric-black-passivated-din-934/
+        search_evidence: "The first Google search showed Bolt World's M3 Metric Hexagon\
+            \ Full Nut \u2013 Grade 8 Steel, Black Passivated, DIN 934. The opened\
+            \ product page confirms the exact selected M3 option, steel material,\
+            \ Grade 8, black passivated treatment, right-hand metric thread, 0.50\
+            \ pitch, hexagon shape, and DIN 934. Stainless and nylon alternatives\
+            \ were not selected."
+        search_for: M3 black hexagon full nut steel
+        search_url: https://www.google.com/search?q=M3+black+hexagon+full+nut+steel
+        selected_variant: "M3 (3mm) \u2014 SKU 10008.030.000"
+        specification: 'Thread Size: M3; Thread: Metric Thread; Thread Direction:
+            Right; Thread Pitch: 0.50mm; Nut Shape: Hexagon full nut; Material: Grade
+            8 steel; Finish: Black Passivated; Manufacturing Standard: DIN 934; SKU:
+            10008.030.000.'
+        status: verified
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: nut
+taxonomy_2_capital: Nut
+taxonomy_2_first_letter: n
+taxonomy_2_first_letter_upper: N
+taxonomy_2_length_1: n
+taxonomy_2_length_2: nu
+taxonomy_2_length_3: nut
+taxonomy_2_length_4: nut
+taxonomy_2_length_5: nut
+taxonomy_2_upper: NUT
+taxonomy_2_upper_length_1: N
+taxonomy_2_upper_length_2: NU
+taxonomy_2_upper_length_3: NUT
+taxonomy_2_upper_length_4: NUT
+taxonomy_2_upper_length_5: NUT
+taxonomy_3: m3
+taxonomy_3_capital: M3
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m3
+taxonomy_3_length_3: m3
+taxonomy_3_length_4: m3
+taxonomy_3_length_5: m3
+taxonomy_3_upper: M3
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M3
+taxonomy_3_upper_length_3: M3
+taxonomy_3_upper_length_4: M3
+taxonomy_3_upper_length_5: M3
+taxonomy_4: black
+taxonomy_4_capital: Black
+taxonomy_4_first_letter: b
+taxonomy_4_first_letter_upper: B
+taxonomy_4_length_1: b
+taxonomy_4_length_2: bl
+taxonomy_4_length_3: bla
+taxonomy_4_length_4: blac
+taxonomy_4_length_5: black
+taxonomy_4_upper: BLACK
+taxonomy_4_upper_length_1: B
+taxonomy_4_upper_length_2: BL
+taxonomy_4_upper_length_3: BLA
+taxonomy_4_upper_length_4: BLAC
+taxonomy_4_upper_length_5: BLACK
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+    checked_on: '2026-10-11'
+    coordinate_system:
+        axis: +Z along bore
+        glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+        glb_units: metres
+        glb_up_axis: Y
+        origin: lower face centre
+        stl_units: mm
+    dimension_status: standard_dimensions
+    dimensional_specification: ISO 4032:2012
+    generator: iso_4032_hex_nut
+    length_status: not_applicable
+    material:
+        base_colour_srgb:
+        - 0.205
+        - 0.218
+        - 0.235
+        coat_roughness: 0.28
+        coat_weight: 0.08
+        metallic: 0.8
+        microtexture_height_um: 0.8
+        microtexture_spacing_mm: 0.025
+        name: Black oxide steel
+        note: Visual finish approximation; catalogue specifies colour only.
+        roughness: 0.31
+        roughness_variation: 0.045
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+        bearing: Bolt bearing circle and c selected within limits; k includes bearing
+            thickness; fillet tangent to shaft and bearing.
+        cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
+            bore and mouth chamfers.
+        certification: Nominal visual catalogue model, not manufacturing tolerance
+            certification.
+        chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees.
+            Bolt tip 45 degrees, P/2.
+        components: One closed solid for supported products. Unspecified lock/cage
+            assemblies are not substituted with plain hex nuts.
+        dimension_selection: Nominal bolt head height, max flats/nut height, nominal
+            washer sizes; selected dimensions stored in parameters.
+        display: Smooth nominal external-thread envelope or smooth minor-diameter
+            internal bore; lower angular and fillet tessellation.
+        family_note: Catalogue family mapped to the cited dimensional pattern; exact
+            supplier unspecified.
+        markings: Supplier and property-class markings omitted because catalogue does
+            not identify them.
+        runout: External one-pitch fade to plain shank; full thread ends at underhead
+            fillet.
+        thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+            rounded root H/6, internal P/4 crest and P/8 root flats.
+        unspecified_geometry: Nut mouth for supplier rows without limits and flange
+            M3/M4 thickness/rim blends are explicit visual model selections.
+    output_folder: three_d_model
+    parameters:
+        across_flats_mm: 5.5
+        characteristic_dimension_basis: hexagon across flats
+        characteristic_dimension_mm: 5.5
+        expected_components: 1
+        external_minor_diameter_mm: 2.3865653389860224
+        family: nut
+        finish: black
+        handedness: right
+        height_convention: total axial nut height
+        height_mm: 2.4
+        hole_chamfer_mm: 0.2212019052838329
+        hole_chamfer_slope: 1.7320508075688767
+        identity: hardware_nut_m3_black
+        internal_minor_diameter_mm: 2.458734122634726
+        mouth_diameter_mm: 3.225
+        nominal_diameter_mm: 3.0
+        outer_chamfer_angle_degrees: 30.0
+        overall_height_mm: 2.4
+        pitch_mm: 0.5
+        specification: ISO 4032:2012
+        thread_flank_angle_degrees: 60.0
+        thread_pitch_diameter_mm: 2.6752404735808355
+        thread_starts: 1
+    renders:
+        high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+        low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+        product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+        product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+    schema_version: 1
+    source_table: source_file/standards/catalogue_hardware.yaml
+    sources:
+    -   title: ISO 4032:2012 fourth edition, table 1, hexagon regular nuts
+        url: https://cdn.standards.iteh.ai/samples/61668/93b89b8502a943499386155c44018aaa/ISO-4032-2012.pdf
+    -   title: ISO 68-1:1998 basic ISO metric thread profile
+        url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+    standard: ISO 4032:2012
+    standard_lengths_mm: []
+    standard_limits:
+        across_corners_min_mm: 6.01
+        across_flats_mm:
+        - 5.32
+        - 5.5
+        height_mm:
+        - 2.15
+        - 2.4
+        mouth_diameter_mm:
+        - 3
+        - 3.45
+    studio:
+        adaptive_threshold: 0.015
+        denoise: true
+        device: auto
+        engine: cycles
+        exposure: 0.0
+        floor_colour_srgb:
+        - 0.93
+        - 0.935
+        - 0.94
+        floor_roughness: 0.55
+        framing_margin: 0.13
+        high_samples: 160
+        lights:
+        -   colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+        -   colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+        -   colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+        look: AgX - Medium High Contrast
+        low_samples: 48
+        poses:
+            isometric:
+                camera_eye:
+                - 1
+                - -1
+                - 1
+                orientation: principal axis Z up
+                projection: orthographic
+            product:
+                camera_eye:
+                - -6
+                - -10
+                - 6
+                orientation: resting on lower face, bore visible
+                projection: orthographic
+                resting_axis: face
+                support: Stable convex-hull support using actual mesh centre of mass.
+                yaw_degrees: -12.0
+        seed: 7991
+        view_transform: AgX
+        world_colour:
+        - 0.78
+        - 0.82
+        - 0.9
+        world_strength: 0.35
+    units: mm
+    variants:
+        display:
+            angular_segments: 24
+            fillet_segments: 3
+            samples_per_pitch: 1
+        full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
+url_chat: ''
+```
+
+</details>
+
+## Parts
+
+[Full-detail 3D model (GLB)](three_d_model/model_full.glb) · [Full-detail view drawings](three_d_model/full/) · [Drawer label (SVG)](label_drawer.svg)
+
+Full-detail and simplified display models are alternatives for the same part. GLB uses metres; STL, where supplied, uses millimetres. The [part folder](./) contains all available files.
+
+## Assembly
+
+This page documents a component rather than a complete project assembly. No installation sequence or tightening torque is specified by this record.
+<!-- hardware-part:end -->

@@ -1,0 +1,2480 @@
+<!-- hardware-part:start -->
+# M6 × 120 mm hex bolt
+
+## Summary
+
+A partially threaded hex-head fastener for bolted joints.
+
+[Hardware catalogue](../../README.md) · [Browse this family](../../navigation_oobb/README.md#bolts)
+
+| Isometric | Product view |
+| --- | --- |
+| [![Full-detail isometric render](three_d_model/readme_isometric.png)](three_d_model/render_high.png) | [![Full-detail product view render](three_d_model/readme_product.png)](three_d_model/render_product_high.png) |
+
+Full-detail catalogue renders. Click either image to open the original resolution.
+
+## Details
+
+**OOMP ID:** `hardware_bolt_m6_120_mm_length`
+
+**Short code:** `9gh7q` · **Three-word label:** venue cancel matrix
+
+| Model dimension | mm |
+| --- | ---: |
+| Nominal size | 6 |
+| Thread pitch | 1 |
+| Length | 120 |
+| Across flats | 10 |
+| Head height | 4 |
+| Modelled thread length | 18 |
+
+Length convention: under-head bearing plane to tip.
+
+Dimensions above are values used by the saved model recipe, in millimetres. **Model basis: standard dimensions.**
+
+<details>
+<summary>Model provenance and assumptions</summary>
+
+**Recorded dimensional reference:** ISO 4014:2011
+
+**Source checked:** 2026-10-11
+
+**Length status:** standard length
+
+**Visual finish:** Satin steel
+
+**Finish assumption:** Visual finish approximation; catalogue specifies colour only.
+
+**Family notes:** Catalogue family mapped to the cited dimensional pattern; exact supplier unspecified.
+
+These are saved catalogue references and modelling choices, not a claim of manufacturing certification.
+
+- [ISO 4014:2011 fourth edition, figure 1 and table 1, grades A and B](https://cdn.standards.iteh.ai/samples/56447/be5b2835974246f8868260ebe9f4d621/ISO-4014-2011.pdf)
+- [ISO 68-1:1998 basic ISO metric thread profile](https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf)
+
+[Complete model recipe](three_d_model/parameters.json)
+
+</details>
+
+<details>
+<summary>Complete part metadata</summary>
+
+[Source working.yaml](working.yaml)
+
+```yaml
+bip_39_2_word_array:
+- venue
+- cancel
+bip_39_2_word_no_space: venuecancel
+bip_39_2_word_space: venue cancel
+bip_39_2_word_underscore: venue_cancel
+bip_39_3_word_array:
+- venue
+- cancel
+- matrix
+bip_39_3_word_no_space: venuecancelmatrix
+bip_39_3_word_space: venue cancel matrix
+bip_39_3_word_underscore: venue_cancel_matrix
+bip_39_full_array:
+- venue
+- cancel
+- matrix
+- below
+- miss
+- wheel
+- churn
+- quote
+- nation
+- extra
+- congress
+- pet
+bip_39_full_no_space: venuecancelmatrixbelowmisswheelchurnquotenationextracongresspet
+bip_39_full_space: venue cancel matrix below miss wheel churn quote nation extra congress
+    pet
+bip_39_full_underscore: venue_cancel_matrix_below_miss_wheel_churn_quote_nation_extra_congress_pet
+directory: parts/hardware_bolt_m6_120_mm_length
+generate_stl: true
+id: hardware_bolt_m6_120_mm_length
+id_no_class: hardware_bolt_m6_120_mm_length
+id_no_size: hardware_bolt_m6_120_mm_length
+id_no_type: hardware_bolt_m6_120_mm_length
+label_drawer: &id001
+    bip39: venue cancel matrix
+    bip39_size: 2.35
+    code: BO
+    description: Bolt / M6 / 120 mm / Hex head / Partial thread
+    detail_lines:
+    - Hex head / Partial
+    - thread
+    detail_size: 2.05
+    detail_y: 18.900000000000002
+    diagram: <path d="M2 3H5L6 4V10L5 11H2Z M4 3V11"/><path d="M6 5H18V9H6"/><path
+        d="M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+    drive_symbol: <path d="M5 1L8.46 3V7L5 9L1.54 7V3Z" fill="#ffffff"/>
+    length: '120'
+    length_size: 7.8
+    length_x: 15.853334375
+    name: Bolt
+    name_lines:
+    - Bolt
+    name_size: 3.2
+    thread: M6
+    thread_size: 6.5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m6_120_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m6_120_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m6_120_mm_length
+md5: f26426248a68ddf40a3580934a20bc51
+md5_10: f26426248a
+md5_10_upper: F26426248A
+md5_5: f2642
+md5_5_upper: F2642
+md5_6: f26426
+md5_6_alpha: 9gh7q
+md5_6_alpha_upper: 9GH7Q
+md5_6_upper: F26426
+name: Hardware Bolt M6 120 Mm Length
+name_no_class: Hardware Bolt M6 120 Mm Length
+name_no_size: Hardware Bolt M6 120 Mm Length
+name_no_type: Hardware Bolt M6 120 Mm Length
+name_proper: Hardware Bolt M6 120 Mm Length
+name_space: hardware bolt m6 120 mm length
+name_upper: HARDWARE BOLT M6 120 MM LENGTH
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_bolt_m6_120_mm_length
+            name: hardware_bolt_m6_120_mm_length
+            name_proper: Hardware Bolt M6 120 Mm Length
+            name_space: hardware bolt m6 120 mm length
+            name_upper: HARDWARE BOLT M6 120 MM LENGTH
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: '2026-10-14T08:22:38.073396+00:00'
+                    evidence_file: support_files/evidence/hardware_bolt_m6_120_mm_length/ebay/b39ca43e71a944e09b32e665bff0948d.yaml
+                    evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                    material_evidence: High Tensile Steel, Grade 8.8
+                    product_name: M6 M8 M10 HEXAGON HEAD BOLTS PART THREADED SCREWS
+                        HIGH TENSILE 8.8 ZINC PLATED
+                    reason: Opened the exact eBay result and selected Bolt Size M6
+                        x 120mm. The listing title says hexagon head bolts, part threaded,
+                        high tensile 8.8 zinc plated; item specifics confirm DIN 931,
+                        high tensile steel, grade 8.8, M6, hex head, spanner or socket
+                        drive, and bright zinc plated finish.
+                    result_url: https://www.ebay.co.uk/itm/365341419766?_skw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel&itmmeta=01M4WR28V5XVKQSCN750RSE3YB&hash=item55100ba8f6:g:~1EAAeSwfBJqqZPa&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2F2YDZ0r%2Fv%2BXoGcZc46BN3CnaUL1zOE3j4qCb0pl5QLqqTmNCLFvAu7SAkBR1aZB3TotGim2m3Q4cv2mTvp62lfptH4VBBFFRXS19zXQVkd0S%2FniumN3wOO5p6j654wh6PWNGQFUsVaGJzL6N51KTIGsgwJIWw8a%2F9MBCwmu3J5NOG1VxmoXMNJP2EmyWE6iy8G8cKHnWimEbTocbqrBioQoS2DYGHnQ3Blux8iMlgqgzVstUEhO9GQa9u1CTsDOQbCUaRk1fSzAGh4gSVKfnDhNx6l1nBY%2Fqa43mh4hKYID9F%2Bw62qYXu0me%2Fbyi0wwvEl1R8kjTDg9qXbTp9IbkN6%7Ctkp%3ABk9SR-6NiZinaA
+                    search_evidence: Exact eBay search results included Kay's Fasteners
+                        listing M6 M8 M10 HEXAGON HEAD BOLTS PART THREADED SCREWS
+                        HIGH TENSILE 8.8 ZINC PLATED. Opened it from the results and
+                        selected M6 x 120mm. The page confirmed the selected size
+                        and relevant item specifics.
+                    search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: 'Selected Bolt Size: M6 x 120mm; item specifics
+                        state MPN DIN 931, Material High Tensile Steel, Grade 8.8,
+                        Thread Size M6 M8 M10, Head Style Hex Head, Drive Style Spanner
+                        or Socket, Finish Bright Zinc Plated (BZP). The selected Bolt
+                        Size is explicit on the page; variant selection is not encoded
+                        in the URL.'
+                    specification: 'Thread Size: M6; Length: 120mm; Form: Part threaded
+                        hexagon head bolt; Head: Hex Head; Drive Style: Spanner or
+                        Socket; Material: High Tensile Steel, Grade 8.8; Finish: Bright
+                        Zinc Plated (BZP); Manufacturing Standard: DIN 931'
+                    status: verified
+                google:
+                    checked_at: '2026-10-14T08:28:48.427967+00:00'
+                    evidence_file: support_files/evidence/hardware_bolt_m6_120_mm_length/google/4e4b598a99304541b8a780bc6618f460.yaml
+                    evidence_url: https://www.google.com/search?q=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                    material_evidence: 8.8 Steel BZP
+                    product_name: M6 x 120mm Hex Bolt - Part Threaded (DIN 931) |
+                        8.8 Steel BZP
+                    reason: The exact Google query returned Vital Parts' M6 x 120mm
+                        part-threaded DIN 931 result. The product page shows code
+                        HH931-M6-120-88-BZP and specifies M6 thread, 120mm length,
+                        18mm threaded length, 8.8 Steel BZP, Hex Head and DIN 931.
+                        The description confirms the part-threaded hex bolt and external
+                        drive for workshop/site fitting.
+                    result_url: https://www.vital-parts.co.uk/hex-head-bolts-din-931/9203-hh931-m6-120-88-bzp
+                    search_evidence: Google result M6 x 120mm Hex Bolt - Part Threaded
+                        (DIN 931) | 8.8 Steel BZP from Vital Parts led to the opened
+                        product page. Stainless steel search results were not used.
+                    search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.google.com/search?q=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: Fixed product code HH931-M6-120-88-BZP; Thread
+                        Size M6; Length 120mm; Threaded Length 18mm.
+                    specification: 'Thread Size: M6; Length: 120mm; Threaded Length:
+                        18mm; Head: Hex Head; Drive: External hex; Form: Part threaded;
+                        Material: 8.8 Steel; Finish: Bright Zinc Plated (BZP); Standard:
+                        DIN 931; Product code: HH931-M6-120-88-BZP'
+                    status: verified
+            spec_iso_b_125_lt_l_le_200_mm: '24'
+            spec_iso_b_l_gt_200_mm: ''
+            spec_iso_b_l_le_125_mm: '18'
+            spec_iso_c_max_mm: '0.50'
+            spec_iso_c_min_mm: '0.15'
+            spec_iso_da_max_mm: '6.8'
+            spec_iso_dw_min_mm: '8.88'
+            spec_iso_e_min_mm: '11.05'
+            spec_iso_k_max_mm: '4.15'
+            spec_iso_k_min_mm: '3.85'
+            spec_iso_nominal_diameter: M6
+            spec_iso_s_max_mm: '10.00'
+            spec_iso_s_min_mm: '9.78'
+            spec_iso_thread_pitch_mm: '1.00'
+            supplier_data:
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T01:18:09.316714+00:00'
+                    currency: GBP
+                    family_description: Hexagon head partly threaded bolts. High tensile
+                        grade 8.8. Bright zinc plated. Manufactured to DIN 931.
+                    family_heading: METRIC HEXAGON BOLT DIN 931 ZINC PLATED GRADE
+                        8.8
+                    html_sha256: 2732e4bd459ccf0d8d3f4b87982017a45e4542e97728e88b0997451f637188de
+                    name: M6 x 120mm HEXAGON HEAD PARTLY THREADED BOLT DIN 931 ZINC
+                        PLATED
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:29:39.898891+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M6 x 120mm HEXAGON HEAD PARTLY THREADED
+                        BOLT DIN 931 ZINC PLATED
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: METRIC HEXAGON BOLT DIN 931 ZINC PLATED GRADE
+                        8.8; Hexagon head partly threaded bolts. High tensile grade
+                        8.8. Bright zinc plated. Manufactured to DIN 931.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M6-x-120mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M6-x-120mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+                    supplier_website: https://www.kayfast.co.uk/view-product/METRIC-HEXAGON-BOLT-DIN-931-ZINC-PLATED-GRADE-88
+                    tiers:
+                    -   maximum: 99
+                        minimum: 1
+                        source_price_per_100: '43.96'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 99 @ \xA343.96 per 100"
+                        source_unit_price: '0.4396'
+                        source_vat_basis: exclusive
+                        unit_price: '0.527520'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 100
+                        source_price_per_100: '27.50'
+                        source_price_quantity: 100
+                        source_text: "QTY 100 -  499 @ \xA327.50 per 100"
+                        source_unit_price: '0.275'
+                        source_vat_basis: exclusive
+                        unit_price: '0.33000'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 500
+                        source_price_per_100: '24.72'
+                        source_price_quantity: 100
+                        source_text: "QTY 500 + @ \xA324.72 per 100"
+                        source_unit_price: '0.2472'
+                        source_vat_basis: exclusive
+                        unit_price: '0.296640'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.527520'
+                    total_price_10: '5.275200'
+                    total_price_100: '33.00000'
+                    total_price_1000: '296.640000'
+                    total_price_10000: '2966.400000'
+                    unit_price_1: '0.527520'
+                    unit_price_10: '0.527520'
+                    unit_price_100: '0.33000'
+                    unit_price_1000: '0.296640'
+                    unit_price_10000: '0.296640'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '100'
+                    captured_at: '2026-10-12T08:10:19.935304+00:00'
+                    catalogue_page: '14'
+                    currency: GBP
+                    description: ''
+                    html_sha256: 8e75729561f8531ffda3e63479b358108eab21996c30ec4ecd389ca8419e8246
+                    name: M6 x 120 Hexagon Head Bolt High Tensile Grade 8.8, Bright
+                        Zinc Plated, DIN 931
+                    parsed_at: '2026-10-18T08:49:22.649884+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '9644'
+                    supplier: orbitalfasteners
+                    supplier_id: '1871114'
+                    supplier_part_number: '1871114'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m6x120-high-tensile-bolt-grade-8.8-bright-zinc-plated
+                    tiers:
+                    -   maximum: 99
+                        minimum: 1
+                        source_text: "1 - 99 \xA30.3012 Inc. VAT \xA330.12 Inc. VAT"
+                        source_unit_price: '0.3012'
+                        source_vat_basis: inclusive
+                        unit_price: '0.3012'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 100
+                        source_text: "100 - 499 \xA30.1674 Inc. VAT \xA316.74 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.1674'
+                        source_vat_basis: inclusive
+                        unit_price: '0.1674'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 799
+                        minimum: 500
+                        source_text: "500 - 799 \xA30.1506 Inc. VAT \xA315.06 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.1506'
+                        source_vat_basis: inclusive
+                        unit_price: '0.1506'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 800
+                        source_text: "800 + \xA30.1339 Inc. VAT \xA313.39 Inc. VAT"
+                        source_unit_price: '0.1339'
+                        source_vat_basis: inclusive
+                        unit_price: '0.1339'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.3012'
+                    total_price_10: '3.0120'
+                    total_price_100: '16.7400'
+                    total_price_1000: '133.9000'
+                    total_price_10000: '1339.0000'
+                    unit_price_1: '0.3012'
+                    unit_price_10: '0.3012'
+                    unit_price_100: '0.1674'
+                    unit_price_1000: '0.1339'
+                    unit_price_10000: '0.1339'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+            svg_details:
+            -   svg_b_125_lt_l_le_200_mm: '24'
+                svg_b_l_gt_200_mm: ''
+                svg_b_l_le_125_mm: '18'
+                svg_c_max_mm: '0.50'
+                svg_c_min_mm: '0.15'
+                svg_da_max_mm: '6.8'
+                svg_dw_min_mm: '8.88'
+                svg_e_min_mm: '11.05'
+                svg_k_max_mm: '4.15'
+                svg_k_min_mm: '3.85'
+                svg_name: bolt
+                svg_nominal_diameter: M6
+                svg_s_max_mm: '10.00'
+                svg_s_min_mm: '9.78'
+                svg_thread_pitch_mm: '1.00'
+            -   af_mm: 10.0
+                filename: working_mechanical_drawing
+                hardware_type: bolt
+                head_height_mm: 4.15
+                id_mm: 6.0
+                length_mm: 120.0
+                part_category: HARDWARE / BOLT
+                part_code: ISO4014 / DIN931
+                part_name: ''
+                part_series: HEX HEAD BOLT
+                part_title: "M6\xD7120"
+                svg_name: oomp_mech_drawing_hardware
+                thread_length_mm: 18.0
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: bolt
+            taxonomy_3: m6
+            taxonomy_4: 120_mm_length
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z towards head
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: tip centre
+                    stl_units: mm
+                dimension_status: standard_dimensions
+                dimensional_specification: ISO 4014:2011
+                generator: iso_4014_hex_bolt
+                length_status: standard_length
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Catalogue family mapped to the cited dimensional
+                        pattern; exact supplier unspecified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 10
+                    bearing_diameter_mm: 9.4
+                    bearing_height_mm: 0.3
+                    characteristic_dimension_basis: nominal axial thread diameter
+                    characteristic_dimension_mm: 6.0
+                    expected_components: 1
+                    external_minor_diameter_mm: 4.773130677972045
+                    family: bolt
+                    finish: satin
+                    handedness: right
+                    head_chamfer_height_mm: 0.4465819873852048
+                    head_height_mm: 4
+                    identity: hardware_bolt_m6_120_mm_length
+                    internal_minor_diameter_mm: 4.917468245269452
+                    length_convention: under-head bearing plane to tip
+                    length_mm: 120.0
+                    nominal_diameter_mm: 6.0
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 124.0
+                    pitch_mm: 1
+                    plain_shank_length_mm: 101.0
+                    specification: ISO 4014:2011
+                    thread_end_z_mm: 19
+                    thread_flank_angle_degrees: 60.0
+                    thread_length_mm: 18
+                    thread_length_reference_mm: 18
+                    thread_length_table_mm:
+                    - 18
+                    - 24
+                    - 37
+                    thread_mode: partial
+                    thread_pitch_diameter_mm: 5.350480947161671
+                    thread_runout_mm: 1
+                    thread_starts: 1
+                    tip_chamfer_mm: 0.5
+                    underhead_fillet_mm: 0.25
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: ISO 4014:2011 fourth edition, figure 1 and table 1, grades
+                        A and B
+                    url: https://cdn.standards.iteh.ai/samples/56447/be5b2835974246f8868260ebe9f4d621/ISO-4014-2011.pdf
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: ISO 4014:2011
+                standard_lengths_mm:
+                - 25
+                - 30
+                - 35
+                - 40
+                - 45
+                - 50
+                - 55
+                - 60
+                - 65
+                - 70
+                - 80
+                - 90
+                - 100
+                - 110
+                - 120
+                - 130
+                - 140
+                - 150
+                standard_limits:
+                    across_corners_min_mm: 10.89
+                    across_flats_mm:
+                    - 9.64
+                    - 10
+                    bearing_diameter_min_mm: 8.74
+                    head_height_mm:
+                    - 3.76
+                    - 4.24
+                    incomplete_thread_max_mm: 2
+                    outer_chamfer_angle_degrees:
+                    - 15
+                    - 30
+                    product_grade: B
+                    underhead_fillet_min_mm: 0.25
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: lying on side, axial end to left
+                            projection: orthographic
+                            resting_axis: side
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_bolt_m6_120_mm_length
+            name: hardware_bolt_m6_120_mm_length
+            name_proper: Hardware Bolt M6 120 Mm Length
+            name_space: hardware bolt m6 120 mm length
+            name_upper: HARDWARE BOLT M6 120 MM LENGTH
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_bolt_m6_120_mm_length
+                        name: hardware_bolt_m6_120_mm_length
+                        name_proper: Hardware Bolt M6 120 Mm Length
+                        name_space: hardware bolt m6 120 mm length
+                        name_upper: HARDWARE BOLT M6 120 MM LENGTH
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M6 x 120 hex head part threaded bolt DIN
+                                    931 steel
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: '2026-10-14T08:22:38.073396+00:00'
+                                evidence_file: support_files/evidence/hardware_bolt_m6_120_mm_length/ebay/b39ca43e71a944e09b32e665bff0948d.yaml
+                                evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                                material_evidence: High Tensile Steel, Grade 8.8
+                                product_name: M6 M8 M10 HEXAGON HEAD BOLTS PART THREADED
+                                    SCREWS HIGH TENSILE 8.8 ZINC PLATED
+                                reason: Opened the exact eBay result and selected
+                                    Bolt Size M6 x 120mm. The listing title says hexagon
+                                    head bolts, part threaded, high tensile 8.8 zinc
+                                    plated; item specifics confirm DIN 931, high tensile
+                                    steel, grade 8.8, M6, hex head, spanner or socket
+                                    drive, and bright zinc plated finish.
+                                result_url: https://www.ebay.co.uk/itm/365341419766?_skw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel&itmmeta=01M4WR28V5XVKQSCN750RSE3YB&hash=item55100ba8f6:g:~1EAAeSwfBJqqZPa&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2F2YDZ0r%2Fv%2BXoGcZc46BN3CnaUL1zOE3j4qCb0pl5QLqqTmNCLFvAu7SAkBR1aZB3TotGim2m3Q4cv2mTvp62lfptH4VBBFFRXS19zXQVkd0S%2FniumN3wOO5p6j654wh6PWNGQFUsVaGJzL6N51KTIGsgwJIWw8a%2F9MBCwmu3J5NOG1VxmoXMNJP2EmyWE6iy8G8cKHnWimEbTocbqrBioQoS2DYGHnQ3Blux8iMlgqgzVstUEhO9GQa9u1CTsDOQbCUaRk1fSzAGh4gSVKfnDhNx6l1nBY%2Fqa43mh4hKYID9F%2Bw62qYXu0me%2Fbyi0wwvEl1R8kjTDg9qXbTp9IbkN6%7Ctkp%3ABk9SR-6NiZinaA
+                                search_evidence: Exact eBay search results included
+                                    Kay's Fasteners listing M6 M8 M10 HEXAGON HEAD
+                                    BOLTS PART THREADED SCREWS HIGH TENSILE 8.8 ZINC
+                                    PLATED. Opened it from the results and selected
+                                    M6 x 120mm. The page confirmed the selected size
+                                    and relevant item specifics.
+                                search_for: M6 x 120 hex head part threaded bolt DIN
+                                    931 steel
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                                selected_variant: 'Selected Bolt Size: M6 x 120mm;
+                                    item specifics state MPN DIN 931, Material High
+                                    Tensile Steel, Grade 8.8, Thread Size M6 M8 M10,
+                                    Head Style Hex Head, Drive Style Spanner or Socket,
+                                    Finish Bright Zinc Plated (BZP). The selected
+                                    Bolt Size is explicit on the page; variant selection
+                                    is not encoded in the URL.'
+                                specification: 'Thread Size: M6; Length: 120mm; Form:
+                                    Part threaded hexagon head bolt; Head: Hex Head;
+                                    Drive Style: Spanner or Socket; Material: High
+                                    Tensile Steel, Grade 8.8; Finish: Bright Zinc
+                                    Plated (BZP); Manufacturing Standard: DIN 931'
+                                status: verified
+                            google:
+                                checked_at: '2026-10-14T08:28:48.427967+00:00'
+                                evidence_file: support_files/evidence/hardware_bolt_m6_120_mm_length/google/4e4b598a99304541b8a780bc6618f460.yaml
+                                evidence_url: https://www.google.com/search?q=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                                material_evidence: 8.8 Steel BZP
+                                product_name: M6 x 120mm Hex Bolt - Part Threaded
+                                    (DIN 931) | 8.8 Steel BZP
+                                reason: The exact Google query returned Vital Parts'
+                                    M6 x 120mm part-threaded DIN 931 result. The product
+                                    page shows code HH931-M6-120-88-BZP and specifies
+                                    M6 thread, 120mm length, 18mm threaded length,
+                                    8.8 Steel BZP, Hex Head and DIN 931. The description
+                                    confirms the part-threaded hex bolt and external
+                                    drive for workshop/site fitting.
+                                result_url: https://www.vital-parts.co.uk/hex-head-bolts-din-931/9203-hh931-m6-120-88-bzp
+                                search_evidence: Google result M6 x 120mm Hex Bolt
+                                    - Part Threaded (DIN 931) | 8.8 Steel BZP from
+                                    Vital Parts led to the opened product page. Stainless
+                                    steel search results were not used.
+                                search_for: M6 x 120 hex head part threaded bolt DIN
+                                    931 steel
+                                search_url: https://www.google.com/search?q=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                                selected_variant: Fixed product code HH931-M6-120-88-BZP;
+                                    Thread Size M6; Length 120mm; Threaded Length
+                                    18mm.
+                                specification: 'Thread Size: M6; Length: 120mm; Threaded
+                                    Length: 18mm; Head: Hex Head; Drive: External
+                                    hex; Form: Part threaded; Material: 8.8 Steel;
+                                    Finish: Bright Zinc Plated (BZP); Standard: DIN
+                                    931; Product code: HH931-M6-120-88-BZP'
+                                status: verified
+                        spec_iso_b_125_lt_l_le_200_mm: '24'
+                        spec_iso_b_l_gt_200_mm: ''
+                        spec_iso_b_l_le_125_mm: '18'
+                        spec_iso_c_max_mm: '0.50'
+                        spec_iso_c_min_mm: '0.15'
+                        spec_iso_da_max_mm: '6.8'
+                        spec_iso_dw_min_mm: '8.88'
+                        spec_iso_e_min_mm: '11.05'
+                        spec_iso_k_max_mm: '4.15'
+                        spec_iso_k_min_mm: '3.85'
+                        spec_iso_nominal_diameter: M6
+                        spec_iso_s_max_mm: '10.00'
+                        spec_iso_s_min_mm: '9.78'
+                        spec_iso_thread_pitch_mm: '1.00'
+                        supplier_data:
+                            kayfast:
+                                accepted_warnings: '["Kayfast per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-14T01:18:09.316714+00:00'
+                                currency: GBP
+                                family_description: Hexagon head partly threaded bolts.
+                                    High tensile grade 8.8. Bright zinc plated. Manufactured
+                                    to DIN 931.
+                                family_heading: METRIC HEXAGON BOLT DIN 931 ZINC PLATED
+                                    GRADE 8.8
+                                html_sha256: 2732e4bd459ccf0d8d3f4b87982017a45e4542e97728e88b0997451f637188de
+                                name: M6 x 120mm HEXAGON HEAD PARTLY THREADED BOLT
+                                    DIN 931 ZINC PLATED
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:29:39.898891+00:00'
+                                parser_version: kayfast-1.6-family-description
+                                price_breaks_description: M6 x 120mm HEXAGON HEAD
+                                    PARTLY THREADED BOLT DIN 931 ZINC PLATED
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-17", "statement": "Use the exact row
+                                    dropdown price per 100 divided by 100 with Decimal
+                                    precision; accept the captured per-100 display
+                                    precision."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "Kayfast
+                                    prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+                                specifications: METRIC HEXAGON BOLT DIN 931 ZINC PLATED
+                                    GRADE 8.8; Hexagon head partly threaded bolts.
+                                    High tensile grade 8.8. Bright zinc plated. Manufactured
+                                    to DIN 931.
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: kayfast
+                                supplier_id: M6-x-120mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+                                supplier_id_basis: exact dimensional row description;
+                                    spaces replaced by hyphens (user clarification
+                                    2026-10-11)
+                                supplier_part_number: M6-x-120mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+                                supplier_website: https://www.kayfast.co.uk/view-product/METRIC-HEXAGON-BOLT-DIN-931-ZINC-PLATED-GRADE-88
+                                tiers:
+                                -   maximum: 99
+                                    minimum: 1
+                                    source_price_per_100: '43.96'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 1 - 99 @ \xA343.96 per 100"
+                                    source_unit_price: '0.4396'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.527520'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 499
+                                    minimum: 100
+                                    source_price_per_100: '27.50'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 100 -  499 @ \xA327.50 per 100"
+                                    source_unit_price: '0.275'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.33000'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 500
+                                    source_price_per_100: '24.72'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 500 + @ \xA324.72 per 100"
+                                    source_unit_price: '0.2472'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.296640'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.527520'
+                                total_price_10: '5.275200'
+                                total_price_100: '33.00000'
+                                total_price_1000: '296.640000'
+                                total_price_10000: '2966.400000'
+                                unit_price_1: '0.527520'
+                                unit_price_10: '0.527520'
+                                unit_price_100: '0.33000'
+                                unit_price_1000: '0.296640'
+                                unit_price_10000: '0.296640'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Kayfast per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
+                            orbitalfasteners:
+                                accepted_warnings: '[]'
+                                box_quantity: '100'
+                                captured_at: '2026-10-12T08:10:19.935304+00:00'
+                                catalogue_page: '14'
+                                currency: GBP
+                                description: ''
+                                html_sha256: 8e75729561f8531ffda3e63479b358108eab21996c30ec4ecd389ca8419e8246
+                                name: M6 x 120 Hexagon Head Bolt High Tensile Grade
+                                    8.8, Bright Zinc Plated, DIN 931
+                                parsed_at: '2026-10-18T08:49:22.649884+00:00'
+                                parser_version: 1.2-review-policy
+                                review_policy: ''
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: inclusive
+                                status: ok
+                                stock_as_of: 9th October 2026 10:01pm
+                                stock_quantity: '9644'
+                                supplier: orbitalfasteners
+                                supplier_id: '1871114'
+                                supplier_part_number: '1871114'
+                                supplier_website: https://www.orbitalfasteners.co.uk/products/m6x120-high-tensile-bolt-grade-8.8-bright-zinc-plated
+                                tiers:
+                                -   maximum: 99
+                                    minimum: 1
+                                    source_text: "1 - 99 \xA30.3012 Inc. VAT \xA3\
+                                        30.12 Inc. VAT"
+                                    source_unit_price: '0.3012'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.3012'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 499
+                                    minimum: 100
+                                    source_text: "100 - 499 \xA30.1674 Inc. VAT \xA3\
+                                        16.74 Inc. VAT"
+                                    source_unit_price: '0.1674'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.1674'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 799
+                                    minimum: 500
+                                    source_text: "500 - 799 \xA30.1506 Inc. VAT \xA3\
+                                        15.06 Inc. VAT"
+                                    source_unit_price: '0.1506'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.1506'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 800
+                                    source_text: "800 + \xA30.1339 Inc. VAT \xA313.39\
+                                        \ Inc. VAT"
+                                    source_unit_price: '0.1339'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.1339'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.3012'
+                                total_price_10: '3.0120'
+                                total_price_100: '16.7400'
+                                total_price_1000: '133.9000'
+                                total_price_10000: '1339.0000'
+                                unit_price_1: '0.3012'
+                                unit_price_10: '0.3012'
+                                unit_price_100: '0.1674'
+                                unit_price_1000: '0.1339'
+                                unit_price_10000: '0.1339'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings: []
+                        svg_details:
+                        -   svg_b_125_lt_l_le_200_mm: '24'
+                            svg_b_l_gt_200_mm: ''
+                            svg_b_l_le_125_mm: '18'
+                            svg_c_max_mm: '0.50'
+                            svg_c_min_mm: '0.15'
+                            svg_da_max_mm: '6.8'
+                            svg_dw_min_mm: '8.88'
+                            svg_e_min_mm: '11.05'
+                            svg_k_max_mm: '4.15'
+                            svg_k_min_mm: '3.85'
+                            svg_name: bolt
+                            svg_nominal_diameter: M6
+                            svg_s_max_mm: '10.00'
+                            svg_s_min_mm: '9.78'
+                            svg_thread_pitch_mm: '1.00'
+                        -   af_mm: 10.0
+                            filename: working_mechanical_drawing
+                            hardware_type: bolt
+                            head_height_mm: 4.15
+                            id_mm: 6.0
+                            length_mm: 120.0
+                            part_category: HARDWARE / BOLT
+                            part_code: ISO4014 / DIN931
+                            part_name: ''
+                            part_series: HEX HEAD BOLT
+                            part_title: "M6\xD7120"
+                            svg_name: oomp_mech_drawing_hardware
+                            thread_length_mm: 18.0
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: bolt
+                        taxonomy_3: m6
+                        taxonomy_4: 120_mm_length
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        three_d_model_details:
+                            checked_on: '2026-10-11'
+                            coordinate_system:
+                                axis: +Z towards head
+                                glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                                glb_units: metres
+                                glb_up_axis: Y
+                                origin: tip centre
+                                stl_units: mm
+                            dimension_status: standard_dimensions
+                            dimensional_specification: ISO 4014:2011
+                            generator: iso_4014_hex_bolt
+                            length_status: standard_length
+                            material:
+                                base_colour_srgb:
+                                - 0.62
+                                - 0.65
+                                - 0.69
+                                coat_roughness: 0.28
+                                coat_weight: 0.02
+                                metallic: 1.0
+                                microtexture_height_um: 0.8
+                                microtexture_spacing_mm: 0.025
+                                name: Satin steel
+                                note: Visual finish approximation; catalogue specifies
+                                    colour only.
+                                roughness: 0.26
+                                roughness_variation: 0.045
+                            model_formats:
+                            - stl
+                            - glb
+                            modelling_choices:
+                                bearing: Bolt bearing circle and c selected within
+                                    limits; k includes bearing thickness; fillet tangent
+                                    to shaft and bearing.
+                                cavity: Nut through-bore has a helical internal surface;
+                                    display keeps minor-diameter bore and mouth chamfers.
+                                certification: Nominal visual catalogue model, not
+                                    manufacturing tolerance certification.
+                                chamfer: 30 degree outer hex chamfer. Nut mouth included
+                                    angle 120 degrees. Bolt tip 45 degrees, P/2.
+                                components: One closed solid for supported products.
+                                    Unspecified lock/cage assemblies are not substituted
+                                    with plain hex nuts.
+                                dimension_selection: Nominal bolt head height, max
+                                    flats/nut height, nominal washer sizes; selected
+                                    dimensions stored in parameters.
+                                display: Smooth nominal external-thread envelope or
+                                    smooth minor-diameter internal bore; lower angular
+                                    and fillet tessellation.
+                                family_note: Catalogue family mapped to the cited
+                                    dimensional pattern; exact supplier unspecified.
+                                markings: Supplier and property-class markings omitted
+                                    because catalogue does not identify them.
+                                runout: External one-pitch fade to plain shank; full
+                                    thread ends at underhead fillet.
+                                thread: Nominal ISO basic metric profile, no ISO 965
+                                    tolerance offsets. External rounded root H/6,
+                                    internal P/4 crest and P/8 root flats.
+                                unspecified_geometry: Nut mouth for supplier rows
+                                    without limits and flange M3/M4 thickness/rim
+                                    blends are explicit visual model selections.
+                            output_folder: three_d_model
+                            parameters:
+                                across_flats_mm: 10
+                                bearing_diameter_mm: 9.4
+                                bearing_height_mm: 0.3
+                                characteristic_dimension_basis: nominal axial thread
+                                    diameter
+                                characteristic_dimension_mm: 6.0
+                                expected_components: 1
+                                external_minor_diameter_mm: 4.773130677972045
+                                family: bolt
+                                finish: satin
+                                handedness: right
+                                head_chamfer_height_mm: 0.4465819873852048
+                                head_height_mm: 4
+                                identity: hardware_bolt_m6_120_mm_length
+                                internal_minor_diameter_mm: 4.917468245269452
+                                length_convention: under-head bearing plane to tip
+                                length_mm: 120.0
+                                nominal_diameter_mm: 6.0
+                                outer_chamfer_angle_degrees: 30.0
+                                overall_height_mm: 124.0
+                                pitch_mm: 1
+                                plain_shank_length_mm: 101.0
+                                specification: ISO 4014:2011
+                                thread_end_z_mm: 19
+                                thread_flank_angle_degrees: 60.0
+                                thread_length_mm: 18
+                                thread_length_reference_mm: 18
+                                thread_length_table_mm:
+                                - 18
+                                - 24
+                                - 37
+                                thread_mode: partial
+                                thread_pitch_diameter_mm: 5.350480947161671
+                                thread_runout_mm: 1
+                                thread_starts: 1
+                                tip_chamfer_mm: 0.5
+                                underhead_fillet_mm: 0.25
+                            renders:
+                                high:
+                                    file: render_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: isometric
+                                low:
+                                    file: render_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: isometric
+                                product_high:
+                                    file: render_product_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: product
+                                product_low:
+                                    file: render_product_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: product
+                            schema_version: 1
+                            source_table: source_file/standards/catalogue_hardware.yaml
+                            sources:
+                            -   title: ISO 4014:2011 fourth edition, figure 1 and
+                                    table 1, grades A and B
+                                url: https://cdn.standards.iteh.ai/samples/56447/be5b2835974246f8868260ebe9f4d621/ISO-4014-2011.pdf
+                            -   title: ISO 68-1:1998 basic ISO metric thread profile
+                                url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                            standard: ISO 4014:2011
+                            standard_lengths_mm:
+                            - 25
+                            - 30
+                            - 35
+                            - 40
+                            - 45
+                            - 50
+                            - 55
+                            - 60
+                            - 65
+                            - 70
+                            - 80
+                            - 90
+                            - 100
+                            - 110
+                            - 120
+                            - 130
+                            - 140
+                            - 150
+                            standard_limits:
+                                across_corners_min_mm: 10.89
+                                across_flats_mm:
+                                - 9.64
+                                - 10
+                                bearing_diameter_min_mm: 8.74
+                                head_height_mm:
+                                - 3.76
+                                - 4.24
+                                incomplete_thread_max_mm: 2
+                                outer_chamfer_angle_degrees:
+                                - 15
+                                - 30
+                                product_grade: B
+                                underhead_fillet_min_mm: 0.25
+                            studio:
+                                adaptive_threshold: 0.015
+                                denoise: true
+                                device: auto
+                                engine: cycles
+                                exposure: 0.0
+                                floor_colour_srgb:
+                                - 0.93
+                                - 0.935
+                                - 0.94
+                                floor_roughness: 0.55
+                                framing_margin: 0.13
+                                high_samples: 160
+                                lights:
+                                -   colour:
+                                    - 1.0
+                                    - 0.96
+                                    - 0.9
+                                    height: 5.0
+                                    name: Key softbox
+                                    position:
+                                    - -3
+                                    - -4
+                                    - 6
+                                    power: 650.0
+                                    width: 4.0
+                                -   colour:
+                                    - 0.9
+                                    - 0.95
+                                    - 1.0
+                                    height: 4.0
+                                    name: Fill softbox
+                                    position:
+                                    - 4
+                                    - -1
+                                    - 3
+                                    power: 330.0
+                                    width: 3.0
+                                -   colour:
+                                    - 1.0
+                                    - 1.0
+                                    - 1.0
+                                    height: 5.0
+                                    name: Rim strip
+                                    position:
+                                    - 1
+                                    - 4
+                                    - 4
+                                    power: 850.0
+                                    width: 1.2
+                                look: AgX - Medium High Contrast
+                                low_samples: 48
+                                poses:
+                                    isometric:
+                                        camera_eye:
+                                        - 1
+                                        - -1
+                                        - 1
+                                        orientation: principal axis Z up
+                                        projection: orthographic
+                                    product:
+                                        camera_eye:
+                                        - -6
+                                        - -10
+                                        - 6
+                                        orientation: lying on side, axial end to left
+                                        projection: orthographic
+                                        resting_axis: side
+                                        support: Stable convex-hull support using
+                                            actual mesh centre of mass.
+                                        yaw_degrees: -12.0
+                                seed: 7991
+                                view_transform: AgX
+                                world_colour:
+                                - 0.78
+                                - 0.82
+                                - 0.9
+                                world_strength: 0.35
+                            units: mm
+                            variants:
+                                display:
+                                    angular_segments: 24
+                                    fillet_segments: 3
+                                    samples_per_pitch: 1
+                                full:
+                                    angular_segments: 96
+                                    fillet_segments: 12
+                                    samples_per_pitch: 32
+                            views:
+                            - isometric
+                            - front
+                            - back
+                            - left
+                            - right
+                            - top
+                            - bottom
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: '2026-10-14T08:22:38.073396+00:00'
+                    evidence_file: support_files/evidence/hardware_bolt_m6_120_mm_length/ebay/b39ca43e71a944e09b32e665bff0948d.yaml
+                    evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                    material_evidence: High Tensile Steel, Grade 8.8
+                    product_name: M6 M8 M10 HEXAGON HEAD BOLTS PART THREADED SCREWS
+                        HIGH TENSILE 8.8 ZINC PLATED
+                    reason: Opened the exact eBay result and selected Bolt Size M6
+                        x 120mm. The listing title says hexagon head bolts, part threaded,
+                        high tensile 8.8 zinc plated; item specifics confirm DIN 931,
+                        high tensile steel, grade 8.8, M6, hex head, spanner or socket
+                        drive, and bright zinc plated finish.
+                    result_url: https://www.ebay.co.uk/itm/365341419766?_skw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel&itmmeta=01M4WR28V5XVKQSCN750RSE3YB&hash=item55100ba8f6:g:~1EAAeSwfBJqqZPa&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2F2YDZ0r%2Fv%2BXoGcZc46BN3CnaUL1zOE3j4qCb0pl5QLqqTmNCLFvAu7SAkBR1aZB3TotGim2m3Q4cv2mTvp62lfptH4VBBFFRXS19zXQVkd0S%2FniumN3wOO5p6j654wh6PWNGQFUsVaGJzL6N51KTIGsgwJIWw8a%2F9MBCwmu3J5NOG1VxmoXMNJP2EmyWE6iy8G8cKHnWimEbTocbqrBioQoS2DYGHnQ3Blux8iMlgqgzVstUEhO9GQa9u1CTsDOQbCUaRk1fSzAGh4gSVKfnDhNx6l1nBY%2Fqa43mh4hKYID9F%2Bw62qYXu0me%2Fbyi0wwvEl1R8kjTDg9qXbTp9IbkN6%7Ctkp%3ABk9SR-6NiZinaA
+                    search_evidence: Exact eBay search results included Kay's Fasteners
+                        listing M6 M8 M10 HEXAGON HEAD BOLTS PART THREADED SCREWS
+                        HIGH TENSILE 8.8 ZINC PLATED. Opened it from the results and
+                        selected M6 x 120mm. The page confirmed the selected size
+                        and relevant item specifics.
+                    search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: 'Selected Bolt Size: M6 x 120mm; item specifics
+                        state MPN DIN 931, Material High Tensile Steel, Grade 8.8,
+                        Thread Size M6 M8 M10, Head Style Hex Head, Drive Style Spanner
+                        or Socket, Finish Bright Zinc Plated (BZP). The selected Bolt
+                        Size is explicit on the page; variant selection is not encoded
+                        in the URL.'
+                    specification: 'Thread Size: M6; Length: 120mm; Form: Part threaded
+                        hexagon head bolt; Head: Hex Head; Drive Style: Spanner or
+                        Socket; Material: High Tensile Steel, Grade 8.8; Finish: Bright
+                        Zinc Plated (BZP); Manufacturing Standard: DIN 931'
+                    status: verified
+                google:
+                    checked_at: '2026-10-14T08:28:48.427967+00:00'
+                    evidence_file: support_files/evidence/hardware_bolt_m6_120_mm_length/google/4e4b598a99304541b8a780bc6618f460.yaml
+                    evidence_url: https://www.google.com/search?q=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                    material_evidence: 8.8 Steel BZP
+                    product_name: M6 x 120mm Hex Bolt - Part Threaded (DIN 931) |
+                        8.8 Steel BZP
+                    reason: The exact Google query returned Vital Parts' M6 x 120mm
+                        part-threaded DIN 931 result. The product page shows code
+                        HH931-M6-120-88-BZP and specifies M6 thread, 120mm length,
+                        18mm threaded length, 8.8 Steel BZP, Hex Head and DIN 931.
+                        The description confirms the part-threaded hex bolt and external
+                        drive for workshop/site fitting.
+                    result_url: https://www.vital-parts.co.uk/hex-head-bolts-din-931/9203-hh931-m6-120-88-bzp
+                    search_evidence: Google result M6 x 120mm Hex Bolt - Part Threaded
+                        (DIN 931) | 8.8 Steel BZP from Vital Parts led to the opened
+                        product page. Stainless steel search results were not used.
+                    search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.google.com/search?q=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: Fixed product code HH931-M6-120-88-BZP; Thread
+                        Size M6; Length 120mm; Threaded Length 18mm.
+                    specification: 'Thread Size: M6; Length: 120mm; Threaded Length:
+                        18mm; Head: Hex Head; Drive: External hex; Form: Part threaded;
+                        Material: 8.8 Steel; Finish: Bright Zinc Plated (BZP); Standard:
+                        DIN 931; Product code: HH931-M6-120-88-BZP'
+                    status: verified
+            spec_iso_b_125_lt_l_le_200_mm: '24'
+            spec_iso_b_l_gt_200_mm: ''
+            spec_iso_b_l_le_125_mm: '18'
+            spec_iso_c_max_mm: '0.50'
+            spec_iso_c_min_mm: '0.15'
+            spec_iso_da_max_mm: '6.8'
+            spec_iso_dw_min_mm: '8.88'
+            spec_iso_e_min_mm: '11.05'
+            spec_iso_k_max_mm: '4.15'
+            spec_iso_k_min_mm: '3.85'
+            spec_iso_nominal_diameter: M6
+            spec_iso_s_max_mm: '10.00'
+            spec_iso_s_min_mm: '9.78'
+            spec_iso_thread_pitch_mm: '1.00'
+            supplier_data:
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T01:18:09.316714+00:00'
+                    currency: GBP
+                    family_description: Hexagon head partly threaded bolts. High tensile
+                        grade 8.8. Bright zinc plated. Manufactured to DIN 931.
+                    family_heading: METRIC HEXAGON BOLT DIN 931 ZINC PLATED GRADE
+                        8.8
+                    html_sha256: 2732e4bd459ccf0d8d3f4b87982017a45e4542e97728e88b0997451f637188de
+                    name: M6 x 120mm HEXAGON HEAD PARTLY THREADED BOLT DIN 931 ZINC
+                        PLATED
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:29:39.898891+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M6 x 120mm HEXAGON HEAD PARTLY THREADED
+                        BOLT DIN 931 ZINC PLATED
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: METRIC HEXAGON BOLT DIN 931 ZINC PLATED GRADE
+                        8.8; Hexagon head partly threaded bolts. High tensile grade
+                        8.8. Bright zinc plated. Manufactured to DIN 931.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M6-x-120mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M6-x-120mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+                    supplier_website: https://www.kayfast.co.uk/view-product/METRIC-HEXAGON-BOLT-DIN-931-ZINC-PLATED-GRADE-88
+                    tiers:
+                    -   maximum: 99
+                        minimum: 1
+                        source_price_per_100: '43.96'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 99 @ \xA343.96 per 100"
+                        source_unit_price: '0.4396'
+                        source_vat_basis: exclusive
+                        unit_price: '0.527520'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 100
+                        source_price_per_100: '27.50'
+                        source_price_quantity: 100
+                        source_text: "QTY 100 -  499 @ \xA327.50 per 100"
+                        source_unit_price: '0.275'
+                        source_vat_basis: exclusive
+                        unit_price: '0.33000'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 500
+                        source_price_per_100: '24.72'
+                        source_price_quantity: 100
+                        source_text: "QTY 500 + @ \xA324.72 per 100"
+                        source_unit_price: '0.2472'
+                        source_vat_basis: exclusive
+                        unit_price: '0.296640'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.527520'
+                    total_price_10: '5.275200'
+                    total_price_100: '33.00000'
+                    total_price_1000: '296.640000'
+                    total_price_10000: '2966.400000'
+                    unit_price_1: '0.527520'
+                    unit_price_10: '0.527520'
+                    unit_price_100: '0.33000'
+                    unit_price_1000: '0.296640'
+                    unit_price_10000: '0.296640'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '100'
+                    captured_at: '2026-10-12T08:10:19.935304+00:00'
+                    catalogue_page: '14'
+                    currency: GBP
+                    description: ''
+                    html_sha256: 8e75729561f8531ffda3e63479b358108eab21996c30ec4ecd389ca8419e8246
+                    name: M6 x 120 Hexagon Head Bolt High Tensile Grade 8.8, Bright
+                        Zinc Plated, DIN 931
+                    parsed_at: '2026-10-18T08:49:22.649884+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '9644'
+                    supplier: orbitalfasteners
+                    supplier_id: '1871114'
+                    supplier_part_number: '1871114'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m6x120-high-tensile-bolt-grade-8.8-bright-zinc-plated
+                    tiers:
+                    -   maximum: 99
+                        minimum: 1
+                        source_text: "1 - 99 \xA30.3012 Inc. VAT \xA330.12 Inc. VAT"
+                        source_unit_price: '0.3012'
+                        source_vat_basis: inclusive
+                        unit_price: '0.3012'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 100
+                        source_text: "100 - 499 \xA30.1674 Inc. VAT \xA316.74 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.1674'
+                        source_vat_basis: inclusive
+                        unit_price: '0.1674'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 799
+                        minimum: 500
+                        source_text: "500 - 799 \xA30.1506 Inc. VAT \xA315.06 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.1506'
+                        source_vat_basis: inclusive
+                        unit_price: '0.1506'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 800
+                        source_text: "800 + \xA30.1339 Inc. VAT \xA313.39 Inc. VAT"
+                        source_unit_price: '0.1339'
+                        source_vat_basis: inclusive
+                        unit_price: '0.1339'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.3012'
+                    total_price_10: '3.0120'
+                    total_price_100: '16.7400'
+                    total_price_1000: '133.9000'
+                    total_price_10000: '1339.0000'
+                    unit_price_1: '0.3012'
+                    unit_price_10: '0.3012'
+                    unit_price_100: '0.1674'
+                    unit_price_1000: '0.1339'
+                    unit_price_10000: '0.1339'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+            svg_details:
+            -   svg_b_125_lt_l_le_200_mm: '24'
+                svg_b_l_gt_200_mm: ''
+                svg_b_l_le_125_mm: '18'
+                svg_c_max_mm: '0.50'
+                svg_c_min_mm: '0.15'
+                svg_da_max_mm: '6.8'
+                svg_dw_min_mm: '8.88'
+                svg_e_min_mm: '11.05'
+                svg_k_max_mm: '4.15'
+                svg_k_min_mm: '3.85'
+                svg_name: bolt
+                svg_nominal_diameter: M6
+                svg_s_max_mm: '10.00'
+                svg_s_min_mm: '9.78'
+                svg_thread_pitch_mm: '1.00'
+            -   af_mm: 10.0
+                filename: working_mechanical_drawing
+                hardware_type: bolt
+                head_height_mm: 4.15
+                id_mm: 6.0
+                length_mm: 120.0
+                part_category: HARDWARE / BOLT
+                part_code: ISO4014 / DIN931
+                part_name: ''
+                part_series: HEX HEAD BOLT
+                part_title: "M6\xD7120"
+                svg_name: oomp_mech_drawing_hardware
+                thread_length_mm: 18.0
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: bolt
+            taxonomy_3: m6
+            taxonomy_4: 120_mm_length
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z towards head
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: tip centre
+                    stl_units: mm
+                dimension_status: standard_dimensions
+                dimensional_specification: ISO 4014:2011
+                generator: iso_4014_hex_bolt
+                length_status: standard_length
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Catalogue family mapped to the cited dimensional
+                        pattern; exact supplier unspecified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 10
+                    bearing_diameter_mm: 9.4
+                    bearing_height_mm: 0.3
+                    characteristic_dimension_basis: nominal axial thread diameter
+                    characteristic_dimension_mm: 6.0
+                    expected_components: 1
+                    external_minor_diameter_mm: 4.773130677972045
+                    family: bolt
+                    finish: satin
+                    handedness: right
+                    head_chamfer_height_mm: 0.4465819873852048
+                    head_height_mm: 4
+                    identity: hardware_bolt_m6_120_mm_length
+                    internal_minor_diameter_mm: 4.917468245269452
+                    length_convention: under-head bearing plane to tip
+                    length_mm: 120.0
+                    nominal_diameter_mm: 6.0
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 124.0
+                    pitch_mm: 1
+                    plain_shank_length_mm: 101.0
+                    specification: ISO 4014:2011
+                    thread_end_z_mm: 19
+                    thread_flank_angle_degrees: 60.0
+                    thread_length_mm: 18
+                    thread_length_reference_mm: 18
+                    thread_length_table_mm:
+                    - 18
+                    - 24
+                    - 37
+                    thread_mode: partial
+                    thread_pitch_diameter_mm: 5.350480947161671
+                    thread_runout_mm: 1
+                    thread_starts: 1
+                    tip_chamfer_mm: 0.5
+                    underhead_fillet_mm: 0.25
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: ISO 4014:2011 fourth edition, figure 1 and table 1, grades
+                        A and B
+                    url: https://cdn.standards.iteh.ai/samples/56447/be5b2835974246f8868260ebe9f4d621/ISO-4014-2011.pdf
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: ISO 4014:2011
+                standard_lengths_mm:
+                - 25
+                - 30
+                - 35
+                - 40
+                - 45
+                - 50
+                - 55
+                - 60
+                - 65
+                - 70
+                - 80
+                - 90
+                - 100
+                - 110
+                - 120
+                - 130
+                - 140
+                - 150
+                standard_limits:
+                    across_corners_min_mm: 10.89
+                    across_flats_mm:
+                    - 9.64
+                    - 10
+                    bearing_diameter_min_mm: 8.74
+                    head_height_mm:
+                    - 3.76
+                    - 4.24
+                    incomplete_thread_max_mm: 2
+                    outer_chamfer_angle_degrees:
+                    - 15
+                    - 30
+                    product_grade: B
+                    underhead_fillet_min_mm: 0.25
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: lying on side, axial end to left
+                            projection: orthographic
+                            resting_axis: side
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_bolt_image.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        description: label_drawer
+        dict_data:
+            label_drawer: *id001
+        file_output: label_drawer.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
+oomp_key: oomp_hardware_bolt_m6_120_mm_length
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: '2026-10-14T08:22:38.073396+00:00'
+        evidence_file: support_files/evidence/hardware_bolt_m6_120_mm_length/ebay/b39ca43e71a944e09b32e665bff0948d.yaml
+        evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+        material_evidence: High Tensile Steel, Grade 8.8
+        product_name: M6 M8 M10 HEXAGON HEAD BOLTS PART THREADED SCREWS HIGH TENSILE
+            8.8 ZINC PLATED
+        reason: Opened the exact eBay result and selected Bolt Size M6 x 120mm. The
+            listing title says hexagon head bolts, part threaded, high tensile 8.8
+            zinc plated; item specifics confirm DIN 931, high tensile steel, grade
+            8.8, M6, hex head, spanner or socket drive, and bright zinc plated finish.
+        result_url: https://www.ebay.co.uk/itm/365341419766?_skw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel&itmmeta=01M4WR28V5XVKQSCN750RSE3YB&hash=item55100ba8f6:g:~1EAAeSwfBJqqZPa&itmprp=enc%3AAQALAAABECHNgUiiE%2FjQhlDTaMiAde%2F2YDZ0r%2Fv%2BXoGcZc46BN3CnaUL1zOE3j4qCb0pl5QLqqTmNCLFvAu7SAkBR1aZB3TotGim2m3Q4cv2mTvp62lfptH4VBBFFRXS19zXQVkd0S%2FniumN3wOO5p6j654wh6PWNGQFUsVaGJzL6N51KTIGsgwJIWw8a%2F9MBCwmu3J5NOG1VxmoXMNJP2EmyWE6iy8G8cKHnWimEbTocbqrBioQoS2DYGHnQ3Blux8iMlgqgzVstUEhO9GQa9u1CTsDOQbCUaRk1fSzAGh4gSVKfnDhNx6l1nBY%2Fqa43mh4hKYID9F%2Bw62qYXu0me%2Fbyi0wwvEl1R8kjTDg9qXbTp9IbkN6%7Ctkp%3ABk9SR-6NiZinaA
+        search_evidence: Exact eBay search results included Kay's Fasteners listing
+            M6 M8 M10 HEXAGON HEAD BOLTS PART THREADED SCREWS HIGH TENSILE 8.8 ZINC
+            PLATED. Opened it from the results and selected M6 x 120mm. The page confirmed
+            the selected size and relevant item specifics.
+        search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+        selected_variant: 'Selected Bolt Size: M6 x 120mm; item specifics state MPN
+            DIN 931, Material High Tensile Steel, Grade 8.8, Thread Size M6 M8 M10,
+            Head Style Hex Head, Drive Style Spanner or Socket, Finish Bright Zinc
+            Plated (BZP). The selected Bolt Size is explicit on the page; variant
+            selection is not encoded in the URL.'
+        specification: 'Thread Size: M6; Length: 120mm; Form: Part threaded hexagon
+            head bolt; Head: Hex Head; Drive Style: Spanner or Socket; Material: High
+            Tensile Steel, Grade 8.8; Finish: Bright Zinc Plated (BZP); Manufacturing
+            Standard: DIN 931'
+        status: verified
+    google:
+        checked_at: '2026-10-14T08:28:48.427967+00:00'
+        evidence_file: support_files/evidence/hardware_bolt_m6_120_mm_length/google/4e4b598a99304541b8a780bc6618f460.yaml
+        evidence_url: https://www.google.com/search?q=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+        material_evidence: 8.8 Steel BZP
+        product_name: M6 x 120mm Hex Bolt - Part Threaded (DIN 931) | 8.8 Steel BZP
+        reason: The exact Google query returned Vital Parts' M6 x 120mm part-threaded
+            DIN 931 result. The product page shows code HH931-M6-120-88-BZP and specifies
+            M6 thread, 120mm length, 18mm threaded length, 8.8 Steel BZP, Hex Head
+            and DIN 931. The description confirms the part-threaded hex bolt and external
+            drive for workshop/site fitting.
+        result_url: https://www.vital-parts.co.uk/hex-head-bolts-din-931/9203-hh931-m6-120-88-bzp
+        search_evidence: Google result M6 x 120mm Hex Bolt - Part Threaded (DIN 931)
+            | 8.8 Steel BZP from Vital Parts led to the opened product page. Stainless
+            steel search results were not used.
+        search_for: M6 x 120 hex head part threaded bolt DIN 931 steel
+        search_url: https://www.google.com/search?q=M6+x+120+hex+head+part+threaded+bolt+DIN+931+steel
+        selected_variant: Fixed product code HH931-M6-120-88-BZP; Thread Size M6;
+            Length 120mm; Threaded Length 18mm.
+        specification: 'Thread Size: M6; Length: 120mm; Threaded Length: 18mm; Head:
+            Hex Head; Drive: External hex; Form: Part threaded; Material: 8.8 Steel;
+            Finish: Bright Zinc Plated (BZP); Standard: DIN 931; Product code: HH931-M6-120-88-BZP'
+        status: verified
+spec_iso_b_125_lt_l_le_200_mm: '24'
+spec_iso_b_l_gt_200_mm: ''
+spec_iso_b_l_le_125_mm: '18'
+spec_iso_c_max_mm: '0.50'
+spec_iso_c_min_mm: '0.15'
+spec_iso_da_max_mm: '6.8'
+spec_iso_dw_min_mm: '8.88'
+spec_iso_e_min_mm: '11.05'
+spec_iso_k_max_mm: '4.15'
+spec_iso_k_min_mm: '3.85'
+spec_iso_nominal_diameter: M6
+spec_iso_s_max_mm: '10.00'
+spec_iso_s_min_mm: '9.78'
+spec_iso_thread_pitch_mm: '1.00'
+supplier_data:
+    kayfast:
+        accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-14T01:18:09.316714+00:00'
+        currency: GBP
+        family_description: Hexagon head partly threaded bolts. High tensile grade
+            8.8. Bright zinc plated. Manufactured to DIN 931.
+        family_heading: METRIC HEXAGON BOLT DIN 931 ZINC PLATED GRADE 8.8
+        html_sha256: 2732e4bd459ccf0d8d3f4b87982017a45e4542e97728e88b0997451f637188de
+        name: M6 x 120mm HEXAGON HEAD PARTLY THREADED BOLT DIN 931 ZINC PLATED
+        packages: '[]'
+        parsed_at: '2026-10-18T09:29:39.898891+00:00'
+        parser_version: kayfast-1.6-family-description
+        price_breaks_description: M6 x 120mm HEXAGON HEAD PARTLY THREADED BOLT DIN
+            931 ZINC PLATED
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+            "statement": "Use the exact row dropdown price per 100 divided by 100
+            with Decimal precision; accept the captured per-100 display precision."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+        specifications: METRIC HEXAGON BOLT DIN 931 ZINC PLATED GRADE 8.8; Hexagon
+            head partly threaded bolts. High tensile grade 8.8. Bright zinc plated.
+            Manufactured to DIN 931.
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: kayfast
+        supplier_id: M6-x-120mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+        supplier_id_basis: exact dimensional row description; spaces replaced by hyphens
+            (user clarification 2026-10-11)
+        supplier_part_number: M6-x-120mm-HEXAGON-HEAD-PARTLY-THREADED-BOLT-DIN-931-ZINC-PLATED
+        supplier_website: https://www.kayfast.co.uk/view-product/METRIC-HEXAGON-BOLT-DIN-931-ZINC-PLATED-GRADE-88
+        tiers:
+        -   maximum: 99
+            minimum: 1
+            source_price_per_100: '43.96'
+            source_price_quantity: 100
+            source_text: "QTY 1 - 99 @ \xA343.96 per 100"
+            source_unit_price: '0.4396'
+            source_vat_basis: exclusive
+            unit_price: '0.527520'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 499
+            minimum: 100
+            source_price_per_100: '27.50'
+            source_price_quantity: 100
+            source_text: "QTY 100 -  499 @ \xA327.50 per 100"
+            source_unit_price: '0.275'
+            source_vat_basis: exclusive
+            unit_price: '0.33000'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 500
+            source_price_per_100: '24.72'
+            source_price_quantity: 100
+            source_text: "QTY 500 + @ \xA324.72 per 100"
+            source_unit_price: '0.2472'
+            source_vat_basis: exclusive
+            unit_price: '0.296640'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.527520'
+        total_price_10: '5.275200'
+        total_price_100: '33.00000'
+        total_price_1000: '296.640000'
+        total_price_10000: '2966.400000'
+        unit_price_1: '0.527520'
+        unit_price_10: '0.527520'
+        unit_price_100: '0.33000'
+        unit_price_1000: '0.296640'
+        unit_price_10000: '0.296640'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Kayfast per-100 displayed prices are rounded; derived totals use captured
+            display precision
+    orbitalfasteners:
+        accepted_warnings: '[]'
+        box_quantity: '100'
+        captured_at: '2026-10-12T08:10:19.935304+00:00'
+        catalogue_page: '14'
+        currency: GBP
+        description: ''
+        html_sha256: 8e75729561f8531ffda3e63479b358108eab21996c30ec4ecd389ca8419e8246
+        name: M6 x 120 Hexagon Head Bolt High Tensile Grade 8.8, Bright Zinc Plated,
+            DIN 931
+        parsed_at: '2026-10-18T08:49:22.649884+00:00'
+        parser_version: 1.2-review-policy
+        review_policy: ''
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: inclusive
+        status: ok
+        stock_as_of: 9th October 2026 10:01pm
+        stock_quantity: '9644'
+        supplier: orbitalfasteners
+        supplier_id: '1871114'
+        supplier_part_number: '1871114'
+        supplier_website: https://www.orbitalfasteners.co.uk/products/m6x120-high-tensile-bolt-grade-8.8-bright-zinc-plated
+        tiers:
+        -   maximum: 99
+            minimum: 1
+            source_text: "1 - 99 \xA30.3012 Inc. VAT \xA330.12 Inc. VAT"
+            source_unit_price: '0.3012'
+            source_vat_basis: inclusive
+            unit_price: '0.3012'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 499
+            minimum: 100
+            source_text: "100 - 499 \xA30.1674 Inc. VAT \xA316.74 Inc. VAT"
+            source_unit_price: '0.1674'
+            source_vat_basis: inclusive
+            unit_price: '0.1674'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 799
+            minimum: 500
+            source_text: "500 - 799 \xA30.1506 Inc. VAT \xA315.06 Inc. VAT"
+            source_unit_price: '0.1506'
+            source_vat_basis: inclusive
+            unit_price: '0.1506'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 800
+            source_text: "800 + \xA30.1339 Inc. VAT \xA313.39 Inc. VAT"
+            source_unit_price: '0.1339'
+            source_vat_basis: inclusive
+            unit_price: '0.1339'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.3012'
+        total_price_10: '3.0120'
+        total_price_100: '16.7400'
+        total_price_1000: '133.9000'
+        total_price_10000: '1339.0000'
+        unit_price_1: '0.3012'
+        unit_price_10: '0.3012'
+        unit_price_100: '0.1674'
+        unit_price_1000: '0.1339'
+        unit_price_10000: '0.1339'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings: []
+svg_details:
+-   svg_b_125_lt_l_le_200_mm: '24'
+    svg_b_l_gt_200_mm: ''
+    svg_b_l_le_125_mm: '18'
+    svg_c_max_mm: '0.50'
+    svg_c_min_mm: '0.15'
+    svg_da_max_mm: '6.8'
+    svg_dw_min_mm: '8.88'
+    svg_e_min_mm: '11.05'
+    svg_k_max_mm: '4.15'
+    svg_k_min_mm: '3.85'
+    svg_name: bolt
+    svg_nominal_diameter: M6
+    svg_s_max_mm: '10.00'
+    svg_s_min_mm: '9.78'
+    svg_thread_pitch_mm: '1.00'
+-   af_mm: 10.0
+    filename: working_mechanical_drawing
+    hardware_type: bolt
+    head_height_mm: 4.15
+    id_mm: 6.0
+    length_mm: 120.0
+    part_category: HARDWARE / BOLT
+    part_code: ISO4014 / DIN931
+    part_name: ''
+    part_series: HEX HEAD BOLT
+    part_title: "M6\xD7120"
+    svg_name: oomp_mech_drawing_hardware
+    thread_length_mm: 18.0
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: bolt
+taxonomy_2_capital: Bolt
+taxonomy_2_first_letter: b
+taxonomy_2_first_letter_upper: B
+taxonomy_2_length_1: b
+taxonomy_2_length_2: bo
+taxonomy_2_length_3: bol
+taxonomy_2_length_4: bolt
+taxonomy_2_length_5: bolt
+taxonomy_2_upper: BOLT
+taxonomy_2_upper_length_1: B
+taxonomy_2_upper_length_2: BO
+taxonomy_2_upper_length_3: BOL
+taxonomy_2_upper_length_4: BOLT
+taxonomy_2_upper_length_5: BOLT
+taxonomy_3: m6
+taxonomy_3_capital: M6
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m6
+taxonomy_3_length_3: m6
+taxonomy_3_length_4: m6
+taxonomy_3_length_5: m6
+taxonomy_3_upper: M6
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M6
+taxonomy_3_upper_length_3: M6
+taxonomy_3_upper_length_4: M6
+taxonomy_3_upper_length_5: M6
+taxonomy_4: 120_mm_length
+taxonomy_4_capital: 120 mm Length
+taxonomy_4_first_letter: '1'
+taxonomy_4_first_letter_upper: '1'
+taxonomy_4_length_1: '1'
+taxonomy_4_length_2: '12'
+taxonomy_4_length_3: '120'
+taxonomy_4_length_4: '120_'
+taxonomy_4_length_5: 120_m
+taxonomy_4_upper: 120_MM_LENGTH
+taxonomy_4_upper_length_1: '1'
+taxonomy_4_upper_length_2: '12'
+taxonomy_4_upper_length_3: '120'
+taxonomy_4_upper_length_4: '120_'
+taxonomy_4_upper_length_5: 120_M
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+    checked_on: '2026-10-11'
+    coordinate_system:
+        axis: +Z towards head
+        glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+        glb_units: metres
+        glb_up_axis: Y
+        origin: tip centre
+        stl_units: mm
+    dimension_status: standard_dimensions
+    dimensional_specification: ISO 4014:2011
+    generator: iso_4014_hex_bolt
+    length_status: standard_length
+    material:
+        base_colour_srgb:
+        - 0.62
+        - 0.65
+        - 0.69
+        coat_roughness: 0.28
+        coat_weight: 0.02
+        metallic: 1.0
+        microtexture_height_um: 0.8
+        microtexture_spacing_mm: 0.025
+        name: Satin steel
+        note: Visual finish approximation; catalogue specifies colour only.
+        roughness: 0.26
+        roughness_variation: 0.045
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+        bearing: Bolt bearing circle and c selected within limits; k includes bearing
+            thickness; fillet tangent to shaft and bearing.
+        cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
+            bore and mouth chamfers.
+        certification: Nominal visual catalogue model, not manufacturing tolerance
+            certification.
+        chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees.
+            Bolt tip 45 degrees, P/2.
+        components: One closed solid for supported products. Unspecified lock/cage
+            assemblies are not substituted with plain hex nuts.
+        dimension_selection: Nominal bolt head height, max flats/nut height, nominal
+            washer sizes; selected dimensions stored in parameters.
+        display: Smooth nominal external-thread envelope or smooth minor-diameter
+            internal bore; lower angular and fillet tessellation.
+        family_note: Catalogue family mapped to the cited dimensional pattern; exact
+            supplier unspecified.
+        markings: Supplier and property-class markings omitted because catalogue does
+            not identify them.
+        runout: External one-pitch fade to plain shank; full thread ends at underhead
+            fillet.
+        thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+            rounded root H/6, internal P/4 crest and P/8 root flats.
+        unspecified_geometry: Nut mouth for supplier rows without limits and flange
+            M3/M4 thickness/rim blends are explicit visual model selections.
+    output_folder: three_d_model
+    parameters:
+        across_flats_mm: 10
+        bearing_diameter_mm: 9.4
+        bearing_height_mm: 0.3
+        characteristic_dimension_basis: nominal axial thread diameter
+        characteristic_dimension_mm: 6.0
+        expected_components: 1
+        external_minor_diameter_mm: 4.773130677972045
+        family: bolt
+        finish: satin
+        handedness: right
+        head_chamfer_height_mm: 0.4465819873852048
+        head_height_mm: 4
+        identity: hardware_bolt_m6_120_mm_length
+        internal_minor_diameter_mm: 4.917468245269452
+        length_convention: under-head bearing plane to tip
+        length_mm: 120.0
+        nominal_diameter_mm: 6.0
+        outer_chamfer_angle_degrees: 30.0
+        overall_height_mm: 124.0
+        pitch_mm: 1
+        plain_shank_length_mm: 101.0
+        specification: ISO 4014:2011
+        thread_end_z_mm: 19
+        thread_flank_angle_degrees: 60.0
+        thread_length_mm: 18
+        thread_length_reference_mm: 18
+        thread_length_table_mm:
+        - 18
+        - 24
+        - 37
+        thread_mode: partial
+        thread_pitch_diameter_mm: 5.350480947161671
+        thread_runout_mm: 1
+        thread_starts: 1
+        tip_chamfer_mm: 0.5
+        underhead_fillet_mm: 0.25
+    renders:
+        high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+        low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+        product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+        product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+    schema_version: 1
+    source_table: source_file/standards/catalogue_hardware.yaml
+    sources:
+    -   title: ISO 4014:2011 fourth edition, figure 1 and table 1, grades A and B
+        url: https://cdn.standards.iteh.ai/samples/56447/be5b2835974246f8868260ebe9f4d621/ISO-4014-2011.pdf
+    -   title: ISO 68-1:1998 basic ISO metric thread profile
+        url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+    standard: ISO 4014:2011
+    standard_lengths_mm:
+    - 25
+    - 30
+    - 35
+    - 40
+    - 45
+    - 50
+    - 55
+    - 60
+    - 65
+    - 70
+    - 80
+    - 90
+    - 100
+    - 110
+    - 120
+    - 130
+    - 140
+    - 150
+    standard_limits:
+        across_corners_min_mm: 10.89
+        across_flats_mm:
+        - 9.64
+        - 10
+        bearing_diameter_min_mm: 8.74
+        head_height_mm:
+        - 3.76
+        - 4.24
+        incomplete_thread_max_mm: 2
+        outer_chamfer_angle_degrees:
+        - 15
+        - 30
+        product_grade: B
+        underhead_fillet_min_mm: 0.25
+    studio:
+        adaptive_threshold: 0.015
+        denoise: true
+        device: auto
+        engine: cycles
+        exposure: 0.0
+        floor_colour_srgb:
+        - 0.93
+        - 0.935
+        - 0.94
+        floor_roughness: 0.55
+        framing_margin: 0.13
+        high_samples: 160
+        lights:
+        -   colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+        -   colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+        -   colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+        look: AgX - Medium High Contrast
+        low_samples: 48
+        poses:
+            isometric:
+                camera_eye:
+                - 1
+                - -1
+                - 1
+                orientation: principal axis Z up
+                projection: orthographic
+            product:
+                camera_eye:
+                - -6
+                - -10
+                - 6
+                orientation: lying on side, axial end to left
+                projection: orthographic
+                resting_axis: side
+                support: Stable convex-hull support using actual mesh centre of mass.
+                yaw_degrees: -12.0
+        seed: 7991
+        view_transform: AgX
+        world_colour:
+        - 0.78
+        - 0.82
+        - 0.9
+        world_strength: 0.35
+    units: mm
+    variants:
+        display:
+            angular_segments: 24
+            fillet_segments: 3
+            samples_per_pitch: 1
+        full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
+url_chat: ''
+```
+
+</details>
+
+## Parts
+
+[Full-detail 3D model (GLB)](three_d_model/model_full.glb) · [Dimensioned drawing (PDF)](working_mechanical_drawing_a4.pdf) · [Full-detail view drawings](three_d_model/full/) · [Drawer label (SVG)](label_drawer.svg)
+
+Full-detail and simplified display models are alternatives for the same part. GLB uses metres; STL, where supplied, uses millimetres. The [part folder](./) contains all available files.
+
+## Assembly
+
+This page documents a component rather than a complete project assembly. No installation sequence or tightening torque is specified by this record.
+<!-- hardware-part:end -->

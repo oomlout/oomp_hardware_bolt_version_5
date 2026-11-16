@@ -1,0 +1,2253 @@
+<!-- hardware-part:start -->
+# M6 × 18 mm hex-head set screw
+
+## Summary
+
+A fully threaded hex-head fastener for bolted joints.
+
+[Hardware catalogue](../../README.md) · [Browse this family](../../navigation_oobb/README.md#set-screws)
+
+| Isometric | Product view |
+| --- | --- |
+| [![Full-detail isometric render](three_d_model/readme_isometric.png)](three_d_model/render_high.png) | [![Full-detail product view render](three_d_model/readme_product.png)](three_d_model/render_product_high.png) |
+
+Full-detail catalogue renders. Click either image to open the original resolution.
+
+## Details
+
+**OOMP ID:** `hardware_set_screw_m6_18_mm_length`
+
+**Short code:** `29nje` · **Three-word label:** demand area panel
+
+| Model dimension | mm |
+| --- | ---: |
+| Nominal size | 6 |
+| Thread pitch | 1 |
+| Length | 18 |
+| Across flats | 10 |
+| Head height | 4 |
+| Modelled thread length | 16.75 |
+
+Length convention: under-head bearing plane to tip.
+
+Dimensions above are values used by the saved model recipe, in millimetres. **Model basis: standard dimensions.**
+
+<details>
+<summary>Model provenance and assumptions</summary>
+
+**Recorded dimensional reference:** ISO 4017 supplier dimensional specification (edition not stated)
+
+**Source checked:** 2026-10-11
+
+**Length status:** catalogue length not verified in source length table
+
+**Visual finish:** Satin steel
+
+**Finish assumption:** Visual finish approximation; catalogue specifies colour only.
+
+**Family notes:** Lengths are catalogue selections; the cited supplier table verifies head dimensions, not every length offered here.
+
+These are saved catalogue references and modelling choices, not a claim of manufacturing certification.
+
+- [Westfield Fasteners ISO 4017 hex head set screw specification](https://www.westfieldfasteners.co.uk/Standards/ScrewBolt-HexHd4017-M-THRfull.html)
+- [ISO 68-1:1998 basic ISO metric thread profile](https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf)
+
+[Complete model recipe](three_d_model/parameters.json)
+
+</details>
+
+<details>
+<summary>Complete part metadata</summary>
+
+[Source working.yaml](working.yaml)
+
+```yaml
+bip_39_2_word_array:
+- demand
+- area
+bip_39_2_word_no_space: demandarea
+bip_39_2_word_space: demand area
+bip_39_2_word_underscore: demand_area
+bip_39_3_word_array:
+- demand
+- area
+- panel
+bip_39_3_word_no_space: demandareapanel
+bip_39_3_word_space: demand area panel
+bip_39_3_word_underscore: demand_area_panel
+bip_39_full_array:
+- demand
+- area
+- panel
+- oil
+- feed
+- all
+- sauce
+- income
+- ramp
+- opera
+- able
+- device
+bip_39_full_no_space: demandareapaneloilfeedallsauceincomerampoperaabledevice
+bip_39_full_space: demand area panel oil feed all sauce income ramp opera able device
+bip_39_full_underscore: demand_area_panel_oil_feed_all_sauce_income_ramp_opera_able_device
+directory: parts/hardware_set_screw_m6_18_mm_length
+generate_stl: true
+id: hardware_set_screw_m6_18_mm_length
+id_no_class: hardware_set_screw_m6_18_mm_length
+id_no_size: hardware_set_screw_m6_18_mm_length
+id_no_type: hardware_set_screw_m6_18_mm_length
+label_drawer: &id001
+    bip39: demand area panel
+    bip39_size: 2.35
+    code: SS
+    description: Set screw / M6 / 18 mm / Hex head / Full thread
+    detail_lines:
+    - Hex head / Full thread
+    detail_size: 2.05
+    detail_y: 21.1
+    diagram: <path d="M2 3H5L6 4V10L5 11H2Z M4 3V11"/><path d="M6 5H18V9H6"/><path
+        d="M7 5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+    drive_symbol: <path d="M5 1L8.46 3V7L5 9L1.54 7V3Z" fill="#ffffff"/>
+    length: '18'
+    length_size: 7.8
+    length_x: 18.02234375
+    name: Set screw
+    name_lines:
+    - Set screw
+    name_size: 3.2
+    thread: M6
+    thread_size: 6.5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m6_18_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m6_18_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m6_18_mm_length
+md5: 3a216a7e4ce54a0cefe394b17368011e
+md5_10: 3a216a7e4c
+md5_10_upper: 3A216A7E4C
+md5_5: 3a216
+md5_5_upper: 3A216
+md5_6: 3a216a
+md5_6_alpha: 29nje
+md5_6_alpha_upper: 29NJE
+md5_6_upper: 3A216A
+name: Hardware Set Screw M6 18 Mm Length
+name_no_class: Hardware Set Screw M6 18 Mm Length
+name_no_size: Hardware Set Screw M6 18 Mm Length
+name_no_type: Hardware Set Screw M6 18 Mm Length
+name_proper: Hardware Set Screw M6 18 Mm Length
+name_space: hardware set screw m6 18 mm length
+name_upper: HARDWARE SET SCREW M6 18 MM LENGTH
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_set_screw_m6_18_mm_length
+            name: hardware_set_screw_m6_18_mm_length
+            name_proper: Hardware Set Screw M6 18 Mm Length
+            name_space: hardware set screw m6 18 mm length
+            name_upper: HARDWARE SET SCREW M6 18 MM LENGTH
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 18 hex head fully threaded set screw DIN 933
+                        steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+18+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 18 hex head fully threaded set screw DIN 933
+                        steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+18+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T10:58:50.824510+00:00'
+                    evidence_file: support_files/evidence/hardware_set_screw_m6_18_mm_length/google/1b83146052f14f418a7613b53d8f8f0d.yaml
+                    evidence_url: https://www.google.com/search?q=M6+x+18+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    material_evidence: High tensile steel grade 8.8
+                    product_name: M6 x 18 Hexagon Head Set Screws High Tensile Grade
+                        8.8 Bright Zinc Plated, DIN 933
+                    reason: The supplied search term produced an exact Orbital Fasteners
+                        M6 x 18 mm DIN 933 set screw.
+                    result_url: https://www.orbitalfasteners.co.uk/products/m6-x-18-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated-din-933
+                    search_evidence: Google returned an exact M6 x 18 mm fully threaded
+                        high tensile grade 8.8 steel product in bright zinc plating.
+                        Opening the result confirmed the product heading, SKU 1851178,
+                        full-threaded form, grade and finish.
+                    search_for: M6 x 18 hex head fully threaded set screw DIN 933
+                        steel
+                    search_url: https://www.google.com/search?q=M6+x+18+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: 'Single-size product: M6 x 18 mm; SKU 1851178;
+                        grade 8.8; bright zinc plated.'
+                    specification: M6 metric thread, 1.0 mm pitch, 18 mm length, fully
+                        threaded hexagon head, high tensile grade 8.8 steel, bright
+                        zinc plated, DIN 933.
+                    status: verified
+            spec_iso_b_125_lt_l_le_200_mm: '24'
+            spec_iso_b_l_gt_200_mm: ''
+            spec_iso_b_l_le_125_mm: '18'
+            spec_iso_c_max_mm: '0.50'
+            spec_iso_c_min_mm: '0.15'
+            spec_iso_da_max_mm: '6.8'
+            spec_iso_dw_min_mm: '8.88'
+            spec_iso_e_min_mm: '11.05'
+            spec_iso_k_max_mm: '4.15'
+            spec_iso_k_min_mm: '3.85'
+            spec_iso_nominal_diameter: M6
+            spec_iso_s_max_mm: '10.00'
+            spec_iso_s_min_mm: '9.78'
+            spec_iso_thread_pitch_mm: '1.00'
+            supplier_data:
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T00:38:48.947926+00:00'
+                    currency: GBP
+                    html_sha256: 155159958881e24708f91610deb6439ccbc594dbfd8315c60e3029a4cc5ad59c
+                    name: M6 x 18mm Hexagon Head Set Screws Bolts Fully Threaded Self
+                        Colour Black Grade 8.8, DIN 933
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:03:26.005942+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M6 (6mm); Length (L): 18mm; Material:
+                        High Tensile (Grade 8.8); Finish: Self Colour; Head Length
+                        (H): 4.24mm; Pitch: 1mm; Socket Size (J): 10mm; Manufacturing
+                        Standard: 933; Material Specification: High Tensile (Grade
+                        8.8); Fully Threaded: Yes'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 20324.060.018
+                    supplier_part_number: 20324.060.018
+                    supplier_website: https://dibolt.co.uk/products/m6-x-18mm-hexagon-head-set-screw-fully-threaded-self-colour-black-grade-8-8-din-933
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA38.34 Per 100 Units"
+                        source_unit_price: '0.0834'
+                        source_vat_basis: exclusive
+                        unit_price: '0.100080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2,499 \xA37.92 Per 100 Units"
+                        source_unit_price: '0.0792'
+                        source_vat_basis: exclusive
+                        unit_price: '0.095040'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2500
+                        source_text: "2,500+ \xA37.51 Per 100 Units"
+                        source_unit_price: '0.0751'
+                        source_vat_basis: exclusive
+                        unit_price: '0.090120'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.100080'
+                    total_price_10: '1.000800'
+                    total_price_100: '10.008000'
+                    total_price_1000: '95.040000'
+                    total_price_10000: '901.200000'
+                    unit_price_1: '0.100080'
+                    unit_price_10: '0.100080'
+                    unit_price_100: '0.100080'
+                    unit_price_1000: '0.095040'
+                    unit_price_10000: '0.090120'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '500'
+                    captured_at: '2026-10-12T20:27:28.165044+00:00'
+                    catalogue_page: ''
+                    currency: GBP
+                    description: ''
+                    html_sha256: 229d4424a6dead322a4170af0b0ab45ee5eaede5b19d8ebe25be568dd2bd83de
+                    name: M6 x 18 Hexagon Head Set Screws High Tensile Grade 8.8 Bright
+                        Zinc Plated, DIN 933
+                    parsed_at: '2026-10-18T08:49:38.069958+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm More Info
+                    stock_quantity: '4686'
+                    supplier: orbitalfasteners
+                    supplier_id: '1851178'
+                    supplier_part_number: '1851178'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m6-x-18-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated-din-933
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA30.0551 Inc. VAT \xA35.51 Inc. VAT"
+                        source_unit_price: '0.0551'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0551'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2499 \xA30.0306 Inc. VAT \xA33.06 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0306'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0306'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 3999
+                        minimum: 2500
+                        source_text: "2500 - 3999 \xA30.0276 Inc. VAT \xA32.76 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0276'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0276'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 4000
+                        source_text: "4000 + \xA30.0245 Inc. VAT \xA32.45 Inc. VAT"
+                        source_unit_price: '0.0245'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0245'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0551'
+                    total_price_10: '0.5510'
+                    total_price_100: '5.5100'
+                    total_price_1000: '30.6000'
+                    total_price_10000: '245.0000'
+                    unit_price_1: '0.0551'
+                    unit_price_10: '0.0551'
+                    unit_price_100: '0.0551'
+                    unit_price_1000: '0.0306'
+                    unit_price_10000: '0.0245'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+            svg_details:
+            -   svg_b_125_lt_l_le_200_mm: '24'
+                svg_b_l_gt_200_mm: ''
+                svg_b_l_le_125_mm: '18'
+                svg_c_max_mm: '0.50'
+                svg_c_min_mm: '0.15'
+                svg_da_max_mm: '6.8'
+                svg_dw_min_mm: '8.88'
+                svg_e_min_mm: '11.05'
+                svg_k_max_mm: '4.15'
+                svg_k_min_mm: '3.85'
+                svg_name: set_screw
+                svg_nominal_diameter: M6
+                svg_s_max_mm: '10.00'
+                svg_s_min_mm: '9.78'
+                svg_thread_pitch_mm: '1.00'
+            -   af_mm: 10.0
+                filename: working_mechanical_drawing
+                hardware_type: set_screw
+                head_height_mm: 4.15
+                id_mm: 6.0
+                length_mm: 18.0
+                part_category: HARDWARE / SET SCREW
+                part_code: ISO4017 / DIN933
+                part_name: ''
+                part_series: HEX HEAD FULL THREAD SCREW
+                part_title: "M6\xD718"
+                svg_name: oomp_mech_drawing_hardware
+                thread_length_mm: 18.0
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: set_screw
+            taxonomy_3: m6
+            taxonomy_4: ''
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: 18_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z towards head
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: tip centre
+                    stl_units: mm
+                dimension_status: standard_dimensions
+                dimensional_specification: ISO 4017 supplier dimensional specification
+                    (edition not stated)
+                generator: iso_4017_hex_screw
+                length_status: catalogue_length_not_verified_in_source_length_table
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Lengths are catalogue selections; the cited supplier
+                        table verifies head dimensions, not every length offered here.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 10
+                    bearing_diameter_mm: 9.4
+                    bearing_height_mm: 0.3
+                    characteristic_dimension_basis: nominal axial thread diameter
+                    characteristic_dimension_mm: 6.0
+                    expected_components: 1
+                    external_minor_diameter_mm: 4.773130677972045
+                    family: bolt
+                    finish: satin
+                    handedness: right
+                    head_chamfer_height_mm: 0.4465819873852048
+                    head_height_mm: 4
+                    identity: hardware_set_screw_m6_18_mm_length
+                    internal_minor_diameter_mm: 4.917468245269452
+                    length_convention: under-head bearing plane to tip
+                    length_mm: 18.0
+                    nominal_diameter_mm: 6.0
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 22.0
+                    pitch_mm: 1
+                    plain_shank_length_mm: 0.25
+                    specification: ISO 4017 supplier dimensional specification (edition
+                        not stated)
+                    thread_end_z_mm: 17.75
+                    thread_flank_angle_degrees: 60.0
+                    thread_length_mm: 16.75
+                    thread_length_table_mm: null
+                    thread_mode: full
+                    thread_pitch_diameter_mm: 5.350480947161671
+                    thread_runout_mm: 1
+                    thread_starts: 1
+                    tip_chamfer_mm: 0.5
+                    underhead_fillet_mm: 0.25
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: Westfield Fasteners ISO 4017 hex head set screw specification
+                    url: https://www.westfieldfasteners.co.uk/Standards/ScrewBolt-HexHd4017-M-THRfull.html
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: ISO 4017 supplier dimensional specification (edition not
+                    stated)
+                standard_lengths_mm: []
+                standard_limits:
+                    across_corners_min_mm: 11.05
+                    across_flats_mm:
+                    - 9.78
+                    - 10
+                    bearing_diameter_min_mm: 8.88
+                    head_height_mm:
+                    - 3.85
+                    - 4.15
+                    incomplete_thread_max_mm: 2
+                    outer_chamfer_angle_degrees:
+                    - 15
+                    - 30
+                    product_grade: A
+                    underhead_fillet_min_mm: 0.25
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: lying on side, axial end to left
+                            projection: orthographic
+                            resting_axis: side
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_set_screw_m6_18_mm_length
+            name: hardware_set_screw_m6_18_mm_length
+            name_proper: Hardware Set Screw M6 18 Mm Length
+            name_space: hardware set screw m6 18 mm length
+            name_upper: HARDWARE SET SCREW M6 18 MM LENGTH
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_set_screw_m6_18_mm_length
+                        name: hardware_set_screw_m6_18_mm_length
+                        name_proper: Hardware Set Screw M6 18 Mm Length
+                        name_space: hardware set screw m6 18 mm length
+                        name_upper: HARDWARE SET SCREW M6 18 MM LENGTH
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M6 x 18 hex head fully threaded set screw
+                                    DIN 933 steel
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+18+hex+head+fully+threaded+set+screw+DIN+933+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M6 x 18 hex head fully threaded set screw
+                                    DIN 933 steel
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+18+hex+head+fully+threaded+set+screw+DIN+933+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T10:58:50.824510+00:00'
+                                evidence_file: support_files/evidence/hardware_set_screw_m6_18_mm_length/google/1b83146052f14f418a7613b53d8f8f0d.yaml
+                                evidence_url: https://www.google.com/search?q=M6+x+18+hex+head+fully+threaded+set+screw+DIN+933+steel
+                                material_evidence: High tensile steel grade 8.8
+                                product_name: M6 x 18 Hexagon Head Set Screws High
+                                    Tensile Grade 8.8 Bright Zinc Plated, DIN 933
+                                reason: The supplied search term produced an exact
+                                    Orbital Fasteners M6 x 18 mm DIN 933 set screw.
+                                result_url: https://www.orbitalfasteners.co.uk/products/m6-x-18-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated-din-933
+                                search_evidence: Google returned an exact M6 x 18
+                                    mm fully threaded high tensile grade 8.8 steel
+                                    product in bright zinc plating. Opening the result
+                                    confirmed the product heading, SKU 1851178, full-threaded
+                                    form, grade and finish.
+                                search_for: M6 x 18 hex head fully threaded set screw
+                                    DIN 933 steel
+                                search_url: https://www.google.com/search?q=M6+x+18+hex+head+fully+threaded+set+screw+DIN+933+steel
+                                selected_variant: 'Single-size product: M6 x 18 mm;
+                                    SKU 1851178; grade 8.8; bright zinc plated.'
+                                specification: M6 metric thread, 1.0 mm pitch, 18
+                                    mm length, fully threaded hexagon head, high tensile
+                                    grade 8.8 steel, bright zinc plated, DIN 933.
+                                status: verified
+                        spec_iso_b_125_lt_l_le_200_mm: '24'
+                        spec_iso_b_l_gt_200_mm: ''
+                        spec_iso_b_l_le_125_mm: '18'
+                        spec_iso_c_max_mm: '0.50'
+                        spec_iso_c_min_mm: '0.15'
+                        spec_iso_da_max_mm: '6.8'
+                        spec_iso_dw_min_mm: '8.88'
+                        spec_iso_e_min_mm: '11.05'
+                        spec_iso_k_max_mm: '4.15'
+                        spec_iso_k_min_mm: '3.85'
+                        spec_iso_nominal_diameter: M6
+                        spec_iso_s_max_mm: '10.00'
+                        spec_iso_s_min_mm: '9.78'
+                        spec_iso_thread_pitch_mm: '1.00'
+                        supplier_data:
+                            dibolt:
+                                accepted_warnings: '["Dibolt per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-14T00:38:48.947926+00:00'
+                                currency: GBP
+                                html_sha256: 155159958881e24708f91610deb6439ccbc594dbfd8315c60e3029a4cc5ad59c
+                                name: M6 x 18mm Hexagon Head Set Screws Bolts Fully
+                                    Threaded Self Colour Black Grade 8.8, DIN 933
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:03:26.005942+00:00'
+                                parser_version: dibolt-1.3-missing-price-review
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept the precision
+                                    of rounded displayed per-100 prices."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: 'Thread Size: M6 (6mm); Length (L):
+                                    18mm; Material: High Tensile (Grade 8.8); Finish:
+                                    Self Colour; Head Length (H): 4.24mm; Pitch: 1mm;
+                                    Socket Size (J): 10mm; Manufacturing Standard:
+                                    933; Material Specification: High Tensile (Grade
+                                    8.8); Fully Threaded: Yes'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: dibolt
+                                supplier_id: 20324.060.018
+                                supplier_part_number: 20324.060.018
+                                supplier_website: https://dibolt.co.uk/products/m6-x-18mm-hexagon-head-set-screw-fully-threaded-self-colour-black-grade-8-8-din-933
+                                tiers:
+                                -   maximum: 499
+                                    minimum: 1
+                                    source_text: "1 - 499 \xA38.34 Per 100 Units"
+                                    source_unit_price: '0.0834'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.100080'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 2499
+                                    minimum: 500
+                                    source_text: "500 - 2,499 \xA37.92 Per 100 Units"
+                                    source_unit_price: '0.0792'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.095040'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 2500
+                                    source_text: "2,500+ \xA37.51 Per 100 Units"
+                                    source_unit_price: '0.0751'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.090120'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.100080'
+                                total_price_10: '1.000800'
+                                total_price_100: '10.008000'
+                                total_price_1000: '95.040000'
+                                total_price_10000: '901.200000'
+                                unit_price_1: '0.100080'
+                                unit_price_10: '0.100080'
+                                unit_price_100: '0.100080'
+                                unit_price_1000: '0.095040'
+                                unit_price_10000: '0.090120'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Dibolt per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
+                            orbitalfasteners:
+                                accepted_warnings: '[]'
+                                box_quantity: '500'
+                                captured_at: '2026-10-12T20:27:28.165044+00:00'
+                                catalogue_page: ''
+                                currency: GBP
+                                description: ''
+                                html_sha256: 229d4424a6dead322a4170af0b0ab45ee5eaede5b19d8ebe25be568dd2bd83de
+                                name: M6 x 18 Hexagon Head Set Screws High Tensile
+                                    Grade 8.8 Bright Zinc Plated, DIN 933
+                                parsed_at: '2026-10-18T08:49:38.069958+00:00'
+                                parser_version: 1.2-review-policy
+                                review_policy: ''
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: inclusive
+                                status: ok
+                                stock_as_of: 9th October 2026 10:01pm More Info
+                                stock_quantity: '4686'
+                                supplier: orbitalfasteners
+                                supplier_id: '1851178'
+                                supplier_part_number: '1851178'
+                                supplier_website: https://www.orbitalfasteners.co.uk/products/m6-x-18-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated-din-933
+                                tiers:
+                                -   maximum: 499
+                                    minimum: 1
+                                    source_text: "1 - 499 \xA30.0551 Inc. VAT \xA3\
+                                        5.51 Inc. VAT"
+                                    source_unit_price: '0.0551'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0551'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 2499
+                                    minimum: 500
+                                    source_text: "500 - 2499 \xA30.0306 Inc. VAT \xA3\
+                                        3.06 Inc. VAT"
+                                    source_unit_price: '0.0306'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0306'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 3999
+                                    minimum: 2500
+                                    source_text: "2500 - 3999 \xA30.0276 Inc. VAT\
+                                        \ \xA32.76 Inc. VAT"
+                                    source_unit_price: '0.0276'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0276'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 4000
+                                    source_text: "4000 + \xA30.0245 Inc. VAT \xA3\
+                                        2.45 Inc. VAT"
+                                    source_unit_price: '0.0245'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0245'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.0551'
+                                total_price_10: '0.5510'
+                                total_price_100: '5.5100'
+                                total_price_1000: '30.6000'
+                                total_price_10000: '245.0000'
+                                unit_price_1: '0.0551'
+                                unit_price_10: '0.0551'
+                                unit_price_100: '0.0551'
+                                unit_price_1000: '0.0306'
+                                unit_price_10000: '0.0245'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings: []
+                        svg_details:
+                        -   svg_b_125_lt_l_le_200_mm: '24'
+                            svg_b_l_gt_200_mm: ''
+                            svg_b_l_le_125_mm: '18'
+                            svg_c_max_mm: '0.50'
+                            svg_c_min_mm: '0.15'
+                            svg_da_max_mm: '6.8'
+                            svg_dw_min_mm: '8.88'
+                            svg_e_min_mm: '11.05'
+                            svg_k_max_mm: '4.15'
+                            svg_k_min_mm: '3.85'
+                            svg_name: set_screw
+                            svg_nominal_diameter: M6
+                            svg_s_max_mm: '10.00'
+                            svg_s_min_mm: '9.78'
+                            svg_thread_pitch_mm: '1.00'
+                        -   af_mm: 10.0
+                            filename: working_mechanical_drawing
+                            hardware_type: set_screw
+                            head_height_mm: 4.15
+                            id_mm: 6.0
+                            length_mm: 18.0
+                            part_category: HARDWARE / SET SCREW
+                            part_code: ISO4017 / DIN933
+                            part_name: ''
+                            part_series: HEX HEAD FULL THREAD SCREW
+                            part_title: "M6\xD718"
+                            svg_name: oomp_mech_drawing_hardware
+                            thread_length_mm: 18.0
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: set_screw
+                        taxonomy_3: m6
+                        taxonomy_4: ''
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: 18_mm_length
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        three_d_model_details:
+                            checked_on: '2026-10-11'
+                            coordinate_system:
+                                axis: +Z towards head
+                                glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                                glb_units: metres
+                                glb_up_axis: Y
+                                origin: tip centre
+                                stl_units: mm
+                            dimension_status: standard_dimensions
+                            dimensional_specification: ISO 4017 supplier dimensional
+                                specification (edition not stated)
+                            generator: iso_4017_hex_screw
+                            length_status: catalogue_length_not_verified_in_source_length_table
+                            material:
+                                base_colour_srgb:
+                                - 0.62
+                                - 0.65
+                                - 0.69
+                                coat_roughness: 0.28
+                                coat_weight: 0.02
+                                metallic: 1.0
+                                microtexture_height_um: 0.8
+                                microtexture_spacing_mm: 0.025
+                                name: Satin steel
+                                note: Visual finish approximation; catalogue specifies
+                                    colour only.
+                                roughness: 0.26
+                                roughness_variation: 0.045
+                            model_formats:
+                            - stl
+                            - glb
+                            modelling_choices:
+                                bearing: Bolt bearing circle and c selected within
+                                    limits; k includes bearing thickness; fillet tangent
+                                    to shaft and bearing.
+                                cavity: Nut through-bore has a helical internal surface;
+                                    display keeps minor-diameter bore and mouth chamfers.
+                                certification: Nominal visual catalogue model, not
+                                    manufacturing tolerance certification.
+                                chamfer: 30 degree outer hex chamfer. Nut mouth included
+                                    angle 120 degrees. Bolt tip 45 degrees, P/2.
+                                components: One closed solid for supported products.
+                                    Unspecified lock/cage assemblies are not substituted
+                                    with plain hex nuts.
+                                dimension_selection: Nominal bolt head height, max
+                                    flats/nut height, nominal washer sizes; selected
+                                    dimensions stored in parameters.
+                                display: Smooth nominal external-thread envelope or
+                                    smooth minor-diameter internal bore; lower angular
+                                    and fillet tessellation.
+                                family_note: Lengths are catalogue selections; the
+                                    cited supplier table verifies head dimensions,
+                                    not every length offered here.
+                                markings: Supplier and property-class markings omitted
+                                    because catalogue does not identify them.
+                                runout: External one-pitch fade to plain shank; full
+                                    thread ends at underhead fillet.
+                                thread: Nominal ISO basic metric profile, no ISO 965
+                                    tolerance offsets. External rounded root H/6,
+                                    internal P/4 crest and P/8 root flats.
+                                unspecified_geometry: Nut mouth for supplier rows
+                                    without limits and flange M3/M4 thickness/rim
+                                    blends are explicit visual model selections.
+                            output_folder: three_d_model
+                            parameters:
+                                across_flats_mm: 10
+                                bearing_diameter_mm: 9.4
+                                bearing_height_mm: 0.3
+                                characteristic_dimension_basis: nominal axial thread
+                                    diameter
+                                characteristic_dimension_mm: 6.0
+                                expected_components: 1
+                                external_minor_diameter_mm: 4.773130677972045
+                                family: bolt
+                                finish: satin
+                                handedness: right
+                                head_chamfer_height_mm: 0.4465819873852048
+                                head_height_mm: 4
+                                identity: hardware_set_screw_m6_18_mm_length
+                                internal_minor_diameter_mm: 4.917468245269452
+                                length_convention: under-head bearing plane to tip
+                                length_mm: 18.0
+                                nominal_diameter_mm: 6.0
+                                outer_chamfer_angle_degrees: 30.0
+                                overall_height_mm: 22.0
+                                pitch_mm: 1
+                                plain_shank_length_mm: 0.25
+                                specification: ISO 4017 supplier dimensional specification
+                                    (edition not stated)
+                                thread_end_z_mm: 17.75
+                                thread_flank_angle_degrees: 60.0
+                                thread_length_mm: 16.75
+                                thread_length_table_mm: null
+                                thread_mode: full
+                                thread_pitch_diameter_mm: 5.350480947161671
+                                thread_runout_mm: 1
+                                thread_starts: 1
+                                tip_chamfer_mm: 0.5
+                                underhead_fillet_mm: 0.25
+                            renders:
+                                high:
+                                    file: render_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: isometric
+                                low:
+                                    file: render_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: isometric
+                                product_high:
+                                    file: render_product_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: product
+                                product_low:
+                                    file: render_product_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: product
+                            schema_version: 1
+                            source_table: source_file/standards/catalogue_hardware.yaml
+                            sources:
+                            -   title: Westfield Fasteners ISO 4017 hex head set screw
+                                    specification
+                                url: https://www.westfieldfasteners.co.uk/Standards/ScrewBolt-HexHd4017-M-THRfull.html
+                            -   title: ISO 68-1:1998 basic ISO metric thread profile
+                                url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                            standard: ISO 4017 supplier dimensional specification
+                                (edition not stated)
+                            standard_lengths_mm: []
+                            standard_limits:
+                                across_corners_min_mm: 11.05
+                                across_flats_mm:
+                                - 9.78
+                                - 10
+                                bearing_diameter_min_mm: 8.88
+                                head_height_mm:
+                                - 3.85
+                                - 4.15
+                                incomplete_thread_max_mm: 2
+                                outer_chamfer_angle_degrees:
+                                - 15
+                                - 30
+                                product_grade: A
+                                underhead_fillet_min_mm: 0.25
+                            studio:
+                                adaptive_threshold: 0.015
+                                denoise: true
+                                device: auto
+                                engine: cycles
+                                exposure: 0.0
+                                floor_colour_srgb:
+                                - 0.93
+                                - 0.935
+                                - 0.94
+                                floor_roughness: 0.55
+                                framing_margin: 0.13
+                                high_samples: 160
+                                lights:
+                                -   colour:
+                                    - 1.0
+                                    - 0.96
+                                    - 0.9
+                                    height: 5.0
+                                    name: Key softbox
+                                    position:
+                                    - -3
+                                    - -4
+                                    - 6
+                                    power: 650.0
+                                    width: 4.0
+                                -   colour:
+                                    - 0.9
+                                    - 0.95
+                                    - 1.0
+                                    height: 4.0
+                                    name: Fill softbox
+                                    position:
+                                    - 4
+                                    - -1
+                                    - 3
+                                    power: 330.0
+                                    width: 3.0
+                                -   colour:
+                                    - 1.0
+                                    - 1.0
+                                    - 1.0
+                                    height: 5.0
+                                    name: Rim strip
+                                    position:
+                                    - 1
+                                    - 4
+                                    - 4
+                                    power: 850.0
+                                    width: 1.2
+                                look: AgX - Medium High Contrast
+                                low_samples: 48
+                                poses:
+                                    isometric:
+                                        camera_eye:
+                                        - 1
+                                        - -1
+                                        - 1
+                                        orientation: principal axis Z up
+                                        projection: orthographic
+                                    product:
+                                        camera_eye:
+                                        - -6
+                                        - -10
+                                        - 6
+                                        orientation: lying on side, axial end to left
+                                        projection: orthographic
+                                        resting_axis: side
+                                        support: Stable convex-hull support using
+                                            actual mesh centre of mass.
+                                        yaw_degrees: -12.0
+                                seed: 7991
+                                view_transform: AgX
+                                world_colour:
+                                - 0.78
+                                - 0.82
+                                - 0.9
+                                world_strength: 0.35
+                            units: mm
+                            variants:
+                                display:
+                                    angular_segments: 24
+                                    fillet_segments: 3
+                                    samples_per_pitch: 1
+                                full:
+                                    angular_segments: 96
+                                    fillet_segments: 12
+                                    samples_per_pitch: 32
+                            views:
+                            - isometric
+                            - front
+                            - back
+                            - left
+                            - right
+                            - top
+                            - bottom
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 18 hex head fully threaded set screw DIN 933
+                        steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+18+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 18 hex head fully threaded set screw DIN 933
+                        steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+18+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T10:58:50.824510+00:00'
+                    evidence_file: support_files/evidence/hardware_set_screw_m6_18_mm_length/google/1b83146052f14f418a7613b53d8f8f0d.yaml
+                    evidence_url: https://www.google.com/search?q=M6+x+18+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    material_evidence: High tensile steel grade 8.8
+                    product_name: M6 x 18 Hexagon Head Set Screws High Tensile Grade
+                        8.8 Bright Zinc Plated, DIN 933
+                    reason: The supplied search term produced an exact Orbital Fasteners
+                        M6 x 18 mm DIN 933 set screw.
+                    result_url: https://www.orbitalfasteners.co.uk/products/m6-x-18-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated-din-933
+                    search_evidence: Google returned an exact M6 x 18 mm fully threaded
+                        high tensile grade 8.8 steel product in bright zinc plating.
+                        Opening the result confirmed the product heading, SKU 1851178,
+                        full-threaded form, grade and finish.
+                    search_for: M6 x 18 hex head fully threaded set screw DIN 933
+                        steel
+                    search_url: https://www.google.com/search?q=M6+x+18+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: 'Single-size product: M6 x 18 mm; SKU 1851178;
+                        grade 8.8; bright zinc plated.'
+                    specification: M6 metric thread, 1.0 mm pitch, 18 mm length, fully
+                        threaded hexagon head, high tensile grade 8.8 steel, bright
+                        zinc plated, DIN 933.
+                    status: verified
+            spec_iso_b_125_lt_l_le_200_mm: '24'
+            spec_iso_b_l_gt_200_mm: ''
+            spec_iso_b_l_le_125_mm: '18'
+            spec_iso_c_max_mm: '0.50'
+            spec_iso_c_min_mm: '0.15'
+            spec_iso_da_max_mm: '6.8'
+            spec_iso_dw_min_mm: '8.88'
+            spec_iso_e_min_mm: '11.05'
+            spec_iso_k_max_mm: '4.15'
+            spec_iso_k_min_mm: '3.85'
+            spec_iso_nominal_diameter: M6
+            spec_iso_s_max_mm: '10.00'
+            spec_iso_s_min_mm: '9.78'
+            spec_iso_thread_pitch_mm: '1.00'
+            supplier_data:
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T00:38:48.947926+00:00'
+                    currency: GBP
+                    html_sha256: 155159958881e24708f91610deb6439ccbc594dbfd8315c60e3029a4cc5ad59c
+                    name: M6 x 18mm Hexagon Head Set Screws Bolts Fully Threaded Self
+                        Colour Black Grade 8.8, DIN 933
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:03:26.005942+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M6 (6mm); Length (L): 18mm; Material:
+                        High Tensile (Grade 8.8); Finish: Self Colour; Head Length
+                        (H): 4.24mm; Pitch: 1mm; Socket Size (J): 10mm; Manufacturing
+                        Standard: 933; Material Specification: High Tensile (Grade
+                        8.8); Fully Threaded: Yes'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 20324.060.018
+                    supplier_part_number: 20324.060.018
+                    supplier_website: https://dibolt.co.uk/products/m6-x-18mm-hexagon-head-set-screw-fully-threaded-self-colour-black-grade-8-8-din-933
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA38.34 Per 100 Units"
+                        source_unit_price: '0.0834'
+                        source_vat_basis: exclusive
+                        unit_price: '0.100080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2,499 \xA37.92 Per 100 Units"
+                        source_unit_price: '0.0792'
+                        source_vat_basis: exclusive
+                        unit_price: '0.095040'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2500
+                        source_text: "2,500+ \xA37.51 Per 100 Units"
+                        source_unit_price: '0.0751'
+                        source_vat_basis: exclusive
+                        unit_price: '0.090120'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.100080'
+                    total_price_10: '1.000800'
+                    total_price_100: '10.008000'
+                    total_price_1000: '95.040000'
+                    total_price_10000: '901.200000'
+                    unit_price_1: '0.100080'
+                    unit_price_10: '0.100080'
+                    unit_price_100: '0.100080'
+                    unit_price_1000: '0.095040'
+                    unit_price_10000: '0.090120'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '500'
+                    captured_at: '2026-10-12T20:27:28.165044+00:00'
+                    catalogue_page: ''
+                    currency: GBP
+                    description: ''
+                    html_sha256: 229d4424a6dead322a4170af0b0ab45ee5eaede5b19d8ebe25be568dd2bd83de
+                    name: M6 x 18 Hexagon Head Set Screws High Tensile Grade 8.8 Bright
+                        Zinc Plated, DIN 933
+                    parsed_at: '2026-10-18T08:49:38.069958+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm More Info
+                    stock_quantity: '4686'
+                    supplier: orbitalfasteners
+                    supplier_id: '1851178'
+                    supplier_part_number: '1851178'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m6-x-18-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated-din-933
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA30.0551 Inc. VAT \xA35.51 Inc. VAT"
+                        source_unit_price: '0.0551'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0551'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2499 \xA30.0306 Inc. VAT \xA33.06 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0306'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0306'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 3999
+                        minimum: 2500
+                        source_text: "2500 - 3999 \xA30.0276 Inc. VAT \xA32.76 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0276'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0276'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 4000
+                        source_text: "4000 + \xA30.0245 Inc. VAT \xA32.45 Inc. VAT"
+                        source_unit_price: '0.0245'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0245'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0551'
+                    total_price_10: '0.5510'
+                    total_price_100: '5.5100'
+                    total_price_1000: '30.6000'
+                    total_price_10000: '245.0000'
+                    unit_price_1: '0.0551'
+                    unit_price_10: '0.0551'
+                    unit_price_100: '0.0551'
+                    unit_price_1000: '0.0306'
+                    unit_price_10000: '0.0245'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+            svg_details:
+            -   svg_b_125_lt_l_le_200_mm: '24'
+                svg_b_l_gt_200_mm: ''
+                svg_b_l_le_125_mm: '18'
+                svg_c_max_mm: '0.50'
+                svg_c_min_mm: '0.15'
+                svg_da_max_mm: '6.8'
+                svg_dw_min_mm: '8.88'
+                svg_e_min_mm: '11.05'
+                svg_k_max_mm: '4.15'
+                svg_k_min_mm: '3.85'
+                svg_name: set_screw
+                svg_nominal_diameter: M6
+                svg_s_max_mm: '10.00'
+                svg_s_min_mm: '9.78'
+                svg_thread_pitch_mm: '1.00'
+            -   af_mm: 10.0
+                filename: working_mechanical_drawing
+                hardware_type: set_screw
+                head_height_mm: 4.15
+                id_mm: 6.0
+                length_mm: 18.0
+                part_category: HARDWARE / SET SCREW
+                part_code: ISO4017 / DIN933
+                part_name: ''
+                part_series: HEX HEAD FULL THREAD SCREW
+                part_title: "M6\xD718"
+                svg_name: oomp_mech_drawing_hardware
+                thread_length_mm: 18.0
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: set_screw
+            taxonomy_3: m6
+            taxonomy_4: ''
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: 18_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z towards head
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: tip centre
+                    stl_units: mm
+                dimension_status: standard_dimensions
+                dimensional_specification: ISO 4017 supplier dimensional specification
+                    (edition not stated)
+                generator: iso_4017_hex_screw
+                length_status: catalogue_length_not_verified_in_source_length_table
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Lengths are catalogue selections; the cited supplier
+                        table verifies head dimensions, not every length offered here.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 10
+                    bearing_diameter_mm: 9.4
+                    bearing_height_mm: 0.3
+                    characteristic_dimension_basis: nominal axial thread diameter
+                    characteristic_dimension_mm: 6.0
+                    expected_components: 1
+                    external_minor_diameter_mm: 4.773130677972045
+                    family: bolt
+                    finish: satin
+                    handedness: right
+                    head_chamfer_height_mm: 0.4465819873852048
+                    head_height_mm: 4
+                    identity: hardware_set_screw_m6_18_mm_length
+                    internal_minor_diameter_mm: 4.917468245269452
+                    length_convention: under-head bearing plane to tip
+                    length_mm: 18.0
+                    nominal_diameter_mm: 6.0
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 22.0
+                    pitch_mm: 1
+                    plain_shank_length_mm: 0.25
+                    specification: ISO 4017 supplier dimensional specification (edition
+                        not stated)
+                    thread_end_z_mm: 17.75
+                    thread_flank_angle_degrees: 60.0
+                    thread_length_mm: 16.75
+                    thread_length_table_mm: null
+                    thread_mode: full
+                    thread_pitch_diameter_mm: 5.350480947161671
+                    thread_runout_mm: 1
+                    thread_starts: 1
+                    tip_chamfer_mm: 0.5
+                    underhead_fillet_mm: 0.25
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: Westfield Fasteners ISO 4017 hex head set screw specification
+                    url: https://www.westfieldfasteners.co.uk/Standards/ScrewBolt-HexHd4017-M-THRfull.html
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: ISO 4017 supplier dimensional specification (edition not
+                    stated)
+                standard_lengths_mm: []
+                standard_limits:
+                    across_corners_min_mm: 11.05
+                    across_flats_mm:
+                    - 9.78
+                    - 10
+                    bearing_diameter_min_mm: 8.88
+                    head_height_mm:
+                    - 3.85
+                    - 4.15
+                    incomplete_thread_max_mm: 2
+                    outer_chamfer_angle_degrees:
+                    - 15
+                    - 30
+                    product_grade: A
+                    underhead_fillet_min_mm: 0.25
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: lying on side, axial end to left
+                            projection: orthographic
+                            resting_axis: side
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_bolt_image.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        description: label_drawer
+        dict_data:
+            label_drawer: *id001
+        file_output: label_drawer.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
+oomp_key: oomp_hardware_set_screw_m6_18_mm_length
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M6 x 18 hex head fully threaded set screw DIN 933 steel
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+18+hex+head+fully+threaded+set+screw+DIN+933+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M6 x 18 hex head fully threaded set screw DIN 933 steel
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+18+hex+head+fully+threaded+set+screw+DIN+933+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T10:58:50.824510+00:00'
+        evidence_file: support_files/evidence/hardware_set_screw_m6_18_mm_length/google/1b83146052f14f418a7613b53d8f8f0d.yaml
+        evidence_url: https://www.google.com/search?q=M6+x+18+hex+head+fully+threaded+set+screw+DIN+933+steel
+        material_evidence: High tensile steel grade 8.8
+        product_name: M6 x 18 Hexagon Head Set Screws High Tensile Grade 8.8 Bright
+            Zinc Plated, DIN 933
+        reason: The supplied search term produced an exact Orbital Fasteners M6 x
+            18 mm DIN 933 set screw.
+        result_url: https://www.orbitalfasteners.co.uk/products/m6-x-18-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated-din-933
+        search_evidence: Google returned an exact M6 x 18 mm fully threaded high tensile
+            grade 8.8 steel product in bright zinc plating. Opening the result confirmed
+            the product heading, SKU 1851178, full-threaded form, grade and finish.
+        search_for: M6 x 18 hex head fully threaded set screw DIN 933 steel
+        search_url: https://www.google.com/search?q=M6+x+18+hex+head+fully+threaded+set+screw+DIN+933+steel
+        selected_variant: 'Single-size product: M6 x 18 mm; SKU 1851178; grade 8.8;
+            bright zinc plated.'
+        specification: M6 metric thread, 1.0 mm pitch, 18 mm length, fully threaded
+            hexagon head, high tensile grade 8.8 steel, bright zinc plated, DIN 933.
+        status: verified
+spec_iso_b_125_lt_l_le_200_mm: '24'
+spec_iso_b_l_gt_200_mm: ''
+spec_iso_b_l_le_125_mm: '18'
+spec_iso_c_max_mm: '0.50'
+spec_iso_c_min_mm: '0.15'
+spec_iso_da_max_mm: '6.8'
+spec_iso_dw_min_mm: '8.88'
+spec_iso_e_min_mm: '11.05'
+spec_iso_k_max_mm: '4.15'
+spec_iso_k_min_mm: '3.85'
+spec_iso_nominal_diameter: M6
+spec_iso_s_max_mm: '10.00'
+spec_iso_s_min_mm: '9.78'
+spec_iso_thread_pitch_mm: '1.00'
+supplier_data:
+    dibolt:
+        accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-14T00:38:48.947926+00:00'
+        currency: GBP
+        html_sha256: 155159958881e24708f91610deb6439ccbc594dbfd8315c60e3029a4cc5ad59c
+        name: M6 x 18mm Hexagon Head Set Screws Bolts Fully Threaded Self Colour Black
+            Grade 8.8, DIN 933
+        packages: '[]'
+        parsed_at: '2026-10-18T09:03:26.005942+00:00'
+        parser_version: dibolt-1.3-missing-price-review
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept the precision of rounded displayed per-100 prices."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: 'Thread Size: M6 (6mm); Length (L): 18mm; Material: High Tensile
+            (Grade 8.8); Finish: Self Colour; Head Length (H): 4.24mm; Pitch: 1mm;
+            Socket Size (J): 10mm; Manufacturing Standard: 933; Material Specification:
+            High Tensile (Grade 8.8); Fully Threaded: Yes'
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: dibolt
+        supplier_id: 20324.060.018
+        supplier_part_number: 20324.060.018
+        supplier_website: https://dibolt.co.uk/products/m6-x-18mm-hexagon-head-set-screw-fully-threaded-self-colour-black-grade-8-8-din-933
+        tiers:
+        -   maximum: 499
+            minimum: 1
+            source_text: "1 - 499 \xA38.34 Per 100 Units"
+            source_unit_price: '0.0834'
+            source_vat_basis: exclusive
+            unit_price: '0.100080'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 2499
+            minimum: 500
+            source_text: "500 - 2,499 \xA37.92 Per 100 Units"
+            source_unit_price: '0.0792'
+            source_vat_basis: exclusive
+            unit_price: '0.095040'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 2500
+            source_text: "2,500+ \xA37.51 Per 100 Units"
+            source_unit_price: '0.0751'
+            source_vat_basis: exclusive
+            unit_price: '0.090120'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.100080'
+        total_price_10: '1.000800'
+        total_price_100: '10.008000'
+        total_price_1000: '95.040000'
+        total_price_10000: '901.200000'
+        unit_price_1: '0.100080'
+        unit_price_10: '0.100080'
+        unit_price_100: '0.100080'
+        unit_price_1000: '0.095040'
+        unit_price_10000: '0.090120'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Dibolt per-100 displayed prices are rounded; derived totals use captured
+            display precision
+    orbitalfasteners:
+        accepted_warnings: '[]'
+        box_quantity: '500'
+        captured_at: '2026-10-12T20:27:28.165044+00:00'
+        catalogue_page: ''
+        currency: GBP
+        description: ''
+        html_sha256: 229d4424a6dead322a4170af0b0ab45ee5eaede5b19d8ebe25be568dd2bd83de
+        name: M6 x 18 Hexagon Head Set Screws High Tensile Grade 8.8 Bright Zinc Plated,
+            DIN 933
+        parsed_at: '2026-10-18T08:49:38.069958+00:00'
+        parser_version: 1.2-review-policy
+        review_policy: ''
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: inclusive
+        status: ok
+        stock_as_of: 9th October 2026 10:01pm More Info
+        stock_quantity: '4686'
+        supplier: orbitalfasteners
+        supplier_id: '1851178'
+        supplier_part_number: '1851178'
+        supplier_website: https://www.orbitalfasteners.co.uk/products/m6-x-18-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated-din-933
+        tiers:
+        -   maximum: 499
+            minimum: 1
+            source_text: "1 - 499 \xA30.0551 Inc. VAT \xA35.51 Inc. VAT"
+            source_unit_price: '0.0551'
+            source_vat_basis: inclusive
+            unit_price: '0.0551'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 2499
+            minimum: 500
+            source_text: "500 - 2499 \xA30.0306 Inc. VAT \xA33.06 Inc. VAT"
+            source_unit_price: '0.0306'
+            source_vat_basis: inclusive
+            unit_price: '0.0306'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 3999
+            minimum: 2500
+            source_text: "2500 - 3999 \xA30.0276 Inc. VAT \xA32.76 Inc. VAT"
+            source_unit_price: '0.0276'
+            source_vat_basis: inclusive
+            unit_price: '0.0276'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 4000
+            source_text: "4000 + \xA30.0245 Inc. VAT \xA32.45 Inc. VAT"
+            source_unit_price: '0.0245'
+            source_vat_basis: inclusive
+            unit_price: '0.0245'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.0551'
+        total_price_10: '0.5510'
+        total_price_100: '5.5100'
+        total_price_1000: '30.6000'
+        total_price_10000: '245.0000'
+        unit_price_1: '0.0551'
+        unit_price_10: '0.0551'
+        unit_price_100: '0.0551'
+        unit_price_1000: '0.0306'
+        unit_price_10000: '0.0245'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings: []
+svg_details:
+-   svg_b_125_lt_l_le_200_mm: '24'
+    svg_b_l_gt_200_mm: ''
+    svg_b_l_le_125_mm: '18'
+    svg_c_max_mm: '0.50'
+    svg_c_min_mm: '0.15'
+    svg_da_max_mm: '6.8'
+    svg_dw_min_mm: '8.88'
+    svg_e_min_mm: '11.05'
+    svg_k_max_mm: '4.15'
+    svg_k_min_mm: '3.85'
+    svg_name: set_screw
+    svg_nominal_diameter: M6
+    svg_s_max_mm: '10.00'
+    svg_s_min_mm: '9.78'
+    svg_thread_pitch_mm: '1.00'
+-   af_mm: 10.0
+    filename: working_mechanical_drawing
+    hardware_type: set_screw
+    head_height_mm: 4.15
+    id_mm: 6.0
+    length_mm: 18.0
+    part_category: HARDWARE / SET SCREW
+    part_code: ISO4017 / DIN933
+    part_name: ''
+    part_series: HEX HEAD FULL THREAD SCREW
+    part_title: "M6\xD718"
+    svg_name: oomp_mech_drawing_hardware
+    thread_length_mm: 18.0
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: set_screw
+taxonomy_2_capital: Set Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: se
+taxonomy_2_length_3: set
+taxonomy_2_length_4: set_
+taxonomy_2_length_5: set_s
+taxonomy_2_upper: SET_SCREW
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: SE
+taxonomy_2_upper_length_3: SET
+taxonomy_2_upper_length_4: SET_
+taxonomy_2_upper_length_5: SET_S
+taxonomy_3: m6
+taxonomy_3_capital: M6
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m6
+taxonomy_3_length_3: m6
+taxonomy_3_length_4: m6
+taxonomy_3_length_5: m6
+taxonomy_3_upper: M6
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M6
+taxonomy_3_upper_length_3: M6
+taxonomy_3_upper_length_4: M6
+taxonomy_3_upper_length_5: M6
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: 18_mm_length
+taxonomy_7_capital: 18 mm Length
+taxonomy_7_first_letter: '1'
+taxonomy_7_first_letter_upper: '1'
+taxonomy_7_length_1: '1'
+taxonomy_7_length_2: '18'
+taxonomy_7_length_3: '18_'
+taxonomy_7_length_4: 18_m
+taxonomy_7_length_5: 18_mm
+taxonomy_7_upper: 18_MM_LENGTH
+taxonomy_7_upper_length_1: '1'
+taxonomy_7_upper_length_2: '18'
+taxonomy_7_upper_length_3: '18_'
+taxonomy_7_upper_length_4: 18_M
+taxonomy_7_upper_length_5: 18_MM
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+    checked_on: '2026-10-11'
+    coordinate_system:
+        axis: +Z towards head
+        glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+        glb_units: metres
+        glb_up_axis: Y
+        origin: tip centre
+        stl_units: mm
+    dimension_status: standard_dimensions
+    dimensional_specification: ISO 4017 supplier dimensional specification (edition
+        not stated)
+    generator: iso_4017_hex_screw
+    length_status: catalogue_length_not_verified_in_source_length_table
+    material:
+        base_colour_srgb:
+        - 0.62
+        - 0.65
+        - 0.69
+        coat_roughness: 0.28
+        coat_weight: 0.02
+        metallic: 1.0
+        microtexture_height_um: 0.8
+        microtexture_spacing_mm: 0.025
+        name: Satin steel
+        note: Visual finish approximation; catalogue specifies colour only.
+        roughness: 0.26
+        roughness_variation: 0.045
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+        bearing: Bolt bearing circle and c selected within limits; k includes bearing
+            thickness; fillet tangent to shaft and bearing.
+        cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
+            bore and mouth chamfers.
+        certification: Nominal visual catalogue model, not manufacturing tolerance
+            certification.
+        chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees.
+            Bolt tip 45 degrees, P/2.
+        components: One closed solid for supported products. Unspecified lock/cage
+            assemblies are not substituted with plain hex nuts.
+        dimension_selection: Nominal bolt head height, max flats/nut height, nominal
+            washer sizes; selected dimensions stored in parameters.
+        display: Smooth nominal external-thread envelope or smooth minor-diameter
+            internal bore; lower angular and fillet tessellation.
+        family_note: Lengths are catalogue selections; the cited supplier table verifies
+            head dimensions, not every length offered here.
+        markings: Supplier and property-class markings omitted because catalogue does
+            not identify them.
+        runout: External one-pitch fade to plain shank; full thread ends at underhead
+            fillet.
+        thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+            rounded root H/6, internal P/4 crest and P/8 root flats.
+        unspecified_geometry: Nut mouth for supplier rows without limits and flange
+            M3/M4 thickness/rim blends are explicit visual model selections.
+    output_folder: three_d_model
+    parameters:
+        across_flats_mm: 10
+        bearing_diameter_mm: 9.4
+        bearing_height_mm: 0.3
+        characteristic_dimension_basis: nominal axial thread diameter
+        characteristic_dimension_mm: 6.0
+        expected_components: 1
+        external_minor_diameter_mm: 4.773130677972045
+        family: bolt
+        finish: satin
+        handedness: right
+        head_chamfer_height_mm: 0.4465819873852048
+        head_height_mm: 4
+        identity: hardware_set_screw_m6_18_mm_length
+        internal_minor_diameter_mm: 4.917468245269452
+        length_convention: under-head bearing plane to tip
+        length_mm: 18.0
+        nominal_diameter_mm: 6.0
+        outer_chamfer_angle_degrees: 30.0
+        overall_height_mm: 22.0
+        pitch_mm: 1
+        plain_shank_length_mm: 0.25
+        specification: ISO 4017 supplier dimensional specification (edition not stated)
+        thread_end_z_mm: 17.75
+        thread_flank_angle_degrees: 60.0
+        thread_length_mm: 16.75
+        thread_length_table_mm: null
+        thread_mode: full
+        thread_pitch_diameter_mm: 5.350480947161671
+        thread_runout_mm: 1
+        thread_starts: 1
+        tip_chamfer_mm: 0.5
+        underhead_fillet_mm: 0.25
+    renders:
+        high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+        low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+        product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+        product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+    schema_version: 1
+    source_table: source_file/standards/catalogue_hardware.yaml
+    sources:
+    -   title: Westfield Fasteners ISO 4017 hex head set screw specification
+        url: https://www.westfieldfasteners.co.uk/Standards/ScrewBolt-HexHd4017-M-THRfull.html
+    -   title: ISO 68-1:1998 basic ISO metric thread profile
+        url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+    standard: ISO 4017 supplier dimensional specification (edition not stated)
+    standard_lengths_mm: []
+    standard_limits:
+        across_corners_min_mm: 11.05
+        across_flats_mm:
+        - 9.78
+        - 10
+        bearing_diameter_min_mm: 8.88
+        head_height_mm:
+        - 3.85
+        - 4.15
+        incomplete_thread_max_mm: 2
+        outer_chamfer_angle_degrees:
+        - 15
+        - 30
+        product_grade: A
+        underhead_fillet_min_mm: 0.25
+    studio:
+        adaptive_threshold: 0.015
+        denoise: true
+        device: auto
+        engine: cycles
+        exposure: 0.0
+        floor_colour_srgb:
+        - 0.93
+        - 0.935
+        - 0.94
+        floor_roughness: 0.55
+        framing_margin: 0.13
+        high_samples: 160
+        lights:
+        -   colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+        -   colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+        -   colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+        look: AgX - Medium High Contrast
+        low_samples: 48
+        poses:
+            isometric:
+                camera_eye:
+                - 1
+                - -1
+                - 1
+                orientation: principal axis Z up
+                projection: orthographic
+            product:
+                camera_eye:
+                - -6
+                - -10
+                - 6
+                orientation: lying on side, axial end to left
+                projection: orthographic
+                resting_axis: side
+                support: Stable convex-hull support using actual mesh centre of mass.
+                yaw_degrees: -12.0
+        seed: 7991
+        view_transform: AgX
+        world_colour:
+        - 0.78
+        - 0.82
+        - 0.9
+        world_strength: 0.35
+    units: mm
+    variants:
+        display:
+            angular_segments: 24
+            fillet_segments: 3
+            samples_per_pitch: 1
+        full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
+url_chat: ''
+```
+
+</details>
+
+## Parts
+
+[Full-detail 3D model (GLB)](three_d_model/model_full.glb) · [Dimensioned drawing (PDF)](working_mechanical_drawing_a4.pdf) · [Full-detail view drawings](three_d_model/full/) · [Drawer label (SVG)](label_drawer.svg)
+
+Full-detail and simplified display models are alternatives for the same part. GLB uses metres; STL, where supplied, uses millimetres. The [part folder](./) contains all available files.
+
+## Assembly
+
+This page documents a component rather than a complete project assembly. No installation sequence or tightening torque is specified by this record.
+<!-- hardware-part:end -->

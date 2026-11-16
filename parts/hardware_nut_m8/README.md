@@ -1,0 +1,4128 @@
+<!-- hardware-part:start -->
+# M8 hex nut
+
+## Summary
+
+A metric nut with a modelled internal thread. The dimensions below identify the exact catalogue variant.
+
+[Hardware catalogue](../../README.md) · [Browse this family](../../navigation_oobb/README.md#nuts)
+
+| Isometric | Product view |
+| --- | --- |
+| [![Full-detail isometric render](three_d_model/readme_isometric.png)](three_d_model/render_high.png) | [![Full-detail product view render](three_d_model/readme_product.png)](three_d_model/render_product_high.png) |
+
+Full-detail catalogue renders. Click either image to open the original resolution.
+
+## Details
+
+**OOMP ID:** `hardware_nut_m8`
+
+**Short code:** `3qnsf` · **Three-word label:** garlic urge token
+
+| Model dimension | mm |
+| --- | ---: |
+| Nominal size | 8 |
+| Thread pitch | 1.25 |
+| Across flats | 13 |
+| Height / thickness | 6.8 |
+
+Dimensions above are values used by the saved model recipe, in millimetres. **Model basis: standard dimensions.**
+
+<details>
+<summary>Model provenance and assumptions</summary>
+
+**Recorded dimensional reference:** ISO 4032:2012
+
+**Source checked:** 2026-10-11
+
+**Visual finish:** Satin steel
+
+**Finish assumption:** Visual finish approximation; catalogue specifies colour only.
+
+**Family notes:** Catalogue family mapped to the cited dimensional pattern; exact supplier unspecified.
+
+These are saved catalogue references and modelling choices, not a claim of manufacturing certification.
+
+- [ISO 4032:2012 fourth edition, table 1, hexagon regular nuts](https://cdn.standards.iteh.ai/samples/61668/93b89b8502a943499386155c44018aaa/ISO-4032-2012.pdf)
+- [ISO 68-1:1998 basic ISO metric thread profile](https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf)
+
+[Complete model recipe](three_d_model/parameters.json)
+
+</details>
+
+<details>
+<summary>Complete part metadata</summary>
+
+[Source working.yaml](working.yaml)
+
+```yaml
+bip_39_2_word_array:
+- garlic
+- urge
+bip_39_2_word_no_space: garlicurge
+bip_39_2_word_space: garlic urge
+bip_39_2_word_underscore: garlic_urge
+bip_39_3_word_array:
+- garlic
+- urge
+- token
+bip_39_3_word_no_space: garlicurgetoken
+bip_39_3_word_space: garlic urge token
+bip_39_3_word_underscore: garlic_urge_token
+bip_39_full_array:
+- garlic
+- urge
+- token
+- obey
+- vicious
+- beach
+- pupil
+- embark
+- garbage
+- region
+- state
+- cook
+bip_39_full_no_space: garlicurgetokenobeyviciousbeachpupilembarkgarbageregionstatecook
+bip_39_full_space: garlic urge token obey vicious beach pupil embark garbage region
+    state cook
+bip_39_full_underscore: garlic_urge_token_obey_vicious_beach_pupil_embark_garbage_region_state_cook
+color_band_project_bolt_1: red
+color_band_project_bolt_1_string: ''
+color_band_project_bolt_2: grey
+color_band_project_bolt_2_string: m8
+color_band_project_bolt_3: blue
+color_band_project_bolt_3_string: nut
+color_band_string_project_bolt: colour_band_blue_grey_red
+color_band_string_project_bolt_string: colour_band_nut_m8_
+color_band_taxonomy_3: red
+color_band_taxonomy_6: blue
+color_band_taxonomy_7: grey
+directory: parts/hardware_nut_m8
+generate_stl: true
+id: hardware_nut_m8
+id_no_class: hardware_nut_m8
+id_no_size: hardware_nut_m8
+id_no_type: hardware_nut_m8
+label_drawer: &id001
+    bip39: garlic urge token
+    bip39_size: 2.35
+    code: NU
+    description: Nut / M8
+    detail_lines: []
+    detail_size: 2.05
+    detail_y: 21.1
+    diagram: <path d="M7 1.8H13L16 7L13 12.2H7L4 7Z"/><circle cx="10" cy="7" r="2.5"/>
+    drive_symbol: <path d="M5 1L8.46 3V7L5 9L1.54 7V3Z" fill="#ffffff"/>
+    length: ''
+    length_size: 7.8
+    length_x: 22.3603625
+    name: Nut
+    name_lines:
+    - Nut
+    name_size: 3.2
+    thread: M8
+    thread_size: 6.5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m8
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m8
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m8
+md5: 5fddef8fcbff3826eb7a425f96935317
+md5_10: 5fddef8fcb
+md5_10_upper: 5FDDEF8FCB
+md5_5: 5fdde
+md5_5_upper: 5FDDE
+md5_6: 5fddef
+md5_6_alpha: 3qnsf
+md5_6_alpha_upper: 3QNSF
+md5_6_upper: 5FDDEF
+name: Hardware Nut M8
+name_no_class: Hardware Nut M8
+name_no_size: Hardware Nut M8
+name_no_type: Hardware Nut M8
+name_proper: Hardware Nut M8
+name_space: hardware nut m8
+name_upper: HARDWARE NUT M8
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            color_band_project_bolt_1: red
+            color_band_project_bolt_1_string: ''
+            color_band_project_bolt_2: grey
+            color_band_project_bolt_2_string: m8
+            color_band_project_bolt_3: blue
+            color_band_project_bolt_3_string: nut
+            color_band_string_project_bolt: colour_band_blue_grey_red
+            color_band_string_project_bolt_string: colour_band_nut_m8_
+            color_band_taxonomy_3: red
+            color_band_taxonomy_6: blue
+            color_band_taxonomy_7: grey
+            directory: parts\hardware_nut_m8
+            name: hardware_nut_m8
+            name_proper: Hardware Nut M8
+            name_space: hardware nut m8
+            name_upper: HARDWARE NUT M8
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M8 hexagon full nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M8+hexagon+full+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M8 hexagon full nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+hexagon+full+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T09:20:53.493263+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m8/google/7d10ab42d68d4df48b81c0542d76666a.yaml
+                    evidence_url: https://www.google.com/search?q=M8+hexagon+full+nut+steel
+                    material_evidence: Selected page identifies steel and Class 8;
+                        product information states Class 8 steel.
+                    product_name: M8 Hexagon Steel Full Nut Class 8 Bright Zinc Plated,
+                        DIN 934
+                    reason: "Orbital Fasteners\u2019 selected M8 hexagon full nut\
+                        \ is Class 8 steel, bright zinc plated and DIN 934."
+                    result_url: https://www.orbitalfasteners.co.uk/products/m8-hexagon-mild-steel-full-nuts-bright-zinc-plated
+                    search_evidence: "The supplied Google query returned Orbital Fasteners\u2019\
+                        \ M8 Hexagon Steel Full Nut Class 8 Bright Zinc Plated, DIN\
+                        \ 934. The selected page identifies SKU 1771040, M8, steel,\
+                        \ Class 8, bright zinc plated finish and DIN 934. Its product\
+                        \ information describes a class 8 steel full nut with bright\
+                        \ zinc plate."
+                    search_for: M8 hexagon full nut steel
+                    search_url: https://www.google.com/search?q=M8+hexagon+full+nut+steel
+                    selected_variant: Fixed M8 product; SKU 1771040
+                    specification: M8 hexagon full nut; Class 8 steel; bright zinc
+                        plated; DIN 934.
+                    status: verified
+            spec_iso_c_max_mm: '0.60'
+            spec_iso_c_min_mm: '0.15'
+            spec_iso_da_max_mm: '8.75'
+            spec_iso_da_min_mm: '8.00'
+            spec_iso_dw_min_mm: '11.60'
+            spec_iso_e_min_mm: '14.38'
+            spec_iso_m_max_mm: '6.80'
+            spec_iso_m_min_mm: '6.44'
+            spec_iso_nominal_diameter: M8
+            spec_iso_s_max_mm: '13.00'
+            spec_iso_s_min_mm: '12.73'
+            spec_iso_thread_pitch_mm: '1.25'
+            supplier_data:
+                aanddfasteners:
+                    accepted_warnings: '["Source quantity band starts at zero; normalized
+                        minimum to one item"]'
+                    captured_at: '2026-10-12T00:10:28.230594+00:00'
+                    currency: GBP
+                    html_sha256: 3e2f25e9ab235bd742be92dac365a9e2b1575b60c24a870891a6010f92e0ced6
+                    name: M8 Hexagon Full Nut, Steel self colour, Din 934
+                    packages: '[]'
+                    parsed_at: '2026-10-18T08:57:29.672795+00:00'
+                    parser_version: aanddfasteners-1.2-review-policy
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept zero-to-one quantity normalization
+                        and low-stock notices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: Product information A hexagonal nut also known
+                        as a full nut or hex nut. In class 8 mild steel with self
+                        colour finish to Din 934 with metric coarse thread. The full
+                        nut is typically used with a mating bolt or machine screw,
+                        and can be tightened by hand, spanner or socket wrench.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: aanddfasteners
+                    supplier_id: ST93408SC
+                    supplier_part_number: ST93408SC
+                    supplier_website: https://www.aanddfasteners.co.uk/shop/nuts/full-nut/metric-full-nut-din-934-steel-self-colour/m8-hexagon-full-nut-steel-self-colour-din-934/details
+                    tiers:
+                    -   maximum: 25
+                        minimum: 1
+                        source_text: "0 - 25 \xA3 0.10"
+                        source_unit_price: '0.10'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 50
+                        minimum: 26
+                        source_text: "26 -50 \xA3 0.08"
+                        source_unit_price: '0.08'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0960'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 51
+                        source_text: "51+ \xA3 0.06"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.1200'
+                    total_price_10: '1.2000'
+                    total_price_100: '7.2000'
+                    total_price_1000: '72.0000'
+                    total_price_10000: '720.0000'
+                    unit_price_1: '0.1200'
+                    unit_price_10: '0.1200'
+                    unit_price_100: '0.0720'
+                    unit_price_1000: '0.0720'
+                    unit_price_10000: '0.0720'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Source quantity band starts at zero; normalized minimum to one
+                        item
+                accu:
+                    accepted_warnings: '["Accu displayed prices are rounded; derived
+                        totals use the captured display precision", "Final Accu price
+                        tier has no captured upper boundary; final advertised unit
+                        price extended by user policy"]'
+                    box_quantity: ''
+                    captured_at: '2026-10-13T13:51:51.389634+00:00'
+                    currency: GBP
+                    description: "Hexagon Nuts are one of the most popular types of\
+                        \ fasteners, designed to be used in conjunction with screws,\
+                        \ bolts and other male threaded fasteners to securely join\
+                        \ multiple components together. When combined with a Mating\
+                        \ Bolt, a hex nut can be used to fasten two or more parts\
+                        \ together through a combination of compression, friction\
+                        \ (of the threads of the fasteners), and a slight stretching\
+                        \ of the bolt. Washers are also often used with nuts and bolts\
+                        \ to help distribute the load of the fasteners, for spacing\
+                        \ or protecting the surfaces of the mating components. This\
+                        \ type of metric nut is also commonly referred to as a Full\
+                        \ Nut or Finished Hex Nut, and is typically fastened using\
+                        \ either a wrench (spanner) or a ratchet. For heavy duty applications,\
+                        \ such as structural\_projects, Heavy Duty Hex Nuts are available\
+                        \ from Accu in both metric and imperial sizes. Metric Hex\
+                        \ Nut Materials Hexagon Nuts from Accu are manufactured in\
+                        \ a wide range of materials. Metal Hex Nuts available include\
+                        \ A1, A2, A4 Stainless Steel, with High Tensile options in\
+                        \ Duplex and Bumax Stainless Steel. Mild Steel (Grades 6,\
+                        \ 8, 10 and 12) is also available with either Hot Dip Galvanised\
+                        \ or Zinc Plated finishes. Accu also lists Plastic Hex Nuts\
+                        \ in our standard range, with Nylon, Polycarbonate, Polypropylene,\
+                        \ Reny and Polyphenylene options available, along with specialist\
+                        \ thermoplastics like PVDF and PEEK. Additionally, exotic\
+                        \ materials such as ceramic and aluminium are also available.\
+                        \ Hexagon Nuts can be manufactured in alternative material\
+                        \ types such as Brass, Phosphor Bronze and Titanium on request.\
+                        \ Metric Hexagon Nuts Accu's Hex Nuts are manufactured according\
+                        \ to internationally recognised industry standards, with DIN\
+                        \ 934 and ISO 4032 options available. As standard, we stock\
+                        \ Full Nuts in metric sizes from M1 to M56. These components\
+                        \ feature a coarse metric thread pitch, which makes them more\
+                        \ resistant to cross threading and stripping. Metric Fine\
+                        \ Pitch Hexagon Nuts are available from our online store for\
+                        \ applications which require finer adjustments and greater\
+                        \ resistance to loosening under vibration. Imperial Hexagon\
+                        \ Nuts Imperial Hexagon Nuts are also supplied by Accu in\
+                        \ diameters ranging from No. 0 up to 2 inch. Both UNC and\
+                        \ UNF threads are available."
+                    html_sha256: 2eb410ddbd5c8feb5096bff984a22cd458eec9a147d35db9dcb7a8bc6f9402f1
+                    name: M8 Hexagon Nuts (DIN 934) - Zinc and Yellow Passivated Mild
+                        Steel (Class 8)
+                    parsed_at: '2026-10-18T08:52:07.617217+00:00'
+                    parser_version: accu-1.9-base-material
+                    price_inheritance: "{\"1000\": {\"source_quantity\": 200, \"source_unit_price\"\
+                        : \"0.04\", \"source_text\": \"Buy 200 \xA30.04 Save 94 %\"\
+                        , \"basis\": \"user policy 2026-10-13\"}, \"10000\": {\"source_quantity\"\
+                        : 200, \"source_unit_price\": \"0.04\", \"source_text\": \"\
+                        Buy 200 \xA30.04 Save 94 %\", \"basis\": \"user policy 2026-10-13\"\
+                        }}"
+                    quote_minimum: ''
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept rounded displayed prices,
+                        open-ended final advertised tiers, and quotes required from
+                        400 units; quote-only prices remain blank."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.03",
+                        "highPrice": "0.77", "priceCurrency": "GBP", "offerCount":
+                        "10", "availability": "https://schema.org/InStock", "itemCondition":
+                        "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/hexagon-nuts/456455-HPN-M8-C8-Z",
+                        "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                        {"@type": "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "accus prices are all ex
+                        vat", "confirmed_on": "2026-10-13"}'
+                    specifications: '{"Accu Product Code (APC)": "HPN-M8-C8-Z", "Thread
+                        Size": "M8 (8 mm)", "Socket Size (J)": "13 mm (Tolerance:
+                        +0/-0.27 mm)", "Nut Thickness (H)": "6.5 mm (Tolerance: +0/-0.36
+                        mm)", "Material": "Steel - (Class 8)", "Finish": "Zinc and
+                        Yellow Passivated", "Manufacturing Standard": "DIN 934", "Material
+                        Family": "Steel", "System of Measurement": "Metric", "Thread
+                        Pitch": "1.25 mm"}'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: https://schema.org/InStock
+                    supplier: accu
+                    supplier_id: HPN-M8-C8-Z
+                    supplier_part_number: HPN-M8-C8-Z
+                    supplier_website: https://www.accu.co.uk/hexagon-nuts/456455-HPN-M8-C8-Z
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: "Buy 1 \xA30.77"
+                        source_unit_price: '0.77'
+                        source_vat_basis: exclusive
+                        unit_price: '0.9240'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 3
+                        minimum: 2
+                        source_text: "Buy 2 \xA30.42 Save 45 %"
+                        source_unit_price: '0.42'
+                        source_vat_basis: exclusive
+                        unit_price: '0.5040'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5
+                        minimum: 4
+                        source_text: "Buy 4 \xA30.25 Save 67 %"
+                        source_unit_price: '0.25'
+                        source_vat_basis: exclusive
+                        unit_price: '0.3000'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 11
+                        minimum: 6
+                        source_text: "Buy 6 \xA30.17 Save 77 %"
+                        source_unit_price: '0.17'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2040'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 23
+                        minimum: 12
+                        source_text: "Buy 12 \xA30.11 Save 85 %"
+                        source_unit_price: '0.11'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1320'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 24
+                        source_text: "Buy 24 \xA30.08 Save 89 %"
+                        source_unit_price: '0.08'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0960'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: "Buy 50 \xA30.06 Save 92 %"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 199
+                        minimum: 100
+                        source_text: "Buy 100 \xA30.05 Save 93 %"
+                        source_unit_price: '0.05'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0600'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        maximum_basis: user-approved open-ended final tier; no captured
+                            upper boundary
+                        minimum: 200
+                        source_text: "Buy 200 \xA30.04 Save 94 %"
+                        source_unit_price: '0.04'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0480'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.9240'
+                    total_price_10: '2.0400'
+                    total_price_100: '6.0000'
+                    total_price_1000: '48.0000'
+                    total_price_10000: '480.0000'
+                    unit_price_1: '0.9240'
+                    unit_price_10: '0.2040'
+                    unit_price_100: '0.0600'
+                    unit_price_1000: '0.0480'
+                    unit_price_10000: '0.0480'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Accu displayed prices are rounded; derived totals use the captured
+                        display precision
+                    - Final Accu price tier has no captured upper boundary; final
+                        advertised unit price extended by user policy
+                boltbase:
+                    accepted_warnings: '["Final Bolt Base threshold has no verified
+                        upper bound; extrapolation withheld"]'
+                    captured_at: '2026-10-12T01:57:17.978595+00:00'
+                    currency: GBP
+                    html_sha256: 1571e2057a08d312407a1679d413594ae7a3a00ef07e7789b1b3658182453cf3
+                    name: M8 (8mm) High Tensile Class 10 Self Colour Hexagon Full
+                        Nuts DIN 934
+                    packages: '[]'
+                    parsed_at: '2026-10-18T08:56:21.197819+00:00'
+                    parser_version: boltbase-1.2-review-policy
+                    price_inheritance: "{\"10000\": {\"source_quantity\": 5000, \"\
+                        source_unit_price\": \"0.04\", \"source_text\": \"Buy 5000\
+                        \ + You save 90% \xA30.04 \xA30.38\", \"basis\": \"user policy\
+                        \ 2026-10-13\"}}"
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "For a withheld 10000-unit price,
+                        inherit the highest available lower-quantity unit price."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "bolt base prices are ex
+                        vat", "confirmed_on": "2026-10-11"}'
+                    specifications: M8 x 1.25mm Pitch (8mm thread diameter) Hexagon
+                        Full Nuts. Manufactured from to DIN 934 in Class 10 High Tensile
+                        Steel. Hex Full Nuts, sometimes simply called plain nuts.
+                        Tightened by a spanner or hex socket, mostly used on their
+                        own with a washer or can be doubled up with a DIN 439 Hex
+                        Thin (Lock) Nut to produce a more secure connection. Please
+                        note that these nuts offer little to no protection from rusting
+                        and are more suited for indoor use or for applications where
+                        they are protected from moisture.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: boltbase
+                    supplier_id: HTSC10-934-M8
+                    supplier_part_number: HTSC10-934-M8
+                    supplier_website: https://boltbase.com/products/m8-8mm-high-tensile-class-10-self-colour-hexagon-full-nuts-din-934
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: "Single Nut Buy 1 For \xA30.38"
+                        source_unit_price: '0.38'
+                        source_vat_basis: exclusive
+                        unit_price: '0.4560'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4
+                        minimum: 2
+                        source_text: "Buy 2 + You save 45% \xA30.21 \xA30.38"
+                        source_unit_price: '0.21'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2520'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 9
+                        minimum: 5
+                        source_text: "Buy 5 + You save 65% \xA30.14 \xA30.38"
+                        source_unit_price: '0.14'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1680'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 24
+                        minimum: 10
+                        source_text: "Buy 10 + You save 75% \xA30.10 \xA30.38"
+                        source_unit_price: '0.10'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 25
+                        source_text: "Buy 25 + You save 77% \xA30.09 \xA30.38"
+                        source_unit_price: '0.09'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: "Buy 50 + You save 79% \xA30.08 \xA30.38"
+                        source_unit_price: '0.08'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0960'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 249
+                        minimum: 100
+                        source_text: "Buy 100 + You save 83% \xA30.07 \xA30.38"
+                        source_unit_price: '0.07'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 250
+                        source_text: "Buy 250 + You save 84% \xA30.06 \xA30.38"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 500
+                        source_text: "Buy 500 + You save 86% \xA30.06 \xA30.38"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_text: "Buy 1000 + You save 88% \xA30.05 \xA30.38"
+                        source_unit_price: '0.05'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0600'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5000
+                        minimum: 5000
+                        source_text: "Buy 5000 + You save 90% \xA30.04 \xA30.38"
+                        source_unit_price: '0.04'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0480'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.4560'
+                    total_price_10: '1.2000'
+                    total_price_100: '8.4000'
+                    total_price_1000: '60.0000'
+                    total_price_10000: '480.0000'
+                    unit_price_1: '0.4560'
+                    unit_price_10: '0.1200'
+                    unit_price_100: '0.0840'
+                    unit_price_1000: '0.0600'
+                    unit_price_10000: '0.0480'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Final Bolt Base threshold has no verified upper bound; extrapolation
+                        withheld
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-13T17:12:21.316631+00:00'
+                    currency: GBP
+                    html_sha256: 638e5b887b44fa8e2de13a3d2c14016e5e4a247c69254fc93562983be002f08e
+                    name: M8 Hexagon Full Nut, Grade 8 Steel, Self Colour, DIN 934
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:02:35.269098+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M8 (8mm); Nut Thickness (H): 6.5mm;
+                        Material: High Tensile (Grade 8); Finish: Self Colour; Thread
+                        Pitch: 1.25mm; Manufacturing Standard: DIN 934; Material Specification:
+                        High Tensile (Grade 8); Metric or Imperial?: Metric'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 10004.080.000
+                    supplier_part_number: 10004.080.000
+                    supplier_website: https://dibolt.co.uk/products/m8-hexagon-full-nut-grade-8-steel-self-colour-din-934
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA31.69 Per 100 Units"
+                        source_unit_price: '0.0169'
+                        source_vat_basis: exclusive
+                        unit_price: '0.020280'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2,499 \xA31.41 Per 100 Units"
+                        source_unit_price: '0.0141'
+                        source_vat_basis: exclusive
+                        unit_price: '0.016920'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2500
+                        source_text: "2,500+ \xA31.27 Per 100 Units"
+                        source_unit_price: '0.0127'
+                        source_vat_basis: exclusive
+                        unit_price: '0.015240'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.020280'
+                    total_price_10: '0.202800'
+                    total_price_100: '2.028000'
+                    total_price_1000: '16.920000'
+                    total_price_10000: '152.400000'
+                    unit_price_1: '0.020280'
+                    unit_price_10: '0.020280'
+                    unit_price_100: '0.020280'
+                    unit_price_1000: '0.016920'
+                    unit_price_10000: '0.015240'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T09:09:34.069713+00:00'
+                    currency: GBP
+                    family_description: Hexagon full nuts Metric coarse threads Grade
+                        8 steel Bright zinc plated.
+                    family_heading: METRIC HEXAGON FULL NUTS DIN 934 GRADE 8 ZINC
+                        PLATED
+                    html_sha256: d8833f35b56a77c481812ebf7d2a1005df8318acdc30e5afeea8eda20c32e7ea
+                    name: M8 FULL NUTS DIN 934 ZINC PLATED GRADE 8
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:29:58.576555+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M8 FULL NUTS DIN 934 ZINC PLATED GRADE
+                        8
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: METRIC HEXAGON FULL NUTS DIN 934 GRADE 8 ZINC
+                        PLATED; Hexagon full nuts Metric coarse threads Grade 8 steel
+                        Bright zinc plated.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M8-FULL-NUTS-DIN-934-ZINC-PLATED-GRADE-8
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M8-FULL-NUTS-DIN-934-ZINC-PLATED-GRADE-8
+                    supplier_website: https://www.kayfast.co.uk/view-product/METRIC-HEXAGON-FULL-NUTS-DIN-934-GRADE-8-ZINC-PLATED
+                    tiers:
+                    -   maximum: 49
+                        minimum: 1
+                        source_price_per_100: '10.25'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 49 @ \xA310.25 per 100"
+                        source_unit_price: '0.1025'
+                        source_vat_basis: exclusive
+                        unit_price: '0.123000'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 50
+                        source_price_per_100: '6.26'
+                        source_price_quantity: 100
+                        source_text: "QTY 50 -  499 @ \xA36.26 per 100"
+                        source_unit_price: '0.0626'
+                        source_vat_basis: exclusive
+                        unit_price: '0.075120'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 500
+                        source_price_per_100: '2.66'
+                        source_price_quantity: 100
+                        source_text: "QTY 500 + @ \xA32.66 per 100"
+                        source_unit_price: '0.0266'
+                        source_vat_basis: exclusive
+                        unit_price: '0.031920'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.123000'
+                    total_price_10: '1.230000'
+                    total_price_100: '7.512000'
+                    total_price_1000: '31.920000'
+                    total_price_10000: '319.200000'
+                    unit_price_1: '0.123000'
+                    unit_price_10: '0.123000'
+                    unit_price_100: '0.075120'
+                    unit_price_1000: '0.031920'
+                    unit_price_10000: '0.031920'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '200'
+                    captured_at: '2026-10-12T19:53:57.409540+00:00'
+                    catalogue_page: '26'
+                    currency: GBP
+                    description: ''
+                    html_sha256: a836c19ec124c599f380d6a6f3e9ae4e89b45161f9f7b063b79d2a3425e2df0a
+                    name: M8 Hexagon Steel Full Nut Class 8  Bright Zinc Plated, DIN
+                        934
+                    parsed_at: '2026-10-18T08:49:27.864061+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '682579'
+                    supplier: orbitalfasteners
+                    supplier_id: '1771040'
+                    supplier_part_number: '1771040'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m8-hexagon-mild-steel-full-nuts-bright-zinc-plated
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_text: "1 - 199 \xA30.0158 Inc. VAT \xA31.58 Inc. VAT"
+                        source_unit_price: '0.0158'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0158'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_text: "200 - 999 \xA30.0132 Inc. VAT \xA31.32 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0132'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0132'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 3999
+                        minimum: 1000
+                        source_text: "1000 - 3999 \xA30.0119 Inc. VAT \xA31.19 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0119'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0119'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 4000
+                        source_text: "4000 + \xA30.0106 Inc. VAT \xA31.06 Inc. VAT"
+                        source_unit_price: '0.0106'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0106'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0158'
+                    total_price_10: '0.1580'
+                    total_price_100: '1.5800'
+                    total_price_1000: '11.9000'
+                    total_price_10000: '106.0000'
+                    unit_price_1: '0.0158'
+                    unit_price_10: '0.0158'
+                    unit_price_100: '0.0158'
+                    unit_price_1000: '0.0119'
+                    unit_price_10000: '0.0106'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+            svg_details:
+            -   svg_c_max_mm: '0.60'
+                svg_c_min_mm: '0.15'
+                svg_da_max_mm: '8.75'
+                svg_da_min_mm: '8.00'
+                svg_dw_min_mm: '11.60'
+                svg_e_min_mm: '14.38'
+                svg_m_max_mm: '6.80'
+                svg_m_min_mm: '6.44'
+                svg_name: nut
+                svg_nominal_diameter: M8
+                svg_s_max_mm: '13.00'
+                svg_s_min_mm: '12.73'
+                svg_thread_pitch_mm: '1.25'
+            -   af_mm: 13.0
+                filename: working_mechanical_drawing
+                hardware_type: nut
+                height_mm: 6.8
+                id_mm: 8.0
+                part_category: HARDWARE / NUT
+                part_code: ISO4032 / DIN934
+                part_name: ''
+                part_series: METRIC HEX NUT
+                part_title: M8
+                svg_name: oomp_mech_drawing_hardware
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: nut
+            taxonomy_3: m8
+            taxonomy_4: ''
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: standard_dimensions
+                dimensional_specification: ISO 4032:2012
+                generator: iso_4032_hex_nut
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Catalogue family mapped to the cited dimensional
+                        pattern; exact supplier unspecified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 13
+                    characteristic_dimension_basis: hexagon across flats
+                    characteristic_dimension_mm: 13
+                    expected_components: 1
+                    external_minor_diameter_mm: 6.466413347465057
+                    family: nut
+                    finish: satin
+                    handedness: right
+                    height_convention: total axial nut height
+                    height_mm: 6.8
+                    hole_chamfer_mm: 0.4988781754730549
+                    hole_chamfer_slope: 1.7320508075688767
+                    identity: hardware_nut_m8
+                    internal_minor_diameter_mm: 6.646835306586815
+                    mouth_diameter_mm: 8.375
+                    nominal_diameter_mm: 8.0
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 6.8
+                    pitch_mm: 1.25
+                    specification: ISO 4032:2012
+                    thread_flank_angle_degrees: 60.0
+                    thread_pitch_diameter_mm: 7.188101183952089
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: ISO 4032:2012 fourth edition, table 1, hexagon regular
+                        nuts
+                    url: https://cdn.standards.iteh.ai/samples/61668/93b89b8502a943499386155c44018aaa/ISO-4032-2012.pdf
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: ISO 4032:2012
+                standard_lengths_mm: []
+                standard_limits:
+                    across_corners_min_mm: 14.38
+                    across_flats_mm:
+                    - 12.73
+                    - 13
+                    height_mm:
+                    - 6.44
+                    - 6.8
+                    mouth_diameter_mm:
+                    - 8
+                    - 8.75
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            color_band_project_bolt_1: red
+            color_band_project_bolt_1_string: ''
+            color_band_project_bolt_2: grey
+            color_band_project_bolt_2_string: m8
+            color_band_project_bolt_3: blue
+            color_band_project_bolt_3_string: nut
+            color_band_string_project_bolt: colour_band_blue_grey_red
+            color_band_string_project_bolt_string: colour_band_nut_m8_
+            color_band_taxonomy_3: red
+            color_band_taxonomy_6: blue
+            color_band_taxonomy_7: grey
+            directory: parts\hardware_nut_m8
+            name: hardware_nut_m8
+            name_proper: Hardware Nut M8
+            name_space: hardware nut m8
+            name_upper: HARDWARE NUT M8
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        color_band_project_bolt_1: red
+                        color_band_project_bolt_1_string: ''
+                        color_band_project_bolt_2: grey
+                        color_band_project_bolt_2_string: m8
+                        color_band_project_bolt_3: blue
+                        color_band_project_bolt_3_string: nut
+                        color_band_string_project_bolt: colour_band_blue_grey_red
+                        color_band_string_project_bolt_string: colour_band_nut_m8_
+                        color_band_taxonomy_3: red
+                        color_band_taxonomy_6: blue
+                        color_band_taxonomy_7: grey
+                        directory: parts\hardware_nut_m8
+                        name: hardware_nut_m8
+                        name_proper: Hardware Nut M8
+                        name_space: hardware nut m8
+                        name_upper: HARDWARE NUT M8
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M8 hexagon full nut steel
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M8+hexagon+full+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M8 hexagon full nut steel
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+hexagon+full+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T09:20:53.493263+00:00'
+                                evidence_file: support_files/evidence/hardware_nut_m8/google/7d10ab42d68d4df48b81c0542d76666a.yaml
+                                evidence_url: https://www.google.com/search?q=M8+hexagon+full+nut+steel
+                                material_evidence: Selected page identifies steel
+                                    and Class 8; product information states Class
+                                    8 steel.
+                                product_name: M8 Hexagon Steel Full Nut Class 8 Bright
+                                    Zinc Plated, DIN 934
+                                reason: "Orbital Fasteners\u2019 selected M8 hexagon\
+                                    \ full nut is Class 8 steel, bright zinc plated\
+                                    \ and DIN 934."
+                                result_url: https://www.orbitalfasteners.co.uk/products/m8-hexagon-mild-steel-full-nuts-bright-zinc-plated
+                                search_evidence: "The supplied Google query returned\
+                                    \ Orbital Fasteners\u2019 M8 Hexagon Steel Full\
+                                    \ Nut Class 8 Bright Zinc Plated, DIN 934. The\
+                                    \ selected page identifies SKU 1771040, M8, steel,\
+                                    \ Class 8, bright zinc plated finish and DIN 934.\
+                                    \ Its product information describes a class 8\
+                                    \ steel full nut with bright zinc plate."
+                                search_for: M8 hexagon full nut steel
+                                search_url: https://www.google.com/search?q=M8+hexagon+full+nut+steel
+                                selected_variant: Fixed M8 product; SKU 1771040
+                                specification: M8 hexagon full nut; Class 8 steel;
+                                    bright zinc plated; DIN 934.
+                                status: verified
+                        spec_iso_c_max_mm: '0.60'
+                        spec_iso_c_min_mm: '0.15'
+                        spec_iso_da_max_mm: '8.75'
+                        spec_iso_da_min_mm: '8.00'
+                        spec_iso_dw_min_mm: '11.60'
+                        spec_iso_e_min_mm: '14.38'
+                        spec_iso_m_max_mm: '6.80'
+                        spec_iso_m_min_mm: '6.44'
+                        spec_iso_nominal_diameter: M8
+                        spec_iso_s_max_mm: '13.00'
+                        spec_iso_s_min_mm: '12.73'
+                        spec_iso_thread_pitch_mm: '1.25'
+                        supplier_data:
+                            aanddfasteners:
+                                accepted_warnings: '["Source quantity band starts
+                                    at zero; normalized minimum to one item"]'
+                                captured_at: '2026-10-12T00:10:28.230594+00:00'
+                                currency: GBP
+                                html_sha256: 3e2f25e9ab235bd742be92dac365a9e2b1575b60c24a870891a6010f92e0ced6
+                                name: M8 Hexagon Full Nut, Steel self colour, Din
+                                    934
+                                packages: '[]'
+                                parsed_at: '2026-10-18T08:57:29.672795+00:00'
+                                parser_version: aanddfasteners-1.2-review-policy
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept zero-to-one
+                                    quantity normalization and low-stock notices."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: Product information A hexagonal nut
+                                    also known as a full nut or hex nut. In class
+                                    8 mild steel with self colour finish to Din 934
+                                    with metric coarse thread. The full nut is typically
+                                    used with a mating bolt or machine screw, and
+                                    can be tightened by hand, spanner or socket wrench.
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: aanddfasteners
+                                supplier_id: ST93408SC
+                                supplier_part_number: ST93408SC
+                                supplier_website: https://www.aanddfasteners.co.uk/shop/nuts/full-nut/metric-full-nut-din-934-steel-self-colour/m8-hexagon-full-nut-steel-self-colour-din-934/details
+                                tiers:
+                                -   maximum: 25
+                                    minimum: 1
+                                    source_text: "0 - 25 \xA3 0.10"
+                                    source_unit_price: '0.10'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1200'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 50
+                                    minimum: 26
+                                    source_text: "26 -50 \xA3 0.08"
+                                    source_unit_price: '0.08'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0960'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 51
+                                    source_text: "51+ \xA3 0.06"
+                                    source_unit_price: '0.06'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0720'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.1200'
+                                total_price_10: '1.2000'
+                                total_price_100: '7.2000'
+                                total_price_1000: '72.0000'
+                                total_price_10000: '720.0000'
+                                unit_price_1: '0.1200'
+                                unit_price_10: '0.1200'
+                                unit_price_100: '0.0720'
+                                unit_price_1000: '0.0720'
+                                unit_price_10000: '0.0720'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Source quantity band starts at zero; normalized
+                                    minimum to one item
+                            accu:
+                                accepted_warnings: '["Accu displayed prices are rounded;
+                                    derived totals use the captured display precision",
+                                    "Final Accu price tier has no captured upper boundary;
+                                    final advertised unit price extended by user policy"]'
+                                box_quantity: ''
+                                captured_at: '2026-10-13T13:51:51.389634+00:00'
+                                currency: GBP
+                                description: "Hexagon Nuts are one of the most popular\
+                                    \ types of fasteners, designed to be used in conjunction\
+                                    \ with screws, bolts and other male threaded fasteners\
+                                    \ to securely join multiple components together.\
+                                    \ When combined with a Mating Bolt, a hex nut\
+                                    \ can be used to fasten two or more parts together\
+                                    \ through a combination of compression, friction\
+                                    \ (of the threads of the fasteners), and a slight\
+                                    \ stretching of the bolt. Washers are also often\
+                                    \ used with nuts and bolts to help distribute\
+                                    \ the load of the fasteners, for spacing or protecting\
+                                    \ the surfaces of the mating components. This\
+                                    \ type of metric nut is also commonly referred\
+                                    \ to as a Full Nut or Finished Hex Nut, and is\
+                                    \ typically fastened using either a wrench (spanner)\
+                                    \ or a ratchet. For heavy duty applications, such\
+                                    \ as structural\_projects, Heavy Duty Hex Nuts\
+                                    \ are available from Accu in both metric and imperial\
+                                    \ sizes. Metric Hex Nut Materials Hexagon Nuts\
+                                    \ from Accu are manufactured in a wide range of\
+                                    \ materials. Metal Hex Nuts available include\
+                                    \ A1, A2, A4 Stainless Steel, with High Tensile\
+                                    \ options in Duplex and Bumax Stainless Steel.\
+                                    \ Mild Steel (Grades 6, 8, 10 and 12) is also\
+                                    \ available with either Hot Dip Galvanised or\
+                                    \ Zinc Plated finishes. Accu also lists Plastic\
+                                    \ Hex Nuts in our standard range, with Nylon,\
+                                    \ Polycarbonate, Polypropylene, Reny and Polyphenylene\
+                                    \ options available, along with specialist thermoplastics\
+                                    \ like PVDF and PEEK. Additionally, exotic materials\
+                                    \ such as ceramic and aluminium are also available.\
+                                    \ Hexagon Nuts can be manufactured in alternative\
+                                    \ material types such as Brass, Phosphor Bronze\
+                                    \ and Titanium on request. Metric Hexagon Nuts\
+                                    \ Accu's Hex Nuts are manufactured according to\
+                                    \ internationally recognised industry standards,\
+                                    \ with DIN 934 and ISO 4032 options available.\
+                                    \ As standard, we stock Full Nuts in metric sizes\
+                                    \ from M1 to M56. These components feature a coarse\
+                                    \ metric thread pitch, which makes them more resistant\
+                                    \ to cross threading and stripping. Metric Fine\
+                                    \ Pitch Hexagon Nuts are available from our online\
+                                    \ store for applications which require finer adjustments\
+                                    \ and greater resistance to loosening under vibration.\
+                                    \ Imperial Hexagon Nuts Imperial Hexagon Nuts\
+                                    \ are also supplied by Accu in diameters ranging\
+                                    \ from No. 0 up to 2 inch. Both UNC and UNF threads\
+                                    \ are available."
+                                html_sha256: 2eb410ddbd5c8feb5096bff984a22cd458eec9a147d35db9dcb7a8bc6f9402f1
+                                name: M8 Hexagon Nuts (DIN 934) - Zinc and Yellow
+                                    Passivated Mild Steel (Class 8)
+                                parsed_at: '2026-10-18T08:52:07.617217+00:00'
+                                parser_version: accu-1.9-base-material
+                                price_inheritance: "{\"1000\": {\"source_quantity\"\
+                                    : 200, \"source_unit_price\": \"0.04\", \"source_text\"\
+                                    : \"Buy 200 \xA30.04 Save 94 %\", \"basis\": \"\
+                                    user policy 2026-10-13\"}, \"10000\": {\"source_quantity\"\
+                                    : 200, \"source_unit_price\": \"0.04\", \"source_text\"\
+                                    : \"Buy 200 \xA30.04 Save 94 %\", \"basis\": \"\
+                                    user policy 2026-10-13\"}}"
+                                quote_minimum: ''
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept rounded displayed
+                                    prices, open-ended final advertised tiers, and
+                                    quotes required from 400 units; quote-only prices
+                                    remain blank."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_offer: '{"@type": "AggregateOffer", "lowPrice":
+                                    "0.03", "highPrice": "0.77", "priceCurrency":
+                                    "GBP", "offerCount": "10", "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "url": "https://www.accu.co.uk/hexagon-nuts/456455-HPN-M8-C8-Z",
+                                    "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                                    {"@type": "QuantitativeValue", "value": 1, "unitCode":
+                                    "ANN"}}}'
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "accus
+                                    prices are all ex vat", "confirmed_on": "2026-10-13"}'
+                                specifications: '{"Accu Product Code (APC)": "HPN-M8-C8-Z",
+                                    "Thread Size": "M8 (8 mm)", "Socket Size (J)":
+                                    "13 mm (Tolerance: +0/-0.27 mm)", "Nut Thickness
+                                    (H)": "6.5 mm (Tolerance: +0/-0.36 mm)", "Material":
+                                    "Steel - (Class 8)", "Finish": "Zinc and Yellow
+                                    Passivated", "Manufacturing Standard": "DIN 934",
+                                    "Material Family": "Steel", "System of Measurement":
+                                    "Metric", "Thread Pitch": "1.25 mm"}'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: https://schema.org/InStock
+                                supplier: accu
+                                supplier_id: HPN-M8-C8-Z
+                                supplier_part_number: HPN-M8-C8-Z
+                                supplier_website: https://www.accu.co.uk/hexagon-nuts/456455-HPN-M8-C8-Z
+                                tiers:
+                                -   maximum: 1
+                                    minimum: 1
+                                    source_text: "Buy 1 \xA30.77"
+                                    source_unit_price: '0.77'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.9240'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 3
+                                    minimum: 2
+                                    source_text: "Buy 2 \xA30.42 Save 45 %"
+                                    source_unit_price: '0.42'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.5040'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 5
+                                    minimum: 4
+                                    source_text: "Buy 4 \xA30.25 Save 67 %"
+                                    source_unit_price: '0.25'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.3000'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 11
+                                    minimum: 6
+                                    source_text: "Buy 6 \xA30.17 Save 77 %"
+                                    source_unit_price: '0.17'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.2040'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 23
+                                    minimum: 12
+                                    source_text: "Buy 12 \xA30.11 Save 85 %"
+                                    source_unit_price: '0.11'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1320'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 49
+                                    minimum: 24
+                                    source_text: "Buy 24 \xA30.08 Save 89 %"
+                                    source_unit_price: '0.08'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0960'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 99
+                                    minimum: 50
+                                    source_text: "Buy 50 \xA30.06 Save 92 %"
+                                    source_unit_price: '0.06'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0720'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 199
+                                    minimum: 100
+                                    source_text: "Buy 100 \xA30.05 Save 93 %"
+                                    source_unit_price: '0.05'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0600'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    maximum_basis: user-approved open-ended final
+                                        tier; no captured upper boundary
+                                    minimum: 200
+                                    source_text: "Buy 200 \xA30.04 Save 94 %"
+                                    source_unit_price: '0.04'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0480'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.9240'
+                                total_price_10: '2.0400'
+                                total_price_100: '6.0000'
+                                total_price_1000: '48.0000'
+                                total_price_10000: '480.0000'
+                                unit_price_1: '0.9240'
+                                unit_price_10: '0.2040'
+                                unit_price_100: '0.0600'
+                                unit_price_1000: '0.0480'
+                                unit_price_10000: '0.0480'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Accu displayed prices are rounded; derived totals
+                                    use the captured display precision
+                                - Final Accu price tier has no captured upper boundary;
+                                    final advertised unit price extended by user policy
+                            boltbase:
+                                accepted_warnings: '["Final Bolt Base threshold has
+                                    no verified upper bound; extrapolation withheld"]'
+                                captured_at: '2026-10-12T01:57:17.978595+00:00'
+                                currency: GBP
+                                html_sha256: 1571e2057a08d312407a1679d413594ae7a3a00ef07e7789b1b3658182453cf3
+                                name: M8 (8mm) High Tensile Class 10 Self Colour Hexagon
+                                    Full Nuts DIN 934
+                                packages: '[]'
+                                parsed_at: '2026-10-18T08:56:21.197819+00:00'
+                                parser_version: boltbase-1.2-review-policy
+                                price_inheritance: "{\"10000\": {\"source_quantity\"\
+                                    : 5000, \"source_unit_price\": \"0.04\", \"source_text\"\
+                                    : \"Buy 5000 + You save 90% \xA30.04 \xA30.38\"\
+                                    , \"basis\": \"user policy 2026-10-13\"}}"
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "For a withheld 10000-unit
+                                    price, inherit the highest available lower-quantity
+                                    unit price."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "bolt
+                                    base prices are ex vat", "confirmed_on": "2026-10-11"}'
+                                specifications: M8 x 1.25mm Pitch (8mm thread diameter)
+                                    Hexagon Full Nuts. Manufactured from to DIN 934
+                                    in Class 10 High Tensile Steel. Hex Full Nuts,
+                                    sometimes simply called plain nuts. Tightened
+                                    by a spanner or hex socket, mostly used on their
+                                    own with a washer or can be doubled up with a
+                                    DIN 439 Hex Thin (Lock) Nut to produce a more
+                                    secure connection. Please note that these nuts
+                                    offer little to no protection from rusting and
+                                    are more suited for indoor use or for applications
+                                    where they are protected from moisture.
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: boltbase
+                                supplier_id: HTSC10-934-M8
+                                supplier_part_number: HTSC10-934-M8
+                                supplier_website: https://boltbase.com/products/m8-8mm-high-tensile-class-10-self-colour-hexagon-full-nuts-din-934
+                                tiers:
+                                -   maximum: 1
+                                    minimum: 1
+                                    source_text: "Single Nut Buy 1 For \xA30.38"
+                                    source_unit_price: '0.38'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.4560'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 4
+                                    minimum: 2
+                                    source_text: "Buy 2 + You save 45% \xA30.21 \xA3\
+                                        0.38"
+                                    source_unit_price: '0.21'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.2520'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 9
+                                    minimum: 5
+                                    source_text: "Buy 5 + You save 65% \xA30.14 \xA3\
+                                        0.38"
+                                    source_unit_price: '0.14'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1680'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 24
+                                    minimum: 10
+                                    source_text: "Buy 10 + You save 75% \xA30.10 \xA3\
+                                        0.38"
+                                    source_unit_price: '0.10'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1200'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 49
+                                    minimum: 25
+                                    source_text: "Buy 25 + You save 77% \xA30.09 \xA3\
+                                        0.38"
+                                    source_unit_price: '0.09'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1080'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 99
+                                    minimum: 50
+                                    source_text: "Buy 50 + You save 79% \xA30.08 \xA3\
+                                        0.38"
+                                    source_unit_price: '0.08'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0960'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 249
+                                    minimum: 100
+                                    source_text: "Buy 100 + You save 83% \xA30.07\
+                                        \ \xA30.38"
+                                    source_unit_price: '0.07'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0840'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 499
+                                    minimum: 250
+                                    source_text: "Buy 250 + You save 84% \xA30.06\
+                                        \ \xA30.38"
+                                    source_unit_price: '0.06'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0720'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 999
+                                    minimum: 500
+                                    source_text: "Buy 500 + You save 86% \xA30.06\
+                                        \ \xA30.38"
+                                    source_unit_price: '0.06'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0720'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 4999
+                                    minimum: 1000
+                                    source_text: "Buy 1000 + You save 88% \xA30.05\
+                                        \ \xA30.38"
+                                    source_unit_price: '0.05'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0600'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 5000
+                                    minimum: 5000
+                                    source_text: "Buy 5000 + You save 90% \xA30.04\
+                                        \ \xA30.38"
+                                    source_unit_price: '0.04'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0480'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.4560'
+                                total_price_10: '1.2000'
+                                total_price_100: '8.4000'
+                                total_price_1000: '60.0000'
+                                total_price_10000: '480.0000'
+                                unit_price_1: '0.4560'
+                                unit_price_10: '0.1200'
+                                unit_price_100: '0.0840'
+                                unit_price_1000: '0.0600'
+                                unit_price_10000: '0.0480'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Final Bolt Base threshold has no verified upper
+                                    bound; extrapolation withheld
+                            dibolt:
+                                accepted_warnings: '["Dibolt per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-13T17:12:21.316631+00:00'
+                                currency: GBP
+                                html_sha256: 638e5b887b44fa8e2de13a3d2c14016e5e4a247c69254fc93562983be002f08e
+                                name: M8 Hexagon Full Nut, Grade 8 Steel, Self Colour,
+                                    DIN 934
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:02:35.269098+00:00'
+                                parser_version: dibolt-1.3-missing-price-review
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept the precision
+                                    of rounded displayed per-100 prices."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: 'Thread Size: M8 (8mm); Nut Thickness
+                                    (H): 6.5mm; Material: High Tensile (Grade 8);
+                                    Finish: Self Colour; Thread Pitch: 1.25mm; Manufacturing
+                                    Standard: DIN 934; Material Specification: High
+                                    Tensile (Grade 8); Metric or Imperial?: Metric'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: dibolt
+                                supplier_id: 10004.080.000
+                                supplier_part_number: 10004.080.000
+                                supplier_website: https://dibolt.co.uk/products/m8-hexagon-full-nut-grade-8-steel-self-colour-din-934
+                                tiers:
+                                -   maximum: 499
+                                    minimum: 1
+                                    source_text: "1 - 499 \xA31.69 Per 100 Units"
+                                    source_unit_price: '0.0169'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.020280'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 2499
+                                    minimum: 500
+                                    source_text: "500 - 2,499 \xA31.41 Per 100 Units"
+                                    source_unit_price: '0.0141'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.016920'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 2500
+                                    source_text: "2,500+ \xA31.27 Per 100 Units"
+                                    source_unit_price: '0.0127'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.015240'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.020280'
+                                total_price_10: '0.202800'
+                                total_price_100: '2.028000'
+                                total_price_1000: '16.920000'
+                                total_price_10000: '152.400000'
+                                unit_price_1: '0.020280'
+                                unit_price_10: '0.020280'
+                                unit_price_100: '0.020280'
+                                unit_price_1000: '0.016920'
+                                unit_price_10000: '0.015240'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Dibolt per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
+                            kayfast:
+                                accepted_warnings: '["Kayfast per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-14T09:09:34.069713+00:00'
+                                currency: GBP
+                                family_description: Hexagon full nuts Metric coarse
+                                    threads Grade 8 steel Bright zinc plated.
+                                family_heading: METRIC HEXAGON FULL NUTS DIN 934 GRADE
+                                    8 ZINC PLATED
+                                html_sha256: d8833f35b56a77c481812ebf7d2a1005df8318acdc30e5afeea8eda20c32e7ea
+                                name: M8 FULL NUTS DIN 934 ZINC PLATED GRADE 8
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:29:58.576555+00:00'
+                                parser_version: kayfast-1.6-family-description
+                                price_breaks_description: M8 FULL NUTS DIN 934 ZINC
+                                    PLATED GRADE 8
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-17", "statement": "Use the exact row
+                                    dropdown price per 100 divided by 100 with Decimal
+                                    precision; accept the captured per-100 display
+                                    precision."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "Kayfast
+                                    prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+                                specifications: METRIC HEXAGON FULL NUTS DIN 934 GRADE
+                                    8 ZINC PLATED; Hexagon full nuts Metric coarse
+                                    threads Grade 8 steel Bright zinc plated.
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: kayfast
+                                supplier_id: M8-FULL-NUTS-DIN-934-ZINC-PLATED-GRADE-8
+                                supplier_id_basis: exact dimensional row description;
+                                    spaces replaced by hyphens (user clarification
+                                    2026-10-11)
+                                supplier_part_number: M8-FULL-NUTS-DIN-934-ZINC-PLATED-GRADE-8
+                                supplier_website: https://www.kayfast.co.uk/view-product/METRIC-HEXAGON-FULL-NUTS-DIN-934-GRADE-8-ZINC-PLATED
+                                tiers:
+                                -   maximum: 49
+                                    minimum: 1
+                                    source_price_per_100: '10.25'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 1 - 49 @ \xA310.25 per 100"
+                                    source_unit_price: '0.1025'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.123000'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 499
+                                    minimum: 50
+                                    source_price_per_100: '6.26'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 50 -  499 @ \xA36.26 per 100"
+                                    source_unit_price: '0.0626'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.075120'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 500
+                                    source_price_per_100: '2.66'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 500 + @ \xA32.66 per 100"
+                                    source_unit_price: '0.0266'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.031920'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.123000'
+                                total_price_10: '1.230000'
+                                total_price_100: '7.512000'
+                                total_price_1000: '31.920000'
+                                total_price_10000: '319.200000'
+                                unit_price_1: '0.123000'
+                                unit_price_10: '0.123000'
+                                unit_price_100: '0.075120'
+                                unit_price_1000: '0.031920'
+                                unit_price_10000: '0.031920'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Kayfast per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
+                            orbitalfasteners:
+                                accepted_warnings: '[]'
+                                box_quantity: '200'
+                                captured_at: '2026-10-12T19:53:57.409540+00:00'
+                                catalogue_page: '26'
+                                currency: GBP
+                                description: ''
+                                html_sha256: a836c19ec124c599f380d6a6f3e9ae4e89b45161f9f7b063b79d2a3425e2df0a
+                                name: M8 Hexagon Steel Full Nut Class 8  Bright Zinc
+                                    Plated, DIN 934
+                                parsed_at: '2026-10-18T08:49:27.864061+00:00'
+                                parser_version: 1.2-review-policy
+                                review_policy: ''
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: inclusive
+                                status: ok
+                                stock_as_of: 9th October 2026 10:01pm
+                                stock_quantity: '682579'
+                                supplier: orbitalfasteners
+                                supplier_id: '1771040'
+                                supplier_part_number: '1771040'
+                                supplier_website: https://www.orbitalfasteners.co.uk/products/m8-hexagon-mild-steel-full-nuts-bright-zinc-plated
+                                tiers:
+                                -   maximum: 199
+                                    minimum: 1
+                                    source_text: "1 - 199 \xA30.0158 Inc. VAT \xA3\
+                                        1.58 Inc. VAT"
+                                    source_unit_price: '0.0158'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0158'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 999
+                                    minimum: 200
+                                    source_text: "200 - 999 \xA30.0132 Inc. VAT \xA3\
+                                        1.32 Inc. VAT"
+                                    source_unit_price: '0.0132'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0132'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 3999
+                                    minimum: 1000
+                                    source_text: "1000 - 3999 \xA30.0119 Inc. VAT\
+                                        \ \xA31.19 Inc. VAT"
+                                    source_unit_price: '0.0119'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0119'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 4000
+                                    source_text: "4000 + \xA30.0106 Inc. VAT \xA3\
+                                        1.06 Inc. VAT"
+                                    source_unit_price: '0.0106'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0106'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.0158'
+                                total_price_10: '0.1580'
+                                total_price_100: '1.5800'
+                                total_price_1000: '11.9000'
+                                total_price_10000: '106.0000'
+                                unit_price_1: '0.0158'
+                                unit_price_10: '0.0158'
+                                unit_price_100: '0.0158'
+                                unit_price_1000: '0.0119'
+                                unit_price_10000: '0.0106'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings: []
+                        svg_details:
+                        -   svg_c_max_mm: '0.60'
+                            svg_c_min_mm: '0.15'
+                            svg_da_max_mm: '8.75'
+                            svg_da_min_mm: '8.00'
+                            svg_dw_min_mm: '11.60'
+                            svg_e_min_mm: '14.38'
+                            svg_m_max_mm: '6.80'
+                            svg_m_min_mm: '6.44'
+                            svg_name: nut
+                            svg_nominal_diameter: M8
+                            svg_s_max_mm: '13.00'
+                            svg_s_min_mm: '12.73'
+                            svg_thread_pitch_mm: '1.25'
+                        -   af_mm: 13.0
+                            filename: working_mechanical_drawing
+                            hardware_type: nut
+                            height_mm: 6.8
+                            id_mm: 8.0
+                            part_category: HARDWARE / NUT
+                            part_code: ISO4032 / DIN934
+                            part_name: ''
+                            part_series: METRIC HEX NUT
+                            part_title: M8
+                            svg_name: oomp_mech_drawing_hardware
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: nut
+                        taxonomy_3: m8
+                        taxonomy_4: ''
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        three_d_model_details:
+                            checked_on: '2026-10-11'
+                            coordinate_system:
+                                axis: +Z along bore
+                                glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                                glb_units: metres
+                                glb_up_axis: Y
+                                origin: lower face centre
+                                stl_units: mm
+                            dimension_status: standard_dimensions
+                            dimensional_specification: ISO 4032:2012
+                            generator: iso_4032_hex_nut
+                            length_status: not_applicable
+                            material:
+                                base_colour_srgb:
+                                - 0.62
+                                - 0.65
+                                - 0.69
+                                coat_roughness: 0.28
+                                coat_weight: 0.02
+                                metallic: 1.0
+                                microtexture_height_um: 0.8
+                                microtexture_spacing_mm: 0.025
+                                name: Satin steel
+                                note: Visual finish approximation; catalogue specifies
+                                    colour only.
+                                roughness: 0.26
+                                roughness_variation: 0.045
+                            model_formats:
+                            - stl
+                            - glb
+                            modelling_choices:
+                                bearing: Bolt bearing circle and c selected within
+                                    limits; k includes bearing thickness; fillet tangent
+                                    to shaft and bearing.
+                                cavity: Nut through-bore has a helical internal surface;
+                                    display keeps minor-diameter bore and mouth chamfers.
+                                certification: Nominal visual catalogue model, not
+                                    manufacturing tolerance certification.
+                                chamfer: 30 degree outer hex chamfer. Nut mouth included
+                                    angle 120 degrees. Bolt tip 45 degrees, P/2.
+                                components: One closed solid for supported products.
+                                    Unspecified lock/cage assemblies are not substituted
+                                    with plain hex nuts.
+                                dimension_selection: Nominal bolt head height, max
+                                    flats/nut height, nominal washer sizes; selected
+                                    dimensions stored in parameters.
+                                display: Smooth nominal external-thread envelope or
+                                    smooth minor-diameter internal bore; lower angular
+                                    and fillet tessellation.
+                                family_note: Catalogue family mapped to the cited
+                                    dimensional pattern; exact supplier unspecified.
+                                markings: Supplier and property-class markings omitted
+                                    because catalogue does not identify them.
+                                runout: External one-pitch fade to plain shank; full
+                                    thread ends at underhead fillet.
+                                thread: Nominal ISO basic metric profile, no ISO 965
+                                    tolerance offsets. External rounded root H/6,
+                                    internal P/4 crest and P/8 root flats.
+                                unspecified_geometry: Nut mouth for supplier rows
+                                    without limits and flange M3/M4 thickness/rim
+                                    blends are explicit visual model selections.
+                            output_folder: three_d_model
+                            parameters:
+                                across_flats_mm: 13
+                                characteristic_dimension_basis: hexagon across flats
+                                characteristic_dimension_mm: 13
+                                expected_components: 1
+                                external_minor_diameter_mm: 6.466413347465057
+                                family: nut
+                                finish: satin
+                                handedness: right
+                                height_convention: total axial nut height
+                                height_mm: 6.8
+                                hole_chamfer_mm: 0.4988781754730549
+                                hole_chamfer_slope: 1.7320508075688767
+                                identity: hardware_nut_m8
+                                internal_minor_diameter_mm: 6.646835306586815
+                                mouth_diameter_mm: 8.375
+                                nominal_diameter_mm: 8.0
+                                outer_chamfer_angle_degrees: 30.0
+                                overall_height_mm: 6.8
+                                pitch_mm: 1.25
+                                specification: ISO 4032:2012
+                                thread_flank_angle_degrees: 60.0
+                                thread_pitch_diameter_mm: 7.188101183952089
+                                thread_starts: 1
+                            renders:
+                                high:
+                                    file: render_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: isometric
+                                low:
+                                    file: render_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: isometric
+                                product_high:
+                                    file: render_product_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: product
+                                product_low:
+                                    file: render_product_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: product
+                            schema_version: 1
+                            source_table: source_file/standards/catalogue_hardware.yaml
+                            sources:
+                            -   title: ISO 4032:2012 fourth edition, table 1, hexagon
+                                    regular nuts
+                                url: https://cdn.standards.iteh.ai/samples/61668/93b89b8502a943499386155c44018aaa/ISO-4032-2012.pdf
+                            -   title: ISO 68-1:1998 basic ISO metric thread profile
+                                url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                            standard: ISO 4032:2012
+                            standard_lengths_mm: []
+                            standard_limits:
+                                across_corners_min_mm: 14.38
+                                across_flats_mm:
+                                - 12.73
+                                - 13
+                                height_mm:
+                                - 6.44
+                                - 6.8
+                                mouth_diameter_mm:
+                                - 8
+                                - 8.75
+                            studio:
+                                adaptive_threshold: 0.015
+                                denoise: true
+                                device: auto
+                                engine: cycles
+                                exposure: 0.0
+                                floor_colour_srgb:
+                                - 0.93
+                                - 0.935
+                                - 0.94
+                                floor_roughness: 0.55
+                                framing_margin: 0.13
+                                high_samples: 160
+                                lights:
+                                -   colour:
+                                    - 1.0
+                                    - 0.96
+                                    - 0.9
+                                    height: 5.0
+                                    name: Key softbox
+                                    position:
+                                    - -3
+                                    - -4
+                                    - 6
+                                    power: 650.0
+                                    width: 4.0
+                                -   colour:
+                                    - 0.9
+                                    - 0.95
+                                    - 1.0
+                                    height: 4.0
+                                    name: Fill softbox
+                                    position:
+                                    - 4
+                                    - -1
+                                    - 3
+                                    power: 330.0
+                                    width: 3.0
+                                -   colour:
+                                    - 1.0
+                                    - 1.0
+                                    - 1.0
+                                    height: 5.0
+                                    name: Rim strip
+                                    position:
+                                    - 1
+                                    - 4
+                                    - 4
+                                    power: 850.0
+                                    width: 1.2
+                                look: AgX - Medium High Contrast
+                                low_samples: 48
+                                poses:
+                                    isometric:
+                                        camera_eye:
+                                        - 1
+                                        - -1
+                                        - 1
+                                        orientation: principal axis Z up
+                                        projection: orthographic
+                                    product:
+                                        camera_eye:
+                                        - -6
+                                        - -10
+                                        - 6
+                                        orientation: resting on lower face, bore visible
+                                        projection: orthographic
+                                        resting_axis: face
+                                        support: Stable convex-hull support using
+                                            actual mesh centre of mass.
+                                        yaw_degrees: -12.0
+                                seed: 7991
+                                view_transform: AgX
+                                world_colour:
+                                - 0.78
+                                - 0.82
+                                - 0.9
+                                world_strength: 0.35
+                            units: mm
+                            variants:
+                                display:
+                                    angular_segments: 24
+                                    fillet_segments: 3
+                                    samples_per_pitch: 1
+                                full:
+                                    angular_segments: 96
+                                    fillet_segments: 12
+                                    samples_per_pitch: 32
+                            views:
+                            - isometric
+                            - front
+                            - back
+                            - left
+                            - right
+                            - top
+                            - bottom
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M8 hexagon full nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M8+hexagon+full+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M8 hexagon full nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+hexagon+full+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T09:20:53.493263+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m8/google/7d10ab42d68d4df48b81c0542d76666a.yaml
+                    evidence_url: https://www.google.com/search?q=M8+hexagon+full+nut+steel
+                    material_evidence: Selected page identifies steel and Class 8;
+                        product information states Class 8 steel.
+                    product_name: M8 Hexagon Steel Full Nut Class 8 Bright Zinc Plated,
+                        DIN 934
+                    reason: "Orbital Fasteners\u2019 selected M8 hexagon full nut\
+                        \ is Class 8 steel, bright zinc plated and DIN 934."
+                    result_url: https://www.orbitalfasteners.co.uk/products/m8-hexagon-mild-steel-full-nuts-bright-zinc-plated
+                    search_evidence: "The supplied Google query returned Orbital Fasteners\u2019\
+                        \ M8 Hexagon Steel Full Nut Class 8 Bright Zinc Plated, DIN\
+                        \ 934. The selected page identifies SKU 1771040, M8, steel,\
+                        \ Class 8, bright zinc plated finish and DIN 934. Its product\
+                        \ information describes a class 8 steel full nut with bright\
+                        \ zinc plate."
+                    search_for: M8 hexagon full nut steel
+                    search_url: https://www.google.com/search?q=M8+hexagon+full+nut+steel
+                    selected_variant: Fixed M8 product; SKU 1771040
+                    specification: M8 hexagon full nut; Class 8 steel; bright zinc
+                        plated; DIN 934.
+                    status: verified
+            spec_iso_c_max_mm: '0.60'
+            spec_iso_c_min_mm: '0.15'
+            spec_iso_da_max_mm: '8.75'
+            spec_iso_da_min_mm: '8.00'
+            spec_iso_dw_min_mm: '11.60'
+            spec_iso_e_min_mm: '14.38'
+            spec_iso_m_max_mm: '6.80'
+            spec_iso_m_min_mm: '6.44'
+            spec_iso_nominal_diameter: M8
+            spec_iso_s_max_mm: '13.00'
+            spec_iso_s_min_mm: '12.73'
+            spec_iso_thread_pitch_mm: '1.25'
+            supplier_data:
+                aanddfasteners:
+                    accepted_warnings: '["Source quantity band starts at zero; normalized
+                        minimum to one item"]'
+                    captured_at: '2026-10-12T00:10:28.230594+00:00'
+                    currency: GBP
+                    html_sha256: 3e2f25e9ab235bd742be92dac365a9e2b1575b60c24a870891a6010f92e0ced6
+                    name: M8 Hexagon Full Nut, Steel self colour, Din 934
+                    packages: '[]'
+                    parsed_at: '2026-10-18T08:57:29.672795+00:00'
+                    parser_version: aanddfasteners-1.2-review-policy
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept zero-to-one quantity normalization
+                        and low-stock notices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: Product information A hexagonal nut also known
+                        as a full nut or hex nut. In class 8 mild steel with self
+                        colour finish to Din 934 with metric coarse thread. The full
+                        nut is typically used with a mating bolt or machine screw,
+                        and can be tightened by hand, spanner or socket wrench.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: aanddfasteners
+                    supplier_id: ST93408SC
+                    supplier_part_number: ST93408SC
+                    supplier_website: https://www.aanddfasteners.co.uk/shop/nuts/full-nut/metric-full-nut-din-934-steel-self-colour/m8-hexagon-full-nut-steel-self-colour-din-934/details
+                    tiers:
+                    -   maximum: 25
+                        minimum: 1
+                        source_text: "0 - 25 \xA3 0.10"
+                        source_unit_price: '0.10'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 50
+                        minimum: 26
+                        source_text: "26 -50 \xA3 0.08"
+                        source_unit_price: '0.08'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0960'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 51
+                        source_text: "51+ \xA3 0.06"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.1200'
+                    total_price_10: '1.2000'
+                    total_price_100: '7.2000'
+                    total_price_1000: '72.0000'
+                    total_price_10000: '720.0000'
+                    unit_price_1: '0.1200'
+                    unit_price_10: '0.1200'
+                    unit_price_100: '0.0720'
+                    unit_price_1000: '0.0720'
+                    unit_price_10000: '0.0720'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Source quantity band starts at zero; normalized minimum to one
+                        item
+                accu:
+                    accepted_warnings: '["Accu displayed prices are rounded; derived
+                        totals use the captured display precision", "Final Accu price
+                        tier has no captured upper boundary; final advertised unit
+                        price extended by user policy"]'
+                    box_quantity: ''
+                    captured_at: '2026-10-13T13:51:51.389634+00:00'
+                    currency: GBP
+                    description: "Hexagon Nuts are one of the most popular types of\
+                        \ fasteners, designed to be used in conjunction with screws,\
+                        \ bolts and other male threaded fasteners to securely join\
+                        \ multiple components together. When combined with a Mating\
+                        \ Bolt, a hex nut can be used to fasten two or more parts\
+                        \ together through a combination of compression, friction\
+                        \ (of the threads of the fasteners), and a slight stretching\
+                        \ of the bolt. Washers are also often used with nuts and bolts\
+                        \ to help distribute the load of the fasteners, for spacing\
+                        \ or protecting the surfaces of the mating components. This\
+                        \ type of metric nut is also commonly referred to as a Full\
+                        \ Nut or Finished Hex Nut, and is typically fastened using\
+                        \ either a wrench (spanner) or a ratchet. For heavy duty applications,\
+                        \ such as structural\_projects, Heavy Duty Hex Nuts are available\
+                        \ from Accu in both metric and imperial sizes. Metric Hex\
+                        \ Nut Materials Hexagon Nuts from Accu are manufactured in\
+                        \ a wide range of materials. Metal Hex Nuts available include\
+                        \ A1, A2, A4 Stainless Steel, with High Tensile options in\
+                        \ Duplex and Bumax Stainless Steel. Mild Steel (Grades 6,\
+                        \ 8, 10 and 12) is also available with either Hot Dip Galvanised\
+                        \ or Zinc Plated finishes. Accu also lists Plastic Hex Nuts\
+                        \ in our standard range, with Nylon, Polycarbonate, Polypropylene,\
+                        \ Reny and Polyphenylene options available, along with specialist\
+                        \ thermoplastics like PVDF and PEEK. Additionally, exotic\
+                        \ materials such as ceramic and aluminium are also available.\
+                        \ Hexagon Nuts can be manufactured in alternative material\
+                        \ types such as Brass, Phosphor Bronze and Titanium on request.\
+                        \ Metric Hexagon Nuts Accu's Hex Nuts are manufactured according\
+                        \ to internationally recognised industry standards, with DIN\
+                        \ 934 and ISO 4032 options available. As standard, we stock\
+                        \ Full Nuts in metric sizes from M1 to M56. These components\
+                        \ feature a coarse metric thread pitch, which makes them more\
+                        \ resistant to cross threading and stripping. Metric Fine\
+                        \ Pitch Hexagon Nuts are available from our online store for\
+                        \ applications which require finer adjustments and greater\
+                        \ resistance to loosening under vibration. Imperial Hexagon\
+                        \ Nuts Imperial Hexagon Nuts are also supplied by Accu in\
+                        \ diameters ranging from No. 0 up to 2 inch. Both UNC and\
+                        \ UNF threads are available."
+                    html_sha256: 2eb410ddbd5c8feb5096bff984a22cd458eec9a147d35db9dcb7a8bc6f9402f1
+                    name: M8 Hexagon Nuts (DIN 934) - Zinc and Yellow Passivated Mild
+                        Steel (Class 8)
+                    parsed_at: '2026-10-18T08:52:07.617217+00:00'
+                    parser_version: accu-1.9-base-material
+                    price_inheritance: "{\"1000\": {\"source_quantity\": 200, \"source_unit_price\"\
+                        : \"0.04\", \"source_text\": \"Buy 200 \xA30.04 Save 94 %\"\
+                        , \"basis\": \"user policy 2026-10-13\"}, \"10000\": {\"source_quantity\"\
+                        : 200, \"source_unit_price\": \"0.04\", \"source_text\": \"\
+                        Buy 200 \xA30.04 Save 94 %\", \"basis\": \"user policy 2026-10-13\"\
+                        }}"
+                    quote_minimum: ''
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept rounded displayed prices,
+                        open-ended final advertised tiers, and quotes required from
+                        400 units; quote-only prices remain blank."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.03",
+                        "highPrice": "0.77", "priceCurrency": "GBP", "offerCount":
+                        "10", "availability": "https://schema.org/InStock", "itemCondition":
+                        "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/hexagon-nuts/456455-HPN-M8-C8-Z",
+                        "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                        {"@type": "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "accus prices are all ex
+                        vat", "confirmed_on": "2026-10-13"}'
+                    specifications: '{"Accu Product Code (APC)": "HPN-M8-C8-Z", "Thread
+                        Size": "M8 (8 mm)", "Socket Size (J)": "13 mm (Tolerance:
+                        +0/-0.27 mm)", "Nut Thickness (H)": "6.5 mm (Tolerance: +0/-0.36
+                        mm)", "Material": "Steel - (Class 8)", "Finish": "Zinc and
+                        Yellow Passivated", "Manufacturing Standard": "DIN 934", "Material
+                        Family": "Steel", "System of Measurement": "Metric", "Thread
+                        Pitch": "1.25 mm"}'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: https://schema.org/InStock
+                    supplier: accu
+                    supplier_id: HPN-M8-C8-Z
+                    supplier_part_number: HPN-M8-C8-Z
+                    supplier_website: https://www.accu.co.uk/hexagon-nuts/456455-HPN-M8-C8-Z
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: "Buy 1 \xA30.77"
+                        source_unit_price: '0.77'
+                        source_vat_basis: exclusive
+                        unit_price: '0.9240'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 3
+                        minimum: 2
+                        source_text: "Buy 2 \xA30.42 Save 45 %"
+                        source_unit_price: '0.42'
+                        source_vat_basis: exclusive
+                        unit_price: '0.5040'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5
+                        minimum: 4
+                        source_text: "Buy 4 \xA30.25 Save 67 %"
+                        source_unit_price: '0.25'
+                        source_vat_basis: exclusive
+                        unit_price: '0.3000'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 11
+                        minimum: 6
+                        source_text: "Buy 6 \xA30.17 Save 77 %"
+                        source_unit_price: '0.17'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2040'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 23
+                        minimum: 12
+                        source_text: "Buy 12 \xA30.11 Save 85 %"
+                        source_unit_price: '0.11'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1320'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 24
+                        source_text: "Buy 24 \xA30.08 Save 89 %"
+                        source_unit_price: '0.08'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0960'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: "Buy 50 \xA30.06 Save 92 %"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 199
+                        minimum: 100
+                        source_text: "Buy 100 \xA30.05 Save 93 %"
+                        source_unit_price: '0.05'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0600'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        maximum_basis: user-approved open-ended final tier; no captured
+                            upper boundary
+                        minimum: 200
+                        source_text: "Buy 200 \xA30.04 Save 94 %"
+                        source_unit_price: '0.04'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0480'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.9240'
+                    total_price_10: '2.0400'
+                    total_price_100: '6.0000'
+                    total_price_1000: '48.0000'
+                    total_price_10000: '480.0000'
+                    unit_price_1: '0.9240'
+                    unit_price_10: '0.2040'
+                    unit_price_100: '0.0600'
+                    unit_price_1000: '0.0480'
+                    unit_price_10000: '0.0480'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Accu displayed prices are rounded; derived totals use the captured
+                        display precision
+                    - Final Accu price tier has no captured upper boundary; final
+                        advertised unit price extended by user policy
+                boltbase:
+                    accepted_warnings: '["Final Bolt Base threshold has no verified
+                        upper bound; extrapolation withheld"]'
+                    captured_at: '2026-10-12T01:57:17.978595+00:00'
+                    currency: GBP
+                    html_sha256: 1571e2057a08d312407a1679d413594ae7a3a00ef07e7789b1b3658182453cf3
+                    name: M8 (8mm) High Tensile Class 10 Self Colour Hexagon Full
+                        Nuts DIN 934
+                    packages: '[]'
+                    parsed_at: '2026-10-18T08:56:21.197819+00:00'
+                    parser_version: boltbase-1.2-review-policy
+                    price_inheritance: "{\"10000\": {\"source_quantity\": 5000, \"\
+                        source_unit_price\": \"0.04\", \"source_text\": \"Buy 5000\
+                        \ + You save 90% \xA30.04 \xA30.38\", \"basis\": \"user policy\
+                        \ 2026-10-13\"}}"
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "For a withheld 10000-unit price,
+                        inherit the highest available lower-quantity unit price."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "bolt base prices are ex
+                        vat", "confirmed_on": "2026-10-11"}'
+                    specifications: M8 x 1.25mm Pitch (8mm thread diameter) Hexagon
+                        Full Nuts. Manufactured from to DIN 934 in Class 10 High Tensile
+                        Steel. Hex Full Nuts, sometimes simply called plain nuts.
+                        Tightened by a spanner or hex socket, mostly used on their
+                        own with a washer or can be doubled up with a DIN 439 Hex
+                        Thin (Lock) Nut to produce a more secure connection. Please
+                        note that these nuts offer little to no protection from rusting
+                        and are more suited for indoor use or for applications where
+                        they are protected from moisture.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: boltbase
+                    supplier_id: HTSC10-934-M8
+                    supplier_part_number: HTSC10-934-M8
+                    supplier_website: https://boltbase.com/products/m8-8mm-high-tensile-class-10-self-colour-hexagon-full-nuts-din-934
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: "Single Nut Buy 1 For \xA30.38"
+                        source_unit_price: '0.38'
+                        source_vat_basis: exclusive
+                        unit_price: '0.4560'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4
+                        minimum: 2
+                        source_text: "Buy 2 + You save 45% \xA30.21 \xA30.38"
+                        source_unit_price: '0.21'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2520'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 9
+                        minimum: 5
+                        source_text: "Buy 5 + You save 65% \xA30.14 \xA30.38"
+                        source_unit_price: '0.14'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1680'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 24
+                        minimum: 10
+                        source_text: "Buy 10 + You save 75% \xA30.10 \xA30.38"
+                        source_unit_price: '0.10'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 25
+                        source_text: "Buy 25 + You save 77% \xA30.09 \xA30.38"
+                        source_unit_price: '0.09'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: "Buy 50 + You save 79% \xA30.08 \xA30.38"
+                        source_unit_price: '0.08'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0960'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 249
+                        minimum: 100
+                        source_text: "Buy 100 + You save 83% \xA30.07 \xA30.38"
+                        source_unit_price: '0.07'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 250
+                        source_text: "Buy 250 + You save 84% \xA30.06 \xA30.38"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 500
+                        source_text: "Buy 500 + You save 86% \xA30.06 \xA30.38"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_text: "Buy 1000 + You save 88% \xA30.05 \xA30.38"
+                        source_unit_price: '0.05'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0600'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5000
+                        minimum: 5000
+                        source_text: "Buy 5000 + You save 90% \xA30.04 \xA30.38"
+                        source_unit_price: '0.04'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0480'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.4560'
+                    total_price_10: '1.2000'
+                    total_price_100: '8.4000'
+                    total_price_1000: '60.0000'
+                    total_price_10000: '480.0000'
+                    unit_price_1: '0.4560'
+                    unit_price_10: '0.1200'
+                    unit_price_100: '0.0840'
+                    unit_price_1000: '0.0600'
+                    unit_price_10000: '0.0480'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Final Bolt Base threshold has no verified upper bound; extrapolation
+                        withheld
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-13T17:12:21.316631+00:00'
+                    currency: GBP
+                    html_sha256: 638e5b887b44fa8e2de13a3d2c14016e5e4a247c69254fc93562983be002f08e
+                    name: M8 Hexagon Full Nut, Grade 8 Steel, Self Colour, DIN 934
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:02:35.269098+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M8 (8mm); Nut Thickness (H): 6.5mm;
+                        Material: High Tensile (Grade 8); Finish: Self Colour; Thread
+                        Pitch: 1.25mm; Manufacturing Standard: DIN 934; Material Specification:
+                        High Tensile (Grade 8); Metric or Imperial?: Metric'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 10004.080.000
+                    supplier_part_number: 10004.080.000
+                    supplier_website: https://dibolt.co.uk/products/m8-hexagon-full-nut-grade-8-steel-self-colour-din-934
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA31.69 Per 100 Units"
+                        source_unit_price: '0.0169'
+                        source_vat_basis: exclusive
+                        unit_price: '0.020280'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2,499 \xA31.41 Per 100 Units"
+                        source_unit_price: '0.0141'
+                        source_vat_basis: exclusive
+                        unit_price: '0.016920'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2500
+                        source_text: "2,500+ \xA31.27 Per 100 Units"
+                        source_unit_price: '0.0127'
+                        source_vat_basis: exclusive
+                        unit_price: '0.015240'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.020280'
+                    total_price_10: '0.202800'
+                    total_price_100: '2.028000'
+                    total_price_1000: '16.920000'
+                    total_price_10000: '152.400000'
+                    unit_price_1: '0.020280'
+                    unit_price_10: '0.020280'
+                    unit_price_100: '0.020280'
+                    unit_price_1000: '0.016920'
+                    unit_price_10000: '0.015240'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T09:09:34.069713+00:00'
+                    currency: GBP
+                    family_description: Hexagon full nuts Metric coarse threads Grade
+                        8 steel Bright zinc plated.
+                    family_heading: METRIC HEXAGON FULL NUTS DIN 934 GRADE 8 ZINC
+                        PLATED
+                    html_sha256: d8833f35b56a77c481812ebf7d2a1005df8318acdc30e5afeea8eda20c32e7ea
+                    name: M8 FULL NUTS DIN 934 ZINC PLATED GRADE 8
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:29:58.576555+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M8 FULL NUTS DIN 934 ZINC PLATED GRADE
+                        8
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: METRIC HEXAGON FULL NUTS DIN 934 GRADE 8 ZINC
+                        PLATED; Hexagon full nuts Metric coarse threads Grade 8 steel
+                        Bright zinc plated.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M8-FULL-NUTS-DIN-934-ZINC-PLATED-GRADE-8
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M8-FULL-NUTS-DIN-934-ZINC-PLATED-GRADE-8
+                    supplier_website: https://www.kayfast.co.uk/view-product/METRIC-HEXAGON-FULL-NUTS-DIN-934-GRADE-8-ZINC-PLATED
+                    tiers:
+                    -   maximum: 49
+                        minimum: 1
+                        source_price_per_100: '10.25'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 49 @ \xA310.25 per 100"
+                        source_unit_price: '0.1025'
+                        source_vat_basis: exclusive
+                        unit_price: '0.123000'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 499
+                        minimum: 50
+                        source_price_per_100: '6.26'
+                        source_price_quantity: 100
+                        source_text: "QTY 50 -  499 @ \xA36.26 per 100"
+                        source_unit_price: '0.0626'
+                        source_vat_basis: exclusive
+                        unit_price: '0.075120'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 500
+                        source_price_per_100: '2.66'
+                        source_price_quantity: 100
+                        source_text: "QTY 500 + @ \xA32.66 per 100"
+                        source_unit_price: '0.0266'
+                        source_vat_basis: exclusive
+                        unit_price: '0.031920'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.123000'
+                    total_price_10: '1.230000'
+                    total_price_100: '7.512000'
+                    total_price_1000: '31.920000'
+                    total_price_10000: '319.200000'
+                    unit_price_1: '0.123000'
+                    unit_price_10: '0.123000'
+                    unit_price_100: '0.075120'
+                    unit_price_1000: '0.031920'
+                    unit_price_10000: '0.031920'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '200'
+                    captured_at: '2026-10-12T19:53:57.409540+00:00'
+                    catalogue_page: '26'
+                    currency: GBP
+                    description: ''
+                    html_sha256: a836c19ec124c599f380d6a6f3e9ae4e89b45161f9f7b063b79d2a3425e2df0a
+                    name: M8 Hexagon Steel Full Nut Class 8  Bright Zinc Plated, DIN
+                        934
+                    parsed_at: '2026-10-18T08:49:27.864061+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '682579'
+                    supplier: orbitalfasteners
+                    supplier_id: '1771040'
+                    supplier_part_number: '1771040'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m8-hexagon-mild-steel-full-nuts-bright-zinc-plated
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_text: "1 - 199 \xA30.0158 Inc. VAT \xA31.58 Inc. VAT"
+                        source_unit_price: '0.0158'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0158'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_text: "200 - 999 \xA30.0132 Inc. VAT \xA31.32 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0132'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0132'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 3999
+                        minimum: 1000
+                        source_text: "1000 - 3999 \xA30.0119 Inc. VAT \xA31.19 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0119'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0119'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 4000
+                        source_text: "4000 + \xA30.0106 Inc. VAT \xA31.06 Inc. VAT"
+                        source_unit_price: '0.0106'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0106'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0158'
+                    total_price_10: '0.1580'
+                    total_price_100: '1.5800'
+                    total_price_1000: '11.9000'
+                    total_price_10000: '106.0000'
+                    unit_price_1: '0.0158'
+                    unit_price_10: '0.0158'
+                    unit_price_100: '0.0158'
+                    unit_price_1000: '0.0119'
+                    unit_price_10000: '0.0106'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+            svg_details:
+            -   svg_c_max_mm: '0.60'
+                svg_c_min_mm: '0.15'
+                svg_da_max_mm: '8.75'
+                svg_da_min_mm: '8.00'
+                svg_dw_min_mm: '11.60'
+                svg_e_min_mm: '14.38'
+                svg_m_max_mm: '6.80'
+                svg_m_min_mm: '6.44'
+                svg_name: nut
+                svg_nominal_diameter: M8
+                svg_s_max_mm: '13.00'
+                svg_s_min_mm: '12.73'
+                svg_thread_pitch_mm: '1.25'
+            -   af_mm: 13.0
+                filename: working_mechanical_drawing
+                hardware_type: nut
+                height_mm: 6.8
+                id_mm: 8.0
+                part_category: HARDWARE / NUT
+                part_code: ISO4032 / DIN934
+                part_name: ''
+                part_series: METRIC HEX NUT
+                part_title: M8
+                svg_name: oomp_mech_drawing_hardware
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: nut
+            taxonomy_3: m8
+            taxonomy_4: ''
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: standard_dimensions
+                dimensional_specification: ISO 4032:2012
+                generator: iso_4032_hex_nut
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Catalogue family mapped to the cited dimensional
+                        pattern; exact supplier unspecified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 13
+                    characteristic_dimension_basis: hexagon across flats
+                    characteristic_dimension_mm: 13
+                    expected_components: 1
+                    external_minor_diameter_mm: 6.466413347465057
+                    family: nut
+                    finish: satin
+                    handedness: right
+                    height_convention: total axial nut height
+                    height_mm: 6.8
+                    hole_chamfer_mm: 0.4988781754730549
+                    hole_chamfer_slope: 1.7320508075688767
+                    identity: hardware_nut_m8
+                    internal_minor_diameter_mm: 6.646835306586815
+                    mouth_diameter_mm: 8.375
+                    nominal_diameter_mm: 8.0
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 6.8
+                    pitch_mm: 1.25
+                    specification: ISO 4032:2012
+                    thread_flank_angle_degrees: 60.0
+                    thread_pitch_diameter_mm: 7.188101183952089
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: ISO 4032:2012 fourth edition, table 1, hexagon regular
+                        nuts
+                    url: https://cdn.standards.iteh.ai/samples/61668/93b89b8502a943499386155c44018aaa/ISO-4032-2012.pdf
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: ISO 4032:2012
+                standard_lengths_mm: []
+                standard_limits:
+                    across_corners_min_mm: 14.38
+                    across_flats_mm:
+                    - 12.73
+                    - 13
+                    height_mm:
+                    - 6.44
+                    - 6.8
+                    mouth_diameter_mm:
+                    - 8
+                    - 8.75
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_bolt_image.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        description: label_drawer
+        dict_data:
+            label_drawer: *id001
+        file_output: label_drawer.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
+oomp_key: oomp_hardware_nut_m8
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M8 hexagon full nut steel
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M8+hexagon+full+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M8 hexagon full nut steel
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+hexagon+full+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T09:20:53.493263+00:00'
+        evidence_file: support_files/evidence/hardware_nut_m8/google/7d10ab42d68d4df48b81c0542d76666a.yaml
+        evidence_url: https://www.google.com/search?q=M8+hexagon+full+nut+steel
+        material_evidence: Selected page identifies steel and Class 8; product information
+            states Class 8 steel.
+        product_name: M8 Hexagon Steel Full Nut Class 8 Bright Zinc Plated, DIN 934
+        reason: "Orbital Fasteners\u2019 selected M8 hexagon full nut is Class 8 steel,\
+            \ bright zinc plated and DIN 934."
+        result_url: https://www.orbitalfasteners.co.uk/products/m8-hexagon-mild-steel-full-nuts-bright-zinc-plated
+        search_evidence: "The supplied Google query returned Orbital Fasteners\u2019\
+            \ M8 Hexagon Steel Full Nut Class 8 Bright Zinc Plated, DIN 934. The selected\
+            \ page identifies SKU 1771040, M8, steel, Class 8, bright zinc plated\
+            \ finish and DIN 934. Its product information describes a class 8 steel\
+            \ full nut with bright zinc plate."
+        search_for: M8 hexagon full nut steel
+        search_url: https://www.google.com/search?q=M8+hexagon+full+nut+steel
+        selected_variant: Fixed M8 product; SKU 1771040
+        specification: M8 hexagon full nut; Class 8 steel; bright zinc plated; DIN
+            934.
+        status: verified
+spec_iso_c_max_mm: '0.60'
+spec_iso_c_min_mm: '0.15'
+spec_iso_da_max_mm: '8.75'
+spec_iso_da_min_mm: '8.00'
+spec_iso_dw_min_mm: '11.60'
+spec_iso_e_min_mm: '14.38'
+spec_iso_m_max_mm: '6.80'
+spec_iso_m_min_mm: '6.44'
+spec_iso_nominal_diameter: M8
+spec_iso_s_max_mm: '13.00'
+spec_iso_s_min_mm: '12.73'
+spec_iso_thread_pitch_mm: '1.25'
+supplier_data:
+    aanddfasteners:
+        accepted_warnings: '["Source quantity band starts at zero; normalized minimum
+            to one item"]'
+        captured_at: '2026-10-12T00:10:28.230594+00:00'
+        currency: GBP
+        html_sha256: 3e2f25e9ab235bd742be92dac365a9e2b1575b60c24a870891a6010f92e0ced6
+        name: M8 Hexagon Full Nut, Steel self colour, Din 934
+        packages: '[]'
+        parsed_at: '2026-10-18T08:57:29.672795+00:00'
+        parser_version: aanddfasteners-1.2-review-policy
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept zero-to-one quantity normalization and low-stock
+            notices."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: Product information A hexagonal nut also known as a full nut
+            or hex nut. In class 8 mild steel with self colour finish to Din 934 with
+            metric coarse thread. The full nut is typically used with a mating bolt
+            or machine screw, and can be tightened by hand, spanner or socket wrench.
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: aanddfasteners
+        supplier_id: ST93408SC
+        supplier_part_number: ST93408SC
+        supplier_website: https://www.aanddfasteners.co.uk/shop/nuts/full-nut/metric-full-nut-din-934-steel-self-colour/m8-hexagon-full-nut-steel-self-colour-din-934/details
+        tiers:
+        -   maximum: 25
+            minimum: 1
+            source_text: "0 - 25 \xA3 0.10"
+            source_unit_price: '0.10'
+            source_vat_basis: exclusive
+            unit_price: '0.1200'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 50
+            minimum: 26
+            source_text: "26 -50 \xA3 0.08"
+            source_unit_price: '0.08'
+            source_vat_basis: exclusive
+            unit_price: '0.0960'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 51
+            source_text: "51+ \xA3 0.06"
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.1200'
+        total_price_10: '1.2000'
+        total_price_100: '7.2000'
+        total_price_1000: '72.0000'
+        total_price_10000: '720.0000'
+        unit_price_1: '0.1200'
+        unit_price_10: '0.1200'
+        unit_price_100: '0.0720'
+        unit_price_1000: '0.0720'
+        unit_price_10000: '0.0720'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Source quantity band starts at zero; normalized minimum to one item
+    accu:
+        accepted_warnings: '["Accu displayed prices are rounded; derived totals use
+            the captured display precision", "Final Accu price tier has no captured
+            upper boundary; final advertised unit price extended by user policy"]'
+        box_quantity: ''
+        captured_at: '2026-10-13T13:51:51.389634+00:00'
+        currency: GBP
+        description: "Hexagon Nuts are one of the most popular types of fasteners,\
+            \ designed to be used in conjunction with screws, bolts and other male\
+            \ threaded fasteners to securely join multiple components together. When\
+            \ combined with a Mating Bolt, a hex nut can be used to fasten two or\
+            \ more parts together through a combination of compression, friction (of\
+            \ the threads of the fasteners), and a slight stretching of the bolt.\
+            \ Washers are also often used with nuts and bolts to help distribute the\
+            \ load of the fasteners, for spacing or protecting the surfaces of the\
+            \ mating components. This type of metric nut is also commonly referred\
+            \ to as a Full Nut or Finished Hex Nut, and is typically fastened using\
+            \ either a wrench (spanner) or a ratchet. For heavy duty applications,\
+            \ such as structural\_projects, Heavy Duty Hex Nuts are available from\
+            \ Accu in both metric and imperial sizes. Metric Hex Nut Materials Hexagon\
+            \ Nuts from Accu are manufactured in a wide range of materials. Metal\
+            \ Hex Nuts available include A1, A2, A4 Stainless Steel, with High Tensile\
+            \ options in Duplex and Bumax Stainless Steel. Mild Steel (Grades 6, 8,\
+            \ 10 and 12) is also available with either Hot Dip Galvanised or Zinc\
+            \ Plated finishes. Accu also lists Plastic Hex Nuts in our standard range,\
+            \ with Nylon, Polycarbonate, Polypropylene, Reny and Polyphenylene options\
+            \ available, along with specialist thermoplastics like PVDF and PEEK.\
+            \ Additionally, exotic materials such as ceramic and aluminium are also\
+            \ available. Hexagon Nuts can be manufactured in alternative material\
+            \ types such as Brass, Phosphor Bronze and Titanium on request. Metric\
+            \ Hexagon Nuts Accu's Hex Nuts are manufactured according to internationally\
+            \ recognised industry standards, with DIN 934 and ISO 4032 options available.\
+            \ As standard, we stock Full Nuts in metric sizes from M1 to M56. These\
+            \ components feature a coarse metric thread pitch, which makes them more\
+            \ resistant to cross threading and stripping. Metric Fine Pitch Hexagon\
+            \ Nuts are available from our online store for applications which require\
+            \ finer adjustments and greater resistance to loosening under vibration.\
+            \ Imperial Hexagon Nuts Imperial Hexagon Nuts are also supplied by Accu\
+            \ in diameters ranging from No. 0 up to 2 inch. Both UNC and UNF threads\
+            \ are available."
+        html_sha256: 2eb410ddbd5c8feb5096bff984a22cd458eec9a147d35db9dcb7a8bc6f9402f1
+        name: M8 Hexagon Nuts (DIN 934) - Zinc and Yellow Passivated Mild Steel (Class
+            8)
+        parsed_at: '2026-10-18T08:52:07.617217+00:00'
+        parser_version: accu-1.9-base-material
+        price_inheritance: "{\"1000\": {\"source_quantity\": 200, \"source_unit_price\"\
+            : \"0.04\", \"source_text\": \"Buy 200 \xA30.04 Save 94 %\", \"basis\"\
+            : \"user policy 2026-10-13\"}, \"10000\": {\"source_quantity\": 200, \"\
+            source_unit_price\": \"0.04\", \"source_text\": \"Buy 200 \xA30.04 Save\
+            \ 94 %\", \"basis\": \"user policy 2026-10-13\"}}"
+        quote_minimum: ''
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept rounded displayed prices, open-ended final advertised
+            tiers, and quotes required from 400 units; quote-only prices remain blank."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.03", "highPrice":
+            "0.77", "priceCurrency": "GBP", "offerCount": "10", "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/hexagon-nuts/456455-HPN-M8-C8-Z",
+            "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type":
+            "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "accus prices are all ex vat", "confirmed_on": "2026-10-13"}'
+        specifications: '{"Accu Product Code (APC)": "HPN-M8-C8-Z", "Thread Size":
+            "M8 (8 mm)", "Socket Size (J)": "13 mm (Tolerance: +0/-0.27 mm)", "Nut
+            Thickness (H)": "6.5 mm (Tolerance: +0/-0.36 mm)", "Material": "Steel
+            - (Class 8)", "Finish": "Zinc and Yellow Passivated", "Manufacturing Standard":
+            "DIN 934", "Material Family": "Steel", "System of Measurement": "Metric",
+            "Thread Pitch": "1.25 mm"}'
+        status: ok
+        stock_quantity: ''
+        stock_status: https://schema.org/InStock
+        supplier: accu
+        supplier_id: HPN-M8-C8-Z
+        supplier_part_number: HPN-M8-C8-Z
+        supplier_website: https://www.accu.co.uk/hexagon-nuts/456455-HPN-M8-C8-Z
+        tiers:
+        -   maximum: 1
+            minimum: 1
+            source_text: "Buy 1 \xA30.77"
+            source_unit_price: '0.77'
+            source_vat_basis: exclusive
+            unit_price: '0.9240'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 3
+            minimum: 2
+            source_text: "Buy 2 \xA30.42 Save 45 %"
+            source_unit_price: '0.42'
+            source_vat_basis: exclusive
+            unit_price: '0.5040'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 5
+            minimum: 4
+            source_text: "Buy 4 \xA30.25 Save 67 %"
+            source_unit_price: '0.25'
+            source_vat_basis: exclusive
+            unit_price: '0.3000'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 11
+            minimum: 6
+            source_text: "Buy 6 \xA30.17 Save 77 %"
+            source_unit_price: '0.17'
+            source_vat_basis: exclusive
+            unit_price: '0.2040'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 23
+            minimum: 12
+            source_text: "Buy 12 \xA30.11 Save 85 %"
+            source_unit_price: '0.11'
+            source_vat_basis: exclusive
+            unit_price: '0.1320'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 49
+            minimum: 24
+            source_text: "Buy 24 \xA30.08 Save 89 %"
+            source_unit_price: '0.08'
+            source_vat_basis: exclusive
+            unit_price: '0.0960'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 99
+            minimum: 50
+            source_text: "Buy 50 \xA30.06 Save 92 %"
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 199
+            minimum: 100
+            source_text: "Buy 100 \xA30.05 Save 93 %"
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            maximum_basis: user-approved open-ended final tier; no captured upper
+                boundary
+            minimum: 200
+            source_text: "Buy 200 \xA30.04 Save 94 %"
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.9240'
+        total_price_10: '2.0400'
+        total_price_100: '6.0000'
+        total_price_1000: '48.0000'
+        total_price_10000: '480.0000'
+        unit_price_1: '0.9240'
+        unit_price_10: '0.2040'
+        unit_price_100: '0.0600'
+        unit_price_1000: '0.0480'
+        unit_price_10000: '0.0480'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Accu displayed prices are rounded; derived totals use the captured display
+            precision
+        - Final Accu price tier has no captured upper boundary; final advertised unit
+            price extended by user policy
+    boltbase:
+        accepted_warnings: '["Final Bolt Base threshold has no verified upper bound;
+            extrapolation withheld"]'
+        captured_at: '2026-10-12T01:57:17.978595+00:00'
+        currency: GBP
+        html_sha256: 1571e2057a08d312407a1679d413594ae7a3a00ef07e7789b1b3658182453cf3
+        name: M8 (8mm) High Tensile Class 10 Self Colour Hexagon Full Nuts DIN 934
+        packages: '[]'
+        parsed_at: '2026-10-18T08:56:21.197819+00:00'
+        parser_version: boltbase-1.2-review-policy
+        price_inheritance: "{\"10000\": {\"source_quantity\": 5000, \"source_unit_price\"\
+            : \"0.04\", \"source_text\": \"Buy 5000 + You save 90% \xA30.04 \xA30.38\"\
+            , \"basis\": \"user policy 2026-10-13\"}}"
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "For a withheld 10000-unit price, inherit the highest available
+            lower-quantity unit price."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "bolt base prices are ex vat", "confirmed_on": "2026-10-11"}'
+        specifications: M8 x 1.25mm Pitch (8mm thread diameter) Hexagon Full Nuts.
+            Manufactured from to DIN 934 in Class 10 High Tensile Steel. Hex Full
+            Nuts, sometimes simply called plain nuts. Tightened by a spanner or hex
+            socket, mostly used on their own with a washer or can be doubled up with
+            a DIN 439 Hex Thin (Lock) Nut to produce a more secure connection. Please
+            note that these nuts offer little to no protection from rusting and are
+            more suited for indoor use or for applications where they are protected
+            from moisture.
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: boltbase
+        supplier_id: HTSC10-934-M8
+        supplier_part_number: HTSC10-934-M8
+        supplier_website: https://boltbase.com/products/m8-8mm-high-tensile-class-10-self-colour-hexagon-full-nuts-din-934
+        tiers:
+        -   maximum: 1
+            minimum: 1
+            source_text: "Single Nut Buy 1 For \xA30.38"
+            source_unit_price: '0.38'
+            source_vat_basis: exclusive
+            unit_price: '0.4560'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 4
+            minimum: 2
+            source_text: "Buy 2 + You save 45% \xA30.21 \xA30.38"
+            source_unit_price: '0.21'
+            source_vat_basis: exclusive
+            unit_price: '0.2520'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 9
+            minimum: 5
+            source_text: "Buy 5 + You save 65% \xA30.14 \xA30.38"
+            source_unit_price: '0.14'
+            source_vat_basis: exclusive
+            unit_price: '0.1680'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 24
+            minimum: 10
+            source_text: "Buy 10 + You save 75% \xA30.10 \xA30.38"
+            source_unit_price: '0.10'
+            source_vat_basis: exclusive
+            unit_price: '0.1200'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 49
+            minimum: 25
+            source_text: "Buy 25 + You save 77% \xA30.09 \xA30.38"
+            source_unit_price: '0.09'
+            source_vat_basis: exclusive
+            unit_price: '0.1080'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 99
+            minimum: 50
+            source_text: "Buy 50 + You save 79% \xA30.08 \xA30.38"
+            source_unit_price: '0.08'
+            source_vat_basis: exclusive
+            unit_price: '0.0960'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 249
+            minimum: 100
+            source_text: "Buy 100 + You save 83% \xA30.07 \xA30.38"
+            source_unit_price: '0.07'
+            source_vat_basis: exclusive
+            unit_price: '0.0840'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 499
+            minimum: 250
+            source_text: "Buy 250 + You save 84% \xA30.06 \xA30.38"
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 999
+            minimum: 500
+            source_text: "Buy 500 + You save 86% \xA30.06 \xA30.38"
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 4999
+            minimum: 1000
+            source_text: "Buy 1000 + You save 88% \xA30.05 \xA30.38"
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 5000
+            minimum: 5000
+            source_text: "Buy 5000 + You save 90% \xA30.04 \xA30.38"
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.4560'
+        total_price_10: '1.2000'
+        total_price_100: '8.4000'
+        total_price_1000: '60.0000'
+        total_price_10000: '480.0000'
+        unit_price_1: '0.4560'
+        unit_price_10: '0.1200'
+        unit_price_100: '0.0840'
+        unit_price_1000: '0.0600'
+        unit_price_10000: '0.0480'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Final Bolt Base threshold has no verified upper bound; extrapolation withheld
+    dibolt:
+        accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-13T17:12:21.316631+00:00'
+        currency: GBP
+        html_sha256: 638e5b887b44fa8e2de13a3d2c14016e5e4a247c69254fc93562983be002f08e
+        name: M8 Hexagon Full Nut, Grade 8 Steel, Self Colour, DIN 934
+        packages: '[]'
+        parsed_at: '2026-10-18T09:02:35.269098+00:00'
+        parser_version: dibolt-1.3-missing-price-review
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept the precision of rounded displayed per-100 prices."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: 'Thread Size: M8 (8mm); Nut Thickness (H): 6.5mm; Material:
+            High Tensile (Grade 8); Finish: Self Colour; Thread Pitch: 1.25mm; Manufacturing
+            Standard: DIN 934; Material Specification: High Tensile (Grade 8); Metric
+            or Imperial?: Metric'
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: dibolt
+        supplier_id: 10004.080.000
+        supplier_part_number: 10004.080.000
+        supplier_website: https://dibolt.co.uk/products/m8-hexagon-full-nut-grade-8-steel-self-colour-din-934
+        tiers:
+        -   maximum: 499
+            minimum: 1
+            source_text: "1 - 499 \xA31.69 Per 100 Units"
+            source_unit_price: '0.0169'
+            source_vat_basis: exclusive
+            unit_price: '0.020280'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 2499
+            minimum: 500
+            source_text: "500 - 2,499 \xA31.41 Per 100 Units"
+            source_unit_price: '0.0141'
+            source_vat_basis: exclusive
+            unit_price: '0.016920'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 2500
+            source_text: "2,500+ \xA31.27 Per 100 Units"
+            source_unit_price: '0.0127'
+            source_vat_basis: exclusive
+            unit_price: '0.015240'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.020280'
+        total_price_10: '0.202800'
+        total_price_100: '2.028000'
+        total_price_1000: '16.920000'
+        total_price_10000: '152.400000'
+        unit_price_1: '0.020280'
+        unit_price_10: '0.020280'
+        unit_price_100: '0.020280'
+        unit_price_1000: '0.016920'
+        unit_price_10000: '0.015240'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Dibolt per-100 displayed prices are rounded; derived totals use captured
+            display precision
+    kayfast:
+        accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-14T09:09:34.069713+00:00'
+        currency: GBP
+        family_description: Hexagon full nuts Metric coarse threads Grade 8 steel
+            Bright zinc plated.
+        family_heading: METRIC HEXAGON FULL NUTS DIN 934 GRADE 8 ZINC PLATED
+        html_sha256: d8833f35b56a77c481812ebf7d2a1005df8318acdc30e5afeea8eda20c32e7ea
+        name: M8 FULL NUTS DIN 934 ZINC PLATED GRADE 8
+        packages: '[]'
+        parsed_at: '2026-10-18T09:29:58.576555+00:00'
+        parser_version: kayfast-1.6-family-description
+        price_breaks_description: M8 FULL NUTS DIN 934 ZINC PLATED GRADE 8
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+            "statement": "Use the exact row dropdown price per 100 divided by 100
+            with Decimal precision; accept the captured per-100 display precision."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+        specifications: METRIC HEXAGON FULL NUTS DIN 934 GRADE 8 ZINC PLATED; Hexagon
+            full nuts Metric coarse threads Grade 8 steel Bright zinc plated.
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: kayfast
+        supplier_id: M8-FULL-NUTS-DIN-934-ZINC-PLATED-GRADE-8
+        supplier_id_basis: exact dimensional row description; spaces replaced by hyphens
+            (user clarification 2026-10-11)
+        supplier_part_number: M8-FULL-NUTS-DIN-934-ZINC-PLATED-GRADE-8
+        supplier_website: https://www.kayfast.co.uk/view-product/METRIC-HEXAGON-FULL-NUTS-DIN-934-GRADE-8-ZINC-PLATED
+        tiers:
+        -   maximum: 49
+            minimum: 1
+            source_price_per_100: '10.25'
+            source_price_quantity: 100
+            source_text: "QTY 1 - 49 @ \xA310.25 per 100"
+            source_unit_price: '0.1025'
+            source_vat_basis: exclusive
+            unit_price: '0.123000'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 499
+            minimum: 50
+            source_price_per_100: '6.26'
+            source_price_quantity: 100
+            source_text: "QTY 50 -  499 @ \xA36.26 per 100"
+            source_unit_price: '0.0626'
+            source_vat_basis: exclusive
+            unit_price: '0.075120'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 500
+            source_price_per_100: '2.66'
+            source_price_quantity: 100
+            source_text: "QTY 500 + @ \xA32.66 per 100"
+            source_unit_price: '0.0266'
+            source_vat_basis: exclusive
+            unit_price: '0.031920'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.123000'
+        total_price_10: '1.230000'
+        total_price_100: '7.512000'
+        total_price_1000: '31.920000'
+        total_price_10000: '319.200000'
+        unit_price_1: '0.123000'
+        unit_price_10: '0.123000'
+        unit_price_100: '0.075120'
+        unit_price_1000: '0.031920'
+        unit_price_10000: '0.031920'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Kayfast per-100 displayed prices are rounded; derived totals use captured
+            display precision
+    orbitalfasteners:
+        accepted_warnings: '[]'
+        box_quantity: '200'
+        captured_at: '2026-10-12T19:53:57.409540+00:00'
+        catalogue_page: '26'
+        currency: GBP
+        description: ''
+        html_sha256: a836c19ec124c599f380d6a6f3e9ae4e89b45161f9f7b063b79d2a3425e2df0a
+        name: M8 Hexagon Steel Full Nut Class 8  Bright Zinc Plated, DIN 934
+        parsed_at: '2026-10-18T08:49:27.864061+00:00'
+        parser_version: 1.2-review-policy
+        review_policy: ''
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: inclusive
+        status: ok
+        stock_as_of: 9th October 2026 10:01pm
+        stock_quantity: '682579'
+        supplier: orbitalfasteners
+        supplier_id: '1771040'
+        supplier_part_number: '1771040'
+        supplier_website: https://www.orbitalfasteners.co.uk/products/m8-hexagon-mild-steel-full-nuts-bright-zinc-plated
+        tiers:
+        -   maximum: 199
+            minimum: 1
+            source_text: "1 - 199 \xA30.0158 Inc. VAT \xA31.58 Inc. VAT"
+            source_unit_price: '0.0158'
+            source_vat_basis: inclusive
+            unit_price: '0.0158'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 999
+            minimum: 200
+            source_text: "200 - 999 \xA30.0132 Inc. VAT \xA31.32 Inc. VAT"
+            source_unit_price: '0.0132'
+            source_vat_basis: inclusive
+            unit_price: '0.0132'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 3999
+            minimum: 1000
+            source_text: "1000 - 3999 \xA30.0119 Inc. VAT \xA31.19 Inc. VAT"
+            source_unit_price: '0.0119'
+            source_vat_basis: inclusive
+            unit_price: '0.0119'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 4000
+            source_text: "4000 + \xA30.0106 Inc. VAT \xA31.06 Inc. VAT"
+            source_unit_price: '0.0106'
+            source_vat_basis: inclusive
+            unit_price: '0.0106'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.0158'
+        total_price_10: '0.1580'
+        total_price_100: '1.5800'
+        total_price_1000: '11.9000'
+        total_price_10000: '106.0000'
+        unit_price_1: '0.0158'
+        unit_price_10: '0.0158'
+        unit_price_100: '0.0158'
+        unit_price_1000: '0.0119'
+        unit_price_10000: '0.0106'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings: []
+svg_details:
+-   svg_c_max_mm: '0.60'
+    svg_c_min_mm: '0.15'
+    svg_da_max_mm: '8.75'
+    svg_da_min_mm: '8.00'
+    svg_dw_min_mm: '11.60'
+    svg_e_min_mm: '14.38'
+    svg_m_max_mm: '6.80'
+    svg_m_min_mm: '6.44'
+    svg_name: nut
+    svg_nominal_diameter: M8
+    svg_s_max_mm: '13.00'
+    svg_s_min_mm: '12.73'
+    svg_thread_pitch_mm: '1.25'
+-   af_mm: 13.0
+    filename: working_mechanical_drawing
+    hardware_type: nut
+    height_mm: 6.8
+    id_mm: 8.0
+    part_category: HARDWARE / NUT
+    part_code: ISO4032 / DIN934
+    part_name: ''
+    part_series: METRIC HEX NUT
+    part_title: M8
+    svg_name: oomp_mech_drawing_hardware
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: nut
+taxonomy_2_capital: Nut
+taxonomy_2_first_letter: n
+taxonomy_2_first_letter_upper: N
+taxonomy_2_length_1: n
+taxonomy_2_length_2: nu
+taxonomy_2_length_3: nut
+taxonomy_2_length_4: nut
+taxonomy_2_length_5: nut
+taxonomy_2_upper: NUT
+taxonomy_2_upper_length_1: N
+taxonomy_2_upper_length_2: NU
+taxonomy_2_upper_length_3: NUT
+taxonomy_2_upper_length_4: NUT
+taxonomy_2_upper_length_5: NUT
+taxonomy_3: m8
+taxonomy_3_capital: M8
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m8
+taxonomy_3_length_3: m8
+taxonomy_3_length_4: m8
+taxonomy_3_length_5: m8
+taxonomy_3_upper: M8
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M8
+taxonomy_3_upper_length_3: M8
+taxonomy_3_upper_length_4: M8
+taxonomy_3_upper_length_5: M8
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+    checked_on: '2026-10-11'
+    coordinate_system:
+        axis: +Z along bore
+        glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+        glb_units: metres
+        glb_up_axis: Y
+        origin: lower face centre
+        stl_units: mm
+    dimension_status: standard_dimensions
+    dimensional_specification: ISO 4032:2012
+    generator: iso_4032_hex_nut
+    length_status: not_applicable
+    material:
+        base_colour_srgb:
+        - 0.62
+        - 0.65
+        - 0.69
+        coat_roughness: 0.28
+        coat_weight: 0.02
+        metallic: 1.0
+        microtexture_height_um: 0.8
+        microtexture_spacing_mm: 0.025
+        name: Satin steel
+        note: Visual finish approximation; catalogue specifies colour only.
+        roughness: 0.26
+        roughness_variation: 0.045
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+        bearing: Bolt bearing circle and c selected within limits; k includes bearing
+            thickness; fillet tangent to shaft and bearing.
+        cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
+            bore and mouth chamfers.
+        certification: Nominal visual catalogue model, not manufacturing tolerance
+            certification.
+        chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees.
+            Bolt tip 45 degrees, P/2.
+        components: One closed solid for supported products. Unspecified lock/cage
+            assemblies are not substituted with plain hex nuts.
+        dimension_selection: Nominal bolt head height, max flats/nut height, nominal
+            washer sizes; selected dimensions stored in parameters.
+        display: Smooth nominal external-thread envelope or smooth minor-diameter
+            internal bore; lower angular and fillet tessellation.
+        family_note: Catalogue family mapped to the cited dimensional pattern; exact
+            supplier unspecified.
+        markings: Supplier and property-class markings omitted because catalogue does
+            not identify them.
+        runout: External one-pitch fade to plain shank; full thread ends at underhead
+            fillet.
+        thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+            rounded root H/6, internal P/4 crest and P/8 root flats.
+        unspecified_geometry: Nut mouth for supplier rows without limits and flange
+            M3/M4 thickness/rim blends are explicit visual model selections.
+    output_folder: three_d_model
+    parameters:
+        across_flats_mm: 13
+        characteristic_dimension_basis: hexagon across flats
+        characteristic_dimension_mm: 13
+        expected_components: 1
+        external_minor_diameter_mm: 6.466413347465057
+        family: nut
+        finish: satin
+        handedness: right
+        height_convention: total axial nut height
+        height_mm: 6.8
+        hole_chamfer_mm: 0.4988781754730549
+        hole_chamfer_slope: 1.7320508075688767
+        identity: hardware_nut_m8
+        internal_minor_diameter_mm: 6.646835306586815
+        mouth_diameter_mm: 8.375
+        nominal_diameter_mm: 8.0
+        outer_chamfer_angle_degrees: 30.0
+        overall_height_mm: 6.8
+        pitch_mm: 1.25
+        specification: ISO 4032:2012
+        thread_flank_angle_degrees: 60.0
+        thread_pitch_diameter_mm: 7.188101183952089
+        thread_starts: 1
+    renders:
+        high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+        low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+        product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+        product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+    schema_version: 1
+    source_table: source_file/standards/catalogue_hardware.yaml
+    sources:
+    -   title: ISO 4032:2012 fourth edition, table 1, hexagon regular nuts
+        url: https://cdn.standards.iteh.ai/samples/61668/93b89b8502a943499386155c44018aaa/ISO-4032-2012.pdf
+    -   title: ISO 68-1:1998 basic ISO metric thread profile
+        url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+    standard: ISO 4032:2012
+    standard_lengths_mm: []
+    standard_limits:
+        across_corners_min_mm: 14.38
+        across_flats_mm:
+        - 12.73
+        - 13
+        height_mm:
+        - 6.44
+        - 6.8
+        mouth_diameter_mm:
+        - 8
+        - 8.75
+    studio:
+        adaptive_threshold: 0.015
+        denoise: true
+        device: auto
+        engine: cycles
+        exposure: 0.0
+        floor_colour_srgb:
+        - 0.93
+        - 0.935
+        - 0.94
+        floor_roughness: 0.55
+        framing_margin: 0.13
+        high_samples: 160
+        lights:
+        -   colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+        -   colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+        -   colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+        look: AgX - Medium High Contrast
+        low_samples: 48
+        poses:
+            isometric:
+                camera_eye:
+                - 1
+                - -1
+                - 1
+                orientation: principal axis Z up
+                projection: orthographic
+            product:
+                camera_eye:
+                - -6
+                - -10
+                - 6
+                orientation: resting on lower face, bore visible
+                projection: orthographic
+                resting_axis: face
+                support: Stable convex-hull support using actual mesh centre of mass.
+                yaw_degrees: -12.0
+        seed: 7991
+        view_transform: AgX
+        world_colour:
+        - 0.78
+        - 0.82
+        - 0.9
+        world_strength: 0.35
+    units: mm
+    variants:
+        display:
+            angular_segments: 24
+            fillet_segments: 3
+            samples_per_pitch: 1
+        full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
+url_chat: ''
+```
+
+</details>
+
+## Parts
+
+[Full-detail 3D model (GLB)](three_d_model/model_full.glb) · [Dimensioned drawing (PDF)](working_mechanical_drawing_a4.pdf) · [Full-detail view drawings](three_d_model/full/) · [Drawer label (SVG)](label_drawer.svg)
+
+Full-detail and simplified display models are alternatives for the same part. GLB uses metres; STL, where supplied, uses millimetres. The [part folder](./) contains all available files.
+
+## Assembly
+
+This page documents a component rather than a complete project assembly. No installation sequence or tightening torque is specified by this record.
+<!-- hardware-part:end -->

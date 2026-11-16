@@ -1,0 +1,1706 @@
+<!-- hardware-part:start -->
+# M6 × 15 mm hex-head set screw — nylon white
+
+## Summary
+
+A fully threaded hex-head fastener for bolted joints.
+
+[Hardware catalogue](../../README.md) · [Browse this family](../../navigation_oobb/README.md#set-screws)
+
+| Isometric | Product view |
+| --- | --- |
+| [![Full-detail isometric render](three_d_model/readme_isometric.png)](three_d_model/render_high.png) | [![Full-detail product view render](three_d_model/readme_product.png)](three_d_model/render_product_high.png) |
+
+Full-detail catalogue renders. Click either image to open the original resolution.
+
+## Details
+
+**OOMP ID:** `hardware_set_screw_m6_nylon_white_15_mm_length`
+
+**Short code:** `nf75` · **Three-word label:** awful grain grunt
+
+| Model dimension | mm |
+| --- | ---: |
+| Nominal size | 6 |
+| Thread pitch | 1 |
+| Length | 15 |
+| Across flats | 10 |
+| Head height | 4 |
+| Modelled thread length | 13.75 |
+
+Length convention: under-head bearing plane to tip.
+
+Dimensions above are values used by the saved model recipe, in millimetres. **Model basis: manufacturer dimensions.**
+
+<details>
+<summary>Model provenance and assumptions</summary>
+
+**Recorded dimensional reference:** Westfield DIN 933-style nylon hex head screw; not ISO material compliance
+
+**Source checked:** 2026-10-11
+
+**Length status:** catalogue length not verified in source length table
+
+**Visual finish:** Natural white nylon
+
+**Finish assumption:** Visual natural nylon approximation; exact polymer grade and mould surface not supplied by catalogue.
+
+**Family notes:** Catalogue family mapped to the cited dimensional pattern; exact supplier unspecified.
+
+These are saved catalogue references and modelling choices, not a claim of manufacturing certification.
+
+- [Westfield M6 nylon hex head setscrews, nominal DIN 933 pattern](https://www.westfieldfasteners.co.uk/Nylon-ScrewBolt-HexHd-M6-THRfull.html)
+- [Kramp 933660N nylon M6 hexagon head bolt, 10 mm flats and 4 mm head](https://www.kramp.com/shop-gb/en/p/hexagon-head-bolt-din933-m6x60-nylon-6.6-kramp--933660N)
+- [ISO 68-1:1998 basic ISO metric thread profile](https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf)
+
+[Complete model recipe](three_d_model/parameters.json)
+
+</details>
+
+<details>
+<summary>Complete part metadata</summary>
+
+[Source working.yaml](working.yaml)
+
+```yaml
+bip_39_2_word_array:
+- awful
+- grain
+bip_39_2_word_no_space: awfulgrain
+bip_39_2_word_space: awful grain
+bip_39_2_word_underscore: awful_grain
+bip_39_3_word_array:
+- awful
+- grain
+- grunt
+bip_39_3_word_no_space: awfulgraingrunt
+bip_39_3_word_space: awful grain grunt
+bip_39_3_word_underscore: awful_grain_grunt
+bip_39_full_array:
+- awful
+- grain
+- grunt
+- mammal
+- urban
+- virtual
+- save
+- lady
+- vital
+- obey
+- green
+- portion
+bip_39_full_no_space: awfulgraingruntmammalurbanvirtualsaveladyvitalobeygreenportion
+bip_39_full_space: awful grain grunt mammal urban virtual save lady vital obey green
+    portion
+bip_39_full_underscore: awful_grain_grunt_mammal_urban_virtual_save_lady_vital_obey_green_portion
+directory: parts/hardware_set_screw_m6_nylon_white_15_mm_length
+generate_stl: true
+id: hardware_set_screw_m6_nylon_white_15_mm_length
+id_no_class: hardware_set_screw_m6_nylon_white_15_mm_length
+id_no_size: hardware_set_screw_m6_nylon_white_15_mm_length
+id_no_type: hardware_set_screw_m6_nylon_white_15_mm_length
+label_drawer: &id001
+    bip39: awful grain grunt
+    bip39_size: 2.35
+    code: SS
+    description: Set screw / M6 / 15 mm / Hex head / Full thread / Nylon white
+    detail_lines:
+    - Hex head / Full thread
+    - Nylon white
+    detail_size: 2.05
+    detail_y: 18.900000000000002
+    diagram: <path d="M2 3H5L6 4V10L5 11H2Z M4 3V11"/><path d="M6 5H18V9H6"/><path
+        d="M7 5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+    drive_symbol: <path d="M5 1L8.46 3V7L5 9L1.54 7V3Z" fill="#ffffff"/>
+    length: '15'
+    length_size: 7.8
+    length_x: 18.02234375
+    name: Set screw
+    name_lines:
+    - Set screw
+    name_size: 3.2
+    thread: M6
+    thread_size: 6.5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m6_nylon_white_15_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m6_nylon_white_15_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m6_nylon_white_15_mm_length
+md5: 10acb19cc35ef5e8eff3e4f512fd9954
+md5_10: 10acb19cc3
+md5_10_upper: 10ACB19CC3
+md5_5: 10acb
+md5_5_upper: 10ACB
+md5_6: 10acb1
+md5_6_alpha: nf75
+md5_6_alpha_upper: NF75
+md5_6_upper: 10ACB1
+name: Hardware Set Screw M6 Nylon White 15 Mm Length
+name_no_class: Hardware Set Screw M6 Nylon White 15 Mm Length
+name_no_size: Hardware Set Screw M6 Nylon White 15 Mm Length
+name_no_type: Hardware Set Screw M6 Nylon White 15 Mm Length
+name_proper: Hardware Set Screw M6 Nylon White 15 Mm Length
+name_space: hardware set screw m6 nylon white 15 mm length
+name_upper: HARDWARE SET SCREW M6 NYLON WHITE 15 MM LENGTH
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_set_screw_m6_nylon_white_15_mm_length
+            name: hardware_set_screw_m6_nylon_white_15_mm_length
+            name_proper: Hardware Set Screw M6 Nylon White 15 Mm Length
+            name_space: hardware set screw m6 nylon white 15 mm length
+            name_upper: HARDWARE SET SCREW M6 NYLON WHITE 15 MM LENGTH
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 15 hex head fully threaded set screw DIN 933
+                        white nylon
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 15 hex head fully threaded set screw DIN 933
+                        white nylon
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T11:08:53.210209+00:00'
+                    evidence_file: support_files/evidence/hardware_set_screw_m6_nylon_white_15_mm_length/google/c86565cdd7f14a19821b984bdb7960b7.yaml
+                    evidence_url: https://www.google.com/search?q=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                    material_evidence: ''
+                    product_name: ''
+                    reason: Google returned an exact-size Bolt World nylon product,
+                        but the selected product page does not identify the nylon
+                        colour as white. The page identifies Nylon 66 but does not
+                        establish eligibility for this nylon_white ID. The exact-length
+                        eBay result was not opened because that platform is blocked.
+                    result_url: ''
+                    search_evidence: The exact Google query returned Bolt World's
+                        M6 x 15mm hexagon head set screw. Its product page shows the
+                        selected M6 (6mm) and 15mm options, nylon (plastic), fully
+                        threaded DIN 933 form, but does not state the colour. Google
+                        also returned an eBay result describing White (Natural), but
+                        eBay is blocked and was not inspected.
+                    search_for: M6 x 15 hex head fully threaded set screw DIN 933
+                        white nylon
+                    search_url: https://www.google.com/search?q=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: unresolved
+            spec_iso_b_125_lt_l_le_200_mm: '24'
+            spec_iso_b_l_gt_200_mm: ''
+            spec_iso_b_l_le_125_mm: '18'
+            spec_iso_c_max_mm: '0.50'
+            spec_iso_c_min_mm: '0.15'
+            spec_iso_da_max_mm: '6.8'
+            spec_iso_dw_min_mm: '8.88'
+            spec_iso_e_min_mm: '11.05'
+            spec_iso_k_max_mm: '4.15'
+            spec_iso_k_min_mm: '3.85'
+            spec_iso_nominal_diameter: M6
+            spec_iso_s_max_mm: '10.00'
+            spec_iso_s_min_mm: '9.78'
+            spec_iso_thread_pitch_mm: '1.00'
+            svg_details:
+            -   svg_b_125_lt_l_le_200_mm: '24'
+                svg_b_l_gt_200_mm: ''
+                svg_b_l_le_125_mm: '18'
+                svg_c_max_mm: '0.50'
+                svg_c_min_mm: '0.15'
+                svg_da_max_mm: '6.8'
+                svg_dw_min_mm: '8.88'
+                svg_e_min_mm: '11.05'
+                svg_k_max_mm: '4.15'
+                svg_k_min_mm: '3.85'
+                svg_name: set_screw
+                svg_nominal_diameter: M6
+                svg_s_max_mm: '10.00'
+                svg_s_min_mm: '9.78'
+                svg_thread_pitch_mm: '1.00'
+            -   af_mm: 10.0
+                filename: working_mechanical_drawing
+                hardware_type: set_screw
+                head_height_mm: 4.15
+                id_mm: 6.0
+                length_mm: 15.0
+                part_category: HARDWARE / SET SCREW
+                part_code: ISO4017 / DIN933
+                part_name: ''
+                part_series: HEX HEAD FULL THREAD SCREW
+                part_title: "M6\xD715"
+                svg_name: oomp_mech_drawing_hardware
+                thread_length_mm: 15.0
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: set_screw
+            taxonomy_3: m6
+            taxonomy_4: ''
+            taxonomy_5: nylon_white
+            taxonomy_6: ''
+            taxonomy_7: 15_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z towards head
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: tip centre
+                    stl_units: mm
+                dimension_status: manufacturer_dimensions
+                dimensional_specification: Westfield DIN 933-style nylon hex head
+                    screw; not ISO material compliance
+                generator: supplier_nylon_hex_screw
+                length_status: catalogue_length_not_verified_in_source_length_table
+                material:
+                    base_colour_srgb:
+                    - 0.86
+                    - 0.85
+                    - 0.81
+                    coat_roughness: 0.28
+                    coat_weight: 0.025
+                    metallic: 0.0
+                    microtexture_height_um: 0.4
+                    microtexture_spacing_mm: 0.025
+                    name: Natural white nylon
+                    note: Visual natural nylon approximation; exact polymer grade
+                        and mould surface not supplied by catalogue.
+                    roughness: 0.38
+                    roughness_variation: 0.025
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Catalogue family mapped to the cited dimensional
+                        pattern; exact supplier unspecified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 10
+                    bearing_diameter_mm: 9.4
+                    bearing_height_mm: 0.3
+                    characteristic_dimension_basis: nominal axial thread diameter
+                    characteristic_dimension_mm: 6.0
+                    expected_components: 1
+                    external_minor_diameter_mm: 4.773130677972045
+                    family: bolt
+                    finish: nylon_white
+                    handedness: right
+                    head_chamfer_height_mm: 0.4465819873852048
+                    head_height_mm: 4
+                    identity: hardware_set_screw_m6_nylon_white_15_mm_length
+                    internal_minor_diameter_mm: 4.917468245269452
+                    length_convention: under-head bearing plane to tip
+                    length_mm: 15.0
+                    nominal_diameter_mm: 6.0
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 19.0
+                    pitch_mm: 1
+                    plain_shank_length_mm: 0.25
+                    specification: Westfield DIN 933-style nylon hex head screw; not
+                        ISO material compliance
+                    thread_end_z_mm: 14.75
+                    thread_flank_angle_degrees: 60.0
+                    thread_length_mm: 13.75
+                    thread_length_table_mm: null
+                    thread_mode: full
+                    thread_pitch_diameter_mm: 5.350480947161671
+                    thread_runout_mm: 1
+                    thread_starts: 1
+                    tip_chamfer_mm: 0.5
+                    underhead_fillet_mm: 0.25
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: Westfield M6 nylon hex head setscrews, nominal DIN 933
+                        pattern
+                    url: https://www.westfieldfasteners.co.uk/Nylon-ScrewBolt-HexHd-M6-THRfull.html
+                -   title: Kramp 933660N nylon M6 hexagon head bolt, 10 mm flats and
+                        4 mm head
+                    url: https://www.kramp.com/shop-gb/en/p/hexagon-head-bolt-din933-m6x60-nylon-6.6-kramp--933660N
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: null
+                standard_lengths_mm: []
+                standard_limits:
+                    across_corners_min_mm: 11.05
+                    across_flats_mm:
+                    - 9.78
+                    - 10
+                    bearing_diameter_min_mm: 8.88
+                    head_height_mm:
+                    - 3.85
+                    - 4.15
+                    incomplete_thread_max_mm: 2
+                    outer_chamfer_angle_degrees:
+                    - 15
+                    - 30
+                    product_grade: A
+                    underhead_fillet_min_mm: 0.25
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: lying on side, axial end to left
+                            projection: orthographic
+                            resting_axis: side
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_set_screw_m6_nylon_white_15_mm_length
+            name: hardware_set_screw_m6_nylon_white_15_mm_length
+            name_proper: Hardware Set Screw M6 Nylon White 15 Mm Length
+            name_space: hardware set screw m6 nylon white 15 mm length
+            name_upper: HARDWARE SET SCREW M6 NYLON WHITE 15 MM LENGTH
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_set_screw_m6_nylon_white_15_mm_length
+                        name: hardware_set_screw_m6_nylon_white_15_mm_length
+                        name_proper: Hardware Set Screw M6 Nylon White 15 Mm Length
+                        name_space: hardware set screw m6 nylon white 15 mm length
+                        name_upper: HARDWARE SET SCREW M6 NYLON WHITE 15 MM LENGTH
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M6 x 15 hex head fully threaded set screw
+                                    DIN 933 white nylon
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M6 x 15 hex head fully threaded set screw
+                                    DIN 933 white nylon
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T11:08:53.210209+00:00'
+                                evidence_file: support_files/evidence/hardware_set_screw_m6_nylon_white_15_mm_length/google/c86565cdd7f14a19821b984bdb7960b7.yaml
+                                evidence_url: https://www.google.com/search?q=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                                material_evidence: ''
+                                product_name: ''
+                                reason: Google returned an exact-size Bolt World nylon
+                                    product, but the selected product page does not
+                                    identify the nylon colour as white. The page identifies
+                                    Nylon 66 but does not establish eligibility for
+                                    this nylon_white ID. The exact-length eBay result
+                                    was not opened because that platform is blocked.
+                                result_url: ''
+                                search_evidence: The exact Google query returned Bolt
+                                    World's M6 x 15mm hexagon head set screw. Its
+                                    product page shows the selected M6 (6mm) and 15mm
+                                    options, nylon (plastic), fully threaded DIN 933
+                                    form, but does not state the colour. Google also
+                                    returned an eBay result describing White (Natural),
+                                    but eBay is blocked and was not inspected.
+                                search_for: M6 x 15 hex head fully threaded set screw
+                                    DIN 933 white nylon
+                                search_url: https://www.google.com/search?q=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                                selected_variant: ''
+                                specification: ''
+                                status: unresolved
+                        spec_iso_b_125_lt_l_le_200_mm: '24'
+                        spec_iso_b_l_gt_200_mm: ''
+                        spec_iso_b_l_le_125_mm: '18'
+                        spec_iso_c_max_mm: '0.50'
+                        spec_iso_c_min_mm: '0.15'
+                        spec_iso_da_max_mm: '6.8'
+                        spec_iso_dw_min_mm: '8.88'
+                        spec_iso_e_min_mm: '11.05'
+                        spec_iso_k_max_mm: '4.15'
+                        spec_iso_k_min_mm: '3.85'
+                        spec_iso_nominal_diameter: M6
+                        spec_iso_s_max_mm: '10.00'
+                        spec_iso_s_min_mm: '9.78'
+                        spec_iso_thread_pitch_mm: '1.00'
+                        svg_details:
+                        -   svg_b_125_lt_l_le_200_mm: '24'
+                            svg_b_l_gt_200_mm: ''
+                            svg_b_l_le_125_mm: '18'
+                            svg_c_max_mm: '0.50'
+                            svg_c_min_mm: '0.15'
+                            svg_da_max_mm: '6.8'
+                            svg_dw_min_mm: '8.88'
+                            svg_e_min_mm: '11.05'
+                            svg_k_max_mm: '4.15'
+                            svg_k_min_mm: '3.85'
+                            svg_name: set_screw
+                            svg_nominal_diameter: M6
+                            svg_s_max_mm: '10.00'
+                            svg_s_min_mm: '9.78'
+                            svg_thread_pitch_mm: '1.00'
+                        -   af_mm: 10.0
+                            filename: working_mechanical_drawing
+                            hardware_type: set_screw
+                            head_height_mm: 4.15
+                            id_mm: 6.0
+                            length_mm: 15.0
+                            part_category: HARDWARE / SET SCREW
+                            part_code: ISO4017 / DIN933
+                            part_name: ''
+                            part_series: HEX HEAD FULL THREAD SCREW
+                            part_title: "M6\xD715"
+                            svg_name: oomp_mech_drawing_hardware
+                            thread_length_mm: 15.0
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: set_screw
+                        taxonomy_3: m6
+                        taxonomy_4: ''
+                        taxonomy_5: nylon_white
+                        taxonomy_6: ''
+                        taxonomy_7: 15_mm_length
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        three_d_model_details:
+                            checked_on: '2026-10-11'
+                            coordinate_system:
+                                axis: +Z towards head
+                                glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                                glb_units: metres
+                                glb_up_axis: Y
+                                origin: tip centre
+                                stl_units: mm
+                            dimension_status: manufacturer_dimensions
+                            dimensional_specification: Westfield DIN 933-style nylon
+                                hex head screw; not ISO material compliance
+                            generator: supplier_nylon_hex_screw
+                            length_status: catalogue_length_not_verified_in_source_length_table
+                            material:
+                                base_colour_srgb:
+                                - 0.86
+                                - 0.85
+                                - 0.81
+                                coat_roughness: 0.28
+                                coat_weight: 0.025
+                                metallic: 0.0
+                                microtexture_height_um: 0.4
+                                microtexture_spacing_mm: 0.025
+                                name: Natural white nylon
+                                note: Visual natural nylon approximation; exact polymer
+                                    grade and mould surface not supplied by catalogue.
+                                roughness: 0.38
+                                roughness_variation: 0.025
+                            model_formats:
+                            - stl
+                            - glb
+                            modelling_choices:
+                                bearing: Bolt bearing circle and c selected within
+                                    limits; k includes bearing thickness; fillet tangent
+                                    to shaft and bearing.
+                                cavity: Nut through-bore has a helical internal surface;
+                                    display keeps minor-diameter bore and mouth chamfers.
+                                certification: Nominal visual catalogue model, not
+                                    manufacturing tolerance certification.
+                                chamfer: 30 degree outer hex chamfer. Nut mouth included
+                                    angle 120 degrees. Bolt tip 45 degrees, P/2.
+                                components: One closed solid for supported products.
+                                    Unspecified lock/cage assemblies are not substituted
+                                    with plain hex nuts.
+                                dimension_selection: Nominal bolt head height, max
+                                    flats/nut height, nominal washer sizes; selected
+                                    dimensions stored in parameters.
+                                display: Smooth nominal external-thread envelope or
+                                    smooth minor-diameter internal bore; lower angular
+                                    and fillet tessellation.
+                                family_note: Catalogue family mapped to the cited
+                                    dimensional pattern; exact supplier unspecified.
+                                markings: Supplier and property-class markings omitted
+                                    because catalogue does not identify them.
+                                runout: External one-pitch fade to plain shank; full
+                                    thread ends at underhead fillet.
+                                thread: Nominal ISO basic metric profile, no ISO 965
+                                    tolerance offsets. External rounded root H/6,
+                                    internal P/4 crest and P/8 root flats.
+                                unspecified_geometry: Nut mouth for supplier rows
+                                    without limits and flange M3/M4 thickness/rim
+                                    blends are explicit visual model selections.
+                            output_folder: three_d_model
+                            parameters:
+                                across_flats_mm: 10
+                                bearing_diameter_mm: 9.4
+                                bearing_height_mm: 0.3
+                                characteristic_dimension_basis: nominal axial thread
+                                    diameter
+                                characteristic_dimension_mm: 6.0
+                                expected_components: 1
+                                external_minor_diameter_mm: 4.773130677972045
+                                family: bolt
+                                finish: nylon_white
+                                handedness: right
+                                head_chamfer_height_mm: 0.4465819873852048
+                                head_height_mm: 4
+                                identity: hardware_set_screw_m6_nylon_white_15_mm_length
+                                internal_minor_diameter_mm: 4.917468245269452
+                                length_convention: under-head bearing plane to tip
+                                length_mm: 15.0
+                                nominal_diameter_mm: 6.0
+                                outer_chamfer_angle_degrees: 30.0
+                                overall_height_mm: 19.0
+                                pitch_mm: 1
+                                plain_shank_length_mm: 0.25
+                                specification: Westfield DIN 933-style nylon hex head
+                                    screw; not ISO material compliance
+                                thread_end_z_mm: 14.75
+                                thread_flank_angle_degrees: 60.0
+                                thread_length_mm: 13.75
+                                thread_length_table_mm: null
+                                thread_mode: full
+                                thread_pitch_diameter_mm: 5.350480947161671
+                                thread_runout_mm: 1
+                                thread_starts: 1
+                                tip_chamfer_mm: 0.5
+                                underhead_fillet_mm: 0.25
+                            renders:
+                                high:
+                                    file: render_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: isometric
+                                low:
+                                    file: render_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: isometric
+                                product_high:
+                                    file: render_product_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: product
+                                product_low:
+                                    file: render_product_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: product
+                            schema_version: 1
+                            source_table: source_file/standards/catalogue_hardware.yaml
+                            sources:
+                            -   title: Westfield M6 nylon hex head setscrews, nominal
+                                    DIN 933 pattern
+                                url: https://www.westfieldfasteners.co.uk/Nylon-ScrewBolt-HexHd-M6-THRfull.html
+                            -   title: Kramp 933660N nylon M6 hexagon head bolt, 10
+                                    mm flats and 4 mm head
+                                url: https://www.kramp.com/shop-gb/en/p/hexagon-head-bolt-din933-m6x60-nylon-6.6-kramp--933660N
+                            -   title: ISO 68-1:1998 basic ISO metric thread profile
+                                url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                            standard: null
+                            standard_lengths_mm: []
+                            standard_limits:
+                                across_corners_min_mm: 11.05
+                                across_flats_mm:
+                                - 9.78
+                                - 10
+                                bearing_diameter_min_mm: 8.88
+                                head_height_mm:
+                                - 3.85
+                                - 4.15
+                                incomplete_thread_max_mm: 2
+                                outer_chamfer_angle_degrees:
+                                - 15
+                                - 30
+                                product_grade: A
+                                underhead_fillet_min_mm: 0.25
+                            studio:
+                                adaptive_threshold: 0.015
+                                denoise: true
+                                device: auto
+                                engine: cycles
+                                exposure: 0.0
+                                floor_colour_srgb:
+                                - 0.93
+                                - 0.935
+                                - 0.94
+                                floor_roughness: 0.55
+                                framing_margin: 0.13
+                                high_samples: 160
+                                lights:
+                                -   colour:
+                                    - 1.0
+                                    - 0.96
+                                    - 0.9
+                                    height: 5.0
+                                    name: Key softbox
+                                    position:
+                                    - -3
+                                    - -4
+                                    - 6
+                                    power: 650.0
+                                    width: 4.0
+                                -   colour:
+                                    - 0.9
+                                    - 0.95
+                                    - 1.0
+                                    height: 4.0
+                                    name: Fill softbox
+                                    position:
+                                    - 4
+                                    - -1
+                                    - 3
+                                    power: 330.0
+                                    width: 3.0
+                                -   colour:
+                                    - 1.0
+                                    - 1.0
+                                    - 1.0
+                                    height: 5.0
+                                    name: Rim strip
+                                    position:
+                                    - 1
+                                    - 4
+                                    - 4
+                                    power: 850.0
+                                    width: 1.2
+                                look: AgX - Medium High Contrast
+                                low_samples: 48
+                                poses:
+                                    isometric:
+                                        camera_eye:
+                                        - 1
+                                        - -1
+                                        - 1
+                                        orientation: principal axis Z up
+                                        projection: orthographic
+                                    product:
+                                        camera_eye:
+                                        - -6
+                                        - -10
+                                        - 6
+                                        orientation: lying on side, axial end to left
+                                        projection: orthographic
+                                        resting_axis: side
+                                        support: Stable convex-hull support using
+                                            actual mesh centre of mass.
+                                        yaw_degrees: -12.0
+                                seed: 7991
+                                view_transform: AgX
+                                world_colour:
+                                - 0.78
+                                - 0.82
+                                - 0.9
+                                world_strength: 0.35
+                            units: mm
+                            variants:
+                                display:
+                                    angular_segments: 24
+                                    fillet_segments: 3
+                                    samples_per_pitch: 1
+                                full:
+                                    angular_segments: 96
+                                    fillet_segments: 12
+                                    samples_per_pitch: 32
+                            views:
+                            - isometric
+                            - front
+                            - back
+                            - left
+                            - right
+                            - top
+                            - bottom
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 15 hex head fully threaded set screw DIN 933
+                        white nylon
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 x 15 hex head fully threaded set screw DIN 933
+                        white nylon
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T11:08:53.210209+00:00'
+                    evidence_file: support_files/evidence/hardware_set_screw_m6_nylon_white_15_mm_length/google/c86565cdd7f14a19821b984bdb7960b7.yaml
+                    evidence_url: https://www.google.com/search?q=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                    material_evidence: ''
+                    product_name: ''
+                    reason: Google returned an exact-size Bolt World nylon product,
+                        but the selected product page does not identify the nylon
+                        colour as white. The page identifies Nylon 66 but does not
+                        establish eligibility for this nylon_white ID. The exact-length
+                        eBay result was not opened because that platform is blocked.
+                    result_url: ''
+                    search_evidence: The exact Google query returned Bolt World's
+                        M6 x 15mm hexagon head set screw. Its product page shows the
+                        selected M6 (6mm) and 15mm options, nylon (plastic), fully
+                        threaded DIN 933 form, but does not state the colour. Google
+                        also returned an eBay result describing White (Natural), but
+                        eBay is blocked and was not inspected.
+                    search_for: M6 x 15 hex head fully threaded set screw DIN 933
+                        white nylon
+                    search_url: https://www.google.com/search?q=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: unresolved
+            spec_iso_b_125_lt_l_le_200_mm: '24'
+            spec_iso_b_l_gt_200_mm: ''
+            spec_iso_b_l_le_125_mm: '18'
+            spec_iso_c_max_mm: '0.50'
+            spec_iso_c_min_mm: '0.15'
+            spec_iso_da_max_mm: '6.8'
+            spec_iso_dw_min_mm: '8.88'
+            spec_iso_e_min_mm: '11.05'
+            spec_iso_k_max_mm: '4.15'
+            spec_iso_k_min_mm: '3.85'
+            spec_iso_nominal_diameter: M6
+            spec_iso_s_max_mm: '10.00'
+            spec_iso_s_min_mm: '9.78'
+            spec_iso_thread_pitch_mm: '1.00'
+            svg_details:
+            -   svg_b_125_lt_l_le_200_mm: '24'
+                svg_b_l_gt_200_mm: ''
+                svg_b_l_le_125_mm: '18'
+                svg_c_max_mm: '0.50'
+                svg_c_min_mm: '0.15'
+                svg_da_max_mm: '6.8'
+                svg_dw_min_mm: '8.88'
+                svg_e_min_mm: '11.05'
+                svg_k_max_mm: '4.15'
+                svg_k_min_mm: '3.85'
+                svg_name: set_screw
+                svg_nominal_diameter: M6
+                svg_s_max_mm: '10.00'
+                svg_s_min_mm: '9.78'
+                svg_thread_pitch_mm: '1.00'
+            -   af_mm: 10.0
+                filename: working_mechanical_drawing
+                hardware_type: set_screw
+                head_height_mm: 4.15
+                id_mm: 6.0
+                length_mm: 15.0
+                part_category: HARDWARE / SET SCREW
+                part_code: ISO4017 / DIN933
+                part_name: ''
+                part_series: HEX HEAD FULL THREAD SCREW
+                part_title: "M6\xD715"
+                svg_name: oomp_mech_drawing_hardware
+                thread_length_mm: 15.0
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: set_screw
+            taxonomy_3: m6
+            taxonomy_4: ''
+            taxonomy_5: nylon_white
+            taxonomy_6: ''
+            taxonomy_7: 15_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z towards head
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: tip centre
+                    stl_units: mm
+                dimension_status: manufacturer_dimensions
+                dimensional_specification: Westfield DIN 933-style nylon hex head
+                    screw; not ISO material compliance
+                generator: supplier_nylon_hex_screw
+                length_status: catalogue_length_not_verified_in_source_length_table
+                material:
+                    base_colour_srgb:
+                    - 0.86
+                    - 0.85
+                    - 0.81
+                    coat_roughness: 0.28
+                    coat_weight: 0.025
+                    metallic: 0.0
+                    microtexture_height_um: 0.4
+                    microtexture_spacing_mm: 0.025
+                    name: Natural white nylon
+                    note: Visual natural nylon approximation; exact polymer grade
+                        and mould surface not supplied by catalogue.
+                    roughness: 0.38
+                    roughness_variation: 0.025
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Catalogue family mapped to the cited dimensional
+                        pattern; exact supplier unspecified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 10
+                    bearing_diameter_mm: 9.4
+                    bearing_height_mm: 0.3
+                    characteristic_dimension_basis: nominal axial thread diameter
+                    characteristic_dimension_mm: 6.0
+                    expected_components: 1
+                    external_minor_diameter_mm: 4.773130677972045
+                    family: bolt
+                    finish: nylon_white
+                    handedness: right
+                    head_chamfer_height_mm: 0.4465819873852048
+                    head_height_mm: 4
+                    identity: hardware_set_screw_m6_nylon_white_15_mm_length
+                    internal_minor_diameter_mm: 4.917468245269452
+                    length_convention: under-head bearing plane to tip
+                    length_mm: 15.0
+                    nominal_diameter_mm: 6.0
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 19.0
+                    pitch_mm: 1
+                    plain_shank_length_mm: 0.25
+                    specification: Westfield DIN 933-style nylon hex head screw; not
+                        ISO material compliance
+                    thread_end_z_mm: 14.75
+                    thread_flank_angle_degrees: 60.0
+                    thread_length_mm: 13.75
+                    thread_length_table_mm: null
+                    thread_mode: full
+                    thread_pitch_diameter_mm: 5.350480947161671
+                    thread_runout_mm: 1
+                    thread_starts: 1
+                    tip_chamfer_mm: 0.5
+                    underhead_fillet_mm: 0.25
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: Westfield M6 nylon hex head setscrews, nominal DIN 933
+                        pattern
+                    url: https://www.westfieldfasteners.co.uk/Nylon-ScrewBolt-HexHd-M6-THRfull.html
+                -   title: Kramp 933660N nylon M6 hexagon head bolt, 10 mm flats and
+                        4 mm head
+                    url: https://www.kramp.com/shop-gb/en/p/hexagon-head-bolt-din933-m6x60-nylon-6.6-kramp--933660N
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: null
+                standard_lengths_mm: []
+                standard_limits:
+                    across_corners_min_mm: 11.05
+                    across_flats_mm:
+                    - 9.78
+                    - 10
+                    bearing_diameter_min_mm: 8.88
+                    head_height_mm:
+                    - 3.85
+                    - 4.15
+                    incomplete_thread_max_mm: 2
+                    outer_chamfer_angle_degrees:
+                    - 15
+                    - 30
+                    product_grade: A
+                    underhead_fillet_min_mm: 0.25
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: lying on side, axial end to left
+                            projection: orthographic
+                            resting_axis: side
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_bolt_image.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        description: label_drawer
+        dict_data:
+            label_drawer: *id001
+        file_output: label_drawer.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
+oomp_key: oomp_hardware_set_screw_m6_nylon_white_15_mm_length
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M6 x 15 hex head fully threaded set screw DIN 933 white nylon
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M6 x 15 hex head fully threaded set screw DIN 933 white nylon
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T11:08:53.210209+00:00'
+        evidence_file: support_files/evidence/hardware_set_screw_m6_nylon_white_15_mm_length/google/c86565cdd7f14a19821b984bdb7960b7.yaml
+        evidence_url: https://www.google.com/search?q=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+        material_evidence: ''
+        product_name: ''
+        reason: Google returned an exact-size Bolt World nylon product, but the selected
+            product page does not identify the nylon colour as white. The page identifies
+            Nylon 66 but does not establish eligibility for this nylon_white ID. The
+            exact-length eBay result was not opened because that platform is blocked.
+        result_url: ''
+        search_evidence: The exact Google query returned Bolt World's M6 x 15mm hexagon
+            head set screw. Its product page shows the selected M6 (6mm) and 15mm
+            options, nylon (plastic), fully threaded DIN 933 form, but does not state
+            the colour. Google also returned an eBay result describing White (Natural),
+            but eBay is blocked and was not inspected.
+        search_for: M6 x 15 hex head fully threaded set screw DIN 933 white nylon
+        search_url: https://www.google.com/search?q=M6+x+15+hex+head+fully+threaded+set+screw+DIN+933+white+nylon
+        selected_variant: ''
+        specification: ''
+        status: unresolved
+spec_iso_b_125_lt_l_le_200_mm: '24'
+spec_iso_b_l_gt_200_mm: ''
+spec_iso_b_l_le_125_mm: '18'
+spec_iso_c_max_mm: '0.50'
+spec_iso_c_min_mm: '0.15'
+spec_iso_da_max_mm: '6.8'
+spec_iso_dw_min_mm: '8.88'
+spec_iso_e_min_mm: '11.05'
+spec_iso_k_max_mm: '4.15'
+spec_iso_k_min_mm: '3.85'
+spec_iso_nominal_diameter: M6
+spec_iso_s_max_mm: '10.00'
+spec_iso_s_min_mm: '9.78'
+spec_iso_thread_pitch_mm: '1.00'
+svg_details:
+-   svg_b_125_lt_l_le_200_mm: '24'
+    svg_b_l_gt_200_mm: ''
+    svg_b_l_le_125_mm: '18'
+    svg_c_max_mm: '0.50'
+    svg_c_min_mm: '0.15'
+    svg_da_max_mm: '6.8'
+    svg_dw_min_mm: '8.88'
+    svg_e_min_mm: '11.05'
+    svg_k_max_mm: '4.15'
+    svg_k_min_mm: '3.85'
+    svg_name: set_screw
+    svg_nominal_diameter: M6
+    svg_s_max_mm: '10.00'
+    svg_s_min_mm: '9.78'
+    svg_thread_pitch_mm: '1.00'
+-   af_mm: 10.0
+    filename: working_mechanical_drawing
+    hardware_type: set_screw
+    head_height_mm: 4.15
+    id_mm: 6.0
+    length_mm: 15.0
+    part_category: HARDWARE / SET SCREW
+    part_code: ISO4017 / DIN933
+    part_name: ''
+    part_series: HEX HEAD FULL THREAD SCREW
+    part_title: "M6\xD715"
+    svg_name: oomp_mech_drawing_hardware
+    thread_length_mm: 15.0
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: set_screw
+taxonomy_2_capital: Set Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: se
+taxonomy_2_length_3: set
+taxonomy_2_length_4: set_
+taxonomy_2_length_5: set_s
+taxonomy_2_upper: SET_SCREW
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: SE
+taxonomy_2_upper_length_3: SET
+taxonomy_2_upper_length_4: SET_
+taxonomy_2_upper_length_5: SET_S
+taxonomy_3: m6
+taxonomy_3_capital: M6
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m6
+taxonomy_3_length_3: m6
+taxonomy_3_length_4: m6
+taxonomy_3_length_5: m6
+taxonomy_3_upper: M6
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M6
+taxonomy_3_upper_length_3: M6
+taxonomy_3_upper_length_4: M6
+taxonomy_3_upper_length_5: M6
+taxonomy_4: ''
+taxonomy_5: nylon_white
+taxonomy_5_capital: Nylon White
+taxonomy_5_first_letter: n
+taxonomy_5_first_letter_upper: N
+taxonomy_5_length_1: n
+taxonomy_5_length_2: ny
+taxonomy_5_length_3: nyl
+taxonomy_5_length_4: nylo
+taxonomy_5_length_5: nylon
+taxonomy_5_upper: NYLON_WHITE
+taxonomy_5_upper_length_1: N
+taxonomy_5_upper_length_2: NY
+taxonomy_5_upper_length_3: NYL
+taxonomy_5_upper_length_4: NYLO
+taxonomy_5_upper_length_5: NYLON
+taxonomy_6: ''
+taxonomy_7: 15_mm_length
+taxonomy_7_capital: 15 mm Length
+taxonomy_7_first_letter: '1'
+taxonomy_7_first_letter_upper: '1'
+taxonomy_7_length_1: '1'
+taxonomy_7_length_2: '15'
+taxonomy_7_length_3: '15_'
+taxonomy_7_length_4: 15_m
+taxonomy_7_length_5: 15_mm
+taxonomy_7_upper: 15_MM_LENGTH
+taxonomy_7_upper_length_1: '1'
+taxonomy_7_upper_length_2: '15'
+taxonomy_7_upper_length_3: '15_'
+taxonomy_7_upper_length_4: 15_M
+taxonomy_7_upper_length_5: 15_MM
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+    checked_on: '2026-10-11'
+    coordinate_system:
+        axis: +Z towards head
+        glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+        glb_units: metres
+        glb_up_axis: Y
+        origin: tip centre
+        stl_units: mm
+    dimension_status: manufacturer_dimensions
+    dimensional_specification: Westfield DIN 933-style nylon hex head screw; not ISO
+        material compliance
+    generator: supplier_nylon_hex_screw
+    length_status: catalogue_length_not_verified_in_source_length_table
+    material:
+        base_colour_srgb:
+        - 0.86
+        - 0.85
+        - 0.81
+        coat_roughness: 0.28
+        coat_weight: 0.025
+        metallic: 0.0
+        microtexture_height_um: 0.4
+        microtexture_spacing_mm: 0.025
+        name: Natural white nylon
+        note: Visual natural nylon approximation; exact polymer grade and mould surface
+            not supplied by catalogue.
+        roughness: 0.38
+        roughness_variation: 0.025
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+        bearing: Bolt bearing circle and c selected within limits; k includes bearing
+            thickness; fillet tangent to shaft and bearing.
+        cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
+            bore and mouth chamfers.
+        certification: Nominal visual catalogue model, not manufacturing tolerance
+            certification.
+        chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees.
+            Bolt tip 45 degrees, P/2.
+        components: One closed solid for supported products. Unspecified lock/cage
+            assemblies are not substituted with plain hex nuts.
+        dimension_selection: Nominal bolt head height, max flats/nut height, nominal
+            washer sizes; selected dimensions stored in parameters.
+        display: Smooth nominal external-thread envelope or smooth minor-diameter
+            internal bore; lower angular and fillet tessellation.
+        family_note: Catalogue family mapped to the cited dimensional pattern; exact
+            supplier unspecified.
+        markings: Supplier and property-class markings omitted because catalogue does
+            not identify them.
+        runout: External one-pitch fade to plain shank; full thread ends at underhead
+            fillet.
+        thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+            rounded root H/6, internal P/4 crest and P/8 root flats.
+        unspecified_geometry: Nut mouth for supplier rows without limits and flange
+            M3/M4 thickness/rim blends are explicit visual model selections.
+    output_folder: three_d_model
+    parameters:
+        across_flats_mm: 10
+        bearing_diameter_mm: 9.4
+        bearing_height_mm: 0.3
+        characteristic_dimension_basis: nominal axial thread diameter
+        characteristic_dimension_mm: 6.0
+        expected_components: 1
+        external_minor_diameter_mm: 4.773130677972045
+        family: bolt
+        finish: nylon_white
+        handedness: right
+        head_chamfer_height_mm: 0.4465819873852048
+        head_height_mm: 4
+        identity: hardware_set_screw_m6_nylon_white_15_mm_length
+        internal_minor_diameter_mm: 4.917468245269452
+        length_convention: under-head bearing plane to tip
+        length_mm: 15.0
+        nominal_diameter_mm: 6.0
+        outer_chamfer_angle_degrees: 30.0
+        overall_height_mm: 19.0
+        pitch_mm: 1
+        plain_shank_length_mm: 0.25
+        specification: Westfield DIN 933-style nylon hex head screw; not ISO material
+            compliance
+        thread_end_z_mm: 14.75
+        thread_flank_angle_degrees: 60.0
+        thread_length_mm: 13.75
+        thread_length_table_mm: null
+        thread_mode: full
+        thread_pitch_diameter_mm: 5.350480947161671
+        thread_runout_mm: 1
+        thread_starts: 1
+        tip_chamfer_mm: 0.5
+        underhead_fillet_mm: 0.25
+    renders:
+        high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+        low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+        product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+        product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+    schema_version: 1
+    source_table: source_file/standards/catalogue_hardware.yaml
+    sources:
+    -   title: Westfield M6 nylon hex head setscrews, nominal DIN 933 pattern
+        url: https://www.westfieldfasteners.co.uk/Nylon-ScrewBolt-HexHd-M6-THRfull.html
+    -   title: Kramp 933660N nylon M6 hexagon head bolt, 10 mm flats and 4 mm head
+        url: https://www.kramp.com/shop-gb/en/p/hexagon-head-bolt-din933-m6x60-nylon-6.6-kramp--933660N
+    -   title: ISO 68-1:1998 basic ISO metric thread profile
+        url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+    standard: null
+    standard_lengths_mm: []
+    standard_limits:
+        across_corners_min_mm: 11.05
+        across_flats_mm:
+        - 9.78
+        - 10
+        bearing_diameter_min_mm: 8.88
+        head_height_mm:
+        - 3.85
+        - 4.15
+        incomplete_thread_max_mm: 2
+        outer_chamfer_angle_degrees:
+        - 15
+        - 30
+        product_grade: A
+        underhead_fillet_min_mm: 0.25
+    studio:
+        adaptive_threshold: 0.015
+        denoise: true
+        device: auto
+        engine: cycles
+        exposure: 0.0
+        floor_colour_srgb:
+        - 0.93
+        - 0.935
+        - 0.94
+        floor_roughness: 0.55
+        framing_margin: 0.13
+        high_samples: 160
+        lights:
+        -   colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+        -   colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+        -   colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+        look: AgX - Medium High Contrast
+        low_samples: 48
+        poses:
+            isometric:
+                camera_eye:
+                - 1
+                - -1
+                - 1
+                orientation: principal axis Z up
+                projection: orthographic
+            product:
+                camera_eye:
+                - -6
+                - -10
+                - 6
+                orientation: lying on side, axial end to left
+                projection: orthographic
+                resting_axis: side
+                support: Stable convex-hull support using actual mesh centre of mass.
+                yaw_degrees: -12.0
+        seed: 7991
+        view_transform: AgX
+        world_colour:
+        - 0.78
+        - 0.82
+        - 0.9
+        world_strength: 0.35
+    units: mm
+    variants:
+        display:
+            angular_segments: 24
+            fillet_segments: 3
+            samples_per_pitch: 1
+        full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
+url_chat: ''
+```
+
+</details>
+
+## Parts
+
+[Full-detail 3D model (GLB)](three_d_model/model_full.glb) · [Dimensioned drawing (PDF)](working_mechanical_drawing_a4.pdf) · [Full-detail view drawings](three_d_model/full/) · [Drawer label (SVG)](label_drawer.svg)
+
+Full-detail and simplified display models are alternatives for the same part. GLB uses metres; STL, where supplied, uses millimetres. The [part folder](./) contains all available files.
+
+## Assembly
+
+This page documents a component rather than a complete project assembly. No installation sequence or tightening torque is specified by this record.
+<!-- hardware-part:end -->

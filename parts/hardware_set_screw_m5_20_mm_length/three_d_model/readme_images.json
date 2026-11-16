@@ -1,0 +1,14 @@
+{
+  "readme_isometric.png": {
+    "source": "render_high.png",
+    "source_sha256": "eff7e65611c6019df07f92d13e98e8e147b2d0ff9c0b1fa18f0bdbe633589609",
+    "preview_size": 512,
+    "preview_sha256": "797479ba3b7e1686970e527522507c736d349a3016cf84d0e54ff6c34770a22e"
+  },
+  "readme_product.png": {
+    "source": "render_product_high.png",
+    "source_sha256": "9bd5fcb57d5a6de106b8a6b271da018018ee4fe0b3f175e6bf121a3725a24a00",
+    "preview_size": 512,
+    "preview_sha256": "851fa14c32f0d954fc3e82d752b6a39b6b2878929f3a906a0b84135cd8fef87e"
+  }
+}

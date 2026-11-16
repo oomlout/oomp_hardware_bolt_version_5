@@ -1,0 +1,2968 @@
+<!-- hardware-part:start -->
+# M5 × 50 mm hex-head set screw
+
+## Summary
+
+A fully threaded hex-head fastener for bolted joints.
+
+[Hardware catalogue](../../README.md) · [Browse this family](../../navigation_oobb/README.md#set-screws)
+
+| Isometric | Product view |
+| --- | --- |
+| [![Full-detail isometric render](three_d_model/readme_isometric.png)](three_d_model/render_high.png) | [![Full-detail product view render](three_d_model/readme_product.png)](three_d_model/render_product_high.png) |
+
+Full-detail catalogue renders. Click either image to open the original resolution.
+
+## Details
+
+**OOMP ID:** `hardware_set_screw_m5_50_mm_length`
+
+**Short code:** `3k0md` · **Three-word label:** forest bomb goddess
+
+| Model dimension | mm |
+| --- | ---: |
+| Nominal size | 5 |
+| Thread pitch | 0.8 |
+| Length | 50 |
+| Across flats | 8 |
+| Head height | 3.5 |
+| Modelled thread length | 49 |
+
+Length convention: under-head bearing plane to tip.
+
+Dimensions above are values used by the saved model recipe, in millimetres. **Model basis: standard dimensions.**
+
+<details>
+<summary>Model provenance and assumptions</summary>
+
+**Recorded dimensional reference:** ISO 4017 supplier dimensional specification (edition not stated)
+
+**Source checked:** 2026-10-11
+
+**Length status:** catalogue length not verified in source length table
+
+**Visual finish:** Satin steel
+
+**Finish assumption:** Visual finish approximation; catalogue specifies colour only.
+
+**Family notes:** Lengths are catalogue selections; the cited supplier table verifies head dimensions, not every length offered here.
+
+These are saved catalogue references and modelling choices, not a claim of manufacturing certification.
+
+- [Westfield Fasteners ISO 4017 hex head set screw specification](https://www.westfieldfasteners.co.uk/Standards/ScrewBolt-HexHd4017-M-THRfull.html)
+- [ISO 68-1:1998 basic ISO metric thread profile](https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf)
+
+[Complete model recipe](three_d_model/parameters.json)
+
+</details>
+
+<details>
+<summary>Complete part metadata</summary>
+
+[Source working.yaml](working.yaml)
+
+```yaml
+bip_39_2_word_array:
+- forest
+- bomb
+bip_39_2_word_no_space: forestbomb
+bip_39_2_word_space: forest bomb
+bip_39_2_word_underscore: forest_bomb
+bip_39_3_word_array:
+- forest
+- bomb
+- goddess
+bip_39_3_word_no_space: forestbombgoddess
+bip_39_3_word_space: forest bomb goddess
+bip_39_3_word_underscore: forest_bomb_goddess
+bip_39_full_array:
+- forest
+- bomb
+- goddess
+- weekend
+- fever
+- enjoy
+- cram
+- sniff
+- page
+- cereal
+- rich
+- cotton
+bip_39_full_no_space: forestbombgoddessweekendfeverenjoycramsniffpagecerealrichcotton
+bip_39_full_space: forest bomb goddess weekend fever enjoy cram sniff page cereal
+    rich cotton
+bip_39_full_underscore: forest_bomb_goddess_weekend_fever_enjoy_cram_sniff_page_cereal_rich_cotton
+directory: parts/hardware_set_screw_m5_50_mm_length
+generate_stl: true
+id: hardware_set_screw_m5_50_mm_length
+id_no_class: hardware_set_screw_m5_50_mm_length
+id_no_size: hardware_set_screw_m5_50_mm_length
+id_no_type: hardware_set_screw_m5_50_mm_length
+label_drawer: &id001
+    bip39: forest bomb goddess
+    bip39_size: 2.213
+    code: SS
+    description: Set screw / M5 / 50 mm / Hex head / Full thread
+    detail_lines:
+    - Hex head / Full thread
+    detail_size: 2.05
+    detail_y: 21.1
+    diagram: <path d="M2 3H5L6 4V10L5 11H2Z M4 3V11"/><path d="M6 5H18V9H6"/><path
+        d="M7 5L6 9 M9 5L8 9 M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+    drive_symbol: <path d="M5 1L8.46 3V7L5 9L1.54 7V3Z" fill="#ffffff"/>
+    length: '50'
+    length_size: 7.8
+    length_x: 18.02234375
+    name: Set screw
+    name_lines:
+    - Set screw
+    name_size: 3.2
+    thread: M5
+    thread_size: 6.5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m5_50_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m5_50_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_set_screw_m5_50_mm_length
+md5: 5b232590fc8556954c8e6b9ee4b2e518
+md5_10: 5b232590fc
+md5_10_upper: 5B232590FC
+md5_5: 5b232
+md5_5_upper: 5B232
+md5_6: 5b2325
+md5_6_alpha: 3k0md
+md5_6_alpha_upper: 3K0MD
+md5_6_upper: 5B2325
+name: Hardware Set Screw M5 50 Mm Length
+name_no_class: Hardware Set Screw M5 50 Mm Length
+name_no_size: Hardware Set Screw M5 50 Mm Length
+name_no_type: Hardware Set Screw M5 50 Mm Length
+name_proper: Hardware Set Screw M5 50 Mm Length
+name_space: hardware set screw m5 50 mm length
+name_upper: HARDWARE SET SCREW M5 50 MM LENGTH
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_set_screw_m5_50_mm_length
+            name: hardware_set_screw_m5_50_mm_length
+            name_proper: Hardware Set Screw M5 50 Mm Length
+            name_space: hardware set screw m5 50 mm length
+            name_upper: HARDWARE SET SCREW M5 50 MM LENGTH
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M5 x 50 hex head fully threaded set screw DIN 933
+                        steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M5+x+50+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M5 x 50 hex head fully threaded set screw DIN 933
+                        steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+x+50+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T10:48:03.798005+00:00'
+                    evidence_file: support_files/evidence/hardware_set_screw_m5_50_mm_length/google/ff367d3691694a2087431d3bf35b2f96.yaml
+                    evidence_url: https://www.google.com/search?q=M5+x+50+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    material_evidence: Steel
+                    product_name: M5 x 50mm Set Screw - Hex Head (DIN 933) | 8.8 Steel
+                        BZP
+                    reason: Vital Parts exact product page confirms M5 x 50mm, 8.8
+                        steel BZP, hex head and DIN 933; description confirms thread
+                        coverage across the full length.
+                    result_url: https://www.vital-parts.co.uk/hex-set-screws-din-933/10137-hh933-m5-50-88-bzp
+                    search_evidence: Google results included the Vital Parts exact-size
+                        8.8 Steel BZP item; stainless alternatives were rejected.
+                    search_for: M5 x 50 hex head fully threaded set screw DIN 933
+                        steel
+                    search_url: https://www.google.com/search?q=M5+x+50+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: 'Single-size product: M5 x 50mm, 0.80mm pitch,
+                        8.8 steel BZP; product code HH933-M5-50-88-BZP'
+                    specification: 'Thread Size: M5; Length: 50mm; Pitch: 0.80mm;
+                        Thread form: fully threaded; Drive: external hexagon; Head
+                        Style: Hex Head; Across Flats: 8mm; Head Height: 3.70mm; Material:
+                        8.8 steel; Finish: BZP; Standard: DIN 933'
+                    status: verified
+            spec_iso_b_125_lt_l_le_200_mm: '22'
+            spec_iso_b_l_gt_200_mm: ''
+            spec_iso_b_l_le_125_mm: '16'
+            spec_iso_c_max_mm: '0.50'
+            spec_iso_c_min_mm: '0.15'
+            spec_iso_da_max_mm: '5.7'
+            spec_iso_dw_min_mm: '6.88'
+            spec_iso_e_min_mm: '8.79'
+            spec_iso_k_max_mm: '3.65'
+            spec_iso_k_min_mm: '3.35'
+            spec_iso_nominal_diameter: M5
+            spec_iso_s_max_mm: '8.00'
+            spec_iso_s_min_mm: '7.78'
+            spec_iso_thread_pitch_mm: '0.80'
+            supplier_data:
+                accu:
+                    accepted_warnings: '["Accu displayed prices are rounded; derived
+                        totals use the captured display precision", "Final Accu price
+                        tier has no captured upper boundary; final advertised unit
+                        price extended by user policy"]'
+                    box_quantity: ''
+                    captured_at: '2026-10-13T22:36:06.137073+00:00'
+                    currency: GBP
+                    description: "Fully Threaded Hexagon Bolts are designed for use\
+                        \ in heavy-duty fastening applications, and feature a hexagonal\
+                        \ head for use with a standard spanner. As their name suggests,\
+                        \ these fasteners are threaded all the way up to the head\
+                        \ of the bolt, making them ideal for installation into pre-threaded\
+                        \ holes. Plain Hexagon Bolts, with a reinforced unthreaded\
+                        \ shaft section, are also available. All Full Thread Hexagon\
+                        \ Headed Bolts are precision rolled to achieve general tolerances\
+                        \ of +/-0.13mm. These components feature a full thread which\
+                        \ runs the entire length of the bolt's shaft, and are designed\
+                        \ for use alongside Accu's Hexagon Nuts ranges. Fully Threaded\
+                        \ Hexagon Bolt Materials Components within the Full Thread\
+                        \ Hexagon Bolts range are available in an array of materials,\
+                        \ including High-Tensile Steel (8.8, 10.9 & 12.9), A2, A4\
+                        \ and A4-80 Stainless Steel, BUMAX, Brass, Aluminium, Ceramic,\
+                        \ Phosphor Bronze, Nylon, Polypropylene, Polyvinylidene, Polycarbonate,\
+                        \ Reny, Polyphenylene and PEEK.\_ Ensure your Metric Full\
+                        \ thread Hexagon Bolts stay secure with our advanced pre-applied\
+                        \ thread-locking patches. Whether you need AccuLock Threadlocker\
+                        \ for essential fastening, Anu-Lok 180 for added grip, or\
+                        \ Precote 80 for maximum performance, we have the right solution.\
+                        \ For a refined aesthetic, AccuBlack chemical blackening reduces\
+                        \ glare while enhancing the surface finish. Metric Fully Threaded\
+                        \ Hexagon Bolts Metric Full Thread Hexagon Headed Bolts manufactured\
+                        \ according to DIN 933, and are available in diameters ranging\
+                        \ from M2 up to M36. Lengths of between 3mm and 200mm are\
+                        \ also available as standard. Non-Standard sizes are available\
+                        \ on request. Imperial Fully Threaded Hexagon Bolts Imperial\
+                        \ Full Thread Hexagon Headed Bolts are available in a number\
+                        \ of thread diameters, ranging from 1/4 inch up to No. 12,\
+                        \ and lengths of between 1/4 inch and 12 inch. These components\
+                        \ are manufactured to ANSI B18.6.3. Additional sizes are also\
+                        \ available on request."
+                    html_sha256: aec27fe71f1dd5e5c34bd4dcf3718b0c69860850031f79830a727a36d657a0ed
+                    name: M5 x 50mm Full Thread Hex Bolts (DIN 933) - Bright Zinc
+                        Plated High Tensile Steel (8.8)
+                    parsed_at: '2026-10-18T08:52:47.766053+00:00'
+                    parser_version: accu-1.9-base-material
+                    price_inheritance: "{\"1000\": {\"source_quantity\": 200, \"source_unit_price\"\
+                        : \"0.06\", \"source_text\": \"Buy 200 \xA30.06 Save 92 %\"\
+                        , \"basis\": \"user policy 2026-10-13\"}, \"10000\": {\"source_quantity\"\
+                        : 200, \"source_unit_price\": \"0.06\", \"source_text\": \"\
+                        Buy 200 \xA30.06 Save 92 %\", \"basis\": \"user policy 2026-10-13\"\
+                        }}"
+                    quote_minimum: ''
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept rounded displayed prices,
+                        open-ended final advertised tiers, and quotes required from
+                        400 units; quote-only prices remain blank."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.04",
+                        "highPrice": "0.79", "priceCurrency": "GBP", "offerCount":
+                        "11", "availability": "https://schema.org/InStock", "itemCondition":
+                        "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/full-thread-hexagon-bolts/1008552-SEBF-M5-50-8-8-BZP",
+                        "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                        {"@type": "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "accus prices are all ex
+                        vat", "confirmed_on": "2026-10-13"}'
+                    specifications: '{"Accu Product Code (APC)": "SEBF-M5-50-8.8-BZP",
+                        "Thread Size": "M5 (5 mm)", "Length (L)": "50 mm", "Socket
+                        Size (J)": "8 mm (Tolerance: +0/-0.22 mm)", "Material": "Steel
+                        - High Tensile (8.8)", "Finish": "Bright Zinc Plated", "Drive
+                        Type": "Hex", "Full Thread": "Yes", "Head Length (H)": "3.5
+                        mm", "Manufacturing Standard": "DIN 933", "Material Family":
+                        "Steel", "System of Measurement": "Metric"}'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: https://schema.org/InStock
+                    supplier: accu
+                    supplier_id: SEBF-M5-50-8.8-BZP
+                    supplier_part_number: SEBF-M5-50-8.8-BZP
+                    supplier_website: https://www.accu.co.uk/full-thread-hexagon-bolts/1008552-SEBF-M5-50-8-8-BZP
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: "Buy 1 \xA30.79"
+                        source_unit_price: '0.79'
+                        source_vat_basis: exclusive
+                        unit_price: '0.9480'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 3
+                        minimum: 2
+                        source_text: "Buy 2 \xA30.44 Save 44 %"
+                        source_unit_price: '0.44'
+                        source_vat_basis: exclusive
+                        unit_price: '0.5280'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5
+                        minimum: 4
+                        source_text: "Buy 4 \xA30.27 Save 65 %"
+                        source_unit_price: '0.27'
+                        source_vat_basis: exclusive
+                        unit_price: '0.3240'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 11
+                        minimum: 6
+                        source_text: "Buy 6 \xA30.19 Save 75 %"
+                        source_unit_price: '0.19'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2280'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 23
+                        minimum: 12
+                        source_text: "Buy 12 \xA30.13 Save 83 %"
+                        source_unit_price: '0.13'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1560'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 24
+                        source_text: "Buy 24 \xA30.10 Save 87 %"
+                        source_unit_price: '0.10'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: "Buy 50 \xA30.08 Save 89 %"
+                        source_unit_price: '0.08'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0960'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 199
+                        minimum: 100
+                        source_text: "Buy 100 \xA30.07 Save 91 %"
+                        source_unit_price: '0.07'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        maximum_basis: user-approved open-ended final tier; no captured
+                            upper boundary
+                        minimum: 200
+                        source_text: "Buy 200 \xA30.06 Save 92 %"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.9480'
+                    total_price_10: '2.2800'
+                    total_price_100: '8.4000'
+                    total_price_1000: '72.0000'
+                    total_price_10000: '720.0000'
+                    unit_price_1: '0.9480'
+                    unit_price_10: '0.2280'
+                    unit_price_100: '0.0840'
+                    unit_price_1000: '0.0720'
+                    unit_price_10000: '0.0720'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Accu displayed prices are rounded; derived totals use the captured
+                        display precision
+                    - Final Accu price tier has no captured upper boundary; final
+                        advertised unit price extended by user policy
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T00:31:58.104093+00:00'
+                    currency: GBP
+                    html_sha256: 3b2b8193b9b39da8faaed371f24893e5a6544d451a2c20215d3a6cff787c8ed3
+                    name: M5 x 50mm Hexagon Head Set Screws Bolts Fully Threaded Self
+                        Colour Black Grade 8.8, DIN 933
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:03:22.554987+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M5 (5mm); Length (L): 50mm; Material:
+                        High Tensile (Grade 8.8); Finish: Self Colour; Head Length
+                        (H): 3.74mm; Pitch: 0.8mm; Socket Size (J): 8mm; Manufacturing
+                        Standard: 933; Material Specification: High Tensile (Grade
+                        8.8); Fully Threaded: Yes'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 20324.050.050
+                    supplier_part_number: 20324.050.050
+                    supplier_website: https://dibolt.co.uk/products/m5-x-50mm-hexagon-head-set-screw-fully-threaded-din-933-self-colour-black-8-8
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA38.23 Per 100 Units"
+                        source_unit_price: '0.0823'
+                        source_vat_basis: exclusive
+                        unit_price: '0.098760'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2,499 \xA37.82 Per 100 Units"
+                        source_unit_price: '0.0782'
+                        source_vat_basis: exclusive
+                        unit_price: '0.093840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2500
+                        source_text: "2,500+ \xA37.41 Per 100 Units"
+                        source_unit_price: '0.0741'
+                        source_vat_basis: exclusive
+                        unit_price: '0.088920'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.098760'
+                    total_price_10: '0.987600'
+                    total_price_100: '9.876000'
+                    total_price_1000: '93.840000'
+                    total_price_10000: '889.200000'
+                    unit_price_1: '0.098760'
+                    unit_price_10: '0.098760'
+                    unit_price_100: '0.098760'
+                    unit_price_1000: '0.093840'
+                    unit_price_10000: '0.088920'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '200'
+                    captured_at: '2026-10-12T20:20:50.656749+00:00'
+                    catalogue_page: '8'
+                    currency: GBP
+                    description: ''
+                    html_sha256: f5cd18db432ae44e700c5aaeae3d03f26fc3e57e9bae53a053d6c95617cdb71d
+                    name: M5 x 50 Hexagon Head Set Screws High Tensile Grade 8.8 Bright
+                        Zinc Plated, DIN 933
+                    parsed_at: '2026-10-18T08:49:37.402755+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '6290'
+                    supplier: orbitalfasteners
+                    supplier_id: '1851141'
+                    supplier_part_number: '1851141'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m5-x-50-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_text: "1 - 199 \xA30.062 Inc. VAT \xA36.20 Inc. VAT"
+                        source_unit_price: '0.062'
+                        source_vat_basis: inclusive
+                        unit_price: '0.062'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_text: "200 - 999 \xA30.0344 Inc. VAT \xA33.44 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0344'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0344'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 1599
+                        minimum: 1000
+                        source_text: "1000 - 1599 \xA30.031 Inc. VAT \xA33.10 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.031'
+                        source_vat_basis: inclusive
+                        unit_price: '0.031'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 1600
+                        source_text: "1600 + \xA30.0276 Inc. VAT \xA32.76 Inc. VAT"
+                        source_unit_price: '0.0276'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0276'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.062'
+                    total_price_10: '0.620'
+                    total_price_100: '6.200'
+                    total_price_1000: '31.000'
+                    total_price_10000: '276.0000'
+                    unit_price_1: '0.062'
+                    unit_price_10: '0.062'
+                    unit_price_100: '0.062'
+                    unit_price_1000: '0.031'
+                    unit_price_10000: '0.0276'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+            svg_details:
+            -   svg_b_125_lt_l_le_200_mm: '22'
+                svg_b_l_gt_200_mm: ''
+                svg_b_l_le_125_mm: '16'
+                svg_c_max_mm: '0.50'
+                svg_c_min_mm: '0.15'
+                svg_da_max_mm: '5.7'
+                svg_dw_min_mm: '6.88'
+                svg_e_min_mm: '8.79'
+                svg_k_max_mm: '3.65'
+                svg_k_min_mm: '3.35'
+                svg_name: set_screw
+                svg_nominal_diameter: M5
+                svg_s_max_mm: '8.00'
+                svg_s_min_mm: '7.78'
+                svg_thread_pitch_mm: '0.80'
+            -   af_mm: 8.0
+                filename: working_mechanical_drawing
+                hardware_type: set_screw
+                head_height_mm: 3.65
+                id_mm: 5.0
+                length_mm: 50.0
+                part_category: HARDWARE / SET SCREW
+                part_code: ISO4017 / DIN933
+                part_name: ''
+                part_series: HEX HEAD FULL THREAD SCREW
+                part_title: "M5\xD750"
+                svg_name: oomp_mech_drawing_hardware
+                thread_length_mm: 50.0
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: set_screw
+            taxonomy_3: m5
+            taxonomy_4: ''
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: 50_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z towards head
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: tip centre
+                    stl_units: mm
+                dimension_status: standard_dimensions
+                dimensional_specification: ISO 4017 supplier dimensional specification
+                    (edition not stated)
+                generator: iso_4017_hex_screw
+                length_status: catalogue_length_not_verified_in_source_length_table
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Lengths are catalogue selections; the cited supplier
+                        table verifies head dimensions, not every length offered here.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 8
+                    bearing_diameter_mm: 7.4
+                    bearing_height_mm: 0.3
+                    characteristic_dimension_basis: nominal axial thread diameter
+                    characteristic_dimension_mm: 5.0
+                    expected_components: 1
+                    external_minor_diameter_mm: 4.018504542377636
+                    family: bolt
+                    finish: satin
+                    handedness: right
+                    head_chamfer_height_mm: 0.3572655899081639
+                    head_height_mm: 3.5
+                    identity: hardware_set_screw_m5_50_mm_length
+                    internal_minor_diameter_mm: 4.133974596215562
+                    length_convention: under-head bearing plane to tip
+                    length_mm: 50.0
+                    nominal_diameter_mm: 5.0
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 53.5
+                    pitch_mm: 0.8
+                    plain_shank_length_mm: 0.20000000000000284
+                    specification: ISO 4017 supplier dimensional specification (edition
+                        not stated)
+                    thread_end_z_mm: 49.8
+                    thread_flank_angle_degrees: 60.0
+                    thread_length_mm: 49.0
+                    thread_length_table_mm: null
+                    thread_mode: full
+                    thread_pitch_diameter_mm: 4.480384757729337
+                    thread_runout_mm: 0.8
+                    thread_starts: 1
+                    tip_chamfer_mm: 0.4
+                    underhead_fillet_mm: 0.2
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: Westfield Fasteners ISO 4017 hex head set screw specification
+                    url: https://www.westfieldfasteners.co.uk/Standards/ScrewBolt-HexHd4017-M-THRfull.html
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: ISO 4017 supplier dimensional specification (edition not
+                    stated)
+                standard_lengths_mm: []
+                standard_limits:
+                    across_corners_min_mm: 8.79
+                    across_flats_mm:
+                    - 7.78
+                    - 8
+                    bearing_diameter_min_mm: 6.88
+                    head_height_mm:
+                    - 3.35
+                    - 3.65
+                    incomplete_thread_max_mm: 1.6
+                    outer_chamfer_angle_degrees:
+                    - 15
+                    - 30
+                    product_grade: A
+                    underhead_fillet_min_mm: 0.2
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: lying on side, axial end to left
+                            projection: orthographic
+                            resting_axis: side
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_set_screw_m5_50_mm_length
+            name: hardware_set_screw_m5_50_mm_length
+            name_proper: Hardware Set Screw M5 50 Mm Length
+            name_space: hardware set screw m5 50 mm length
+            name_upper: HARDWARE SET SCREW M5 50 MM LENGTH
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_set_screw_m5_50_mm_length
+                        name: hardware_set_screw_m5_50_mm_length
+                        name_proper: Hardware Set Screw M5 50 Mm Length
+                        name_space: hardware set screw m5 50 mm length
+                        name_upper: HARDWARE SET SCREW M5 50 MM LENGTH
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M5 x 50 hex head fully threaded set screw
+                                    DIN 933 steel
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M5+x+50+hex+head+fully+threaded+set+screw+DIN+933+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M5 x 50 hex head fully threaded set screw
+                                    DIN 933 steel
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+x+50+hex+head+fully+threaded+set+screw+DIN+933+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T10:48:03.798005+00:00'
+                                evidence_file: support_files/evidence/hardware_set_screw_m5_50_mm_length/google/ff367d3691694a2087431d3bf35b2f96.yaml
+                                evidence_url: https://www.google.com/search?q=M5+x+50+hex+head+fully+threaded+set+screw+DIN+933+steel
+                                material_evidence: Steel
+                                product_name: M5 x 50mm Set Screw - Hex Head (DIN
+                                    933) | 8.8 Steel BZP
+                                reason: Vital Parts exact product page confirms M5
+                                    x 50mm, 8.8 steel BZP, hex head and DIN 933; description
+                                    confirms thread coverage across the full length.
+                                result_url: https://www.vital-parts.co.uk/hex-set-screws-din-933/10137-hh933-m5-50-88-bzp
+                                search_evidence: Google results included the Vital
+                                    Parts exact-size 8.8 Steel BZP item; stainless
+                                    alternatives were rejected.
+                                search_for: M5 x 50 hex head fully threaded set screw
+                                    DIN 933 steel
+                                search_url: https://www.google.com/search?q=M5+x+50+hex+head+fully+threaded+set+screw+DIN+933+steel
+                                selected_variant: 'Single-size product: M5 x 50mm,
+                                    0.80mm pitch, 8.8 steel BZP; product code HH933-M5-50-88-BZP'
+                                specification: 'Thread Size: M5; Length: 50mm; Pitch:
+                                    0.80mm; Thread form: fully threaded; Drive: external
+                                    hexagon; Head Style: Hex Head; Across Flats: 8mm;
+                                    Head Height: 3.70mm; Material: 8.8 steel; Finish:
+                                    BZP; Standard: DIN 933'
+                                status: verified
+                        spec_iso_b_125_lt_l_le_200_mm: '22'
+                        spec_iso_b_l_gt_200_mm: ''
+                        spec_iso_b_l_le_125_mm: '16'
+                        spec_iso_c_max_mm: '0.50'
+                        spec_iso_c_min_mm: '0.15'
+                        spec_iso_da_max_mm: '5.7'
+                        spec_iso_dw_min_mm: '6.88'
+                        spec_iso_e_min_mm: '8.79'
+                        spec_iso_k_max_mm: '3.65'
+                        spec_iso_k_min_mm: '3.35'
+                        spec_iso_nominal_diameter: M5
+                        spec_iso_s_max_mm: '8.00'
+                        spec_iso_s_min_mm: '7.78'
+                        spec_iso_thread_pitch_mm: '0.80'
+                        supplier_data:
+                            accu:
+                                accepted_warnings: '["Accu displayed prices are rounded;
+                                    derived totals use the captured display precision",
+                                    "Final Accu price tier has no captured upper boundary;
+                                    final advertised unit price extended by user policy"]'
+                                box_quantity: ''
+                                captured_at: '2026-10-13T22:36:06.137073+00:00'
+                                currency: GBP
+                                description: "Fully Threaded Hexagon Bolts are designed\
+                                    \ for use in heavy-duty fastening applications,\
+                                    \ and feature a hexagonal head for use with a\
+                                    \ standard spanner. As their name suggests, these\
+                                    \ fasteners are threaded all the way up to the\
+                                    \ head of the bolt, making them ideal for installation\
+                                    \ into pre-threaded holes. Plain Hexagon Bolts,\
+                                    \ with a reinforced unthreaded shaft section,\
+                                    \ are also available. All Full Thread Hexagon\
+                                    \ Headed Bolts are precision rolled to achieve\
+                                    \ general tolerances of +/-0.13mm. These components\
+                                    \ feature a full thread which runs the entire\
+                                    \ length of the bolt's shaft, and are designed\
+                                    \ for use alongside Accu's Hexagon Nuts ranges.\
+                                    \ Fully Threaded Hexagon Bolt Materials Components\
+                                    \ within the Full Thread Hexagon Bolts range are\
+                                    \ available in an array of materials, including\
+                                    \ High-Tensile Steel (8.8, 10.9 & 12.9), A2, A4\
+                                    \ and A4-80 Stainless Steel, BUMAX, Brass, Aluminium,\
+                                    \ Ceramic, Phosphor Bronze, Nylon, Polypropylene,\
+                                    \ Polyvinylidene, Polycarbonate, Reny, Polyphenylene\
+                                    \ and PEEK.\_ Ensure your Metric Full thread Hexagon\
+                                    \ Bolts stay secure with our advanced pre-applied\
+                                    \ thread-locking patches. Whether you need AccuLock\
+                                    \ Threadlocker for essential fastening, Anu-Lok\
+                                    \ 180 for added grip, or Precote 80 for maximum\
+                                    \ performance, we have the right solution. For\
+                                    \ a refined aesthetic, AccuBlack chemical blackening\
+                                    \ reduces glare while enhancing the surface finish.\
+                                    \ Metric Fully Threaded Hexagon Bolts Metric Full\
+                                    \ Thread Hexagon Headed Bolts manufactured according\
+                                    \ to DIN 933, and are available in diameters ranging\
+                                    \ from M2 up to M36. Lengths of between 3mm and\
+                                    \ 200mm are also available as standard. Non-Standard\
+                                    \ sizes are available on request. Imperial Fully\
+                                    \ Threaded Hexagon Bolts Imperial Full Thread\
+                                    \ Hexagon Headed Bolts are available in a number\
+                                    \ of thread diameters, ranging from 1/4 inch up\
+                                    \ to No. 12, and lengths of between 1/4 inch and\
+                                    \ 12 inch. These components are manufactured to\
+                                    \ ANSI B18.6.3. Additional sizes are also available\
+                                    \ on request."
+                                html_sha256: aec27fe71f1dd5e5c34bd4dcf3718b0c69860850031f79830a727a36d657a0ed
+                                name: M5 x 50mm Full Thread Hex Bolts (DIN 933) -
+                                    Bright Zinc Plated High Tensile Steel (8.8)
+                                parsed_at: '2026-10-18T08:52:47.766053+00:00'
+                                parser_version: accu-1.9-base-material
+                                price_inheritance: "{\"1000\": {\"source_quantity\"\
+                                    : 200, \"source_unit_price\": \"0.06\", \"source_text\"\
+                                    : \"Buy 200 \xA30.06 Save 92 %\", \"basis\": \"\
+                                    user policy 2026-10-13\"}, \"10000\": {\"source_quantity\"\
+                                    : 200, \"source_unit_price\": \"0.06\", \"source_text\"\
+                                    : \"Buy 200 \xA30.06 Save 92 %\", \"basis\": \"\
+                                    user policy 2026-10-13\"}}"
+                                quote_minimum: ''
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept rounded displayed
+                                    prices, open-ended final advertised tiers, and
+                                    quotes required from 400 units; quote-only prices
+                                    remain blank."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_offer: '{"@type": "AggregateOffer", "lowPrice":
+                                    "0.04", "highPrice": "0.79", "priceCurrency":
+                                    "GBP", "offerCount": "11", "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "url": "https://www.accu.co.uk/full-thread-hexagon-bolts/1008552-SEBF-M5-50-8-8-BZP",
+                                    "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                                    {"@type": "QuantitativeValue", "value": 1, "unitCode":
+                                    "ANN"}}}'
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "accus
+                                    prices are all ex vat", "confirmed_on": "2026-10-13"}'
+                                specifications: '{"Accu Product Code (APC)": "SEBF-M5-50-8.8-BZP",
+                                    "Thread Size": "M5 (5 mm)", "Length (L)": "50
+                                    mm", "Socket Size (J)": "8 mm (Tolerance: +0/-0.22
+                                    mm)", "Material": "Steel - High Tensile (8.8)",
+                                    "Finish": "Bright Zinc Plated", "Drive Type":
+                                    "Hex", "Full Thread": "Yes", "Head Length (H)":
+                                    "3.5 mm", "Manufacturing Standard": "DIN 933",
+                                    "Material Family": "Steel", "System of Measurement":
+                                    "Metric"}'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: https://schema.org/InStock
+                                supplier: accu
+                                supplier_id: SEBF-M5-50-8.8-BZP
+                                supplier_part_number: SEBF-M5-50-8.8-BZP
+                                supplier_website: https://www.accu.co.uk/full-thread-hexagon-bolts/1008552-SEBF-M5-50-8-8-BZP
+                                tiers:
+                                -   maximum: 1
+                                    minimum: 1
+                                    source_text: "Buy 1 \xA30.79"
+                                    source_unit_price: '0.79'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.9480'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 3
+                                    minimum: 2
+                                    source_text: "Buy 2 \xA30.44 Save 44 %"
+                                    source_unit_price: '0.44'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.5280'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 5
+                                    minimum: 4
+                                    source_text: "Buy 4 \xA30.27 Save 65 %"
+                                    source_unit_price: '0.27'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.3240'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 11
+                                    minimum: 6
+                                    source_text: "Buy 6 \xA30.19 Save 75 %"
+                                    source_unit_price: '0.19'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.2280'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 23
+                                    minimum: 12
+                                    source_text: "Buy 12 \xA30.13 Save 83 %"
+                                    source_unit_price: '0.13'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1560'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 49
+                                    minimum: 24
+                                    source_text: "Buy 24 \xA30.10 Save 87 %"
+                                    source_unit_price: '0.10'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1200'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 99
+                                    minimum: 50
+                                    source_text: "Buy 50 \xA30.08 Save 89 %"
+                                    source_unit_price: '0.08'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0960'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 199
+                                    minimum: 100
+                                    source_text: "Buy 100 \xA30.07 Save 91 %"
+                                    source_unit_price: '0.07'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0840'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    maximum_basis: user-approved open-ended final
+                                        tier; no captured upper boundary
+                                    minimum: 200
+                                    source_text: "Buy 200 \xA30.06 Save 92 %"
+                                    source_unit_price: '0.06'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0720'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.9480'
+                                total_price_10: '2.2800'
+                                total_price_100: '8.4000'
+                                total_price_1000: '72.0000'
+                                total_price_10000: '720.0000'
+                                unit_price_1: '0.9480'
+                                unit_price_10: '0.2280'
+                                unit_price_100: '0.0840'
+                                unit_price_1000: '0.0720'
+                                unit_price_10000: '0.0720'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Accu displayed prices are rounded; derived totals
+                                    use the captured display precision
+                                - Final Accu price tier has no captured upper boundary;
+                                    final advertised unit price extended by user policy
+                            dibolt:
+                                accepted_warnings: '["Dibolt per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-14T00:31:58.104093+00:00'
+                                currency: GBP
+                                html_sha256: 3b2b8193b9b39da8faaed371f24893e5a6544d451a2c20215d3a6cff787c8ed3
+                                name: M5 x 50mm Hexagon Head Set Screws Bolts Fully
+                                    Threaded Self Colour Black Grade 8.8, DIN 933
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:03:22.554987+00:00'
+                                parser_version: dibolt-1.3-missing-price-review
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept the precision
+                                    of rounded displayed per-100 prices."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: 'Thread Size: M5 (5mm); Length (L):
+                                    50mm; Material: High Tensile (Grade 8.8); Finish:
+                                    Self Colour; Head Length (H): 3.74mm; Pitch: 0.8mm;
+                                    Socket Size (J): 8mm; Manufacturing Standard:
+                                    933; Material Specification: High Tensile (Grade
+                                    8.8); Fully Threaded: Yes'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: dibolt
+                                supplier_id: 20324.050.050
+                                supplier_part_number: 20324.050.050
+                                supplier_website: https://dibolt.co.uk/products/m5-x-50mm-hexagon-head-set-screw-fully-threaded-din-933-self-colour-black-8-8
+                                tiers:
+                                -   maximum: 499
+                                    minimum: 1
+                                    source_text: "1 - 499 \xA38.23 Per 100 Units"
+                                    source_unit_price: '0.0823'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.098760'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 2499
+                                    minimum: 500
+                                    source_text: "500 - 2,499 \xA37.82 Per 100 Units"
+                                    source_unit_price: '0.0782'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.093840'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 2500
+                                    source_text: "2,500+ \xA37.41 Per 100 Units"
+                                    source_unit_price: '0.0741'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.088920'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.098760'
+                                total_price_10: '0.987600'
+                                total_price_100: '9.876000'
+                                total_price_1000: '93.840000'
+                                total_price_10000: '889.200000'
+                                unit_price_1: '0.098760'
+                                unit_price_10: '0.098760'
+                                unit_price_100: '0.098760'
+                                unit_price_1000: '0.093840'
+                                unit_price_10000: '0.088920'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Dibolt per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
+                            orbitalfasteners:
+                                accepted_warnings: '[]'
+                                box_quantity: '200'
+                                captured_at: '2026-10-12T20:20:50.656749+00:00'
+                                catalogue_page: '8'
+                                currency: GBP
+                                description: ''
+                                html_sha256: f5cd18db432ae44e700c5aaeae3d03f26fc3e57e9bae53a053d6c95617cdb71d
+                                name: M5 x 50 Hexagon Head Set Screws High Tensile
+                                    Grade 8.8 Bright Zinc Plated, DIN 933
+                                parsed_at: '2026-10-18T08:49:37.402755+00:00'
+                                parser_version: 1.2-review-policy
+                                review_policy: ''
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: inclusive
+                                status: ok
+                                stock_as_of: 9th October 2026 10:01pm
+                                stock_quantity: '6290'
+                                supplier: orbitalfasteners
+                                supplier_id: '1851141'
+                                supplier_part_number: '1851141'
+                                supplier_website: https://www.orbitalfasteners.co.uk/products/m5-x-50-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated
+                                tiers:
+                                -   maximum: 199
+                                    minimum: 1
+                                    source_text: "1 - 199 \xA30.062 Inc. VAT \xA3\
+                                        6.20 Inc. VAT"
+                                    source_unit_price: '0.062'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.062'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 999
+                                    minimum: 200
+                                    source_text: "200 - 999 \xA30.0344 Inc. VAT \xA3\
+                                        3.44 Inc. VAT"
+                                    source_unit_price: '0.0344'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0344'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 1599
+                                    minimum: 1000
+                                    source_text: "1000 - 1599 \xA30.031 Inc. VAT \xA3\
+                                        3.10 Inc. VAT"
+                                    source_unit_price: '0.031'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.031'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 1600
+                                    source_text: "1600 + \xA30.0276 Inc. VAT \xA3\
+                                        2.76 Inc. VAT"
+                                    source_unit_price: '0.0276'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0276'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.062'
+                                total_price_10: '0.620'
+                                total_price_100: '6.200'
+                                total_price_1000: '31.000'
+                                total_price_10000: '276.0000'
+                                unit_price_1: '0.062'
+                                unit_price_10: '0.062'
+                                unit_price_100: '0.062'
+                                unit_price_1000: '0.031'
+                                unit_price_10000: '0.0276'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings: []
+                        svg_details:
+                        -   svg_b_125_lt_l_le_200_mm: '22'
+                            svg_b_l_gt_200_mm: ''
+                            svg_b_l_le_125_mm: '16'
+                            svg_c_max_mm: '0.50'
+                            svg_c_min_mm: '0.15'
+                            svg_da_max_mm: '5.7'
+                            svg_dw_min_mm: '6.88'
+                            svg_e_min_mm: '8.79'
+                            svg_k_max_mm: '3.65'
+                            svg_k_min_mm: '3.35'
+                            svg_name: set_screw
+                            svg_nominal_diameter: M5
+                            svg_s_max_mm: '8.00'
+                            svg_s_min_mm: '7.78'
+                            svg_thread_pitch_mm: '0.80'
+                        -   af_mm: 8.0
+                            filename: working_mechanical_drawing
+                            hardware_type: set_screw
+                            head_height_mm: 3.65
+                            id_mm: 5.0
+                            length_mm: 50.0
+                            part_category: HARDWARE / SET SCREW
+                            part_code: ISO4017 / DIN933
+                            part_name: ''
+                            part_series: HEX HEAD FULL THREAD SCREW
+                            part_title: "M5\xD750"
+                            svg_name: oomp_mech_drawing_hardware
+                            thread_length_mm: 50.0
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: set_screw
+                        taxonomy_3: m5
+                        taxonomy_4: ''
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: 50_mm_length
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        three_d_model_details:
+                            checked_on: '2026-10-11'
+                            coordinate_system:
+                                axis: +Z towards head
+                                glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                                glb_units: metres
+                                glb_up_axis: Y
+                                origin: tip centre
+                                stl_units: mm
+                            dimension_status: standard_dimensions
+                            dimensional_specification: ISO 4017 supplier dimensional
+                                specification (edition not stated)
+                            generator: iso_4017_hex_screw
+                            length_status: catalogue_length_not_verified_in_source_length_table
+                            material:
+                                base_colour_srgb:
+                                - 0.62
+                                - 0.65
+                                - 0.69
+                                coat_roughness: 0.28
+                                coat_weight: 0.02
+                                metallic: 1.0
+                                microtexture_height_um: 0.8
+                                microtexture_spacing_mm: 0.025
+                                name: Satin steel
+                                note: Visual finish approximation; catalogue specifies
+                                    colour only.
+                                roughness: 0.26
+                                roughness_variation: 0.045
+                            model_formats:
+                            - stl
+                            - glb
+                            modelling_choices:
+                                bearing: Bolt bearing circle and c selected within
+                                    limits; k includes bearing thickness; fillet tangent
+                                    to shaft and bearing.
+                                cavity: Nut through-bore has a helical internal surface;
+                                    display keeps minor-diameter bore and mouth chamfers.
+                                certification: Nominal visual catalogue model, not
+                                    manufacturing tolerance certification.
+                                chamfer: 30 degree outer hex chamfer. Nut mouth included
+                                    angle 120 degrees. Bolt tip 45 degrees, P/2.
+                                components: One closed solid for supported products.
+                                    Unspecified lock/cage assemblies are not substituted
+                                    with plain hex nuts.
+                                dimension_selection: Nominal bolt head height, max
+                                    flats/nut height, nominal washer sizes; selected
+                                    dimensions stored in parameters.
+                                display: Smooth nominal external-thread envelope or
+                                    smooth minor-diameter internal bore; lower angular
+                                    and fillet tessellation.
+                                family_note: Lengths are catalogue selections; the
+                                    cited supplier table verifies head dimensions,
+                                    not every length offered here.
+                                markings: Supplier and property-class markings omitted
+                                    because catalogue does not identify them.
+                                runout: External one-pitch fade to plain shank; full
+                                    thread ends at underhead fillet.
+                                thread: Nominal ISO basic metric profile, no ISO 965
+                                    tolerance offsets. External rounded root H/6,
+                                    internal P/4 crest and P/8 root flats.
+                                unspecified_geometry: Nut mouth for supplier rows
+                                    without limits and flange M3/M4 thickness/rim
+                                    blends are explicit visual model selections.
+                            output_folder: three_d_model
+                            parameters:
+                                across_flats_mm: 8
+                                bearing_diameter_mm: 7.4
+                                bearing_height_mm: 0.3
+                                characteristic_dimension_basis: nominal axial thread
+                                    diameter
+                                characteristic_dimension_mm: 5.0
+                                expected_components: 1
+                                external_minor_diameter_mm: 4.018504542377636
+                                family: bolt
+                                finish: satin
+                                handedness: right
+                                head_chamfer_height_mm: 0.3572655899081639
+                                head_height_mm: 3.5
+                                identity: hardware_set_screw_m5_50_mm_length
+                                internal_minor_diameter_mm: 4.133974596215562
+                                length_convention: under-head bearing plane to tip
+                                length_mm: 50.0
+                                nominal_diameter_mm: 5.0
+                                outer_chamfer_angle_degrees: 30.0
+                                overall_height_mm: 53.5
+                                pitch_mm: 0.8
+                                plain_shank_length_mm: 0.20000000000000284
+                                specification: ISO 4017 supplier dimensional specification
+                                    (edition not stated)
+                                thread_end_z_mm: 49.8
+                                thread_flank_angle_degrees: 60.0
+                                thread_length_mm: 49.0
+                                thread_length_table_mm: null
+                                thread_mode: full
+                                thread_pitch_diameter_mm: 4.480384757729337
+                                thread_runout_mm: 0.8
+                                thread_starts: 1
+                                tip_chamfer_mm: 0.4
+                                underhead_fillet_mm: 0.2
+                            renders:
+                                high:
+                                    file: render_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: isometric
+                                low:
+                                    file: render_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: isometric
+                                product_high:
+                                    file: render_product_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: product
+                                product_low:
+                                    file: render_product_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: product
+                            schema_version: 1
+                            source_table: source_file/standards/catalogue_hardware.yaml
+                            sources:
+                            -   title: Westfield Fasteners ISO 4017 hex head set screw
+                                    specification
+                                url: https://www.westfieldfasteners.co.uk/Standards/ScrewBolt-HexHd4017-M-THRfull.html
+                            -   title: ISO 68-1:1998 basic ISO metric thread profile
+                                url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                            standard: ISO 4017 supplier dimensional specification
+                                (edition not stated)
+                            standard_lengths_mm: []
+                            standard_limits:
+                                across_corners_min_mm: 8.79
+                                across_flats_mm:
+                                - 7.78
+                                - 8
+                                bearing_diameter_min_mm: 6.88
+                                head_height_mm:
+                                - 3.35
+                                - 3.65
+                                incomplete_thread_max_mm: 1.6
+                                outer_chamfer_angle_degrees:
+                                - 15
+                                - 30
+                                product_grade: A
+                                underhead_fillet_min_mm: 0.2
+                            studio:
+                                adaptive_threshold: 0.015
+                                denoise: true
+                                device: auto
+                                engine: cycles
+                                exposure: 0.0
+                                floor_colour_srgb:
+                                - 0.93
+                                - 0.935
+                                - 0.94
+                                floor_roughness: 0.55
+                                framing_margin: 0.13
+                                high_samples: 160
+                                lights:
+                                -   colour:
+                                    - 1.0
+                                    - 0.96
+                                    - 0.9
+                                    height: 5.0
+                                    name: Key softbox
+                                    position:
+                                    - -3
+                                    - -4
+                                    - 6
+                                    power: 650.0
+                                    width: 4.0
+                                -   colour:
+                                    - 0.9
+                                    - 0.95
+                                    - 1.0
+                                    height: 4.0
+                                    name: Fill softbox
+                                    position:
+                                    - 4
+                                    - -1
+                                    - 3
+                                    power: 330.0
+                                    width: 3.0
+                                -   colour:
+                                    - 1.0
+                                    - 1.0
+                                    - 1.0
+                                    height: 5.0
+                                    name: Rim strip
+                                    position:
+                                    - 1
+                                    - 4
+                                    - 4
+                                    power: 850.0
+                                    width: 1.2
+                                look: AgX - Medium High Contrast
+                                low_samples: 48
+                                poses:
+                                    isometric:
+                                        camera_eye:
+                                        - 1
+                                        - -1
+                                        - 1
+                                        orientation: principal axis Z up
+                                        projection: orthographic
+                                    product:
+                                        camera_eye:
+                                        - -6
+                                        - -10
+                                        - 6
+                                        orientation: lying on side, axial end to left
+                                        projection: orthographic
+                                        resting_axis: side
+                                        support: Stable convex-hull support using
+                                            actual mesh centre of mass.
+                                        yaw_degrees: -12.0
+                                seed: 7991
+                                view_transform: AgX
+                                world_colour:
+                                - 0.78
+                                - 0.82
+                                - 0.9
+                                world_strength: 0.35
+                            units: mm
+                            variants:
+                                display:
+                                    angular_segments: 24
+                                    fillet_segments: 3
+                                    samples_per_pitch: 1
+                                full:
+                                    angular_segments: 96
+                                    fillet_segments: 12
+                                    samples_per_pitch: 32
+                            views:
+                            - isometric
+                            - front
+                            - back
+                            - left
+                            - right
+                            - top
+                            - bottom
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M5 x 50 hex head fully threaded set screw DIN 933
+                        steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M5+x+50+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M5 x 50 hex head fully threaded set screw DIN 933
+                        steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+x+50+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T10:48:03.798005+00:00'
+                    evidence_file: support_files/evidence/hardware_set_screw_m5_50_mm_length/google/ff367d3691694a2087431d3bf35b2f96.yaml
+                    evidence_url: https://www.google.com/search?q=M5+x+50+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    material_evidence: Steel
+                    product_name: M5 x 50mm Set Screw - Hex Head (DIN 933) | 8.8 Steel
+                        BZP
+                    reason: Vital Parts exact product page confirms M5 x 50mm, 8.8
+                        steel BZP, hex head and DIN 933; description confirms thread
+                        coverage across the full length.
+                    result_url: https://www.vital-parts.co.uk/hex-set-screws-din-933/10137-hh933-m5-50-88-bzp
+                    search_evidence: Google results included the Vital Parts exact-size
+                        8.8 Steel BZP item; stainless alternatives were rejected.
+                    search_for: M5 x 50 hex head fully threaded set screw DIN 933
+                        steel
+                    search_url: https://www.google.com/search?q=M5+x+50+hex+head+fully+threaded+set+screw+DIN+933+steel
+                    selected_variant: 'Single-size product: M5 x 50mm, 0.80mm pitch,
+                        8.8 steel BZP; product code HH933-M5-50-88-BZP'
+                    specification: 'Thread Size: M5; Length: 50mm; Pitch: 0.80mm;
+                        Thread form: fully threaded; Drive: external hexagon; Head
+                        Style: Hex Head; Across Flats: 8mm; Head Height: 3.70mm; Material:
+                        8.8 steel; Finish: BZP; Standard: DIN 933'
+                    status: verified
+            spec_iso_b_125_lt_l_le_200_mm: '22'
+            spec_iso_b_l_gt_200_mm: ''
+            spec_iso_b_l_le_125_mm: '16'
+            spec_iso_c_max_mm: '0.50'
+            spec_iso_c_min_mm: '0.15'
+            spec_iso_da_max_mm: '5.7'
+            spec_iso_dw_min_mm: '6.88'
+            spec_iso_e_min_mm: '8.79'
+            spec_iso_k_max_mm: '3.65'
+            spec_iso_k_min_mm: '3.35'
+            spec_iso_nominal_diameter: M5
+            spec_iso_s_max_mm: '8.00'
+            spec_iso_s_min_mm: '7.78'
+            spec_iso_thread_pitch_mm: '0.80'
+            supplier_data:
+                accu:
+                    accepted_warnings: '["Accu displayed prices are rounded; derived
+                        totals use the captured display precision", "Final Accu price
+                        tier has no captured upper boundary; final advertised unit
+                        price extended by user policy"]'
+                    box_quantity: ''
+                    captured_at: '2026-10-13T22:36:06.137073+00:00'
+                    currency: GBP
+                    description: "Fully Threaded Hexagon Bolts are designed for use\
+                        \ in heavy-duty fastening applications, and feature a hexagonal\
+                        \ head for use with a standard spanner. As their name suggests,\
+                        \ these fasteners are threaded all the way up to the head\
+                        \ of the bolt, making them ideal for installation into pre-threaded\
+                        \ holes. Plain Hexagon Bolts, with a reinforced unthreaded\
+                        \ shaft section, are also available. All Full Thread Hexagon\
+                        \ Headed Bolts are precision rolled to achieve general tolerances\
+                        \ of +/-0.13mm. These components feature a full thread which\
+                        \ runs the entire length of the bolt's shaft, and are designed\
+                        \ for use alongside Accu's Hexagon Nuts ranges. Fully Threaded\
+                        \ Hexagon Bolt Materials Components within the Full Thread\
+                        \ Hexagon Bolts range are available in an array of materials,\
+                        \ including High-Tensile Steel (8.8, 10.9 & 12.9), A2, A4\
+                        \ and A4-80 Stainless Steel, BUMAX, Brass, Aluminium, Ceramic,\
+                        \ Phosphor Bronze, Nylon, Polypropylene, Polyvinylidene, Polycarbonate,\
+                        \ Reny, Polyphenylene and PEEK.\_ Ensure your Metric Full\
+                        \ thread Hexagon Bolts stay secure with our advanced pre-applied\
+                        \ thread-locking patches. Whether you need AccuLock Threadlocker\
+                        \ for essential fastening, Anu-Lok 180 for added grip, or\
+                        \ Precote 80 for maximum performance, we have the right solution.\
+                        \ For a refined aesthetic, AccuBlack chemical blackening reduces\
+                        \ glare while enhancing the surface finish. Metric Fully Threaded\
+                        \ Hexagon Bolts Metric Full Thread Hexagon Headed Bolts manufactured\
+                        \ according to DIN 933, and are available in diameters ranging\
+                        \ from M2 up to M36. Lengths of between 3mm and 200mm are\
+                        \ also available as standard. Non-Standard sizes are available\
+                        \ on request. Imperial Fully Threaded Hexagon Bolts Imperial\
+                        \ Full Thread Hexagon Headed Bolts are available in a number\
+                        \ of thread diameters, ranging from 1/4 inch up to No. 12,\
+                        \ and lengths of between 1/4 inch and 12 inch. These components\
+                        \ are manufactured to ANSI B18.6.3. Additional sizes are also\
+                        \ available on request."
+                    html_sha256: aec27fe71f1dd5e5c34bd4dcf3718b0c69860850031f79830a727a36d657a0ed
+                    name: M5 x 50mm Full Thread Hex Bolts (DIN 933) - Bright Zinc
+                        Plated High Tensile Steel (8.8)
+                    parsed_at: '2026-10-18T08:52:47.766053+00:00'
+                    parser_version: accu-1.9-base-material
+                    price_inheritance: "{\"1000\": {\"source_quantity\": 200, \"source_unit_price\"\
+                        : \"0.06\", \"source_text\": \"Buy 200 \xA30.06 Save 92 %\"\
+                        , \"basis\": \"user policy 2026-10-13\"}, \"10000\": {\"source_quantity\"\
+                        : 200, \"source_unit_price\": \"0.06\", \"source_text\": \"\
+                        Buy 200 \xA30.06 Save 92 %\", \"basis\": \"user policy 2026-10-13\"\
+                        }}"
+                    quote_minimum: ''
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept rounded displayed prices,
+                        open-ended final advertised tiers, and quotes required from
+                        400 units; quote-only prices remain blank."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.04",
+                        "highPrice": "0.79", "priceCurrency": "GBP", "offerCount":
+                        "11", "availability": "https://schema.org/InStock", "itemCondition":
+                        "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/full-thread-hexagon-bolts/1008552-SEBF-M5-50-8-8-BZP",
+                        "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                        {"@type": "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "accus prices are all ex
+                        vat", "confirmed_on": "2026-10-13"}'
+                    specifications: '{"Accu Product Code (APC)": "SEBF-M5-50-8.8-BZP",
+                        "Thread Size": "M5 (5 mm)", "Length (L)": "50 mm", "Socket
+                        Size (J)": "8 mm (Tolerance: +0/-0.22 mm)", "Material": "Steel
+                        - High Tensile (8.8)", "Finish": "Bright Zinc Plated", "Drive
+                        Type": "Hex", "Full Thread": "Yes", "Head Length (H)": "3.5
+                        mm", "Manufacturing Standard": "DIN 933", "Material Family":
+                        "Steel", "System of Measurement": "Metric"}'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: https://schema.org/InStock
+                    supplier: accu
+                    supplier_id: SEBF-M5-50-8.8-BZP
+                    supplier_part_number: SEBF-M5-50-8.8-BZP
+                    supplier_website: https://www.accu.co.uk/full-thread-hexagon-bolts/1008552-SEBF-M5-50-8-8-BZP
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: "Buy 1 \xA30.79"
+                        source_unit_price: '0.79'
+                        source_vat_basis: exclusive
+                        unit_price: '0.9480'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 3
+                        minimum: 2
+                        source_text: "Buy 2 \xA30.44 Save 44 %"
+                        source_unit_price: '0.44'
+                        source_vat_basis: exclusive
+                        unit_price: '0.5280'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5
+                        minimum: 4
+                        source_text: "Buy 4 \xA30.27 Save 65 %"
+                        source_unit_price: '0.27'
+                        source_vat_basis: exclusive
+                        unit_price: '0.3240'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 11
+                        minimum: 6
+                        source_text: "Buy 6 \xA30.19 Save 75 %"
+                        source_unit_price: '0.19'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2280'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 23
+                        minimum: 12
+                        source_text: "Buy 12 \xA30.13 Save 83 %"
+                        source_unit_price: '0.13'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1560'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 24
+                        source_text: "Buy 24 \xA30.10 Save 87 %"
+                        source_unit_price: '0.10'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: "Buy 50 \xA30.08 Save 89 %"
+                        source_unit_price: '0.08'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0960'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 199
+                        minimum: 100
+                        source_text: "Buy 100 \xA30.07 Save 91 %"
+                        source_unit_price: '0.07'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        maximum_basis: user-approved open-ended final tier; no captured
+                            upper boundary
+                        minimum: 200
+                        source_text: "Buy 200 \xA30.06 Save 92 %"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.9480'
+                    total_price_10: '2.2800'
+                    total_price_100: '8.4000'
+                    total_price_1000: '72.0000'
+                    total_price_10000: '720.0000'
+                    unit_price_1: '0.9480'
+                    unit_price_10: '0.2280'
+                    unit_price_100: '0.0840'
+                    unit_price_1000: '0.0720'
+                    unit_price_10000: '0.0720'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Accu displayed prices are rounded; derived totals use the captured
+                        display precision
+                    - Final Accu price tier has no captured upper boundary; final
+                        advertised unit price extended by user policy
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T00:31:58.104093+00:00'
+                    currency: GBP
+                    html_sha256: 3b2b8193b9b39da8faaed371f24893e5a6544d451a2c20215d3a6cff787c8ed3
+                    name: M5 x 50mm Hexagon Head Set Screws Bolts Fully Threaded Self
+                        Colour Black Grade 8.8, DIN 933
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:03:22.554987+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M5 (5mm); Length (L): 50mm; Material:
+                        High Tensile (Grade 8.8); Finish: Self Colour; Head Length
+                        (H): 3.74mm; Pitch: 0.8mm; Socket Size (J): 8mm; Manufacturing
+                        Standard: 933; Material Specification: High Tensile (Grade
+                        8.8); Fully Threaded: Yes'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 20324.050.050
+                    supplier_part_number: 20324.050.050
+                    supplier_website: https://dibolt.co.uk/products/m5-x-50mm-hexagon-head-set-screw-fully-threaded-din-933-self-colour-black-8-8
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA38.23 Per 100 Units"
+                        source_unit_price: '0.0823'
+                        source_vat_basis: exclusive
+                        unit_price: '0.098760'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2,499 \xA37.82 Per 100 Units"
+                        source_unit_price: '0.0782'
+                        source_vat_basis: exclusive
+                        unit_price: '0.093840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2500
+                        source_text: "2,500+ \xA37.41 Per 100 Units"
+                        source_unit_price: '0.0741'
+                        source_vat_basis: exclusive
+                        unit_price: '0.088920'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.098760'
+                    total_price_10: '0.987600'
+                    total_price_100: '9.876000'
+                    total_price_1000: '93.840000'
+                    total_price_10000: '889.200000'
+                    unit_price_1: '0.098760'
+                    unit_price_10: '0.098760'
+                    unit_price_100: '0.098760'
+                    unit_price_1000: '0.093840'
+                    unit_price_10000: '0.088920'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '200'
+                    captured_at: '2026-10-12T20:20:50.656749+00:00'
+                    catalogue_page: '8'
+                    currency: GBP
+                    description: ''
+                    html_sha256: f5cd18db432ae44e700c5aaeae3d03f26fc3e57e9bae53a053d6c95617cdb71d
+                    name: M5 x 50 Hexagon Head Set Screws High Tensile Grade 8.8 Bright
+                        Zinc Plated, DIN 933
+                    parsed_at: '2026-10-18T08:49:37.402755+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '6290'
+                    supplier: orbitalfasteners
+                    supplier_id: '1851141'
+                    supplier_part_number: '1851141'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m5-x-50-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_text: "1 - 199 \xA30.062 Inc. VAT \xA36.20 Inc. VAT"
+                        source_unit_price: '0.062'
+                        source_vat_basis: inclusive
+                        unit_price: '0.062'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_text: "200 - 999 \xA30.0344 Inc. VAT \xA33.44 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0344'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0344'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 1599
+                        minimum: 1000
+                        source_text: "1000 - 1599 \xA30.031 Inc. VAT \xA33.10 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.031'
+                        source_vat_basis: inclusive
+                        unit_price: '0.031'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 1600
+                        source_text: "1600 + \xA30.0276 Inc. VAT \xA32.76 Inc. VAT"
+                        source_unit_price: '0.0276'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0276'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.062'
+                    total_price_10: '0.620'
+                    total_price_100: '6.200'
+                    total_price_1000: '31.000'
+                    total_price_10000: '276.0000'
+                    unit_price_1: '0.062'
+                    unit_price_10: '0.062'
+                    unit_price_100: '0.062'
+                    unit_price_1000: '0.031'
+                    unit_price_10000: '0.0276'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+            svg_details:
+            -   svg_b_125_lt_l_le_200_mm: '22'
+                svg_b_l_gt_200_mm: ''
+                svg_b_l_le_125_mm: '16'
+                svg_c_max_mm: '0.50'
+                svg_c_min_mm: '0.15'
+                svg_da_max_mm: '5.7'
+                svg_dw_min_mm: '6.88'
+                svg_e_min_mm: '8.79'
+                svg_k_max_mm: '3.65'
+                svg_k_min_mm: '3.35'
+                svg_name: set_screw
+                svg_nominal_diameter: M5
+                svg_s_max_mm: '8.00'
+                svg_s_min_mm: '7.78'
+                svg_thread_pitch_mm: '0.80'
+            -   af_mm: 8.0
+                filename: working_mechanical_drawing
+                hardware_type: set_screw
+                head_height_mm: 3.65
+                id_mm: 5.0
+                length_mm: 50.0
+                part_category: HARDWARE / SET SCREW
+                part_code: ISO4017 / DIN933
+                part_name: ''
+                part_series: HEX HEAD FULL THREAD SCREW
+                part_title: "M5\xD750"
+                svg_name: oomp_mech_drawing_hardware
+                thread_length_mm: 50.0
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: set_screw
+            taxonomy_3: m5
+            taxonomy_4: ''
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: 50_mm_length
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z towards head
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: tip centre
+                    stl_units: mm
+                dimension_status: standard_dimensions
+                dimensional_specification: ISO 4017 supplier dimensional specification
+                    (edition not stated)
+                generator: iso_4017_hex_screw
+                length_status: catalogue_length_not_verified_in_source_length_table
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Lengths are catalogue selections; the cited supplier
+                        table verifies head dimensions, not every length offered here.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 8
+                    bearing_diameter_mm: 7.4
+                    bearing_height_mm: 0.3
+                    characteristic_dimension_basis: nominal axial thread diameter
+                    characteristic_dimension_mm: 5.0
+                    expected_components: 1
+                    external_minor_diameter_mm: 4.018504542377636
+                    family: bolt
+                    finish: satin
+                    handedness: right
+                    head_chamfer_height_mm: 0.3572655899081639
+                    head_height_mm: 3.5
+                    identity: hardware_set_screw_m5_50_mm_length
+                    internal_minor_diameter_mm: 4.133974596215562
+                    length_convention: under-head bearing plane to tip
+                    length_mm: 50.0
+                    nominal_diameter_mm: 5.0
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 53.5
+                    pitch_mm: 0.8
+                    plain_shank_length_mm: 0.20000000000000284
+                    specification: ISO 4017 supplier dimensional specification (edition
+                        not stated)
+                    thread_end_z_mm: 49.8
+                    thread_flank_angle_degrees: 60.0
+                    thread_length_mm: 49.0
+                    thread_length_table_mm: null
+                    thread_mode: full
+                    thread_pitch_diameter_mm: 4.480384757729337
+                    thread_runout_mm: 0.8
+                    thread_starts: 1
+                    tip_chamfer_mm: 0.4
+                    underhead_fillet_mm: 0.2
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: Westfield Fasteners ISO 4017 hex head set screw specification
+                    url: https://www.westfieldfasteners.co.uk/Standards/ScrewBolt-HexHd4017-M-THRfull.html
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: ISO 4017 supplier dimensional specification (edition not
+                    stated)
+                standard_lengths_mm: []
+                standard_limits:
+                    across_corners_min_mm: 8.79
+                    across_flats_mm:
+                    - 7.78
+                    - 8
+                    bearing_diameter_min_mm: 6.88
+                    head_height_mm:
+                    - 3.35
+                    - 3.65
+                    incomplete_thread_max_mm: 1.6
+                    outer_chamfer_angle_degrees:
+                    - 15
+                    - 30
+                    product_grade: A
+                    underhead_fillet_min_mm: 0.2
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: lying on side, axial end to left
+                            projection: orthographic
+                            resting_axis: side
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_bolt_image.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        description: label_drawer
+        dict_data:
+            label_drawer: *id001
+        file_output: label_drawer.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
+oomp_key: oomp_hardware_set_screw_m5_50_mm_length
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M5 x 50 hex head fully threaded set screw DIN 933 steel
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M5+x+50+hex+head+fully+threaded+set+screw+DIN+933+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M5 x 50 hex head fully threaded set screw DIN 933 steel
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+x+50+hex+head+fully+threaded+set+screw+DIN+933+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T10:48:03.798005+00:00'
+        evidence_file: support_files/evidence/hardware_set_screw_m5_50_mm_length/google/ff367d3691694a2087431d3bf35b2f96.yaml
+        evidence_url: https://www.google.com/search?q=M5+x+50+hex+head+fully+threaded+set+screw+DIN+933+steel
+        material_evidence: Steel
+        product_name: M5 x 50mm Set Screw - Hex Head (DIN 933) | 8.8 Steel BZP
+        reason: Vital Parts exact product page confirms M5 x 50mm, 8.8 steel BZP,
+            hex head and DIN 933; description confirms thread coverage across the
+            full length.
+        result_url: https://www.vital-parts.co.uk/hex-set-screws-din-933/10137-hh933-m5-50-88-bzp
+        search_evidence: Google results included the Vital Parts exact-size 8.8 Steel
+            BZP item; stainless alternatives were rejected.
+        search_for: M5 x 50 hex head fully threaded set screw DIN 933 steel
+        search_url: https://www.google.com/search?q=M5+x+50+hex+head+fully+threaded+set+screw+DIN+933+steel
+        selected_variant: 'Single-size product: M5 x 50mm, 0.80mm pitch, 8.8 steel
+            BZP; product code HH933-M5-50-88-BZP'
+        specification: 'Thread Size: M5; Length: 50mm; Pitch: 0.80mm; Thread form:
+            fully threaded; Drive: external hexagon; Head Style: Hex Head; Across
+            Flats: 8mm; Head Height: 3.70mm; Material: 8.8 steel; Finish: BZP; Standard:
+            DIN 933'
+        status: verified
+spec_iso_b_125_lt_l_le_200_mm: '22'
+spec_iso_b_l_gt_200_mm: ''
+spec_iso_b_l_le_125_mm: '16'
+spec_iso_c_max_mm: '0.50'
+spec_iso_c_min_mm: '0.15'
+spec_iso_da_max_mm: '5.7'
+spec_iso_dw_min_mm: '6.88'
+spec_iso_e_min_mm: '8.79'
+spec_iso_k_max_mm: '3.65'
+spec_iso_k_min_mm: '3.35'
+spec_iso_nominal_diameter: M5
+spec_iso_s_max_mm: '8.00'
+spec_iso_s_min_mm: '7.78'
+spec_iso_thread_pitch_mm: '0.80'
+supplier_data:
+    accu:
+        accepted_warnings: '["Accu displayed prices are rounded; derived totals use
+            the captured display precision", "Final Accu price tier has no captured
+            upper boundary; final advertised unit price extended by user policy"]'
+        box_quantity: ''
+        captured_at: '2026-10-13T22:36:06.137073+00:00'
+        currency: GBP
+        description: "Fully Threaded Hexagon Bolts are designed for use in heavy-duty\
+            \ fastening applications, and feature a hexagonal head for use with a\
+            \ standard spanner. As their name suggests, these fasteners are threaded\
+            \ all the way up to the head of the bolt, making them ideal for installation\
+            \ into pre-threaded holes. Plain Hexagon Bolts, with a reinforced unthreaded\
+            \ shaft section, are also available. All Full Thread Hexagon Headed Bolts\
+            \ are precision rolled to achieve general tolerances of +/-0.13mm. These\
+            \ components feature a full thread which runs the entire length of the\
+            \ bolt's shaft, and are designed for use alongside Accu's Hexagon Nuts\
+            \ ranges. Fully Threaded Hexagon Bolt Materials Components within the\
+            \ Full Thread Hexagon Bolts range are available in an array of materials,\
+            \ including High-Tensile Steel (8.8, 10.9 & 12.9), A2, A4 and A4-80 Stainless\
+            \ Steel, BUMAX, Brass, Aluminium, Ceramic, Phosphor Bronze, Nylon, Polypropylene,\
+            \ Polyvinylidene, Polycarbonate, Reny, Polyphenylene and PEEK.\_ Ensure\
+            \ your Metric Full thread Hexagon Bolts stay secure with our advanced\
+            \ pre-applied thread-locking patches. Whether you need AccuLock Threadlocker\
+            \ for essential fastening, Anu-Lok 180 for added grip, or Precote 80 for\
+            \ maximum performance, we have the right solution. For a refined aesthetic,\
+            \ AccuBlack chemical blackening reduces glare while enhancing the surface\
+            \ finish. Metric Fully Threaded Hexagon Bolts Metric Full Thread Hexagon\
+            \ Headed Bolts manufactured according to DIN 933, and are available in\
+            \ diameters ranging from M2 up to M36. Lengths of between 3mm and 200mm\
+            \ are also available as standard. Non-Standard sizes are available on\
+            \ request. Imperial Fully Threaded Hexagon Bolts Imperial Full Thread\
+            \ Hexagon Headed Bolts are available in a number of thread diameters,\
+            \ ranging from 1/4 inch up to No. 12, and lengths of between 1/4 inch\
+            \ and 12 inch. These components are manufactured to ANSI B18.6.3. Additional\
+            \ sizes are also available on request."
+        html_sha256: aec27fe71f1dd5e5c34bd4dcf3718b0c69860850031f79830a727a36d657a0ed
+        name: M5 x 50mm Full Thread Hex Bolts (DIN 933) - Bright Zinc Plated High
+            Tensile Steel (8.8)
+        parsed_at: '2026-10-18T08:52:47.766053+00:00'
+        parser_version: accu-1.9-base-material
+        price_inheritance: "{\"1000\": {\"source_quantity\": 200, \"source_unit_price\"\
+            : \"0.06\", \"source_text\": \"Buy 200 \xA30.06 Save 92 %\", \"basis\"\
+            : \"user policy 2026-10-13\"}, \"10000\": {\"source_quantity\": 200, \"\
+            source_unit_price\": \"0.06\", \"source_text\": \"Buy 200 \xA30.06 Save\
+            \ 92 %\", \"basis\": \"user policy 2026-10-13\"}}"
+        quote_minimum: ''
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept rounded displayed prices, open-ended final advertised
+            tiers, and quotes required from 400 units; quote-only prices remain blank."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.04", "highPrice":
+            "0.79", "priceCurrency": "GBP", "offerCount": "11", "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/full-thread-hexagon-bolts/1008552-SEBF-M5-50-8-8-BZP",
+            "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type":
+            "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "accus prices are all ex vat", "confirmed_on": "2026-10-13"}'
+        specifications: '{"Accu Product Code (APC)": "SEBF-M5-50-8.8-BZP", "Thread
+            Size": "M5 (5 mm)", "Length (L)": "50 mm", "Socket Size (J)": "8 mm (Tolerance:
+            +0/-0.22 mm)", "Material": "Steel - High Tensile (8.8)", "Finish": "Bright
+            Zinc Plated", "Drive Type": "Hex", "Full Thread": "Yes", "Head Length
+            (H)": "3.5 mm", "Manufacturing Standard": "DIN 933", "Material Family":
+            "Steel", "System of Measurement": "Metric"}'
+        status: ok
+        stock_quantity: ''
+        stock_status: https://schema.org/InStock
+        supplier: accu
+        supplier_id: SEBF-M5-50-8.8-BZP
+        supplier_part_number: SEBF-M5-50-8.8-BZP
+        supplier_website: https://www.accu.co.uk/full-thread-hexagon-bolts/1008552-SEBF-M5-50-8-8-BZP
+        tiers:
+        -   maximum: 1
+            minimum: 1
+            source_text: "Buy 1 \xA30.79"
+            source_unit_price: '0.79'
+            source_vat_basis: exclusive
+            unit_price: '0.9480'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 3
+            minimum: 2
+            source_text: "Buy 2 \xA30.44 Save 44 %"
+            source_unit_price: '0.44'
+            source_vat_basis: exclusive
+            unit_price: '0.5280'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 5
+            minimum: 4
+            source_text: "Buy 4 \xA30.27 Save 65 %"
+            source_unit_price: '0.27'
+            source_vat_basis: exclusive
+            unit_price: '0.3240'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 11
+            minimum: 6
+            source_text: "Buy 6 \xA30.19 Save 75 %"
+            source_unit_price: '0.19'
+            source_vat_basis: exclusive
+            unit_price: '0.2280'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 23
+            minimum: 12
+            source_text: "Buy 12 \xA30.13 Save 83 %"
+            source_unit_price: '0.13'
+            source_vat_basis: exclusive
+            unit_price: '0.1560'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 49
+            minimum: 24
+            source_text: "Buy 24 \xA30.10 Save 87 %"
+            source_unit_price: '0.10'
+            source_vat_basis: exclusive
+            unit_price: '0.1200'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 99
+            minimum: 50
+            source_text: "Buy 50 \xA30.08 Save 89 %"
+            source_unit_price: '0.08'
+            source_vat_basis: exclusive
+            unit_price: '0.0960'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 199
+            minimum: 100
+            source_text: "Buy 100 \xA30.07 Save 91 %"
+            source_unit_price: '0.07'
+            source_vat_basis: exclusive
+            unit_price: '0.0840'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            maximum_basis: user-approved open-ended final tier; no captured upper
+                boundary
+            minimum: 200
+            source_text: "Buy 200 \xA30.06 Save 92 %"
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.9480'
+        total_price_10: '2.2800'
+        total_price_100: '8.4000'
+        total_price_1000: '72.0000'
+        total_price_10000: '720.0000'
+        unit_price_1: '0.9480'
+        unit_price_10: '0.2280'
+        unit_price_100: '0.0840'
+        unit_price_1000: '0.0720'
+        unit_price_10000: '0.0720'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Accu displayed prices are rounded; derived totals use the captured display
+            precision
+        - Final Accu price tier has no captured upper boundary; final advertised unit
+            price extended by user policy
+    dibolt:
+        accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-14T00:31:58.104093+00:00'
+        currency: GBP
+        html_sha256: 3b2b8193b9b39da8faaed371f24893e5a6544d451a2c20215d3a6cff787c8ed3
+        name: M5 x 50mm Hexagon Head Set Screws Bolts Fully Threaded Self Colour Black
+            Grade 8.8, DIN 933
+        packages: '[]'
+        parsed_at: '2026-10-18T09:03:22.554987+00:00'
+        parser_version: dibolt-1.3-missing-price-review
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept the precision of rounded displayed per-100 prices."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: 'Thread Size: M5 (5mm); Length (L): 50mm; Material: High Tensile
+            (Grade 8.8); Finish: Self Colour; Head Length (H): 3.74mm; Pitch: 0.8mm;
+            Socket Size (J): 8mm; Manufacturing Standard: 933; Material Specification:
+            High Tensile (Grade 8.8); Fully Threaded: Yes'
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: dibolt
+        supplier_id: 20324.050.050
+        supplier_part_number: 20324.050.050
+        supplier_website: https://dibolt.co.uk/products/m5-x-50mm-hexagon-head-set-screw-fully-threaded-din-933-self-colour-black-8-8
+        tiers:
+        -   maximum: 499
+            minimum: 1
+            source_text: "1 - 499 \xA38.23 Per 100 Units"
+            source_unit_price: '0.0823'
+            source_vat_basis: exclusive
+            unit_price: '0.098760'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 2499
+            minimum: 500
+            source_text: "500 - 2,499 \xA37.82 Per 100 Units"
+            source_unit_price: '0.0782'
+            source_vat_basis: exclusive
+            unit_price: '0.093840'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 2500
+            source_text: "2,500+ \xA37.41 Per 100 Units"
+            source_unit_price: '0.0741'
+            source_vat_basis: exclusive
+            unit_price: '0.088920'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.098760'
+        total_price_10: '0.987600'
+        total_price_100: '9.876000'
+        total_price_1000: '93.840000'
+        total_price_10000: '889.200000'
+        unit_price_1: '0.098760'
+        unit_price_10: '0.098760'
+        unit_price_100: '0.098760'
+        unit_price_1000: '0.093840'
+        unit_price_10000: '0.088920'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Dibolt per-100 displayed prices are rounded; derived totals use captured
+            display precision
+    orbitalfasteners:
+        accepted_warnings: '[]'
+        box_quantity: '200'
+        captured_at: '2026-10-12T20:20:50.656749+00:00'
+        catalogue_page: '8'
+        currency: GBP
+        description: ''
+        html_sha256: f5cd18db432ae44e700c5aaeae3d03f26fc3e57e9bae53a053d6c95617cdb71d
+        name: M5 x 50 Hexagon Head Set Screws High Tensile Grade 8.8 Bright Zinc Plated,
+            DIN 933
+        parsed_at: '2026-10-18T08:49:37.402755+00:00'
+        parser_version: 1.2-review-policy
+        review_policy: ''
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: inclusive
+        status: ok
+        stock_as_of: 9th October 2026 10:01pm
+        stock_quantity: '6290'
+        supplier: orbitalfasteners
+        supplier_id: '1851141'
+        supplier_part_number: '1851141'
+        supplier_website: https://www.orbitalfasteners.co.uk/products/m5-x-50-hexagon-head-set-screws-high-tensile-grade-8-8-bright-zinc-plated
+        tiers:
+        -   maximum: 199
+            minimum: 1
+            source_text: "1 - 199 \xA30.062 Inc. VAT \xA36.20 Inc. VAT"
+            source_unit_price: '0.062'
+            source_vat_basis: inclusive
+            unit_price: '0.062'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 999
+            minimum: 200
+            source_text: "200 - 999 \xA30.0344 Inc. VAT \xA33.44 Inc. VAT"
+            source_unit_price: '0.0344'
+            source_vat_basis: inclusive
+            unit_price: '0.0344'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 1599
+            minimum: 1000
+            source_text: "1000 - 1599 \xA30.031 Inc. VAT \xA33.10 Inc. VAT"
+            source_unit_price: '0.031'
+            source_vat_basis: inclusive
+            unit_price: '0.031'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 1600
+            source_text: "1600 + \xA30.0276 Inc. VAT \xA32.76 Inc. VAT"
+            source_unit_price: '0.0276'
+            source_vat_basis: inclusive
+            unit_price: '0.0276'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.062'
+        total_price_10: '0.620'
+        total_price_100: '6.200'
+        total_price_1000: '31.000'
+        total_price_10000: '276.0000'
+        unit_price_1: '0.062'
+        unit_price_10: '0.062'
+        unit_price_100: '0.062'
+        unit_price_1000: '0.031'
+        unit_price_10000: '0.0276'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings: []
+svg_details:
+-   svg_b_125_lt_l_le_200_mm: '22'
+    svg_b_l_gt_200_mm: ''
+    svg_b_l_le_125_mm: '16'
+    svg_c_max_mm: '0.50'
+    svg_c_min_mm: '0.15'
+    svg_da_max_mm: '5.7'
+    svg_dw_min_mm: '6.88'
+    svg_e_min_mm: '8.79'
+    svg_k_max_mm: '3.65'
+    svg_k_min_mm: '3.35'
+    svg_name: set_screw
+    svg_nominal_diameter: M5
+    svg_s_max_mm: '8.00'
+    svg_s_min_mm: '7.78'
+    svg_thread_pitch_mm: '0.80'
+-   af_mm: 8.0
+    filename: working_mechanical_drawing
+    hardware_type: set_screw
+    head_height_mm: 3.65
+    id_mm: 5.0
+    length_mm: 50.0
+    part_category: HARDWARE / SET SCREW
+    part_code: ISO4017 / DIN933
+    part_name: ''
+    part_series: HEX HEAD FULL THREAD SCREW
+    part_title: "M5\xD750"
+    svg_name: oomp_mech_drawing_hardware
+    thread_length_mm: 50.0
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: set_screw
+taxonomy_2_capital: Set Screw
+taxonomy_2_first_letter: s
+taxonomy_2_first_letter_upper: S
+taxonomy_2_length_1: s
+taxonomy_2_length_2: se
+taxonomy_2_length_3: set
+taxonomy_2_length_4: set_
+taxonomy_2_length_5: set_s
+taxonomy_2_upper: SET_SCREW
+taxonomy_2_upper_length_1: S
+taxonomy_2_upper_length_2: SE
+taxonomy_2_upper_length_3: SET
+taxonomy_2_upper_length_4: SET_
+taxonomy_2_upper_length_5: SET_S
+taxonomy_3: m5
+taxonomy_3_capital: M5
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m5
+taxonomy_3_length_3: m5
+taxonomy_3_length_4: m5
+taxonomy_3_length_5: m5
+taxonomy_3_upper: M5
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M5
+taxonomy_3_upper_length_3: M5
+taxonomy_3_upper_length_4: M5
+taxonomy_3_upper_length_5: M5
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: 50_mm_length
+taxonomy_7_capital: 50 mm Length
+taxonomy_7_first_letter: '5'
+taxonomy_7_first_letter_upper: '5'
+taxonomy_7_length_1: '5'
+taxonomy_7_length_2: '50'
+taxonomy_7_length_3: '50_'
+taxonomy_7_length_4: 50_m
+taxonomy_7_length_5: 50_mm
+taxonomy_7_upper: 50_MM_LENGTH
+taxonomy_7_upper_length_1: '5'
+taxonomy_7_upper_length_2: '50'
+taxonomy_7_upper_length_3: '50_'
+taxonomy_7_upper_length_4: 50_M
+taxonomy_7_upper_length_5: 50_MM
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+    checked_on: '2026-10-11'
+    coordinate_system:
+        axis: +Z towards head
+        glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+        glb_units: metres
+        glb_up_axis: Y
+        origin: tip centre
+        stl_units: mm
+    dimension_status: standard_dimensions
+    dimensional_specification: ISO 4017 supplier dimensional specification (edition
+        not stated)
+    generator: iso_4017_hex_screw
+    length_status: catalogue_length_not_verified_in_source_length_table
+    material:
+        base_colour_srgb:
+        - 0.62
+        - 0.65
+        - 0.69
+        coat_roughness: 0.28
+        coat_weight: 0.02
+        metallic: 1.0
+        microtexture_height_um: 0.8
+        microtexture_spacing_mm: 0.025
+        name: Satin steel
+        note: Visual finish approximation; catalogue specifies colour only.
+        roughness: 0.26
+        roughness_variation: 0.045
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+        bearing: Bolt bearing circle and c selected within limits; k includes bearing
+            thickness; fillet tangent to shaft and bearing.
+        cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
+            bore and mouth chamfers.
+        certification: Nominal visual catalogue model, not manufacturing tolerance
+            certification.
+        chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees.
+            Bolt tip 45 degrees, P/2.
+        components: One closed solid for supported products. Unspecified lock/cage
+            assemblies are not substituted with plain hex nuts.
+        dimension_selection: Nominal bolt head height, max flats/nut height, nominal
+            washer sizes; selected dimensions stored in parameters.
+        display: Smooth nominal external-thread envelope or smooth minor-diameter
+            internal bore; lower angular and fillet tessellation.
+        family_note: Lengths are catalogue selections; the cited supplier table verifies
+            head dimensions, not every length offered here.
+        markings: Supplier and property-class markings omitted because catalogue does
+            not identify them.
+        runout: External one-pitch fade to plain shank; full thread ends at underhead
+            fillet.
+        thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+            rounded root H/6, internal P/4 crest and P/8 root flats.
+        unspecified_geometry: Nut mouth for supplier rows without limits and flange
+            M3/M4 thickness/rim blends are explicit visual model selections.
+    output_folder: three_d_model
+    parameters:
+        across_flats_mm: 8
+        bearing_diameter_mm: 7.4
+        bearing_height_mm: 0.3
+        characteristic_dimension_basis: nominal axial thread diameter
+        characteristic_dimension_mm: 5.0
+        expected_components: 1
+        external_minor_diameter_mm: 4.018504542377636
+        family: bolt
+        finish: satin
+        handedness: right
+        head_chamfer_height_mm: 0.3572655899081639
+        head_height_mm: 3.5
+        identity: hardware_set_screw_m5_50_mm_length
+        internal_minor_diameter_mm: 4.133974596215562
+        length_convention: under-head bearing plane to tip
+        length_mm: 50.0
+        nominal_diameter_mm: 5.0
+        outer_chamfer_angle_degrees: 30.0
+        overall_height_mm: 53.5
+        pitch_mm: 0.8
+        plain_shank_length_mm: 0.20000000000000284
+        specification: ISO 4017 supplier dimensional specification (edition not stated)
+        thread_end_z_mm: 49.8
+        thread_flank_angle_degrees: 60.0
+        thread_length_mm: 49.0
+        thread_length_table_mm: null
+        thread_mode: full
+        thread_pitch_diameter_mm: 4.480384757729337
+        thread_runout_mm: 0.8
+        thread_starts: 1
+        tip_chamfer_mm: 0.4
+        underhead_fillet_mm: 0.2
+    renders:
+        high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+        low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+        product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+        product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+    schema_version: 1
+    source_table: source_file/standards/catalogue_hardware.yaml
+    sources:
+    -   title: Westfield Fasteners ISO 4017 hex head set screw specification
+        url: https://www.westfieldfasteners.co.uk/Standards/ScrewBolt-HexHd4017-M-THRfull.html
+    -   title: ISO 68-1:1998 basic ISO metric thread profile
+        url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+    standard: ISO 4017 supplier dimensional specification (edition not stated)
+    standard_lengths_mm: []
+    standard_limits:
+        across_corners_min_mm: 8.79
+        across_flats_mm:
+        - 7.78
+        - 8
+        bearing_diameter_min_mm: 6.88
+        head_height_mm:
+        - 3.35
+        - 3.65
+        incomplete_thread_max_mm: 1.6
+        outer_chamfer_angle_degrees:
+        - 15
+        - 30
+        product_grade: A
+        underhead_fillet_min_mm: 0.2
+    studio:
+        adaptive_threshold: 0.015
+        denoise: true
+        device: auto
+        engine: cycles
+        exposure: 0.0
+        floor_colour_srgb:
+        - 0.93
+        - 0.935
+        - 0.94
+        floor_roughness: 0.55
+        framing_margin: 0.13
+        high_samples: 160
+        lights:
+        -   colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+        -   colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+        -   colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+        look: AgX - Medium High Contrast
+        low_samples: 48
+        poses:
+            isometric:
+                camera_eye:
+                - 1
+                - -1
+                - 1
+                orientation: principal axis Z up
+                projection: orthographic
+            product:
+                camera_eye:
+                - -6
+                - -10
+                - 6
+                orientation: lying on side, axial end to left
+                projection: orthographic
+                resting_axis: side
+                support: Stable convex-hull support using actual mesh centre of mass.
+                yaw_degrees: -12.0
+        seed: 7991
+        view_transform: AgX
+        world_colour:
+        - 0.78
+        - 0.82
+        - 0.9
+        world_strength: 0.35
+    units: mm
+    variants:
+        display:
+            angular_segments: 24
+            fillet_segments: 3
+            samples_per_pitch: 1
+        full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
+url_chat: ''
+```
+
+</details>
+
+## Parts
+
+[Full-detail 3D model (GLB)](three_d_model/model_full.glb) · [Dimensioned drawing (PDF)](working_mechanical_drawing_a4.pdf) · [Full-detail view drawings](three_d_model/full/) · [Drawer label (SVG)](label_drawer.svg)
+
+Full-detail and simplified display models are alternatives for the same part. GLB uses metres; STL, where supplied, uses millimetres. The [part folder](./) contains all available files.
+
+## Assembly
+
+This page documents a component rather than a complete project assembly. No installation sequence or tightening torque is specified by this record.
+<!-- hardware-part:end -->

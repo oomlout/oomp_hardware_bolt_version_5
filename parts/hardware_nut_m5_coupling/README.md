@@ -1,0 +1,1774 @@
+<!-- hardware-part:start -->
+# M5 coupling nut
+
+## Summary
+
+An extended nut for joining threaded components.
+
+[Hardware catalogue](../../README.md) · [Browse this family](../../navigation_oobb/README.md#nuts)
+
+| Isometric | Product view |
+| --- | --- |
+| [![Full-detail isometric render](three_d_model/readme_isometric.png)](three_d_model/render_high.png) | [![Full-detail product view render](three_d_model/readme_product.png)](three_d_model/render_product_high.png) |
+
+Full-detail catalogue renders. Click either image to open the original resolution.
+
+## Details
+
+**OOMP ID:** `hardware_nut_m5_coupling`
+
+**Short code:** `3q4w` · **Three-word label:** actor decade clean
+
+| Model dimension | mm |
+| --- | ---: |
+| Nominal size | 5 |
+| Thread pitch | 0.8 |
+| Across flats | 8 |
+| Height / thickness | 15 |
+
+Dimensions above are values used by the saved model recipe, in millimetres. **Model basis: manufacturer dimensions.**
+
+<details>
+<summary>Model provenance and assumptions</summary>
+
+**Recorded dimensional reference:** Westfield studding connector nut (commercial DIN 6334 pattern)
+
+**Source checked:** 2026-10-11
+
+**Visual finish:** Satin steel
+
+**Finish assumption:** Visual finish approximation; catalogue specifies colour only.
+
+**Family notes:** Catalogue family mapped to the cited dimensional pattern; exact supplier unspecified.
+
+These are saved catalogue references and modelling choices, not a claim of manufacturing certification.
+
+- [Westfield hexagon studding connector nut datasheet](https://www.westfieldfasteners.co.uk/Datasheets/Nut_HexLong_M.pdf)
+- [TOBSTEEL 2019 catalogue, commercial article 6334; explicitly not a DIN standard](https://www.tobsteel.com/divi/wp-content/uploads/2019/01/TOBcatalog-2019.pdf)
+- [ISO 68-1:1998 basic ISO metric thread profile](https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf)
+
+[Complete model recipe](three_d_model/parameters.json)
+
+</details>
+
+<details>
+<summary>Complete part metadata</summary>
+
+[Source working.yaml](working.yaml)
+
+```yaml
+bip_39_2_word_array:
+- actor
+- decade
+bip_39_2_word_no_space: actordecade
+bip_39_2_word_space: actor decade
+bip_39_2_word_underscore: actor_decade
+bip_39_3_word_array:
+- actor
+- decade
+- clean
+bip_39_3_word_no_space: actordecadeclean
+bip_39_3_word_space: actor decade clean
+bip_39_3_word_underscore: actor_decade_clean
+bip_39_full_array:
+- actor
+- decade
+- clean
+- crowd
+- gun
+- such
+- basket
+- one
+- noodle
+- 'false'
+- language
+- super
+bip_39_full_no_space: actordecadecleancrowdgunsuchbasketonenoodlefalselanguagesuper
+bip_39_full_space: actor decade clean crowd gun such basket one noodle false language
+    super
+bip_39_full_underscore: actor_decade_clean_crowd_gun_such_basket_one_noodle_false_language_super
+directory: parts/hardware_nut_m5_coupling
+generate_stl: true
+id: hardware_nut_m5_coupling
+id_no_class: hardware_nut_m5_coupling
+id_no_size: hardware_nut_m5_coupling
+id_no_type: hardware_nut_m5_coupling
+label_drawer: &id001
+    bip39: actor decade clean
+    bip39_size: 2.35
+    code: NU
+    description: Coupling nut / M5
+    detail_lines: []
+    detail_size: 2.05
+    detail_y: 21.1
+    diagram: <path d="M2 3H18V11H2Z M2 5H18 M2 9H18"/>
+    drive_symbol: <path d="M5 1L8.46 3V7L5 9L1.54 7V3Z" fill="#ffffff"/>
+    length: ''
+    length_size: 7.8
+    length_x: 22.3603625
+    name: Coupling nut
+    name_lines:
+    - Coupling nut
+    name_size: 3.2
+    thread: M5
+    thread_size: 6.5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m5_coupling
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m5_coupling
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m5_coupling
+md5: 02a710a91a267fb0c4ccd5960a49f3ec
+md5_10: 02a710a91a
+md5_10_upper: 02A710A91A
+md5_5: 02a71
+md5_5_upper: 02A71
+md5_6: 02a710
+md5_6_alpha: 3q4w
+md5_6_alpha_upper: 3Q4W
+md5_6_upper: 02A710
+name: Hardware Nut M5 Coupling
+name_no_class: Hardware Nut M5 Coupling
+name_no_size: Hardware Nut M5 Coupling
+name_no_type: Hardware Nut M5 Coupling
+name_proper: Hardware Nut M5 Coupling
+name_space: hardware nut m5 coupling
+name_upper: HARDWARE NUT M5 COUPLING
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_nut_m5_coupling
+            name: hardware_nut_m5_coupling
+            name_proper: Hardware Nut M5 Coupling
+            name_space: hardware nut m5 coupling
+            name_upper: HARDWARE NUT M5 COUPLING
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M5 coupling connector nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M5+coupling+connector+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M5 coupling connector nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+coupling+connector+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T09:10:15.085210+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m5_coupling/google/995c3734e84349cc9fcf560aa032fa66.yaml
+                    evidence_url: https://www.google.com/search?q=M5+hexagon+coupling+nut+steel+DIN+6334+zinc+plated
+                    material_evidence: Product specifications state Steel; product
+                        features state carbon steel, Class 6.
+                    product_name: 5 x M5 Hex Coupling Nuts - Threaded Rod Connector
+                        Studding Extension - BZP Steel Class 6 - DIN 6334
+                    reason: The selected M5 hex coupling nut is steel, zinc plated,
+                        and explicitly DIN 6334; the page states DIN 6334 length is
+                        three times nominal diameter.
+                    result_url: https://www.diy.com/departments/5-x-m5-hex-coupling-nuts-threaded-rod-connector-studding-extension-bzp-steel-class-6-din-6334/5056826613318_BQ.prd
+                    search_evidence: Refined Google search returned the B&Q product
+                        titled 5 x M5 Hex Coupling Nuts - Threaded Rod Connector Studding
+                        Extension - BZP Steel Class 6 - DIN 6334; the opened product
+                        page confirms those specifications.
+                    search_for: M5 hexagon coupling nut steel DIN 6334 zinc plated
+                    search_url: https://www.google.com/search?q=M5+hexagon+coupling+nut+steel+DIN+6334+zinc+plated
+                    selected_variant: Bolt size M5; pack quantity 5; product code
+                        5056826613318
+                    specification: Hex coupling nut; M5 metric coarse thread; DIN
+                        6334; bright zinc plated (BZP); length is three times nominal
+                        diameter, 15 mm for M5.
+                    status: verified
+            supplier_data:
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T08:45:43.190333+00:00'
+                    currency: GBP
+                    family_description: "Hexagon stud connector nuts. Used to connect\
+                        \ 2 threaded parts together. Manufactured from\_zinc plated\
+                        \ steel. All connectors are fully threaded internally. Threads\
+                        \ are standard metric coarse pitch."
+                    family_heading: HEXAGON STUD CONNECTOR NUTS DIN 6334 ZINC PLATED
+                    html_sha256: 724f4d49f69873b58bdf0192d16b7bc94cefb5810f12fcd0fe8e0d74dac74d15
+                    name: M5 x 15mm HEXAGON STUD CONNECTOR NUT DIN 6334 ZINC PLATED
+                        STEEL
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:29:58.065114+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M5 x 15mm HEXAGON STUD CONNECTOR NUT
+                        DIN 6334 ZINC PLATED STEEL
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: "HEXAGON STUD CONNECTOR NUTS DIN 6334 ZINC PLATED;\
+                        \ Hexagon stud connector nuts. Used to connect 2 threaded\
+                        \ parts together. Manufactured from\_zinc plated steel. All\
+                        \ connectors are fully threaded internally. Threads are standard\
+                        \ metric coarse pitch."
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M5-x-15mm-HEXAGON-STUD-CONNECTOR-NUT-DIN-6334-ZINC-PLATED-STEEL
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M5-x-15mm-HEXAGON-STUD-CONNECTOR-NUT-DIN-6334-ZINC-PLATED-STEEL
+                    supplier_website: https://www.kayfast.co.uk/view-product/HEXAGON-STUD-CONNECTOR-NUTS-DIN-6334-ZINC-PLATED
+                    tiers:
+                    -   maximum: 19
+                        minimum: 1
+                        source_price_per_100: '8.40'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 19 @ \xA38.40 per 100"
+                        source_unit_price: '0.084'
+                        source_vat_basis: exclusive
+                        unit_price: '0.10080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 20
+                        source_price_per_100: '7.00'
+                        source_price_quantity: 100
+                        source_text: "QTY 20 -  99 @ \xA37.00 per 100"
+                        source_unit_price: '0.07'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 100
+                        source_price_per_100: '6.30'
+                        source_price_quantity: 100
+                        source_text: "QTY 100 + @ \xA36.30 per 100"
+                        source_unit_price: '0.063'
+                        source_vat_basis: exclusive
+                        unit_price: '0.07560'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.10080'
+                    total_price_10: '1.00800'
+                    total_price_100: '7.56000'
+                    total_price_1000: '75.60000'
+                    total_price_10000: '756.00000'
+                    unit_price_1: '0.10080'
+                    unit_price_10: '0.10080'
+                    unit_price_100: '0.07560'
+                    unit_price_1000: '0.07560'
+                    unit_price_10000: '0.07560'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: nut
+            taxonomy_3: m5
+            taxonomy_4: coupling
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: manufacturer_dimensions
+                dimensional_specification: Westfield studding connector nut (commercial
+                    DIN 6334 pattern)
+                generator: supplier_coupling_nut
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Catalogue family mapped to the cited dimensional
+                        pattern; exact supplier unspecified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 8
+                    characteristic_dimension_basis: hexagon across flats
+                    characteristic_dimension_mm: 8
+                    expected_components: 1
+                    external_minor_diameter_mm: 4.018504542377636
+                    family: nut
+                    finish: satin
+                    handedness: right
+                    height_convention: total axial nut height
+                    height_mm: 15
+                    hole_chamfer_mm: 0.30773502691896265
+                    hole_chamfer_slope: 1.7320508075688767
+                    identity: hardware_nut_m5_coupling
+                    internal_minor_diameter_mm: 4.133974596215562
+                    mouth_diameter_mm: 5.2
+                    nominal_diameter_mm: 5.0
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 15
+                    pitch_mm: 0.8
+                    specification: Westfield studding connector nut (commercial DIN
+                        6334 pattern)
+                    thread_flank_angle_degrees: 60.0
+                    thread_pitch_diameter_mm: 4.480384757729337
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: Westfield hexagon studding connector nut datasheet
+                    url: https://www.westfieldfasteners.co.uk/Datasheets/Nut_HexLong_M.pdf
+                -   title: TOBSTEEL 2019 catalogue, commercial article 6334; explicitly
+                        not a DIN standard
+                    url: https://www.tobsteel.com/divi/wp-content/uploads/2019/01/TOBcatalog-2019.pdf
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: null
+                standard_lengths_mm: []
+                standard_limits: {}
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: lying on side, axial end to left
+                            projection: orthographic
+                            resting_axis: side
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_nut_m5_coupling
+            name: hardware_nut_m5_coupling
+            name_proper: Hardware Nut M5 Coupling
+            name_space: hardware nut m5 coupling
+            name_upper: HARDWARE NUT M5 COUPLING
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_nut_m5_coupling
+                        name: hardware_nut_m5_coupling
+                        name_proper: Hardware Nut M5 Coupling
+                        name_space: hardware nut m5 coupling
+                        name_upper: HARDWARE NUT M5 COUPLING
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M5 coupling connector nut steel
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M5+coupling+connector+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M5 coupling connector nut steel
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+coupling+connector+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T09:10:15.085210+00:00'
+                                evidence_file: support_files/evidence/hardware_nut_m5_coupling/google/995c3734e84349cc9fcf560aa032fa66.yaml
+                                evidence_url: https://www.google.com/search?q=M5+hexagon+coupling+nut+steel+DIN+6334+zinc+plated
+                                material_evidence: Product specifications state Steel;
+                                    product features state carbon steel, Class 6.
+                                product_name: 5 x M5 Hex Coupling Nuts - Threaded
+                                    Rod Connector Studding Extension - BZP Steel Class
+                                    6 - DIN 6334
+                                reason: The selected M5 hex coupling nut is steel,
+                                    zinc plated, and explicitly DIN 6334; the page
+                                    states DIN 6334 length is three times nominal
+                                    diameter.
+                                result_url: https://www.diy.com/departments/5-x-m5-hex-coupling-nuts-threaded-rod-connector-studding-extension-bzp-steel-class-6-din-6334/5056826613318_BQ.prd
+                                search_evidence: Refined Google search returned the
+                                    B&Q product titled 5 x M5 Hex Coupling Nuts -
+                                    Threaded Rod Connector Studding Extension - BZP
+                                    Steel Class 6 - DIN 6334; the opened product page
+                                    confirms those specifications.
+                                search_for: M5 hexagon coupling nut steel DIN 6334
+                                    zinc plated
+                                search_url: https://www.google.com/search?q=M5+hexagon+coupling+nut+steel+DIN+6334+zinc+plated
+                                selected_variant: Bolt size M5; pack quantity 5; product
+                                    code 5056826613318
+                                specification: Hex coupling nut; M5 metric coarse
+                                    thread; DIN 6334; bright zinc plated (BZP); length
+                                    is three times nominal diameter, 15 mm for M5.
+                                status: verified
+                        supplier_data:
+                            kayfast:
+                                accepted_warnings: '["Kayfast per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-14T08:45:43.190333+00:00'
+                                currency: GBP
+                                family_description: "Hexagon stud connector nuts.\
+                                    \ Used to connect 2 threaded parts together. Manufactured\
+                                    \ from\_zinc plated steel. All connectors are\
+                                    \ fully threaded internally. Threads are standard\
+                                    \ metric coarse pitch."
+                                family_heading: HEXAGON STUD CONNECTOR NUTS DIN 6334
+                                    ZINC PLATED
+                                html_sha256: 724f4d49f69873b58bdf0192d16b7bc94cefb5810f12fcd0fe8e0d74dac74d15
+                                name: M5 x 15mm HEXAGON STUD CONNECTOR NUT DIN 6334
+                                    ZINC PLATED STEEL
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:29:58.065114+00:00'
+                                parser_version: kayfast-1.6-family-description
+                                price_breaks_description: M5 x 15mm HEXAGON STUD CONNECTOR
+                                    NUT DIN 6334 ZINC PLATED STEEL
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-17", "statement": "Use the exact row
+                                    dropdown price per 100 divided by 100 with Decimal
+                                    precision; accept the captured per-100 display
+                                    precision."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "Kayfast
+                                    prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+                                specifications: "HEXAGON STUD CONNECTOR NUTS DIN 6334\
+                                    \ ZINC PLATED; Hexagon stud connector nuts. Used\
+                                    \ to connect 2 threaded parts together. Manufactured\
+                                    \ from\_zinc plated steel. All connectors are\
+                                    \ fully threaded internally. Threads are standard\
+                                    \ metric coarse pitch."
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: kayfast
+                                supplier_id: M5-x-15mm-HEXAGON-STUD-CONNECTOR-NUT-DIN-6334-ZINC-PLATED-STEEL
+                                supplier_id_basis: exact dimensional row description;
+                                    spaces replaced by hyphens (user clarification
+                                    2026-10-11)
+                                supplier_part_number: M5-x-15mm-HEXAGON-STUD-CONNECTOR-NUT-DIN-6334-ZINC-PLATED-STEEL
+                                supplier_website: https://www.kayfast.co.uk/view-product/HEXAGON-STUD-CONNECTOR-NUTS-DIN-6334-ZINC-PLATED
+                                tiers:
+                                -   maximum: 19
+                                    minimum: 1
+                                    source_price_per_100: '8.40'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 1 - 19 @ \xA38.40 per 100"
+                                    source_unit_price: '0.084'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.10080'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 99
+                                    minimum: 20
+                                    source_price_per_100: '7.00'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 20 -  99 @ \xA37.00 per 100"
+                                    source_unit_price: '0.07'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0840'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 100
+                                    source_price_per_100: '6.30'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 100 + @ \xA36.30 per 100"
+                                    source_unit_price: '0.063'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.07560'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.10080'
+                                total_price_10: '1.00800'
+                                total_price_100: '7.56000'
+                                total_price_1000: '75.60000'
+                                total_price_10000: '756.00000'
+                                unit_price_1: '0.10080'
+                                unit_price_10: '0.10080'
+                                unit_price_100: '0.07560'
+                                unit_price_1000: '0.07560'
+                                unit_price_10000: '0.07560'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Kayfast per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: nut
+                        taxonomy_3: m5
+                        taxonomy_4: coupling
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        three_d_model_details:
+                            checked_on: '2026-10-11'
+                            coordinate_system:
+                                axis: +Z along bore
+                                glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                                glb_units: metres
+                                glb_up_axis: Y
+                                origin: lower face centre
+                                stl_units: mm
+                            dimension_status: manufacturer_dimensions
+                            dimensional_specification: Westfield studding connector
+                                nut (commercial DIN 6334 pattern)
+                            generator: supplier_coupling_nut
+                            length_status: not_applicable
+                            material:
+                                base_colour_srgb:
+                                - 0.62
+                                - 0.65
+                                - 0.69
+                                coat_roughness: 0.28
+                                coat_weight: 0.02
+                                metallic: 1.0
+                                microtexture_height_um: 0.8
+                                microtexture_spacing_mm: 0.025
+                                name: Satin steel
+                                note: Visual finish approximation; catalogue specifies
+                                    colour only.
+                                roughness: 0.26
+                                roughness_variation: 0.045
+                            model_formats:
+                            - stl
+                            - glb
+                            modelling_choices:
+                                bearing: Bolt bearing circle and c selected within
+                                    limits; k includes bearing thickness; fillet tangent
+                                    to shaft and bearing.
+                                cavity: Nut through-bore has a helical internal surface;
+                                    display keeps minor-diameter bore and mouth chamfers.
+                                certification: Nominal visual catalogue model, not
+                                    manufacturing tolerance certification.
+                                chamfer: 30 degree outer hex chamfer. Nut mouth included
+                                    angle 120 degrees. Bolt tip 45 degrees, P/2.
+                                components: One closed solid for supported products.
+                                    Unspecified lock/cage assemblies are not substituted
+                                    with plain hex nuts.
+                                dimension_selection: Nominal bolt head height, max
+                                    flats/nut height, nominal washer sizes; selected
+                                    dimensions stored in parameters.
+                                display: Smooth nominal external-thread envelope or
+                                    smooth minor-diameter internal bore; lower angular
+                                    and fillet tessellation.
+                                family_note: Catalogue family mapped to the cited
+                                    dimensional pattern; exact supplier unspecified.
+                                markings: Supplier and property-class markings omitted
+                                    because catalogue does not identify them.
+                                runout: External one-pitch fade to plain shank; full
+                                    thread ends at underhead fillet.
+                                thread: Nominal ISO basic metric profile, no ISO 965
+                                    tolerance offsets. External rounded root H/6,
+                                    internal P/4 crest and P/8 root flats.
+                                unspecified_geometry: Nut mouth for supplier rows
+                                    without limits and flange M3/M4 thickness/rim
+                                    blends are explicit visual model selections.
+                            output_folder: three_d_model
+                            parameters:
+                                across_flats_mm: 8
+                                characteristic_dimension_basis: hexagon across flats
+                                characteristic_dimension_mm: 8
+                                expected_components: 1
+                                external_minor_diameter_mm: 4.018504542377636
+                                family: nut
+                                finish: satin
+                                handedness: right
+                                height_convention: total axial nut height
+                                height_mm: 15
+                                hole_chamfer_mm: 0.30773502691896265
+                                hole_chamfer_slope: 1.7320508075688767
+                                identity: hardware_nut_m5_coupling
+                                internal_minor_diameter_mm: 4.133974596215562
+                                mouth_diameter_mm: 5.2
+                                nominal_diameter_mm: 5.0
+                                outer_chamfer_angle_degrees: 30.0
+                                overall_height_mm: 15
+                                pitch_mm: 0.8
+                                specification: Westfield studding connector nut (commercial
+                                    DIN 6334 pattern)
+                                thread_flank_angle_degrees: 60.0
+                                thread_pitch_diameter_mm: 4.480384757729337
+                                thread_starts: 1
+                            renders:
+                                high:
+                                    file: render_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: isometric
+                                low:
+                                    file: render_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: isometric
+                                product_high:
+                                    file: render_product_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: product
+                                product_low:
+                                    file: render_product_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: product
+                            schema_version: 1
+                            source_table: source_file/standards/catalogue_hardware.yaml
+                            sources:
+                            -   title: Westfield hexagon studding connector nut datasheet
+                                url: https://www.westfieldfasteners.co.uk/Datasheets/Nut_HexLong_M.pdf
+                            -   title: TOBSTEEL 2019 catalogue, commercial article
+                                    6334; explicitly not a DIN standard
+                                url: https://www.tobsteel.com/divi/wp-content/uploads/2019/01/TOBcatalog-2019.pdf
+                            -   title: ISO 68-1:1998 basic ISO metric thread profile
+                                url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                            standard: null
+                            standard_lengths_mm: []
+                            standard_limits: {}
+                            studio:
+                                adaptive_threshold: 0.015
+                                denoise: true
+                                device: auto
+                                engine: cycles
+                                exposure: 0.0
+                                floor_colour_srgb:
+                                - 0.93
+                                - 0.935
+                                - 0.94
+                                floor_roughness: 0.55
+                                framing_margin: 0.13
+                                high_samples: 160
+                                lights:
+                                -   colour:
+                                    - 1.0
+                                    - 0.96
+                                    - 0.9
+                                    height: 5.0
+                                    name: Key softbox
+                                    position:
+                                    - -3
+                                    - -4
+                                    - 6
+                                    power: 650.0
+                                    width: 4.0
+                                -   colour:
+                                    - 0.9
+                                    - 0.95
+                                    - 1.0
+                                    height: 4.0
+                                    name: Fill softbox
+                                    position:
+                                    - 4
+                                    - -1
+                                    - 3
+                                    power: 330.0
+                                    width: 3.0
+                                -   colour:
+                                    - 1.0
+                                    - 1.0
+                                    - 1.0
+                                    height: 5.0
+                                    name: Rim strip
+                                    position:
+                                    - 1
+                                    - 4
+                                    - 4
+                                    power: 850.0
+                                    width: 1.2
+                                look: AgX - Medium High Contrast
+                                low_samples: 48
+                                poses:
+                                    isometric:
+                                        camera_eye:
+                                        - 1
+                                        - -1
+                                        - 1
+                                        orientation: principal axis Z up
+                                        projection: orthographic
+                                    product:
+                                        camera_eye:
+                                        - -6
+                                        - -10
+                                        - 6
+                                        orientation: lying on side, axial end to left
+                                        projection: orthographic
+                                        resting_axis: side
+                                        support: Stable convex-hull support using
+                                            actual mesh centre of mass.
+                                        yaw_degrees: -12.0
+                                seed: 7991
+                                view_transform: AgX
+                                world_colour:
+                                - 0.78
+                                - 0.82
+                                - 0.9
+                                world_strength: 0.35
+                            units: mm
+                            variants:
+                                display:
+                                    angular_segments: 24
+                                    fillet_segments: 3
+                                    samples_per_pitch: 1
+                                full:
+                                    angular_segments: 96
+                                    fillet_segments: 12
+                                    samples_per_pitch: 32
+                            views:
+                            - isometric
+                            - front
+                            - back
+                            - left
+                            - right
+                            - top
+                            - bottom
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M5 coupling connector nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M5+coupling+connector+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M5 coupling connector nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+coupling+connector+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T09:10:15.085210+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m5_coupling/google/995c3734e84349cc9fcf560aa032fa66.yaml
+                    evidence_url: https://www.google.com/search?q=M5+hexagon+coupling+nut+steel+DIN+6334+zinc+plated
+                    material_evidence: Product specifications state Steel; product
+                        features state carbon steel, Class 6.
+                    product_name: 5 x M5 Hex Coupling Nuts - Threaded Rod Connector
+                        Studding Extension - BZP Steel Class 6 - DIN 6334
+                    reason: The selected M5 hex coupling nut is steel, zinc plated,
+                        and explicitly DIN 6334; the page states DIN 6334 length is
+                        three times nominal diameter.
+                    result_url: https://www.diy.com/departments/5-x-m5-hex-coupling-nuts-threaded-rod-connector-studding-extension-bzp-steel-class-6-din-6334/5056826613318_BQ.prd
+                    search_evidence: Refined Google search returned the B&Q product
+                        titled 5 x M5 Hex Coupling Nuts - Threaded Rod Connector Studding
+                        Extension - BZP Steel Class 6 - DIN 6334; the opened product
+                        page confirms those specifications.
+                    search_for: M5 hexagon coupling nut steel DIN 6334 zinc plated
+                    search_url: https://www.google.com/search?q=M5+hexagon+coupling+nut+steel+DIN+6334+zinc+plated
+                    selected_variant: Bolt size M5; pack quantity 5; product code
+                        5056826613318
+                    specification: Hex coupling nut; M5 metric coarse thread; DIN
+                        6334; bright zinc plated (BZP); length is three times nominal
+                        diameter, 15 mm for M5.
+                    status: verified
+            supplier_data:
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T08:45:43.190333+00:00'
+                    currency: GBP
+                    family_description: "Hexagon stud connector nuts. Used to connect\
+                        \ 2 threaded parts together. Manufactured from\_zinc plated\
+                        \ steel. All connectors are fully threaded internally. Threads\
+                        \ are standard metric coarse pitch."
+                    family_heading: HEXAGON STUD CONNECTOR NUTS DIN 6334 ZINC PLATED
+                    html_sha256: 724f4d49f69873b58bdf0192d16b7bc94cefb5810f12fcd0fe8e0d74dac74d15
+                    name: M5 x 15mm HEXAGON STUD CONNECTOR NUT DIN 6334 ZINC PLATED
+                        STEEL
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:29:58.065114+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M5 x 15mm HEXAGON STUD CONNECTOR NUT
+                        DIN 6334 ZINC PLATED STEEL
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: "HEXAGON STUD CONNECTOR NUTS DIN 6334 ZINC PLATED;\
+                        \ Hexagon stud connector nuts. Used to connect 2 threaded\
+                        \ parts together. Manufactured from\_zinc plated steel. All\
+                        \ connectors are fully threaded internally. Threads are standard\
+                        \ metric coarse pitch."
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M5-x-15mm-HEXAGON-STUD-CONNECTOR-NUT-DIN-6334-ZINC-PLATED-STEEL
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M5-x-15mm-HEXAGON-STUD-CONNECTOR-NUT-DIN-6334-ZINC-PLATED-STEEL
+                    supplier_website: https://www.kayfast.co.uk/view-product/HEXAGON-STUD-CONNECTOR-NUTS-DIN-6334-ZINC-PLATED
+                    tiers:
+                    -   maximum: 19
+                        minimum: 1
+                        source_price_per_100: '8.40'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 19 @ \xA38.40 per 100"
+                        source_unit_price: '0.084'
+                        source_vat_basis: exclusive
+                        unit_price: '0.10080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 20
+                        source_price_per_100: '7.00'
+                        source_price_quantity: 100
+                        source_text: "QTY 20 -  99 @ \xA37.00 per 100"
+                        source_unit_price: '0.07'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 100
+                        source_price_per_100: '6.30'
+                        source_price_quantity: 100
+                        source_text: "QTY 100 + @ \xA36.30 per 100"
+                        source_unit_price: '0.063'
+                        source_vat_basis: exclusive
+                        unit_price: '0.07560'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.10080'
+                    total_price_10: '1.00800'
+                    total_price_100: '7.56000'
+                    total_price_1000: '75.60000'
+                    total_price_10000: '756.00000'
+                    unit_price_1: '0.10080'
+                    unit_price_10: '0.10080'
+                    unit_price_100: '0.07560'
+                    unit_price_1000: '0.07560'
+                    unit_price_10000: '0.07560'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: nut
+            taxonomy_3: m5
+            taxonomy_4: coupling
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: manufacturer_dimensions
+                dimensional_specification: Westfield studding connector nut (commercial
+                    DIN 6334 pattern)
+                generator: supplier_coupling_nut
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Catalogue family mapped to the cited dimensional
+                        pattern; exact supplier unspecified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 8
+                    characteristic_dimension_basis: hexagon across flats
+                    characteristic_dimension_mm: 8
+                    expected_components: 1
+                    external_minor_diameter_mm: 4.018504542377636
+                    family: nut
+                    finish: satin
+                    handedness: right
+                    height_convention: total axial nut height
+                    height_mm: 15
+                    hole_chamfer_mm: 0.30773502691896265
+                    hole_chamfer_slope: 1.7320508075688767
+                    identity: hardware_nut_m5_coupling
+                    internal_minor_diameter_mm: 4.133974596215562
+                    mouth_diameter_mm: 5.2
+                    nominal_diameter_mm: 5.0
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 15
+                    pitch_mm: 0.8
+                    specification: Westfield studding connector nut (commercial DIN
+                        6334 pattern)
+                    thread_flank_angle_degrees: 60.0
+                    thread_pitch_diameter_mm: 4.480384757729337
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: Westfield hexagon studding connector nut datasheet
+                    url: https://www.westfieldfasteners.co.uk/Datasheets/Nut_HexLong_M.pdf
+                -   title: TOBSTEEL 2019 catalogue, commercial article 6334; explicitly
+                        not a DIN standard
+                    url: https://www.tobsteel.com/divi/wp-content/uploads/2019/01/TOBcatalog-2019.pdf
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: null
+                standard_lengths_mm: []
+                standard_limits: {}
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: lying on side, axial end to left
+                            projection: orthographic
+                            resting_axis: side
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_bolt_image.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        description: label_drawer
+        dict_data:
+            label_drawer: *id001
+        file_output: label_drawer.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
+oomp_key: oomp_hardware_nut_m5_coupling
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M5 coupling connector nut steel
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M5+coupling+connector+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M5 coupling connector nut steel
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M5+coupling+connector+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T09:10:15.085210+00:00'
+        evidence_file: support_files/evidence/hardware_nut_m5_coupling/google/995c3734e84349cc9fcf560aa032fa66.yaml
+        evidence_url: https://www.google.com/search?q=M5+hexagon+coupling+nut+steel+DIN+6334+zinc+plated
+        material_evidence: Product specifications state Steel; product features state
+            carbon steel, Class 6.
+        product_name: 5 x M5 Hex Coupling Nuts - Threaded Rod Connector Studding Extension
+            - BZP Steel Class 6 - DIN 6334
+        reason: The selected M5 hex coupling nut is steel, zinc plated, and explicitly
+            DIN 6334; the page states DIN 6334 length is three times nominal diameter.
+        result_url: https://www.diy.com/departments/5-x-m5-hex-coupling-nuts-threaded-rod-connector-studding-extension-bzp-steel-class-6-din-6334/5056826613318_BQ.prd
+        search_evidence: Refined Google search returned the B&Q product titled 5 x
+            M5 Hex Coupling Nuts - Threaded Rod Connector Studding Extension - BZP
+            Steel Class 6 - DIN 6334; the opened product page confirms those specifications.
+        search_for: M5 hexagon coupling nut steel DIN 6334 zinc plated
+        search_url: https://www.google.com/search?q=M5+hexagon+coupling+nut+steel+DIN+6334+zinc+plated
+        selected_variant: Bolt size M5; pack quantity 5; product code 5056826613318
+        specification: Hex coupling nut; M5 metric coarse thread; DIN 6334; bright
+            zinc plated (BZP); length is three times nominal diameter, 15 mm for M5.
+        status: verified
+supplier_data:
+    kayfast:
+        accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-14T08:45:43.190333+00:00'
+        currency: GBP
+        family_description: "Hexagon stud connector nuts. Used to connect 2 threaded\
+            \ parts together. Manufactured from\_zinc plated steel. All connectors\
+            \ are fully threaded internally. Threads are standard metric coarse pitch."
+        family_heading: HEXAGON STUD CONNECTOR NUTS DIN 6334 ZINC PLATED
+        html_sha256: 724f4d49f69873b58bdf0192d16b7bc94cefb5810f12fcd0fe8e0d74dac74d15
+        name: M5 x 15mm HEXAGON STUD CONNECTOR NUT DIN 6334 ZINC PLATED STEEL
+        packages: '[]'
+        parsed_at: '2026-10-18T09:29:58.065114+00:00'
+        parser_version: kayfast-1.6-family-description
+        price_breaks_description: M5 x 15mm HEXAGON STUD CONNECTOR NUT DIN 6334 ZINC
+            PLATED STEEL
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+            "statement": "Use the exact row dropdown price per 100 divided by 100
+            with Decimal precision; accept the captured per-100 display precision."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+        specifications: "HEXAGON STUD CONNECTOR NUTS DIN 6334 ZINC PLATED; Hexagon\
+            \ stud connector nuts. Used to connect 2 threaded parts together. Manufactured\
+            \ from\_zinc plated steel. All connectors are fully threaded internally.\
+            \ Threads are standard metric coarse pitch."
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: kayfast
+        supplier_id: M5-x-15mm-HEXAGON-STUD-CONNECTOR-NUT-DIN-6334-ZINC-PLATED-STEEL
+        supplier_id_basis: exact dimensional row description; spaces replaced by hyphens
+            (user clarification 2026-10-11)
+        supplier_part_number: M5-x-15mm-HEXAGON-STUD-CONNECTOR-NUT-DIN-6334-ZINC-PLATED-STEEL
+        supplier_website: https://www.kayfast.co.uk/view-product/HEXAGON-STUD-CONNECTOR-NUTS-DIN-6334-ZINC-PLATED
+        tiers:
+        -   maximum: 19
+            minimum: 1
+            source_price_per_100: '8.40'
+            source_price_quantity: 100
+            source_text: "QTY 1 - 19 @ \xA38.40 per 100"
+            source_unit_price: '0.084'
+            source_vat_basis: exclusive
+            unit_price: '0.10080'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 99
+            minimum: 20
+            source_price_per_100: '7.00'
+            source_price_quantity: 100
+            source_text: "QTY 20 -  99 @ \xA37.00 per 100"
+            source_unit_price: '0.07'
+            source_vat_basis: exclusive
+            unit_price: '0.0840'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 100
+            source_price_per_100: '6.30'
+            source_price_quantity: 100
+            source_text: "QTY 100 + @ \xA36.30 per 100"
+            source_unit_price: '0.063'
+            source_vat_basis: exclusive
+            unit_price: '0.07560'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.10080'
+        total_price_10: '1.00800'
+        total_price_100: '7.56000'
+        total_price_1000: '75.60000'
+        total_price_10000: '756.00000'
+        unit_price_1: '0.10080'
+        unit_price_10: '0.10080'
+        unit_price_100: '0.07560'
+        unit_price_1000: '0.07560'
+        unit_price_10000: '0.07560'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Kayfast per-100 displayed prices are rounded; derived totals use captured
+            display precision
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: nut
+taxonomy_2_capital: Nut
+taxonomy_2_first_letter: n
+taxonomy_2_first_letter_upper: N
+taxonomy_2_length_1: n
+taxonomy_2_length_2: nu
+taxonomy_2_length_3: nut
+taxonomy_2_length_4: nut
+taxonomy_2_length_5: nut
+taxonomy_2_upper: NUT
+taxonomy_2_upper_length_1: N
+taxonomy_2_upper_length_2: NU
+taxonomy_2_upper_length_3: NUT
+taxonomy_2_upper_length_4: NUT
+taxonomy_2_upper_length_5: NUT
+taxonomy_3: m5
+taxonomy_3_capital: M5
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m5
+taxonomy_3_length_3: m5
+taxonomy_3_length_4: m5
+taxonomy_3_length_5: m5
+taxonomy_3_upper: M5
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M5
+taxonomy_3_upper_length_3: M5
+taxonomy_3_upper_length_4: M5
+taxonomy_3_upper_length_5: M5
+taxonomy_4: coupling
+taxonomy_4_capital: Coupling
+taxonomy_4_first_letter: c
+taxonomy_4_first_letter_upper: C
+taxonomy_4_length_1: c
+taxonomy_4_length_2: co
+taxonomy_4_length_3: cou
+taxonomy_4_length_4: coup
+taxonomy_4_length_5: coupl
+taxonomy_4_upper: COUPLING
+taxonomy_4_upper_length_1: C
+taxonomy_4_upper_length_2: CO
+taxonomy_4_upper_length_3: COU
+taxonomy_4_upper_length_4: COUP
+taxonomy_4_upper_length_5: COUPL
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+    checked_on: '2026-10-11'
+    coordinate_system:
+        axis: +Z along bore
+        glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+        glb_units: metres
+        glb_up_axis: Y
+        origin: lower face centre
+        stl_units: mm
+    dimension_status: manufacturer_dimensions
+    dimensional_specification: Westfield studding connector nut (commercial DIN 6334
+        pattern)
+    generator: supplier_coupling_nut
+    length_status: not_applicable
+    material:
+        base_colour_srgb:
+        - 0.62
+        - 0.65
+        - 0.69
+        coat_roughness: 0.28
+        coat_weight: 0.02
+        metallic: 1.0
+        microtexture_height_um: 0.8
+        microtexture_spacing_mm: 0.025
+        name: Satin steel
+        note: Visual finish approximation; catalogue specifies colour only.
+        roughness: 0.26
+        roughness_variation: 0.045
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+        bearing: Bolt bearing circle and c selected within limits; k includes bearing
+            thickness; fillet tangent to shaft and bearing.
+        cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
+            bore and mouth chamfers.
+        certification: Nominal visual catalogue model, not manufacturing tolerance
+            certification.
+        chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees.
+            Bolt tip 45 degrees, P/2.
+        components: One closed solid for supported products. Unspecified lock/cage
+            assemblies are not substituted with plain hex nuts.
+        dimension_selection: Nominal bolt head height, max flats/nut height, nominal
+            washer sizes; selected dimensions stored in parameters.
+        display: Smooth nominal external-thread envelope or smooth minor-diameter
+            internal bore; lower angular and fillet tessellation.
+        family_note: Catalogue family mapped to the cited dimensional pattern; exact
+            supplier unspecified.
+        markings: Supplier and property-class markings omitted because catalogue does
+            not identify them.
+        runout: External one-pitch fade to plain shank; full thread ends at underhead
+            fillet.
+        thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+            rounded root H/6, internal P/4 crest and P/8 root flats.
+        unspecified_geometry: Nut mouth for supplier rows without limits and flange
+            M3/M4 thickness/rim blends are explicit visual model selections.
+    output_folder: three_d_model
+    parameters:
+        across_flats_mm: 8
+        characteristic_dimension_basis: hexagon across flats
+        characteristic_dimension_mm: 8
+        expected_components: 1
+        external_minor_diameter_mm: 4.018504542377636
+        family: nut
+        finish: satin
+        handedness: right
+        height_convention: total axial nut height
+        height_mm: 15
+        hole_chamfer_mm: 0.30773502691896265
+        hole_chamfer_slope: 1.7320508075688767
+        identity: hardware_nut_m5_coupling
+        internal_minor_diameter_mm: 4.133974596215562
+        mouth_diameter_mm: 5.2
+        nominal_diameter_mm: 5.0
+        outer_chamfer_angle_degrees: 30.0
+        overall_height_mm: 15
+        pitch_mm: 0.8
+        specification: Westfield studding connector nut (commercial DIN 6334 pattern)
+        thread_flank_angle_degrees: 60.0
+        thread_pitch_diameter_mm: 4.480384757729337
+        thread_starts: 1
+    renders:
+        high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+        low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+        product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+        product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+    schema_version: 1
+    source_table: source_file/standards/catalogue_hardware.yaml
+    sources:
+    -   title: Westfield hexagon studding connector nut datasheet
+        url: https://www.westfieldfasteners.co.uk/Datasheets/Nut_HexLong_M.pdf
+    -   title: TOBSTEEL 2019 catalogue, commercial article 6334; explicitly not a
+            DIN standard
+        url: https://www.tobsteel.com/divi/wp-content/uploads/2019/01/TOBcatalog-2019.pdf
+    -   title: ISO 68-1:1998 basic ISO metric thread profile
+        url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+    standard: null
+    standard_lengths_mm: []
+    standard_limits: {}
+    studio:
+        adaptive_threshold: 0.015
+        denoise: true
+        device: auto
+        engine: cycles
+        exposure: 0.0
+        floor_colour_srgb:
+        - 0.93
+        - 0.935
+        - 0.94
+        floor_roughness: 0.55
+        framing_margin: 0.13
+        high_samples: 160
+        lights:
+        -   colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+        -   colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+        -   colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+        look: AgX - Medium High Contrast
+        low_samples: 48
+        poses:
+            isometric:
+                camera_eye:
+                - 1
+                - -1
+                - 1
+                orientation: principal axis Z up
+                projection: orthographic
+            product:
+                camera_eye:
+                - -6
+                - -10
+                - 6
+                orientation: lying on side, axial end to left
+                projection: orthographic
+                resting_axis: side
+                support: Stable convex-hull support using actual mesh centre of mass.
+                yaw_degrees: -12.0
+        seed: 7991
+        view_transform: AgX
+        world_colour:
+        - 0.78
+        - 0.82
+        - 0.9
+        world_strength: 0.35
+    units: mm
+    variants:
+        display:
+            angular_segments: 24
+            fillet_segments: 3
+            samples_per_pitch: 1
+        full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
+url_chat: ''
+```
+
+</details>
+
+## Parts
+
+[Full-detail 3D model (GLB)](three_d_model/model_full.glb) · [Full-detail view drawings](three_d_model/full/) · [Drawer label (SVG)](label_drawer.svg)
+
+Full-detail and simplified display models are alternatives for the same part. GLB uses metres; STL, where supplied, uses millimetres. The [part folder](./) contains all available files.
+
+## Assembly
+
+This page documents a component rather than a complete project assembly. No installation sequence or tightening torque is specified by this record.
+<!-- hardware-part:end -->

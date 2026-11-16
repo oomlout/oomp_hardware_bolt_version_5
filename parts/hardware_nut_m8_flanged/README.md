@@ -1,0 +1,3042 @@
+<!-- hardware-part:start -->
+# M8 flanged nut
+
+## Summary
+
+A threaded nut with an integral flange around its bearing face.
+
+[Hardware catalogue](../../README.md) · [Browse this family](../../navigation_oobb/README.md#nuts)
+
+| Isometric | Product view |
+| --- | --- |
+| [![Full-detail isometric render](three_d_model/readme_isometric.png)](three_d_model/render_high.png) | [![Full-detail product view render](three_d_model/readme_product.png)](three_d_model/render_product_high.png) |
+
+Full-detail catalogue renders. Click either image to open the original resolution.
+
+## Details
+
+**OOMP ID:** `hardware_nut_m8_flanged`
+
+**Short code:** `1s7jg` · **Three-word label:** color ramp chair
+
+| Model dimension | mm |
+| --- | ---: |
+| Nominal size | 8 |
+| Thread pitch | 1.25 |
+| Across flats | 13 |
+| Height / thickness | 8 |
+| Flange diameter | 17.9 |
+| Flange thickness | 1.2 |
+
+Dimensions above are values used by the saved model recipe, in millimetres. **Model basis: standard dimensions.**
+
+<details>
+<summary>Model provenance and assumptions</summary>
+
+**Recorded dimensional reference:** DIN 6923 (supplier sheet; edition not stated)
+
+**Source checked:** 2026-10-11
+
+**Visual finish:** Satin steel
+
+**Finish assumption:** Visual finish approximation; catalogue specifies colour only.
+
+**Family notes:** Plain flange selected; catalogue does not specify serrations. M3/M4 are outside DIN scope. Small edge blends and flange transition are visual choices.
+
+These are saved catalogue references and modelling choices, not a claim of manufacturing certification.
+
+- [Westfield plain hex flange nuts DIN 6923, includes M3/M4 supplier extensions](https://www.westfieldfasteners.co.uk/Standards/Nut-HexFlgPln-M.pdf)
+- [ISO 68-1:1998 basic ISO metric thread profile](https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf)
+
+[Complete model recipe](three_d_model/parameters.json)
+
+</details>
+
+<details>
+<summary>Complete part metadata</summary>
+
+[Source working.yaml](working.yaml)
+
+```yaml
+bip_39_2_word_array:
+- color
+- ramp
+bip_39_2_word_no_space: colorramp
+bip_39_2_word_space: color ramp
+bip_39_2_word_underscore: color_ramp
+bip_39_3_word_array:
+- color
+- ramp
+- chair
+bip_39_3_word_no_space: colorrampchair
+bip_39_3_word_space: color ramp chair
+bip_39_3_word_underscore: color_ramp_chair
+bip_39_full_array:
+- color
+- ramp
+- chair
+- split
+- floor
+- kitchen
+- repair
+- hybrid
+- lounge
+- river
+- grant
+- east
+bip_39_full_no_space: colorrampchairsplitfloorkitchenrepairhybridloungerivergranteast
+bip_39_full_space: color ramp chair split floor kitchen repair hybrid lounge river
+    grant east
+bip_39_full_underscore: color_ramp_chair_split_floor_kitchen_repair_hybrid_lounge_river_grant_east
+directory: parts/hardware_nut_m8_flanged
+generate_stl: true
+id: hardware_nut_m8_flanged
+id_no_class: hardware_nut_m8_flanged
+id_no_size: hardware_nut_m8_flanged
+id_no_type: hardware_nut_m8_flanged
+label_drawer: &id001
+    bip39: color ramp chair
+    bip39_size: 2.35
+    code: NU
+    description: Flanged nut / M8
+    detail_lines: []
+    detail_size: 2.05
+    detail_y: 21.1
+    diagram: <path d="M7 1.8H13L16 7L13 12.2H7L4 7Z"/><circle cx="10" cy="7" r="2.5"/>
+    drive_symbol: <path d="M5 1L8.46 3V7L5 9L1.54 7V3Z" fill="#ffffff"/>
+    length: ''
+    length_size: 7.8
+    length_x: 22.3603625
+    name: Flanged nut
+    name_lines:
+    - Flanged nut
+    name_size: 3.2
+    thread: M8
+    thread_size: 6.5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m8_flanged
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m8_flanged
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m8_flanged
+md5: 2db62c97691596f62da38084575996a2
+md5_10: 2db62c9769
+md5_10_upper: 2DB62C9769
+md5_5: 2db62
+md5_5_upper: 2DB62
+md5_6: 2db62c
+md5_6_alpha: 1s7jg
+md5_6_alpha_upper: 1S7JG
+md5_6_upper: 2DB62C
+name: Hardware Nut M8 Flanged
+name_no_class: Hardware Nut M8 Flanged
+name_no_size: Hardware Nut M8 Flanged
+name_no_type: Hardware Nut M8 Flanged
+name_proper: Hardware Nut M8 Flanged
+name_space: hardware nut m8 flanged
+name_upper: HARDWARE NUT M8 FLANGED
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_nut_m8_flanged
+            name: hardware_nut_m8_flanged
+            name_proper: Hardware Nut M8 Flanged
+            name_space: hardware nut m8 flanged
+            name_upper: HARDWARE NUT M8 FLANGED
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M8 flanged nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M8+flanged+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M8 flanged nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+flanged+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T09:22:02.042691+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m8_flanged/google/4a81961be2eb4228beb0643a8a5f2021.yaml
+                    evidence_url: https://www.google.com/search?q=M8+serrated+flange+nut+carbon+steel+DIN+6923+BZP
+                    material_evidence: 'Product specification states Material: Class
+                        8 Steel BZP.'
+                    product_name: M8 Serrated Hex Flange Nut (DIN 6923) | Class 8
+                        BZP Steel
+                    reason: "Vital Parts\u2019 selected M8 serrated hex flange nut\
+                        \ is Class 8 steel BZP and provides the matching DIN 6923\
+                        \ dimensions."
+                    result_url: https://www.vital-parts.co.uk/serrated-flanged-hex-nuts-din-6923/46532-sfn6923-m8-c8-bzp
+                    search_evidence: "The refined Google query returned Vital Parts\u2019\
+                        \ M8 Serrated Hex Flange Nut product. The selected page identifies\
+                        \ code SFN6923-M8-C8-BZP, thread size M8, 1.25 mm pitch, Class\
+                        \ 8 steel BZP, 13 mm across flats, 17.9 mm flange diameter,\
+                        \ 8.0 mm height and DIN 6923."
+                    search_for: M8 serrated flange nut carbon steel DIN 6923 BZP
+                    search_url: https://www.google.com/search?q=M8+serrated+flange+nut+carbon+steel+DIN+6923+BZP
+                    selected_variant: M8 fixed product; code SFN6923-M8-C8-BZP
+                    specification: M8; thread pitch 1.25 mm; serrated hex flange nut;
+                        13.0 mm across flats; 17.9 mm flange diameter; 8.0 mm height;
+                        Class 8 steel BZP; DIN 6923.
+                    status: verified
+            supplier_data:
+                accu:
+                    accepted_warnings: '["Accu displayed prices are rounded; derived
+                        totals use the captured display precision", "Final Accu price
+                        tier has no captured upper boundary; final advertised unit
+                        price extended by user policy"]'
+                    box_quantity: ''
+                    captured_at: '2026-10-13T13:52:32.400886+00:00'
+                    currency: GBP
+                    description: "Often simply referred to as a Washer Nut or a Flange\
+                        \ Nut, Metric Flanged Hexagon Nuts are used in place of a\
+                        \ regular Hexagon Nut and a Flat Washer. The flange of this\
+                        \ nut is essentially an integrated washer, which helps with\
+                        \ load distribution and can negate the need for using a separate\
+                        \ washer. This makes Washer Nuts ideal for applications where\
+                        \ space is limited. Metric Serrated Flange Nuts are also available\
+                        \ from Accu, which feature a flange with a serrated underside,\
+                        \ designed to bite into the mating surface to provide additional\
+                        \ grip and resistance to vibrations. Materials Accu\u2019\
+                        s Stainless Steel Flange Nuts are manufactured in both A2\
+                        \ and A4 Stainless Steel, in either a natural or Matte Black\
+                        \ finish. Plastic Flange Nuts in this range are available\
+                        \ in natural finish (White) Nylon and Polyamide. M5, M6 and\
+                        \ M8 Flange Nuts are also available in Zinc Plated 8.8 Hardened\
+                        \ Steel. Metric Flanged Hex Nuts Metric Flange Nuts are available\
+                        \ from Accu in thread sizes M3 up to M32, with Flange Diameters\
+                        \ ranging from 7mm to 27mm. Imperial Flanged Hex Nuts For\
+                        \ imperial sizes, please see Accu\u2019s Imperial Serrated\
+                        \ Flange Nut range."
+                    html_sha256: ddc57783c386e976c7887d373043a45b9b433a4e18803e829d696c59238b74b5
+                    name: M8 Flanged Hexagon Nuts (DIN 6923) - Zinc Plated Mild Steel
+                        (Class 6)
+                    parsed_at: '2026-10-18T08:52:07.972937+00:00'
+                    parser_version: accu-1.9-base-material
+                    price_inheritance: "{\"1000\": {\"source_quantity\": 200, \"source_unit_price\"\
+                        : \"0.04\", \"source_text\": \"Buy 200 \xA30.04 Save 94 %\"\
+                        , \"basis\": \"user policy 2026-10-13\"}, \"10000\": {\"source_quantity\"\
+                        : 200, \"source_unit_price\": \"0.04\", \"source_text\": \"\
+                        Buy 200 \xA30.04 Save 94 %\", \"basis\": \"user policy 2026-10-13\"\
+                        }}"
+                    quote_minimum: ''
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept rounded displayed prices,
+                        open-ended final advertised tiers, and quotes required from
+                        400 units; quote-only prices remain blank."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.03",
+                        "highPrice": "0.77", "priceCurrency": "GBP", "offerCount":
+                        "10", "availability": "https://schema.org/InStock", "itemCondition":
+                        "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/metric-flanged-hexagon-nuts/850042-HFFN-M8-C6-Z",
+                        "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                        {"@type": "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "accus prices are all ex
+                        vat", "confirmed_on": "2026-10-13"}'
+                    specifications: '{"Accu Product Code (APC)": "HFFN-M8-C6-Z", "Thread
+                        Size": "M8 (8 mm)", "Socket Size (J)": "13 mm (Tolerance:
+                        +0/-0.27 mm)", "Overall Thickness (L)": "9.4 mm (Tolerance:
+                        +0/-1.8 mm)", "Material": "Steel - (Class 6)", "Finish": "Zinc
+                        Plated", "Flange Diameter (D)": "17.9 mm", "Flange Thickness
+                        (Min) (FL)": "1.2 mm", "Manufacturing Standard": "DIN 6923",
+                        "Material Family": "Steel", "Minimum Wrenching Height": "4.5
+                        mm", "System of Measurement": "Metric", "Thread Pitch": "1.25
+                        mm"}'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: https://schema.org/InStock
+                    supplier: accu
+                    supplier_id: HFFN-M8-C6-Z
+                    supplier_part_number: HFFN-M8-C6-Z
+                    supplier_website: https://www.accu.co.uk/metric-flanged-hexagon-nuts/850042-HFFN-M8-C6-Z
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: "Buy 1 \xA30.77"
+                        source_unit_price: '0.77'
+                        source_vat_basis: exclusive
+                        unit_price: '0.9240'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 3
+                        minimum: 2
+                        source_text: "Buy 2 \xA30.42 Save 45 %"
+                        source_unit_price: '0.42'
+                        source_vat_basis: exclusive
+                        unit_price: '0.5040'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5
+                        minimum: 4
+                        source_text: "Buy 4 \xA30.25 Save 67 %"
+                        source_unit_price: '0.25'
+                        source_vat_basis: exclusive
+                        unit_price: '0.3000'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 11
+                        minimum: 6
+                        source_text: "Buy 6 \xA30.17 Save 77 %"
+                        source_unit_price: '0.17'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2040'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 23
+                        minimum: 12
+                        source_text: "Buy 12 \xA30.11 Save 85 %"
+                        source_unit_price: '0.11'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1320'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 24
+                        source_text: "Buy 24 \xA30.08 Save 89 %"
+                        source_unit_price: '0.08'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0960'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: "Buy 50 \xA30.06 Save 92 %"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 199
+                        minimum: 100
+                        source_text: "Buy 100 \xA30.05 Save 93 %"
+                        source_unit_price: '0.05'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0600'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        maximum_basis: user-approved open-ended final tier; no captured
+                            upper boundary
+                        minimum: 200
+                        source_text: "Buy 200 \xA30.04 Save 94 %"
+                        source_unit_price: '0.04'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0480'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.9240'
+                    total_price_10: '2.0400'
+                    total_price_100: '6.0000'
+                    total_price_1000: '48.0000'
+                    total_price_10000: '480.0000'
+                    unit_price_1: '0.9240'
+                    unit_price_10: '0.2040'
+                    unit_price_100: '0.0600'
+                    unit_price_1000: '0.0480'
+                    unit_price_10000: '0.0480'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Accu displayed prices are rounded; derived totals use the captured
+                        display precision
+                    - Final Accu price tier has no captured upper boundary; final
+                        advertised unit price extended by user policy
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-13T17:13:52.419523+00:00'
+                    currency: GBP
+                    html_sha256: 02296ae73c4d2a19272377afeed8cf4070566f3909bc3eaa6d273c1cf4788470
+                    name: "M8 Hexagon Serrated Flange Nut Plain (Self Colour), Grade\
+                        \ 8 \u2013 DIN 6923"
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:02:35.926119+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M8 (8mm); Flange Diameter (D): 17.9mm;
+                        Nut Thickness (Min) (H): 4.5mm; Overall Thickness (L): 8mm;
+                        Material: High Tensile (Grade 8); Finish: Self Colour; Screw
+                        Thread Pitch: 1.25mm; Socket Size (J): 13mm; Manufacturing
+                        Standard: DIN 6923; Material Specification: High Tensile (Grade
+                        8); Metric or Imperial?: Metric'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 51011.080.000
+                    supplier_part_number: 51011.080.000
+                    supplier_website: https://dibolt.co.uk/products/m6-hexagon-serrated-flange-nut-plain-self-colour-grade-8-din-6923
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA35.57 Per 100 Units"
+                        source_unit_price: '0.0557'
+                        source_vat_basis: exclusive
+                        unit_price: '0.066840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2,499 \xA35.29 Per 100 Units"
+                        source_unit_price: '0.0529'
+                        source_vat_basis: exclusive
+                        unit_price: '0.063480'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2500
+                        source_text: "2,500+ \xA35.01 Per 100 Units"
+                        source_unit_price: '0.0501'
+                        source_vat_basis: exclusive
+                        unit_price: '0.060120'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.066840'
+                    total_price_10: '0.668400'
+                    total_price_100: '6.684000'
+                    total_price_1000: '63.480000'
+                    total_price_10000: '601.200000'
+                    unit_price_1: '0.066840'
+                    unit_price_10: '0.066840'
+                    unit_price_100: '0.066840'
+                    unit_price_1000: '0.063480'
+                    unit_price_10000: '0.060120'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T12:33:07.456461+00:00'
+                    currency: GBP
+                    family_description: Flanged nuts with serrated face. Serrations
+                        displace metal to create a locking action. Manufactured from
+                        zinc plated steel.
+                    family_heading: METRIC SERRATED FLANGE NUTS ZINC PLATED
+                    html_sha256: e81d294f279938f8053f176b59bd42d889109f8285fd6640b2759458c49c53bb
+                    name: M8 HEXAGON SERRATED FLANGE NUT ZINC PLATED STEEL
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:29:58.671713+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M8 HEXAGON SERRATED FLANGE NUT ZINC
+                        PLATED STEEL
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: METRIC SERRATED FLANGE NUTS ZINC PLATED; Flanged
+                        nuts with serrated face. Serrations displace metal to create
+                        a locking action. Manufactured from zinc plated steel.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M8-HEXAGON-SERRATED-FLANGE-NUT-ZINC-PLATED-STEEL
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M8-HEXAGON-SERRATED-FLANGE-NUT-ZINC-PLATED-STEEL
+                    supplier_website: https://www.kayfast.co.uk/view-product/METRIC-SERRATED-FLANGE-NUTS-ZINC-PLATED
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_price_per_100: '5.15'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 499 @ \xA35.15 per 100"
+                        source_unit_price: '0.0515'
+                        source_vat_basis: exclusive
+                        unit_price: '0.061800'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 1999
+                        minimum: 500
+                        source_price_per_100: '4.30'
+                        source_price_quantity: 100
+                        source_text: "QTY 500 -  1999 @ \xA34.30 per 100"
+                        source_unit_price: '0.043'
+                        source_vat_basis: exclusive
+                        unit_price: '0.05160'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2000
+                        source_price_per_100: '3.89'
+                        source_price_quantity: 100
+                        source_text: "QTY 2000 + @ \xA33.89 per 100"
+                        source_unit_price: '0.0389'
+                        source_vat_basis: exclusive
+                        unit_price: '0.046680'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.061800'
+                    total_price_10: '0.618000'
+                    total_price_100: '6.180000'
+                    total_price_1000: '51.60000'
+                    total_price_10000: '466.800000'
+                    unit_price_1: '0.061800'
+                    unit_price_10: '0.061800'
+                    unit_price_100: '0.061800'
+                    unit_price_1000: '0.05160'
+                    unit_price_10000: '0.046680'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '200'
+                    captured_at: '2026-10-12T19:56:07.797358+00:00'
+                    catalogue_page: '29'
+                    currency: GBP
+                    description: ''
+                    html_sha256: 1cce9b15d86d42a52e6a7319d27a8c158f8875f2f6f042b4a45bed7141ddb1c2
+                    name: M8 Hexagon Serrated Flange Nut Bright Zinc Plated, Class
+                        6 DIN 6923
+                    parsed_at: '2026-10-18T08:49:28.244506+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:03pm
+                    stock_quantity: '66953'
+                    supplier: orbitalfasteners
+                    supplier_id: '2841030'
+                    supplier_part_number: '2841030'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m8-hexagon-serrated-flange-nut-bright-zinc-plated
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_text: "1 - 199 \xA30.031 Inc. VAT \xA33.10 Inc. VAT"
+                        source_unit_price: '0.031'
+                        source_vat_basis: inclusive
+                        unit_price: '0.031'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_text: "200 - 999 \xA30.0258 Inc. VAT \xA32.58 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0258'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0258'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2399
+                        minimum: 1000
+                        source_text: "1000 - 2399 \xA30.0233 Inc. VAT \xA32.33 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0233'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0233'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2400
+                        source_text: "2400 + \xA30.0206 Inc. VAT \xA32.06 Inc. VAT"
+                        source_unit_price: '0.0206'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0206'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.031'
+                    total_price_10: '0.310'
+                    total_price_100: '3.100'
+                    total_price_1000: '23.3000'
+                    total_price_10000: '206.0000'
+                    unit_price_1: '0.031'
+                    unit_price_10: '0.031'
+                    unit_price_100: '0.031'
+                    unit_price_1000: '0.0233'
+                    unit_price_10000: '0.0206'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: nut
+            taxonomy_3: m8
+            taxonomy_4: flanged
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: standard_dimensions
+                dimensional_specification: DIN 6923 (supplier sheet; edition not stated)
+                generator: din_6923_flange_nut
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Plain flange selected; catalogue does not specify
+                        serrations. M3/M4 are outside DIN scope. Small edge blends
+                        and flange transition are visual choices.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 13
+                    characteristic_dimension_basis: hexagon across flats
+                    characteristic_dimension_mm: 13
+                    expected_components: 1
+                    external_minor_diameter_mm: 6.466413347465057
+                    family: nut
+                    finish: satin
+                    flange_diameter_mm: 17.9
+                    flange_edge_round_mm: 0.3
+                    flange_thickness_mm: 1.2
+                    handedness: right
+                    height_convention: total axial nut height
+                    height_mm: 8
+                    hole_chamfer_mm: 0.4988781754730549
+                    hole_chamfer_slope: 1.7320508075688767
+                    identity: hardware_nut_m8_flanged
+                    internal_minor_diameter_mm: 6.646835306586815
+                    mouth_diameter_mm: 8.375
+                    nominal_diameter_mm: 8.0
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 8
+                    pitch_mm: 1.25
+                    specification: DIN 6923 (supplier sheet; edition not stated)
+                    thread_flank_angle_degrees: 60.0
+                    thread_pitch_diameter_mm: 7.188101183952089
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: Westfield plain hex flange nuts DIN 6923, includes M3/M4
+                        supplier extensions
+                    url: https://www.westfieldfasteners.co.uk/Standards/Nut-HexFlgPln-M.pdf
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: DIN 6923 (supplier sheet; edition not stated)
+                standard_lengths_mm: []
+                standard_limits:
+                    across_corners_min_mm: 14.38
+                    across_flats_mm:
+                    - 12.73
+                    - 13
+                    height_mm:
+                    - 7.6
+                    - 8
+                    mouth_diameter_mm:
+                    - 8
+                    - 8.75
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_nut_m8_flanged
+            name: hardware_nut_m8_flanged
+            name_proper: Hardware Nut M8 Flanged
+            name_space: hardware nut m8 flanged
+            name_upper: HARDWARE NUT M8 FLANGED
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_nut_m8_flanged
+                        name: hardware_nut_m8_flanged
+                        name_proper: Hardware Nut M8 Flanged
+                        name_space: hardware nut m8 flanged
+                        name_upper: HARDWARE NUT M8 FLANGED
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M8 flanged nut steel
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M8+flanged+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M8 flanged nut steel
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+flanged+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T09:22:02.042691+00:00'
+                                evidence_file: support_files/evidence/hardware_nut_m8_flanged/google/4a81961be2eb4228beb0643a8a5f2021.yaml
+                                evidence_url: https://www.google.com/search?q=M8+serrated+flange+nut+carbon+steel+DIN+6923+BZP
+                                material_evidence: 'Product specification states Material:
+                                    Class 8 Steel BZP.'
+                                product_name: M8 Serrated Hex Flange Nut (DIN 6923)
+                                    | Class 8 BZP Steel
+                                reason: "Vital Parts\u2019 selected M8 serrated hex\
+                                    \ flange nut is Class 8 steel BZP and provides\
+                                    \ the matching DIN 6923 dimensions."
+                                result_url: https://www.vital-parts.co.uk/serrated-flanged-hex-nuts-din-6923/46532-sfn6923-m8-c8-bzp
+                                search_evidence: "The refined Google query returned\
+                                    \ Vital Parts\u2019 M8 Serrated Hex Flange Nut\
+                                    \ product. The selected page identifies code SFN6923-M8-C8-BZP,\
+                                    \ thread size M8, 1.25 mm pitch, Class 8 steel\
+                                    \ BZP, 13 mm across flats, 17.9 mm flange diameter,\
+                                    \ 8.0 mm height and DIN 6923."
+                                search_for: M8 serrated flange nut carbon steel DIN
+                                    6923 BZP
+                                search_url: https://www.google.com/search?q=M8+serrated+flange+nut+carbon+steel+DIN+6923+BZP
+                                selected_variant: M8 fixed product; code SFN6923-M8-C8-BZP
+                                specification: M8; thread pitch 1.25 mm; serrated
+                                    hex flange nut; 13.0 mm across flats; 17.9 mm
+                                    flange diameter; 8.0 mm height; Class 8 steel
+                                    BZP; DIN 6923.
+                                status: verified
+                        supplier_data:
+                            accu:
+                                accepted_warnings: '["Accu displayed prices are rounded;
+                                    derived totals use the captured display precision",
+                                    "Final Accu price tier has no captured upper boundary;
+                                    final advertised unit price extended by user policy"]'
+                                box_quantity: ''
+                                captured_at: '2026-10-13T13:52:32.400886+00:00'
+                                currency: GBP
+                                description: "Often simply referred to as a Washer\
+                                    \ Nut or a Flange Nut, Metric Flanged Hexagon\
+                                    \ Nuts are used in place of a regular Hexagon\
+                                    \ Nut and a Flat Washer. The flange of this nut\
+                                    \ is essentially an integrated washer, which helps\
+                                    \ with load distribution and can negate the need\
+                                    \ for using a separate washer. This makes Washer\
+                                    \ Nuts ideal for applications where space is limited.\
+                                    \ Metric Serrated Flange Nuts are also available\
+                                    \ from Accu, which feature a flange with a serrated\
+                                    \ underside, designed to bite into the mating\
+                                    \ surface to provide additional grip and resistance\
+                                    \ to vibrations. Materials Accu\u2019s Stainless\
+                                    \ Steel Flange Nuts are manufactured in both A2\
+                                    \ and A4 Stainless Steel, in either a natural\
+                                    \ or Matte Black finish. Plastic Flange Nuts in\
+                                    \ this range are available in natural finish (White)\
+                                    \ Nylon and Polyamide. M5, M6 and M8 Flange Nuts\
+                                    \ are also available in Zinc Plated 8.8 Hardened\
+                                    \ Steel. Metric Flanged Hex Nuts Metric Flange\
+                                    \ Nuts are available from Accu in thread sizes\
+                                    \ M3 up to M32, with Flange Diameters ranging\
+                                    \ from 7mm to 27mm. Imperial Flanged Hex Nuts\
+                                    \ For imperial sizes, please see Accu\u2019s Imperial\
+                                    \ Serrated Flange Nut range."
+                                html_sha256: ddc57783c386e976c7887d373043a45b9b433a4e18803e829d696c59238b74b5
+                                name: M8 Flanged Hexagon Nuts (DIN 6923) - Zinc Plated
+                                    Mild Steel (Class 6)
+                                parsed_at: '2026-10-18T08:52:07.972937+00:00'
+                                parser_version: accu-1.9-base-material
+                                price_inheritance: "{\"1000\": {\"source_quantity\"\
+                                    : 200, \"source_unit_price\": \"0.04\", \"source_text\"\
+                                    : \"Buy 200 \xA30.04 Save 94 %\", \"basis\": \"\
+                                    user policy 2026-10-13\"}, \"10000\": {\"source_quantity\"\
+                                    : 200, \"source_unit_price\": \"0.04\", \"source_text\"\
+                                    : \"Buy 200 \xA30.04 Save 94 %\", \"basis\": \"\
+                                    user policy 2026-10-13\"}}"
+                                quote_minimum: ''
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept rounded displayed
+                                    prices, open-ended final advertised tiers, and
+                                    quotes required from 400 units; quote-only prices
+                                    remain blank."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_offer: '{"@type": "AggregateOffer", "lowPrice":
+                                    "0.03", "highPrice": "0.77", "priceCurrency":
+                                    "GBP", "offerCount": "10", "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "url": "https://www.accu.co.uk/metric-flanged-hexagon-nuts/850042-HFFN-M8-C6-Z",
+                                    "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                                    {"@type": "QuantitativeValue", "value": 1, "unitCode":
+                                    "ANN"}}}'
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "accus
+                                    prices are all ex vat", "confirmed_on": "2026-10-13"}'
+                                specifications: '{"Accu Product Code (APC)": "HFFN-M8-C6-Z",
+                                    "Thread Size": "M8 (8 mm)", "Socket Size (J)":
+                                    "13 mm (Tolerance: +0/-0.27 mm)", "Overall Thickness
+                                    (L)": "9.4 mm (Tolerance: +0/-1.8 mm)", "Material":
+                                    "Steel - (Class 6)", "Finish": "Zinc Plated",
+                                    "Flange Diameter (D)": "17.9 mm", "Flange Thickness
+                                    (Min) (FL)": "1.2 mm", "Manufacturing Standard":
+                                    "DIN 6923", "Material Family": "Steel", "Minimum
+                                    Wrenching Height": "4.5 mm", "System of Measurement":
+                                    "Metric", "Thread Pitch": "1.25 mm"}'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: https://schema.org/InStock
+                                supplier: accu
+                                supplier_id: HFFN-M8-C6-Z
+                                supplier_part_number: HFFN-M8-C6-Z
+                                supplier_website: https://www.accu.co.uk/metric-flanged-hexagon-nuts/850042-HFFN-M8-C6-Z
+                                tiers:
+                                -   maximum: 1
+                                    minimum: 1
+                                    source_text: "Buy 1 \xA30.77"
+                                    source_unit_price: '0.77'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.9240'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 3
+                                    minimum: 2
+                                    source_text: "Buy 2 \xA30.42 Save 45 %"
+                                    source_unit_price: '0.42'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.5040'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 5
+                                    minimum: 4
+                                    source_text: "Buy 4 \xA30.25 Save 67 %"
+                                    source_unit_price: '0.25'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.3000'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 11
+                                    minimum: 6
+                                    source_text: "Buy 6 \xA30.17 Save 77 %"
+                                    source_unit_price: '0.17'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.2040'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 23
+                                    minimum: 12
+                                    source_text: "Buy 12 \xA30.11 Save 85 %"
+                                    source_unit_price: '0.11'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1320'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 49
+                                    minimum: 24
+                                    source_text: "Buy 24 \xA30.08 Save 89 %"
+                                    source_unit_price: '0.08'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0960'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 99
+                                    minimum: 50
+                                    source_text: "Buy 50 \xA30.06 Save 92 %"
+                                    source_unit_price: '0.06'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0720'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 199
+                                    minimum: 100
+                                    source_text: "Buy 100 \xA30.05 Save 93 %"
+                                    source_unit_price: '0.05'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0600'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    maximum_basis: user-approved open-ended final
+                                        tier; no captured upper boundary
+                                    minimum: 200
+                                    source_text: "Buy 200 \xA30.04 Save 94 %"
+                                    source_unit_price: '0.04'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0480'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.9240'
+                                total_price_10: '2.0400'
+                                total_price_100: '6.0000'
+                                total_price_1000: '48.0000'
+                                total_price_10000: '480.0000'
+                                unit_price_1: '0.9240'
+                                unit_price_10: '0.2040'
+                                unit_price_100: '0.0600'
+                                unit_price_1000: '0.0480'
+                                unit_price_10000: '0.0480'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Accu displayed prices are rounded; derived totals
+                                    use the captured display precision
+                                - Final Accu price tier has no captured upper boundary;
+                                    final advertised unit price extended by user policy
+                            dibolt:
+                                accepted_warnings: '["Dibolt per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-13T17:13:52.419523+00:00'
+                                currency: GBP
+                                html_sha256: 02296ae73c4d2a19272377afeed8cf4070566f3909bc3eaa6d273c1cf4788470
+                                name: "M8 Hexagon Serrated Flange Nut Plain (Self\
+                                    \ Colour), Grade 8 \u2013 DIN 6923"
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:02:35.926119+00:00'
+                                parser_version: dibolt-1.3-missing-price-review
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept the precision
+                                    of rounded displayed per-100 prices."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: 'Thread Size: M8 (8mm); Flange Diameter
+                                    (D): 17.9mm; Nut Thickness (Min) (H): 4.5mm; Overall
+                                    Thickness (L): 8mm; Material: High Tensile (Grade
+                                    8); Finish: Self Colour; Screw Thread Pitch: 1.25mm;
+                                    Socket Size (J): 13mm; Manufacturing Standard:
+                                    DIN 6923; Material Specification: High Tensile
+                                    (Grade 8); Metric or Imperial?: Metric'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: dibolt
+                                supplier_id: 51011.080.000
+                                supplier_part_number: 51011.080.000
+                                supplier_website: https://dibolt.co.uk/products/m6-hexagon-serrated-flange-nut-plain-self-colour-grade-8-din-6923
+                                tiers:
+                                -   maximum: 499
+                                    minimum: 1
+                                    source_text: "1 - 499 \xA35.57 Per 100 Units"
+                                    source_unit_price: '0.0557'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.066840'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 2499
+                                    minimum: 500
+                                    source_text: "500 - 2,499 \xA35.29 Per 100 Units"
+                                    source_unit_price: '0.0529'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.063480'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 2500
+                                    source_text: "2,500+ \xA35.01 Per 100 Units"
+                                    source_unit_price: '0.0501'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.060120'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.066840'
+                                total_price_10: '0.668400'
+                                total_price_100: '6.684000'
+                                total_price_1000: '63.480000'
+                                total_price_10000: '601.200000'
+                                unit_price_1: '0.066840'
+                                unit_price_10: '0.066840'
+                                unit_price_100: '0.066840'
+                                unit_price_1000: '0.063480'
+                                unit_price_10000: '0.060120'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Dibolt per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
+                            kayfast:
+                                accepted_warnings: '["Kayfast per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-14T12:33:07.456461+00:00'
+                                currency: GBP
+                                family_description: Flanged nuts with serrated face.
+                                    Serrations displace metal to create a locking
+                                    action. Manufactured from zinc plated steel.
+                                family_heading: METRIC SERRATED FLANGE NUTS ZINC PLATED
+                                html_sha256: e81d294f279938f8053f176b59bd42d889109f8285fd6640b2759458c49c53bb
+                                name: M8 HEXAGON SERRATED FLANGE NUT ZINC PLATED STEEL
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:29:58.671713+00:00'
+                                parser_version: kayfast-1.6-family-description
+                                price_breaks_description: M8 HEXAGON SERRATED FLANGE
+                                    NUT ZINC PLATED STEEL
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-17", "statement": "Use the exact row
+                                    dropdown price per 100 divided by 100 with Decimal
+                                    precision; accept the captured per-100 display
+                                    precision."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "Kayfast
+                                    prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+                                specifications: METRIC SERRATED FLANGE NUTS ZINC PLATED;
+                                    Flanged nuts with serrated face. Serrations displace
+                                    metal to create a locking action. Manufactured
+                                    from zinc plated steel.
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: kayfast
+                                supplier_id: M8-HEXAGON-SERRATED-FLANGE-NUT-ZINC-PLATED-STEEL
+                                supplier_id_basis: exact dimensional row description;
+                                    spaces replaced by hyphens (user clarification
+                                    2026-10-11)
+                                supplier_part_number: M8-HEXAGON-SERRATED-FLANGE-NUT-ZINC-PLATED-STEEL
+                                supplier_website: https://www.kayfast.co.uk/view-product/METRIC-SERRATED-FLANGE-NUTS-ZINC-PLATED
+                                tiers:
+                                -   maximum: 499
+                                    minimum: 1
+                                    source_price_per_100: '5.15'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 1 - 499 @ \xA35.15 per 100"
+                                    source_unit_price: '0.0515'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.061800'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 1999
+                                    minimum: 500
+                                    source_price_per_100: '4.30'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 500 -  1999 @ \xA34.30 per 100"
+                                    source_unit_price: '0.043'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.05160'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 2000
+                                    source_price_per_100: '3.89'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 2000 + @ \xA33.89 per 100"
+                                    source_unit_price: '0.0389'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.046680'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.061800'
+                                total_price_10: '0.618000'
+                                total_price_100: '6.180000'
+                                total_price_1000: '51.60000'
+                                total_price_10000: '466.800000'
+                                unit_price_1: '0.061800'
+                                unit_price_10: '0.061800'
+                                unit_price_100: '0.061800'
+                                unit_price_1000: '0.05160'
+                                unit_price_10000: '0.046680'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Kayfast per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
+                            orbitalfasteners:
+                                accepted_warnings: '[]'
+                                box_quantity: '200'
+                                captured_at: '2026-10-12T19:56:07.797358+00:00'
+                                catalogue_page: '29'
+                                currency: GBP
+                                description: ''
+                                html_sha256: 1cce9b15d86d42a52e6a7319d27a8c158f8875f2f6f042b4a45bed7141ddb1c2
+                                name: M8 Hexagon Serrated Flange Nut Bright Zinc Plated,
+                                    Class 6 DIN 6923
+                                parsed_at: '2026-10-18T08:49:28.244506+00:00'
+                                parser_version: 1.2-review-policy
+                                review_policy: ''
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: inclusive
+                                status: ok
+                                stock_as_of: 9th October 2026 10:03pm
+                                stock_quantity: '66953'
+                                supplier: orbitalfasteners
+                                supplier_id: '2841030'
+                                supplier_part_number: '2841030'
+                                supplier_website: https://www.orbitalfasteners.co.uk/products/m8-hexagon-serrated-flange-nut-bright-zinc-plated
+                                tiers:
+                                -   maximum: 199
+                                    minimum: 1
+                                    source_text: "1 - 199 \xA30.031 Inc. VAT \xA3\
+                                        3.10 Inc. VAT"
+                                    source_unit_price: '0.031'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.031'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 999
+                                    minimum: 200
+                                    source_text: "200 - 999 \xA30.0258 Inc. VAT \xA3\
+                                        2.58 Inc. VAT"
+                                    source_unit_price: '0.0258'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0258'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 2399
+                                    minimum: 1000
+                                    source_text: "1000 - 2399 \xA30.0233 Inc. VAT\
+                                        \ \xA32.33 Inc. VAT"
+                                    source_unit_price: '0.0233'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0233'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 2400
+                                    source_text: "2400 + \xA30.0206 Inc. VAT \xA3\
+                                        2.06 Inc. VAT"
+                                    source_unit_price: '0.0206'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0206'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.031'
+                                total_price_10: '0.310'
+                                total_price_100: '3.100'
+                                total_price_1000: '23.3000'
+                                total_price_10000: '206.0000'
+                                unit_price_1: '0.031'
+                                unit_price_10: '0.031'
+                                unit_price_100: '0.031'
+                                unit_price_1000: '0.0233'
+                                unit_price_10000: '0.0206'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings: []
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: nut
+                        taxonomy_3: m8
+                        taxonomy_4: flanged
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        three_d_model_details:
+                            checked_on: '2026-10-11'
+                            coordinate_system:
+                                axis: +Z along bore
+                                glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                                glb_units: metres
+                                glb_up_axis: Y
+                                origin: lower face centre
+                                stl_units: mm
+                            dimension_status: standard_dimensions
+                            dimensional_specification: DIN 6923 (supplier sheet; edition
+                                not stated)
+                            generator: din_6923_flange_nut
+                            length_status: not_applicable
+                            material:
+                                base_colour_srgb:
+                                - 0.62
+                                - 0.65
+                                - 0.69
+                                coat_roughness: 0.28
+                                coat_weight: 0.02
+                                metallic: 1.0
+                                microtexture_height_um: 0.8
+                                microtexture_spacing_mm: 0.025
+                                name: Satin steel
+                                note: Visual finish approximation; catalogue specifies
+                                    colour only.
+                                roughness: 0.26
+                                roughness_variation: 0.045
+                            model_formats:
+                            - stl
+                            - glb
+                            modelling_choices:
+                                bearing: Bolt bearing circle and c selected within
+                                    limits; k includes bearing thickness; fillet tangent
+                                    to shaft and bearing.
+                                cavity: Nut through-bore has a helical internal surface;
+                                    display keeps minor-diameter bore and mouth chamfers.
+                                certification: Nominal visual catalogue model, not
+                                    manufacturing tolerance certification.
+                                chamfer: 30 degree outer hex chamfer. Nut mouth included
+                                    angle 120 degrees. Bolt tip 45 degrees, P/2.
+                                components: One closed solid for supported products.
+                                    Unspecified lock/cage assemblies are not substituted
+                                    with plain hex nuts.
+                                dimension_selection: Nominal bolt head height, max
+                                    flats/nut height, nominal washer sizes; selected
+                                    dimensions stored in parameters.
+                                display: Smooth nominal external-thread envelope or
+                                    smooth minor-diameter internal bore; lower angular
+                                    and fillet tessellation.
+                                family_note: Plain flange selected; catalogue does
+                                    not specify serrations. M3/M4 are outside DIN
+                                    scope. Small edge blends and flange transition
+                                    are visual choices.
+                                markings: Supplier and property-class markings omitted
+                                    because catalogue does not identify them.
+                                runout: External one-pitch fade to plain shank; full
+                                    thread ends at underhead fillet.
+                                thread: Nominal ISO basic metric profile, no ISO 965
+                                    tolerance offsets. External rounded root H/6,
+                                    internal P/4 crest and P/8 root flats.
+                                unspecified_geometry: Nut mouth for supplier rows
+                                    without limits and flange M3/M4 thickness/rim
+                                    blends are explicit visual model selections.
+                            output_folder: three_d_model
+                            parameters:
+                                across_flats_mm: 13
+                                characteristic_dimension_basis: hexagon across flats
+                                characteristic_dimension_mm: 13
+                                expected_components: 1
+                                external_minor_diameter_mm: 6.466413347465057
+                                family: nut
+                                finish: satin
+                                flange_diameter_mm: 17.9
+                                flange_edge_round_mm: 0.3
+                                flange_thickness_mm: 1.2
+                                handedness: right
+                                height_convention: total axial nut height
+                                height_mm: 8
+                                hole_chamfer_mm: 0.4988781754730549
+                                hole_chamfer_slope: 1.7320508075688767
+                                identity: hardware_nut_m8_flanged
+                                internal_minor_diameter_mm: 6.646835306586815
+                                mouth_diameter_mm: 8.375
+                                nominal_diameter_mm: 8.0
+                                outer_chamfer_angle_degrees: 30.0
+                                overall_height_mm: 8
+                                pitch_mm: 1.25
+                                specification: DIN 6923 (supplier sheet; edition not
+                                    stated)
+                                thread_flank_angle_degrees: 60.0
+                                thread_pitch_diameter_mm: 7.188101183952089
+                                thread_starts: 1
+                            renders:
+                                high:
+                                    file: render_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: isometric
+                                low:
+                                    file: render_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: isometric
+                                product_high:
+                                    file: render_product_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: product
+                                product_low:
+                                    file: render_product_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: product
+                            schema_version: 1
+                            source_table: source_file/standards/catalogue_hardware.yaml
+                            sources:
+                            -   title: Westfield plain hex flange nuts DIN 6923, includes
+                                    M3/M4 supplier extensions
+                                url: https://www.westfieldfasteners.co.uk/Standards/Nut-HexFlgPln-M.pdf
+                            -   title: ISO 68-1:1998 basic ISO metric thread profile
+                                url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                            standard: DIN 6923 (supplier sheet; edition not stated)
+                            standard_lengths_mm: []
+                            standard_limits:
+                                across_corners_min_mm: 14.38
+                                across_flats_mm:
+                                - 12.73
+                                - 13
+                                height_mm:
+                                - 7.6
+                                - 8
+                                mouth_diameter_mm:
+                                - 8
+                                - 8.75
+                            studio:
+                                adaptive_threshold: 0.015
+                                denoise: true
+                                device: auto
+                                engine: cycles
+                                exposure: 0.0
+                                floor_colour_srgb:
+                                - 0.93
+                                - 0.935
+                                - 0.94
+                                floor_roughness: 0.55
+                                framing_margin: 0.13
+                                high_samples: 160
+                                lights:
+                                -   colour:
+                                    - 1.0
+                                    - 0.96
+                                    - 0.9
+                                    height: 5.0
+                                    name: Key softbox
+                                    position:
+                                    - -3
+                                    - -4
+                                    - 6
+                                    power: 650.0
+                                    width: 4.0
+                                -   colour:
+                                    - 0.9
+                                    - 0.95
+                                    - 1.0
+                                    height: 4.0
+                                    name: Fill softbox
+                                    position:
+                                    - 4
+                                    - -1
+                                    - 3
+                                    power: 330.0
+                                    width: 3.0
+                                -   colour:
+                                    - 1.0
+                                    - 1.0
+                                    - 1.0
+                                    height: 5.0
+                                    name: Rim strip
+                                    position:
+                                    - 1
+                                    - 4
+                                    - 4
+                                    power: 850.0
+                                    width: 1.2
+                                look: AgX - Medium High Contrast
+                                low_samples: 48
+                                poses:
+                                    isometric:
+                                        camera_eye:
+                                        - 1
+                                        - -1
+                                        - 1
+                                        orientation: principal axis Z up
+                                        projection: orthographic
+                                    product:
+                                        camera_eye:
+                                        - -6
+                                        - -10
+                                        - 6
+                                        orientation: resting on lower face, bore visible
+                                        projection: orthographic
+                                        resting_axis: face
+                                        support: Stable convex-hull support using
+                                            actual mesh centre of mass.
+                                        yaw_degrees: -12.0
+                                seed: 7991
+                                view_transform: AgX
+                                world_colour:
+                                - 0.78
+                                - 0.82
+                                - 0.9
+                                world_strength: 0.35
+                            units: mm
+                            variants:
+                                display:
+                                    angular_segments: 24
+                                    fillet_segments: 3
+                                    samples_per_pitch: 1
+                                full:
+                                    angular_segments: 96
+                                    fillet_segments: 12
+                                    samples_per_pitch: 32
+                            views:
+                            - isometric
+                            - front
+                            - back
+                            - left
+                            - right
+                            - top
+                            - bottom
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M8 flanged nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M8+flanged+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M8 flanged nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+flanged+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T09:22:02.042691+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m8_flanged/google/4a81961be2eb4228beb0643a8a5f2021.yaml
+                    evidence_url: https://www.google.com/search?q=M8+serrated+flange+nut+carbon+steel+DIN+6923+BZP
+                    material_evidence: 'Product specification states Material: Class
+                        8 Steel BZP.'
+                    product_name: M8 Serrated Hex Flange Nut (DIN 6923) | Class 8
+                        BZP Steel
+                    reason: "Vital Parts\u2019 selected M8 serrated hex flange nut\
+                        \ is Class 8 steel BZP and provides the matching DIN 6923\
+                        \ dimensions."
+                    result_url: https://www.vital-parts.co.uk/serrated-flanged-hex-nuts-din-6923/46532-sfn6923-m8-c8-bzp
+                    search_evidence: "The refined Google query returned Vital Parts\u2019\
+                        \ M8 Serrated Hex Flange Nut product. The selected page identifies\
+                        \ code SFN6923-M8-C8-BZP, thread size M8, 1.25 mm pitch, Class\
+                        \ 8 steel BZP, 13 mm across flats, 17.9 mm flange diameter,\
+                        \ 8.0 mm height and DIN 6923."
+                    search_for: M8 serrated flange nut carbon steel DIN 6923 BZP
+                    search_url: https://www.google.com/search?q=M8+serrated+flange+nut+carbon+steel+DIN+6923+BZP
+                    selected_variant: M8 fixed product; code SFN6923-M8-C8-BZP
+                    specification: M8; thread pitch 1.25 mm; serrated hex flange nut;
+                        13.0 mm across flats; 17.9 mm flange diameter; 8.0 mm height;
+                        Class 8 steel BZP; DIN 6923.
+                    status: verified
+            supplier_data:
+                accu:
+                    accepted_warnings: '["Accu displayed prices are rounded; derived
+                        totals use the captured display precision", "Final Accu price
+                        tier has no captured upper boundary; final advertised unit
+                        price extended by user policy"]'
+                    box_quantity: ''
+                    captured_at: '2026-10-13T13:52:32.400886+00:00'
+                    currency: GBP
+                    description: "Often simply referred to as a Washer Nut or a Flange\
+                        \ Nut, Metric Flanged Hexagon Nuts are used in place of a\
+                        \ regular Hexagon Nut and a Flat Washer. The flange of this\
+                        \ nut is essentially an integrated washer, which helps with\
+                        \ load distribution and can negate the need for using a separate\
+                        \ washer. This makes Washer Nuts ideal for applications where\
+                        \ space is limited. Metric Serrated Flange Nuts are also available\
+                        \ from Accu, which feature a flange with a serrated underside,\
+                        \ designed to bite into the mating surface to provide additional\
+                        \ grip and resistance to vibrations. Materials Accu\u2019\
+                        s Stainless Steel Flange Nuts are manufactured in both A2\
+                        \ and A4 Stainless Steel, in either a natural or Matte Black\
+                        \ finish. Plastic Flange Nuts in this range are available\
+                        \ in natural finish (White) Nylon and Polyamide. M5, M6 and\
+                        \ M8 Flange Nuts are also available in Zinc Plated 8.8 Hardened\
+                        \ Steel. Metric Flanged Hex Nuts Metric Flange Nuts are available\
+                        \ from Accu in thread sizes M3 up to M32, with Flange Diameters\
+                        \ ranging from 7mm to 27mm. Imperial Flanged Hex Nuts For\
+                        \ imperial sizes, please see Accu\u2019s Imperial Serrated\
+                        \ Flange Nut range."
+                    html_sha256: ddc57783c386e976c7887d373043a45b9b433a4e18803e829d696c59238b74b5
+                    name: M8 Flanged Hexagon Nuts (DIN 6923) - Zinc Plated Mild Steel
+                        (Class 6)
+                    parsed_at: '2026-10-18T08:52:07.972937+00:00'
+                    parser_version: accu-1.9-base-material
+                    price_inheritance: "{\"1000\": {\"source_quantity\": 200, \"source_unit_price\"\
+                        : \"0.04\", \"source_text\": \"Buy 200 \xA30.04 Save 94 %\"\
+                        , \"basis\": \"user policy 2026-10-13\"}, \"10000\": {\"source_quantity\"\
+                        : 200, \"source_unit_price\": \"0.04\", \"source_text\": \"\
+                        Buy 200 \xA30.04 Save 94 %\", \"basis\": \"user policy 2026-10-13\"\
+                        }}"
+                    quote_minimum: ''
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept rounded displayed prices,
+                        open-ended final advertised tiers, and quotes required from
+                        400 units; quote-only prices remain blank."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.03",
+                        "highPrice": "0.77", "priceCurrency": "GBP", "offerCount":
+                        "10", "availability": "https://schema.org/InStock", "itemCondition":
+                        "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/metric-flanged-hexagon-nuts/850042-HFFN-M8-C6-Z",
+                        "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                        {"@type": "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "accus prices are all ex
+                        vat", "confirmed_on": "2026-10-13"}'
+                    specifications: '{"Accu Product Code (APC)": "HFFN-M8-C6-Z", "Thread
+                        Size": "M8 (8 mm)", "Socket Size (J)": "13 mm (Tolerance:
+                        +0/-0.27 mm)", "Overall Thickness (L)": "9.4 mm (Tolerance:
+                        +0/-1.8 mm)", "Material": "Steel - (Class 6)", "Finish": "Zinc
+                        Plated", "Flange Diameter (D)": "17.9 mm", "Flange Thickness
+                        (Min) (FL)": "1.2 mm", "Manufacturing Standard": "DIN 6923",
+                        "Material Family": "Steel", "Minimum Wrenching Height": "4.5
+                        mm", "System of Measurement": "Metric", "Thread Pitch": "1.25
+                        mm"}'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: https://schema.org/InStock
+                    supplier: accu
+                    supplier_id: HFFN-M8-C6-Z
+                    supplier_part_number: HFFN-M8-C6-Z
+                    supplier_website: https://www.accu.co.uk/metric-flanged-hexagon-nuts/850042-HFFN-M8-C6-Z
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: "Buy 1 \xA30.77"
+                        source_unit_price: '0.77'
+                        source_vat_basis: exclusive
+                        unit_price: '0.9240'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 3
+                        minimum: 2
+                        source_text: "Buy 2 \xA30.42 Save 45 %"
+                        source_unit_price: '0.42'
+                        source_vat_basis: exclusive
+                        unit_price: '0.5040'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5
+                        minimum: 4
+                        source_text: "Buy 4 \xA30.25 Save 67 %"
+                        source_unit_price: '0.25'
+                        source_vat_basis: exclusive
+                        unit_price: '0.3000'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 11
+                        minimum: 6
+                        source_text: "Buy 6 \xA30.17 Save 77 %"
+                        source_unit_price: '0.17'
+                        source_vat_basis: exclusive
+                        unit_price: '0.2040'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 23
+                        minimum: 12
+                        source_text: "Buy 12 \xA30.11 Save 85 %"
+                        source_unit_price: '0.11'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1320'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 24
+                        source_text: "Buy 24 \xA30.08 Save 89 %"
+                        source_unit_price: '0.08'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0960'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: "Buy 50 \xA30.06 Save 92 %"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 199
+                        minimum: 100
+                        source_text: "Buy 100 \xA30.05 Save 93 %"
+                        source_unit_price: '0.05'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0600'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        maximum_basis: user-approved open-ended final tier; no captured
+                            upper boundary
+                        minimum: 200
+                        source_text: "Buy 200 \xA30.04 Save 94 %"
+                        source_unit_price: '0.04'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0480'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.9240'
+                    total_price_10: '2.0400'
+                    total_price_100: '6.0000'
+                    total_price_1000: '48.0000'
+                    total_price_10000: '480.0000'
+                    unit_price_1: '0.9240'
+                    unit_price_10: '0.2040'
+                    unit_price_100: '0.0600'
+                    unit_price_1000: '0.0480'
+                    unit_price_10000: '0.0480'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Accu displayed prices are rounded; derived totals use the captured
+                        display precision
+                    - Final Accu price tier has no captured upper boundary; final
+                        advertised unit price extended by user policy
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-13T17:13:52.419523+00:00'
+                    currency: GBP
+                    html_sha256: 02296ae73c4d2a19272377afeed8cf4070566f3909bc3eaa6d273c1cf4788470
+                    name: "M8 Hexagon Serrated Flange Nut Plain (Self Colour), Grade\
+                        \ 8 \u2013 DIN 6923"
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:02:35.926119+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M8 (8mm); Flange Diameter (D): 17.9mm;
+                        Nut Thickness (Min) (H): 4.5mm; Overall Thickness (L): 8mm;
+                        Material: High Tensile (Grade 8); Finish: Self Colour; Screw
+                        Thread Pitch: 1.25mm; Socket Size (J): 13mm; Manufacturing
+                        Standard: DIN 6923; Material Specification: High Tensile (Grade
+                        8); Metric or Imperial?: Metric'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 51011.080.000
+                    supplier_part_number: 51011.080.000
+                    supplier_website: https://dibolt.co.uk/products/m6-hexagon-serrated-flange-nut-plain-self-colour-grade-8-din-6923
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA35.57 Per 100 Units"
+                        source_unit_price: '0.0557'
+                        source_vat_basis: exclusive
+                        unit_price: '0.066840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2,499 \xA35.29 Per 100 Units"
+                        source_unit_price: '0.0529'
+                        source_vat_basis: exclusive
+                        unit_price: '0.063480'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2500
+                        source_text: "2,500+ \xA35.01 Per 100 Units"
+                        source_unit_price: '0.0501'
+                        source_vat_basis: exclusive
+                        unit_price: '0.060120'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.066840'
+                    total_price_10: '0.668400'
+                    total_price_100: '6.684000'
+                    total_price_1000: '63.480000'
+                    total_price_10000: '601.200000'
+                    unit_price_1: '0.066840'
+                    unit_price_10: '0.066840'
+                    unit_price_100: '0.066840'
+                    unit_price_1000: '0.063480'
+                    unit_price_10000: '0.060120'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T12:33:07.456461+00:00'
+                    currency: GBP
+                    family_description: Flanged nuts with serrated face. Serrations
+                        displace metal to create a locking action. Manufactured from
+                        zinc plated steel.
+                    family_heading: METRIC SERRATED FLANGE NUTS ZINC PLATED
+                    html_sha256: e81d294f279938f8053f176b59bd42d889109f8285fd6640b2759458c49c53bb
+                    name: M8 HEXAGON SERRATED FLANGE NUT ZINC PLATED STEEL
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:29:58.671713+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M8 HEXAGON SERRATED FLANGE NUT ZINC
+                        PLATED STEEL
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: METRIC SERRATED FLANGE NUTS ZINC PLATED; Flanged
+                        nuts with serrated face. Serrations displace metal to create
+                        a locking action. Manufactured from zinc plated steel.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M8-HEXAGON-SERRATED-FLANGE-NUT-ZINC-PLATED-STEEL
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M8-HEXAGON-SERRATED-FLANGE-NUT-ZINC-PLATED-STEEL
+                    supplier_website: https://www.kayfast.co.uk/view-product/METRIC-SERRATED-FLANGE-NUTS-ZINC-PLATED
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_price_per_100: '5.15'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 499 @ \xA35.15 per 100"
+                        source_unit_price: '0.0515'
+                        source_vat_basis: exclusive
+                        unit_price: '0.061800'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 1999
+                        minimum: 500
+                        source_price_per_100: '4.30'
+                        source_price_quantity: 100
+                        source_text: "QTY 500 -  1999 @ \xA34.30 per 100"
+                        source_unit_price: '0.043'
+                        source_vat_basis: exclusive
+                        unit_price: '0.05160'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2000
+                        source_price_per_100: '3.89'
+                        source_price_quantity: 100
+                        source_text: "QTY 2000 + @ \xA33.89 per 100"
+                        source_unit_price: '0.0389'
+                        source_vat_basis: exclusive
+                        unit_price: '0.046680'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.061800'
+                    total_price_10: '0.618000'
+                    total_price_100: '6.180000'
+                    total_price_1000: '51.60000'
+                    total_price_10000: '466.800000'
+                    unit_price_1: '0.061800'
+                    unit_price_10: '0.061800'
+                    unit_price_100: '0.061800'
+                    unit_price_1000: '0.05160'
+                    unit_price_10000: '0.046680'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '200'
+                    captured_at: '2026-10-12T19:56:07.797358+00:00'
+                    catalogue_page: '29'
+                    currency: GBP
+                    description: ''
+                    html_sha256: 1cce9b15d86d42a52e6a7319d27a8c158f8875f2f6f042b4a45bed7141ddb1c2
+                    name: M8 Hexagon Serrated Flange Nut Bright Zinc Plated, Class
+                        6 DIN 6923
+                    parsed_at: '2026-10-18T08:49:28.244506+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:03pm
+                    stock_quantity: '66953'
+                    supplier: orbitalfasteners
+                    supplier_id: '2841030'
+                    supplier_part_number: '2841030'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m8-hexagon-serrated-flange-nut-bright-zinc-plated
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_text: "1 - 199 \xA30.031 Inc. VAT \xA33.10 Inc. VAT"
+                        source_unit_price: '0.031'
+                        source_vat_basis: inclusive
+                        unit_price: '0.031'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_text: "200 - 999 \xA30.0258 Inc. VAT \xA32.58 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0258'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0258'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2399
+                        minimum: 1000
+                        source_text: "1000 - 2399 \xA30.0233 Inc. VAT \xA32.33 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0233'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0233'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2400
+                        source_text: "2400 + \xA30.0206 Inc. VAT \xA32.06 Inc. VAT"
+                        source_unit_price: '0.0206'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0206'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.031'
+                    total_price_10: '0.310'
+                    total_price_100: '3.100'
+                    total_price_1000: '23.3000'
+                    total_price_10000: '206.0000'
+                    unit_price_1: '0.031'
+                    unit_price_10: '0.031'
+                    unit_price_100: '0.031'
+                    unit_price_1000: '0.0233'
+                    unit_price_10000: '0.0206'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: nut
+            taxonomy_3: m8
+            taxonomy_4: flanged
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: standard_dimensions
+                dimensional_specification: DIN 6923 (supplier sheet; edition not stated)
+                generator: din_6923_flange_nut
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Plain flange selected; catalogue does not specify
+                        serrations. M3/M4 are outside DIN scope. Small edge blends
+                        and flange transition are visual choices.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 13
+                    characteristic_dimension_basis: hexagon across flats
+                    characteristic_dimension_mm: 13
+                    expected_components: 1
+                    external_minor_diameter_mm: 6.466413347465057
+                    family: nut
+                    finish: satin
+                    flange_diameter_mm: 17.9
+                    flange_edge_round_mm: 0.3
+                    flange_thickness_mm: 1.2
+                    handedness: right
+                    height_convention: total axial nut height
+                    height_mm: 8
+                    hole_chamfer_mm: 0.4988781754730549
+                    hole_chamfer_slope: 1.7320508075688767
+                    identity: hardware_nut_m8_flanged
+                    internal_minor_diameter_mm: 6.646835306586815
+                    mouth_diameter_mm: 8.375
+                    nominal_diameter_mm: 8.0
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 8
+                    pitch_mm: 1.25
+                    specification: DIN 6923 (supplier sheet; edition not stated)
+                    thread_flank_angle_degrees: 60.0
+                    thread_pitch_diameter_mm: 7.188101183952089
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: Westfield plain hex flange nuts DIN 6923, includes M3/M4
+                        supplier extensions
+                    url: https://www.westfieldfasteners.co.uk/Standards/Nut-HexFlgPln-M.pdf
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: DIN 6923 (supplier sheet; edition not stated)
+                standard_lengths_mm: []
+                standard_limits:
+                    across_corners_min_mm: 14.38
+                    across_flats_mm:
+                    - 12.73
+                    - 13
+                    height_mm:
+                    - 7.6
+                    - 8
+                    mouth_diameter_mm:
+                    - 8
+                    - 8.75
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_bolt_image.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        description: label_drawer
+        dict_data:
+            label_drawer: *id001
+        file_output: label_drawer.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
+oomp_key: oomp_hardware_nut_m8_flanged
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M8 flanged nut steel
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M8+flanged+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M8 flanged nut steel
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+flanged+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T09:22:02.042691+00:00'
+        evidence_file: support_files/evidence/hardware_nut_m8_flanged/google/4a81961be2eb4228beb0643a8a5f2021.yaml
+        evidence_url: https://www.google.com/search?q=M8+serrated+flange+nut+carbon+steel+DIN+6923+BZP
+        material_evidence: 'Product specification states Material: Class 8 Steel BZP.'
+        product_name: M8 Serrated Hex Flange Nut (DIN 6923) | Class 8 BZP Steel
+        reason: "Vital Parts\u2019 selected M8 serrated hex flange nut is Class 8\
+            \ steel BZP and provides the matching DIN 6923 dimensions."
+        result_url: https://www.vital-parts.co.uk/serrated-flanged-hex-nuts-din-6923/46532-sfn6923-m8-c8-bzp
+        search_evidence: "The refined Google query returned Vital Parts\u2019 M8 Serrated\
+            \ Hex Flange Nut product. The selected page identifies code SFN6923-M8-C8-BZP,\
+            \ thread size M8, 1.25 mm pitch, Class 8 steel BZP, 13 mm across flats,\
+            \ 17.9 mm flange diameter, 8.0 mm height and DIN 6923."
+        search_for: M8 serrated flange nut carbon steel DIN 6923 BZP
+        search_url: https://www.google.com/search?q=M8+serrated+flange+nut+carbon+steel+DIN+6923+BZP
+        selected_variant: M8 fixed product; code SFN6923-M8-C8-BZP
+        specification: M8; thread pitch 1.25 mm; serrated hex flange nut; 13.0 mm
+            across flats; 17.9 mm flange diameter; 8.0 mm height; Class 8 steel BZP;
+            DIN 6923.
+        status: verified
+supplier_data:
+    accu:
+        accepted_warnings: '["Accu displayed prices are rounded; derived totals use
+            the captured display precision", "Final Accu price tier has no captured
+            upper boundary; final advertised unit price extended by user policy"]'
+        box_quantity: ''
+        captured_at: '2026-10-13T13:52:32.400886+00:00'
+        currency: GBP
+        description: "Often simply referred to as a Washer Nut or a Flange Nut, Metric\
+            \ Flanged Hexagon Nuts are used in place of a regular Hexagon Nut and\
+            \ a Flat Washer. The flange of this nut is essentially an integrated washer,\
+            \ which helps with load distribution and can negate the need for using\
+            \ a separate washer. This makes Washer Nuts ideal for applications where\
+            \ space is limited. Metric Serrated Flange Nuts are also available from\
+            \ Accu, which feature a flange with a serrated underside, designed to\
+            \ bite into the mating surface to provide additional grip and resistance\
+            \ to vibrations. Materials Accu\u2019s Stainless Steel Flange Nuts are\
+            \ manufactured in both A2 and A4 Stainless Steel, in either a natural\
+            \ or Matte Black finish. Plastic Flange Nuts in this range are available\
+            \ in natural finish (White) Nylon and Polyamide. M5, M6 and M8 Flange\
+            \ Nuts are also available in Zinc Plated 8.8 Hardened Steel. Metric Flanged\
+            \ Hex Nuts Metric Flange Nuts are available from Accu in thread sizes\
+            \ M3 up to M32, with Flange Diameters ranging from 7mm to 27mm. Imperial\
+            \ Flanged Hex Nuts For imperial sizes, please see Accu\u2019s Imperial\
+            \ Serrated Flange Nut range."
+        html_sha256: ddc57783c386e976c7887d373043a45b9b433a4e18803e829d696c59238b74b5
+        name: M8 Flanged Hexagon Nuts (DIN 6923) - Zinc Plated Mild Steel (Class 6)
+        parsed_at: '2026-10-18T08:52:07.972937+00:00'
+        parser_version: accu-1.9-base-material
+        price_inheritance: "{\"1000\": {\"source_quantity\": 200, \"source_unit_price\"\
+            : \"0.04\", \"source_text\": \"Buy 200 \xA30.04 Save 94 %\", \"basis\"\
+            : \"user policy 2026-10-13\"}, \"10000\": {\"source_quantity\": 200, \"\
+            source_unit_price\": \"0.04\", \"source_text\": \"Buy 200 \xA30.04 Save\
+            \ 94 %\", \"basis\": \"user policy 2026-10-13\"}}"
+        quote_minimum: ''
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept rounded displayed prices, open-ended final advertised
+            tiers, and quotes required from 400 units; quote-only prices remain blank."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.03", "highPrice":
+            "0.77", "priceCurrency": "GBP", "offerCount": "10", "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/metric-flanged-hexagon-nuts/850042-HFFN-M8-C6-Z",
+            "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type":
+            "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "accus prices are all ex vat", "confirmed_on": "2026-10-13"}'
+        specifications: '{"Accu Product Code (APC)": "HFFN-M8-C6-Z", "Thread Size":
+            "M8 (8 mm)", "Socket Size (J)": "13 mm (Tolerance: +0/-0.27 mm)", "Overall
+            Thickness (L)": "9.4 mm (Tolerance: +0/-1.8 mm)", "Material": "Steel -
+            (Class 6)", "Finish": "Zinc Plated", "Flange Diameter (D)": "17.9 mm",
+            "Flange Thickness (Min) (FL)": "1.2 mm", "Manufacturing Standard": "DIN
+            6923", "Material Family": "Steel", "Minimum Wrenching Height": "4.5 mm",
+            "System of Measurement": "Metric", "Thread Pitch": "1.25 mm"}'
+        status: ok
+        stock_quantity: ''
+        stock_status: https://schema.org/InStock
+        supplier: accu
+        supplier_id: HFFN-M8-C6-Z
+        supplier_part_number: HFFN-M8-C6-Z
+        supplier_website: https://www.accu.co.uk/metric-flanged-hexagon-nuts/850042-HFFN-M8-C6-Z
+        tiers:
+        -   maximum: 1
+            minimum: 1
+            source_text: "Buy 1 \xA30.77"
+            source_unit_price: '0.77'
+            source_vat_basis: exclusive
+            unit_price: '0.9240'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 3
+            minimum: 2
+            source_text: "Buy 2 \xA30.42 Save 45 %"
+            source_unit_price: '0.42'
+            source_vat_basis: exclusive
+            unit_price: '0.5040'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 5
+            minimum: 4
+            source_text: "Buy 4 \xA30.25 Save 67 %"
+            source_unit_price: '0.25'
+            source_vat_basis: exclusive
+            unit_price: '0.3000'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 11
+            minimum: 6
+            source_text: "Buy 6 \xA30.17 Save 77 %"
+            source_unit_price: '0.17'
+            source_vat_basis: exclusive
+            unit_price: '0.2040'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 23
+            minimum: 12
+            source_text: "Buy 12 \xA30.11 Save 85 %"
+            source_unit_price: '0.11'
+            source_vat_basis: exclusive
+            unit_price: '0.1320'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 49
+            minimum: 24
+            source_text: "Buy 24 \xA30.08 Save 89 %"
+            source_unit_price: '0.08'
+            source_vat_basis: exclusive
+            unit_price: '0.0960'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 99
+            minimum: 50
+            source_text: "Buy 50 \xA30.06 Save 92 %"
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 199
+            minimum: 100
+            source_text: "Buy 100 \xA30.05 Save 93 %"
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            maximum_basis: user-approved open-ended final tier; no captured upper
+                boundary
+            minimum: 200
+            source_text: "Buy 200 \xA30.04 Save 94 %"
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.9240'
+        total_price_10: '2.0400'
+        total_price_100: '6.0000'
+        total_price_1000: '48.0000'
+        total_price_10000: '480.0000'
+        unit_price_1: '0.9240'
+        unit_price_10: '0.2040'
+        unit_price_100: '0.0600'
+        unit_price_1000: '0.0480'
+        unit_price_10000: '0.0480'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Accu displayed prices are rounded; derived totals use the captured display
+            precision
+        - Final Accu price tier has no captured upper boundary; final advertised unit
+            price extended by user policy
+    dibolt:
+        accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-13T17:13:52.419523+00:00'
+        currency: GBP
+        html_sha256: 02296ae73c4d2a19272377afeed8cf4070566f3909bc3eaa6d273c1cf4788470
+        name: "M8 Hexagon Serrated Flange Nut Plain (Self Colour), Grade 8 \u2013\
+            \ DIN 6923"
+        packages: '[]'
+        parsed_at: '2026-10-18T09:02:35.926119+00:00'
+        parser_version: dibolt-1.3-missing-price-review
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept the precision of rounded displayed per-100 prices."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: 'Thread Size: M8 (8mm); Flange Diameter (D): 17.9mm; Nut Thickness
+            (Min) (H): 4.5mm; Overall Thickness (L): 8mm; Material: High Tensile (Grade
+            8); Finish: Self Colour; Screw Thread Pitch: 1.25mm; Socket Size (J):
+            13mm; Manufacturing Standard: DIN 6923; Material Specification: High Tensile
+            (Grade 8); Metric or Imperial?: Metric'
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: dibolt
+        supplier_id: 51011.080.000
+        supplier_part_number: 51011.080.000
+        supplier_website: https://dibolt.co.uk/products/m6-hexagon-serrated-flange-nut-plain-self-colour-grade-8-din-6923
+        tiers:
+        -   maximum: 499
+            minimum: 1
+            source_text: "1 - 499 \xA35.57 Per 100 Units"
+            source_unit_price: '0.0557'
+            source_vat_basis: exclusive
+            unit_price: '0.066840'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 2499
+            minimum: 500
+            source_text: "500 - 2,499 \xA35.29 Per 100 Units"
+            source_unit_price: '0.0529'
+            source_vat_basis: exclusive
+            unit_price: '0.063480'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 2500
+            source_text: "2,500+ \xA35.01 Per 100 Units"
+            source_unit_price: '0.0501'
+            source_vat_basis: exclusive
+            unit_price: '0.060120'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.066840'
+        total_price_10: '0.668400'
+        total_price_100: '6.684000'
+        total_price_1000: '63.480000'
+        total_price_10000: '601.200000'
+        unit_price_1: '0.066840'
+        unit_price_10: '0.066840'
+        unit_price_100: '0.066840'
+        unit_price_1000: '0.063480'
+        unit_price_10000: '0.060120'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Dibolt per-100 displayed prices are rounded; derived totals use captured
+            display precision
+    kayfast:
+        accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-14T12:33:07.456461+00:00'
+        currency: GBP
+        family_description: Flanged nuts with serrated face. Serrations displace metal
+            to create a locking action. Manufactured from zinc plated steel.
+        family_heading: METRIC SERRATED FLANGE NUTS ZINC PLATED
+        html_sha256: e81d294f279938f8053f176b59bd42d889109f8285fd6640b2759458c49c53bb
+        name: M8 HEXAGON SERRATED FLANGE NUT ZINC PLATED STEEL
+        packages: '[]'
+        parsed_at: '2026-10-18T09:29:58.671713+00:00'
+        parser_version: kayfast-1.6-family-description
+        price_breaks_description: M8 HEXAGON SERRATED FLANGE NUT ZINC PLATED STEEL
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+            "statement": "Use the exact row dropdown price per 100 divided by 100
+            with Decimal precision; accept the captured per-100 display precision."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+        specifications: METRIC SERRATED FLANGE NUTS ZINC PLATED; Flanged nuts with
+            serrated face. Serrations displace metal to create a locking action. Manufactured
+            from zinc plated steel.
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: kayfast
+        supplier_id: M8-HEXAGON-SERRATED-FLANGE-NUT-ZINC-PLATED-STEEL
+        supplier_id_basis: exact dimensional row description; spaces replaced by hyphens
+            (user clarification 2026-10-11)
+        supplier_part_number: M8-HEXAGON-SERRATED-FLANGE-NUT-ZINC-PLATED-STEEL
+        supplier_website: https://www.kayfast.co.uk/view-product/METRIC-SERRATED-FLANGE-NUTS-ZINC-PLATED
+        tiers:
+        -   maximum: 499
+            minimum: 1
+            source_price_per_100: '5.15'
+            source_price_quantity: 100
+            source_text: "QTY 1 - 499 @ \xA35.15 per 100"
+            source_unit_price: '0.0515'
+            source_vat_basis: exclusive
+            unit_price: '0.061800'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 1999
+            minimum: 500
+            source_price_per_100: '4.30'
+            source_price_quantity: 100
+            source_text: "QTY 500 -  1999 @ \xA34.30 per 100"
+            source_unit_price: '0.043'
+            source_vat_basis: exclusive
+            unit_price: '0.05160'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 2000
+            source_price_per_100: '3.89'
+            source_price_quantity: 100
+            source_text: "QTY 2000 + @ \xA33.89 per 100"
+            source_unit_price: '0.0389'
+            source_vat_basis: exclusive
+            unit_price: '0.046680'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.061800'
+        total_price_10: '0.618000'
+        total_price_100: '6.180000'
+        total_price_1000: '51.60000'
+        total_price_10000: '466.800000'
+        unit_price_1: '0.061800'
+        unit_price_10: '0.061800'
+        unit_price_100: '0.061800'
+        unit_price_1000: '0.05160'
+        unit_price_10000: '0.046680'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Kayfast per-100 displayed prices are rounded; derived totals use captured
+            display precision
+    orbitalfasteners:
+        accepted_warnings: '[]'
+        box_quantity: '200'
+        captured_at: '2026-10-12T19:56:07.797358+00:00'
+        catalogue_page: '29'
+        currency: GBP
+        description: ''
+        html_sha256: 1cce9b15d86d42a52e6a7319d27a8c158f8875f2f6f042b4a45bed7141ddb1c2
+        name: M8 Hexagon Serrated Flange Nut Bright Zinc Plated, Class 6 DIN 6923
+        parsed_at: '2026-10-18T08:49:28.244506+00:00'
+        parser_version: 1.2-review-policy
+        review_policy: ''
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: inclusive
+        status: ok
+        stock_as_of: 9th October 2026 10:03pm
+        stock_quantity: '66953'
+        supplier: orbitalfasteners
+        supplier_id: '2841030'
+        supplier_part_number: '2841030'
+        supplier_website: https://www.orbitalfasteners.co.uk/products/m8-hexagon-serrated-flange-nut-bright-zinc-plated
+        tiers:
+        -   maximum: 199
+            minimum: 1
+            source_text: "1 - 199 \xA30.031 Inc. VAT \xA33.10 Inc. VAT"
+            source_unit_price: '0.031'
+            source_vat_basis: inclusive
+            unit_price: '0.031'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 999
+            minimum: 200
+            source_text: "200 - 999 \xA30.0258 Inc. VAT \xA32.58 Inc. VAT"
+            source_unit_price: '0.0258'
+            source_vat_basis: inclusive
+            unit_price: '0.0258'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 2399
+            minimum: 1000
+            source_text: "1000 - 2399 \xA30.0233 Inc. VAT \xA32.33 Inc. VAT"
+            source_unit_price: '0.0233'
+            source_vat_basis: inclusive
+            unit_price: '0.0233'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 2400
+            source_text: "2400 + \xA30.0206 Inc. VAT \xA32.06 Inc. VAT"
+            source_unit_price: '0.0206'
+            source_vat_basis: inclusive
+            unit_price: '0.0206'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.031'
+        total_price_10: '0.310'
+        total_price_100: '3.100'
+        total_price_1000: '23.3000'
+        total_price_10000: '206.0000'
+        unit_price_1: '0.031'
+        unit_price_10: '0.031'
+        unit_price_100: '0.031'
+        unit_price_1000: '0.0233'
+        unit_price_10000: '0.0206'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings: []
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: nut
+taxonomy_2_capital: Nut
+taxonomy_2_first_letter: n
+taxonomy_2_first_letter_upper: N
+taxonomy_2_length_1: n
+taxonomy_2_length_2: nu
+taxonomy_2_length_3: nut
+taxonomy_2_length_4: nut
+taxonomy_2_length_5: nut
+taxonomy_2_upper: NUT
+taxonomy_2_upper_length_1: N
+taxonomy_2_upper_length_2: NU
+taxonomy_2_upper_length_3: NUT
+taxonomy_2_upper_length_4: NUT
+taxonomy_2_upper_length_5: NUT
+taxonomy_3: m8
+taxonomy_3_capital: M8
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m8
+taxonomy_3_length_3: m8
+taxonomy_3_length_4: m8
+taxonomy_3_length_5: m8
+taxonomy_3_upper: M8
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M8
+taxonomy_3_upper_length_3: M8
+taxonomy_3_upper_length_4: M8
+taxonomy_3_upper_length_5: M8
+taxonomy_4: flanged
+taxonomy_4_capital: Flanged
+taxonomy_4_first_letter: f
+taxonomy_4_first_letter_upper: F
+taxonomy_4_length_1: f
+taxonomy_4_length_2: fl
+taxonomy_4_length_3: fla
+taxonomy_4_length_4: flan
+taxonomy_4_length_5: flang
+taxonomy_4_upper: FLANGED
+taxonomy_4_upper_length_1: F
+taxonomy_4_upper_length_2: FL
+taxonomy_4_upper_length_3: FLA
+taxonomy_4_upper_length_4: FLAN
+taxonomy_4_upper_length_5: FLANG
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+    checked_on: '2026-10-11'
+    coordinate_system:
+        axis: +Z along bore
+        glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+        glb_units: metres
+        glb_up_axis: Y
+        origin: lower face centre
+        stl_units: mm
+    dimension_status: standard_dimensions
+    dimensional_specification: DIN 6923 (supplier sheet; edition not stated)
+    generator: din_6923_flange_nut
+    length_status: not_applicable
+    material:
+        base_colour_srgb:
+        - 0.62
+        - 0.65
+        - 0.69
+        coat_roughness: 0.28
+        coat_weight: 0.02
+        metallic: 1.0
+        microtexture_height_um: 0.8
+        microtexture_spacing_mm: 0.025
+        name: Satin steel
+        note: Visual finish approximation; catalogue specifies colour only.
+        roughness: 0.26
+        roughness_variation: 0.045
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+        bearing: Bolt bearing circle and c selected within limits; k includes bearing
+            thickness; fillet tangent to shaft and bearing.
+        cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
+            bore and mouth chamfers.
+        certification: Nominal visual catalogue model, not manufacturing tolerance
+            certification.
+        chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees.
+            Bolt tip 45 degrees, P/2.
+        components: One closed solid for supported products. Unspecified lock/cage
+            assemblies are not substituted with plain hex nuts.
+        dimension_selection: Nominal bolt head height, max flats/nut height, nominal
+            washer sizes; selected dimensions stored in parameters.
+        display: Smooth nominal external-thread envelope or smooth minor-diameter
+            internal bore; lower angular and fillet tessellation.
+        family_note: Plain flange selected; catalogue does not specify serrations.
+            M3/M4 are outside DIN scope. Small edge blends and flange transition are
+            visual choices.
+        markings: Supplier and property-class markings omitted because catalogue does
+            not identify them.
+        runout: External one-pitch fade to plain shank; full thread ends at underhead
+            fillet.
+        thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+            rounded root H/6, internal P/4 crest and P/8 root flats.
+        unspecified_geometry: Nut mouth for supplier rows without limits and flange
+            M3/M4 thickness/rim blends are explicit visual model selections.
+    output_folder: three_d_model
+    parameters:
+        across_flats_mm: 13
+        characteristic_dimension_basis: hexagon across flats
+        characteristic_dimension_mm: 13
+        expected_components: 1
+        external_minor_diameter_mm: 6.466413347465057
+        family: nut
+        finish: satin
+        flange_diameter_mm: 17.9
+        flange_edge_round_mm: 0.3
+        flange_thickness_mm: 1.2
+        handedness: right
+        height_convention: total axial nut height
+        height_mm: 8
+        hole_chamfer_mm: 0.4988781754730549
+        hole_chamfer_slope: 1.7320508075688767
+        identity: hardware_nut_m8_flanged
+        internal_minor_diameter_mm: 6.646835306586815
+        mouth_diameter_mm: 8.375
+        nominal_diameter_mm: 8.0
+        outer_chamfer_angle_degrees: 30.0
+        overall_height_mm: 8
+        pitch_mm: 1.25
+        specification: DIN 6923 (supplier sheet; edition not stated)
+        thread_flank_angle_degrees: 60.0
+        thread_pitch_diameter_mm: 7.188101183952089
+        thread_starts: 1
+    renders:
+        high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+        low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+        product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+        product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+    schema_version: 1
+    source_table: source_file/standards/catalogue_hardware.yaml
+    sources:
+    -   title: Westfield plain hex flange nuts DIN 6923, includes M3/M4 supplier extensions
+        url: https://www.westfieldfasteners.co.uk/Standards/Nut-HexFlgPln-M.pdf
+    -   title: ISO 68-1:1998 basic ISO metric thread profile
+        url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+    standard: DIN 6923 (supplier sheet; edition not stated)
+    standard_lengths_mm: []
+    standard_limits:
+        across_corners_min_mm: 14.38
+        across_flats_mm:
+        - 12.73
+        - 13
+        height_mm:
+        - 7.6
+        - 8
+        mouth_diameter_mm:
+        - 8
+        - 8.75
+    studio:
+        adaptive_threshold: 0.015
+        denoise: true
+        device: auto
+        engine: cycles
+        exposure: 0.0
+        floor_colour_srgb:
+        - 0.93
+        - 0.935
+        - 0.94
+        floor_roughness: 0.55
+        framing_margin: 0.13
+        high_samples: 160
+        lights:
+        -   colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+        -   colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+        -   colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+        look: AgX - Medium High Contrast
+        low_samples: 48
+        poses:
+            isometric:
+                camera_eye:
+                - 1
+                - -1
+                - 1
+                orientation: principal axis Z up
+                projection: orthographic
+            product:
+                camera_eye:
+                - -6
+                - -10
+                - 6
+                orientation: resting on lower face, bore visible
+                projection: orthographic
+                resting_axis: face
+                support: Stable convex-hull support using actual mesh centre of mass.
+                yaw_degrees: -12.0
+        seed: 7991
+        view_transform: AgX
+        world_colour:
+        - 0.78
+        - 0.82
+        - 0.9
+        world_strength: 0.35
+    units: mm
+    variants:
+        display:
+            angular_segments: 24
+            fillet_segments: 3
+            samples_per_pitch: 1
+        full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
+url_chat: ''
+```
+
+</details>
+
+## Parts
+
+[Full-detail 3D model (GLB)](three_d_model/model_full.glb) · [Full-detail view drawings](three_d_model/full/) · [Drawer label (SVG)](label_drawer.svg)
+
+Full-detail and simplified display models are alternatives for the same part. GLB uses metres; STL, where supplied, uses millimetres. The [part folder](./) contains all available files.
+
+## Assembly
+
+This page documents a component rather than a complete project assembly. No installation sequence or tightening torque is specified by this record.
+<!-- hardware-part:end -->

@@ -1,0 +1,2049 @@
+<!-- hardware-part:start -->
+# M4 flat washer
+
+## Summary
+
+A flat washer with its bore, outside diameter and thickness shown below.
+
+[Hardware catalogue](../../README.md) · [Browse this family](../../navigation_oobb/README.md#washers)
+
+| Isometric | Product view |
+| --- | --- |
+| [![Full-detail isometric render](three_d_model/readme_isometric.png)](three_d_model/render_high.png) | [![Full-detail product view render](three_d_model/readme_product.png)](three_d_model/render_product_high.png) |
+
+Full-detail catalogue renders. Click either image to open the original resolution.
+
+## Details
+
+**OOMP ID:** `hardware_washer_m4`
+
+**Short code:** `1958r` · **Three-word label:** cage bundle visa
+
+| Model dimension | mm |
+| --- | ---: |
+| Nominal size | 4 |
+| Height / thickness | 0.8 |
+| Outside diameter | 9 |
+| Hole diameter | 4.3 |
+
+Dimensions above are values used by the saved model recipe, in millimetres. **Model basis: standard dimensions.**
+
+<details>
+<summary>Model provenance and assumptions</summary>
+
+**Recorded dimensional reference:** DIN 125 A (supplier sheet; edition not stated)
+
+**Source checked:** 2026-10-11
+
+**Visual finish:** Satin steel
+
+**Finish assumption:** Visual finish approximation; catalogue specifies colour only.
+
+**Family notes:** Catalogue family mapped to the cited dimensional pattern; exact supplier unspecified.
+
+These are saved catalogue references and modelling choices, not a claim of manufacturing certification.
+
+- [Westfield DIN 125 A plain washer specification and tolerances](https://www.westfieldfasteners.co.uk/Standards/Washer-FormA-M.pdf)
+
+[Complete model recipe](three_d_model/parameters.json)
+
+</details>
+
+<details>
+<summary>Complete part metadata</summary>
+
+[Source working.yaml](working.yaml)
+
+```yaml
+bip_39_2_word_array:
+- cage
+- bundle
+bip_39_2_word_no_space: cagebundle
+bip_39_2_word_space: cage bundle
+bip_39_2_word_underscore: cage_bundle
+bip_39_3_word_array:
+- cage
+- bundle
+- visa
+bip_39_3_word_no_space: cagebundlevisa
+bip_39_3_word_space: cage bundle visa
+bip_39_3_word_underscore: cage_bundle_visa
+bip_39_full_array:
+- cage
+- bundle
+- visa
+- main
+- tilt
+- holiday
+- access
+- enemy
+- fog
+- erase
+- episode
+- poet
+bip_39_full_no_space: cagebundlevisamaintiltholidayaccessenemyfogeraseepisodepoet
+bip_39_full_space: cage bundle visa main tilt holiday access enemy fog erase episode
+    poet
+bip_39_full_underscore: cage_bundle_visa_main_tilt_holiday_access_enemy_fog_erase_episode_poet
+color_band_project_bolt_1: red
+color_band_project_bolt_1_string: ''
+color_band_project_bolt_2: green
+color_band_project_bolt_2_string: m4
+color_band_project_bolt_3: purple
+color_band_project_bolt_3_string: washer
+color_band_string_project_bolt: colour_band_purple_green_red
+color_band_string_project_bolt_string: colour_band_washer_m4_
+color_band_taxonomy_3: red
+color_band_taxonomy_6: purple
+color_band_taxonomy_7: green
+directory: parts/hardware_washer_m4
+generate_stl: true
+id: hardware_washer_m4
+id_no_class: hardware_washer_m4
+id_no_size: hardware_washer_m4
+id_no_type: hardware_washer_m4
+label_drawer: &id001
+    bip39: cage bundle visa
+    bip39_size: 2.35
+    code: WA
+    description: Washer / M4
+    detail_lines: []
+    detail_size: 2.05
+    detail_y: 21.1
+    diagram: <circle cx="10" cy="7" r="5.5"/><circle cx="10" cy="7" r="2.5"/>
+    drive_symbol: ''
+    length: ''
+    length_size: 7.8
+    length_x: 22.3603625
+    name: Washer
+    name_lines:
+    - Washer
+    name_size: 3.2
+    thread: M4
+    thread_size: 6.5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m4
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m4
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m4
+md5: 2023cbd2c32e20d980524f5a498d2fd3
+md5_10: 2023cbd2c3
+md5_10_upper: 2023CBD2C3
+md5_5: 2023c
+md5_5_upper: 2023C
+md5_6: 2023cb
+md5_6_alpha: 1958r
+md5_6_alpha_upper: 1958R
+md5_6_upper: 2023CB
+name: Hardware Washer M4
+name_no_class: Hardware Washer M4
+name_no_size: Hardware Washer M4
+name_no_type: Hardware Washer M4
+name_proper: Hardware Washer M4
+name_space: hardware washer m4
+name_upper: HARDWARE WASHER M4
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            color_band_project_bolt_1: red
+            color_band_project_bolt_1_string: ''
+            color_band_project_bolt_2: green
+            color_band_project_bolt_2_string: m4
+            color_band_project_bolt_3: purple
+            color_band_project_bolt_3_string: washer
+            color_band_string_project_bolt: colour_band_purple_green_red
+            color_band_string_project_bolt_string: colour_band_washer_m4_
+            color_band_taxonomy_3: red
+            color_band_taxonomy_6: purple
+            color_band_taxonomy_7: green
+            directory: parts\hardware_washer_m4
+            name: hardware_washer_m4
+            name_proper: Hardware Washer M4
+            name_space: hardware washer m4
+            name_upper: HARDWARE WASHER M4
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M4 steel flat washer DIN 125
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M4+steel+flat+washer+DIN+125
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M4 steel flat washer DIN 125
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+steel+flat+washer+DIN+125
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T11:34:28.472529+00:00'
+                    evidence_file: support_files/evidence/hardware_washer_m4/google/5f5c116cabcc422facd8f6f95e99bd2d.yaml
+                    evidence_url: https://www.google.com/search?q=M4+steel+flat+washer+DIN+125
+                    material_evidence: Mild steel
+                    product_name: M4 MILD STEEL FORM A FLAT WASHER BRIGHT ZINC PLATED
+                        DIN 125 - 1A (4.3X9X0.8MM)
+                    reason: The exact Google query led to Orbital Fasteners' M4 mild-steel
+                        Form A flat washer. The page heading and product information
+                        state M4, Form A, mild steel, bright zinc plated, DIN 125-1A,
+                        and 4.3 x 9.0 x 0.8 mm ID x OD x thickness.
+                    result_url: https://www.orbitalfasteners.co.uk/products/m4-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-4-3x9x0-8mm-
+                    search_evidence: "Google result for Orbital Fasteners was titled\
+                        \ \u2018M4 Mild Steel Form A Flat Washer Bright Zinc Plated\
+                        \ DIN 125 - 1A (4.3x9x0.8mm)\u2019. Opened the page; selected\
+                        \ item SKU 1711010 and dimensions/material/finish/standard\
+                        \ matched. Stainless results were not used."
+                    search_for: M4 steel flat washer DIN 125
+                    search_url: https://www.google.com/search?q=M4+steel+flat+washer+DIN+125
+                    selected_variant: 'Single product: M4 Form A, 4.3 x 9.0 x 0.8mm'
+                    specification: 'Thread size: M4; Form: A flat washer; Internal
+                        diameter: 4.3mm; External diameter: 9.0mm; Thickness: 0.8mm;
+                        Material: Mild steel; Finish: Bright zinc plated; Standard:
+                        DIN 125-1A'
+                    status: verified
+            supplier_data:
+                aanddfasteners:
+                    accepted_warnings: '["Source quantity band starts at zero; normalized
+                        minimum to one item"]'
+                    captured_at: '2026-10-13T07:54:42.261433+00:00'
+                    currency: GBP
+                    html_sha256: 4f6303c41b834585cc7f458e14ba7a523bec76e2926d23facd1379163a5f73b0
+                    name: M4 Form A Flat Washer, Steel Zinc plated, Din 125
+                    packages: '[]'
+                    parsed_at: '2026-10-18T08:57:33.532351+00:00'
+                    parser_version: aanddfasteners-1.2-review-policy
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept zero-to-one quantity normalization
+                        and low-stock notices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: Product information A metric Form A washer also
+                        known as a flat washer in steel with a bright zinc plating.
+                        Manufactured to Din 125A. A flat washer's main task is to
+                        spread the load across a wider area, which comes in particularly
+                        useful when dealing with softer materials.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: aanddfasteners
+                    supplier_id: ST12504AZP
+                    supplier_part_number: ST12504AZP
+                    supplier_website: https://www.aanddfasteners.co.uk/shop/washers/flat-washers/metric-flat-washer-din-125-form-a/metric-flat-washer-din-125-form-a-steel-zinc-plated/m4-form-a-flat-washer-steel-zinc-plated-din-125/details
+                    tiers:
+                    -   maximum: 25
+                        minimum: 1
+                        source_text: "0 - 25 \xA3 0.10"
+                        source_unit_price: '0.10'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 50
+                        minimum: 26
+                        source_text: "26 -50 \xA3 0.06"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 51
+                        source_text: "51+ \xA3 0.05"
+                        source_unit_price: '0.05'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0600'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.1200'
+                    total_price_10: '1.2000'
+                    total_price_100: '6.0000'
+                    total_price_1000: '60.0000'
+                    total_price_10000: '600.0000'
+                    unit_price_1: '0.1200'
+                    unit_price_10: '0.1200'
+                    unit_price_100: '0.0600'
+                    unit_price_1000: '0.0600'
+                    unit_price_10000: '0.0600'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Source quantity band starts at zero; normalized minimum to one
+                        item
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-18T09:25:01.612854+00:00'
+                    currency: GBP
+                    family_description: Form A washers. Self colour steel (uncoated).
+                        DIN125A.
+                    family_heading: FORM A FLAT WASHER DIN 125 SELF COLOUR
+                    html_sha256: 1322ecb0ba95dbb9cb777abb77f8ad311e5b0521be84a9fa04f2648c2f5ba3ae
+                    name: M4 FORM A FLAT WASHER DIN 125 SELF COLOUR STEEL
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:31:25.980145+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M4 FORM A FLAT WASHER DIN 125 SELF COLOUR
+                        STEEL
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: FORM A FLAT WASHER DIN 125 SELF COLOUR; Form A
+                        washers. Self colour steel (uncoated). DIN125A.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M4-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M4-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+                    supplier_website: https://www.kayfast.co.uk/view-product/FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR
+                    tiers:
+                    -   maximum: 999
+                        minimum: 1
+                        source_price_per_100: '0.53'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 999 @ \xA30.53 per 100"
+                        source_unit_price: '0.0053'
+                        source_vat_basis: exclusive
+                        unit_price: '0.006360'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_price_per_100: '0.34'
+                        source_price_quantity: 100
+                        source_text: "QTY 1000 -  4999 @ \xA30.34 per 100"
+                        source_unit_price: '0.0034'
+                        source_vat_basis: exclusive
+                        unit_price: '0.004080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 5000
+                        source_price_per_100: '0.29'
+                        source_price_quantity: 100
+                        source_text: "QTY 5000 + @ \xA30.29 per 100"
+                        source_unit_price: '0.0029'
+                        source_vat_basis: exclusive
+                        unit_price: '0.003480'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.006360'
+                    total_price_10: '0.063600'
+                    total_price_100: '0.636000'
+                    total_price_1000: '4.080000'
+                    total_price_10000: '34.800000'
+                    unit_price_1: '0.006360'
+                    unit_price_10: '0.006360'
+                    unit_price_100: '0.006360'
+                    unit_price_1000: '0.004080'
+                    unit_price_10000: '0.003480'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: washer
+            taxonomy_3: m4
+            taxonomy_4: ''
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: standard_dimensions
+                dimensional_specification: DIN 125 A (supplier sheet; edition not
+                    stated)
+                generator: din_125_a_washer
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Catalogue family mapped to the cited dimensional
+                        pattern; exact supplier unspecified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    characteristic_dimension_basis: outer washer diameter
+                    characteristic_dimension_mm: 9
+                    expected_components: 1
+                    family: washer
+                    finish: satin
+                    handedness: right
+                    height_convention: axial thickness
+                    height_mm: 0.8
+                    hole_diameter_mm: 4.3
+                    identity: hardware_washer_m4
+                    nominal_diameter_mm: 4.0
+                    outer_diameter_mm: 9
+                    overall_height_mm: 0.8
+                    specification: DIN 125 A (supplier sheet; edition not stated)
+                    thread_flank_angle_degrees: 60.0
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: Westfield DIN 125 A plain washer specification and tolerances
+                    url: https://www.westfieldfasteners.co.uk/Standards/Washer-FormA-M.pdf
+                standard: DIN 125 A (supplier sheet; edition not stated)
+                standard_lengths_mm: []
+                standard_limits:
+                    height_mm:
+                    - 0.7
+                    - 0.9
+                    hole_diameter_mm:
+                    - 4.3
+                    - 4.48
+                    outer_diameter_mm:
+                    - 8.64
+                    - 9
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            color_band_project_bolt_1: red
+            color_band_project_bolt_1_string: ''
+            color_band_project_bolt_2: green
+            color_band_project_bolt_2_string: m4
+            color_band_project_bolt_3: purple
+            color_band_project_bolt_3_string: washer
+            color_band_string_project_bolt: colour_band_purple_green_red
+            color_band_string_project_bolt_string: colour_band_washer_m4_
+            color_band_taxonomy_3: red
+            color_band_taxonomy_6: purple
+            color_band_taxonomy_7: green
+            directory: parts\hardware_washer_m4
+            name: hardware_washer_m4
+            name_proper: Hardware Washer M4
+            name_space: hardware washer m4
+            name_upper: HARDWARE WASHER M4
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        color_band_project_bolt_1: red
+                        color_band_project_bolt_1_string: ''
+                        color_band_project_bolt_2: green
+                        color_band_project_bolt_2_string: m4
+                        color_band_project_bolt_3: purple
+                        color_band_project_bolt_3_string: washer
+                        color_band_string_project_bolt: colour_band_purple_green_red
+                        color_band_string_project_bolt_string: colour_band_washer_m4_
+                        color_band_taxonomy_3: red
+                        color_band_taxonomy_6: purple
+                        color_band_taxonomy_7: green
+                        directory: parts\hardware_washer_m4
+                        name: hardware_washer_m4
+                        name_proper: Hardware Washer M4
+                        name_space: hardware washer m4
+                        name_upper: HARDWARE WASHER M4
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M4 steel flat washer DIN 125
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M4+steel+flat+washer+DIN+125
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M4 steel flat washer DIN 125
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+steel+flat+washer+DIN+125
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T11:34:28.472529+00:00'
+                                evidence_file: support_files/evidence/hardware_washer_m4/google/5f5c116cabcc422facd8f6f95e99bd2d.yaml
+                                evidence_url: https://www.google.com/search?q=M4+steel+flat+washer+DIN+125
+                                material_evidence: Mild steel
+                                product_name: M4 MILD STEEL FORM A FLAT WASHER BRIGHT
+                                    ZINC PLATED DIN 125 - 1A (4.3X9X0.8MM)
+                                reason: The exact Google query led to Orbital Fasteners'
+                                    M4 mild-steel Form A flat washer. The page heading
+                                    and product information state M4, Form A, mild
+                                    steel, bright zinc plated, DIN 125-1A, and 4.3
+                                    x 9.0 x 0.8 mm ID x OD x thickness.
+                                result_url: https://www.orbitalfasteners.co.uk/products/m4-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-4-3x9x0-8mm-
+                                search_evidence: "Google result for Orbital Fasteners\
+                                    \ was titled \u2018M4 Mild Steel Form A Flat Washer\
+                                    \ Bright Zinc Plated DIN 125 - 1A (4.3x9x0.8mm)\u2019\
+                                    . Opened the page; selected item SKU 1711010 and\
+                                    \ dimensions/material/finish/standard matched.\
+                                    \ Stainless results were not used."
+                                search_for: M4 steel flat washer DIN 125
+                                search_url: https://www.google.com/search?q=M4+steel+flat+washer+DIN+125
+                                selected_variant: 'Single product: M4 Form A, 4.3
+                                    x 9.0 x 0.8mm'
+                                specification: 'Thread size: M4; Form: A flat washer;
+                                    Internal diameter: 4.3mm; External diameter: 9.0mm;
+                                    Thickness: 0.8mm; Material: Mild steel; Finish:
+                                    Bright zinc plated; Standard: DIN 125-1A'
+                                status: verified
+                        supplier_data:
+                            aanddfasteners:
+                                accepted_warnings: '["Source quantity band starts
+                                    at zero; normalized minimum to one item"]'
+                                captured_at: '2026-10-13T07:54:42.261433+00:00'
+                                currency: GBP
+                                html_sha256: 4f6303c41b834585cc7f458e14ba7a523bec76e2926d23facd1379163a5f73b0
+                                name: M4 Form A Flat Washer, Steel Zinc plated, Din
+                                    125
+                                packages: '[]'
+                                parsed_at: '2026-10-18T08:57:33.532351+00:00'
+                                parser_version: aanddfasteners-1.2-review-policy
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept zero-to-one
+                                    quantity normalization and low-stock notices."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: Product information A metric Form
+                                    A washer also known as a flat washer in steel
+                                    with a bright zinc plating. Manufactured to Din
+                                    125A. A flat washer's main task is to spread the
+                                    load across a wider area, which comes in particularly
+                                    useful when dealing with softer materials.
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: aanddfasteners
+                                supplier_id: ST12504AZP
+                                supplier_part_number: ST12504AZP
+                                supplier_website: https://www.aanddfasteners.co.uk/shop/washers/flat-washers/metric-flat-washer-din-125-form-a/metric-flat-washer-din-125-form-a-steel-zinc-plated/m4-form-a-flat-washer-steel-zinc-plated-din-125/details
+                                tiers:
+                                -   maximum: 25
+                                    minimum: 1
+                                    source_text: "0 - 25 \xA3 0.10"
+                                    source_unit_price: '0.10'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1200'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 50
+                                    minimum: 26
+                                    source_text: "26 -50 \xA3 0.06"
+                                    source_unit_price: '0.06'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0720'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 51
+                                    source_text: "51+ \xA3 0.05"
+                                    source_unit_price: '0.05'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0600'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.1200'
+                                total_price_10: '1.2000'
+                                total_price_100: '6.0000'
+                                total_price_1000: '60.0000'
+                                total_price_10000: '600.0000'
+                                unit_price_1: '0.1200'
+                                unit_price_10: '0.1200'
+                                unit_price_100: '0.0600'
+                                unit_price_1000: '0.0600'
+                                unit_price_10000: '0.0600'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Source quantity band starts at zero; normalized
+                                    minimum to one item
+                            kayfast:
+                                accepted_warnings: '["Kayfast per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-18T09:25:01.612854+00:00'
+                                currency: GBP
+                                family_description: Form A washers. Self colour steel
+                                    (uncoated). DIN125A.
+                                family_heading: FORM A FLAT WASHER DIN 125 SELF COLOUR
+                                html_sha256: 1322ecb0ba95dbb9cb777abb77f8ad311e5b0521be84a9fa04f2648c2f5ba3ae
+                                name: M4 FORM A FLAT WASHER DIN 125 SELF COLOUR STEEL
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:31:25.980145+00:00'
+                                parser_version: kayfast-1.6-family-description
+                                price_breaks_description: M4 FORM A FLAT WASHER DIN
+                                    125 SELF COLOUR STEEL
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-17", "statement": "Use the exact row
+                                    dropdown price per 100 divided by 100 with Decimal
+                                    precision; accept the captured per-100 display
+                                    precision."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "Kayfast
+                                    prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+                                specifications: FORM A FLAT WASHER DIN 125 SELF COLOUR;
+                                    Form A washers. Self colour steel (uncoated).
+                                    DIN125A.
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: kayfast
+                                supplier_id: M4-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+                                supplier_id_basis: exact dimensional row description;
+                                    spaces replaced by hyphens (user clarification
+                                    2026-10-11)
+                                supplier_part_number: M4-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+                                supplier_website: https://www.kayfast.co.uk/view-product/FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR
+                                tiers:
+                                -   maximum: 999
+                                    minimum: 1
+                                    source_price_per_100: '0.53'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 1 - 999 @ \xA30.53 per 100"
+                                    source_unit_price: '0.0053'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.006360'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 4999
+                                    minimum: 1000
+                                    source_price_per_100: '0.34'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 1000 -  4999 @ \xA30.34 per\
+                                        \ 100"
+                                    source_unit_price: '0.0034'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.004080'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 5000
+                                    source_price_per_100: '0.29'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 5000 + @ \xA30.29 per 100"
+                                    source_unit_price: '0.0029'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.003480'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.006360'
+                                total_price_10: '0.063600'
+                                total_price_100: '0.636000'
+                                total_price_1000: '4.080000'
+                                total_price_10000: '34.800000'
+                                unit_price_1: '0.006360'
+                                unit_price_10: '0.006360'
+                                unit_price_100: '0.006360'
+                                unit_price_1000: '0.004080'
+                                unit_price_10000: '0.003480'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Kayfast per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: washer
+                        taxonomy_3: m4
+                        taxonomy_4: ''
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        three_d_model_details:
+                            checked_on: '2026-10-11'
+                            coordinate_system:
+                                axis: +Z along bore
+                                glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                                glb_units: metres
+                                glb_up_axis: Y
+                                origin: lower face centre
+                                stl_units: mm
+                            dimension_status: standard_dimensions
+                            dimensional_specification: DIN 125 A (supplier sheet;
+                                edition not stated)
+                            generator: din_125_a_washer
+                            length_status: not_applicable
+                            material:
+                                base_colour_srgb:
+                                - 0.62
+                                - 0.65
+                                - 0.69
+                                coat_roughness: 0.28
+                                coat_weight: 0.02
+                                metallic: 1.0
+                                microtexture_height_um: 0.8
+                                microtexture_spacing_mm: 0.025
+                                name: Satin steel
+                                note: Visual finish approximation; catalogue specifies
+                                    colour only.
+                                roughness: 0.26
+                                roughness_variation: 0.045
+                            model_formats:
+                            - stl
+                            - glb
+                            modelling_choices:
+                                bearing: Bolt bearing circle and c selected within
+                                    limits; k includes bearing thickness; fillet tangent
+                                    to shaft and bearing.
+                                cavity: Nut through-bore has a helical internal surface;
+                                    display keeps minor-diameter bore and mouth chamfers.
+                                certification: Nominal visual catalogue model, not
+                                    manufacturing tolerance certification.
+                                chamfer: 30 degree outer hex chamfer. Nut mouth included
+                                    angle 120 degrees. Bolt tip 45 degrees, P/2.
+                                components: One closed solid for supported products.
+                                    Unspecified lock/cage assemblies are not substituted
+                                    with plain hex nuts.
+                                dimension_selection: Nominal bolt head height, max
+                                    flats/nut height, nominal washer sizes; selected
+                                    dimensions stored in parameters.
+                                display: Smooth nominal external-thread envelope or
+                                    smooth minor-diameter internal bore; lower angular
+                                    and fillet tessellation.
+                                family_note: Catalogue family mapped to the cited
+                                    dimensional pattern; exact supplier unspecified.
+                                markings: Supplier and property-class markings omitted
+                                    because catalogue does not identify them.
+                                runout: External one-pitch fade to plain shank; full
+                                    thread ends at underhead fillet.
+                                thread: Nominal ISO basic metric profile, no ISO 965
+                                    tolerance offsets. External rounded root H/6,
+                                    internal P/4 crest and P/8 root flats.
+                                unspecified_geometry: Nut mouth for supplier rows
+                                    without limits and flange M3/M4 thickness/rim
+                                    blends are explicit visual model selections.
+                            output_folder: three_d_model
+                            parameters:
+                                characteristic_dimension_basis: outer washer diameter
+                                characteristic_dimension_mm: 9
+                                expected_components: 1
+                                family: washer
+                                finish: satin
+                                handedness: right
+                                height_convention: axial thickness
+                                height_mm: 0.8
+                                hole_diameter_mm: 4.3
+                                identity: hardware_washer_m4
+                                nominal_diameter_mm: 4.0
+                                outer_diameter_mm: 9
+                                overall_height_mm: 0.8
+                                specification: DIN 125 A (supplier sheet; edition
+                                    not stated)
+                                thread_flank_angle_degrees: 60.0
+                                thread_starts: 1
+                            renders:
+                                high:
+                                    file: render_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: isometric
+                                low:
+                                    file: render_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: isometric
+                                product_high:
+                                    file: render_product_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: product
+                                product_low:
+                                    file: render_product_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: product
+                            schema_version: 1
+                            source_table: source_file/standards/catalogue_hardware.yaml
+                            sources:
+                            -   title: Westfield DIN 125 A plain washer specification
+                                    and tolerances
+                                url: https://www.westfieldfasteners.co.uk/Standards/Washer-FormA-M.pdf
+                            standard: DIN 125 A (supplier sheet; edition not stated)
+                            standard_lengths_mm: []
+                            standard_limits:
+                                height_mm:
+                                - 0.7
+                                - 0.9
+                                hole_diameter_mm:
+                                - 4.3
+                                - 4.48
+                                outer_diameter_mm:
+                                - 8.64
+                                - 9
+                            studio:
+                                adaptive_threshold: 0.015
+                                denoise: true
+                                device: auto
+                                engine: cycles
+                                exposure: 0.0
+                                floor_colour_srgb:
+                                - 0.93
+                                - 0.935
+                                - 0.94
+                                floor_roughness: 0.55
+                                framing_margin: 0.13
+                                high_samples: 160
+                                lights:
+                                -   colour:
+                                    - 1.0
+                                    - 0.96
+                                    - 0.9
+                                    height: 5.0
+                                    name: Key softbox
+                                    position:
+                                    - -3
+                                    - -4
+                                    - 6
+                                    power: 650.0
+                                    width: 4.0
+                                -   colour:
+                                    - 0.9
+                                    - 0.95
+                                    - 1.0
+                                    height: 4.0
+                                    name: Fill softbox
+                                    position:
+                                    - 4
+                                    - -1
+                                    - 3
+                                    power: 330.0
+                                    width: 3.0
+                                -   colour:
+                                    - 1.0
+                                    - 1.0
+                                    - 1.0
+                                    height: 5.0
+                                    name: Rim strip
+                                    position:
+                                    - 1
+                                    - 4
+                                    - 4
+                                    power: 850.0
+                                    width: 1.2
+                                look: AgX - Medium High Contrast
+                                low_samples: 48
+                                poses:
+                                    isometric:
+                                        camera_eye:
+                                        - 1
+                                        - -1
+                                        - 1
+                                        orientation: principal axis Z up
+                                        projection: orthographic
+                                    product:
+                                        camera_eye:
+                                        - -6
+                                        - -10
+                                        - 6
+                                        orientation: resting on lower face, bore visible
+                                        projection: orthographic
+                                        resting_axis: face
+                                        support: Stable convex-hull support using
+                                            actual mesh centre of mass.
+                                        yaw_degrees: -12.0
+                                seed: 7991
+                                view_transform: AgX
+                                world_colour:
+                                - 0.78
+                                - 0.82
+                                - 0.9
+                                world_strength: 0.35
+                            units: mm
+                            variants:
+                                display:
+                                    angular_segments: 24
+                                    fillet_segments: 3
+                                    samples_per_pitch: 1
+                                full:
+                                    angular_segments: 96
+                                    fillet_segments: 12
+                                    samples_per_pitch: 32
+                            views:
+                            - isometric
+                            - front
+                            - back
+                            - left
+                            - right
+                            - top
+                            - bottom
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M4 steel flat washer DIN 125
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M4+steel+flat+washer+DIN+125
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M4 steel flat washer DIN 125
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+steel+flat+washer+DIN+125
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T11:34:28.472529+00:00'
+                    evidence_file: support_files/evidence/hardware_washer_m4/google/5f5c116cabcc422facd8f6f95e99bd2d.yaml
+                    evidence_url: https://www.google.com/search?q=M4+steel+flat+washer+DIN+125
+                    material_evidence: Mild steel
+                    product_name: M4 MILD STEEL FORM A FLAT WASHER BRIGHT ZINC PLATED
+                        DIN 125 - 1A (4.3X9X0.8MM)
+                    reason: The exact Google query led to Orbital Fasteners' M4 mild-steel
+                        Form A flat washer. The page heading and product information
+                        state M4, Form A, mild steel, bright zinc plated, DIN 125-1A,
+                        and 4.3 x 9.0 x 0.8 mm ID x OD x thickness.
+                    result_url: https://www.orbitalfasteners.co.uk/products/m4-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-4-3x9x0-8mm-
+                    search_evidence: "Google result for Orbital Fasteners was titled\
+                        \ \u2018M4 Mild Steel Form A Flat Washer Bright Zinc Plated\
+                        \ DIN 125 - 1A (4.3x9x0.8mm)\u2019. Opened the page; selected\
+                        \ item SKU 1711010 and dimensions/material/finish/standard\
+                        \ matched. Stainless results were not used."
+                    search_for: M4 steel flat washer DIN 125
+                    search_url: https://www.google.com/search?q=M4+steel+flat+washer+DIN+125
+                    selected_variant: 'Single product: M4 Form A, 4.3 x 9.0 x 0.8mm'
+                    specification: 'Thread size: M4; Form: A flat washer; Internal
+                        diameter: 4.3mm; External diameter: 9.0mm; Thickness: 0.8mm;
+                        Material: Mild steel; Finish: Bright zinc plated; Standard:
+                        DIN 125-1A'
+                    status: verified
+            supplier_data:
+                aanddfasteners:
+                    accepted_warnings: '["Source quantity band starts at zero; normalized
+                        minimum to one item"]'
+                    captured_at: '2026-10-13T07:54:42.261433+00:00'
+                    currency: GBP
+                    html_sha256: 4f6303c41b834585cc7f458e14ba7a523bec76e2926d23facd1379163a5f73b0
+                    name: M4 Form A Flat Washer, Steel Zinc plated, Din 125
+                    packages: '[]'
+                    parsed_at: '2026-10-18T08:57:33.532351+00:00'
+                    parser_version: aanddfasteners-1.2-review-policy
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept zero-to-one quantity normalization
+                        and low-stock notices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: Product information A metric Form A washer also
+                        known as a flat washer in steel with a bright zinc plating.
+                        Manufactured to Din 125A. A flat washer's main task is to
+                        spread the load across a wider area, which comes in particularly
+                        useful when dealing with softer materials.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: aanddfasteners
+                    supplier_id: ST12504AZP
+                    supplier_part_number: ST12504AZP
+                    supplier_website: https://www.aanddfasteners.co.uk/shop/washers/flat-washers/metric-flat-washer-din-125-form-a/metric-flat-washer-din-125-form-a-steel-zinc-plated/m4-form-a-flat-washer-steel-zinc-plated-din-125/details
+                    tiers:
+                    -   maximum: 25
+                        minimum: 1
+                        source_text: "0 - 25 \xA3 0.10"
+                        source_unit_price: '0.10'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 50
+                        minimum: 26
+                        source_text: "26 -50 \xA3 0.06"
+                        source_unit_price: '0.06'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0720'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 51
+                        source_text: "51+ \xA3 0.05"
+                        source_unit_price: '0.05'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0600'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.1200'
+                    total_price_10: '1.2000'
+                    total_price_100: '6.0000'
+                    total_price_1000: '60.0000'
+                    total_price_10000: '600.0000'
+                    unit_price_1: '0.1200'
+                    unit_price_10: '0.1200'
+                    unit_price_100: '0.0600'
+                    unit_price_1000: '0.0600'
+                    unit_price_10000: '0.0600'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Source quantity band starts at zero; normalized minimum to one
+                        item
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-18T09:25:01.612854+00:00'
+                    currency: GBP
+                    family_description: Form A washers. Self colour steel (uncoated).
+                        DIN125A.
+                    family_heading: FORM A FLAT WASHER DIN 125 SELF COLOUR
+                    html_sha256: 1322ecb0ba95dbb9cb777abb77f8ad311e5b0521be84a9fa04f2648c2f5ba3ae
+                    name: M4 FORM A FLAT WASHER DIN 125 SELF COLOUR STEEL
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:31:25.980145+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M4 FORM A FLAT WASHER DIN 125 SELF COLOUR
+                        STEEL
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: FORM A FLAT WASHER DIN 125 SELF COLOUR; Form A
+                        washers. Self colour steel (uncoated). DIN125A.
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M4-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M4-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+                    supplier_website: https://www.kayfast.co.uk/view-product/FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR
+                    tiers:
+                    -   maximum: 999
+                        minimum: 1
+                        source_price_per_100: '0.53'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 999 @ \xA30.53 per 100"
+                        source_unit_price: '0.0053'
+                        source_vat_basis: exclusive
+                        unit_price: '0.006360'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 4999
+                        minimum: 1000
+                        source_price_per_100: '0.34'
+                        source_price_quantity: 100
+                        source_text: "QTY 1000 -  4999 @ \xA30.34 per 100"
+                        source_unit_price: '0.0034'
+                        source_vat_basis: exclusive
+                        unit_price: '0.004080'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 5000
+                        source_price_per_100: '0.29'
+                        source_price_quantity: 100
+                        source_text: "QTY 5000 + @ \xA30.29 per 100"
+                        source_unit_price: '0.0029'
+                        source_vat_basis: exclusive
+                        unit_price: '0.003480'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.006360'
+                    total_price_10: '0.063600'
+                    total_price_100: '0.636000'
+                    total_price_1000: '4.080000'
+                    total_price_10000: '34.800000'
+                    unit_price_1: '0.006360'
+                    unit_price_10: '0.006360'
+                    unit_price_100: '0.006360'
+                    unit_price_1000: '0.004080'
+                    unit_price_10000: '0.003480'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: washer
+            taxonomy_3: m4
+            taxonomy_4: ''
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: standard_dimensions
+                dimensional_specification: DIN 125 A (supplier sheet; edition not
+                    stated)
+                generator: din_125_a_washer
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Catalogue family mapped to the cited dimensional
+                        pattern; exact supplier unspecified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    characteristic_dimension_basis: outer washer diameter
+                    characteristic_dimension_mm: 9
+                    expected_components: 1
+                    family: washer
+                    finish: satin
+                    handedness: right
+                    height_convention: axial thickness
+                    height_mm: 0.8
+                    hole_diameter_mm: 4.3
+                    identity: hardware_washer_m4
+                    nominal_diameter_mm: 4.0
+                    outer_diameter_mm: 9
+                    overall_height_mm: 0.8
+                    specification: DIN 125 A (supplier sheet; edition not stated)
+                    thread_flank_angle_degrees: 60.0
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: Westfield DIN 125 A plain washer specification and tolerances
+                    url: https://www.westfieldfasteners.co.uk/Standards/Washer-FormA-M.pdf
+                standard: DIN 125 A (supplier sheet; edition not stated)
+                standard_lengths_mm: []
+                standard_limits:
+                    height_mm:
+                    - 0.7
+                    - 0.9
+                    hole_diameter_mm:
+                    - 4.3
+                    - 4.48
+                    outer_diameter_mm:
+                    - 8.64
+                    - 9
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_bolt_image.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        description: label_drawer
+        dict_data:
+            label_drawer: *id001
+        file_output: label_drawer.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
+oomp_key: oomp_hardware_washer_m4
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M4 steel flat washer DIN 125
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M4+steel+flat+washer+DIN+125
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M4 steel flat washer DIN 125
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+steel+flat+washer+DIN+125
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T11:34:28.472529+00:00'
+        evidence_file: support_files/evidence/hardware_washer_m4/google/5f5c116cabcc422facd8f6f95e99bd2d.yaml
+        evidence_url: https://www.google.com/search?q=M4+steel+flat+washer+DIN+125
+        material_evidence: Mild steel
+        product_name: M4 MILD STEEL FORM A FLAT WASHER BRIGHT ZINC PLATED DIN 125
+            - 1A (4.3X9X0.8MM)
+        reason: The exact Google query led to Orbital Fasteners' M4 mild-steel Form
+            A flat washer. The page heading and product information state M4, Form
+            A, mild steel, bright zinc plated, DIN 125-1A, and 4.3 x 9.0 x 0.8 mm
+            ID x OD x thickness.
+        result_url: https://www.orbitalfasteners.co.uk/products/m4-mild-steel-form-a-flat-washer-bright-zinc-plated-din-125-1a-4-3x9x0-8mm-
+        search_evidence: "Google result for Orbital Fasteners was titled \u2018M4\
+            \ Mild Steel Form A Flat Washer Bright Zinc Plated DIN 125 - 1A (4.3x9x0.8mm)\u2019\
+            . Opened the page; selected item SKU 1711010 and dimensions/material/finish/standard\
+            \ matched. Stainless results were not used."
+        search_for: M4 steel flat washer DIN 125
+        search_url: https://www.google.com/search?q=M4+steel+flat+washer+DIN+125
+        selected_variant: 'Single product: M4 Form A, 4.3 x 9.0 x 0.8mm'
+        specification: 'Thread size: M4; Form: A flat washer; Internal diameter: 4.3mm;
+            External diameter: 9.0mm; Thickness: 0.8mm; Material: Mild steel; Finish:
+            Bright zinc plated; Standard: DIN 125-1A'
+        status: verified
+supplier_data:
+    aanddfasteners:
+        accepted_warnings: '["Source quantity band starts at zero; normalized minimum
+            to one item"]'
+        captured_at: '2026-10-13T07:54:42.261433+00:00'
+        currency: GBP
+        html_sha256: 4f6303c41b834585cc7f458e14ba7a523bec76e2926d23facd1379163a5f73b0
+        name: M4 Form A Flat Washer, Steel Zinc plated, Din 125
+        packages: '[]'
+        parsed_at: '2026-10-18T08:57:33.532351+00:00'
+        parser_version: aanddfasteners-1.2-review-policy
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept zero-to-one quantity normalization and low-stock
+            notices."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: Product information A metric Form A washer also known as a
+            flat washer in steel with a bright zinc plating. Manufactured to Din 125A.
+            A flat washer's main task is to spread the load across a wider area, which
+            comes in particularly useful when dealing with softer materials.
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: aanddfasteners
+        supplier_id: ST12504AZP
+        supplier_part_number: ST12504AZP
+        supplier_website: https://www.aanddfasteners.co.uk/shop/washers/flat-washers/metric-flat-washer-din-125-form-a/metric-flat-washer-din-125-form-a-steel-zinc-plated/m4-form-a-flat-washer-steel-zinc-plated-din-125/details
+        tiers:
+        -   maximum: 25
+            minimum: 1
+            source_text: "0 - 25 \xA3 0.10"
+            source_unit_price: '0.10'
+            source_vat_basis: exclusive
+            unit_price: '0.1200'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 50
+            minimum: 26
+            source_text: "26 -50 \xA3 0.06"
+            source_unit_price: '0.06'
+            source_vat_basis: exclusive
+            unit_price: '0.0720'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 51
+            source_text: "51+ \xA3 0.05"
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.1200'
+        total_price_10: '1.2000'
+        total_price_100: '6.0000'
+        total_price_1000: '60.0000'
+        total_price_10000: '600.0000'
+        unit_price_1: '0.1200'
+        unit_price_10: '0.1200'
+        unit_price_100: '0.0600'
+        unit_price_1000: '0.0600'
+        unit_price_10000: '0.0600'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Source quantity band starts at zero; normalized minimum to one item
+    kayfast:
+        accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-18T09:25:01.612854+00:00'
+        currency: GBP
+        family_description: Form A washers. Self colour steel (uncoated). DIN125A.
+        family_heading: FORM A FLAT WASHER DIN 125 SELF COLOUR
+        html_sha256: 1322ecb0ba95dbb9cb777abb77f8ad311e5b0521be84a9fa04f2648c2f5ba3ae
+        name: M4 FORM A FLAT WASHER DIN 125 SELF COLOUR STEEL
+        packages: '[]'
+        parsed_at: '2026-10-18T09:31:25.980145+00:00'
+        parser_version: kayfast-1.6-family-description
+        price_breaks_description: M4 FORM A FLAT WASHER DIN 125 SELF COLOUR STEEL
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+            "statement": "Use the exact row dropdown price per 100 divided by 100
+            with Decimal precision; accept the captured per-100 display precision."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+        specifications: FORM A FLAT WASHER DIN 125 SELF COLOUR; Form A washers. Self
+            colour steel (uncoated). DIN125A.
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: kayfast
+        supplier_id: M4-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+        supplier_id_basis: exact dimensional row description; spaces replaced by hyphens
+            (user clarification 2026-10-11)
+        supplier_part_number: M4-FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR-STEEL
+        supplier_website: https://www.kayfast.co.uk/view-product/FORM-A-FLAT-WASHER-DIN-125-SELF-COLOUR
+        tiers:
+        -   maximum: 999
+            minimum: 1
+            source_price_per_100: '0.53'
+            source_price_quantity: 100
+            source_text: "QTY 1 - 999 @ \xA30.53 per 100"
+            source_unit_price: '0.0053'
+            source_vat_basis: exclusive
+            unit_price: '0.006360'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 4999
+            minimum: 1000
+            source_price_per_100: '0.34'
+            source_price_quantity: 100
+            source_text: "QTY 1000 -  4999 @ \xA30.34 per 100"
+            source_unit_price: '0.0034'
+            source_vat_basis: exclusive
+            unit_price: '0.004080'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 5000
+            source_price_per_100: '0.29'
+            source_price_quantity: 100
+            source_text: "QTY 5000 + @ \xA30.29 per 100"
+            source_unit_price: '0.0029'
+            source_vat_basis: exclusive
+            unit_price: '0.003480'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.006360'
+        total_price_10: '0.063600'
+        total_price_100: '0.636000'
+        total_price_1000: '4.080000'
+        total_price_10000: '34.800000'
+        unit_price_1: '0.006360'
+        unit_price_10: '0.006360'
+        unit_price_100: '0.006360'
+        unit_price_1000: '0.004080'
+        unit_price_10000: '0.003480'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Kayfast per-100 displayed prices are rounded; derived totals use captured
+            display precision
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: washer
+taxonomy_2_capital: Washer
+taxonomy_2_first_letter: w
+taxonomy_2_first_letter_upper: W
+taxonomy_2_length_1: w
+taxonomy_2_length_2: wa
+taxonomy_2_length_3: was
+taxonomy_2_length_4: wash
+taxonomy_2_length_5: washe
+taxonomy_2_upper: WASHER
+taxonomy_2_upper_length_1: W
+taxonomy_2_upper_length_2: WA
+taxonomy_2_upper_length_3: WAS
+taxonomy_2_upper_length_4: WASH
+taxonomy_2_upper_length_5: WASHE
+taxonomy_3: m4
+taxonomy_3_capital: M4
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m4
+taxonomy_3_length_3: m4
+taxonomy_3_length_4: m4
+taxonomy_3_length_5: m4
+taxonomy_3_upper: M4
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M4
+taxonomy_3_upper_length_3: M4
+taxonomy_3_upper_length_4: M4
+taxonomy_3_upper_length_5: M4
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+    checked_on: '2026-10-11'
+    coordinate_system:
+        axis: +Z along bore
+        glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+        glb_units: metres
+        glb_up_axis: Y
+        origin: lower face centre
+        stl_units: mm
+    dimension_status: standard_dimensions
+    dimensional_specification: DIN 125 A (supplier sheet; edition not stated)
+    generator: din_125_a_washer
+    length_status: not_applicable
+    material:
+        base_colour_srgb:
+        - 0.62
+        - 0.65
+        - 0.69
+        coat_roughness: 0.28
+        coat_weight: 0.02
+        metallic: 1.0
+        microtexture_height_um: 0.8
+        microtexture_spacing_mm: 0.025
+        name: Satin steel
+        note: Visual finish approximation; catalogue specifies colour only.
+        roughness: 0.26
+        roughness_variation: 0.045
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+        bearing: Bolt bearing circle and c selected within limits; k includes bearing
+            thickness; fillet tangent to shaft and bearing.
+        cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
+            bore and mouth chamfers.
+        certification: Nominal visual catalogue model, not manufacturing tolerance
+            certification.
+        chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees.
+            Bolt tip 45 degrees, P/2.
+        components: One closed solid for supported products. Unspecified lock/cage
+            assemblies are not substituted with plain hex nuts.
+        dimension_selection: Nominal bolt head height, max flats/nut height, nominal
+            washer sizes; selected dimensions stored in parameters.
+        display: Smooth nominal external-thread envelope or smooth minor-diameter
+            internal bore; lower angular and fillet tessellation.
+        family_note: Catalogue family mapped to the cited dimensional pattern; exact
+            supplier unspecified.
+        markings: Supplier and property-class markings omitted because catalogue does
+            not identify them.
+        runout: External one-pitch fade to plain shank; full thread ends at underhead
+            fillet.
+        thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+            rounded root H/6, internal P/4 crest and P/8 root flats.
+        unspecified_geometry: Nut mouth for supplier rows without limits and flange
+            M3/M4 thickness/rim blends are explicit visual model selections.
+    output_folder: three_d_model
+    parameters:
+        characteristic_dimension_basis: outer washer diameter
+        characteristic_dimension_mm: 9
+        expected_components: 1
+        family: washer
+        finish: satin
+        handedness: right
+        height_convention: axial thickness
+        height_mm: 0.8
+        hole_diameter_mm: 4.3
+        identity: hardware_washer_m4
+        nominal_diameter_mm: 4.0
+        outer_diameter_mm: 9
+        overall_height_mm: 0.8
+        specification: DIN 125 A (supplier sheet; edition not stated)
+        thread_flank_angle_degrees: 60.0
+        thread_starts: 1
+    renders:
+        high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+        low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+        product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+        product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+    schema_version: 1
+    source_table: source_file/standards/catalogue_hardware.yaml
+    sources:
+    -   title: Westfield DIN 125 A plain washer specification and tolerances
+        url: https://www.westfieldfasteners.co.uk/Standards/Washer-FormA-M.pdf
+    standard: DIN 125 A (supplier sheet; edition not stated)
+    standard_lengths_mm: []
+    standard_limits:
+        height_mm:
+        - 0.7
+        - 0.9
+        hole_diameter_mm:
+        - 4.3
+        - 4.48
+        outer_diameter_mm:
+        - 8.64
+        - 9
+    studio:
+        adaptive_threshold: 0.015
+        denoise: true
+        device: auto
+        engine: cycles
+        exposure: 0.0
+        floor_colour_srgb:
+        - 0.93
+        - 0.935
+        - 0.94
+        floor_roughness: 0.55
+        framing_margin: 0.13
+        high_samples: 160
+        lights:
+        -   colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+        -   colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+        -   colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+        look: AgX - Medium High Contrast
+        low_samples: 48
+        poses:
+            isometric:
+                camera_eye:
+                - 1
+                - -1
+                - 1
+                orientation: principal axis Z up
+                projection: orthographic
+            product:
+                camera_eye:
+                - -6
+                - -10
+                - 6
+                orientation: resting on lower face, bore visible
+                projection: orthographic
+                resting_axis: face
+                support: Stable convex-hull support using actual mesh centre of mass.
+                yaw_degrees: -12.0
+        seed: 7991
+        view_transform: AgX
+        world_colour:
+        - 0.78
+        - 0.82
+        - 0.9
+        world_strength: 0.35
+    units: mm
+    variants:
+        display:
+            angular_segments: 24
+            fillet_segments: 3
+            samples_per_pitch: 1
+        full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
+url_chat: ''
+```
+
+</details>
+
+## Parts
+
+[Full-detail 3D model (GLB)](three_d_model/model_full.glb) · [Full-detail view drawings](three_d_model/full/) · [Drawer label (SVG)](label_drawer.svg)
+
+Full-detail and simplified display models are alternatives for the same part. GLB uses metres; STL, where supplied, uses millimetres. The [part folder](./) contains all available files.
+
+## Assembly
+
+This page documents a component rather than a complete project assembly. No installation sequence or tightening torque is specified by this record.
+<!-- hardware-part:end -->

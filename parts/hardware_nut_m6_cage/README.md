@@ -1,0 +1,1989 @@
+<!-- hardware-part:start -->
+# M6 cage nut
+
+## Summary
+
+A captive nut and spring cage, represented as separate components in the saved model.
+
+[Hardware catalogue](../../README.md) · [Browse this family](../../navigation_oobb/README.md#nuts)
+
+| Isometric | Product view |
+| --- | --- |
+| [![Full-detail isometric render](three_d_model/readme_isometric.png)](three_d_model/render_high.png) | [![Full-detail product view render](three_d_model/readme_product.png)](three_d_model/render_product_high.png) |
+
+Full-detail catalogue renders. Click either image to open the original resolution.
+
+## Details
+
+**OOMP ID:** `hardware_nut_m6_cage`
+
+**Short code:** `39fei` · **Three-word label:** fatal six parade
+
+| Model dimension | mm |
+| --- | ---: |
+| Nominal size | 6 |
+| Thread pitch | 1 |
+| Across flats | 10 |
+| Height / thickness | 8.636 |
+| Body length | 13.208 |
+| Body width | 13.208 |
+
+Dimensions above are values used by the saved model recipe, in millimetres. **Model basis: supplier dimensions with visual details.**
+
+<details>
+<summary>Model provenance and assumptions</summary>
+
+**Recorded dimensional reference:** Value Fastener / Kanebridge M6-064NCAG cage-nut pattern
+
+**Source checked:** 2026-10-13
+
+**Visual finish:** Satin steel
+
+**Finish assumption:** Visual finish approximation; catalogue specifies colour only.
+
+**Family notes:** M6-064NCAG: B/J/N selected at midpoint of published inch limits; T from reference, converted x25.4. Internal square-nut dimensions, perpendicular length, clip projection and bends are explicit visual assumptions. Separate nut and spring cage; no mating bolt/panel.
+
+These are saved catalogue references and modelling choices, not a claim of manufacturing certification.
+
+- [Value Fastener / Kanebridge cage-nut drawing, page 514, dimensions in inches](https://www.valuefastener.com/documents/products/metcagenut.pdf)
+- [ISO 68-1:1998 basic ISO metric thread profile](https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf)
+
+[Detailed model notes](three_d_model/model_notes.md)
+
+[Complete model recipe](three_d_model/parameters.json)
+
+</details>
+
+<details>
+<summary>Complete part metadata</summary>
+
+[Source working.yaml](working.yaml)
+
+```yaml
+bip_39_2_word_array:
+- fatal
+- six
+bip_39_2_word_no_space: fatalsix
+bip_39_2_word_space: fatal six
+bip_39_2_word_underscore: fatal_six
+bip_39_3_word_array:
+- fatal
+- six
+- parade
+bip_39_3_word_no_space: fatalsixparade
+bip_39_3_word_space: fatal six parade
+bip_39_3_word_underscore: fatal_six_parade
+bip_39_full_array:
+- fatal
+- six
+- parade
+- effort
+- antenna
+- laugh
+- plastic
+- already
+- amazing
+- eternal
+- nose
+- garment
+bip_39_full_no_space: fatalsixparadeeffortantennalaughplasticalreadyamazingeternalnosegarment
+bip_39_full_space: fatal six parade effort antenna laugh plastic already amazing eternal
+    nose garment
+bip_39_full_underscore: fatal_six_parade_effort_antenna_laugh_plastic_already_amazing_eternal_nose_garment
+directory: parts/hardware_nut_m6_cage
+generate_stl: true
+id: hardware_nut_m6_cage
+id_no_class: hardware_nut_m6_cage
+id_no_size: hardware_nut_m6_cage
+id_no_type: hardware_nut_m6_cage
+label_drawer: &id001
+    bip39: fatal six parade
+    bip39_size: 2.35
+    code: NU
+    description: Cage nut / M6
+    detail_lines: []
+    detail_size: 2.05
+    detail_y: 21.1
+    diagram: <path d="M7 1.8H13L16 7L13 12.2H7L4 7Z"/><circle cx="10" cy="7" r="2.5"/>
+    drive_symbol: ''
+    length: ''
+    length_size: 7.8
+    length_x: 22.3603625
+    name: Cage nut
+    name_lines:
+    - Cage nut
+    name_size: 3.2
+    thread: M6
+    thread_size: 6.5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m6_cage
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m6_cage
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m6_cage
+md5: 53993a8023509cfb29803907c9b259af
+md5_10: 53993a8023
+md5_10_upper: 53993A8023
+md5_5: '53993'
+md5_5_upper: '53993'
+md5_6: 53993a
+md5_6_alpha: 39fei
+md5_6_alpha_upper: 39FEI
+md5_6_upper: 53993A
+name: Hardware Nut M6 Cage
+name_no_class: Hardware Nut M6 Cage
+name_no_size: Hardware Nut M6 Cage
+name_no_type: Hardware Nut M6 Cage
+name_proper: Hardware Nut M6 Cage
+name_space: hardware nut m6 cage
+name_upper: HARDWARE NUT M6 CAGE
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_nut_m6_cage
+            name: hardware_nut_m6_cage
+            name_proper: Hardware Nut M6 Cage
+            name_space: hardware nut m6 cage
+            name_upper: HARDWARE NUT M6 CAGE
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 cage nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+cage+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 cage nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+cage+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T09:15:33.888336+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m6_cage/google/8bbeacc53f3a4574832ba344395ce085.yaml
+                    evidence_url: https://www.google.com/search?q=M6+cage+nut+steel
+                    material_evidence: Page calls it a mild steel cage nut and states
+                        cage nuts consist of a square nut held captive in a spring
+                        steel cage.
+                    product_name: M6 To Suit Steel 0.71-1.60mm Cage Nuts, Mild Steel
+                        BLUE Passivated Zinc Plated, (9.5mm Square Hole Size) Type
+                        A
+                    reason: "Bolt World\u2019s selected M6 Type A cage nut page confirms\
+                        \ the requested M6 cage-nut form, mild steel body/cage, blue\
+                        \ passivated zinc finish and 9.5 mm square mounting hole."
+                    result_url: https://boltworld.co.uk/products/m6-to-suit-steel-0-71-1-60mm-cage-nuts-mild-steel-blue-passivated-zinc-plated-9-5mm-square-hole-size-type-a/
+                    search_evidence: The Google results returned the exact Bolt World
+                        M6 cage nut. The product page shows M6 selected, SKU 51309.060.071,
+                        mild steel cage nut, spring steel cage, blue passivated zinc,
+                        9.5 mm square hole and Type A.
+                    search_for: M6 cage nut steel
+                    search_url: https://www.google.com/search?q=M6+cage+nut+steel
+                    selected_variant: Thread Size M6 (6mm), SKU 51309.060.071; Type
+                        A, 9.5mm square hole
+                    specification: M6 cage nut; Type A; for 0.71-1.60mm sheet steel;
+                        9.5 x 9.5mm square mounting hole; blue passivated zinc plated.
+                    status: verified
+            supplier_data:
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-13T17:10:13.009129+00:00'
+                    currency: GBP
+                    html_sha256: 169669d230848a99e5566e68661a412717bb93d93a8598b01da62ff17c6c509b
+                    name: M6 To Suit Steel 0.71-1.60mm Cage Nuts, Mild Steel Zinc
+                        Plated, (9.5mm Square Hole Size) Type A
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:02:34.276552+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M6 (6mm); Material: Mild Steel;
+                        Finish: Bright Zinc Plated; Thread Pitch: 1mm; Material Specification:
+                        Mild Steel; Metric or Imperial?: Metric'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 10041.060.071
+                    supplier_part_number: 10041.060.071
+                    supplier_website: https://dibolt.co.uk/products/m6-to-suit-steel-0-71-1-60mm-cage-nuts-mild-steel-zinc-plated-9-5mm-square-hole-size
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA319.41 Per 100 Units"
+                        source_unit_price: '0.1941'
+                        source_vat_basis: exclusive
+                        unit_price: '0.232920'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2,499 \xA318.44 Per 100 Units"
+                        source_unit_price: '0.1844'
+                        source_vat_basis: exclusive
+                        unit_price: '0.221280'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2500
+                        source_text: "2,500+ \xA317.47 Per 100 Units"
+                        source_unit_price: '0.1747'
+                        source_vat_basis: exclusive
+                        unit_price: '0.209640'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.232920'
+                    total_price_10: '2.329200'
+                    total_price_100: '23.292000'
+                    total_price_1000: '221.280000'
+                    total_price_10000: '2096.400000'
+                    unit_price_1: '0.232920'
+                    unit_price_10: '0.232920'
+                    unit_price_100: '0.232920'
+                    unit_price_1000: '0.221280'
+                    unit_price_10000: '0.209640'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '500'
+                    captured_at: '2026-10-12T19:50:20.890206+00:00'
+                    catalogue_page: '28'
+                    currency: GBP
+                    description: ''
+                    html_sha256: f5efb456d52052bd2b80d4a2eb53fde8a7863041274b11a8de048dde98d5f720
+                    name: M6 To Suit Steel 1.80-2.50mm Cage Nuts, Mild Steel Zinc
+                        Plated, (9.5mm Square Hole Size)
+                    parsed_at: '2026-10-18T08:49:26.937584+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '22925'
+                    supplier: orbitalfasteners
+                    supplier_id: '1791030'
+                    supplier_part_number: '1791030'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m6-to-suit-steel-1-80-2-50mm-cage-nuts-mild-steel-zinc-plated-9-5mm-square-hole-size-
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA30.0778 Inc. VAT \xA37.78 Inc. VAT"
+                        source_unit_price: '0.0778'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0778'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2499 \xA30.0648 Inc. VAT \xA36.48 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0648'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0648'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2500
+                        source_text: "2500 + \xA30.0583 Inc. VAT \xA35.83 Inc. VAT"
+                        source_unit_price: '0.0583'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0583'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0778'
+                    total_price_10: '0.7780'
+                    total_price_100: '7.7800'
+                    total_price_1000: '64.8000'
+                    total_price_10000: '583.0000'
+                    unit_price_1: '0.0778'
+                    unit_price_10: '0.0778'
+                    unit_price_100: '0.0778'
+                    unit_price_1000: '0.0648'
+                    unit_price_10000: '0.0583'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: nut
+            taxonomy_3: m6
+            taxonomy_4: cage
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-13'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: supplier_dimensions_with_visual_details
+                dimensional_specification: Value Fastener / Kanebridge M6-064NCAG
+                    cage-nut pattern
+                generator: supplier_cage_nut
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: Closed separate assembly components; hidden spring
+                        omitted.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: 'M6-064NCAG: B/J/N selected at midpoint of published
+                        inch limits; T from reference, converted x25.4. Internal square-nut
+                        dimensions, perpendicular length, clip projection and bends
+                        are explicit visual assumptions. Separate nut and spring cage;
+                        no mating bolt/panel.'
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 10
+                    body_height_mm: 6.35
+                    body_length_mm: 13.208
+                    body_width_mm: 13.208
+                    characteristic_dimension_basis: hexagon across flats
+                    characteristic_dimension_mm: 10
+                    clip_height_mm: 2.2859999999999996
+                    expected_components: 2
+                    external_minor_diameter_mm: 4.773130677972045
+                    family: nut
+                    finish: satin
+                    foot_width_mm: 3.0479999999999996
+                    handedness: right
+                    height_convention: total axial nut height
+                    height_mm: 8.636
+                    hole_chamfer_mm: 0.38466878364870316
+                    hole_chamfer_slope: 1.7320508075688767
+                    identity: hardware_nut_m6_cage
+                    internal_minor_diameter_mm: 4.917468245269452
+                    mouth_diameter_mm: 6.25
+                    nominal_diameter_mm: 6.0
+                    nut_height_mm: 4.5
+                    nut_style: cage_nut
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 8.636
+                    pitch_mm: 1
+                    sheet_thickness_mm: 0.508
+                    specification: Value Fastener / Kanebridge M6-064NCAG cage-nut
+                        pattern
+                    thread_flank_angle_degrees: 60.0
+                    thread_pitch_diameter_mm: 5.350480947161671
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_extensions.yaml
+                sources:
+                -   title: Value Fastener / Kanebridge cage-nut drawing, page 514,
+                        dimensions in inches
+                    url: https://www.valuefastener.com/documents/products/metcagenut.pdf
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: null
+                standard_lengths_mm: []
+                standard_limits: {}
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_nut_m6_cage
+            name: hardware_nut_m6_cage
+            name_proper: Hardware Nut M6 Cage
+            name_space: hardware nut m6 cage
+            name_upper: HARDWARE NUT M6 CAGE
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_nut_m6_cage
+                        name: hardware_nut_m6_cage
+                        name_proper: Hardware Nut M6 Cage
+                        name_space: hardware nut m6 cage
+                        name_upper: HARDWARE NUT M6 CAGE
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M6 cage nut steel
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M6+cage+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M6 cage nut steel
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+cage+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T09:15:33.888336+00:00'
+                                evidence_file: support_files/evidence/hardware_nut_m6_cage/google/8bbeacc53f3a4574832ba344395ce085.yaml
+                                evidence_url: https://www.google.com/search?q=M6+cage+nut+steel
+                                material_evidence: Page calls it a mild steel cage
+                                    nut and states cage nuts consist of a square nut
+                                    held captive in a spring steel cage.
+                                product_name: M6 To Suit Steel 0.71-1.60mm Cage Nuts,
+                                    Mild Steel BLUE Passivated Zinc Plated, (9.5mm
+                                    Square Hole Size) Type A
+                                reason: "Bolt World\u2019s selected M6 Type A cage\
+                                    \ nut page confirms the requested M6 cage-nut\
+                                    \ form, mild steel body/cage, blue passivated\
+                                    \ zinc finish and 9.5 mm square mounting hole."
+                                result_url: https://boltworld.co.uk/products/m6-to-suit-steel-0-71-1-60mm-cage-nuts-mild-steel-blue-passivated-zinc-plated-9-5mm-square-hole-size-type-a/
+                                search_evidence: The Google results returned the exact
+                                    Bolt World M6 cage nut. The product page shows
+                                    M6 selected, SKU 51309.060.071, mild steel cage
+                                    nut, spring steel cage, blue passivated zinc,
+                                    9.5 mm square hole and Type A.
+                                search_for: M6 cage nut steel
+                                search_url: https://www.google.com/search?q=M6+cage+nut+steel
+                                selected_variant: Thread Size M6 (6mm), SKU 51309.060.071;
+                                    Type A, 9.5mm square hole
+                                specification: M6 cage nut; Type A; for 0.71-1.60mm
+                                    sheet steel; 9.5 x 9.5mm square mounting hole;
+                                    blue passivated zinc plated.
+                                status: verified
+                        supplier_data:
+                            dibolt:
+                                accepted_warnings: '["Dibolt per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-13T17:10:13.009129+00:00'
+                                currency: GBP
+                                html_sha256: 169669d230848a99e5566e68661a412717bb93d93a8598b01da62ff17c6c509b
+                                name: M6 To Suit Steel 0.71-1.60mm Cage Nuts, Mild
+                                    Steel Zinc Plated, (9.5mm Square Hole Size) Type
+                                    A
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:02:34.276552+00:00'
+                                parser_version: dibolt-1.3-missing-price-review
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept the precision
+                                    of rounded displayed per-100 prices."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: 'Thread Size: M6 (6mm); Material:
+                                    Mild Steel; Finish: Bright Zinc Plated; Thread
+                                    Pitch: 1mm; Material Specification: Mild Steel;
+                                    Metric or Imperial?: Metric'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: dibolt
+                                supplier_id: 10041.060.071
+                                supplier_part_number: 10041.060.071
+                                supplier_website: https://dibolt.co.uk/products/m6-to-suit-steel-0-71-1-60mm-cage-nuts-mild-steel-zinc-plated-9-5mm-square-hole-size
+                                tiers:
+                                -   maximum: 499
+                                    minimum: 1
+                                    source_text: "1 - 499 \xA319.41 Per 100 Units"
+                                    source_unit_price: '0.1941'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.232920'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 2499
+                                    minimum: 500
+                                    source_text: "500 - 2,499 \xA318.44 Per 100 Units"
+                                    source_unit_price: '0.1844'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.221280'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 2500
+                                    source_text: "2,500+ \xA317.47 Per 100 Units"
+                                    source_unit_price: '0.1747'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.209640'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.232920'
+                                total_price_10: '2.329200'
+                                total_price_100: '23.292000'
+                                total_price_1000: '221.280000'
+                                total_price_10000: '2096.400000'
+                                unit_price_1: '0.232920'
+                                unit_price_10: '0.232920'
+                                unit_price_100: '0.232920'
+                                unit_price_1000: '0.221280'
+                                unit_price_10000: '0.209640'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Dibolt per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
+                            orbitalfasteners:
+                                accepted_warnings: '[]'
+                                box_quantity: '500'
+                                captured_at: '2026-10-12T19:50:20.890206+00:00'
+                                catalogue_page: '28'
+                                currency: GBP
+                                description: ''
+                                html_sha256: f5efb456d52052bd2b80d4a2eb53fde8a7863041274b11a8de048dde98d5f720
+                                name: M6 To Suit Steel 1.80-2.50mm Cage Nuts, Mild
+                                    Steel Zinc Plated, (9.5mm Square Hole Size)
+                                parsed_at: '2026-10-18T08:49:26.937584+00:00'
+                                parser_version: 1.2-review-policy
+                                review_policy: ''
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: inclusive
+                                status: ok
+                                stock_as_of: 9th October 2026 10:01pm
+                                stock_quantity: '22925'
+                                supplier: orbitalfasteners
+                                supplier_id: '1791030'
+                                supplier_part_number: '1791030'
+                                supplier_website: https://www.orbitalfasteners.co.uk/products/m6-to-suit-steel-1-80-2-50mm-cage-nuts-mild-steel-zinc-plated-9-5mm-square-hole-size-
+                                tiers:
+                                -   maximum: 499
+                                    minimum: 1
+                                    source_text: "1 - 499 \xA30.0778 Inc. VAT \xA3\
+                                        7.78 Inc. VAT"
+                                    source_unit_price: '0.0778'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0778'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 2499
+                                    minimum: 500
+                                    source_text: "500 - 2499 \xA30.0648 Inc. VAT \xA3\
+                                        6.48 Inc. VAT"
+                                    source_unit_price: '0.0648'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0648'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 2500
+                                    source_text: "2500 + \xA30.0583 Inc. VAT \xA3\
+                                        5.83 Inc. VAT"
+                                    source_unit_price: '0.0583'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0583'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.0778'
+                                total_price_10: '0.7780'
+                                total_price_100: '7.7800'
+                                total_price_1000: '64.8000'
+                                total_price_10000: '583.0000'
+                                unit_price_1: '0.0778'
+                                unit_price_10: '0.0778'
+                                unit_price_100: '0.0778'
+                                unit_price_1000: '0.0648'
+                                unit_price_10000: '0.0583'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings: []
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: nut
+                        taxonomy_3: m6
+                        taxonomy_4: cage
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        three_d_model_details:
+                            checked_on: '2026-10-13'
+                            coordinate_system:
+                                axis: +Z along bore
+                                glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                                glb_units: metres
+                                glb_up_axis: Y
+                                origin: lower face centre
+                                stl_units: mm
+                            dimension_status: supplier_dimensions_with_visual_details
+                            dimensional_specification: Value Fastener / Kanebridge
+                                M6-064NCAG cage-nut pattern
+                            generator: supplier_cage_nut
+                            length_status: not_applicable
+                            material:
+                                base_colour_srgb:
+                                - 0.62
+                                - 0.65
+                                - 0.69
+                                coat_roughness: 0.28
+                                coat_weight: 0.02
+                                metallic: 1.0
+                                microtexture_height_um: 0.8
+                                microtexture_spacing_mm: 0.025
+                                name: Satin steel
+                                note: Visual finish approximation; catalogue specifies
+                                    colour only.
+                                roughness: 0.26
+                                roughness_variation: 0.045
+                            model_formats:
+                            - stl
+                            - glb
+                            modelling_choices:
+                                bearing: Bolt bearing circle and c selected within
+                                    limits; k includes bearing thickness; fillet tangent
+                                    to shaft and bearing.
+                                cavity: Nut through-bore has a helical internal surface;
+                                    display keeps minor-diameter bore and mouth chamfers.
+                                certification: Nominal visual catalogue model, not
+                                    manufacturing tolerance certification.
+                                chamfer: 30 degree outer hex chamfer. Nut mouth included
+                                    angle 120 degrees. Bolt tip 45 degrees, P/2.
+                                components: Closed separate assembly components; hidden
+                                    spring omitted.
+                                dimension_selection: Nominal bolt head height, max
+                                    flats/nut height, nominal washer sizes; selected
+                                    dimensions stored in parameters.
+                                display: Smooth nominal external-thread envelope or
+                                    smooth minor-diameter internal bore; lower angular
+                                    and fillet tessellation.
+                                family_note: 'M6-064NCAG: B/J/N selected at midpoint
+                                    of published inch limits; T from reference, converted
+                                    x25.4. Internal square-nut dimensions, perpendicular
+                                    length, clip projection and bends are explicit
+                                    visual assumptions. Separate nut and spring cage;
+                                    no mating bolt/panel.'
+                                markings: Supplier and property-class markings omitted
+                                    because catalogue does not identify them.
+                                runout: External one-pitch fade to plain shank; full
+                                    thread ends at underhead fillet.
+                                thread: Nominal ISO basic metric profile, no ISO 965
+                                    tolerance offsets. External rounded root H/6,
+                                    internal P/4 crest and P/8 root flats.
+                                unspecified_geometry: Nut mouth for supplier rows
+                                    without limits and flange M3/M4 thickness/rim
+                                    blends are explicit visual model selections.
+                            output_folder: three_d_model
+                            parameters:
+                                across_flats_mm: 10
+                                body_height_mm: 6.35
+                                body_length_mm: 13.208
+                                body_width_mm: 13.208
+                                characteristic_dimension_basis: hexagon across flats
+                                characteristic_dimension_mm: 10
+                                clip_height_mm: 2.2859999999999996
+                                expected_components: 2
+                                external_minor_diameter_mm: 4.773130677972045
+                                family: nut
+                                finish: satin
+                                foot_width_mm: 3.0479999999999996
+                                handedness: right
+                                height_convention: total axial nut height
+                                height_mm: 8.636
+                                hole_chamfer_mm: 0.38466878364870316
+                                hole_chamfer_slope: 1.7320508075688767
+                                identity: hardware_nut_m6_cage
+                                internal_minor_diameter_mm: 4.917468245269452
+                                mouth_diameter_mm: 6.25
+                                nominal_diameter_mm: 6.0
+                                nut_height_mm: 4.5
+                                nut_style: cage_nut
+                                outer_chamfer_angle_degrees: 30.0
+                                overall_height_mm: 8.636
+                                pitch_mm: 1
+                                sheet_thickness_mm: 0.508
+                                specification: Value Fastener / Kanebridge M6-064NCAG
+                                    cage-nut pattern
+                                thread_flank_angle_degrees: 60.0
+                                thread_pitch_diameter_mm: 5.350480947161671
+                                thread_starts: 1
+                            renders:
+                                high:
+                                    file: render_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: isometric
+                                low:
+                                    file: render_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: isometric
+                                product_high:
+                                    file: render_product_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: product
+                                product_low:
+                                    file: render_product_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: product
+                            schema_version: 1
+                            source_table: source_file/standards/catalogue_extensions.yaml
+                            sources:
+                            -   title: Value Fastener / Kanebridge cage-nut drawing,
+                                    page 514, dimensions in inches
+                                url: https://www.valuefastener.com/documents/products/metcagenut.pdf
+                            -   title: ISO 68-1:1998 basic ISO metric thread profile
+                                url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                            standard: null
+                            standard_lengths_mm: []
+                            standard_limits: {}
+                            studio:
+                                adaptive_threshold: 0.015
+                                denoise: true
+                                device: auto
+                                engine: cycles
+                                exposure: 0.0
+                                floor_colour_srgb:
+                                - 0.93
+                                - 0.935
+                                - 0.94
+                                floor_roughness: 0.55
+                                framing_margin: 0.13
+                                high_samples: 160
+                                lights:
+                                -   colour:
+                                    - 1.0
+                                    - 0.96
+                                    - 0.9
+                                    height: 5.0
+                                    name: Key softbox
+                                    position:
+                                    - -3
+                                    - -4
+                                    - 6
+                                    power: 650.0
+                                    width: 4.0
+                                -   colour:
+                                    - 0.9
+                                    - 0.95
+                                    - 1.0
+                                    height: 4.0
+                                    name: Fill softbox
+                                    position:
+                                    - 4
+                                    - -1
+                                    - 3
+                                    power: 330.0
+                                    width: 3.0
+                                -   colour:
+                                    - 1.0
+                                    - 1.0
+                                    - 1.0
+                                    height: 5.0
+                                    name: Rim strip
+                                    position:
+                                    - 1
+                                    - 4
+                                    - 4
+                                    power: 850.0
+                                    width: 1.2
+                                look: AgX - Medium High Contrast
+                                low_samples: 48
+                                poses:
+                                    isometric:
+                                        camera_eye:
+                                        - 1
+                                        - -1
+                                        - 1
+                                        orientation: principal axis Z up
+                                        projection: orthographic
+                                    product:
+                                        camera_eye:
+                                        - -6
+                                        - -10
+                                        - 6
+                                        orientation: resting on lower face, bore visible
+                                        projection: orthographic
+                                        resting_axis: face
+                                        support: Stable convex-hull support using
+                                            actual mesh centre of mass.
+                                        yaw_degrees: -12.0
+                                seed: 7991
+                                view_transform: AgX
+                                world_colour:
+                                - 0.78
+                                - 0.82
+                                - 0.9
+                                world_strength: 0.35
+                            units: mm
+                            variants:
+                                display:
+                                    angular_segments: 24
+                                    fillet_segments: 3
+                                    samples_per_pitch: 1
+                                full:
+                                    angular_segments: 96
+                                    fillet_segments: 12
+                                    samples_per_pitch: 32
+                            views:
+                            - isometric
+                            - front
+                            - back
+                            - left
+                            - right
+                            - top
+                            - bottom
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 cage nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+cage+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 cage nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+cage+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T09:15:33.888336+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m6_cage/google/8bbeacc53f3a4574832ba344395ce085.yaml
+                    evidence_url: https://www.google.com/search?q=M6+cage+nut+steel
+                    material_evidence: Page calls it a mild steel cage nut and states
+                        cage nuts consist of a square nut held captive in a spring
+                        steel cage.
+                    product_name: M6 To Suit Steel 0.71-1.60mm Cage Nuts, Mild Steel
+                        BLUE Passivated Zinc Plated, (9.5mm Square Hole Size) Type
+                        A
+                    reason: "Bolt World\u2019s selected M6 Type A cage nut page confirms\
+                        \ the requested M6 cage-nut form, mild steel body/cage, blue\
+                        \ passivated zinc finish and 9.5 mm square mounting hole."
+                    result_url: https://boltworld.co.uk/products/m6-to-suit-steel-0-71-1-60mm-cage-nuts-mild-steel-blue-passivated-zinc-plated-9-5mm-square-hole-size-type-a/
+                    search_evidence: The Google results returned the exact Bolt World
+                        M6 cage nut. The product page shows M6 selected, SKU 51309.060.071,
+                        mild steel cage nut, spring steel cage, blue passivated zinc,
+                        9.5 mm square hole and Type A.
+                    search_for: M6 cage nut steel
+                    search_url: https://www.google.com/search?q=M6+cage+nut+steel
+                    selected_variant: Thread Size M6 (6mm), SKU 51309.060.071; Type
+                        A, 9.5mm square hole
+                    specification: M6 cage nut; Type A; for 0.71-1.60mm sheet steel;
+                        9.5 x 9.5mm square mounting hole; blue passivated zinc plated.
+                    status: verified
+            supplier_data:
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-13T17:10:13.009129+00:00'
+                    currency: GBP
+                    html_sha256: 169669d230848a99e5566e68661a412717bb93d93a8598b01da62ff17c6c509b
+                    name: M6 To Suit Steel 0.71-1.60mm Cage Nuts, Mild Steel Zinc
+                        Plated, (9.5mm Square Hole Size) Type A
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:02:34.276552+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M6 (6mm); Material: Mild Steel;
+                        Finish: Bright Zinc Plated; Thread Pitch: 1mm; Material Specification:
+                        Mild Steel; Metric or Imperial?: Metric'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 10041.060.071
+                    supplier_part_number: 10041.060.071
+                    supplier_website: https://dibolt.co.uk/products/m6-to-suit-steel-0-71-1-60mm-cage-nuts-mild-steel-zinc-plated-9-5mm-square-hole-size
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA319.41 Per 100 Units"
+                        source_unit_price: '0.1941'
+                        source_vat_basis: exclusive
+                        unit_price: '0.232920'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2,499 \xA318.44 Per 100 Units"
+                        source_unit_price: '0.1844'
+                        source_vat_basis: exclusive
+                        unit_price: '0.221280'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2500
+                        source_text: "2,500+ \xA317.47 Per 100 Units"
+                        source_unit_price: '0.1747'
+                        source_vat_basis: exclusive
+                        unit_price: '0.209640'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.232920'
+                    total_price_10: '2.329200'
+                    total_price_100: '23.292000'
+                    total_price_1000: '221.280000'
+                    total_price_10000: '2096.400000'
+                    unit_price_1: '0.232920'
+                    unit_price_10: '0.232920'
+                    unit_price_100: '0.232920'
+                    unit_price_1000: '0.221280'
+                    unit_price_10000: '0.209640'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '500'
+                    captured_at: '2026-10-12T19:50:20.890206+00:00'
+                    catalogue_page: '28'
+                    currency: GBP
+                    description: ''
+                    html_sha256: f5efb456d52052bd2b80d4a2eb53fde8a7863041274b11a8de048dde98d5f720
+                    name: M6 To Suit Steel 1.80-2.50mm Cage Nuts, Mild Steel Zinc
+                        Plated, (9.5mm Square Hole Size)
+                    parsed_at: '2026-10-18T08:49:26.937584+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm
+                    stock_quantity: '22925'
+                    supplier: orbitalfasteners
+                    supplier_id: '1791030'
+                    supplier_part_number: '1791030'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m6-to-suit-steel-1-80-2-50mm-cage-nuts-mild-steel-zinc-plated-9-5mm-square-hole-size-
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA30.0778 Inc. VAT \xA37.78 Inc. VAT"
+                        source_unit_price: '0.0778'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0778'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2499 \xA30.0648 Inc. VAT \xA36.48 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0648'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0648'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2500
+                        source_text: "2500 + \xA30.0583 Inc. VAT \xA35.83 Inc. VAT"
+                        source_unit_price: '0.0583'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0583'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0778'
+                    total_price_10: '0.7780'
+                    total_price_100: '7.7800'
+                    total_price_1000: '64.8000'
+                    total_price_10000: '583.0000'
+                    unit_price_1: '0.0778'
+                    unit_price_10: '0.0778'
+                    unit_price_100: '0.0778'
+                    unit_price_1000: '0.0648'
+                    unit_price_10000: '0.0583'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: nut
+            taxonomy_3: m6
+            taxonomy_4: cage
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-13'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: supplier_dimensions_with_visual_details
+                dimensional_specification: Value Fastener / Kanebridge M6-064NCAG
+                    cage-nut pattern
+                generator: supplier_cage_nut
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: Closed separate assembly components; hidden spring
+                        omitted.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: 'M6-064NCAG: B/J/N selected at midpoint of published
+                        inch limits; T from reference, converted x25.4. Internal square-nut
+                        dimensions, perpendicular length, clip projection and bends
+                        are explicit visual assumptions. Separate nut and spring cage;
+                        no mating bolt/panel.'
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 10
+                    body_height_mm: 6.35
+                    body_length_mm: 13.208
+                    body_width_mm: 13.208
+                    characteristic_dimension_basis: hexagon across flats
+                    characteristic_dimension_mm: 10
+                    clip_height_mm: 2.2859999999999996
+                    expected_components: 2
+                    external_minor_diameter_mm: 4.773130677972045
+                    family: nut
+                    finish: satin
+                    foot_width_mm: 3.0479999999999996
+                    handedness: right
+                    height_convention: total axial nut height
+                    height_mm: 8.636
+                    hole_chamfer_mm: 0.38466878364870316
+                    hole_chamfer_slope: 1.7320508075688767
+                    identity: hardware_nut_m6_cage
+                    internal_minor_diameter_mm: 4.917468245269452
+                    mouth_diameter_mm: 6.25
+                    nominal_diameter_mm: 6.0
+                    nut_height_mm: 4.5
+                    nut_style: cage_nut
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 8.636
+                    pitch_mm: 1
+                    sheet_thickness_mm: 0.508
+                    specification: Value Fastener / Kanebridge M6-064NCAG cage-nut
+                        pattern
+                    thread_flank_angle_degrees: 60.0
+                    thread_pitch_diameter_mm: 5.350480947161671
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_extensions.yaml
+                sources:
+                -   title: Value Fastener / Kanebridge cage-nut drawing, page 514,
+                        dimensions in inches
+                    url: https://www.valuefastener.com/documents/products/metcagenut.pdf
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: null
+                standard_lengths_mm: []
+                standard_limits: {}
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_bolt_image.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        description: label_drawer
+        dict_data:
+            label_drawer: *id001
+        file_output: label_drawer.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
+oomp_key: oomp_hardware_nut_m6_cage
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M6 cage nut steel
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M6+cage+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M6 cage nut steel
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+cage+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T09:15:33.888336+00:00'
+        evidence_file: support_files/evidence/hardware_nut_m6_cage/google/8bbeacc53f3a4574832ba344395ce085.yaml
+        evidence_url: https://www.google.com/search?q=M6+cage+nut+steel
+        material_evidence: Page calls it a mild steel cage nut and states cage nuts
+            consist of a square nut held captive in a spring steel cage.
+        product_name: M6 To Suit Steel 0.71-1.60mm Cage Nuts, Mild Steel BLUE Passivated
+            Zinc Plated, (9.5mm Square Hole Size) Type A
+        reason: "Bolt World\u2019s selected M6 Type A cage nut page confirms the requested\
+            \ M6 cage-nut form, mild steel body/cage, blue passivated zinc finish\
+            \ and 9.5 mm square mounting hole."
+        result_url: https://boltworld.co.uk/products/m6-to-suit-steel-0-71-1-60mm-cage-nuts-mild-steel-blue-passivated-zinc-plated-9-5mm-square-hole-size-type-a/
+        search_evidence: The Google results returned the exact Bolt World M6 cage
+            nut. The product page shows M6 selected, SKU 51309.060.071, mild steel
+            cage nut, spring steel cage, blue passivated zinc, 9.5 mm square hole
+            and Type A.
+        search_for: M6 cage nut steel
+        search_url: https://www.google.com/search?q=M6+cage+nut+steel
+        selected_variant: Thread Size M6 (6mm), SKU 51309.060.071; Type A, 9.5mm square
+            hole
+        specification: M6 cage nut; Type A; for 0.71-1.60mm sheet steel; 9.5 x 9.5mm
+            square mounting hole; blue passivated zinc plated.
+        status: verified
+supplier_data:
+    dibolt:
+        accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-13T17:10:13.009129+00:00'
+        currency: GBP
+        html_sha256: 169669d230848a99e5566e68661a412717bb93d93a8598b01da62ff17c6c509b
+        name: M6 To Suit Steel 0.71-1.60mm Cage Nuts, Mild Steel Zinc Plated, (9.5mm
+            Square Hole Size) Type A
+        packages: '[]'
+        parsed_at: '2026-10-18T09:02:34.276552+00:00'
+        parser_version: dibolt-1.3-missing-price-review
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept the precision of rounded displayed per-100 prices."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: 'Thread Size: M6 (6mm); Material: Mild Steel; Finish: Bright
+            Zinc Plated; Thread Pitch: 1mm; Material Specification: Mild Steel; Metric
+            or Imperial?: Metric'
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: dibolt
+        supplier_id: 10041.060.071
+        supplier_part_number: 10041.060.071
+        supplier_website: https://dibolt.co.uk/products/m6-to-suit-steel-0-71-1-60mm-cage-nuts-mild-steel-zinc-plated-9-5mm-square-hole-size
+        tiers:
+        -   maximum: 499
+            minimum: 1
+            source_text: "1 - 499 \xA319.41 Per 100 Units"
+            source_unit_price: '0.1941'
+            source_vat_basis: exclusive
+            unit_price: '0.232920'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 2499
+            minimum: 500
+            source_text: "500 - 2,499 \xA318.44 Per 100 Units"
+            source_unit_price: '0.1844'
+            source_vat_basis: exclusive
+            unit_price: '0.221280'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 2500
+            source_text: "2,500+ \xA317.47 Per 100 Units"
+            source_unit_price: '0.1747'
+            source_vat_basis: exclusive
+            unit_price: '0.209640'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.232920'
+        total_price_10: '2.329200'
+        total_price_100: '23.292000'
+        total_price_1000: '221.280000'
+        total_price_10000: '2096.400000'
+        unit_price_1: '0.232920'
+        unit_price_10: '0.232920'
+        unit_price_100: '0.232920'
+        unit_price_1000: '0.221280'
+        unit_price_10000: '0.209640'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Dibolt per-100 displayed prices are rounded; derived totals use captured
+            display precision
+    orbitalfasteners:
+        accepted_warnings: '[]'
+        box_quantity: '500'
+        captured_at: '2026-10-12T19:50:20.890206+00:00'
+        catalogue_page: '28'
+        currency: GBP
+        description: ''
+        html_sha256: f5efb456d52052bd2b80d4a2eb53fde8a7863041274b11a8de048dde98d5f720
+        name: M6 To Suit Steel 1.80-2.50mm Cage Nuts, Mild Steel Zinc Plated, (9.5mm
+            Square Hole Size)
+        parsed_at: '2026-10-18T08:49:26.937584+00:00'
+        parser_version: 1.2-review-policy
+        review_policy: ''
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: inclusive
+        status: ok
+        stock_as_of: 9th October 2026 10:01pm
+        stock_quantity: '22925'
+        supplier: orbitalfasteners
+        supplier_id: '1791030'
+        supplier_part_number: '1791030'
+        supplier_website: https://www.orbitalfasteners.co.uk/products/m6-to-suit-steel-1-80-2-50mm-cage-nuts-mild-steel-zinc-plated-9-5mm-square-hole-size-
+        tiers:
+        -   maximum: 499
+            minimum: 1
+            source_text: "1 - 499 \xA30.0778 Inc. VAT \xA37.78 Inc. VAT"
+            source_unit_price: '0.0778'
+            source_vat_basis: inclusive
+            unit_price: '0.0778'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 2499
+            minimum: 500
+            source_text: "500 - 2499 \xA30.0648 Inc. VAT \xA36.48 Inc. VAT"
+            source_unit_price: '0.0648'
+            source_vat_basis: inclusive
+            unit_price: '0.0648'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 2500
+            source_text: "2500 + \xA30.0583 Inc. VAT \xA35.83 Inc. VAT"
+            source_unit_price: '0.0583'
+            source_vat_basis: inclusive
+            unit_price: '0.0583'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.0778'
+        total_price_10: '0.7780'
+        total_price_100: '7.7800'
+        total_price_1000: '64.8000'
+        total_price_10000: '583.0000'
+        unit_price_1: '0.0778'
+        unit_price_10: '0.0778'
+        unit_price_100: '0.0778'
+        unit_price_1000: '0.0648'
+        unit_price_10000: '0.0583'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings: []
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: nut
+taxonomy_2_capital: Nut
+taxonomy_2_first_letter: n
+taxonomy_2_first_letter_upper: N
+taxonomy_2_length_1: n
+taxonomy_2_length_2: nu
+taxonomy_2_length_3: nut
+taxonomy_2_length_4: nut
+taxonomy_2_length_5: nut
+taxonomy_2_upper: NUT
+taxonomy_2_upper_length_1: N
+taxonomy_2_upper_length_2: NU
+taxonomy_2_upper_length_3: NUT
+taxonomy_2_upper_length_4: NUT
+taxonomy_2_upper_length_5: NUT
+taxonomy_3: m6
+taxonomy_3_capital: M6
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m6
+taxonomy_3_length_3: m6
+taxonomy_3_length_4: m6
+taxonomy_3_length_5: m6
+taxonomy_3_upper: M6
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M6
+taxonomy_3_upper_length_3: M6
+taxonomy_3_upper_length_4: M6
+taxonomy_3_upper_length_5: M6
+taxonomy_4: cage
+taxonomy_4_capital: Cage
+taxonomy_4_first_letter: c
+taxonomy_4_first_letter_upper: C
+taxonomy_4_length_1: c
+taxonomy_4_length_2: ca
+taxonomy_4_length_3: cag
+taxonomy_4_length_4: cage
+taxonomy_4_length_5: cage
+taxonomy_4_upper: CAGE
+taxonomy_4_upper_length_1: C
+taxonomy_4_upper_length_2: CA
+taxonomy_4_upper_length_3: CAG
+taxonomy_4_upper_length_4: CAGE
+taxonomy_4_upper_length_5: CAGE
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+    checked_on: '2026-10-13'
+    coordinate_system:
+        axis: +Z along bore
+        glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+        glb_units: metres
+        glb_up_axis: Y
+        origin: lower face centre
+        stl_units: mm
+    dimension_status: supplier_dimensions_with_visual_details
+    dimensional_specification: Value Fastener / Kanebridge M6-064NCAG cage-nut pattern
+    generator: supplier_cage_nut
+    length_status: not_applicable
+    material:
+        base_colour_srgb:
+        - 0.62
+        - 0.65
+        - 0.69
+        coat_roughness: 0.28
+        coat_weight: 0.02
+        metallic: 1.0
+        microtexture_height_um: 0.8
+        microtexture_spacing_mm: 0.025
+        name: Satin steel
+        note: Visual finish approximation; catalogue specifies colour only.
+        roughness: 0.26
+        roughness_variation: 0.045
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+        bearing: Bolt bearing circle and c selected within limits; k includes bearing
+            thickness; fillet tangent to shaft and bearing.
+        cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
+            bore and mouth chamfers.
+        certification: Nominal visual catalogue model, not manufacturing tolerance
+            certification.
+        chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees.
+            Bolt tip 45 degrees, P/2.
+        components: Closed separate assembly components; hidden spring omitted.
+        dimension_selection: Nominal bolt head height, max flats/nut height, nominal
+            washer sizes; selected dimensions stored in parameters.
+        display: Smooth nominal external-thread envelope or smooth minor-diameter
+            internal bore; lower angular and fillet tessellation.
+        family_note: 'M6-064NCAG: B/J/N selected at midpoint of published inch limits;
+            T from reference, converted x25.4. Internal square-nut dimensions, perpendicular
+            length, clip projection and bends are explicit visual assumptions. Separate
+            nut and spring cage; no mating bolt/panel.'
+        markings: Supplier and property-class markings omitted because catalogue does
+            not identify them.
+        runout: External one-pitch fade to plain shank; full thread ends at underhead
+            fillet.
+        thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+            rounded root H/6, internal P/4 crest and P/8 root flats.
+        unspecified_geometry: Nut mouth for supplier rows without limits and flange
+            M3/M4 thickness/rim blends are explicit visual model selections.
+    output_folder: three_d_model
+    parameters:
+        across_flats_mm: 10
+        body_height_mm: 6.35
+        body_length_mm: 13.208
+        body_width_mm: 13.208
+        characteristic_dimension_basis: hexagon across flats
+        characteristic_dimension_mm: 10
+        clip_height_mm: 2.2859999999999996
+        expected_components: 2
+        external_minor_diameter_mm: 4.773130677972045
+        family: nut
+        finish: satin
+        foot_width_mm: 3.0479999999999996
+        handedness: right
+        height_convention: total axial nut height
+        height_mm: 8.636
+        hole_chamfer_mm: 0.38466878364870316
+        hole_chamfer_slope: 1.7320508075688767
+        identity: hardware_nut_m6_cage
+        internal_minor_diameter_mm: 4.917468245269452
+        mouth_diameter_mm: 6.25
+        nominal_diameter_mm: 6.0
+        nut_height_mm: 4.5
+        nut_style: cage_nut
+        outer_chamfer_angle_degrees: 30.0
+        overall_height_mm: 8.636
+        pitch_mm: 1
+        sheet_thickness_mm: 0.508
+        specification: Value Fastener / Kanebridge M6-064NCAG cage-nut pattern
+        thread_flank_angle_degrees: 60.0
+        thread_pitch_diameter_mm: 5.350480947161671
+        thread_starts: 1
+    renders:
+        high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+        low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+        product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+        product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+    schema_version: 1
+    source_table: source_file/standards/catalogue_extensions.yaml
+    sources:
+    -   title: Value Fastener / Kanebridge cage-nut drawing, page 514, dimensions
+            in inches
+        url: https://www.valuefastener.com/documents/products/metcagenut.pdf
+    -   title: ISO 68-1:1998 basic ISO metric thread profile
+        url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+    standard: null
+    standard_lengths_mm: []
+    standard_limits: {}
+    studio:
+        adaptive_threshold: 0.015
+        denoise: true
+        device: auto
+        engine: cycles
+        exposure: 0.0
+        floor_colour_srgb:
+        - 0.93
+        - 0.935
+        - 0.94
+        floor_roughness: 0.55
+        framing_margin: 0.13
+        high_samples: 160
+        lights:
+        -   colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+        -   colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+        -   colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+        look: AgX - Medium High Contrast
+        low_samples: 48
+        poses:
+            isometric:
+                camera_eye:
+                - 1
+                - -1
+                - 1
+                orientation: principal axis Z up
+                projection: orthographic
+            product:
+                camera_eye:
+                - -6
+                - -10
+                - 6
+                orientation: resting on lower face, bore visible
+                projection: orthographic
+                resting_axis: face
+                support: Stable convex-hull support using actual mesh centre of mass.
+                yaw_degrees: -12.0
+        seed: 7991
+        view_transform: AgX
+        world_colour:
+        - 0.78
+        - 0.82
+        - 0.9
+        world_strength: 0.35
+    units: mm
+    variants:
+        display:
+            angular_segments: 24
+            fillet_segments: 3
+            samples_per_pitch: 1
+        full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
+url_chat: ''
+```
+
+</details>
+
+## Parts
+
+[Full-detail 3D model (GLB)](three_d_model/model_full.glb) · [Full-detail view drawings](three_d_model/full/) · [Drawer label (SVG)](label_drawer.svg)
+
+Full-detail and simplified display models are alternatives for the same part. GLB uses metres; STL, where supplied, uses millimetres. The [part folder](./) contains all available files.
+
+## Assembly
+
+This page documents a component rather than a complete project assembly. No installation sequence or tightening torque is specified by this record. The saved model contains 2 separate solids; consult the model notes for their interpretation.
+<!-- hardware-part:end -->

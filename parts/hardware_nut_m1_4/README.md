@@ -1,0 +1,1441 @@
+<!-- hardware-part:start -->
+# M1.4 hex nut
+
+## Summary
+
+A metric nut with a modelled internal thread. The dimensions below identify the exact catalogue variant.
+
+[Hardware catalogue](../../README.md) · [Browse this family](../../navigation_oobb/README.md#nuts)
+
+| Isometric | Product view |
+| --- | --- |
+| [![Full-detail isometric render](three_d_model/readme_isometric.png)](three_d_model/render_high.png) | [![Full-detail product view render](three_d_model/readme_product.png)](three_d_model/render_product_high.png) |
+
+Full-detail catalogue renders. Click either image to open the original resolution.
+
+## Details
+
+**OOMP ID:** `hardware_nut_m1_4`
+
+**Short code:** `4t9rz` · **Three-word label:** kitten sting snack
+
+| Model dimension | mm |
+| --- | ---: |
+| Nominal size | 1.4 |
+| Thread pitch | 0.3 |
+| Across flats | 3 |
+| Height / thickness | 1.2 |
+
+Dimensions above are values used by the saved model recipe, in millimetres. **Model basis: manufacturer dimensions.**
+
+<details>
+<summary>Model provenance and assumptions</summary>
+
+**Recorded dimensional reference:** Accu DIN 934-style supplier miniature dimensional rows
+
+**Source checked:** 2026-10-11
+
+**Visual finish:** Satin steel
+
+**Finish assumption:** Visual finish approximation; catalogue specifies colour only.
+
+**Family notes:** Catalogue family mapped to the cited dimensional pattern; exact supplier unspecified.
+
+These are saved catalogue references and modelling choices, not a claim of manufacturing certification.
+
+- [Accu HPN-M1-A1-BL miniature nut dimensional specification](https://www.accu.co.uk/hexagon-nuts/154926-HPN-M1-A1-BL)
+- [Accu HPN-M1.4-A1 miniature nut dimensional specification](https://www.accu.co.uk/hexagon-nuts/7881-HPN-M1-4-A1)
+- [ISO 68-1:1998 basic ISO metric thread profile](https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf)
+
+[Complete model recipe](three_d_model/parameters.json)
+
+</details>
+
+<details>
+<summary>Complete part metadata</summary>
+
+[Source working.yaml](working.yaml)
+
+```yaml
+bip_39_2_word_array:
+- kitten
+- sting
+bip_39_2_word_no_space: kittensting
+bip_39_2_word_space: kitten sting
+bip_39_2_word_underscore: kitten_sting
+bip_39_3_word_array:
+- kitten
+- sting
+- snack
+bip_39_3_word_no_space: kittenstingsnack
+bip_39_3_word_space: kitten sting snack
+bip_39_3_word_underscore: kitten_sting_snack
+bip_39_full_array:
+- kitten
+- sting
+- snack
+- napkin
+- rice
+- suspect
+- race
+- want
+- gather
+- width
+- danger
+- satoshi
+bip_39_full_no_space: kittenstingsnacknapkinricesuspectracewantgatherwidthdangersatoshi
+bip_39_full_space: kitten sting snack napkin rice suspect race want gather width danger
+    satoshi
+bip_39_full_underscore: kitten_sting_snack_napkin_rice_suspect_race_want_gather_width_danger_satoshi
+directory: parts/hardware_nut_m1_4
+generate_stl: true
+id: hardware_nut_m1_4
+id_no_class: hardware_nut_m1_4
+id_no_size: hardware_nut_m1_4
+id_no_type: hardware_nut_m1_4
+label_drawer: &id001
+    bip39: kitten sting snack
+    bip39_size: 2.35
+    code: NU
+    description: Nut / M1.4
+    detail_lines: []
+    detail_size: 2.05
+    detail_y: 21.1
+    diagram: <path d="M7 1.8H13L16 7L13 12.2H7L4 7Z"/><circle cx="10" cy="7" r="2.5"/>
+    drive_symbol: <path d="M5 1L8.46 3V7L5 9L1.54 7V3Z" fill="#ffffff"/>
+    length: ''
+    length_size: 7.8
+    length_x: 22.3603625
+    name: Nut
+    name_lines:
+    - Nut
+    name_size: 3.2
+    thread: M1.4
+    thread_size: 4.408
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m1_4
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m1_4
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m1_4
+md5: 7b5abf34497b93b5ac1fb7607f58dddf
+md5_10: 7b5abf3449
+md5_10_upper: 7B5ABF3449
+md5_5: 7b5ab
+md5_5_upper: 7B5AB
+md5_6: 7b5abf
+md5_6_alpha: 4t9rz
+md5_6_alpha_upper: 4T9RZ
+md5_6_upper: 7B5ABF
+name: Hardware Nut M1 4
+name_no_class: Hardware Nut M1 4
+name_no_size: Hardware Nut M1 4
+name_no_type: Hardware Nut M1 4
+name_proper: Hardware Nut M1 4
+name_space: hardware nut m1 4
+name_upper: HARDWARE NUT M1 4
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_nut_m1_4
+            name: hardware_nut_m1_4
+            name_proper: Hardware Nut M1 4
+            name_space: hardware nut m1 4
+            name_upper: HARDWARE NUT M1 4
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M1.4 hexagon full nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M1.4+hexagon+full+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M1.4 hexagon full nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M1.4+hexagon+full+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T08:44:08.052037+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m1_4/google/e2be929f4c5d4bf1ba2fefa6975366eb.yaml
+                    evidence_url: https://www.google.com/search?q=M1.4+hexagon+full+nut+steel
+                    material_evidence: 'Rapid Product Details states Material: Steel
+                        and describes the nut as galvanised steel.'
+                    product_name: Toolcraft Hexagon Nuts DIN 934 Galvanised Steel
+                        6AU M1.4 Pack Of 20
+                    reason: The supplied Google term returned Rapid Electronics Toolcraft
+                        M1.4 DIN 934 galvanized steel full hex nut; the opened product
+                        page confirms the selected thread size, form, material, and
+                        finish.
+                    result_url: https://www.rapidonline.com/toolcraft-hexagon-nuts-din-934-galvanised-steel-6au-m1-4-pack-of-20-51-3434
+                    search_evidence: Opened the Rapid Electronics result reached from
+                        the supplied Google search. Product title is Toolcraft Hexagon
+                        Nuts DIN 934 Galvanised Steel 6AU M1.4 Pack Of 20. Product
+                        details state Galvanised steel nuts, DIN 934, Type Hexagon
+                        Full Nut, Thread Size M1.4, Material Steel. The selected thread
+                        size dropdown is M1.4. Rapid Order Code 51-3434; Toolcraft
+                        MPN 828796.
+                    search_for: M1.4 hexagon full nut steel
+                    search_url: https://www.google.com/search?q=M1.4+hexagon+full+nut+steel
+                    selected_variant: Selected thread size M1.4 in the product range
+                        selector; Toolcraft MPN 828796; Rapid Order Code 51-3434;
+                        pack of 20.
+                    specification: 'Thread Size: M1.4; Type: Hexagon Full Nut; Material:
+                        Steel; Finish: Galvanised; Manufacturing Standard: DIN 934;
+                        ISO 4032.'
+                    status: verified
+            svg_details:
+                svg_name: nut
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: nut
+            taxonomy_3: m1_4
+            taxonomy_4: ''
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: manufacturer_dimensions
+                dimensional_specification: Accu DIN 934-style supplier miniature dimensional
+                    rows
+                generator: supplier_hex_nut
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Catalogue family mapped to the cited dimensional
+                        pattern; exact supplier unspecified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 3
+                    characteristic_dimension_basis: hexagon across flats
+                    characteristic_dimension_mm: 3
+                    expected_components: 1
+                    external_minor_diameter_mm: 1.0319392033916135
+                    family: nut
+                    finish: satin
+                    handedness: right
+                    height_convention: total axial nut height
+                    height_mm: 1.2
+                    hole_chamfer_mm: 0.11540063509461099
+                    hole_chamfer_slope: 1.7320508075688767
+                    identity: hardware_nut_m1_4
+                    internal_minor_diameter_mm: 1.0752404735808354
+                    mouth_diameter_mm: 1.4749999999999999
+                    nominal_diameter_mm: 1.4
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 1.2
+                    pitch_mm: 0.3
+                    specification: Accu DIN 934-style supplier miniature dimensional
+                        rows
+                    thread_flank_angle_degrees: 60.0
+                    thread_pitch_diameter_mm: 1.2051442841485012
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: Accu HPN-M1-A1-BL miniature nut dimensional specification
+                    url: https://www.accu.co.uk/hexagon-nuts/154926-HPN-M1-A1-BL
+                -   title: Accu HPN-M1.4-A1 miniature nut dimensional specification
+                    url: https://www.accu.co.uk/hexagon-nuts/7881-HPN-M1-4-A1
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: null
+                standard_lengths_mm: []
+                standard_limits:
+                    across_flats_mm:
+                    - 2.9
+                    - 3
+                    height_mm:
+                    - 0.95
+                    - 1.2
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_nut_m1_4
+            name: hardware_nut_m1_4
+            name_proper: Hardware Nut M1 4
+            name_space: hardware nut m1 4
+            name_upper: HARDWARE NUT M1 4
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_nut_m1_4
+                        name: hardware_nut_m1_4
+                        name_proper: Hardware Nut M1 4
+                        name_space: hardware nut m1 4
+                        name_upper: HARDWARE NUT M1 4
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M1.4 hexagon full nut steel
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M1.4+hexagon+full+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M1.4 hexagon full nut steel
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M1.4+hexagon+full+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T08:44:08.052037+00:00'
+                                evidence_file: support_files/evidence/hardware_nut_m1_4/google/e2be929f4c5d4bf1ba2fefa6975366eb.yaml
+                                evidence_url: https://www.google.com/search?q=M1.4+hexagon+full+nut+steel
+                                material_evidence: 'Rapid Product Details states Material:
+                                    Steel and describes the nut as galvanised steel.'
+                                product_name: Toolcraft Hexagon Nuts DIN 934 Galvanised
+                                    Steel 6AU M1.4 Pack Of 20
+                                reason: The supplied Google term returned Rapid Electronics
+                                    Toolcraft M1.4 DIN 934 galvanized steel full hex
+                                    nut; the opened product page confirms the selected
+                                    thread size, form, material, and finish.
+                                result_url: https://www.rapidonline.com/toolcraft-hexagon-nuts-din-934-galvanised-steel-6au-m1-4-pack-of-20-51-3434
+                                search_evidence: Opened the Rapid Electronics result
+                                    reached from the supplied Google search. Product
+                                    title is Toolcraft Hexagon Nuts DIN 934 Galvanised
+                                    Steel 6AU M1.4 Pack Of 20. Product details state
+                                    Galvanised steel nuts, DIN 934, Type Hexagon Full
+                                    Nut, Thread Size M1.4, Material Steel. The selected
+                                    thread size dropdown is M1.4. Rapid Order Code
+                                    51-3434; Toolcraft MPN 828796.
+                                search_for: M1.4 hexagon full nut steel
+                                search_url: https://www.google.com/search?q=M1.4+hexagon+full+nut+steel
+                                selected_variant: Selected thread size M1.4 in the
+                                    product range selector; Toolcraft MPN 828796;
+                                    Rapid Order Code 51-3434; pack of 20.
+                                specification: 'Thread Size: M1.4; Type: Hexagon Full
+                                    Nut; Material: Steel; Finish: Galvanised; Manufacturing
+                                    Standard: DIN 934; ISO 4032.'
+                                status: verified
+                        svg_details:
+                            svg_name: nut
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: nut
+                        taxonomy_3: m1_4
+                        taxonomy_4: ''
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        three_d_model_details:
+                            checked_on: '2026-10-11'
+                            coordinate_system:
+                                axis: +Z along bore
+                                glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                                glb_units: metres
+                                glb_up_axis: Y
+                                origin: lower face centre
+                                stl_units: mm
+                            dimension_status: manufacturer_dimensions
+                            dimensional_specification: Accu DIN 934-style supplier
+                                miniature dimensional rows
+                            generator: supplier_hex_nut
+                            length_status: not_applicable
+                            material:
+                                base_colour_srgb:
+                                - 0.62
+                                - 0.65
+                                - 0.69
+                                coat_roughness: 0.28
+                                coat_weight: 0.02
+                                metallic: 1.0
+                                microtexture_height_um: 0.8
+                                microtexture_spacing_mm: 0.025
+                                name: Satin steel
+                                note: Visual finish approximation; catalogue specifies
+                                    colour only.
+                                roughness: 0.26
+                                roughness_variation: 0.045
+                            model_formats:
+                            - stl
+                            - glb
+                            modelling_choices:
+                                bearing: Bolt bearing circle and c selected within
+                                    limits; k includes bearing thickness; fillet tangent
+                                    to shaft and bearing.
+                                cavity: Nut through-bore has a helical internal surface;
+                                    display keeps minor-diameter bore and mouth chamfers.
+                                certification: Nominal visual catalogue model, not
+                                    manufacturing tolerance certification.
+                                chamfer: 30 degree outer hex chamfer. Nut mouth included
+                                    angle 120 degrees. Bolt tip 45 degrees, P/2.
+                                components: One closed solid for supported products.
+                                    Unspecified lock/cage assemblies are not substituted
+                                    with plain hex nuts.
+                                dimension_selection: Nominal bolt head height, max
+                                    flats/nut height, nominal washer sizes; selected
+                                    dimensions stored in parameters.
+                                display: Smooth nominal external-thread envelope or
+                                    smooth minor-diameter internal bore; lower angular
+                                    and fillet tessellation.
+                                family_note: Catalogue family mapped to the cited
+                                    dimensional pattern; exact supplier unspecified.
+                                markings: Supplier and property-class markings omitted
+                                    because catalogue does not identify them.
+                                runout: External one-pitch fade to plain shank; full
+                                    thread ends at underhead fillet.
+                                thread: Nominal ISO basic metric profile, no ISO 965
+                                    tolerance offsets. External rounded root H/6,
+                                    internal P/4 crest and P/8 root flats.
+                                unspecified_geometry: Nut mouth for supplier rows
+                                    without limits and flange M3/M4 thickness/rim
+                                    blends are explicit visual model selections.
+                            output_folder: three_d_model
+                            parameters:
+                                across_flats_mm: 3
+                                characteristic_dimension_basis: hexagon across flats
+                                characteristic_dimension_mm: 3
+                                expected_components: 1
+                                external_minor_diameter_mm: 1.0319392033916135
+                                family: nut
+                                finish: satin
+                                handedness: right
+                                height_convention: total axial nut height
+                                height_mm: 1.2
+                                hole_chamfer_mm: 0.11540063509461099
+                                hole_chamfer_slope: 1.7320508075688767
+                                identity: hardware_nut_m1_4
+                                internal_minor_diameter_mm: 1.0752404735808354
+                                mouth_diameter_mm: 1.4749999999999999
+                                nominal_diameter_mm: 1.4
+                                outer_chamfer_angle_degrees: 30.0
+                                overall_height_mm: 1.2
+                                pitch_mm: 0.3
+                                specification: Accu DIN 934-style supplier miniature
+                                    dimensional rows
+                                thread_flank_angle_degrees: 60.0
+                                thread_pitch_diameter_mm: 1.2051442841485012
+                                thread_starts: 1
+                            renders:
+                                high:
+                                    file: render_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: isometric
+                                low:
+                                    file: render_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: isometric
+                                product_high:
+                                    file: render_product_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: product
+                                product_low:
+                                    file: render_product_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: product
+                            schema_version: 1
+                            source_table: source_file/standards/catalogue_hardware.yaml
+                            sources:
+                            -   title: Accu HPN-M1-A1-BL miniature nut dimensional
+                                    specification
+                                url: https://www.accu.co.uk/hexagon-nuts/154926-HPN-M1-A1-BL
+                            -   title: Accu HPN-M1.4-A1 miniature nut dimensional
+                                    specification
+                                url: https://www.accu.co.uk/hexagon-nuts/7881-HPN-M1-4-A1
+                            -   title: ISO 68-1:1998 basic ISO metric thread profile
+                                url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                            standard: null
+                            standard_lengths_mm: []
+                            standard_limits:
+                                across_flats_mm:
+                                - 2.9
+                                - 3
+                                height_mm:
+                                - 0.95
+                                - 1.2
+                            studio:
+                                adaptive_threshold: 0.015
+                                denoise: true
+                                device: auto
+                                engine: cycles
+                                exposure: 0.0
+                                floor_colour_srgb:
+                                - 0.93
+                                - 0.935
+                                - 0.94
+                                floor_roughness: 0.55
+                                framing_margin: 0.13
+                                high_samples: 160
+                                lights:
+                                -   colour:
+                                    - 1.0
+                                    - 0.96
+                                    - 0.9
+                                    height: 5.0
+                                    name: Key softbox
+                                    position:
+                                    - -3
+                                    - -4
+                                    - 6
+                                    power: 650.0
+                                    width: 4.0
+                                -   colour:
+                                    - 0.9
+                                    - 0.95
+                                    - 1.0
+                                    height: 4.0
+                                    name: Fill softbox
+                                    position:
+                                    - 4
+                                    - -1
+                                    - 3
+                                    power: 330.0
+                                    width: 3.0
+                                -   colour:
+                                    - 1.0
+                                    - 1.0
+                                    - 1.0
+                                    height: 5.0
+                                    name: Rim strip
+                                    position:
+                                    - 1
+                                    - 4
+                                    - 4
+                                    power: 850.0
+                                    width: 1.2
+                                look: AgX - Medium High Contrast
+                                low_samples: 48
+                                poses:
+                                    isometric:
+                                        camera_eye:
+                                        - 1
+                                        - -1
+                                        - 1
+                                        orientation: principal axis Z up
+                                        projection: orthographic
+                                    product:
+                                        camera_eye:
+                                        - -6
+                                        - -10
+                                        - 6
+                                        orientation: resting on lower face, bore visible
+                                        projection: orthographic
+                                        resting_axis: face
+                                        support: Stable convex-hull support using
+                                            actual mesh centre of mass.
+                                        yaw_degrees: -12.0
+                                seed: 7991
+                                view_transform: AgX
+                                world_colour:
+                                - 0.78
+                                - 0.82
+                                - 0.9
+                                world_strength: 0.35
+                            units: mm
+                            variants:
+                                display:
+                                    angular_segments: 24
+                                    fillet_segments: 3
+                                    samples_per_pitch: 1
+                                full:
+                                    angular_segments: 96
+                                    fillet_segments: 12
+                                    samples_per_pitch: 32
+                            views:
+                            - isometric
+                            - front
+                            - back
+                            - left
+                            - right
+                            - top
+                            - bottom
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M1.4 hexagon full nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M1.4+hexagon+full+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M1.4 hexagon full nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M1.4+hexagon+full+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T08:44:08.052037+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m1_4/google/e2be929f4c5d4bf1ba2fefa6975366eb.yaml
+                    evidence_url: https://www.google.com/search?q=M1.4+hexagon+full+nut+steel
+                    material_evidence: 'Rapid Product Details states Material: Steel
+                        and describes the nut as galvanised steel.'
+                    product_name: Toolcraft Hexagon Nuts DIN 934 Galvanised Steel
+                        6AU M1.4 Pack Of 20
+                    reason: The supplied Google term returned Rapid Electronics Toolcraft
+                        M1.4 DIN 934 galvanized steel full hex nut; the opened product
+                        page confirms the selected thread size, form, material, and
+                        finish.
+                    result_url: https://www.rapidonline.com/toolcraft-hexagon-nuts-din-934-galvanised-steel-6au-m1-4-pack-of-20-51-3434
+                    search_evidence: Opened the Rapid Electronics result reached from
+                        the supplied Google search. Product title is Toolcraft Hexagon
+                        Nuts DIN 934 Galvanised Steel 6AU M1.4 Pack Of 20. Product
+                        details state Galvanised steel nuts, DIN 934, Type Hexagon
+                        Full Nut, Thread Size M1.4, Material Steel. The selected thread
+                        size dropdown is M1.4. Rapid Order Code 51-3434; Toolcraft
+                        MPN 828796.
+                    search_for: M1.4 hexagon full nut steel
+                    search_url: https://www.google.com/search?q=M1.4+hexagon+full+nut+steel
+                    selected_variant: Selected thread size M1.4 in the product range
+                        selector; Toolcraft MPN 828796; Rapid Order Code 51-3434;
+                        pack of 20.
+                    specification: 'Thread Size: M1.4; Type: Hexagon Full Nut; Material:
+                        Steel; Finish: Galvanised; Manufacturing Standard: DIN 934;
+                        ISO 4032.'
+                    status: verified
+            svg_details:
+                svg_name: nut
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: nut
+            taxonomy_3: m1_4
+            taxonomy_4: ''
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: manufacturer_dimensions
+                dimensional_specification: Accu DIN 934-style supplier miniature dimensional
+                    rows
+                generator: supplier_hex_nut
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Catalogue family mapped to the cited dimensional
+                        pattern; exact supplier unspecified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 3
+                    characteristic_dimension_basis: hexagon across flats
+                    characteristic_dimension_mm: 3
+                    expected_components: 1
+                    external_minor_diameter_mm: 1.0319392033916135
+                    family: nut
+                    finish: satin
+                    handedness: right
+                    height_convention: total axial nut height
+                    height_mm: 1.2
+                    hole_chamfer_mm: 0.11540063509461099
+                    hole_chamfer_slope: 1.7320508075688767
+                    identity: hardware_nut_m1_4
+                    internal_minor_diameter_mm: 1.0752404735808354
+                    mouth_diameter_mm: 1.4749999999999999
+                    nominal_diameter_mm: 1.4
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 1.2
+                    pitch_mm: 0.3
+                    specification: Accu DIN 934-style supplier miniature dimensional
+                        rows
+                    thread_flank_angle_degrees: 60.0
+                    thread_pitch_diameter_mm: 1.2051442841485012
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: Accu HPN-M1-A1-BL miniature nut dimensional specification
+                    url: https://www.accu.co.uk/hexagon-nuts/154926-HPN-M1-A1-BL
+                -   title: Accu HPN-M1.4-A1 miniature nut dimensional specification
+                    url: https://www.accu.co.uk/hexagon-nuts/7881-HPN-M1-4-A1
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: null
+                standard_lengths_mm: []
+                standard_limits:
+                    across_flats_mm:
+                    - 2.9
+                    - 3
+                    height_mm:
+                    - 0.95
+                    - 1.2
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_bolt_image.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        description: label_drawer
+        dict_data:
+            label_drawer: *id001
+        file_output: label_drawer.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
+oomp_key: oomp_hardware_nut_m1_4
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M1.4 hexagon full nut steel
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M1.4+hexagon+full+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M1.4 hexagon full nut steel
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M1.4+hexagon+full+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T08:44:08.052037+00:00'
+        evidence_file: support_files/evidence/hardware_nut_m1_4/google/e2be929f4c5d4bf1ba2fefa6975366eb.yaml
+        evidence_url: https://www.google.com/search?q=M1.4+hexagon+full+nut+steel
+        material_evidence: 'Rapid Product Details states Material: Steel and describes
+            the nut as galvanised steel.'
+        product_name: Toolcraft Hexagon Nuts DIN 934 Galvanised Steel 6AU M1.4 Pack
+            Of 20
+        reason: The supplied Google term returned Rapid Electronics Toolcraft M1.4
+            DIN 934 galvanized steel full hex nut; the opened product page confirms
+            the selected thread size, form, material, and finish.
+        result_url: https://www.rapidonline.com/toolcraft-hexagon-nuts-din-934-galvanised-steel-6au-m1-4-pack-of-20-51-3434
+        search_evidence: Opened the Rapid Electronics result reached from the supplied
+            Google search. Product title is Toolcraft Hexagon Nuts DIN 934 Galvanised
+            Steel 6AU M1.4 Pack Of 20. Product details state Galvanised steel nuts,
+            DIN 934, Type Hexagon Full Nut, Thread Size M1.4, Material Steel. The
+            selected thread size dropdown is M1.4. Rapid Order Code 51-3434; Toolcraft
+            MPN 828796.
+        search_for: M1.4 hexagon full nut steel
+        search_url: https://www.google.com/search?q=M1.4+hexagon+full+nut+steel
+        selected_variant: Selected thread size M1.4 in the product range selector;
+            Toolcraft MPN 828796; Rapid Order Code 51-3434; pack of 20.
+        specification: 'Thread Size: M1.4; Type: Hexagon Full Nut; Material: Steel;
+            Finish: Galvanised; Manufacturing Standard: DIN 934; ISO 4032.'
+        status: verified
+svg_details:
+    svg_name: nut
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: nut
+taxonomy_2_capital: Nut
+taxonomy_2_first_letter: n
+taxonomy_2_first_letter_upper: N
+taxonomy_2_length_1: n
+taxonomy_2_length_2: nu
+taxonomy_2_length_3: nut
+taxonomy_2_length_4: nut
+taxonomy_2_length_5: nut
+taxonomy_2_upper: NUT
+taxonomy_2_upper_length_1: N
+taxonomy_2_upper_length_2: NU
+taxonomy_2_upper_length_3: NUT
+taxonomy_2_upper_length_4: NUT
+taxonomy_2_upper_length_5: NUT
+taxonomy_3: m1_4
+taxonomy_3_capital: M1.4
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m1
+taxonomy_3_length_3: m1_
+taxonomy_3_length_4: m1_4
+taxonomy_3_length_5: m1_4
+taxonomy_3_upper: M1_4
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M1
+taxonomy_3_upper_length_3: M1_
+taxonomy_3_upper_length_4: M1_4
+taxonomy_3_upper_length_5: M1_4
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+    checked_on: '2026-10-11'
+    coordinate_system:
+        axis: +Z along bore
+        glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+        glb_units: metres
+        glb_up_axis: Y
+        origin: lower face centre
+        stl_units: mm
+    dimension_status: manufacturer_dimensions
+    dimensional_specification: Accu DIN 934-style supplier miniature dimensional rows
+    generator: supplier_hex_nut
+    length_status: not_applicable
+    material:
+        base_colour_srgb:
+        - 0.62
+        - 0.65
+        - 0.69
+        coat_roughness: 0.28
+        coat_weight: 0.02
+        metallic: 1.0
+        microtexture_height_um: 0.8
+        microtexture_spacing_mm: 0.025
+        name: Satin steel
+        note: Visual finish approximation; catalogue specifies colour only.
+        roughness: 0.26
+        roughness_variation: 0.045
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+        bearing: Bolt bearing circle and c selected within limits; k includes bearing
+            thickness; fillet tangent to shaft and bearing.
+        cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
+            bore and mouth chamfers.
+        certification: Nominal visual catalogue model, not manufacturing tolerance
+            certification.
+        chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees.
+            Bolt tip 45 degrees, P/2.
+        components: One closed solid for supported products. Unspecified lock/cage
+            assemblies are not substituted with plain hex nuts.
+        dimension_selection: Nominal bolt head height, max flats/nut height, nominal
+            washer sizes; selected dimensions stored in parameters.
+        display: Smooth nominal external-thread envelope or smooth minor-diameter
+            internal bore; lower angular and fillet tessellation.
+        family_note: Catalogue family mapped to the cited dimensional pattern; exact
+            supplier unspecified.
+        markings: Supplier and property-class markings omitted because catalogue does
+            not identify them.
+        runout: External one-pitch fade to plain shank; full thread ends at underhead
+            fillet.
+        thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+            rounded root H/6, internal P/4 crest and P/8 root flats.
+        unspecified_geometry: Nut mouth for supplier rows without limits and flange
+            M3/M4 thickness/rim blends are explicit visual model selections.
+    output_folder: three_d_model
+    parameters:
+        across_flats_mm: 3
+        characteristic_dimension_basis: hexagon across flats
+        characteristic_dimension_mm: 3
+        expected_components: 1
+        external_minor_diameter_mm: 1.0319392033916135
+        family: nut
+        finish: satin
+        handedness: right
+        height_convention: total axial nut height
+        height_mm: 1.2
+        hole_chamfer_mm: 0.11540063509461099
+        hole_chamfer_slope: 1.7320508075688767
+        identity: hardware_nut_m1_4
+        internal_minor_diameter_mm: 1.0752404735808354
+        mouth_diameter_mm: 1.4749999999999999
+        nominal_diameter_mm: 1.4
+        outer_chamfer_angle_degrees: 30.0
+        overall_height_mm: 1.2
+        pitch_mm: 0.3
+        specification: Accu DIN 934-style supplier miniature dimensional rows
+        thread_flank_angle_degrees: 60.0
+        thread_pitch_diameter_mm: 1.2051442841485012
+        thread_starts: 1
+    renders:
+        high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+        low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+        product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+        product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+    schema_version: 1
+    source_table: source_file/standards/catalogue_hardware.yaml
+    sources:
+    -   title: Accu HPN-M1-A1-BL miniature nut dimensional specification
+        url: https://www.accu.co.uk/hexagon-nuts/154926-HPN-M1-A1-BL
+    -   title: Accu HPN-M1.4-A1 miniature nut dimensional specification
+        url: https://www.accu.co.uk/hexagon-nuts/7881-HPN-M1-4-A1
+    -   title: ISO 68-1:1998 basic ISO metric thread profile
+        url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+    standard: null
+    standard_lengths_mm: []
+    standard_limits:
+        across_flats_mm:
+        - 2.9
+        - 3
+        height_mm:
+        - 0.95
+        - 1.2
+    studio:
+        adaptive_threshold: 0.015
+        denoise: true
+        device: auto
+        engine: cycles
+        exposure: 0.0
+        floor_colour_srgb:
+        - 0.93
+        - 0.935
+        - 0.94
+        floor_roughness: 0.55
+        framing_margin: 0.13
+        high_samples: 160
+        lights:
+        -   colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+        -   colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+        -   colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+        look: AgX - Medium High Contrast
+        low_samples: 48
+        poses:
+            isometric:
+                camera_eye:
+                - 1
+                - -1
+                - 1
+                orientation: principal axis Z up
+                projection: orthographic
+            product:
+                camera_eye:
+                - -6
+                - -10
+                - 6
+                orientation: resting on lower face, bore visible
+                projection: orthographic
+                resting_axis: face
+                support: Stable convex-hull support using actual mesh centre of mass.
+                yaw_degrees: -12.0
+        seed: 7991
+        view_transform: AgX
+        world_colour:
+        - 0.78
+        - 0.82
+        - 0.9
+        world_strength: 0.35
+    units: mm
+    variants:
+        display:
+            angular_segments: 24
+            fillet_segments: 3
+            samples_per_pitch: 1
+        full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
+url_chat: ''
+```
+
+</details>
+
+## Parts
+
+[Full-detail 3D model (GLB)](three_d_model/model_full.glb) · [Full-detail view drawings](three_d_model/full/) · [Drawer label (SVG)](label_drawer.svg)
+
+Full-detail and simplified display models are alternatives for the same part. GLB uses metres; STL, where supplied, uses millimetres. The [part folder](./) contains all available files.
+
+## Assembly
+
+This page documents a component rather than a complete project assembly. No installation sequence or tightening torque is specified by this record.
+<!-- hardware-part:end -->

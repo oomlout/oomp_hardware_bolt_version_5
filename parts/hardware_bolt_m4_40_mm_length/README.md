@@ -1,0 +1,2401 @@
+<!-- hardware-part:start -->
+# M4 × 40 mm hex bolt
+
+## Summary
+
+A partially threaded hex-head fastener for bolted joints.
+
+[Hardware catalogue](../../README.md) · [Browse this family](../../navigation_oobb/README.md#bolts)
+
+| Isometric | Product view |
+| --- | --- |
+| [![Full-detail isometric render](three_d_model/readme_isometric.png)](three_d_model/render_high.png) | [![Full-detail product view render](three_d_model/readme_product.png)](three_d_model/render_product_high.png) |
+
+Full-detail catalogue renders. Click either image to open the original resolution.
+
+## Details
+
+**OOMP ID:** `hardware_bolt_m4_40_mm_length`
+
+**Short code:** `13t1y` · **Three-word label:** brisk repeat pulp
+
+| Model dimension | mm |
+| --- | ---: |
+| Nominal size | 4 |
+| Thread pitch | 0.7 |
+| Length | 40 |
+| Across flats | 7 |
+| Head height | 2.8 |
+| Modelled thread length | 14 |
+
+Length convention: under-head bearing plane to tip.
+
+Dimensions above are values used by the saved model recipe, in millimetres. **Model basis: standard dimensions.**
+
+<details>
+<summary>Model provenance and assumptions</summary>
+
+**Recorded dimensional reference:** ISO 4014:2011
+
+**Source checked:** 2026-10-11
+
+**Length status:** standard length
+
+**Visual finish:** Satin steel
+
+**Finish assumption:** Visual finish approximation; catalogue specifies colour only.
+
+**Family notes:** Catalogue family mapped to the cited dimensional pattern; exact supplier unspecified.
+
+These are saved catalogue references and modelling choices, not a claim of manufacturing certification.
+
+- [ISO 4014:2011 fourth edition, figure 1 and table 1, grades A and B](https://cdn.standards.iteh.ai/samples/56447/be5b2835974246f8868260ebe9f4d621/ISO-4014-2011.pdf)
+- [ISO 68-1:1998 basic ISO metric thread profile](https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf)
+
+[Complete model recipe](three_d_model/parameters.json)
+
+</details>
+
+<details>
+<summary>Complete part metadata</summary>
+
+[Source working.yaml](working.yaml)
+
+```yaml
+bip_39_2_word_array:
+- brisk
+- repeat
+bip_39_2_word_no_space: briskrepeat
+bip_39_2_word_space: brisk repeat
+bip_39_2_word_underscore: brisk_repeat
+bip_39_3_word_array:
+- brisk
+- repeat
+- pulp
+bip_39_3_word_no_space: briskrepeatpulp
+bip_39_3_word_space: brisk repeat pulp
+bip_39_3_word_underscore: brisk_repeat_pulp
+bip_39_full_array:
+- brisk
+- repeat
+- pulp
+- twist
+- salad
+- window
+- start
+- speak
+- dune
+- verify
+- vapor
+- business
+bip_39_full_no_space: briskrepeatpulptwistsaladwindowstartspeakduneverifyvaporbusiness
+bip_39_full_space: brisk repeat pulp twist salad window start speak dune verify vapor
+    business
+bip_39_full_underscore: brisk_repeat_pulp_twist_salad_window_start_speak_dune_verify_vapor_business
+directory: parts/hardware_bolt_m4_40_mm_length
+generate_stl: true
+id: hardware_bolt_m4_40_mm_length
+id_no_class: hardware_bolt_m4_40_mm_length
+id_no_size: hardware_bolt_m4_40_mm_length
+id_no_type: hardware_bolt_m4_40_mm_length
+label_drawer: &id001
+    bip39: brisk repeat pulp
+    bip39_size: 2.35
+    code: BO
+    description: Bolt / M4 / 40 mm / Hex head / Partial thread
+    detail_lines:
+    - Hex head / Partial
+    - thread
+    detail_size: 2.05
+    detail_y: 18.900000000000002
+    diagram: <path d="M2 3H5L6 4V10L5 11H2Z M4 3V11"/><path d="M6 5H18V9H6"/><path
+        d="M11 5L10 9 M13 5L12 9 M15 5L14 9 M17 5L16 9"/>
+    drive_symbol: <path d="M5 1L8.46 3V7L5 9L1.54 7V3Z" fill="#ffffff"/>
+    length: '40'
+    length_size: 7.8
+    length_x: 18.02234375
+    name: Bolt
+    name_lines:
+    - Bolt
+    name_size: 3.2
+    thread: M4
+    thread_size: 6.5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m4_40_mm_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m4_40_mm_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bolt_m4_40_mm_length
+md5: 1c56d6b5f5cbe5f6f52e86441e57c58f
+md5_10: 1c56d6b5f5
+md5_10_upper: 1C56D6B5F5
+md5_5: 1c56d
+md5_5_upper: 1C56D
+md5_6: 1c56d6
+md5_6_alpha: 13t1y
+md5_6_alpha_upper: 13T1Y
+md5_6_upper: 1C56D6
+name: Hardware Bolt M4 40 Mm Length
+name_no_class: Hardware Bolt M4 40 Mm Length
+name_no_size: Hardware Bolt M4 40 Mm Length
+name_no_type: Hardware Bolt M4 40 Mm Length
+name_proper: Hardware Bolt M4 40 Mm Length
+name_space: hardware bolt m4 40 mm length
+name_upper: HARDWARE BOLT M4 40 MM LENGTH
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_bolt_m4_40_mm_length
+            name: hardware_bolt_m4_40_mm_length
+            name_proper: Hardware Bolt M4 40 Mm Length
+            name_space: hardware bolt m4 40 mm length
+            name_upper: HARDWARE BOLT M4 40 MM LENGTH
+            search_data:
+                aliexpress:
+                    checked_at: '2026-10-14T12:14:55.863930+00:00'
+                    evidence_file: support_files/evidence/hardware_bolt_m4_40_mm_length/aliexpress/e3839dbf952b4a7c8200c5a38a77e343.yaml
+                    evidence_url: https://www.aliexpress.com/wholesale?SearchText=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+                    material_evidence: ''
+                    product_name: ''
+                    reason: After a one-minute pause, the Codex built-in browser site-safety
+                        policy blocked the AliExpress URL before page content could
+                        be observed. No results or product candidates were available.
+                        Stopped AliExpress lookup; no workaround was attempted.
+                    result_url: ''
+                    search_evidence: Attempted the supplied AliExpress search URL
+                        in the Codex built-in browser. The browser returned a site-safety
+                        block before acquiring authority to observe the page; there
+                        was no accessible search page or result evidence.
+                    search_for: M4 x 40 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: unresolved
+                ebay:
+                    checked_at: '2026-10-14T08:13:57.374767+00:00'
+                    evidence_file: support_files/evidence/hardware_bolt_m4_40_mm_length/ebay/7252747f473341398a6e4d5ac166a64e.yaml
+                    evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+x+40+DIN+931+hex+bolt+part+threaded+high+tensile+steel
+                    material_evidence: ''
+                    product_name: ''
+                    reason: Both completed eBay searches returned no eligible M4 x
+                        40 partially threaded DIN 931 steel bolt among the inspected
+                        results. The closest inspected listing, M4 Hex Set Screw Bolt
+                        High Tensile 8.8 Zinc BZP, was selected at 50mm and explicitly
+                        DIN 933 fully threaded; the listing's M4 x 40 option is still
+                        the wrong thread form. This records only the outcome of these
+                        exact searches, not marketplace-wide stock state.
+                    result_url: ''
+                    search_evidence: Initial query returned 2,000+ results dominated
+                        by stainless socket screws, fully threaded set screws and
+                        unrelated sizes. One refinement retained M4 x 40, DIN 931,
+                        hex bolt and part-thread intent. The inspected Fixaball listing
+                        identified its selected length as 50mm and its description
+                        as fully threaded DIN 933; its listed M4 x 40 option was also
+                        DIN 933. No eligible result was found in the results reviewed.
+                    search_for: M4 x 40 DIN 931 hex bolt part threaded high tensile
+                        steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+x+40+DIN+931+hex+bolt+part+threaded+high+tensile+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: assumed_non_stocked
+                google:
+                    checked_at: '2026-10-14T08:13:02.566566+00:00'
+                    evidence_file: support_files/evidence/hardware_bolt_m4_40_mm_length/google/f5102dc329cc412397940d80b62ea6df.yaml
+                    evidence_url: https://www.google.com/search?q=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+                    material_evidence: Steel; Class / Grade 8.8 (high tensile).
+                    product_name: "M4 x 40mm Hexagon Head Bolt \u2013 High Tensile\
+                        \ Grade 8.8 Steel, Self Colour Black, Partially Threaded,\
+                        \ DIN 931"
+                    reason: Opened the Bolt World result directly from the exact Google
+                        search. Its selected M4 and 40mm options and specifications
+                        identify a partially threaded hexagon head bolt made from
+                        high tensile grade 8.8 steel, self colour/black, to DIN 931.
+                    result_url: https://boltworld.co.uk/products/m4-x-40mm-hexagon-head-bolts-part-threaded-self-colour-grade-8-8-din-931/
+                    search_evidence: "Google result titled M4 x 40mm Hexagon Head\
+                        \ Bolt \u2013 Grade 8.8 DIN 931 Bolt World led to the opened\
+                        \ product page. Other displayed near matches included the\
+                        \ wrong length, full thread, wrong diameter and stainless\
+                        \ options; they were not selected."
+                    search_for: M4 x 40 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.google.com/search?q=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: Selected Thread Size M4 (4mm); selected Length
+                        40mm (SKU 20303.004.040).
+                    specification: 'Thread Diameter: M4; Total Length: 40mm (excluding
+                        head); Form: Hexagon head, partially threaded; Thread Length
+                        (Minimum): 14mm; Material: Steel, grade 8.8; Surface Treatment:
+                        Self Colour/Plain (product heading identifies Self Colour
+                        Black); Standard: DIN 931.'
+                    status: verified
+            spec_iso_b_125_lt_l_le_200_mm: ''
+            spec_iso_b_l_gt_200_mm: ''
+            spec_iso_b_l_le_125_mm: '14'
+            spec_iso_c_max_mm: '0.40'
+            spec_iso_c_min_mm: '0.15'
+            spec_iso_da_max_mm: '4.7'
+            spec_iso_dw_min_mm: '5.88'
+            spec_iso_e_min_mm: '7.66'
+            spec_iso_k_max_mm: '2.925'
+            spec_iso_k_min_mm: '2.675'
+            spec_iso_nominal_diameter: M4
+            spec_iso_s_max_mm: '7.00'
+            spec_iso_s_min_mm: '6.78'
+            spec_iso_thread_pitch_mm: '0.70'
+            supplier_data:
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-12T00:22:22.767179+00:00'
+                    currency: GBP
+                    html_sha256: 1c31ab69fcea35aa27a6b8dc8d7b1da11d30557674d6878371461174166697ff
+                    name: M4 x 40mm Hexagon Head Bolts Part Threaded Self Colour Grade
+                        8.8 DIN 931
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:02:18.951099+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M4 (4mm); Length (L): 40mm; Material:
+                        High Tensile (Grade 8.8); Finish: Self Colour; Hexagon Length
+                        (Max) (H): 2.8mm; Thread Length (Min): 14mm; Thread Pitch:
+                        0.7mm; Socket Size (J): 7mm; Manufacturing Standard: DIN 931;
+                        Material Specification: High Tensile (Grade 8.8); Metric or
+                        Imperial?: Metric'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 20303.004.040
+                    supplier_part_number: 20303.004.040
+                    supplier_website: https://dibolt.co.uk/products/m4-x-40mm-hexagon-head-bolts-part-threaded-self-colour-grade-8-8-din-931
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA310.98 Per 100 Units"
+                        source_unit_price: '0.1098'
+                        source_vat_basis: exclusive
+                        unit_price: '0.131760'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2,499 \xA310.43 Per 100 Units"
+                        source_unit_price: '0.1043'
+                        source_vat_basis: exclusive
+                        unit_price: '0.125160'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2500
+                        source_text: "2,500+ \xA39.88 Per 100 Units"
+                        source_unit_price: '0.0988'
+                        source_vat_basis: exclusive
+                        unit_price: '0.118560'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.131760'
+                    total_price_10: '1.317600'
+                    total_price_100: '13.176000'
+                    total_price_1000: '125.160000'
+                    total_price_10000: '1185.600000'
+                    unit_price_1: '0.131760'
+                    unit_price_10: '0.131760'
+                    unit_price_100: '0.131760'
+                    unit_price_1000: '0.125160'
+                    unit_price_10000: '0.118560'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '500'
+                    captured_at: '2026-10-12T01:41:31.725346+00:00'
+                    catalogue_page: ''
+                    currency: GBP
+                    description: ''
+                    html_sha256: e579fd421d5803e512f44142dede0bcc449facf0a6d028361cc6bd288e517f45
+                    name: M4 x 40 Hexagon Head Bolt High Tensile Grade 8.8, Bright
+                        Zinc Plated, DIN 931
+                    parsed_at: '2026-10-18T08:49:22.084098+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm More Info
+                    stock_quantity: '347'
+                    supplier: orbitalfasteners
+                    supplier_id: '1870000'
+                    supplier_part_number: '1870000'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m4x40-88-hex-bolt-bzp-box-500-din-931
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA30.0661 Inc. VAT \xA36.61 Inc. VAT"
+                        source_unit_price: '0.0661'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0661'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2499 \xA30.0414 Inc. VAT \xA34.14 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0414'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0414'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2500
+                        source_text: "2500 + \xA30.0372 Inc. VAT \xA33.72 Inc. VAT"
+                        source_unit_price: '0.0372'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0372'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0661'
+                    total_price_10: '0.6610'
+                    total_price_100: '6.6100'
+                    total_price_1000: '41.4000'
+                    total_price_10000: '372.0000'
+                    unit_price_1: '0.0661'
+                    unit_price_10: '0.0661'
+                    unit_price_100: '0.0661'
+                    unit_price_1000: '0.0414'
+                    unit_price_10000: '0.0372'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+            svg_details:
+            -   svg_b_125_lt_l_le_200_mm: ''
+                svg_b_l_gt_200_mm: ''
+                svg_b_l_le_125_mm: '14'
+                svg_c_max_mm: '0.40'
+                svg_c_min_mm: '0.15'
+                svg_da_max_mm: '4.7'
+                svg_dw_min_mm: '5.88'
+                svg_e_min_mm: '7.66'
+                svg_k_max_mm: '2.925'
+                svg_k_min_mm: '2.675'
+                svg_name: bolt
+                svg_nominal_diameter: M4
+                svg_s_max_mm: '7.00'
+                svg_s_min_mm: '6.78'
+                svg_thread_pitch_mm: '0.70'
+            -   af_mm: 7.0
+                filename: working_mechanical_drawing
+                hardware_type: bolt
+                head_height_mm: 2.925
+                id_mm: 4.0
+                length_mm: 40.0
+                part_category: HARDWARE / BOLT
+                part_code: ISO4014 / DIN931
+                part_name: ''
+                part_series: HEX HEAD BOLT
+                part_title: "M4\xD740"
+                svg_name: oomp_mech_drawing_hardware
+                thread_length_mm: 14.0
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: bolt
+            taxonomy_3: m4
+            taxonomy_4: 40_mm_length
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z towards head
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: tip centre
+                    stl_units: mm
+                dimension_status: standard_dimensions
+                dimensional_specification: ISO 4014:2011
+                generator: iso_4014_hex_bolt
+                length_status: standard_length
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Catalogue family mapped to the cited dimensional
+                        pattern; exact supplier unspecified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 7
+                    bearing_diameter_mm: 6.4
+                    bearing_height_mm: 0.25
+                    characteristic_dimension_basis: nominal axial thread diameter
+                    characteristic_dimension_mm: 4.0
+                    expected_components: 1
+                    external_minor_diameter_mm: 3.141191474580432
+                    family: bolt
+                    finish: satin
+                    handedness: right
+                    head_chamfer_height_mm: 0.31260739116964326
+                    head_height_mm: 2.8
+                    identity: hardware_bolt_m4_40_mm_length
+                    internal_minor_diameter_mm: 3.2422277716886163
+                    length_convention: under-head bearing plane to tip
+                    length_mm: 40.0
+                    nominal_diameter_mm: 4.0
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 42.8
+                    pitch_mm: 0.7
+                    plain_shank_length_mm: 25.3
+                    specification: ISO 4014:2011
+                    thread_end_z_mm: 14.7
+                    thread_flank_angle_degrees: 60.0
+                    thread_length_mm: 14.0
+                    thread_length_reference_mm: 14
+                    thread_length_table_mm:
+                    - 14
+                    - 20
+                    - 33
+                    thread_mode: partial
+                    thread_pitch_diameter_mm: 3.5453366630131695
+                    thread_runout_mm: 0.7
+                    thread_starts: 1
+                    tip_chamfer_mm: 0.35
+                    underhead_fillet_mm: 0.2
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: ISO 4014:2011 fourth edition, figure 1 and table 1, grades
+                        A and B
+                    url: https://cdn.standards.iteh.ai/samples/56447/be5b2835974246f8868260ebe9f4d621/ISO-4014-2011.pdf
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: ISO 4014:2011
+                standard_lengths_mm:
+                - 25
+                - 30
+                - 35
+                - 40
+                - 45
+                - 50
+                - 55
+                - 60
+                - 65
+                - 70
+                - 80
+                - 90
+                - 100
+                - 110
+                - 120
+                - 130
+                - 140
+                - 150
+                standard_limits:
+                    across_corners_min_mm: 7.66
+                    across_flats_mm:
+                    - 6.78
+                    - 7
+                    bearing_diameter_min_mm: 5.88
+                    head_height_mm:
+                    - 2.675
+                    - 2.925
+                    incomplete_thread_max_mm: 1.4
+                    outer_chamfer_angle_degrees:
+                    - 15
+                    - 30
+                    product_grade: A
+                    underhead_fillet_min_mm: 0.2
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: lying on side, axial end to left
+                            projection: orthographic
+                            resting_axis: side
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_bolt_m4_40_mm_length
+            name: hardware_bolt_m4_40_mm_length
+            name_proper: Hardware Bolt M4 40 Mm Length
+            name_space: hardware bolt m4 40 mm length
+            name_upper: HARDWARE BOLT M4 40 MM LENGTH
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_bolt_m4_40_mm_length
+                        name: hardware_bolt_m4_40_mm_length
+                        name_proper: Hardware Bolt M4 40 Mm Length
+                        name_space: hardware bolt m4 40 mm length
+                        name_upper: HARDWARE BOLT M4 40 MM LENGTH
+                        search_data:
+                            aliexpress:
+                                checked_at: '2026-10-14T12:14:55.863930+00:00'
+                                evidence_file: support_files/evidence/hardware_bolt_m4_40_mm_length/aliexpress/e3839dbf952b4a7c8200c5a38a77e343.yaml
+                                evidence_url: https://www.aliexpress.com/wholesale?SearchText=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+                                material_evidence: ''
+                                product_name: ''
+                                reason: After a one-minute pause, the Codex built-in
+                                    browser site-safety policy blocked the AliExpress
+                                    URL before page content could be observed. No
+                                    results or product candidates were available.
+                                    Stopped AliExpress lookup; no workaround was attempted.
+                                result_url: ''
+                                search_evidence: Attempted the supplied AliExpress
+                                    search URL in the Codex built-in browser. The
+                                    browser returned a site-safety block before acquiring
+                                    authority to observe the page; there was no accessible
+                                    search page or result evidence.
+                                search_for: M4 x 40 hex head part threaded bolt DIN
+                                    931 steel
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: unresolved
+                            ebay:
+                                checked_at: '2026-10-14T08:13:57.374767+00:00'
+                                evidence_file: support_files/evidence/hardware_bolt_m4_40_mm_length/ebay/7252747f473341398a6e4d5ac166a64e.yaml
+                                evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+x+40+DIN+931+hex+bolt+part+threaded+high+tensile+steel
+                                material_evidence: ''
+                                product_name: ''
+                                reason: Both completed eBay searches returned no eligible
+                                    M4 x 40 partially threaded DIN 931 steel bolt
+                                    among the inspected results. The closest inspected
+                                    listing, M4 Hex Set Screw Bolt High Tensile 8.8
+                                    Zinc BZP, was selected at 50mm and explicitly
+                                    DIN 933 fully threaded; the listing's M4 x 40
+                                    option is still the wrong thread form. This records
+                                    only the outcome of these exact searches, not
+                                    marketplace-wide stock state.
+                                result_url: ''
+                                search_evidence: Initial query returned 2,000+ results
+                                    dominated by stainless socket screws, fully threaded
+                                    set screws and unrelated sizes. One refinement
+                                    retained M4 x 40, DIN 931, hex bolt and part-thread
+                                    intent. The inspected Fixaball listing identified
+                                    its selected length as 50mm and its description
+                                    as fully threaded DIN 933; its listed M4 x 40
+                                    option was also DIN 933. No eligible result was
+                                    found in the results reviewed.
+                                search_for: M4 x 40 DIN 931 hex bolt part threaded
+                                    high tensile steel
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+x+40+DIN+931+hex+bolt+part+threaded+high+tensile+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: assumed_non_stocked
+                            google:
+                                checked_at: '2026-10-14T08:13:02.566566+00:00'
+                                evidence_file: support_files/evidence/hardware_bolt_m4_40_mm_length/google/f5102dc329cc412397940d80b62ea6df.yaml
+                                evidence_url: https://www.google.com/search?q=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+                                material_evidence: Steel; Class / Grade 8.8 (high
+                                    tensile).
+                                product_name: "M4 x 40mm Hexagon Head Bolt \u2013\
+                                    \ High Tensile Grade 8.8 Steel, Self Colour Black,\
+                                    \ Partially Threaded, DIN 931"
+                                reason: Opened the Bolt World result directly from
+                                    the exact Google search. Its selected M4 and 40mm
+                                    options and specifications identify a partially
+                                    threaded hexagon head bolt made from high tensile
+                                    grade 8.8 steel, self colour/black, to DIN 931.
+                                result_url: https://boltworld.co.uk/products/m4-x-40mm-hexagon-head-bolts-part-threaded-self-colour-grade-8-8-din-931/
+                                search_evidence: "Google result titled M4 x 40mm Hexagon\
+                                    \ Head Bolt \u2013 Grade 8.8 DIN 931 Bolt World\
+                                    \ led to the opened product page. Other displayed\
+                                    \ near matches included the wrong length, full\
+                                    \ thread, wrong diameter and stainless options;\
+                                    \ they were not selected."
+                                search_for: M4 x 40 hex head part threaded bolt DIN
+                                    931 steel
+                                search_url: https://www.google.com/search?q=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+                                selected_variant: Selected Thread Size M4 (4mm); selected
+                                    Length 40mm (SKU 20303.004.040).
+                                specification: 'Thread Diameter: M4; Total Length:
+                                    40mm (excluding head); Form: Hexagon head, partially
+                                    threaded; Thread Length (Minimum): 14mm; Material:
+                                    Steel, grade 8.8; Surface Treatment: Self Colour/Plain
+                                    (product heading identifies Self Colour Black);
+                                    Standard: DIN 931.'
+                                status: verified
+                        spec_iso_b_125_lt_l_le_200_mm: ''
+                        spec_iso_b_l_gt_200_mm: ''
+                        spec_iso_b_l_le_125_mm: '14'
+                        spec_iso_c_max_mm: '0.40'
+                        spec_iso_c_min_mm: '0.15'
+                        spec_iso_da_max_mm: '4.7'
+                        spec_iso_dw_min_mm: '5.88'
+                        spec_iso_e_min_mm: '7.66'
+                        spec_iso_k_max_mm: '2.925'
+                        spec_iso_k_min_mm: '2.675'
+                        spec_iso_nominal_diameter: M4
+                        spec_iso_s_max_mm: '7.00'
+                        spec_iso_s_min_mm: '6.78'
+                        spec_iso_thread_pitch_mm: '0.70'
+                        supplier_data:
+                            dibolt:
+                                accepted_warnings: '["Dibolt per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-12T00:22:22.767179+00:00'
+                                currency: GBP
+                                html_sha256: 1c31ab69fcea35aa27a6b8dc8d7b1da11d30557674d6878371461174166697ff
+                                name: M4 x 40mm Hexagon Head Bolts Part Threaded Self
+                                    Colour Grade 8.8 DIN 931
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:02:18.951099+00:00'
+                                parser_version: dibolt-1.3-missing-price-review
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept the precision
+                                    of rounded displayed per-100 prices."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: 'Thread Size: M4 (4mm); Length (L):
+                                    40mm; Material: High Tensile (Grade 8.8); Finish:
+                                    Self Colour; Hexagon Length (Max) (H): 2.8mm;
+                                    Thread Length (Min): 14mm; Thread Pitch: 0.7mm;
+                                    Socket Size (J): 7mm; Manufacturing Standard:
+                                    DIN 931; Material Specification: High Tensile
+                                    (Grade 8.8); Metric or Imperial?: Metric'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: dibolt
+                                supplier_id: 20303.004.040
+                                supplier_part_number: 20303.004.040
+                                supplier_website: https://dibolt.co.uk/products/m4-x-40mm-hexagon-head-bolts-part-threaded-self-colour-grade-8-8-din-931
+                                tiers:
+                                -   maximum: 499
+                                    minimum: 1
+                                    source_text: "1 - 499 \xA310.98 Per 100 Units"
+                                    source_unit_price: '0.1098'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.131760'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 2499
+                                    minimum: 500
+                                    source_text: "500 - 2,499 \xA310.43 Per 100 Units"
+                                    source_unit_price: '0.1043'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.125160'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 2500
+                                    source_text: "2,500+ \xA39.88 Per 100 Units"
+                                    source_unit_price: '0.0988'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.118560'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.131760'
+                                total_price_10: '1.317600'
+                                total_price_100: '13.176000'
+                                total_price_1000: '125.160000'
+                                total_price_10000: '1185.600000'
+                                unit_price_1: '0.131760'
+                                unit_price_10: '0.131760'
+                                unit_price_100: '0.131760'
+                                unit_price_1000: '0.125160'
+                                unit_price_10000: '0.118560'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Dibolt per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
+                            orbitalfasteners:
+                                accepted_warnings: '[]'
+                                box_quantity: '500'
+                                captured_at: '2026-10-12T01:41:31.725346+00:00'
+                                catalogue_page: ''
+                                currency: GBP
+                                description: ''
+                                html_sha256: e579fd421d5803e512f44142dede0bcc449facf0a6d028361cc6bd288e517f45
+                                name: M4 x 40 Hexagon Head Bolt High Tensile Grade
+                                    8.8, Bright Zinc Plated, DIN 931
+                                parsed_at: '2026-10-18T08:49:22.084098+00:00'
+                                parser_version: 1.2-review-policy
+                                review_policy: ''
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: inclusive
+                                status: ok
+                                stock_as_of: 9th October 2026 10:01pm More Info
+                                stock_quantity: '347'
+                                supplier: orbitalfasteners
+                                supplier_id: '1870000'
+                                supplier_part_number: '1870000'
+                                supplier_website: https://www.orbitalfasteners.co.uk/products/m4x40-88-hex-bolt-bzp-box-500-din-931
+                                tiers:
+                                -   maximum: 499
+                                    minimum: 1
+                                    source_text: "1 - 499 \xA30.0661 Inc. VAT \xA3\
+                                        6.61 Inc. VAT"
+                                    source_unit_price: '0.0661'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0661'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 2499
+                                    minimum: 500
+                                    source_text: "500 - 2499 \xA30.0414 Inc. VAT \xA3\
+                                        4.14 Inc. VAT"
+                                    source_unit_price: '0.0414'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0414'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 2500
+                                    source_text: "2500 + \xA30.0372 Inc. VAT \xA3\
+                                        3.72 Inc. VAT"
+                                    source_unit_price: '0.0372'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0372'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.0661'
+                                total_price_10: '0.6610'
+                                total_price_100: '6.6100'
+                                total_price_1000: '41.4000'
+                                total_price_10000: '372.0000'
+                                unit_price_1: '0.0661'
+                                unit_price_10: '0.0661'
+                                unit_price_100: '0.0661'
+                                unit_price_1000: '0.0414'
+                                unit_price_10000: '0.0372'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings: []
+                        svg_details:
+                        -   svg_b_125_lt_l_le_200_mm: ''
+                            svg_b_l_gt_200_mm: ''
+                            svg_b_l_le_125_mm: '14'
+                            svg_c_max_mm: '0.40'
+                            svg_c_min_mm: '0.15'
+                            svg_da_max_mm: '4.7'
+                            svg_dw_min_mm: '5.88'
+                            svg_e_min_mm: '7.66'
+                            svg_k_max_mm: '2.925'
+                            svg_k_min_mm: '2.675'
+                            svg_name: bolt
+                            svg_nominal_diameter: M4
+                            svg_s_max_mm: '7.00'
+                            svg_s_min_mm: '6.78'
+                            svg_thread_pitch_mm: '0.70'
+                        -   af_mm: 7.0
+                            filename: working_mechanical_drawing
+                            hardware_type: bolt
+                            head_height_mm: 2.925
+                            id_mm: 4.0
+                            length_mm: 40.0
+                            part_category: HARDWARE / BOLT
+                            part_code: ISO4014 / DIN931
+                            part_name: ''
+                            part_series: HEX HEAD BOLT
+                            part_title: "M4\xD740"
+                            svg_name: oomp_mech_drawing_hardware
+                            thread_length_mm: 14.0
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: bolt
+                        taxonomy_3: m4
+                        taxonomy_4: 40_mm_length
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        three_d_model_details:
+                            checked_on: '2026-10-11'
+                            coordinate_system:
+                                axis: +Z towards head
+                                glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                                glb_units: metres
+                                glb_up_axis: Y
+                                origin: tip centre
+                                stl_units: mm
+                            dimension_status: standard_dimensions
+                            dimensional_specification: ISO 4014:2011
+                            generator: iso_4014_hex_bolt
+                            length_status: standard_length
+                            material:
+                                base_colour_srgb:
+                                - 0.62
+                                - 0.65
+                                - 0.69
+                                coat_roughness: 0.28
+                                coat_weight: 0.02
+                                metallic: 1.0
+                                microtexture_height_um: 0.8
+                                microtexture_spacing_mm: 0.025
+                                name: Satin steel
+                                note: Visual finish approximation; catalogue specifies
+                                    colour only.
+                                roughness: 0.26
+                                roughness_variation: 0.045
+                            model_formats:
+                            - stl
+                            - glb
+                            modelling_choices:
+                                bearing: Bolt bearing circle and c selected within
+                                    limits; k includes bearing thickness; fillet tangent
+                                    to shaft and bearing.
+                                cavity: Nut through-bore has a helical internal surface;
+                                    display keeps minor-diameter bore and mouth chamfers.
+                                certification: Nominal visual catalogue model, not
+                                    manufacturing tolerance certification.
+                                chamfer: 30 degree outer hex chamfer. Nut mouth included
+                                    angle 120 degrees. Bolt tip 45 degrees, P/2.
+                                components: One closed solid for supported products.
+                                    Unspecified lock/cage assemblies are not substituted
+                                    with plain hex nuts.
+                                dimension_selection: Nominal bolt head height, max
+                                    flats/nut height, nominal washer sizes; selected
+                                    dimensions stored in parameters.
+                                display: Smooth nominal external-thread envelope or
+                                    smooth minor-diameter internal bore; lower angular
+                                    and fillet tessellation.
+                                family_note: Catalogue family mapped to the cited
+                                    dimensional pattern; exact supplier unspecified.
+                                markings: Supplier and property-class markings omitted
+                                    because catalogue does not identify them.
+                                runout: External one-pitch fade to plain shank; full
+                                    thread ends at underhead fillet.
+                                thread: Nominal ISO basic metric profile, no ISO 965
+                                    tolerance offsets. External rounded root H/6,
+                                    internal P/4 crest and P/8 root flats.
+                                unspecified_geometry: Nut mouth for supplier rows
+                                    without limits and flange M3/M4 thickness/rim
+                                    blends are explicit visual model selections.
+                            output_folder: three_d_model
+                            parameters:
+                                across_flats_mm: 7
+                                bearing_diameter_mm: 6.4
+                                bearing_height_mm: 0.25
+                                characteristic_dimension_basis: nominal axial thread
+                                    diameter
+                                characteristic_dimension_mm: 4.0
+                                expected_components: 1
+                                external_minor_diameter_mm: 3.141191474580432
+                                family: bolt
+                                finish: satin
+                                handedness: right
+                                head_chamfer_height_mm: 0.31260739116964326
+                                head_height_mm: 2.8
+                                identity: hardware_bolt_m4_40_mm_length
+                                internal_minor_diameter_mm: 3.2422277716886163
+                                length_convention: under-head bearing plane to tip
+                                length_mm: 40.0
+                                nominal_diameter_mm: 4.0
+                                outer_chamfer_angle_degrees: 30.0
+                                overall_height_mm: 42.8
+                                pitch_mm: 0.7
+                                plain_shank_length_mm: 25.3
+                                specification: ISO 4014:2011
+                                thread_end_z_mm: 14.7
+                                thread_flank_angle_degrees: 60.0
+                                thread_length_mm: 14.0
+                                thread_length_reference_mm: 14
+                                thread_length_table_mm:
+                                - 14
+                                - 20
+                                - 33
+                                thread_mode: partial
+                                thread_pitch_diameter_mm: 3.5453366630131695
+                                thread_runout_mm: 0.7
+                                thread_starts: 1
+                                tip_chamfer_mm: 0.35
+                                underhead_fillet_mm: 0.2
+                            renders:
+                                high:
+                                    file: render_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: isometric
+                                low:
+                                    file: render_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: isometric
+                                product_high:
+                                    file: render_product_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: product
+                                product_low:
+                                    file: render_product_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: product
+                            schema_version: 1
+                            source_table: source_file/standards/catalogue_hardware.yaml
+                            sources:
+                            -   title: ISO 4014:2011 fourth edition, figure 1 and
+                                    table 1, grades A and B
+                                url: https://cdn.standards.iteh.ai/samples/56447/be5b2835974246f8868260ebe9f4d621/ISO-4014-2011.pdf
+                            -   title: ISO 68-1:1998 basic ISO metric thread profile
+                                url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                            standard: ISO 4014:2011
+                            standard_lengths_mm:
+                            - 25
+                            - 30
+                            - 35
+                            - 40
+                            - 45
+                            - 50
+                            - 55
+                            - 60
+                            - 65
+                            - 70
+                            - 80
+                            - 90
+                            - 100
+                            - 110
+                            - 120
+                            - 130
+                            - 140
+                            - 150
+                            standard_limits:
+                                across_corners_min_mm: 7.66
+                                across_flats_mm:
+                                - 6.78
+                                - 7
+                                bearing_diameter_min_mm: 5.88
+                                head_height_mm:
+                                - 2.675
+                                - 2.925
+                                incomplete_thread_max_mm: 1.4
+                                outer_chamfer_angle_degrees:
+                                - 15
+                                - 30
+                                product_grade: A
+                                underhead_fillet_min_mm: 0.2
+                            studio:
+                                adaptive_threshold: 0.015
+                                denoise: true
+                                device: auto
+                                engine: cycles
+                                exposure: 0.0
+                                floor_colour_srgb:
+                                - 0.93
+                                - 0.935
+                                - 0.94
+                                floor_roughness: 0.55
+                                framing_margin: 0.13
+                                high_samples: 160
+                                lights:
+                                -   colour:
+                                    - 1.0
+                                    - 0.96
+                                    - 0.9
+                                    height: 5.0
+                                    name: Key softbox
+                                    position:
+                                    - -3
+                                    - -4
+                                    - 6
+                                    power: 650.0
+                                    width: 4.0
+                                -   colour:
+                                    - 0.9
+                                    - 0.95
+                                    - 1.0
+                                    height: 4.0
+                                    name: Fill softbox
+                                    position:
+                                    - 4
+                                    - -1
+                                    - 3
+                                    power: 330.0
+                                    width: 3.0
+                                -   colour:
+                                    - 1.0
+                                    - 1.0
+                                    - 1.0
+                                    height: 5.0
+                                    name: Rim strip
+                                    position:
+                                    - 1
+                                    - 4
+                                    - 4
+                                    power: 850.0
+                                    width: 1.2
+                                look: AgX - Medium High Contrast
+                                low_samples: 48
+                                poses:
+                                    isometric:
+                                        camera_eye:
+                                        - 1
+                                        - -1
+                                        - 1
+                                        orientation: principal axis Z up
+                                        projection: orthographic
+                                    product:
+                                        camera_eye:
+                                        - -6
+                                        - -10
+                                        - 6
+                                        orientation: lying on side, axial end to left
+                                        projection: orthographic
+                                        resting_axis: side
+                                        support: Stable convex-hull support using
+                                            actual mesh centre of mass.
+                                        yaw_degrees: -12.0
+                                seed: 7991
+                                view_transform: AgX
+                                world_colour:
+                                - 0.78
+                                - 0.82
+                                - 0.9
+                                world_strength: 0.35
+                            units: mm
+                            variants:
+                                display:
+                                    angular_segments: 24
+                                    fillet_segments: 3
+                                    samples_per_pitch: 1
+                                full:
+                                    angular_segments: 96
+                                    fillet_segments: 12
+                                    samples_per_pitch: 32
+                            views:
+                            - isometric
+                            - front
+                            - back
+                            - left
+                            - right
+                            - top
+                            - bottom
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: '2026-10-14T12:14:55.863930+00:00'
+                    evidence_file: support_files/evidence/hardware_bolt_m4_40_mm_length/aliexpress/e3839dbf952b4a7c8200c5a38a77e343.yaml
+                    evidence_url: https://www.aliexpress.com/wholesale?SearchText=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+                    material_evidence: ''
+                    product_name: ''
+                    reason: After a one-minute pause, the Codex built-in browser site-safety
+                        policy blocked the AliExpress URL before page content could
+                        be observed. No results or product candidates were available.
+                        Stopped AliExpress lookup; no workaround was attempted.
+                    result_url: ''
+                    search_evidence: Attempted the supplied AliExpress search URL
+                        in the Codex built-in browser. The browser returned a site-safety
+                        block before acquiring authority to observe the page; there
+                        was no accessible search page or result evidence.
+                    search_for: M4 x 40 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: unresolved
+                ebay:
+                    checked_at: '2026-10-14T08:13:57.374767+00:00'
+                    evidence_file: support_files/evidence/hardware_bolt_m4_40_mm_length/ebay/7252747f473341398a6e4d5ac166a64e.yaml
+                    evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+x+40+DIN+931+hex+bolt+part+threaded+high+tensile+steel
+                    material_evidence: ''
+                    product_name: ''
+                    reason: Both completed eBay searches returned no eligible M4 x
+                        40 partially threaded DIN 931 steel bolt among the inspected
+                        results. The closest inspected listing, M4 Hex Set Screw Bolt
+                        High Tensile 8.8 Zinc BZP, was selected at 50mm and explicitly
+                        DIN 933 fully threaded; the listing's M4 x 40 option is still
+                        the wrong thread form. This records only the outcome of these
+                        exact searches, not marketplace-wide stock state.
+                    result_url: ''
+                    search_evidence: Initial query returned 2,000+ results dominated
+                        by stainless socket screws, fully threaded set screws and
+                        unrelated sizes. One refinement retained M4 x 40, DIN 931,
+                        hex bolt and part-thread intent. The inspected Fixaball listing
+                        identified its selected length as 50mm and its description
+                        as fully threaded DIN 933; its listed M4 x 40 option was also
+                        DIN 933. No eligible result was found in the results reviewed.
+                    search_for: M4 x 40 DIN 931 hex bolt part threaded high tensile
+                        steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+x+40+DIN+931+hex+bolt+part+threaded+high+tensile+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: assumed_non_stocked
+                google:
+                    checked_at: '2026-10-14T08:13:02.566566+00:00'
+                    evidence_file: support_files/evidence/hardware_bolt_m4_40_mm_length/google/f5102dc329cc412397940d80b62ea6df.yaml
+                    evidence_url: https://www.google.com/search?q=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+                    material_evidence: Steel; Class / Grade 8.8 (high tensile).
+                    product_name: "M4 x 40mm Hexagon Head Bolt \u2013 High Tensile\
+                        \ Grade 8.8 Steel, Self Colour Black, Partially Threaded,\
+                        \ DIN 931"
+                    reason: Opened the Bolt World result directly from the exact Google
+                        search. Its selected M4 and 40mm options and specifications
+                        identify a partially threaded hexagon head bolt made from
+                        high tensile grade 8.8 steel, self colour/black, to DIN 931.
+                    result_url: https://boltworld.co.uk/products/m4-x-40mm-hexagon-head-bolts-part-threaded-self-colour-grade-8-8-din-931/
+                    search_evidence: "Google result titled M4 x 40mm Hexagon Head\
+                        \ Bolt \u2013 Grade 8.8 DIN 931 Bolt World led to the opened\
+                        \ product page. Other displayed near matches included the\
+                        \ wrong length, full thread, wrong diameter and stainless\
+                        \ options; they were not selected."
+                    search_for: M4 x 40 hex head part threaded bolt DIN 931 steel
+                    search_url: https://www.google.com/search?q=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+                    selected_variant: Selected Thread Size M4 (4mm); selected Length
+                        40mm (SKU 20303.004.040).
+                    specification: 'Thread Diameter: M4; Total Length: 40mm (excluding
+                        head); Form: Hexagon head, partially threaded; Thread Length
+                        (Minimum): 14mm; Material: Steel, grade 8.8; Surface Treatment:
+                        Self Colour/Plain (product heading identifies Self Colour
+                        Black); Standard: DIN 931.'
+                    status: verified
+            spec_iso_b_125_lt_l_le_200_mm: ''
+            spec_iso_b_l_gt_200_mm: ''
+            spec_iso_b_l_le_125_mm: '14'
+            spec_iso_c_max_mm: '0.40'
+            spec_iso_c_min_mm: '0.15'
+            spec_iso_da_max_mm: '4.7'
+            spec_iso_dw_min_mm: '5.88'
+            spec_iso_e_min_mm: '7.66'
+            spec_iso_k_max_mm: '2.925'
+            spec_iso_k_min_mm: '2.675'
+            spec_iso_nominal_diameter: M4
+            spec_iso_s_max_mm: '7.00'
+            spec_iso_s_min_mm: '6.78'
+            spec_iso_thread_pitch_mm: '0.70'
+            supplier_data:
+                dibolt:
+                    accepted_warnings: '["Dibolt per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-12T00:22:22.767179+00:00'
+                    currency: GBP
+                    html_sha256: 1c31ab69fcea35aa27a6b8dc8d7b1da11d30557674d6878371461174166697ff
+                    name: M4 x 40mm Hexagon Head Bolts Part Threaded Self Colour Grade
+                        8.8 DIN 931
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:02:18.951099+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept the precision of rounded
+                        displayed per-100 prices."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M4 (4mm); Length (L): 40mm; Material:
+                        High Tensile (Grade 8.8); Finish: Self Colour; Hexagon Length
+                        (Max) (H): 2.8mm; Thread Length (Min): 14mm; Thread Pitch:
+                        0.7mm; Socket Size (J): 7mm; Manufacturing Standard: DIN 931;
+                        Material Specification: High Tensile (Grade 8.8); Metric or
+                        Imperial?: Metric'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 20303.004.040
+                    supplier_part_number: 20303.004.040
+                    supplier_website: https://dibolt.co.uk/products/m4-x-40mm-hexagon-head-bolts-part-threaded-self-colour-grade-8-8-din-931
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA310.98 Per 100 Units"
+                        source_unit_price: '0.1098'
+                        source_vat_basis: exclusive
+                        unit_price: '0.131760'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2,499 \xA310.43 Per 100 Units"
+                        source_unit_price: '0.1043'
+                        source_vat_basis: exclusive
+                        unit_price: '0.125160'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2500
+                        source_text: "2,500+ \xA39.88 Per 100 Units"
+                        source_unit_price: '0.0988'
+                        source_vat_basis: exclusive
+                        unit_price: '0.118560'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.131760'
+                    total_price_10: '1.317600'
+                    total_price_100: '13.176000'
+                    total_price_1000: '125.160000'
+                    total_price_10000: '1185.600000'
+                    unit_price_1: '0.131760'
+                    unit_price_10: '0.131760'
+                    unit_price_100: '0.131760'
+                    unit_price_1000: '0.125160'
+                    unit_price_10000: '0.118560'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '500'
+                    captured_at: '2026-10-12T01:41:31.725346+00:00'
+                    catalogue_page: ''
+                    currency: GBP
+                    description: ''
+                    html_sha256: e579fd421d5803e512f44142dede0bcc449facf0a6d028361cc6bd288e517f45
+                    name: M4 x 40 Hexagon Head Bolt High Tensile Grade 8.8, Bright
+                        Zinc Plated, DIN 931
+                    parsed_at: '2026-10-18T08:49:22.084098+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:01pm More Info
+                    stock_quantity: '347'
+                    supplier: orbitalfasteners
+                    supplier_id: '1870000'
+                    supplier_part_number: '1870000'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m4x40-88-hex-bolt-bzp-box-500-din-931
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA30.0661 Inc. VAT \xA36.61 Inc. VAT"
+                        source_unit_price: '0.0661'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0661'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2499 \xA30.0414 Inc. VAT \xA34.14 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0414'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0414'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2500
+                        source_text: "2500 + \xA30.0372 Inc. VAT \xA33.72 Inc. VAT"
+                        source_unit_price: '0.0372'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0372'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0661'
+                    total_price_10: '0.6610'
+                    total_price_100: '6.6100'
+                    total_price_1000: '41.4000'
+                    total_price_10000: '372.0000'
+                    unit_price_1: '0.0661'
+                    unit_price_10: '0.0661'
+                    unit_price_100: '0.0661'
+                    unit_price_1000: '0.0414'
+                    unit_price_10000: '0.0372'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+            svg_details:
+            -   svg_b_125_lt_l_le_200_mm: ''
+                svg_b_l_gt_200_mm: ''
+                svg_b_l_le_125_mm: '14'
+                svg_c_max_mm: '0.40'
+                svg_c_min_mm: '0.15'
+                svg_da_max_mm: '4.7'
+                svg_dw_min_mm: '5.88'
+                svg_e_min_mm: '7.66'
+                svg_k_max_mm: '2.925'
+                svg_k_min_mm: '2.675'
+                svg_name: bolt
+                svg_nominal_diameter: M4
+                svg_s_max_mm: '7.00'
+                svg_s_min_mm: '6.78'
+                svg_thread_pitch_mm: '0.70'
+            -   af_mm: 7.0
+                filename: working_mechanical_drawing
+                hardware_type: bolt
+                head_height_mm: 2.925
+                id_mm: 4.0
+                length_mm: 40.0
+                part_category: HARDWARE / BOLT
+                part_code: ISO4014 / DIN931
+                part_name: ''
+                part_series: HEX HEAD BOLT
+                part_title: "M4\xD740"
+                svg_name: oomp_mech_drawing_hardware
+                thread_length_mm: 14.0
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: bolt
+            taxonomy_3: m4
+            taxonomy_4: 40_mm_length
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z towards head
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: tip centre
+                    stl_units: mm
+                dimension_status: standard_dimensions
+                dimensional_specification: ISO 4014:2011
+                generator: iso_4014_hex_bolt
+                length_status: standard_length
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Catalogue family mapped to the cited dimensional
+                        pattern; exact supplier unspecified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 7
+                    bearing_diameter_mm: 6.4
+                    bearing_height_mm: 0.25
+                    characteristic_dimension_basis: nominal axial thread diameter
+                    characteristic_dimension_mm: 4.0
+                    expected_components: 1
+                    external_minor_diameter_mm: 3.141191474580432
+                    family: bolt
+                    finish: satin
+                    handedness: right
+                    head_chamfer_height_mm: 0.31260739116964326
+                    head_height_mm: 2.8
+                    identity: hardware_bolt_m4_40_mm_length
+                    internal_minor_diameter_mm: 3.2422277716886163
+                    length_convention: under-head bearing plane to tip
+                    length_mm: 40.0
+                    nominal_diameter_mm: 4.0
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 42.8
+                    pitch_mm: 0.7
+                    plain_shank_length_mm: 25.3
+                    specification: ISO 4014:2011
+                    thread_end_z_mm: 14.7
+                    thread_flank_angle_degrees: 60.0
+                    thread_length_mm: 14.0
+                    thread_length_reference_mm: 14
+                    thread_length_table_mm:
+                    - 14
+                    - 20
+                    - 33
+                    thread_mode: partial
+                    thread_pitch_diameter_mm: 3.5453366630131695
+                    thread_runout_mm: 0.7
+                    thread_starts: 1
+                    tip_chamfer_mm: 0.35
+                    underhead_fillet_mm: 0.2
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: ISO 4014:2011 fourth edition, figure 1 and table 1, grades
+                        A and B
+                    url: https://cdn.standards.iteh.ai/samples/56447/be5b2835974246f8868260ebe9f4d621/ISO-4014-2011.pdf
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: ISO 4014:2011
+                standard_lengths_mm:
+                - 25
+                - 30
+                - 35
+                - 40
+                - 45
+                - 50
+                - 55
+                - 60
+                - 65
+                - 70
+                - 80
+                - 90
+                - 100
+                - 110
+                - 120
+                - 130
+                - 140
+                - 150
+                standard_limits:
+                    across_corners_min_mm: 7.66
+                    across_flats_mm:
+                    - 6.78
+                    - 7
+                    bearing_diameter_min_mm: 5.88
+                    head_height_mm:
+                    - 2.675
+                    - 2.925
+                    incomplete_thread_max_mm: 1.4
+                    outer_chamfer_angle_degrees:
+                    - 15
+                    - 30
+                    product_grade: A
+                    underhead_fillet_min_mm: 0.2
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: lying on side, axial end to left
+                            projection: orthographic
+                            resting_axis: side
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_bolt_image.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        description: label_drawer
+        dict_data:
+            label_drawer: *id001
+        file_output: label_drawer.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
+oomp_key: oomp_hardware_bolt_m4_40_mm_length
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+search_data:
+    aliexpress:
+        checked_at: '2026-10-14T12:14:55.863930+00:00'
+        evidence_file: support_files/evidence/hardware_bolt_m4_40_mm_length/aliexpress/e3839dbf952b4a7c8200c5a38a77e343.yaml
+        evidence_url: https://www.aliexpress.com/wholesale?SearchText=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+        material_evidence: ''
+        product_name: ''
+        reason: After a one-minute pause, the Codex built-in browser site-safety policy
+            blocked the AliExpress URL before page content could be observed. No results
+            or product candidates were available. Stopped AliExpress lookup; no workaround
+            was attempted.
+        result_url: ''
+        search_evidence: Attempted the supplied AliExpress search URL in the Codex
+            built-in browser. The browser returned a site-safety block before acquiring
+            authority to observe the page; there was no accessible search page or
+            result evidence.
+        search_for: M4 x 40 hex head part threaded bolt DIN 931 steel
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+        selected_variant: ''
+        specification: ''
+        status: unresolved
+    ebay:
+        checked_at: '2026-10-14T08:13:57.374767+00:00'
+        evidence_file: support_files/evidence/hardware_bolt_m4_40_mm_length/ebay/7252747f473341398a6e4d5ac166a64e.yaml
+        evidence_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+x+40+DIN+931+hex+bolt+part+threaded+high+tensile+steel
+        material_evidence: ''
+        product_name: ''
+        reason: Both completed eBay searches returned no eligible M4 x 40 partially
+            threaded DIN 931 steel bolt among the inspected results. The closest inspected
+            listing, M4 Hex Set Screw Bolt High Tensile 8.8 Zinc BZP, was selected
+            at 50mm and explicitly DIN 933 fully threaded; the listing's M4 x 40 option
+            is still the wrong thread form. This records only the outcome of these
+            exact searches, not marketplace-wide stock state.
+        result_url: ''
+        search_evidence: Initial query returned 2,000+ results dominated by stainless
+            socket screws, fully threaded set screws and unrelated sizes. One refinement
+            retained M4 x 40, DIN 931, hex bolt and part-thread intent. The inspected
+            Fixaball listing identified its selected length as 50mm and its description
+            as fully threaded DIN 933; its listed M4 x 40 option was also DIN 933.
+            No eligible result was found in the results reviewed.
+        search_for: M4 x 40 DIN 931 hex bolt part threaded high tensile steel
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M4+x+40+DIN+931+hex+bolt+part+threaded+high+tensile+steel
+        selected_variant: ''
+        specification: ''
+        status: assumed_non_stocked
+    google:
+        checked_at: '2026-10-14T08:13:02.566566+00:00'
+        evidence_file: support_files/evidence/hardware_bolt_m4_40_mm_length/google/f5102dc329cc412397940d80b62ea6df.yaml
+        evidence_url: https://www.google.com/search?q=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+        material_evidence: Steel; Class / Grade 8.8 (high tensile).
+        product_name: "M4 x 40mm Hexagon Head Bolt \u2013 High Tensile Grade 8.8 Steel,\
+            \ Self Colour Black, Partially Threaded, DIN 931"
+        reason: Opened the Bolt World result directly from the exact Google search.
+            Its selected M4 and 40mm options and specifications identify a partially
+            threaded hexagon head bolt made from high tensile grade 8.8 steel, self
+            colour/black, to DIN 931.
+        result_url: https://boltworld.co.uk/products/m4-x-40mm-hexagon-head-bolts-part-threaded-self-colour-grade-8-8-din-931/
+        search_evidence: "Google result titled M4 x 40mm Hexagon Head Bolt \u2013\
+            \ Grade 8.8 DIN 931 Bolt World led to the opened product page. Other displayed\
+            \ near matches included the wrong length, full thread, wrong diameter\
+            \ and stainless options; they were not selected."
+        search_for: M4 x 40 hex head part threaded bolt DIN 931 steel
+        search_url: https://www.google.com/search?q=M4+x+40+hex+head+part+threaded+bolt+DIN+931+steel
+        selected_variant: Selected Thread Size M4 (4mm); selected Length 40mm (SKU
+            20303.004.040).
+        specification: 'Thread Diameter: M4; Total Length: 40mm (excluding head);
+            Form: Hexagon head, partially threaded; Thread Length (Minimum): 14mm;
+            Material: Steel, grade 8.8; Surface Treatment: Self Colour/Plain (product
+            heading identifies Self Colour Black); Standard: DIN 931.'
+        status: verified
+spec_iso_b_125_lt_l_le_200_mm: ''
+spec_iso_b_l_gt_200_mm: ''
+spec_iso_b_l_le_125_mm: '14'
+spec_iso_c_max_mm: '0.40'
+spec_iso_c_min_mm: '0.15'
+spec_iso_da_max_mm: '4.7'
+spec_iso_dw_min_mm: '5.88'
+spec_iso_e_min_mm: '7.66'
+spec_iso_k_max_mm: '2.925'
+spec_iso_k_min_mm: '2.675'
+spec_iso_nominal_diameter: M4
+spec_iso_s_max_mm: '7.00'
+spec_iso_s_min_mm: '6.78'
+spec_iso_thread_pitch_mm: '0.70'
+supplier_data:
+    dibolt:
+        accepted_warnings: '["Dibolt per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-12T00:22:22.767179+00:00'
+        currency: GBP
+        html_sha256: 1c31ab69fcea35aa27a6b8dc8d7b1da11d30557674d6878371461174166697ff
+        name: M4 x 40mm Hexagon Head Bolts Part Threaded Self Colour Grade 8.8 DIN
+            931
+        packages: '[]'
+        parsed_at: '2026-10-18T09:02:18.951099+00:00'
+        parser_version: dibolt-1.3-missing-price-review
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept the precision of rounded displayed per-100 prices."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: 'Thread Size: M4 (4mm); Length (L): 40mm; Material: High Tensile
+            (Grade 8.8); Finish: Self Colour; Hexagon Length (Max) (H): 2.8mm; Thread
+            Length (Min): 14mm; Thread Pitch: 0.7mm; Socket Size (J): 7mm; Manufacturing
+            Standard: DIN 931; Material Specification: High Tensile (Grade 8.8); Metric
+            or Imperial?: Metric'
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: dibolt
+        supplier_id: 20303.004.040
+        supplier_part_number: 20303.004.040
+        supplier_website: https://dibolt.co.uk/products/m4-x-40mm-hexagon-head-bolts-part-threaded-self-colour-grade-8-8-din-931
+        tiers:
+        -   maximum: 499
+            minimum: 1
+            source_text: "1 - 499 \xA310.98 Per 100 Units"
+            source_unit_price: '0.1098'
+            source_vat_basis: exclusive
+            unit_price: '0.131760'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 2499
+            minimum: 500
+            source_text: "500 - 2,499 \xA310.43 Per 100 Units"
+            source_unit_price: '0.1043'
+            source_vat_basis: exclusive
+            unit_price: '0.125160'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 2500
+            source_text: "2,500+ \xA39.88 Per 100 Units"
+            source_unit_price: '0.0988'
+            source_vat_basis: exclusive
+            unit_price: '0.118560'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.131760'
+        total_price_10: '1.317600'
+        total_price_100: '13.176000'
+        total_price_1000: '125.160000'
+        total_price_10000: '1185.600000'
+        unit_price_1: '0.131760'
+        unit_price_10: '0.131760'
+        unit_price_100: '0.131760'
+        unit_price_1000: '0.125160'
+        unit_price_10000: '0.118560'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Dibolt per-100 displayed prices are rounded; derived totals use captured
+            display precision
+    orbitalfasteners:
+        accepted_warnings: '[]'
+        box_quantity: '500'
+        captured_at: '2026-10-12T01:41:31.725346+00:00'
+        catalogue_page: ''
+        currency: GBP
+        description: ''
+        html_sha256: e579fd421d5803e512f44142dede0bcc449facf0a6d028361cc6bd288e517f45
+        name: M4 x 40 Hexagon Head Bolt High Tensile Grade 8.8, Bright Zinc Plated,
+            DIN 931
+        parsed_at: '2026-10-18T08:49:22.084098+00:00'
+        parser_version: 1.2-review-policy
+        review_policy: ''
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: inclusive
+        status: ok
+        stock_as_of: 9th October 2026 10:01pm More Info
+        stock_quantity: '347'
+        supplier: orbitalfasteners
+        supplier_id: '1870000'
+        supplier_part_number: '1870000'
+        supplier_website: https://www.orbitalfasteners.co.uk/products/m4x40-88-hex-bolt-bzp-box-500-din-931
+        tiers:
+        -   maximum: 499
+            minimum: 1
+            source_text: "1 - 499 \xA30.0661 Inc. VAT \xA36.61 Inc. VAT"
+            source_unit_price: '0.0661'
+            source_vat_basis: inclusive
+            unit_price: '0.0661'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 2499
+            minimum: 500
+            source_text: "500 - 2499 \xA30.0414 Inc. VAT \xA34.14 Inc. VAT"
+            source_unit_price: '0.0414'
+            source_vat_basis: inclusive
+            unit_price: '0.0414'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 2500
+            source_text: "2500 + \xA30.0372 Inc. VAT \xA33.72 Inc. VAT"
+            source_unit_price: '0.0372'
+            source_vat_basis: inclusive
+            unit_price: '0.0372'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.0661'
+        total_price_10: '0.6610'
+        total_price_100: '6.6100'
+        total_price_1000: '41.4000'
+        total_price_10000: '372.0000'
+        unit_price_1: '0.0661'
+        unit_price_10: '0.0661'
+        unit_price_100: '0.0661'
+        unit_price_1000: '0.0414'
+        unit_price_10000: '0.0372'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings: []
+svg_details:
+-   svg_b_125_lt_l_le_200_mm: ''
+    svg_b_l_gt_200_mm: ''
+    svg_b_l_le_125_mm: '14'
+    svg_c_max_mm: '0.40'
+    svg_c_min_mm: '0.15'
+    svg_da_max_mm: '4.7'
+    svg_dw_min_mm: '5.88'
+    svg_e_min_mm: '7.66'
+    svg_k_max_mm: '2.925'
+    svg_k_min_mm: '2.675'
+    svg_name: bolt
+    svg_nominal_diameter: M4
+    svg_s_max_mm: '7.00'
+    svg_s_min_mm: '6.78'
+    svg_thread_pitch_mm: '0.70'
+-   af_mm: 7.0
+    filename: working_mechanical_drawing
+    hardware_type: bolt
+    head_height_mm: 2.925
+    id_mm: 4.0
+    length_mm: 40.0
+    part_category: HARDWARE / BOLT
+    part_code: ISO4014 / DIN931
+    part_name: ''
+    part_series: HEX HEAD BOLT
+    part_title: "M4\xD740"
+    svg_name: oomp_mech_drawing_hardware
+    thread_length_mm: 14.0
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: bolt
+taxonomy_2_capital: Bolt
+taxonomy_2_first_letter: b
+taxonomy_2_first_letter_upper: B
+taxonomy_2_length_1: b
+taxonomy_2_length_2: bo
+taxonomy_2_length_3: bol
+taxonomy_2_length_4: bolt
+taxonomy_2_length_5: bolt
+taxonomy_2_upper: BOLT
+taxonomy_2_upper_length_1: B
+taxonomy_2_upper_length_2: BO
+taxonomy_2_upper_length_3: BOL
+taxonomy_2_upper_length_4: BOLT
+taxonomy_2_upper_length_5: BOLT
+taxonomy_3: m4
+taxonomy_3_capital: M4
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m4
+taxonomy_3_length_3: m4
+taxonomy_3_length_4: m4
+taxonomy_3_length_5: m4
+taxonomy_3_upper: M4
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M4
+taxonomy_3_upper_length_3: M4
+taxonomy_3_upper_length_4: M4
+taxonomy_3_upper_length_5: M4
+taxonomy_4: 40_mm_length
+taxonomy_4_capital: 40 mm Length
+taxonomy_4_first_letter: '4'
+taxonomy_4_first_letter_upper: '4'
+taxonomy_4_length_1: '4'
+taxonomy_4_length_2: '40'
+taxonomy_4_length_3: '40_'
+taxonomy_4_length_4: 40_m
+taxonomy_4_length_5: 40_mm
+taxonomy_4_upper: 40_MM_LENGTH
+taxonomy_4_upper_length_1: '4'
+taxonomy_4_upper_length_2: '40'
+taxonomy_4_upper_length_3: '40_'
+taxonomy_4_upper_length_4: 40_M
+taxonomy_4_upper_length_5: 40_MM
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+    checked_on: '2026-10-11'
+    coordinate_system:
+        axis: +Z towards head
+        glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+        glb_units: metres
+        glb_up_axis: Y
+        origin: tip centre
+        stl_units: mm
+    dimension_status: standard_dimensions
+    dimensional_specification: ISO 4014:2011
+    generator: iso_4014_hex_bolt
+    length_status: standard_length
+    material:
+        base_colour_srgb:
+        - 0.62
+        - 0.65
+        - 0.69
+        coat_roughness: 0.28
+        coat_weight: 0.02
+        metallic: 1.0
+        microtexture_height_um: 0.8
+        microtexture_spacing_mm: 0.025
+        name: Satin steel
+        note: Visual finish approximation; catalogue specifies colour only.
+        roughness: 0.26
+        roughness_variation: 0.045
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+        bearing: Bolt bearing circle and c selected within limits; k includes bearing
+            thickness; fillet tangent to shaft and bearing.
+        cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
+            bore and mouth chamfers.
+        certification: Nominal visual catalogue model, not manufacturing tolerance
+            certification.
+        chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees.
+            Bolt tip 45 degrees, P/2.
+        components: One closed solid for supported products. Unspecified lock/cage
+            assemblies are not substituted with plain hex nuts.
+        dimension_selection: Nominal bolt head height, max flats/nut height, nominal
+            washer sizes; selected dimensions stored in parameters.
+        display: Smooth nominal external-thread envelope or smooth minor-diameter
+            internal bore; lower angular and fillet tessellation.
+        family_note: Catalogue family mapped to the cited dimensional pattern; exact
+            supplier unspecified.
+        markings: Supplier and property-class markings omitted because catalogue does
+            not identify them.
+        runout: External one-pitch fade to plain shank; full thread ends at underhead
+            fillet.
+        thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+            rounded root H/6, internal P/4 crest and P/8 root flats.
+        unspecified_geometry: Nut mouth for supplier rows without limits and flange
+            M3/M4 thickness/rim blends are explicit visual model selections.
+    output_folder: three_d_model
+    parameters:
+        across_flats_mm: 7
+        bearing_diameter_mm: 6.4
+        bearing_height_mm: 0.25
+        characteristic_dimension_basis: nominal axial thread diameter
+        characteristic_dimension_mm: 4.0
+        expected_components: 1
+        external_minor_diameter_mm: 3.141191474580432
+        family: bolt
+        finish: satin
+        handedness: right
+        head_chamfer_height_mm: 0.31260739116964326
+        head_height_mm: 2.8
+        identity: hardware_bolt_m4_40_mm_length
+        internal_minor_diameter_mm: 3.2422277716886163
+        length_convention: under-head bearing plane to tip
+        length_mm: 40.0
+        nominal_diameter_mm: 4.0
+        outer_chamfer_angle_degrees: 30.0
+        overall_height_mm: 42.8
+        pitch_mm: 0.7
+        plain_shank_length_mm: 25.3
+        specification: ISO 4014:2011
+        thread_end_z_mm: 14.7
+        thread_flank_angle_degrees: 60.0
+        thread_length_mm: 14.0
+        thread_length_reference_mm: 14
+        thread_length_table_mm:
+        - 14
+        - 20
+        - 33
+        thread_mode: partial
+        thread_pitch_diameter_mm: 3.5453366630131695
+        thread_runout_mm: 0.7
+        thread_starts: 1
+        tip_chamfer_mm: 0.35
+        underhead_fillet_mm: 0.2
+    renders:
+        high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+        low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+        product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+        product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+    schema_version: 1
+    source_table: source_file/standards/catalogue_hardware.yaml
+    sources:
+    -   title: ISO 4014:2011 fourth edition, figure 1 and table 1, grades A and B
+        url: https://cdn.standards.iteh.ai/samples/56447/be5b2835974246f8868260ebe9f4d621/ISO-4014-2011.pdf
+    -   title: ISO 68-1:1998 basic ISO metric thread profile
+        url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+    standard: ISO 4014:2011
+    standard_lengths_mm:
+    - 25
+    - 30
+    - 35
+    - 40
+    - 45
+    - 50
+    - 55
+    - 60
+    - 65
+    - 70
+    - 80
+    - 90
+    - 100
+    - 110
+    - 120
+    - 130
+    - 140
+    - 150
+    standard_limits:
+        across_corners_min_mm: 7.66
+        across_flats_mm:
+        - 6.78
+        - 7
+        bearing_diameter_min_mm: 5.88
+        head_height_mm:
+        - 2.675
+        - 2.925
+        incomplete_thread_max_mm: 1.4
+        outer_chamfer_angle_degrees:
+        - 15
+        - 30
+        product_grade: A
+        underhead_fillet_min_mm: 0.2
+    studio:
+        adaptive_threshold: 0.015
+        denoise: true
+        device: auto
+        engine: cycles
+        exposure: 0.0
+        floor_colour_srgb:
+        - 0.93
+        - 0.935
+        - 0.94
+        floor_roughness: 0.55
+        framing_margin: 0.13
+        high_samples: 160
+        lights:
+        -   colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+        -   colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+        -   colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+        look: AgX - Medium High Contrast
+        low_samples: 48
+        poses:
+            isometric:
+                camera_eye:
+                - 1
+                - -1
+                - 1
+                orientation: principal axis Z up
+                projection: orthographic
+            product:
+                camera_eye:
+                - -6
+                - -10
+                - 6
+                orientation: lying on side, axial end to left
+                projection: orthographic
+                resting_axis: side
+                support: Stable convex-hull support using actual mesh centre of mass.
+                yaw_degrees: -12.0
+        seed: 7991
+        view_transform: AgX
+        world_colour:
+        - 0.78
+        - 0.82
+        - 0.9
+        world_strength: 0.35
+    units: mm
+    variants:
+        display:
+            angular_segments: 24
+            fillet_segments: 3
+            samples_per_pitch: 1
+        full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
+url_chat: ''
+```
+
+</details>
+
+## Parts
+
+[Full-detail 3D model (GLB)](three_d_model/model_full.glb) · [Dimensioned drawing (PDF)](working_mechanical_drawing_a4.pdf) · [Full-detail view drawings](three_d_model/full/) · [Drawer label (SVG)](label_drawer.svg)
+
+Full-detail and simplified display models are alternatives for the same part. GLB uses metres; STL, where supplied, uses millimetres. The [part folder](./) contains all available files.
+
+## Assembly
+
+This page documents a component rather than a complete project assembly. No installation sequence or tightening torque is specified by this record.
+<!-- hardware-part:end -->

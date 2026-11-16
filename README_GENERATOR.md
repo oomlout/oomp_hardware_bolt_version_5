@@ -7,12 +7,34 @@ browsed and downloaded without running any code.
 
 ## Refresh the catalogue pages
 
-Run `python working_readme.py` to refresh the root README and the complete
-navigation index from existing part metadata. This command does not rebuild
-models, edit part files or modify the lightweight YAML export.
+Run `python -B working_readme.py` to refresh the root README, complete navigation
+index and every canonical part README from existing metadata and model recipes.
+This also creates cached 512-pixel isometric and product previews from the
+full-detail renders. It does not rebuild models, alter engineering metadata,
+edit original renders or modify the lightweight YAML export.
 Edit `presentation/README.template.md` for the public introduction and
 `working_readme.py` for family labels and navigation. The normal `working.run()`
 pipeline refreshes these pages last; pass `run_readme=False` to skip this step.
+
+Part pages use `presentation/PART.template.md` and `working_part_readme.py`.
+They show model dimensions with explicit units and recorded approximation status,
+two full-detail views, concise links to existing assets, source evidence and all
+original YAML in a collapsed section. Missing STL files are not advertised.
+Per-part preview hashes are recorded in `three_d_model/readme_images.json`;
+unchanged images are reused and damaged previews are regenerated. `readme_*.png`
+files are documentation assets, separate from the model pipeline's original renders.
+
+The generated page is bounded by `hardware-part` HTML comments. Content outside
+those markers is preserved; a pre-existing unmarked README is retained as collapsed
+technical notes at the same path. Malformed markers stop generation. Add specialist
+notes outside the markers or maintain them in `three_d_model/model_notes.md`.
+
+Validate the documentation helpers with
+`python -B -m unittest discover -s tests -p test_part_readme.py`.
+Run `python -B validate_part_readmes.py` to check every page's local links,
+complete metadata, section structure and image provenance. It records coverage
+in `presentation/part_readme_validation.json`; it does not validate engineering
+dimensions or fetch the recorded external sources.
 
 The lead images are 512-pixel reductions of the full-detail M6 × 25 mm set-screw
 and M3 hex-nut renders. `working_readme.py` regenerates them with Pillow directly

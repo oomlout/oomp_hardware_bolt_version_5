@@ -1,0 +1,1720 @@
+<!-- hardware-part:start -->
+# M6 nylon white nut
+
+## Summary
+
+A metric nut with a modelled internal thread. The dimensions below identify the exact catalogue variant.
+
+[Hardware catalogue](../../README.md) · [Browse this family](../../navigation_oobb/README.md#nuts)
+
+| Isometric | Product view |
+| --- | --- |
+| [![Full-detail isometric render](three_d_model/readme_isometric.png)](three_d_model/render_high.png) | [![Full-detail product view render](three_d_model/readme_product.png)](three_d_model/render_product_high.png) |
+
+Full-detail catalogue renders. Click either image to open the original resolution.
+
+## Details
+
+**OOMP ID:** `hardware_nut_m6_nylon_white`
+
+**Short code:** `12zsm` · **Three-word label:** bridge between room
+
+| Model dimension | mm |
+| --- | ---: |
+| Nominal size | 6 |
+| Thread pitch | 1 |
+| Across flats | 10 |
+| Height / thickness | 5 |
+
+Dimensions above are values used by the saved model recipe, in millimetres. **Model basis: manufacturer dimensions.**
+
+<details>
+<summary>Model provenance and assumptions</summary>
+
+**Recorded dimensional reference:** Accu HPN nylon nuts based on DIN 934; supplier dimensions
+
+**Source checked:** 2026-10-11
+
+**Visual finish:** Natural white nylon
+
+**Finish assumption:** Visual natural nylon approximation; exact polymer grade and mould surface not supplied by catalogue.
+
+**Family notes:** Catalogue family mapped to the cited dimensional pattern; exact supplier unspecified.
+
+These are saved catalogue references and modelling choices, not a claim of manufacturing certification.
+
+- [Accu HPN-M3-N](https://www.accu.co.uk/hexagon-nuts/422470-HPN-M3-N)
+- [Accu HPN-M4-N](https://www.accu.co.uk/hexagon-nuts/422472-HPN-M4-N)
+- [Accu HPN-M5-N](https://www.accu.co.uk/hexagon-nuts/422473-HPN-M5-N)
+- [Accu HPN-M6-N](https://www.accu.co.uk/hexagon-nuts/422474-HPN-M6-N)
+- [Accu HPN-M8-N](https://www.accu.co.uk/hexagon-nuts/422475-HPN-M8-N)
+- [ISO 68-1:1998 basic ISO metric thread profile](https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf)
+
+[Complete model recipe](three_d_model/parameters.json)
+
+</details>
+
+<details>
+<summary>Complete part metadata</summary>
+
+[Source working.yaml](working.yaml)
+
+```yaml
+bip_39_2_word_array:
+- bridge
+- between
+bip_39_2_word_no_space: bridgebetween
+bip_39_2_word_space: bridge between
+bip_39_2_word_underscore: bridge_between
+bip_39_3_word_array:
+- bridge
+- between
+- room
+bip_39_3_word_no_space: bridgebetweenroom
+bip_39_3_word_space: bridge between room
+bip_39_3_word_underscore: bridge_between_room
+bip_39_full_array:
+- bridge
+- between
+- room
+- vibrant
+- mutual
+- coin
+- shoot
+- answer
+- lawsuit
+- mix
+- expose
+- burst
+bip_39_full_no_space: bridgebetweenroomvibrantmutualcoinshootanswerlawsuitmixexposeburst
+bip_39_full_space: bridge between room vibrant mutual coin shoot answer lawsuit mix
+    expose burst
+bip_39_full_underscore: bridge_between_room_vibrant_mutual_coin_shoot_answer_lawsuit_mix_expose_burst
+directory: parts/hardware_nut_m6_nylon_white
+generate_stl: true
+id: hardware_nut_m6_nylon_white
+id_no_class: hardware_nut_m6_nylon_white
+id_no_size: hardware_nut_m6_nylon_white
+id_no_type: hardware_nut_m6_nylon_white
+label_drawer: &id001
+    bip39: bridge between room
+    bip39_size: 2.225
+    code: NU
+    description: Nylon white nut / M6
+    detail_lines: []
+    detail_size: 2.05
+    detail_y: 21.1
+    diagram: <path d="M7 1.8H13L16 7L13 12.2H7L4 7Z"/><circle cx="10" cy="7" r="2.5"/>
+    drive_symbol: <path d="M5 1L8.46 3V7L5 9L1.54 7V3Z" fill="#ffffff"/>
+    length: ''
+    length_size: 7.8
+    length_x: 22.3603625
+    name: Nylon white nut
+    name_lines:
+    - Nylon white
+    - nut
+    name_size: 3.2
+    thread: M6
+    thread_size: 6.5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m6_nylon_white
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m6_nylon_white
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m6_nylon_white
+md5: 1bc2b6eff9b9225af1a04d7e31c1428f
+md5_10: 1bc2b6eff9
+md5_10_upper: 1BC2B6EFF9
+md5_5: 1bc2b
+md5_5_upper: 1BC2B
+md5_6: 1bc2b6
+md5_6_alpha: 12zsm
+md5_6_alpha_upper: 12ZSM
+md5_6_upper: 1BC2B6
+name: Hardware Nut M6 Nylon White
+name_no_class: Hardware Nut M6 Nylon White
+name_no_size: Hardware Nut M6 Nylon White
+name_no_type: Hardware Nut M6 Nylon White
+name_proper: Hardware Nut M6 Nylon White
+name_space: hardware nut m6 nylon white
+name_upper: HARDWARE NUT M6 NYLON WHITE
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_nut_m6_nylon_white
+            name: hardware_nut_m6_nylon_white
+            name_proper: Hardware Nut M6 Nylon White
+            name_space: hardware nut m6 nylon white
+            name_upper: HARDWARE NUT M6 NYLON WHITE
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 hexagon full nut white nylon
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+hexagon+full+nut+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 hexagon full nut white nylon
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+hexagon+full+nut+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T09:20:24.500947+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m6_nylon_white/google/04f7166979c5405aa3b595734a31c6b7.yaml
+                    evidence_url: https://www.google.com/search?q=M6+hexagon+full+nut+white+nylon
+                    material_evidence: Page description states white nylon hexagon
+                        full nuts; key features state white nylon construction.
+                    product_name: Metric White Nylon Hexagon Full Nuts DIN 934
+                    reason: Spalding Fasteners explicitly lists white nylon hexagon
+                        full nuts and provides the M6 pitch, across-flats and height
+                        dimensions in its size table.
+                    result_url: https://www.spaldingfasteners.co.uk/PARENT1303
+                    search_evidence: "The supplied Google query returned Spalding\
+                        \ Fasteners\u2019 Metric White Nylon Full Nuts DIN 934 page.\
+                        \ Its selected M6 size row gives 1.0 mm pitch, 10 mm across\
+                        \ flats and 5 mm nut height. The page describes white nylon\
+                        \ hexagon full nuts with metric coarse threads and lists them\
+                        \ as DIN 934 pattern nuts."
+                    search_for: M6 hexagon full nut white nylon
+                    search_url: https://www.google.com/search?q=M6+hexagon+full+nut+white+nylon
+                    selected_variant: M6 size row; pitch 1.0 mm; across flats 10 mm;
+                        height 5 mm
+                    specification: 'Thread Size: M6; metric coarse thread; pitch 1.0
+                        mm; hexagon full nut; across flats 10 mm; height 5 mm; white
+                        nylon; DIN 934 pattern.'
+                    status: verified
+            supplier_data:
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '500'
+                    captured_at: '2026-10-12T19:53:12.037066+00:00'
+                    catalogue_page: '37'
+                    currency: GBP
+                    description: ''
+                    html_sha256: aef5df27efa86d95fd9012a4d4fd00f7bb28f4a6e4aaddbc45e7179d90f1251d
+                    name: M6 Full Nut Nylon Grade 66 Natural White
+                    parsed_at: '2026-10-18T08:49:27.303873+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:03pm
+                    stock_quantity: '6310'
+                    supplier: orbitalfasteners
+                    supplier_id: '4988920'
+                    supplier_part_number: '4988920'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m6-full-nut-nylon-grade-66-natural
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA30.0576 Inc. VAT \xA35.76 Inc. VAT"
+                        source_unit_price: '0.0576'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0576'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2499 \xA30.048 Inc. VAT \xA34.80 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.048'
+                        source_vat_basis: inclusive
+                        unit_price: '0.048'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2500
+                        source_text: "2500 + \xA30.0432 Inc. VAT \xA34.32 Inc. VAT"
+                        source_unit_price: '0.0432'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0432'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0576'
+                    total_price_10: '0.5760'
+                    total_price_100: '5.7600'
+                    total_price_1000: '48.000'
+                    total_price_10000: '432.0000'
+                    unit_price_1: '0.0576'
+                    unit_price_10: '0.0576'
+                    unit_price_100: '0.0576'
+                    unit_price_1000: '0.048'
+                    unit_price_10000: '0.0432'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: nut
+            taxonomy_3: m6
+            taxonomy_4: nylon_white
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: manufacturer_dimensions
+                dimensional_specification: Accu HPN nylon nuts based on DIN 934; supplier
+                    dimensions
+                generator: supplier_nylon_hex_nut
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.86
+                    - 0.85
+                    - 0.81
+                    coat_roughness: 0.28
+                    coat_weight: 0.025
+                    metallic: 0.0
+                    microtexture_height_um: 0.4
+                    microtexture_spacing_mm: 0.025
+                    name: Natural white nylon
+                    note: Visual natural nylon approximation; exact polymer grade
+                        and mould surface not supplied by catalogue.
+                    roughness: 0.38
+                    roughness_variation: 0.025
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Catalogue family mapped to the cited dimensional
+                        pattern; exact supplier unspecified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 10
+                    characteristic_dimension_basis: hexagon across flats
+                    characteristic_dimension_mm: 10
+                    expected_components: 1
+                    external_minor_diameter_mm: 4.773130677972045
+                    family: nut
+                    finish: nylon_white
+                    handedness: right
+                    height_convention: total axial nut height
+                    height_mm: 5
+                    hole_chamfer_mm: 0.38466878364870316
+                    hole_chamfer_slope: 1.7320508075688767
+                    identity: hardware_nut_m6_nylon_white
+                    internal_minor_diameter_mm: 4.917468245269452
+                    mouth_diameter_mm: 6.25
+                    nominal_diameter_mm: 6.0
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 5
+                    pitch_mm: 1
+                    specification: Accu HPN nylon nuts based on DIN 934; supplier
+                        dimensions
+                    thread_flank_angle_degrees: 60.0
+                    thread_pitch_diameter_mm: 5.350480947161671
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: Accu HPN-M3-N
+                    url: https://www.accu.co.uk/hexagon-nuts/422470-HPN-M3-N
+                -   title: Accu HPN-M4-N
+                    url: https://www.accu.co.uk/hexagon-nuts/422472-HPN-M4-N
+                -   title: Accu HPN-M5-N
+                    url: https://www.accu.co.uk/hexagon-nuts/422473-HPN-M5-N
+                -   title: Accu HPN-M6-N
+                    url: https://www.accu.co.uk/hexagon-nuts/422474-HPN-M6-N
+                -   title: Accu HPN-M8-N
+                    url: https://www.accu.co.uk/hexagon-nuts/422475-HPN-M8-N
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: null
+                standard_lengths_mm: []
+                standard_limits:
+                    across_flats_mm:
+                    - 9.78
+                    - 10
+                    height_mm:
+                    - 4.7
+                    - 5
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_nut_m6_nylon_white
+            name: hardware_nut_m6_nylon_white
+            name_proper: Hardware Nut M6 Nylon White
+            name_space: hardware nut m6 nylon white
+            name_upper: HARDWARE NUT M6 NYLON WHITE
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_nut_m6_nylon_white
+                        name: hardware_nut_m6_nylon_white
+                        name_proper: Hardware Nut M6 Nylon White
+                        name_space: hardware nut m6 nylon white
+                        name_upper: HARDWARE NUT M6 NYLON WHITE
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M6 hexagon full nut white nylon
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M6+hexagon+full+nut+white+nylon
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M6 hexagon full nut white nylon
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+hexagon+full+nut+white+nylon
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T09:20:24.500947+00:00'
+                                evidence_file: support_files/evidence/hardware_nut_m6_nylon_white/google/04f7166979c5405aa3b595734a31c6b7.yaml
+                                evidence_url: https://www.google.com/search?q=M6+hexagon+full+nut+white+nylon
+                                material_evidence: Page description states white nylon
+                                    hexagon full nuts; key features state white nylon
+                                    construction.
+                                product_name: Metric White Nylon Hexagon Full Nuts
+                                    DIN 934
+                                reason: Spalding Fasteners explicitly lists white
+                                    nylon hexagon full nuts and provides the M6 pitch,
+                                    across-flats and height dimensions in its size
+                                    table.
+                                result_url: https://www.spaldingfasteners.co.uk/PARENT1303
+                                search_evidence: "The supplied Google query returned\
+                                    \ Spalding Fasteners\u2019 Metric White Nylon\
+                                    \ Full Nuts DIN 934 page. Its selected M6 size\
+                                    \ row gives 1.0 mm pitch, 10 mm across flats and\
+                                    \ 5 mm nut height. The page describes white nylon\
+                                    \ hexagon full nuts with metric coarse threads\
+                                    \ and lists them as DIN 934 pattern nuts."
+                                search_for: M6 hexagon full nut white nylon
+                                search_url: https://www.google.com/search?q=M6+hexagon+full+nut+white+nylon
+                                selected_variant: M6 size row; pitch 1.0 mm; across
+                                    flats 10 mm; height 5 mm
+                                specification: 'Thread Size: M6; metric coarse thread;
+                                    pitch 1.0 mm; hexagon full nut; across flats 10
+                                    mm; height 5 mm; white nylon; DIN 934 pattern.'
+                                status: verified
+                        supplier_data:
+                            orbitalfasteners:
+                                accepted_warnings: '[]'
+                                box_quantity: '500'
+                                captured_at: '2026-10-12T19:53:12.037066+00:00'
+                                catalogue_page: '37'
+                                currency: GBP
+                                description: ''
+                                html_sha256: aef5df27efa86d95fd9012a4d4fd00f7bb28f4a6e4aaddbc45e7179d90f1251d
+                                name: M6 Full Nut Nylon Grade 66 Natural White
+                                parsed_at: '2026-10-18T08:49:27.303873+00:00'
+                                parser_version: 1.2-review-policy
+                                review_policy: ''
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: inclusive
+                                status: ok
+                                stock_as_of: 9th October 2026 10:03pm
+                                stock_quantity: '6310'
+                                supplier: orbitalfasteners
+                                supplier_id: '4988920'
+                                supplier_part_number: '4988920'
+                                supplier_website: https://www.orbitalfasteners.co.uk/products/m6-full-nut-nylon-grade-66-natural
+                                tiers:
+                                -   maximum: 499
+                                    minimum: 1
+                                    source_text: "1 - 499 \xA30.0576 Inc. VAT \xA3\
+                                        5.76 Inc. VAT"
+                                    source_unit_price: '0.0576'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0576'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 2499
+                                    minimum: 500
+                                    source_text: "500 - 2499 \xA30.048 Inc. VAT \xA3\
+                                        4.80 Inc. VAT"
+                                    source_unit_price: '0.048'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.048'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 2500
+                                    source_text: "2500 + \xA30.0432 Inc. VAT \xA3\
+                                        4.32 Inc. VAT"
+                                    source_unit_price: '0.0432'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0432'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.0576'
+                                total_price_10: '0.5760'
+                                total_price_100: '5.7600'
+                                total_price_1000: '48.000'
+                                total_price_10000: '432.0000'
+                                unit_price_1: '0.0576'
+                                unit_price_10: '0.0576'
+                                unit_price_100: '0.0576'
+                                unit_price_1000: '0.048'
+                                unit_price_10000: '0.0432'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings: []
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: nut
+                        taxonomy_3: m6
+                        taxonomy_4: nylon_white
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        three_d_model_details:
+                            checked_on: '2026-10-11'
+                            coordinate_system:
+                                axis: +Z along bore
+                                glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                                glb_units: metres
+                                glb_up_axis: Y
+                                origin: lower face centre
+                                stl_units: mm
+                            dimension_status: manufacturer_dimensions
+                            dimensional_specification: Accu HPN nylon nuts based on
+                                DIN 934; supplier dimensions
+                            generator: supplier_nylon_hex_nut
+                            length_status: not_applicable
+                            material:
+                                base_colour_srgb:
+                                - 0.86
+                                - 0.85
+                                - 0.81
+                                coat_roughness: 0.28
+                                coat_weight: 0.025
+                                metallic: 0.0
+                                microtexture_height_um: 0.4
+                                microtexture_spacing_mm: 0.025
+                                name: Natural white nylon
+                                note: Visual natural nylon approximation; exact polymer
+                                    grade and mould surface not supplied by catalogue.
+                                roughness: 0.38
+                                roughness_variation: 0.025
+                            model_formats:
+                            - stl
+                            - glb
+                            modelling_choices:
+                                bearing: Bolt bearing circle and c selected within
+                                    limits; k includes bearing thickness; fillet tangent
+                                    to shaft and bearing.
+                                cavity: Nut through-bore has a helical internal surface;
+                                    display keeps minor-diameter bore and mouth chamfers.
+                                certification: Nominal visual catalogue model, not
+                                    manufacturing tolerance certification.
+                                chamfer: 30 degree outer hex chamfer. Nut mouth included
+                                    angle 120 degrees. Bolt tip 45 degrees, P/2.
+                                components: One closed solid for supported products.
+                                    Unspecified lock/cage assemblies are not substituted
+                                    with plain hex nuts.
+                                dimension_selection: Nominal bolt head height, max
+                                    flats/nut height, nominal washer sizes; selected
+                                    dimensions stored in parameters.
+                                display: Smooth nominal external-thread envelope or
+                                    smooth minor-diameter internal bore; lower angular
+                                    and fillet tessellation.
+                                family_note: Catalogue family mapped to the cited
+                                    dimensional pattern; exact supplier unspecified.
+                                markings: Supplier and property-class markings omitted
+                                    because catalogue does not identify them.
+                                runout: External one-pitch fade to plain shank; full
+                                    thread ends at underhead fillet.
+                                thread: Nominal ISO basic metric profile, no ISO 965
+                                    tolerance offsets. External rounded root H/6,
+                                    internal P/4 crest and P/8 root flats.
+                                unspecified_geometry: Nut mouth for supplier rows
+                                    without limits and flange M3/M4 thickness/rim
+                                    blends are explicit visual model selections.
+                            output_folder: three_d_model
+                            parameters:
+                                across_flats_mm: 10
+                                characteristic_dimension_basis: hexagon across flats
+                                characteristic_dimension_mm: 10
+                                expected_components: 1
+                                external_minor_diameter_mm: 4.773130677972045
+                                family: nut
+                                finish: nylon_white
+                                handedness: right
+                                height_convention: total axial nut height
+                                height_mm: 5
+                                hole_chamfer_mm: 0.38466878364870316
+                                hole_chamfer_slope: 1.7320508075688767
+                                identity: hardware_nut_m6_nylon_white
+                                internal_minor_diameter_mm: 4.917468245269452
+                                mouth_diameter_mm: 6.25
+                                nominal_diameter_mm: 6.0
+                                outer_chamfer_angle_degrees: 30.0
+                                overall_height_mm: 5
+                                pitch_mm: 1
+                                specification: Accu HPN nylon nuts based on DIN 934;
+                                    supplier dimensions
+                                thread_flank_angle_degrees: 60.0
+                                thread_pitch_diameter_mm: 5.350480947161671
+                                thread_starts: 1
+                            renders:
+                                high:
+                                    file: render_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: isometric
+                                low:
+                                    file: render_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: isometric
+                                product_high:
+                                    file: render_product_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: product
+                                product_low:
+                                    file: render_product_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: product
+                            schema_version: 1
+                            source_table: source_file/standards/catalogue_hardware.yaml
+                            sources:
+                            -   title: Accu HPN-M3-N
+                                url: https://www.accu.co.uk/hexagon-nuts/422470-HPN-M3-N
+                            -   title: Accu HPN-M4-N
+                                url: https://www.accu.co.uk/hexagon-nuts/422472-HPN-M4-N
+                            -   title: Accu HPN-M5-N
+                                url: https://www.accu.co.uk/hexagon-nuts/422473-HPN-M5-N
+                            -   title: Accu HPN-M6-N
+                                url: https://www.accu.co.uk/hexagon-nuts/422474-HPN-M6-N
+                            -   title: Accu HPN-M8-N
+                                url: https://www.accu.co.uk/hexagon-nuts/422475-HPN-M8-N
+                            -   title: ISO 68-1:1998 basic ISO metric thread profile
+                                url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                            standard: null
+                            standard_lengths_mm: []
+                            standard_limits:
+                                across_flats_mm:
+                                - 9.78
+                                - 10
+                                height_mm:
+                                - 4.7
+                                - 5
+                            studio:
+                                adaptive_threshold: 0.015
+                                denoise: true
+                                device: auto
+                                engine: cycles
+                                exposure: 0.0
+                                floor_colour_srgb:
+                                - 0.93
+                                - 0.935
+                                - 0.94
+                                floor_roughness: 0.55
+                                framing_margin: 0.13
+                                high_samples: 160
+                                lights:
+                                -   colour:
+                                    - 1.0
+                                    - 0.96
+                                    - 0.9
+                                    height: 5.0
+                                    name: Key softbox
+                                    position:
+                                    - -3
+                                    - -4
+                                    - 6
+                                    power: 650.0
+                                    width: 4.0
+                                -   colour:
+                                    - 0.9
+                                    - 0.95
+                                    - 1.0
+                                    height: 4.0
+                                    name: Fill softbox
+                                    position:
+                                    - 4
+                                    - -1
+                                    - 3
+                                    power: 330.0
+                                    width: 3.0
+                                -   colour:
+                                    - 1.0
+                                    - 1.0
+                                    - 1.0
+                                    height: 5.0
+                                    name: Rim strip
+                                    position:
+                                    - 1
+                                    - 4
+                                    - 4
+                                    power: 850.0
+                                    width: 1.2
+                                look: AgX - Medium High Contrast
+                                low_samples: 48
+                                poses:
+                                    isometric:
+                                        camera_eye:
+                                        - 1
+                                        - -1
+                                        - 1
+                                        orientation: principal axis Z up
+                                        projection: orthographic
+                                    product:
+                                        camera_eye:
+                                        - -6
+                                        - -10
+                                        - 6
+                                        orientation: resting on lower face, bore visible
+                                        projection: orthographic
+                                        resting_axis: face
+                                        support: Stable convex-hull support using
+                                            actual mesh centre of mass.
+                                        yaw_degrees: -12.0
+                                seed: 7991
+                                view_transform: AgX
+                                world_colour:
+                                - 0.78
+                                - 0.82
+                                - 0.9
+                                world_strength: 0.35
+                            units: mm
+                            variants:
+                                display:
+                                    angular_segments: 24
+                                    fillet_segments: 3
+                                    samples_per_pitch: 1
+                                full:
+                                    angular_segments: 96
+                                    fillet_segments: 12
+                                    samples_per_pitch: 32
+                            views:
+                            - isometric
+                            - front
+                            - back
+                            - left
+                            - right
+                            - top
+                            - bottom
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 hexagon full nut white nylon
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+hexagon+full+nut+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 hexagon full nut white nylon
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+hexagon+full+nut+white+nylon
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T09:20:24.500947+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m6_nylon_white/google/04f7166979c5405aa3b595734a31c6b7.yaml
+                    evidence_url: https://www.google.com/search?q=M6+hexagon+full+nut+white+nylon
+                    material_evidence: Page description states white nylon hexagon
+                        full nuts; key features state white nylon construction.
+                    product_name: Metric White Nylon Hexagon Full Nuts DIN 934
+                    reason: Spalding Fasteners explicitly lists white nylon hexagon
+                        full nuts and provides the M6 pitch, across-flats and height
+                        dimensions in its size table.
+                    result_url: https://www.spaldingfasteners.co.uk/PARENT1303
+                    search_evidence: "The supplied Google query returned Spalding\
+                        \ Fasteners\u2019 Metric White Nylon Full Nuts DIN 934 page.\
+                        \ Its selected M6 size row gives 1.0 mm pitch, 10 mm across\
+                        \ flats and 5 mm nut height. The page describes white nylon\
+                        \ hexagon full nuts with metric coarse threads and lists them\
+                        \ as DIN 934 pattern nuts."
+                    search_for: M6 hexagon full nut white nylon
+                    search_url: https://www.google.com/search?q=M6+hexagon+full+nut+white+nylon
+                    selected_variant: M6 size row; pitch 1.0 mm; across flats 10 mm;
+                        height 5 mm
+                    specification: 'Thread Size: M6; metric coarse thread; pitch 1.0
+                        mm; hexagon full nut; across flats 10 mm; height 5 mm; white
+                        nylon; DIN 934 pattern.'
+                    status: verified
+            supplier_data:
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '500'
+                    captured_at: '2026-10-12T19:53:12.037066+00:00'
+                    catalogue_page: '37'
+                    currency: GBP
+                    description: ''
+                    html_sha256: aef5df27efa86d95fd9012a4d4fd00f7bb28f4a6e4aaddbc45e7179d90f1251d
+                    name: M6 Full Nut Nylon Grade 66 Natural White
+                    parsed_at: '2026-10-18T08:49:27.303873+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:03pm
+                    stock_quantity: '6310'
+                    supplier: orbitalfasteners
+                    supplier_id: '4988920'
+                    supplier_part_number: '4988920'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m6-full-nut-nylon-grade-66-natural
+                    tiers:
+                    -   maximum: 499
+                        minimum: 1
+                        source_text: "1 - 499 \xA30.0576 Inc. VAT \xA35.76 Inc. VAT"
+                        source_unit_price: '0.0576'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0576'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2499
+                        minimum: 500
+                        source_text: "500 - 2499 \xA30.048 Inc. VAT \xA34.80 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.048'
+                        source_vat_basis: inclusive
+                        unit_price: '0.048'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 2500
+                        source_text: "2500 + \xA30.0432 Inc. VAT \xA34.32 Inc. VAT"
+                        source_unit_price: '0.0432'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0432'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0576'
+                    total_price_10: '0.5760'
+                    total_price_100: '5.7600'
+                    total_price_1000: '48.000'
+                    total_price_10000: '432.0000'
+                    unit_price_1: '0.0576'
+                    unit_price_10: '0.0576'
+                    unit_price_100: '0.0576'
+                    unit_price_1000: '0.048'
+                    unit_price_10000: '0.0432'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: nut
+            taxonomy_3: m6
+            taxonomy_4: nylon_white
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: manufacturer_dimensions
+                dimensional_specification: Accu HPN nylon nuts based on DIN 934; supplier
+                    dimensions
+                generator: supplier_nylon_hex_nut
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.86
+                    - 0.85
+                    - 0.81
+                    coat_roughness: 0.28
+                    coat_weight: 0.025
+                    metallic: 0.0
+                    microtexture_height_um: 0.4
+                    microtexture_spacing_mm: 0.025
+                    name: Natural white nylon
+                    note: Visual natural nylon approximation; exact polymer grade
+                        and mould surface not supplied by catalogue.
+                    roughness: 0.38
+                    roughness_variation: 0.025
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Catalogue family mapped to the cited dimensional
+                        pattern; exact supplier unspecified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 10
+                    characteristic_dimension_basis: hexagon across flats
+                    characteristic_dimension_mm: 10
+                    expected_components: 1
+                    external_minor_diameter_mm: 4.773130677972045
+                    family: nut
+                    finish: nylon_white
+                    handedness: right
+                    height_convention: total axial nut height
+                    height_mm: 5
+                    hole_chamfer_mm: 0.38466878364870316
+                    hole_chamfer_slope: 1.7320508075688767
+                    identity: hardware_nut_m6_nylon_white
+                    internal_minor_diameter_mm: 4.917468245269452
+                    mouth_diameter_mm: 6.25
+                    nominal_diameter_mm: 6.0
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 5
+                    pitch_mm: 1
+                    specification: Accu HPN nylon nuts based on DIN 934; supplier
+                        dimensions
+                    thread_flank_angle_degrees: 60.0
+                    thread_pitch_diameter_mm: 5.350480947161671
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   title: Accu HPN-M3-N
+                    url: https://www.accu.co.uk/hexagon-nuts/422470-HPN-M3-N
+                -   title: Accu HPN-M4-N
+                    url: https://www.accu.co.uk/hexagon-nuts/422472-HPN-M4-N
+                -   title: Accu HPN-M5-N
+                    url: https://www.accu.co.uk/hexagon-nuts/422473-HPN-M5-N
+                -   title: Accu HPN-M6-N
+                    url: https://www.accu.co.uk/hexagon-nuts/422474-HPN-M6-N
+                -   title: Accu HPN-M8-N
+                    url: https://www.accu.co.uk/hexagon-nuts/422475-HPN-M8-N
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: null
+                standard_lengths_mm: []
+                standard_limits:
+                    across_flats_mm:
+                    - 9.78
+                    - 10
+                    height_mm:
+                    - 4.7
+                    - 5
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_bolt_image.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        description: label_drawer
+        dict_data:
+            label_drawer: *id001
+        file_output: label_drawer.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
+oomp_key: oomp_hardware_nut_m6_nylon_white
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M6 hexagon full nut white nylon
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M6+hexagon+full+nut+white+nylon
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M6 hexagon full nut white nylon
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+hexagon+full+nut+white+nylon
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T09:20:24.500947+00:00'
+        evidence_file: support_files/evidence/hardware_nut_m6_nylon_white/google/04f7166979c5405aa3b595734a31c6b7.yaml
+        evidence_url: https://www.google.com/search?q=M6+hexagon+full+nut+white+nylon
+        material_evidence: Page description states white nylon hexagon full nuts;
+            key features state white nylon construction.
+        product_name: Metric White Nylon Hexagon Full Nuts DIN 934
+        reason: Spalding Fasteners explicitly lists white nylon hexagon full nuts
+            and provides the M6 pitch, across-flats and height dimensions in its size
+            table.
+        result_url: https://www.spaldingfasteners.co.uk/PARENT1303
+        search_evidence: "The supplied Google query returned Spalding Fasteners\u2019\
+            \ Metric White Nylon Full Nuts DIN 934 page. Its selected M6 size row\
+            \ gives 1.0 mm pitch, 10 mm across flats and 5 mm nut height. The page\
+            \ describes white nylon hexagon full nuts with metric coarse threads and\
+            \ lists them as DIN 934 pattern nuts."
+        search_for: M6 hexagon full nut white nylon
+        search_url: https://www.google.com/search?q=M6+hexagon+full+nut+white+nylon
+        selected_variant: M6 size row; pitch 1.0 mm; across flats 10 mm; height 5
+            mm
+        specification: 'Thread Size: M6; metric coarse thread; pitch 1.0 mm; hexagon
+            full nut; across flats 10 mm; height 5 mm; white nylon; DIN 934 pattern.'
+        status: verified
+supplier_data:
+    orbitalfasteners:
+        accepted_warnings: '[]'
+        box_quantity: '500'
+        captured_at: '2026-10-12T19:53:12.037066+00:00'
+        catalogue_page: '37'
+        currency: GBP
+        description: ''
+        html_sha256: aef5df27efa86d95fd9012a4d4fd00f7bb28f4a6e4aaddbc45e7179d90f1251d
+        name: M6 Full Nut Nylon Grade 66 Natural White
+        parsed_at: '2026-10-18T08:49:27.303873+00:00'
+        parser_version: 1.2-review-policy
+        review_policy: ''
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: inclusive
+        status: ok
+        stock_as_of: 9th October 2026 10:03pm
+        stock_quantity: '6310'
+        supplier: orbitalfasteners
+        supplier_id: '4988920'
+        supplier_part_number: '4988920'
+        supplier_website: https://www.orbitalfasteners.co.uk/products/m6-full-nut-nylon-grade-66-natural
+        tiers:
+        -   maximum: 499
+            minimum: 1
+            source_text: "1 - 499 \xA30.0576 Inc. VAT \xA35.76 Inc. VAT"
+            source_unit_price: '0.0576'
+            source_vat_basis: inclusive
+            unit_price: '0.0576'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 2499
+            minimum: 500
+            source_text: "500 - 2499 \xA30.048 Inc. VAT \xA34.80 Inc. VAT"
+            source_unit_price: '0.048'
+            source_vat_basis: inclusive
+            unit_price: '0.048'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 2500
+            source_text: "2500 + \xA30.0432 Inc. VAT \xA34.32 Inc. VAT"
+            source_unit_price: '0.0432'
+            source_vat_basis: inclusive
+            unit_price: '0.0432'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.0576'
+        total_price_10: '0.5760'
+        total_price_100: '5.7600'
+        total_price_1000: '48.000'
+        total_price_10000: '432.0000'
+        unit_price_1: '0.0576'
+        unit_price_10: '0.0576'
+        unit_price_100: '0.0576'
+        unit_price_1000: '0.048'
+        unit_price_10000: '0.0432'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings: []
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: nut
+taxonomy_2_capital: Nut
+taxonomy_2_first_letter: n
+taxonomy_2_first_letter_upper: N
+taxonomy_2_length_1: n
+taxonomy_2_length_2: nu
+taxonomy_2_length_3: nut
+taxonomy_2_length_4: nut
+taxonomy_2_length_5: nut
+taxonomy_2_upper: NUT
+taxonomy_2_upper_length_1: N
+taxonomy_2_upper_length_2: NU
+taxonomy_2_upper_length_3: NUT
+taxonomy_2_upper_length_4: NUT
+taxonomy_2_upper_length_5: NUT
+taxonomy_3: m6
+taxonomy_3_capital: M6
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m6
+taxonomy_3_length_3: m6
+taxonomy_3_length_4: m6
+taxonomy_3_length_5: m6
+taxonomy_3_upper: M6
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M6
+taxonomy_3_upper_length_3: M6
+taxonomy_3_upper_length_4: M6
+taxonomy_3_upper_length_5: M6
+taxonomy_4: nylon_white
+taxonomy_4_capital: Nylon White
+taxonomy_4_first_letter: n
+taxonomy_4_first_letter_upper: N
+taxonomy_4_length_1: n
+taxonomy_4_length_2: ny
+taxonomy_4_length_3: nyl
+taxonomy_4_length_4: nylo
+taxonomy_4_length_5: nylon
+taxonomy_4_upper: NYLON_WHITE
+taxonomy_4_upper_length_1: N
+taxonomy_4_upper_length_2: NY
+taxonomy_4_upper_length_3: NYL
+taxonomy_4_upper_length_4: NYLO
+taxonomy_4_upper_length_5: NYLON
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+    checked_on: '2026-10-11'
+    coordinate_system:
+        axis: +Z along bore
+        glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+        glb_units: metres
+        glb_up_axis: Y
+        origin: lower face centre
+        stl_units: mm
+    dimension_status: manufacturer_dimensions
+    dimensional_specification: Accu HPN nylon nuts based on DIN 934; supplier dimensions
+    generator: supplier_nylon_hex_nut
+    length_status: not_applicable
+    material:
+        base_colour_srgb:
+        - 0.86
+        - 0.85
+        - 0.81
+        coat_roughness: 0.28
+        coat_weight: 0.025
+        metallic: 0.0
+        microtexture_height_um: 0.4
+        microtexture_spacing_mm: 0.025
+        name: Natural white nylon
+        note: Visual natural nylon approximation; exact polymer grade and mould surface
+            not supplied by catalogue.
+        roughness: 0.38
+        roughness_variation: 0.025
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+        bearing: Bolt bearing circle and c selected within limits; k includes bearing
+            thickness; fillet tangent to shaft and bearing.
+        cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
+            bore and mouth chamfers.
+        certification: Nominal visual catalogue model, not manufacturing tolerance
+            certification.
+        chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees.
+            Bolt tip 45 degrees, P/2.
+        components: One closed solid for supported products. Unspecified lock/cage
+            assemblies are not substituted with plain hex nuts.
+        dimension_selection: Nominal bolt head height, max flats/nut height, nominal
+            washer sizes; selected dimensions stored in parameters.
+        display: Smooth nominal external-thread envelope or smooth minor-diameter
+            internal bore; lower angular and fillet tessellation.
+        family_note: Catalogue family mapped to the cited dimensional pattern; exact
+            supplier unspecified.
+        markings: Supplier and property-class markings omitted because catalogue does
+            not identify them.
+        runout: External one-pitch fade to plain shank; full thread ends at underhead
+            fillet.
+        thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+            rounded root H/6, internal P/4 crest and P/8 root flats.
+        unspecified_geometry: Nut mouth for supplier rows without limits and flange
+            M3/M4 thickness/rim blends are explicit visual model selections.
+    output_folder: three_d_model
+    parameters:
+        across_flats_mm: 10
+        characteristic_dimension_basis: hexagon across flats
+        characteristic_dimension_mm: 10
+        expected_components: 1
+        external_minor_diameter_mm: 4.773130677972045
+        family: nut
+        finish: nylon_white
+        handedness: right
+        height_convention: total axial nut height
+        height_mm: 5
+        hole_chamfer_mm: 0.38466878364870316
+        hole_chamfer_slope: 1.7320508075688767
+        identity: hardware_nut_m6_nylon_white
+        internal_minor_diameter_mm: 4.917468245269452
+        mouth_diameter_mm: 6.25
+        nominal_diameter_mm: 6.0
+        outer_chamfer_angle_degrees: 30.0
+        overall_height_mm: 5
+        pitch_mm: 1
+        specification: Accu HPN nylon nuts based on DIN 934; supplier dimensions
+        thread_flank_angle_degrees: 60.0
+        thread_pitch_diameter_mm: 5.350480947161671
+        thread_starts: 1
+    renders:
+        high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+        low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+        product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+        product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+    schema_version: 1
+    source_table: source_file/standards/catalogue_hardware.yaml
+    sources:
+    -   title: Accu HPN-M3-N
+        url: https://www.accu.co.uk/hexagon-nuts/422470-HPN-M3-N
+    -   title: Accu HPN-M4-N
+        url: https://www.accu.co.uk/hexagon-nuts/422472-HPN-M4-N
+    -   title: Accu HPN-M5-N
+        url: https://www.accu.co.uk/hexagon-nuts/422473-HPN-M5-N
+    -   title: Accu HPN-M6-N
+        url: https://www.accu.co.uk/hexagon-nuts/422474-HPN-M6-N
+    -   title: Accu HPN-M8-N
+        url: https://www.accu.co.uk/hexagon-nuts/422475-HPN-M8-N
+    -   title: ISO 68-1:1998 basic ISO metric thread profile
+        url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+    standard: null
+    standard_lengths_mm: []
+    standard_limits:
+        across_flats_mm:
+        - 9.78
+        - 10
+        height_mm:
+        - 4.7
+        - 5
+    studio:
+        adaptive_threshold: 0.015
+        denoise: true
+        device: auto
+        engine: cycles
+        exposure: 0.0
+        floor_colour_srgb:
+        - 0.93
+        - 0.935
+        - 0.94
+        floor_roughness: 0.55
+        framing_margin: 0.13
+        high_samples: 160
+        lights:
+        -   colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+        -   colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+        -   colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+        look: AgX - Medium High Contrast
+        low_samples: 48
+        poses:
+            isometric:
+                camera_eye:
+                - 1
+                - -1
+                - 1
+                orientation: principal axis Z up
+                projection: orthographic
+            product:
+                camera_eye:
+                - -6
+                - -10
+                - 6
+                orientation: resting on lower face, bore visible
+                projection: orthographic
+                resting_axis: face
+                support: Stable convex-hull support using actual mesh centre of mass.
+                yaw_degrees: -12.0
+        seed: 7991
+        view_transform: AgX
+        world_colour:
+        - 0.78
+        - 0.82
+        - 0.9
+        world_strength: 0.35
+    units: mm
+    variants:
+        display:
+            angular_segments: 24
+            fillet_segments: 3
+            samples_per_pitch: 1
+        full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
+url_chat: ''
+```
+
+</details>
+
+## Parts
+
+[Full-detail 3D model (GLB)](three_d_model/model_full.glb) · [Full-detail view drawings](three_d_model/full/) · [Drawer label (SVG)](label_drawer.svg)
+
+Full-detail and simplified display models are alternatives for the same part. GLB uses metres; STL, where supplied, uses millimetres. The [part folder](./) contains all available files.
+
+## Assembly
+
+This page documents a component rather than a complete project assembly. No installation sequence or tightening torque is specified by this record.
+<!-- hardware-part:end -->

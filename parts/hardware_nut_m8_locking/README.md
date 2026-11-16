@@ -1,0 +1,3080 @@
+<!-- hardware-part:start -->
+# M8 locking nut
+
+## Summary
+
+A nylon-insert locking nut, modelled with separate body and insert components.
+
+[Hardware catalogue](../../README.md) · [Browse this family](../../navigation_oobb/README.md#nuts)
+
+| Isometric | Product view |
+| --- | --- |
+| [![Full-detail isometric render](three_d_model/readme_isometric.png)](three_d_model/render_high.png) | [![Full-detail product view render](three_d_model/readme_product.png)](three_d_model/render_product_high.png) |
+
+Full-detail catalogue renders. Click either image to open the original resolution.
+
+## Details
+
+**OOMP ID:** `hardware_nut_m8_locking`
+
+**Short code:** `1xe0z` · **Three-word label:** cousin craft tag
+
+| Model dimension | mm |
+| --- | ---: |
+| Nominal size | 8 |
+| Thread pitch | 1.25 |
+| Across flats | 13 |
+| Height / thickness | 8 |
+
+Dimensions above are values used by the saved model recipe, in millimetres. **Model basis: supplier dimensions with visual details.**
+
+<details>
+<summary>Model provenance and assumptions</summary>
+
+**Recorded dimensional reference:** D. S. Fasteners DIN 985 nylon-insert pattern
+
+**Source checked:** 2026-10-13
+
+**Visual finish:** Satin steel
+
+**Finish assumption:** Visual finish approximation; catalogue specifies colour only.
+
+**Family notes:** Published s/h/m envelope. Nylon insert confirmed by owner. Collar wall, insert section and blue colour are visual assumptions. Separate steel body and nylon ring, small assembly clearance; no thread in undeformed nylon.
+
+These are saved catalogue references and modelling choices, not a claim of manufacturing certification.
+
+- [D. S. Fasteners catalogue page 3, DIN 985 dimensions s/h/m](https://www.dsfasteners.co.uk/_files/ugd/eb95dd_d696717a07be4aa7a00bd695073b3017.pdf)
+- [ISO 68-1:1998 basic ISO metric thread profile](https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf)
+
+[Detailed model notes](three_d_model/model_notes.md)
+
+[Complete model recipe](three_d_model/parameters.json)
+
+</details>
+
+<details>
+<summary>Complete part metadata</summary>
+
+[Source working.yaml](working.yaml)
+
+```yaml
+bip_39_2_word_array:
+- cousin
+- craft
+bip_39_2_word_no_space: cousincraft
+bip_39_2_word_space: cousin craft
+bip_39_2_word_underscore: cousin_craft
+bip_39_3_word_array:
+- cousin
+- craft
+- tag
+bip_39_3_word_no_space: cousincrafttag
+bip_39_3_word_space: cousin craft tag
+bip_39_3_word_underscore: cousin_craft_tag
+bip_39_full_array:
+- cousin
+- craft
+- tag
+- minute
+- reward
+- flower
+- cup
+- planet
+- advance
+- economy
+- inquiry
+- crop
+bip_39_full_no_space: cousincrafttagminuterewardflowercupplanetadvanceeconomyinquirycrop
+bip_39_full_space: cousin craft tag minute reward flower cup planet advance economy
+    inquiry crop
+bip_39_full_underscore: cousin_craft_tag_minute_reward_flower_cup_planet_advance_economy_inquiry_crop
+directory: parts/hardware_nut_m8_locking
+generate_stl: true
+id: hardware_nut_m8_locking
+id_no_class: hardware_nut_m8_locking
+id_no_size: hardware_nut_m8_locking
+id_no_type: hardware_nut_m8_locking
+label_drawer: &id001
+    bip39: cousin craft tag
+    bip39_size: 2.35
+    code: NU
+    description: Locking nut / M8
+    detail_lines: []
+    detail_size: 2.05
+    detail_y: 21.1
+    diagram: <path d="M7 1.8H13L16 7L13 12.2H7L4 7Z"/><circle cx="10" cy="7" r="2.5"/>
+    drive_symbol: <path d="M5 1L8.46 3V7L5 9L1.54 7V3Z" fill="#ffffff"/>
+    length: ''
+    length_size: 7.8
+    length_x: 22.3603625
+    name: Locking nut
+    name_lines:
+    - Locking nut
+    name_size: 3.2
+    thread: M8
+    thread_size: 6.5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m8_locking
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m8_locking
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m8_locking
+md5: 31664374c6ab8ab30d6d2f03e8c5d319
+md5_10: 31664374c6
+md5_10_upper: 31664374C6
+md5_5: '31664'
+md5_5_upper: '31664'
+md5_6: '316643'
+md5_6_alpha: 1xe0z
+md5_6_alpha_upper: 1XE0Z
+md5_6_upper: '316643'
+name: Hardware Nut M8 Locking
+name_no_class: Hardware Nut M8 Locking
+name_no_size: Hardware Nut M8 Locking
+name_no_type: Hardware Nut M8 Locking
+name_proper: Hardware Nut M8 Locking
+name_space: hardware nut m8 locking
+name_upper: HARDWARE NUT M8 LOCKING
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_nut_m8_locking
+            name: hardware_nut_m8_locking
+            name_proper: Hardware Nut M8 Locking
+            name_space: hardware nut m8 locking
+            name_upper: HARDWARE NUT M8 LOCKING
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M8 nylon insert locking nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M8+nylon+insert+locking+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M8 nylon insert locking nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+nylon+insert+locking+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T09:22:22.600044+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m8_locking/google/591744b2507d4ef8b35b776dec36f2a3.yaml
+                    evidence_url: https://www.google.com/search?q=M8+nylon+insert+locking+nut+steel
+                    material_evidence: Selected page heading specifies Galvanised
+                        Mild Steel and identifies a nylon insert lock nut.
+                    product_name: M8 Nylon Insert Lock Nut Nyloc Type - Galvanised
+                        Mild Steel DIN985
+                    reason: "U-Bolts-R-Us\u2019 selected M8 Nyloc nut is galvanised\
+                        \ mild steel, has a nylon insert, and matches DIN 985 dimensions."
+                    result_url: https://u-bolts-r-us.co.uk/stainless-steel-self-locking-nuts/12108-m8-nylon-insert-lock-nut-nyloc-type-galvanised-mild-steel-din985-5055624431742.html
+                    search_evidence: "The supplied Google query returned U-Bolts-R-Us\u2019\
+                        \ M8 Nylon Insert Lock Nut Nyloc Type product. Its selected\
+                        \ page identifies galvanised mild steel, DIN 985, M8 thread,\
+                        \ 1.25 mm pitch, d=14.38 mm, h=8 mm, m=5.5 mm and s=13 mm.\
+                        \ Product reference NUTS/GALV/NYLOC-M8."
+                    search_for: M8 nylon insert locking nut steel
+                    search_url: https://www.google.com/search?q=M8+nylon+insert+locking+nut+steel
+                    selected_variant: Fixed M8 product; reference NUTS/GALV/NYLOC-M8
+                    specification: M8 nylon insert locking nut; pitch 1.25 mm; d=14.38
+                        mm; h=8 mm; m=5.5 mm; s=13 mm; galvanised mild steel; DIN
+                        985.
+                    status: verified
+            supplier_data:
+                accu:
+                    accepted_warnings: '["Accu displayed prices are rounded; derived
+                        totals use the captured display precision", "Final Accu price
+                        tier has no captured upper boundary; final advertised unit
+                        price extended by user policy"]'
+                    box_quantity: ''
+                    captured_at: '2026-10-13T13:53:16.908860+00:00'
+                    currency: GBP
+                    description: "Nylon Locking Nuts (also called Nyloc Nuts or Nylocks)\
+                        \ are a type of self locking nut, fitted with a polymer insert.\
+                        \ The elastic Nylon insert of this component fits tightly\
+                        \ against the fastener, and is designed to resist loosening.\
+                        \ Nylon Lock Nut Variants\_ High Nylon Locking Nuts are an\
+                        \ elongated variant of this component, which allow for greater\
+                        \ thread contact and more secure fastenings. For applications\
+                        \ in high temperature environments, or where an all-metal\
+                        \ locking nut is preferred, Metal Locking Nuts are also available.\
+                        \ For a premium metal locking nut solution, please see Accu's\
+                        \ Aerotight Locking Nuts range. Our range of Flanged Nylon\
+                        \ Locking Nuts and Serrated Nylon Locking Nuts are also available\
+                        \ for applications requiring greater distribution of load\
+                        \ pressure without the need for a separate washer. Materials\
+                        \ The metal section of a Nylon Locking Nut can be manufactured\
+                        \ from A2 and A4 (Marine Grade) Stainless Steel as well as\
+                        \ Grade 8 and Grade 10 Carbon Steel. Hot Dip Galvanised and\
+                        \ Zinc Plated finishes are available on the Carbon Steel Nylocs,\
+                        \ with these treatments helping to offer improved corrosion\
+                        \ resistance. Metric Nylon Locking Nuts Metric Nylon Locking\
+                        \ Nuts are manufactured according to DIN 985, and are available\
+                        \ in metric sizes of between M1.6 and M48. For imperial options,\
+                        \ please see our Imperial Nylon Locking Nuts."
+                    html_sha256: 270f47330d5b7e7c89a5a809beef2ba110a6210394c22d76479e1b03597cdb7e
+                    name: M8 Hexagon Nylon Locking Nuts - 1.25mm Pitch (DIN 985) -
+                        Bright Zinc Plated Carbon Steel (Class 6)
+                    parsed_at: '2026-10-18T08:52:08.333570+00:00'
+                    parser_version: accu-1.9-base-material
+                    price_inheritance: ''
+                    quote_minimum: ''
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept rounded displayed prices,
+                        open-ended final advertised tiers, and quotes required from
+                        400 units; quote-only prices remain blank."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.02",
+                        "highPrice": "0.76", "priceCurrency": "GBP", "offerCount":
+                        "9", "availability": "https://schema.org/InStock", "itemCondition":
+                        "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/hexagon-nylon-locking-nuts/495550-HNN-M8-1-25-C8-Z",
+                        "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                        {"@type": "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "accus prices are all ex
+                        vat", "confirmed_on": "2026-10-13"}'
+                    specifications: '{"Accu Product Code (APC)": "HNN-M8-1.25-C8-Z",
+                        "Thread Size": "M8 (8 mm)", "Socket Size (J)": "13 mm (Tolerance:
+                        +0/-0.27 mm)", "Overall Thickness (L)": "8 mm (Tolerance:
+                        +0/-0.36 mm)", "Material": "Steel - (Class 6)", "Finish":
+                        "Bright Zinc Plated", "Hexagon Thickness (Min) (T)": "5.5
+                        mm", "Insert Material": "Nylon", "Manufacturing Standard":
+                        "DIN 985", "Material Family": "Steel", "System of Measurement":
+                        "Metric", "Thread Pitch": "1.25 mm"}'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: https://schema.org/InStock
+                    supplier: accu
+                    supplier_id: HNN-M8-1.25-C8-Z
+                    supplier_part_number: HNN-M8-1.25-C8-Z
+                    supplier_website: https://www.accu.co.uk/hexagon-nylon-locking-nuts/495550-HNN-M8-1-25-C8-Z
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: "Buy 1 \xA30.76"
+                        source_unit_price: '0.76'
+                        source_vat_basis: exclusive
+                        unit_price: '0.9120'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5
+                        minimum: 2
+                        source_text: "Buy 2 \xA30.41 Save 46 %"
+                        source_unit_price: '0.41'
+                        source_vat_basis: exclusive
+                        unit_price: '0.4920'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 11
+                        minimum: 6
+                        source_text: "Buy 6 \xA30.16 Save 78 %"
+                        source_unit_price: '0.16'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1920'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 23
+                        minimum: 12
+                        source_text: "Buy 12 \xA30.10 Save 86 %"
+                        source_unit_price: '0.10'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 24
+                        source_text: "Buy 24 \xA30.07 Save 90 %"
+                        source_unit_price: '0.07'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: "Buy 50 \xA30.05 Save 93 %"
+                        source_unit_price: '0.05'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0600'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 199
+                        minimum: 100
+                        source_text: "Buy 100 \xA30.04 Save 94 %"
+                        source_unit_price: '0.04'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0480'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 9999
+                        minimum: 200
+                        source_text: "Buy 200 \xA30.03 Save 96 %"
+                        source_unit_price: '0.03'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0360'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        maximum_basis: user-approved open-ended final tier; no captured
+                            upper boundary
+                        minimum: 10000
+                        source_text: "Buy 10,000 \xA30.02 Save 97 %"
+                        source_unit_price: '0.02'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0240'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.9120'
+                    total_price_10: '1.9200'
+                    total_price_100: '4.8000'
+                    total_price_1000: '36.0000'
+                    total_price_10000: '240.0000'
+                    unit_price_1: '0.9120'
+                    unit_price_10: '0.1920'
+                    unit_price_100: '0.0480'
+                    unit_price_1000: '0.0360'
+                    unit_price_10000: '0.0240'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Accu displayed prices are rounded; derived totals use the captured
+                        display precision
+                    - Final Accu price tier has no captured upper boundary; final
+                        advertised unit price extended by user policy
+                dibolt:
+                    accepted_warnings: '[]'
+                    captured_at: '2026-10-13T17:14:34.678450+00:00'
+                    currency: GBP
+                    html_sha256: bc1dcfb5a4c89defabe93e96b1d5dc323834e9980b3ec650f7a77c7ee317388e
+                    name: M8 Aerotight Aerotite All Metal Self Looking Nut Black Passivated
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:02:36.253862+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: ''
+                    review_warnings: '["Dibolt quantity price table missing; all comparable
+                        prices withheld; supplier page needs review", "Rendered pricing
+                        missing; comparable prices withheld", "Quantity 1: no unique
+                        verified source price/VAT band; price withheld", "Quantity
+                        10: no unique verified source price/VAT band; price withheld",
+                        "Quantity 100: no unique verified source price/VAT band; price
+                        withheld", "Quantity 1000: no unique verified source price/VAT
+                        band; price withheld", "Quantity 10000: no unique verified
+                        source price/VAT band; price withheld"]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M8 (8mm); End Diameter (Max) (D):
+                        12.53mm; Nut Thickness (H): 6.12mm; Material: Mild Steel (Grade
+                        4); Finish: Black Passivated; Overall Thickness (L): 10mm;
+                        Socket Size (J): 13mm; Thread Pitch: 1.25mm; Material Specification:
+                        Mild Steel (Grade 4)'
+                    status: review
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 23367.080.000
+                    supplier_part_number: 23367.080.000
+                    supplier_website: https://dibolt.co.uk/products/m8-aerotight-aerotite-all-metal-self-looking-nut-black-passivated
+                    tiers: []
+                    total_price_1: ''
+                    total_price_10: ''
+                    total_price_100: ''
+                    total_price_1000: ''
+                    total_price_10000: ''
+                    unit_price_1: ''
+                    unit_price_10: ''
+                    unit_price_100: ''
+                    unit_price_1000: ''
+                    unit_price_10000: ''
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt quantity price table missing; all comparable prices withheld;
+                        supplier page needs review
+                    - Rendered pricing missing; comparable prices withheld
+                    - 'Quantity 1: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 10: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 100: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 1000: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 10000: no unique verified source price/VAT band; price
+                        withheld'
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T12:33:49.666352+00:00'
+                    currency: GBP
+                    family_description: Metric nyloc nuts with a nylon insert which
+                        creates a locking action to help prevent loosening Threads
+                        are metric coarse pitch Zinc plated grade 6 steel Type T,
+                        manufactured to DIN 985
+                    family_heading: METRIC NYLOC NUTS GRADE 6 TYPE T ZINC PLATED STEEL
+                    html_sha256: d6d1e9f8601c842994af0d40fc69991566a4307280584b626e80a48412a72266
+                    name: M8 NYLON INSERT NUT DIN 985 ZINC PLATED STEEL 8.8
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:29:58.756085+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M8 NYLON INSERT NUT DIN 985 ZINC PLATED
+                        STEEL 8.8
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: METRIC NYLOC NUTS GRADE 6 TYPE T ZINC PLATED STEEL;
+                        Metric nyloc nuts with a nylon insert which creates a locking
+                        action to help prevent loosening Threads are metric coarse
+                        pitch Zinc plated grade 6 steel Type T, manufactured to DIN
+                        985
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M8-NYLON-INSERT-NUT-DIN-985-ZINC-PLATED-STEEL-8.8
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M8-NYLON-INSERT-NUT-DIN-985-ZINC-PLATED-STEEL-8.8
+                    supplier_website: https://www.kayfast.co.uk/view-product/METRIC-NYLOC-NUTS-GRADE-6-TYPE-T-ZINC-PLATED-STEEL
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_price_per_100: '7.29'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 199 @ \xA37.29 per 100"
+                        source_unit_price: '0.0729'
+                        source_vat_basis: exclusive
+                        unit_price: '0.087480'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_price_per_100: '4.77'
+                        source_price_quantity: 100
+                        source_text: "QTY 200 -  999 @ \xA34.77 per 100"
+                        source_unit_price: '0.0477'
+                        source_vat_basis: exclusive
+                        unit_price: '0.057240'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 1000
+                        source_price_per_100: '3.60'
+                        source_price_quantity: 100
+                        source_text: "QTY 1000 + @ \xA33.60 per 100"
+                        source_unit_price: '0.036'
+                        source_vat_basis: exclusive
+                        unit_price: '0.04320'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.087480'
+                    total_price_10: '0.874800'
+                    total_price_100: '8.748000'
+                    total_price_1000: '43.20000'
+                    total_price_10000: '432.00000'
+                    unit_price_1: '0.087480'
+                    unit_price_10: '0.087480'
+                    unit_price_100: '0.087480'
+                    unit_price_1000: '0.04320'
+                    unit_price_10000: '0.04320'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '200'
+                    captured_at: '2026-10-12T19:56:53.142841+00:00'
+                    catalogue_page: '29'
+                    currency: GBP
+                    description: ''
+                    html_sha256: b65a2ff87dc2f2365e1d04b588b5d3ee1895f1ba7826795380f7060422d79291
+                    name: M8 All Metal Self Locking Nut, Steel Class 8 DIN 980V Bright
+                        Zinc Plated
+                    parsed_at: '2026-10-18T08:49:28.307299+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:04pm
+                    stock_quantity: '3645'
+                    supplier: orbitalfasteners
+                    supplier_id: '5018630'
+                    supplier_part_number: '5018630'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m8-all-metal-self-locking-nut-steel-grade-8-din-980v-bright-zinc-plated
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_text: "1 - 199 \xA30.0714 Inc. VAT \xA37.14 Inc. VAT"
+                        source_unit_price: '0.0714'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0714'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_text: "200 - 999 \xA30.0595 Inc. VAT \xA35.95 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0595'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0595'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2999
+                        minimum: 1000
+                        source_text: "1000 - 2999 \xA30.0535 Inc. VAT \xA35.35 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0535'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0535'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 3000
+                        source_text: "3000 + \xA30.0476 Inc. VAT \xA34.76 Inc. VAT"
+                        source_unit_price: '0.0476'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0476'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0714'
+                    total_price_10: '0.7140'
+                    total_price_100: '7.1400'
+                    total_price_1000: '53.5000'
+                    total_price_10000: '476.0000'
+                    unit_price_1: '0.0714'
+                    unit_price_10: '0.0714'
+                    unit_price_100: '0.0714'
+                    unit_price_1000: '0.0535'
+                    unit_price_10000: '0.0476'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: nut
+            taxonomy_3: m8
+            taxonomy_4: locking
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-13'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: supplier_dimensions_with_visual_details
+                dimensional_specification: D. S. Fasteners DIN 985 nylon-insert pattern
+                generator: supplier_nylon_insert_nut
+                insert_material:
+                    base_colour_srgb:
+                    - 0.055
+                    - 0.16
+                    - 0.48
+                    coat_roughness: 0.3
+                    coat_weight: 0.0
+                    metallic: 0.0
+                    microtexture_height_um: 0.4
+                    microtexture_spacing_mm: 0.025
+                    name: Blue nylon insert
+                    note: Nylon mechanism confirmed by catalogue owner; blue colour
+                        is a visual selection.
+                    roughness: 0.42
+                    roughness_variation: 0.015
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    insert_material:
+                        base_colour_srgb:
+                        - 0.055
+                        - 0.16
+                        - 0.48
+                        coat_roughness: 0.3
+                        coat_weight: 0.0
+                        metallic: 0.0
+                        microtexture_height_um: 0.4
+                        microtexture_spacing_mm: 0.025
+                        name: Blue nylon insert
+                        note: Nylon mechanism confirmed by catalogue owner; blue colour
+                            is a visual selection.
+                        roughness: 0.42
+                        roughness_variation: 0.015
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: Closed separate assembly components; hidden spring
+                        omitted.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Published s/h/m envelope. Nylon insert confirmed
+                        by owner. Collar wall, insert section and blue colour are
+                        visual assumptions. Separate steel body and nylon ring, small
+                        assembly clearance; no thread in undeformed nylon.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 13
+                    characteristic_dimension_basis: hexagon across flats
+                    characteristic_dimension_mm: 13
+                    expected_components: 2
+                    external_minor_diameter_mm: 6.466413347465057
+                    family: nut
+                    finish: satin
+                    handedness: right
+                    height_convention: total axial nut height
+                    height_mm: 8
+                    hex_height_mm: 6
+                    hole_chamfer_mm: 0.4808359795608791
+                    hole_chamfer_slope: 1.7320508075688767
+                    identity: hardware_nut_m8_locking
+                    internal_minor_diameter_mm: 6.646835306586815
+                    mouth_diameter_mm: 8.3125
+                    nominal_diameter_mm: 8.0
+                    nut_style: locking_nut
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 8
+                    pitch_mm: 1.25
+                    specification: D. S. Fasteners DIN 985 nylon-insert pattern
+                    thread_flank_angle_degrees: 60.0
+                    thread_pitch_diameter_mm: 7.188101183952089
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_extensions.yaml
+                sources:
+                -   title: D. S. Fasteners catalogue page 3, DIN 985 dimensions s/h/m
+                    url: https://www.dsfasteners.co.uk/_files/ugd/eb95dd_d696717a07be4aa7a00bd695073b3017.pdf
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: null
+                standard_lengths_mm: []
+                standard_limits: {}
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_nut_m8_locking
+            name: hardware_nut_m8_locking
+            name_proper: Hardware Nut M8 Locking
+            name_space: hardware nut m8 locking
+            name_upper: HARDWARE NUT M8 LOCKING
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_nut_m8_locking
+                        name: hardware_nut_m8_locking
+                        name_proper: Hardware Nut M8 Locking
+                        name_space: hardware nut m8 locking
+                        name_upper: HARDWARE NUT M8 LOCKING
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M8 nylon insert locking nut steel
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M8+nylon+insert+locking+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M8 nylon insert locking nut steel
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+nylon+insert+locking+nut+steel
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T09:22:22.600044+00:00'
+                                evidence_file: support_files/evidence/hardware_nut_m8_locking/google/591744b2507d4ef8b35b776dec36f2a3.yaml
+                                evidence_url: https://www.google.com/search?q=M8+nylon+insert+locking+nut+steel
+                                material_evidence: Selected page heading specifies
+                                    Galvanised Mild Steel and identifies a nylon insert
+                                    lock nut.
+                                product_name: M8 Nylon Insert Lock Nut Nyloc Type
+                                    - Galvanised Mild Steel DIN985
+                                reason: "U-Bolts-R-Us\u2019 selected M8 Nyloc nut\
+                                    \ is galvanised mild steel, has a nylon insert,\
+                                    \ and matches DIN 985 dimensions."
+                                result_url: https://u-bolts-r-us.co.uk/stainless-steel-self-locking-nuts/12108-m8-nylon-insert-lock-nut-nyloc-type-galvanised-mild-steel-din985-5055624431742.html
+                                search_evidence: "The supplied Google query returned\
+                                    \ U-Bolts-R-Us\u2019 M8 Nylon Insert Lock Nut\
+                                    \ Nyloc Type product. Its selected page identifies\
+                                    \ galvanised mild steel, DIN 985, M8 thread, 1.25\
+                                    \ mm pitch, d=14.38 mm, h=8 mm, m=5.5 mm and s=13\
+                                    \ mm. Product reference NUTS/GALV/NYLOC-M8."
+                                search_for: M8 nylon insert locking nut steel
+                                search_url: https://www.google.com/search?q=M8+nylon+insert+locking+nut+steel
+                                selected_variant: Fixed M8 product; reference NUTS/GALV/NYLOC-M8
+                                specification: M8 nylon insert locking nut; pitch
+                                    1.25 mm; d=14.38 mm; h=8 mm; m=5.5 mm; s=13 mm;
+                                    galvanised mild steel; DIN 985.
+                                status: verified
+                        supplier_data:
+                            accu:
+                                accepted_warnings: '["Accu displayed prices are rounded;
+                                    derived totals use the captured display precision",
+                                    "Final Accu price tier has no captured upper boundary;
+                                    final advertised unit price extended by user policy"]'
+                                box_quantity: ''
+                                captured_at: '2026-10-13T13:53:16.908860+00:00'
+                                currency: GBP
+                                description: "Nylon Locking Nuts (also called Nyloc\
+                                    \ Nuts or Nylocks) are a type of self locking\
+                                    \ nut, fitted with a polymer insert. The elastic\
+                                    \ Nylon insert of this component fits tightly\
+                                    \ against the fastener, and is designed to resist\
+                                    \ loosening. Nylon Lock Nut Variants\_ High Nylon\
+                                    \ Locking Nuts are an elongated variant of this\
+                                    \ component, which allow for greater thread contact\
+                                    \ and more secure fastenings. For applications\
+                                    \ in high temperature environments, or where an\
+                                    \ all-metal locking nut is preferred, Metal Locking\
+                                    \ Nuts are also available. For a premium metal\
+                                    \ locking nut solution, please see Accu's Aerotight\
+                                    \ Locking Nuts range. Our range of Flanged Nylon\
+                                    \ Locking Nuts and Serrated Nylon Locking Nuts\
+                                    \ are also available for applications requiring\
+                                    \ greater distribution of load pressure without\
+                                    \ the need for a separate washer. Materials The\
+                                    \ metal section of a Nylon Locking Nut can be\
+                                    \ manufactured from A2 and A4 (Marine Grade) Stainless\
+                                    \ Steel as well as Grade 8 and Grade 10 Carbon\
+                                    \ Steel. Hot Dip Galvanised and Zinc Plated finishes\
+                                    \ are available on the Carbon Steel Nylocs, with\
+                                    \ these treatments helping to offer improved corrosion\
+                                    \ resistance. Metric Nylon Locking Nuts Metric\
+                                    \ Nylon Locking Nuts are manufactured according\
+                                    \ to DIN 985, and are available in metric sizes\
+                                    \ of between M1.6 and M48. For imperial options,\
+                                    \ please see our Imperial Nylon Locking Nuts."
+                                html_sha256: 270f47330d5b7e7c89a5a809beef2ba110a6210394c22d76479e1b03597cdb7e
+                                name: M8 Hexagon Nylon Locking Nuts - 1.25mm Pitch
+                                    (DIN 985) - Bright Zinc Plated Carbon Steel (Class
+                                    6)
+                                parsed_at: '2026-10-18T08:52:08.333570+00:00'
+                                parser_version: accu-1.9-base-material
+                                price_inheritance: ''
+                                quote_minimum: ''
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-13", "statement": "Accept rounded displayed
+                                    prices, open-ended final advertised tiers, and
+                                    quotes required from 400 units; quote-only prices
+                                    remain blank."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_offer: '{"@type": "AggregateOffer", "lowPrice":
+                                    "0.02", "highPrice": "0.76", "priceCurrency":
+                                    "GBP", "offerCount": "9", "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "url": "https://www.accu.co.uk/hexagon-nylon-locking-nuts/495550-HNN-M8-1-25-C8-Z",
+                                    "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                                    {"@type": "QuantitativeValue", "value": 1, "unitCode":
+                                    "ANN"}}}'
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "accus
+                                    prices are all ex vat", "confirmed_on": "2026-10-13"}'
+                                specifications: '{"Accu Product Code (APC)": "HNN-M8-1.25-C8-Z",
+                                    "Thread Size": "M8 (8 mm)", "Socket Size (J)":
+                                    "13 mm (Tolerance: +0/-0.27 mm)", "Overall Thickness
+                                    (L)": "8 mm (Tolerance: +0/-0.36 mm)", "Material":
+                                    "Steel - (Class 6)", "Finish": "Bright Zinc Plated",
+                                    "Hexagon Thickness (Min) (T)": "5.5 mm", "Insert
+                                    Material": "Nylon", "Manufacturing Standard":
+                                    "DIN 985", "Material Family": "Steel", "System
+                                    of Measurement": "Metric", "Thread Pitch": "1.25
+                                    mm"}'
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: https://schema.org/InStock
+                                supplier: accu
+                                supplier_id: HNN-M8-1.25-C8-Z
+                                supplier_part_number: HNN-M8-1.25-C8-Z
+                                supplier_website: https://www.accu.co.uk/hexagon-nylon-locking-nuts/495550-HNN-M8-1-25-C8-Z
+                                tiers:
+                                -   maximum: 1
+                                    minimum: 1
+                                    source_text: "Buy 1 \xA30.76"
+                                    source_unit_price: '0.76'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.9120'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 5
+                                    minimum: 2
+                                    source_text: "Buy 2 \xA30.41 Save 46 %"
+                                    source_unit_price: '0.41'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.4920'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 11
+                                    minimum: 6
+                                    source_text: "Buy 6 \xA30.16 Save 78 %"
+                                    source_unit_price: '0.16'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1920'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 23
+                                    minimum: 12
+                                    source_text: "Buy 12 \xA30.10 Save 86 %"
+                                    source_unit_price: '0.10'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.1200'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 49
+                                    minimum: 24
+                                    source_text: "Buy 24 \xA30.07 Save 90 %"
+                                    source_unit_price: '0.07'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0840'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 99
+                                    minimum: 50
+                                    source_text: "Buy 50 \xA30.05 Save 93 %"
+                                    source_unit_price: '0.05'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0600'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 199
+                                    minimum: 100
+                                    source_text: "Buy 100 \xA30.04 Save 94 %"
+                                    source_unit_price: '0.04'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0480'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 9999
+                                    minimum: 200
+                                    source_text: "Buy 200 \xA30.03 Save 96 %"
+                                    source_unit_price: '0.03'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0360'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    maximum_basis: user-approved open-ended final
+                                        tier; no captured upper boundary
+                                    minimum: 10000
+                                    source_text: "Buy 10,000 \xA30.02 Save 97 %"
+                                    source_unit_price: '0.02'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.0240'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.9120'
+                                total_price_10: '1.9200'
+                                total_price_100: '4.8000'
+                                total_price_1000: '36.0000'
+                                total_price_10000: '240.0000'
+                                unit_price_1: '0.9120'
+                                unit_price_10: '0.1920'
+                                unit_price_100: '0.0480'
+                                unit_price_1000: '0.0360'
+                                unit_price_10000: '0.0240'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Accu displayed prices are rounded; derived totals
+                                    use the captured display precision
+                                - Final Accu price tier has no captured upper boundary;
+                                    final advertised unit price extended by user policy
+                            dibolt:
+                                accepted_warnings: '[]'
+                                captured_at: '2026-10-13T17:14:34.678450+00:00'
+                                currency: GBP
+                                html_sha256: bc1dcfb5a4c89defabe93e96b1d5dc323834e9980b3ec650f7a77c7ee317388e
+                                name: M8 Aerotight Aerotite All Metal Self Looking
+                                    Nut Black Passivated
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:02:36.253862+00:00'
+                                parser_version: dibolt-1.3-missing-price-review
+                                review_policy: ''
+                                review_warnings: '["Dibolt quantity price table missing;
+                                    all comparable prices withheld; supplier page
+                                    needs review", "Rendered pricing missing; comparable
+                                    prices withheld", "Quantity 1: no unique verified
+                                    source price/VAT band; price withheld", "Quantity
+                                    10: no unique verified source price/VAT band;
+                                    price withheld", "Quantity 100: no unique verified
+                                    source price/VAT band; price withheld", "Quantity
+                                    1000: no unique verified source price/VAT band;
+                                    price withheld", "Quantity 10000: no unique verified
+                                    source price/VAT band; price withheld"]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                specifications: 'Thread Size: M8 (8mm); End Diameter
+                                    (Max) (D): 12.53mm; Nut Thickness (H): 6.12mm;
+                                    Material: Mild Steel (Grade 4); Finish: Black
+                                    Passivated; Overall Thickness (L): 10mm; Socket
+                                    Size (J): 13mm; Thread Pitch: 1.25mm; Material
+                                    Specification: Mild Steel (Grade 4)'
+                                status: review
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: dibolt
+                                supplier_id: 23367.080.000
+                                supplier_part_number: 23367.080.000
+                                supplier_website: https://dibolt.co.uk/products/m8-aerotight-aerotite-all-metal-self-looking-nut-black-passivated
+                                tiers: []
+                                total_price_1: ''
+                                total_price_10: ''
+                                total_price_100: ''
+                                total_price_1000: ''
+                                total_price_10000: ''
+                                unit_price_1: ''
+                                unit_price_10: ''
+                                unit_price_100: ''
+                                unit_price_1000: ''
+                                unit_price_10000: ''
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Dibolt quantity price table missing; all comparable
+                                    prices withheld; supplier page needs review
+                                - Rendered pricing missing; comparable prices withheld
+                                - 'Quantity 1: no unique verified source price/VAT
+                                    band; price withheld'
+                                - 'Quantity 10: no unique verified source price/VAT
+                                    band; price withheld'
+                                - 'Quantity 100: no unique verified source price/VAT
+                                    band; price withheld'
+                                - 'Quantity 1000: no unique verified source price/VAT
+                                    band; price withheld'
+                                - 'Quantity 10000: no unique verified source price/VAT
+                                    band; price withheld'
+                            kayfast:
+                                accepted_warnings: '["Kayfast per-100 displayed prices
+                                    are rounded; derived totals use captured display
+                                    precision"]'
+                                captured_at: '2026-10-14T12:33:49.666352+00:00'
+                                currency: GBP
+                                family_description: Metric nyloc nuts with a nylon
+                                    insert which creates a locking action to help
+                                    prevent loosening Threads are metric coarse pitch
+                                    Zinc plated grade 6 steel Type T, manufactured
+                                    to DIN 985
+                                family_heading: METRIC NYLOC NUTS GRADE 6 TYPE T ZINC
+                                    PLATED STEEL
+                                html_sha256: d6d1e9f8601c842994af0d40fc69991566a4307280584b626e80a48412a72266
+                                name: M8 NYLON INSERT NUT DIN 985 ZINC PLATED STEEL
+                                    8.8
+                                packages: '[]'
+                                parsed_at: '2026-10-18T09:29:58.756085+00:00'
+                                parser_version: kayfast-1.6-family-description
+                                price_breaks_description: M8 NYLON INSERT NUT DIN
+                                    985 ZINC PLATED STEEL 8.8
+                                review_policy: '{"source": "user clarification", "confirmed_on":
+                                    "2026-10-17", "statement": "Use the exact row
+                                    dropdown price per 100 divided by 100 with Decimal
+                                    precision; accept the captured per-100 display
+                                    precision."}'
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: exclusive
+                                source_vat_basis_evidence: '{"vat_basis": "exclusive",
+                                    "source": "user clarification", "statement": "Kayfast
+                                    prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+                                specifications: METRIC NYLOC NUTS GRADE 6 TYPE T ZINC
+                                    PLATED STEEL; Metric nyloc nuts with a nylon insert
+                                    which creates a locking action to help prevent
+                                    loosening Threads are metric coarse pitch Zinc
+                                    plated grade 6 steel Type T, manufactured to DIN
+                                    985
+                                status: ok
+                                stock_quantity: ''
+                                stock_status: ''
+                                supplier: kayfast
+                                supplier_id: M8-NYLON-INSERT-NUT-DIN-985-ZINC-PLATED-STEEL-8.8
+                                supplier_id_basis: exact dimensional row description;
+                                    spaces replaced by hyphens (user clarification
+                                    2026-10-11)
+                                supplier_part_number: M8-NYLON-INSERT-NUT-DIN-985-ZINC-PLATED-STEEL-8.8
+                                supplier_website: https://www.kayfast.co.uk/view-product/METRIC-NYLOC-NUTS-GRADE-6-TYPE-T-ZINC-PLATED-STEEL
+                                tiers:
+                                -   maximum: 199
+                                    minimum: 1
+                                    source_price_per_100: '7.29'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 1 - 199 @ \xA37.29 per 100"
+                                    source_unit_price: '0.0729'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.087480'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 999
+                                    minimum: 200
+                                    source_price_per_100: '4.77'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 200 -  999 @ \xA34.77 per 100"
+                                    source_unit_price: '0.0477'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.057240'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 1000
+                                    source_price_per_100: '3.60'
+                                    source_price_quantity: 100
+                                    source_text: "QTY 1000 + @ \xA33.60 per 100"
+                                    source_unit_price: '0.036'
+                                    source_vat_basis: exclusive
+                                    unit_price: '0.04320'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.087480'
+                                total_price_10: '0.874800'
+                                total_price_100: '8.748000'
+                                total_price_1000: '43.20000'
+                                total_price_10000: '432.00000'
+                                unit_price_1: '0.087480'
+                                unit_price_10: '0.087480'
+                                unit_price_100: '0.087480'
+                                unit_price_1000: '0.04320'
+                                unit_price_10000: '0.04320'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings:
+                                - Kayfast per-100 displayed prices are rounded; derived
+                                    totals use captured display precision
+                            orbitalfasteners:
+                                accepted_warnings: '[]'
+                                box_quantity: '200'
+                                captured_at: '2026-10-12T19:56:53.142841+00:00'
+                                catalogue_page: '29'
+                                currency: GBP
+                                description: ''
+                                html_sha256: b65a2ff87dc2f2365e1d04b588b5d3ee1895f1ba7826795380f7060422d79291
+                                name: M8 All Metal Self Locking Nut, Steel Class 8
+                                    DIN 980V Bright Zinc Plated
+                                parsed_at: '2026-10-18T08:49:28.307299+00:00'
+                                parser_version: 1.2-review-policy
+                                review_policy: ''
+                                review_warnings: '[]'
+                                selected_by_current_filter: true
+                                source_vat_basis: inclusive
+                                status: ok
+                                stock_as_of: 9th October 2026 10:04pm
+                                stock_quantity: '3645'
+                                supplier: orbitalfasteners
+                                supplier_id: '5018630'
+                                supplier_part_number: '5018630'
+                                supplier_website: https://www.orbitalfasteners.co.uk/products/m8-all-metal-self-locking-nut-steel-grade-8-din-980v-bright-zinc-plated
+                                tiers:
+                                -   maximum: 199
+                                    minimum: 1
+                                    source_text: "1 - 199 \xA30.0714 Inc. VAT \xA3\
+                                        7.14 Inc. VAT"
+                                    source_unit_price: '0.0714'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0714'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 999
+                                    minimum: 200
+                                    source_text: "200 - 999 \xA30.0595 Inc. VAT \xA3\
+                                        5.95 Inc. VAT"
+                                    source_unit_price: '0.0595'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0595'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: 2999
+                                    minimum: 1000
+                                    source_text: "1000 - 2999 \xA30.0535 Inc. VAT\
+                                        \ \xA35.35 Inc. VAT"
+                                    source_unit_price: '0.0535'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0535'
+                                    valid: true
+                                    vat_basis: inclusive
+                                -   maximum: null
+                                    minimum: 3000
+                                    source_text: "3000 + \xA30.0476 Inc. VAT \xA3\
+                                        4.76 Inc. VAT"
+                                    source_unit_price: '0.0476'
+                                    source_vat_basis: inclusive
+                                    unit_price: '0.0476'
+                                    valid: true
+                                    vat_basis: inclusive
+                                total_price_1: '0.0714'
+                                total_price_10: '0.7140'
+                                total_price_100: '7.1400'
+                                total_price_1000: '53.5000'
+                                total_price_10000: '476.0000'
+                                unit_price_1: '0.0714'
+                                unit_price_10: '0.0714'
+                                unit_price_100: '0.0714'
+                                unit_price_1000: '0.0535'
+                                unit_price_10000: '0.0476'
+                                vat_basis: inclusive
+                                vat_rate: '0.20'
+                                vat_rate_checked: '2026-10-11'
+                                vat_rate_source: https://www.gov.uk/vat-rates
+                                warnings: []
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: nut
+                        taxonomy_3: m8
+                        taxonomy_4: locking
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        three_d_model_details:
+                            checked_on: '2026-10-13'
+                            coordinate_system:
+                                axis: +Z along bore
+                                glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                                glb_units: metres
+                                glb_up_axis: Y
+                                origin: lower face centre
+                                stl_units: mm
+                            dimension_status: supplier_dimensions_with_visual_details
+                            dimensional_specification: D. S. Fasteners DIN 985 nylon-insert
+                                pattern
+                            generator: supplier_nylon_insert_nut
+                            insert_material:
+                                base_colour_srgb:
+                                - 0.055
+                                - 0.16
+                                - 0.48
+                                coat_roughness: 0.3
+                                coat_weight: 0.0
+                                metallic: 0.0
+                                microtexture_height_um: 0.4
+                                microtexture_spacing_mm: 0.025
+                                name: Blue nylon insert
+                                note: Nylon mechanism confirmed by catalogue owner;
+                                    blue colour is a visual selection.
+                                roughness: 0.42
+                                roughness_variation: 0.015
+                            length_status: not_applicable
+                            material:
+                                base_colour_srgb:
+                                - 0.62
+                                - 0.65
+                                - 0.69
+                                coat_roughness: 0.28
+                                coat_weight: 0.02
+                                insert_material:
+                                    base_colour_srgb:
+                                    - 0.055
+                                    - 0.16
+                                    - 0.48
+                                    coat_roughness: 0.3
+                                    coat_weight: 0.0
+                                    metallic: 0.0
+                                    microtexture_height_um: 0.4
+                                    microtexture_spacing_mm: 0.025
+                                    name: Blue nylon insert
+                                    note: Nylon mechanism confirmed by catalogue owner;
+                                        blue colour is a visual selection.
+                                    roughness: 0.42
+                                    roughness_variation: 0.015
+                                metallic: 1.0
+                                microtexture_height_um: 0.8
+                                microtexture_spacing_mm: 0.025
+                                name: Satin steel
+                                note: Visual finish approximation; catalogue specifies
+                                    colour only.
+                                roughness: 0.26
+                                roughness_variation: 0.045
+                            model_formats:
+                            - stl
+                            - glb
+                            modelling_choices:
+                                bearing: Bolt bearing circle and c selected within
+                                    limits; k includes bearing thickness; fillet tangent
+                                    to shaft and bearing.
+                                cavity: Nut through-bore has a helical internal surface;
+                                    display keeps minor-diameter bore and mouth chamfers.
+                                certification: Nominal visual catalogue model, not
+                                    manufacturing tolerance certification.
+                                chamfer: 30 degree outer hex chamfer. Nut mouth included
+                                    angle 120 degrees. Bolt tip 45 degrees, P/2.
+                                components: Closed separate assembly components; hidden
+                                    spring omitted.
+                                dimension_selection: Nominal bolt head height, max
+                                    flats/nut height, nominal washer sizes; selected
+                                    dimensions stored in parameters.
+                                display: Smooth nominal external-thread envelope or
+                                    smooth minor-diameter internal bore; lower angular
+                                    and fillet tessellation.
+                                family_note: Published s/h/m envelope. Nylon insert
+                                    confirmed by owner. Collar wall, insert section
+                                    and blue colour are visual assumptions. Separate
+                                    steel body and nylon ring, small assembly clearance;
+                                    no thread in undeformed nylon.
+                                markings: Supplier and property-class markings omitted
+                                    because catalogue does not identify them.
+                                runout: External one-pitch fade to plain shank; full
+                                    thread ends at underhead fillet.
+                                thread: Nominal ISO basic metric profile, no ISO 965
+                                    tolerance offsets. External rounded root H/6,
+                                    internal P/4 crest and P/8 root flats.
+                                unspecified_geometry: Nut mouth for supplier rows
+                                    without limits and flange M3/M4 thickness/rim
+                                    blends are explicit visual model selections.
+                            output_folder: three_d_model
+                            parameters:
+                                across_flats_mm: 13
+                                characteristic_dimension_basis: hexagon across flats
+                                characteristic_dimension_mm: 13
+                                expected_components: 2
+                                external_minor_diameter_mm: 6.466413347465057
+                                family: nut
+                                finish: satin
+                                handedness: right
+                                height_convention: total axial nut height
+                                height_mm: 8
+                                hex_height_mm: 6
+                                hole_chamfer_mm: 0.4808359795608791
+                                hole_chamfer_slope: 1.7320508075688767
+                                identity: hardware_nut_m8_locking
+                                internal_minor_diameter_mm: 6.646835306586815
+                                mouth_diameter_mm: 8.3125
+                                nominal_diameter_mm: 8.0
+                                nut_style: locking_nut
+                                outer_chamfer_angle_degrees: 30.0
+                                overall_height_mm: 8
+                                pitch_mm: 1.25
+                                specification: D. S. Fasteners DIN 985 nylon-insert
+                                    pattern
+                                thread_flank_angle_degrees: 60.0
+                                thread_pitch_diameter_mm: 7.188101183952089
+                                thread_starts: 1
+                            renders:
+                                high:
+                                    file: render_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: isometric
+                                low:
+                                    file: render_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: isometric
+                                product_high:
+                                    file: render_product_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: product
+                                product_low:
+                                    file: render_product_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: product
+                            schema_version: 1
+                            source_table: source_file/standards/catalogue_extensions.yaml
+                            sources:
+                            -   title: D. S. Fasteners catalogue page 3, DIN 985 dimensions
+                                    s/h/m
+                                url: https://www.dsfasteners.co.uk/_files/ugd/eb95dd_d696717a07be4aa7a00bd695073b3017.pdf
+                            -   title: ISO 68-1:1998 basic ISO metric thread profile
+                                url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                            standard: null
+                            standard_lengths_mm: []
+                            standard_limits: {}
+                            studio:
+                                adaptive_threshold: 0.015
+                                denoise: true
+                                device: auto
+                                engine: cycles
+                                exposure: 0.0
+                                floor_colour_srgb:
+                                - 0.93
+                                - 0.935
+                                - 0.94
+                                floor_roughness: 0.55
+                                framing_margin: 0.13
+                                high_samples: 160
+                                lights:
+                                -   colour:
+                                    - 1.0
+                                    - 0.96
+                                    - 0.9
+                                    height: 5.0
+                                    name: Key softbox
+                                    position:
+                                    - -3
+                                    - -4
+                                    - 6
+                                    power: 650.0
+                                    width: 4.0
+                                -   colour:
+                                    - 0.9
+                                    - 0.95
+                                    - 1.0
+                                    height: 4.0
+                                    name: Fill softbox
+                                    position:
+                                    - 4
+                                    - -1
+                                    - 3
+                                    power: 330.0
+                                    width: 3.0
+                                -   colour:
+                                    - 1.0
+                                    - 1.0
+                                    - 1.0
+                                    height: 5.0
+                                    name: Rim strip
+                                    position:
+                                    - 1
+                                    - 4
+                                    - 4
+                                    power: 850.0
+                                    width: 1.2
+                                look: AgX - Medium High Contrast
+                                low_samples: 48
+                                poses:
+                                    isometric:
+                                        camera_eye:
+                                        - 1
+                                        - -1
+                                        - 1
+                                        orientation: principal axis Z up
+                                        projection: orthographic
+                                    product:
+                                        camera_eye:
+                                        - -6
+                                        - -10
+                                        - 6
+                                        orientation: resting on lower face, bore visible
+                                        projection: orthographic
+                                        resting_axis: face
+                                        support: Stable convex-hull support using
+                                            actual mesh centre of mass.
+                                        yaw_degrees: -12.0
+                                seed: 7991
+                                view_transform: AgX
+                                world_colour:
+                                - 0.78
+                                - 0.82
+                                - 0.9
+                                world_strength: 0.35
+                            units: mm
+                            variants:
+                                display:
+                                    angular_segments: 24
+                                    fillet_segments: 3
+                                    samples_per_pitch: 1
+                                full:
+                                    angular_segments: 96
+                                    fillet_segments: 12
+                                    samples_per_pitch: 32
+                            views:
+                            - isometric
+                            - front
+                            - back
+                            - left
+                            - right
+                            - top
+                            - bottom
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M8 nylon insert locking nut steel
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M8+nylon+insert+locking+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M8 nylon insert locking nut steel
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+nylon+insert+locking+nut+steel
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T09:22:22.600044+00:00'
+                    evidence_file: support_files/evidence/hardware_nut_m8_locking/google/591744b2507d4ef8b35b776dec36f2a3.yaml
+                    evidence_url: https://www.google.com/search?q=M8+nylon+insert+locking+nut+steel
+                    material_evidence: Selected page heading specifies Galvanised
+                        Mild Steel and identifies a nylon insert lock nut.
+                    product_name: M8 Nylon Insert Lock Nut Nyloc Type - Galvanised
+                        Mild Steel DIN985
+                    reason: "U-Bolts-R-Us\u2019 selected M8 Nyloc nut is galvanised\
+                        \ mild steel, has a nylon insert, and matches DIN 985 dimensions."
+                    result_url: https://u-bolts-r-us.co.uk/stainless-steel-self-locking-nuts/12108-m8-nylon-insert-lock-nut-nyloc-type-galvanised-mild-steel-din985-5055624431742.html
+                    search_evidence: "The supplied Google query returned U-Bolts-R-Us\u2019\
+                        \ M8 Nylon Insert Lock Nut Nyloc Type product. Its selected\
+                        \ page identifies galvanised mild steel, DIN 985, M8 thread,\
+                        \ 1.25 mm pitch, d=14.38 mm, h=8 mm, m=5.5 mm and s=13 mm.\
+                        \ Product reference NUTS/GALV/NYLOC-M8."
+                    search_for: M8 nylon insert locking nut steel
+                    search_url: https://www.google.com/search?q=M8+nylon+insert+locking+nut+steel
+                    selected_variant: Fixed M8 product; reference NUTS/GALV/NYLOC-M8
+                    specification: M8 nylon insert locking nut; pitch 1.25 mm; d=14.38
+                        mm; h=8 mm; m=5.5 mm; s=13 mm; galvanised mild steel; DIN
+                        985.
+                    status: verified
+            supplier_data:
+                accu:
+                    accepted_warnings: '["Accu displayed prices are rounded; derived
+                        totals use the captured display precision", "Final Accu price
+                        tier has no captured upper boundary; final advertised unit
+                        price extended by user policy"]'
+                    box_quantity: ''
+                    captured_at: '2026-10-13T13:53:16.908860+00:00'
+                    currency: GBP
+                    description: "Nylon Locking Nuts (also called Nyloc Nuts or Nylocks)\
+                        \ are a type of self locking nut, fitted with a polymer insert.\
+                        \ The elastic Nylon insert of this component fits tightly\
+                        \ against the fastener, and is designed to resist loosening.\
+                        \ Nylon Lock Nut Variants\_ High Nylon Locking Nuts are an\
+                        \ elongated variant of this component, which allow for greater\
+                        \ thread contact and more secure fastenings. For applications\
+                        \ in high temperature environments, or where an all-metal\
+                        \ locking nut is preferred, Metal Locking Nuts are also available.\
+                        \ For a premium metal locking nut solution, please see Accu's\
+                        \ Aerotight Locking Nuts range. Our range of Flanged Nylon\
+                        \ Locking Nuts and Serrated Nylon Locking Nuts are also available\
+                        \ for applications requiring greater distribution of load\
+                        \ pressure without the need for a separate washer. Materials\
+                        \ The metal section of a Nylon Locking Nut can be manufactured\
+                        \ from A2 and A4 (Marine Grade) Stainless Steel as well as\
+                        \ Grade 8 and Grade 10 Carbon Steel. Hot Dip Galvanised and\
+                        \ Zinc Plated finishes are available on the Carbon Steel Nylocs,\
+                        \ with these treatments helping to offer improved corrosion\
+                        \ resistance. Metric Nylon Locking Nuts Metric Nylon Locking\
+                        \ Nuts are manufactured according to DIN 985, and are available\
+                        \ in metric sizes of between M1.6 and M48. For imperial options,\
+                        \ please see our Imperial Nylon Locking Nuts."
+                    html_sha256: 270f47330d5b7e7c89a5a809beef2ba110a6210394c22d76479e1b03597cdb7e
+                    name: M8 Hexagon Nylon Locking Nuts - 1.25mm Pitch (DIN 985) -
+                        Bright Zinc Plated Carbon Steel (Class 6)
+                    parsed_at: '2026-10-18T08:52:08.333570+00:00'
+                    parser_version: accu-1.9-base-material
+                    price_inheritance: ''
+                    quote_minimum: ''
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-13", "statement": "Accept rounded displayed prices,
+                        open-ended final advertised tiers, and quotes required from
+                        400 units; quote-only prices remain blank."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.02",
+                        "highPrice": "0.76", "priceCurrency": "GBP", "offerCount":
+                        "9", "availability": "https://schema.org/InStock", "itemCondition":
+                        "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/hexagon-nylon-locking-nuts/495550-HNN-M8-1-25-C8-Z",
+                        "warranty": {"@type": "WarrantyPromise", "durationOfWarranty":
+                        {"@type": "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "accus prices are all ex
+                        vat", "confirmed_on": "2026-10-13"}'
+                    specifications: '{"Accu Product Code (APC)": "HNN-M8-1.25-C8-Z",
+                        "Thread Size": "M8 (8 mm)", "Socket Size (J)": "13 mm (Tolerance:
+                        +0/-0.27 mm)", "Overall Thickness (L)": "8 mm (Tolerance:
+                        +0/-0.36 mm)", "Material": "Steel - (Class 6)", "Finish":
+                        "Bright Zinc Plated", "Hexagon Thickness (Min) (T)": "5.5
+                        mm", "Insert Material": "Nylon", "Manufacturing Standard":
+                        "DIN 985", "Material Family": "Steel", "System of Measurement":
+                        "Metric", "Thread Pitch": "1.25 mm"}'
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: https://schema.org/InStock
+                    supplier: accu
+                    supplier_id: HNN-M8-1.25-C8-Z
+                    supplier_part_number: HNN-M8-1.25-C8-Z
+                    supplier_website: https://www.accu.co.uk/hexagon-nylon-locking-nuts/495550-HNN-M8-1-25-C8-Z
+                    tiers:
+                    -   maximum: 1
+                        minimum: 1
+                        source_text: "Buy 1 \xA30.76"
+                        source_unit_price: '0.76'
+                        source_vat_basis: exclusive
+                        unit_price: '0.9120'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 5
+                        minimum: 2
+                        source_text: "Buy 2 \xA30.41 Save 46 %"
+                        source_unit_price: '0.41'
+                        source_vat_basis: exclusive
+                        unit_price: '0.4920'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 11
+                        minimum: 6
+                        source_text: "Buy 6 \xA30.16 Save 78 %"
+                        source_unit_price: '0.16'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1920'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 23
+                        minimum: 12
+                        source_text: "Buy 12 \xA30.10 Save 86 %"
+                        source_unit_price: '0.10'
+                        source_vat_basis: exclusive
+                        unit_price: '0.1200'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 49
+                        minimum: 24
+                        source_text: "Buy 24 \xA30.07 Save 90 %"
+                        source_unit_price: '0.07'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0840'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 99
+                        minimum: 50
+                        source_text: "Buy 50 \xA30.05 Save 93 %"
+                        source_unit_price: '0.05'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0600'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 199
+                        minimum: 100
+                        source_text: "Buy 100 \xA30.04 Save 94 %"
+                        source_unit_price: '0.04'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0480'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 9999
+                        minimum: 200
+                        source_text: "Buy 200 \xA30.03 Save 96 %"
+                        source_unit_price: '0.03'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0360'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        maximum_basis: user-approved open-ended final tier; no captured
+                            upper boundary
+                        minimum: 10000
+                        source_text: "Buy 10,000 \xA30.02 Save 97 %"
+                        source_unit_price: '0.02'
+                        source_vat_basis: exclusive
+                        unit_price: '0.0240'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.9120'
+                    total_price_10: '1.9200'
+                    total_price_100: '4.8000'
+                    total_price_1000: '36.0000'
+                    total_price_10000: '240.0000'
+                    unit_price_1: '0.9120'
+                    unit_price_10: '0.1920'
+                    unit_price_100: '0.0480'
+                    unit_price_1000: '0.0360'
+                    unit_price_10000: '0.0240'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Accu displayed prices are rounded; derived totals use the captured
+                        display precision
+                    - Final Accu price tier has no captured upper boundary; final
+                        advertised unit price extended by user policy
+                dibolt:
+                    accepted_warnings: '[]'
+                    captured_at: '2026-10-13T17:14:34.678450+00:00'
+                    currency: GBP
+                    html_sha256: bc1dcfb5a4c89defabe93e96b1d5dc323834e9980b3ec650f7a77c7ee317388e
+                    name: M8 Aerotight Aerotite All Metal Self Looking Nut Black Passivated
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:02:36.253862+00:00'
+                    parser_version: dibolt-1.3-missing-price-review
+                    review_policy: ''
+                    review_warnings: '["Dibolt quantity price table missing; all comparable
+                        prices withheld; supplier page needs review", "Rendered pricing
+                        missing; comparable prices withheld", "Quantity 1: no unique
+                        verified source price/VAT band; price withheld", "Quantity
+                        10: no unique verified source price/VAT band; price withheld",
+                        "Quantity 100: no unique verified source price/VAT band; price
+                        withheld", "Quantity 1000: no unique verified source price/VAT
+                        band; price withheld", "Quantity 10000: no unique verified
+                        source price/VAT band; price withheld"]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    specifications: 'Thread Size: M8 (8mm); End Diameter (Max) (D):
+                        12.53mm; Nut Thickness (H): 6.12mm; Material: Mild Steel (Grade
+                        4); Finish: Black Passivated; Overall Thickness (L): 10mm;
+                        Socket Size (J): 13mm; Thread Pitch: 1.25mm; Material Specification:
+                        Mild Steel (Grade 4)'
+                    status: review
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: dibolt
+                    supplier_id: 23367.080.000
+                    supplier_part_number: 23367.080.000
+                    supplier_website: https://dibolt.co.uk/products/m8-aerotight-aerotite-all-metal-self-looking-nut-black-passivated
+                    tiers: []
+                    total_price_1: ''
+                    total_price_10: ''
+                    total_price_100: ''
+                    total_price_1000: ''
+                    total_price_10000: ''
+                    unit_price_1: ''
+                    unit_price_10: ''
+                    unit_price_100: ''
+                    unit_price_1000: ''
+                    unit_price_10000: ''
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Dibolt quantity price table missing; all comparable prices withheld;
+                        supplier page needs review
+                    - Rendered pricing missing; comparable prices withheld
+                    - 'Quantity 1: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 10: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 100: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 1000: no unique verified source price/VAT band; price
+                        withheld'
+                    - 'Quantity 10000: no unique verified source price/VAT band; price
+                        withheld'
+                kayfast:
+                    accepted_warnings: '["Kayfast per-100 displayed prices are rounded;
+                        derived totals use captured display precision"]'
+                    captured_at: '2026-10-14T12:33:49.666352+00:00'
+                    currency: GBP
+                    family_description: Metric nyloc nuts with a nylon insert which
+                        creates a locking action to help prevent loosening Threads
+                        are metric coarse pitch Zinc plated grade 6 steel Type T,
+                        manufactured to DIN 985
+                    family_heading: METRIC NYLOC NUTS GRADE 6 TYPE T ZINC PLATED STEEL
+                    html_sha256: d6d1e9f8601c842994af0d40fc69991566a4307280584b626e80a48412a72266
+                    name: M8 NYLON INSERT NUT DIN 985 ZINC PLATED STEEL 8.8
+                    packages: '[]'
+                    parsed_at: '2026-10-18T09:29:58.756085+00:00'
+                    parser_version: kayfast-1.6-family-description
+                    price_breaks_description: M8 NYLON INSERT NUT DIN 985 ZINC PLATED
+                        STEEL 8.8
+                    review_policy: '{"source": "user clarification", "confirmed_on":
+                        "2026-10-17", "statement": "Use the exact row dropdown price
+                        per 100 divided by 100 with Decimal precision; accept the
+                        captured per-100 display precision."}'
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: exclusive
+                    source_vat_basis_evidence: '{"vat_basis": "exclusive", "source":
+                        "user clarification", "statement": "Kayfast prices are ex
+                        VAT.", "confirmed_on": "2026-10-17"}'
+                    specifications: METRIC NYLOC NUTS GRADE 6 TYPE T ZINC PLATED STEEL;
+                        Metric nyloc nuts with a nylon insert which creates a locking
+                        action to help prevent loosening Threads are metric coarse
+                        pitch Zinc plated grade 6 steel Type T, manufactured to DIN
+                        985
+                    status: ok
+                    stock_quantity: ''
+                    stock_status: ''
+                    supplier: kayfast
+                    supplier_id: M8-NYLON-INSERT-NUT-DIN-985-ZINC-PLATED-STEEL-8.8
+                    supplier_id_basis: exact dimensional row description; spaces replaced
+                        by hyphens (user clarification 2026-10-11)
+                    supplier_part_number: M8-NYLON-INSERT-NUT-DIN-985-ZINC-PLATED-STEEL-8.8
+                    supplier_website: https://www.kayfast.co.uk/view-product/METRIC-NYLOC-NUTS-GRADE-6-TYPE-T-ZINC-PLATED-STEEL
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_price_per_100: '7.29'
+                        source_price_quantity: 100
+                        source_text: "QTY 1 - 199 @ \xA37.29 per 100"
+                        source_unit_price: '0.0729'
+                        source_vat_basis: exclusive
+                        unit_price: '0.087480'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_price_per_100: '4.77'
+                        source_price_quantity: 100
+                        source_text: "QTY 200 -  999 @ \xA34.77 per 100"
+                        source_unit_price: '0.0477'
+                        source_vat_basis: exclusive
+                        unit_price: '0.057240'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 1000
+                        source_price_per_100: '3.60'
+                        source_price_quantity: 100
+                        source_text: "QTY 1000 + @ \xA33.60 per 100"
+                        source_unit_price: '0.036'
+                        source_vat_basis: exclusive
+                        unit_price: '0.04320'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.087480'
+                    total_price_10: '0.874800'
+                    total_price_100: '8.748000'
+                    total_price_1000: '43.20000'
+                    total_price_10000: '432.00000'
+                    unit_price_1: '0.087480'
+                    unit_price_10: '0.087480'
+                    unit_price_100: '0.087480'
+                    unit_price_1000: '0.04320'
+                    unit_price_10000: '0.04320'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings:
+                    - Kayfast per-100 displayed prices are rounded; derived totals
+                        use captured display precision
+                orbitalfasteners:
+                    accepted_warnings: '[]'
+                    box_quantity: '200'
+                    captured_at: '2026-10-12T19:56:53.142841+00:00'
+                    catalogue_page: '29'
+                    currency: GBP
+                    description: ''
+                    html_sha256: b65a2ff87dc2f2365e1d04b588b5d3ee1895f1ba7826795380f7060422d79291
+                    name: M8 All Metal Self Locking Nut, Steel Class 8 DIN 980V Bright
+                        Zinc Plated
+                    parsed_at: '2026-10-18T08:49:28.307299+00:00'
+                    parser_version: 1.2-review-policy
+                    review_policy: ''
+                    review_warnings: '[]'
+                    selected_by_current_filter: true
+                    source_vat_basis: inclusive
+                    status: ok
+                    stock_as_of: 9th October 2026 10:04pm
+                    stock_quantity: '3645'
+                    supplier: orbitalfasteners
+                    supplier_id: '5018630'
+                    supplier_part_number: '5018630'
+                    supplier_website: https://www.orbitalfasteners.co.uk/products/m8-all-metal-self-locking-nut-steel-grade-8-din-980v-bright-zinc-plated
+                    tiers:
+                    -   maximum: 199
+                        minimum: 1
+                        source_text: "1 - 199 \xA30.0714 Inc. VAT \xA37.14 Inc. VAT"
+                        source_unit_price: '0.0714'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0714'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 999
+                        minimum: 200
+                        source_text: "200 - 999 \xA30.0595 Inc. VAT \xA35.95 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0595'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0595'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: 2999
+                        minimum: 1000
+                        source_text: "1000 - 2999 \xA30.0535 Inc. VAT \xA35.35 Inc.\
+                            \ VAT"
+                        source_unit_price: '0.0535'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0535'
+                        valid: true
+                        vat_basis: inclusive
+                    -   maximum: null
+                        minimum: 3000
+                        source_text: "3000 + \xA30.0476 Inc. VAT \xA34.76 Inc. VAT"
+                        source_unit_price: '0.0476'
+                        source_vat_basis: inclusive
+                        unit_price: '0.0476'
+                        valid: true
+                        vat_basis: inclusive
+                    total_price_1: '0.0714'
+                    total_price_10: '0.7140'
+                    total_price_100: '7.1400'
+                    total_price_1000: '53.5000'
+                    total_price_10000: '476.0000'
+                    unit_price_1: '0.0714'
+                    unit_price_10: '0.0714'
+                    unit_price_100: '0.0714'
+                    unit_price_1000: '0.0535'
+                    unit_price_10000: '0.0476'
+                    vat_basis: inclusive
+                    vat_rate: '0.20'
+                    vat_rate_checked: '2026-10-11'
+                    vat_rate_source: https://www.gov.uk/vat-rates
+                    warnings: []
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: nut
+            taxonomy_3: m8
+            taxonomy_4: locking
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-13'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: supplier_dimensions_with_visual_details
+                dimensional_specification: D. S. Fasteners DIN 985 nylon-insert pattern
+                generator: supplier_nylon_insert_nut
+                insert_material:
+                    base_colour_srgb:
+                    - 0.055
+                    - 0.16
+                    - 0.48
+                    coat_roughness: 0.3
+                    coat_weight: 0.0
+                    metallic: 0.0
+                    microtexture_height_um: 0.4
+                    microtexture_spacing_mm: 0.025
+                    name: Blue nylon insert
+                    note: Nylon mechanism confirmed by catalogue owner; blue colour
+                        is a visual selection.
+                    roughness: 0.42
+                    roughness_variation: 0.015
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.62
+                    - 0.65
+                    - 0.69
+                    coat_roughness: 0.28
+                    coat_weight: 0.02
+                    insert_material:
+                        base_colour_srgb:
+                        - 0.055
+                        - 0.16
+                        - 0.48
+                        coat_roughness: 0.3
+                        coat_weight: 0.0
+                        metallic: 0.0
+                        microtexture_height_um: 0.4
+                        microtexture_spacing_mm: 0.025
+                        name: Blue nylon insert
+                        note: Nylon mechanism confirmed by catalogue owner; blue colour
+                            is a visual selection.
+                        roughness: 0.42
+                        roughness_variation: 0.015
+                    metallic: 1.0
+                    microtexture_height_um: 0.8
+                    microtexture_spacing_mm: 0.025
+                    name: Satin steel
+                    note: Visual finish approximation; catalogue specifies colour
+                        only.
+                    roughness: 0.26
+                    roughness_variation: 0.045
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: Closed separate assembly components; hidden spring
+                        omitted.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Published s/h/m envelope. Nylon insert confirmed
+                        by owner. Collar wall, insert section and blue colour are
+                        visual assumptions. Separate steel body and nylon ring, small
+                        assembly clearance; no thread in undeformed nylon.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    across_flats_mm: 13
+                    characteristic_dimension_basis: hexagon across flats
+                    characteristic_dimension_mm: 13
+                    expected_components: 2
+                    external_minor_diameter_mm: 6.466413347465057
+                    family: nut
+                    finish: satin
+                    handedness: right
+                    height_convention: total axial nut height
+                    height_mm: 8
+                    hex_height_mm: 6
+                    hole_chamfer_mm: 0.4808359795608791
+                    hole_chamfer_slope: 1.7320508075688767
+                    identity: hardware_nut_m8_locking
+                    internal_minor_diameter_mm: 6.646835306586815
+                    mouth_diameter_mm: 8.3125
+                    nominal_diameter_mm: 8.0
+                    nut_style: locking_nut
+                    outer_chamfer_angle_degrees: 30.0
+                    overall_height_mm: 8
+                    pitch_mm: 1.25
+                    specification: D. S. Fasteners DIN 985 nylon-insert pattern
+                    thread_flank_angle_degrees: 60.0
+                    thread_pitch_diameter_mm: 7.188101183952089
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_extensions.yaml
+                sources:
+                -   title: D. S. Fasteners catalogue page 3, DIN 985 dimensions s/h/m
+                    url: https://www.dsfasteners.co.uk/_files/ugd/eb95dd_d696717a07be4aa7a00bd695073b3017.pdf
+                -   title: ISO 68-1:1998 basic ISO metric thread profile
+                    url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+                standard: null
+                standard_lengths_mm: []
+                standard_limits: {}
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_bolt_image.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        description: label_drawer
+        dict_data:
+            label_drawer: *id001
+        file_output: label_drawer.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
+oomp_key: oomp_hardware_nut_m8_locking
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M8 nylon insert locking nut steel
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M8+nylon+insert+locking+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M8 nylon insert locking nut steel
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M8+nylon+insert+locking+nut+steel
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T09:22:22.600044+00:00'
+        evidence_file: support_files/evidence/hardware_nut_m8_locking/google/591744b2507d4ef8b35b776dec36f2a3.yaml
+        evidence_url: https://www.google.com/search?q=M8+nylon+insert+locking+nut+steel
+        material_evidence: Selected page heading specifies Galvanised Mild Steel and
+            identifies a nylon insert lock nut.
+        product_name: M8 Nylon Insert Lock Nut Nyloc Type - Galvanised Mild Steel
+            DIN985
+        reason: "U-Bolts-R-Us\u2019 selected M8 Nyloc nut is galvanised mild steel,\
+            \ has a nylon insert, and matches DIN 985 dimensions."
+        result_url: https://u-bolts-r-us.co.uk/stainless-steel-self-locking-nuts/12108-m8-nylon-insert-lock-nut-nyloc-type-galvanised-mild-steel-din985-5055624431742.html
+        search_evidence: "The supplied Google query returned U-Bolts-R-Us\u2019 M8\
+            \ Nylon Insert Lock Nut Nyloc Type product. Its selected page identifies\
+            \ galvanised mild steel, DIN 985, M8 thread, 1.25 mm pitch, d=14.38 mm,\
+            \ h=8 mm, m=5.5 mm and s=13 mm. Product reference NUTS/GALV/NYLOC-M8."
+        search_for: M8 nylon insert locking nut steel
+        search_url: https://www.google.com/search?q=M8+nylon+insert+locking+nut+steel
+        selected_variant: Fixed M8 product; reference NUTS/GALV/NYLOC-M8
+        specification: M8 nylon insert locking nut; pitch 1.25 mm; d=14.38 mm; h=8
+            mm; m=5.5 mm; s=13 mm; galvanised mild steel; DIN 985.
+        status: verified
+supplier_data:
+    accu:
+        accepted_warnings: '["Accu displayed prices are rounded; derived totals use
+            the captured display precision", "Final Accu price tier has no captured
+            upper boundary; final advertised unit price extended by user policy"]'
+        box_quantity: ''
+        captured_at: '2026-10-13T13:53:16.908860+00:00'
+        currency: GBP
+        description: "Nylon Locking Nuts (also called Nyloc Nuts or Nylocks) are a\
+            \ type of self locking nut, fitted with a polymer insert. The elastic\
+            \ Nylon insert of this component fits tightly against the fastener, and\
+            \ is designed to resist loosening. Nylon Lock Nut Variants\_ High Nylon\
+            \ Locking Nuts are an elongated variant of this component, which allow\
+            \ for greater thread contact and more secure fastenings. For applications\
+            \ in high temperature environments, or where an all-metal locking nut\
+            \ is preferred, Metal Locking Nuts are also available. For a premium metal\
+            \ locking nut solution, please see Accu's Aerotight Locking Nuts range.\
+            \ Our range of Flanged Nylon Locking Nuts and Serrated Nylon Locking Nuts\
+            \ are also available for applications requiring greater distribution of\
+            \ load pressure without the need for a separate washer. Materials The\
+            \ metal section of a Nylon Locking Nut can be manufactured from A2 and\
+            \ A4 (Marine Grade) Stainless Steel as well as Grade 8 and Grade 10 Carbon\
+            \ Steel. Hot Dip Galvanised and Zinc Plated finishes are available on\
+            \ the Carbon Steel Nylocs, with these treatments helping to offer improved\
+            \ corrosion resistance. Metric Nylon Locking Nuts Metric Nylon Locking\
+            \ Nuts are manufactured according to DIN 985, and are available in metric\
+            \ sizes of between M1.6 and M48. For imperial options, please see our\
+            \ Imperial Nylon Locking Nuts."
+        html_sha256: 270f47330d5b7e7c89a5a809beef2ba110a6210394c22d76479e1b03597cdb7e
+        name: M8 Hexagon Nylon Locking Nuts - 1.25mm Pitch (DIN 985) - Bright Zinc
+            Plated Carbon Steel (Class 6)
+        parsed_at: '2026-10-18T08:52:08.333570+00:00'
+        parser_version: accu-1.9-base-material
+        price_inheritance: ''
+        quote_minimum: ''
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-13",
+            "statement": "Accept rounded displayed prices, open-ended final advertised
+            tiers, and quotes required from 400 units; quote-only prices remain blank."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_offer: '{"@type": "AggregateOffer", "lowPrice": "0.02", "highPrice":
+            "0.76", "priceCurrency": "GBP", "offerCount": "9", "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition", "url": "https://www.accu.co.uk/hexagon-nylon-locking-nuts/495550-HNN-M8-1-25-C8-Z",
+            "warranty": {"@type": "WarrantyPromise", "durationOfWarranty": {"@type":
+            "QuantitativeValue", "value": 1, "unitCode": "ANN"}}}'
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "accus prices are all ex vat", "confirmed_on": "2026-10-13"}'
+        specifications: '{"Accu Product Code (APC)": "HNN-M8-1.25-C8-Z", "Thread Size":
+            "M8 (8 mm)", "Socket Size (J)": "13 mm (Tolerance: +0/-0.27 mm)", "Overall
+            Thickness (L)": "8 mm (Tolerance: +0/-0.36 mm)", "Material": "Steel -
+            (Class 6)", "Finish": "Bright Zinc Plated", "Hexagon Thickness (Min) (T)":
+            "5.5 mm", "Insert Material": "Nylon", "Manufacturing Standard": "DIN 985",
+            "Material Family": "Steel", "System of Measurement": "Metric", "Thread
+            Pitch": "1.25 mm"}'
+        status: ok
+        stock_quantity: ''
+        stock_status: https://schema.org/InStock
+        supplier: accu
+        supplier_id: HNN-M8-1.25-C8-Z
+        supplier_part_number: HNN-M8-1.25-C8-Z
+        supplier_website: https://www.accu.co.uk/hexagon-nylon-locking-nuts/495550-HNN-M8-1-25-C8-Z
+        tiers:
+        -   maximum: 1
+            minimum: 1
+            source_text: "Buy 1 \xA30.76"
+            source_unit_price: '0.76'
+            source_vat_basis: exclusive
+            unit_price: '0.9120'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 5
+            minimum: 2
+            source_text: "Buy 2 \xA30.41 Save 46 %"
+            source_unit_price: '0.41'
+            source_vat_basis: exclusive
+            unit_price: '0.4920'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 11
+            minimum: 6
+            source_text: "Buy 6 \xA30.16 Save 78 %"
+            source_unit_price: '0.16'
+            source_vat_basis: exclusive
+            unit_price: '0.1920'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 23
+            minimum: 12
+            source_text: "Buy 12 \xA30.10 Save 86 %"
+            source_unit_price: '0.10'
+            source_vat_basis: exclusive
+            unit_price: '0.1200'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 49
+            minimum: 24
+            source_text: "Buy 24 \xA30.07 Save 90 %"
+            source_unit_price: '0.07'
+            source_vat_basis: exclusive
+            unit_price: '0.0840'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 99
+            minimum: 50
+            source_text: "Buy 50 \xA30.05 Save 93 %"
+            source_unit_price: '0.05'
+            source_vat_basis: exclusive
+            unit_price: '0.0600'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 199
+            minimum: 100
+            source_text: "Buy 100 \xA30.04 Save 94 %"
+            source_unit_price: '0.04'
+            source_vat_basis: exclusive
+            unit_price: '0.0480'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 9999
+            minimum: 200
+            source_text: "Buy 200 \xA30.03 Save 96 %"
+            source_unit_price: '0.03'
+            source_vat_basis: exclusive
+            unit_price: '0.0360'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            maximum_basis: user-approved open-ended final tier; no captured upper
+                boundary
+            minimum: 10000
+            source_text: "Buy 10,000 \xA30.02 Save 97 %"
+            source_unit_price: '0.02'
+            source_vat_basis: exclusive
+            unit_price: '0.0240'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.9120'
+        total_price_10: '1.9200'
+        total_price_100: '4.8000'
+        total_price_1000: '36.0000'
+        total_price_10000: '240.0000'
+        unit_price_1: '0.9120'
+        unit_price_10: '0.1920'
+        unit_price_100: '0.0480'
+        unit_price_1000: '0.0360'
+        unit_price_10000: '0.0240'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Accu displayed prices are rounded; derived totals use the captured display
+            precision
+        - Final Accu price tier has no captured upper boundary; final advertised unit
+            price extended by user policy
+    dibolt:
+        accepted_warnings: '[]'
+        captured_at: '2026-10-13T17:14:34.678450+00:00'
+        currency: GBP
+        html_sha256: bc1dcfb5a4c89defabe93e96b1d5dc323834e9980b3ec650f7a77c7ee317388e
+        name: M8 Aerotight Aerotite All Metal Self Looking Nut Black Passivated
+        packages: '[]'
+        parsed_at: '2026-10-18T09:02:36.253862+00:00'
+        parser_version: dibolt-1.3-missing-price-review
+        review_policy: ''
+        review_warnings: '["Dibolt quantity price table missing; all comparable prices
+            withheld; supplier page needs review", "Rendered pricing missing; comparable
+            prices withheld", "Quantity 1: no unique verified source price/VAT band;
+            price withheld", "Quantity 10: no unique verified source price/VAT band;
+            price withheld", "Quantity 100: no unique verified source price/VAT band;
+            price withheld", "Quantity 1000: no unique verified source price/VAT band;
+            price withheld", "Quantity 10000: no unique verified source price/VAT
+            band; price withheld"]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        specifications: 'Thread Size: M8 (8mm); End Diameter (Max) (D): 12.53mm; Nut
+            Thickness (H): 6.12mm; Material: Mild Steel (Grade 4); Finish: Black Passivated;
+            Overall Thickness (L): 10mm; Socket Size (J): 13mm; Thread Pitch: 1.25mm;
+            Material Specification: Mild Steel (Grade 4)'
+        status: review
+        stock_quantity: ''
+        stock_status: ''
+        supplier: dibolt
+        supplier_id: 23367.080.000
+        supplier_part_number: 23367.080.000
+        supplier_website: https://dibolt.co.uk/products/m8-aerotight-aerotite-all-metal-self-looking-nut-black-passivated
+        tiers: []
+        total_price_1: ''
+        total_price_10: ''
+        total_price_100: ''
+        total_price_1000: ''
+        total_price_10000: ''
+        unit_price_1: ''
+        unit_price_10: ''
+        unit_price_100: ''
+        unit_price_1000: ''
+        unit_price_10000: ''
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Dibolt quantity price table missing; all comparable prices withheld; supplier
+            page needs review
+        - Rendered pricing missing; comparable prices withheld
+        - 'Quantity 1: no unique verified source price/VAT band; price withheld'
+        - 'Quantity 10: no unique verified source price/VAT band; price withheld'
+        - 'Quantity 100: no unique verified source price/VAT band; price withheld'
+        - 'Quantity 1000: no unique verified source price/VAT band; price withheld'
+        - 'Quantity 10000: no unique verified source price/VAT band; price withheld'
+    kayfast:
+        accepted_warnings: '["Kayfast per-100 displayed prices are rounded; derived
+            totals use captured display precision"]'
+        captured_at: '2026-10-14T12:33:49.666352+00:00'
+        currency: GBP
+        family_description: Metric nyloc nuts with a nylon insert which creates a
+            locking action to help prevent loosening Threads are metric coarse pitch
+            Zinc plated grade 6 steel Type T, manufactured to DIN 985
+        family_heading: METRIC NYLOC NUTS GRADE 6 TYPE T ZINC PLATED STEEL
+        html_sha256: d6d1e9f8601c842994af0d40fc69991566a4307280584b626e80a48412a72266
+        name: M8 NYLON INSERT NUT DIN 985 ZINC PLATED STEEL 8.8
+        packages: '[]'
+        parsed_at: '2026-10-18T09:29:58.756085+00:00'
+        parser_version: kayfast-1.6-family-description
+        price_breaks_description: M8 NYLON INSERT NUT DIN 985 ZINC PLATED STEEL 8.8
+        review_policy: '{"source": "user clarification", "confirmed_on": "2026-10-17",
+            "statement": "Use the exact row dropdown price per 100 divided by 100
+            with Decimal precision; accept the captured per-100 display precision."}'
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: exclusive
+        source_vat_basis_evidence: '{"vat_basis": "exclusive", "source": "user clarification",
+            "statement": "Kayfast prices are ex VAT.", "confirmed_on": "2026-10-17"}'
+        specifications: METRIC NYLOC NUTS GRADE 6 TYPE T ZINC PLATED STEEL; Metric
+            nyloc nuts with a nylon insert which creates a locking action to help
+            prevent loosening Threads are metric coarse pitch Zinc plated grade 6
+            steel Type T, manufactured to DIN 985
+        status: ok
+        stock_quantity: ''
+        stock_status: ''
+        supplier: kayfast
+        supplier_id: M8-NYLON-INSERT-NUT-DIN-985-ZINC-PLATED-STEEL-8.8
+        supplier_id_basis: exact dimensional row description; spaces replaced by hyphens
+            (user clarification 2026-10-11)
+        supplier_part_number: M8-NYLON-INSERT-NUT-DIN-985-ZINC-PLATED-STEEL-8.8
+        supplier_website: https://www.kayfast.co.uk/view-product/METRIC-NYLOC-NUTS-GRADE-6-TYPE-T-ZINC-PLATED-STEEL
+        tiers:
+        -   maximum: 199
+            minimum: 1
+            source_price_per_100: '7.29'
+            source_price_quantity: 100
+            source_text: "QTY 1 - 199 @ \xA37.29 per 100"
+            source_unit_price: '0.0729'
+            source_vat_basis: exclusive
+            unit_price: '0.087480'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 999
+            minimum: 200
+            source_price_per_100: '4.77'
+            source_price_quantity: 100
+            source_text: "QTY 200 -  999 @ \xA34.77 per 100"
+            source_unit_price: '0.0477'
+            source_vat_basis: exclusive
+            unit_price: '0.057240'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 1000
+            source_price_per_100: '3.60'
+            source_price_quantity: 100
+            source_text: "QTY 1000 + @ \xA33.60 per 100"
+            source_unit_price: '0.036'
+            source_vat_basis: exclusive
+            unit_price: '0.04320'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.087480'
+        total_price_10: '0.874800'
+        total_price_100: '8.748000'
+        total_price_1000: '43.20000'
+        total_price_10000: '432.00000'
+        unit_price_1: '0.087480'
+        unit_price_10: '0.087480'
+        unit_price_100: '0.087480'
+        unit_price_1000: '0.04320'
+        unit_price_10000: '0.04320'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings:
+        - Kayfast per-100 displayed prices are rounded; derived totals use captured
+            display precision
+    orbitalfasteners:
+        accepted_warnings: '[]'
+        box_quantity: '200'
+        captured_at: '2026-10-12T19:56:53.142841+00:00'
+        catalogue_page: '29'
+        currency: GBP
+        description: ''
+        html_sha256: b65a2ff87dc2f2365e1d04b588b5d3ee1895f1ba7826795380f7060422d79291
+        name: M8 All Metal Self Locking Nut, Steel Class 8 DIN 980V Bright Zinc Plated
+        parsed_at: '2026-10-18T08:49:28.307299+00:00'
+        parser_version: 1.2-review-policy
+        review_policy: ''
+        review_warnings: '[]'
+        selected_by_current_filter: true
+        source_vat_basis: inclusive
+        status: ok
+        stock_as_of: 9th October 2026 10:04pm
+        stock_quantity: '3645'
+        supplier: orbitalfasteners
+        supplier_id: '5018630'
+        supplier_part_number: '5018630'
+        supplier_website: https://www.orbitalfasteners.co.uk/products/m8-all-metal-self-locking-nut-steel-grade-8-din-980v-bright-zinc-plated
+        tiers:
+        -   maximum: 199
+            minimum: 1
+            source_text: "1 - 199 \xA30.0714 Inc. VAT \xA37.14 Inc. VAT"
+            source_unit_price: '0.0714'
+            source_vat_basis: inclusive
+            unit_price: '0.0714'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 999
+            minimum: 200
+            source_text: "200 - 999 \xA30.0595 Inc. VAT \xA35.95 Inc. VAT"
+            source_unit_price: '0.0595'
+            source_vat_basis: inclusive
+            unit_price: '0.0595'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: 2999
+            minimum: 1000
+            source_text: "1000 - 2999 \xA30.0535 Inc. VAT \xA35.35 Inc. VAT"
+            source_unit_price: '0.0535'
+            source_vat_basis: inclusive
+            unit_price: '0.0535'
+            valid: true
+            vat_basis: inclusive
+        -   maximum: null
+            minimum: 3000
+            source_text: "3000 + \xA30.0476 Inc. VAT \xA34.76 Inc. VAT"
+            source_unit_price: '0.0476'
+            source_vat_basis: inclusive
+            unit_price: '0.0476'
+            valid: true
+            vat_basis: inclusive
+        total_price_1: '0.0714'
+        total_price_10: '0.7140'
+        total_price_100: '7.1400'
+        total_price_1000: '53.5000'
+        total_price_10000: '476.0000'
+        unit_price_1: '0.0714'
+        unit_price_10: '0.0714'
+        unit_price_100: '0.0714'
+        unit_price_1000: '0.0535'
+        unit_price_10000: '0.0476'
+        vat_basis: inclusive
+        vat_rate: '0.20'
+        vat_rate_checked: '2026-10-11'
+        vat_rate_source: https://www.gov.uk/vat-rates
+        warnings: []
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: nut
+taxonomy_2_capital: Nut
+taxonomy_2_first_letter: n
+taxonomy_2_first_letter_upper: N
+taxonomy_2_length_1: n
+taxonomy_2_length_2: nu
+taxonomy_2_length_3: nut
+taxonomy_2_length_4: nut
+taxonomy_2_length_5: nut
+taxonomy_2_upper: NUT
+taxonomy_2_upper_length_1: N
+taxonomy_2_upper_length_2: NU
+taxonomy_2_upper_length_3: NUT
+taxonomy_2_upper_length_4: NUT
+taxonomy_2_upper_length_5: NUT
+taxonomy_3: m8
+taxonomy_3_capital: M8
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m8
+taxonomy_3_length_3: m8
+taxonomy_3_length_4: m8
+taxonomy_3_length_5: m8
+taxonomy_3_upper: M8
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M8
+taxonomy_3_upper_length_3: M8
+taxonomy_3_upper_length_4: M8
+taxonomy_3_upper_length_5: M8
+taxonomy_4: locking
+taxonomy_4_capital: Locking
+taxonomy_4_first_letter: l
+taxonomy_4_first_letter_upper: L
+taxonomy_4_length_1: l
+taxonomy_4_length_2: lo
+taxonomy_4_length_3: loc
+taxonomy_4_length_4: lock
+taxonomy_4_length_5: locki
+taxonomy_4_upper: LOCKING
+taxonomy_4_upper_length_1: L
+taxonomy_4_upper_length_2: LO
+taxonomy_4_upper_length_3: LOC
+taxonomy_4_upper_length_4: LOCK
+taxonomy_4_upper_length_5: LOCKI
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+    checked_on: '2026-10-13'
+    coordinate_system:
+        axis: +Z along bore
+        glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+        glb_units: metres
+        glb_up_axis: Y
+        origin: lower face centre
+        stl_units: mm
+    dimension_status: supplier_dimensions_with_visual_details
+    dimensional_specification: D. S. Fasteners DIN 985 nylon-insert pattern
+    generator: supplier_nylon_insert_nut
+    insert_material:
+        base_colour_srgb:
+        - 0.055
+        - 0.16
+        - 0.48
+        coat_roughness: 0.3
+        coat_weight: 0.0
+        metallic: 0.0
+        microtexture_height_um: 0.4
+        microtexture_spacing_mm: 0.025
+        name: Blue nylon insert
+        note: Nylon mechanism confirmed by catalogue owner; blue colour is a visual
+            selection.
+        roughness: 0.42
+        roughness_variation: 0.015
+    length_status: not_applicable
+    material:
+        base_colour_srgb:
+        - 0.62
+        - 0.65
+        - 0.69
+        coat_roughness: 0.28
+        coat_weight: 0.02
+        insert_material:
+            base_colour_srgb:
+            - 0.055
+            - 0.16
+            - 0.48
+            coat_roughness: 0.3
+            coat_weight: 0.0
+            metallic: 0.0
+            microtexture_height_um: 0.4
+            microtexture_spacing_mm: 0.025
+            name: Blue nylon insert
+            note: Nylon mechanism confirmed by catalogue owner; blue colour is a visual
+                selection.
+            roughness: 0.42
+            roughness_variation: 0.015
+        metallic: 1.0
+        microtexture_height_um: 0.8
+        microtexture_spacing_mm: 0.025
+        name: Satin steel
+        note: Visual finish approximation; catalogue specifies colour only.
+        roughness: 0.26
+        roughness_variation: 0.045
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+        bearing: Bolt bearing circle and c selected within limits; k includes bearing
+            thickness; fillet tangent to shaft and bearing.
+        cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
+            bore and mouth chamfers.
+        certification: Nominal visual catalogue model, not manufacturing tolerance
+            certification.
+        chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees.
+            Bolt tip 45 degrees, P/2.
+        components: Closed separate assembly components; hidden spring omitted.
+        dimension_selection: Nominal bolt head height, max flats/nut height, nominal
+            washer sizes; selected dimensions stored in parameters.
+        display: Smooth nominal external-thread envelope or smooth minor-diameter
+            internal bore; lower angular and fillet tessellation.
+        family_note: Published s/h/m envelope. Nylon insert confirmed by owner. Collar
+            wall, insert section and blue colour are visual assumptions. Separate
+            steel body and nylon ring, small assembly clearance; no thread in undeformed
+            nylon.
+        markings: Supplier and property-class markings omitted because catalogue does
+            not identify them.
+        runout: External one-pitch fade to plain shank; full thread ends at underhead
+            fillet.
+        thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+            rounded root H/6, internal P/4 crest and P/8 root flats.
+        unspecified_geometry: Nut mouth for supplier rows without limits and flange
+            M3/M4 thickness/rim blends are explicit visual model selections.
+    output_folder: three_d_model
+    parameters:
+        across_flats_mm: 13
+        characteristic_dimension_basis: hexagon across flats
+        characteristic_dimension_mm: 13
+        expected_components: 2
+        external_minor_diameter_mm: 6.466413347465057
+        family: nut
+        finish: satin
+        handedness: right
+        height_convention: total axial nut height
+        height_mm: 8
+        hex_height_mm: 6
+        hole_chamfer_mm: 0.4808359795608791
+        hole_chamfer_slope: 1.7320508075688767
+        identity: hardware_nut_m8_locking
+        internal_minor_diameter_mm: 6.646835306586815
+        mouth_diameter_mm: 8.3125
+        nominal_diameter_mm: 8.0
+        nut_style: locking_nut
+        outer_chamfer_angle_degrees: 30.0
+        overall_height_mm: 8
+        pitch_mm: 1.25
+        specification: D. S. Fasteners DIN 985 nylon-insert pattern
+        thread_flank_angle_degrees: 60.0
+        thread_pitch_diameter_mm: 7.188101183952089
+        thread_starts: 1
+    renders:
+        high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+        low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+        product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+        product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+    schema_version: 1
+    source_table: source_file/standards/catalogue_extensions.yaml
+    sources:
+    -   title: D. S. Fasteners catalogue page 3, DIN 985 dimensions s/h/m
+        url: https://www.dsfasteners.co.uk/_files/ugd/eb95dd_d696717a07be4aa7a00bd695073b3017.pdf
+    -   title: ISO 68-1:1998 basic ISO metric thread profile
+        url: https://cdn.standards.iteh.ai/samples/3707/43667a380e834371825604fbc6d63336/ISO-68-1-1998.pdf
+    standard: null
+    standard_lengths_mm: []
+    standard_limits: {}
+    studio:
+        adaptive_threshold: 0.015
+        denoise: true
+        device: auto
+        engine: cycles
+        exposure: 0.0
+        floor_colour_srgb:
+        - 0.93
+        - 0.935
+        - 0.94
+        floor_roughness: 0.55
+        framing_margin: 0.13
+        high_samples: 160
+        lights:
+        -   colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+        -   colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+        -   colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+        look: AgX - Medium High Contrast
+        low_samples: 48
+        poses:
+            isometric:
+                camera_eye:
+                - 1
+                - -1
+                - 1
+                orientation: principal axis Z up
+                projection: orthographic
+            product:
+                camera_eye:
+                - -6
+                - -10
+                - 6
+                orientation: resting on lower face, bore visible
+                projection: orthographic
+                resting_axis: face
+                support: Stable convex-hull support using actual mesh centre of mass.
+                yaw_degrees: -12.0
+        seed: 7991
+        view_transform: AgX
+        world_colour:
+        - 0.78
+        - 0.82
+        - 0.9
+        world_strength: 0.35
+    units: mm
+    variants:
+        display:
+            angular_segments: 24
+            fillet_segments: 3
+            samples_per_pitch: 1
+        full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
+url_chat: ''
+```
+
+</details>
+
+## Parts
+
+[Full-detail 3D model (GLB)](three_d_model/model_full.glb) · [Full-detail view drawings](three_d_model/full/) · [Drawer label (SVG)](label_drawer.svg)
+
+Full-detail and simplified display models are alternatives for the same part. GLB uses metres; STL, where supplied, uses millimetres. The [part folder](./) contains all available files.
+
+## Assembly
+
+This page documents a component rather than a complete project assembly. No installation sequence or tightening torque is specified by this record. The saved model contains 2 separate solids; consult the model notes for their interpretation.
+<!-- hardware-part:end -->

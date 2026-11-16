@@ -1,0 +1,1401 @@
+<!-- hardware-part:start -->
+# M6 nylon white 12 mm outer diameter 1 5 mm depth washer
+
+## Summary
+
+A flat washer with its bore, outside diameter and thickness shown below.
+
+[Hardware catalogue](../../README.md) · [Browse this family](../../navigation_oobb/README.md#washers)
+
+| Isometric | Product view |
+| --- | --- |
+| [![Full-detail isometric render](three_d_model/readme_isometric.png)](three_d_model/render_high.png) | [![Full-detail product view render](three_d_model/readme_product.png)](three_d_model/render_product_high.png) |
+
+Full-detail catalogue renders. Click either image to open the original resolution.
+
+## Details
+
+**OOMP ID:** `hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth`
+
+**Short code:** `3rnny` · **Three-word label:** gauge organ noodle
+
+| Model dimension | mm |
+| --- | ---: |
+| Nominal size | 6 |
+| Height / thickness | 1.5 |
+| Outside diameter | 12 |
+| Hole diameter | 6.4 |
+
+Dimensions above are values used by the saved model recipe, in millimetres. **Model basis: catalogue specific dimensions.**
+
+<details>
+<summary>Model provenance and assumptions</summary>
+
+**Recorded dimensional reference:** Catalogue 12 mm OD / 1.5 mm thick M6 washer; 6.4 mm hole selected from supplier drawing
+
+**Source checked:** 2026-10-11
+
+**Visual finish:** Natural white nylon
+
+**Finish assumption:** Visual natural nylon approximation; exact polymer grade and mould surface not supplied by catalogue.
+
+**Family notes:** Catalogue overrides steel washer thickness. Hole is a sourced 6.4 mm model assumption, not a measured catalogue dimension. Nylon supplier identity unspecified.
+
+These are saved catalogue references and modelling choices, not a claim of manufacturing certification.
+
+- [Westfield Form A M6 clearance hole, used as explicit model selection](https://www.westfieldfasteners.co.uk/Standards/Washer-FormA-M.pdf)
+
+[Complete model recipe](three_d_model/parameters.json)
+
+</details>
+
+<details>
+<summary>Complete part metadata</summary>
+
+[Source working.yaml](working.yaml)
+
+```yaml
+bip_39_2_word_array:
+- gauge
+- organ
+bip_39_2_word_no_space: gaugeorgan
+bip_39_2_word_space: gauge organ
+bip_39_2_word_underscore: gauge_organ
+bip_39_3_word_array:
+- gauge
+- organ
+- noodle
+bip_39_3_word_no_space: gaugeorgannoodle
+bip_39_3_word_space: gauge organ noodle
+bip_39_3_word_underscore: gauge_organ_noodle
+bip_39_full_array:
+- gauge
+- organ
+- noodle
+- cotton
+- join
+- crater
+- health
+- scatter
+- track
+- village
+- tilt
+- father
+bip_39_full_no_space: gaugeorgannoodlecottonjoincraterhealthscattertrackvillagetiltfather
+bip_39_full_space: gauge organ noodle cotton join crater health scatter track village
+    tilt father
+bip_39_full_underscore: gauge_organ_noodle_cotton_join_crater_health_scatter_track_village_tilt_father
+directory: parts/hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+generate_stl: true
+id: hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+id_no_class: hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+id_no_size: hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+id_no_type: hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+label_drawer: &id001
+    bip39: gauge organ noodle
+    bip39_size: 2.35
+    code: WA
+    description: Nylon washer / M6 /  / White 12 mm OD 1.5 mm thick
+    detail_lines:
+    - White 12 mm OD 1.5
+    - mm thick
+    detail_size: 2.05
+    detail_y: 18.900000000000002
+    diagram: <circle cx="10" cy="7" r="5.5"/><circle cx="10" cy="7" r="2.5"/>
+    drive_symbol: ''
+    length: ''
+    length_size: 7.8
+    length_x: 22.3603625
+    name: Nylon washer
+    name_lines:
+    - Nylon washer
+    name_size: 3.2
+    thread: M6
+    thread_size: 6.5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+md5: 60938e58186782651a8e03e69e838829
+md5_10: 60938e5818
+md5_10_upper: 60938E5818
+md5_5: '60938'
+md5_5_upper: '60938'
+md5_6: 60938e
+md5_6_alpha: 3rnny
+md5_6_alpha_upper: 3RNNY
+md5_6_upper: 60938E
+name: Hardware Washer M6 Nylon White 12 Mm Outer Diameter 1 5 Mm Depth
+name_no_class: Hardware Washer M6 Nylon White 12 Mm Outer Diameter 1 5 Mm Depth
+name_no_size: Hardware Washer M6 Nylon White 12 Mm Outer Diameter 1 5 Mm Depth
+name_no_type: Hardware Washer M6 Nylon White 12 Mm Outer Diameter 1 5 Mm Depth
+name_proper: Hardware Washer M6 Nylon White 12 Mm Outer Diameter 1 5 Mm Depth
+name_space: hardware washer m6 nylon white 12 mm outer diameter 1 5 mm depth
+name_upper: HARDWARE WASHER M6 NYLON WHITE 12 MM OUTER DIAMETER 1 5 MM DEPTH
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+            name: hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+            name_proper: Hardware Washer M6 Nylon White 12 Mm Outer Diameter 1 5 Mm
+                Depth
+            name_space: hardware washer m6 nylon white 12 mm outer diameter 1 5 mm
+                depth
+            name_upper: HARDWARE WASHER M6 NYLON WHITE 12 MM OUTER DIAMETER 1 5 MM
+                DEPTH
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 white nylon flat washer 12mm outer diameter 1.5mm
+                        thickness
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 white nylon flat washer 12mm outer diameter 1.5mm
+                        thickness
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T08:09:59.718530+00:00'
+                    evidence_file: support_files/evidence/hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth/google/113f1949c6734288bb589e74f05b38e6.yaml
+                    evidence_url: https://www.google.com/search?q=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness
+                    material_evidence: ''
+                    product_name: ''
+                    reason: Exact search completed but verification remains incomplete.
+                        The opened exact-dimensional eBay candidate specifies Black
+                        in its seller description and is rejected for the white-nylon
+                        ID. Other candidates were not verified during this pilot;
+                        do not assume non-stocked.
+                    result_url: ''
+                    search_evidence: 'Google showed eBay item 188730967377 titled
+                        M6 Nylon Flat Washer, 80pcs 6mm ID 12mm OD 1.5mm Thick Sealing
+                        Spacer Gasket. Opened https://www.ebay.co.uk/itm/188730967377
+                        and read the seller description frame: Color: Black; Material:
+                        Nylon; Inner Diameter: 6mm; Outer Diameter: 12mm; Thickness:
+                        1.5mm. Search also exposed wrong-form HDPE retaining washers
+                        and other unverified listings.'
+                    search_for: M6 white nylon flat washer 12mm outer diameter 1.5mm
+                        thickness
+                    search_url: https://www.google.com/search?q=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness
+                    selected_variant: ''
+                    specification: ''
+                    status: unresolved
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: washer
+            taxonomy_3: m6
+            taxonomy_4: nylon_white_12_mm_outer_diameter_1_5_mm_depth
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: catalogue_specific_dimensions
+                dimensional_specification: Catalogue 12 mm OD / 1.5 mm thick M6 washer;
+                    6.4 mm hole selected from supplier drawing
+                generator: catalogue_nylon_washer
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.86
+                    - 0.85
+                    - 0.81
+                    coat_roughness: 0.28
+                    coat_weight: 0.025
+                    metallic: 0.0
+                    microtexture_height_um: 0.4
+                    microtexture_spacing_mm: 0.025
+                    name: Natural white nylon
+                    note: Visual natural nylon approximation; exact polymer grade
+                        and mould surface not supplied by catalogue.
+                    roughness: 0.38
+                    roughness_variation: 0.025
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Catalogue overrides steel washer thickness. Hole
+                        is a sourced 6.4 mm model assumption, not a measured catalogue
+                        dimension. Nylon supplier identity unspecified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    characteristic_dimension_basis: outer washer diameter
+                    characteristic_dimension_mm: 12
+                    expected_components: 1
+                    family: washer
+                    finish: nylon_white
+                    handedness: right
+                    height_convention: axial thickness
+                    height_mm: 1.5
+                    hole_diameter_mm: 6.4
+                    identity: hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+                    nominal_diameter_mm: 6.0
+                    outer_diameter_mm: 12
+                    overall_height_mm: 1.5
+                    specification: Catalogue 12 mm OD / 1.5 mm thick M6 washer; 6.4
+                        mm hole selected from supplier drawing
+                    thread_flank_angle_degrees: 60.0
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   path: working_oomp_populate_washer.py
+                    title: Catalogue washer definition, explicit outer diameter and
+                        thickness
+                -   title: Westfield Form A M6 clearance hole, used as explicit model
+                        selection
+                    url: https://www.westfieldfasteners.co.uk/Standards/Washer-FormA-M.pdf
+                standard: null
+                standard_lengths_mm: []
+                standard_limits: {}
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_2:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+            name: hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+            name_proper: Hardware Washer M6 Nylon White 12 Mm Outer Diameter 1 5 Mm
+                Depth
+            name_space: hardware washer m6 nylon white 12 mm outer diameter 1 5 mm
+                depth
+            name_upper: HARDWARE WASHER M6 NYLON WHITE 12 MM OUTER DIAMETER 1 5 MM
+                DEPTH
+            oomlout_ai_roboclick_1:
+                actions:
+                -   command: text_jinja_template
+                    convert_to_pdf: false
+                    convert_to_png: false
+                    dict_data:
+                        directory: parts\hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+                        name: hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+                        name_proper: Hardware Washer M6 Nylon White 12 Mm Outer Diameter
+                            1 5 Mm Depth
+                        name_space: hardware washer m6 nylon white 12 mm outer diameter
+                            1 5 mm depth
+                        name_upper: HARDWARE WASHER M6 NYLON WHITE 12 MM OUTER DIAMETER
+                            1 5 MM DEPTH
+                        search_data:
+                            aliexpress:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M6 white nylon flat washer 12mm outer
+                                    diameter 1.5mm thickness
+                                search_url: https://www.aliexpress.com/wholesale?SearchText=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            ebay:
+                                checked_at: ''
+                                evidence_file: ''
+                                evidence_url: ''
+                                material_evidence: ''
+                                product_name: ''
+                                reason: ''
+                                result_url: ''
+                                search_evidence: ''
+                                search_for: M6 white nylon flat washer 12mm outer
+                                    diameter 1.5mm thickness
+                                search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness
+                                selected_variant: ''
+                                specification: ''
+                                status: pending
+                            google:
+                                checked_at: '2026-10-14T08:09:59.718530+00:00'
+                                evidence_file: support_files/evidence/hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth/google/113f1949c6734288bb589e74f05b38e6.yaml
+                                evidence_url: https://www.google.com/search?q=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness
+                                material_evidence: ''
+                                product_name: ''
+                                reason: Exact search completed but verification remains
+                                    incomplete. The opened exact-dimensional eBay
+                                    candidate specifies Black in its seller description
+                                    and is rejected for the white-nylon ID. Other
+                                    candidates were not verified during this pilot;
+                                    do not assume non-stocked.
+                                result_url: ''
+                                search_evidence: 'Google showed eBay item 188730967377
+                                    titled M6 Nylon Flat Washer, 80pcs 6mm ID 12mm
+                                    OD 1.5mm Thick Sealing Spacer Gasket. Opened https://www.ebay.co.uk/itm/188730967377
+                                    and read the seller description frame: Color:
+                                    Black; Material: Nylon; Inner Diameter: 6mm; Outer
+                                    Diameter: 12mm; Thickness: 1.5mm. Search also
+                                    exposed wrong-form HDPE retaining washers and
+                                    other unverified listings.'
+                                search_for: M6 white nylon flat washer 12mm outer
+                                    diameter 1.5mm thickness
+                                search_url: https://www.google.com/search?q=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness
+                                selected_variant: ''
+                                specification: ''
+                                status: unresolved
+                        taxonomy_1: hardware
+                        taxonomy_10: ''
+                        taxonomy_11: ''
+                        taxonomy_12: ''
+                        taxonomy_13: ''
+                        taxonomy_14: ''
+                        taxonomy_15: ''
+                        taxonomy_2: washer
+                        taxonomy_3: m6
+                        taxonomy_4: nylon_white_12_mm_outer_diameter_1_5_mm_depth
+                        taxonomy_5: ''
+                        taxonomy_6: ''
+                        taxonomy_7: ''
+                        taxonomy_8: ''
+                        taxonomy_9: ''
+                        three_d_model_details:
+                            checked_on: '2026-10-11'
+                            coordinate_system:
+                                axis: +Z along bore
+                                glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                                glb_units: metres
+                                glb_up_axis: Y
+                                origin: lower face centre
+                                stl_units: mm
+                            dimension_status: catalogue_specific_dimensions
+                            dimensional_specification: Catalogue 12 mm OD / 1.5 mm
+                                thick M6 washer; 6.4 mm hole selected from supplier
+                                drawing
+                            generator: catalogue_nylon_washer
+                            length_status: not_applicable
+                            material:
+                                base_colour_srgb:
+                                - 0.86
+                                - 0.85
+                                - 0.81
+                                coat_roughness: 0.28
+                                coat_weight: 0.025
+                                metallic: 0.0
+                                microtexture_height_um: 0.4
+                                microtexture_spacing_mm: 0.025
+                                name: Natural white nylon
+                                note: Visual natural nylon approximation; exact polymer
+                                    grade and mould surface not supplied by catalogue.
+                                roughness: 0.38
+                                roughness_variation: 0.025
+                            model_formats:
+                            - stl
+                            - glb
+                            modelling_choices:
+                                bearing: Bolt bearing circle and c selected within
+                                    limits; k includes bearing thickness; fillet tangent
+                                    to shaft and bearing.
+                                cavity: Nut through-bore has a helical internal surface;
+                                    display keeps minor-diameter bore and mouth chamfers.
+                                certification: Nominal visual catalogue model, not
+                                    manufacturing tolerance certification.
+                                chamfer: 30 degree outer hex chamfer. Nut mouth included
+                                    angle 120 degrees. Bolt tip 45 degrees, P/2.
+                                components: One closed solid for supported products.
+                                    Unspecified lock/cage assemblies are not substituted
+                                    with plain hex nuts.
+                                dimension_selection: Nominal bolt head height, max
+                                    flats/nut height, nominal washer sizes; selected
+                                    dimensions stored in parameters.
+                                display: Smooth nominal external-thread envelope or
+                                    smooth minor-diameter internal bore; lower angular
+                                    and fillet tessellation.
+                                family_note: Catalogue overrides steel washer thickness.
+                                    Hole is a sourced 6.4 mm model assumption, not
+                                    a measured catalogue dimension. Nylon supplier
+                                    identity unspecified.
+                                markings: Supplier and property-class markings omitted
+                                    because catalogue does not identify them.
+                                runout: External one-pitch fade to plain shank; full
+                                    thread ends at underhead fillet.
+                                thread: Nominal ISO basic metric profile, no ISO 965
+                                    tolerance offsets. External rounded root H/6,
+                                    internal P/4 crest and P/8 root flats.
+                                unspecified_geometry: Nut mouth for supplier rows
+                                    without limits and flange M3/M4 thickness/rim
+                                    blends are explicit visual model selections.
+                            output_folder: three_d_model
+                            parameters:
+                                characteristic_dimension_basis: outer washer diameter
+                                characteristic_dimension_mm: 12
+                                expected_components: 1
+                                family: washer
+                                finish: nylon_white
+                                handedness: right
+                                height_convention: axial thickness
+                                height_mm: 1.5
+                                hole_diameter_mm: 6.4
+                                identity: hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+                                nominal_diameter_mm: 6.0
+                                outer_diameter_mm: 12
+                                overall_height_mm: 1.5
+                                specification: Catalogue 12 mm OD / 1.5 mm thick M6
+                                    washer; 6.4 mm hole selected from supplier drawing
+                                thread_flank_angle_degrees: 60.0
+                                thread_starts: 1
+                            renders:
+                                high:
+                                    file: render_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: isometric
+                                low:
+                                    file: render_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: isometric
+                                product_high:
+                                    file: render_product_high.png
+                                    pixels: 2048
+                                    variant: full
+                                    view: product
+                                product_low:
+                                    file: render_product_low.png
+                                    pixels: 512
+                                    variant: display
+                                    view: product
+                            schema_version: 1
+                            source_table: source_file/standards/catalogue_hardware.yaml
+                            sources:
+                            -   path: working_oomp_populate_washer.py
+                                title: Catalogue washer definition, explicit outer
+                                    diameter and thickness
+                            -   title: Westfield Form A M6 clearance hole, used as
+                                    explicit model selection
+                                url: https://www.westfieldfasteners.co.uk/Standards/Washer-FormA-M.pdf
+                            standard: null
+                            standard_lengths_mm: []
+                            standard_limits: {}
+                            studio:
+                                adaptive_threshold: 0.015
+                                denoise: true
+                                device: auto
+                                engine: cycles
+                                exposure: 0.0
+                                floor_colour_srgb:
+                                - 0.93
+                                - 0.935
+                                - 0.94
+                                floor_roughness: 0.55
+                                framing_margin: 0.13
+                                high_samples: 160
+                                lights:
+                                -   colour:
+                                    - 1.0
+                                    - 0.96
+                                    - 0.9
+                                    height: 5.0
+                                    name: Key softbox
+                                    position:
+                                    - -3
+                                    - -4
+                                    - 6
+                                    power: 650.0
+                                    width: 4.0
+                                -   colour:
+                                    - 0.9
+                                    - 0.95
+                                    - 1.0
+                                    height: 4.0
+                                    name: Fill softbox
+                                    position:
+                                    - 4
+                                    - -1
+                                    - 3
+                                    power: 330.0
+                                    width: 3.0
+                                -   colour:
+                                    - 1.0
+                                    - 1.0
+                                    - 1.0
+                                    height: 5.0
+                                    name: Rim strip
+                                    position:
+                                    - 1
+                                    - 4
+                                    - 4
+                                    power: 850.0
+                                    width: 1.2
+                                look: AgX - Medium High Contrast
+                                low_samples: 48
+                                poses:
+                                    isometric:
+                                        camera_eye:
+                                        - 1
+                                        - -1
+                                        - 1
+                                        orientation: principal axis Z up
+                                        projection: orthographic
+                                    product:
+                                        camera_eye:
+                                        - -6
+                                        - -10
+                                        - 6
+                                        orientation: resting on lower face, bore visible
+                                        projection: orthographic
+                                        resting_axis: face
+                                        support: Stable convex-hull support using
+                                            actual mesh centre of mass.
+                                        yaw_degrees: -12.0
+                                seed: 7991
+                                view_transform: AgX
+                                world_colour:
+                                - 0.78
+                                - 0.82
+                                - 0.9
+                                world_strength: 0.35
+                            units: mm
+                            variants:
+                                display:
+                                    angular_segments: 24
+                                    fillet_segments: 3
+                                    samples_per_pitch: 1
+                                full:
+                                    angular_segments: 96
+                                    fillet_segments: 12
+                                    samples_per_pitch: 32
+                            views:
+                            - isometric
+                            - front
+                            - back
+                            - left
+                            - right
+                            - top
+                            - bottom
+                        url_chat: ''
+                    dict_data_files: {}
+                    dict_data_files_exists: {}
+                    file_output: label_oomp.svg
+                    file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+                    search_and_replace: []
+                file_test: label_oomp.pdf
+                retries_until_complete: 0
+            search_data:
+                aliexpress:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 white nylon flat washer 12mm outer diameter 1.5mm
+                        thickness
+                    search_url: https://www.aliexpress.com/wholesale?SearchText=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                ebay:
+                    checked_at: ''
+                    evidence_file: ''
+                    evidence_url: ''
+                    material_evidence: ''
+                    product_name: ''
+                    reason: ''
+                    result_url: ''
+                    search_evidence: ''
+                    search_for: M6 white nylon flat washer 12mm outer diameter 1.5mm
+                        thickness
+                    search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness
+                    selected_variant: ''
+                    specification: ''
+                    status: pending
+                google:
+                    checked_at: '2026-10-14T08:09:59.718530+00:00'
+                    evidence_file: support_files/evidence/hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth/google/113f1949c6734288bb589e74f05b38e6.yaml
+                    evidence_url: https://www.google.com/search?q=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness
+                    material_evidence: ''
+                    product_name: ''
+                    reason: Exact search completed but verification remains incomplete.
+                        The opened exact-dimensional eBay candidate specifies Black
+                        in its seller description and is rejected for the white-nylon
+                        ID. Other candidates were not verified during this pilot;
+                        do not assume non-stocked.
+                    result_url: ''
+                    search_evidence: 'Google showed eBay item 188730967377 titled
+                        M6 Nylon Flat Washer, 80pcs 6mm ID 12mm OD 1.5mm Thick Sealing
+                        Spacer Gasket. Opened https://www.ebay.co.uk/itm/188730967377
+                        and read the seller description frame: Color: Black; Material:
+                        Nylon; Inner Diameter: 6mm; Outer Diameter: 12mm; Thickness:
+                        1.5mm. Search also exposed wrong-form HDPE retaining washers
+                        and other unverified listings.'
+                    search_for: M6 white nylon flat washer 12mm outer diameter 1.5mm
+                        thickness
+                    search_url: https://www.google.com/search?q=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness
+                    selected_variant: ''
+                    specification: ''
+                    status: unresolved
+            taxonomy_1: hardware
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: washer
+            taxonomy_3: m6
+            taxonomy_4: nylon_white_12_mm_outer_diameter_1_5_mm_depth
+            taxonomy_5: ''
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            three_d_model_details:
+                checked_on: '2026-10-11'
+                coordinate_system:
+                    axis: +Z along bore
+                    glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+                    glb_units: metres
+                    glb_up_axis: Y
+                    origin: lower face centre
+                    stl_units: mm
+                dimension_status: catalogue_specific_dimensions
+                dimensional_specification: Catalogue 12 mm OD / 1.5 mm thick M6 washer;
+                    6.4 mm hole selected from supplier drawing
+                generator: catalogue_nylon_washer
+                length_status: not_applicable
+                material:
+                    base_colour_srgb:
+                    - 0.86
+                    - 0.85
+                    - 0.81
+                    coat_roughness: 0.28
+                    coat_weight: 0.025
+                    metallic: 0.0
+                    microtexture_height_um: 0.4
+                    microtexture_spacing_mm: 0.025
+                    name: Natural white nylon
+                    note: Visual natural nylon approximation; exact polymer grade
+                        and mould surface not supplied by catalogue.
+                    roughness: 0.38
+                    roughness_variation: 0.025
+                model_formats:
+                - stl
+                - glb
+                modelling_choices:
+                    bearing: Bolt bearing circle and c selected within limits; k includes
+                        bearing thickness; fillet tangent to shaft and bearing.
+                    cavity: Nut through-bore has a helical internal surface; display
+                        keeps minor-diameter bore and mouth chamfers.
+                    certification: Nominal visual catalogue model, not manufacturing
+                        tolerance certification.
+                    chamfer: 30 degree outer hex chamfer. Nut mouth included angle
+                        120 degrees. Bolt tip 45 degrees, P/2.
+                    components: One closed solid for supported products. Unspecified
+                        lock/cage assemblies are not substituted with plain hex nuts.
+                    dimension_selection: Nominal bolt head height, max flats/nut height,
+                        nominal washer sizes; selected dimensions stored in parameters.
+                    display: Smooth nominal external-thread envelope or smooth minor-diameter
+                        internal bore; lower angular and fillet tessellation.
+                    family_note: Catalogue overrides steel washer thickness. Hole
+                        is a sourced 6.4 mm model assumption, not a measured catalogue
+                        dimension. Nylon supplier identity unspecified.
+                    markings: Supplier and property-class markings omitted because
+                        catalogue does not identify them.
+                    runout: External one-pitch fade to plain shank; full thread ends
+                        at underhead fillet.
+                    thread: Nominal ISO basic metric profile, no ISO 965 tolerance
+                        offsets. External rounded root H/6, internal P/4 crest and
+                        P/8 root flats.
+                    unspecified_geometry: Nut mouth for supplier rows without limits
+                        and flange M3/M4 thickness/rim blends are explicit visual
+                        model selections.
+                output_folder: three_d_model
+                parameters:
+                    characteristic_dimension_basis: outer washer diameter
+                    characteristic_dimension_mm: 12
+                    expected_components: 1
+                    family: washer
+                    finish: nylon_white
+                    handedness: right
+                    height_convention: axial thickness
+                    height_mm: 1.5
+                    hole_diameter_mm: 6.4
+                    identity: hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+                    nominal_diameter_mm: 6.0
+                    outer_diameter_mm: 12
+                    overall_height_mm: 1.5
+                    specification: Catalogue 12 mm OD / 1.5 mm thick M6 washer; 6.4
+                        mm hole selected from supplier drawing
+                    thread_flank_angle_degrees: 60.0
+                    thread_starts: 1
+                renders:
+                    high:
+                        file: render_high.png
+                        pixels: 2048
+                        variant: full
+                        view: isometric
+                    low:
+                        file: render_low.png
+                        pixels: 512
+                        variant: display
+                        view: isometric
+                    product_high:
+                        file: render_product_high.png
+                        pixels: 2048
+                        variant: full
+                        view: product
+                    product_low:
+                        file: render_product_low.png
+                        pixels: 512
+                        variant: display
+                        view: product
+                schema_version: 1
+                source_table: source_file/standards/catalogue_hardware.yaml
+                sources:
+                -   path: working_oomp_populate_washer.py
+                    title: Catalogue washer definition, explicit outer diameter and
+                        thickness
+                -   title: Westfield Form A M6 clearance hole, used as explicit model
+                        selection
+                    url: https://www.westfieldfasteners.co.uk/Standards/Washer-FormA-M.pdf
+                standard: null
+                standard_lengths_mm: []
+                standard_limits: {}
+                studio:
+                    adaptive_threshold: 0.015
+                    denoise: true
+                    device: auto
+                    engine: cycles
+                    exposure: 0.0
+                    floor_colour_srgb:
+                    - 0.93
+                    - 0.935
+                    - 0.94
+                    floor_roughness: 0.55
+                    framing_margin: 0.13
+                    high_samples: 160
+                    lights:
+                    -   colour:
+                        - 1.0
+                        - 0.96
+                        - 0.9
+                        height: 5.0
+                        name: Key softbox
+                        position:
+                        - -3
+                        - -4
+                        - 6
+                        power: 650.0
+                        width: 4.0
+                    -   colour:
+                        - 0.9
+                        - 0.95
+                        - 1.0
+                        height: 4.0
+                        name: Fill softbox
+                        position:
+                        - 4
+                        - -1
+                        - 3
+                        power: 330.0
+                        width: 3.0
+                    -   colour:
+                        - 1.0
+                        - 1.0
+                        - 1.0
+                        height: 5.0
+                        name: Rim strip
+                        position:
+                        - 1
+                        - 4
+                        - 4
+                        power: 850.0
+                        width: 1.2
+                    look: AgX - Medium High Contrast
+                    low_samples: 48
+                    poses:
+                        isometric:
+                            camera_eye:
+                            - 1
+                            - -1
+                            - 1
+                            orientation: principal axis Z up
+                            projection: orthographic
+                        product:
+                            camera_eye:
+                            - -6
+                            - -10
+                            - 6
+                            orientation: resting on lower face, bore visible
+                            projection: orthographic
+                            resting_axis: face
+                            support: Stable convex-hull support using actual mesh
+                                centre of mass.
+                            yaw_degrees: -12.0
+                    seed: 7991
+                    view_transform: AgX
+                    world_colour:
+                    - 0.78
+                    - 0.82
+                    - 0.9
+                    world_strength: 0.35
+                units: mm
+                variants:
+                    display:
+                        angular_segments: 24
+                        fillet_segments: 3
+                        samples_per_pitch: 1
+                    full:
+                        angular_segments: 96
+                        fillet_segments: 12
+                        samples_per_pitch: 32
+                views:
+                - isometric
+                - front
+                - back
+                - left
+                - right
+                - top
+                - bottom
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_bolt_image.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\oomp_hardware_bolt_version_5\template_jinja_label_oomp_bolt_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_bolt_image.pdf
+    retries_until_complete: 0
+oomlout_ai_roboclick_3:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        description: label_drawer
+        dict_data:
+            label_drawer: *id001
+        file_output: label_drawer.svg
+        file_template: C:\gh\oomp_hardware_bolt_version_5\source_file\template_jinja\label_drawer\working.svg.j2
+    file_test: ''
+oomp_key: oomp_hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+run_action: true
+run_only_yaml: true
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+search_data:
+    aliexpress:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M6 white nylon flat washer 12mm outer diameter 1.5mm thickness
+        search_url: https://www.aliexpress.com/wholesale?SearchText=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness
+        selected_variant: ''
+        specification: ''
+        status: pending
+    ebay:
+        checked_at: ''
+        evidence_file: ''
+        evidence_url: ''
+        material_evidence: ''
+        product_name: ''
+        reason: ''
+        result_url: ''
+        search_evidence: ''
+        search_for: M6 white nylon flat washer 12mm outer diameter 1.5mm thickness
+        search_url: https://www.ebay.co.uk/sch/i.html?_nkw=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness
+        selected_variant: ''
+        specification: ''
+        status: pending
+    google:
+        checked_at: '2026-10-14T08:09:59.718530+00:00'
+        evidence_file: support_files/evidence/hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth/google/113f1949c6734288bb589e74f05b38e6.yaml
+        evidence_url: https://www.google.com/search?q=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness
+        material_evidence: ''
+        product_name: ''
+        reason: Exact search completed but verification remains incomplete. The opened
+            exact-dimensional eBay candidate specifies Black in its seller description
+            and is rejected for the white-nylon ID. Other candidates were not verified
+            during this pilot; do not assume non-stocked.
+        result_url: ''
+        search_evidence: 'Google showed eBay item 188730967377 titled M6 Nylon Flat
+            Washer, 80pcs 6mm ID 12mm OD 1.5mm Thick Sealing Spacer Gasket. Opened
+            https://www.ebay.co.uk/itm/188730967377 and read the seller description
+            frame: Color: Black; Material: Nylon; Inner Diameter: 6mm; Outer Diameter:
+            12mm; Thickness: 1.5mm. Search also exposed wrong-form HDPE retaining
+            washers and other unverified listings.'
+        search_for: M6 white nylon flat washer 12mm outer diameter 1.5mm thickness
+        search_url: https://www.google.com/search?q=M6+white+nylon+flat+washer+12mm+outer+diameter+1.5mm+thickness
+        selected_variant: ''
+        specification: ''
+        status: unresolved
+taxonomy_1: hardware
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Hardware
+taxonomy_1_first_letter: h
+taxonomy_1_first_letter_upper: H
+taxonomy_1_length_1: h
+taxonomy_1_length_2: ha
+taxonomy_1_length_3: har
+taxonomy_1_length_4: hard
+taxonomy_1_length_5: hardw
+taxonomy_1_upper: HARDWARE
+taxonomy_1_upper_length_1: H
+taxonomy_1_upper_length_2: HA
+taxonomy_1_upper_length_3: HAR
+taxonomy_1_upper_length_4: HARD
+taxonomy_1_upper_length_5: HARDW
+taxonomy_2: washer
+taxonomy_2_capital: Washer
+taxonomy_2_first_letter: w
+taxonomy_2_first_letter_upper: W
+taxonomy_2_length_1: w
+taxonomy_2_length_2: wa
+taxonomy_2_length_3: was
+taxonomy_2_length_4: wash
+taxonomy_2_length_5: washe
+taxonomy_2_upper: WASHER
+taxonomy_2_upper_length_1: W
+taxonomy_2_upper_length_2: WA
+taxonomy_2_upper_length_3: WAS
+taxonomy_2_upper_length_4: WASH
+taxonomy_2_upper_length_5: WASHE
+taxonomy_3: m6
+taxonomy_3_capital: M6
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: m6
+taxonomy_3_length_3: m6
+taxonomy_3_length_4: m6
+taxonomy_3_length_5: m6
+taxonomy_3_upper: M6
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: M6
+taxonomy_3_upper_length_3: M6
+taxonomy_3_upper_length_4: M6
+taxonomy_3_upper_length_5: M6
+taxonomy_4: nylon_white_12_mm_outer_diameter_1_5_mm_depth
+taxonomy_4_capital: Nylon White 12 mm Outer Diameter 1.5 mm Depth
+taxonomy_4_first_letter: n
+taxonomy_4_first_letter_upper: N
+taxonomy_4_length_1: n
+taxonomy_4_length_2: ny
+taxonomy_4_length_3: nyl
+taxonomy_4_length_4: nylo
+taxonomy_4_length_5: nylon
+taxonomy_4_upper: NYLON_WHITE_12_MM_OUTER_DIAMETER_1_5_MM_DEPTH
+taxonomy_4_upper_length_1: N
+taxonomy_4_upper_length_2: NY
+taxonomy_4_upper_length_3: NYL
+taxonomy_4_upper_length_4: NYLO
+taxonomy_4_upper_length_5: NYLON
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+three_d_model_details:
+    checked_on: '2026-10-11'
+    coordinate_system:
+        axis: +Z along bore
+        glb_conversion: (x,y,z) mm -> (x,z,-y)/1000 metres
+        glb_units: metres
+        glb_up_axis: Y
+        origin: lower face centre
+        stl_units: mm
+    dimension_status: catalogue_specific_dimensions
+    dimensional_specification: Catalogue 12 mm OD / 1.5 mm thick M6 washer; 6.4 mm
+        hole selected from supplier drawing
+    generator: catalogue_nylon_washer
+    length_status: not_applicable
+    material:
+        base_colour_srgb:
+        - 0.86
+        - 0.85
+        - 0.81
+        coat_roughness: 0.28
+        coat_weight: 0.025
+        metallic: 0.0
+        microtexture_height_um: 0.4
+        microtexture_spacing_mm: 0.025
+        name: Natural white nylon
+        note: Visual natural nylon approximation; exact polymer grade and mould surface
+            not supplied by catalogue.
+        roughness: 0.38
+        roughness_variation: 0.025
+    model_formats:
+    - stl
+    - glb
+    modelling_choices:
+        bearing: Bolt bearing circle and c selected within limits; k includes bearing
+            thickness; fillet tangent to shaft and bearing.
+        cavity: Nut through-bore has a helical internal surface; display keeps minor-diameter
+            bore and mouth chamfers.
+        certification: Nominal visual catalogue model, not manufacturing tolerance
+            certification.
+        chamfer: 30 degree outer hex chamfer. Nut mouth included angle 120 degrees.
+            Bolt tip 45 degrees, P/2.
+        components: One closed solid for supported products. Unspecified lock/cage
+            assemblies are not substituted with plain hex nuts.
+        dimension_selection: Nominal bolt head height, max flats/nut height, nominal
+            washer sizes; selected dimensions stored in parameters.
+        display: Smooth nominal external-thread envelope or smooth minor-diameter
+            internal bore; lower angular and fillet tessellation.
+        family_note: Catalogue overrides steel washer thickness. Hole is a sourced
+            6.4 mm model assumption, not a measured catalogue dimension. Nylon supplier
+            identity unspecified.
+        markings: Supplier and property-class markings omitted because catalogue does
+            not identify them.
+        runout: External one-pitch fade to plain shank; full thread ends at underhead
+            fillet.
+        thread: Nominal ISO basic metric profile, no ISO 965 tolerance offsets. External
+            rounded root H/6, internal P/4 crest and P/8 root flats.
+        unspecified_geometry: Nut mouth for supplier rows without limits and flange
+            M3/M4 thickness/rim blends are explicit visual model selections.
+    output_folder: three_d_model
+    parameters:
+        characteristic_dimension_basis: outer washer diameter
+        characteristic_dimension_mm: 12
+        expected_components: 1
+        family: washer
+        finish: nylon_white
+        handedness: right
+        height_convention: axial thickness
+        height_mm: 1.5
+        hole_diameter_mm: 6.4
+        identity: hardware_washer_m6_nylon_white_12_mm_outer_diameter_1_5_mm_depth
+        nominal_diameter_mm: 6.0
+        outer_diameter_mm: 12
+        overall_height_mm: 1.5
+        specification: Catalogue 12 mm OD / 1.5 mm thick M6 washer; 6.4 mm hole selected
+            from supplier drawing
+        thread_flank_angle_degrees: 60.0
+        thread_starts: 1
+    renders:
+        high:
+            file: render_high.png
+            pixels: 2048
+            variant: full
+            view: isometric
+        low:
+            file: render_low.png
+            pixels: 512
+            variant: display
+            view: isometric
+        product_high:
+            file: render_product_high.png
+            pixels: 2048
+            variant: full
+            view: product
+        product_low:
+            file: render_product_low.png
+            pixels: 512
+            variant: display
+            view: product
+    schema_version: 1
+    source_table: source_file/standards/catalogue_hardware.yaml
+    sources:
+    -   path: working_oomp_populate_washer.py
+        title: Catalogue washer definition, explicit outer diameter and thickness
+    -   title: Westfield Form A M6 clearance hole, used as explicit model selection
+        url: https://www.westfieldfasteners.co.uk/Standards/Washer-FormA-M.pdf
+    standard: null
+    standard_lengths_mm: []
+    standard_limits: {}
+    studio:
+        adaptive_threshold: 0.015
+        denoise: true
+        device: auto
+        engine: cycles
+        exposure: 0.0
+        floor_colour_srgb:
+        - 0.93
+        - 0.935
+        - 0.94
+        floor_roughness: 0.55
+        framing_margin: 0.13
+        high_samples: 160
+        lights:
+        -   colour:
+            - 1.0
+            - 0.96
+            - 0.9
+            height: 5.0
+            name: Key softbox
+            position:
+            - -3
+            - -4
+            - 6
+            power: 650.0
+            width: 4.0
+        -   colour:
+            - 0.9
+            - 0.95
+            - 1.0
+            height: 4.0
+            name: Fill softbox
+            position:
+            - 4
+            - -1
+            - 3
+            power: 330.0
+            width: 3.0
+        -   colour:
+            - 1.0
+            - 1.0
+            - 1.0
+            height: 5.0
+            name: Rim strip
+            position:
+            - 1
+            - 4
+            - 4
+            power: 850.0
+            width: 1.2
+        look: AgX - Medium High Contrast
+        low_samples: 48
+        poses:
+            isometric:
+                camera_eye:
+                - 1
+                - -1
+                - 1
+                orientation: principal axis Z up
+                projection: orthographic
+            product:
+                camera_eye:
+                - -6
+                - -10
+                - 6
+                orientation: resting on lower face, bore visible
+                projection: orthographic
+                resting_axis: face
+                support: Stable convex-hull support using actual mesh centre of mass.
+                yaw_degrees: -12.0
+        seed: 7991
+        view_transform: AgX
+        world_colour:
+        - 0.78
+        - 0.82
+        - 0.9
+        world_strength: 0.35
+    units: mm
+    variants:
+        display:
+            angular_segments: 24
+            fillet_segments: 3
+            samples_per_pitch: 1
+        full:
+            angular_segments: 96
+            fillet_segments: 12
+            samples_per_pitch: 32
+    views:
+    - isometric
+    - front
+    - back
+    - left
+    - right
+    - top
+    - bottom
+url_chat: ''
+```
+
+</details>
+
+## Parts
+
+[Full-detail 3D model (GLB)](three_d_model/model_full.glb) · [Full-detail view drawings](three_d_model/full/) · [Drawer label (SVG)](label_drawer.svg)
+
+Full-detail and simplified display models are alternatives for the same part. GLB uses metres; STL, where supplied, uses millimetres. The [part folder](./) contains all available files.
+
+## Assembly
+
+This page documents a component rather than a complete project assembly. No installation sequence or tightening torque is specified by this record.
+<!-- hardware-part:end -->
